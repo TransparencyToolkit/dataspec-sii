@@ -1,0 +1,83 @@
+{
+    "Facet": [
+	"bibtex_type",
+	"company_name",
+	"hq_city",
+	"offices_in",
+	"technology_sold",
+	"withheld",
+	"found_in",
+	"iss_world",
+	"technology_sold_web_version"
+  ],
+    "Merge Categorical": [
+    ],
+    "Searchable": [
+	"bibtex_type",
+	"company_name",
+	"email",
+	"hq_city",
+	"offices_in",
+	"technology_sold",
+	"website",
+	"ceo",
+	"telephone",
+	"twitter_handle",
+	"withheld",
+	"founder",
+	"csr",
+	"found_in",
+	"incorporation_date",
+	"iss-world",
+	"technology_sold_web_version",
+	"address",
+	"news"
+	],
+  "In Search Results": [
+      "bibtex_type",
+      "company_name",
+      "hq_city",
+      "offices_in",
+      "technology_sold",
+      "withheld",
+      "found_in",
+      "iss_world",
+      "technology_sold_web_version"
+	],
+    "In Search Results by Default": [
+	"bibtex_type",
+	"company_name",
+	"hq_city",
+	"offices_in",
+	"technology_sold",
+	"withheld",
+	"found_in",
+	"iss_world",
+	"technology_sold_web_version"
+  ],
+    "On Doc Page": [
+	"bibtex_type",
+	"company_name",
+	"email",
+	"hq_city",
+	"offices_in",
+	"technology_sold",
+	"website",
+	"ceo",
+	"telephone",
+	"twitter_handle",
+	"withheld",
+	"founder",
+	"csr",
+	"found_in",
+	"incorporation_date",
+	"iss_world",
+	"technology_sold_web_version",
+	"address",
+	"news"
+  ],
+  "Item Field": [
+  ],
+  "Truncate Text": [
+  ]
+}

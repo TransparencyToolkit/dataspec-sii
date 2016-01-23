@@ -1,0 +1,9 @@
+{
+  "Synonym List": "app/synonyms/ic_synonyms",
+  "Ignore List": "",
+  "ID Field": "company_name",
+  "Secondary ID": [],
+    "Deduplicate Ignore": [],
+    "Deduplicate Prioritize": "",
+  "Get ID After": ""
+}
