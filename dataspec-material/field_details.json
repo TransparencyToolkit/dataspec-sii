@@ -1,0 +1,159 @@
+[
+  {
+    "Field Name": "bibtex_type",
+    "Human Readable Name": "Type",
+    "Type": "String",
+    "Form Params": "bibtex_type",
+    "Location": "0",
+    "Display Type": "Category",
+    "Icon": ""
+  },{
+    "Field Name": "company_name",
+    "Human Readable Name": "Company",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "company_name",
+    "Location": "4",
+    "Icon": ""
+  },{
+    "Field Name": "bibtex_key",
+    "Human Readable Name": "Key",
+    "Type": "String",
+    "Display Type": "Short Text",
+    "Mapping": "not-analyzed",
+    "Form Params": "bibtex_key",
+    "Location": "5",
+    "Icon": "countries"
+  },{
+    "Field Name": "category",
+    "Human Readable Name": "Category",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "category",
+    "Location": "6",
+    "Icon": "countries"
+  },{
+    "Field Name": "document_title",
+    "Human Readable Name": "Document Title",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "document_title",
+    "Location": "7",
+    "Icon": "industry"
+  },{
+      "Field Name": "name",
+      "Human Readable Name": "Name",
+      "Type": "String",
+      "Display Type": "Title",
+      "Mapping": "english",
+      "Form Params": "name",
+      "Location": "1",
+      "Icon": ""
+  },
+    {
+    "Field Name": "product",
+    "Human Readable Name": "Product Function",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "product",
+    "Location": "8",
+    "Truncate": "200",
+    "Icon": ""
+    },{
+    "Field Name": "network_tactical_analysis",
+    "Human Readable Name": "Product Focus",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "network_tactical_analysis",
+    "Location": "9",
+    "Icon": "work"
+  },{
+    "Field Name": "type_of_media",
+    "Human Readable Name": "Type of Document",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "type_of_media",
+    "Location": "15",
+    "Icon": ""
+  },{
+    "Field Name": "year_collected",
+    "Human Readable Name": "Year Collected",
+    "Type": "String",
+    "Display Type": "Short Text",
+    "Mapping": "english",
+    "Form Params": "year_collected",
+    "Location": "16",
+    "Icon": ""
+  },{
+    "Field Name": "text",
+    "Human Readable Name": "Text",
+    "Type": "String",
+    "Display Type": "Long Text",
+    "Mapping": "english",
+    "Form Params": "text",
+    "Location": "17",
+    "Icon": "",
+    "Truncate": "200"
+  },{
+      "Field Name": "path",
+      "Human Readable Name": "Document Path",
+      "Type": "String",
+      "Display Type": "Short Text",
+      "Mapping": "not-analyzed",
+      "Form Params": "path",
+      "Location": "17",
+      "Icon": ""
+  },
+    {
+    "Field Name": "hardware_software",
+    "Human Readable Name": "Hardware or Software?",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "hardware_software",
+    "Location": "18",
+    "Icon": "briefcase"
+  },{
+    "Field Name": "image_of_product",
+    "Human Readable Name": "Image of Product",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "image_of_product",
+    "Location": "19",
+    "Icon": ""
+  },{
+    "Field Name": "spy_files_release_volume",
+    "Human Readable Name": "Spy Files Release Volume",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "spy_files_release_volume",
+    "Location": "20",
+    "Icon": ""
+  },{
+    "Field Name": "trade_show_collected",
+    "Human Readable Name": "Trade Show",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "trade_show_collected",
+    "Location": "21",
+    "Icon": ""
+  },{
+    "Field Name": "parent_product",
+    "Human Readable Name": "Parent Product",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "parent_product",
+    "Location": "22",
+    "Icon": "agencies"
+  }
+]

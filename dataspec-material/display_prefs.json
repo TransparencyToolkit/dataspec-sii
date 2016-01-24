@@ -1,0 +1,92 @@
+{
+    "Facet": [
+	"bibtex_type",
+	"category",
+	"company_name",
+	"document_title",
+	"product",
+	"network_tactical_analysis",
+	"type_of_media",
+	"hardware_software",
+	"image_of_product",
+	"spy_files_release_volume",
+	"trade_show_collected",
+	"parent_product"
+  ],
+    "Merge Categorical": [
+    ],
+    "Searchable": [
+	"bibtex_type",
+	"category",
+	"company_name",
+	"document_title",
+	"name",
+	"product",
+	"network_tactical_analysis",
+	"type_of_media",
+	"year_collected",
+	"text",
+	"hardware_software",
+	"image_of_product",
+	"spy_files_release_volume",
+	"trade_show_collected",
+	"parent_product"
+	],
+    "In Search Results": [
+	"bibtex_type",
+	"category",
+	"company_name",
+	"document_title",
+	"name",
+	"product",
+	"network_tactical_analysis",
+	"type_of_media",
+	"year_collected",
+	"text",
+	"hardware_software",
+	"image_of_product",
+	"spy_files_release_volume",
+	"trade_show_collected",
+	"parent_product"
+	],
+    "In Search Results by Default": [
+	"bibtex_type",
+	"category",
+	"company_name",
+	"document_title",
+	"name",
+	"product",
+	"network_tactical_analysis",
+	"type_of_media",
+	"year_collected",
+	"text",
+	"hardware_software",
+	"image_of_product",
+	"spy_files_release_volume",
+	"trade_show_collected",
+	"parent_product"
+  ],
+    "On Doc Page": [
+	"bibtex_type",
+	"category",
+	"company_name",
+	"document_title",
+	"name",
+	"product",
+	"network_tactical_analysis",
+	"type_of_media",
+	"year_collected",
+	"text",
+	"path",
+	"hardware_software",
+	"image_of_product",
+	"spy_files_release_volume",
+	"trade_show_collected",
+	"parent_product"
+  ],
+  "Item Field": [
+  ],
+    "Truncate Text": [
+	"text"
+  ]
+}
