@@ -6,7 +6,7 @@
     "Form Params": "bibtex_type",
     "Location": "0",
     "Display Type": "Category",
-    "Icon": ""
+    "Icon": "analysis"
   },{
     "Field Name": "company_name",
     "Human Readable Name": "Company",
@@ -15,7 +15,7 @@
     "Mapping": "english",
     "Form Params": "company_name",
     "Location": "4",
-    "Icon": ""
+    "Icon": "building"
   },{
     "Field Name": "email",
     "Human Readable Name": "Contact",
@@ -33,7 +33,7 @@
     "Mapping": "english",
     "Form Params": "hq_city",
     "Location": "6",
-    "Icon": "countries"
+    "Icon": "geopoint"
   },{
     "Field Name": "offices_in",
     "Human Readable Name": "Office Locations",
@@ -52,7 +52,7 @@
       "Form Params": "technology_sold",
       "Location": "20",
       "Truncate": "200",
-      "Icon": ""
+      "Icon": "money"
   },
     {
     "Field Name": "website",
@@ -136,7 +136,7 @@
     "Mapping": "english",
     "Form Params": "found_in",
     "Location": "20",
-    "Icon": ""
+    "Icon": "countries"
   },{
     "Field Name": "incorporation_date",
     "Human Readable Name": "Incorporation Date",
@@ -145,7 +145,7 @@
     "Mapping": "not_analyzed",
     "Form Params": "incorporation_date",
     "Location": "21",
-    "Icon": ""
+    "Icon": "calendar"
   },{
     "Field Name": "iss_world",
     "Human Readable Name": "ISS World",
@@ -163,6 +163,6 @@
     "Mapping": "english",
     "Form Params": "technology_sold_web_version",
     "Location": "23",
-    "Icon": ""
-  } 
+    "Icon": "money"
+  }
 ]

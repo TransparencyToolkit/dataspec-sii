@@ -6,7 +6,7 @@
     "Form Params": "bibtex_type",
     "Location": "0",
     "Display Type": "Category",
-    "Icon": ""
+    "Icon": "analysis"
   },{
     "Field Name": "company_name",
     "Human Readable Name": "Company",
@@ -15,7 +15,7 @@
     "Mapping": "english",
     "Form Params": "company_name",
     "Location": "4",
-    "Icon": ""
+    "Icon": "building"
   },{
     "Field Name": "bibtex_key",
     "Human Readable Name": "Key",
@@ -42,7 +42,7 @@
     "Mapping": "english",
     "Form Params": "document_title",
     "Location": "7",
-    "Icon": "industry"
+    "Icon": "document"
   },{
       "Field Name": "name",
       "Human Readable Name": "Name",
@@ -62,7 +62,7 @@
     "Form Params": "product",
     "Location": "8",
     "Truncate": "200",
-    "Icon": ""
+    "Icon": "progress"
     },{
     "Field Name": "network_tactical_analysis",
     "Human Readable Name": "Product Focus",
@@ -80,7 +80,7 @@
     "Mapping": "english",
     "Form Params": "type_of_media",
     "Location": "15",
-    "Icon": ""
+    "Icon": "survey"
   },{
     "Field Name": "year_collected",
     "Human Readable Name": "Year Collected",
@@ -89,7 +89,7 @@
     "Mapping": "english",
     "Form Params": "year_collected",
     "Location": "16",
-    "Icon": ""
+    "Icon": "calendar"
   },{
     "Field Name": "text",
     "Human Readable Name": "Text",
@@ -118,7 +118,7 @@
     "Mapping": "english",
     "Form Params": "hardware_software",
     "Location": "18",
-    "Icon": "briefcase"
+    "Icon": "server"
   },{
     "Field Name": "image_of_product",
     "Human Readable Name": "Image of Product",
@@ -127,7 +127,7 @@
     "Mapping": "english",
     "Form Params": "image_of_product",
     "Location": "19",
-    "Icon": ""
+    "Icon": "photos"
   },{
     "Field Name": "spy_files_release_volume",
     "Human Readable Name": "Spy Files Release Volume",
@@ -136,7 +136,7 @@
     "Mapping": "english",
     "Form Params": "spy_files_release_volume",
     "Location": "20",
-    "Icon": ""
+    "Icon": "archive"
   },{
     "Field Name": "trade_show_collected",
     "Human Readable Name": "Trade Show",
@@ -145,7 +145,7 @@
     "Mapping": "english",
     "Form Params": "trade_show_collected",
     "Location": "21",
-    "Icon": ""
+    "Icon": "social"
   },{
     "Field Name": "parent_product",
     "Human Readable Name": "Parent Product",
@@ -154,6 +154,6 @@
     "Mapping": "english",
     "Form Params": "parent_product",
     "Location": "22",
-    "Icon": "agencies"
+    "Icon": "classification"
   }
 ]
