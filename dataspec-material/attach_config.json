@@ -1,6 +1,7 @@
 {
   "Image Path Prefix": "",
   "Show PDF?": "Yes",
+  "Local or Remote File": "remote",
   "File Path Prefix": "https://transparencytoolkit.org/sii_docs/",
   "File Path Attr": "path",
   "Show Webpage?": "No",
