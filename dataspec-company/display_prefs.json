@@ -13,6 +13,7 @@
     ],
     "Searchable": [
 	"bibtex_type",
+	"description",
 	"company_name",
 	"email",
 	"hq_city",
@@ -33,6 +34,7 @@
 	],
   "In Search Results": [
       "bibtex_type",
+      "description",
       "company_name",
       "hq_city",
       "offices_in",
@@ -43,6 +45,7 @@
 	],
     "In Search Results by Default": [
 	"bibtex_type",
+	"description",
 	"company_name",
 	"hq_city",
 	"offices_in",
@@ -53,6 +56,7 @@
   ],
     "On Doc Page": [
 	"bibtex_type",
+	"description",
 	"company_name",
 	"email",
 	"hq_city",
