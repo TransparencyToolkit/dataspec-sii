@@ -16,7 +16,17 @@
     "Form Params": "company_name",
     "Location": "4",
     "Icon": "building"
-  },{
+  },
+   {
+	"Field Name": "description",
+	"Human Readable Name": "Description",
+	"Type": "String",
+	"Display Type": "Description",
+	"Mapping": "english",
+	"Form Params": "description",
+	"Location": "2",
+	"Icon": "building"
+    },{
     "Field Name": "email",
     "Human Readable Name": "Contact",
     "Type": "String",
