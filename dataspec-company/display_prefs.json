@@ -7,8 +7,7 @@
 	"technology_sold",
 	"withheld",
 	"found_in",
-	"iss_world",
-	"technology_sold_web_version"
+	"trade_show"
   ],
     "Merge Categorical": [
     ],
@@ -28,8 +27,7 @@
 	"csr",
 	"found_in",
 	"incorporation_date",
-	"iss-world",
-	"technology_sold_web_version",
+	"trade_show",
 	"address",
 	"news"
 	],
@@ -41,8 +39,7 @@
       "technology_sold",
       "withheld",
       "found_in",
-      "iss_world",
-      "technology_sold_web_version"
+      "trade_show"
 	],
     "In Search Results by Default": [
 	"bibtex_type",
@@ -52,8 +49,7 @@
 	"technology_sold",
 	"withheld",
 	"found_in",
-	"iss_world",
-	"technology_sold_web_version"
+	"trade_show"
   ],
     "On Doc Page": [
 	"bibtex_type",
@@ -71,8 +67,7 @@
 	"csr",
 	"found_in",
 	"incorporation_date",
-	"iss_world",
-	"technology_sold_web_version",
+	"trade_show",
 	"address",
 	"news"
   ],

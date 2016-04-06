@@ -35,15 +35,6 @@
     "Location": "6",
     "Icon": "countries"
   },{
-    "Field Name": "document_title",
-    "Human Readable Name": "Document Title",
-    "Type": "String",
-    "Display Type": "Category",
-    "Mapping": "english",
-    "Form Params": "document_title",
-    "Location": "7",
-    "Icon": "document"
-  },{
       "Field Name": "name",
       "Human Readable Name": "Name",
       "Type": "String",
@@ -120,15 +111,6 @@
     "Location": "18",
     "Icon": "server"
   },{
-    "Field Name": "image_of_product",
-    "Human Readable Name": "Image of Product",
-    "Type": "String",
-    "Display Type": "Category",
-    "Mapping": "english",
-    "Form Params": "image_of_product",
-    "Location": "19",
-    "Icon": "photos"
-  },{
     "Field Name": "spy_files_release_volume",
     "Human Readable Name": "Spy Files Release Volume",
     "Type": "String",
@@ -138,12 +120,12 @@
     "Location": "20",
     "Icon": "archive"
   },{
-    "Field Name": "trade_show_collected",
+    "Field Name": "trade_show",
     "Human Readable Name": "Trade Show",
     "Type": "String",
     "Display Type": "Category",
     "Mapping": "english",
-    "Form Params": "trade_show_collected",
+    "Form Params": "trade_show",
     "Location": "21",
     "Icon": "social"
   },{

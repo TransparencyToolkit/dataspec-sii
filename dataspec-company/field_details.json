@@ -147,22 +147,13 @@
     "Location": "21",
     "Icon": "calendar"
   },{
-    "Field Name": "iss_world",
-    "Human Readable Name": "ISS World",
+    "Field Name": "trade_show",
+    "Human Readable Name": "Trade Show",
     "Type": "String",
     "Display Type": "Category",
     "Mapping": "english",
-    "Form Params": "iss_world",
+    "Form Params": "trade_show",
     "Location": "22",
     "Icon": "agencies"
-  },{
-    "Field Name": "technology_sold_web_version",
-    "Human Readable Name": "Technology Sold Web Version",
-    "Type": "String",
-    "Display Type": "Category",
-    "Mapping": "english",
-    "Form Params": "technology_sold_web_version",
-    "Location": "23",
-    "Icon": "money"
   }
 ]
