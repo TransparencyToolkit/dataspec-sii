@@ -26,7 +26,18 @@
 	"Form Params": "description",
 	"Location": "2",
 	"Icon": "building"
-    },{
+   },
+    {
+	"Field Name": "company_documents",
+	"Human Readable Name": "Company's Documents",
+	"Type": "String",
+	"Display Type": "Long Text",
+	"Mapping": "english",
+	"Form Params": "company_documents",
+	"Location": "5",
+	"Icon": "building"
+    },
+    {
     "Field Name": "email",
     "Human Readable Name": "Contact",
     "Type": "String",
