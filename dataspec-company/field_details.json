@@ -31,11 +31,11 @@
 	"Field Name": "company_documents",
 	"Human Readable Name": "Company's Documents",
 	"Type": "String",
-	"Display Type": "Long Text",
+	"Display Type": "Association",
 	"Mapping": "english",
 	"Form Params": "company_documents",
 	"Location": "5",
-	"Icon": "building"
+	"Icon": "countries"
     },
     {
     "Field Name": "email",
