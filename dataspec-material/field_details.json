@@ -7,7 +7,17 @@
     "Location": "0",
     "Display Type": "Category",
     "Icon": "analysis"
-  },{
+  },
+    {
+	"Field Name": "doc_cloud_id",
+	"Human Readable Name": "Document Cloud ID",
+	"Type": "String",
+	"Form Params": "doc_cloud_id",
+	"Location": "0",
+	"Mapping": "not-analyzed",
+	"Display Type": "Short Text",
+	"Icon": "analysis"
+    },{
     "Field Name": "company_name",
     "Human Readable Name": "Company",
     "Type": "String",

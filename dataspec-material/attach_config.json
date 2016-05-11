@@ -1,10 +1,10 @@
 {
-  "Image Path Prefix": "",
-  "Show PDF?": "Yes",
-  "Local or Remote File": "remote",
-  "File Path Prefix": "https://transparencytoolkit.org/sii_docs/",
-  "File Path Attr": "path",
-  "Show Webpage?": "No",
+    "Image Path Prefix": "",
+    "Show PDF?": "Yes",
+    "Local or Remote File": "doc_cloud",
+    "File Path Prefix": "https://documentcloud.org/documents/",
+    "File Path Attr": "doc_cloud_id",
+    "Show Webpage?": "No",
     "Web URL": "",
     "Tab Order": ["pdf", "text"]
 }
