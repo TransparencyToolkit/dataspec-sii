@@ -1,0 +1,1128 @@
+GOVER N MEN TAL
+
+SE CUR ITY
+
+SOL UTIO NS
+
+Product Information
+
+TSE 525
+Room Monitoring
+
+About the user guide
+This manual covers the TSE 525 system:
+–
+
+Hardware description
+
+–
+
+Software description
+
+–
+
+Installation of MCC transmitters on mains wires
+
+–
+
+Installation of MWM transmitters on spare wires
+
+–
+
+Installation of MWM transmitters on telephone wires
+
+–
+
+Setting up the RX module
+
+–
+
+Establishing a link by means of PSTN modules
+
+–
+
+Technical Specifications
+
+Notations
+In the text, the following notations are used:
+–
+
+– Menu items are in bold and sub-items follow, separated by a
+
+–
+
+comma, e.g. Set-up, Squelch level.
+
+–
+
+Button names are underlined, e.g. TX2.
+
+System Overview
+General Description
+The TSE 525 Wired Room Monitoring system is a highly professional system designed for remote
+monitoring, where full transmitter control via standard PSTN lines is needed.
+The TSE 525 system is designed as a four-channel system. The system can operate on mains wires as well
+as spare -/telephone wires. This allows you to install multiple transmitters in the same location. The
+individual transmitter can be switched on and off remotely with up to 4 transmitters active at the same time.
+The complete TSE 525 system consists of transmitter(s), a receiver module, two PSTN modules and control
+software for PC.
+
+CONFIDENTAL
+
+page 2
+
+Functional Overview
+Figure 1 shows a typical system set-up. The transmitters are connected in parallel on the target wire,
+transmitting on different carrier frequencies. The RX module has two tuners for simultaneous demodulation
+of two incoming carriers.
+The RX module set-up is done by means of the PC. The PSTN module links the intercepted audio to a
+listening post, but also has the capability to transmit data in half-duplex. This makes it possible to have full
+control of the set-up from a remote location.
+
+Figure 1. Typical system set-up
+
+HW Decription
+Two different types of transmitters have been developed for the TSE 525 system.
+The MCC transmitter is to be used on active Mains lines.
+The MWM transmitter is to be used on active telephone lines or spare wires.
+
+MCC Transmitter
+The MCC transmitter transmits a FM carrier over the existing AC power line in a building or from building to
+building, as long as the transmitters and the receiver are connected to the same phase in the mains system.
+The remote control signal from the receiver to the transmitter is also transmitted over the AC power line.
+The MCC transmitter is delivered with an external fully isolated microphone and an open-end wire for mains
+connection.
+Multiple transmitters are coupled in parallel.
+
+Figure 2. MCC transmitter
+
+CONFIDENTAL
+
+page 3
+
+Features
+– Microphone - external. Standard length is 5 cm. optionally with 2 m microphone wire.
+– Automatic Gain Control for optimum signal intelligence
+– Audio scrambler
+– The transmitter output is a frequency modulated RF carrier. Four different channels are available.
+– Built-in Remote Control Receiver. The remote controlled functions are Power on/off and Scrambler on/off.
+
+MWM Transmitter
+The MWM transmitter has the ability to monitor a room by utilizing the existing telephone system or a pair of
+spare wires.
+Like the MCC transmitter, the MWM transmitter utilizes frequency modulation and receives the remote
+control signal via the target wires.
+The MWM transmitter is powered from the RX module. This has to be configured according to the type of
+target wire.
+The MWM can be delivered with internal or external microphone and has open-end wire for connection to
+the target wire.
+Multiple transmitters are coupled in parallel.
+
+Figure 3. MWM transmitter.
+
+Features
+– Microphone - internal or external. External length from 5 cm to 2 m.
+– Automatic Gain Control for optimum signal intelligence
+– Audio scrambler
+– The transmitter output is a frequency modulated RF carrier. Four different channels are available.
+– Built-in Remote Control Receiver. The remote controlled functions are Power on/off and Scrambler on/off.
+
+CONFIDENTAL
+
+page 4
+
+RX Module
+The RX module is a small, flat and compact unit. The RX module has two separate tuners for simultaneous
+demodulation of two TX carriers.
+
+Figure 4. RX module
+The RX module has the following features:
+–
+
+Target line interface for both telephone and spare wires (MWM) and mains wires (MCC)
+
+–
+
+Simultaneous demodulation of two channels
+
+–
+
+Remote control of the transmitters
+
+–
+
+Isolation amplifier for reception of base band audio
+
+–
+
+Noise masking for MWM transmitters
+
+–
+
+Audio line signal outputs
+
+–
+
+Output for headphones
+
+–
+
+Interface to PC and PSTN module
+
+It is possible to have both MWM and MCC transmitters operating at the same time, enabling the operator to
+monitor e.g. one MWM transmitter and one MCC transmitter simultaneously as long as they are on separate
+channels.
+
+CONFIDENTAL
+
+page 5
+
+PSTN Module
+When the monitoring is remote located, the PSTN module can provide a link to the listening post.
+One PSTN module is needed at the monitoring site and another at the listening post. The PSTN module has
+two separate telephone line interfaces, which handle both the audio and the data communication between
+the two PSTN modules.
+
+Figure 5. PSTN module
+
+The PSTN module has the following features:
+–
+
+Telephone interfaces for two analogue PSTN lines
+
+–
+
+Audio In and Out for each line, available on separate phono plugs
+
+–
+
+Audio and data transfer capability
+
+–
+
+DTMF control option
+
+–
+
+Tape control outputs
+
+–
+
+Output for headphones
+
+–
+
+Interface for PC and RX module
+
+CONFIDENTAL
+
+page 6
+
+Control SW
+The TSE 525 control SW has to be installed on a computer with Windows 98SE or Windows 2000. The PC
+requirements are stated in the section Technical Specifications.
+Run the file set-up.exe on the supplied CD-ROM. Follow the instructions on the screen to complete the TSE
+525 SW installation.
+Connect the PC to either the RX module in a local set-up or to the PSTN module in a remote set-up by
+means of the supplied interconnection cable. Turn on the TSE 525 equipment before starting the PC
+program. It will then automatically detect whether it is a local or a remote set-up.
+
+Figure 6. Local set-up display
+
+Figure 7. Remote set-up display
+
+A detailed description of the Control SW is given in the following subsections.
+
+CONFIDENTAL
+
+page 7
+
+TX Section
+TX Set-Up
+
+Select
+Use the drop-down menu to choose the wanted TX. Press Select and the TX will be
+shown at the TX button.
+Add
+Adding a new TX to the list.
+First the TX serial number is entered. The number is written on the TX.
+
+Next an alias can be entered. It is not required, but might help you to identify, where
+the TX is installed.
+
+Finally you have to select between MCC and MWM and enter the channel number.
+
+Remove
+Use the drop-down menu to choose the wanted TX. Press REMOVE to remove the TX from the list.
+
+CONFIDENTAL
+
+page 8
+
+Auto Detect
+If the label on the TX has disappeared or in other ways become unreadable, there is a possibility to readout
+TX type, serial number etc.
+
+It is important that only one TX is connected to the RX. Regardless of whether it is a MCC or a MWM TX, it
+has to be connected to the MWM INPUT.
+In the RX SET-UP Transmitter power insertion is switched on and select MWM line type = Dry.
+The MWM TX is non-polarized, while the MCC TX is polarized when connected to a DC source. The polarity
+is correct if the DC voltage readout is slightly lowered. Otherwise cross the wires.
+The TX will respond its serial number, TX type, channel number and SW revision. It is
+independent of whether the TX is in power on or off mode.
+
+TX Buttons
+There are four TX buttons - one for each channel. Press a TX button to display the TX
+state. Power On/off state is also shown by means of the green/red diode in the TX
+section.
+
+CONFIDENTAL
+
+page 9
+
+The Power off command will always switch the TX carrier off. For a MCC and a MWM on a dry line, the
+command will turn the TX into sleep-mode. Power consumption is reduced to a minimum and every 2.5
+second the remote receiver in the TX wakes up to look for a command.
+When operating on a telephone line (MWM wet) only the carrier is switched off. The current consumption is
+unaltered. This keeps the current insertion from the RX and the transmitter consumption in balance, making
+the interception undetectable to the Central office.
+Number / Alias
+The No. (Alias) button switches between readout of serial number and alias in the TX
+buttons; if no alias has been entered only the serial number is shown.
+
+RX Section
+RX Set up
+
+Transmitter power insertion
+Switch power insertion at the MWM INPUT on and off.
+
+CONFIDENTAL
+
+page 10
+
+MWM line type
+Choose between Wet (telephone line) and Dry (spare wire)
+When operating on a dry wire, the RX supplies the line with approx. 75 VDC.
+Operating on a wet line is more complicated. Now two more settings have to be entered:
+1. ON-HOOK DC LEVEL: When the level is changed, the current insertion
+alignment circuitry is activated. On the main screen it is displayed with
+the message “DC Unlocked”. The current insertion is adjusted until the
+DC voltage becomes equal to the chosen on-hook DC level. Notice:
+Be patient. It might take several minutes before the DC locks.
+2. OFF-HOOK THRESHOLD LEVEL: When the line voltage becomes
+lower than the threshold value, the noise-masking signal, if activated, is
+switched off. Furthermore transmission of remote control commands to
+the transmitters is blocked.
+Noise level
+The MWM transmitters might produce a weak audio signal at baseband. To prevent unintended detection of
+this baseband signal, a noise-masking signal can be added to the target line.
+The noise level can be set to a value between 0 and 6, where 0 means switched off. Listen to the baseband
+signal, while increasing the noise level to an appropriate level. Notice that the noise is modulated to the
+current supplied to the transmitters. Therefore the noise amplitude increases when another transmitter is
+added.
+Squelch
+The tuners have a squelch function. It prevents excessive audio noise, when tuned to a channel without a
+carrier. The Squelch trigger level can be adjusted between 1 and 8. One means that the squelch circuit is
+almost inactive, while eighth is the most sensitive setting.
+
+TX / RX Interconnection Lines
+The interconnection lines between the TX and the RX sections visualize the signal flow. If MCC and MWM
+transmitters are mixed, channel 1+2 and channel 3+4 are locked together.
+
+The signal path is displayed throughout to the LINE 1 and LINE 2 outputs.
+
+CONFIDENTAL
+
+page 11
+
+MWM DRY / WET
+The main window displays whether the MWM input is configured to at dry or a wet line. For the wet line,
+lock/unlock status for DC current insertion is displayed. Furthermore a diode in the baseband section
+displays the onhook/off-hook status.
+Tuners
+RSSI:
+
+Read-out of the received signal strength. The range is 0 to 70. For the MWM input it
+corresponds to the signal level in dBuV.
+
+SQUELCH:
+
+Green diode indicates good signal quality; while a red diode indicates that the squelch
+circuit is active, attenuating the audio signal 25 dB.
+
+DE-SCR:
+
+switch the audio descrambler on and off.
+
+Baseband
+The baseband section is connected to the MWM input. It intercepts the baseband audio signal without
+loading the target line. Furthermore the DC voltage on the target line is measured.
+Outputs
+LINE 1:
+
+The Line 1 output can be configured to any of the audio sources or a mix of them.
+
+LINE 2:
+
+Line 2 is always connected to tuner 2
+
+HEADPHONE:
+
+The two volume controls adjust the signal level to the headphone. If you only want to listen
+to e.g. Line 1, the volume control for Line 2 is set to minimum and Mixed = on. Thereby
+the audio signal is directed to both the right and left speaker
+
+PHONO PLUGS: The Line 1 and Line 2 signal are available at the phono plugs.
+Notice that the level is independent of the volume settings
+PSTN SECTION
+
+CONFIDENTAL
+
+page 12
+
+PSTN Set-up
+
+PSTN Phone Numbers
+Type the telephone number for Line 1 and Line 2 to the PSTN B module and press Enter. Comma is used to
+make a 2 seconds delay.
+PSTN Check Connection Time out
+Press the Hang-up button in the PSTN section to terminate a call. However it might happen that a
+connection is lost unattendedly. If the PSTN modules are connected directly to a Central Office, a
+disconnection is automatically recognized by the PSTN modules. However if the PSTN module is used on a
+local exchange, a disconnection is not always recognized.
+To assure that the line will be released, the PSTN modules check the connection with the entered time
+interval. If no response is achieved from PSTN B, the check connection routine is performed two more times
+with 1-minute intervals. If no data is received after the chosen time interval plus 4 minutes, the PSTN B
+module will go onhook to allow resending.
+PSTN Password Set-up
+Default password is “0000”. The password is changed for the PSTN module
+connected to the PC. The password is stored in the PSTN module. The password is
+also used when calling the other PSTN module.
+Vox Level
+Sets the audio level for triggering the relay output; can be set to a value between 1
+and 31; default value = 7.
+Country Settings
+Chose between CTR21 and FCC; CTR21 covers most European countries, while
+FCC covers North America and most of the Far East.
+Dial Button
+Press the Dial button to make a call. It changes to a Hang-up button when the
+connection is established.
+
+CONFIDENTAL
+
+page 13
+
+Relay Button
+Press the Relay button to switch manual control (Relay on/off) or VOX control. In VOX mode, the relay is
+activated when the audio level becomes higher than the selected trigger level. The relay has a delay of 15
+seconds before it is released.
+Output
+LINE 1:
+LINE 2:
+HEADPHONE:
+
+The Line 1 output can be configured to any of the audio sources or a mix of
+them.
+Line 2 is always connected to tuner 2
+The headphone volume can be individually adjusted for the two channels. If you only want
+to listen to a single transmitter, the volume for the other channel is set to minimum. By
+selecting Mixed = ON, the audio is directed to both the right and left side in the
+headphones.
+
+PHONO PLUGS: The Line 1 and Line 2 signal is available at the phono plugs. Notice that the level is
+independent of the volume settings.
+LINE INPUT
+The PSTN module has a Line input for each channel; intended for future use.
+
+System Configuration
+This chapter covers how to configure the transmitter and receiver set-up. How to add a PSTN link is
+described in chapter 6.
+The figure below shows the basic TSE 525 configuration.
+
+Figure 8. Local set-up
+Installation of TSE 525 system:
+1. The TSE 525 control SW has to be installed on the computer. Run the
+file set-up.exe on the supplied CD-ROM. Follow the instructions on the
+screen to complete the TSE 525 SW installation.
+2. Connect the computer to the TSE 525 RX with the supplied cable. The
+9-pole D-sub connector has to be plugged into the COM-port on the
+computer and the RJ-45 connector into the TSE 525 RX.
+3. The TSE 525 RX is powered by means of the supplied AC / AC
+adapter, type 9VAC / 1.9A.
+4. Install the transmitters. The following sub-sections describe how to
+operate on mains wires, spare wires and telephone wires.
+
+CONFIDENTAL
+
+page 14
+
+5. The two Line outputs at the TSE 525 RX can be connected to tape
+recorders, to the PC soundcard or other audio recording equipment.
+6. Headphones can be connected to the TSE 525 RX for on-site listening.
+Volume level is adjusted from the PC SW.
+7. When the PC-program is shut down a file “RX (serial number).dat” is saved in the same directory as the
+TSE 525 program. When the PCprogram is restarted the dat-file with all the information from the TX
+setup is found automatically.
+
+Mains Intercept
+The MCC transmitters have to be installed in parallel across the Mains 115/230 VAC power lines. The MCC
+transmitters and the MCC input at the RX module should be connected to the same phase and zero.
+
+Figure 9. MCC set-up.
+The TSE 525 control SW configures the set-up.
+Open the TX Set-up menu to add the installed MCC transmitters to the transmitter list. When a TX in the list
+is selected, it becomes active at the corresponding TX button.
+
+CONFIDENTAL
+
+page 15
+
+Sending a Power on command turns on the TXs. The diode will turn green, when the TX has responded and
+acknowledged.
+
+Figure 10. Main menu showing TX set-up menu
+
+Press the tuner channel button to demodulate the desired channel. Each tuner can be set-up to any of the
+four channels. The RSSI read-out shows the level of the received carrier.
+The tuners have a squelch function. It prevents excessive audio noise, when tuned to a channel without a
+carrier. In the RX Set-up menu you can adjust the Squelch trigger level between 1 and 8. One means that
+the squelch circuit is almost inactive, while eighth is the most sensitive setting.
+
+Figure 11. RX set-up menu
+Audio descrambling can be selected individually for the two tuners.
+In addition to the two tuners, there is also a baseband audio path. This is inactive in MCC mode.
+The Line 1 output can be configured to any of the audio sources or a mix of them. Line 2 is always
+connected to tuner 2.
+The Line output signal is available on the phono plugs, in the RJ-45 connector and at the headphone output.
+The headphone volume can be adjusted individually for the two channels. If you only want to listen to a
+single transmitter, the volume for the other channel is set to minimum. By selecting Mixed = ON, the audio
+is directed to both the right and left headphone speaker.
+
+CONFIDENTAL
+
+page 16
+
+When the system set-up is completed, the PC can be disconnected. The settings are stored in the
+equipment. If a power failure occurs, the system will re-start with the previous settings.
+If you have the impression that the Target somehow can detect the transmitters, they can be turned off.
+Press the actual TX button and select POWER OFF. Now the TX power consumption is reduced to a
+minimum.
+
+Spare Wire Intercept
+The MWM transmitters have to be installed in parallel across the spare wire. The spare wire is connected to
+the MWM input on the RX, which supplies the transmitters with power.
+The spare wire is also referred to as a dry wire.
+
+Figure 12. MWM dry set-up.
+The TSE 525 control SW configures the set-up.
+Open the TX Set-up menu to add the installed MWM transmitters to the transmitter list. When a TX in the
+list is selected, it becomes active at the corresponding TX button.
+
+CONFIDENTAL
+
+page 17
+
+Figure 13. Main menu showing TX set-up menu Afterwards you press the RX Set-up button.
+
+Figure 14. RX set-up menu
+Select Transmitter power insertion = On and MWM line type = Dry. This powers the MWM transmitters.
+Shut down this window.
+
+Sending a Power on command turns on the TXs. The diode turns green, when the TX has responded and
+acknowledged.
+Press the tuner channel button to select the desired channel. Each tuner can be setup to any of the four
+channels. The RSSI read-out shows the level of the received carrier.
+The tuners have a squelch function. It prevents excessive audio noise, when tuned to a channel without a
+carrier. In the RX Set-up menu you can adjust the Squelch trigger level between 1 and 8. One means that
+the squelch circuit is almost inactive, while eight is the most sensitive setting.
+
+CONFIDENTAL
+
+page 18
+
+Audio descrambling can be selected individually for the two tuners.
+In addition to the two tuners, there is also a baseband audio path. This section has a read-out of the MWM
+input DC voltage. The baseband audio reception was original intended for use on telephone lines, but it is
+also active when operating on spare wires.
+The MWM transmitters might process a weak audio signal at baseband. To prevent unintended detection of
+this baseband signal, a noise-masking signal can be added to the target line. In the RX set-up menu Noise
+level can be set to a value between 0 and 6. Listen to the baseband signal, while increasing the noise level
+to an appropriate level. A too high noise level might cause problems in a TSE 525 remote set-up
+configuration.
+The Line 1 output can be configured to any of the audio sources or a mix of them. Line 2 is always
+connected to tuner 2.
+The Line output signal is available on the phono plugs in the RJ-45 connector and also at headphone output.
+The headphone volume can be adjusted individually for the two channels. If you only want to listen to a
+single transmitter, the volume for the other channel is set to minimum. By selecting Mixed = ON, the audio
+is directed to both the right and left side in the headphones.
+When the system set-up is completed, the PC can be disconnected. The settings are stored in the
+equipment. If a power failure occurs, the system will re-start with the previous settings.
+If you have the impression that the Target somehow can detect the transmitters, they can be turned off.
+Press the actual TX button and select POWER OFF. Now the TX power consumption is reduced to a
+minimum.
+
+MWM Dry Notes
+Discontinue an operation: When the operation is finished the RX is
+disconnected. The transmitters can remain connected to the spare wire for future
+resumption.
+
+Telephone wire Intercept
+Operating on telephone lines requires a very careful alignment in order to make the
+interception undetectable to the Target.
+The MWM transmitters have to be installed in parallel across the telephone wires. The telephone wires are
+connected to the MWM input on the RX.
+The telephone wire is also referred to as a wet wire.
+
+CONFIDENTAL
+
+page 19
+
+Figure 15. MWM wet set-up.
+The TSE 525 control SW configures the set-up.
+
+Figure 16. Main menu showing TX set-up menu
+
+CONFIDENTAL
+
+page 20
+
+Figure 17. RX set-up menu
+Although the transmitters can be powered from the telephone, it is undesirable because they will load the
+Central Office. The TSE 525 RX is capable of inserting the exact same amount of current to the telephone
+line as used by the transmitters.
+Step-wise instruction:
+A)
+
+Measure the telephone line DC voltage in on-hook state, before the TX installation. The DC voltage
+is measured by connecting the RX “MWM INPUT” to the telephone line. Select RX SET-UP,
+Transmitter power insertion = Off. The DC voltage is shown in the baseband section.
+
+B)
+
+Open the TX Set-up menu to add the installed MWM transmitters to the transmitter list. When a TX
+in the list is selected, it becomes active at the corresponding TX button.
+
+C)
+
+Select Transmitter power insertion = On and MWM input = Wet.
+
+D)
+
+Activate all MWM transmitters by sending a Power on command to each TX.
+
+E)
+
+Change the On-hook DC level value to the DC voltage measured in point “a”. The DC voltage readout in the main menu will now increase to the initial DC level. When the DC level is reached, the
+current insertion is locked. There are only two things that can reactivate the current insertion
+alignment. One is entering a new desired DC on-hook level. The other is when a transmitter is
+switched between unscrambled and scrambled. NOTICE: Be patient. It might take several minutes
+before the DC locks
+
+F)
+
+The Off-hook threshold level has to be set up to a value slightly higher than the DC voltage read-out
+during off-hook. The noise masking signal is switched off at line voltages below the selected offhook voltage. Furthermore remote control signals to the transmitters cannot be sent during offhook. Be also aware that if the line voltage becomes lower than the Off-hook threshold level, the
+current insertion routine stops until the line goes on-hook again.
+
+Now the transmitters are operating without loading the Central Office. Notice that if there is a wire loss
+between the RX and the TXs, the voltage at the TX location will be reduced with an amount equal to the
+wire resistance times the TX current (Ohm’s law).
+Press the tuner channel button to select the desired channel. Each tuner can be setup to any of the four
+channels. The RSSI read-out shows the level of the received carrier.
+
+CONFIDENTAL
+
+page 21
+
+The tuners have a squelch function. It prevents excessive audio noise, when tuned to a channel without a
+carrier. In the RX Set-up menu you can adjust the Squelch trigger level between 1 and 8. One means that
+the squelch circuit is almost inactive, while eighth is the most sensitive setting.
+Audio descrambling can be selected individually for the two tuners.
+In addition to the two tuners, there is also a baseband audio path. This section has a read-out of the MWM
+input DC voltage. The baseband section intercepts a telephone conversation without loading the telephone
+line.
+The MWM transmitters might process a weak audio signal at baseband. To prevent unintended detection of
+this baseband signal a noise-masking signal can be added to the target line. In the RX set-up menu Noise
+level can be set to a value between 0 and 6. Listen to the baseband signal, while increasing the noise level
+to an appropriate level.
+The Line 1 output can be configured to any of the audio sources or a mix of them.
+Line 2 is always connected to tuner 2.
+The Line output signal is available on the phono plugs in the RJ-45 connector and also at headphone output.
+The headphone volume can be adjusted individually for the two channels. If you only want to listen to a
+single transmitter, the volume for the other channel is set to minimum. By selecting Mixed = ON, the audio
+is directed to both the right and left side in the headphones.
+When the system set-up is completed, the PC can be disconnected. The settings are stored in the
+equipment. If a power failure occurs, the system will re-start with the previous settings.
+If you have the impression that the Target somehow can detect the transmitters, they can be turned of.
+Press the actual TX button and select POWER OFF. It turns off the carrier, but the current consumption is
+unaltered in order not to change the DC load of the telephone line.
+
+MWM WET Notes
+Recommandation: Although the TSE 525 system is capable of handling four
+transmitters on a wet line, it is recommended only to use two transmitters, especially
+if they are connected to a local exchange with a limited load capacity. A general rule
+is that the exchange should be able to supply current enough to achieve a line
+voltage higher than 20 VDC with Transmitter power insertion = off
+Off-Hook Condition: When the telephone line becomes lower than the
+Off-hook threshold level, the noise masking signal will be switched off and remote
+control commands to the transmitters are blocked. Notice that if TX loads the line to
+a voltage below the Off-hook threshold level, the current insertion alignment routine
+is de-activated. You have to decrease the value in order to proceed.
+During off-hook the MWM transmitters switch off the carrier. The TX current
+consumption is unaltered.
+The MWM TX off-hook threshold is fixed at 17 VDC.
+Noise Insertion: White noise is modulated onto the DC current insertion.
+Therefore the actual noise level at the telephone line will vary with the amount of
+inserted current. It is recommended to set the noise level to an adequate level. Too
+high noise level might cause problems in a TSE 525 remote set-up configuration.
+
+CONFIDENTAL
+
+page 22
+
+Ringing Voltage: During calls to the Target line Transmit power insertion is automatically switched off, and
+TX power consumption is also automatically reduced in order not to disturb the ringing generator in the
+exchange.
+Local Exchange: Some local exchanges are difficult to configure properly. First of all it should be able to
+supply enough current to achieve approx. 20 VDC line voltage without current insertion.
+The next thing is that some local exchanges are not capable of absorbing any current at all. If just a little
+more current is inserted than used by the transmitters, the DC line voltage will raise to approx. 80 VDC. If
+this happens, set the On-hook DC-level a little lower than the initial Line voltage.
+Discontinue an operation: When the operation is finished, both the RX and the TXs have to be
+disconnected from the telephone line.
+
+REMOTE SET-UP
+The figure below shows the TSE 525 configuration with PSTN modules added. The PSTN link makes the
+same functions available as in local set-up from a remote listening post.
+
+Figure 18. Remote set-up
+The installation and set-up of transmitters and receiver is similar to the description in the previous chapter.
+After having completed the local setup proceed with:
+8.
+
+Disconnect the PC from the RX module after having configured the RX / TX set-up.
+
+9.
+
+The PSTN module is connected to the RX module. This is done with the RJ-45 patch cable
+containing all the required signals including power to the PSTN module.
+
+10. Connect one or two analogue PSTN lines to the PSTN module.
+11. Check the system set-up by dialing to the telephone numbers associated with the connected lines.
+Notice that this can also be done from a mobile telephone. Refer to the DTMF call procedure in
+section 6.2.
+12. Install the other PSTN module at the remote listening post. The PSTN module is powered by
+means of the supplied AC / AC adapter, type 9 VAC / 300 mA. Connect the PSTN to the PC with
+the same cable as used for the RX / PC connection.
+13. Start the PC control SW. It automatically detects the PSTN module and adds the PSTN modules to
+the screen menu.
+
+CONFIDENTAL
+
+page 23
+
+PSTN Control Software
+Figure 19 shows the main menu for a remote set-up, while figure 20 is the PSTN A
+set-up menu.
+
+Figure 19. TSE 525 Control SW with PSTN modules.
+
+Figure 20. PSTN A set-up menu
+Press the PSTN A Set-up button. Following settings are available:
+– First the telephone numbers for the telephones lines connected to PSTN B has to be entered.
+– To prevent that PSTN B under faulty conditions will not hang-up, the PSTN modules automatically
+checks the connection. With the time interval defined in the section “PSTN check connection
+timeout” PSTN A requests PSTN B to send a response. If no response is received, PSTN A retries
+two more times with 1-minute intervals. If still no response from PSTN B is received, both PSTN
+modules releases the telephone line and turn to on-hook state. A time value between 1 to 250
+minutes can be entered.
+– As default, the PSTN modules have the password ‘0000’. This can be changed for the PSTN module
+connected to the PC. Only digits are allowed.
+– The PSTN module has a VOX controlled relay output for tape recording. The sensitivity can set to a
+value between 1 and 31, where 1 is maximum sensitivity. Default value is 7.
+
+CONFIDENTAL
+
+page 24
+
+– Country setting gives you the possibility to choose between various standards. FCC covers USA and
+most of the Far East, while CTR21 is used in Europe. Notice that the country settings only are
+changed for the PSTN module connected to the PC.
+After having completed the configuring of the PSTN modules, the Dial button(s) can be pressed. When
+connection is established, the RX and PSTN B serial numbers are added to the screen and the line between
+PSTN A and B is closed.
+The system now operates almost as in ‘local set-up’.
+Update button.
+To minimize the data communication on telephone lines between the two PSTN modules, the read-out of
+RSSI and Line voltage have to be Updated manually. The PSTN A has a Relay button for each line. By
+pressing the button(s) you can switch between manual control and VOX control.
+The PC can remain connected to the PSTN A module to have full control of the setup. If this is not required,
+the PC might be disconnected. The PC can at any time be re-connected again.
+In the PSTN B section you have the possibility to change the gain setting. Please notice that +6dB may
+cause distortion of the audio if the line is close to the exchange.
+
+DTMF Call Procedure
+When PSTN B receives a call, it responses with a 2225 Hz tone. You can now switch PSTN B to DTMF
+command mode. It is done by pressing the * button on a standard telephone, while you hear the tone.
+Entering DTMF mode is notified by two beeps.
+The PSTN B module is now waiting for a four-digit password. A single beep response indicates a correct
+password, while a triple beep means wrong password and the call is terminated.
+Having typed the correct password, clear audio from PSTN B is received.
+The PSTN B module automatically terminates the call after five minutes. To prolong the connection, the
+operator has to enter:
+– *91 = 1 minutes extra
+– *92 = 5 minutes extra
+– *99 = hang-up immediately
+Pressing the “*” key brings PSTN B into data mode. If there are loud audio signals on the line, it might be
+necessary to re-transmit the command. Acceptance of switching into data mode is notified by the absence
+of audio signal.
+Each DTMF command is responded with an audio beep:
+– 1 beep = command accepted
+– 2 beep = unknown command
+– 3 beep = PSTN B will terminate the connection.
+
+CONFIDENTAL
+
+page 25
+
+Technical Specifications
+TRANSMITTER SPECIFICATIONS
+GENERAL DATA
+Number of channels:
+Frequency:
+Channel 1:
+Channel 2:
+Channel 3:
+Channel 4:
+Type of modulation:
+Nom. modulation:
+Pre-emphasis:
+Audio response (-3dB):
+Unscrambled:
+Scrambled:
+Scrambler:
+Microphone amplifier:
+Remote control:
+Carrier frequency:
+Receiver bandwidth (-3 dB):
+Modulation:
+Sensitivity:
+Max. input signal:
+Remote control functions:
+
+4
+110 kHz
+140 kHz
+200 kHz
+240 kHz
+FM
+3 kHz
+530 uS
+0.2-5 kHz
+0.3-4 kHz
+Frequency inversion
+AGC type
+28 kHz
++/- 2.25 kHz
+OOK
+40 dBuV, typ.
+120 dBuV
+Power on/off
+Scrambler on/off
+Shrink tube, black
+
+Packing:
+External interface:
+Connection to wires:
+Flying leads External microphone:
+MWM: option
+MCC: standard
+MWM SPECIFIC DATA
+Transmitted power:
+Carrier frequency tolerance:
+Line voltage range:
+Current consumption:
+Active, unscrambled:
+Active, scrambled:
+Power off (Dry):
+Dimensions (H x W x D):
+
+35 mVrms into 100 ohm
+< 2%
+5-80 VDC
+5.5 mA
+6.5 mA
+2 mA, average value
+Approx. 7.5 x 33 x 21 mm/0.3 x 1.3 x 0.8
+inches
+
+MCC SPECIFIC DATA
+Transmitted power:
+Carrier frequency tolerance:
+Mains voltage range:
+Power consumption:
+Active:
+Sleep mode:
+
+500 mVrms into 2 ohm
+< 2%
+85-265 VAC
+T.B.D
+T.B.D
+
+CONFIDENTAL
+
+page 26
+
+Dimensions (H x W x D):
+
+Approx. 15 x 35 x 23 mm/0.6 x 1.4 x 0.9
+inches
+
+RX MODULE SPECIFICATIONS
+Receiver type:
+Number of channels:
+Frequency:
+Channel 1:
+Channel 2:
+Channel 3:
+Channel 4:
+Modulation:
+Nom. modulation:
+Sensitivity:
+Audio bandwidth (-3dB):
+Clear mode:
+Scrambled mode:
+Distortion:
+De-emphasis:
+Line output level (3kHz dev):
+Line output impedance:
+RSSI range:
+Squelch attenuation:
+Squelch level: Adjustable
+AFC:
+Hold range (30dBuV):
+MWM telephone line interface:
+Current insertion:
+Compliance:
+Noise level:
+MWM spare wire line interface:
+Supply voltage:
+Max. current:
+Noise level:
+Remote control transmitter:
+Carrier frequency:
+Modulation:
+Data rata:
+Transmit power:
+MWM:
+MCC:
+Serial communication:
+Transmission type:
+Communication speed:
+Power source:
+
+Dual conversion, PLL synthesized
+4
+110 kHz
+140 kHz
+200 kHz
+240 kHz
+FM
+3 kHz
+10 dBuV for 20 dB SINAD, typ.
+0.1 - 6 kHz
+0.3 - 4 kHz
+< 2%
+530 uS
+500 mV
+1 kohm
+0-70 dBuV
+25 dB
+Pull-in range (30dBuV): +/- 5 kHz, typ.
++/- 7 kHz, typ.
+0-35 mA
+80 VDC
+Adjustable
+75 VDC
+35 mA
+Adjustable
+28 kHz
+OOK
+200 BPS, approx.
+1 Vrms into 100 ohm
+300 mVrms into 2 ohm
+RS-232, half duplex
+19200 BPS
+7-11 VAC or 10-15
+
+External interface:
+Line outputs: Phono
+Target Line Interface:
+MWM:
+MCC:
+Interface to PC/PSTN module:
+
+2 pole, 0.15” pitch, plug-in terminal block
+Power plug, IEC type
+Modular RJ-45, 8-pole
+Pin 1: Audio1, out
+Pin 3: Audio2, out
+Pin 4: Controls direction of RXD/TXD
+Pin 5: RXD/TXD
+
+CONFIDENTAL
+
+page 27
+
+Pin 7: TXD/RXD
+Pin 8: 12VDC, out
+Pin 2, 6: GND
+Headphones: 3.5 mm jack, stereo
+Power input: DC power socket, 2.1 mm
+Enclosure:
+Material: Aluminum
+Color: Black anodized
+Dimension (H x W x D): 44 x 130 x 164 mm
+
+PSTN MODULE SPECIFICATIONS
+PSTN interface:
+Line interface:
+Audio bandwidth:
+Distortion:
+Data mode:
+Tape control:
+Interface to Rx module / PC:
+Transmission type:
+Communication speed:
+
+Global compliant, SW controlled
+300-3400 Hz
+< 2%
+FSK, 300 bps
+VOX controlled, adjustable from PC SW
+RS-232, half duplex
+19200 BPS
+
+External interface:
+Interface to RX module / PC:
+
+Modular RJ-45, 8-pole
+Pin 1: Audio1, In
+Pin 3: Audio2, In
+Pin 5: RXD
+Pin 7: TXD
+Pin 8: 12VDC, in
+Pin 2, 4, 6: GND
+3 pole, 0.15” pitch, and plug-in terminal block
+Phono
+3.5 mm jack, stereo
+DC power socket, 2.1 mm
+
+Tape-control:
+Audio Line in/out:
+Headphones:
+Power input:
+Enclosure:
+Material:
+Aluminum
+Color: Black anodized
+Dimension (H x W x D): 44 x 130 x 104 mm / 1.75 x 5.1 x 4.1 inches
+
+PC REQUIREMENTS
+CPU:
+Operating system:
+RAM:
+Screen solution:
+
+Pentium II, higher or equivalent
+Microsoft Windows 98SE or Windows 2000
+64 MB minimum
+1024 X 768
+
+ENVIRONMENTAL SPECIFICATIONS
+Temperature
+Operating temperature range
+
+CONFIDENTAL
+
+-10 to 50° C / 14F to 122F
+
+page 28
+
+Storage temperature range
+Humidity
+Protection
+
+-20 to 70° C / -4F to 158F
+Max. 90% humidity
+IP22
+
+GLOSSARY
+AFC:
+AGC:
+BPS:
+Central
+Dry line:
+FM:
+HW:
+MCC:
+MWM:
+OOK:
+PABX:
+PC:
+PSTN:
+PSTN A:
+PSTN B:
+RSSI:
+RX:
+SW:
+TX:
+VOX:
+
+Automatic Frequency Control; used in the receiver
+Automatic Gain Control; used in the transmitters to achieve a better
+dynamic range
+Bits per second
+Office: Exchange in a Public Switched Telephone Network
+An un-powered spare wire
+Frequency Modulation
+Hardware
+Abbreviation for TSE 525 Carrier Current; the MCC transmitter is to be
+used on active mains lines
+Abbreviation for TSE 525 Wired Monitoring. The MWM transmitter is to be used
+on active telephone lines or spare wires
+On Off Keying. Amplitude modulated signal for data transmission
+Public Access Branch exchange
+Personal Computer
+Public Switched Telephone Network. It is a standard analog telephone system.
+PSTN module at the listening post; the module that initiate the call.
+PSTN module connected to RX; the called module.
+Radio Signal Strength Indicator; read-out in dBuV. 0 dBuV corresponds to 1uV.
+TSE 525 Receiver module
+Software
+TSE 525 Transmitter.
+Voice Operated Switch. Used for tape recorder start/stop. Typically a standard
+telephone line (PSTN line).
+
+CONFIDENTAL
+
+page 29
+
+S OL UT I O N S
+S ECU RITY
+GOVE RNM E NTA L
+
+If you would like further Information about ELAMAN,
+or would like to discuss a specific requirement or project, please contact us at:
+Elaman GmbH
+German Security Solutions
+Seitzstr. 23
+80538 Munich
+Germany
+Tel: +49-89-24 20 91 80
+Fax: +49-89-24 20 91 81
+info@elaman.de
+www.elaman.de
+
+

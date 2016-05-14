@@ -1,0 +1,674 @@
+_
+
+.. .
+
+. •. • • •• . •
+•
+•
+
+••
+
+OUR BUSINE:SS
+
+•••
+......................
+... :• ···~·····
+
+•
+
+·i,f·· ......... .
+I
+
+••••••••
+
+Amesys is a French company, leader in high technology critical systems.
+Our core business has been to develop electronic hardware and software products since 1979.
+Amesys provides its customers with the best combination of the three complementary
+solutions:
+off the shelf products
+
+..
+
+technical expertise to customers
+
+••
+
+••••••
+
+••
+•
+•
+•
+•
+• •
+
+designed to specification hardware and software solutions
+
+Amesys technical expertise is renowned on the Defense/ Security market especially for
+its innovative Signal Intelligence and Electronic Warfare systems.
+Over the years, Amesys has developed a complete portfoliQ of intelligence products
+answering the needs of both government and law enforcement agencies. With
+a wide range of captors, Amesys' solutions are clearly designed to fulfill the increasing
+need of intelligence against new terrorist or criminal threats.
+Amesys proposes the widest range of interception solutions systems for land, air and sea
+applications.
+Amesys covers all the COM INT [Communication Intelligence) and lawful interception
+issues such as collection [detection, recording, direction finding and position fixing,
+identification), analysis, dissemination, simulation and training.
+Amesys COMINT and lawful interception systems gather intelligence through passive
+"list ening" to radio communications and networks.
+Amesys products are designed on scalable technologies to provide solutions from the
+tactical level to the strategic one.
+Amesys maintains its products operational in the long run, thanks to its obsolescence
+management expertise, protocols follow-up and frequent software update releases.
+
+Some Amesys COMINT and lawful interception products are submitted to export and
+sales clearance.
+
+•
+
+0
+
+I
+
+10
+0 1I
+
+0
+1
+
+0
+
+0
+
+01
+10
+01
+
+Communications
+of suspects
+
+1-ti
+
+LAWFUL
+
+Potential threats:
+new suspects
+
+Communications
+of suspects
+
+INTELLIGENCE '
+
+LAWFUL INTERCEPTION
+The main goal of Lawful Interception is to analyze in deep the
+traffic of predefined targets. In LI systems, all the target's
+traffic is duplicated by the Service Provider (phone, mobile or
+Internet) and is sent to a centralized interception system. Then,
+the investigators analyze as deeply as possible all the traffic of
+each target.
+A Lawful system should then provide specific tools to help
+investigators in this in-deep analysis and also dedicated
+workflows to seal raw contents and to provide legal evidence to
+be used in court.
+The LI filters are typically IP addresses for internet interception
+or phone numbers for mobile or fixed phone interception.
+
+INTELLIGENCE (MASSIVE ,l\ITERCEPTION)
+Intelligence systems are often much more complex than LI
+systems, because they have to scan and intercept the target's
+traffic and also to provide the advanced tools needed to find
+potential new targets in, typically, billions of communications.
+These systems are often connected directly through passive
+equipments to the service provider network and are able to
+analyze the whole country's traffic in real time.
+
+•
+•
+
+Intelligence systems include most of the time an optimized
+archive able to store the input traffic and smart processes to
+access the huge volume of information stored in that archive.
+The Intelligence filters are typically more consolidated than LI
+ones such as e-mail addresses, nick names, language used,
+keywords...
+~
+
+,.
+
+•
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•• •
+
+•
+
+•
+
+••
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Amesys has developed a complete core technology called EAGLE to cover Lawful
+Interception and COMINT needs.
+
+EAGLE CORE TECHNOLOGY
+EAGLE breaks down in four distinct parts :
+The Captor(s) collecting the data: Totally passive captors can be used on any type
+of support to increase the operational coverage of the system.
+
+The Data Center for classification and storage: Entirely scalable hardware built
+on clusters of multi-core processors combined with smart storage management. It
+improves the analysis and classification capacity of the entire system.
+
+" The Monitoring Center: Easy-to-use graphical user interface enhances operational
+workflow and helps operators to increase the effectiveness and the relevance of the
+production process.
+
+• The Smart Analysis Tools: State-of-the-art smart modules increase the
+effectiveness of incoming interceptions classification, including traffic analysis,
+speaker identification, voice translation, transcription etc.
+
+J
+
+'
+
+The COMPLE:TE: SOLUTION
+
+FLEXIBLE AND SCALABLE ARCHITECTURE
+Amesys Intelligence Products are designed to help
+you to keep pace with changing operational needs.
+All the parts of the EAGLE core technology are
+designed to fit exactly your needs and to be gradually
+upgraded to follow the growth of your communication
+networks.
+EAGLE has been designed to be the corner stone of
+a fully scalable solution that can be interfaced with
+existing solutions to obtain the best intelligence
+system. EAGLE is suitable for tactical and nationwide
+needs.
+
+EAGLE CAPTORS
+11 Microwave links
+
+., From 0,5 to 40 GHz
+" Up to 256 QAM
+"' Up to 40 Mbauds
+
+it Radio links
+11 HF
+
+V/ UHF
+it PMR
+
+' WiFi, WiMAX
+"" Passive automatic
+WEP/ WPA decryption
+
+Connect to any PSTN backbone
+Full E1 decoding and recording
+Traffic recording trigged by
+programmable filters
+
+GSM/ 2G/ 2,5G
+Fully passive ir
+A5.1 , A5.2 decryption IP
+Up to 20 simultaneous channels [TCH/ FRJ r
+
+Satellite communications
+IDMA
+DVB-S/DSNG/52
+VSAT
+DCME Solutions
+Thuraya ,. ,____ _ _ __.
+
+Up to 1 0 Gbs IP links
+Plugged on a TAP or
+a switched mirrored port
+Grammatical advanced analysis
+
+ADSL / ADSL 2 / ADSL 2+
+Plugged between suscriber and DSLAM
+Simultanous interception of upload and download
+
+Eagle core technology is fitted with an ergonomic user interface. Investigators can listen to
+voice calls, read intercepted contents, perform transcriptions and write intelligence notes for
+the authority.
+
+'!
+
+EAGLE
+
+'\.
+
+II
+
+... _
+
+.....-r.-,._.~
+
+...
+
+I
+
+-
+
+.
+
+I
+
+___,
+•
+
+.__
+
+Th
+p
+au
+
+m1
+The creation of a folder is very easy to handle. Thanks to a wizard, you can, depending
+on the use of the system, create folders based on a LllD (Lawful Interception ID) or on
+advanced criteria like e-mail address, chat identifier, phone number, etc.
+
+Ii '\.
+
+'
+
+EA~J:,.,
+
+' .
+
+.,. '
+t
+
+I
+
+•u.._....._
+m~ Ull.ir-
+
+;:;::!J
+
+....
+
+EiCltl •lE!DO - <!DOC - l>ll[loc - -
+
+ID Miiit.i-~ca
+1300 ,.__... ....
+
+CJ ~n.-
+
+o .. · -
+
+---
+
+.... -----•
+
+A
+
+.......
+
+...._.....,.
+
+,.. .•.. ,..... 1IO __., ......""' ·-1·M:. ..... ,.. . ...
+
+,. _ _ .,
+
+-.. -,....... . .....,. ...............
+
+......
+
+__..
+
+o..r - .
+
+• 1:1 ,.,. 'IOICt:
+
+,
+,.........,_...._.._.......
+
+........
+
+......
+-.- _
+..
+........- . - ....
+..... . . . . . ....
+--- ---a
+
+CllW...- ...,.._
+IE ....
+
+Or
+
+The interface above is the main screen for a specific folder, showing all the intercepted
+communications. The communication selected by the operator is a HTIP reconstruction of
+the web page accessed by the suspect.
+
+re,
+es
+th!
+Th
+ch
+
+•
+
+I
+
+'\-. EAGLE
+.......-· ....
+
+·
+
+i.~
+
+.
+
+.
+
+•
+
+I
+
+• t.] 1,__.~,~~
+
+IOns ......
+..- _
+.;:!Joe
+..... _
+
+m-
+
+1:::1Er.il!J"'"_._
+
+•
+
+Cl ""' ~Q;
+
+""°"
+
+.. .
+
+'t<W . ..
+
+,,_,,, ..,..._...,.
+
+•
+
+.... 1-'1
+
+NOii
+
+..U!tlttl••
+
+~~uut••
+
+'IM • . . . _ _ . ,
+
+'°
+
+. . - 01
+
+l:II]OC-Ol!IJOC - · -
+
+;:JGI lilllilt.-~{IJOC ltft.af'I_..•
+
+o cio-u_,,_
+
+0 ••-
+
+.............
+
+''" "'"''"'" .. .
+.....
+
+~l'OI
+
+_____,_ ....
+..,.
+
+-.......,.._.._
+
+1-1'1'-
+
+10 ,.......,...._ . . . ,..,,. · - - · -
+
+--
+
+.....
+
+~-··-
+
+•11111
+
+"
+
+The communication selected above is a voice conversation. In order to enhance the
+productivity of the investigators, Amesys includes in its solution a smart module that
+automatically provides a voice transcription. This feature can also be combined with a
+module of speaker recognition.
+
+g
+n
+![
+
+'\-.
+
+EAGLE
+
+.,, • • ~ .. , . ,
+
+11
+
+.
+
+,.
+
+_
+
+I.I
+
+.....ori loe:miGttph
+
+• U <>-11yY~
+
+IE•...,.,..
+
+a
+
+;l:Joc - - ;:i -
+
+Il"""'
+E:11:Doc
+•lDoc ,_._..,.
+__
+,;ilJoc "-'•"
+ltJU """"'""""'
+-·
+(J!IJOC
+C;O>ooc:.·
+...-nw(J lllr_.,
+
+I·-=·-
+
+..-
+
+•
+Once a folder has been processed, an automatically generated graphical
+representation of the social network can be displayed, helping the operators to
+establish the relationships between suspects. This representation allows the user to access
+the different 1ntercept1ons by clicking on the graph's hnks.
+This social network representation can be displayed in addition to a timeline representing
+chronologically the communications between suspects.
+.-
+
+-~-
+
+.
+
+-
+
+'\,
+--
+
+'9
+
+xHF family- H/ V/ UHF intercept or - - - - - - - - - -
+
+~
+
+High performance VLF to UHF digital receivers
+Starting at 9KHz
+PMR
+
+· Road Runner - Mobile phone interceptor
+
+~
+
+Fully passive GSM / 2G / 2 ,5G Interception
+A5.1 & A5.2 decryption
+20 simultaneous recorded and listened channels
+(TCH/ FR)
+
+FRL family - Microwave Link interceptor - - - - - - - - - - -
+
+Al
+
+Universal high data rate demultiplexer,
+demodulator and receiver [up to 40 GHz)
+Modulation BPSK. DBPSK. QPSK, OQPSK, 8-PSK,
+8-0PSK, OQPSK, 16.QAM, 32.QAM, 64.QAM,
+1 28.QAM, GMSK. 2-FSK
+
+Dix family - Sat ellite interceptor
+
+~
+
+Full transponder Bridge
+DVB-S/DSNG/S2
+Easy to install & setup
+Thuraya, lnmarsat
+
+Casper - W iFi / W iMAX intercept or
+Fully passive WiFi Analysis
+Automatic WEP / WAP decryption (option)
+WiMAX Analysis
+
+Dumbo - E-mail interceptor
+••~
+E-mails collection
+Cost effective solution
+Easy to install and to use
+
+The PRODUCT RANGE:
+
+MINT/ LION - Strategic interception
+
+q~
+
+'
+
+Very high data rate nationwide interception system
+Compatible with all the range of captors
+Designed to aggregate all sources of information
+Storage Area Network [SAN] designed for archiving the
+traffic [from some terabytes to tens of petabytes)
+No technical skills required for the investigators
+All inputs can be time-stamped and digitally signed by the
+system to be used as legal evidence
+
+SMINT Mark II / SLION - Tactical Interception
+
+'
+
+_,i•
+
+Tactical and field operational system
+Analyze in real time up to 6 E1 simultaneously,
+up to 50 Mbits of IP traffic
+Compatible with all the range of captors
+Replay network capture files [pcap files)
+Unified user Interface
+Embedded storage capacity
+
+•
+
+Amrn:;yo prov1c o
+
+I c
+
+[Q
+
+f
+
+EAGLF core
+
+1lsa extended direction f1f"ldrnq
+
+c1nd
+
+WI
+tec~·nology
+
+r.rin handle d1rPr.t1nn fmdmq for
+
+Radio commun1cabons on the fmld
+For strategic deployments Amesys can also include the
+global geographical pos1t1omng of all the mobile handsets
+of a country with dedicated passive devices installed Pl thE
+
+servJce provider nutwork.
+
+ThP. Frigle natR r.enter 1s ries1one.d
+
+wrth an open Etrr.hiter.t.11re ready to Im 1ntercnnnectP.d with other P.x1sting
+compatible date bnsos This allows to improve 1ntelhge,ncn by cross referencing information, knowledge arid
+
+search
+
+Amesys provides services with very largi:i data base experts to help customers 1n building and
+r.onsol elating global mtell1genct
+
+To proteict VIPs 1 11n•,t sue h mtrrc-.epbon devices Amr.sys has
+OfM' lop 1 rl
+· nge of product cal e•d CryptoWALL d·c>d cat.ed
+to cmr.rypt
+d pr" tcct I typr.s of comrr un cat on Thu> th
+~rn~1L1J(
+
+l
+
+rr rr
+
+r c tmn w
+
+i-1
+
+un1r el 19 ble tJy ny 1nt.ercLpt1or
+
+WdY5 bf' "'~cu reel rmd r m
+s~steri
+
+1c11
+
+

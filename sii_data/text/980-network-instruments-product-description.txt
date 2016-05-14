@@ -1,0 +1,237 @@
+Gigabit and 10 GbE Network Analysis
+Monitor Gigabit and 10 Gigabit Ethernet Communication from the Edge to the Core
+For enterprise management, gigabit and 10 gigabit Ethernet networks mean high-speed communication, ondemand systems, and improved business functions. For enterprise IT professionals, these networks require
+diligent maintenance, analysis, monitoring, troubleshooting, and comprehensive network management. To
+help fulfill the promise of gigabit technologies, network professionals require a comprehensive, distributed
+analysis system.
+The Network Instruments® Gigabit Observer® product family provides multiple, scalable options for enterprise
+organizations demanding comprehensive network management. All appliances are 64-bit Windows systems
+and include Network Instruments’ exclusive Gen2™ capture technology designed to maximize analysis
+performance on critical links.
+Network Instruments Analysis Advantages
+•
+Full-duplex, wire-speed gigabit and 10 GbE capture and statistics
+•
+64-bit for faster processing and larger capture buffers
+•
+Internally designed capture cards optimize analysis
+•
+Processing at the probe speeds analysis and minimizes bandwidth usage
+
+Deploy a gigabit or 10 GbE Probe Appliance on local or remote
+mission-critical links for real-time, wire-speed Expert analysis.
+
+ELEXO - Téléphone : 01 41 22 10 00 - Fax : 01 41 22 10 01 - info@elexo.fr
+SA AU CAPITAL DE 381 123 EUROS – TVA : FR 00 722 063 534 - R.C.S. NANTERRE B 722 063 534 - SIRET 72206353400043 - CODE APE 516 J
+
+In-Depth Analysis for Gigabit and 10 GbE Networks
+Every member of the gigabit product family is designed with Network
+Instruments’ unique Distributed Network Analysis (NI-DNA™) architecture. This
+award-winning analysis technology delivers investment fl exibility, prompt
+problem resolution, proactive network management, complete application
+analysis, and integrated visibility. Below are a few examples of the powerful
+functionality found throughout the gigabit and 10 GbE product line.
+Statistics – Observer off ers over 30 real-time statistics for gigabit and 10 GbE
+analysis, including Network Summary, Bandwidth Utilization, (DCE and DTE
+displays), Top Talkers, VLAN Metrics, IP Pairs, Protocol Distribution, and
+Network Activity.
+Link Utilization – Observer provides granular analysis on gigabit links so
+communication can be viewed on a conversation-by-conversation basis or in
+aggregation. Monitor up to eight ports for any simultaneous combination of
+SPAN sessions, full-duplex connections, and trunked gigabit links.
+
+SQL Application Analysis
+Application Analysis – Monitor the application layer in real time and post
+capture through Observer’s Application Analysis. Track application session fl
+ows and failed transactions, gather statistics on errors, monitor response times,
+and perform network forensics for gigabit and 10 GbE links.
+Distributed Expert Analysis – Regardless of location, Observer ensures rapid
+diagnosis and resolution of network problems for over 570 Expert conditions.
+Observer’s Expert Analysis off ers real-time and post-capture Expert event
+identifi cation, modeling, and analysis for gigabit and 10 GbE networks. View
+network conditions in a single, concise display. All analysis is done remotely at
+the probe delivering only screen updates to the Observer console, minimizing
+impact to the network.
+VoIP Expert – Monitor VoIP connections and improve VoIP performance across
+the organization with VoIP Expert. See VoIP traffi c statistics and more than 20
+metrics that track call quality. Observer off ers complete decode of VoIP
+protocols including SIP, H.323, MGCP, and SCCP. Save or play voice
+conversations or streaming video. Track jitter or lost packets (in each direction)
+and total VoIP utilization.
+Expert Summary
+VLAN Statistics – Determine if VLANs are overloaded and verify VLAN setups
+on gigabit and 10 GbE links. Observer displays real-time VLAN statistics in
+aggregation or by individual load per station.
+Connection Dynamics – Observer provides a graphical view of network
+conversations down to the application layer. Conversations are displayed
+packet-by-packet with Expert Analysis, allowing for instant identifi cation of
+latency. Drill down on a conversation for granular analysis and to pinpoint
+problems immediately.
+Filtering – Observer off ers an extensive range of fi ltering capabilities for both
+real-time and post-capture analysis. For data mining tasks, Observer pre-fi lters
+capture buff ers, resulting in quicker analysis. This feature is vital for sifting
+through large volumes of data (gigabit and/or long-term captures). Observer can
+also execute fi lters concurrently and share fi lter libraries among users.
+VLAN Stations Report
+Trending and Reporting – Observer allows users to collect, store, view, and
+analyze gigabit traffi c over days, weeks, months, and even years. Use this data
+to perform historical analysis and determine if capacity upgrades are needed.
+Observer also includes over 20 Ready-Made Reports for instant snapshots of
+network health as well as the ability to create custom reports. Reports can be
+sent via e-mail or published over the web to share with management.
+
+VoIP Summary
+
+ELEXO - Téléphone : 01 41 22 10 00 - Fax : 01 41 22 10 01 - info@elexo.fr
+SA AU CAPITAL DE 381 123 EUROS – TVA : FR 00 722 063 534 - R.C.S. NANTERRE B 722 063 534 - SIRET 72206353400043 - CODE APE 516 J
+
+Choose From a Variety of Gigabit and 10 GbE Monitoring Options
+Common functionality available across the entire gigabit and 10 GbE analysis line:
+● 64-bit systems for maximum analysis performance and scalability
+● Utilizes internally engineered Gen2 technology for guaranteed, wire-speed captures
+● Localizes data processing at the probe to minimize network overhead
+● Provides continuous monitoring with included nTAPs
+● Captures large amounts without packet loss with up to a 124 GB buffer
+
+Gigabit or 10 GbE Probe Appliances
+Offers wire-speed, full-duplex analysis on gigabit or 10 GbE links in an easy-to-install rack
+mount unit.
+● Configures as a local console for on-site analysis
+● Reports to any Expert Observer or Observer Suite console on the network
+● May also be licensed as an RMON/HCRMON probe
+● Gigabit Probe Appliances have the added ability of monitoring trunked links independently or
+in aggregation
+Probe Appliance for gigabit or 10 GbE networks
+
+GigaStor™ for Gigabit and 10 GbE Networks
+For historical and forensics analysis, the GigaStor technology is the ideal choice. Capture hours, days, or even weeks worth of gigabit or 10 GbE
+traffic directly to disk for historical analysis. Speed problem resolution by completely eliminating the time-consuming task of having to recreate issues.
+● Store up to 2 TB, 4 TB, or 8 TB of network data or select the write-to-SAN configuration for almost limitless storage capacity
+● A unique timeline interface makes it easy to isolate and troubleshoot past events
+● Stored data can be reconstructed (web pages, e-mail, IM, VoIP) to support forensic analysis
+● Capture to disk at 430 MBps (3440 Mbps)
+
+GigaStor Control Pane
+
+GigaStor for gigabit or 10 GbE networks
+
+Portable Analysis Systems
+The Gigabit Observer Suite System (GOSS) is a fully portable unit that contains all the hardware and software necessary to troubleshoot and manage
+the most advanced gigabit and 10 GbE networks. Designed for convenience in travel and shipping, this all-in-one unit is ideal for field service
+engineers tasked with solving elusive network abnormalities at particular points across the organization.
+The GOSS is a portable analyzer and includes a copy of Observer Suite. The system does not require any additional hardware or software.
+
+All-in-one System
+●
+●
+●
+●
+●
+●
+●
+●
+
+Observer Suite console software
+Gen2 Gigabit or 10 GbE capture card
+10/100/1000 Ethernet management port
+All required cabling
+nTAP
+Built-in display, keyboard, trackpad, and DVD-RW drive
+Durable, hard case appropriate for airline travel
+Also shares data with any Expert Observer or Observer Suite console on the network
+
+Field Service Solution for gigabit or 10 GbE networks
+
+ELEXO - Téléphone : 01 41 22 10 00 - Fax : 01 41 22 10 01 - info@elexo.fr
+SA AU CAPITAL DE 381 123 EUROS – TVA : FR 00 722 063 534 - R.C.S. NANTERRE B 722 063 534 - SIRET 72206353400043 - CODE APE 516 J
+
+Top Five Hardware Advantages for Maximum Analysis Performance
+All Network Instruments gigabit and 10 GbE appliances deliver key advantages for ensuring full-duplex, wire-speed capture and analysis on gigabit links.
+
+1)
+
+Provides capture and analysis flexibility with Gen2 technology
+All gigabit and 10 GbE probes include Network Instruments’ internally designed gigabit capture cards to ensure accurate,
+high-performance gigabit capture on fully saturated gigabit and 10 GbE links.
+● Allows for driver updates to be implemented in the field with a simple downloadable firmware patch
+● The probe relies on one card (one clock) for timestamping and as a result data is marked to the nanosecond ensuring
+accurate tags across multiple links
+
+Exclusive features for full-duplex gigabit capture:
+● Monitor up to eight ports for any simultaneous combinations of SPAN
+sessions, full-duplex connections, and trunked links
+● Switch between monitoring copper or optical connections with the
+card’s SFP technology
+
+2)
+
+Exclusive features for full-duplex 10 GbE capture:
+● Provides sustained 10 GbE full-duplex capture at line rate
+● Functions such as filtering and statistics are performed directly on the
+card
+● Provides real-time Expert analysis for 10 GbE networks
+
+64-bit systems ensure maximum Observer performance
+Network Instruments’ 64-bit systems offer faster processing and larger capture buffers.
+● With 64-bit, the capture buffer permits up to 124 GB, the largest in the industry
+● By integrating with Observer’s 64-bit application core, gigabit and 10 GbE appliances can crunch Expert data,
+perform comprehensive analysis, and deliver statistics faster for rapid problem resolution
+
+3)
+
+Manages all data processing and Expert analysis locally at the probe
+All gigabit and 10 GbE products have the capability to collect, store, and process data on the probe itself.
+● Only screen updates are sent back to the Observer console
+● Speeds up tasks like Expert analysis
+● Minimizes unnecessary network traffic
+● Decreases troubleshooting time
+
+4)
+
+Comprehensive analysis
+Gigabit and 10 GbE products report to any Expert Observer or Observer Suite console located on the network.
+● Over 30 real-time statistics for monitoring application response times, VoIP traffic, viruses, hack attacks, and
+more
+● Triggers and alarms can be configured to instantly alert an administrator of problem activity
+● Perform long-term tending and baselining
+● Multiple Observer users can log on simultaneously to collaborate or perform individual tasks
+
+5)
+
+Includes nTAPs for guaranteed data delivery
+Only a TAP can copy data from full-duplex links at line rate for monitoring devices.
+●
+●
+●
+●
+
+Insert and remove the probe without network disruption
+Acquire and independent view of gigabit or 10 GbE data flow
+Eliminate dependence on a SPAN or mirror port
+Ensure full-duplex, wire-speed passive analysis
+
+About Network Instruments
+Network Instruments provides in-depth network intelligence and continuous network availability through innovative analysis solutions. Enterprise network professionals depend on Network
+Instruments’ Observer product line for unparalleled network visibility to efficiently solve network problems and manage deployments. By combining a powerful management console with highperformance analysis appliances, Observer simplifies problem resolution and optimizes network and application performance. The company continues to lead the industry in ROI with its advanced
+Distributed Network Analysis (NI-DNA™) architecture, which successfully integrates comprehensive analysis functionality across heterogeneous networks through a single monitoring interface.
+Network Instruments is headquartered in Minneapolis with sales offices worldwide and distributors in over 50 countries. For more information about the company, products,
+technology, NI-DNA, becoming a partner, and NI University please visit www.networkinstruments.com.
+
+Solution Bundles
+Contact a Network Instruments representative or dealer to ask about product bundles that cover all of your network management needs
+
+Corporate Headquarters
+Network Instruments, LLC • 10701 Red Circle Drive • Minnetonka, MN
+55343 • USA
+
+European Headquarters
+Network Instruments • 7 Old Yard • Rectory Lane • Brasted, Westerham
+• Kent TN16 1JP • United Kingdom
+
+© 2006 Network Instruments, LLC. All rights reserved. Network Instruments, Observer, NI-DNA, GigaStor, Gen2, nTAP, and all associated logos are trademarks or registered trademarks of Network
+Instruments, LLC. All other trademarks, registered or unregistered, are sole property of their respective owners.
+
+ELEXO - Téléphone : 01 41 22 10 00 - Fax : 01 41 22 10 01 - info@elexo.fr
+SA AU CAPITAL DE 381 123 EUROS – TVA : FR 00 722 063 534 - R.C.S. NANTERRE B 722 063 534 - SIRET 72206353400043 - CODE APE 516 J
+
+

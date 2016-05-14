@@ -1,0 +1,116 @@
+10/100 Port Aggregator Tap
+Net Optics Port Aggregator Taps provide ultra-efficient access to critical links. This
+pioneering technology enables any monitoring device to simultaneously monitor a
+full-duplex link – using only one NIC per device.
+
+Technical Specifications:
+Operating:
+
+Typically, full-duplex monitoring with a network tap requires two NICs (or a dual channel
+NIC) – one interface for each side of the tapped full-duplex connection. The Port
+Aggregator Tap combines and regenerates these streams, sending all aggregated data out
+one separate passive monitoring port.
+
+Operating Temperature: 0ºC to 40ºC
+
+For cases where the NIC’s capacity is exceeded – for instance, if there is a traffic burst,
+and the 100 Mbps NIC is now receiving 140 Mbps of traffic – port buffering is offered as
+a key unique feature to help prevent data overload. Net Optics’ Zero DelayTM technology
+ensures that any loss of power to the Tap is transparent to the network, and does not
+affect the flow of traffic through the Tap – eliminating packet delay and loss as potential
+security issues.
+
+Redundant Power Supplies:
+
+Storage Temperature: -10ºC to 70ºC
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Mechanical:
+Input: 100-240VAC, 0.5A, 47-63Hz
+Output: 12V 1.5A
+DC Power Supply: Input: -48V DC @ 5Amps
+DC Receptacle: Terminal peak, 12-14 guage wire
+Dimensions: 1.125” high x 9.125” deep x 4.5” wide
+
+All network and monitoring cables necessary for plug-and-play deployment are included.
+
+Cable Interface:
+
+Passive, Secure Technology
+
+22-24 AWG unshielded twisted pair cable, CAT5/CAT5E
+Link Distance Supported: 100 meters
+
+Copper Cable Type:
+
+• Supports full-duplex monitoring with a single NIC, increasing monitoring efficiency
+• Two megabytes of memory prevents data loss during excessive traffic loads
+• Provides complete full-duplex visibility at 10 or 100 Mbps without data stream
+interference or introducing a point of failure
+• Unique Zero DelayTM technology every packet goes through without delay, even
+if power is lost to the Tap
+• Compatible with Mid-Span Power over Ethernet (PoE) applications
+• Passes all traffic (including errors) from all layers for comprehensive
+troubleshooting
+• No IP address is needed for the Tap or monitoring device, enhancing monitoring
+security
+• Redundant power ensures monitoring uptime
+
+Ease of Use
+•
+•
+•
+•
+•
+•
+
+LED indicators show redundant power, speed, link, and activity status
+DIP switches select auto-negotiation or fixed speed and duplexing settings for the Tap
+Front-mounted connectors support easy installation and operation
+Silk-screened application diagram illustrates all connections for easy deployment
+Optional 19-inch rack frames hold up to three Taps
+Tested and compatible with all major manufacturers’ monitoring devices, including
+protocol analyzers, probes, and intrusion detection/prevention systems
+
+5303 Betsy Ross Drive • Santa Clara, CA 95054
+Tel: +1 (408) 737-7777 • www.netoptics.com
+
+Connectors:
+
+Monitoring Port: (1) RJ45, 8 pin connector
+Network Ports: (2) RJ45, 8 pin connectors
+
+Certifications:
+
+Fully RoHS compliant
+Part Number
+
+Description
+
+PA-CU
+PA-CU-DC
+RK-3V2
+
+10/100 Port Aggregator Tap, Rack-mount
+10/100 Port Aggregator Tap, Rack-mount -48V
+Three Slot Rack Mount Frame
+
+*Also available in rack-mount and Dual Port models. All products include a 1
+year manufacturer’s warranty. An additional 1 or 2 year extended warranty
+may also be purchased.
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Zero Delay TM and Net Optics® are trademarks or registered trademarks of Net Optics, Inc. Copyright 1996-2009
+Net Optics, Inc. All rights reserved. Additional company and product names may be trademarks or registered
+trademarks of the individual companies and are respectfully acknowledged.
+
+PA-CU Rev. 2, 09/09
+
+

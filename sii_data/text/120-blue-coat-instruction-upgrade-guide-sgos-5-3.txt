@@ -1,0 +1,3534 @@
+Blue Coat® Systems
+ProxySG® Appliance
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Version SGOS 5.3.1
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Contact Information
+Blue Coat Systems Inc.
+420 North Mary Ave
+Sunnyvale, CA 94085-4121
+http://www.bluecoat.com/support/contactsupport
+http://www.bluecoat.com
+For concerns or feedback about the documentation: documentation@bluecoat.com
+Copyright© 1999-2008 Blue Coat Systems, Inc. All rights reserved worldwide. No part of this document may be reproduced by any means
+nor modified, decompiled, disassembled, published or distributed, in whole or in part, or translated to any electronic medium or other
+means without the written consent of Blue Coat Systems, Inc. All right, title and interest in and to the Software and documentation are
+and shall remain the exclusive property of Blue Coat Systems, Inc. and its licensors. ProxyAV™, CacheOS™, SGOS™, SG™, Spyware
+Interceptor™, Scope™, ProxyRA Connector™, ProxyRA Manager™, Remote Access™ and MACH5™ are trademarks of Blue Coat
+Systems, Inc. and CacheFlow®, Blue Coat®, Accelerating The Internet®, ProxySG®, WinProxy®, AccessNow®, Ositis®, Powering
+Internet Management®, The Ultimate Internet Sharing Solution®, Cerberian®, Permeo®, Permeo Technologies, Inc.®, and the Cerberian
+and Permeo logos are registered trademarks of Blue Coat Systems, Inc. All other trademarks contained in this document and in the
+Software are the property of their respective owners.
+BLUE COAT SYSTEMS, INC. DISCLAIMS ALL WARRANTIES, CONDITIONS OR OTHER TERMS, EXPRESS OR IMPLIED,
+STATUTORY OR OTHERWISE, ON SOFTWARE AND DOCUMENTATION FURNISHED HEREUNDER INCLUDING WITHOUT
+LIMITATION THE WARRANTIES OF DESIGN, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL BLUE COAT SYSTEMS, INC., ITS SUPPLIERS OR ITS LICENSORS BE LIABLE FOR
+ANY DAMAGES, WHETHER ARISING IN TORT, CONTRACT OR ANY OTHER LEGAL THEORY EVEN IF BLUE COAT SYSTEMS,
+INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+Document Number: 231-03008
+Document Revision: SGOS 5.3.1—10/2008
+
+ii
+
+Contents
+Contact Information ..................................................................................................................................ii
+Chapter 1: Upgrading—Overview
+SGOS 5.3 Upgrades .............................................................................................................................................5
+About the Document Organization ..................................................................................................................5
+Related Blue Coat Documentation....................................................................................................................5
+Chapter 2: Upgrade Behavior
+Supported Upgrade Path ...................................................................................................................................9
+CPL Notes...........................................................................................................................................................10
+Migrating to SGOS 5.3 ......................................................................................................................................10
+Downgrading from SGOS 5.3.x.......................................................................................................................11
+Upgrading or Downgrading Between SGOS 5.x Versions..........................................................................11
+Upgrading to SGOS 5.3.x from SGOS 4.2.x ...................................................................................................11
+Licensing.............................................................................................................................................................12
+Licensable Components ............................................................................................................................12
+Hardware Supported ........................................................................................................................................14
+Chapter 3: Feature-Specific Upgrade Behavior
+Management Console > Licensing Page ........................................................................................................16
+Configuration > General > Archive ................................................................................................................16
+Configuration > Network.................................................................................................................................16
+Adapters ......................................................................................................................................................17
+Software Bridging ......................................................................................................................................17
+Hardware Bridging ....................................................................................................................................18
+Configuration > ADN .......................................................................................................................................19
+New System Defaults ................................................................................................................................20
+Upgrading Using the Breadth-First Approach ......................................................................................21
+Upgrading Using the Rolling Approach ................................................................................................22
+Downgrading an ADN Network .............................................................................................................24
+Policy............................................................................................................................................................24
+DSCP ............................................................................................................................................................25
+Configuration > ADN > Tunneling > Network............................................................................................25
+TCP Window Size ......................................................................................................................................26
+Reflect Client IP ..........................................................................................................................................26
+Configuration > ADN > Byte Caching ...........................................................................................................26
+Configuration > Services > Management Services.......................................................................................27
+SNMP Console............................................................................................................................................27
+Configuration > Services > Proxy Services....................................................................................................27
+Cache-Hit Behavior....................................................................................................................................27
+
+iii
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Cached Objects ........................................................................................................................................... 28
+Services Framework .................................................................................................................................. 28
+Bypass Lists................................................................................................................................................. 29
+Restricted Intercept.................................................................................................................................... 30
+Configuration > SG Client ............................................................................................................................... 31
+Configuration > SSL ......................................................................................................................................... 31
+CA Certificate Lists.................................................................................................................................... 31
+Device Profiles............................................................................................................................................ 32
+SSL-Verify Server ....................................................................................................................................... 32
+SSL Detection.............................................................................................................................................. 32
+Configuration > Proxy Settings....................................................................................................................... 33
+Streaming Media ........................................................................................................................................ 33
+CIFS.............................................................................................................................................................. 34
+Trusted Destination IP .............................................................................................................................. 35
+User License Limits.................................................................................................................................... 35
+Configuration > Content Filtering.................................................................................................................. 35
+Blue Coat DRTR ......................................................................................................................................... 35
+SmartFilter Database Selection ................................................................................................................ 36
+Configuration > Authentication ..................................................................................................................... 36
+Encrypted Passwords ................................................................................................................................ 37
+SSH Console................................................................................................................................................ 37
+Certificate Realms ...................................................................................................................................... 37
+SiteMinder................................................................................................................................................... 38
+User Management...................................................................................................................................... 38
+Permitted Errors, Guest Authentication, and Default Groups ........................................................... 39
+Configuration Options .............................................................................................................................. 40
+New Realms................................................................................................................................................ 41
+RADIUS Realms ......................................................................................................................................... 41
+COREid Authentication ............................................................................................................................ 42
+Upgrading the BCAAA Authentication Service ................................................................................... 42
+Configuration > External Services .................................................................................................................. 43
+Secure ICAP ................................................................................................................................................ 44
+ICAP Feedback ........................................................................................................................................... 44
+ICAP Scanning ........................................................................................................................................... 46
+Configuration > Forwarding and SOCKS Gateways................................................................................... 47
+Configuration > Health Checks ...................................................................................................................... 48
+Configuration > Access Logging .................................................................................................................... 51
+Configuration > Policy (QoS) .......................................................................................................................... 51
+Configuration > Policy > VPM........................................................................................................................ 52
+Revocation Checks on Certificates .......................................................................................................... 52
+Content-Type Matching ............................................................................................................................ 53
+SSL Forward Proxy Object Renamed...................................................................................................... 53
+New User Login Address Object ............................................................................................................. 53
+
+iv
+
+Statistics .............................................................................................................................................................. 54
+Maintenance > Upgrade................................................................................................................................... 54
+Chapter 4: FIPS Upgrade Information
+Configuration Files ........................................................................................................................................... 55
+Signed Archive Configurations....................................................................................................................... 55
+DRTR Connections............................................................................................................................................ 55
+SSL ....................................................................................................................................................................... 56
+
+v
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+vi
+
+Chapter 1: Upgrading—Overview
+
+Blue Coat® strongly recommends that you read this document before
+attempting to upgrade to SGOS 5.3 from previous SGOS operating systems.
+Existing features and policies might not perform as with previous versions, and
+upgrading to this version might require some additional configuration tuning.
+
+SGOS 5.3 Upgrades
+Upgrades to SGOS 5.3 are permitted only from SGOS 4.2.8 and 5.2.x. For
+information on the correct upgrade path, see Table 2–1, “Upgrade Paths” on
+page 9.
+If you attempt to download the next major release and receive an error message
+saying that the download failed due to policy deprecations, your policy uses
+constructs that are no longer supported in the current version. You must correct
+any policy syntax problems before upgrading.
+If the upgrade path is followed, most of the current settings on the SG
+appliance are maintained after the upgrade. New or transformed settings in
+SGOS 5.x are taken from the original settings wherever possible.
+
+About the Document Organization
+This document is organized for easy reference and is divided into the following
+sections and chapters:
+Table 1–1
+
+Document Organization
+
+Chapter Title
+
+Description
+
+Chapter 1 – Upgrading Overview
+
+This chapter discusses SGOS 5.x upgrades, related
+Blue Coat documentation, and documentation
+organization and conventions.
+
+Chapter 2 – Upgrade Behavior, General
+
+This chapter discusses general upgrade issues,
+including the required upgrade path and licensing.
+
+Chapter 3 – Upgrade Behavior, Specifics
+
+This chapter identifies new behaviors in SGOS 5.x
+and discusses any upgrade/downgrade issues.
+
+Chapter 4 – FIPS Upgrade Information
+
+This chapter includes information pertaining to
+Federal Information Processing Standards (FIPS)
+implementations. It covers upgrade/downgrade
+issues related to FIPS mode.
+
+Related Blue Coat Documentation
+❐
+
+Blue Coat SG200 Installation Guide
+
+❐
+
+Blue Coat SG210 Installation Guide
+
+5
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+❐
+
+Blue Coat SG400 Series Installation Guide
+
+❐
+
+Blue Coat SG510 Installation Guide
+
+❐
+
+Blue Coat SG800 Installation Guide
+
+❐
+
+Blue Coat SG810 Installation Guide
+
+❐
+
+Blue Coat SG8000 Installation Guide
+
+❐
+
+Blue Coat SG8100 Installation Guide
+
+❐
+
+The 11-volume Blue Coat ProxySG Configuration and Management Guide Suite
+includes the following documents:
+•
+
+Volume 1: Getting Started
+
+•
+
+Volume 2: Proxies and Proxy Services
+
+•
+
+Volume 3: Web Communication Proxies
+
+•
+
+Volume 4: Securing the Blue Coat ProxySG Appliance
+
+•
+
+Volume 5: Advanced Networking
+
+•
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+•
+
+Volume 7: Managing Content
+
+•
+
+Volume 8: Access Logging
+
+•
+
+Volume 9: Managing the Blue Coat ProxySG Appliance
+
+•
+
+Volume 10: Content Policy Language Guide
+
+•
+
+Volume 11: Command Line Interface Reference
+
+Document Conventions
+The following section lists the typographical and Command Line Interface (CLI)
+syntax conventions used in this manual.
+Table 1–2 Typographic Conventions
+
+6
+
+Conventions
+
+Definition
+
+Italics
+
+The first use of a new or Blue Coat-proprietary term.
+
+Courier font
+
+Command-line interface text that appears on your administrator
+workstation.
+
+Courier
+Italics
+
+A command-line variable that is to be substituted with a literal name or
+value pertaining to the appropriate facet of your network system.
+
+Courier
+Boldface
+
+Text that must be entered as shown.
+
+{ }
+
+One of the parameters enclosed within the braces must be supplied.
+
+[ ]
+
+Encompasses one or more optional parameters.
+
+Chapter 1: Upgrading—Overview
+Table 1–2 Typographic Conventions (Continued)
+Conventions
+
+Definition
+
+|
+
+This pipe character delineates options in a mandatory or optional list.
+For example:
+configure {terminal | network url}
+
+7
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+8
+
+Chapter 2: Upgrade Behavior
+
+This chapter discusses upgrade behavior and how to implement an upgrade or
+downgrade for the SGOS system.
+
+Topics in this Chapter
+This chapter includes information about the following topics:
+❐
+
+"Supported Upgrade Path" on page 9
+
+❐
+
+"CPL Notes" on page 10
+
+❐
+
+"Migrating to SGOS 5.3" on page 10
+
+❐
+
+"Downgrading from SGOS 5.3.x" on page 11
+
+❐
+
+"Upgrading or Downgrading Between SGOS 5.x Versions" on page 11
+
+❐
+
+"Upgrading to SGOS 5.3.x from SGOS 4.2.x" on page 11
+
+❐
+
+"Licensing" on page 12
+
+Supported Upgrade Path
+You should follow the upgrade path provided below; using the upgrade path
+maintains most of the current settings, the exceptions being those features that
+were substantially enhanced in SGOS 5.x.
+The following table provides the upgrade paths for these earlier SGOS
+versions.
+Note: Archive the system configuration before upgrading or downloading the
+ProxySG or Director.
+.
+
+Table 2–1 Upgrade Paths
+
+Current OS (Range)
+
+Direct Upgrade to
+5.3.x?
+
+Next OS version
+required
+
+SGOS 2.1.x, where x >= 07
+
+No
+
+SGOS 3.2.6
+
+SGOS 3.1.x
+
+No
+
+SGOS 3.2.6
+
+SGOS 3.2.x, where x<=3
+
+No
+
+SGOS 3.2.6
+
+SGOS 3.2.x, where x>=4
+
+No
+
+SGOS 4.2.8.6
+
+SGOS 4.1.x
+
+No
+
+SGOS 4.2.1.6
+
+SGOS 4.2.1.x, where x<=5
+
+No
+
+SGOS 4.2.1.6
+
+9
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+Table 2–1 Upgrade Paths (Continued)
+
+Current OS (Range)
+
+Direct Upgrade to
+5.3.x?
+
+Next OS version
+required
+
+SGOS 4.2.1.x, where x>=6
+
+No
+
+SGOS 4.2.8.6
+
+SGOS 4.2.x, where x<=7
+
+No
+
+SGOS 4.2.8.6
+
+SGOS 4.2.8.6
+
+Yes
+
+SGOS 5.3.1
+
+SGOS 5.1.x
+
+No
+
+SGOS 5.2.4.3
+
+SGOS 5.2.x
+
+Yes
+
+SGOS 5.3.1
+
+CPL Notes
+Deprecation warnings are issued for CPL syntax that is abandoned in the current
+release. Use of abandoned syntax causes CPL compiler errors, the policy fails to
+install, and the ProxySG uses the default policy of ALLOW or DENY for all traffic.
+Following the recommended upgrade process ensures that policy integrity and,
+therefore, network security are maintained.
+
+Migrating to SGOS 5.3
+SGOS 5.3.x supports direct upgrade from SGOS 4.2.8 and 5.2.x. SGOS 5.3 is
+supported on the current SG210, SG510, SG810, and SG8100 hardware platforms
+as well as older SG200, SG400, SG800 and SG8000 platforms. Because SGOS 5.x
+contains significant new functionality than the 4.x versions, upgrading can impact
+CPU utilization. If the peak CPU utilization on your system exceeds 65 percent on
+SG810/SG800 and lower models, or 70 percent on SG8100/SG8000 models
+running SGOS 4.2, contact your Blue Coat representative before upgrading to
+SGOS 5.3.
+Also note that SGOS 5.x requires that your ProxySG appliance is configured with
+at least 512 MB of memory.
+Note:
+
+Always archive the current configuration offbox before upgrading or
+downgrading. To archive a configuration, go to Configuration > General > Archive.
+For information about archiving, refer to Volume 1: Getting Started.
+Keep in mind that changes made after upgrade are not preserved if you
+subsequently downgrade. After an upgrade and a downgrade, the state is exactly
+what it was before the upgrade.
+Note:
+
+Should the latest release not boot successfully, the SG appliance might
+attempt to boot to an earlier image. This can lead to a downgrade without
+warning.
+
+10
+
+Chapter 2: Upgrade Behavior
+
+Downgrading from SGOS 5.3.x
+If you want to restore a previous SGOS version, you will need to follow the path
+specified in Table 2-1: Upgrade Paths. Note that downgrade to 5.1.x from 5.3.x is
+not supported.
+The ability to downgrade to earlier versions depends on the version you
+originally upgraded from:
+❐
+
+If you upgraded from SGOS 5.2.x or SGOS 4.2.8, you can downgrade to those
+versions.
+
+❐
+
+If you are starting with a new SGOS 5.3.x Proxy Edition installation, you can
+only downgrade to 4.2.8 or 5.2.x. You cannot downgrade from a MACH5
+Edition license.
+Note: After purchasing a Proxy Edition license, you can upgrade to the
+SGOS 5.3.x Proxy Edition license from a MACH5 license. At that point, you
+can downgrade to SGOS 5.2.x or SGOS 4.2.8.
+
+Downgrade default behavior also depends on the version to which you are
+downgrading and whether you are downgrading a new or existing system:
+❐
+
+On downgrade from a new SGOS 5.3.x Proxy Edition system to SGOS 4.2.8, all
+system configuration is lost, including the IP address.
+
+❐
+
+On a downgrade from SGOS 5.3.x to SGOS 5.2.x, the current SGOS 5.3.x
+settings are retained.
+
+❐
+
+On a downgrade from SGOS 5.3.x to 4.2.8, the previously saved SGOS 4.x
+configuration is retained.
+
+Upgrading or Downgrading Between SGOS 5.x Versions
+When upgrading or downgrading between versions of SGOS 5.x, copies of
+version-specific configurations are not retained. Instead, all configurations
+created in an upgrade are retained if the configuration is relevant to the
+downgrade version.
+Care should be taken when using policy features introduced in a minor release.
+These cause compilation errors if you downgrade to a previous version of the
+same major release in which those features were unsupported.
+To prevent accidental downgrades, remove unused system images using the
+installed_systems delete number, from the (config installed-systems)
+prompt. You cannot remove unused system images through the Management
+Console.
+
+Upgrading to SGOS 5.3.x from SGOS 4.2.x
+The upgrade process happens only one time. If you must redo the upgrade
+process on a system that has already been upgraded to SGOS 5.x, you can use the
+CLI restore-sgos4-config command.
+
+11
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+The restore-sgos4-config command checks whether the system has saved SGOS
+4.x settings on the SG appliance; if not, a warning message displays and the
+appliance exits the operation.
+If saved SGOS 4.x settings exist, the SG appliance warns that all current SGOS 5.x
+settings will be lost and that a restart will be initiated. The restart triggers the
+upgrade process, which copies the SGOS 4.x settings and transforms them to the
+SGOS 5.3 settings.
+
+Licensing
+If you upgraded from SGOS 4.2.8 with a valid Support entitlement, you should
+already have an SGOS 5 license; no further action is required. If you do not have
+an SGOS 5 license, contact Support Services at http://www.bluecoat.com/
+support/contact.html.
+
+Licensable Components
+There are three types of licensable components:
+❐
+
+Required—The SGOS base
+
+❐
+
+Included—Additional features provided by Blue Coat
+
+❐
+
+Optional— If applicable, any additional purchased features
+
+When the license key file is created, it consists of all three components. The
+SGOS 5 Proxy Edition is a required component of the license key file. The
+following table lists the ProxySG appliance licensable components, categorized by
+type.
+Table 2–2 Licensable Components
+
+12
+
+Type
+
+Component
+
+Description
+
+Required
+
+SGOS 5 Proxy
+Edition
+
+The SG operating system, plus base features: HTTP, FTP,
+TCP-Tunnel, SOCKS, and DNS proxy.
+
+Included
+
+3rd Party Onbox
+Content Filtering
+
+Allows use with third-party vendor databases: Intersafe,
+Optenet, Proventia, SmartFilter, SurfControl, Websense,
+and Webwasher.
+
+Included
+
+Websense Offbox
+Content Filtering
+
+For Websense off-box support only.
+
+Included
+
+ICAP Services
+
+External virus and content scanning with ICAP servers.
+
+Included
+
+Bandwidth
+Management
+
+Allows you to classify, control, and, if required, limit the
+amount of bandwidth used by different classes of
+network traffic flowing into or out of the SG.
+
+Chapter 2: Upgrade Behavior
+Table 2–2 Licensable Components (Continued)
+Type
+
+Component
+
+Description
+
+Included
+
+Windows Media
+Streaming
+
+MMS and RTSP proxy for Windows Media content;
+content caching and splitting.
+Full policy control over MMS and RTSP traffic for
+Windows Media content.
+When the maximum number of concurrent streams is
+reached, all subsequent streams are denied and the client
+receives a message.
+
+Included
+
+Real Media
+Streaming
+
+RTSP proxy for Real Media content; content caching and
+splitting.
+Full policy control over RTSP traffic for Real Media
+content.
+When the maximum number of concurrent streams is
+reached, all subsequent streams are denied and the client
+receives a message.
+
+Included
+
+QuickTime
+Streaming
+
+RTSP proxy for QuickTime content; no caching or
+splitting; content pass-through.
+Full policy control over RTSP traffic for QuickTime
+content.
+
+Included
+
+Netegrity
+SiteMinder
+
+Allows realm initialization and user authentication to
+SiteMinder servers.
+
+Included
+
+Oracle COREid
+
+Allows realm initialization and user authentication to
+COREid servers.
+
+Included
+
+Peer-to-Peer
+
+Allows you to recognize and manage peer-to-peer P2P
+activity relating to P2P file sharing applications.
+
+Included
+
+HTTP
+Compression
+
+Allows reduction to file sizes without losing any data.
+
+Optional
+
+SSL
+
+SSL Proxy and HTTPS Reverse Proxy (SSL termination.
+
+Optional
+
+AOL Instant
+Messaging
+
+AIM proxy with policy support for AOL Instant
+Messenger.
+
+Optional
+
+MSN Instant
+Messaging
+
+MSN proxy with policy support for MSN Instant
+Messenger.
+
+Optional
+
+Yahoo Instant
+Messaging
+
+Yahoo proxy with policy support for Yahoo Instant
+Messenger.
+
+13
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+Table 2–2 Licensable Components (Continued)
+Type
+
+Component
+
+Description
+
+Optional
+
+SG Client—
+Acceleration
+
+Entitles you to support a certain number of SG Clients in
+your enterprise; however, the license does not limit the
+number of ADN tunnels to which clients can have
+access. SG Client licenses are upgradeable so you can
+support a larger number of users.
+Note: Only the appliance designated as the SG Client
+Manager requires a license. To use SG Clients in your
+enterprise, apply the license only to the Client Manager
+and not to any other appliances in the ADN network.
+
+Hardware Supported
+SGOS 5.3.x supports the following hardware models:
+❐
+
+SG200
+
+❐
+
+SG210
+
+❐
+
+SG400
+
+❐
+
+SG510
+
+❐
+
+SG800
+
+❐
+
+SG810
+
+❐
+
+SG8000
+
+❐
+
+SG8100
+
+Note that all SGOS 5.x versions, including 5.3.x, require a minimum of 512 MB of
+memory.
+
+Related Documentation
+
+14
+
+❐
+
+Volume 1: Getting Started
+
+❐
+
+Volume 9: Managing the Blue Coat ProxySG Appliance
+
+❐
+
+Volume 11: Command Line Interface Reference
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+This chapter provides critical information about how specific features are
+affected by upgrading to or downgrading from SGOS 5.x and provides actions
+administrators must or are recommended to take as a result of upgrading. If a
+specific feature is not mentioned, it has no known upgrade or downgrade
+issues.
+This chapter assumes you are upgrading to SGOS 5.3 from a supported directupgrade version: 4.2.8 or 5.2.x. Depending on which version you are upgrading
+from, some sections may not be applicable to you.
+❐
+
+If you are upgrading from 5.2.x, you don’t need to read the sections that
+discuss 5.1 or 5.2 upgrade/downgrade information; look for sections with
+headings labeled "5.3-Specific Information".
+
+❐
+
+If you are upgrading from 4.2.x, you will want to read all the information in
+this chapter; it includes all 5.x features that have upgrade or downgrade
+information. Look for sections with headings labeled "Information for
+Upgrading from 4.2.x" and "5.3-Specific Information".
+
+Topics in this Chapter
+The following topics are discussed in this chapter:
+❐
+
+"Management Console > Licensing Page" on page 16
+
+❐
+
+"Configuration > General > Archive" on page 16
+
+❐
+
+"Configuration > Network" on page 16
+
+❐
+
+"Configuration > ADN" on page 19
+
+❐
+
+"Configuration > ADN > Tunneling > Network" on page 25
+
+❐
+
+"Configuration > ADN > Byte Caching" on page 26
+
+❐
+
+"Configuration > Services > Management Services" on page 27
+
+❐
+
+"Configuration > Services > Proxy Services" on page 27
+
+❐
+
+"Configuration > SG Client" on page 31
+
+❐
+
+"Configuration > SSL" on page 31
+
+❐
+
+"Configuration > Proxy Settings" on page 33
+
+❐
+
+"Configuration > Content Filtering" on page 35
+
+❐
+
+"Configuration > Authentication" on page 36
+
+❐
+
+"Configuration > External Services" on page 43
+
+❐
+
+"Configuration > Forwarding and SOCKS Gateways" on page 47
+
+❐
+
+"Configuration > Health Checks" on page 48
+
+❐
+
+"Configuration > Access Logging" on page 51
+
+15
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+❐
+
+"Configuration > Policy (QoS)" on page 51
+
+❐
+
+"Configuration > Policy > VPM" on page 52
+
+❐
+
+"Statistics" on page 54
+
+❐
+
+"Maintenance > Upgrade" on page 54
+
+Management Console > Licensing Page
+Information for Upgrading from 4.2.x
+The licensing register-hardware command and the License Warning tab attempt to
+request the software license as well as the hardware license after successful
+hardware registration.
+Similarly, the licensing request-key and corresponding Maintenance >Licensing >
+attempt to register the hardware before requesting the license
+key if the hardware has not already been registered.
+
+Install > Request key
+
+Configuration > General > Archive
+5.3-Specific Information
+SGOS 5.3 offers the ability to create signed archives. A signed archive is one that is
+cryptographically signed with a key known only to the signing entity—the digital
+signature guarantees the integrity of the content and the identity of the
+originating device. You can then use a trusted CA Certificate List (CCL) to verify
+the authenticity of the archive.
+On an upgrade to SGOS 5.3, new archive configuration options will be available,
+but will be disabled by default.
+When downgrading to a pre-5.3 version, the signed archive configuration will be
+disabled, and the system will default to the original archive format. If a protocol
+other than TFTP or FTP was configured for archiving the configuration, the
+protocol will default to FTP. Signed configurations cannot be directly loaded by
+the downgraded system. However, it would be possible to extract the
+configuration.txt file from the signed archive and attempt to load that
+configuration.
+
+Related Documentation
+❐
+
+Volume 1: Getting Started, Chapter 5
+
+Configuration > Network
+Refer to the following sections for upgrade/downgrade issues related to items on
+the Configuration > Network page:
+
+16
+
+❐
+
+"Adapters" on page 17
+
+❐
+
+"Software Bridging" on page 17
+
+❐
+
+"Hardware Bridging" on page 18
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Adapters
+5.3-Specific Information
+Any IP addresses assigned to network interfaces or VLANs while in SGOS 5.3 will
+be lost upon downgrading to earlier versions. This is not an issue when
+upgrading to 5.3.
+
+Software Bridging
+Information for Upgrading from 4.2.x
+Changes to bridging in SGOS 5.1.3 or later include:
+❐
+
+Bridges are not configured during initial configuration of the system.
+
+❐
+
+A bridge is now considered to be a set of assigned interfaces and does not
+have an IP address. All interface configuration is done using the #(config)
+interface command.
+
+❐
+
+Interfaces are no longer identified by ports.
+
+❐
+
+Interface configuration is no longer done in the bridge editing submode.
+
+Upgrade Behavior
+The bridge-related settings have been migrated from previous SGOS releases to
+SGOS 5.1.3 or later. The behavior changes include:
+❐
+
+IP address, subnet: These have been moved to the lowest numbered interface
+attached to the bridge.
+
+❐
+
+mtu-size: On upgrade, mtu-size from an SGOS 4.2.x bridge is reflected to all
+the interfaces that belong to the bridge on SGOS 5.1.3 or later.
+
+❐
+
+accept-inbound. On upgrade, accept inbound settings from an SGOS 4.2.x
+bridge are reflected to all the interfaces that belong to the bridge on SGOS
+5.1.3 or later. In SGOS 5.x, it has been renamed reject-inbound.
+
+❐
+
+speed: Speed is upgraded for both software and hardware bridges. For
+hardware bridges, the speed from the first port of a hardware bridge on SGOS
+4.2.x is copied onto both interfaces belonging to the hardware bridge on SGOS
+5.1.3 or later.. for a software bridge, speed is copied over from each port of a
+software bridge on SGOS 4.2.x to the corresponding interface of the software
+bridge on SGOS 5.1.3 or later.
+
+❐
+
+half-duplex/full-duplex: Duplex (half-duplex/full-duplex) is upgraded for
+both software and hardware bridges.For hardware bridges, the duplex from
+the first port of a hardware bridge on SGOS 4.2.x is copied onto both interfaces
+belonging to the hardware bridge on SGOS 5.1.3. For a software bridge,
+duplex is copied over from each port of a software bridge on SGOS 4.2.x to the
+corresponding interface of the software bridge on SGOS 5.1.3 or later.
+
+17
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+❐
+
+link-autosense: Link-autosense is upgraded for both software and hardware
+bridges. For hardware bridges, the link-autosense, if set on the first port of a
+hardware bridge on SGOS 4.2.x, is reflected onto both interfaces belonging to
+the hardware bridge on SGOS 5.1.3 or later.. For software bridges, linkautosense, if set for a particular port of a software bridge on SGOS 4.2.x, is
+reflected to the corresponding interface of the software bridge on SGOS 5.1.3
+or later.
+
+❐
+
+static-fwtable-entry: Static forwarding entries are migrated from each of the
+individual ports on SGOS 4.2.x to the corresponding interfaces on SGOS 5.1.3.
+
+❐
+
+instructions (PAC Files): For hardware bridges, instructions from an SGOS
+4.2.x bridge are automatically upgraded onto the first interface of the
+hardware bridge in SGOS 5.1.3. For software bridges, instructions from an
+SGOS 4.2.x bridge are upgraded onto an interface with an IP address that
+belongs to that bridge in SGOS 5.1.3.
+
+If a software bridge was created in SGOS 4.2, that software bridge remains after
+an upgrade; the interfaces are attached to this software bridge on a best-effort
+basis. For example, if the bridge configuration is:
+bridge "bg0"
+❐
+
+interface 0:0
+
+❐
+
+interface 3:0
+
+0:0 is not part of a hardware bridge, while 3:0 is part of a hardware bridge
+In this case, 3:0 is reassigned to the hardware bridge, and bridge "bg0" is left with
+one interface. If both interfaces are part of a hardware bridge, software bridge bg0
+remains with no interface assigned to it.
+
+Downgrade Behavior
+❐
+
+For downgrades to SGOS 4.x, previously existing SGOS 4.x settings are
+preserved; if the system was a new SGOS 5.x installation before the
+downgrade, the defaults are used.
+
+❐
+
+For downgrades to SGOS 5.1.x, SGOS 5.2/5.3 settings are preserved, except
+for the programmable bridge functionality described in "Hardware Bridging"
+below.
+
+Related Documentation
+❐
+
+Volume 1: Getting Started
+
+Hardware Bridging
+Blue Coat offers two types of programmable bridge cards, some sold as hardware
+bridges others as regular Network Interface Cards (NICs).
+
+Upgrade Behavior
+For SGOS 4.2.3 or higher and SGOS 5.x upgrades, software bridges can be lost if
+they were created on a programmable card prior to upgrade.
+
+18
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Cards that were sold as bridges remain hardware bridges on upgrade and are
+configured to fail open. Cards that were sold as NICs might have had software
+bridges configured; if so, that configuration is lost on an upgrade.
+You can recreate software bridges by either setting one of the pre-configured
+bridges to fail open or fail closed or by creating a software bridge and attaching
+the interfaces. Note that you must disable the automatically created hardware
+bridge before creating the software bridge.
+
+Downgrade Behavior
+Downgrade behavior depends upon the type of programmable card you
+originally purchased. Regardless of configuration, the card returns to its original
+sold-as configuration (either a bridge or a NIC).
+Note:
+
+If you are using SGOS 4.2.x and upgrade to SGOS 5.2.x/5.3.x and later
+decide to downgrade, Blue Coat strongly recommends against downgrading
+to SGOS 5.1.x. SGOS 4.2.x and 5.2.x have gateway features and enhancements;
+SGOS 5.1.x does not.
+
+Related Documentation
+❐
+
+The option card instructions that shipped with your option card.
+
+Configuration > ADN
+Information for Upgrading from 4.2.x
+The Application Delivery Network (ADN) is aimed at enhancing the experience
+of users in WAN environments. Blue Coat offers two approaches to upgrading
+and securing your network; both approaches allow you to keep the network in
+operation during the upgrade.
+Note: If you are configuring a new ADN installation, you do not need to
+worry about keeping a network in operation and secure; no live traffic is
+going through the ADN nodes. You can choose either approach discussed
+below or you can create your own custom approach.
+❐
+
+Breadth-first: This is the operation-centric approach, where each operation is
+done on each ADN node before the next operation is started. For more
+information, see "Upgrading Using the Breadth-First Approach" on page 21.
+
+19
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+❐
+
+Rolling: This is the device-centric configuration, where a set of operations is
+done to a specific device before you move to the next device. The rolling
+approach works best when there's a clear separation of roles; for example, you
+have dedicated managers, concentrators, and branches. You don't have ADN
+nodes that function as both managers and concentrators. The recommended
+upgrade order for the rolling approach is to upgrade the ADN managers first,
+then the concentrators, and the branches last. This method allows a staged
+deployment. For more information, see "Upgrading Using the Rolling
+Approach" on page 22.
+
+Note that you must have SGOS 5.1.3.3 or higher if you want to keep the ADN
+network in operation during the upgrade.
+
+New System Defaults
+On a new system or a newly upgraded system, default settings are for insecure
+mode operation. Security must be explicitly enabled. The backwards-compatible
+ADN manager runs on the existing plain ADN manager port. This manager can
+handle ADN nodes running SGOS 5.3.x, SGOS 5.2.x, SGOS 5.1.4, and SGOS 5.1.3.
+❐
+
+Advertised, explicit, routes are used. Connect transparent is enabled, but the
+prefer transparent setting is disabled. Servers where explicit routes exist are
+routed through explicit tunnels.
+
+❐
+
+Security settings:
+•
+
+Authentication and authorization are disabled until a valid profile is
+selected.
+
+•
+
+ADN routing and tunnel connection requests are unauthenticated.
+
+•
+
+All ADN protocol messaging and compressed application data are
+transferred in plaintext.
+
+•
+
+Device-auth-profile: None.
+The ADN device-auth-profile must be configured on the ADN managers
+before any outbound connections can be set to a secure mode on any ADN
+node.
+The profile also must be configured on all concentrators for a specific
+branch before securing any outbound tunnel connections on the branch.
+
+•
+
+Authorization: Disabled.
+Authorization can be enabled only if verify-peer option is enabled in the
+selected ADN device-auth-profile.
+
+•
+
+Manager-listening-mode: Plain-Only.
+The Manager-listening-mode on the ADN managers can be set to Secureif all ADN nodes secure their routing connections.
+
+only
+
+•
+
+Tunnel-listening-mode: Plain-Only.
+Tunnel-listening-mode on a concentrator can be set to Secure-only if all
+branches connect to the concentrator through secure connections.
+
+20
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+•
+❐
+
+Secure-outbound: None.
+
+Manager settings:
+•
+
+Pending-peers: Enabled
+
+Upgrading Using the Breadth-First Approach
+If you upgrade from SGOS 4.2.x, the settings are as described above. From an
+ADN perspective, SGOS 4.2.x upgrades are treated as a new installation.
+The breadth-first approach requires that you do certain operations on each node
+before moving to the next node.
+Note:
+
+When upgrading to SGOS 5.3.x, backward compatibility is guaranteed
+only for devices running SGOS 5.2.x. Downgrading to SGOS 5.1.x is not
+supported.
+The overview for configuration is as follows:
+1. Upgrade all ADN nodes to the latest SGOS release, including the latest patch
+version.
+2. On each ADN node, configure the device authentication profile.
+Security parameters switch to authentication defaults after the device is
+configured with the device authentication profile:
+a. Device-auth-profile: Set to the desired profile.
+b. Authorization: Enabled
+c. Manager-listening-mode: Both.
+d. Tunnel-listening-mode: Both.
+e. Secure-outbound: Secure-Proxies.
+Note: If you are upgrading a network with live ADN traffic, reset secureoutbound to None to avoid potential ADN service outages. Otherwise,
+continue with the procedures below.
+
+For more information, refer to “Device Authentication” and “Configuring an
+Application Delivery Network” in Volume 5: Advanced Networking.
+3. Pre-configure the approved-peers list on each ADN manager.
+If a backup manager exists, the backup manager should be added to the
+approved-peers list on the ADN manager; in that case, the ADN manager
+should be added to the approved-peers list on the backup manager.
+4. Enable outbound security on each ADN node:
+a. Secure-outbound: This setting can be configured to Routing-only, Secureproxies, or All.
+When routing connection security is enabled, each node reconnects to the
+ADN managers using the secure protocol.
+21
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+•
+
+If the secure-outbound option is set to Secure-proxies, all future
+outbound secure-proxy connections are secured.
+
+•
+
+If Secure-outbound is set to All, all future outbound connections are
+secured. Existing non-secure-proxy connections are upgraded to
+secure mode automatically. This is the most secure mode, allowing all
+ADN plain listeners to be disabled.
+
+Configure secure-outbound to at least Routing-only. If the routing managers
+are also branch nodes, configure secure-outbound to Secure-proxies or All.
+5. Tighten up security by shutting down any unneeded plain (unsecured)
+listeners on each node:
+a. Manager-listening-mode: Configure this setting to Secure-only on each
+ADN manager.
+This setting can be selected only if the secure-outbound option is anything
+other than None on the ADN nodes. Note that you cannot select this option
+if you have SG Clients on the network.
+b. Tunnel-listening-mode: configure tunnel listening mode to Secure-only
+on each node.
+Tunnel listening mode can be set to Secure-only on each node if no other
+ADN branches or SG Clients attempt to connect to this concentrator
+through plain (unsecured) tunnel connections.
+For more information, refer to “Configuring an Application Delivery
+Network” in Volume 6: VPM and Advanced Policy Tasks.
+
+Upgrading Using the Rolling Approach
+If you upgrade from SGOS 4.2.x, the settings are as described in the previous
+section. From an ADN perspective, SGOS 4.2.x upgrades are treated as a new
+installation.
+The rolling approach requires that you complete all pertinent operations on each
+node before configuring the next node.
+Note:
+
+When upgrading to SGOS 5.3.x, backward compatibility is guaranteed
+only for devices running SGOS 5.2.x. Downgrading to SGOS 5.1.x is not
+supported.
+
+ADN Manager Upgrade
+Complete each step below for the ADN manager and backup ADN manager:
+1. Upgrade the appliances to the latest release of SGOS, including the most
+recent patch version.
+2. Configure the device authentication profile.
+Security parameters switch to authentication defaults after the device is
+configured with the device authentication profile:
+
+22
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+•
+
+Device-auth-profile: Set to the desired profile.
+
+•
+
+Authorization: Enabled.
+
+•
+
+Manager-listening-mode: Both.
+
+•
+
+Tunnel-listening-mode: Both.
+
+•
+
+Secure-outbound: Secure-Proxies.
+Note:
+
+If you are upgrading a network with live ADN traffic, reset secureoutbound to None to avoid potential ADN service outages.
+For more information, refer to “Device Authentication” and “Configuring an
+Application Delivery Network” in Volume 4: Securing the Blue Coat ProxySG
+Appliance.
+3. Configure the Manager-listening-mode to Secure-only.
+Note:
+
+Do not do this step until all nodes have been upgraded and the
+secure-outbound option has been set to secure routing connections. If you
+attempt to do this step before configuring all other nodes, the nodes fail to
+connect to the secure manager port.
+This setting can be selected only if the secure-outbound option is anything
+other than None on the ADN nodes. Note that you cannot select this option if
+you have SG Clients on the network.
+4. Configure the approved-peers list, if authorization is enabled, to avoid
+potential temporary ADN service outage on a node.
+For more information, refer to “Configuring an Application Delivery Network” in
+Volume 6: The Visual Policy Manager and Advanced Policy.
+
+ADN Node Upgrade
+Avoid making changes to ADN configuration on any ADN nodes until both
+managers have been upgraded and configured.
+Note:
+
+The recommended approach to upgrading the ADN nodes is to
+configure all concentrators first, followed by the branch appliances.
+The overview for upgrading one ADN node is as follows:
+1. Upgrade the appliance to the latest version of SGOS, including all patch
+releases.
+2. Bring up the ADN node and complete basic ADN configuration. For more
+information, refer to Volume 5: Advanced Networking.
+3. Configure the device authentication profile.
+Security parameters switch to authentication defaults after the device is
+configured with the device authentication profile:
+
+23
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+•
+
+Device-auth-profile: Set to the desired profile.
+
+•
+
+Authorization: Enabled.
+
+•
+
+Manager-listening-mode: Both.
+
+•
+
+Tunnel-listening-mode: Both.
+
+•
+
+Secure-outbound: Secure-Proxies.
+Note:
+
+If you are upgrading a network with live ADN traffic, reset secureoutbound to None to avoid potential ADN service outages.
+For more information, refer to Volume 4: Securing the Blue Coat ProxySG
+Appliance.
+
+Enabling the Secure-Outbound Security Option
+This setting can be configured to Routing-only, Secure-proxies, or All.
+❐
+
+When routing connection security is enabled, each node reconnects to the
+ADN managers using the secure protocol.
+
+❐
+
+If the secure-outbound option is set to Secure-proxies, all future outbound
+secure-proxy connections are secured.
+
+❐
+
+If Secure-outbound is set to All, all future outbound connections are secured.
+Existing non-secure-proxy connections are upgraded to secure mode
+automatically. This is the most secure mode, allowing all ADN plain listeners
+to be disabled.
+
+Setting Tunnel Listening Mode to Secure-Only
+The tunnel listening mode can be set to secure-only if no other ADN branches or
+SG Clients attempt to connect to this concentrator through plain (unsecured)
+tunnel connections.
+For more information, refer to “Configuring an Application Delivery
+Network” in Volume 5: Advanced Networking.
+
+Downgrading an ADN Network
+To downgrade your network, reverse the steps you did to upgrade. Note that any
+attempt to enable tunnel security on a down-versioned branch fails and the
+connection is closed.
+
+Policy
+❐
+
+To support Application Delivery Networks (ADN):
+adn.server.optimize(yes|no|byte_cache|compress)
+adn.server.optimize.optimization-setting(yes|no)
+adn.server.optimize[optimization-settings](yes|no)
+adn.server.optimize.inbound(yes|no|byte_cache|compress)
+adn.server.optimize.inbound.optimization-setting(yes|no)
+adn.server.optimize.inbound[optimization-settings](yes|no)
+
+24
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+adn.server.optimize.outbound(yes|no|byte_cache|compress)
+adn.server.optimize.outbound.optimization-setting(yes|no)
+adn.server.optimize.outbound[optimization-settings](yes|no)
+adn.connection.dscp(dscp_value)
+
+The following CPL syntax is being deprecated in favor of the ADN tunnel
+properties:
+socks.allow_compression(yes|no)
+socks_gateway.request_compression(yes|no|default)
+
+You can use the deprecated syntax, but you will receive a warning.
+Note: If you use SOCKS compression, convert the configuration from
+SOCKS to ADN. At this point the improved compression and much more
+flexible ADN policy becomes available.
+
+Related Documentation
+❐
+
+Volume 5: Advanced Networking
+
+DSCP
+Information for Upgrading from 4.2.x
+On a new or upgraded system, DSCP behavior is not changed (per-hop behavior
+for an ADN packet cannot be set separately). Any previous settings are
+maintained.
+On an ADN network, DSCP behavior does not change until both the branch and
+data center nodes are upgraded; the adn.connection.dscp property then takes
+effect and controls the dscp value sent and received in the ADN tunnel. When
+both the branch and data center nodes are upgraded, the server.connection.dscp
+setting (which is set on the branch) is enforced on the data center node.
+The values for adn.connection.dscp and server.connection.dscp are
+configurable.
+
+Downgrade Behavior
+The adn.connection.dscp property is ignored.
+
+Related Documentation
+❐
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+❐
+
+Volume 10: Content Policy Language Guide
+
+Configuration > ADN > Tunneling > Network
+Information for Upgrading from 4.2.xor Higher
+The following features have upgrade implications in SGOS 5.3:
+❐
+
+“ TCP Window Size”
+
+25
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+❐
+
+“ Reflect Client IP”
+
+TCP Window Size
+SGOS 5.3 offers a new option for ADN Tunnel TCP Window Size: Automatically
+adjusted. The existing ADN window size setting is preserved upon upgrading to
+5.3, as follows:
+❐
+
+If the window size was set to the default value (64K) in a pre-5.3 version, the
+Automatically adjusted setting will be selected after upgrading to 5.3.
+
+❐
+
+If the window size was manually set to a different value in a pre-5.3 version,
+this value will be entered into the Manual override field.
+
+Related Documentation
+❐
+
+Volume 5: Advanced Networking, Chapter 2
+
+Reflect Client IP
+After upgrading to 5.3, the reflect client IP system setting will be disabled unless
+all of the proxy services have enabled the Reflect Client IP setting. Upon upgrading
+to 5.3, policy will be created for the services that have client IP reflection enabled.
+For example, if the HTTP and FTP proxies have client IP reflection enabled, the
+following policy is created:
+define condition __ReflectClientIPUpgrade
+service.name="HTTP"
+service.name="FTP"
+end condition __ReflectClientIPUpgrade
+<Proxy>
+condition= __ReflectClientIPUpgrade
+
+reflect_ip(client)
+
+; Rule 1
+
+Configuration > ADN > Byte Caching
+5.3-Specific Information
+In SGOS 5.3, the byte cache is not cleared when the software or hardware is reset;
+it has a persistent byte cache.
+Blue Coat recommends that before downgrading from SGOS 5.3 to earlier
+versions, you should clear the byte cache with the clear-cache byte-cache CLI
+command. If you don’t do this, the persistent byte cache will be preserved after
+downgrading.
+Because 5.3 does not support the byte cache protocol used in earlier SGOS
+versions, ProxySG devices running 5.3 that connect to ProxySGs running 5.2 or
+5.1.4 will be limited to gzip compression only.
+
+Related Documentation
+❐
+
+26
+
+Volume 5: Advanced Networking, Chapter 2
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Configuration > Services > Management Services
+5.3-Specific Information
+SGOS 5.3 adds a new console service.
+
+SNMP Console
+SGOS 5.3 offers a console service for SNMP. When upgrading to SGOS 5.3, a
+default SNMP service will be created in the services framework, with a listener on
+the standard SNMP port (161). If SNMP was enabled at the time of upgrade, the
+listener will be enabled.
+When downgrading from SGOS 5.3 to a pre-5.3 version, the ProxySG will revert to
+using the old SNMP configuration (the one that was used before upgrading to
+5.3). The services framework will produce three debug exceptions which will
+generate event log entries, but not cause any operational problems.
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services, Chapter 2
+
+Configuration > Services > Proxy Services
+Information for Upgrading from 4.2.x
+Starting in SGOS 5.1, the Configuration > Services module was reworked for
+increased functionality, and proxy settings have moved from the Services tab to
+the Proxy Settings tab. New or changed features on the Services tab in SGOS 5.1 are:
+❐
+
+"Cache-Hit Behavior" on page 27
+
+❐
+
+"Cached Objects" on page 28
+
+❐
+
+"Services Framework" on page 28
+
+❐
+
+"Bypass Lists" on page 29
+
+❐
+
+"Restricted Intercept" on page 30
+
+Cache-Hit Behavior
+The virus_detected policy condition now generates an event log for cache hits,
+cache misses, and non-cacheable objects when a virus is found. If this behavior is
+not needed in your environment, you can create an access-log facility to report the
+URL, client IP address, and the virus-detected fields. The s-action access-logging
+field identifies the type of action taken to process the request and can distinguish
+between cache hits and cache misses. Reporter can be used to generate various
+reports.
+
+Downgrade Behavior
+If you downgrade to a version lower than SGOS 5.2.x, the virus_detected policy
+condition is available for cache-miss transactions only.
+
+27
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services
+
+Cached Objects
+Objects (except replacement objects from the ICAP server) that are cached under
+prior SGOS releases (SGOS 3.2.x, SGOS 4.1.x, SGOS 4.2.x, SGOS 5.1.x, and 5.2.x) of
+SGOS remain usable on upgrade to SGOS 5.3.
+
+Downgrade Behavior
+Objects cached under SGOS 5.3.x are not usable if the SG appliance system is
+downgraded to any prior SGOS version. In case of an unusable object, the object is
+fetched again from the Origin Content Server (OCS.)
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services
+
+Services Framework
+Starting in SGOS 5.1, the services framework (the infrastructure used to manage
+proxy services) has been revamped to, among other things, support multiple
+listeners and ports for each service.
+New features in services include:
+
+28
+
+❐
+
+Multiple Listeners Per Service: A proxy service is comprised of one or more
+listeners. Each listener can be configured to intercept a particular destination
+IP subnet and port range. This provides considerable power in intercepting
+specific application data streams and protocols on the network.
+
+❐
+
+Port Ranges: A listener can now contain a port range. Since a service can have
+multiple listeners, many port ranges can be used for a particular service.
+
+❐
+
+Subnet Ranges: A listener can match:
+•
+
+All traffic
+
+•
+
+Only traffic that is not destined to the SG appliance (Transparent)
+
+•
+
+Traffic specifically destined to the SG appliance (Explicit)
+
+•
+
+Traffic destined to a particular IP address or subnet
+
+❐
+
+Default Service: The default service matches all TCP traffic not otherwise
+matched by other service listeners. This provides the option to intercept all
+TCP traffic on the network so it can be accelerated and controlled by enforcing
+company policy on the traffic.
+
+❐
+
+Service Names in Policy: Each proxy service now requires a name. This name
+can contain spaces and can be used as a token in policy. This provides an easy
+mechanism to identify particular traffic flows in policy.
+
+❐
+
+Static Bypass: The static bypass is now configured under the Proxy Services
+and bypasses both TCP and UDP traffic.
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+❐
+
+Separation of Console and Proxy Services: The console and proxy services are
+now configured using different commands.
+•
+
+To configure a console service from the CLI, use the console-services
+command.
+
+•
+
+To configure a proxy service from the CLI, use the proxy-services
+command.
+
+The services have separate Management Console pages (Configuration >
+Services > Proxy Services, Configuration > Services > Console Services).
+
+Upgrade Behavior
+On upgrade to 5.x, the old services configuration is upgraded to the new service
+framework. The new services name contains the old services type and generates a
+name with one of the following formats:
+❐
+
+If more than one service with identical properties exists, one service is created
+with multiple listeners when upgraded. For example, Yahoo IM has two
+service ports in SGOS 4.2, one on 5050 and one on 5101. Instead of creating
+two services, one service is created with two listeners.
+
+❐
+
+If multiple proxies of the same type exist, the upgrade uses the format
+<proxy_name>-<number>. For example, if you had two HTTP services, the
+new names are HTTP-1 and HTTP-2.
+
+❐
+
+On upgrade, only new SGOS 5.x services are added. Services that were
+purposefully deleted in SGOS 4.2.x are not re-added in the upgrade.
+
+Most attributes directly translate to the new services framework. The exceptions
+are:
+❐
+
+The tunnel proxy attribute detect protocol is preserved on upgrade; the default
+behavior on a new system is disabled.
+
+❐
+
+The transparent and explicit attributes are removed.
+
+❐
+
+The send-client-ip attribute in SGOS 4.2 maps directly to reflect-client-ip in SGOS
+5.x.
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services
+
+Bypass Lists
+If you upgrade to SGOS 5.x from SGOS 4.x, entries from the central and local
+bypass lists are migrated to the static bypass list. Because the static bypass list
+does not support listing gateways, any central or local bypass entries that
+included a gateway are converted to static route entries in the static route table.
+The converted static route entries are appended after the existing static route
+entries. Duplicate static route entries are silently ignored.
+All traffic leaving the SG appliance is affected by the static route entries created
+from the SGOS 4.x bypass lists, not just traffic that matches that particular bypass
+list entry.
+
+29
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Several parameters of bypass lists are renamed in SGOS 5.x:
+is now server-threshold. This contains the
+maximum number of client entries for a particular server before all client
+entries are collapsed into a wildcard entry that bypasses all clients going to
+that particular server. The default value remains at 16; the range is 1 to 256.
+
+❐
+
+server_bypass_threshold
+
+❐
+
+max_dynamic_bypass_entry
+
+is now max-entries. This defaults to 10000; the
+
+valid range is 100 to 50000.
+❐
+
+dynamic_timeout is now timeout. This defaults to 60 minutes and has a range
+between 1 and 86400 minutes.
+
+Downgrade Behavior
+SOGS 5.x settings are not copied back to SGOS 4.x on a downgrade. Previously
+existing SGOS 4.x settings will be used, or default settings are used if no previous
+SGOS 4.x configuration exists.
+CLI commands that are no longer used in SGOS 5.x include:
+#show bypass-list <cr>
+#(config) bypass-list central-path <url> <cr>
+#(config) bypass-list local-path <url> <cr>
+#(config) bypass-list no central-path <cr>
+#(config) bypass-list no local-path <cr>
+#(config) bypass-list no notify <cr>
+#(config) bypass-list no subscribe <cr>
+#(config) bypass-list notify <cr>
+#(config) bypass-list poll-now <cr>
+#(config) bypass-list subscribe <cr>
+#(config) inline bypass-list central <eof marker> <cr>
+#(config) inline bypass-list local <eof marker> <cr>
+#(config) load bypass-list central <cr>
+#(config) load bypass-list local <cr>
+
+Related Documentation
+❐
+
+Volume 1: Getting Started, Chapter 3
+
+Restricted Intercept
+Information for Upgrading from 4.2.x
+With SGOS 5.2.x, a new tab has been added to the Configuration > Services menu.
+Restricted Intercept allows you to create a list of IP addresses that are intercepted,
+while allowing all other IP addresses to be bypassed. The Restricted Intercept List
+is useful in a rollout, prior to full production, where you only want to intercept a
+subset of the clients. After you are in full production mode, you can disable the
+Restricted Intercept List.
+The Restricted Intercept List is also useful when troubleshooting an issue, because
+you can reduce the set of systems that are intercepted.
+
+Downgrade Behavior
+This feature is new in SGOS 5.2.x. On a downgrade, the restricted intercept list is
+not available.
+
+30
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Related Documentation
+❐
+
+Volume 1: Getting Started
+
+❐
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+❐
+
+Volume 10: Content Policy Language Guide
+
+Configuration > SG Client
+Information for Upgrading from 4.2.x
+In SGOS 5.1.x, the SG Client was introduced. The SG Client enables users to
+benefit from accelerated application delivery directly to their desktops. This
+allows mobile users or users in small branch offices—where it might not be costjustifiable to deploy an acceleration gateway—to have improved networked
+application access.
+
+Upgrade Behavior
+To use the SG Client, one ProxySG appliance must be configured as the Client
+Manager. Upgrading the Client Manager to SGOS 5.3 does not upgrade installed
+clients. Upgrading the ADN manager or the ADN data center concentrators has
+no effect on clients as long as the client-related settings are not changed.
+When upgrading from SGOS 4.x to SGOS 5.3, you must install the client license
+and configure the ADN Manager and Client Manager as discussed in the chapter
+on the SG Client in Volume 4: Securing the Blue Coat ProxySG Appliance.
+
+Related Documentation
+❐
+
+Volume 5: Advanced Networking
+
+❐
+
+Blue Coat SG Client Release Notes
+
+Configuration > SSL
+The SSL module includes the following changes in default behavior:
+❐
+
+"CA Certificate Lists" on page 31
+
+❐
+
+"Device Profiles" on page 32
+
+❐
+
+"SSL-Verify Server" on page 32
+
+❐
+
+"SSL Detection" on page 32
+
+CA Certificate Lists
+5.3-Specific Information
+In SGOS 5.3.x, the SSL Proxy trusts all client Certificate Authority certificates in
+the CA Certificate List (CCL); previously, the default was to trust none. When
+upgrading to SGOS 5.3.x from 4.2.x or 5.2.x, the default will be set to all, allowing
+policies that require client certificates to function properly after upgrade.
+
+31
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+If you upgrade from SGOS 5.2 to 5.3, downgrade back to 5.2 and then modify
+CCLs, and then upgrade back to 5.3, the changes made to CCLs in 5.2 will not be
+reflected in 5.3. You will have to change the CCL configuration manually to reflect
+5.2 changes.
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services, Chapter 12
+
+Device Profiles
+5.3-Specific Information
+Starting in SGOS 5.3.1, authentication realms now use device profiles for
+managing the SSL connection instead of the SSL client. If a realm has the verify
+server flag set to off, a new SSL device profile, default-no-verify, will be created
+during the upgrade process. If the verify server flag is on, the default SSL device
+profile will be used.
+
+Deprecated CLI
+The following CLI commands are deprecated in realms with SSL support:
+ssl-verify-server
+ssl-verify-agent
+
+In 5.3, the following CLI command should be used:
+ssl-device-profile <profile-name>
+
+Related Documentation
+❐
+
+Volume 4: Securing the Blue Coat ProxySG Appliance, Appendix C
+
+SSL-Verify Server
+Information for Upgrading from 4.2.x
+In SGOS 5.2.x, server certificates are verified by default. The ssl-verify-server
+attribute under HTTP and the corresponding CLI and Management Console
+commands have been removed.
+If you are upgrading from SGOS 4.2.3 or later and have this flag set to no, policy is
+generated to restore pre-upgrade server certificate verification behavior. If the
+ssl-verify server attribute was set to yes in SGOS 4.2.3, no policy is generated.
+Generated policy is visible in the VPM as a new Server Certificate Validation object
+and negated version of Request Forwarded object.
+
+SSL Detection
+Information for Upgrading from 4.2.x
+Starting in SGOS 5.2.x, options to set the SSL protocol detection for HTTP
+CONNECT, SOCKS, and TCP Tunnels are no longer available.
+
+32
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+If these attributes were set to no in SGOS 4.2.x, policy is generated to maintain the
+pre-upgrade SSL detection behavior. If those attributes were set to yes in SGOS
+4.2.x, no policy is generated.
+Generated policy is visible in the VPM as a new Disable SSL detection object. Note
+that this VPM object is meant to accommodate upgrade scenarios only.
+The preferred way to control SSL detection and protocol detection in general is by
+using the per-service attribute for protocol detection under Configuration > Services
+> Proxy Services.
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services
+
+Configuration > Proxy Settings
+Refer to the following sections for upgrade/downgrade items related to proxy
+settings:
+❐
+
+"Streaming Media" on page 33
+
+❐
+
+"CIFS" on page 34
+
+❐
+
+"Trusted Destination IP" on page 35
+
+❐
+
+"User License Limits" on page 35
+
+Streaming Media
+5.3-Specific Information
+SGOS 5.3.x includes changes related to the following items:
+❐
+
+"New Syntax for Caching Objects" on page 33
+
+❐
+
+"WM-HTTP Streaming Media Proxy" on page 33
+
+New Syntax for Caching Objects
+SGOS 5.3 no longer uses the mms://localhost/file.wmv syntax for caching objects.
+This optimization was only useful on reverse proxies, when multiple hostnames
+or IP addresses in the request URL would all resolve to one of the ProxySG
+appliance’s IP addresses.
+After upgrading to 5.3, previously cached objects under a name such as mms://
+localhost/file.wmv are not usable. New client requests that would have
+previously used the cached copy now cause the appliance to fetch file.wmv and
+cache it under a name such as mms://host_or_ip>/file.wmv, where host or ip is
+based on the server URL returned by policy; it might be the same as the client’s
+request URL.
+
+WM-HTTP Streaming Media Proxy
+Because of changes implemented in the wm-http streaming media proxy in 5.3,
+you may experience protocol dialect incompatibility issues if a ProxySG running
+5.3 is forwarding traffic to a ProxySG running older SG versions, and the
+
+33
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+upstream SG has a non-default (0 is the default) max-fast-bandwidth
+configuration setting for Windows Media clients. In this situation, client HTTP
+requests fail for live or video-on-demand streaming; this is not an issue for RTSP
+requests.
+There are several workarounds (in order of preference):
+❐
+
+Upgrade the ProxySG running the older SG version to version 5.3.
+
+❐
+
+Reset max-fast-bandwidth to 0 on the upstream ProxySG running a pre-5.3
+version.
+
+❐
+
+Disable http-handoff on the upstream ProxySG running a pre-5.3 version.
+
+❐
+
+Disable http-handoff on the downstream ProxySG running 5.3.
+
+Related Documentation
+❐
+
+Volume 3: Web Communication Proxies
+
+CIFS
+Information for Upgrading from 4.2.x
+The CIFS proxy on the SG appliance enables the SG appliance to improve
+performance, reduce bandwidth, and apply basic policy checks to clients using
+the CIFS protocol. This solution is designed for branch office deployments
+because network administrators can consolidate their Windows file servers (at the
+core office) instead of spreading them across the network.
+
+Upgrade Behavior
+Systems that are upgraded from versions of SGOS that do not have a CIFS proxy
+behave the same as new systems in that they receive a default set of CIFS services
+and settings. Existing services listening on the default CIFS TCP ports are not
+overwritten.
+
+Downgrade Behavior
+Downgrading to SGOS 4.x has no effect on the box, except that the CIFS proxy is
+not available. The next time the upgrade is done, the settings from the previous
+upgrade still exist.
+
+Related Documentation
+❐
+
+34
+
+Volume 2: Proxies and Proxy Services
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Trusted Destination IP
+Information for Upgrading from 4.2.x
+If, in your environment, a client can provide a destination IP address that the
+ProxySG appliance cannot determine or if the ProxySG determines an incorrect IP
+address, you can tell the ProxySG appliance to trust the client-provided IP
+address and not do a DNS lookup. This can improve performance (but potentially
+cause a security concern).
+
+Downgrade Behavior
+This feature is new in SGOS 5.2.x. On a downgrade, the trusted destination IP
+address option is not available.
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services
+
+User License Limits
+Information for Upgrading from 4.2.x
+Starting with SGOS 5.2.x, the number of users is enforced through model
+licensing. If you have more connections than your license permits, you can
+determine the overflow behavior. Connections beyond the limits can be bypassed,
+queued (waiting for a connection to drop off), or the licensed-user limit can be
+ignored. The default value is none.
+
+Downgrade Behavior
+This feature is new in SGOS 5.2.x. On a downgrade, the licensed-user limit
+overflow option is not available.
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services
+
+Configuration > Content Filtering
+Blue Coat DRTR
+5.3-Specific Information
+Secure DRTR connections, a new feature to SGOS 5.3, will be disabled after an
+upgrade from pre-5.3 versions.
+If secure DRTR connections was enabled in 5.3 and the device is then
+downgraded, the device will use unsecured DRTR connections in the
+downgraded version.
+
+Related Documentation
+❐
+
+Volume 7: Managing Content, Chapter 2
+
+35
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+SmartFilter Database Selection
+5.3-Specific Information
+SGOS 5.3 offers two database editions for SmartFilter: XL and SL. The XL edition
+is the default, and is compatible with SmartFilter 4.2 or later. The XL edition
+provides a number of new categories, as well as some changes to existing
+categories that are not available in the SL edition.
+When you upgrade from pre-5.3 versions that only supported the SL database
+edition, the default changes to the XL database edition. To defer policy changes,
+re-select the SL edition database.
+When downgrading to 5.2.1 or earlier or 4.2.5 or earlier versions, the ProxySG will
+use the SL database. When downgrading to 5.2.2.5-5.2.2.7 or 4.2.6.1-4.2.6.2
+(precisely), the ProxySG will use the XL database.
+Note that any time the database is changed — whether by user gesture or
+downgrade/upgrade — there will be no immediate change in behavior. When the
+database edition has been changed, the next subsequent download will always be
+a full-size download; incremental download between SL and XL editions is not
+possible.
+
+Related Documentation
+❐
+
+Volume 7: Managing Content, Chapter 2
+
+Configuration > Authentication
+Refer to the following sections for authentication-related upgrade/downgrade
+considerations:
+
+36
+
+❐
+
+"Encrypted Passwords" on page 37
+
+❐
+
+"SSH Console" on page 37
+
+❐
+
+"Certificate Realms" on page 37
+
+❐
+
+"SiteMinder" on page 38
+
+❐
+
+"User Management" on page 38
+
+❐
+
+"Permitted Errors, Guest Authentication, and Default Groups" on page 39
+
+❐
+
+"Configuration Options" on page 40
+
+❐
+
+"New Realms" on page 41
+
+❐
+
+"RADIUS Realms" on page 41
+
+❐
+
+"Upgrading the BCAAA Authentication Service" on page 42
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Encrypted Passwords
+5.3-Specific Information
+Although the format of encrypted passwords has changed in SGOS 5.3, the
+normal upgrade/downgrade process handles the encrypted passwords without a
+problem. However, if you save the configuration with the show conf command
+before upgrading to SGOS 5.3, and then later replay the saved configuration after
+upgrading, encrypted passwords in that saved configuration won’t work.
+Likewise, if you save the configuration in 5.3, downgrade to a pre-5.3 version, and
+replay the configuration, the encrypted passwords won’t work in the earlier
+version.
+To avoid this potential problem, Blue Coat recommends that you generate a new
+show conf output after upgrading or downgrading. This is a recommended best
+practice, since a show conf generated on one version can have unexpected results
+when replayed on a different version.
+
+SSH Console
+5.3-Specific Information
+SSH client keys that are generated in SGOS 5.3 will be different than those
+generated in earlier versions. For example, if you upgrade to 5.3, regenerate the
+SSH client keys, and then downgrade to a pre-5.3 version, the keys in the two
+versions will be different. This is only a problem if an SSH client had permanently
+added a client key to its local host key file. In this case, SSH clients who were
+connecting to a 5.2 system would need to remove and re-add the key when
+connecting to the 5.3 system (and vice versa).
+
+Related Documentation
+❐
+
+Volume 2: Proxies and Proxy Services, Chapter 2
+
+Certificate Realms
+5.3-Specific Information
+SGOS 5.3.x includes the ability to set the authorization realm and to determine the
+authorization username.
+Upon upgrading to SGOS 5.3, certificate realms configured with local
+authorization will have a default authorization user name of $(cs-username) to
+correspond to the relative user name they currently are using. Certificate realms
+configured with LDAP or no authorization will default to using the fully qualified
+domain name as the authorization user name.
+When downgrading from SGOS 5.3, the authorization user name configuration
+will be ignored and the certificate realm will revert to its old behavior of using the
+relative or full user name for authorization, as appropriate.
+
+Related Documentation
+❐
+
+Volume 4: Securing the Blue Coat ProxySG Appliance, Chapter 5
+
+37
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+SiteMinder
+5.3-Specific Information
+SGOS 5.3.x includes the ability to set the SiteMinder authorization realm and to
+determine the authorization username.
+Upon upgrading to SGOS 5.3, existing SiteMinder realms will default to
+authorizing against themselves and will use the fully qualified domain name as
+the authorization user name.
+When downgrading from SGOS 5.3, the new SiteMinder authorization
+configuration will be ignored and the SiteMinder realm will authorize against
+itself.
+
+Related Documentation
+❐
+
+Volume 4: Securing the Blue Coat ProxySG Appliance, Chapter 12
+
+User Management
+Information for Upgrading from 4.2.x
+Starting with SGOS 5.2, management of users who authenticate to the ProxySG
+appliance is enhanced. Previously, users were authenticated without a concept of
+logging in or logging out of the SG appliance.
+A user is considered logged in when first authenticated to the SG appliance,
+allowing different ways of managing users and controlling access to resources. A
+login is the combination of a unique IP address with a unique username in a
+unique realm. For a specific realm, a user is only considered to be logged in once
+from a given workstation, even if using multiple user agents.
+You can browse the users logged into the SG appliance. You can also filter the
+displayed users by username pattern, by IP address subnet, and by realm.
+Prior to SGOS 5.2, a single cache credentials value determined how long
+credentials, surrogate credentials (authentication cookie or IP address), and
+authorization data were trusted. With SGOS 5.2.1 and higher, three refresh times
+are available.
+Prior to SGOS 5.2, one-time passwords only could be used once; to mimic that
+behavior, set the credential refresh time for the realm to 1.
+
+Policy
+
+38
+
+❐
+
+user.login.log_out(yes)
+
+❐
+
+user.login.log_out_other(yes)
+
+❐
+
+client.address.login.log_out_other(yes)
+
+❐
+
+user.login.count
+
+❐
+
+client.address.login.count
+
+❐
+
+user.login.time
+
+❐
+
+user.login.address
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+❐
+
+authenticate.authorization_refresh_time(x)
+
+❐
+
+authenticate.credential_refresh_time(x)
+
+❐
+
+authenticate.surrogate_refresh_time(x)
+
+❐
+
+authenticate.credentials.address(x.x.x.x)
+
+Downgrade
+If the new features are specified in policy, the policy fails to compile on a
+downgrade.
+
+Permitted Errors, Guest Authentication, and Default Groups
+Information for Upgrading from 4.2.x
+Through policy, you can configure several new features in authentication:
+❐
+
+Attempt user authentication while permitting specific authentication or
+authorization errors.
+
+❐
+
+Allow a user to log in as a guest user.
+
+❐
+
+Set up default groups with any realm, allowing you to assign users to groups
+and use those groups in reporting and subsequent authorization decisions.
+
+Policy
+New policy gestures include:
+❐
+
+authenticate.tolerate_error
+
+❐
+
+authorize.tolerate_error
+
+❐
+
+user.authentication_error
+
+❐
+
+user.authorization_error
+
+❐
+
+authenticate.guest
+
+❐
+
+authorize.add_group
+
+❐
+
+user.is_guest
+
+Upgrade Behavior
+The "authenticated" condition previously evaluated to true only if both
+authentication and authorization succeeded. It now indicates whether the user is
+authenticated. If the authentication realm supports split authentication and
+authorization or is a valid authorization realm, it is possible for authentication to
+succeed and authorization to fail.
+
+Downgrade Behavior
+If the new features are specified in policy, the policy fails to compile on a
+downgrade because those features do not exist in earlier versions.
+
+39
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Configuration Options
+Information for Upgrading from 4.2.x
+Starting in SGOS 5.2.x, a number of realm configuration options have been
+enhanced and reorganized.
+❐
+
+Cache Credentials
+
+has been replaced by separate refresh times that better
+manage how credentials, surrogate credentials, and authorization data is
+managed.
+
+•
+
+Credential Refresh
+
+•
+
+Surrogate Refresh
+
+•
+
+Authorization Refresh
+
+•
+
+Inactivity Timeout
+
+These settings are all initialized with the value from the original Cache
+Credentials setting.
+❐
+
+The global virtual URL has been replaced; each realm must set its virtual URL
+separately.
+
+❐
+
+The global setting to determine whether cookies used in authentication are
+persistent cookies or session cookies has been replaced. Each realm now
+manages this setting separately.
+
+CLI Changes
+❐
+
+In each realm, the CLI command cache-duration has been replaced with
+commands to set the refresh time for credentials, surrogates and authorization
+data.
+
+❐
+
+The majority of global transparent-proxy-auth commands (all except
+method) have been replaced with equivalent settings in each realm.
+
+Upgrade Behavior
+❐
+
+Each realm that does not have an existing virtual URL is set to the default
+virtual URL.
+
+❐
+
+Each realm’s cookie behavior (persistent or session cookies) is inherited from
+the old global option.
+
+Downgrade Behavior
+New settings are ignored and the Cache Credentials value is set to the Surrogate
+Refresh time.
+
+Related Documentation
+❐
+
+40
+
+Volume 4: Securing the Blue Coat ProxySG Appliance
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+New Realms
+Information for Upgrading from 4.2.x
+Beginning with SGOS 5.2.x, two new realms are supported: XML and Novell
+Single Sign-On (SSO). (Both the XML and Novell SSO realms are supported in
+SGOS 4.2.4, but not in SGOS 5.1.x.)
+❐
+
+Novell SSO—This realm is an authentication mechanism that provides single
+sign-on authentication for users who authenticate against a Novell eDirectory
+server. The mechanism uses the Novell eDirectory Network Address
+attribute to map the user's IP address to an LDAP Fully Qualified Domain
+Name (FQDN).
+
+❐
+
+XML— This realm allows you to integrate SGOS with the authentication/
+authorization protocol if you are using an authentication or authorization
+protocol that is not natively supported by Blue Coat. This realm requires that
+you create an XML realm responder to handle XML requests, which requires
+knowledge of the SOAP protocol. To this end, a SOAP appendix has been
+created in Volume 4: Securing the Blue Coat ProxySG Appliance.
+
+Downgrade Behavior
+The Novell SSO and the XML realms are supported in SGOS 4.2.4.x. Neither realm
+is available in SGOS 5.1.x. If you downgrade to a version that does not support
+the realm, the realm and its settings are not available.
+
+Related Documentation
+❐
+
+Volume 4: Securing the Blue Coat ProxySG Appliance
+
+RADIUS Realms
+Information for Upgrading from 4.2.x
+RADIUS realms can specify the character set to encode the user's credentials with
+when communicating with the RADIUS server. This is a new configuration option
+in SGOS 5.2.2 and is not available in previous releases.
+A character set is a Multipurpose Internet Mail Extension (MIME) charset name.
+Any of the standard charset names for encodings commonly supported by Web
+browsers can be used. The default is Unicode:UTF8.
+
+Downgrade Behavior
+If you downgrade to a previous release then the credentials are sent as UTF8
+encoded.
+
+41
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+COREid Authentication
+5.3-Specific Information
+When the Oracle COREid 6.5 WebGate server software is upgraded to Oracle
+COREid 7.0, the single sign-on feature might stop working even if the
+IPValidation value in the WebGate configuration file (WebGateStatic.lst) is later
+set to false. The workaround is to uninstall and reinstall the Oracle COREid 7.0
+WebGate software, and set IPValidation to false. Then restart the COREid Access
+server and the IIS server.
+
+Upgrading the BCAAA Authentication Service
+5.3-Specific Information
+SGOS 5.2.x and higher use version 120 of the BCAAA authentication service, as does
+SGOS 4.2.3.x and higher. SGOS 5.1.x uses BCAAA version 110; you should upgrade the
+BCAAA version when upgrading the SG appliance, even if you are already using version
+120, to pick up any bug fixes and new functionality.
+Note: BCAAA version 120, along with SGOS 5.2.x and higher, can be used to
+determine whether the user attempted to log in to a trusted domain. Prior
+versions do not have this functionality.
+
+BCAAA is distributed as a zip file or UNIX shell script, to be installed on a
+Microsoft® Windows® system or a Solaris™ system. The zip file to download the
+BCAAA service is posted on the software download page at
+http://download.bluecoat.com/release/SGOS5_3/index.html.
+
+Using Multiple Versions of the BCAAA Service
+You can run multiple versions of the BCAAA service. Depending on the versions of
+BCAAA that you want to run, you might have to install different versions of the service.
+Each version of the BCAAA service that you want to run must reside on your system.
+Note: You cannot use an older version or a newer version than your proxy
+expects. For example, you must install BCAAA version 120 for SGOS 4.2.3.x or
+higher and SGOS 5.2.1 or higher.
+
+Table 3–1 Supported Versions of the BCAAA Service
+SGOS Version
+
+BCAAA Version Supported
+
+SGOS 3.2.6
+
+Upgrade to BCAAA version 99
+or higher
+
+SGOS 4.1.x
+
+Upgrade to BCAAA version 99
+or higher
+
+SGOS 4.2
+
+100 (Download from:
+
+http://download.bluecoat.com/release/SGOS4/index.html
+
+42
+
+Chapter 3: Feature-Specific Upgrade Behavior
+Table 3–1 Supported Versions of the BCAAA Service (Continued)
+SGOS Version
+SGOS 4.2.2
+
+BCAAA Version Supported
+110 (Download from
+
+http://download.bluecoat.com/release/SGOS4/index.html
+SGOS 4.2.x, where
+x>=3
+
+120 Download from
+
+SGOS 5.1.1
+SGOS 5.1.2
+
+100 (Download from
+
+SGOS 5.1.3
+SGOS 5.1.4
+
+110 (Download from
+
+SGOS 5.2.x
+
+120 (Download from
+
+http://download.bluecoat.com/release/SGOS4/index.html
+http://download.bluecoat.com/release/SGOS5/index.html)
+http://download.bluecoat.com/release/SGOS5/index.html)
+http://download.bluecoat.com/release/SGOS5_2/index.html)
+
+SGOS 5.3.1
+
+120 (Download from
+
+http://download.bluecoat.com/release/SGOS5_3/index.html)
+
+Install the lowest version of the BCAAA service first and the highest version of
+BCAAA last, allowing each version to uninstall the previous version. This leaves
+behind the bcaaa.ini and bcaaa-nn.exe files for each version.
+
+Notes
+❐
+
+Only one listening port is used, no matter how many versions you are
+running. The BCAAA service hands off the connection to the appropriate
+BCAAA version.
+
+❐
+
+Installation instructions for BCAAA are located in Volume 4: Securing the Blue
+Coat ProxySG Appliance, accessible through WebPower account access.
+
+❐
+
+The BCAAA service cannot be installed on Windows NT.
+
+❐
+
+The firewall on Windows systems must be disabled for the BCAAA service to
+work. If the firewall is enabled, the SG appliance won't be able to connect to
+BCAAA.
+
+Related Documentation
+❐
+
+Volume 4: Securing the Blue Coat ProxySG Appliance
+
+Configuration > External Services
+See the following sections for information related to changes to the Configuration >
+External Services page:
+❐
+
+"Secure ICAP" on page 44
+
+❐
+
+"ICAP Feedback" on page 44
+
+❐
+
+"ICAP Scanning" on page 46
+
+43
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Secure ICAP
+5.3-Specific Information
+SGOS 5.3 supports secure ICAP connections.
+
+Upgrade Behavior
+On upgrade from a pre-5.3 SGOS version:
+❐
+
+The settings for insecure scanning will be inherited.
+
+❐
+
+When upgrading the SG will inspect the service URL:
+icap://<ICAP serverIP>:<port>.
+
+❐
+
+If a port number is specified in the service URL, it will be stripped from the
+URL and saved in the registry as “port.” The service URL becomes:
+icap://<ICAP Service IP>
+
+❐
+
+If a port number is not present in the service URL, the value 1344 will be saved
+in the registry as “port.”
+
+Downgrade Behavior
+Before downgrading to a pre-5.3 SGOS version, it’s important to disable all secure
+ICAP settings:
+❐
+
+In the Edit ICAP Service dialog box, unselect the checkbox This service supports
+secure ICAP connections.
+
+❐
+
+Remove all policy rules containing request.icap_service.secure_connection.
+
+The following problems will occur if you do not disable the secure ICAP settings:
+❐
+
+Policy compilation will fail if it contains the rule
+request.icap_service.secure_connection. You will need to manually fix this
+by deleting the rules.
+
+❐
+
+The ICAP service URL will contain the URL without the port number. This
+isn’t a problem if the default port (1344) is used. If a non-default port is used,
+you will need to manually re-enter the port number.
+
+Related Documentation
+❐
+
+Volume 7: Managing Content, Chapter 3
+
+ICAP Feedback
+Information for Upgrading from 4.2.x
+A new tab, ICAP Feedback, allows you to select either patience pages or data
+trickling, which is new for SGOS 5.2.x. Data trickling allows some or most of the
+HTTP object data to continue to the client while the ICAP scan occurs. This is
+primarily designed for non-interactive (non-Web browser based) HTTP traffic.
+For interactive (browser-based) traffic, you can employ data trickling or patience
+pages.
+
+44
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Upgrade Behavior
+On upgrade from a pre-5.2 SGOS version:
+❐
+
+For a non-interactive client, feedback is set to none.
+
+❐
+
+For an interactive client:
+•
+
+If no ICAP RESPMOD service is found in a pre-SGOS 5.2.x configuration,
+interactive feedback is set to none.
+
+•
+
+If an ICAP RESPMOD service is found in a pre-SGOS 5.2 configuration
+and all ICAP RESPMOD services were set to patience-page, interactive
+feedback is set to patience-page. The delay is set to the minimum of the
+delays configured on all ICAP services.
+To set patience-page feedback in the upgraded system, enable patience
+page for each ICAP service prior to the upgrade. Alternatively, use the CLI
+to do this after upgrading.
+
+❐
+
+VPM: Any existing ICAP Patience Page objects are converted into the Return
+ICAP Feedback object. The Interactive section within the Return ICAP
+Feedback object is derived from the older ICAP Patience Page object.
+
+❐
+
+VPM: Existing older versions of the ICAP Request Service objects and ICAP
+Response Service objects with the option "Use ICAP request/response service"
+selected are upgraded to the newer version of ICAP Request/Response
+Service object with the same option selected.
+
+❐
+
+VPM: Older version of the ICAP Request Service objects and ICAP Response
+Service objects with the option Do not use any ICAP service selected are
+upgraded to the newer version of the ICAP Request/Response Service object
+with the same option selected.
+
+Downgrade Behavior
+❐
+
+VPM: Any existing Return ICAP Feedback objects are converted into ICAP
+Patience Page objects and the Interactive section within the Return ICAP
+Feedback object is used to create the ICAP Patience Page object.
+
+❐
+
+VPM: Any existing newer version of the ICAP Request Service objects and
+ICAP Response Service objects with the option Use ICAP request/response
+service selected are downgraded to the older version of ICAP Request/
+Response Service object with the same option and the service selected is the
+same as the first item selected in the pre-downgrade object.
+
+❐
+
+VPM: Any existing newer version of the ICAP Request Service objects and
+ICAP Response Service objects with the option Do not use any ICAP service
+selected are downgraded to the older version of the ICAP Request/Response
+Service object with the same option selected.
+
+Deprecated CLI
+The following command has been deprecated for ICAP.
+SGOS# (config icap services service_name) patience-page seconds
+
+45
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Deprecated Policy
+The following policy has been deprecated for ICAP.
+Table 3–2 Deprecated Policy
+
+Deprecated Policy
+
+Replacement Policy
+
+patience_page(delay)
+
+response.icap_feedback.interactive(patie
+nce_page, 10)
+
+patience_page(no)
+
+response.icap_feedback.interactive(no)
+
+force_patience_page(yes)
+
+response.icap_feedback.force_interactive
+(yes)
+
+force_patience_page.useragent (yes)
+
+response.icap_feedback.force_interactive
+.user-agent (yes)
+
+force_patience_page[useragent, extension, contenttype](yes)
+
+response.icap_feedback.force_interactive
+[user-agent, extension, contenttype](yes)
+
+force_patience_page(useragent, extension)
+
+response.icap_feedback.force_interactive
+(user-agent, extension)
+
+VPM-Specific Deprecated Objects
+❐
+
+The ICAP Patience Page object generates patience_page( )
+
+Related Documentation
+❐
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+ICAP Scanning
+Information for Upgrading from 4.2.x
+In SGOS 5.2.x and higher, you can no longer create ICAP services named
+fail_open and fail_closed. If you are upgrading, you can continue to use the
+names.
+In CPL, you can continue to have ICAP services named fail_open and
+fail_closed as long as those names are either the only service specified or not the
+last service named if more than one service is specified in a failover sequence. To
+specify a service named fail_over or fail_closed as the last service in a
+sequence, you must follow the sequence with a failure behavior directive. For
+example:
+response.icap_service(first_service, fail_open, fail_closed)
+
+Here, fail_open is interpreted as a service name (since it is not the last token) and
+fail_closed is taken as a failure directive, since it is the last token.
+
+Downgrade Behavior
+A policy syntax error is generated if policy contains an ICAP failover sequence of
+more than one service or group.
+
+46
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Before downgrading, change any ICAP failover sequence containing more than
+one service to a sequence of one service.
+
+Related Documentation
+❐
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+❐
+
+Volume 7: Managing Content
+
+❐
+
+Volume 10: Content Policy Language Guide
+
+Configuration > Forwarding and SOCKS Gateways
+Information for Upgrading from 4.2.x
+In SGOS 5.2, support for groups (including load balancing and host affinity) has
+been added to the SOCKS gateways. In addition, some changes were made to the
+forwarding group structure to match the new SOCKS gateway groups.
+Note: The retention of deprecated CLI and installable list commands and
+command options ensures that older configurations continue to work after an
+upgrade. The upgrade introduces new capabilities without removing older
+ones.
+
+The new load balancing and host affinity capabilities in the forwarding and
+SOCKS gateways are disabled by default after an upgrade. The other setting
+for host affinity will be none in all cases.
+
+Changes to Forwarding and SOCKS Gateways
+❐
+
+Empty groups are allowed, can be created, and are not automatically deleted.
+
+❐
+
+Hosts can become members of more than one group.
+
+❐
+
+Load balancing and host affinity commands have been changed.
+
+❐
+
+Many CLI commands have been deprecated in favor of commands that better
+reflect the new functionality.
+
+❐
+
+Directives have been changed to match the new CLI.
+
+Upgrade Behavior
+On upgrade, the forwarding and SOCKS gateway configurations are updated to
+match the new forwarding/SOCKS behavior.
+After an upgrade, SOCKS gateway group names may be used in the socks_gateway
+policy. The introduction of new forwarding host or group names or new SOCKS
+gateway or group names into policy can cause problems when downgrading as
+the policy might not compile.
+In SGOS 5.2 and higher, when you create a forwarding alias, a socks gateway, or a
+health check through the CLI or the Management Console, you can use any
+printable character in the name except for back quotes (`), colons (:), double
+quotes ("), and spaces. Note that non-ASCII characters are legal.
+
+47
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+On an upgrade from SGOS 4.2.x, previously created alias names are transformed
+into legal alias names, using the following mappings:
+❐
+
+` becomes '
+
+❐
+
+: becomes %
+
+❐
+
+" becomes =
+
+❐
+
+space becomes _
+
+For example, if you used a string such as http://example.com as a forwarding
+alias, the alias is transformed to http%//example.com after upgrading from 4.2 to
+5.2 or higher.
+If the SGOS 4.2.x VPM policy references a forwarding alias or socks gateway alias
+that contains one of the four illegal characters, you will see warning messages the
+next time you try to install VPM policy after the upgrade. To fix the problem, edit
+each forwarding and SOCKS gateway object to delete the old, invalid alias name
+and replace it with the transformed alias name.
+If you created custom CPL code and this code contains a <Forward> layer that
+references forwarding or socks gateway aliases, edit the CPL code, replacing the
+old, invalid alias name with the transformed alias name.
+
+Downgrade Behavior
+On downgrade, the system reverts to the configuration that existed prior to the
+SGOS 5.2/5.3 upgrade. Any changes to the configuration are lost on downgrade.
+
+Related Documentation
+❐
+
+Volume 5: Advanced Networking
+
+Configuration > Health Checks
+Information for Upgrading from 4.2.x
+Starting in 5.2, health checks are now automatically created and deleted for
+forwarding hosts and groups, SOCKS gateways and groups, ICAP servers and
+service groups, Websense off-box servers and service groups, and DRTR. You can
+create additional health checks for any target host or create composite health
+checks that merge the results of other health checks. All health checks are now
+individually configurable. Policy conditions allow the state of any health check to
+be used in policy.
+Health checks are subject to forwarding and SOCKS gateway policy when
+appropriate. SSL certificate policy affects certain types of health checks.
+
+Changes
+
+48
+
+❐
+
+Health checks for the ICAP and Websense off-box services are no longer
+optional, but are automatically created and deleted as the service is created
+and deleted. You cannot create health checks for these services.
+
+❐
+
+Health check names have changed, with each health check type having a
+different prefix.
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+❐
+
+External services and external service group names are now limited to 64
+characters each. If an old name exceeds 64 characters, the service or service
+group continues to function normally but no corresponding health check is
+created.
+
+❐
+
+Although health checks were used for DRTR in previous releases, they were
+hidden. The DNS resolution for DRTR is checked according to the site's timeto-live value.
+
+❐
+
+Health checks have vastly changed functionality so CLI commands in
+previous versions do not work, and there is no backward compatibility. See
+"Deprecated CLI" on page 50 for more information.
+
+Upgrade Behavior
+After an upgrade, examine the new health checks and the configuration and
+ensure that the health checks are properly configured and succeeding. Check that
+the results of the upgrade are satisfactory. Note that any health check can be
+disabled if necessary.
+❐
+
+Forwarding hosts and SOCKS gateways have health checks created that are
+based on the previous global health check configuration settings. New health
+checks are created for any forwarding groups that previously existed.
+
+❐
+
+ICAP and Websense off-box services that had health checks before the
+upgrade have health checks created that are based on the previous settings for
+that health check.
+
+❐
+
+New health checks are created on upgrade for any ICAP or Websense off-box
+service groups.
+
+❐
+
+User-defined health checks from previous versions are converted to the new
+user-defined health checks on upgrade.
+
+In SGOS 5.2 and higher, when you create a health check through the CLI or the
+Management Console, you can use any printable character in the name except for
+back quotes (`), colon (:), double quotes ("), and spaces. Note that non-ASCII
+characters are legal.
+On an upgrade from SGOS 4.2.x, previously created alias names are transformed
+into legal alias names, using the following mappings:
+❐
+
+` becomes '
+
+❐
+
+: becomes %
+
+❐
+
+" becomes =
+
+❐
+
+space becomes _
+
+For example, if you used a string such as http://example.com as a forwarding
+alias, the alias is transformed to http%//example.com after upgrading from 4.2.x to
+5.2/5.3.
+
+49
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+If the SGOS 4.2.x VPM policy references a forwarding alias or socks gateway alias
+that contains one of the four illegal characters, you will see warning messages the
+next time you try to install VPM policy after the upgrade. To fix the problem, edit
+each forwarding and SOCKS gateway object to delete the old, invalid alias name
+and replace it with the transformed alias name.
+If you created custom CPL code and this code contains a <Forward> layer that
+references forwarding or socks gateway aliases, edit the CPL code, replacing the
+old, invalid alias name with the transformed alias name.
+
+Downgrade Behavior
+❐
+
+The system reverts to the configuration that existed prior to this upgrade. Any
+changes to the configuration are lost on downgrade.
+
+❐
+
+Policy that contains new health check types does not compile.
+
+Policy
+New policy conditions include:
+❐
+
+is_healthy.alias = yes | no
+
+❐
+
+health_check = yes | no | alias
+
+Deprecated CLI
+SGOS#(config health-check) forwarding
+SGOS#(config health-check) socks-gateways
+
+New CLI
+SGOS#(config health-check) copy source-alias target-alias
+SGOS#(config health-check) create {composite alias_name | http
+alias_name url | https alias_name url | icmp alias_name hostname| ssl
+alias_name hostname [port]| tcp alias_name hostname [port]}
+SGOS#(config health-check) default e-mail {healthy {enable |disable} |
+report-all-ips {enable | disable} | sick {enable | disable}}
+SGOS#(config health-check) default event-log {healthy {enable
+|disable} | report-all-ips {enable | disable} | sick {enable |
+disable}}
+SGOS#(config health-check) default failure-trigger {none | count}
+SGOS#(config health-check) default interval {healthy seconds| sick
+seconds}
+SGOS#(config health-check) default snmp {healthy {enable |disable} |
+report-all-ips {enable | disable} | sick {enable | disable}}
+SGOS#(config health-check) default threshold {healthy count |
+response-time milliseconds | sick count}
+SGOS#(config health-check) delete alias_name
+SGOS#(config health-check) disable {healthy alias_name | sick
+alias_name}
+SGOS#(config health-check) edit composite_health_check
+SGOS#(config health-check) edit health_check_type
+SGOS#(config health-check) enable alias_name
+SGOS#(config health-check) exit
+
+50
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+SGOS#(config health-check) perform-health-check alias_name
+SGOS#(config health-check) view {configuration | quick-statistics |
+statistics}
+
+Configuration > Access Logging
+Information for Upgrading from 4.2.x
+In SGOS 5.2.2, a new field has been added to the default streaming log format:
+s-session-id. This field can be used to identify playspurts from the same client
+session and is supported for all streaming protocols:
+❐
+
+Windows Media over RTSP
+
+❐
+
+Real Media over RTSP
+
+❐
+
+QuickTime over RTSP
+
+❐
+
+MMS
+
+❐
+
+HTTP
+
+Upgrade Behavior
+Upon upgrade to 5.2.2, the default streaming log format changes to the new log
+format. If you have modified the default streaming log format prior to upgrade,
+those changes will be preserved.
+
+Related Documentation
+Volume 8: Access Logging
+
+Configuration > Policy (QoS)
+Information for Upgrading from 4.2.x
+Beginning with SGOS 5.1.3, the ProxySG appliance supports Quality of Service
+(QoS) detection, which is becoming a more prevalent control point for network
+layer traffic. Previously, the QoS information was lost or not detected when the SG
+appliance terminated the client connection and issued a new connection to the
+server. QoS support allows you to create policy to examine the Type of Service
+(ToS) fields in the IP header to determine the QoS of the bits.
+Policy matches are based on Differentiated Services Code Point (DSCP) values,
+which network devices use to identify traffic to be handled with higher or lower
+priority.
+In SGOS 5.2.x, the following VPM objects and CPL gestures were added to
+support QoS:
+server.connection.dscp=
+client.connection.dscp=
+server.connection.dscp( )
+client.connection.dscp( )
+adn.connection.dscp( )
+
+The following objects have been added to VPM to support QoS:
+❐
+
+Client Connection DSCP Trigger
+
+(Source)
+51
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+❐
+
+Server Connection DSCP Trigger
+
+❐
+
+Set Client Connection DSCP (Action)
+
+❐
+
+Set Server Connection DSCP (Action)
+
+❐
+
+Set ADN Connection DSCP
+
+(Destination)
+
+(Action)
+
+Related Documentation
+❐
+
+ADN and DSCP: "DSCP" on page 25
+
+❐
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+Configuration > Policy > VPM
+Note the following changes in the VPM.
+
+Revocation Checks on Certificates
+5.3-Specific Information
+In addition to the “no revocation” and “revocation check” actions available in
+previous versions, SGOS 5.3 adds two new actions on the client/server certificate
+validation object in the VPM: Use only OCSP revocation check (checks the certificate
+through Online Certificate Status Protocol) and Use OCSP revocation check if
+available otherwise use local (checks the certificate through OCSP if available,
+otherwise checks it against a locally installed revocation list).
+When upgrading the VPM to 5.3:
+❐
+
+Do not check certificate revocation
+
+❐
+
+Also check certificate revocation gets
+available otherwise use local action.
+
+remains unchanged.
+converted to the Use OCSP revocation check if
+
+When downgrading the 5.3 VPM to earlier versions:
+❐
+
+Do not check certificate revocation
+
+❐
+
+Use only local certificate revocation check”
+revocation.
+
+❐
+
+Use OCSP revocation check if available otherwise use local”
+certificate revocation.
+
+❐
+
+Use only OCSP revocation check converts to Do not check certificate revocation since
+
+remains unchanged.
+converts to Also check certificate
+converts to Also check
+
+earlier releases didn’t offer OCSP.
+
+Related Documentation
+❐
+
+52
+
+Volume 6: The Visual Policy Manager and Advanced Policy, Chapter 3
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Content-Type Matching
+5.3-Specific Information
+In pre-5.3.x releases, there wasn’t a straight-forward way to specify an exact
+match on content type for HTTP Mime Type objects in the VPM. For example,
+blocking on content-type “application/x-sh” would block “application-x-shar”
+and “application/x-shockwave.” The CPL code for this is:
+response.header.Content-Type=”application/x-sh”.
+Starting in SGOS 5.3, the policy when using HTTP MIME Type objects specifies an
+exact match on content type. The generated CPL code for this is:
+response.header.Content-Type=”application/x-sh( |\t)*($|;)”
+
+After upgrading to 5.3, the policy will be unaffected unless it is modified with the
+Install Policy button in the VPM; in this case, it will automatically be updated to
+the new format (which performs an exact match on content type). When
+downgrading from 5.3, the next time policy is installed in VPM, the generated
+CPL will revert to the old format (which does a wildcard type of match).
+
+SSL Forward Proxy Object Renamed
+Information for Upgrading from 4.2.x
+In SGOS 5.2.2, the Add SSL Forward Proxy object is renamed to Enable HTTPS
+Interception to better reflect the object’ s function. In addition, the HTTPS Interception
+on Exception object is used to intercept SSL traffic if there is an exception, such as a
+certificate error or policy denial. This differs from the HTTPS Intercept object, which
+intercepts all HTTPS traffic.
+
+Related Documentation
+❐
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+New User Login Address Object
+Information for Upgrading from 4.2.x
+Starting in 5.2, a new subnet mask field allows you to specify a subnet of
+addresses to match in addition to single IP addresses. This lets you match against
+all machines on a particular subnet, rather than specific individual machines.
+
+Upgrade/Downgrade Behavior
+On an upgrade, existing User Login Address objects are treated as if no subnet
+mask was specified. User Login Address objects created with a subnet mask are
+not supported if the ProxySG is downgraded to a previous release without this
+functionality.
+
+Related Documentation
+❐
+
+Volume 6: The Visual Policy Manager and Advanced Policy
+
+53
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Statistics
+Information for Upgrading from 4.2.x
+❐
+
+Persistent bandwidth statistics are not preserved on upgrade from SGOS 4.x.
+These statistics are now computed differently.
+
+❐
+
+Persistent statistics are kept differently in SGOS 5.x and SGOS 4.x. Statistics
+are imported on first upgrade. After that, SGOS 5.x statistics show gaps when
+SGOS 4.x is running and vice versa.
+
+Related Documentation
+❐
+
+Volume 9: Managing the Blue Coat ProxySG Appliance
+
+Maintenance > Upgrade
+5.3-Specific Information
+SGOS 5.3 offers the option of using signed system images when upgrading. A
+signed system image is one that is cryptographically signed with a key known
+only to Blue Coat, and the signature is verified when the image is downloaded to
+the system. Blue Coat is currently providing signed and unsigned images for new
+releases (5.3 and later). At some point, only signed images will be offered.
+When upgrading from a pre-5.3 version, you will need to upgrade to an unsigned
+version of 5.3 before upgrading to a signed version of a later release.
+
+Related Documentation
+❐
+
+54
+
+Volume 9: Managing the Blue Coat ProxySG Appliance, Chapter 3
+
+Chapter 4: FIPS Upgrade Information
+
+This chapter covers information pertaining to Federal Information Processing
+Standards (FIPS) implementations. It covers upgrade/downgrade issues
+related to FIPS mode.
+
+Topics in this Chapter
+The following topics are discussed in this chapter:
+❐
+
+"Configuration Files" on page 55
+
+❐
+
+"Signed Archive Configurations" on page 55
+
+❐
+
+"DRTR Connections" on page 55
+
+❐
+
+"SSL" on page 56
+
+Configuration Files
+FIPS mode devices will not accept old configuration files (unless they are
+manually pasted through the CLI).
+
+Signed Archive Configurations
+On an upgrade to SGOS 5.3 in non-FIPS mode, the new archive configuration
+options will be available, but will be disabled by default. On entry to FIPS
+mode, unsigned configuration archives will be disabled. You will need to
+create/select the appropriate keyrings and CCLs for signing and verifying the
+archive.
+When downgrading to a pre-5.3 version, the signed archive configuration will
+be disabled. The system will default to the original archive format. If a protocol
+other than TFTP or FTP was configured for archiving the configuration, the
+protocol will default to FTP. Signed configurations cannot be directly loaded by
+the downgraded system. However, it would be possible to extract the
+configuration.txt file from the signed archive and attempt to load that
+configuration.
+
+Related Documentation
+❐
+
+Volume 1: Getting Started, Chapter 5
+
+DRTR Connections
+When upgrading to 5.3 from previous versions, secure DRTR connections are
+disabled in non-FIPS mode devices. If the device is put into FIPS mode, secure
+connections will be enabled and cannot be disabled.
+If the device is then downgraded to a pre-5.3 version, it will use unsecured
+DRTR connections.
+
+55
+
+Blue Coat SGOS 5.3.x Upgrade Guide
+
+Related Documentation
+❐
+
+Volume 7: Managing Content, Chapter 2
+
+SSL
+The following applications are subject to FIPS compliance in SGOS 5.3:
+❐
+
+Authentication realms that use SSL with the authentication servers
+
+❐
+
+URL database downloads over SSL
+
+❐
+
+Image downloads over SSL
+
+❐
+
+Secure heartbeats
+
+❐
+
+Secure access log uploads
+
+Upon upgrading to 5.3, the above applications will use the SSL device profile
+instead of the SSL client. After entering the FIPS mode of operation, the “default”
+SSL device profile will be created as FIPS compliant and will thus allow only
+FIPS-compliant SSL versions, ciphers, and so forth.
+
+Related Documentation
+❐
+
+56
+
+FIPS documentation
+
+

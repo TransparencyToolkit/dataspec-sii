@@ -1,0 +1,510 @@
+conference & convention
+
+enabling the next generation of networks & services
+
+3D-MEMS PHOTONIC CROSS-CONNECT IN SUBMARINE CABLE
+LANDING SITES
+Kelvin Chau and R.W. Lundy
+Email: zindel@glimmerglass.com
+Glimmerglass Networks, Inc. 26142 Eden Landing Road, Hayward, CA 94545, USA
+
+Abstract
+Undersea fiber-optic cables provide the vast majority of intercontinental Internet
+bandwidth. With the tremendous traffic growth on these cables, outages caused by cable
+breaks and equipment failures are unacceptable. Furthermore, traditional protection schemes
+do not protect against simultaneous catastrophic failures. Through the use of photonic crossconnects, a submarine cable operator has successfully deployed a solution capable of remotely
+creating, monitoring and restoring the light paths as needed. This paper will discuss the
+deployment of 3D-MEMS photonic cross-connects at submarine cable landing sites. With this
+approach, the operator has improved network availability and manageability, reduced OPEX,
+and enhanced network upgradability.
+1. INTRODUCTION
+Over the past several years, global
+undersea cable operators have faced severe
+pressure on cost due to protracted price
+erosion and network overbuild while
+confronting increasing commitments on
+service quality. At the same time, these
+networks have been forced to keep pace
+with the bandwidth growth on terrestrial
+networks. Most undersea cables installed
+today support hundreds of thousands, or
+even millions, of simultaneous voice calls
+and internet traffic due to the adoption of
+DWDM technology on these networks.
+This technology allows multiple highspeed channels, i.e., 10 Gbits/sec, using
+different wavelengths, i.e., 40 colors of
+light, to be transmitted over a single fiber.
+With this high volume of traffic running
+over a single fiber, and the increasing
+amount of information terminated on each
+of the many transponders, any fiber break
+or equipment failure can result in
+significant down time for the customer(s).
+Therefore, it is critical to ensure service
+continuity to avoid costly Service Level
+Agreement (SLA) penalties and maintain
+customer satisfaction.
+Copyright © 2010 SubOptic
+
+Since the first transoceanic cables were
+laid, there have been cable breaks and
+equipment failures. As redundant fiber
+optic networks have been deployed, the
+number of cable breaks and equipment
+failures has lessened, but the time to repair
+is still unacceptably long and, due to traffic
+growth, the impact of a service outage is
+exponentially greater.
+In 2006, a submarine cable operator
+realized that they had a growing problem at
+their submarine cable landing sites. They
+were experiencing extended outages at
+these sites resulting from wavelength
+transponder failures. Later that same year,
+an earthquake in Taiwan raised awareness
+broadly among operators of the affects of
+any service disruption whether it is natural
+or terrorist related1. Photonic crossconnects have emerged as a viable solution
+to enhancing the survivability of
+communications at undersea landing sites.
+In the case of wavelength transponder
+failures, maintenance windows are usually
+narrow and require advanced scheduling
+Page 1 of 6
+
+conference & convention
+
+since cable landing sites are generally in
+remote locations. As a result, once a fault
+occurs, service restoration could take hours
+to a day. In this scenario, the operator had
+to significantly increase maintenance costs
+to avoid severe SLA penalties. The
+maintenance costs were primarily due to a
+dramatic increase in support calls to
+affected sites. Moreover, these calls had to
+be performed by highly experienced
+technicians. The failing equipment was
+frequently the wet side line cards, whose
+replacement was expensive, specialized,
+and problematic. Not only was it difficult
+to schedule a technician who was qualified
+to replace them, but in some instances the
+replacement cards would fail as well. This
+often required the technician to make a
+return trip with another line card.
+Ultimately, the submarine cable operator
+successfully addressed these problems by
+using photonic cross-connects to improve
+network availability and reduce operational
+costs in the process. The resulting benefit
+is a network which is easier to manage and
+better positioned for future upgrades.
+This paper will discuss Three Dimensional
+Micro-Electro-Mechanical Systems (3DMEMS) based photonic cross-connect
+deployment for wavelength restoration,
+central monitoring and management,
+simplified equipment upgrades, and other
+photonic switching applications
+at
+submarine cable landing sites. The benefits
+of these applications are increased
+availability and reduced OPEX at these
+facilities.
+2. PHOTONIC CROSS-CONNECT
+Photonic cross-connects began being
+deployed in 2002. Carriers and undersea
+operators recognized that the ability of the
+photonic cross-connect to transparently
+switch optical signals from one fiber to
+another without conversion to the electrical
+domain has major benefits for a wide range
+of applications in the fiber optic industry.
+Furthermore, MEMS based photonic crossCopyright © 2010 SubOptic
+
+enabling the next generation of networks & services
+
+connects have the following benefits over
+electronic cross-connects: lower cost,
+smaller size, lower heat and power,
+protocol and line rate transparency, and
+higher efficiency.
+This dramatic reduction in power, size and
+heat for a system capable of remotely
+switching
+optical
+signals
+meets
+requirements at undersea landing sites.
+This translates into a reduced footprint and
+lower operational cost by eliminating the
+need for additional power-generation and
+distribution equipment such as batteries,
+rectifiers, diesel generators and monthly
+maintenance.
+In terms of technological enablers, 3DMEMS architecture has emerged as the
+economically viable approach for building
+transparent and scalable systems. 3DMEMS fabrication is performed by tools
+and techniques similar to those used to
+manufacture widely adopted integrated
+circuits (IC). As a result, the technology
+has quickly found its way into a variety of
+commercial,
+defense,
+and
+medical
+applications. The primary advantage of
+3D-MEMS technology is that it allows
+many small but complex elements to be
+precisely built on a wafer through
+lithography,
+etching,
+and
+masking
+processes. Through batch fabrication and
+minimization of materials, 3D-MEMSbased products have become mass
+manufacturable and cost-effective. These
+micro devices are light-weight and require
+very low power while providing high
+performance.
+3D-MEMS photonic cross-connect systems
+based on beam steering mirrors have been
+explored by many researchers2-3. These
+switches allow many optical channels to be
+switched in a relatively small amount of
+space, utilizing micro mirrors to switch or
+reflect an optical signal from one fiber to
+another dependent on the relative angle of
+the micro mirror, as shown in Figure 1.
+
+Page 2 of 6
+
+enabling the next generation of networks & services
+
+conference & convention
+
+Figure 1
+system.
+
+Simple
+
+fiber-to-fiber
+
+relay
+
+Manual fiber connection is not only
+operationally costly and labor-intensive it
+also increases opportunities for human
+errors. Alternatively, photonic crossconnects enable operators to provision,
+monitor, and reconfigure optical light paths
+remotely, which reduces provisioning
+intervals and lowers capital and operational
+expenditures.
+Undersea cable operators have begun
+taking advantage of photonic crossconnects to offer better service resiliency
+and flexibility while reducing operational
+costs. Photonic cross-connects allow
+operators to expand their legacy ring-based
+undersea networks into a logical,
+intelligent, optical mesh network4. The
+ability of photonic cross-connects to
+rapidly and remotely manage light paths
+without regard for data format, line rate or
+wavelength count leads to many benefits.
+3. FAULT DETECTION/ISOLATION
+One of the major problems facing network
+operators today is the limited ability they
+have to monitor the physical layer in order
+to recognize or predict a failure and/or to
+diagnose a problem once it has been
+recognized5-6. Some photonic crossconnects inherently detect Loss of Light
+because they continuously monitor optical
+power to optimize the strength of the
+connection6. In addition, the availability of
+extra ports on a full photonic cross-connect
+offers the ability to perform a wide range
+of remote diagnostics.
+Copyright © 2010 SubOptic
+
+To enable remote diagnostics, test
+equipment could be attached to a crossconnect. If a particular light path is
+experiencing a problem, that light path can
+be switched to a dedicated test port on the
+photonic cross-connect for additional
+analysis. For non-intrusive monitoring, a
+photonic cross-connect can be equipped
+with dedicated input splitters. As shown in
+Figure
+2,
+using
+splitters
+with
+asymmetrical taps, i.e. 90/10, enables the
+operator to check the signal when desired
+without needing to disrupt traffic by
+breaking the connection in the act of
+switching. This solution limits the impact
+on the planning of the optical power
+budget.
+
+Figure 2 Test equipment attached to a
+cross-connect enables remote diagnosis.
+Whether doing proactive or reactive
+maintenance once a fault has been detected,
+the remote operator can instantly loopback
+suspect lines and/or switch to a port
+connected to specialized test equipment
+required for remote diagnostics. This saves
+hours of time sending technicians with
+patch cables and test equipment to remote
+sites. The ability to perform these
+diagnostics remotely means that an
+appropriate service team can be sent with a
+clearer idea of the nature of the problem.
+Since most problems can now be
+circumvented remotely, any follow up
+activity can be scheduled as a routine
+service call rather than requiring an
+emergency response.
+4. LIGHT PATH RESTORATION
+In the event a fault is detected, either Loss
+of Light detected by the photonic crossPage 3 of 6
+
+conference & convention
+
+connect or signal degradation detected by
+other test equipment attached to the crossconnect, a remote operator can remotely
+switch the affected light path around the
+failed transponder to a backup transponder.
+Once this operation has been performed on
+each side of the submarine link, the traffic
+is restored.
+Shown in Figure 3 is a wavelength
+Protection and Restoration scheme based
+around a photonic cross-connect. Once this
+operation has been performed on each side
+of the submarine link, the traffic is restored.
+As DWDM signals arrive at termination
+points, they become colorless. In effect, the
+photonic cross-connect allows the operator
+to perform a wavelength conversion
+restricted to the problem link.
+
+Figure 3 Wavelength Protection and
+restoration scheme based around a
+photonic cross-connect.
+
+enabling the next generation of networks & services
+
+network failures8. As a result, undersea
+cable operators are interested in the
+potential of 3D-MEMS photonic crossconnect systems to restore services in the
+event of multiple failures. For example, if a
+network experiences a fiber cut on the
+primary light path, traditional transport
+protection schemes would switch to a
+protection light path. Using a photonic
+cross-connect, the operator can switch
+around one or both failures either to
+unused fibers, or temporarily to protection
+fibers reserved for unaffected light paths.
+The following example further illustrates
+this point. In this case, a photonic crossconnect could be placed at the meeting
+points of five submarine line segments.
+The network configuration is in the form of
+an ‘H’ with two bearers north and south
+plus a cross link. The logical configuration
+of the switches would mimic the diagram
+in Figure 4. In the event of a dual segment
+failure (diagonally opposite segments) the
+light path could be switched across the
+interlinking segment and onto the
+remaining bearers in an ‘S’ configuration.
+Under normal circumstances, a dual
+segment failure would cause a catastrophic
+service outage; however, with the photonic
+cross-connect in place, the failures can
+easily, quickly, and remotely be routed
+around.
+
+It is important to note that this restoration
+could be performed automatically through
+a system-initiated protection switch or
+manually through a software command that
+can be issued remotely. Thus, what would
+have been an outage lasting hours and
+requiring an emergency response can be
+cured in minutes or less.
+5. PROTECTION AGAINST
+MULTIPLE FAILURES
+While traditional transport protection
+schemes adequately protect against a single
+failure, they do not generally provide a
+solution for routing around multiple
+Copyright © 2010 SubOptic
+
+Page 4 of 6
+
+conference & convention
+
+enabling the next generation of networks & services
+
+creation of a single point of failure. Once
+the upgrade is complete, the photonic
+cross-connect can switch the light path
+back across the original network segment.
+
+Figure 4 The network configuration in the
+form of an ‘H’: normal operation, and
+restoration with photonic cross-connects
+after multiple failures.
+6. NETWORK SCALABILITY
+Terrestrial network operators have seen the
+benefit of using photonic cross-connects to
+enhance network upgradeability. This is
+even more critical for undersea operators
+due to the operational complexity of
+performing upgrades. Photonic crossconnects are especially well suited for this
+environment since most of the core
+network of the submarine system will only
+require wavelength granularity as the
+tributaries are multiplexed to the highspeed interface. The result is a very simple
+optical layer switching fabric at the node of
+submarine networks.
+Photonic cross-connects have two strong
+advantages as ‘future proof’ equipment for
+growing networks.
+First, they are
+transparent to line rate and format,
+allowing them to accept and manage
+current and future transmission rates and
+protocols. Second, they are very good at
+integrating with the currently installed
+network equipment while supporting future
+upgrades. To further illustrate this second
+point, Figure 5 shows traditional network
+protection during a segment upgrade
+versus using a photonic cross-connect to
+temporarily switch light paths around the
+congested segment while the upgrade is
+performed. As opposed to the traditional
+model, which uses the protect path while
+upgrading the working path, using a
+photonic cross-connect eliminates the
+Copyright © 2010 SubOptic
+
+Figure 5 Traditional network protection
+during a segment upgrade versus
+protection with a photonic cross-connect.
+7. CONCLUSION
+Photonic cross-connects enable undersea
+cable operators to build more resilient and
+flexible
+networks
+while
+reducing
+operational expenditures. Specifically,
+undersea cable operators can deploy
+photonic cross-connects to achieve the
+following benefits for cable operators and
+their customers:
+Reduced length of outages and
+reduced SLA penalties
+Reduced frequency of emergency
+service events by converting to
+scheduled events
+Improved long-term performance
+monitoring of undersea circuits
+Remote monitoring of network
+health at the physical layer without
+disrupting traffic
+Improved availability and scalability
+
+Page 5 of 6
+
+conference & convention
+
+Data rate and format transparency,
+simplifying
+future
+network
+equipment upgrades
+In today’s high speed networks, customers
+are in need of near-zero downtime, relying
+on highly reliable infrastructures to sustain
+and grow their revenues. As global
+undersea networks continue to grow with
+increasing traffic and higher data rates, alloptical switching technology has become a
+critical element of any survivable optical
+network. In this paper, we presented how
+an intelligent photonic cross-connect could
+improve scalability, lower costs, and most
+importantly avoid costly network failures.
+In addition, photonic cross-connects enable
+remote, centralized monitoring and
+management, allowing carriers to reduce
+operational costs and respond more quickly
+to service requests. In conclusion, photonic
+cross-connects simplify operation and
+reduce human errors, which have a direct
+impact on operator revenues.
+
+enabling the next generation of networks & services
+
+[5] H. T. Mouftah and P. Ho, “Optical
+Networks:
+Architecture
+and
+Survivability,” Springer, 2002.
+[6] O. Mayada, R. Nilchiani, and A.
+Mostashari, “Measuring the Resilience
+of
+the
+Trans-Oceanic
+Telecommunication Cable System,”
+IEEE System Journal, Vol. 3, No. 3,
+pp. 295- 303, 2009
+[7] W. C. Dickson, B. P. Staker, G.
+Campbell, and W.C. Banyai, “64x64
+3D-MEMS switch control system with
+robustness
+to
+MEMS
+resonant
+frequency variation and pointing drift,
+”OFC2004 Technical Digest, ThQ5,
+2004
+[8] C. Ou et al, “Subpath Protection for
+Scalability and Fast Recovery in
+Optical WDM Mesh Networks,” IEEE
+J. on Sel. Areas in Comm. 22, pp.
+1859–1875, 2004.
+
+8. REFERENCES
+[1] R. Bannon, D. Burnett, “Submarine
+Cable Infrastructure Defense Against
+Terrorist Aggression,” OCEANS 2003.
+Proceedings, Vol. 4, pp. 1850 – 1861.
+2003.
+[2] D.J. Bishop, C.R. Giles, and G.P.
+Austin, “The Lucent Lambda router:
+MEMS Technology of the Future Here
+Today,”
+IEEE
+Communications
+Magazine, Vol. 40, pp. 75-79, 2003.
+[3] B. Fernandez, P. Staker, W. E. Owens,
+L.P. Muray, J.P. Spallas and W.C.
+Banyai, “Modular MEMS Design and
+Fabrication for an 80 x 80 Transparent
+Optical Cross-Connect Switch,” Proc.
+of SPIE, Vol. 5604, pp. 208-217, 2004.
+[4] S. Yamamoto, “Technologies required
+for the future submarine cable
+networks,” Proc. SPIE, Vol. 4872, pp.
+pp.103-111, 2002.
+Copyright © 2010 SubOptic
+
+Page 6 of 6
+
+

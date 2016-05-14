@@ -1,0 +1,302 @@
+Utimaco Safeware AG
+What LI can learn from Anti-SPAM, Anti-Virus,
+IDS/IPS, and DPI technologies
+Dirk Schrader
+4 June 2009, ISS Track 2, 13:30 ! 14:00
+
+Contents
+! Introductions
+! Anti-SPAM and LI
+
+! Anti-Virus and LI
+! IDS/IPS and LI
+! DPI and LI
+
+© Utimaco Safeware AG 2008
+
+! Summary
+
+! Q&A and Thank You
+
+2
+
+Introductions ! About Dirk
+Dirk Schrader
+Sales Director @ Utimaco LIMS
+
+Certified Information
+System Security Professional
+
+© Utimaco Safeware AG 2008
+
+CISSP
+
+3
+
+Introductions ! About Utimaco
+! Founded in 1983
+
+! Listed on the German Stock
+Exchange
+! "59.2 million (fiscal year 07/08)
+! 300+ employees
+in offices worldwide
+
+© Utimaco Safeware AG 2008
+
+! Headquarters in Germany
+
+! 12 subsidiaries and established
+distributor and partner network
+around
+
+Offices
+Reseller/Distributors
+
+! recently acquired by Sophos Plc
+
+4
+
+Introductions ! About the topic
+! Anti-SPAM,
+
+! Antivirus,
+! Intrusion Detection/
+Prevention Systems,
+! Deep Packet Inspection.
+
+© Utimaco Safeware AG 2008
+
+You have heard about this technologies protecting your Notebook from
+the evil lurking out there in the Net.
+
+What do they do exactly? How to use their methods for LI?
+This session shall give an overview about the methods and the way
+they can help improving LI in a world communicating in packets.
+
+5
+
+Anti-SPAM ! Overview
+
+© Utimaco Safeware AG 2008
+
+! Basics
+aka Email-Filtering, used in
+automated techniques.
+Some of these depend upon
+rejecting email from Internet sites
+known or likely to send spam.
+Others rely on automatically
+analyzing the content of email
+messages and weeding out those
+which resemble spam.
+
+! Keywords
+
+Regular Expressions
+Blocking and Filtering
+Checksum-based
+C/R System
+Bayesian (Statistical)
+Filtering
+w Transparent Proxy
+w B/W-List (DNS-based)
+w
+w
+w
+w
+w
+
+6
+
+Anti-SPAM ! LI implications
+! Filters can help, but can also be evaded, if not kept upto-date
+
+! Mass data (in average 80% of email is SPAM) needs to
+be (pre-)handled, but can never be 100% correct
+
+© Utimaco Safeware AG 2008
+
+! Different approaches targeting the same goal can
+increase accuracy
+
+7
+
+Anti-Virus ! Overview
+
+© Utimaco Safeware AG 2008
+
+! Basics
+identifies and removes SW viruses,
+or any kind of malware. Several
+methods exist to identify malware.
+Signature based detection is
+limited as it can only identify a
+limited amount of emerging threats.
+Suspicious behavior monitors the
+behavior of all programs. If one tries
+to write data to an executable
+program, the antivirus alerts.
+Sophisticated AV-SW uses
+heuristic analysis to identify new
+malware.
+
+! Keywords
+
+w
+w
+w
+w
+w
+
+Metamorphic viruses
+False positives
+False negatives
+Signature Updates
+Sandbox
+
+8
+
+Anti-Virus ! LI implications
+! Signatures must be kept up-to-date, using them for LI
+purposes requires a repository to keep track.
+
+! False positives are likely, as well as false negatives
+
+© Utimaco Safeware AG 2008
+
+! A secured environment is necessary to find information
+covered by something which poses a threat to the LI
+system.
+
+9
+
+IDS/IPS ! Overview
+
+© Utimaco Safeware AG 2008
+
+! Basics
+is SW a/o HW designed to
+detect/prevent unwanted attempts
+to manipulate a PC.
+A statistical anomaly based
+system establishes a performance
+baseline based on normal network
+traffic evaluations.
+A signature based system
+examines network traffic for
+preconfigured and predetermined
+attack patterns.
+
+! Keywords
+w
+w
+w
+w
+w
+w
+w
+
+False positives
+False negatives
+Signature Updates
+Network-based
+Protocol-based
+Host-based
+Content-based
+
+10
+
+IDS/IPS ! LI implications
+! The interception access point dominates the LI
+approach.
+
+! Again: False positives are likely, as well as false
+negatives
+
+© Utimaco Safeware AG 2008
+
+! T$e 'roblem of baselines2 3$a4 is 5normal‘
+
+11
+
+DPI ! Overview
+
+© Utimaco Safeware AG 2008
+
+! Basics
+DPI is a form of computer network
+packet filtering that examines the
+data and/or header part of a
+packet as it passes an inspection
+point.
+It enables advanced security
+functions as well as internet data
+mining.
+DPI combines the functionality of
+IDS, IPS and Stateful Firewalls to
+have the ability to look at Layer 2
+through Layer 7 of the OSI model.
+
+! Keywords
+w Traffic access point
+w Intercepting proxy
+server
+w Protocol-awareness
+
+12
+
+DPI ! LI implications
+! Layer 7 interception needs understanding of the ever
+changing world of protocols.
+
+! TA8 a4 4$e 3rong 'lace2 an; you‘ll never see your 
+target.
+
+© Utimaco Safeware AG 2008
+
+! Layer 2 technologies like MPLS can be cumbersome
+
+13
+
+Summary
+! Keep track of your trigger criterias in a kind of repository
+! Keep your trigger criterias up-to-date
+! Automation never produces 100% results, but greatly
+reduces the workload for human intelligence.
+! The key is tuning the sensitivity (balancing false pos.
+against false neg.)
+
+© Utimaco Safeware AG 2008
+
+! Mind your point of access to the network
+! Protocol-awareness is crucial
+
+14
+
+Q&A and Thank You
+
+Feel free to start the Q&A part
+
+© Utimaco Safeware AG 2008
+
+Thank you for your kind attention!
+
+15
+
+Contact details
+Dirk Schrader
+Director Sales LIMS
+
+© Utimaco Safeware AG 2008
+
+Utimaco Safeware AG
+Germanusstrasse 4
+DE-52080 Aachen
+dirk.schrader@aachen.utimaco.de
+Fon +49(241) 1696-226 ? @aA BCDEFCGH GIDI-199
+Mobile +49(172)7556617
+
+16
+
+

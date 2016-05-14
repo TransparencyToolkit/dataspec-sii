@@ -1,0 +1,566 @@
+HP Investigation solutions
+Solution brief
+
+Technology that supports global law
+enforcement efforts
+Communications technology is at the heart of the
+global fight against terrorism, child exploitation, drug
+trafficking, and other serious crimes. Law enforcement
+is asking more of service providers, in the form of
+both greater cooperation and expanded capabilities.
+Lawful requests for communications information to
+support criminal investigations must be fulfilled in a
+timely manner. Service providers need a cost-effective
+way to manage these requests. They need to quickly
+identify, locate, and retrieve data on user activity
+history, intercept content in real-time and deliver it
+securely to the authorities.
+Complicating the challenge are the new technologies,
+equipment, and end-user devices being developed and
+deployed throughout the communications ecosystem.
+Where in-house solutions were once adequate, a
+comprehensive set of integrated capabilities is now
+required. Standards-based, proven solutions are needed
+to mitigate the risks, timeframes, and costs of adding
+critical functionality.
+
+HP Investigation solutions—proven
+tools for intelligence support and data
+retention
+HP delivers a comprehensive portfolio of intelligence
+support systems (ISS) that meet the requirements for
+today’s converged communications services. Based
+on technology proven in worldwide deployments,
+HP Investigation solutions are modular and
+standards‑based and take a fully-integrated, real-time
+approach to the fulfillment of lawful requests for data.
+Together, they comprise a complete, end-to-end offering
+for warrant management, lawful intercept, and data
+retention, providing actionable intelligence for today’s
+global law enforcement efforts.
+
+Table 1: The HP Investigation portfolio addresses the special challenges of six critical areas:
+
+Solution name
+
+Brief description
+
+1.
+
+Data Retention
+
+Innovative capture and management of communications activity data
+
+2.
+
+Warrant/Request management
+
+Process-driven re-engineering of warrant handling
+
+3.
+
+Lawful Interception and Law
+Enforcement Agency (LEA)
+monitoring and analysis
+
+Innovative lawful interception capabilities for IP services
+and next generation networks
+
+4.
+
+Large Event Archive
+
+A highly scalable and flexible solution to ease access to
+critical operations data
+
+5.
+
+Deep Packet Inspection (DPI)
+
+Uses network probes to collect more detailed network
+traffic data in real-time
+
+6.
+
+ISS as a Service/Cloud
+
+Offers flexibility, low cost, and easy implementation
+
+Data Retention
+New regulations for retaining data records are greatly
+expanding what information is to be kept and its
+lifecycle. This can present a burden for service providers,
+who not only must deal with issues of data collection,
+but also its efficient and secure storage and retrieval.
+Today’s next-generation converged environments have
+exposed the limitations and inadequacies of legacy
+systems. The rapid adoption of network-intensive services
+means that service providers have to process several
+times the volume of records. Immense scalability and
+cost-effective storage and retrieval are crucial. Further,
+the shifting of the services environment and regulatory
+landscape requires a solution that can easily adapt.
+
+2
+
+Data Retention solution features:
+•	Provides scalable, flexible data collection for both
+circuit-switched and packet-switched infrastructures
+•	High-performance data management optimized for
+storing and retrieval of communications traffic data
+•	Leverages multi-layer security to protect the integrity
+and privacy of sensitive data
+•	Can be implemented with choice of data repository
+options to ease integration with existing architectures
+and technology standards
+
+Benefits
+
+HP added values
+
+•	Reducing data retention OPEX
+•	More efficiently gathering data to
+respond to warrants and requests
+•	Compliance with local regulation
+
+•	Market leader Data Retention solution
+•	15+ years experience
+•	Process, system and/or data review service
+assessment
+•	Warrant management engine
+
+Inbound and Outbound Channel Manager
+LEA Request Workflow Engine
+Request
+manager
+
+Warrant and
+Package
+manager
+
+DRAGON Server
+
+Scheduler
+
+Work item
+manager
+
+Extended Doc
+generator
+
+DRAGON Core
+
+DRAGON Manager
+
+Figure 1: Manager core server architecture
+
+Job
+controller
+
+Request
+handler
+
+Doc generator
+
+Driver
+manager
+
+External
+driver
+
+Report
+handler
+Oracle
+driver
+
+SenSage
+driver
+
+Warrant/Request management
+An increasing volume of requests for lawfully intercepted
+and retained data is coming from a range of LEAs. Key
+issues are involved in efficiently and effectively fulfilling
+these requests while ensuring privacy at every point—
+provisioning, result validation, and returning the results to
+the LEA. With some service providers fulfilling thousands
+of time intensive requests each day, improved efficiency
+directly translates into a bottom line. Over time, many
+service providers have deployed individual ISSs for each
+service area. In many cases, requests had to be input
+for each system or service area, the results manually
+aggregated and then returned to the LEA. Consolidation
+and integration may cut operating costs and shorten
+response time, while helping safeguard privacy.
+
+RainStor
+driver
+
+Warrant/Request management solution features:
+•	A single, unified front-end for managing request
+fulfillment for both lawful intercept and retrieval of
+retained data
+•	Increased workflows reduce the effort and timeframes
+for processing requests
+•	Flexible deployment models enable localized
+deployment at communications service providers, or
+remote deployment for self-service operations at law
+enforcement and intelligence agencies
+•	Document management capabilities for supporting
+warrant and request documentation
+•	A billing function supporting reimbursement of
+compensated requests
+
+Benefits
+
+HP added values
+
+•	More flexible and efficient way to gather
+customer data and to respond to LEA
+warrants/requests
+•	Legal compliance
+
+•	Warrant workflow engine
+•	Process, system and/or data review service
+assessment
+•	Software brokering capabilities
+
+3
+
+Lawful Interception
+While seamless interception has long been available
+for analog circuit-switched networks, the evolution to
+advanced services running across packet-switched
+infrastructures now requires new technologies.
+Interception must be performed—in real-time—across
+wireless, wired, broadband, and IP networks, while still
+remaining invisible to the parties under surveillance.
+Interception of new network-intensive applications
+such as e-mail and instant messaging requires not only
+application awareness but also immense scalability and
+
+Lawful Interception solution features:
+•	Supports disparate, multiple communication networks:
+circuit-switched, packet-switched, mobile, fixed, and IP
+•	Includes support for products from most major vendors
+•	Supports global standards with customizable local
+implementations
+•	Enables the cost-effective expansion of architecture
+with a distributed, scalable solution
+
+Benefits
+
+HP added values
+
+•	Complying with LEAs requirements
+•	Upgrade Interception capabilities to
+IP services
+•	LI vendors consolidation
+
+•	HP software as single front end for different LI
+infrastructures
+•	Process, system and/or data review service
+assessment
+•	Integrated ISS approach (LI + DR)
+
+Large Event Archive
+Every day, companies must store and manage a large
+amount of information, used for purposes ranging
+from marketing to billing to capacity planning to legal
+and compliance. Data is becoming one of the biggest
+corporate topics: data management is no longer an
+IT problem but a consideration of corporate strategy.
+Moreover, different data types need different archival,
+retrieval, and security capabilities. A mixed-data
+environment means a mix of capabilities.
+
+4
+
+flexibility. As more and more services are deployed
+via IP networks, the challenge will grow in volume
+and complexity.
+
+Large Event Archive solution features:
+•	A solution technology based on the proven DRAGON
+Data Retention architecture and experiences to deliver
+data repository solution for all data types
+•	The scalability and flexibility to offer easy access to
+critical operations data
+•	Enhanced data compression to reduce storage size
+•	The capability to collect logs
+
+Benefits
+
+HP added values
+
+•	Adopting the right archive technology to any
+different data needs
+•	CAPEX/OPEX reduction
+•	Solution can be offered in cloud
+
+•	HP software multiple archive integrated
+management
+•	DRAGON 15+ years experience
+•	Huge compression factor
+•	System integration capabilities
+
+Figure 2: DLAS architecture
+
+DRAGON Manager
+DRAGON Core
+DRAGON Server Data Access module
+
+Other
+DB
+
+Other
+DB
+
+Oracle
+
+MySQL
+
+SenSage
+
+RainStor
+
+Vertica
+
+Hadoop
+
+DRAGON Server loading module
+
+Deep Packet Inspection (DPI)
+DPI has become a relevant tool in telecommunications
+and ISS sector for data collection during the last decade.
+DPI technology allows real-time data collection and
+offers the capability to filter out unnecessary data.
+HP Investigation solutions are improved by the DPI
+data collection mechanisms as the DPI solution can
+be integrated with Data Retention, Lawful Intercept,
+Warrant/Request management solution, or the DPI
+solution can be deployed in the ISS as a could solution.
+
+DPI solution features:
+•	Accurate identification of users across multiple
+applications, physical locations, terminals, and
+identities
+•	Extraction of relevant data to enhance storage space
+and speed up post-processing
+•	Implementation of real-time, network-based monitoring
+using probes
+
+Benefits
+
+HP added values
+
+•	Advantages of network based monitoring
+against log-based monitoring
+•	Real time data capture
+•	Data filtering
+
+•	End-to-end solution for data collection
+•	DPI integration into Data Retention, Lawful
+Interception or Warrant Management
+solutions
+
+5
+
+ISS as a Service/Cloud
+
+ISS as a Service/Cloud solution features:
+
+ISS Service/Could solution provides all the features of
+Data Retention, Warrant/Request management, and
+Lawful Interception solutions in a hosted or centralized
+virtual environment. Easy implementation is one of the
+advantages of cloud solutions; it requires less upfront
+investment, resulting in a good choice for small- and
+medium-size communication service providers. The
+solution complies with regulations, and further changes
+can be easily adopted.
+
+•	A solution customized by the communication service
+provider or government requirement.
+•	Flexible approaches: “Broker” or Central solution can
+be implemented.
+•	A hosted intelligence support solution for small- and
+medium-size operators.
+•	An Integrated ISS solution to improve information flow
+and reduce complexity.
+
+Benefits
+
+HP added values
+
+•	More flexible easy-to-deploy ISS solution
+•	Minor investment for ISS
+•	Compliance with local regulation
+
+•	End-to-end ISS solution including, Data
+Retention, Lawful Interception, Warrant
+Management and several enhancement
+•	15+ years experience
+
+Figure 3: ISS as a Service/Cloud
+
+Service Provider A
+
+Hosted Solution
+
+Lawful intercept
+
+Users
+Warrant
+management
+
+LEA
+
+Data retention
+
+Monitoring
+center
+
+Service Provider B
+
+Centralized
+solution
+
+6
+
+Lawful
+intercept
+
+Data retention
+
+LEA
+Intelligence
+Support Cloud
+LEA
+
+DRAGON version 6.2—the platform for
+HP Investigation solutions
+Central to the HP Investigation solutions is the HP Data
+Retention And Guardian Online (DRAGON). Providing
+intelligence support systems for leading service
+providers around the world, HP DRAGON delivers
+the multidimensional scalability of performance,
+capacity, and functionality required to fulfill requests
+for communications data. It provides key functions of
+warrant/request management, lawful interception, data
+retention, and integration.
+The flexible HP DRAGON supports many business
+models, including mobile virtual network operator
+(MVNO), hosted, multiple operating units, and
+multiple geographies. The latest DRAGON version
+is DRAGON 6.2, which addresses the challenges
+of integration and security with proven technologies
+and methodologies.
+
+New features in DRAGON 6.2
+•	Solution for repositories, Large Event Archive
+•	Solution for ISS as a Service/Cloud
+Integration
+•	Supports all common integration standards and
+technologies, including ETSI, CALEA, 3GPP, Web
+services, and XML
+•	Reduces operating costs through a common integration
+approach for both external and internal systems
+Security
+•	Provides comprehensive data security features,
+including encryption and certificates that protect
+privacy and integrity
+•	Includes robust user security mechanisms, such as user
+access controls, auditing and reporting, and optional
+integration with external authentication systems
+•	Provides secure messaging channels
+
+Figure 4: HP Investigation Overall Architecture
+
+Communications network infrastructure
+
+Communication Service Provider
+
+Data
+retention
+
+Laws Enforcement
+Agency
+Users
+
+Warrant
+management
+
+Users
+
+Warrant
+management
+Monitoring
+center
+Lawful
+intercept
+
+Users
+
+Broker
+
+7
+
+HP in the telecommunications industry
+HP helps the world’s CSPs transform the way they do
+business—to grow in a fast-changing market. CSPs
+must meet the huge demand for new services and
+streamline internal operations. HP is well-known for its
+ability to help CSPs drive transformation: 30+ years of
+telecom experience, global IT leadership, expertise in
+entertainment, and leadership in consumer devices.
+HP offers a truly end-to-end portfolio of technologies
+for the core network to handheld devices, including a
+suite of convergent IT and telecom solutions, such as:
+software (OSS/BSS, SDP, SDM, and cloud); professional
+services, including business consulting, integration,
+and managed services/outsourcing; joint go-to-market
+programs; carrier-grade servers; storage; printers; tablets
+and smartphones.
+
+HP Services
+HP Solution Lifecycle Services
+HP Solution Lifecycle Services for the communications and media
+industry help you realize the full value of your solutions, from
+planning and assessment through testing, deployment, operation,
+and nearly continuous improvement. Each service area leverages
+proven processes and best practices to balance CAPEX and OPEX
+and reduce risk, while keeping your projects on time and your
+operations running smoothly.
+Consulting
+HP Solution Consulting Services help define business transformation
+and translate strategies into actionable solutions.
+Implementation
+HP Solution Implementation Services offer a low risk project lifecycle
+across design, development, customization, and network and
+system integration.
+Management
+HP Solutions Management Services increase the operational
+efficiency of your existing solutions, including reactive, proactive,
+operational, and enhancement services.
+Outsourcing
+We offer a variety of sourcing options designed to improve
+business agility while reducing your OPEX; options include IT and
+infrastructure outsourcing, application management, and business
+process outsourcing.
+
+For more information about how HP Investigation solutions can help mitigate the risks, timeframes, and costs of
+adding critical functionality, visit www.hp.com/go/investigation or e-mail investigation@hp.com
+
+Get connected
+www.hp.com/go/getconnected
+
+Get the insider view on tech trends, alerts, and
+HP solutions for better business outcomes
+
+© Copyright 2011 Hewlett-Packard Development Company, L.P. The information contained herein is subject to change without notice. The only
+warranties for HP products and services are set forth in the express warranty statements accompanying such products and services. Nothing herein
+should be construed as constituting an additional warranty. HP shall not be liable for technical or editorial errors or omissions contained herein.
+Oracle is a registered trademark of Oracle and/or its affiliates.
+4AA3-4842ENW, Created June 2011 	
+
+

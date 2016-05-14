@@ -1,0 +1,934 @@
+World Class Standards
+
+ETSI/TC LI Overview on
+Lawful Interception
+and
+Retained Data handling
+
+1
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+1
+
+World Class Standards
+
+ETSI/TC LI presentations
+q General Overview on the Work in ETSI/TC LI and
+Details on Lawful Interception Standardization
+" Peter van der Arend, Chairman ETSI/TC LI
+
+q Security Framework for Lawful Interception and Retained Data
+" Vassilis Stathopoulosv, Helenic Authority for Communications Privacy
+
+q Interception Domain Architecture for CS and IP Networks
+" Stefan Bjornson, Cecratech and 1st Vice Chairman ETSI/TC LI
+
+q IP Interception: VoIP, e-mail& (LA+…
+" Mark Lastdrager, CEO, Pine Digital Security
+
+q Requirements for Handling of Retained Data
+" Koen Jaspers, PIDS, Ministry of Justice
+
+q Handover Interface for Retained Data
+
+2
+
+" Mark Shepherd, NTAC Consultant of Security, Detica
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+2
+
+World Class Standards
+
+General overview on TC LI activities and
+Introduction on
+Lawful Interception standardisation
+Peter van der Arend
+Chairman ETSI/TC LI
+
+3
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+3
+
+World Class Standards
+
+Handover Interfaces for transport of
+Lawful Interception and Retained Data
+are standardised in Europe by ETSI
+
+European
+Telecommunications
+Standards
+Institute
+4
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+4
+
+World Class Standards
+
+ETSI
+
+TC LI
+
+Lawful Interception
+
+Security
+LI & RD
+
+Retained Data
+5
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+5
+
+World Class Standards
+
+Intro on ETSI
+q A European standards organization, created in 1988,
+active in all areas of telecommunications
+" including radio communications, broadcasting and
+Information Technology
+
+q
+q
+q
+q
+
+Supporting EU and EFTA regulation and initiatives
+Favours international collaboration
+A not-for-profit organization
+Members: Administrations, Administration Bodies and NSOs
+Network Operators, Service Providers, Manufacturers, Users
+q Creates different deliverables to meet market needs
+q All publications freely available! Downloadable from ETSI Website
+http://pda.etsi.org/pda/queryform.asp
+6
+http://portal.etsi.org
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+6
+
+World Class Standards
+
+ETSI Members per country
+Albania
+
+1
+
+Great Britain
+
+Andorra
+
+1
+
+Greece
+
+Australia
+
+3
+
+Austria
+
+123
+
+(March 2008)
+
+Poland
+
+5
+
+8
+
+Portugal
+
+2
+
+Hungary
+
+6
+
+Qatar
+
+1
+
+11
+
+Iceland
+
+1
+
+Romania
+
+4
+
+Belgium
+
+22
+
+India
+
+7
+
+Russia
+
+8
+
+Bosnia Herzegovina
+
+2
+
+Iran
+
+1
+
+Serbia
+
+1
+
+Bulgaria
+
+3
+
+Ireland
+
+12
+
+Singapore
+
+1
+
+Brazil
+
+2
+
+Israel
+
+8
+
+Slovakia
+
+3
+
+Canada
+
+9
+
+Italy
+
+28
+
+Slovenia
+
+3
+
+China
+
+8
+
+Japan
+
+7
+
+South Africa
+
+3
+
+Croatia
+
+4
+
+Jordan
+
+1
+
+Spain
+
+15
+
+Cyprus
+Czech Republic
+
+2
+4
+
+Korea
+Latvia
+
+1
+2
+
+Sweden
+Switzerland
+
+24
+20
+
+Denmark
+
+20
+
+Lesotho
+
+1
+
+Taiwan
+
+11
+
+Egypt
+
+1
+
+Lichtenstein
+
+1
+
+Turkey
+
+5
+
+Estonia
+
+2
+
+Lithuania
+
+1
+
+Ukraine
+
+1
+
+Finland
+
+15
+
+Luxembourg
+
+5
+
+United Arab Emirates
+
+2
+
+France
+FYROM (Macedonia)
+
+71
+1
+
+Malaysia
+Malta
+
+1
+2
+
+United States
+Uzbekistan
+
+Georgia
+
+1
+
+Netherlands
+
+29
+
+Yemen
+
+Germany
+
+90
+
+Norway
+
+8
+
+62 countries
+
+7 65
+1
+1
+
+707
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+7
+
+World Class Standards
+
+Global Standards Collaboration
+Interregional collaboration on selected
+standardization subjects between partners:
+
+(China)
+(Japan)
+
+(Canada)
+
+(Japan)
+(USA)
+(Korea)
+8
+
+(USA)
+
+(International)
+Communication Alliance
+(Australia)
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+8
+
+World Class Standards
+
+Partnership Project
+3rd Generation Partnership Project
+specifying a W-CDMA system based on
+an evolution of the GSM core network, a
+member of 23e IT67s IMT-2000 family
+http://www.3gpp.org
+
+Organizational Partners:
+ETSI (Europe)
+ATIS (USA)
+
+CCSA (China)
+TTA (Korea)
+
+ARIB (Japan)
+TTC (Japan)
+9
+
+ISS track 3: Friday, 3 October 2008; 8:30-9:30
+3GPP/SA3-LI Handling US and European Needs
+Bernhard Spalt, Chairman of 3GPP/SA3-LI
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+9
+
+World Class Standards
+
+Status of ETSI Lawful Interception Standards
+and
+Introduction on
+Lawful Interception standardisation
+10
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+10
+
+World Class Standards
+
+Why Lawful Interception implementation in EU
+17th January 1995: EU Council of Ministers
+adopted resolution COM 96/C329/01 on Lawful Interception
+
+The providers of public telecommunications networks and services
+are legally required to make available to the authorities the
+information necessary to enable them to investigate
+telecommunications
+
+11
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+11
+
+World Class Standards
+
+Main body in ETSI for
+Lawful Interception Standards development
+and coordination is
+ETSI/TC LI
+Technical Committee on Lawful Interception
+
+12
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+12
+
+World Class Standards
+
+Why standardisation of LI handling
+q Easier to define own LI mechanism
+" Guidance is given for network architecture
+" No need to define/invent complete own LI system
+" National options are possible
+
+q :;3ea<er= LI <ro>uc2s
+" Manufacturers need to develop one basic product
+" National options are additional
+
+q Intercepted result is meeting international requirements by
+Law Enforcement Agencies
+q LI Standards in ETSI/TC LI are actively developed in good
+harmonization and are approved by all involved parties
+
+13
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+13
+
+World Class Standards
+
+History of ETSI/TC LI
+q ETSI/Technical Committee Security (TC SEC)
+" Working Group Lawful Interception (SEC-WGLI) (1997)
+" TR 102 053 v1.1.1
+ES 201 158 v1.2.1
+
+q ETSI/Technical Committee Lawful Interception (TC LI)
+"
+"
+"
+"
+"
+"
+"
+"
+
+Established as stand-alone TC in October 2002
+TR 101 943 v2.2.1
+TR 102 503 v1.4.1
+TR 102 519 v1.1.1
+TR 102 528 v1.1.1
+TS 101 331 v1.2.1
+TS 101 671 v3.3.1
+ES 201 671 v3.1.1
+TS 102 232-1 v2.3.1 TS 102 232-2 v2.3.1 TS 102 232-3 v2.1.1
+TS 102 232-4 v2.1.1 TS 102 232-5 v2.3.1 TS 102 232-6 v2.2.1
+TS 102 232-7 v2.1.1
+TS 102 656 v1.1.2
+
+14
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+14
+
+World Class Standards
+
+How ETSI/TC LI operates
+q Meetings
+" Three plenary meetings a year are organised
+(35-80 participants)
+" In be2Been if necessary Ra<<or2eur7s mee2ings can be organise> on a 
+specific issue
+
+q The meetings can be attended by ETSI members
+" Non-ETSI members can participate by invitation of the chairman
+
+q Dedicated TC LI E-mail server and FTP server
+" Open to all ETSI (full and associated) members
+
+q Producing reports and specifications on
+Lawful Interception and Retained Data
+q Promoting globally ETSI Lawful Interception standards amongst
+15
+operators and national bodies
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+15
+
+World Class Standards
+
+Participation in ETSI/TC LI
+q Law Enforcement Agencies / Governments organisations /
+Research organisations
+" NL, UK, DE, AS, S, GR, ES, FR, RU, FIN, IT, NO, CY, HU, UA
+" AU, CA, USA, KR
+
+q Operators
+" KPN (NL), DT (DE), BT (UK), TeliaSonera (S), Inmarsat, Telenor (NO)
+UPC, Telstra, Telecom Italia, T-Mobile (DE), Vodafone, Wind, TDC (DK)
+
+q Manufacturers (switch / mediation / LEA equipment)
+" Nokia Siemens Networks, Ericsson, Cisco, Alcatel-Lucent, Nortel
+Pine Digital Security, Aqsacom, ETI, VeriSign, GTEN, AREA,
+Verint, Detica, Thales, NICE Systems, Utimaco Safeware, Iskratel
+ATIS Systems, SS8, Spectronic, Group 2000, ZTE, HP, IPS
+Manufacturers may be active in all areas
+16
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+16
+
+World Class Standards
+
+LEA requirements (step 1)
+q ETSI TS 101 331
+Requirements of Law Enforcement Agencies
+" Provides guidance in the area of co-operation by network
+operators/service providers with the lawful interception of
+telecommunications
+" Provides a set of requirements relating to handover interfaces for the
+interception
+
+17
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+17
+
+World Class Standards
+
+Types of Lawful Intercepted data (TS 101 331)
+q Intercept Related Information (IRI)
+" Collection of information or data associated with telecommunication
+services involving the target identity:
+! communication associated information or data
+(including unsuccessful communication attempts)
+! service associated information or data
+(e.g. service profile management by subscriber)
+! location information
+
+q Content of Communication (CC)
+" Information exchanged between two or more users of a
+telecommunications service
+18
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+18
+
+World Class Standards
+
+General network arrangements (TS 101 331)
+n e tw o rk
+C o n te n t o f
+C o m m u n ic a tio n
+c o m m u n ic a tio n
+a s s o c ia te d
+in fo rm a tio n
+
+H a n d o ve r
+In te rfa c e
+
+in tercep tio n
+in terface (in tern al)
+
+re s u lt o f
+in te rc e p tio n
+(IR I + C C )
+
+s e rvic e
+a s s o c ia te d
+in fo rm a tio n
+lo c a tio n
+in fo rm a tio n
+
+Law
+E n fo rc e m e n t
+19
+M o n ito rin g
+F a c ility!
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+19
+
+World Class Standards
+
+LI Handover Interface (step 3)
+q ETSI TS 101 671
+(ETSI ES 201 671)
+Handover Interface for the Lawful Interception of
+Telecommunications Traffic
+" Generic flow of information and procedures and information
+elements, applicable to any future telecommunication network or
+service
+" Circuit switched and packet data
+" Covered technologies:
+PSTN, ISDN, GSM, UMTS (CS), GPRS, TETRA
+wireline NGN (including PSTN/ISDN emulation)
+wireline IMS PSTN simulation
+
+q ETSI TR 102 053
+Notes on ISDN LI functionalities
+
+20
+
+" Implementation advice of TS 101 671 for operators
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+20
+
+World Class Standards
+
+Handover Interface ports (TS 101 671)
+q HI1: for Administrative Information
+" Request for lawful interception:
+target identity, LIID, start/duration, IRI or IRI+CC,
+IRI delivery address, CC delivery address, ...
+" Management information
+
+q HI2: for delivery of Intercept Related Information
+" All data related to establish the telecommunication service and to
+control its progress
+" Correlation information
+
+q HI3: for delivery of Content of Communication
+" Transparent en-clair copy of the communication
+" Correlation information
+
+21
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+21
+
+World Class Standards
+
+Handover Interface Concept
+
+(TS 101 671)
+
+22
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+22
+
+World Class Standards
+
+Details on HI2 Interface (IRI) (TS 101 671)
+q IRI data is defined according ASN.1 description
+" ITU-T Recommendation X.680 (Abstract Syntax Notation One)
+
+q IRI Communication Associated Information
+" IRI-Begin
+! At first event of the communication attempt
+
+" IRI-Continue
+! Any time during the communication (attempt)
+
+" IRI-End
+! At the end of the communication (attempt)
+
+q IRI Service Associated Information
+" IRI-Report
+
+23
+
+! For any non-communication related events
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+23
+
+World Class Standards
+
+Parameters in IRI records (TS 101 671)
+q LI related identities
+" LIID, target, network operator, network element, call ID, ...
+
+q
+q
+q
+q
+
+Timestamp
+Intercepted call direction (to / from target)
+Intercepted call state (in progress, connected)
+Address: Calling party / Called party / Forwarded-to-party / ..
+" FGHIJ& TFI& IMSI& IMFI& MSISD+& SIM 6RI& …
+
+q Ringing tone duration / conversation duration
+q Type of intercept:
+" PSTN, ISDN, GSM (CS), TETRA, GPRS (PD), UMTS (CS)
+
+q
+q
+q
+q
+q
+
+Supplementary service information
+Location information
+National parameters
+IRI record type (Begin, Continue, End, Report)
+....
+
+24
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+24
+
+Interception network
+ISDN/PSTN Services
+step-by-step
+I/O
+
+INI1
+
+Data
+Switching functions
+
+IIF
+
+Call Content
+IIF
+
+INI2
+
+ISDN
+
+Authorisation
+Management
+World Class Standards
+Authority /
+System
+Law
+
+Warrant
+
+AI
+HI1
+Administration
+
+Function 1
+
+Law
+Enforcement
+Monitoring
+Facility
+
+Mediation
+Function 2
+Mediation
+Function 3
+
+INI3
+
+HI2
+(IRI)
+
+ISDN
+
+Mediator
+INI
+IRI: Intercept Related Information
+CC: Content of Communication
+INI: Internal Network Interface
+IIF: Internal Intercepting Function
+AI: Administrative Interface
+
+Enforcement
+Agency
+
+HI
+
+HI3
+(CC)
+
+(TS 101 671)
+25
+HI: Handover Interface
+HI1: Administration
+HI2: Intercept Related Information
+HI3: Content of Communication
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+25
+
+World Class Standards
+
+Activities in ETSI/TC LI
+on
+Retained Data Handover Interface
+
+26
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+26
+
+World Class Standards
+
+Why study on Retained Data in EU
+15th of March 2006: the European Parliament
+and the Council of the European Union adopted
+Directive 2006/24/EC on Data Retention
+
+Data generated or processed in connection with
+the provision of
+publicly available electronic communications services
+or of
+public communications networks
+need to be retained
+
+27
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+27
+
+World Class Standards
+
+Retained Data work in TC LI
+q ETSI TS 102 656
+Requirements of LEAs for handling Retained Data
+" guidance and requirements for the delivery and associated issues of
+retained data of telecommunications and subscribers
+" set of requirements relating to handover interfaces for retained data
+" requirements to support the implementation of Directive 2006/24/EC
+
+q ETSI DTS/LI-00033
+(will become TS 102 657)
+Handover interface for the request and delivery of Retained Data
+" handover requirements and handover specification for the data that
+is identified in EU Directive 2006/24/EC on Retained Data and in
+national legislations as defined in TS 102 656
+28
+" considers both the requesting of retained data and the delivery of the
+results
+" defines an electronic interface
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+28
+
+World Class Standards
+
+More details on ETSI/TC LI can be found on:
+http://portal.etsi.org/li/Summary.asp
+Chairman TC LI: Peter@lawfulinterception.com
+Peter@DataRetention.eu
+
+29
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+29
+
+World Class Standards
+
+30
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+30
+
+World Class Standards
+
+31
+
+Track 3 ! 2 October 2008, Prague; ETSI/TC LI activities on Lawful Interception and Retained Data
+
+31
+
+

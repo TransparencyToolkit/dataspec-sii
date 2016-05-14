@@ -1,0 +1,69 @@
+MELANIE
+Speaker Identification
+GMM
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+MELANIE – Speaker Identification, GMM
+
+Functionality
+Speaker identification determines the
+probability of a set of speakers in speech
+signals.
+The algorithm is especially useful when
+searching for a certain speaker in mass
+audio data.
+
+Training of Models
+Goal
+Training Data
+
+Training is performed in order to optimise the models on the
+respective speaker.
+The training data must be labeled according to the prevailing
+speaker. If possible, the speaker data should be obtained
+from different channels and languages. A minimum of two
+minutes speech is required for each speaker.
+
+Technical Data
+OperatingSystem Available on Windows XP and Linux
+Processing Time
+
+• On a P4; 3GHz, 1GB RAM computer
+• 1/8 of real time; i.e. a signal of 8 minutes length is
+processed in one minute
+
+Recognition Rate The recognition rate depends on the number of speakers, on
+the similarities of the speakers among each other and on the
+speech quality.
+
+Products
+Mel-Pr-GMM-site
+Mel-Pr-GMM-PC
+Mel-Tr-GMM
+
+Production environment for MELANIE GMM (site license)
+Production environment for MELANIE GMM (PC license)
+Training environment for MELANIE GMM
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Consequently, this means that a recording with a signal length of 20
+minutes can be fully classified in one minute.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+

@@ -1,0 +1,144 @@
+THE PROBLEM : SEARCHING AND SHARING DATA
+Searching for, and securely sharing , your data, in multiple formats ,
+across platforms and between organizations and business
+partners, is a difficult proposition. Data sharing has become a highpriority in many market sectors, but there are numerous practical
+challenges to delivering on this difficult challen ge: disparate
+database systems with differing schemas, structured (tabular
+database information) versus unstructured data (Microsoft Word
+documents, PDF files , web pages, etc.), varying security
+requirements, and performance and cost considerations.
+
+I HIGH DATA VOLUMES
+DIG promotes a higher degree of data consumption when
+compared with standard web sites or Portals. This is due to
+the automation , and multi-faceted nature, of the federated
+search . Giving users access to more of your data as well as
+the data of other agencies, can boost the value of your data to
+that user.
+
+I INSTANT SOA
+Visual Analytics' Digital Info rmation Gateway (DIG) solves this
+problem. DIG provides the means by which you can search and
+share your data, regardless of structure, location or format, within
+your organization, or outside your organization , securely, efficiently
+and cost-effectively.
+. • ,, • • L l
+-;ti;·~.
+
+DIG : SEARCHING AND SHARING DATA SOLVED
+How does DIG solve this challenge?
+
+I HOMOGENIZED DATA
+DIG provides a layer of "abstraction" for each data source
+under its control , "mapping" a standard schema to the columns
+of each shared source. When a user receives query results, all
+columns returned adhere to this schema, regardless of the
+name given to any column in the source database. Differences
+between sources are hidden from the end-user, giving the enduser the illusion of querying a single, vast, database.
+
+Wh at's Instant SOA? It's the instant transformation of your data
+into a Services Oriented Architecture that can be leveraged by
+anyone with access to the DIG network. DIG exposes shared
+data sources as Web Services , allowing any web service client
+to access the shared data. The DIG SOA framework provides a
+robust set of Web Service AP ls that enable existing client
+applications to easily use your data.
+DIG is designed to access any type of data, and provides a
+ready-made set of web services that are generic and that put
+you in control. This is made possible by a modeling framework
+that allows each data source to be mapped to the standard
+schema. Once your data is controlled by a DIG server, that data
+can be exposed as a web service - without any additional
+programming .
+
+Digital
+INFORMATION
+GATEWAY
+
+VISUAL ANALYTICS INC.
+
+..DIG_
+Overview.·~.~.
+-. .
+...
+"
+~
+
+fr-~
+
+~
+
+~
+
+~~
+
+~
+
+I FEDERATED SEARCHING
+
+I SINGLE POINT OF QUERY
+
+DIG uses a distributed , clustered network approach to
+executing searches. Multiple DIG servers distribute and
+respond to queries, thus distributing workloads across servers ,
+improving query response time for the end-user.
+
+All of the data in a DIG network is automatically available
+from a single query user interface. When a user enters a
+query, the query is distributed across the DIG network,
+executing against both structured and unstructured sources .
+
+This same approach allows secure "outbound" sharing of data
+between departments and to business partners. Any location
+wishing to share data may install a DIG server that manages
+the sharing activity. The data managed by each DIG server can
+be shared , or restricted from sharing, as dictated by local
+policy or as required by service agreements . Share a little, or
+share a lot, or only share yes/no notifications of matches - all
+of this is configured through a graphical user interface.
+
+I SECURE SHARING
+
+I SIMPLE TO QUERY
+The user interface for the DIG query client is simple to use.
+The interface resembles any number of Internet search
+engines making it immediately understandable to the average
+end user. DIG also supports a simple query language for
+advanced users.
+
+I WORD-LEVEL INDEXING
+All the data managed by DIG can be word-level indexed to
+speed performance . When a user queries for "John Smith ,"
+this query is federated across participating DIG servers , and is
+searched for in every column indexed by DIG. This allows a
+user to find references to "John Smith" in dedicated columns
+(like First_Name or Last_Name columns} , in a "Notes" or
+"Comment" column , as well as in unstructured data.
+Because the queries are federated , and because word-level
+indexing happens for all columns in all shared sources, a
+phrase like "John Smith" can even be found in a source where
+no dedicated name fields exist.
+
+All access to data is controlled at each DIG server and the
+data streams between servers are encrypted. Any column of
+a database can be shared, or not. DIG provides for both
+user-level and group-level access at the data source , table
+or column level. DIG also enables application-specific, rowlevel security to be applied through an open, plug-in
+framework.
+
+I VIRTUAL DATA WAREHOUSE AT YOUR
+FINGERTIPS
+In essence, DIG provides a "virtual" data warehouse , without the
+expense and work of creating a traditional , "real ," data
+warehouse . DIG consolidates your data, without the need to
+physically move the data from the source to a warehouse. This
+approach also reduces the latency issues normally associated
+with traditional data warehousing , in that a recurring ETL
+(Extract , Transfer and Load) process must be applied to the
+original source data to introduce it into the warehouse .
+
+I A PICTURE IS WORTH
+Below is a graphic displaying a common approach to
+configuring a DIG network.
+
+

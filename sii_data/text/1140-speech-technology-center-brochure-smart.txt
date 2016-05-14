@@ -1,0 +1,310 @@
+SMART LOGGER
+Multi-channel call recording and monitoring system.
+Hardware
+
+Applications
+Logging and monitoring:
+u Telephone conversations
+u Facsimile transmission sessions (using Fax
+Reader module)
+u Radio conversations (using noise cancellation
+feature to improve intelligibility)
+u Acoustic signal from any source
+Used by:
+u Police, Military & National Security Forces
+u Security & Emergency Services
+u Public Safety Service Centers
+u Call Centers & Help Desks
+u Legal, Financial& Insurance Institutions
+u Governmental Institutions
+u Air Traffic Control Sites
+u Medical Institutions
+u Any organisations that depend on verbal
+communication
+
+Advantages
+u
+u
+u
+u
+u
+
+u
+u
+u
+u
+u
+u
+u
+
+u
+u
+
+Reliable (24-hour continuous work) & easy-touse
+Portable, industrial & desktop configurations
+Perfect sound quality (up to 75 dB sound-tonoise ratio)
+Noise cancellation module for increasing speech
+clarity and playback comfort.
+Analog phone line recording through a telephone
+interface with non-galvanic coupling to the line
+with high input impedance
+ISDN S0, E1 digital phone line interfaces
+Supports all major PBX manufactures: Tadiran ,
+Siemens, Philips, Nortel, Lucent, Ericsson.
+Multi-level access restriction
+Network integration for a large scale systems
+Comprehensive search capability
+Text transcription module, view, export and other
+operations with recordings
+Automatic & manual scheduled archiving on
+different types of removable media (DVD-RAM,
+MO, DVD-RW,CD-RW)
+Automatic fax decoding
+Network LAN system and remote control through
+modem module
+
+u
+u
+
+u
+u
+
+4/8 channel STC-H197/205 boards with telephone
+interface
+6 channel STC-H199 board with digital lines
+interface (STC-H195 adapter is included for
+connecting to digital lines)
+ISDN PRI E1 system
+All systems include
+- Smart Logger software
+- Documentation
+- Cables and connectors, manuals
+
+Additional Options
+u Remote control through modem software module
+u Additional playback set based on professional STC
+sound card or on Sound Blaster compatible card
+u Fax Reader facsimile decoding module
+
+Features
+u
+
+u
+u
+u
+
+u
+
+u
+
+Technical Specifications
+
+u
+u
+
+u
+
+u
+u
+u
+u
+u
+u
+
+u
+
+u
+u
+
+u
+
+u
+
+Smart Logger is available as a scalable
+distributed Network system for call-centers and
+as a portable system for field applications.
+Sampling rate: 8-16 kHz
+Sound storage: 128 Kb/s, 64 Kb/s PCM(u-Law),
+32 Kb/s ADPCM,16 Kb/s ADPCM
+Hard Drive consumption per hour (8 kHz
+sampling rate): 58 Mb, 29 Mb,14 Mb,7 Mb
+Signal/noise ratio: >75 dB for 128 Kb/s bit rate
+Non-linear distortions: <0.1%
+Gain control: input automatic gain control, output
+automatic digital gain control, adjustment range
+up to 50 dB, option to turn off AGC
+Recording triggers: voice activation, On/Off hook
+detection, activation by external sensor,
+activation by control signals
+Access restriction: 4 levels of password system
+Supported facsimile protocols by Fax Reader II:
+V.27-ter,V.29,V.17;T.30,T.4,T.6 (standards of the
+International Telecommunications Union ITU)
+Environmental Conditions: Operating
+temperature: 5 -40 deg C; Storage temperature:
+-10 -60 deg C; Humidity: 85% RH(noncondensing) at 40 deg C
+Requirements: PC configuration: Pentium III or
+higher, RAM - 32Mb, HDD>2Gb, MS Windows
+95/98/Me and NT/2000.
+
+u
+u
+u
+u
+u
+u
+u
+u
+
+u
+
+u
+u
+
+All recordings are stored in sound database
+indexed by date, time, duration, channel number,
+keywords, DTMF codes, comments
+Database is equipped with sorting and filtering
+functions
+Access to sound database via LAN and dial-up
+connection
+High quality recording with or without
+compression allowing further procedures over
+sound such as speaker identification, noise
+filtering or other signal processing
+Telephone interface is galvanically separated
+from the line and has high input impedance to
+prevent detection
+DTMF codes, CallerID and other service signals,
+pulse dialed numbers recognition
+Playback of recorded signals without recording
+process interruption
+Built-in convenient tool for text decoding of
+recorded speeches
+Selectable playback speed without voice pitch
+distortion
+Linking between the typed text and the
+corresponding sound fragment
+Instant access to any previously recorded sound
+or typed text
+Sound data export in *.WAV (Windows) or
+*.DAT(STC/SIS) format
+Operator control is optional
+Distributed LAN configuration for call-centers,
+emergency services and police
+All possible service for the speech
+communication channels monitoring team
+Supervision of a number of logging workstations
+can be done by one system administrator in
+Smart Logger Network System
+Automatic on-the-fly tuning of the recording
+settings (threshold adjustment for line and call
+status, voltage measurement)
+Background auto fax decoding with Fax Reader
+module. Auto printing of the decoded faxes.
+Optional Sound Blaster compatible playback
+workstation
+
+Smart Logger Working Window with
+Waveform Viewer open
+
+Typical Configurations
+Smart Logger system has an open scalable
+architecture allowing different configurations for every
+task. Some configurations samples :
+Configuration Example A: 4 channel analog
+telephone line recording and monitoring station
+Smart Logger recording server configuration:
+Pentium III system containing professional PCI STCH197 board with telephone interface, “Smart Logger
+4” software, manuals and cables.
+
+u
+
+u Configuration Example B: 16 channel analog
+telephone line recording with auto fax decoding
+and remote monitoring
+Smart Logger configuration:
+Recording server: Pentium III system with network
+adapter containing 2 professional PCI STC-H205
+boards with telephone interface, Smart Logger
+software, Fax Reader II software, Remote control via
+LAN software module, manuals and cables.
+Remote monitoring workstation: Pentium III system
+with Smart Logger additional playback software,
+manuals and cables.
+Recording server and remote monitoring workstation
+are connected via LAN to allow remote line monitoring
+and access to the server database.
+
+Configuration Example C: E1 digital 30 channel
+recording solution
+Smart Logger recording server configuration:
+Pentium IV system containing 1x STC-H199_01
+board and, if necessary, additional device/adapter,
+Smart Logger software, manuals and cables
+u
+
+Recordings Search & Filtering
+dialog box of Smart Logger
+
+Configuration Example D: Digital extensions 6
+channel recording solution for PBX
+Pentium III and above system containing
+professional STC-H199 digital board, Smart Logger
+software, manuals and cables.
+u
+
+Configuration Example E: 3 ISDN recording at
+site A, 6 ISDN recording with auto fax decoding at
+site B, Remote monitoring via modem from site C
+Smart Logger configuration:
+1 Recording server at site A: External adapter
+providing undetected parallel connection to 3 ISDN
+lines, Pentium III and above system with modem
+containing 1 professional STC-H199 digital board,
+Smart Logger software, Remote control via modem
+software module, manuals and cables.
+2 Recording server at site B: External adapter
+providing undetected parallel connection to 3 ISDN
+lines, Pentium III and above system with modem
+containing 2 professional STC-H199 digital boards,
+Smart Logger software, Fax Reader software,
+Remote control via modem software module,
+manuals and cables.
+Remote monitoring workstation at site C: Pentium III
+and above system with modem and Smart Logger
+additional playback software, manuals and cables.
+u
+
+Remote monitoring workstation at site C initiates
+modem connection to the recording servers A or B
+providing remote access to the server's databases.
+
+Smart Logger Working Window with
+Fax Reader Module open
+
+Sample Configuration of Distributed LAN Smart Logger System
+
+PBX or PSTN
+
+Recording stations
+
+Archiving
+server
+
+Administration
+workstation
+
+LAN
+
+E1, ISDN, analog to
+extensions or
+external channels
+
+Operator workstation with
+fax decoding system
+
+Remote operator
+workstation
+
+

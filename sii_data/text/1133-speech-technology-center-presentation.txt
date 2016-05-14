@@ -1,0 +1,109 @@
+Identifying music in a live
+sound stream
+
+Applications
+
+Jingle Tracker captures the number and
+time that jingles or music samples are
+played on a given broadcasting channel.
+
+Applications
+
+! Advertising agencies: To identify the number of times
+and when a promotion jingle plays back on a number
+of broadcasting channels.
+! Broadcasting & Music Copyright organisations: To
+check how many times and when music plays back on
+a number of broadcasting channels.
+
+Structure
+!
+
+Implementing Music Spotting assumes two major
+stages:
+
+!
+
+Creation of a database: In order to start using music
+recognition a database of templates has to be
+created. Here, two options are available:
+1) manual -Template Maker software;
+2) automatic (available in SDK only)
+
+!
+
+Identification: The recognition server software logs
+any occurrence of the data included in the database.
+
+Advantages
+
+!
+
+Analysis in real-time provides instant identification
+in a live broadcast;
+
+!
+
+Low-resource consumption – runs on standard
+personal computers (PC);
+
+!
+
+Adjusting accuracy and performance provides easy
+adaptation for different tasks
+
+Template maker
+Template Maker is a convenient tool used to create a
+database of templates from a number of desired
+musical/advertisement samples
+The database should be created before the
+recognition can be initiated.
+
+The additional information for any
+record can be specified, such as:
+- Template ID, Title, Owner’s ID,
+Publisher’s ID, Time, Date, etc.
+
+Recognition server
+Recognition server is the core application to analyze
+live sound stream, recognize musical fragments and
+to perform reporting.
+The software provides successful recognition of
+about 1,500 x 1 minute templates running on
+Pentium IV 1.5GHz system
+One server application is capable to
+perform recognition for one
+channel per single CPU.
+
+Developer’s kit
+Music recognition library will allow Windows developers
+to create sophisticated and customized applications
+based on STC technology.
+Music Spotting SDK features:
+- More flexibility in delivering extra features apart from
+Jingle Tracker application;
+- Automatic creation of the templates;
+- Analysis by processing a prerecorded stream;
+The development version includes demo software.
+Flexible licensing policy.
+
+Speech Technology Center
+St.Petersburg, Russia
+http://www.speechpro.com
+email: sales@speechpro.com
+
+" Tel. +7 812 3310665
+
+# Fax +7 812 3279297
+
+German office:
+Speech Tech GmbH
+Saarbrücken, Germany
+http://www.speech-tek.com
+email: sales@speech-tek.com
+
+" Tel. +49 681 9655709
+
+# Fax +49 69 25577077
+
+

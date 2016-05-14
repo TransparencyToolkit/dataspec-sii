@@ -1,0 +1,365 @@
+P i t
+
+Lawful interception is our business
+
+STANDARDS-BASED LAWFUL INTERCEPTION
+FROM AQSACOM
+,—
+Lawful Interception (LI) throughout the Western World is characterized by the process depicted in
+the following figure. The standards-based LI process involves an interplay between the Courts
+who authorize the interception; the Network Operator, who performs the interception under highly
+secure conditions; and the Law Enforcement Agency (LEA), who monitors the interception and
+gathers the interception data as evidence to be used in a legal action.
+
+court order for
+communications
+Interception
+
+Courts, Other
+HANDOVER
+INTERFACE
+
+Law Enforcement
+Agency (LEA)
+Monitoring Center
+
+mediation
+M A N A G
+I N T E R
+
+Formatted intercepted
+traffic and supporting
+information from Target
+sent to law enforcement
+
+Local Police, FBI, Mll 5,other
+
+Intercepted Target
+traffic from
+
+E M E N T
+F A C E
+Configuration for
+ordered LI session
+
+Network elements
+instructed to collect
+Target traffic
+
+iiiterception Operator
+( ! e l e p h o n e c o m p a n y, w i r e l e s s
+
+operator, ISP)
+
+network elements
+
+Agsacom plays a vital role in the standards-based LI process by providing the mediation management platform to facilitate the LI procedures. Mediation performs a multi-fold purpose. In particular, Acisacom's standards-based mediation management system:
+• configures key equipment within the public communications network to intercept the telephone
+or internet traffic of the target subject(s);
+• provides a common interface between the LEA and network operator, regardless of the types
+of equipment in the network and for a wide range of supported services (fixed line telephone,
+mobile telephone, internet and internet applications, mobile data, 3G, etc.)—this greatly simplifies the work of the LEA in monitoring interception traffic;
+• enables the network operator to invoke the interception through an easy-to-use, common user
+interface that interoperates with the diversity of services that the operator might offer;
+• future-proofs both the network operator and LEA as new services come on line in response to
+market demand.
+Agsacom's comprehensive approach to LI adheres to established LI standards and many other requirements, as presented in the following diagram. We now discuss the parts of this diagram in more
+detail.
+
+:161) i g a i s p r : „ ! t; 4 t: I
+10 1 0 f t
+.
+1
+1
+)
+.
+1
+
+On the standards front, the
+ALlt e g o l t p • o o
+European Telecommu,
+nications S t a n d a r d s
+O t
+Statistics by equipment end servicesiLEA
+Invoicing
+Institute (ETSI), 3GPR and
+other organizations worldFault D i s a s t e r
+wide propose three IlanTolerance R e c o v e r y
+Enhanced
+Enhanced
+By equipment B y solution
+Hi2
+Hit
+dover interfaces f o r
+Byservice
+Byservice
+managing the interception data between the network operator and law
+ETSI/3GPP s p e c i f i c a t i o n s
+enforcement agencies.
+Here the interception instructions are conveyed to the Acisacom system through Handover Interface Hi 1;H12 and Hi3, respectively, convey the data describing the interception (e.g., number dialed, email address sent to,
+time of call, etc.) and content of the call / message from the network operator to the LEA via the
+Aqsacom system.
+a
+a
+
+U 1 I ILO . 1 U 1 0 1 I j t , j 1 L f l t 3
+
+'. ~ 'I I: n
+
+Lawful interception is our business
+
+Interception Data Transfer
+from Network Operator to LEA
+
+Common
+Interface
+
+•
+T~: Number Olaled,ulllng
+
+party number. time
+
+Moiih: SIM card 10, mobile phone ID, location (future)
+Ernall: "To•, 'From•, •cc•, •Date•
+Web: web site visited (URL) and when
+
+Telepho- real time capture of voice conveH<itlon
+Mobile: real time capture of voice convemitlon
+Emal: t!mall message
+Web: web site contents
+
+But how does the LEA (and network operator) handle the diversity 9f services and
+network equipment?
+·
+Answer: The Standards-based Mediation Platform
+·- !
+I he Med1dt1on PIJtforrn "bridges ' the d iverse forms of interception adm1n 1strat1on and
+collection from d1Herent services, different data types (e.g , packet IP v~ IDM). dnd d1f
+ferent vendor~ of network equipment :Ericsson, Alcatel, Nokia, C1sc o. Lucent, etc.I
+
+Communications
+Networks
+
+•
+
+Common
+
+lnterf11ee
+
+I
+I
+
+'trwc~
+
+:~
+
+I
+I
+
+•••
+•
+
+•
+
+100 ~-- :
+a
+
+I
+
+;
+
+~ - ":"::":, _._ • ~
+
+•
+
+Standards-based lawful
+
+Law Enforcement Agency
+
+Interception Approach
+
+(LEA)
+
+The Result:
+One user command interface at the network operator for controlling interception of all
+services.
+One form of delivery of intercepted traffic to the LEA.
+Very Secure Solution -closed to outside world, with authentication, confidentiality, integ rity, and comprehensive logging of all system actions.
+Administered by only specially trained and screened personnel.
+When the network operator acquires IRI and CC, the target must never know they are being
+intercepted! All interception and delivery functions must be carefully engineered to ensure
+transparency of the interception from the target's perspective. Mediation helps to assure
+this requirement.
+
+Everybody's job is now easier and much less costly/
+www.aqsacom.com
+AQSACOM Americas
+Washington, DC
+Tel: + 1 202 31 S 3943
+
+email: sales@aqsacom.com
+AQSACOM Europe
+Paris
+Tel: +33 1 6929 8400
+
+AQSACOM Asia
+Melbourne, Australia
+Tel: +61 3 9909 72 80
+
+Lawful interception is our business
+Enhanced Lawful Interception:
+As the deployment and market acceptance of communications services evolve. the interception
+requ ir~f.Pents of traffic originating from these services must also evolve. Such is especially the case
+with-the many applications based on Internet Protocol OP).indudingVoice-over-IP.email.instant messaging.etc. Comprehensive LI needs to account tor the interception of critical information generated by these applications. Examples of such LI information include identification of parties t hat
+communicate through instant messaging. precise location of the different phases of a mobile call.
+identification of what users downloaded what streaming files from an illicit source. where a subject
+using a Web-based email application sent an email, etc. Aqsacom refers to these data as Enhanced
+Interception Related Information (IRl), to be distinguished trom the standards-based IRI.
+Security, Confidentiality, Integrity, Authenticati on, Non-Repudiation: sDue to the nature of LI, security must be taken very seriously to preserve the privacy of the targef
+and the confidentiality of the Invest igation. Aqsacom therefore adhefes to secure standards at the:
+Access and delivery level in t he conveyance of intercept ion data and c"ont~nt to the LEA.
+Here secure information flow is assured through standards-based strong auth'etiticat ion. confidentiality, integrity, and non-repudiation. Th ese standards are applied over private dedicated circuits. switched data circuits (ISDN),and secure VPNs through the use of IPSec a11d TSL. In addition,
+secure information flow must be assured between the mediation system, the interception operator, and network elements by using strong authentication for access t? any p·ari ofthe network.
+Equipment level. Aqsacom assures tight control of all data on the ha r~ disk through encr yption
+of all log and buffered interception data. Access to the mediation man~ement system is controlled through strong password protection and optional biometric mea~s. All hardware conforms
+to standards-compliant. tamper-proof design.
+
+J!
+
+Maintenance fevel, Aqsacom applies very strict intervention pro~res to guarantee that no
+confidential information can be extracted from the mediation management platform or its components. Furthermore. operational maintenance procedures rnust'not allow administrators to
+access any interception of confidential data. Even the mediation system's vendor cannot access
+the interception data during debugging. repair or upgrade - in shdrt, no •back.door· access to
+the interception data is permitted.
+All actions and events that take place w ithin the mediation platform m'ust be logged to conform to
+traceability requi rements. Finally, the mediation software should be certified virus-free and delivered to the network operator in an authenticated format (e.g., with a secure hash).
+Fault Tolerance:
+Aqsacom assures continuous interception operations regardless of equipment. network. or system
+fault. Equipment fault tolerance is assured through duplicated platform components (e.g. RAID arrays
+for the disk storage, RAM redundancy. back-up CPUs that reside on -line, and hot swappable hardware components). Network faults are mitigated through ample hard disk buffering of intercepted
+data and content. System-level fau lt tolerance is assured through Aqsacom's replicated system
+app roach, w here multiple mediation p latforms can operate simultaneously on line to share the interception process loading and support one another in the event of the failure of any one system.
+Disaster Recovery:
+Aqsacom supports a comprehensive solution for disaster recovery to ensure continuous interception operations in the event that a complete interception facility becomes incapacitated due to a
+catastrophic event (war. terrorism, natural disaster) or more mundane causes (electric and/or communications line breaks.local fire). The solution calls tor a rapid transition lo a fully functioning interception facility with replicated interception capabilities. In local disaster recovery, downed mediation
+systems can be restored or rebuilt through a step-by-step process that implements a recovery CD.
+Statistics Collection and Alarms:
+Information is continuously gathered to keep network operators and the LEA apprised of the demands
+on the interception system and to ensure that load factors are in conformance wit h expected service. In the event of equipment or network failure. the network operator and LEA are immediately
+notified by the Aqsacom system through alarms locally and remotely.
+
+email: sales@laqsacom.com
+
+-.aqsacom.com
+AQSACOM Americas
+Washington. DC
+Tel:+ 1 202 31 S 3943
+
+AQSACOM Europe
+Paris
+Tel: +33 1 6929 8400
+
+AQSACOM Asia
+Melbourne, Austra lia
+Tel:+61 3 9909 72 80
+
+Lawful interception is our business
+Lawful Interception is AQSACOM's core business. With 11 years of experience in developing and deploying lawful interception systems for communication service providers and government law enforcement agencies in over 30 countries, AQSACOM
+has established a solid and reliable worldwide reputation for its lawful interception
+turn-key-systems.
+AQSACOM Lawful Interception Solutions
+• Wireline and wireless voice and data networks
+- CALEA, ETSI, and local law compliance.
+- Compatibility with all major switch vendors.
+- Intercept FAX, SMS, Call Content.
+- Now used by telco operators and ISPs.
+• I P Interception
+- Deployed world's first lawful interception system to acconnmodate. IP
+, networks of
+massive scale.
+- EOIP ("Everything over IP") Interception: AQSACOM carries the l e a d i n
+- lawful interception of IP-based services, including Voice over iR email, Web services,
+q -etc.
+ledge i n
+t h e
+,
+• Wireless roaming and tracking
+- Track presence and usage of on-net and off-net roaming subscribers.
+Reference Clients
+
+- Major public-switched telecom, wireless, and Internet operatcFs throughout Europe
+and Asia.
+- Local and national-level law enforcement agencies.
+Scalable, Flexible, and Responsive systems for Lawful Interception
+
+- AQSACOM's modular, standards-based approach supports scaling and service modifications.
+- Single-platform lawful interception over a diversity of services and technologies.
+- All hardware derived from off-the-shelf equipment tI> easy service, replacement, cost
+reduction.
+AOSAC CM develops arid inint kets real
+time I awful It it•rception,
+Tracking and Sul veil lance soli
+With its core business i s a d en lawful
+interception an ' elated applications for
+over eleven years, AQSACOM r r - • ! s
+endlo-cnd turnkey sal • r i s for fulfilling lawful , e p t i o n requirement
+anywhere iriThe world, espe • I over
+highly hetelogeneo n e t w o r k i n g and
+set vices envitutiMents AUSACOM's
+
+AQSACOM and Standards
+AQSACOM actively particpates in the EISI and 3GPP LI Groups to promote systematic
+and consistent approaches to lawful interception in telecom and IP networks worldwide.
+Standards-based approaches ensure operator conformance to established and emerging
+LI regulations worldwide.
+Switched Voice Networks
+Wireless Cellular Networks
+(2G, 2.5G, 3G)
+Email, Instant Messaging, Internet
+
+Voice Over IP
+
+diversified clisturnel pen Polio includes
+clients from inure than 30 countries,
+
+Other
+
+ACISACOM
+Surveillance
+
+Law
+Enforcement
+
+Tracking
+Interception
+
+Agencies
+
+genotaphical areas as diverse
+as Central and I astern I urope. AsiaPacific Not ill America, Africa and the
+Middle Fast.
+
+AQSACOM addresses on a single platform the lawful interception requirements
+of a network operator's diverse service and technology mix
+Our Customers speak for us
+
+www.aqsacom.com
+AQSACOMAmericas
+Washington, DC
+Tel: +1 202 315 3943
+V
+
+A
+
+0 1 0 0111t1JJ' 1 0 1 0 1 1 1 1
+
+email: sales@aqsacom.com
+AQSACOM Europe
+Paris
+Tel: +33 1 6929 8400
+
+AQSACOM Asia
+Melbourne, Australia
+Tel: +61 3 9909 72 80
+
+

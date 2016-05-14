@@ -1,0 +1,454 @@
+Beowulf I1 Board
+Audio Recorder
+Data Sheet
+
+The most importiilltthing webuild ktr
+
+Bmwulf II Board
+
+Image not to scale
+
+Beowulf U Board
+The Beowulf I1 Board is an audio recordingdevice,
+especially engineered and designed for easy integration
+into numerous custom made concealments.
+The very small and lightweight recorder intercepts all
+ambient audio making it extremely suitable for close
+proximity operations.
+The hassle free design is delivered with external batteries,
+microphones and kill switch, and can be configured with
+matching battery packs and external switch 1push button
+of your choice.
+The recorder is operated easily using only a single button
+on the PCB or from an external wired slide switch 1
+push button. The slide switch input can also be used as
+normally open trigger input. Additional recordingoptions
+include multiple scheduled recordings or voice activation
+(VOX). Positive feedback from 2 LEDs, provide assurance
+on the device's operational state.
+
+The audio is stored, as Microsoft@wave audio files, on the
+internal 16 GB flash drive usingthe FAT32 file system. Evidence
+verification is included with the bundled Wavechecker I1 Utility
+which detects whether or not audio files recorded with the
+Beowulf family of products have been modified after the audio
+was recorded.
+
+Features
+
+5 different sample rates
+
+- 6 kHz, 8 kHz, 12 kHz, 16 kHz and 24 kHz
+4 different audio format options
+-Stereo IMono 16 bit and Stereo 1Mono A-law
+Various input gain settings
+-Automatic Gain Control (AGC)
+- 0 dB, +l0 dB, +20 dB, +30 dB and +40 dB
+3 options to trigger recordings
+- Manual trigger usingthe Beowulf I1 External Slide Switch
+(normally open trigger) or the Beowulf I1 Button
+-Scheduled recordings using dates and times
+-Voice Activation (VOX)
+3 different battery options
+- Selectable according to operational needs
+
+Recording, Recharging, and Power Matrices
+
+Audio Sample Rate
+
+Compression
+
+130 mAh
+
+2 10 mAh
+
+420 mAh
+
+Max. Rec Time*
+
+6 kHz
+
+Mono
+Mono. A-law
+
+5 h 50
+6 h 10
+
+9 h 30
+10h
+
+19h
+20 h
+
+368 h
+736 h
+
+8 kHz
+
+Mono
+Mono. A-law
+
+5h35
+6h
+
+9h5
+9h5
+
+18 h 10
+19h40
+
+276 h
+552 h
+
+12 kHz
+
+Mono
+Mono, A-law
+
+5h10
+5 h 50
+
+8h20
+9h30
+
+16h40
+19h
+
+184h
+368 h
+
+16 kHz
+
+Mono
+Mono, A-law
+
+4h45
+5 h 25
+
+7h45
+8h45
+
+15 h30
+17h30
+
+138h
+276 h
+
+24 kHz
+
+Mono
+Mono, A-law
+
+4h25
+5h
+
+7h10
+8h06
+
+14 h20
+16h10
+
+92 h
+184h
+
+6 kHz
+
+Stereo
+Stereo, A-law
+
+5h10
+5 h 50
+
+8h2O
+9h30
+
+16h40
+19h
+
+184h
+368 h
+
+8 kHz
+
+Stereo
+Stereo. A-law
+
+5h
+5 h 40
+
+8h5
+9h05
+
+16 h 10
+18 h 10
+
+138h
+276 h
+
+12 kHz
+
+Stereo
+Stereo, A-law
+
+4h35
+5 h 25
+
+7h30
+8h45
+
+15h
+17h30
+
+92 h
+184h
+
+16 kHz
+
+Stereo
+Stereo, A-law
+
+4h10
+4 h 25
+
+6h45
+7h45
+
+13h30
+15 h30
+
+69 h
+138h
+
+24 kHz
+
+Stereo
+Stereo, A-law
+
+3 h 35
+4 h 20
+
+5 h 50
+7h
+
+11 h40
+14h
+
+46 h
+92 h
+
+Maximum record time requires a power source that meets or exceeds the record time.
+
+Recharge Time
+
+45 m
+
+l h15
+
+2 h 30
+
+NIA
+
+Current ccarlrumpt-m
+
+mAh @ 3.3 V DC
+
+rnAh @ 4.2 V DC
+
+Audio Sample Rate
+
+Compression
+
+6 kHz
+
+Mono IMono A-law
+
+22 I 2 1
+
+22 l 2 1
+
+Mono IMono A-law
+
+23 / 21
+
+23 / 21
+
+I 12 kHz
+
+Mono / Mono A-law
+
+25/22
+
+24/21
+
+I
+I
+
+1 16 kHz
+
+Mono / Mono A-law
+
+27/24
+
+26/23
+
+I
+
+24 kHz
+
+Mono / Mono A-law
+
+29 126
+
+29 / 26
+
+6 kHz
+
+Stereo /Stereo A-law
+
+25 / 22
+
+24 121
+
+1 8 kHz
+
+Stereo / Stereo A-law
+
+25 / 23
+
+25 123
+
+I
+
+I 12kHz
+
+Stereo / Stereo A-law
+
+28 124
+
+28 124
+
+I
+
+16 kHz
+
+Stereo / Stereo A-law
+
+31 l 27
+
+31 127
+
+24 kHz
+
+Stereo IStereo A-law
+
+36 1 30
+
+36/30
+
+l
+
+I
+l
+
+1
+
+Beowulf I1 Board
+Audio Rercocd@r
+Data Sheet
+
+Battery Options
+
+Bmwulf I1 210 mAh Battery
+
+;
+
+Rechargeable L W 0
+3,N 1 420mAh
+-
+
+kwhf II 420 rnAh Battery
+
+Slide Switch
+
+I
+
+Beowulf I1 Board
+Audio Recorder
+Technical Information
+
+Beowuff II Board
+
+-@--@m
+mn
+@
+mm--
+
+p
+
+m
+
+c
+
+~wwcr(3232~esoaf
+
+f
+
+-*W
+
+apGal
+@*WJC~
+
+4wx7%32%*4am
+
+1anQM~aT)-
+
+-
+
+7
+
+0
+
+d
+
+7
+2
+
+t
+
+2
+
+P
+
+3
+
+1
+
+-
+
+For further ~nforrnat~on
+please contact.
+
+Cobham Tactical Communications and
+Surveillance
+Skindbjergvej 44, DK-8500 Grenaa, Denmark
+T +45 87 91 81 00
+F:
++45 87 91 81 81
+tcs.grenaa.sales@cobham.com
+
+Spectron~cDenmark AiS trad~ngas Cobham Tact~calCommun~cat~ons
+and Survetllance
+
+-
+
+-
+
+r
+
+-
+
+F
+
+p
+
+

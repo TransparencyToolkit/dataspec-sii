@@ -1,0 +1,250 @@
+Soluciones De Infección Y Monitoreo Remota
+FINFLY ISP
+
+En muchas operaciones reales, es posible que no se pueda
+tener acceso físico a los sistemas objetivo del propio país y
+que sea necesaria la instalación remota encubierta de
+una solución de monitoreo remoto para poder monitorear
+el objetivo desde dentro de la sede central de la agencia gubernamental.
+
+Uso:
+
+· Operaciones estratégicas
+
+Capacidades:
+
+FinFly ISP es una solución (móvil) estratégica y táctica de
+escala nacional que se puede integrar en la red de núcleo y/o de acceso de un proveedor de servicios de
+Internet para instalar de forma remota la solución de monitorización remota en los sistemas objetivo seleccionados.
+
+· Implementa una solución de
+monitorización remota en el
+sistema objetivo a través de
+una red ISP
+
+Contenido:
+
+· Hardware/Software
+
+DE UN VISTAZO
+
+Los componentes de FinFly ISP se basan en la tecnología
+de servidores de nivel de operador y proporcionan la
+máxima fiabilidad y escalabilidad para hacer frente a casi
+cualquier reto relacionado con las topologías de redes. Hay
+una gran variedad de interfaces de red disponibles, todas
+ellas protegidas con funciones de omisión, para la conectividad de red activa.
+
+FinFly ISP puede infectar archivos descargados por el objetivo en tiempo real, o infectar el sistema objetivo enviando falsas actualizaciones de aplicaciones de software
+populares. La nueva versión integra la potente aplicación de
+infección remota de Gamma FinFly Web para que los objetivos se infecten en tiempo real con solo visitar cualquier
+sitio Web.
+
+Los múltiples métodos, activos y pasivos, de identificación
+de objetivos, desde la monitorización en línea mediante
+intercepción pasiva hasta la comunicación interactiva
+entre FinFly ISP y los servidores AAA, garantizan la identificación de todos los objetivos y el suministro de canales
+adecuados para el proceso de infección.
+
+Ejemplo De Uso: Agencia De Inteligencia
+FinFly ISP se implementó en las redes del principal proveedor
+de servicios de Internet del país y se usó activamente para
+implementar de forma remota una solución de monitorización remota en lossistemas objetivo. Dado que los objetivos tienen conexiones DSL con IP dinámica, se identifican
+mediante su nombre de inicio de sesión de RADIUS
+
+Descripción General De Funciones
+·
+·
+·
+·
+·
+·
+
+Se puede instalar dentro de la red de un proveedor de servicios de Internet.
+Es compatible con todos los protocolos más comunes
+Selecciona e identifica los objetivos por su dirección IP o el nombre de inicio de sesión de RADIUS
+Oculta la solución de monitorización remota en las descargas de los objetivos.
+Disfraza la solución de monitorización en forma de actualizaciones de software.
+Instala de forma remota soluciones de monitorización remota a través de los sitios Web que visita el objetivo.
+
+Encontrará la lista completa de funciones en las Especificaciones del producto.
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Soluciones De Infección Y Monitoreo Remota
+FINFLY ISP
+
+Varias posibilidades de ubicación
+· FinFly ISP se puede utilizar como solución táctica
+oestratégica en redes ISP
+
+Una solución táctica es de naturaleza móvil, y el hardware
+se dedica a las tareas de infección dentro de la red de acceso, cerca de los puntos de acceso de los objetivos. Se
+puede implementar a corto plazo para satisfacer requisitos
+tácticos centrados en un objetivo específico o un número
+reducido de objetivos en un área determinada.
+Una solución estratégica sería, por el contrario, permanente. La instalación de FinFly ISP en los sistemas de un
+
+proveedor de servicios de Internet o a escala de todo el país
+permite identificar e infectar de forma remota cualquier objetivo desde la sede central de la agencia gubernamental
+sin necesidad de que las fuerzas y cuerpos de seguridad se
+desplacen al lugar en cuestión.
+Evidentemente, es posible combinar soluciones tácticas y
+estratégicas para otorgar la máxima flexibilidad posible a las
+operaciones de infección.
+
+Soluciones De Infección Y Monitoreo Remota
+FINFLY ISP
+
+Configuración de la red
+Implementación estratégica
+
+Implementación táctica
+
+Soluciones De Infección Y Monitoreo Remoto
+FINFLY ISP
+
+Componentes Del Producto
+FinFly ISP Estratégico
+Una implementación estratégica de FinFly ISP consta al menos de lo siguiente:
+· Sistema de administración en el LEMF
+· Servidor(es) de identificación de objetivo en el sistema AAA
+de la red
+· Servidor(es) proxy de infección en la(s) puerta(s) de enlace
+de Internet, por ejemplo
+
+Capacidad de pro- > 20 Gbps
+ceso
+Nº máx. de NIC:
+
+2-8 NIC
+
+Interfaces:
+
+1 GE Cobre / Fibra
+10 GE Cobre / Fibra
+SONET/SDH OC-3 / -192
+STM-1 / -64
+ATM AAL5
+
+Procesadores:
+
+De 1 a 8 Intel XEON
+
+Núcleos
+
+2 – 8 núcleos / procesador
+
+RAM:
+
+12 GB – 1 TB
+
+HP ProLiant Serie DL G7
+Estación de trabajo
+
+Capacidad de
+disco duro:
+
+3 SAS de 146 GB – 4,8 TB
+
+profesional
+
+Características
+
+HP iLO 3
+Alimentación redundante
+Ventiladores redundantes
+Función de conmutación de
+derivación (si existe)
+
+Sistema operativo
+
+Linux GNU (Debian 5.0) reforzado
+
+Servidores FinFly ISP
+Estación de trabajo
+
+FinFly ISP
+HP Serie Z
+
+FinFly ISP Táctico
+Un sistema FinFly ISP táctico consta de lo siguiente:
+· Servidor proxy portátil de identificación de objetivos e
+infección
+· Ordenador portátil del sistema de gestión
+
+FinFly ISP Táctico
+Gestión portátil
+Atlas A9 17” Portable
+
+FinFly ISP Táctico
+Lenovo Thinkpad
+Serie T
+
+Capacidad
+ceso
+
+de
+
+pro- 5 Gbps
+
+Nº máx. de NIC:
+
+3 NIC
+
+Interfaces:
+
+1GE Cobre / Fibra
+SONET/SDH OC-3 / -12
+STM-1 / -4
+ATM AAL5
+
+Procesadores:
+
+2 Intel Core i7
+
+Núcleos
+
+6 núcleos / procesador
+
+RAM:
+
+12 GB
+
+Capacidad de disco 2 SATA de 1 TB
+duro:
+
+Los datos técnicos y las especificaciones están sujetos a cambios sin previo
+aviso.
+
+La información contenida en el presente
+documento es confidencial y puede sufrir
+cambios sin previo aviso. Gamma Group International no se responsabiliza de las omisiones o los errores técnicos o editoriales que
+pueda contener este documento.
+
+Unidad óptica
+
+DVD+/-RW SATA
+
+Monitor
+
+1 TFT de 17”
+
+Características
+
+Función de conmutación de derivación para NIC
+
+Sistema operativo
+
+Linux GNU (Debian 5.0) reforzado
+
+GAMMA INTERNATIONAL
+United Kingdom
+Tel: +44 - 1264 - 332 411
+Fax: +44 - 1264 - 332 422
+info@gammagroup.com
+
+

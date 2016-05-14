@@ -1,0 +1,604 @@
+GOVER N MEN TAL
+
+SE CUR ITY
+
+SOL UTIO NS
+
+Product Information
+
+TSE 6802
+System Operation
+
+TSE 6802
+
+System Operation
+The set is designated for a monophonic or stereophonic wireless audio signal transmission within 420
+MHz band to a distance according to the transmitting power and field conditions. Due to digital
+modulation, a better audio transmission quality is acquired during a weak signal in the noise threshold
+in comparison with the analogue systems. The set is designed as a frequency tunable unit. In a case of
+interference, it is possible to retune to another RF channel.
+The transmission is continuous without amplitude modulation of the carrier. This limits the possibility of
+undesired penetration of the signal into other electronic devices (e.g. car radio, walkman, etc.). During
+interference, no characteristic audio effects occur, as known in e.g. mobile phones.
+An unauthorized listening is practically eliminated by digital transmission, method of coding and
+encryption. A regular AM or FM receiver indicates the signal as an increased level of noise only. A data
+word of the encrypted audio signal does not contain any obvious signs such as e.g. start or stop bites,
+which makes the possibility of undesired decoding far more difficult. An encryption table to the
+individual transmitters is being designated during manufacturing.
+The remote control takes place at the single frequency in the 150 MHz band, equal for all manufactured
+transmitters. The desired transmitter is located by a digital code being transmitted at every command.
+When the transmitter is controlled, it is identified by its assigned address, which is a number from 0 to
+255.
+For transmission of the remote control signals the same antennas are used like in case of an audio
+signal transmission. Therefore, the equipment may simultaneously receive as well as transmit by a
+single antenna on the transmitter and the receiver too. This is permitted by a frequency separator
+installed in both devices.
+On the transmitter, a filter has been mounted midway on the antenna in order to optimize it to the two
+frequencies, Audio Signal Transmission and Remote Control respectively.
+
+System Specifications
+Audio bandwidth
+
+300 Hz – 9 kHz (for decrease - 3dB)
+
+Sampling frequency
+
+20.306 kHz
+
+Supporting information transfer
+
+Transmitter battery voltage, table key
+
+Audio-channel RF carrier
+
+410 to 427 MHz (up to 64 channels)
+
+Audio-channel modulation
+
+FSK: Df ±38 kHz, 122kb/s (Mono)
+Df ±53 kHz, 244kb/s (Stereo)
+
+Audio-channel coding
+
+100µs pre-emphasis, 8-bite quantization, digital compression to 5
+Bites
+
+Audio-channel encryption
+
+32x32 fields binary table – no. of combinations: 2.6x1035
+
+Remote control RF carrier
+
+149.125MHz
+
+Remote control modulation
+
+FSK ±4 kHz, 2/1 asynchronous Manchester code
+
+Transmitter identification
+
+Address: 0 to 255 – transmitter serial number
+
+CONFIDENTAL
+
+page 2
+
+Transmitting Units
+LOKE STANDARD TRANSMITTER
+Dynamics compressor
+Rising time approx. 0.1 s, falling time approx. 4s
+Switch-off time in VOX regime
+13 seconds after acoustic stimulus dies away
+Crosstalk between audiochannels 40 dB (depending on audio frequency)
+RF power / DC consumption (typical values)
+
+CONFIDENTAL
+
+page 3
+
+HI Power
+
+300mW / 130mA - supply voltage 12V (max)
+170mW / 95mA - supply voltage 6V
+(nominal) 80mW / 90mA - supply voltage
+3.6V (min)
+
+LO Power
+
+15mW / 54mA - supply voltage 12V (max)
+12mW / 52mA - supply voltage 6V (nominal)
+10mW / 50mA - supply voltage 3.6V (min)
+
+Spurious RF products
+
+< 40dBc (non harmonics)
+
+VOX consumption
+
+0.4mA - average value (without activation stimuli)
+
+INACTIVE consumption
+
+0.14mA - average value
+
+Battery polarity reversal
+
+Without any damage – protection by serial Schottky diode
+
+Climate operating conditions
+
+-10°C to +60°C / 14F to 140F, humid environment
+
+Dimensions
+
+57.5x29.5x8 mm / 2.2x1.1 x0.3 inches
+
+After connection to a supply the transmitter will switch into an initial start mode. Change of this setting
+will be made by a remote control on the receiver side.
+Antenna - Since the antenna's quality basically influences the real emitted RF power, a special whip
+antenna made of two insulated conductors 17 cm long with a filter between is recommended. It must
+be pulled straight forward in the direction from the antenna transmitter pin. Open space around the
+antenna is recommended for the best RF radiation. Other conductors connected to the transmitter
+(microphones, batteries) must be directed to the opposite side of the antenna in order to establish a
+suitable balance to the antenna itself. Under hard conditions (e.g. on a human body) it is necessary to
+experimentally set the antenna.
+Supply voltage - A maximum allowed value is 12V. The minimum value to keep the internal stabilizer
+functional may not drop below 3.6V. A recommended voltage is 6V (2 x lithium battery cells), at which
+the transmitter reaches the best efficiency (i.e. ratio of RF power / DC consumption). On the contrary,
+the maximum emitted RF power (regardless of the efficiency) is reached under a supply voltage up to
+12V. For installation of the transmitter in a car it is necessary to implement a stabilizer. A random
+polarity reversal of the supply voltage is being treated and does not lead to any destructive
+consequences.
+
+CONFIDENTAL
+
+page 4
+
+Loke High Power Transmitter – 2W
+
+Stereo inputs:
+I
+
+Audio line 0.7V (ef)
+Microphone (electret, 3V bias
+ntroduced through 4.7kW resistor)
+
+Digital input/output:
+
+TTL audio signal data stream input
+TTL remote control signal output
+
+Dynamics compressor:
+
+Rise time 0.1s (approx.), fall time 4s (approx.)
+
+Switch-off time in VOX mode:
+
+13 seconds after acoustic stimulus or data stream dying
+down
+
+RF power:
+Spurious RF products:
+
+HI Power: 2.5W
+LO Power: 0.2W
+< 55dBc (non-harmonic components)
+< 60dBc (harmonic components)
+
+Supply:
+
++12V (min. 8V, max. 15V) / max.
+0.8A – DC/DC converter used
+
+Reversal of battery poles:
+
+Without transmitter damage –
+serial Schottky diode protection
+
+Climatic operating conditions:
+
+-10 to +60°C, humid
+Environment
+
+Size:
+
+100×51×39mm / 3.9x2.0x1.5 inches
+
+After connection to a supply the transmitter will switch into an initial start mode. Change of this setting
+will be made by a remote control on the receiver side.
+Microphone inputs – The connector is wired by standard method, similarly as, e.g. any microphone
+input in the computer audio adapter. Herein the DC bias is introduced for the microphones supplying.
+This is equipped for two wires microphone connection.
+
+CONFIDENTAL
+
+page 5
+
+Line input – It is being utilized for processing the signal of a standardized line level from other audio
+devices, e.g. various recording instruments, etc.
+Digital input/output – This connector is being utilized for the direct data interconnection with the
+LOKE receiver and this way a repeater station may be created.
+Output cascade may be remote switched either to high or low power. This power is internally
+stabilized so it does not depend on the supply voltage. It changes only during channel retuning. It is
+slightly decreasing on higher channels.
+Antenna – A mobile two-band or a special two-band whip antenna has to be connected to the
+transmitter. We recommend the same mobile antenna with magnetic base as that one delivered with
+the receiver. The role of output cascade protection circuits is to prevent the output cascade destruction
+in case of antenna disconnection. Regardless, we recommend avoid the transmitter operation without
+the antenna connected.
+Supply voltage – The maximum allowed operating supply voltage value is 15V, the minimum one,
+under which the internal stabilizer not operate, is approx. 8V. The switched DC/DC converter holding
+stable operation conditions in the mentioned supply range is used in the transmitter. It is necessary to
+realize the maximal current consumption from the power supply occurs in case of minimum operating
+voltage due to this circuit influence!!!
+Cooling – The transmitter consumption from the power supply may be up to 10W and most part of
+this power converts to heat energy. Therefore sufficient transmitter packet cooling has to be ensured.
+We do not recommend placing the transmitter to confined areas without sufficient air circulation and
+other extraction of radiated heat energy.
+Accidental reversal of source poles is treated and it has no destructive consequences.
+
+Receiving Unit
+Receiver sensitivity
+
+1 µV (Mono), 1.5µV (Stereo) - listening without noticeable defects
+0.8µV (Mono); 1.2µV (Stereo) - good speech intelligibility
+0.5µV (Mono), 0.8µV (Stereo) - listening on the edge of intelligibility
+
+RF signal processing
+
+Double mixing, 1.MF=159.825MHz, 2.MF=10.7MHz, PLL detector
+
+S-meter
+
+Displayed value from 0 up to 100 (see the picture below this table)
+
+Data synchronization
+
+Bites - hardware PLL Frames - to maximum average of parity
+
+Synchronization time
+
+< 0.1 s
+
+Noise squelch
+
+After data stream loss, No noise
+
+Receiver digital output
+
+TTL, updated copy of received data for retransmission
+
+Receiver line output
+
+0.7V
+
+Receiver repro output
+
+4W, 1 W
+
+Remote control RF power
+
+0.7 W (according to battery voltage, external source, resp.)
+
+External source voltage
+
+12V nom. (8V min., 15V max.)
+
+Current consumption:
+
+110 mA from external power supply (+50mA – display backlighting)
+200 mA from internal 3V battery (+90mA – display backlighting)
+
+Internal battery
+
+2 x AA
+
+CONFIDENTAL
+
+page 6
+
+Receiving operating period
+Ext. source polarity reversal
+
+Up to 10 hours depending on battery quality and use of remote
+control command (without display backlight)
+May lead to a damage - not permitted!
+
+Int. battery polarity reversal
+
+May lead to a damage - not permitted!
+
+Climatic oper. Conditions
+
+-10°C to +60°C / 14F to 140F, internal environment without
+Humidity
+
+Dimensions
+
+205x95x40mm / 8.1x3.7x1.5 inches (without connectors)
+
+Device switch-on is done by pushing the green button referred to as POWER. Switch off is done by
+holding this push button down a little longer. After the device is switched off, you must allow at least 5
+seconds or longer before switching on again. When switched on, a status is displayed showing the
+data, which appeared before the device was switched off.
+Display lighting - is always activated for a period of 5 seconds from the time of switching on. After
+this period has passed the display lighting is automatically turned off. A permanent lighting of the
+display may be activated and deactivated by using the LIGHT push button.
+Encryption table – 32 x 32 fields binary table – number of combinations 2.6 x 1035
+Sound volume in speakers or earphones is selected by VOLUME push buttons. During the time they
+are pushed down numerical information about the sound volume appears on the display on the right
+upper side instead of an internal battery voltage.
+CONFIDENTAL
+
+page 7
+
+Remote control function - Push buttons on the keypad are limited by a darker field. Their immediate
+status is shown on the display. A flashing COMMAND sign on the upper left side indicates the display
+initial command regime. Terms of the remote control status push buttons.
+MONO / STEREO
+
+Switches between one - and two channel transmission.
+
+HI POW / LO POW
+
+High or Low RF power of the audio-transmitter.
+
+VOX / CONT
+
+Voice activation (VOX) or permanent transmission (CONT).
+
+ADDRESS
+
+Particular serial number of the transmitter that to be controlled.
+
+CHANNEL
+
+Immediate tuning of the receiver to a selected channel,
+which shall also be transferred by command into the audiotransmitter.
+
+All push buttons in a dark field on the keypad are only "status-displayed" - they have no influence until
+the command ACT or DEACT push buttons are used, when the factual transmission of a remote control
+command only occurs. The exception is the CHANNEL push button that is also used to select an
+immediate choice of the channel being received. It is necessary to note that by switching over the
+MONO-STEREO, only the signal processing on the audio transmitting side is directly being controlled.
+The receiver automatically recognizes the type of signal being received at the time, regardless of
+immediate position of the command push button. This is important if the signal from one audio
+transmitter is being simultaneously listening to at more receivers.
+Antenna - A mobile two-band antenna radiator, and a two–band whip antenna is being delivered as
+part of the set. The mobile antenna has a gain of approx. 0 dB within 150 MHz band (remote control),
+and about 3 dB gain within 420 MHz band (audio-signal). For its proper tuning, the antenna requires a
+conducting fundamental base (e.g. car roof)! It can be installed on a magnetic or solid automobile holder
+delivered as a component of the set. The antenna must be located on the car roof in a vertical position.
+The RF coaxial cable coming to the receiver must be as short as possible to avoid any unnecessary
+signal loss.
+Antenna input / output - A signal captured by the antenna is being directed to the receiver input. At
+the receiver supplying circuit, limiting elements are used so that a random antenna connector short
+circuit has no destructive effects (only 12mA short-circuit current). Due to a dual-direction utilization of
+the antenna, it is impossible to use regular amplifiers. A special type with a frequency splitter is
+necessary to be used that can be developed upon request only by the set manufacturer.
+Digital input / output - The receiving block is equipped with a connector for dual direction of serial
+data transmissions for the purposes of potential RF retransmissions, should this option be required in
+the future. At present this connector is only equipped with an output for timely updated copies of the
+data received.
+Audio output - An audio-signal of 0.7V nominal effective voltage may be connect e.g. to a recording
+equipment. This line outlet is on a constant level and not influenced by adjustable volume of sound.
+Speakers, earphones - An outlet from the terminal sound amplifier. A speaker with 4 up to 8~
+impedance or regular Low-Ohm earphones may be connected. The audio-signal level is controlled by
+VOLUME push buttons.
+
+CONFIDENTAL
+
+page 8
+
+Batteries – The unit is supplied by 2 AA cells. By choosing high quality batteries like Duracell Ultra M3,
+the receiver will be able to operate up to 10 hours (with a limited use of the remote control functions).
+The batteries will be electronically disconnected if an external power supply is used.
+
+External supply voltage - The maximum allowed voltage value is 15V and the minimum is 8V. A direct
+connection to an automobile board DC-network is possible if the alternator-regulator system of the
+vehicle is in good condition and the car battery contacts are in properly functioning. We recommend
+first to measure a maximum voltage of the car DC-network when the car is running so the limit values
+are not exceeded.
+
+Antenna Filter (Diplexer) (For repeater function only)
+Specification – type R:
+Through attenuation:
+Undesired channels suppression:
+Specification – type T:
+Through attenuation:
+Undesired channels suppression:
+
+1.5dB within 150MHz band (remote control)
+2.5dB in channels 0 to 9
+>45 dB in channels 54 – 63
+1.5dB within 150MHz band (remote control) 2.5dB in
+channels 54 to 63
+>45dB in channels 0 to 9
+
+CONFIDENTAL
+
+page 9
+
+In a repeater unit the filter is being utilized for preventing of a strong signal penetration back to the
+receiver. It comprises the combination of a band pass and band-stop filters and is precisely tuned up to
+required channels. This filter has to be installed in the repeater unit both on the transmitting and
+receiving sides. By reason of easy recognition the filter is marked by the letter "R" = receiving, or "T" =
+transmitting.
+
+Recommend Operational Procedures
+Push the CHANNEL buttons to find a free RF channel where no interference (jamming) is present (Smeter indicates low numerical values). An option of automatic channel selection may be utilized:
+By simultaneously pushing both CHANNEL buttons, the band scanning is initiated. After 5 seconds the
+channel with the minimal interference will be founded automatically. However, for proper results it is
+necessary for the audio transmitter to be inactive (not transmitting), because its signal should not
+influence the scanning result. It is also necessary to notice that PC’s standing too close to the scene
+usually jam all the bands!
+
+CONFIDENTAL
+
+page 10
+
+To set further regime-parameters require using push buttons in the darker field on the keypad
+(ADDRESS, MONO-STEREO, HIPOW-LOPOW, VOXCONT)
+Via these regime-parameters the transmitter is activated by pushing the ACT button. WARNING (!!!) After every change of the regime-parameters it is necessary to execute the activation (update) again by
+using the ACT push button in order to transfer the changes transferred to the audio transmitter. The
+transfer of one command takes 0.5 second, following which a test of valid response is immediately
+performed on the receiver side. The acceptance of response takes about 0.2 second, and during this
+time the receiver audio output is being blocked. If the response is not valid, the command transmit is
+automatically repeated. However, not more than 4 times. The number of commands transmitted per
+minute in average is also limited by the software in order to avoid the terminal RF amplifier overheating.
+If the command transfers were completed successfully, the audio transmitter battery voltage is
+displayed on the upper left side. After a moment this information is modified to ACTIVE. This sign
+informs the user that the audio transmitter has recorded this setting indicated on the display in its
+memory. If the successful transfer is not confirmed, a flashing COMMAND sign reappears on the
+display informing the user that the command has not been successfully accepted, and that the status
+indicated on the display has not been transferred to the audio transmitter. After the command
+acceptance is successfully completed, the update of current encryption table in the receiver is also
+performed (if authorization assigned by Gamma).
+If the remote transmitter was activated in a VOX regime, then after 13 seconds it gets put in an idle
+(sleeping) regime (refer to hereunder), from which it may be made awake either by an acoustic impulse
+or new remote control command.
+A de-activation of the audio transmitter from operation is made possible by pushing a DEACT button. If
+the transfer was successfully completed, the display indicates the audio transmitter battery voltage at
+its left upper section.
+Note that you may need a distance of min. 5 meters between receiver and
+transmitter in order to avoid potential jamming.
+
+Operation in Repeater Mode
+The principle is the signal reception on one channel and its repeated transmission on the other one.
+This mode is favorable in cases when no direct connection between the transmission and receiving
+sites exists; however, a third one is available with connection to the both terminal sites. Usually, it is
+located at some uphill place were so called "repeater point" can be built.
+Based on customer's request the repeater station was developed that transfers a digital data directly
+(thus without voice quality loss), inclusive a remote control command repeater. In order to remove
+necessity to invest resources to other special unit purchase the concept was selected utilizing the
+existing receiver and LOKE Power transmitter. A digital line according to the diagram will interconnect
+both of these units and this way the repeater station will be created.
+The first (primary) radio route segment has always been tuned up to anyone of channels nr. 0 to 9. The
+second (secondary) segment is always bound with the primary segment by a 54-channel bounce up, so
+it operates on channels nr. 54 to 63. The special set of arrow separated channel pairs is reserved on
+the receiver display for this reason. The number on arrow's left means the primary route segment
+channel. The arrow indicates the signal transfer direction. Thereafter, the secondary route channel
+number is displayed on arrow's right.
+In order to ensure the entire system operation without the repeater station receiver input congestion by
+the own transmitter it is necessary to use antenna filters suppressing this signal. At the same time,
+both repeater station antennas have to be sufficiently spaced. We recommend 2m and more. System
+software is designed so that the repeater station is remote controlled and it has also its own address
+alike every other LOKE Transmitter.
+
+CONFIDENTAL
+
+page 11
+
+For this reason, it is necessary to set the address equal with the own transmitter on the repeater
+receiver (!!!). Only this way the both units will correctly respond
+to the remote control commands and will mutually co-operate.
+After an addressable reception of a valid command for the repeater station the last will be automatically
+set out. However, after the reception of a command with any other address than the one of the
+repeater station the command will be modified and sent once again (repeated) provided the originally
+received command contained the channel pair. The repeater does not response to the commands with
+omitted channel pair.
+
+Repeater Set-Up
+(See figure on next page)
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+
+Connect RX 1 and High power TX with mini jack mini jack cable
+Connect filter “T” to High power TX. Connect antenna to filter “T”
+Connect power supply to High power TX and the battery to Standard TX.
+Connect filter “R” to RX 1. Connect antenna to filter “R”
+Switch on the RX 1. Set the address so it corresponds to the address engraved on the
+backside of the High power TX.
+Switch on the RX 2. Set the channel between 0 – 54 and 9 – 63. Choose the channel with the
+lowest signal / noise “sig”.
+Set the RX 2 address so it corresponds to the High power address (see item 5)
+Set the RX 2 to the wanted settings for the Hi Power TX :VOX/CONT, MONO/STEREO, HI
+POW/LO POW
+IMPORTANT: press “ACT”
+The RX 2 will deliver 2 beeps if above has been carried out correctly.
+Set the RX 2 address so it corresponds to the address engraved on the backside of the
+Standard TX.
+Set the RX 2 to the wanted settings for the Standard TX: VOX/CONT, MONO/STEREO, HI
+POW/LO POW
+Press “ACT”.
+
+CONFIDENTAL
+
+page 12
+
+CONFIDENTAL
+
+page 13
+
+Notes
+Working Temperature
+LOKE is being set-up and adjusted at Gamma’s premises under room temperature for which the
+specifications are referred to in the introduction. Although LOKE is constructed for operations in
+increased working temperature ranges, the temperature changes can cause the transmission
+specifications to get slightly worse. In order to accomplish the best possible results, it is recommended
+to place the receiver in a room temperature environment.
+Interference (Jamming)
+In the 410 to 427 MHz bands, a number of various services are available. Therefore, it is bilaterally
+beneficial to work only at channels determined by the user to be long-term unoccupied within the given
+territory (look at the frequency table). It was further discovered in practice that a very strong
+interference is caused by personal computers. It is necessary to avoid their existence in the receiving
+location.
+Unfavorable Conditions of Radio Signal Transmission
+Although a suitable location was successfully found for the antenna in order to ensure a clear receiving,
+it does not mean that the situation will not change. A multi-direction propagation with a lot of echoes is
+an event that changes in time. It is necessary to realize that any, even minor, changes in a path of the
+signal reaching a dimension of the wavelength are already noticeable. This regards e.g. movement of
+vehicles on the road, but also movement of trees in wind, persons and objects in the room, etc.
+The fact that this regards just this type of receiving with a number of echoes, the user of LOKE set
+finds out so that, when the transmitter is being retuned between 0 up to 63 channels, the receiving
+intensity substantially fluctuates. Strong minimums and maximums of the signal being received are
+considerable. For a short-term activity this phenomenon can even be used as an advantage if the user
+chooses a channel at which, due to echoes, the receiving is the strongest. However, such case is a
+consequence of multidirection radio-waves propagation, and, therefore, in time a long-term nonstability
+in reception quality can be expected.
+Warranty
+The warranty period is 12 months from date of expedition. During this period Gamma will provide free
+repair of failures (particularly caused by defects of materials). Only Gamma is authorized to make any
+repairs and maintenance.
+Warranty is not valid when any of the below mentioned event occurs:
+1. Damage caused by a regular wear
+2. Damage during transportation
+3. Damage due to improper storage environment
+4. Malfunction caused by any overloading applied to the device (high temperature, high voltage, high
+power, short-circuit, etc.)
+5. Destruction caused by water, chemicals, fire, natural disaster, etc.
+6. Crackdown b unauthorized personnel
+7. Improper attendance in conflict with User Manual
+
+CONFIDENTAL
+
+page 14
+
+S OL UT I O N S
+S ECU RITY
+GOVE RNM E NTA L
+
+If you would like further Information about ELAMAN,
+or would like to discuss a specific requirement or project, please contact us at:
+Elaman GmbH
+German Security Solutions
+Seitzstr. 23
+80538 Munich
+Germany
+Tel: +49-89-24 20 91 80
+Fax: +49-89-24 20 91 81
+info@elaman.de
+www.elaman.de
+
+

@@ -1,0 +1,123 @@
+Portefeuille D‘Intrusion Informatique Tactique
+FINFIREWIRE
+
+Les Unités de Surveillance Technique et les experts forensiques sont souvent confrontés à des situations où ils ont
+besoin d‘accéder à un système informatique en fonctionnement, sans l‘arrêter pour éviter toute perte de données ou gagner un temps précieux lors d‘une opération.
+Dans la plupart des cas, le système cible est protégé par un
+économiseur d‘écran avec mot de passe. Il arrive aussi
+que l‘utilisateur cible ne soit pas connecté et que l‘écran de
+connexion soit actif.
+FinFireWire permet à l‘opérateur de contourner rapidement et discrètement la protection de l‘écran par mot
+de passe, et d‘accéder au système cible sans laisser de traces ni altérer des preuves forensiques importantes.
+
+Exemple d’utilisation 1 : Opération forensique
+Une unité forensique s’est introduite dans l’appartement
+d’une cible, et a tenté d’accéder au système informatique.
+L’ordinateur était allumé mais son écran était verrouillé.
+Comme ils n’avaient pas le droit (pour des raisons légales)
+d’utiliser une solution d’écoute à distance, ses agents auraient perdu toutes les données s’ils éteignaient le système, parce que le disque dur était entièrement crypté.
+FinFireWire a été utilisé pour déverrouiller le système
+cible à chaud. L’agent a ainsi pu copier tous les fichiers
+de l’ordinateur, avant de mettre celui-ci hors tension et de
+le ramener au QG.
+
+INFORMATIONS RAPIDES
+Utilisation:
+
+· Opérations tactiques
+
+Capacités:
+
+· Contourne le mot de passe
+utilisateur
+· Accède secrètement au système
+· Récupère les mots de passe en
+RAM
+· Permet l’analyse forensique en
+direct
+
+Сontenu:
+
+· Matériel/Logiciel
+
+Exemple d’utilisation 2 : Récupération de mots de
+passe
+En combinant le produit avec des applications forensiques
+traditionnelles comme EnCase®, les unités forensiques ont
+utilisé la fonctionnalité d’image mémoire RAM pour réaliser un instantané des informations actuellement en RAM.
+Elles ont également récupéré la phrase de passe utilisée
+par TrueCrypt pour crypter le disque dur.
+
+Présentation des fonctionnalités
+·
+·
+·
+·
+·
+·
+·
+
+Déverrouille la connexion utilisateur pour chaque compte utilisateur
+Déverrouille tout économiseur d‘écran protégé par mot de passe
+Effectue une image mémoire complète pour l‘analyse forensique
+Permet la forensique en direct du système cible sans le redémarrer
+Le mot de passe de l‘utilisateur n‘est pas modifié
+Fonctionne sur les systèmes Windows, Mac et Linux
+Fonctionne avec FireWire/1394, PCMCIA et Express Card
+
+Pour une liste complète des fonctionnalités, veuillez consulter les Spécifications Produit
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Portefeuille D‘Intrusion Informatique Tactique
+FINFIREWIRE
+
+Composants du produit
+
+FinFireWire - Unité Tactique
+
+Interface utilisateur cliquer-pointer
+
+· Système tactique complet
+
+· Interface utilisateur facile à utiliser
+
+Cartes d’interface de connexion
+· Carte d’interface PCMCIA et ExpressCard pour les systèmes cibles ne
+disposant pas de port FireWire
+
+Jeu de câbles universel FinWire
+· 4 broches vers 4 broches
+· 4 broches vers 6 broches
+· 6 broches vers 6 broches
+
+Utilisation
+
+1. Allez sur votre système cible
+
+4. Sélectionnez une cible
+
+2. Lancez FinFireWire
+
+5. Attendez que le
+système soit déverrouillé
+
+3. Branchez l‘adaptateur et le câble
+FireWire
+
+The information contained herein is confidential
+and subject to change without notice. Gamma
+Group International shall not be liable for
+technical or editorial errors or omissions
+contained herein.
+
+GAMMA INTERNATIONAL
+United Kingdom
+Tel: +44 - 1264 - 332 411
+Fax: +44 - 1264 - 332 422
+info@gammagroup.com
+
+

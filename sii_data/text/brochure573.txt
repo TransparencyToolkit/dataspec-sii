@@ -1,0 +1,193 @@
+hic:::lc:::lc=-:,..., 4:::. c=-: c::h,...,~ Ic=te9':1
+.."."=,..,,.4::...CZrT"l"'" i,.....4::...cz,...,.....Cl4::...ic:a,.....ClI
+
+Hidden Technology Satellite Tracking Solutions
+
+This document discloses subject matter for which Hidden Technology
+Systems Intemational Limited ( HTSI ) has proprietary rights. Neither the
+fumishing nor possession thereof confers or transfers any right to reproduce
+or disclose the document, any part thereof, any information contained therein,
+or any physical article or device, or practise any method or process referred to
+therein except by written permission from or written agreement with, HTSI.
+
+ISSUE
+
+1.0
+
+ISSUE DATE
+
+15th April 2006
+
+HiSAT Overview 15/4/2006
+
+Introduction
+Hidden Technology, as part of the 2006 Research & Development program, are
+developing tracking solutions utilising Inmarsat satellite communications as an
+alternative to GSM communications. There is also a future development to utilise
+the Thuraya satellite communications network.
+The objective is to have satellite solutions controlled by the CP2 software
+application so that customers can monitor tracking objectives via GSM or satellite
+communications via a single software interface.
+Hidden Technology is working with a number of specialist hardware developers
+to provide the hardware element of the solution and Hidden Technology have
+development responsibility for the communications protocols for CP2 and CP2
+functionality.
+The timescale for release of the Inmarsat and Thuraya products is not yet firm
+and will depend on customer requirements and new prospect opportunities.
+
+HiSAT 101 Terminal
+For the requirement of Satellite Tracking HTSI recommend that an Inmarsat 0+
+communications and GPS tracking solution with alarm monitoring and, optional,
+text messages is provided and supported by CP2 mapping and control software.
+HiSAT 101 Terminal
+
+The HiSAT 101 mobile satellite terminal gives tracking and remote monitoring
+capability to the maritime, transport, security, energy and utilities sectors.
+The HiSAT 101 compact technology enables the position and status of mobile
+assets to be monitored from any location with an Internet connection.
+The HiSAT 101 can be programmed to transmit location reports and status
+messages at user-defined intervals. It enables a constant watch to be kept on
+functions defined by the user, such as the position, direction, speed and security
+status of mobile assets, and on the performance and status of remote systems or
+premises.
+Featuring a built-in GPS receiver, and a high
+degree of integral data processing intelligence,
+the HiSAT 101 provides exception-reporting
+capabilities that enable the transmission of data
+only when a particular condition has been met or
+exceeded. For example, this could be triggered
+
+HiSAT Overview 15/4/2006
+
+(O)~~=~:::-;,=,=!:'~""'''I'''3'=1
+when a vehicle reaches a specific destination, or unexpectedly moves
+beyond a designated lone.
+The HiSAT 101 terminal incorporates a number of powerful facilities:
+•
+•
+•
+•
+•
+
+Automatic transmission of location reports
+Remotely programmable, with exceptionreporting functionality
+Comprehensive interfacing for multi-channel
+system monitoring
+Flexible powering options for long-term unattended operation
+Miniature format, with low-profile antenna for unobtrusive installation
+
+With an optional PDA two-way communications device, the H1SAT 101 can also
+be used for text messaging.
+Incorporating a 12-channel GPS receiver for high-accuracy location reporting, the
+HiSAT 101 consumes minimal power for long-term unattended operation, and
+can be powered from its battery pack, a local supply, or a solar panel.
+Effectively, the terminal is "asleep" between transmissions, hence its low power
+consumption. By pressing a panic button, the message transmission frequency
+can be dramatically increased - for example, to every few minutes, to provide
+Search and Rescue teams with rapidly updating position reports.
+The HiSAT lOlls ability to interface with a variety of external sensors and
+systems, combined with its built-in data processing intelligence, allows status
+information about parameters such as fuel levels and warnings of illegal door
+openings to be gathered and stored, and transmitted direct to the customer. The
+terminalis ultra-compact dimensions assist with its unobtrusive installation, and it
+is supplied complete with a low-profile antenna that maintains satellite contact
+down to very low elevation angles. This ensures that full advantage can be taken
+of the satellite footprints, out to the extremes of their coverage, to ensure
+effective service availability throughout the world.
+CP2 Control Platform Software
+
+Linking via the internet the CP2 software provided full control of the tracking units
+in terms of configuration, alarm handling and display of multiple vehicles on the
+integrated map viewer.
+The CP2 server links to the Message Handling System at a centralised Data
+Centre in the UK via a secure Internet connection. Additional CP2 Client terminals
+can be linked to the CP2 Server via the internet allowing multiple user monitoring
+of the tracked assets.
+
+HiSAT Overview 15/4/2006
+
+(O)~~=~=-,;-=,=!:'_""'''I'''3'=1
+CP2 supports up to 2,000 assets and provides full location monitoring, alarm
+handling and text messaging functionality from a easy to use Windows PC
+platform.
+
+Mapping
+The CP2 software includes HTViewer, a dedicated map engine for vehicle and
+personnel tracking applications. HTSI can, via a number of map business
+partners provide maps of most countries in the world. The scale and level of
+detail for the chosen areas is variable but will allow location of the tracking
+vehicle to a degree allowing search and rescue operations and location
+management.
+
+Computing Environment
+The computers required to operate the CP2 Software require the following
+minimum specification:Pentium 4
+Microsoft XP Professional
+1.8GHZ Processor or higher
+512 DDR SDRAM
+- Additional Ram will enhance map refresh performance
+40GB Hard Drive (5GB Free space)
+CD Rom Drive
+32 Bit Graphics Card
+Internet connectivity - Fixed IP address
+For Control Room applications a desktop solution is recommended and a Laptop
+for mobile field operations is normally suitable, if a fixed IP address is available.
+Subject to end user security policies an Internet connection is required for
+remote software support.
+
+Pricing
+At this stage the pricing is indicative and Hidden Technology will provide a formal
+quotation once the exact requirements are agreed. The 15% Westminster
+International discount has been applied.
+Product Description
+HiSAT 101
+- Inmarsat D+ GPS tracking Unit including:
+Antenna, wiring, Panic Alarm
+- Pricing is based on connecting to an Inmarsat
+D+ airtime agreement
+
+HiSAT Overview 15/4/2006
+
+Quantity Price Each £
+(Excl VAT)
+1 -50
+£1,399
+
+2 Way Messaging Terminal
+
+1-50
+
+£499
+
+1
+
+£6,290
+
+1
+
+£3,400
+
+- PDA terminal with HiSAT Messaging Application
+aI/owing send and receipt of ''canned'' text
+messaQes
+
+CP2 Control Platform
+- CP2 SelVer
+
+CP2 Client
+- Additional CP2 Client Applications
+
+Pricing excludes Inmarsat airtime charges and connection to Inmarsat
+communication network.
+Installation is not included for the HiSAT hardware. Customer installation
+requirements are to be discussed.
+User Training is included at HTSI UK or Holland facilities. In-country training and
+software installation can be provided at a fixed cost and the requirements are to
+be discussed.
+All products include 12 month warranty on return to manufacture basis, training
+at HTSI UK, HTSI Holland facilities or in-country, and telephone Helpdesk
+support.
+
+HiSAT Overview 15/4/2006
+
+

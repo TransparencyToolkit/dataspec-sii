@@ -1,0 +1,153 @@
+Altron’s location based GSM/UMTS mobile terminals tracking
+system (MTTS) for mobile providers and law enforcement
+agencies
+1. Overview
+MTTS hardware and software platform is used for seamless GSM/UMTS mobile terminals tracking on
+the territories with GSM or UMTS coverage.
+The following features of MTTS are unique and to date have never been implemented by other
+vendors of similar LBS (Location-based service) systems:
+
+
+The system supports simultaneous operation with up to 16 mobile operators.
+
+
+
+MTTS allows user to detect the country where the mobile terminal has moved to and was
+registered under roaming scenario. Optionally, the system can support real location detection
+of the roaming subscriber in any country of the world and for any serving mobile operator
+network.
+
+
+
+And, most importantly, MTTS platform is not tailored to GSM equipment manufacturer’s
+proprietary specifications and can be used across any known type of known Network Switching
+Subsystem.
+
+Accuracy for mobile terminal location detection in most cases varies from 300 to 700 meters in urban
+conditions and about 1500-5000 meters outside the city. This figure largely depends on the mobile
+operator’s base stations sites density in every selected region.
+MTTS supports up to 1 000 location detection requests from several users per hour. In addition, user
+can preset any desired information update timeframe (for example from 1 to 45 minutes) to enable
+automatic real-time mobile terminals tracking.
+Also, it is possible to set up multiple remote working places with Internet access and enabled VPN
+connectivity, or activate remote access from any authorized smart phone. Operator of MTTS can work
+from any place in the World using reliable VPN connection through Internet, or with a separate
+dedicated data channel (for example, VSAT link).
+The basic functionality of MTTS allows detecting the mobile terminal location by analyzing CGI (Cell
+Global Identifier) data received from the relevant mobile switch controller interconnected to MTTS via
+
+GSM MAP SS7 (ISUP/MTP) links.
+MTTS operator working place can be easily integrated with Altron’s MTLS (mobile tracking and
+location system (GSM/UMTS Grabber)) cell phones location detection portable system thus
+significantly increasing the overall solution effectiveness.
+And finally, the cost of MTTS solution is very competitive compared to similar solutions by other
+vendors.
+2. MTTS components
+The platform includes both hardware and software components.
+2.1. Hardware
+MTTS hardware consists of Control Server (CS) and several Workstations (WS). Control Server (CS)
+connects to Operator’s MSC (Mobile Switch Centre) (HLR (Home Location Register) subsystem) using
+E1 interface.
+User WS can be set up at any personal computer with Internet browser supporting JavaScript and
+Cookies and having secured connection to the CS. The basic MTTS configuration includes 5 WSs.
+2.2. Software
+2.2.1. Control Server (CS) software
+MTTS software on the CS side processes the requests from the authorized user’s WS, interrogating
+mobile operator HLR. Once the information from the HLR is received, the CS performs search through
+the base stations database and generates target mobile terminal location report. Simultaneously, in
+order to increase location detection accuracy, the CS can use either Google or Yandex cell sites data.
+All requests are logged on CS.
+2.2.2. Work Station (WS) software
+Client Workstation software consists of user Web interface and is used to perform mobile terminal
+location search based on either MDISDN (Mobile Station Integrated Services Digital Number) or IMSI
+(International Mobile Subscriber Identity), and to see relevant requests logs.
+
+Altron: MTTS tracking platform 2011
+
+2
+
+The Control Server processes the request and generates a report containing the following information:
+
+
+Request date and time, user ID
+
+
+
+Mobile terminal IMSI and CGI (Cell Global Identifier)
+
+
+
+Serving cellular base station location and its coverage area within one of sectors.
+
+
+
+Possible mobile terminal location data based on Google/Yandex data.
+
+Option “Request Google/Yandex” allows enable/disable additional requests to Google and Yandex
+Altron: MTTS tracking platform 2011
+
+3
+
+databases.
+
+Key MTTS parameters:
+Number of location detection requests
+
+up to 1 000 per hour
+
+Requests history (log)
+
+up to 64 000 events
+
+Standard
+
+GSM/UMTS
+
+Number of connected mobile operators
+
+up to 16
+
+Average accuracy for coordinated detection
+
+300-5000 meters
+
+Average request processing time
+
+from 5 to 12 seconds
+
+3. Data required for enabling MTTS functionality
+The following initial data is required to enable the service and is a responsibility of the end user:
+1. A list of existing NSS elements and cellular base stations as per table below:
+BTS
+
+Antenna
+Coverage area
+
+BTS Nr
+
+Address
+
+latitude
+
+longitude
+
+CGI
+
+Antenna azimuth
+
+radius, meters
+(corresponding
+to azimuth)
+
+2. SS7 signaling code for interconnecting MTTS operator work place
+3. Link to local GSM operator MSC (G.703 interface, 1 SS7 link).
+3. GT (Global Title) for MTTS operator work place interconnection
+4. SS7 and SCCP pre-settings at operator side.
+5. A list of HLRs and their GTs (Global Title).
+6. A list of MSISDN/IMSI ranges for each HLR.
+
+Altron: MTTS tracking platform 2011
+
+4
+
+

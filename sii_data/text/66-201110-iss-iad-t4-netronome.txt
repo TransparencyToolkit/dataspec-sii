@@ -1,0 +1,924 @@
+Scaling Network Security Solutions
+to 40Gbps and beyond
+Daniel Proch
+Director, Product Management
+daniel.proch@netronome.com
+© 2010 Netronome - Confidential
+
+1
+
+Agenda
+•  Internet bandwidth growth
+•  Evolving threat landscape
+•  Network security appliances
+•  Trends and requirements
+
+•  The need for stateful flow processing
+•  Network security workload analysis
+•  Product architecture comparison
+•  Proposed solution architecture
+•  Reference architecture performance analysis
+
+An architecture to scale security
+applications to 40/100 Gbps
+ISS World – October 2011
+
+2
+
+Incredible Network Growth!
+By 2014…
+
+44.5% CAGR
+
+•  Annual global IP traffic will increase 4x
+•  Growing from 176 exabytes to three-quarters
+of a zettabyte (767 exabytes) in four years
+1 ZB = (1,000,000,000,000,000,000,000
+bytes = 1021)
+
+•  Drivers? Video and mobile data
+•  Video (TV, VoD, Internet Video, and P2P) will exceed 91 percent of
+global consumer traffic
+•  Internet video will grow to over 57% of Internet traffic (12 billion DVDs)
+•  Mobile data traffic will double every year, increasing 39 times
+•  Peer-to-peer no longer the most voluminous, but still substantial
+
+Source: Cisco Visual Networking Index: Forecast and Methodology, 2009-2014
+ISS World – October 2011
+
+3
+
+Evolving Threat Landscape
+Trends affecting Network Security
+
+•  Attacks are becoming more sophisticated (Stuxnet)
+•  Attackers are getting better organized
+•  Groups out for financial gain, trade secrets or military
+information
+•  Organized crime or even government agencies
+•  “Speed-bump” defenses are no longer sufficient
+
+•  Social media changes the face of security
+•  New attack vector to distribute malware
+•  Short URL Service Abuse – you don’t know what you are clicking on
+•  Location Service Abuse – the bad guys know where you are
+
+•  Cloud computing and virtualization are imposing new security requirements
+•  VMs are less secure than their original bare-metal counterparts
+
+•  Need to find the “needle in the haystack” for Lawful Intercept
+•  Sensitive data is increasingly on the move (mobile)
+•  Mobile smartphones are computers and as susceptible to attacks.
+•  Encryption and VoIP create covert channels to smuggle threats in or data out
+ISS World – October 2011
+
+4
+
+Opposing Forces
+The network security
+threat landscape
+continues to evolve
+
+Network throughputs
+continue to explode
+
+• Security architects are demanding solutions
+at 10 and 40 Gbps today
+• 100 Gbps is on the near horizon
+ISS World – October 2011
+
+5
+
+Next Generation Security Appliances
+Trends
+
+• Network and security solutions
+traditionally software applications
+• Developed and deployed in network
+appliances based on general
+purpose processors
+
+Can general purpose processing architectures keep up?
+ISS World – October 2011
+
+6
+
+Network Security Appliances
+Requirements
+
+•  Configurable L2-L4 network processing (ACLs)
+•  Programmable L4-L7 intelligence (DPI)
+•  Application identification
+•  PCRE (signatures), behavioral heuristics
+•  Content inspection
+
+•  Stateful flow-based processing
+•  Ability to parse traffic across flow boundaries
+•  Inspection of encrypted flows (SSL)
+•  I/O virtualization
+•  Active (Inline), passive, switched, routed topologies
+•  Integrated bypass for inline deployment
+•  Flexible port configurations (GigE, 10GigE, 40 GigE)
+•  Scalable common software architecture
+
+ISS World – October 2011
+
+7
+
+Flows or Packets?
+•  More users and more applications
+driving an increase in throughput
+•  Results in more individual “network
+conversations” per segment
+•  What is a flow?
+•  A unidirectional sequence of packets all
+sharing a set of common packet header
+values
+•  2-tuple, 3-tuple, 5-tuple, 7-tuple are
+common criteria
+•  15-tuple used in the OpenFlow specification
+
+•  Most network equipment based on NPUs including Ethernet switches
+and routers processes traffic solely based on packet headers
+•  State is not kept on each forwarding decision
+•  No memory of previous packets
+
+ISS World – October 2011
+
+8
+
+Stateful Flow Processing
+•  OpenFlow
+•  Up to a three-tiered recursive flow table
+•  Flow-based network slicing
+
+•  Stateful firewalls
+•  Security processing happens at beginning of the flow
+•  Flow state is used process the session afterwards
+
+•  IDS/IPS
+•  Attacks spread across packets/payloads/fragments
+•  Snort Stream5 preprocessor reassembles TCP flow to run
+signature-based rules against whole payload
+
+•  Antivirus
+•  Terminate TCP, parse protocol (HTTP, SMTP, P2P)
+reassembles file attachments, scans for threats
+
+•  Next generation firewall
+
+These applications are
+impossible without stateful
+flow-based processing
+
+•  IPS + L2 switching, L3 routing, NAPT,
+stateful flow processing, App ID
+
+ISS World – October 2011
+
+9
+
+OpenFlow Networking
+•  Today’s network needs to be smarter and more
+flexible
+•  OpenFlow idea is to separate the packet switching
+and control functions
+•  Users can freely develop applications independently
+of switching/slicing
+•  Give customers per-service performance guarantees
+•  Offer network slices based on comprehensive flow
+forwarding architecture
+•  Not just a data center technology
+•  Carriers involved too
+•  New service opportunity
+
+Internet2 initiative building nationwide OpenFlow/SDN Network
+
+ISS World – October 2011
+
+10
+
+Network Security Workloads
+Comparison
+
+• Applications requiring sophisticated packet, flow, and
+security processing require a very high instruction rate
+Function
+
+Cycles required
+
+L2 switching
+
+75
+200
+
+25000
+
+1,000
+
+15000
+
+2,000
+3,000
+5,000
+
+10000
+
+L3 routing
+L2-4 packet
+classification
+Stateful firewall
+OpenFlow Switch
+IDS/IPS
+Lawful intercept /
+DPI
+NG stateful firewall
+IP Sec / SSL
+NGFW+ SSL
+
+ISS World – October 2011
+
+Workload Comparison
+
+20000
+
+5000
+0
+
+6,500
+8,500
+12,000
+20,500
+
+Intelligence
+11
+
+Network Security Workloads
+Comparison
+
+• Applications requiring sophisticated packet, flow, and
+security processing require a very high instruction rate
+Function
+
+Cycles required
+
+L2 switching
+
+75
+200
+
+25000
+
+1,000
+
+15000
+
+2,000
+3,000
+5,000
+
+10000
+
+L3 routing
+L2-4 packet
+classification
+Stateful firewall
+OpenFlow Switch
+IDS/IPS
+Lawful intercept /
+DPI
+NG stateful firewall
+IP Sec / SSL
+NGFW+ SSL
+
+ISS World – October 2011
+
+Workload Comparison
+
+20000
+
+5000
+0
+
+6,500
+8,500
+12,000
+20,500
+
+Intelligence
+12
+
+Processor Comparison
+•  Network security equipment designers have to consider computing
+workload needs when choosing their product architecture
+•  General Purpose CPUs
+•  Intel Xeon 5645
+•  6 cores @ 2.4 Ghz
+•  14.4 billion instructions per second
+
+•  Multicore MIPS
+•  4 cores @ 2 Ghz
+•  8 billion instructions per second
+
+•  Multicore MIPS
+•  8 cores @ 1.5 Ghz
+•  12 billion instructions per second
+
+•  Programmable Network Flow Processors
+•  Netronome NFP
+•  40 cores @ 1.4 Ghz
+•  56 billion instructions per second
+
+ISS World – October 2011
+
+13
+
+Network Security Workloads
+
+Internet Packet Size
+Distribution
+
+Comparison
+
+60
+40
+
+•  General purpose processors are
+inadequate for network security
+applications in real-world use cases
+
+20
+0
+64
+
+576
+
+628
+
+1300 1500
+
+Instructions Required for line rate operation @ 10 Gbps
+Lawful
+Intercept / NG stateful
+DPI
+firewall
+
+Packet
+Size
+
+L2
+switching
+
+L3
+routing
+
+L2-L4
+classification
+
+Stateful
+firewall
+
+IDS/IPS
+
+64
+
+1.12 B
+
+2.98 B
+
+14.9 B
+
+29.8 B
+
+74.4 B
+
+96.7 B
+
+128
+
+633 M
+
+1.69 B
+
+8.5 B
+
+16.9 B
+
+42.3 B
+
+256
+
+340 M
+
+906 M
+
+4.5 B
+
+9.1 B
+
+440
+
+204 M
+
+543 M
+
+2.7 B
+
+512
+
+176M
+
+470 M
+
+1024
+
+143 M
+
+1500
+
+61 M
+
+ISS World – October 2011
+
+IP Sec /
+SSL
+
+NGFW +
+SSL
+
+126.5 B
+
+178.6 B
+
+305.1 B
+
+54.9 B
+
+71.8 B
+
+101.4 B
+
+173.1 B
+
+22.6 B
+
+29.4 B
+
+38.5 B
+
+54.3 B
+
+92.8 B
+
+5.4 B
+
+13.6 B
+
+17.7 B
+
+23.1 B
+
+32.6 B
+
+55.7 B
+
+2.4 B
+
+4.7 B
+
+11.7 B
+
+15.3 B
+
+19.9 B
+
+28.2 B
+
+48.2 B
+
+383 M
+
+1.9 B
+
+3.8 B
+
+9.6 B
+
+12.5 B
+
+16.3 B
+
+23.0 B
+
+39.3 B
+
+163 M
+
+813 M
+
+1.6 B
+
+4.1 B
+
+5.3 B
+
+6.9 B
+
+9.8 B
+
+16.7 B
+
+14
+
+Intelligent Offloads
+The Solution
+
+A dual Xeon, dual NFP
+system solution
+provides 126 B
+instructions/second
+
+•  The x86 architecture suffers in
+data plane and security intense
+applications
+•  Combine general purpose x86
+cores with network flow processor
+cores for pre-processing
+•  Scale networking and security
+plane independently from x86
+application and control plane
+processing
+Introduce an intelligent I/Ocoprocessor to accelerate x86
+multicore CPUs
+
+ISS World – October 2011
+
+15
+
+Applying the Heterogeneous Architecture
+Acceleration Mechanisms and offloads
+•  Packet classification/filtering
+•  Efficient delivery of data directly to
+Linux user mode applications
+
+•  Off-loading protocol specific
+functions, e.g. IP or TCP related
+processing
+
+•  Load balancing to application
+instances on x86 cores
+•  Stateful flow management
+•  Pin flows to core destinations
+•  Redirect/drop flows
+
+•  Port to port forwarding ("cutthrough" of trusted traffic or of the
+remaining packets of a flow)
+•  L2/L3 forwarding, NAPT, VPN
+•  Cryptography, PKI, TRNG
+
+ISS World – October 2011
+
+16
+
+Deep Packet Inspection/Lawful Intercept
+In a heterogeneous multicore architecture
+
+• Packets are classified on
+ingress
+• Sent to x86 for DPI
+processing
+• Results in application or
+protocol awareness
+• New classification rule
+programmed to NFP for
+each flow
+
+ISS World – October 2011
+
+17
+
+•  Application/control plane
+processing
+•  Deep packet inspection
+•  Content inspection,
+behavioral heuristics,
+forensics, PCRE
+•  L2-L7 classification
+•  Stateful flow processing
+•  Cryptography/PKI operations
+•  Flow-based load balancing
+•  L2 switching/L3 routing
+•  NAPT/VPN
+•  L2-L4 packet classification
+•  Packet-based load balancing
+
+•  Physical Interfaces
+•  Integrated bypass relays
+
+ISS World – October 2011
+
+18
+
+Netronome NFP
+
+Real World Benchmark
+
+Multicore MIPS
+
+Intrusion Prevention System
+
+FPGA
+x86
+Unknown
+
+80000
+
+80000
+
+•  Independent validation
+
+75000
+
+•  NSS Labs
+•  April 2011 IPS test report
+
+70000
+
+ement
+v
+o
+r
+p
+Im
+s
+5x-10x terogeneou
+e
+from H and NFP
+IA/x86 cture
+archite
+
+60
+Gbps
+Score
+
+65000
+
+60000
+
+55000
+
+•  IPS use case
+• 
+• 
+• 
+• 
+• 
+
+50000
+
+Computationally intense
+Application- and data-planes
+>4000 PCRE rules
+Variable packet sizes, protocol mix
+Inline measurements - latency
+
+45000
+
+•  Results
+
+40000
+40000
+
+35000
+
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+
+28
+Gbps
+Score
+
+30000
+
+25000
+
+20000
+
+11533
+
+15000
+
+10000
+10000
+
+5241
+
+4833
+3218
+
+5000
+
+0
+
+Netronome
+NFP
+
+Sourcefire
+Series 3
+
+ISS World – October 2011
+
+McAfee
+M-8000
+
+Endace
+Core-100
+
+Stonesoft
+IPS-3205
+
+IBM GX6116
+
+Sourcefire 3D
+4500
+
+2433
+
+Checkpoint
+Power-1
+
+2259
+
+Palo Alto
+PA-4020
+
+972
+Stonesoft
+IPS-1205
+
+676
+Fortinet
+Fortigate
+3810A
+
+19
+
+483
+NSFocus
+NIPS 1200
+
+383
+Cisco IPS
+4260
+
+318
+Juniper SRX
+3600
+
+348
+Juniper IDP
+8200
+
+80 Gbps system throughput
+66 Gbps large mix
+48 Gbps strenuous iMix
+98% security effectiveness
+60 million flows
+~ 500K TCP and HTTP - CPS
+<100uS latency
+Greenest TCO
+All without application optimization
+
+BACKUP
+
+ISS World – October 2011
+
+20
+
+NFP-3200 Summary
+•  High performance
+•  40 cores @ 1.4 GHz
+•  1,800 instructions / packet at 30M pps
+•  40 Gbps of packet, flow, and content
+processing
+
+•  I/O Virtualization
+•  PCIe v2.0 with IOV support
+
+•  Highly Integrated Design
+•  40Gbps of line-rate security/crypto
+•  Integrated MAC, PKI, PCIe,
+Interlaken, ARM
+
+•  Unmatched ease of use
+•  Proven tools, software development
+kit, product-ready software, reference
+platforms
+
+ISS World – October 2011
+
+21
+
+Netronome Overview
+•  40 Gbps Network Flow Processors
+•  Intelligent Network Optimized Acceleration
+cards
+•  Flow processing platform solutions up to
+100Gbps
+•  Comprehensive development tools
+•  Software Libraries and OEM Applications
+•  NFM Open Flow Manager Software APIs
+•  IPS, SSL, NG Firewall enabling software
+
+ISS World – October 2011
+
+22
+
+Netronome Processors & PCIe Cards
+• NFP-3240-based PCIe Cards
+•  20Gbps of line-rate packet and flow processing
+per NFE
+•  6x1GigE, 2x10GigE (SPF+), netmod interfaces
+•  PCIe Gen2 (8 lanes)
+•  Virtualized Linux drivers via SR-IOV
+•  Flexible/configurable memory options
+•  Packet time-stamping with nanosecond granularity
+•  Integrated cryptography
+•  Packet-capture and Inline applications
+•  Hardware-based stateful flow management
+•  TCAM-based traffic filtering
+•  Dynamic flow-based load balancing to x86 CPUs
+Highly programmable, intelligent, virtualized acceleration cards
+for network security appliances and virtualized servers
+ISS World – October 2011
+
+23
+
+Network Flow Processing Platforms
+•  • Standard
+1U/2U
+platforms
+Standard
+1U/2U
+platforms
+•  • 3 3layers
+of of
+processing
+layers
+processing
+•  • Modular
+interface
+options
+Modular
+interface
+options
+•  • Industry-leading
+portport
+density
+Industry-leading
+density
+•  • Flexible
+clustering
+support
+Flexible
+clustering
+support
+•  • High
+availability
+High
+availability
+
+Flexible solution allows
+customizable configuration
+of port types, densities and
+processing power
+
+ISS World – October 2011
+
+24
+
+Appliance Clustering
+•  For certain compute
+intensive security
+applications, I/O outpaces
+CPU resources
+•  Each clustered appliance
+adds up to 80 NFP cores
+and 12 x86 cores
+
+Clustered configurations
+can scale to 100’s of Gbps
+of throughput
+
+ISS World – October 2011
+
+25
+
+

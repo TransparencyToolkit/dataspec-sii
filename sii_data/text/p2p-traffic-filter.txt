@@ -1,0 +1,97 @@
+P2P Traffic Filter
+
+CONFIDENTIAL
+
+1
+
+P2P TRAFFIC FILTER
+This Unit is a filter for peer-to-peer (P2P) traffic. Detection of P2P traffic is based on protocol
+signatures, which are updated on a regular basis. Compared to legacy port-based methods, the
+number of mismatches is drastically reduced and thus the filtering does not interfere with
+normal network usage. In addition to filtering P2P traffic additional communication methods like
+Instant Messenger and VoIP can be filtered.
+
+P2P traffic can be handled in several ways:
+• Block: Blocking prevents any P2P communication taking place
+• Shape: Shaping throttles P2P traffic to an acceptable rate. The throttling is invisible to
+users of the network as file sharing applications continue to work as normal
+• Bridge: All traffic is bridged transparently
+• Statistics: Statistics of P2P usage are generated. This might be useful to get actual usage
+data to specify the traffic shaping rules
+These modes can be activated manually as well as on a configurable time schedule.
+As the unit operates as a transparent bridge it appears completely invisible to normal network
+users. Administration personnel can manage the system via a separate network interface.
+An integrated hardware bypass is automatically enabled if the system loses its power
+connection. Therefore, the deployment of the unit poses no negative impact on the reliability of
+the network. The bypass can also be manually activated by the administrator.
+Administration is done via an intuitive web interface. Besides configuration, it features detailed
+graphical statistics on network utilization and P2P usage.
+P2P protocols used by file sharing networks are subject to frequent changes with new
+protocols appearing every few months. Only regular protocol signature updates can ensure the
+filter’s effectiveness.
+The maximum throughput is 1.6 Gbits/s. An entry level version with 350MBit/s throughput is
+available as well.
+
+CONFIDENTIAL
+
+2
+
+Screenshot Filtering Modes
+
+Screenshot VoIP Configuration
+
+Screenshot Instant Messenger Configuration
+
+CONFIDENTIAL
+
+3
+
+SPECIFICATIONS:
+PERFORMANCE:
+Max. throughput:
+1,600 Mbit/s (optional:
+350 Mbit/s)
+Max. packet rate:
+240,000 packets/s
+Network connections:
+Bridge:
+2x 10/100/1000Base-T with hardware bypass
+Management:
+1x 10/100/1000Base-T
+Chaining:
+1x 10/100/1000Base-T for joint management of multiple units
+
+SUPPORTED PROTOCOLS:
+P2P:
+VoIP:
+Instant Messenger:
+
+Ares, Gnutella, AppleJuice, Fasttrack (Kazaa, Grokster, BitTorrent, iMesh,
+Morpheus), DirectConnect, Soulseek, Edonkey, WinMX
+SIP, Skype,
+AIM (AOL), ICQ, MSN Messenger, Yahoo Messenger, IRC, Jabber
+
+HARDWARE:
+Form factor:
+Width/height/depth:
+Power supply:
+Weight:
+Console:
+Network:
+
+19" rack mountable, 1U
+426 x 43.5 x 431.8 mm
+ATX 250W
+12 kg
+serial DB-9 connector
+4 x 10/100/1000Base-T (2 x bridge, 1 x management, 1 x chaining)
+
+CONFIDENTIAL
+
+4
+
+CONFIDENTIAL
+
+5
+
+

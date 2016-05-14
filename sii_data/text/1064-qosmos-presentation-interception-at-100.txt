@@ -1,0 +1,159 @@
+Interception at 100 Gbps
+and more
+
+Jerome Tollet, CTO, Qosmos
+October 2011
+
+Challenges for LEAs
+Facts
+Exponential Growth of Throughput
+Emergence of 40 Gbps interfaces
+Greater number of interceptions
+More details needed to investigate means
+more data to process
+
+Consequence
+Higher complexity of technical
+implementation
+Higher cost
+Lower efficiency of analysts flooded by
+data
+
+Page 2
+
+Simplistic approach not sustainable
+Global Mobile Data Traffic by Application Category (TB per Month)
+
+30
+
+7 000 000
+
+Can budgets follow
+the same track?
+
+6 000 000
+
+18
+5 000 000
+
+4 000 000
+
+11
+3 000 000
+
+6
+2 000 000
+
+1
+
+2.5
+
+1 000 000
+
+-
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+Source: Cisco VNI Mobile, 2011
+Page 3
+
+Simplistic approach not sustainable
+Simplistic approach
+Horizontal scaling: Multiply serveurs as fast as traffic increases
+To find targets in the growing volume of traffic
+
+Impact of the simplistic approach
+Multiply processing costs
+Multiply storage costs
+Makes investigation more complex and slower because more data needs to be
+analysed by Agents
+
+Page 4
+
+Good News: 90% of the growth is composed of non-relevant
+traffic
+Global Mobile Data Traffic by Application Category (TB per Month)
+ Video is booming
+7 000 000
+
+ Email + webmail + Instant
+Messaging + VoIP is
+stable with less than 2%
+of the traffic
+
+6 000 000
+
+M2M
+File sharing
+5 000 000
+
+Video
+VoIP
+
+Data
+4 000 000
+
+Non-relevant (> 90%)
+3 000 000
+
+2 000 000
+
+1 000 000
+
+-
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+Source: Cisco VNI Mobile, 2011
+Page 5
+
+A Selective Approach for Interception Is Required
+Focus processing capacity on relevant traffic category
+Not all traffic is relevant for packet inspection
+Video and entertainsment
+Games
+
+Triggers are usually set on very specific traffic categories
+Email
+Do you send more emails because your connection is upgraded from 10 Mbps to 100 Mbps?
+VoIP
+Authentication
+These protocols generates stable traffic volumes
+
+Focus processing capacity on relevant packets
+In a session, only a small amount of packets contain relevant information
+Email, webmail, IM, VoIP, authentication, SMS, MMS account for 2% of the
+traffic
+Many packets are even empty!
+Page 6
+
+Q&A
+
+Qosmos, Qosmos ixEngine, Qosmos ixMachine and Qosmos Sessionizer are trademarks or registered trademarks in France and other countries.
+Other company and products name mentioned herein are the trademarks or registered trademarks of their respective owners. Copyright Qosmos 2010
+Non contractual information. Products and services and their specifications are subject to change without prior notice
+
+© Qosmos 2010
+Page 7
+
+

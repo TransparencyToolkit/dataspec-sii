@@ -1,0 +1,117 @@
+Voice Command
+Control
+Technology
+
+Available As:
+!
+!
+!
+!
+
+End User Application
+Software Development Kit
+DSP Board
+TI Compliant Algorithm
+
+Teach any device to obey your voice commands rather
+than using buttons, switches, remotes, keyboards…
+!
+!
+!
+!
+
+Voice com is language independent
+Few requirements needed for microphones &
+placement
+Low Resource consumption, can be developed for
+PDA
+Noise robust, good quality in noisy environment
+
+As an End User Application Product Name:Voice Navigator
+! Business – cooperate application Notebooks
+! Sales forces, utilities, mobile engineer via PDA
+! PC Home users just for fun
+Voice Navigator
+Command Window
+
+As a Software Development Kit (SDK)
+!
+!
+!
+!
+
+Embedding into Educational & Training Software
+In Notebooks and PDAs
+Industrial Applications
+People with Physical Difficulties
+
+As a DSP Board Product Name:- DiVo
+! Combination: Voice commands recognition algorithm
+Noise cancellation algorithm
+Echo cancellation algorithm
+! Car Hands free Voice Command phone kits
+! Control of Industrial machines
+! Toy manufacturing
+! Home appliances
+
+Standards SDK & DSP
+!
+!
+!
+!
+
+SDK : 32bit DLL for MS Windows Environment
+Demo sources in Visual C++, manual & demo
+software
+DSP : TI C54xx DSP, or hyperstone E1-16, 32.
+Improves Signal to Noise Ratio (SNR) up to 70 dB
+for tonal noise, and 20 dB for broadband
+
+Standards TI Algorithm
+!
+!
+!
+!
+!
+
+Platform TMS320 C54xx
+TI eXpress DSP (XDAIS) compliance
+Memory: Code 20kw Data 10Kw
+Processor Requirement: 2.5 MIPS
+Data Reference and code fully relocatable
+
+Competitive Advantages
+! Not Dependant on Language of Specific Words
+
+!
+!
+!
+!
+!
+
+Uses little PC Resources
+Not as sensitive to microphone proximity
+Works with standard sound cards and microphones
+Feature of recognition improvement
+Noise Robust
+
+Speech Technology Center
+St.Petersburg, Russia
+http://www.speechpro.com
+email: sales@speechpro.com
+
+" Tel +7 812 3310665
+
+# Fax +7 812 3279297
+
+German office:
+Speech Tech GmbH
+Saarbrücken, Germany
+http://www.speech-tek.com
+email: sales@speech-tek.com
+
+" Tel +49 681 9655709
+
+# Fax +49 69 25577077
+
+

@@ -1,0 +1,2537 @@
++
+
++
+
++
+
++
+
++
+
+!
+
+[vim TRACER
+MCRTRACER has been developed by AREA to satisfy the upcoming need of LEAS
+to track targets movements by means of GPS and GPRSSystems.
+MCR Tracer full integration in the MCR Voice & Data Monitoring- Center enables
+LEA operators to leverage the power of an unified interface for all the information
+(Voice, Data, Positioning) related t o the target.
+
+GEOGRAPHICAL TRACKING OF "#R$%"
+A TACTICAL TOOL
+The geographical localization of monitored
+targets is nowadays one of the most important
+tools in investigation activities.
+AREA has developed in house a solution
+to pinpoint someone'sposition down to 10
+meters using devices so small to fit in the palm
+of one hand. &$' Tracer is made up of:
+• The Tracking Device (TD) providing
+localization data
+
+1. MER Player Interface (Area Monitoring Center)
+The full integration of Tracer with MDR Voice
+& Data Monitoring Center provides the best
+performances and efficiency, allowing LEA
+operators to use the same NCR Player
+interface for all kinds of monitoring activities:
+fixed and mobile telephony and 'P data
+interceptions, localization tracking services,
+live audio and video. etc.
+
+The TDs are installed on vehicles or others
+
+2. MER Tracer Anywhere (Web User-Interface)
+By means of a specific Web-based
+application, it is possible to render on maps
+of the geographical data belonging to the
+targets from any IF-enabled device (incl.
+smartphones I Phone) and without a complete
+monitoring center infrastructure.
+
+moving Objects, allowing Law Enforcement
+Agencies to acquire relevant data
+concerning vehicles movements: history
+and real-time monitoring, date and time of
+all movements, average speed, real-time
+localization on maps, etc.
+
+-. Integration with specific Customer applications
+-.
+AREA may provide the consulting support for
+the full integration with existing systems.
+Tracer is therefore highly scalable and
+flexible.
+
+• The Remote Control Management (ACM)
+which receives, manages. stores and
+displays geographical data and related
+targets information.
+
+Workstations
+
+(]
+
+Customer Systems .
+
+(
+
+i
+
+)
+
+I-
+
+•
+
+(
+
+Anywhere
+
+TRACER ARCHITECTURE
+The data captured by &$) "*+,! are sent to a
+MCR system for centralized storage, registration
+and authentication.
+The LEA operator can access these data using
+the following interfaces, even in parallel:
+
+LOCALISATION AND TRANSMISSION
+TECHNOLOGIES
+Tracer is based on a combined use of the
+two main localization network protocols
+(GPS and GSM) in order to grant the highest
+performances and reliability:
+• GPS system offers the fastest targets
+localization, higher precision and
+continuous update of date, time and other
+basic tracking parameters
+• G & cell-based localization is less precise.
+but can exploit much wider network coverage
+and the network signal is not affected by
+weather or environmental factors.
+Two different transmission modes are supported:
+• GPRS
+• SW
+Localization data are transmitted by default
+via GPRS. In case of missing GPRS signal,
+data are sent via CMS.
+To grant the best GSM coverage and system
+availability, two SIM cards from different
+operators can be installed on board.
+If both networks are unavailable.
+localization data are cached on the Tracer
+device and forwarded when the connection
+is re-established. Data are sent at
+configurable intervals.
+
+REMOTE CONTROL
+Complete remote control of the device is
+possible via mobile phone, MCA Player or
+MCP Tracer Anywhere using sMs or GPRS
+connectivity.
+Remote firmware upgrade and configuration,
+with a wide range of customizable parameters
+separated Admin & User access and rules.
+HIGH RELIABILITY, AVAILABILITY
+AND SECURITY
+Each device is tested singularly under stress
+conditions (mechanical, temperature).
+• Double SIM
+• Optimized management of autonomy thanks
+to enhanced Hibernation and Auto-SwitchOn policies
+• Power supplied by means of battery pack or
+car battery
+High precision in geographical data rendering
+with Map and Guide software 1 - NavTech
+maps
+
+map&g
+g!
+!d
+!
+d"
+d"
+k#$»h»togo
+
++ +
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++ +
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+MCRTRACER +
+Anywhere +
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+MCP Tracer Anywhere is a simple, complete
+and intuitive solution for managing target
+vehicles monitored through MCR Tracer.
+The system supports both the analysis of
+stored data and the live tracking of the moving
+targets.
+THE ANYWHERE APPROACH
+Thanks to a dedicated web server within the
+MCR infrastructure, access to data collected
+by MCA Tracer is granted from any device
+connected to the Internet and equipped with
+a standard browser: PC/Notebook from the
+office, Smartphone/iPhone from the field or
+from a remote location, etc.
+A Virtual Private Network guarantees
+maximum flexibility and data access without
+compromises in terms of security.
+MAPS
+The integration between MCA Tracer Anywhere
+and the world's leading vendors of digital maps
+(Google, Microsoft) allows users to visualize
+the position of their targets in many differ ways,
+such as:
+• Google Maps with Maps" view
+• Google Maps with satellite' view
+• Google Maps 'Street view'
+
+• Microsoft Virtual Earth
+• Microsoft Virtual Earth with satellite views
+• Microsoft Virtual Earth with aerial photography
+TARGETS VISUALIZATION
+The rendering of targets positions can be fully
+customized through different parameters and
+according to the most suitable investigation
+approach. For example, the operator can
+choose to visualize:
+•
+•
+•
+•
+
+Single, defined GPS positions
+Complete travels
+Time periods and related movements
+Journeys within selected points
+
+LIVE CHASING AND USE OF MULTIPLE TARGETS
+Chasing and pursuing targets is made easier
+thanks to the ability to track several targets at
+the same time.
+Several available options allow operators
+to assign defined targets to dedicated
+visualization modes, according to investigators
+needs and operations scenarios.
+Two maps can be open on the same screen,
+allowing the parallel view of separate targets.
+When targets are in the same geographical
+area, they will be shown on the same map,
+using different colors.
+
+The great variety
+of possible
+visualizations
+guarantees the
+highest precision
+in pinpointing
+and monitoring
+the target
+movements.
+
+CONFIGURATION
+Thanks to MCP Tracer Anywhere, the tracking
+devices (Tracer) can be easily configured from
+remote
+Advanced features such as GSM users, alarm
+zones, real time chasing options, energy saving
+settings etc. can be activated or modified in a
+very easy and intuitive way.
+DATA VISUALIZATION
+MCR Tracer Anywhere data can be rendered in a
+large spectrum of configurable resolutions (from
+400x100 dpi up to 1400x1000 dpi), allowing
+LEAs to adopt different media to visualize
+targets, form the smallest, portable PocketPC to
+the widest flat screen.
+INTEGRATION
+MCR Tracer is completely integrated in the MCR
+Monitoring Center.
+Now, thanks to Tracer Anywhere, it can be used
+as a standalone solution for security activities.
+
+When targets
+are in the same
+-.
+
+'
+
+.
+
+geographical area,
+they will be shown
+an the same map,
+using different
+colors.
+E l C o m o !"#$
+!"#$." 40
+T R A C L P V2
+
+•-""61(SEAT)
+IOW
+Imenne
+WOW
+'
+"-,
+
+-
+
+-
+
+-
+
+(
+
+\
+'
+
+,
+
+' —
+-
+
+AREA
+
+,
+
+,
+
+%&&&'
+%&&•
+•&' ' . .
+•&'
+—
+, S '
+,%44"&a l
+_ _ . _ . ..,_._,
+
+.
+
+---
+
+'
+
+-
+
+-
+
+j
+
+!"R#UDI$
+MER s !u"i# is the data-mining solution completely developed in-house by AREA
+that works in synergy with MCR system to provide LEAS with a State of the Art
+Monitoring Center for Lawful Interception activities.
+
+i$?%#&!'$ activities
+
+Service providers and
+other organizations
+
+MCR STUDIO is designed for LEAs needing a
+powerful tool to analyze and correlate data
+collected through:
+• telephony and lp interception activities
+• G&si"!s localization of nomadic/mobile targets
+• telephony and I P retained data from Telcos
+and lSPs
+• third-parties database import (i.e. credit
+cards payments, toll payments, airlines
+tickets and boarding cards).
+Besides the great capability to fit different
+investigation approaches. MCA studio added
+value is the effectiveness in finding out both
+direct and indirect relationships among
+subjects, identifying behavioral models.
+MCA studio is delivered either as a pure
+analysis system or, more often, integrated with
+turn-key Monitoring Centers.
+The first option fits in scenarios where ()*
+Studio is used to analyze databases not
+continuously updated.
+In the second case, LEAs greatly benefit from
+integration since analysis procedures can be
+repeated automatically and periodically.
+AREA data-mining solution is very modular and
+flexible, so ()* studio installations range from
+a few PCs to several servers and workstations.
+according to the amount of data to be treated
+Key factors for NCR studio spreading among
+LEAs are its usable user-interface and its
+capability to treat huge amount of data without
+requiring footprint server farms
+
+MGRINTEGRATED (+
+(+NI
+NI,+
+,+R'G
+R'G
+AND ANALYSISTOOLS
+Thanks to ()* studio integration with AREA
+Monitoring Center, analysis can be performed
+
+on current intercepted communications,
+including new calls, e
+chats and IRIs.
+In so doing, users work always on updated
+information so that analysis results represent
+behaviors of suspects in real-time.
+LEAs benefit from convergence of rendering
+and analysis tools as users can start new
+analysis at any time while monitoring new
+intercepted sessions. Similarly, users can
+simply click output provided by MCR studio
+to access and see communications linked to
+analysis results.
+()* Studio takes advantage from
+security and anti-tampering mechanisms
+implemented in AREA Monitoring Center.
+After Authentication, LEA users can only
+analyze data related to investigation
+activities they have been assigned.
+
+WORKFLOW OF ANAL -sis PROCEDURES
+()* Studio has proved its effectiveness and
+quickness in analyzing huge amount of data.
+MCR Studio enables LEAs to carry out
+complete analysis activities simply by
+following pre-configured processes.
+Main steps are:
+• import printouts and ‚P data provided by
+Telcos. or coming from third-party database;
+• verify database consistence and eliminate
+not relevant data:
+• apply any of the pre-configured analysis
+models or create new ones;
+• select the most suitable graphical layout to
+render the analysis results:
+• save the data resulting from analysis
+procedures, together with their graphical
+output.
+()* Studio comes with an advanced and
+very user-friendly GUI.
+Thanks to this key feature, even complex
+inquiries can be represented as flow charts.
+Results are displayed as grids, matrixes and
+relational graphs. Moreover, it is possible to
+check partial results of each analysis step
+and optimize standard analysis models
+
+DATABASE PREPARATION
+Users rely on many wizards to import files
+in different formats and from third-party
+databases. MCA studio supports TXT.
+Microsoft Excel®, Microsoft Word®, Adobe®
+PDF, XML. As far as database format is
+concerned, MCR Studio handles Microsoft
+SQL Server®, Postgre SQL, OleOB sources
+(es. Microsoft Access®), Odbc sources.
+READY-TO-USE ANALYSISMODELS
+MCA Studio provides several ways to describe
+entities on which analysis models apply, such
+as investigated subjects details, including
+owned SIMs and other electronic identities (for
+example E-mail addresses and SIP U RI),
+Users can select among many readyto-use analysis models, depending on
+investigation cases (for example, frequency
+of communication among subjects and
+identification of direct and indirect relations for
+organized crime).
+Besides taking advantage of established
+analysis methods, advanced users can create
+enhanced models by composing several
+filtering and correlation operations. New
+procedures can be saved and shared among
+users of the same work-group.
+EXAMPLES OF ANALYSIS PROCEDURES
+Some examples of meaningful analysis
+models that can be carried out by following
+ready to use templates are:
+• searCh for specific contents among
+thousands of intercepted sessions and
+IRIs (i.e. key-word among e
+numbers among IRIs):
+• analyze and correlate printouts related to
+different BTSs, to point out movements of
+suspects while using mobile phones;
+• find out relationships among suspects by
+merging and correlating IRIs and printouts
+to obtain a graphical representation of
+connections;
+• identify 'chained events" and recurring
+behaviors by investigating on crimes (i.e.
+sequence of calls among suspects linked to
+hierarchy in a group);
+• represent on cartography the subjects
+
+data are available (i.e. display on maps the
+position of BTSs covering places in which
+suspects are making calls);
+• put together movements of subjects by
+analyzing credit card payments and
+boarding cards of airlines.
+As Internet communication services are
+increasingly used to exchange sensitive
+information, AREA continuously includes
+analysis models by leveraging specific
+features of 'P services
+OUTPUT OF ANALYSIS
+In order to make the results of analysis
+procedures immediately understandable, $%&
+Studio supports many graphical output layouts.
+The most used ones are:
+• matrix, to represent the frequency of contact
+among a group of subjects
+• bar charts, to count how many times a
+certain interesting condition or event applies
+• Gantt charts, to display timeline of events or
+communications involving subjects
+• graphical charts, to display relationships
+among subjects together with the way used
+to communicate and the number of contacts
+• r a p s , displaying places where subjects are
+located when communicate with others
+MCA Studio enables the export and archiving
+of databases obtained by applying any
+analysis method.
+In so doing, LEAs can consolidate
+investigation milestones and evidences.
+Moreover. $%& Studio exports the graphical
+representation of any analysis result using file
+formats supported by Microsoft Off ce® suite.
+SUPPLY OF MCR STUDIO
+AND PROFESSIONAL SERVICES
+AREA Training and Consulting team provides
+LEAs with professional services at different
+levels, to assist users after system delivery
+and allow them to achieve maximum results
+from MCR Studio.
+
+AREA
+
+!
+MCRCAPTOR
+Given the increasing use of Internet, LEAs need a Monitoring Center capable to
+effectively carry out 'P interceptions, which nowadays represent a strategic tool to
+provide a real added value to investigation activities,
+AREA has developed the MCR CAPTOR family of probes to support LEAS in their II
+(Lawful Interception) activities requiring lp data acquisition; MCR Captor probes are
+totally integrated in the MCR Voice & Data Monitoring Center,
+MCR CAPTOR TARGET DEFINITION
+MCR Captor enables LEAs to use different
+approaches to 'P data interception.
+
+MDR Captor IF Probes installed in an Isp
+network allow to:
+• acquire IF streams up to 10 Gbps
+• apply real time filtering rules to extract
+specified ‚P sessions
+• forward captured content to MCR server
+
+Investigation Approach
+This approach is usually based on the
+monitoring of well known targets, previously
+identified by means of investigation, in
+order to collect evidences, discover social
+relationships and find hints to create other
+targets.
+The triggering rule can be an IF address, a
+Radius Login ID, an e-mail address, a chat
+or a VolP ID or telephone number, etc.
+
+MCR CAPTOR INTEGRATION
+MCR Captor family of probes is fully
+integrated with other MCR Voice and Data
+Monitoring Center components, providing
+complete Communication monitoring and
+analysis functionalities.
+Probes Management
+Centralized installation provides GUI interface
+to managq the whole system of MCR Captor
+probes deployed in the network, configure
+Targets, and monitor health status.
+Content Inspection and Analysis
+MCA Player provides extensive functionalities
+to access CC and CDR of intercepted targets,
+being them IF or Voice, offering advanced
+features for decoding, presenting and filtering
+of data. NCR Studio is the data-mining tools to
+analyze target's social relationships and build
+personalized analysis patterns.
+
+Intelligence Approach
+This approach is usually based on the
+monitoring of communication content of
+targets that are not identified yet. This kind
+of interception applies in Crime Prevention
+and Homeland security, as it is useful both
+to discover suspect behaviors and to identify
+the subjects they belong to, by means of
+content monitoring.
+The target can be email subject, chat
+content, generic word spotting in complete
+stream, type of communication protocol,
+etc..
+
+Centralized storage
+MCA server provides storage, security and antitampering signature on recorded data, accordingly
+to specific country legislation requirements
+
+Trigger Table
+This table presents a summary describing
+the most common target definition of MCR
+Captor
+
+TYPE OF TARGET
+
+T A
+
+R
+
+G
+
+E
+
+T
+
+DEFINEO BY
+
+Target oriented
+
+'P address / Radius ID / E-mail address / Chat ID /
+VoIP ID / Telephone number / URL / DNS Queries I... /
+
+Content Oriented
+
+Email (Subject and body) (Webmail (Subject and body) /
+Instant Messaging (social Network Chat / Web Pages /
+Generic Word spotting in full stream / ....,
+
+Communication Type Oriented
+(Identification of protocols)
+
+Mail / Webmail / " # P / VoIP / Chat /
+Communication Port / Encrypted Protocols (Skype,
+"#$S...)/$%%!2$%%!/»./
+
+MLK ! - U R APPLICATION SCENARIOS
+Example 1 Pirate Web Site
+An example is the monitoring of a pirate web
+site traffic. LEAs requirement was to trace
+every access to a pirate website, and collect
+all the traffic generated by those users, to
+discriminate relevant targets from occasional
+visitors.
+The constraint in this process is the capability
+to automatically target the web site which was
+not always on-line and whose 'P address was
+dynamic.
+Establishing a trigger monitoring DNS traffic
+allowed to identify those IP addresses
+accessing the specific web site: those 1P
+Addresses were addressed as targets, from
+that point on, capturing entire traffic generated,
+allowing LEAs to identify relevant users, and
+obtain their ID (email, chat..)
+Example 2: Word spotting (protocol based)
+MCA Captor can process a whole aggregated
+'P stream and extract the contents (such as
+H n P pages or e
+words are detected. Moreover, in order to
+focus on specific communications channel,
+the combination of more triggers is extremely
+important. In this experience LEAs, needed
+to search specific words, but to limit false
+positive matches, traffic analyzed was
+restricted to Instant Messaging. Webmail and
+Mail protocols.
+
+FLEXIBILITY AND SCALABILITY
+MCR Captor can be easily adaptec to all
+the changes that can occur in number of
+monitored targets, protocols and 1SP network
+modifications.
+MCR Captor can support interception
+activities carried Out simultaneously by
+different LEAs thanks to the capability to
+manage a huge number of concurrent
+interception instances.
+MCR CAPTOR MAIN F#("UR#
+System reliability
+MCA adopts an advanced automatic backup
+policy and a RAID 5 mechanism is configured
+on probes to avoid data loss. Moreover the
+handover capability is redounded in order to
+avoid that a single fault can affect the whole
+system recording capacity.
+Security
+MCP Captor is configured to be protected
+from any virus threats. malware in general
+and hackers attacks.
+On probes, servers and workstations a toplevel anti-virus software is installed and a
+firewall infrastructure is properly configured
+according to the latest policies issued by
+authoritative IT security companies and
+communities.
+
+INTEROPERABILITY, s"
+s"ANDARD
+"ANDARD AND
+INTEGRATION INTO TARGET N#"W
+#"W$
+W$R%
+MCR Captor enables LEAS to monitor 'P
+contents through any kind of fixed and mobile
+data networks: dial-up, xDsL or fiber (fixed
+networks), and WLAN, GPRS, EDGE or u & ' s
+(mobile networks). MCR Captor probes are
+configured to fit the network technology
+adopted by Telco operators (i.e. GB Ethernet.
+s'&. Pos) and can capture high bit rate 'P
+streams (up to 10Gbps) through SPAN ports or
+by means of tapping devices.
+AREA monitoring system is compliant to
+emerging LI standards such as ETSI (TS 101
+671, I S 102 232) and CALEA, yet MCR Captor
+is widely adaptable to fit Vendor-specific or
+Country-specific interception scenarios.
+
+AREA
+
+1-
+
++
+
+4 .
+
+4 .
+
++
+
++
+
++
+
++
+
+4.
+
++
+
++
+
+++ M C
+
+MCA V1810 is AREAs new digital recording and interactive management platform for video interception.
+The solution has been specifically designed and developed for LEAs and includes typical interceptionrelated features such as:
+• P o w e r f u l tools for the management of transcriptions and comments about the recorded
+events, while preserving the original without
+any manipulation (digital signature)
+• P r i n t o u t s of the intercepted/recorded events
+• R e p o r t generator for easy creation of investigation-related into summary, customizable with
+templates
+• F r i e n d l y user interface hides a powerful sw
+engine
+• M u l t i - l i n g u a l support
+
+Real
+Monitoring of all active video cameras gives the opera
+tor a complete view of all monitored locations. Cameras can b e managed according to the operators
+needs: they can be zoomed in or out; they can be
+tilted and panned (PTZ control).
+MCR VISIO already integrates control protocols for
+Axis and PANAsONIC cameras. Customization for
+use with specific cameras can be arranged for specific projects.
+
+!
+
+MCR VISIO client-server architecture enables the handling of multiple activities. collecting inputs from several sources, in a single centralized infrastructure. with
+evident economic and organizational advantages. It
+can be adapted to a wide range of analog and digital
+cameras and supports real-time video target streaming along with analysis of stored files.
+The large selection of recording methods and options
+allows the operator to customize video shots in order
+to adapt the interception to specific needs and application scenarios.
+
+Recorded Video files
+Operators can retrieve and manage at any time stored
+video files. The choice of start time for playback can
+be easily made: the timeline (with zoom-in functions, to
+allow higher granularity) included in every recorded
+video and the bookmark feature, give operators the
+freedom to browse among time intervals and to play,
+store or export parts of a selected video.
+Recording time can be planned in advance, by telling
+MCR VIslO the daily schedule of an interception activity, for each camera currently connected to the system.
+Recording mode can be defined: i.e. Continuous recording. Recording upon movement. etc.
+Video recordings are particularly helpful when combined with NCR VISlO muftiview feature, for cross
+analysis of multiple recordings.
+
+MCR v i s i o offers many innovative and unique features, including:
+
+ADVANCED MOTION DETECTION
+)(* VISIO offers a n advanced recording mode,
+based on the definition of active areas on the screen,
+with inclusion/exclusion zones. The operator can select areas of interest where MCR V15l0 will focus its
+motion detection engine, with user-defined motion
+thresholds to start recording. These active areas also
+can benefit from an automatic zoom in case motion is
+detected.
+Recordings made with active areas, share the same
+modes (i.e. Continuous recording. Recording upon
+movement, etc.) as other recordings.
+
+Muinview
+MCR v i s o manages efficiently different multi camera
+modes. Operators can view one single camera window, or multiple cameras. When more than one camera window is present, the operator is allowed to configure windows layout and priority, for both real-time
+playback and saved video recordings. Each video
+window is actually a tab which can be detached from
+the main window and moved onto other monitors, if
+available (i.e. real-time playback of an investigation on
+a screen, and transcription of a report on video frames
+of another investigation, on the second screen).
+CONTENT SEARCH
+With the search feature, operators can look for a specific content among MCR VlslO's recordings, by applying filter criteria, including search for date, time,
+relevance, bookmark or transcription.
+
+-
+
+7
+
+" $ % I n & I . 2009
+
+"
+
+!
+
+• 14
+
+,
+
+,
+
+$
+
+-
+
+$
+
+1&'09l2009 200238
+
+•
+
+• 17
+
+1W%9/
+1W%
+%9/&&
+9/&&9
+&&9 104236
+
+•
+
+. 11
+
+1 / 2 ( ' 1 19.L34
+
+13
+
+1W"#
+1W"#
+"#//20
+0$
+$'#L9,52.37
+$#
+$'
+
+•
+
+1W00I'1(Q1Q72.)
+1W00I'
+'1(Q1Q72.) • ‚
+
+•
+
+.
+
+1W09/20(9L9J130
+
+•
+
+'
+
+1&%9/2
+1&%
+%9/2%(
+9/2%(9
+%(9 1902.29
+
+10
+
+no7
+
+00 1 8 2 8
+1&'"9/2009
+9/2009
+
+)
+,
+
+MULTIMEDIA CLIENT-SERVER MODE
+INTEGRATED LIVE AUDIO
+MCR Visio also accepts input from multiple Audio
+sources and specific audio+video streams can b e
+merged together, i.e. for lips-reading. These two inputs
+can then be exported in a single and synchronized A/
+V output file.
+Time-based bookmarks (related to a specific events)
+can be associated with multiple audio+video tracks.
+Operators can write notes and comments for any single (audio OR video) source.
+
+MCP VISIO infrastructure was designed to consider
+different bandwidth availabilities. When contents are
+stored remotely and operators need network connections to access them, Visio's client-server architecture
+can detect the network's throughput and modify its
+access speed to allow operators to get the best quality
+videos that the network can guarantee. This feature
+doesn't affect stored videos, that won't change their
+real quality: only the network transmitted contents will
+adapt to the line conditions.
+
+DATA MANAGEMENT
+
+SECURITY
+
+MCR VISIO comes with a suite of tools to manage
+data, which are mainly images and videos.
+• s c r e e n s h o t s of the current video(s) can be
+saved into the clipboard.
+• A V I export of entire videos, fractions of videos
+and time spans that can include multiple videos.
+• M o n i t o r management, to set format (4:3 or
+16:9) or to split screen for advanced visualization
+
+All files recorded by )(* Visio are signed with a digital key in order to avoid any manipulation. The software license can be loaded from a u s + token. Finegranular access rights for users and system administrators and complete log of all events and activities,
+
+AREA
+www. area. it
+
++
+I"#$
+"#$LLiG$"%$ &i'(s)
+"#$LLi
+A
+
+!
+
++
+
+-
+
++
+
+E
+
+A
+
++ +
+
++
+
++
+
++ +
+
++
+
++
+
++
+
++
+
+R
+
++
+
++
+
++
+
++
+
++
+
++ +
+
++
+
++
+
++
+
++
+
++
+
+"Our mission is to ensure the
+highest quality of service to
+customers, to behave in an
+ethically proper manner and
+to create well-being for all
+those who interact with AREA.
+Constant application of
+these values has allowed us
+to achieve an undisputed
+leadership position.
+Our success demonstrates
+that we have one of the
+most complete solutions on
+the market to handle the
+entire intelligence process
+related to Lawful
+Interception activities".
+Andrea Formenti
+Davjde Perteghella
+
+•
+
+Investig e work requires
+increasingly fast and
+effective solutions
+to support II activities
+
++
++
+
++
+
++
+
++
+
+Intelligence
+
+Investigative work is increasingly becom-
+
+AREA has always invested in the develop-
+
+ing intelligence work. Lawful Interception
+
+ment of technological LI solutions
+
+(LI) is a key element of this and consists
+
+to satisfy the high qualitative standards
+
+of acquiring information from every trans-
+
+in demand, working in a responsible
+
+mission source by governmental agen-
+
+and reliable manner and without impact-
+
+cies, in full respect of the laws in force
+
+ing the voice, data and video transmission
+
+and with the necessary authorisations.
+
+service provided to other users
+
+It is an extremely complex and delicate
+
+Furthermore, AREA has developed ad-
+
+process, called upon to meet the new
+
+vanced solutions for management, analy-
+
+challenges introduced by the growing
+
+sis and distribution of the information
+
+technological complexity of telecommu-
+
+acquired: a complete platform of intelli-
+
+nication systems and the need to guar
+
+gence to transform raw data into strategic
+
+antee the utmost protection and respect
+
+knowledge,
+
+of privacy, while simultaneously offering
+concrete support in the analysis of data
+and information.
+
+!
+
+"
+
+AREA is synonymous with
+transparency, responsibility
+and professional ethics
+H+
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+-L
+
++
+
+\
+
++
+
++
+
+Value
+
+The real commitment of a company is
+
+The solution is developed entirely in
+
+measured also by its capability to ensure
+
+AREA labs, which are sustained by the
+
+high ethical standards in its dealings with
+
+investment of over 90% of profits and
+
+market and customers.
+
+an R&D staff that, together with the techni-
+
+standards that AREA has always promot-
+
+cal assistance personnel, represents 80%
+
+ed and which now translate into a code
+
+of total human resources.
+
+of self-regulation, as a guarantee of service
+
+Collaboration with research centres and
+
+and assistance with a responsible, trans-
+
+universities, investments in development
+
+parent approach to provide each customer
+
+and promotion of talents are the winning
+
+the most suitable solution and satisfy the
+
+elements that make AREA the leader
+
+most challenging LI requirements.
+
+in this sector in Italy and a key player
+
+From 1996 until today, AREA has con-
+
+on international markets.
+
+stantly pursued the objectives of cutting
+
+Total focus on the LI sector and on a spe-
+
+edge technology and qualitative excel-
+
+cific type of customer - Lawful Enforce-
+
+lence in the LI sector. As the first operator
+
+ment Agencies (LEA) - provides AREA
+
+in Italy to introduce a multi-channel audio
+
+with in-depth knowledge about the
+
+digital recording system based on stand-
+
+demanding requirements of the market
+
+ard market components and featuring
+
+regarding security, speed, effectiveness
+
+total accessibility through 'P networks,
+
+and technical support.
+
+the company is now the national leader
+in this sector, with over 300 installations
+of its MCR System around the world.
+
+—
+
+The MC y s t e m inte
+I Li activities into a si
+atform
+
+1
+
+4
+
+Integration
+
+The MCR system offers a single integrated
+
+CAPTURE
+
+platform to capture and analyse data com-
+
+Data acquisition from networks and uncon-
+
+ing from any transmission source and
+
+ventional sources
+
+to obtain a comprehensive overview pro-
+
+RECORDING
+
+viding added value to investigative work.
+
+Collection, reception and structured ar-
+
+With its high scaiability and customisation,
+
+chiving of acquired data
+
+MCR is able to transform any installation
+
+REPRODUCTION
+
+into a unique and valuable project.
+
+Data decoding, visualisation and access
+
+AREA is committed to rapidly implement-
+
+by authorised operators
+
+ing the solution and ensuring that all
+
+ANALYSIS
+
+authorised persons can benefit from the
+
+Data processing and identification of sig-
+
+advantages provided by the new system.
+
+nificant correlations among subjects
+
+The products comprising the MCR System
+
+MANAGEMENT
+
+allow AREA to fully cover the five main
+
+Administration of authorisation procedures
+
+functional areas of the LI sector:
+
+and documents relative to the monitoring
+services
+
+In each of the steps described above,
+which represent the typical process flow
+of a telecommunication monitoring system,
+the results are presented to the user via
+simple and highly customisable interfaces,
+as well as through reports and diagrams.
+
+-
+
+I
+
+-
+
+‚ - !
+.1
++
+
+MCR system satisfies ail
+erational and strategic
+-
+
++
++
+
++
+
++
++
++
+
+•
+
+Technology
+
+The MCA system includes a set of com-
+
+MCRCAPTOR - devices to capture ‚P traf-
+
+ponents designed to fulfil all the potential
+
+fic on public networks
+
+LI needs:
+
+MCRTRACER - for geographic monitoring
+
+MCRVOICEAND DATA MONITORING CENTER
+
+of moving targets through GPs localisa-
+
+which includes:
+
+tion systems and to tap conversations
+
+• MCR server, for the management of
+
+among parties
+
+information about recording decoding
+indexation, storage, authentication
+
+MCR solutions are implemented through
+
+and management of all data
+
+a solid networking architecture, to allow
+
+• MCR Player, for the reproduction of data
+
+the maximum operation efficiency and
+
+acquired in any format and from any
+
+security. Thus, information flows may be
+
+transmission source
+
+monitored on a global scale, maximising
+
+• vICR Studio, for the comparative analy-
+
+LI times, avoiding loss of information and
+
+sis and processing of information, in
+
+never endangering the safety of the
+
+order to identify correlations and behav-
+
+whole process.
+
+iour patterns
+• MCR Office, for the management of all
+LI
+and documents, such as authorisations,
+activities planning and cost analysis
+
+AREA pa
+attention to data security
+and confidentiality
+
+-
+
+-
+
+s
+
+One of the main requirements customers
+
+All communications within the company
+
+ask for is the most scrupulous confiden-
+
+and with external parties are conveyed by
+
+tiality concerning operations carried out,
+
+protected channels and all digital commu-
+
+technologies adopted, systems imple-
+
+nications are encrypted.
+
+mented, d a t a captured and analysed,
+
+sensitive information exchanged with cus-
+
+individuals involved in LI actions.
+
+tomers is managed through a private and
+
+In fact, AREA pays a great attention
+
+secure electronic mail account.
+
+to the topic issues of security and confi-
+
+All AREA customers know they can count
+
+dentiality. Entrance to the workplaces
+
+on sound and rigorous professional eth-
+
+is regulated and monitored by a control
+
+ics, which go beyond corporate responsi-
+
+and identification system and access to
+
+bility, based on reliability in partnerships
+
+confidential data is handled with extreme
+
+and confidentiality in relationships, along-
+
+care through security procedures.
+
+side being supported by procedures
+and tools aimed at the protection of data
+and information.
+
++
++
+
++
+
+A R E A professional services
+
++
+
+are marked by quality,
+e f f i c i e n c y and timeliness
++
+
+OP
+
+Reliability
+
+In a particular sector like LI
+
+The quality of technical support is guar-
+
+to rely on a partner able to handle the en-
+
+anteed by the fact that all of the solutions
+
+tire set of operations and activities linked
+
+are developed internally without out-
+
+to wiretapping, providing all the know-how
+
+sourcing to third parties, thereby ensur-
+
+acquired through years of experience
+
+ing maximum service level and shortest
+
+aimed at the creation of a technologically-
+
+response times.
+
+advanced platform.
+
+Furthermore, i s o 9001 Quality Certifica-
+
+AREA can provide the highest quality
+
+tion guarantees the validity of the internal
+
+of service, reflecting its constant com-
+
+production and service processes, while
+
+mitment in ihe development of techno-
+
+membership in the ETSI (European
+
+logical solutions and innovation: turn-key
+
+Telecommunication standard Institute)
+
+projects, systems integration, 24 ! 7
+
+demonstrates the quality level of products
+
+assistance, worldwide on-site assistance,
+
+and services developed by AREA.
+
+custom development, training, dedicated
+support teams, programs for the protection of investments in technology
+and long-term maintenance contracts.
+
+hic design:AlleaDesign -Milan
+printed on Freetife Veiltin,
+obtained with a furnish of 80% of sel 1 % chlorine free pulp and
+
+!
+
+MCRVOICE&DATA
+MONITORING CENTER
+MCRSERVER and MCR PLAYER are part of the Monitoring Center developed
+by AREA, to support LEAs investigations through Lawful Interception of
+telecommunication contents, live audio and " # s i s positioning.
+
+ARCHITECTURE
+
+HANDOVER INTERFACE
+
+MCR system is a cloud of two types of
+components, connected via local or
+geographical networks (LAN/WAN) in a
+multiple client-server/3tiers/P2P architecture:
+
+MCR system is ready from the very first startup to intercept and acquire contents coming
+from targets and networks of different nature,
+as explained in the scheme below. AREA's
+technology is constantly kept up to date,
+along with the evolution of telecommunication
+and 'P networks.
+
+1. MER Server. the recording unit
+aimed to acquire, record and store
+telecommunication and 'P data exchanged
+by a large number of targets
+2. MER Player, a user-friendly application that
+allows authorized operators to access,
+analyze and process intercepted contents
+
+FIXED
+D$
+$%L%&'()*
+(PsTfl,ISDfl, flGfl)
+
+-
+
+CALLS AflD RELATED 'Ri
+
+- VIDEOCALLS RflD RELATED IRI
+
+10
+
+FAX AflD RELATED 'RI
+-
+
+-%%%'/II/ SERVICES (EMS AflD MMS)
+-%%%'/
+
+0+IL[ T[LEPHOflY
+(,%-, U-$5)
+
+TARGETS LOCRUSATIOfl BY -%0)
+OF HOOKED ATE POSITIOflIflG
+
+•••
+
+/()$%)$5
+
+TARGETS)%$W
+)%$W(
+)%$W
+W(R.
+-
+
+FIXED1PflETWORK
+(different 'P access
+such as dial-up,
+xDSL, optical fiber)
+
+MOBILE'PflETWORK
+(WI-Fl,WnP. PPS,
+EDGE, UMTS)
+
+!
+
+E-MAIL SERVICES BASED on s1#2.
+
+POP3,'MAP4
+
+- W E B
+WEB-MAIL SERVICES (HOTMRIL.
+YAHOO. G000LEMRIL AriD SIMILAR)
+
+- IflETAflTMESERGIflG(MSfl.
+YAHOOCHAT.!RC)
+AuDIOAflDVIDEO/()%%0%)%I)G
+
+SERVICES BASED () MOSTLY USED
+MEDIA AflD VOIP PROTOCOLS
+
+— 4 FTP AflD PEER TO PEER SERVICES
+(CflUTELLA. E-DOnKEY, E-MuLE)
+
++
+
+FLEXIBILITY AND ECALABILITY
+The MCP system is based on a multi-layer
+architecture intrinsically modular, flexible and
+scalable, which is able to adapt in real-time
+to the different needs that can emerge during
+interception activities.
+A single MCR server recording unit is
+capable to receive several voice and lp
+streams at the same time, generated by
+multiple targets. There's no theoretical limit to
+the number of linked MCP servers that can
+work in parallel, making possible to add new
+targets at any time.
+The key feature of flexibility between number
+of targets and number of LEA operators is
+completely realized in MCR system: multiple
+operators can monitor the same target and
+multiple targets can be monitored by the
+same operator.
+In this way, the system can be dimensioned
+according to the number of operators,
+regardless the number of targets.
+MCR system is totally scalable, according to
+the following parameters:
+• Number of targets, remote installations,
+number of operators, telecom providers
+involved.
+• Data recording and storage.
+• Nature of services and contents.
+• Telecom providers and ISps network
+architectures.
+
++
+
+.
+
++
+
++
+
++ +
+
++
+
++
+
++
+
++
+
++ +
+
++
+
++
+
++
+
++
+
+• Time-saving activity management, to
+optimize costs and operators efforts.
+• security optimization thanks to integrated
+access and users' permissions policy
+management. MCA Player is fully integrated
+with Microsoft Wind
+Wind"
+"ws Server's Active
+Directory for user and groups creation and
+management.
+• MCP Servers can log users access,
+activities, configurations, ordinary and
+unexpected events. etc.
+COMPLIANCY
+MCP System is developed according to
+most used international handover interface
+standards.
+AREA engineers participate as member
+of technical boards in these international
+committees allowing our R&D department
+to give an important contribution to various
+standards layout and development.
+RELIABILITY
+To grant integrity of recordings, all contents
+are digitally signed by MCP Server using
+SHA-1 authentication algorithm. MCR System
+is installed with a redundant architecture, to
+grant maximum security in data storage and
+maintenance.
+Moreover, thanks to its event-management
+function, MCP system can be configured
+to notify users by e-mail or SMS about new
+incoming system events and alarms.
+MAIN FEATURES
+
+INTEGRATION
+MCP system has evolved thanks to
+expertise acquired over more than
+a decade, on several national and
+international projects.
+Integration of all activity types (voice, fax.
+s ! s , MMS, videocalls, 'P streams, live
+audio streams, positioning) on a single
+platform offers many advantages, among
+which:
+• Scalable architecture on storage. services
+and maintenance costs.
+• Short training sessions.
+
+MCR system most important features are:
+
+Listening capability
+Listening to recorded telephonic or VoIP calls
+can be done through an advanced audio
+playback interface enabling, on top of normal
+play-stop-rewind
+functions like:
+• Cyclic listening on selected audio portions.
+• Graphical analysis of audio levels.
+• Advanced and customizable software
+equalizer.
+• Professional noise reduction system.
+
+Centralized interface
+Regardless the different types of data that
+are being intercepted, with NCR system LEA
+operators can rapidly access to all acquired
+contents (voice and lp data), using a universal
+interface that allows to correlate information
+coming from different media, but belonging
+to the same target, or to cross information
+generated by different targets.
+
+Remote access
+For LEA operators that are deployed on the
+field and cannot follow real-time recording of
+events, !"# system has an alerting function,
+that warns operators of incoming events and
+recording by s$s.
+Using a normal telephone to compose a
+classified number, operators can access to
+an interactive voice menu that guides users
+through various functions such as search,
+selection and listening, even real-time, of
+recorded audio or VoIP contents.
+
+Data management
+MCR system creates automatically a database
+containing, for each target, information such
+as phone number or internet ID, call or ‚P
+stream date and time, call duration and IRI
+(Interception Related Information), where
+available. LEA operators can also integrate
+these data with additional information, such
+as. relevance of the interception, subject of
+the interception, localization information, etc.
+On top of the common functions "insert &
+search", LEA operators can also manage full
+transcription of the communication contents
+throughout the call.
+MCA Player embeds many Microsoft Word
+functions and allows LEA operators to export
+data on general models.
+It is also possible to automatically or manually
+export data to other systems.
+Thanks to the integration with MCR
+Studio, AREA's tool developed for targets
+relationships analysis, LEA operators can
+analyze in real time any intercepted traffic.
+No manual import operation is needed
+by !"# server and the operators are
+immediately receiving up-to-date information
+from the Communication Contents database.
+
+Automatic 'RI Communication Content association
+'RI may be sent on different media (ISDN
+lines, e
+Provider; MCR system manages all those
+media types and correlates IRIs with their
+respective Communication Contents with no
+interaction from LEA operators, making the
+process totally automatic, according to % & I
+standards.
+This mechanism allows operators to access
+rapidly to complete information for every
+recorded data set.
+
+Multilevel data analysis
+Access and visualization to recorded
+contents are rapid and easy, regardless the
+technology they have been acquired from:
+a complete and unified browsing interface
+allows operators to visualize e
+pages, FTP transfers, chat and voice calls.
+The interface can be also customized
+by user type (according to their MDR
+privileges).
+!"# Player offers the possibility to have
+multiple visualization levels, from basic
+content view, that shows data as they are,
+to the advanced content view, that allows
+expert users to locate particular portions
+of captured traffic or analyze unknown
+protocols.
+Furthermore, !"# Player can represent
+ASCII-based protocols (such as IRC, SMTP,
+#'P(, HTTP), as plain text files.
+
+Phonebook
+Phone numbers and internet IDs of targets
+are all stored in a phonebook that is
+customizable by LEA operators with notes
+and comments.
+A phonebook can either be assigned to a
+single target, to contain all his contacts, or
+to a whole service, which can comprehend
+multiple targets. Different phonebooks
+belonging to active targets can also be
+visualized together.
+!"# Player allows the analysis of
+relationships among targets by the display
+of calls or 'P data transfer direction and
+frequency.
+
+Cartography view and !" -CPS localization
+LEA operators have access, through !"#
+Player, to the cartographic (both historical
+and live) view of the target position, whenever
+location data are present into 1R1 messages.
+It is also possible to follow the movement
+of multiple targets at the same time
+(recognized by their colors) and display
+on the map(s) additional information about
+the targets (such as monitored number,
+timestamp of the event, etc).
+The 'historical view" allows setting a
+Particular time interval in which the operator
+wants to display the target's positions history.
+live audio interception support
+!"# system can support all kinds of
+recording (analog tine, low frequency,
+I5DN line, etc) for fixed or vehicular tactical
+interceptions.
+Furthermore, MCP Player integrates the
+management of MCP Tracer, a tool developed
+and built by AREA for GSM/0PSlocalization of
+vehicles and vehicular live audio interception.
+Through DIME signaling, MCP Player can
+also manage and poll third-party peripherals,
+including features as threshold levels (vox) for
+automatic start/stop of audio recording on the
+remote tactical devices.
+Configuration and management
+MCP system has a user-friendly management
+console that allows LEA operators to easily
+modify operational parameters, even with a
+remote confectiOn, software installation is
+simple and immediate, ready to be deployed
+on different hardware infrastructures.
+
+#
+AREA
+Www.$%&,it
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+wwwareait
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+H-
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+- h
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+

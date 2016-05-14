@@ -1,0 +1,272 @@
+DELTA SPE
+Scientific & Production Enterprise
+The Challenge of Packet Data Collection
+from Satellite Communications Space
+Segment and Effective Solutions
+The provisioning of intelligence collection and processing of
+satellite communications (Inmarsat, Thuraya, VSAT etc) is
+one of the emerging challenges of today. This session will
+give an overview of original solutions for the collection and
+processing of packet data satellite services (Internet, VoIP,
+FoIP) at all layers of the Open System Interconnection
+model.
+
+SATELLITE COMMUNICATIONS - GENERAL STRUCTURE
+
+OVERVIEW OF SATELLITE COMMUNICATION SYSTEMS
+
+OSI MODEL OF SATELLITE SYSTEMS
+
+SATELLITE MONITORING SYSTEM
+
+MAIN CHALLENGES OF SATELLITE MONITORING
+1. Absence of common synchronization source and system parameters
+2. Possible absence of one satellite direction
+3. Non-standard (not defined by interchange protocols) delay between channels
+when signals are recorded in different points
+4. Presence of echo
+
+SYNCHRONIZATION PROBLEM
+
+The problem source: All signals are synchronized at the satellite’s aperture
+Target signals come to the monitoring center with unknown delays
+frame N+1
+
+frame N
+
+frame N+2
+
+Timing at satellite
+
+target 2
+channel request
+
+target 1
+channel request
+
+Timing at monitoring
+center
+frame M
+
+frame M+1
+
+t1
+
+target 3
+channel request
+
+frame M+2
+
+t2
+
+t3
+
+Maximum allowed distance divergence when synchronization
+in Thuraya network is provided: <127 km (GMR-1 04.008)
+Proposed solution of synchronization does not depend on distance
+from target to monitoring center
+Distance divergence of more than 5000 km should be provided
+
+FORWARD/RETURN CHANNEL ABSENCE PROBLEM IN SPOTBEAM SYSTEM
+
+The problem source 1:
+Absence of forward channel
+
+Absence of time/frame/message synchronization
+(FCCH, BCCH, AGCH in Thuraya network)
+(NCSS, NCSA in Inmarsat)
+
+The problem source 2:
+Absence of return channel
+
+Absence of channel request, positioning and
+ciphering messages
+(RACH, FACCH3 in Thuraya network)
+(MESRQ, SUB in Inmarsat)
+
+PROBLEM OF SIGNAL RESTORATION IN THE BACKGROUND
+WHEN SIDE ECHO IS ABSENT
+Echo signal is used to restore parameters for demodulation
+and decoding
+
+Unavailable parameters are restored by signal’s intellectual analysis system
+
+Restoration of absent transmission from echo signal
+(so that all information content is retrieved)
+Application of special signal processing algorithms to restore
+echo signal in the background
+
+Application of special speech processing algorithms allows
+(in some cases) the restoration of both sides by means of
+the echo signal
+
+-Extract of information from echo
+
+- Restoration of signal at echo background
+
+PROBLEM OF SIGNAL RESTORATION FROM ECHO SIGNAL
+(modem session)
+echo
+
+Parameters restored by expert system
+Protocol
+V.34
+Carrier frequency
+1680.06 Hz
+Symbol rate
+2800.10 Hz
+Number of trellis states
+64
+Non-linear coder parameter
+0.3125
+Type of constellation
+‘minimum’
+Data rate
+9600 bps
+Pre-coder coefficients
+[0 0 0]
+
+Restored signal constellation
+
+PROBLEM OF SIGNAL RESTORATION FROM ECHO SIGNAL
+(fax session)
+echo
+
+Restored signal constellation
+Parameters restored by expert system
+Protocol
+V.34 fax
+Carrier frequency
+1828.52 Hz
+Symbol rate
+3200 Hz
+Number of trellis states
+16
+Non-linear coder parameter
+0.3125
+Type of constellation
+‘expanded’
+Data rate
+28800
+Pre-coder coefficients
+[2.4414e-4 6.1035e-5 6.1035e-5]
+Mode of image coding
+JBIG
+
+PROBLEM OF PRE-CODED SIGNALS INTERCEPTION
+
+Mapper
+
+Linear
+Pre-coder
+Trellis
+Encoder
+
+Channel
+Intercept
+point
+
+Viterbi
+decoder
+
+Standard
+equalizer
+
+standard receiver
+(at destination point)
+
+transmitter
+Standard
+equalizer
+
+Viterbi
+decoder
+
+standard receiver
+(at intercept point)
+
+Specialized
+equalizer
+
+Viterbi
+decoder
+
+specialized receiver
+(at intercept point)
+
+Packet collection challenges at upper levels of OSI model
+1. Possible absence of one satellite direction – FC or RC
+2. Impossibility to make a request for lost data
+3. Violation of multimedia synchronization streams
+4. Violation of synchronization commands when satellite directions
+are collected at different points
+5. Possible absence of information of used protocols
+6. Possible implementation of non-standard ports (SMTP, proxies for HTTP)
+7. Problem of HTML page assembling. Absence of information on destination
+point for HTML page fragment.
+8. Problem of HTML page fragment caching and tracking of cache changes
+9. Problem of tracking HTML page fragments that have moved
+
+DELTA SPE Satellite Monitoring System provides solution of
+
+Physical
+layer
+
+Datalink
+layer
+
+Network Transport
+layer
+layer
+
+Session
+layer
+
+Presentation
+layer
+
+described challenges at all layers of OSI model
+Multimedia streams
+synchronization
+
+Solution of HTML page
+assembling challenges
+
+DeSat
+
+DeSee
+
+Detection of non-standard ports
+implementation
+Packet requests
+tracking
+
+Restoration of data in the
+absence of one side of the transmission
+Impossibility to request
+for lost data
+
+DeCod
+
+DeSat
+
+DeSat
+
+Determination of unknown
+protocol types
+
+Provision of satellite channels
+synchronization independent from
+distance to target
+
+DeMod
+
+Restoration of duplex signals
+in the absence of one
+satellite direction
+
+DeFax
+Signals restoration at
+echo background
+
+

@@ -1,0 +1,100 @@
+Directional Microphone
+Array System
+Model 6802
+
+CONFIDENTIAL
+– Subject to
+change without
+prior
+notice!
+CONFIDENTIAL
+– Subject
+to change
+without
+prior notice!
+
+1
+
+Directional Microphone Array System
+
+MODEL 6802
+
+Audio collection in large, open areas can often require pinpoint accuracy to isolate
+specific audio sources. Only TSE 6802 can deliver the technology to electronically
+steer multiple beams through a sound field collected by a fixed microphone array.
+Key features of the TSE 6802 system:
+• Provides a high-gain electronic beam steering capability
+• Steers three separate beams from one set of microphones
+• Supports a wide variety of custom microphone arrays, handling up to 96 microphones on 16 channels of input
+• Features a unique stereo beam mode for a natural listening experience
+• Offers hardware and software based steering controls for maximum flexibility
+• 3-D beam forming (azimuth, elevation, and distance) available under software
+control
+• Can be used in real-time surveillance or post-processing of multi-track recordings
+
+Specifications
+Analog
+Microphone Inputs
+
+Bandwidth
+
+•Two 25-pin DSUB connector interfaces (Tascam
+format)
+•Supports 8 differential line level inputs per channel
+(16 channels total)
+•25k ohm input impedance per channel
+•7.5 kHz Analog Conversions
+•24-bit stereo A/D and D/A Sigma-delta technology
+
+Dynamic Range
+
+•> 120 dB
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Digital Processing
+Microprocessor
+
+Beam-Forming
+
+•Four ADSP-21062 SHARC® processors for beam
+forming
+•One ADSP-21062 SHARC® processor for interface
+control and hosting
+•Three beams (or one stereo beam and one mono
+beam)
+•Adjustable azimuth (0.1 degree increments)
+•Adjustable gain (1 dB increments)
+•Adjustable elevation (0.1 degree increments), software control only
+•Adjustable distance (0.5 meters to infinity), software
+control only
+•30th order, digital low pass filters for fractional delays
+•Memory based sample delay lines (200 deep)
+
+Memory
+Computer Interface
+
+General
+Enclosure
+
+•Two 512K x 8 flash memory for program and coefficient storage
+•RS232 serial interface for system control
+
+•17 W x 3.5 H x 12 D inches black aluminum
+•Optional rack mount kit available
+
+Power
+
+•90-264 VAC, 47-63 Hz at 2.5 A (max)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+

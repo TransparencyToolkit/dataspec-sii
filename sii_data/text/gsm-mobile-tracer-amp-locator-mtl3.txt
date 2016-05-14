@@ -1,0 +1,108 @@
+GSM Mobile Tracer & Locator
+GSM-MTL3
+
+CONFIDENTIAL
+
+1
+
+GSM Mobile Tracer & Locator - GSM-MTL3
+Description
+The GSM-MTL3 enables reception of IMSI and IMEI from mobile phones within its reception
+area. The device is applicable to all GSM networks of the world.
+Additionally, in connection with the Mobile Finder GSM-MF, the GSM-MTL3 version
+provides pinpoint localization of mobile phones.
+Interferences with public networks are generally avoided through complete implementation
+of the GSM protocol and a specific processing.
+A preceding automatic network analysis sets up ideal adjustment of the system and, thus,
+ensures uncomplicated operation of the GSM-MTL3.
+By means of an optional Portable Analyzer GSM-PA (PDA with Bluetooth measuring mobile
+phone), the concealed remote analysis is also possible in the near of target mobile phone.
+Thus, the time-consuming manual analysis and adjustment of the network structure will not
+be necessary.
+According to special demands, a more extensive network analysis and manual processing of
+GSM parameters may be conducted as well.
+
+CONFIDENTIAL
+
+2
+
+Operation of GSM-MTL3 occurs through a wireless control and administration unit via HF
+transmission path (also with optional battery pack.)
+Operating modes are as follows:
+• IMEI / IMSI are read out; telephone is released into real network; another log-on to
+the GSM-MTL3 will only be possible, if LAC is changed
+• IMEI / IMSI are read out; telephone is released into real network, but cannot be back
+posted into real network, i.e. mobile phone can be locked by GSM-MTL3
+• GSM-MTL3 holds onto a certain mobile phone; communication is prevented on
+purpose; this operation remains unperceivable for mobile phone
+• GSM-MTL3 holds onto a certain mobile phone; after establishing silent call,
+localization can be carried out by means of the GSM-MF
+Collected data will be stored in a SQL data base within the control and administration unit.
+The data can be analyzed offline and exported to other applications.
+Technical Data
+Frequency range:
+
+Downlink: GSM900
+GSM1800
+Uplink:
+
+Output power:
+Input sensitivity:
+Mobile – power
+control:
+Measurement
+reading:
+Power supply:
+Connections:
+Remote control:
+
+925 MHz – 980 MHz
+1805 MHz – 1880 MHz
+optional GSM 850 / 1900
+MHz
+GSM900
+880 MHz – 915 MHz
+GSM1800
+1710 MHz – 1785 MHz
+optional GSM 850 / 1900
+MHz
+10 mW – 3 W (other power ranges on request)
+ca. –90 dBm
+GSM900/850
+3 mW – 2 W
+GSM1800/1900
+1 mW – 1 W
+RXLEV, RXQUAL (mobile phone)
+RX level (GSM-MT(L)3)
+12 V DC (230 V AC with external adapter)
+4x SMA socket, 1x 12VDC socket
+HF transmission path 433MHz / 150 mW
+
+Scope of Delivery:
+
+- Pilot suitcase with GSM-MTL3 and 2x dual band patch antennae
+- Control and administration unit
+- HF radio module with USB connection
+- 230 V AC/12 V DC adapter
+- GSM-MF Mobile Finder
+- Software
+- User’s manual
+
+Options:
+
+- GSM-PA Portable Analyzer (Model No. 580 200 0009)
+- GSM-MF Mobile Finder (Model No. 580 200 0008)
+- GSM-PNF (Model No. 580 200 0010)
+- GSM-NA (Model No. 580 200 0011)
+- battery pack (rechargeable)
+- External antennae (see catalogue, product line 160)
+
+CONFIDENTIAL
+
+3
+
+CONFIDENTIAL
+
+4
+
+

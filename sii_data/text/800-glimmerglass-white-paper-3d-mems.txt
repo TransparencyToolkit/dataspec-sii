@@ -1,0 +1,476 @@
+Cost-effective method of manufacturing a 3D MEMS
+optical switch
+Emily Carr, Ping Zhang, Doug Keebaugh, Kelvin Chau
+Glimmerglass Networks, 26142 Eden Landing Rd, Hayward, CA 94545
+ABSTRACT
+The demand for micro-electro-mechanical system (MEMS) optical switches has been steadily increased due to the rapid
+growth of data and video transport networks. All-optical switching eliminates the need for optical-electrical conversion
+offering the ability to switch optical signals transparently: independent of data rates, formats and wavelength. It also
+provides network operators much needed automation capabilities to create, monitor and protect optical light paths. To
+further accelerate the market penetration, it is necessary to identify a path to reduce the manufacturing cost significantly
+as well as enhance the overall system performance, uniformity and reliability. Currently, most MEMS optical switches
+are assembled through die level flip-chip bonding with either epoxies or solder bumps. This is due to the alignment
+accuracy requirements of the switch assembly, defect matching of individual die, and cost of the individual components.
+In this paper, a wafer level assembly approach is reported based on silicon fusion bonding which aims to reduce the
+packaging time, defect count and cost through volume production. This approach is successfully demonstrated by the
+integration of two 6-inch wafers: a mirror array wafer and a "snap-guard" wafer, which provides a mechanical structure
+on top of the micromirror to prevent electrostatic snap-down. The direct silicon-to-silicon bond eliminates the CTEmismatch and stress issues caused by non-silicon bonding agents. Results from a completed integrated switch assembly
+will be presented, which demonstrates the reliability and uniformity of some key parameters of this MEMS optical
+switch.
+Keywords: Optical switching, photonic switch, Optical Cross-Connect (OXC), MEMS, MOEMS, fusion bonding,
+electrostatic operation
+
+1. INTRODUCTION
+MEMS optical switch systems based on beam steering mirrors have been explored by many researchers1-5. These
+switches allow many optical channels to be switched in a relatively small amount of space, utilizing micromirrors to
+switch or reflect an optical signal from one fiber to another dependent on the relative angle of the micromirror, as shown
+in Fig. 1.
+Input fiber
+
+Mirror
+Lens
+Beam Waist
+Output fiber
+
+Fig. 1 Simple fiber-to-fiber relay system5.
+
+The demand for such micro-electro-mechanical system (MEMS) optical switches has been steadily increased due to the
+many benefits6 for all-optical applications and the proliferation of fiber optic technology into various markets7-10. The
+use of fiber optics to relay signals over long distances is widespread. Communications, computing, and fiber sensing
+
+Micromachining and Microfabrication Process Technology XIV, edited by Mary-Ann Maher,
+Jung-Chih Chiao, Paul J. Resnick, Proceedings of SPIE Vol. 7204, 720402 · © 2009 SPIE
+CCC code: 0277-786X/09/$18 · doi: 10.1117/12.810065
+Proc. of SPIE Vol. 7204 720402-1
+
+systems need to route and switch data signals between specified destinations. MEMS optical switches serve a central
+function in all of these fiber networks. All-optical switching eliminates the need for optical-electrical conversion,
+offering the ability to switch optical signals transparently: independent of data rates, formats, wavelengths and protocols
+as well as services. It has already been utilized to create, monitor and protect optical light paths in various
+industries. Examples of current roles of optical switching include the management of secure physical layer networks for
+national security, sensor monitoring for transportation infrastructure, automation of telecommunication central office and
+equipment protection in Internet peering exchanges. As a basic building block for many optical fiber applications, the
+MEMS optical switch opens up significant market opportunities.
+As carriers continue to deploy Fiber to the X (FTTX) technologies and extend the reach of their optical infrastructure,
+they encounter the challenge of managing literally thousands of fiber interfaces in a single location. These interfaces are
+typically managed manually via a bulky patch panel or optical distribution frame (ODF). This manual work is costly,
+labor-intensive and increases opportunities for human errors. Features of interest now include automatic provisioning,
+remote configurability and reduced power and space. MEMS optical switches provide operators much needed
+automation capabilities to create, monitor and protect optical light paths, with reduced provisioning intervals and lower
+capital and operational costs.
+With the tremendous growth in wireless communications, Radio-over-fiber (RoF) technology has attracted much interest
+from many wireless/RF (radio frequency) applications, i.e., wireless LAN (WLAN) and digital TV transmission systems,
+which offers high-quality, low-distortion and point-to-point links. There are demands for cost effective RoF switches to
+enable networks providing features such as link reusability, bandwidth sharing and information broadcast/multicast.
+Traditional RF switches can only handle small portions of the total frequency band, suffer from much greater levels of
+Electromagnetic Interference (EMI) from neighboring signals, and have greater signal loss and cost. Optical switches
+can work across an extremely broad frequency range, thus one optical switch is sufficient to handle HF, UHF, VHF and
+even microwave frequencies with no EMI and better signal quality. The low loss nature of fiber also allows antennas to
+be located much longer distances from receivers, with great reductions in size, weight and cost when compared to
+distribution copper cabling.
+The market for fiber sensors is also growing. Fiber optic sensors have many applications in automated factories, mines,
+offshore platforms, air, sea, land, and space vehicles, energy distribution system and medical patient surveillance
+systems. Some applications may require very large scale networks with hundreds of sensors. Traditionally, the
+interrogation system is a major cost burden of a fiber sensor system. By using a time-division multiplexing (TDM)
+technique, an optical switch could be used to increase the number of sensors as well as reduce the system cost in a fiber
+sensor network system that minimizes the number of expensive interrogation systems needed for a large array of optical
+sensors.
+Another application is the automation of optical components manufacturing and testing, which is critical to realize cost
+effective methods to increase the diversity of applications utilizing fiber optic technologies today. Using an optical
+switch test architecture provides benefits including increased productivity by automation, greater measurement accuracy,
+removing human errors and lower overall need for test equipment by sharing precious resources, resulting in dramatic
+cost reductions.
+While each unique application may have its own requirements, the core capability of switching light optically in a fiber
+network remains the same. By employing a MEMS based all-optical switching infrastructure, the cost, performance and
+reliability can be greatly improved. MEMS optical switches continue to expand into new applications.
+
+2. MOTIVATION
+To further accelerate the market penetration, it is necessary to identify a path to reduce the manufacturing cost
+significantly as well as enhance the overall system performance, uniformity and reliability. Currently, optical MEMS
+switch modules are assembled through die level flip-chip bonding with either epoxies or solder bumps. To assemble
+such a multi-chip stack module, the components are fabricated independently at the wafer level, diced, and then
+assembled though flip-chip bonding2-5. The obvious advantages of this assembly approach are to reduce the complexity
+of manufacturing of each component and optimize the individual fabrication processes to achieve good wafer yield, as
+
+Proc. of SPIE Vol. 7204 720402-2
+
+well as being able to match die defects to allow the maximum yield. The trade-offs are that both handling and
+assembling of discrete components are extremely time consuming and labor intensive.
+As the applications and volume of MEMS optical switches increase, it is important to reduce the production time cycle
+and overall assembly cost. Major economic savings are possible if assembly can be done at the wafer level. Wafer level
+packaging (WLP)11 has been adopted in the IC12 and MEMS13 industries to meet the market requirements for reduction
+in both size and cost in recent years. Wafer bonding is a major contributor in reducing the manufacturing costs of the
+final package. The wafer level capping of fragile microstructures such as accelerometers, gyroscopes and pressure
+sensors, for protection and sealing purposes is quickly displacing chip-scale packages especially for novel consumer
+MEMS applications. The development of deep reactive ion etching (DRIE) in combination with wafer bonding also
+forms a powerful micromachining tool for the fabrication of micromechanical systems14-15. With the development of
+new material and fabrication techniques, as wafer sizes go up, the processing costs per wafer remain about the same,
+resulting in a decrease in the cost per die.
+In this paper, a wafer assembly approach aiming to reduce the cost and improve manufacturability of an optical MEMS
+switch is presented. The fabrication process and test results of the completed structure are reported as well as discussions
+on improvements needed to achieve the goal of a cost effective assembly strategy.
+
+3. WAFER BONDING APPROACH
+A wafer level bonding approach is investigated, using two optimized 6-inch silicon-on-insulator (SOI) wafers, to create
+an integrated structure which serves as the key component of our MEMS switch. The cross-section view of one cell of
+this structure is shown in Fig. 2(b). Traditionally the structures in this assembly are fabricated separately then assembled
+by flip-chip bonding via epoxy joints (Fig. 2(a)). The top device in the figure, which is an array of patterned through
+wafer holes, is referred to as the Snap Guard (SG), while the bottom structure is an array of micromirrors, referred to in
+the figure as MEMS. In the proposed wafer assembly approach, the epoxy will be replaced by a joining feature on the
+SG as shown in Fig. 2(b), which stands on top of the MEMS chip to form the cavity and enables the direct bonding
+between the SG chip and the MEMS die at the wafer level. The through-hole SG wafer will be directly bonded to the
+MEMS wafer using a high-temperature fusion bond technique. One benefit of this technique is that it eliminates the
+Coefficient of Thermal Expansion (CTE) mismatch between materials with different thermal behavior which could
+potentially introduce additional stress at the joint surface of the assembly.
+Epoxy
+
+SG
+
+MEMS
+(a)
+
+(b)
+
+Fig. 2. Cross-section view of the structure assembled by (a) flip-chip bonding and (b) wafer bonding.
+
+There are a number of significant challenges in this wafer level approach. The dimensions of an individual chip on the
+wafer are approximately 20 mm x 30 mm x 0.5 mm, each consisting of 210 through-holes or mirrors of the size about 1
+mm2. The uniqueness of the geometry and relatively large open areas increase the difficulty of wafer handling during
+alignment since the processed wafer is held with vacuum in the wafer aligner that is used to perform the aligned wafer
+bond. In the die-level flip-chip assembly, the gap between the two chips is relatively insignificant and could be
+compensated by the compliance of the epoxy. In wafer level bonding, it is important to bring the two wafer surfaces in
+close contact to achieve a strong bond. An appropriate load is also required on the wafers to reduce the wafer bow and
+form a good bond. The fragility of both the SG and MEMS patterns and small contact area require the wafer bow to be
+mitigated. Wafer protection during the dicing process and cleaning are also critical in preventing breakage and
+contamination in this wafer level approach.
+
+Proc. of SPIE Vol. 7204 720402-3
+
+4. FABRICATION
+The fabrication process flow and a 3-D rendering of fabricated devices are shown in Fig. 3. This process begins with two
+separately optimized 6-inch SOI wafers. A two-step DRIE process is utilized to create the stand-off and supporting arm
+on the SG wafer device layer. Followed by the backside etch and removal of the buried oxide, the through-hole structure
+is constructed. Meanwhile, the mirror wafer is processed independently to form the mirror array pattern. After cleaning,
+the two wafers are aligned and joined by fusion bonding. The backside cavity is then opened under the mirror.
+
+(b)
+
+(d)
+Fig. 3.
+
+(a)
+
+(c)
+
+(a) Fabrication process flow and 3D rendering of fabricated devices. (b) Top view of the snap guard (SG)
+array, (c) View of MEMS array with the bonding area of the SG wafer shown and (d) Completed assembly.
+
+An infrared (IR) camera was used to investigate the wafer bonding quality. The IR images of the bonded wafers before
+and after annealing at 1100°C are shown in Fig. 4. The images reveal the voids (darker areas) between two wafers after
+initial wafer alignment and heat treatments. Due to wafer bow, the bonding between the two wafers is better in the
+center than around the edge. This agrees with the observation of voids around the edge shown in Fig. 4(a). After
+annealing, Fig. 4(b) indicates an increased bonding area with fewer voids in the center and around the edge.
+Laser dicing was used to separate the integrated wafers into individual chip stacks. Perforation lines were first created on
+the wafer surface and then the singulation was accomplished by tape expansion. This approach is ideal for fragile
+structures since it reduces both the risk of generating particles and mechanical stress compared to the conventional
+method of using a dicing saw. After cleaning, the chips were metalized on both sides. The integrated structure of the SG
+and the MEMS is shown in Fig. 5. Metal coating is an important step to the success of fabricating an optical switch.
+Coating stress could induce an unwanted curvature in individual micromirrors at the temperature range of applications,
+negatively affecting the optical quality and switch operation. In the flip-chip bonding approach, the metallization
+process is optimized on the MEMS chip, which is independent of the SG. While in the bonded wafers, the SG structure
+could create a shadowing effect on the hinges of the MEMS, resulting in a non-uniform metal coating and undesirable
+mechanical effects that change the functional characteristics of the optical switch.
+
+Proc. of SPIE Vol. 7204 720402-4
+
+(b)
+
+(a)
+
+Fig . 4. IR images of the bonded wafers. (a) Before anneal. (b) After anneal.
+
+Fig. 5. SEM images of completed integrated snap guard and MEMS assembly from two different angles.
+
+5. TEST RESULTS
+The integration of two 6-inch wafers, a mirror array wafer and a "snap-guard" wafer, had been successfully fabricated as
+shown in Fig. 5. The next step is to verify its functional performance in comparison with the current approach. To
+complete these tests, an optical switch module was built with this integrated structure, as a complete replacement to the
+original two parts and then bonded to the electrical structure using the current assembly process5. The final structure
+forms a parallel plate capacitor to which voltages were applied to achieve the mirror tilting and switching requirements.
+After the optical switch module was created, tests were performed to ensure functionality and uniformity of each MEMS
+device. A customized test stand was used to measure mirror rotation angles in both axes (up to 10°) with 0.02°of angular
+displacement resolution. The natural resonance frequencies of each device in both axes were measured as well as
+operational resonance frequencies under bias. The methodology of these characterizations had been described in
+previous work5,16.
+
+Proc. of SPIE Vol. 7204 720402-5
+
+2.5
+Outer Hinge
+Inner Hinge
+
+2
+1.5
+
+Probability
+
+1
+0.5
+0
+-0.5475
+
+480
+
+485
+
+490
+
+495
+
+500
+
+-1
+-1.5
+-2
+-2.5
+
+Frequency (Hz)
+
+Fig. 6. Natural frequency results of the inner and outer hinges for each device in the array of the integrated device. The
+vertical axis is in units of standard deviations.
+
+The natural frequencies of two orthogonal sets of mirror hinges were measured. The results of all the mirrors of this
+module are shown in Fig. 6. The average natural frequency of the inner axis is 487.0 Hz and the outer axis is 487.8 Hz.
+All of the functional devices of this array fell within the (average ± 2.5 ) probability range. According to our production
+experience, the standard deviation shown with this device (inner frequency: =5.5 Hz and outer frequency: =5.2 Hz)
+often leads to good performance of the entire module.
+The effects of metal coatings on the mechanical properties of the silicon were evaluated with curvature tests and the
+spectrum analysis. Curvature tests were performed prior to the epoxy bonding steps and then after heat treatment at
+120°C. The change in average curvature (1/m) that was observed is consistent with MEMS devices assembled with only
+flip-chip bonding. By sweeping the frequency of the drive voltage over a selected range, 150 to 1700 Hz, as required by
+the servo system at higher frequencies, the mechanical spectrum17 was analyzed and compared to the existing flip-chip
+design in the mechanical domain. The results from both designs are shown in Fig. 7. Except for a minor shift in resonant
+frequency, the general characteristics are almost identical. We conclude that the new design does not impact the
+functional performance. Reflectivity measurements were also performed on the integrated device and were comparable
+to our flip-chip bonded die. The metal coating process of the integrated die is equivalent to that of our standard flip-chip
+bonding die and will perform with the same degree of reliability as our current flip-chip bonded assembly.
+10
+
+Integration Die
+Integration Die
+Die Bonded
+Chip
+Flip-Chip
+Bonded
+Die Bonded
+Chip Die
+1
+Amplitude
+
+150
+
+350
+
+550
+
+750
+
+950
+
+1150
+
+1350
+
+1550
+
+0.1
+
+0.01
+
+0.001
+Frequency (Hz)
+
+Fig. 7. Inner hinge frequency response of the integration die and a production flip-chip bonded die.
+
+Proc. of SPIE Vol. 7204 720402-6
+
+Evaluation of mirror rotation angle is accomplished by tilting the mirrors along a series of radial paths starting in one
+direction and then increasing until a full 360° had been sampled. An example of the results of this test is shown in Fig.
+8. Each path is terminated when the device reaches the maximum tilt, after which the device returns to the 0° tilt state.
+All of the devices that were tested showed similar characteristics to those shown in Fig. 8.
+225
+
+5
+
+175
+
+4
+3
+
+x-axis rotation (deg)
+
+125
+
+Vx (V)
+
+75
+25
+-25
+-75
+-125
+
+1
+0
+-1
+-2
+-3
+
+-175
+
+-4
+
+-225
+-225
+
+2
+
+-175
+
+-125
+
+-75
+
+-25
+
+25
+
+75
+
+125
+
+175
+
+-5
+
+225
+
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+Vy (V)
+
+y-axis rotation (deg)
+
+(a)
+
+(b)
+
+3
+
+4
+
+5
+
+Fig. 8. Measurement of the deflection characteristics of a single mirror in the array. (a) is the series of differential
+voltage ranges applied to generate deflections. (b) The plot of mirror tilt angle under applied bias along 24 axes.
+
+The operational frequency result is shown in Fig. 9, which is very critical to the control system16. The results show that
+during normal operation the springs suffer from an electrostatic spring softening phenomena as well as an angular
+dependence to frequency. This result is similar to results obtained with a flip-chip bonded die device with the same
+natural frequency response.
+
+-4
+
+-2
+
+0
+
+Beta (Degrees)
+Fig. 9. Operational frequency response (Hz) of a device in the array.
+
+Proc. of SPIE Vol. 7204 720402-7
+
+6. CONCLUSION
+In summary, a wafer assembly approach of manufacturing a 3-D MEMS optical switch has been investigated. The
+fabrication process has been successfully demonstrated and module performance has been evaluated. The integrated
+structure indicates very good uniformity in mechanical and electrical characterizations. The reliability of the alignment
+of the device is improved at the wafer scale compared to the current flip-chip bonding technique as human error is
+removed. During fabrication, we noticed that wafer bow is a dominant factor to determine the bonding quality and has a
+great impact on the final yield. Our future work includes further development in process to overcome wafer bow,
+improve the yield and study the long term reliability of the integrated device.
+
+ACKNOWLEDGEMENTS
+We acknowledge Lihua Li at MEMSCAP, Inc. for the fabrication of the arrays, IR images of the wafers as well as SEM
+pictures of the completed devices.
+
+REFERENCES
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+
+D. J. Bishop, C. R. Giles, and G. P. Austin, “The Lucent Lambda router: MEMS Technology of the Future Here
+Today,” IEEE Communications Magazine, vol. 40, pp. 75-79, 2003.
+A. Kazama, M. Horino, K. Fukuda, M. Kanamaru, T. Akashi, T. Ishikawa, T. Harada and R. Okada, “Lowinsertion-loss compact 3D-MEMS optical matrix switch with 18 input/output ports,” Tech Dig Sens Sym, vol. 21,
+pp. 323-328, 2004.
+J. Yamaguchi, T. Sakata, N. Shimoyama, H. Ishii, F. Shimokawa, and T. Yamamoto, “High-yield Fabrication
+Methods for MEMS Tilt Mirror Array for Optical Switches,” NTT Technical Review, vol. 5, No. 10, pp. 1-6, 2007.
+T. Yamamoto et al., “A three-dimensional MEMS optical switching module having 100 input and 100 output ports,”
+IEEE Photon. Technol. Lett., vol. 15, No. 10, pp. 1360–1362, Oct. 2003.
+A. Fernandez, B. P. Staker, W. E. Owens, L. P. Muray, J. P. Spallas and W. C. Banyai, “Modular MEMS Design
+and Fabrication for an 80 x 80 Transparent Optical Cross-Connect Switch,” Proc. of SPIE, vol. 5604, pp. 208-217,
+2004.
+Y. Su, H. Peng and Y. Li, “The application and analysis of MEMS optical switches,” Proc. of SPIE, vol. 6021, pp.
+780-789, 2005.
+K. C. Nguyen, “Three-dimensional MEMS optical switch for fiber optic communication applications,” Proc. Of
+SPIE, vol. 4907, pp. 31-35, 2002.
+B. Mead, “Optical Switches Link Multiple Receivers to Remote Antennas”, Microwave & RF, Aug 2006.
+M. Fabbri and P. Faccin, “Radio over Fiber Technologies and Systems: New Opportunities,”
+ICTON 2007 Conf, vol. 3, pp. 230 – 233, 2007.
+M. J. Bitting, “Optical switching for automated test systems”, IEEE AUTOTESTCON Proceedings, pp 140-151,
+2002.
+P. Garrou, D.C. Co and R.T. Park “Wafer Level Chip Scale Packaging (WL-CSP): An Overview, ” IEEE Trans on
+Advanced Packaging, vol. 23, No. 2, pp. 198-205, May 2000.
+G. Carchon, W. De Raedt, and E. Beyne, “Wafer-level packaging technology for High-Q On-chip Inductors and
+Transmission Lines, ” IEEE Trans. MTT, vol. 52, no.4, pp. 1244 – 1251, April 2004.
+A.R Mirza, “Wafer-level packaging technology for MEMS, ” IEEE ITHERM 2000 Conf, vol. 1, 119, 2000.
+C. Harendt, H-G. Graf, B. Hoemnger and E. Penteker, “Silicon fusion bonding and its characterization,” J.
+Micromech. Microeng., vol. 2, pp. 113-116, 1992.
+E. H. Klaassen, K. Petersen, J. M. Noworolski, J. Logan, N. I. Maluf, J. Brown, C. Storment, W. McCulley, and G.
+T. A. Kovacs, “Silicon fusion bonding and deep reactive ion etching: a new technology for microstructures,”
+Sensors and Actuators A (Physical), vol. 52, no.1-3, pp. 132-139, 1996.
+W. C. Dickson, B. P. Staker, G. Campbell, and W. C. Banyai, “64x64 3D-MEMS switch control system with
+robustness to MEMS resonant frequency variation and pointing drift, ” OFC2004 Technical Digest, ThQ5, 2004.
+L. A. Rocha, E. Cretu, G. de Graaf, R. F. Wolffenbuttel, “Mechanical spectrum analyzer in silicon using
+micromachined accelerometers with time-varying electrostatic feedback,” Proc. IMTC2003, the 20th IEEE Intrum.
+Meas. Techn. Conf., pp. 1197-1201, 2003.
+
+Proc. of SPIE Vol. 7204 720402-8
+
+

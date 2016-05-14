@@ -1,0 +1,182 @@
+MPAC-IP 4975
+10Gb Ethernet
+Monitoring Card
+KEY FEATURES
+
+Enables monitoring applications to connect to 10Gb optical
+Ethernet networks, with integrated hardware acceleration
+that offloads filtering and DPI functions from the host.
+
+OVERVIEW
+
+• 1 x 10Gb Ethernet monitoring input
+• Up to 16,000 onboard n-tuple ﬁlters
+– IP address, TCP port, UDP port
+• Libpcab BPF signature ﬁlters on board
+• Programable text parsing
+• Metadata for protocol layer identiﬁcation
+• 3 x 1Gb Ethernet outputs for packet
+forwarding
+• Half-length PCIe, 4-lane
+
+KEY BENEFITS
+• Usable with any PCIe compatible COTS
+hardware platform
+• Monitoring of line rate 10Gb Ethernet
+• Option to reduce host CPU cost by direct
+forwarding filtered traffic over GigE
+• Integrated text ﬁltering and packet
+classification accelerates subsequent DPI
+stages on host
+• BPF ﬁlters programmable from
+standard libpcab
+
+APPLICATIONS
+
+1Gb Ethernet
+output
+10Gb Ethernet
+input
+
+The MPAC-IP 4975 Ethernet Monitoring Card is a network access, filtering and
+monitoring board for high rate Ethernet data networks. The board provides a 10Gb
+Ethernet monitoring input, three Gigabit Ethernet ports for the direct delivery of
+filtered data and FPGA based layer 2-4 packet filtering.
+Integrated filtering identifies each individual flow (n-tuple filtering) and discards unwanted
+packets. Selected flows can be further filtered with libpcap based Berkley Packet Filters (BPF).
+Classification functions provide the next stage of Deep Packet Inspection (DPI) with instant
+access to protocol layer boundaries and variable position text, accelerating the DPI function
+and off-loading processing from the host.
+Filtered frames being forwarded can either be copied directly to host memory or forwarded
+to a remote server via the onboard dual Gigabit Ethernet ports. The line-speed filtering makes
+the IPAC card suitable for real-time or post analysis packet processing applications.
+Direct forwarding of filtered packets over Ethernet removes the need for host processing of
+some (or even all) data. For example a voice over IP monitoring product may use the card to
+deliver signalling protocols (such as SIP or H.323) over the PCIe bus, while delivering voice
+content (such as RTP) directly over Ethernet to a recorder or playback system.
+
+• IP monitoring
+• Grooming of monitored trafﬁc
+• Lawful intercept
+• Quality of Service monitoring
+
+MPAC-IP 4975
+10Gb
+Ethernet
+
+n-tuple
+Filter
+
+Load
+Balancing
+
+Text
+Filter
+
+Classification
+Metadata
+
+Filtered
+Packet
+Delivery
+Host PCIe
+bus
+3 x 1Gb
+Ethernet
+
+MPAC-IP 4975
+10Gb Ethernet
+Monitoring Card
+TECHNICAL SPECIFICATIONS
+10Gb Monitoring interface (input)
+• 10GBASE-T IEEE 802.3ae Ethernet (LAN)
+• 10GBASE-W (WAN), interoperates with OC-192/STM-64 SDH/SONET
+using a lightweight SDH/SONET frame running at 9.953 Gbit/s
+• 10GBASE-LR 1310nm optical
+• SFP connector options
+– Metallic IEC 60603-7 8P8C (RJ45)
+– Optical LC-1310nm, -22dBm
+Range of delivery options for monitored data
+Options for delivery of monitored data:
+1 – IP monitored on 10Gb Ethernet delivered over PCIe bus
+2 – IP monitored on 10Gb Ethernet delivered over 1Gb Ethernet
+Optional GbE content delivery (output)
+• 3 x 1Gb Ethernet for delivery of ﬁltered content
+– IEEE 802.3ab 1000BASE-T
+– SFP with IEC 60603-7 8P8C (RJ45) connector
+– 100m transmission over unshielded twisted-pair (UTP)
+Category 5 Cable
+Host interface
+• 4-lane PCIe bus
+
+Physical and environmental
+• Half-length, full-height PCIe
+• 10 watt power consumption
+• Operating temperature: 0° to 55°C (storage: -20° to 70°C)
+• Operating humidity: 8% to 90%
+Up to 16,000 conﬁgurable n-tuple ﬁlters
+• IP address (source, destination)
+• TCP/UDP port (source, destination)
+• Protocol type ﬁeld
+Text based parsing
+• Pre-deﬁned or user programmable
+• Identiﬁes ﬁelds in text based protocols
+Protocol classification
+• Identiﬁes protocol layer boundaries
+• Identiﬁes variable position/length text ﬁelds
+Packet + N delivery
+• Delivers identiﬁed packet (matching ﬁltering rules)
+plus the next N in the same flow (n-tuple match)
+Berkley Packet Filters (BPF)
+• Supported through standard libpcap access
+
+Operating system
+• Telesoft software provided for Linux
+
+Load balancing
+• N-way (32-bit hash value)
+
+www.telesoft-technologies.com
+Headquarters:
+
+Americas:
+
+India:
+
+Telesoft Technologies Ltd
+Observatory House
+Blandford Dorset
+DT11 9LQ UK
+
+Telesoft Technologies Inc
+Suite 601
+4340 Georgetown Square
+Atlanta GA 30338 USA
+
+Telesoft Technologies Ltd
+(Branch Office) Building FC-24
+Sector 16A Noida 201301
+Uttar Pradesh India
+
+T. +44 (0)1258 480880
+F. +44 (0)1258 486598
+E. sales@telesoft-technologies.com
+
+T. +1 770 454 6001
+F. +1 770 452 0130
+E. salesusa@telesoft-technologies.com
+
+T. +91 120 466 0300
+F. +91 120 466 0301
+E. salesindia@telesoft-technologies.com
+
+DX-OEM-GEN-MK-DS-33558-02
+
+Telesoft Technologies and the Telesoft Technologies
+logo design are trademarks or registered trademarks
+of Telesoft Technologies Ltd or its subsidiaries. All other
+brand and product names may be trademarks of their
+respective companies. Copyright ©2011 by Telesoft
+Technologies Ltd. All rights reserved.
+
+

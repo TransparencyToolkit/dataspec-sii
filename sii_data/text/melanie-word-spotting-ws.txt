@@ -1,0 +1,91 @@
+MELANIE
+Word Spotting
+WS
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+MELANIE - Word Spotting, WS
+Functionality
+Speech
+signals
+are
+often
+recorded with pauses and noise
+within the speech signal. This
+algorithm is able to detect those
+parts of a speech signal that contain speech on larger segments of audio signals.
+The results are very useful to reduce the amount of data that have to be stored
+and anaylsed.
+Speech signals can be analysed according to the language prevailing in the speech.
+For each speech signal, an overall score and
+probability is estimated. In addition, these
+values can also be estimated for any time
+interval.
+
+Training of Models
+Goal
+
+Training is performed in order to optimise the models on
+the languages and channel of the application. Training
+
+Data
+
+The training data must be labeled according to either
+speech/nonspeech or with the prevailing language. The
+data must be representative and as similar as possible to
+the data of the application. A minimum of one hour of data
+is required for each language.
+
+Trained Models
+
+In case of insufficient data, trained models for a set of
+languages can be provided to use the system from
+scratch.
+
+Technical Data
+OperatingSystem
+Processing Time
+
+Recognition Rate
+
+Available on Windows XP and Linux
+• On a P4; 3GHz, 1GB RAM computer
+• Classifying 10 different languages
+• 1/15 of real time; i.e. a signal of 15 minutes length is
+processed in one minute
+The recognition rate depends on the number of languages,
+on the similarities and charactistics of the languages, and
+on the speech quality.
+
+Products
+Mel-Pr-SQ-site
+Mel-Pr-SQ-PC
+Mel-Tr-SQ
+Mel-LM-SQ
+
+Production environment for MELANIE SQ (site license)
+Production environment for MELANIE SQ (PC license)
+Training environment for MELANIE SQ
+Trained language models for classification with SQ
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Consequently, this means that a recording with a signal length of 20
+minutes can be fully classified in one minute.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+

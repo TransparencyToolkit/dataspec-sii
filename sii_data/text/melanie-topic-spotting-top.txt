@@ -1,0 +1,82 @@
+MELANIE
+Topic Spotting
+TOP
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+MELANIE - Topic Spotting, TOP
+Production Module for fast and reliable spotting of the topic/category prevailing in
+speech signals. Training module for topic spotting parameters.
+
+Functionality
+Speech signals can be analysed according to
+the topic/category prevailing in the speech. For
+each speech signal, an overall score and
+probability is estimated. In addition, these
+values can also be estimated for any time
+interval.
+
+Training of Models
+Goal
+Training Data
+
+Training is performed in order to optimise the models
+on the topic and channel of the application.
+The training data must be labeled according to the
+topic in the speech signal. The data must be
+representative and as similar as possible to the data
+of the application. A minimum of one hour of data is
+required for each language.
+
+Technical Data
+OperatingSystem
+
+Available on Windows XP and Linux
+
+Processing Time
+
+• On a P4; 3GHz, 1GB RAM computer
+• Classifying 3 different classes/ topics
+• 1/14 of real time; i.e. a signal of 14 minutes length is
+processed in one minute
+
+Recognition Rate
+
+The recognition rate depends on the number of
+topics, on the similarities and the overlap among
+topics, and on the speech quality. For example, when
+distinguishing 2 topics in radio quality, an accuracy of
+87 % can be obtained.
+
+Products
+Mel-Pr-TOP-site
+Mel-Pr-TOP-PC
+Mel-Tr-TOP
+
+Production environment for MELANIE TOP (site
+license)
+Production environment for MELANIE TOP (PC
+license)
+Training environment for MELANIE TOP
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Consequently, this means that a recording with a signal length of 20
+minutes can be fully classified in one minute.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+

@@ -1,0 +1,362 @@
+Voice of the Future
+
+Speech
+Technology
+Center
+
+Developers’ Solutions
+
+NOISE CANCELLATION
+SPEAKER VERIFICATION
+VOICE COMMAND RECOGNITION
+
+Speech Technology Center Limited (STC) is active in the following areas: speech processing and enhancement, voice
+recognition, speaker verification, noise filtering, audio signal analysis, logging, monitoring, music and keyword searching in
+a sound stream.
+STC develops, manufactures and markets software and hardware solutions, standalone devices, DSP boards and software
+toolkits.
+Founded in 1990, STC has an excellent reputation in the high-tech market, designing algorithms for high performance
+speech processing applications. STC provides end-user solutions as well as SDK for PC and DSP platforms.
+STC’s scientific team focuses on developing unique know-how in the field of speech/signal technology. All STC products
+are based on proprietary patented technologies.
+The software libraries and DSP solutions developed by Speech Technology Center are mostly used in such industries as:
+
+
+
+
+
+
+
+Telecommunications
+Business software applications
+Multimedia software
+Home appliances
+Mobile accessories
+Medical equipment
+
+Noise Cancellation
+
+1
+
+Voice Command Recognition
+
+3
+
+Speaker Verification
+
+4
+
+Music Spotting
+
+5
+
+All the software and hardware modules are offered by STC for
+licensing. STC software and hardware modules are easily integrated
+into customer’s products. All software development kits include:
+32 bit DLL
+API
+ User’s manual
+ Demo software with the code examples.
+
+
+
+All the hardware modules are based either on TI C54xx DSP,
+or hyperstone E1-16, 32.
+Customers can easily combine STC products for a complete solution.
+Customization, engineering and consultancy services are also
+available. Technical support during the development stage is provided.
+
+N O I S E C A N C E L L AT I O N
+Denoiser Clear Voice SDK (Software Development Kit)
+Denoiser Clear Voice SDK is multifunctional, real-time, noise suppression software designed to remove noise and
+improve speech clarity.
+ Voice recognition: Substantial reduction in noise and improvement of voice quality.
+ Teleconferencing solutions and IP telephony: Enhanced speech quality and superior compression on VoIP.
+ Sound processing software for Broadcasting and music restoration: Improvement of sound quality in
+poor speech and music recordings.
+Adaptively removes background noise in real-time.
+Adjustable noise filtering parameters.
+ Overall Signal-Noise-Ratio (SNR) improvement: up to 30dB.
+ Tonal noise suppression: up to 50dB.
+ Broadband noise suppression: up to 15dB.
+ Effective against the following noise sources: AC, office equipment and fans, industrial and vehicle engines,
+street traffic, wind, slowly varying music, power supply hum, etc..
+Denoiser is also available as an ActiveX control: this provides easier and rapid integration into any application,
+includes examples of web application.
+
+
+
+Denoiser DSP board
+Hardware module with automatic speech enhancement for:
+ Intercoms, mobile phones, hands-free kits, speakerphones, two-way radios.
+ Telephony equipment: answering machines.
+ Sound processing equipment for broadcasting.
+ Voice recognition devices and dictation equipment.
+ Sound recorders.
+ Call-center equipment.
+ Any communication device operating in noisy environments such as
+aircraft cabins, construction sites, factories.
+
+
+
+
+
+
+
+
+Real-time signal processing, high speed and stability of algorithm
+performance.
+High quality of processed speech.
+Commonly used interfaces supported.
+Available for TI TMS C54 and Hyperstone E1-16,32.
+Low cost of integration and further production.
+Small physical size 50mm x 40mm; customizable upon request.
+
+TI eXpressDSP compliant Denoiser algorithm is available for licensing.
+
+1
+
+N O I S E C A N C E L L AT I O N
+Declicker Clear Voice SDK
+Automatic real-time removal of pulse-like interference (clicks, pops,
+cracks, etc.) for:
+
+
+
+
+
+
+
+
+
+
+
+
+Telecommunications: Speech quality improvement for
+telephone, satellite and radio channels.
+Broadcasting: Quality enhancement for radio transmissions
+and audio data.
+Music restoration and CD mastering: Audio signal
+improvement for vinyl LPs and DAT recordings.
+Multimedia software: Enhanced sound quality.
+Effective against pulse-like and spike-like distortions of LP
+recordings, digital clicks and static discharge cracks of DAT
+masters, impulse noise in communication channels.
+Adjustable noise filtering parameters.
+
+Denoiser-by-Reference Clear Voice SDK
+Significant improvement in music and sound recordings’ quality, using noise pattern
+reference for:
+
+
+
+
+
+
+
+Sound processing software for Broadcasting and Music restoration: Accurate
+and gentle enhancement of sound quality for poor speech and music recordings,
+particularly effective on old recordings.
+Multimedia software: Music and sound quality improvement.
+Adjustable noise filtering parameters.
+Effective against various distortions found on most old recording media.
+
+Sound Stretcher SDK - Variable Speed Speech Playback
+Sound Stretcher SDK allows playback of speech in variable fast or slow speed without
+distorting voice pitch, so that speech still sounds natural. This gives the listener a chance
+to alter the speed and have complete understanding of the content for analysis purposes.
+It is an algorithm of real time speech modification for:
+
+
+
+
+
+
+
+
+
+
+
+2
+
+Multimedia and Broadcasting: More efficient use of advertisement airtime.
+Transcription of speech: The possibility to slow down speech rate and still hear
+coherent sentences enables the user to perform the task quicker and easier.
+Educational software for studying foreign languages: Better understanding of foreign
+languages encouraging the learning process.
+Up to 3 times faster or slower speech playback speed.
+Speed can be changed without voice pitch distortions.
+Language-independent. Sound Stretcher can be used for any language regardless of
+the user’s accent.
+Smooth acceleration/slow-down rate adjustment.
+
+VOICE Voice
+COMMAND
+RECOGNITION
+Command
+Recognition
+VoiceCom SDK
+Voice command control for:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Education: Using voice commands makes the
+learning process more enjoyable for both children
+and adults.
+Notebooks & PDAs: Giving voice commands is
+easier than using a cumbersome mouse and a
+small keyboard.
+Industrial applications: Where a person’s hands
+need to be free for other tasks.
+Applications for people with physical difficulties.
+Language-independent.
+Few requirements for microphone quality and
+placement location.
+Low resource consumption: The technology can
+be embedded in any resource-limited device
+(mobile equipment, PDAs, etc).
+Noise robust: Voice recognition is combined with
+Denoiser Clear Voice, powerful noise filtering
+technology, in order to get the best recognition
+performance in noisy environments.
+
+Voice Navigator: Voice Control of PC Programs
+Voice Navigator is a fun application based on VoiceCom software library
+that helps you control your computer using the power of your own
+voice. Use your PC “hands free” without having to use your keyboard
+or mouse for up to 200 commands. Voice Navigator can be used by
+people of all ages in a variety of situations.
+You can:
+ Easily open any Windows application, file, and folders purely by
+voice commands.
+ Link quickly by voice to your favorite web pages.
+ “Press” frequently used hot keys by voice.
+ Noise Robust: Voice Navigator gives good voice recognition even
+in a noisy environment.
+ Not dependent on any particular language or specific words.
+
+DiVo – Voice command recognition
+DSP board
+Voice command recognition on a single DSP board to
+control by voice applications such as:
+Industrial equipment: Voice control raises the
+efficiency of machines operation.
+Home appliances: Remote control by voice
+ Car equipment: Drive safely talking to navigation
+and other on-board systems.
+ Electronic toys: kids will enjoy speaking to their
+favorite toys.
+Car Hands-free kits with such features as:
+ Fully voice-controlled interface with voice responses.
+ Voice dialing.
+ Voice phonebook.
+ Powerful filtering of car noise.
+ Far-end echo cancellation, full duplex.
+DiVo is available for TI TMS C54xx, Hyperstone E116, 32 platforms.
+
+3
+
+S P E A K E R V E R I F I C AT I O N
+
+Voice Key SDK
+Biometric secure speaker verification/authentication
+technology. Voice Key verifies a user by a voice
+password. Cost effective access restriction for:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+
+Web-based applications: Small size of the engine
+allows much more reliable client side verification.
+PDAs: Faster and easier to input a voice password
+than type it on the small inconvenient keyboard.
+On-line information services: User doesn’t need
+to remember long alphabetic passwords, using a
+natural language pass phrase instead.
+
+Voice Key SDK can be easily combined with other security
+technologies, including biometrics.
+Only an authorized person says the password in exactly the
+right way.
+Voice password cannot be stolen or imitated by a possible intruder.
+Language-independent.
+Safe, reliable and secure voice verification technology with Minimal False Acceptance Rate FAR=0.01 %; Minimal False Rejection Rate FRR= 0.28%; Equal Error Rate EER=1.2%.
+Very noise robust. STC speaker verification technology is based
+on voice features different from those used by its competitors.
+
+M U S I Voice
+C S P Command
+OTTING
+
+Recognition
+
+Music Spotting SDK
+Real-time identifying of music samples in a
+sound stream for:
+ Advertising Agencies: Checking how many
+times and when exactly a promotion jingle
+plays back on a number of broadcasting
+channels.
+ Broadcasting & Music Copyright
+Organizations: Checking how many times
+and when exactly a music piece plays back
+on a number of broadcasting channels.
+
+
+
+
+
+
+
+
+
+Music Spotting creates music sample templates, puts them into a database and then
+searches the inputted sound stream and logs the occurrence of the same music
+samples.
+Real-time processing.
+Low resource consumption. Can be used on common personal computers (PC).
+Easy adaptation to any specific application. Depending on the application, speed and
+false acceptance/false rejection balance can be adjusted.
+High accuracy and recognition stability with different kinds of music and jingles.
+
+5
+
+Speech Technology Center
+www.speechpro.com
+Headquarters: 4 Krasutskogo, St.Petersburg 196084, Russia
+Phone: +7 812 3310665, +7 812 3258848, Fax: +7 812 3279297
+e-mail: info@speechpro.com
+European office: Speech Tech GmbH
+Saargemünder str. 211, Saarbrücken 66119, Germany
+Phone: +49 681 9655709, Voicemail/fax: +49 69 25577077
+e-mail: info@speech-tek.com
+www.speech-tek.com
+
+

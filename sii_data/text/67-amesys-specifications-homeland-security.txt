@@ -1,0 +1,2260 @@
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Pages: 62
+11 November 2006
+
+Homeland Security Program
+Technical Specification
+
+Public Safety Systems
+And
+Passport Network
+Of
+The Great Libyan Arab Jamahiriya
+
+1
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+TABLE OF CONTENT
+The table of contents is empty because none of the paragraph styles selected in the Document Inspector are
+used in the document.
+
+2
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+1. OBJECT OF THIS DOCUMENT
+This document is our technical specificationl for your homeland security project. It covers all aspects
+discussed between the various teams of experts from your organisation and our company.
+More specifically, it addresses:
+Communication and data protection (mobile and fixed lines, e-mail, computer exchanges, computer
+protection)
+Communication and data interception (same perimeter as above,…)
+Localisation of GSM, activation
+Protection of VIP against remote controlled aggression
+2. APPLICABLE DOCUMENTS AND REFERENCES
+2.1.APPLICABLE DOCUMENT
+None
+2.2.RÉFÉRENCE
+Our visit in Libya on the 10th and the 11th of May and your visit in i2e.
+3. TERMINOLOGY
+Terme
+
+Définition
+
+ECC
+
+Elliptical Curve Cryptography
+
+VPN
+
+Virtual Private Network
+
+LAN
+
+Local Area Network
+
+PSTN
+
+Public Switching Telephone Network
+
+3
+
+..
+12e
+
+t t , .... ~~ii" .. j,
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+4. PRESENIAJION OF 12E TECIJNOLOGIES
+i2e Technologies belongs to the CRESCENDO group briefly presented below.
+
+4.1.CRESCENDO INDUSTRIES
+MANAGEMENT '
+
+49%
+
+..._
+
+....
+
+PRIVATE EQUITY
+
+~-----··-~-'-
+
+~
+_
+
+.c ~
+
+CRESCENDO
+
+INDUSTRIES
+
+·~::::::=::==::::;:::=::::::::=""""~
+
+95%
+
+~·
+
+E~EXO
+
+100%
+
+~·
+i2e
+
+100%
+
+(•
+ARTWARE
+CON50.. EN KliU1ll TKHNClt.OOD
+
+TECHNO L OGIES
+
+CRESCENDO Group:
+•
+600 employees
+•
+More than 450 engineers
+•
+3 Offers: Seivice, Engineering, Products
+
+4.2.PRESENTATION OF THE 12E TECHNOLOGIES COMPANY
+
+i2e Technologies core business is to develop electric, electronic and computing solutions to satisfy specific
+client's needs.
+
+4
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+i2e Technologies is organized in 4 Business units :
+♦ Defence, Telecom and Aerospace
+♦ Transportation and Supply Chain,
+♦ Energy et Industry,
+♦
+Network and Security.
+Our mission is to thouroughly harness all types of technologies and combine them to create custumer’s
+solutions :
+♦ Analog and microwave frequency electonics,
+♦ High speed digital electronics,
+♦ Secure an rugged on-board technologies,
+♦ Real time data processing,
+♦ Distributed data processing : n-tier architecture, data bases,
+♦ Signal processiong
+♦ Radio communication
+♦ Process control, automation and supervision
+♦ Security software, biometry and cryptography,
+I2e mission is to deliver the best solutions to fully satisfy client objectives, I2e will is to develop also a
+culture of durable partnership with its client.
+Our strong points are:
+♦ The organisation and of an High technology company
+♦ Development and engineering capacity
+♦ The commitment, the flexibility and the reactivity of a medium size business
+♦ A heritage of high technology for more than 25 years.
+The performance and the know-how of i2e Technologies is well-known from industrials and this position
+provides an major role in outsourcing research and development as well as equipment production.
+
+5
+
+•·
+12e
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Turn oyer eyoh1tion
+70
+
+60
+50
+
+40
+
+30
+20
+10
+0
+
+2001
+
+2002
+
+2003
+
+2004
+
+2005
+
+2006
+(est.)
+
+Histocy of j2e TecJmologjes
+1979: Creation ofl2e by Mr Marcellet
+12e is specialized in COMINT
+1990: 12e is designated 4 times in the top 100
+of innovative companies
+
+70's
+
+1987: I2e received the pe1fonnance price
+1988: I2e received the price of the most
+dynamic company
+
+80's
+
+1991 : 12e settle down in a 9 hectares park in
+Aix-en-Provence
+1992: BEN and ENTEC Companies joined
+i2e
+1995: Mr Marcellet is elected as the manager
+of the year
+1996 : 12e is certified Iso 9001
+
+1997: i2e is certifiedAQAPllO
+1998: i2e acquired Digilog
+
+2003: 12e acquired Stella, specialised in the
+RFID
+2004: Crescendo took over 12e
+
+2000: i2e is certified ISO 9001
+2001 : i2e acquired the ICS Company
+
+2004: Mr Vannier became the Chief
+2005: 12e is reorganised in strategic business
+Units: Energy, Defence, Transportation and
+Security
+
+6
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+4.3. QUALITY MANAGEMENT
+4.3.1.CERTIFICATION AND AUDITS FROM CUSTOMERS
+Since December 1999, i2e Technologies is certified ISO 9001 (version 2000) by the BVQI. Its last renewal
+dates is on December 2005.
+Since September 2005, i2e Technologies is certified EN 9100 by ALCATEL ALENIA SPACE, thus I2e
+Technologies is identified in the QUALIFAS data base.
+I2e Technologies is starting the certification process ISO 14001 (Environmental Management system).
+I2e Technologies is regularly audited by its clients like the Ministry of Defence, THALES, GIAT Industries,
+RATP, COGEMA …
+4.3.2.ORGANISATION AND QUALITY DEPARTMENT (QD)
+The Organisation and quality department is made up by:
+♦ 1 Quality Director,
+♦ 1 Software Quality Manager,
+♦ 1 Hardware Quality Manager
+♦ 2 Quality controller (electronic and mechanic)
+4.3.3.PRINCIPAL MISSIONS OF THE QD
+♦
+
+♦
+
+About projects :
+o Establish the quality plan’s project in accordance with the Project Manager
+o Assure the quality supervising during the work in progress
+o Animate the pilot comities,
+About the company :
+o Manage the anomalies reports, waiver demands, conformity certificates, obsolescence, preventive
+and corrective actions processing,
+o Conducting internal audits,
+o Deal with clients satisfaction surveys,
+
+4.3.4.OPÉRATIONAL PROCESS
+Operational processes of i2e Technologies are articulated around:
+♦ Projects,
+♦ Products,
+All these process are documented and completed by indicators.
+i2e Technologies has :
+♦ A quality manual describing all the methods and rules,
+♦ Organisation document and position describing,
+♦ Quality plan on every project,
+♦ Internal procedures (Who does What and How),
+♦ Practical guides,
+♦ Quality records.
+
+7
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+PUBLIC SAFETY SYSTEMS
+
+8
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+5. PUBLIC SAFETY SYSTEMS NETWORK SECURIZATION
+
+5.1.YOUR SYSTEM, DESCRIPTION OF EXISTING ARCHITECTURE
+You will find below your existing architecture:
+
+In this network architecture, there are six remote sites and some remote users which must be linked to the
+central main system. The main system is located in Tripoli; the other sites are away from the town from 30 to
+100 kms.
+The data transmission between the sites is done by dial-up connection. The data rate is 33.6 kbits/s.
+The central site is composed of BDC and PDC servers, a BLT Backup, a RAID system, archiving servers,
+and user with PCs in the Local Area Network. All of those are linked by optical fiber. In the main central site,
+you use 3Com 3300 switches and Cisco 2600 Routers.
+All the remote sites are composed by a Compaq server and a LAN of PCs. Again, here you use 3Com 3300
+switches. In each site there are 3 to 10 PCs. The PCs are Pentium 4 running under Windows 2000 Server.
+The server of each remote site is in fact a partial replication of the central data base.
+The remote users, who want to connect to the central sites are only using their PCs. In this case, there is no
+server.
+The transfer of information is always done from the remote sites to the central system. Remote sites are
+upgrading main data base but never in the other way. For the data transmission, protocol used is standard
+TCP-IP.
+5.2.IDENTIFICATION OF SECURITY PROBLEM
+
+9
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Today, all the data transmission between the different sites is done without any encryption or protection. That
+is to say that a hacker can intercept the flow of data transmitted and access to confidential information.
+What is more, a hacker may also try to enter illegally in the LAN of remote or main sites. If he can do this,
+he will also have an easy access to the information.
+To protect you from all these threats, we will propose to you the solution described below
+5.3.OUR PROPOSED SOLUTION
+5.3.1.I2E VPN: CRYPTO-TUNNEL
+As far as remote secure network access is concerned, i2e offers 2 solutions:
+- CryptoWALL Crypto-Tunnel Clients-Server
+- CryptoWALL Crypto-Tunnel Point to Point
+Crypto-Tunnel Clients-Server establishes secure connections between a server, generally located in the
+branch office of your company, and the remote workstations, which need a link to the Local Area Network
+(LAN). This software solution has been designed to open an access to your company LAN for your coworkers from all over the world. Everyone can share all kind of information with high security.
+Crypto-Tunnel Point to Point is a software solution designed to establish an encrypted communication
+tunnel between two or more remote office. This tunnel uses existing physical network, such as Internet, and
+its purpose is to secure all data flows transmitted between different sites of the same company.
+5.3.2.COMMON FEATURES
+Strong authentication by ECC signature – Unique in the world
+Thanks to a key exchange protocol based on Elliptic Curve technology, Crypto-Tunnel increases the
+security of the authentication process.
+Elliptic Curve technology offers the most powerful cryptographic protections of nowadays for a few reasons:
+-
+
+Due to new ECC mathematical models, classical ways used to break RSA or DSA algorithms do not
+work
+
+-
+
+Computing time with elliptic curves decreases
+
+-
+
+Elliptic curve keys use less memory compared with RSA keys for the same strength of protection.
+For instance, encrypting with a 128 bits key ECC is as strength as a 1024 bits key RSA. Thus, ECC
+suits very well smart cards needs or weak memory environments
+
+10
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Compliant with European and international norms.
+Crypto-Tunnel is in accordance with European and international standards, relative to IT security which
+guarantee compatibility and upgradeability of its solutions: digital certificate in X509 V3 for authentication,
+signature with elliptic curves (ECDSA) …
+
+5.3.3.SPECIFIC FEATURES
+5.3.3.1.CRYPTOWALL CRYPTO-TUNNEL CLIENTS-SERVER
+The Crypto-Tunnel system provides secure data transmission between a local network and client
+remote workstations, wherever they are.
+Access to encrypted data running on the network will be impossible for hackers or intruders. An encrypted
+point to point link is established between branch office and mobile stations whatever transmission media is
+used: Ethernet, WIFI, Bluetooth, IRDA …
+Crypto-Tunnel acts as a firewall to prevent any kind of intrusion
+The client workstation software is integrated into Microsoft Windows kernel to control and protect all input
+and output network flows. So, during a secure communication, all network ports are closed except the
+encrypted one.
+The server software also features an intrusion detection technology. It makes your server more secure and
+insensitive to attacks like: Man-in-the-middle, rebound attacks, Spoofing, Flooding, etc.
+Smart card authentication
+To use the client, one needs a smart card USB key potected by PIN to open the tunnel with the remote server.
+This smart card contains personal data needed to authenticate oneself and used to establish a personal secure
+communication with the server.
+5.3.3.2.CRYPTOWALL CRYPTO-TUNNEL POINT TO POINT
+CryptoWALL Crypto-Tunnel Point to Point offers a high level of security to interconnect distant offices
+and business partners by creating a secure tunnel through Internet independent from the physical media
+crossed: Ethernet, WIFI, Bluetooth, IRDA, …
+Thanks to this software, data are always encrypted on the network, and cannot be read. A hacker can never
+intercept critical data from your company. You work with optimal security.
+No specific configuration is required and the system is transparent for users. Each user keeps his or her usual
+working comfort. Crypto-Tunnel Point to Point provides secure use of all standards applications: Mail,
+Internet, voice communication, Videoconference or any other dedicated application. The system provides
+secure exchange of any type of critical data and protects integrity of the company data.
+Crypto-Tunnel acts as a firewall to prevent any kind of intrusion
+Whatever encryption algorithm chosen, Crypto-Tunnel Point to Point features an intrusion detection
+technology. It makes your server more secure and insensitive to attacks like: Man-in-the-middle, rebound
+attacks, Spoofing, Flooding, etc.
+5.3.4.THE NEW ARCHITECTURE
+To protect all your data transmission between the sites, we will install the Crypto-Tunnel technology in each
+site (remote and central) and for every remote user allowed to use the central resources.
+
+11
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+You will find the new network architecture below:
+
+The installation of the solution will be very easy, because it consists, for sites, in the insertion of our
+encryption-decryption Crypto-Tunnel server in your existing architecture. That is to say that you need 7 (6
+remote sites + 1 central site) Crypto-Tunnel Point to Point servers.
+For remote user, it only consists in installing Crypto-Tunnel Client-Server software on his computer and
+giving him a smart card, so that he can be authenticated by the central server. Here, you need one CryptoTunnel Client licence for each remote user connected.
+The entire securization will not imply any modification in your network, it will remain easy to deploy and
+easy to use. After deployment, you will continue working with the same software as before. The securization
+layer will be transparent for end users. They will keep all their working comfort, without changing any of
+their habits.
+
+12
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+5.4.SECURIZATION OF EACH PC: PC PROTECT
+PC-Protect is a software solution allowing the creation of safe boxes on your computer or external drives.
+With this software and with your smart card, you will create volume (seen in Windows as virtual local
+drives) that only you will be able to open. The volume is encrypted by your personal key stored in your
+smart card and decrypted in real-time when you need to access to the confidential information.
+With only one software installed on your computer, you will be able to create as many volumes as you want
+and on every kind of physical support (Flash USB Key, Local drive, CD-ROM, Network server …).
+Then all your datas will be encrypted in every PC of your network.
+For more information about this product, you will find the data sheet in Annex 3.
+
+5.5.SECURIZATION OF YOUR MAIL: MAIL-PROTECT
+Mail-Protect is a software used to protect the email you send and receive. This software encrypts and sign
+(with digital signature and certificates) your confidential emails. The encryption and signature protects you
+against intercepting and reading your email, modifying them during transfer and assures you that the sender
+is really the one he pretends to be.
+Al these protections are provided by the use of the smart card. You can use the same smart card if you are
+already a PC-Protect user. In your smart card will be stored your secret keys used for encryption.
+For more information about this product, you will find the data sheet in Annex 4.
+5.6.EXISTING SOLUTION PROVIDED BY I2E
+All these solution have already been provided by i2e Technologies to the French Army, to the French
+Ministry of Defence and to some French big accounts.
+5.7.PLANNING
+After approval for exportation, the delivery will be within 4 months.
+
+13
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+6. MOBILE PHONE ENCRYPTION AND PROTECTION
+6.1.ALTERNATIVE SOLUTIONS
+Their are different techniques to encrypt a conversation over a mobile phone (GSM, GPRS, ...).
+Encryption Method
+The robustness of the encryption lies first on the quality of the mathematical algorithm used to
+encrypt. As mentioned before only the elliptical curves (ECC) give a total reliability whereas the
+RSA/AES models are proven to be easily breakable.
+I2E is the only source to offer the ultimate ECC encryption over mobile.
+I2E phones are the only one to assure a totally reliable and confidential phone conversation.
+Communication canal:
+Beside the encryption method, the way to transport the encrypted signal is also critical. The only
+valid ones are using the data canal of the link. Of this category, all are using the data canal of the
+GSM link. This method has three serious problems:
+a)the speed of the data canal on the GSM is extremely limited, which means that, unless the
+signal strenght is excellent and the quality of the connection is also excellent,
+communication are often broken or scattered. By the same token, international
+communication are rendered difficult.
+b)The second drawback of this method is its inherent cost since the communication are
+invoiced by the amonut of information on the data canal and not by the communication time.
+The GSM data canal is very expensive.
+c)The last drawback is the cost of these individual phones added to the fact that only two
+exact same phones can communicate together.
+I2E encrypted phones (CTOP) are totally different. They are using the ultimate techniques.
+a) First CTOP phones are the only one with ECC encryption method.
+b) Second, only these are also using the GPRS communication canal, which is by definition
+designed for data transmittion. Capacity of this canal is far greater than the GSM data canal.
+It means that it allows information redundancy and avoids scattered or broken
+communications.
+c) Third, the cost of data transfer over GPRS is by far less costly than GSM data transfer.
+Costs of communication will then be cheaper.
+d)Lastly, cost of the encrypted phones is limited to the cost of the software that is added on
+the smart phone that the user already has. It is also, by definition, easy to change phones
+after, since these products evolve very rapidly.
+
+14
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+6.2.THE EXISTING SYSTEM: C-TOP – SECURE MOBILE PHONES
+6.2.1.VOICE PROTECTION OVER GPRS
+2 CTOP users can communicate with VoIP over GRPS in full confidence. All their conversations are strongly
+encrypted. CTOP is a Windows Mobile application over QTEK 9100 smart phone under Windows CE 5.0.
+
+6.2.2.SIMPLICITY AND HIGH SECURITY
+Whole CTOP security is entirely transparent to users. No knowledge in cryptography or IT security matters
+is needed to use it. CTOP is very easy and comfortable to use. Nevertheless, easiness does not mean low
+security, since CTOP protection is based on the ultra robust technology of elliptic curves cryptography.
+Elliptic curves technology provides security for:
+- authenticating strongly CTOP users
+- creating encryption key for each communication
+- encrypting communications between CTOP Terminals. Thus, encryption algorithm is single and
+really strong.
+6.2.3.ARCHITECTURE OF CTOP
+Architecture is composed of:
+- CTOP terminals (GPRS terminals)
+- One CTOP server (on the Internet)
+
+6.2.4.CTOP TERMINAL
+
+15
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+The CTOP Terminal is used for :
+- connecting to other CTOP Terminals
+- communicating in full confidence with secured VoIP
+An intuitive GUI enables CTOP users to:
+- dial and call other CTOP users
+- save numbers, contacts in CTOP directory
+- manage missed calls or called number
+- manage classic phone features (micro or audio volume, calling number displaying, mute mode)
+6.2.5.CTOP SERVER
+This server is used for :
+- connecting CTOP terminals between themselves
+- enabling CTOP terminals to communicate despite the NAT GPRS providers problem
+- blocking of stolen or lost CTOP terminals
+- managing groups of CTOP users
+- authenticating strongly CTOP terminals that aim to communicate
+This server is strongly protected against all kinds of modern attacks such as Deny of Service or Man in the
+Middle Attack for instance. Only a trusted administrator can access to this server with a security token
+protected by a PIN code.
+Besides, this server is designed to manage few hundreds CTOP communications in the same time. The
+number of communications is dependant of the Internet broadband you give to this server.
+Note: in this native solution it is infeasible to recover or decrypt communications between two CTOP
+terminals.
+
+16
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+6.3.THE SOLUTION WITH “MASTER KEY”
+As we said before, the CTOP solution is unbreakable because:
+- there is a strong authentication for the clients.
+- the encryption algorithm is the best we can find now because based on elliptic curves.
+Without lowering all this security features, we can provide you a CTOP system with a “master key” to
+monitor all encrypted communications.
+6.3.1.MAIN FEATURES
+6.3.1.1.A MODULE FOR MONITORING COMMUNICATION
+To answer to your needs, we can provide you a module that modifies the role of the server. In the new
+system, we will give you a master key, which will be able to decrypt every CTOP audio conversation. This
+key will be used on the CTOP central server, and with it, you will be able to listen to audio conversation
+either in live or in differed time. The detailed use will be explained on the next scheme.
+6.3.1.2.PROTECTION OF THE MASTER KEY
+This key must be protected with very strong security policy; only authorized and accredited people will
+have access to this key and to the room where the server stays. The key will also be protected by a twopeople access : “CTOP server” with Access Control by secret sharing system. This means that two different
+people in charge with their own password must be present at the same time to use this system.
+6.3.1.3.ROLE OF THE SERVER
+The server will, in this solution, not only remain a network relay for all voice communication packets, but
+also become a recorder for all encrypted communications. All the encrypted communications will be saved in
+a database on the server with the decryption key, thus you will be able to listen to it live or to store it for later
+use. With this module, you will also see who is communicating with whom in real-time, because each user is
+authenticated on the central server.
+
+17
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+6.3.1.4.GENERAL SCHEME OF WORK
+
+6.3.2.TECHNICAL DETAILS
+For end-users, there will be no difference when they use the normal or the modified solution.
+In terms of security, the “master key” is also called a recovery key, because anyone in possession of this one
+can recover all encrypted information.
+Technically, each communication is encrypted with a different secret key. In the modified solution, this secret
+key will, in fact, be readable for the owner of the master key. The secret key of each communication will be
+recorded in the central CTOP Server just like the entire communication. This solution is the best we can
+provide to answer to your need, because it offers you a way to monitor encrypted communication either live
+or in deferred time.
+
+6.4.PLANNING
+After approval for exportation, the delivery will be within 5 months
+
+18
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+7. LEGAL GSM INTERCEPTION
+Beside all techniques here above described, we suggest that you equip your services with means off legal
+interception of GSM. The proposed system is capable of monitoring through the network, intercept and/or
+record up to 128 communications simultaneously. The key parameters are described hereafter.
+
+7.1.LEGAL INTERCEPTION CAPABILITIES
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Simultaneous support of 64 E1 interfaces
+Interception mode available simultaneously on GSM-A and/or SS7 ISUP
+Real Time monitoring of 128 Signaling Time-slots (GSM-A / ISUP)
+Simultaneous Interception of up to 128 searched numbers
+Up to 128 calls (Audio CDRs) can be recorded at the same time (i.e. up to 128 speech channels)
+Beside the Audio CDR also the Signaling CDR is recorded with FULL detail about the call (source,
+destination, circuits, location, time, call duration)
+ISUP SS7 searched numbers can be Calling Number, Called Number
+GSM-A searched number can be Calling Number, Called Number, IMSI, TMSI, IMEI
+Wild Cards are supported to search for group of numbers.
+GSM-A Handover is fully implemented giving the possibility to intercept a mobile moving across
+different BTSs
+Only Signaling CDRs and Audio CDRs matching the interception criteria are stored in the HDD (for
+long unattended interceptions)
+Signaling CDRs and Audio CDRs are stored locally in a proprietary format for security reasons.
+Extended filtering capabilities are available to search the database of recorded calls.
+
+19
+
+••
+12e
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+t t ' " .. ·~~ . . . .
+
+•
+•
+•
+
+Multiple Remote users can connect across a TCP/IP Network using a special Java based inte1face
+that validates the user rights.
+Users can define on the fly the hlterception criteria and retrieve/Play back the recorded audio CDR
+on their local PCs
+Retiieved Audio CDRs can be saved as standard .Wav files as evidence.
+
+7.2.LEGAL INTERCEi:' 11u1~
+
+•
+•
+
+•
+•
+
+•
+•
+
+•
+
+HEi~EJi l iS
+
+Ve1y high number of El ports available per shelf: 64. Cost and space effective.
+Ve1y Scalable solution based on additional shelves from 4 to max 64 po1ts each.
+Signaling and Audio channels are processed locally at the MSC/Switch
+No Blocking factors: up to 128 Signaling links can be fully monitored searching from the
+interception critelia and up to 128 audio channels can be dynamically recorded based on the
+matching critelia, regardless from where they are located on the 64 El po1ts.
+No need to extend the El circuits across a WAN to a centi·alized location with expensive and
+difficult to maintain solutions based on Concentrators and/or PCM Cross Connects and high number
+of dedicated and expensive transpo1t lines.
+Remote users can simply connect from virtually eve1y PC or Workstation across a standard TCP/IP
+network. (I.e. non need to deploy a dedicated network and ve1y low bandwidth requirements from
+the TCP/IP network due the usage of intelligent 3Gmaster probes)
+Modem open architecture already implementing all the newer technologies (UMTS, GPRS,
+SIGTRAN, VoIP, etc)
+
+7.3.GSM MONITORING
+We consider three ways of using the distant GSM to monitor the conversation or activity being held at the
+GSM location. One is cooperative (the GSM holder is aware that the GSM is used as a remote microphone)
+and the two others are tm-cooperative.
+7.3.l.REMOTE COOPERATDTE MODIFIEp GSM
+
+This GSM is a modified GSM with a super sensitive inicrophone which allows capturing all conversations in
+the room. It is used with full awareness of owner as a remote microphone.
+
+20
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+While listening and transmitting conversation, the GSM remains in an apparent “OFF” mode, preventing
+suspicion.
+The GSM listening mode is activated remotely by authorized GSM phone and is stopped the same way.
+Conversation lasts as long as battery is available.
+Enclose in our proposal are 3 telephones of this kind.
+
+7.3.2.REMOTE UNCOOPERATIVE MODIFIED GSM
+This GSM is a modified GSM. It is “offered” to its owner without his (or her) awareness that it has been
+modified. It allows capturing conversations within proximity of the GSM phone by calling on a silent mode
+and with password the modified GSM.
+
+The GSM listening mode is activated remotely by authorized GSM phone and using special code so that the
+owner doesn’t realise that is phone is emitting and is stopped the same way.
+Conversation lasts as long as battery is available.
+It requires the phone to be “on stand by” mode to be triggered and will not work if the phone is off or if the
+battery is removed or if the SIM card is changed.
+Enclose in our proposal are 3 telephones of this kind.
+7.3.3.REMOTE UNCOOPERATIVE UNMODIFIED GSM
+This GSM is not a hardware modified GSM. The objective of this development programme is to be able to
+trigger phones of selected persons and be able to listen to their discussions using their GSM phone as a
+microphone and without their awareness. It will allow capturing conversations within proximity of the GSM
+phone by calling on a silent mode though the listening equipment.
+
+21
+
+..
+
+12e ..
+
+t t , ....
+
+~ ~ii "
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+j,
+
+The GSM listening mode is activated remotely through the equipment delivered, which is connected to the
+GSM network.
+Conversation lasts as long as battery is available.
+It requires the phone to be "on stand by" mode to be triggered and will not work if the phone is off or if the
+battery is removed or if the SIM card is changed.
+Development program will be conducted locally in steps:
+a) first step will be utilisation of the system on one specific model of telephone
+b) second step will be utilisation of the system on one specific brand of telephone
+c) last step will be duplication of the system on several brands
+Enclose in our proposal is one mobile system.
+
+7.4.MOBILE USER LOCALISATION
+12E has developed two complementary systems for the mobile user's localisation within a mobile network.
+
+7.5.GSM I GPRS I UMTS SIGNALLING ANALYSIS
+Our application is composed by a non intrusive measurement probe installed in a MSC center, a processing
+server and a storage server.
+This system is able to analyse in real time, or postponed, more than 300 signalling links per measurement
+probe. The software processing allows getting real time mobile user's localisation, activity and exchanged
+data (except voice speech).
+The analysis includes:
+
+•
+•
+
+Prepaid users, normal subscribers and roamers
+Identification via IMSI (individual or list), IMEi (individual or list), MSISDN/ Phone number
+(individual or list)
+
+The data provided:
+
+•
+•
+•
+•
+
+Mobility : when and where the user has done a transaction in the network
+Activity: what type of transaction has been done (LU, MOC, MTC, SMS, Data, SMTP, POP, FTP,
+WAP, Visio ....)
+Data transmitted : What data has been send or received (MMS, Voice over UMTS, Download, email, SMS)
+A common use of the network (localisation) between 2 or several users
+
+22
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+7.6.PORTABLE LOCATOR FOR GSM MOBILE TERMINAL.
+
+This product is based on GSM base station simulation technology. It allows to detect and to save in a
+database all the GSM mobiles that are present in a user selectable area, for example a hotel, a building or an
+airport.
+At the setup, the system generates a coverage area which varies depending of the transmitted power (1 W to
+16 W) and the BTS proximity. Then, all the mobile terminals that are in this area for 15 to 60 seconds
+(depending of the mobile terminal type) are detected and their International Mobile Subscriber Identity –
+IMSI- and International Mobile Equipment Identity –IMEI saved in a database.
+
+23
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Operator can change the covered area by regulating output power. If the transmit power with 1W is not
+enough to cover the area, it can be connected to a frequency power amplifier and antenna amplifier.
+Generally, in city the coverage area can reach from 10 to 100 meters and from 50m to 2km in suburb.
+During all the process, the use of the GSM terminal is affected during the 2 to 10 first seconds, and this only
+for the incoming calls. After this period, the GSM mobile works normally.
+
+7.7.PLANNING
+After approval for exportation (T0 ), the delivery will be:
+a) T0+1 month for the remote cooperant MODIFIED GSM
+b) T0+1 month for the remote uncooperative MODIFIED GSM
+c) T0+7 months for the remote uncooperative UNMODIFIED GSM
+d) T0+6 months for all other items
+
+24
+
+20060512TP-HOSP
+Ind. 02
+
+8.
+
+Homeland Security Program
+Technical Specification
+
+NETWORK STREAM ANALYSER [NSA]
+
+25
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+26
+
+8.1.GENERAL PRESENTATION
+Network Stream Analyser, NSA, is an Internet network monitoring equipment.
+It is mainly designed to monitor all internet traffic and intercept those mails that may content information
+relevant to the Public Safety System Organisation.
+The whole system is designed to be absolutely passive, connected on internet via the main Libyan ISP with
+its approval, and without any disruption on his installation. The System is also undetectable by any Internet
+Users.
+The system will be connected on the 1Gbit/s Ethernet connection between the switch CISCO catalyst 6000
+and the main router which is a CISCO serie 7500 (to be upgraded in the next months) thanks to an optical tap
+from the company Netoptics (see attached document, annex #A), allowing no disrupt of traffic in case of
+default, the traffic will continue even if our equipment is not working.
+The first step of our system is to go through a very powerful PROBE which is able to process a 1Gbit/s flow
+in real time (real time on the whole 1Gbit/s), this probe is composed of plug-in modules, each module being
+able to process 200Mbit/s of datas, Those modules are easily replaceable and are hot plug (plug and play).
+This probe has a special software which is doing discrimination of the internet flow in different categories:
+mail (including webmail, instant messaging, etc.) , HTTP, VoiP, business type (VPN, citrix, etc.), video, etc.
+The recognition is done through this special software (CAPI-FC) which can recognize up to 250 of the most
+used protocols, those ones are recognised thanks to unique software whose recognition is based on key word
+and syntax within the protocol. Then the internet flow is sent to a big DATA BASE in as many files as main
+topics, that means that there will be a file for all the mail types, another one for VoIP, etc.
+The transfers of the datas will be done through an optical fiber, so we will be able to locate the data base in
+the monitoring center for security reason, the only equipment located in the ISP will be the probe and the
+data base server, the data base disks will be in the monitoring center.
+This software can be up graded easily as every protocols recognition is done through “plug in” software
+modules and another new module can be added very easily. Right now, we can guarantee more than 70%
+recognition of the internet flow.
+We will assist the customer in adding new protocols recognition to achieve this goal of 70% by adding new
+protocol plug in if necessary with a target of 90% recognition.
+State
+Information
+
+CAPI-FC
+engine
+A
+
+B
+E
+
+C
+F
+
+I
+
+D
+G
+
+J
+
+H
+K
+
+Plugin
+
+L
+
+Plugin
+
+Plugin
+Plugin …
+
+The created files will then be stored in a very big data base server of 12To, which will give you the available
+amount of space to store up to more than 50 days according to the relevant information of LTT, based on the
+today’s traffic (60% average load on the STM1 optical link).
+At the same time, the powerful probe is taking a number of information called “attributes” for all the
+recognized protocols, the software doing that is call CAPI-FM , like Flow Monitor. For each protocol, we
+will have several attributes, for example:
+
+–
+
+SMTP: sender, receiver, subject, keyword, attachment type, …
+
+–
+
+GTP (mobile tunneling) L2TP (fixed network tunneling) : IMSI, MSISDN, called ID, etc…
+
+–
+
+WSP (wap): Agent, …
+
+..
+
+12e ..
+
+t t , .... ~ ~ii
+
+"
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+27
+
+j,
+
+HTTP: server, URI, agent, ....
+Radius: user, IP address, ...
+Webmail: user, IP, subject, keyword, ...
+It is very important to realise that all those attributes will be given in real time for all traffic (real time means
+seconds and not minutes!).
+
+Those attributes create a "CDR", like Call Data Records which is going to be stored in the same data base as
+the complete flow. The data base is hence separated in two smaller data base, one being the CDR data base
+with all the attributes associated with every protocols and another database with the complete traffic.
+The filtering will be done based on those attributes, and then if necessary the complete data exchange will be
+reconstitute (in differed time obviously) like complete email including attached files, VoIP session, chat ,
+etc . ..
+
+Web
+
+Main international trafic
+
+lr
+DATA BASE server
+
+MAlNROUTER
+CISCO
+
+DISK ARRAY
+12To
+
+SERIE 7500
+
+._
+
+ISP SITE
+lGbit/s
+Interface
+
+-· - - - - - - - ._
+
+'
+
+OPTICAL TAP
+
+ti flt if Ii Ill Jil MM Iii ii
+
+'I
+.;;
+
+FIBER CHANNEL
+up to lOkm
+MAJNSWITCH
+
+« Sniffing » PROBE
+
+CISCO
+
+5 X 200MBit/s
+modules to process
+lGbit/s and retrieve
+ALL the traffic
+
+CATALYST
+
+lr
+National
+Network
+
+Monitoring center
+Request of filtering
+and stored results
+ofCDRs
+
+It is very important to notice that all the traffic exchange will generate CDR with "attributes" and that all those CDR
+will be stored in the data base in real time. The datas are not filtered but stored in totality, they are stored including their
+attributes and then it will be possible to reconstitute the complete flows and information exchange through filtering or
+targeting.
+
+..
+12e
+
+t t , .... ~~ii" .. j,
+
+8.2.
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+28
+
+THE PROBE
+
+8.2.1.TliE PNIT
+The probe is designed to handle traffic of 1Gbit/s full duplex, it is constituted of 5 plug in modules being able to handle
+200Mbit/s full duplex. Those plug in are hot swappable and can be removed and reinstall with out stopping data
+acquisition.
+
+.-. .- ..- - - - - - ......
+- -.
+..
+
+·ii_
+
+~
+
+~
+
+•.
+
+.
+
+·.
+
+.
+
+Ii ii Ii Ii fol fol ii ii it
+
+]
+
+Those probes can be added in different places to handle more points of interception, they don't need to be cascaded,
+then agglomerate traffic of several Gbit/s can be done, the datas will be then stored in the same data base. In conclusion
+through this solution, the proposal can be expandable to 1OGbit/s of intercepted traffic, all the probes being placed on
+1Gbit/s interface and then all the datas will feed the same data base.
+
+8.2.2.0PTION: ANOTHER lGBII/s J,JNK TO BE MQNITORED
+Example of future evolution of the system with another point of interception monitoring another 1Gbit/s interface:
+LTT Monitoring point
+With 1Gbit/s interface point
+
+.-. - .- .- -
+
+.
+
+--
+
+- -. .- , .._
+
+-19 14 ll Ill II II Ill • M Iii
+
+1
+•
+
+DATABASE
+
+server
+Another 1GBit/sMonitoring
+point
+
+1
+ilillllllillllillll•ll•
+
+This option is INCLUDED in our offer.
+
+1
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+8.3.THE DATA BASE
+8.3.1.PRESENTATION
+The state of the art data base server which is going to host the data will have a 12To disk capacity, organized in RAID 5
+to secure the data, this server will be a versatile server with hot plug removable hard disk of at least 300Go with Fiber
+channel SCSI interface (depending of technology evolution at the PO order).
+The server will be located in the ISP premises and the disk array in the monitoring center for security reason. The link
+between the two will be done through a 4GBit/s fiber channel solution with a maximum length of 10km (for the
+proposal we have taken for granted that the optical fiber is already installed).
+
+The proposed solution will have at least the detailed following specification (once again, it will depends of PO timing),
+The solution will have a full 4GBit/s architecture end to end (from the server to the disk connection !) to handle the data
+rate and will share the same storage management system.
+The fiber channel technology will be used in the main server and through all the rack extension, this data base will be
+installed with 12To of disk capacity and could be up graded up to 34To if necessary.
+The disk will be FIBER CHANNEL SCSI type, 300Go each and running at 15000 r/m, the RAID controller
+
+will be fully redundant and the server will be highly secure.
+The main server will handle 16 disks and will be able to be connected up to 6 expansion units (EXP 810),
+each of those units being able to handle also 16 disks.
+The total capacity of the system for future evolution will be 34To.
+
+The connections towards the
+internal redundant connections
+Each RAID Controller will have
+
+Intel
+
+servers are 4GBit/s Fiber channel type as the
+with the disks.
+the minimum specifications:
+
+xScale 667 MHertz processor,
+
+1 Go memory ECC (Error Correction Code) SDRAM cache
+128 Mo flash memory,
+RS-232 port (DB-9 connector),
+2 Ethernet ports 10/100 (RJ-45 connector).
+2 FC 4 Gbit/s ports for servers connectivity
+
+29
+
+..
+
+12e ..
+
+t t , ....
+
+~ ~ii "
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+30
+
+j,
+
+2 FC 4 Gbit/s ports for expansion racks
+
+The total cache memory of the system will be 2Go (lGo per controller). In case of power supply problem,
+the cache memory will be protected for at least 3 days (one battery per controller).
+The server will be connected through the Fiber Channel connection at 4GBit/s and through a SAN switch
+(FC-S), a "long wave" multimode optical fiber 50 µm should be installed between the server and the disk
+array allowing a distance of lOkm between the two.
+The optical fiber link between the controllers and the disk arrays are doubled for redundancy
+reason.
+DATABASE
+se1ver
+2 redundant paths
+
+()
+
+FIBER CHANNEL up
+to lOkm
+
+II
+
+DISK ARRAY 12To
+Main unit with
+expansion unit
+Up gradable up to
+34To
+
+The specifications of the data base server are the following (minimum):
+AMD Opteron 2220 SE Dual Core 2x2.8 GHz/800 MHz, 2MB L2, 4x512
+MB, Open Bay, 650W p/s
+2 GB (2x1GB Kit) PC5300 667 MHz ECC DDR SDRAM RDIMM
+Hard disk, 73 GB 15K rpm 3.5" Simple-Swap SAS HDD
+
+..
+
+12e ..
+
+t t , .... ~ ~ii
+
+"
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+j,
+
+8.3.2.0PTION ; REPLICATION OF DAJA BASE IN A SECONP LOCATION
+
+To be able to secure the data base, we can as an option add a second data base, which is an exact
+duplication of the first one in a different location :
+DATABASE
+seiver
+
+2 redundant paths
+
+()
+
+FIBER CHANNEL up
+to lOkm
+
+-'
+
+2 redundant paths
+
+F
+
+A...LJLJ........ ...................
+
+~ ..
+
+.£. .. .A...JLJ
+
+-y
+
+to lOkm
+
+II
+
+DISK ARRAY 12To
+Main unit with
+expansion unit
+Up gradable up to
+34To
+
+This option is quoted in the financial proposal.
+
+'
+
+II
+
+-
+
+~
+
+'
+
+o I o '
+
+~
+
+• I
+
+1'j
+
+DISK ARRAY 12To
+Main unit with
+expansion unit
+Up gradable up to
+34To
+
+31
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+8.4.THE MONITORING CENTER AND FILTERING
+
+8.4.1.FIRST STEP: THE CDR DATA BASE
+
+The monitoring center will be connected to the data base through a LAN. In the proposal, we have
+included 10 PC to send queries to the MySQL data base. The system will be organized in two
+operating modes :
+1. The CDR constitution in real time
+2. The reconstitution of all communications and/or data exchanges from the complete and total
+monitored flow.
+It will be possible to send queries to the CDR data base.
+Those queries will allow the visualization of extracted information from the data base (CDR), the
+reconstitution of the different applications or communications will be then done if necessary (don’t
+forget that we store the complete and total flow).
+
+32
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+For example, here is a CDR view of e-mail communication with selected attributes (not all):
+
+If necessary, it will be possible to reconstitute the second complete email including the excel
+spreadsheet if this e-mail address is of interest.
+We can add and “filter” in this view other attributes like keyword warnings, domain names, etc…
+Meaning that if we want to have all the email exchange with the word “france” inside, the above
+view will have another column called keyword warning with the word “france” signifying that this
+word is either in the email subject or in the text.
+At this stage, if you are interested in the mail, the mail will be reconstituted with its attached
+documents.
+Here is another CDR view of e-mail communication with a specific targeted email sender:
+
+Here is another CDR view of mail communication through MSN messenger instant messaging, if
+one communication is interesting, then the complete communication could be reconstituted from the
+complete flow database:
+
+33
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Here is another CDR view of all web surfing activity of one user:
+
+34
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Here is another CDR view of all Google queries for any users (this could be done also for other
+search engine and/or for selected users or IP address, etc.):
+
+Here is another CDR view of all VoIP communicationS with caller and calee information, if of
+interest , the communication could be reconstituted:
+
+35
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+8.4.2.SECOND STEP: FLOW RECONSTITUTION
+
+Once we have selected or recognised any information of interest thanks to the CDR database, all
+information stored in the main data base can be reconstituted with the exception of storage
+limitation of course (we remind you that we have in storage several days of the complete flow!).
+Those reconstitutions called transcoding modules are organised by application type. All the kind of
+emailing applications, attached documents, VoIP type of communication can be reconstructed.
+Email type transcoding modules include:
+- SMTP,
+- POP3,
+- IMap
+- and webmail (the most and common used, google, yahoo, etc.)
+Attached files to the communication exchanges:
+- .doc, .txt, .xls, .csv, .pdf, .ppt, etc.
+- .gif, .jpeg, .bmp, .mpeg, .avi, .tif, .wav, etc.
+The most and common used VoIP and Chat type:
+- Standardised ones (H323, SIP, MGCP, .)
+- Proprietary ones (msn, yahoo, paltalk, bctocall, bctophone,etc.)
+Once the user has decided to recreate the file of interest, this file will be available for editing,
+printing or storing.
+All the reconstructed files will be available for keyword searching in the document.
+
+36
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+8.4.3.EXAMPLE OF OPERATIONAL MODE (NOT LIMITED TO)
+
+Thanks to the of the system organization, different types of operational modes can be used:
+♦ Specific keyword based monitoring
+ In all emails send or received (in subject or in the text)
+ In all types of attachment (txt, xls , csv ,pdf, ..) once the flow is reconstituted and on
+a specific target
+ Web site browsed (URL query)
+ Chat message (inside the text)
+♦ Email ID based monitoring
+ Capture of all email and attachment
+ Search for keyword within all captured mails and attachments (in differed time for
+attached document)
+ Track ISP’s user IDs used when communicating with emails IDs
+ Store mail IDs of his communications ( i.e. mails sent or received from others)
+♦ Chat ID based monitoring
+ Capture all chat IDs.
+ Search for keyword within the captured traffic
+ List of other chat ID referred in the chat conversation
+ Get user ID, phone number and IP address (phone if available on the flow with the
+cooperation of the fixed line operator)
+♦ IP address based monitoring
+ Capture all traffic from and to IP address
+ Segregate traffic into mails, chat, etc. for differed display
+ Search for keyword within the traffic
+ Track all IP addresses accessing it
+ Track the telephone number of the users (if available in the flow with the
+cooperation of the fixed line operator)
+♦ ISP account id based monitoring
+ Display telephone numbers used for logging into the Net (if available in the flow
+with the cooperation of the fixed line operator)
+ Display the time in which logging happened using that user ID
+ Track all traffic from and to the user ID
+ Break down the traffic to chat, email, etc. for differed display
+ Search for keyword within the captured traffic
+♦ Telephone number based monitoring (if available in the traffic with the cooperation of
+the fixed line operator)
+ On telephony number:
+
+37
+
+20060512TP-HOSP
+Ind. 02
+
+
+
+
+
+Homeland Security Program
+Technical Specification
+
+Display the ISP user ID used to login into the net
+Display the time in which logging happened using that telephone number
+Break down the traffic to chat, email, etc. for display
+Search for keyword within the captured traffic
+
+♦ Geography (city/country) based monitoring (once mapping has been done with your
+organisation)
+ On city, country, tracks all communication flowing to and from that region. It includes
+email, chat, website browsing and voice calls
+ An graphical interface will be proposed with the Libyans map to locate easily the target
+
+8.4.4.PERFORMANCES
+
+♦ Number of concurrent keywords/ targets supported
+o 5000 simultaneously minimum
+♦ Delivery of captured record
+o Remotely delivery over secure channel to desktop computer with client software
+o 10 desktop computers per monitoring center have access to the main data base (this number
+can be up graded up to 10 without any problem)
+o Each PC will be a 3GHz, 4Go RAM, 70Go hard disk with a 19” LCD flat panel screen and
+will be equipped with our cryptotunnel solution for highly secured transmission and
+connection to the disk array, that means that each user will have his personal USB SIM key
+with his personal password (limited to 3 attempts). The exchange of datas between each pc
+and the data base will be encrypted with our ECC algorithm based solution.
+o Each user can be limited to one application, i.e. email, or web traffic, etc.
+o We will give to the main authority a master key for recovering all datas and generating new
+keys if necessary.
+♦ Value added feature
+o Capture and record most of the voice over Internet
+o Find geographic location of intercepted messages on an easy graphical user interface.
+o Instant alert generated for key messages by flag in the software or emailing to dedicated
+users.
+o Accumulate user names and passwords and other datas flowing in clear text over Internet
+o Build up database of ISP account and various telephone numbers used by that account over
+period of time
+
+38
+
+..
+
+12e ..
+
+t t , .... ~ ~ii
+
+"
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+j,
+
+8.4.5.SECURITY
+
++
+
++
+
+Security features
+o All communications to the system are encrypted (ECC based)
+o Remote access to system is through access control device.
+o System is invisible from Internet with no valid IP address
+o Strong authentification and authorization feature at operator level
+Administration features
+o All administration activities can be conducted remotely
+o Administration options include adding, deleting and modifying operation profiles, stopping,
+starting system, cleaning up database and backup of data
+o A log file is created and can be review to 1rnck users activities.
+
+8.4.6.0PTION ; A SECONP AND THIRp MQNIIORING CENJERS
+
+To be able for two organisations, in two different locations to work on the recorded or real time traffic, we
+are proposing a second monitoring center (still with 10 users) located in a different place (for example the
+second place where the duplicated data base will be installed if you are taking the option).
+A remote access will be provided for VIP users.
+
+Secured VPN with elliptical curve
+algorithm
+site A
+
+FIBER CHANNEL
+
+up to IOkm
+Secured VPN with elliptical curve
+algorithm
+siteB
+
+Secured VPN with elliptical curve
+algorithm
+site C
+
+VIP remote laptop (secured connection with USB
+
+A second and third monitoring c
+SIM card and ECC cryptography)
+rating consoles for 10 users,
+those users are connected to the
+>N (based on our elliptical
+curve technology algorithm for ··- - -r-·-- _·-cr-r-- - --------, ·
+This second and third monitoring center is included in our financial proposal.
+- -.1r
+
+8.5.BLOCKING AND FILTERING WEB NAVIGATION
+
+39
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Thanks to the NSA, the system can point out some dangerous communication and some unwanted URL or
+URI, we will install a SECURE COMPUTING solution which will allow URL/URI filtering.
+8.5.1.PERFORMANCE, SCALABILITY, AND RELIABILITY
+Our solution has been engineered to provide the performance you need for gigabit traffic loads today and
+with expandability and scalability built in for tomorrow.
+Appliance performance
+•
+
+3+ Gbps stateful inspection throughput
+
+•
+
+Unparalleled 2.2 Gbps of application layer throughput
+
+•
+
+15,000 connections accepted per second
+
+•
+
+Up to 1,000,000+ total simultaneous connections
+
+•
+
+"Tunable" firewall balances performance against security requirements
+
+40
+
+•·
+
+20060512TP-HOSP
+Ind. 02
+
+12e
+
+Homeland Security Program
+Technical Specification
+
+Scalability
+
+Scalability is achieved by adding if necessary appropriate appliance models that come with single, dual or
+quad processors. Active/active high availability is also an included feature.
+
+•
+•
+•
+•
+•
+
+Multiple Xeon processors at up to 3.4GHz and above
+Up to 800 MHz front side bus
+Upto2GBRAM
+Gigabit network interfaces
+Up to 7 I/O slots for network interface or peripheral expandability
+
+Reliability
+All the Security Appliance provide fully integrated or optional reliability features, notably:
+• Integrated stateful, active/active high availability protection that supports a pair of firewalls. No
+third-party products are required.
+• Multiple power supplies
+• RAID hard drive configurations
+
+•
+•
+
+DDRmemory
+Health monitoring of the entire appliance system
+Clustering and load balancing
+By clustering multiple Appliance in a rack, sites can achieve unlimited scalability and throughput.
+Clustering your appliances allows you to achieve multiple Gigabit throughput performance and be assured of
+seamless load balancing and high availability.
+8.5.2.INSTAJ,J,AJION ANP MANAGEMENT
+MAJNROUTER
+
+CISCO
+SERIE 7500
+
+URL and URI filte1ing and
+redirection solution
+
+MAJNSWITCH
+
+CISCO CATALYST
+
+The appliance/firewall will be connected and managed from one or two or the three monitoring centers, this
+solution of filtering will have an independent graphical user interface and will just act as a filtering and
+redirection device. The black list and/or white list will be generated by the customer.
+The black list will be dynamically and constantly renewed and updated by the customer.
+8.6.FINALAND COMPLETE DIAGRAM
+
+41
+
+..
+
+12e ..
+
+t t , .... ~ ~ii
+
+"
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+42
+
+j,
+
+Main international trafic
+
+ll
+DATA BASE server
+
+MAIN ROUTER
+CISCO
+
+DISK ARRAY 12To
+SITE A
+
+SERIE 7500
+
+-
+
+'
+
+I
+
+'
+
+. ,,.111,
+
+'
+
+I
+
+.
+~•I~ q
+
+d
+
+'
+
+URL
+
+Filtering
+Crypto
+graphic
+server
+DISK ARRAY 12To
+SITE B
+
+MAJN SWfitH
+:
+
+CISCO •
+
+• CATALYST •.
+
+..•
+•
+•••
+•
+•••
+•
+•..•
+•
+•••
+••
+
+•
+•••
+
+Monitoring center
+SITE l
+10
+users
+
+•..
+
+•
+
+j1
+
+••
+
+••
+
+••
+••
+
+•
+
+National
+Network
+
+Cryptographic
+server
+
+Monitoring center
+SITE2
+10
+users
+
+..•
+Q
+
+•
+••
+••
+•••
+
+R emote
+VIP
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+43
+
+8.7.TRAINING, TROUBLE SHOOTING AND MAINTENANCE
+The training will be composed of 2 main topics:
+Training of high level for administrator
+Training for users
+The training for high level people (administrators) will last 2 weeks and will allow the people to train
+themselves the final users if necessary, it will be limited to 3 persons. The training will include:
+-
+
+Training and learning of the complete infrastructure including software and
+hardware
+
+-
+
+How to maintain equipments and software
+
+-
+
+Troubleshooting
+
+For users, the training will be more oriented towards use, configuration and first level maintenance of the
+equipment. It will last 2 weeks also and will include class of 10 people (if necessary we will train 20 people
+in 2 sessions).
+Once troubleshooting is done, the first level maintenance will be taken care by a lot of spare part which will
+delivered at the same time of the system. This spare part lot will include: hard disks, raid controller, power
+supplies, screen, motherboards, and probe plug-ins.
+A period of 2 month is included in the proposal for 3 customer engineers to be in our premises in Paris to
+assist and help to the Arabisation and customization of the system. Moreover these 2 persons will be part of
+the development to assimilate the different technologies and get the maximum of technology transfer from
+i2e Group.
+Finally as scheduled, two i2e engineers will be installed in Tripoli for the 6 first months to help the customer
+in any matter.
+8.8.PLANNING
+After approval for exportation, the delivery will be within 7 months for the system.
+
+Monitoring center
+SITE 3
+10
+users
+
+..
+
+12e ..
+
+t t , .... ~ ~ii
+
+"
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+44
+
+j,
+
+9. YIP CONVOY PBOIECTION
+9.1.IDENTIFICATION OF SECURITY PROBLEM
+For the past years, terrorists or unofficial threat organisations lead a lot of bombing attempts against VIP
+Convoy using radio remote explosives. The important things to know are that a lot of radio communications
+devices including mobile phones are not used in their primary utilisation but used to trigger explosives from
+a remote and safe area. The recent dramatic news shows that it is very easy for indelicate persons to access
+these devices mainly available on the unofficial market.
+
+9.2.0UR PROPOSED SOLUTION
+9.2.l.JAMMING SYSTEM
+Our unique Mobile Jamming systems are made of advanced radio transmitters especially designed to
+block radio-communication receivers in HF, VHF or UHF Bands (therefore including GSM, GPRS
+or equivalent) in an area of about 1OOm around the mobile Jamming Car.
+
+The systems creates all around the vehicle a high power radio-electrical shield that allows to saturate
+all radio frequencies in a 1OOm radius, while preserving the health of all persons located inside the
+bubble.
+
+100m
+
+1oom?
+
+?
+100m
+
+9.2.2.A UNJOUE DESIGN
+
+I
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+Current architecture of our systems lies on a unique 14 simultaneous band radio transmitter
+-
+
+Modular system: the system is divided into 14 different bands to allow best coverage of Jamming
+and also in case of potential malfunction of one channel, redundancy trough the other channels. If
+needed new bands can be covered on-demand by adjunction of a new 15th transmitter.
+
+-
+
+20 MHz to 2.500 GHz spectrum coverage:
+o Full jamming coverage from 20 MHz to 1.030 GHz in 8 Bands.
+o
+
+6 additional bands for pagers, GSM, DCS, UMTS, Mobile satellites and ISM Band.
+
+-
+
+Microprocessor and Databus Controlled: All functions are completely microprocessor controlled.
+Information is send to the amplifiers through a proprietary DATABUS. Securization of data
+exchanges exists on the DATABUS between the 2 racks and the Control Box.
+
+-
+
+Auto Protection: All band Frequencies are protected against Overheat. SWR is permanently
+analysed and controlled in Real-Time during Jamming to protect all electronic components.
+
+-
+
+Additional Power Source: an additional Alternator completely controlled by an Electronic Control
+Unit is installed in the truck to supply maximum Energy (up to 5KW) to the Jamming System
+without reducing the capacities of the vehicle. Use of high density Batteries give total autonomy to
+the Jamming system without relying on the Truck Batteries
+
+-
+
+High Gain Antennas: Each Antenna is developed specially for each Band Frequency to give the
+best results of Jamming in ALL DIRECTIONS (Wide Band Omni Directional Antennas)
+
+45
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+9.2.3.SPECIFIC FEATURES
+9.2.3.1.20 MHZ TO 2.500 GHZ SPECTRUM COVERAGE
+
+9.2.3.2.2.5 GHZ AND BEYOND COVERAGE- WIFI 5.1 GHZ – WIMAX 2.8 GHZ AND 3.7 GHZ
+Customer may decide to extend the bands to be jammed. If so new transmitters are either put in lieu of
+proposed one or added to the existing 14th bands. This option is to be defined before placing order.
+
+46
+
+••
+12e
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+47
+
+t t ' " .. ·~~ . . . .
+
+9.2.3.3.EASE OF USE
+
+A control box is inserted on the driver console to decide which channels to trigger. Some channels may be
+left opened to allow for communication while blocking others.
+
+9.2.3.4. MODULAR AND UPGRADABLE DESIGN
+
+Each amplifier is set in an individual safe box, rack mounted in the central system. Enclosed picture illustrate
+the additional channels left available for product optimization.
+
+Control
+Panel
+
+Check
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+9.2.3.5.DETAILS OF STANDARD CHANNEL PROTECTION
+Distinction is made in consumption if it used in a Defensive (Blue) or Offensive (Yellow) Mode
+Grey Shaded Area illustrates the bands allocated to mobile terrestrial or satellite communication.
+
+Converters
+
+48
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+9.2.3.6.POWER CONSUMPTION
+The power peak indicated for each mode, offensive or defensive are about the same value. Nevertheless, the
+differences between these two modes are related to the type of modulation. In defensive mode, the width of
+pulsate is significant. The consumption of energy is high for a power RF overall identical to that of the
+offensive mode (with narrower pulsate mode).
+The overall consumption of the system takes into consideration the consumption of the drawers and
+appendices of the system. It is globally higher than 3KVA.
+9.2.3.7.PERSONNEL PROTECTION
+In order to fully protect the driver of the car and its passengers, the system is equipped with a Faraday Cage,
+as shown on picture. On top of it, all cables are ultra low loss cable, wrapped by a unique metallic clothe
+(proprietary design).
+
+9.2.3.8.HIGH GAIN ANTENNAS
+All antennas are located on the roof of the car, under a discrete shield. Each one addresses a specific band.
+
+9.3.PLANNING
+
+49
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+After approval for exportation, the delivery will be within 7 months for the first car, 1 per month after.
+9.4.TECHNOLOGY TRANSFER
+In order to get full autonomy and independence, we suggest that after delivery of the two car, other vehicles
+be assembled in a local facility that we would open in Libya, Tripoli. Possible supervision by Libyan staff,
+essential for full confidence in system, is possible.
+Electronic equipment would remain assembled in France in our facilities, and shipped to Libya for final car.
+Mounting. This option is to be decided by Libyan government.
+
+50
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+PASSPORT NETWORK SECURISATION
+
+51
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+10. DATA AND COMMUNICATION PROTECTION: PASSPORT NETWORK
+10.1.YOUR SYSTEM, DESCRIPTION OF EXISTING ARCHITECTURE
+You will find below your existing architecture:
+
+In this network architecture, there is a main site with a data base centralizing all the information relative to
+passports and an application server. There are also 37 points located all over the country. These points are for
+example placed in the airport, in the harbours or at the border. In each point you will find a 28.8 kbps
+modem, a router and a switch. The routers are Xyplex Network 3000. The modems are Multitech Modem.
+Each point is linked to the central site with dial-up connection and the computers on the site can exchange
+information with central database, to update it for example. The data rate is 28.8 kbits/s.
+
+52
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+25 points are equipped with maximum 2 computers and the other 12 points have from 4 to 20 PCs. The
+details of these points are presented below:
+• Tripoli Airport: 20 PCs
+• Tripoli Harbour: 4 to 5 PCs
+• Tripoli (others) : 4 PCs
+• Benghasi Airport : 10 PCs
+• Benghasi Harbour : 3 to 4 PCs
+• Tunisia Border Line (2 points): 3 + 2 = 5 PCs
+• Egypt Border Line: 6 PCs
+• Niger Border Line: 5 PCs
+• Algeria Border Line: 5 PCs
+• Tchad Border Line: 12 PCs
+• Passport Management : 8 PCs
+The quantity of data transmitted is very low, because each entry in the database is only composed of text
+information about the person and its photo in JPEG format (approximatively 3kB).
+The transfer of information is done in both ways: from the remote sites to the central system and the
+opposite. For the data transmission, protocol used is standard TCP-IP.
+10.2.IDENTIFICATION OF SECURITY PROBLEM
+Today, all the data transmission between the different sites is done without any encryption or protection. That
+is to say that a hacker can intercept the flow of data transmitted and access to confidential information.
+What is more, a hacker may also try to enter illegally in the LAN of remote or main sites. If he can do this,
+he will also have an easy access to the information.
+To protect you from all these threats, we will propose to you the solution described below
+10.3.OUR PROPOSED SOLUTION
+10.3.1.I2E VPN: CRYPTO-TUNNEL
+As far as remote secure network access is concerned, i2e offers one solution:
+- CryptoWALL Crypto-Tunnel Point to Point
+Crypto-Tunnel Point to Point is a software solution designed to establish an encrypted communication
+tunnel between two or more remote office. This tunnel uses existing physical network, such as Internet, and
+its purpose is to secure all data flows transmitted between different sites of the same company.
+
+53
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+10.3.2.GENERAL FEATURES
+Strong authentication by ECC signature – Unique
+
+in the world
+
+Thanks to a key exchange protocol based on Elliptic Curve technology, Crypto-Tunnel increases drastically
+the security of the authentication process.
+Elliptic Curve technology offers the most powerful cryptographic protections nowadays for a few
+reasons:
+-
+
+Due to new ECC mathematical models, classical ways used to break RSA or DSA algorithms do not
+work
+
+-
+
+Computing time with elliptic curves decreases
+
+-
+
+Elliptic curve keys use less memory compared with RSA keys for the same strength of protection.
+For instance, encrypting with a 128 bits key ECC is as strength as a 1024 bits key RSA. Thus, ECC
+suits very well smart cards needs or weak memory environments
+
+Compliant with European and international norms.
+Crypto-Tunnel is in accordance with European and international standards, relative to IT security which
+guarantee compatibility and upgradeability of its solutions: digital certificate in X509 V3 for authentication,
+signature with elliptic curves (ECDSA) …
+
+10.3.3.SPECIFIC FEATURES
+10.3.3.1.CRYPTOWALL CRYPTO-TUNNEL POINT TO POINT
+CryptoWALL Crypto-Tunnel Point to Point offers a high level of security to interconnect distant offices
+and business partners by creating a secure tunnel through Internet independent from the physical media
+crossed: Ethernet, WIFI, Bluetooth, IRDA, … Thanks to this software, data are always encrypted on the
+network, and cannot be read. A hacker can never intercept critical data from your company. You work with
+optimal security.
+No specific configuration is required and the system is transparent for users. Each user keeps his or her usual
+working comfort. Crypto-Tunnel Point to Point provides secure use of all standards applications: Mail,
+Internet, voice communication, Videoconference or any other dedicated application. The system provides
+secure exchange of any type of critical data and protects integrity of the company data.
+Crypto-Tunnel acts as a firewall to prevent any kind of intrusion
+Whatever encryption algorithm chosen, Crypto-Tunnel Point to Point features an intrusion detection
+technology. It makes your server more secure and insensitive to attacks like: Man-in-the-middle, rebound
+attacks, Spoofing, Flooding, etc.
+The main Crypto tunnel server located in the central office is a “super” server enabled to communicate with
+all the distant remote office server.
+
+54
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+10.3.4.THE NEW ARCHITECTURE
+To protect all your data transmission between the sites, we will install the Crypto-Tunnel technology in each
+site (remote and central).
+You will find the new network architecture below:
+
+The installation of the solution will be very easy, because it consists in the insertion of our encryptiondecryption Crypto-Tunnel server in your existing architecture between the switch and the router. That is to
+say that you need 38 (37 remote offices + 1 central site) Crypto-Tunnel Point to Point servers.
+On each site, the Crypto-Tunnel server is authenticated to the central server, so that no one can use the
+secured transmission without authorisation. This authentication is done with a smartcard. Each CryptoTunnel server disposes of a unique smart card.
+The entire securization will not imply any modification in your network, it will remain easy to deploy and
+easy to use. After deployment, you will continue working with the same software as before. The securization
+layer will be transparent for end users. They will keep all their working comfort, without changing any of
+their habits.
+
+55
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+10.4.SECURIZATION OF EACH PC: PC PROTECT
+PC-Protect is a software solution allowing the creation of safe boxes on your computer or external drives.
+With this software and with your smart card, you will create volume (seen in Windows as virtual local
+drives) that only you will be able to open. The volume is encrypted by your personal key stored in your
+smart card and decrypted in real-time when you need to access to the confidential information.
+With only one software installed on your computer, you will be able to create as many volumes as you want
+and on every kind of physical support (Flash USB Key, Local drive, CD-ROM, Network server …).
+What we propose is the securization of all your datas on each PC you have, especially your main server
+where you have your Data Base, the datas will be completely encrypted.
+For more information about this product, you will find the data sheet in Annex 3.
+
+10.5.EXISTING SOLUTION PROVIDED BY I2E
+All these solution have already been provided by i2e Technologies to the French Army, to the French
+Ministry of Defence and to some French big accounts.
+10.6.PLANNING
+After approval for exportation, the delivery will be within 3 months.
+
+56
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+TECHNICAL SUPPORT
+
+57
+
+20060512TP-HOSP
+Ind. 02
+
+Homeland Security Program
+Technical Specification
+
+11. TECHNICAL SUPPORT
+To assure full success in the implementation of this program, we will implement locally a team of two
+project manager, one for protection programs ( encryption, etc) and one for interception programs (e-mail,
+GSM, …)
+They will work in Tripoli and interface with the customer to prevent any problems or difficulty that may
+arise during the implementation program.
+They will be assisted by a team of 6 Libyan engineers selected by the customer (and paid by him) and will
+train them on the various technical aspects required by the programs.
+On top of these two engineers, a team of 3 others will work in France and/or Libya on the GSM programs
+mentioned in §7 in order to develop the adequate software and hardware.
+
+58
+
+

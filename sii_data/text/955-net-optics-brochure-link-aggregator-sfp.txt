@@ -1,0 +1,107 @@
+Link Aggregator
+
+(4) 10/100 Links to
+(4) GigaBit SFP Monitor Ports
+Net Optics 10/100 Link Aggregator provides a comprehensive platform for
+monitoring multiple network links while leveraging monitoring tool resources.
+Access for up to four 10/100Mbps full-duplex links (eight half-duplex data
+streams)is visible to 4 GigaBit SFP based monitor ports. A pool of monitoring tools
+with differing functions enables you to consolidate network performance, threat
+management and VoIP analysis functions into one easy to use device.
+Installing monitoring tools on individual links in the network is often time
+consuming and not within the budget. The SFP based monitor ports allow you to
+use the copper or fiber based monitoring tools you already own. Simply connect
+them to the Link Aggregator when and where you need them most. At least one
+SFP monitor Port kit is required when purchasing the 10/100 Link Aggregator.
+All network port pairs in the Link Aggregator feature Net Optics’ exclusive Zero
+DelayTM technology. Any loss of power to is transparent to the network, and does
+not affect the flow of traffic on the link. Each network pair fails-open. Even if
+power is lost and reapplied, Zero Delay ensures network traffic uptime. For
+additional reliability, redundant power supplies are a standard feature.
+
+Passive, Secure Technology
+
+• Supports full-duplex monitoring of four links, increasing
+monitoring efficiency
+• Provides complete full-duplex visibility at 10 or 100 Mbps without datastream
+interference or introducing a point of failure
+• Passes all traffic (including errors) from all layers for comprehensive
+troubleshooting
+• No IP address is needed for the Tap or monitoring device, enhancing monitoring
+security
+• Redundant power ensures monitoring uptime
+
+Ease of Use
+
+• LED indicators show redundant power, speed, link, and activity status
+• Front-mounted connectors support easy installation and operation
+• Small form-factor pluggable (SFP) monitor port connectors increase monitoring
+options
+• Compatible with all major manufacturers’ monitoring devices, including protocol
+analyzers, probes, and intrusion detection/prevention systems
+
+5303 Betsy Ross Drive • Santa Clara, CA 95054
+Tel: +1 (408) 737-7777 • www.netoptics.com
+
+Operating Specifications:
+
+Operating Temperature: 0ºC to 55ºC
+Storage Temperature: -10ºC to 70ºC
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Mechanical Specifications:
+Redundant Power Supplies:
+
+Input: 100-240VAC, 0.5A, 47-63Hz
+Dimensions: 1.75” high x 17” deep x 19” wide
+
+Cable Interface:
+Copper Cable Type:
+
+22-24 AWG unshielded twisted pair cable, CAT5/CAT5E
+Link Distance Supported: 100 meters
+
+Connectors:
+
+Monitoring Ports: (4) SFP slots, SFPs ordered separately
+Network Ports: (8) RJ45, 8 pin connectors
+
+Certifications:
+
+Fully RoHS compliant
+Fully IEEE 802.3 compliant
+
+Part Number
+
+LA-IL4CU/4SFP*
+
+SFPKT-SX*
+SFPKT-LX*
+SFPKT-GCU*
+
+Description
+
+10/100 to GigaBit Link
+Aggregator Tap, (4) 10/100
+Network Links, (4) SFP
+Monitoring Port
+GigaBit Fiber SX SFP with cable
+GigaBit Fiber LX SFP with cable
+GigaBit Copper SFP with cable
+
+*Order a minimum of one or up to four SFPs with each 10/100 Link
+Aggregator. All products include a 1 year manufacturer’s warranty.
+An additional 1 or 2 year extended warranty may also be purchased.
+
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Zero Delay TM and Net Optics® are trademarks or registered trademarks of Net Optics, Inc. Copyright 1996-2007
+Net Optics, Inc. All rights reserved. Additional company and product names may be trademarks or registered
+trademarks of the individual companies and are respectfully acknowledged. PUBLAIL4CU/4SFPD Rev. 2, 07/07
+
+

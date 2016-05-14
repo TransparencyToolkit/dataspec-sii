@@ -1,0 +1,104 @@
+CASE STUDY
+
+Network Centric Collaborative Targeting Systems
+
+Network-Centric Warfare System
+The U.S. Air Force's NCCT is an open network-centric architecture and software design that horizontally
+integrates airborne and ground assets to detect, locate, track and target ground targets. Through
+machine-ta-machine exchanges, NCCT supports time-sensitive and prioritized targeting operations
+more efficiently, accurately and quickly. CEC is the U.S. Navy's premier network-centric warfare system ,
+which shares radar data between participants to precisely track airborne targets , providing combat
+identification on airborne tracks and engagement-quality information to all participants. CEC is fielded
+on several E-2 aircraft, cruisers, destroyers, amphibious ships and aircraft carriers.
+Red ucing T arget Acq uis itio n Time by 90%
+The Objectivity/DB is at the heart of the NCCT Fusion Engine (NFE) supporting the NCCT application .
+Objectivity/DB is storing and managing vast amounts of disparate information performing data fusion
+from geospatial and sensor data from the NCCT sensor network. Objectivity/DB provides a reliable ,
+scalable repository for the wide range of complex data types found in this type of mission-critical
+application . The Objectivity platform is highly optimized for performance and throughput in systems that
+handle highly interconnected data. Objectivity/DB 's distributed processing system architecture, with no
+single point of failure, provides the robustness
+Target Acquisition Time (seconds)
+
+necessary for this application. Objectivity/DB handles all
+aspects of interoperability, including language, operating
+
+The Objectivity/DB
+platform reduces 100
+the time it takes
+80
+to accurately
+locate targets
+60
+by more than 90%
+
+system , file system , networking and hardware
+dependencies.
+As part of the NCCT concept, all participating platforms
+and ground stations can not only exchange data , they
+
+40
+
+can also collaborate to coherently collect and create
+new information that would otherwise go unreported by
+
+20
+
+traditional "stove piped" platforms that do not easily
+share and disseminate information ."By efficiently netting
+
+0
+
+Original
+ROB MS
+
+and synchronizing sensors in real-time and combining
+Objectivity/DB
+
+detections, it is possible to increase the probability of
+detecting and identifying a target, while also reducing
+
+the time it takes to accurately locate targets by more than 90%," according to Gary Davis, director of the
+NCCT program for L-3 ComCept. 'This refined information updates a common , shared network
+Objectivity database so that the problem of multiple reports on a single target is dramatically reduced ."
+
+SuccessStory: Network Centnc Collaborative Target1ng Systems
+2 of 4
+
+Copynght © Objectivity, lnc. - Ali Rights Re5erved.
+
+CASE STUDY
+
+Network Centric Collaborative Targeting Systems
+
+OBJECTIVITY SOLUTION UNIQUELY ENABLES INTEGRATION
+PROGRAM BETWEEN U.S. AIR FORCE AND NAVY
+www.objectivity.com
+L3 lntegrates US Navy's Cooperative Engagement Capability {CEC)
+Corporate Headquarters
+640 West California Ave .
+Suite 210, Sunnyvale,
+CA 94086-3624 US
+Tel: (408) 992-7100
+Fax: (408) 992-7171
+
+and the US Air Force's Network Centric Collaborative Targeting
+{NCCT) Systems
+Objectivity/DB is the integration platform that L-3 is using for the U.S. Air
+Force's Network Centric Collaborative Targeting (NCCT) system and the
+U.S. Navy's Cooperative Engagement Capability (CEC) system .
+Objectivity/DB is the real-time and scalable "data fusion" repository that
+monitors, analyzes, responds and reports on all platforms and assets such
+as aircraft, etc., uniquely satisfying the real time data management
+requirements for the NCCT system . This integration program is part of the
+U.S. Navy's Trident Warrior exercise series, involving an Expeditionary
+Strike Group, U.S. Air Force and U.S. Army aircraft, as well as coalition
+aircraft.
+
+SucœssStory: Network Centnc Collaborative Targetmg Systems
+
+1 of 4
+
+Copyright © Objectivity, lnc. - Ali Righ1s Reservec::l.
+
+

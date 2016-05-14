@@ -1,0 +1,743 @@
+• I t
+
+• to- •
+
+'
+
+,
+
+C
+R
+Y
+P
+T
+O
+N
+-M
+
+The' I n f o r m a t i o n S t r E C I M
+Technology I n f o S t r E a m
+
+The information stream technology infoStream is intended
+for the tasks of Information retrieving from the intemet sites, its
+processing, systematization. generalization and providing
+access to it.
+
+Scanning
+
+This technology provides:
+• Obtaining of the current news from the Internet;
+• Forming of subject-matter information channels which
+are characterized by completeness of the information;
+• Forming of personal information channels through special inquiries;
+• Interactive access to information from workstations in
+search and viewing modes through corporate network;
+• Forming of automatic subject-matter digests, construction of the phenomena interrelations tables and phenomena
+distribution diagrams.
+The core of the InfoStream content engine Is the
+information retrieval system InfoReS-XL. The system provides
+Information processing in three basic modes:
+• Information selective distribution (1SD);
+• Interactive access to full text databases;
+• Content monitoring.
+
+-43•
+
+InfoStream
+
+The information
+Collection and Processing
+Stream-Center
+
+The Stream-Center
+of the Access
+to DataBases
+
+The ISD mode is used in two basic processes - for the
+inforrnation search on stored users' inquiries and for the classi•
+fication of the system input information.
+The mode of the interactive access to the databases is
+offered as corporate decision. As the basis for its implementation there are programmed and technological means of databases with documents received from the Internet ovation and
+of providing an access to them. In this mode data reviewmg,
+search and displaying are provided for the users. In addition,
+users have the opportunity to refer to the original documents in
+the Network.
+Perspective direction of the InfoStream technology
+development today is the content-monitoring • means to
+accomplish the tasks of forming of subject-matter information
+channels, digests, phenomena interrelations tables and separate phenomena distribution diagrams,
+
+The Content Monitoring
+Stream-Center
+
+• Fast access to the most topical information as it appears
+in the Internet;
+• Work with a checkable set of sources;
+• Connecting of the operators workstations to information
+space, duly reminding and pushing the profile information;
+• Providing operators purposeful work, elimination of the
+
+attention &vetting factors that are intrinsic to the Internet;
+• Control the Information retrieved by corporate network•,
+workstations;
+• Reliability of the information delivery;
+• Protection of the data, confidentiality.
+Due to the high search characteristics of content engine
+(efficiency, completeness and relevance), as well as the presence of the indivisible protected interface, the IntoStream tech.
+nology promotes significant Increase of the efficiency and qual•
+ity of analytical work.
+C O M P R E H E N S I V E EIOLLITION FMR I N T E R C E P T I O N A N D
+
+In comparison with traditional technologies the introducting of the InfoStream provides following advantages:
+
+MONITORIN
+
+C RY P T O N - M L t d ,
+Te l . , 3 8 0 4 4
+
+A N A LY S I S
+C
+R
+Y
+P
+T
+O
+N
+-M
+
+Analysis
+Workstation ( A 0 W )
+
+Purpose:
+AOW is designed for the technical analysis and automatic
+or manual demodulation setting of the facsimile and modem
+messages parameters, which are incorrectly processed by a
+facsimile or modem server, or are prodessed with many errors
+or are incorrectly classified and are sent by the operator for reprocessing.
+The software package of a analysis operator work station
+Includes more than 100 functions, on the basis of which the
+following operations of the analysis are possible:
+• Time and frequency analysis of sessions;
+*Correction and editing of sessions (frequency shift,
+change of sampling frequency, conversion of a record format,
+filtering of signals etc.);
+• Demodulation of facsimile transmission;
+• Demodulation of modem transmission.
+
+The programs of demodulation of modem transmissions.
+The programs of demodulation of modem lranSMISSiOnS
+provide demodulation of files of records of modem sessions.
+The program allows to process sessions appropriate to the following ITU-Ts recommendations:
+• V,21, V.22
+V.32bis, V.33, V.34. V.90;
+• V,42, V.42bis and MNP 1-5 protocols;
+
+•••t,
+
+-•••• 4 4 . • • 1 4
+
+The operator has a possibility over a wide range to
+change a tuning of parameters of demodulators (frequency
+carrier, type of the protocol, character rate, parameters of an
+echo-compensator etc.).
+
+The programs of a time-and-frequency analysis allow
+to:
+• view the time form of sessions and its spedral representation on areas which length is equal 128, 256, 512, 1024,
+2048. 4096, 8192 samples;
+• produce measurement time, amplitude and frequency
+characteristics of a signal with the help of cursor;
+• view variation of a signal spectrum in time.
+The programs of demodulation of facsimile transmissions,
+The programs of demodulation of facsimile transmissions
+provide demodulation of files of records of facsimile sessions.
+The program allows to process sessions appropriate to the following ITU-Ts recommendations:
+• V.27. V.27ter, V.29, V.17.;
+• Processing of fax sessions Group 3 (130 arid 14) and
+Group 4 (T.8);
+• Decoding and error correction of MH, Mn, MMR, ECM
+protocols and proprietary protocols of the fax machines manufacturers.
+
+Visual inspection of the program of demodulation is provided. The basic information on operation of the demodulator
+is displayed on monitor screen as signal constellation. The
+additional information the operator gets on the screen of Monitor in form of the messages about status of an Output tile of the
+task and condition of the demodulator with possibility of review
+of results of demodulation in bit form.
+The programs of correction and editing of communication sessions allow:
+• to set a frequency shift;
+• to adjust a sampling rate;
+• to convert record formats;
+• to change amplitude;
+• to insert pauses;
+• to generate tone and OTMF;
+• to eliminate a constant component;
+• to carry out a filtering of a session.
+
+C O M P R E H E N S I V E S O L U T I O N F O R I N T E R C E P T I O N ANID
+mONiTORiNSiN TELECOMMUNICATION NETWORK-5
+
+C RY P TO N - M L t d .
+te 1-a8 04144 6670 F a x +380442514133. M a iI: syrolP4okrpack Alet
+
+Aimmw•
+wffifilla
+
+•••10 0
+-,
+
+A V I O N
+
+C
+R
+Y
+P
+T
+O
+N
+-M
+Purpose
+The system is intended for reception and processing of sessions transmitted in data networks.
+Components and Block Diagram
+
+Database Server
+• The addresses of interest table contains not lass than
+20, 000 records;
+• Search of the session-related and accompanying information of required sessions;
+• Possibility of generating and processing of complex and
+cross database queries;
+• Possibility of storage of up to 1, 000, 000 records.
+
+WAN
+
+d5F
+
+•q•A
+
+'4
+
+L„.1
+v r. r •
+
+L
+rm•
+
+• Temporary storage of the processed data;
+Remote Control Station
+• Remote control on WAN-LAN interface of the monitoring
+equipment installed at ISP nodes;
+• Functionality control of the monitoring equipment installed
+at ISP nodes.
+
+P
+
+Monitoring of data networks is based on processing of information transmitted in LAN/WAN lines of the INTERNET service
+providers (ISP).
+The Data Monitoring System is a geographically distributed
+system: the part responsible for input and preliminary processing
+of layers 1 - 3 of OSI ISO protocols is located in 1SP premises,
+and the part responsible for processing of sessions is located at
+a monitoring center. Both parts are connected between themselves by means of the local area network through WAN communication lines.
+The system consists of the following subsystems:
+• input Subsystem;
+• Subsystems of Processing Sessions;
+• Management and Administration Subsystems_
+The system may include a number of Input Subsystems,
+Which are responsible for monitoring LANANAN line of different
+ISPs.
+Structure and Purpose of Subsystems
+Input Subsystem
+• Reception of 32 simplex El trunks:
+• Reception of information on the Ethernet 10/100 Mb interface:
+• Detection of IF addresses of transmitting and receiving
+parties;
+• Selection of sessions by IP addresses with the table of
+selection not less than 16, 000 addresses), with assignment of
+an appropriate priority to the selected massage;
+• Selection of sessions by domain names (with the table of
+selection not less than 16. 000 names), with assignment of an
+appropriate priority to the selectee message;
+• Transmission of selected sessions to a monitoring center.
+Data Storage Server
+• Recording of up to 10 Gb of data transmitted from the
+monitoring equipment installed at ISP nodes;
+• Decoding and unpacking of the received sessions;
+
+File Server
+• Storage of session-related information of E-mail messages
+not less than 5 days;
+• Possibility of storage of 35 Gb of E-mail messages
+records.
+Code Translation Server
+• Automatic recognition of layers 5-7 of OSI ISO protocols
+and processing of session files with a total size of up to 10 Gb
+per day;
+• Generating output session files according to the original
+format of the intercepted files.
+Search Server
+• Recognition of file coding type ;
+• Recognition of the language used in an intercepted message;
+• File conversion to ASCII format;
+• Indexing of text files;
+• Search in text files for keywords and strings of characters
+(keywords combinations).
+System Administrator Workstation
+• System management and functionality control;
+• System Administrator controlStne work of operators,
+defines their tasks and distributes werldoad between them;
+• System Administrator generates information on the configuration of the equipment and software of the system and saves it
+in the database for use by other system components;
+• System Administrator generates the lists of the users and
+targets and saves them in the database;
+• System Administrator defines access rights of all users to
+resources and data of the system.
+Operator Workstations
+• Execution of the job defined by the System Administrator;
+• Generating search queries in the database for obtaining
+access to the recorded sessions and session-related information;
+• Analysis of sessions by listening to or viewing them:
+• Generating a report file about the contents of sessions
+after listening to or viewing them.
+COMPREHENSIVE SOLUTION FOR INTERCEPTION ANO
+M O N i T O R I N G I N T E L E C O M M U N I C AT I O N N E T W O R K S
+
+C RY P T O N - M L t d .
+Te1+1904445670B3. Fax 4804142514133. e-Mail: syroyeauk(pack lie/
+
+C
+R
+Y
+P
+T
+O
+N
+-M
+Purpose of the System
+The system is designed to extract and process voice,
+fax and modem sessions from digital trunks
+Composition of the System
+• Input Subsystems;
+• Database;
+* File-Server;
+* Fax/Data Processing Server;
+• OCR (Optical Character Recognition) Server;
+• Archive Server:
+• System Administrator;
+• Operator Workstations;
+• Print-Server.
+Extraction of Information From Duplex or Simplex Digital
+Trunks
+• The system can detect the following types of duplex or simplex digital trunks
+—G.703 HDE33;
+—V.35
+—Synchronous data (information plus clock cycles).
+• One Input Subsystem can handle from 4 to 8 two-way trunks;
+• Number of input subsystems - from 1 to 8.
+
+ing ITU-T recommendations:
+—V.27, V.27ter. V.29, V.17.
+• The supported:
+—MH, MR, MMR, ECM;
+—proprietary protocols.
+'Convert fax image into TIFF format and save in the required
+directory;
+• Fax-server can process up to 50 sessions simultaneously or
+more than 60.000 pages per day.
+Demodulation and Decoding of Modem Sessions in
+Leased and Dial-up Channels
+• Demodulation of modem sessions in leased charnels in
+accordance with the following ITU-T recommendations:
+—V.22, V.22bis, V.26, V.26bis, V.27, V.29, V.32, V.32bis,
+V.33;
+• Demodulation of modem sessions in dial-up channels in
+accordance with the following a n recommendations:
+—V.21, V.22
+• The following error correction protocols are supported:
+—ITU-T V.42 recommendation, MNP 1 through 4,
+• The following data compression protocols are supported:
+—ITU-TV.42bis recommendation, MNP 5.
+
+Processing of Signaling Data and Number Analysis
+• The system can detect and process voice, fax and modem
+sessions which are transmitted using the following signaling standards:
+—Telephone Signaling Standard #5, R1, R1.5, P2, DTMF,
+R2D, SSia, ISDN, EDSS.
+• Called and calling subscriber number can be determined;
+• Search of sessions by a complete or a partial number;
+• Database can store up to MOOD numbers each with relevant
+priority to supped session search by telephone number.
+
+Optical Character Recognition In Fax Sessions,
+Information Search in Recorded Sessions by Keywords (Key
+Expressions)
+• Recognition of a text header in a fax session;
+• Detection of graphic images and their comparison against
+graphic images bank;
+• Recognition of English. German, French and Russian letters;
+• Recognized characters are written to a file in ASCII code;
+• Scanning of ASCII tiles for keywords and character strings
+(keywords groups);
+• Automatic creation of a report (annotation) about a fax session.
+
+Detection of Session Typo (Voice, Fax or Modem) and
+Recording of Sessions
+
+Search, Playback and View Recorded Sessions by
+Operators
+• Operators perform tasks detemlined by System
+Administrator;
+• Operators can create database search queries to access
+recorded sessions and session-related information;
+'
+• Production of a report lite about session contents alter playing back or viewing the session.
+
+• Classification of sessions by type: voice, tax, modem in real
+time:
+• Possibility of filtering sessions by type (voice, fax, modem);
+• The system can compress voice sessions in 2:1, 4:1 or 10:1
+mita;
+
+Storage of Session-Related and Additional Information
+• Session-related and additional information is stored in relational database;
+• Database interacts with all system components and handles
+search queries of Operators and System Administrator;
+• Numbers of interest list can contain at least 20,030 entries;
+• Search of session-related and additional information of
+required sessions;
+• Possibility to create and handle advanced and cross queries:
+• The system can detect Database tables fill and automatically
+delete sessions and entries using a predetermined atgorithm,
+• Automatic archiving (recovery) of Database tables:
+*Automatic backup of information in Database tables.
+Demodulation and Decoding of Fax Sessions
+• Processing of Croup 3 ( 730 and 1.4) and Group 4 (T.6) fax
+sessions;
+• Demodulation of fax sessions in accordance with the follow-
+
+System Management, Functionality Monitoring and
+Maintenance
+• System management, functionality monitoring and maintenance are preformed from System Administrator workstation;
+• System Administrator controls Operators, determine their
+tasks and workload;
+• System Administrator determines hardware and software
+configuration of the system and stores this information in the system
+Database to make available to the other system components;
+• System Administrator determines user groups and target lists
+and stores them in the system Database;
+• System Administrator determines access rights for all users
+to the system resources and data.
+C O M P R E H E N S I V E R V I_LITION F O R I N T E R C E P T I O N A N D
+M O N I T I O R I N O I N T E L E C O M M U N I C AT I O N N E T W O R K S •
+
+C i t Y P TO N - M L t d .
+1
+
+C
+R
+Y
+P
+T
+O
+N
+-M
+Multichannel system of reception and information processing of satellite channels POISK
+The POiSK system is a multichannel system of reception
+and information processing of satellite channels which provides
+radio monitoring of the information transmitted in satellite communication systems channels such as Intelsat, Eutelsat, etc.),
+The POISK system provides signal reception in L-band,
+demodulation, decoding and descrambling of up to 80 carriers
+simultaneously and transmission of information to a local area
+network (LAN) for further processing.
+
+SPECIFICATION
+Number of chanr10
+
+j_.-p to 8 0
+
+Turdoz;
+Nontilta] Rozo•ive Loyd:
+
+950 Niliz to 2,150 M I L Rese] olio a bcttcr than 1 kliz
+
+Riinio v t
+nonnnal
+
+. 11
+
+-45 dBut ] 0 llogilS192a) (dLint)
+
+R - data tatc• in Kbp.c.
+•25 clEid
+25 olifilN
+7
+
+Ma s Input Power L e d
+Enput Imptdiincc
+,Inpul Rerorn 1 oss
+
+I ype I', 1Ethernet I 0011lose R.1-1I tor IA) chrinr,e1 group;
+
+I n p u t COIITHICCOI
+
+()Lout coltoe•016/:
+
+nod 55•422 for mozry chino&
+
+CLITIICT A cquislitcal
+Se-sequi
+
+P•rogrammable op to z2 Mti?.. in NM. He s t e
+I ieoond, with 9501i• probability. rollo will g AltOrt-terrIt
+CRItiligt
+
+Min 1 b-rNo
+
+4.0 dB, Viurtit, operation
+
+Scroonbhrig
+MiKtulation Formul
+Dais R Lilti
+
+'
+QRSk.' BPSK ( P S K JO ()4At m tiewei
+04 to all 92 Klips IDI'SK. 1or tigitcs - nptian:i
+32 to 1024 Kbps BPSK
+
+FEC.
+
+IL!, 3.'4 rod 7 1 rote Constraint Lertath 7 Vitabi Jractsal
+
+ikco4ing
+
+Lh1tllA
+
+12, 1 4 and 715 row DVB compliant ( 0 i 1 C 3 I C
+Solomon.' N'iterbi Decoding t o p t
+Oilier
+
+so)
+no••• 0.704
+•time slot
+I SG - 260V (or 5ti-Il2 v ),, frequency 4/ -f., H e
+
+Ritming
+Power
+
+N:SN
+Fig. 1 Appearance of the PCISK system rminimum configuration)
+and its application In a radio monitoring system ot satellite communication channels
+
+LNB L N B
+
+LNB
+
+&nen*
+,IIsh
+Cnnverter C.X.Au Ks blind
+In L.boncl
+
+• SWITCH •
+
+The POISK system represents a hardware-software complex with its main components combined by a local area network
+(LAN) that provides optimum resource allocation of the system,
+easy upgrade of resources and functions, transparent multipoint
+access to output data streams on the part of end users.
+The POISK system kernel is formed by up to 8 sections of
+preliminary processing and distribution of data flows (SPDS),
+Each SPDS section is responsible for reception, preliminary processing and routing of data flows to LAN_ Each SPDS section
+can process up to 10 satellite channels (input data flows), form
+output streams of data, perform their preliminary processing and
+routing them to 100 M i ff s LAN segment_
+The system provides effective maintaining of operating
+temperature inside its industrial case and early diagnostics of a
+voltage failure, control of UPS resources and correct closing of
+the operating system at reduction of these resources before
+critical values,
+
+tobomd• L b a n d
+
+System
+"Poisk"
+LAN
+
+Proreessin0 system
+
+gagoomomm0=7111111017mmommer
+rmonstion
+
+roisibkcolirigurktiontla. POISy Svstem 0E15E1111in Dri the Cationic r R o o t h - m u t it
+2
+3 4
+5
+6
+1
+f l
+[ Typt (iron:kr
+-10 1 1 • 2 0 2130 1 1
+41•50 51•150 161-70 7 1 I Number
+c h a nofn e l s
+•
+1
+8
+2
+3
+4
+5
+5
+r Nurniburso f sPns scetkmi
+Narther of LIPS-71:10BA
+2
+2
+2
+1110S-143011A
+Numberof LAN-swrrca
+I
+[
+,
+2.7
+31
+36
+_IS
+us
+
+1
+
+1
+
+c o m r s t E H E N u r v c E I D L U T I O N F O R I N T E R C E P T I O N A N D
+11 M N I T D R I N G I 4 T E L E C O M M U N I C A T I O N N I E T W O R K E
+
+C RY P T O N - M L t d .
+Tel.+38D444667083, Fax *3E0442514131 e-Mail B r a .
+
+/
+, -11101s
+I 111
+
+C
+R
+Y
+P
+T
+O
+N
+M
+-
+
+/ • -----
+
+.
+
+NIft,
+
+Inmarsor Monitoring
+Systa
+
+COMPREHICNSIVE soLuTiorsi FOR INTERCEPTION AND
+M O N I T U R I N G I N T E L C C O N I N I U N I AT I O N NETWCIRKEI
+
+C RY P TO N - M L t d .
+Te l . * 3 8 0
+
+C
+R
+Y
+P
+T
+O
+N
+-M
+The system is designed to extract and process voice, fax,
+modem sessions and Sort Message Service (SMS) from GSM
+Networks.
+System Architecture and Block Diagram
+Monitoring of GSM networks is based on processing E l
+trunks between BSC and MSC.
+GSM Monitoring System is territorially distributed: the part of
+the system responsible for reception and processing of El trunks
+Is located in proximity to MSC and the part of the system responsible for processing sessions is located at the Monitoring Center.
+Both parts of the systems are connected via LAN over WAN channels. The system consists ot the following subsystems:
+• El Trunks Processing Subsystem (iodated at the MSC):
+• Session Processing Subsystem (located at the Monitoring
+Center);
+• Management Subsystem (located a t the Monitoring
+Center).
+The system may include several E l Trunks Processing
+Subsystems located at various MSCs.
+
+Subsystems Architecture and Function
+El Trunks Processing Subsystem consists of the following:
+• El Trunks Reception and Processing Station:
+• A-interface Processing Server;
+• El Trunks Cross Connect;
+• Networking Equipment.
+The input of the El Trunks Processing Subsystem consists
+of duplex E l trunks (ITU-T G.703) with A-interface communications to carry traffic between BSC and MSC.
+The output of the subsystem is generated as a result of El
+trunks processing in the following forms:
+• voice sessions recorded on disks in WAV formal;
+fax sessions recorded on disks in TIFF format;
+• modem sessions or texts recorded on disks;
+• Short Message Service (SMSI texts recorded on disks.
+Session Processing Subsystem consists of the following:
+• Database Server;
+• File Server;
+• Archive Server:
+• Operator Workstations;
+• Target Location Station;
+• Networking Equipment.
+' Database Server Is designed to store session-related infix' mation about all sessions, received and processed by the monitoring system.
+
+File Server is designed to receive and temporarily store files
+of sessions recorded by E l Trunks Reception and Processing
+Station and retrieved by Database Server for Operators In accordance with their workpans.
+Archive Server is designed for long-term storage of session
+files, processed by Operators.
+Operator Workstations are designed to:
+• access Database Server to retrieve information:
+• playback WAV-files of voice sessions;
+• display and view fax images:
+• display modem, data and SMS texts.
+Target Location Station is designed to visualize target location while the session is in progress. Target location can be determined as accurate as a cells sector.
+Management Subsystem consists of the following;
+• System Administrator Workstation;
+• System Engineer Workstation.
+Management Subsystem functions:
+• monitor functionality of system components
+• perform fault monitoring and signaling, fault location and
+handling;
+• create workplans for Operators, prepare to distribute workplans to Operator Workstations;
+• generate reports about system performance,
+Technical Specifications
+• The system can process communications traffic with priority screening to the following types of SeSsiOnS: voice. (telephone),
+fax, modem data, Short Message Service. The system operator
+can filter sessions by any typo of data transmitted over A-Interface,
+e.g. telephone number (MS ISDN), IMSI, IMEI, Cell ID, date, time,
+session duration, etc. All data received by the system can be
+processed by operators. The system supports 256 levels of priority,
+• The input capacity of the system - up to 128 two-way El
+trunks,
+• The system can simultaneously record, process and store
+for predetermined time all sessions from all input trunks.
+• The system provides compression of input trunks In 5:1
+ratio with subsequent playback possibility using standard sound
+card and proprietary as well as standard software.
+• The system can process Group 3 fax sessions with MH,
+MR, ECM, MMA coding schemes and all functions of lax communications in accordance with ITLI-T 130, TA, 1 6 recommendsbons. All fax images are converted into standard graphic TIFF formatand can be viewed by proprietary and standard software.
+• The system can process modem data utilizing ITLI-T V.42
+and V.42b1s protocols and MNP2 through 4, MNP5 protocols
+developed by Micr000m.
+• The system supports remote users with abridged version of
+the sesSion processing subsystem; such remote users perform
+local tasks a n d establish communications w i t h t h e m a i n
+Monitoring Center. • ,
+! To minimize the size of El Trunks Processing Subsystem
+another version of the system can be made available - for processing trunks with A-ter interface.
+• The system can be fitted wiih additional hardware and software to meet certain operational requirements.
+
+C O M P R E N E N E I LV E E L U T I O N F O P I N T K P O E P T I O N A N D
+MONITORINUIN T L I - C D M M U N I C AT I D N NLTWORKU
+
+C RY P I O N - M L t d .
+Tel A300444667083, Fax +380442514133, s p e v O u l c p a c K n o /
+
+

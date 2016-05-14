@@ -1,0 +1,392 @@
+DIRECTOR
+
+™
+
+Data Monitoring Switch
+
+Features
+
+•	 Tap, Aggregation, Regeneration, Matrix
+Switching, and smart filtering in a single device
+•	 Four 10-Gigabit XFP ports and 34 1-Gigabit ports
+•	 In-line and SPAN network modules
+•	 SFP monitor port interfaces
+•	 Daisy-chain up to 10 chassis using two 10-gigabit
+ports (rear of chassis)
+•	 TapFlowTM  multi-layer filtering engine
+•	 More than 1,000 filter elements per chassis
+•	 RMON statistics (packet count, utilization, etc.)
+•	 Indigo™ management software
+•	 USB software upload port
+
+Benefits
+
+•	 Leverages monitoring tool investments
+•	 Improves network visibility and security threat
+management
+•	 Relieves oversubscribed tools by filtering
+•	 Compatible with monitoring tools and intrusion
+detection and prevention systems from all major
+manufacturers
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Net Optics Director is a “Smart Filtering”
+appliance that directs traffic of interest to
+monitoring tools. Monitor as many as 26
+SPAN ports or 13 in-line links with up to
+11 monitoring tools.
+TapFlowTM filtering
+technology enables you
+to select traffic of interest
+for each tool based on
+protocols, IP addesses,
+ports, and VLANs.
+
+Director provides access capabilities
+you need to leverage your monitoring
+tools across your entire network while
+streamlining the amount of data the tools
+need to process. It is a versatile component
+of a monitoring access platform (MAP) for
+improved network visibility and security
+threat management across the entire
+network.
+
+Efficient Monitoring Access
+Today’s networks are delivering more
+services and carrying greater amounts of
+multi-protocol traffic at higher data rates.
+A single set of wires now carries data,
+voice, and streaming video simultaneously.
+Increased security threats and tighter
+regulatory compliance requirements further
+complicate network operations.
+
+tools to be deployed across a large number
+
+of network links, with remote, centralized
+control of exactly which traffic is directed to
+each tool. Using browser-based or platformbased software with friendly graphical user
+interfaces, tools are easily and instantly moved
+from one link or set of links to another without
+unplugging and plugging cables and physically moving devices. There is no need to wait
+for a maintenance window or get approvals for
+changing the network configuration, because
+once Director is in place, it is completely
+transparent to the network. Even if power is
+removed from both of the unit’s redundant
+power supplies, the fully passive design
+ensures that in-line network links remain open
+and network traffic keeps flowing.
+
+Indigo™ Management Software
+Net Optics provides a versatile console
+for managing and monitoring any number
+of Director and other Net Optics devices.
+Its easy-to-use, Windows‑based graphical
+user interface (System Manager) makes
+configuring and monitoring Director simple,
+and password protection ensures security.
+
+Maintaining network security and
+performance in this environment means
+monitoring more points in the network, for
+more detailed information, and for different
+types of data. As a result, monitoring tools
+are oversubscribed and multiple groups with
+various responsibilities compete for use of
+the tools and access points.
+Director answers the need for more efficient
+monitoring access by enabling a pool of
+
+Net Optics® is a registered trademark of Net Optics, Inc. Copyright 1996-2009 Net Optics, Inc. All rights reserved. Additional company and product names may be trademarks or registered trademarks of the individual companies and are respectfully acknowledged. PUBDMCD Rev. 2, 05/09
+
+2 XFP
+Configurable
+10GbE Ports
+
+10 SFP
+Monitor
+Ports
+
+1
+
+Director ™
+
+2
+
+3
+
+4
+
+DNM with 10/100/1000
+Copper Network Ports
+(6 In-line or 12 Span Ports)
+
+DNM with SX Fiber
+Network Ports
+(6 In-line or 12 Span Ports)
+
+5
+
+A
+
+A
+
+B
+
+In-Line
+10/100/1000
+
+10 LINK
+100 ACT
+1000
+
+In-Line
+GigaBit
+
+A
+
+B
+
+A
+
+B
+
+A
+
+B
+
+B
+2
+1
+
+www.netoptics.com
+
+6
+
+7
+
+8
+
+9
+
+1
+
+10
+
+Front view
+
+Management
+Port
+
+RS232
+
+Rear view
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+Network Ports
+
+2 XFP
+Daisy-chain
+10GbE Ports
+
+INPUT
+
+Power Supply
+Module
+
+SERIAL
+NUMBER
+
+IDS
+
+Analyzer 1
+
+Analyzer 2
+
+Forensic
+
+RMON 1
+
+RMON 2
+
+Power Supply
+Module
+
+OUTPUT
+
+Model: Dual Gig Copper Port Agg Tap, -48V
+P/N: PAD-GCU-48V
+
+RS-232 Port
+
+3
+
+2 Director Network Module (DNM) Slots
+
+Monitor Ports
+
+Management
+Port
+USB Port
+
+2
+
+XXXXXX
+
+SR or LR
+Fiber XFP
+Modules
+
+Redundant Hot-swappable
+Power Supplies
+
+Application Diagram
+
+Specifications, DNM
+
+Specifications, chassis
+Operating
+
+Operating Temperature: 0˚C to 40˚C
+Storage Temperature: -10˚C to 70˚C
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Mechanical
+
+Dimensions: 1.6” high x 15.65” deep x 19” wide
+Mounting: Surface or 19” rack mount (1U)
+Weight:
+DIR-7400 (25lbs)
+Dir-5400 (24lbs)
+Dir-3400 (23lbs)
+DNM (1.5)
+
+Connectors
+
+Network Port Slots: (2) Director Network Module (DNM)
+Monitor Ports: (10) SFP
+Configurable 10Gigabit Ports: (2) XFP
+Daisy-chain (uplink) 10Gigabit Ports: (2) XFP
+Management Port: (1) RJ45 10/100 Copper Network
+Configuration (CLI) Port: (1) RS-232 DB9
+USB Port: (1) Supports thumb drives for software upload
+Power: (2) AC universal
+
+Electrical Specifications
+
+Power: 100-240VAC, 2A, 47-63Hz (Japan: 100‑125VAC,
+~120 VA, 50-60Hz), -48VDC available
+
+Indicators
+
+(All ports) Link LEDs (with speed indication on Copper ports),
+(All ports) Activity LEDs
+(1) Alarm LED
+(2) Power LEDs
+
+Performance
+
+Hardware throughput: 74Gbps/34Gbps
+TapFlow: More than 1,000 filter elements per chassis; filter by
+IP source address , IP destination address, MAC source address,
+MAC destination address, source port, destination port, protocol,
+network port or port group, VLAN, utilization threshold
+RMON statistics: Current utilization, peak utilization, peak time,
+total packets, total bytes, CRC errors, collision packets, oversize
+packets, undersize packets
+Alarms: Programmable utilization threshold alarm for each
+network and monitor port
+
+Indigo™ Management Software
+
+Net Optics Web Manager—compatible with all major Web
+browsers
+Net Optics System Manager—compatible with Windows XP,
+Windows 2000, and Windows 98
+SNMP v3 support
+
+Certifications
+
+Fully RoHS compliant
+
+Part Numbers
+
+DIR-7400: Director Main Chassis with 10 SFP monitor
+ports, 2 XFP 10GbE ports, 2 XFP uplink ports
+DIR-5400: Director Main Chassis with 10 SFP monitor
+ports, 2 XFP uplink ports
+DIR-3400: Director Main Chassis with 10 SFP monitor
+ports
+
+Copper Interfaces
+
+(12) RJ45 Network Ports 10/100/1000Mbps
+(6) In-line or (12) SPAN depending on model
+22-24 AWG unshielded twisted pair cable, CAT5e or better
+recommended
+
+Fiber Optic Interfaces
+
+(12) Gigabit SX Network Ports, LC type
+(6) In-line or (12) SPAN depending on model
+Fiber Type: Corning Multimode 50 or 62.5/125μm, 850 nm
+Transceiver: GigaBit SX 850nm, VCSEL, supports 62.5/125μm
+Transceiver: GigaBit LX 1310nm or 1550nm, VCSEL, supports
+8.5/125μm
+Safety: Class 1, eye-safe, laser emitter type; conforms to the
+applicable requirements per US 21 CFR (J) and EN 60825-1;
+also UL 1950 applications
+
+Part Numbers
+
+10/100/1000 Copper In-Line Module: DNM-100
+10/100/1000 Copper Span Module: DNM-110
+GigaBit SX Fiber In-Line Module: DNM-200
+GigaBit 50μm SX Fiber In-Line Module: DNM-220
+GigaBit SX Fiber Span Module: DNM-210
+GigaBit 50μm SX Fiber Span Module: DNM-230
+GigaBit 1310nm LX Fiber In-Line Module: DNM-300
+GigaBit 1550nm ZX Fiber In-Line Module: DNM-320
+GigaBit 1310nm LX Fiber Span Module: DNM-310
+GigaBit 1550nm ZX Fiber Span Module: DNM-330
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+5303 Betsy Ross Drive • Santa Clara, CA 95054	
++1 (408) 737-7777
+Net Optics® is a trademark of Net Optics, Inc.
+Copyright 2009 Net Optics, Inc. All rights reserved.
+
+

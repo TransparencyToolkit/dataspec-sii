@@ -1,0 +1,107 @@
+DATA SHEET
+
+PACE
+PROTOCOL & APPLICATION CLASSIFICATION ENGINE
+ipoque's Protocol and Application Classification Engine (PACE) uses a combination of deep packet inspection (DPI)
+technologies, including pattern matching, behavioral and statistical analysis, to reliably detect protocols even if they use
+advanced obfuscation and encryption techniques. It helps network equipment and software vendors to enhance their
+products with powerful and proven layer-7 protocol management capabilities. PACE has been optimized for performance and classification reliability. It is highly flexible and can be integrated in any existing platform such as firewalls,
+network security appliances and lawful interception systems.
+
+APPLICATION SCENARIOS
+Next-Generation Firewalls &
+WAN Optimization Controllers (WOC)
+Reliably classify network protocols and apqlications, independent of TCP and UDP ports, for
+network access control
+Traffic Analysis, Accounting & Billing Systems
+Collect detailed statistics based on actual
+protocol and application usage for network
+resource planning, billing and accounting
+
+Bandwidth Management
+Network bandwidth management t o provide
+quality of service (QoS) i n fixed-line and mobile
+networks with per-protocol and per-application
+bandwidth priorities, guarantees and caps
+Lawful Interception
+Reliably classify intercepted traffic for negative
+and positive filtering, protocol-based load balancing and improved post-processing
+
+1 HIGHLIGHTS
+
+I
+
+ADVANCED DEEP PACKET INSPECTION ENGINE
+PACE is a software library which detects and classifies protocols and applications from a network packet stream. It uses o wide range of deep packet
+inspection (DPI) technologies, including pattern matching, behavioral,
+statistical and heuristic analysis. Based on this combination, PACE is able
+t o reliably detect proprietary, encrypted and obfuscated protocols with a
+very low false negative rate and virtually no false positives.
+PACE - Beyond Protocol Detection
+Sub-protocol detection allows to differentiate between various connection types initiated by the same application, such as audio, file transfer,
+encrypted and unencrypted
+Symmetric and asymmetric traffic detection
+Decapsulatestunneling protocols with arbitrary encapsulation depth
+Statistical traffic measurements: TCP SYN to SYN/ACK and SYNIACK t o
+ACK round-trip time measurement, TCP out-of-order counter
+RTP performance rneosurements provide jitter and packet loss
+information
+Metadata extraction for HTTP, SIP and SSL in real time
+RTP flows are optionally correlated with the corresponding protocol that
+initioted them (e.g. SIP, MSN, Yahoo)
+Low-impact signature upgrade by flow state preservation before reboot
+Custom Protocol Definition
+Custom Protocol Definitions allow t o extend the PACE signature database with a combination of the following additional layer-4 and layer-7
+criteria:
+Layer-4 protocol (i.e.TCP, UDP)
+Layer-4 ports (lists and ranges of source ond destination ports)
+Layer-7 protocol
+HTTP host list or URL list for HTTP-based layer-7 protocols
+Traffic direction (i.e. inbound, outbound)
+
+Less than 2,000 CPU cycles on average per complete
+protocol detection
+Less than 1,000 CPU cycles on average per flow forthe built-in flow
+trocking code
+Fastpath implementatiori that analyzes only as much packets per flow
+OS necessary for a reliable protocol detection; later packets simply pass
+by the detection engine saving valuable CPU resources
+Memory Footprint
+392 bytes per flow
+816 bytes per network user or subscriber
+50 kbytes for initializotion data structures
+The entire memory is allocated a t initialization. During packet processing,
+PACE does not dynamically allocate any memory.
+
+FLEXIBLE INTEGRATION IN ANY TARGET PLATFORM
+Runs on virtually any hardware orchitecture with at least 32-bit processor and C compiler
+Can be used as a dynamic or static library in user space or as a kernel
+module in kernel spoce
+32-bit & 64-bit compatible
+Little & big endian architectures
+Runs on any Linux and Windows environments
+100% proprietary code provides clean licensing without CPL compliance
+Issues
+Optional CPL-compliant Linux Netfilter wrapper for user space
+operation
+Integrated connection/session tracking engine; existing implementations can also be used
+
+FIELD-PROVEN &WIDELY DEPLOYED
+HIGHLY OPTlMlZED IMPLEMENTATION
+Performance
+Developed entirely in C
+High throughput for deployment in core network links
+operating a t speeds of 10 Cbit/s and beyond
+Integrated highly optimized flow tracking for millions of concurrent
+connections
+
+ipoque GmbH, Neumarkt 29-33.04109 Leipzig, Germany
+Phone:+49 341 59403 o Fax: +49 341 59403 019
+
+PACE is the heart of ipoque's PRXTraffic Manager and DPX Network Probe
+with over 2 0 0 installations in more than 50 countries across the globe.
+PACE has also been successfully integrated in third-party firewalls, WAN
+optimization controllers, lawful interception systems and 3C/4C mobile
+network data gateway systems.
+
+

@@ -1,0 +1,93 @@
+Spectrum Scanner
+SS
+
+CONFIDENTIAL
+– Subject
+to change
+withoutwithout
+prior notice!
+CONFIDENTIAL
+– Subject
+to change
+prior notice!
+
+1
+
+Spectrum Scanner (SS)
+General Overview
+The Spectrum Scanner is a lightweight, portable and state of the art 3G or UMTS spectrum
+Scanning Tool. Featuring the latest fast scanning bespoke receiver technology, the SS is a
+standalone system designed to work with any
+UMTS manipulation system on the market today.
+Using optimized scanning technology, the SS
+will fully decode all the 3G or UMTS information required for the configuration of a 3G or
+UMTS IMSI grabber.
+The Spectrum Scanner hides the complexity of
+3G system manipulation to provide the information required in a simple easy to understand
+format. This has the added benefit of reducing
+the training requirement for new operators.
+Main Features
+• Very fast scan speed using bespoke receiver technology
+• Simple Graphical User Interface (GUI)
+• Capability to scan all channels in a single frequency band and decode all SIBs for
+up to 40 cells across up to 12 UARFCNs within 120 seconds
+• Scan nominated channels/UARFCNs
+• Scan for nominated scrambling code on specified UARFCN
+• Display of total Received Signal Strength Indication (RSSI) per UARFSN centre frequency
+• Display of Received Signal Code Power (RSCP) per scrambling code
+• Display of interconnectivity of Neighbours
+• Scan all channels within frequency band for channels in use
+• Read MIB and all broadcast SIBs transmitted on the P-CCPCH, for each detected
+cell
+
+System Modes
+Complete Scan
+
+Scan all channels within frequency band for UMTS channels in use
+Fast Scan
+Use previously stored frequency information
+Network Monitor
+Takes the input of the Complete or Fast Scans and provides full analysis of 3G neighbours
+Recommend Cell Emulation Tales of outrput of the complete or Fast Scans and recomends in order of the best cell to emulate
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Key Specifications
+Function
+Channel Range
+Sensitivity
+Supply Voltage
+Power Consumption
+Antenna Connector
+Receiver Unit
+Operating Temperature
+Storage Temperature
+Display Device
+Interfaces
+
+Scan all channels in specified frequency band for active
+UMTS
+UMTS Band 1 (1200MHz)
+3 GPP TS25.101 compliant
+12Vdc or 24Vdc
+<60W
+SMA female
+W 323mm x H178mm x D288mm
+4kg
+- 5°C to + 45°C (23°F to 158°F)
+-10°C to + 70°C (14°F to 158°F)
+Panasonic Toughbook CF 19
+RJ45 Ethernet
+USB
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+

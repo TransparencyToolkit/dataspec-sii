@@ -1,0 +1,305 @@
+1 FACT SHEET
+
+Simple, intuitive display and control of
+one or more Blighter radars
+Microsoft Windows based
+ESRl ArcGlS based mapping engine
+User definable alert and exclusion
+zones
+Automatic slew-to-cue of Pan/Tilt
+camera systems
+Runs on PC workstations, servers or
+ruggedised laptops
+Automatic selection of background
+maps
+Continuous record and playback
+facility for post-event analysis
+Example BlighteNiew HMI 2 screen-shot
+
+BlighterView HMI 2 is a complete PC-based software application for displaying and
+controlling multiple Blighter radar units and associated peripherals. BlighterView HMI 2
+provides users with an intuitive and simple display allowing all users to obtain the best
+performance from their integrated Blighter surveillance system.
+
+BlighterView HMI 2 provides users with a simple
+interface to control and view one or more
+Blighter radars. Additional controls are available
+for advanced users to optimise the radar settings
+and the HMI display characteristics for specific
+applications.
+
+Radar targets are clearly identified as coloured
+markers overlaid onto a background map with key
+target characteristics available on a mouse click;
+including target location, speed and size. The colour
+of each target marker can be configured to represent
+target speed and direction or target size, allowing
+the operator to priorotise the targets to be observed.
+The user can select the duration of 'snail-trail' tracks
+that are displayed, allowing the path of the target to
+be plotted and predicted. BlighterView HMI 2 can
+control a variety of high-performance camera and
+thermal imaging systems allowing the user to
+automatically cue the cameras to the target location.
+To enable un-manned operation, BlighterView HMI 2
+includes user-definable alert and exclusion zones.
+An intruder entering an alert zone will generate a
+visible and audible alarm thereby alerting the
+
+Ten Years at the Frontier of SecurityTM
+
+operator to the event. Exclusion zones allow targets
+to be ignored within defined areas so that they do
+not distract the operator. Zones may be overlaid
+and prioritised to select or ignore specific target
+characteristics such as size and speed.
+BlighterView HMI 2 operates on a standard PC or
+laptop running Microsoft Windows. Typically, up to
+six Blighter radars may be displayed simultaneously
+on a single HMI. Each radar can be controlled
+independently to optimise it for its environment. For
+fixed installations each radar may be manually located
+on the background map, however portable radars
+may use their internal GPS receivers and compass to
+locate themselves automatically on the map.
+BlighterView HMI 2 uses an ESRl ArcGlS mapping
+engine.
+BlighterView HMI 2 offers the capability to display
+the ground clutter map produced by the Doppler
+radar. The ground clutter map shows where radar
+reflections from static objects have been received
+and may be overlaid onto the background map to
+help easily identify radar shadow areas and predict
+ground cover.
+
+&Blightere
+Surveillance Systems
+
+Screen-shots
+
+Example Blighterview HMI 2 screen-shot (Arabic language)
+
+Example Blighterview HMI 2 screen-shot (Korean language)
+
+Specification
+Sensor Interfaces
+m Radar interface: Blighter radar QZ
+format over TCP/IP socket connection
+m
+
+m
+
+Camera: Pelco-D and Qu~ckSet
+protocol for htgh-performancecamera
+and thermal lmaging systems
+Other industry standard camera
+interfaces available - please contact
+your local sales office
+
+Host System
+Processor
+
+m
+
+m
+
+Hard drive
+
+m
+
+Normal use (minimum): 100 GB
+
+-
+
+Data record~ng(mlnlmum): 1 TB
+
+Graphics
+Minimum: lntel Graphics
+
+-
+
+-Typical: nVidia or AT1 dedicated
+graphics chip with at least 1 GB of
+dedicated memory
+m
+
+m
+
+Audio
+- Min~mum:
+on-board (AC97)
+Networking
+Mlnimum: 100 Mbit
+
+-
+
+Ideal: 1,000 Mbit
+
+1366 X 768
+Ideal: 1920 X 1080
+
+m
+
+Radar control interface
+
+- Radar mode selection
+
+Multi-languagesupport: English,
+Korean and Arabic (all others on
+request)
+
+-Wind compensation
+- Sensitivity level
+
+Rain filter
+Maps & Charts
+- ESRl ArcGlS mapping, including
+Open Street Map (OSM)
+-
+
+m
+
+m
+
+Zones
+-
+
+General controls
+Pan, zoom, rotate, default-view
+- Enable camera
+
+Select either alert or exclusion type
+zone
+- Priority ordering
+- Associate sound
+
+-
+
+Main map display area with radar
+scan sector and camera Indicator
+- Pop up target information box
+-
+
+Install and name each Bl~ghterradar
+(IP address and port No.)
+
+-
+
+Read or set position and rotation of
+each Blighter radar
+
+Camera set-up options
+HMI display settings including:
+Map, target marker and clutter map
+
+-7
+
+with each zone
+
+-
+
+Define min and max velocity for each
+zone
+
+-
+
+Define min and max target size for
+each zone
+
+-
+
+-
+
+Creation of up to 30 zone polygons
+Up to 30 vertices per zone polygon
+
+-
+
+= Select~onof coordinate formats:
+LaVLong. UTM/UPS, MGRS
+m
+
+-
+
+mapping of target markers
+
+-Visibility of other overlays
+
+Software protection dongle: Large
+USB dongle, small USB dongle, SD
+card dongle (t~meand feature limited
+demo mode without dongle)
+
+Memory
+- Minimum: 2 GB
+
+m
+
+- Colour
+
+Human-Machine-Interface(HMI)
+Mouse/keyboard and/or touch-screen
+control interface
+
+Min~mum:lntel Atom 22760
+
+Ideal: 8 GB
+
+Display
+Minimum: 1024 X 768
+
+-
+
+-Typical: lntel Core i5-3570
+- Ideal: lntel Core i7-3770
+
+-Typical: 4 GB
+
+marker and clutter map
+persistence (snail-trailfade time)
+
+- Typlcal:
+
+m
+
+-
+
+brightness
+- Target
+
+-
+
+m
+
+-
+
+Operating System
+- Ideal: Windows 7 Professional or
+Windows 8 Profess~onal
+
+- Zones
+
+alert on plots-only, tracksonly, or both
+
+Errors and omlsslons excepted Bl~ghterSurveillance
+Systems reserves the r~ghtto modlfy specificat~ons
+wlthout notice. Bllghter radars are protected by a
+number of ~nternat~ona
+patents The Bl~ghtername 1s
+an nternational reglstered trademark.
+BSS-0!02 02013 Bllghter Suwe~llanceSystems
+
+&Blighter'Surveilhnce Systems
+The Plextek Building
+London Road
+Great Chesterford
+Essex CB10 INY UK
+
+www.blighter.com
+salesOblighter.com
+
+Tel: +44 1799 533200
+F a : +44 1799 533201
+a Plextek Group company
+
+

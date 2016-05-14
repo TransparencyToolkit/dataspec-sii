@@ -1,0 +1,504 @@
+-
+
+SIGNAL PROCESSING 10 : FPGA EXPERTISE
+
+SIGNAL PROCESSING IQ : FPGA EXPERTISE
+RFEL LTD
+
+SPECIALISTS IN HIGH SPEED AND LOW POWER SIGNAL PROCESSING FOR FPGA
+
+RFEL's Engineers form a highly flexible team, strongly committed to realising the highest standards
+of product quality and to continuously striving to push the limits of the latest technology. This
+mind-set and an optimal mixture of skill-sets including systems, modelling, firmware, software and
+board design, founded on over 300 man-years of industrial experience in the team, have combined to
+create world class and multi award winning products and helped grateful clients to create
+ground-breaking systems.
+
+» CONSULTANCY
+Make use of RFEL' s full engineering expertise through RFEL's technical consultancy services. These
+services are accessed through extensive technology or feasibility studies, on -site FPGA and VHDL
+consultancy, digital signal and video processing algorithm development orVHDL code optimisation
+and reviewing. Boost your development results today by applying our multi-award winning FPGA
+and system expertise to ensure improved design efficiency within your internal developments.
+
+» SIGNAL AND VIDEO PROCESSING HARDWARE
+RFEL offers FPGA based Signal Processing and Real-Time Video Processing Hardware Solutions
+which deliver fully tested and qualified Sub-Systems. Available as fully qualified stand-alone
+products, or as OEM versions ready for integration, RFEL' s hardware supports you by de-risking
+product development plans and by improving system performance.
+
+» FPGA IP CORES
+RFEL's off-the -shelf FPGA IP Cores include a comprehensive range of digital signal processing and
+video processing IP-Cores. The complexity ranges from small, optimised, system support IP-Cores
+called Corelets, to complex and feature-rich , multi -award winning System-on -Chip designs.
+
+» DESIGN SERVICES
+RFEL offers a wide range of Design Services. Designs can be developed in partnership with a
+customer to a high -level user-orientated brief, or can be produced in response to a detailed
+specification. High quality traceability is assured throughout and in -house skills and tools are
+employed for all stages of the design process, includ ing FPGA design, PCB and software engineering.
+
+£ XILINX.
+ALLIANCE PROGRAM
+ICERTIFIED MEMBER - BASE
+
+~
+t
+j itera
+Design Services
+
+~
+
+MathWorks
+
+___,ANetwor~
+
+0
+
+CERT IFICATION
+INTERNATI ONAL
+
+Partner
+
+"""''
+
+Cert"'°:Cl/SJOJ
+
+Benefits
+
+Daylight/EO
+
+Enhanced and fused, with false colour IR
+
+» Real-time, Size/Weight/Power
+
+optimised processing platform
+» Increases range of identification
+»
+
+Increases situational
+awareness in all conditions
+
+»
+
+Reduces operator workload
+
+» Reduces data bandwidth
+Infrared
+
+© RFEL Li mited. Al l rights reserved
+
+SIGNAL PROCESSING IQ : FPGA EXPERTISE
+
+For the military and security user
+who needs improved surveillance
+and identification performance in a
+range of missions and applications,
+the HALO-FSE video processing
+platform offers a state-of-the-art
+multi-channel video Fusion
+capability, augmented by high
+performance motion Stabilisation
+and Image Enhancement functions.
+HALO-FSE provides specialist users with
+enhanced vision for day I night operation
+and under poor weather and in-theatre
+conditions, leading to a significant
+operational advantage. It is packaged in
+a small, robust and low-power standards
+qualified hardware format designed for
+ease of integration with modern and
+legacy vision systems. The flexibility
+provided through HALO-FSE offers military
+and security users a highly cost-effective
+means of enhancing situational awareness
+through legacy and in-service cameras as
+well as new procurements.
+Registration and Fusion Processing
+
+High performance registration is delivered
+through a combination of support for
+factory alignment and automated
+feature-based processing. The level
+of registration accuracy underpins a
+state-of-the-art video fusion design
+
+which coherently combines information
+from two video sources. Typically, these
+sources are from the visible and infrared
+spectral bands although different input
+combinations are possible. The fusion
+process increases the user's situational
+awareness, particularly under difficult
+or complicated viewing conditions.
+Additional benefits afforded include
+enhanced target detection and
+recognition whilst reducing the user's
+workload and minimising demands on
+the ava ilable data bandwidth.
+
+Benefits
+
+» Real-time, Size/Weight/Power
+optimised processing platform
+
+» Increases range of identification
+
+» Increases situational awareness
+in all conditions
+
+» Reduces operator workload
+» Reduces data bandwidth
+Features
+
+» Designed, bui lt and tested to
+military specifications
+
+Stabilisation
+
+Motion stabilisation is performed in
+real-time and entirely electronically on
+the HALO-FSE output. The algorithm
+compensates for overall x-y shift and roll
+of a scene, improving end-user vision and
+reducing work-load. Object tracking may
+be improved in certa in down-stream
+tracking applications.
+Image Enhancement
+
+A range of advanced image enhancement
+processing functions is included to assure
+the highest quality video output. These
+functions include noise reduction,
+correction of image distortion, contrast
+enhancement, and digital zoom. HALO-FSE
+allows the user to create a bespoke output
+using configurable full graphic or symbolic
+overlays and data formatting options
+which can be set during installation and
+then stored in non-volatile memory.
+
+» 2 input and 2 output video ports
+(supports all formats up to Full HD)
+
+» High performance and robust
+video processing on either one
+or two video channels
+
+» Base functionality includes image
+fusion, electronic stabilisation,
+image enhancement, digital zoom,
+video compression and user specific
+display overlays
+
+» Real-time and low-latency video
+processing (up to 60Hz full frame
+and lSOHz for region of interest)
+
+» Interoperable with Industry and Mil
+Standard video distribution systems
+and cameras: GigE, Camera Link, and
+Analogue/CCTV amongst others
+
+» Low power.
+
+Specifications
+Video Input
+
+GigE, Cameralink, Def Stan 00-82, SDI or CVBS
+
+Video Output
+
+GigE, Cameralink, SDI, CVBS or VESA System Diagnostics
+
+Size and Weight
+
+1osmm • 1osmm • 8omm nominal (connector dimensions may vary)< goog
+
+Power Supply
+
+4.7 - 27V DC@ o.60 - 0.11A
+
+Standard compliance
+
+• Compatible with Def-Stan 23-09 (General Vehicle Architecture)
+• Qualification to DEF STAN 00-35 & 59-411(EMC)
+• CE(lndustrial)
+
+Also available as lSOmm x 7Smm OEM board and gomm x 7Smm system-on-module
+
+Company background
+
+RFEL Ltd is a UK-based electronic systems designer, providing high specification signal, image and video processing IP solutions that run on
+FPGAs, as well as supplying digital receiver and complete product solutions for the defense, communications and homeland security markets.
+RFEL has a range of capabilities for other real-time video enhancement processing functions and application specific video processing and a
+wide range of hardware and programmable turn-key system solutions which can be tailored to any customer specific requirement.
+
+•
+
+THE QUEEN'S AWARDS
+FOR ENTERPRISE:
+INNOVATION
+
+2009
+
+•
+
+~ THE QUEEN'S AWARDS
+FOR ENTERPRISE:
+
+RFEL Limited
+Unit B, The Apex, St Cross Business Park, Newport, Isle of Wight P030 SXW, UK
+
+INNOVATION
+
+2012
+
+T +44 (0)1983 216600 F +44 (0)1983 216611 E info@rfel.com www.rfel.com
+
+High quality services and products for Image
+Processing System designers, including:
+» Image processing expertise across a range of applications
+• Defence
+
+Stabilisation
+
+• Security and surveillance
+• Industrial, automotive and simulation vision
+or display systems
+
+» High performance, optimised standard FPGA IP Cores
+» System modelling and consultancy services
+
+» Low power and flexible
+
+»
+
+Easily customised
+
+» Low latency, programmable solutions
+
+© RFEL Limited. All rights reserved
+
+SIGNAL PROCESS I NG IQ : FPGA EXPERTISE
+
+The challenges facing designers of modern defence, security and other
+machine vision systems are increasing exponentially.
+The available resolutions and frame rates are
+rapidly increasing, whilst end-user
+expectations are becoming more soph isticated,
+driven by a ubiquity of video information
+appearing in increasingly embedded, mobile
+and/or critical systems. RFEL offers a range of
+high quality image processing solutions to
+meet these challenges and deliver the
+performance required by users.
+RFEL award w inning capabil ities in low-power,
+optimised FPGA IP cores have been deployed
+to great effect across the Digital Signal
+Processing application domain for 12 years.
+Whether the requirement is for a single
+low-risk, pre-qualified standard image
+processing building block to integrate into an
+embedded product, or if it is for a complete
+turn -key product design service, including
+preliminary critical performance studies and
+technology consu ltancy, RFEL has the proven
+solutions to assist.
+Standard software interface frameworks may
+be provided to allow the system designer to
+utilise RFEL FPGA IP w ith little or no FPGA
+experience. RFEL can also mod ify standard
+products to optimally meet the requirements
+of constrained resources or legacy platforms.
+
+Example Image Processing Capabilities
+
+Stabilisation
+
+Digital Rotation
+
+Motion Stabilisation is an example of a
+complex and high performance system
+core. Stabilisation is performed in
+real -time and ent irely electronically.
+The algorithm compensates for overall
+x-y sh ift and roll of a scene, improving
+end-user vision and reducing work-load.
+Complex, adaptive system configurations
+are available that utilise embedded
+software elements closely coupled to
+the FPGA functions, typically supplied
+as system -on -module designs.
+
+This IP core offers an alternative to
+mechanical rotation hardware with state
+of the art digital processing. Many of the
+digital rotation IP core features can be
+configured while the system is still
+running, keeping the user fully in control.
+Reliable, maintenance-free and targeted
+to low-cost FPGA devices.
+Digital Re-sizing
+RFEL's Digital Zoom (DZ) core is a compelling
+solution in the field of image magnification.
+It far exceeds the power efficiency and
+determinism of software-based solutions.
+High-performance image processing
+systems can now crop and enlarge
+dynamically.
+
+Capabilities
+
+» Image processing design expertise
+»
+
+Matlab modelling
+
+»
+
+World -class optim ised FPGA design
+
+» High quality, formal software design
+
+Image Enhancement
+A range of advanced image enhancement
+processing functions is available to assure
+the highest quality video output. These
+functions include noise reduction, correction
+of image distortion, contrast enhancement,
+and digital re-sizing and full graphic or
+symbolic overlays.
+
+» Interface and hardware design
+» Multi-layer PCB & Rugged design
+
+» Product compliance expertise
+» Re-usable and pre-qualified
+IP components.
+
+Example IP Cores
+
+» Run -time programmable
+
+» Dynamically programmable
+
+» Sub-degree angle of rotation
+
+» Real-time, very low-l atency
+
+Real-time, low-latency computation
+
+» Barrel and pincushion correction
+
+» Three selectable HD input streams
+
+»
+
+» Two modes of pixel interpolation
+
+» Support for both up-scaling
+
+» HD (1920x1080) or SD (720xS76)
+
+» Run-time programmable
+
+zoom window
+
+computation
+
+on all lens types
+
+and down-scaling.
+
+»
+
+A range of supported video formats.
+
+» Efficient memory interfacing
+
+A range of supported video formats
+
+»
+
+Native camera interfaces
+
+»
+
+»
+
+Efficient memory interfacing
+
+» Bilinear interpolation support
+
+» Optim ised for low-cost memory
+
+»
+
+Optimised for low-cost memory
+
+»
+
+»
+
+Optional cyl indrical projection function
+
+»
+
+Simplified, 90• rotation variant avai lable
+
+»
+
+Compatibil ity calibration via OPENCV 2.3
+
+No need for externa I memory
+
+Company background
+RFEL Ltd is a UK-based electronic systems designer, providing high specification signal, image and video processing IP solutions that run on
+FPGAs, as well as supplying digital receiver and complete product solutions for the defense, communications and homeland secu rity markets.
+RFEL has a range of capabilities for other real-time video enhancement processing functions and application specific video processing and a
+wide range of hardware and programmable turn-key system solutions which can be tailored to any customer specific requirement.
+
+•
+
+THE QUEEN'S AWARDS
+FOR ENTERPRISE:
+
+INNOVATION
+2009
+
+•
+
+~
+
+RFEL Limited
+THE QUEEN 'S AWARDS
+FOR ENTERPRISE:
+
+Unit B, The Apex, St Cross Business Park, Newport, Isle of Wight P030 SXW, UK
+
+INNOVATION
+2012
+
+T +44 (0)1983 216600 F +44 (0)1983 216611 E info@rfel.com w-.rfel.com
+
+»
+
+Highest FPGA Efficiency
+
+»
+
+Hardware Proven IP
+
+» Award Winning Innovation
+)) SWaP+C Optimised
+
+»
+
+On Time, On Budget Delivery
+
+»
+
+100% ITAR Free
+
+

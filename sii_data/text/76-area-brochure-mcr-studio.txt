@@ -1,0 +1,187 @@
+MCRSTUDIO
+MCRSTUDIO is the data-mining solution completely developed in-house by AREA
+that works in synergy with MCR System to provide LEAs with a State of the Art
+Monitoring Center for Lawful Interception activities.
+
+1
+IntercepTion activities
+
+Service providers and
+other organizations
+
+MCRSTUDIO is designed for LEAs needing a
+powerful Iool to analyze and correlate data
+collected through:
+• telephony and IP interception activities
+• GPS/BTS localization of nomadic/mobile targets
+• telephony and IP retained data from Telcos
+and ISPs
+• third-parties database import (i.e. credit
+cards payments, toll payments, airlines
+tickets and boarding cards).
+Besides the great capability to fit different
+investigation approaches. MCR Studio added
+value is the effectiveness in finding out both
+direct and indirect relationships among
+subjects, identifying behavioral models.
+MCR Studio is delivered either as a pure
+analysis system or, more often, integrated with
+turn-key Monitoring Centers.
+The first option fits in scenarios where MCR
+Studio is used to analyze databases not
+continuously updated.
+In the second case, LEAs greatly benefit from
+integration since analysis procedures can be
+repeated automatically and periodically.
+AREA data-mining solution is very modular and
+flexible, so MCR Studio installations range from
+a few PCs to several servers and workstations,
+according to the amount of data to be treated.
+Key factors for MCR Studio spreading among
+LEAs are its usable user-interface and its
+capability to treat huge amount of data without
+requiring footprint server farms
+MCRINTEGRATED MONITORAG
+AND ANALYSIS TOOLS
+Thanks to MCR Studio integration with AREA
+Monitoring Center, analysis can be performed
+
+on current intercepted communications,
+including new calls, e-mails, VolP calls.
+chats and IRls.
+In so doing, users work always on updated
+information so that analysis results represent
+behaviors of suspects in real-time.
+LEAs benefit from convergence of rendering
+and analysis tools as users can start new
+analysis at any time while monitoring new
+intercepted sessions. Similarly, users can
+simply click output provided by MCR Studio
+to access and see communications linked to
+analysis results.
+MCR Studio takes advantage from
+security and anti-tampering mechanisms
+implemented in AREA Monitoring Center.
+After Authentication, LEA users can only
+analyze data related to investigation
+activities they have been assigned.
+WORKFLOW OF ANALYSIS PROCEDURES
+MCR Studio has proved its effectiveness and
+quickness in analyzing huge amount of data.
+MCR Studio enables LEAs to carry out
+complete analysis activities simply by
+following pre-configured processes.
+Main steps are:
+• import printouts and IP data provided by
+Telcos. or coming from third-party database:
+• verify database consistence and eliminate
+not relevant data:
+• apply any of the pre-configured analysis
+models or create new ones;
+• select the most suitable graphical layout to
+render the analysis results;
+• save the data resulting from analysis
+procedures, together with their graphical
+output.
+MCA Studio comes with an advanced and
+very user-friendly GUI.
+Thanks to this key feature, even complex
+inquiries can be represented as flow charts.
+Results are displayed as grids, matrixes and
+relational graphs. Moreover, it is possible to
+check partial results of each analysis step
+and optimize standard analysis models.
+
+DATABASE PREPARATION
+Users rely on many wizards to import files
+in different formats and from third-party
+databases. MCR Studio supports TXT.
+Microsoft Excel", Microsoft Word", Adobe"
+PDF, XML. As far as database format is
+concerned, MCR Studio handles Microsoft
+SQL Server", Postgre SQL, OleDB sources
+(es. Microsoft Access). Odbc sources.
+READY-TO-USE ANALYSIS MODELS
+MCR Studio provides several ways to describe
+entities on which analysis models apply, such
+as investigated subjects details, including
+owned SIMs and other electronic identities (for
+example E-mail addresses and SIP URI).
+Users can select among many readyto-use analysis models, depending on
+investigation cases (for example, frequency
+of communication among subjects and
+identification of direct and indirect relations for
+organized crime).
+Besides taking advantage of established
+analysis methods, advanced users can create
+enhanced models by composing several
+filtering and correlation operations. New
+procedures can be saved and shared among
+users of the same work-group.
+EXAMPLES OF ANALYSIS PROCEDURES
+Some examples of meaningful analysis
+models that can be carried out by following
+ready to use templates are:
+• search for specific contents among
+thousands of intercepted sessions and
+IRIs (i.e. key-word among e-mails, phone
+numbers among IRls):
+• analyze and correlate printouts related to
+different BTSs, to point out movements of
+suspects while using mobile phones;
+• find out relationships among suspects by
+merging and correlating IRIs and printouts
+to obtain a graphical representation of
+connections:
+• identify "chained events" and recurring
+behaviors by investigating on crimes (i.e.
+sequence of calls among suspects linked to
+hierarchy in a group);
+• represent on cartography the subjects
+
+data are available (i.e. display on maps the
+position of BTSs covering places in which
+suspects are making calls);
+• put together movements of subjects by
+analyzing credit card payments and
+boarding cards of airlines.
+As Internet communication services are
+increasingly used to exchange sensitive
+information, AREA continuously includes
+analysis models by leveraging specific
+features of IP services
+OUTPUT OF ANALYSIS
+In order to make the results of analysis
+procedures immediately understandable, MCR
+Studio supports many graphical output layouts.
+The most used ones are:
+• matrix, to represent the frequency of contact
+among a group of subjects
+• bar charts, to count how many times a
+certain interesting condition or event applies
+a Gantt charts, to display timeline of events or
+communications involving subjects
+• graphical charts, to display relationships
+among subjects together with the way used
+to communicate and the number of contacts
+• maps. displaying places where subjects are
+located when communicate with others.
+MCR Studio enables the export and archiving
+of databases obtained by applying any
+analysis method.
+In so doing, LEAs can consolidate
+investigation milestones and evidences.
+Moreover. MCR Studio exports the graphical
+representation of any analysis result using file
+formats supported by Microsoft Office" Suite.
+SUPPLY OF MCR STUDIO
+AND PROFESSIONAL SERVICES
+AREA Training and Consulting team provides
+LEAs with professional services at different
+levels, to assist users after system delivery
+and allow them to achieve maximum results
+from MCR Studio.
+
+AREA
+
+

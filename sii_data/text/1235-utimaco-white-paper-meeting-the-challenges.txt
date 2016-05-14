@@ -1,0 +1,852 @@
+MEETING THE CHALLENGES OF
+DATA RETENTION:
+NOW AND IN THE FUTURE
+
+Contents
+Abbreviations and Definitions ................................................................................................. 3
+The EU Data Retention Directive ........................................................................................... 4
+Communication Providers must retain up to 15 Data Categories ............................................................ 5
+The Data Retention Periods Vary ...................................................................................................................... 6
+Data Retention is Time Critical .......................................................................................................................... 6
+Data Security is Paramount ................................................................................................................................. 6
+Communication Provider Challenges and their Evolution ................................................... 6
+Data Completeness and Integrity ....................................................................................................................... 7
+Number of Records ............................................................................................................................................... 7
+Data Centre Demands Spiralling ........................................................................................................................ 8
+Financial Challenges ............................................................................................................................................... 8
+Lack of Standardisation ......................................................................................................................................... 9
+Political Challenges............................................................................................................................................... 10
+Different Solutions to Meeting the Challenges .................................................................... 11
+Adapting Existing Systems .................................................................................................................................. 11
+Implementing Dedicated Solutions .................................................................................................................. 11
+Utimaco DRS™ is a Valid Data Retention Solution ............................................................ 13
+Data Warehousing Solution .............................................................................................................................. 13
+Multi-tenant Solution ........................................................................................................................................... 14
+Configurable Workflow ...................................................................................................................................... 14
+Cost Advantage .................................................................................................................................................... 14
+Beyond the European Union.................................................................................................. 15
+EEA and Australasia ............................................................................................................................................. 15
+United States ......................................................................................................................................................... 15
+Beyond Telecommunications ................................................................................................ 16
+Conclusion ............................................................................................................................... 17
+About Utimaco ....................................................................................................................... 18
+About Frost & Sullivan ........................................................................................................... 18
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+2
+
+Abbreviations and Definitions
+ADSL
+
+Asymmetric Digital Subscriber Line. A technology that delivers digital data transmission
+simultaneously with a regular telephone service, over the same telephone line.
+
+BSS
+
+Billing Support Systems: A series of systems that allow a telecom operator to calculate the
+correct price of a call and to bill a user for that call.
+
+CDR
+
+Call Detail Record: A record produced by a communications network (typically by a switch on
+the network) containing details of a call that passed through it.
+
+EEA
+
+European Economic Area: An agreement between the EU, Iceland, Liechtenstein and Norway,
+allowing the three countries to participate in the EU's single market.
+
+ETSI
+
+European Telecommunications Standards Institute: An independent,
+standardisation organisation in the European telecommunications industry.
+
+EUDRD
+
+European Union Data Retention Directive: A colloquial name for DIRECTIVE 2006/24/EC
+OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 15 March 2006 on the
+retention of data generated or processed in connection with the provision of publicly available
+electronic communications services or of public communications networks and amending
+Directive 2002/58/EC.
+
+IMEI
+
+International Mobile Equipment Identity: A unique number provisioned directly in the mobile
+phone (or other access device). It identifies the device, but not the user.
+
+IMSI
+
+International Mobile Subscriber Identity: A unique number associated with mobile phone
+users. It is stored in the SIM inside the phone (or provisioned directly in the phone) and is sent
+by the phone to the network. Used by any mobile network that interconnects with other
+networks.
+
+IP
+
+Internet Protocol: A protocol defining communication across packet-switched networks.
+
+IPDR
+
+IP Detail Record: A record similar to a CDR, but providing information about IP-based service
+usage.
+
+MVNO
+
+Mobile Virtual Network Operator: A mobile operator marketing communication services to
+end users without owning the network across which the services are provided.
+
+OSS
+
+Operations Support Systems: A series of systems that allow a telecom operator to send
+information to/from its network, activate new services and keep stock of its network resources.
+
+RDBMS
+
+Relational Database Management Systems: A database management system which stores
+data in the form of tables. The relationship between the data is also stored in the form of tables.
+
+RDHI
+
+Retained Data Handover Interface: An ETSI-defined interface standardising how police and
+security services transmit warrants and receive results.
+
+TDM
+
+Time Division Multiplexing: A digital transmission mode typically used by the traditional public
+switched telephone network, allowing several communication streams to use the same channel.
+
+TKÜV
+
+Telekommunikations-Überwachungsverordnung: The current German regulation defining
+technical details (such as operator interfaces) of telephone tapping and similar measures.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+non-profit,
+
+3
+
+The EU Data Retention Directive
+The EU Data Retention Directive (EUDRD) – adopted in 2006 – harmonises the obligations of EU
+communication providers to retain data and to make data available to police and security services for
+the prevention and investigation of crime.
+The Directive applies to data generated or processed by communication services which are publicly
+available. As such, the Directive affects all providers of electronic communication services (e.g. fixed,
+mobile and cable operators; Internet Service Providers; VoIP providers; and satellite operators).
+Although the Directive harmonises the data retention obligations, it has not been implemented in a
+uniform way by all EU members, meaning that the playing field for communication providers is not
+level across Europe. Some EU countries reimburse the costs associated with data retention, others
+provide subsidies based on transactions, and other countries again provide no funding at all.
+There are EU countries that have yet to implement the Directive and countries in which the national
+implementation of the Directive has been declared unconstitutional. Also, the Directive only covers
+the retention of records that communication has taken place, not the contents of the
+communication: Telephone and web tapping remain controlled by national regulations.
+EUDRD Implementation Status
+EUDRD fully implemented
+EUDRD implemented in 2010
+Non EU member
+EUDRD transposed into law
+but declared unconstitutional
+EUDRD not implemented
+
+Correct: June, 2010
+Source: Frost & Sullivan, 2010
+
+Sweden is one of the countries that have not yet implemented the EUDRD. The Swedish justice
+minister has publicly stated that she does not much like the Directive, and several Swedish politicians
+want to challenge the Directive in court, alleging that it might contravene the European Convention
+on Human Rights.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+4
+
+There is still much debate across Europe over the right to privacy and the risk of abuse of data
+retained centrally. At the same time, citizen expectations on the ability of police to prevent and
+rapidly solve serious crime are increasing, while funding for police and security service activities is
+under pressure due to budgetary constraints.
+What this means to telecom operators and other communication providers is that data retention is a
+dynamic area – despite the EUDRD – and that it can be difficult to accurately forecast the magnitude
+and nature of future obligations.
+With the general increase in legislation brought in to fight terrorism and other crime, Frost & Sullivan
+believes that data retention obligations will multiply over time and that the burden placed on
+communication providers will become heavier than it is today.
+Because the EUDRD is the most extensive piece of data retention legislation adopted by any country
+or union of countries today, Frost & Sullivan believes that emerging regulations in other parts of the
+world will be similar. For this reason, we believe the EUDRD to be highly relevant even to
+communication providers outside Europe.
+
+Communication Providers must retain up to 15 Data Categories
+As the rules stand today, communication providers must capture and retain data in a long list of
+categories.
+Categories of data to be retained, by service type
+Fixed Telephony
+
+Mobile Telephony
+
+Internet Access, E-mail
+
+• Calling and called
+numbers
+
+• Calling and called
+numbers
+
+• User ID of the sender and
+the recipient
+
+• Numbers forwarded to
+
+• Numbers forwarded to
+
+• Name and address of user
+
+• Name and address of user
+
+• Name and address of user
+
+• Date/time of start and
+end of call
+
+• Date/time of start and
+end of call
+
+• IP addresses allocated to
+sender and recipient
+
+• Telephone services used
+
+• Telephone services used
+• Calling and called parties’
+IMSI
+• Calling and called parties’
+IMEI
+• Cell ID of initial activation
+for prepaid
+
+• Date/time of log-in and
+log-off
+• Internet services used
+• Calling number for dial-up
+access
+• DSL or endpoint for
+broadband services
+
+• Cell IDs throughout call
+Other than defining the 15 categories of data to be retained, the Directive places three additional
+obligations on communication providers.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+5
+
+The Data Retention Periods Vary
+The EUDRD defines that communication providers must retain data for a minimum of 6 months and
+a maximum of two years from the day the communication took place. It is up to the individual EU
+countries whether to mandate shorter or longer retention periods.
+Most EU countries have implemented a retention period of 12 months. Under special circumstances,
+the Member States may extend the retention period beyond two years. To communication
+providers, this means that the future storage requirements can be unpredictable.
+
+Data Retention is Time Critical
+When the police (or security services) present a request, communication providers must make the
+relevant data available without “undue delay”. Data requested for terrorism prevention purposes is
+more time-critical than anything else, and a delay of just a few hours could have severe
+consequences.
+Communication providers are likely to have the required data dispersed across their networks,
+meaning that a single police warrant can involve several systems and departments. Also,
+communication providers must make sure that only data covered by the warrant is passed on to the
+police.
+
+Data Security is Paramount
+Communication providers must ensure the completeness and integrity of the data they retain. This
+means that they must have a procedure in place to track all relevant categories of data and to
+capture all data points within those categories.
+Also, communication providers must protect the data against accidental or intentional destruction;
+accidental loss or alteration; unauthorised or unlawful storage; processing, access, disclosure or
+accession by unauthorised persons.
+Finally, at the end of the retention period, the communication provider is obliged to destroy the
+retained data.
+
+Communication Provider Challenges and their Evolution
+The EUDRD was written to serve police
+needs and to guarantee data security.
+What the Directive does not consider is
+the heterogeneous nature of the
+networks and systems of most
+communication providers.
+This is why meeting their obligations
+under the EUDRD can create formidable
+technical, financial and planning challenges
+– challenges which will grow over time.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+6
+
+Data Completeness and Integrity
+Voice call detail records (CDRs) on a traditional TDM network are straightforward to collect and
+make available. For the most part, this data comes from a single type of network node (typically a
+switch or a CDR mediation platform) and must simply be mapped to the user. For mobile operators
+the situation is more complex. There are many sources of CDRs, due to the different services (e.g.
+postpaid calls, prepaid calls, SMS, MMS, mobile data, roaming calls, etc.).
+Often. CDRs relating to unsuccessful call attempts and incoming calls are not stored, because that
+type of traffic is typically not billable. The EUDRD does, however, require that such CDRs should be
+retained, if they are generated by the network
+An IP session record is even more
+complicated. It includes information from
+multiple network servers and databases.
+Communication providers need to retain IP
+records due to the requirement to capture
+both e-mail traffic and internet access, and the
+networks were not designed to do this.
+The rising amount of VoIP traffic that is not
+billed on a per call basis aggravates the
+problem for communication providers. The
+continuous evolution of networking technologies towards IP will further add to their
+woes.
+Some network owners do not have a direct
+relationship with the end user, and this adds a
+further level of complication. Many mobile
+network operators host several MVNOs on their network, and a similar situation exists in the
+Internet access space. Network operators must segregate data related to different MVNOs and ISPs
+as well as data related to their own end users.
+What all this means is that existing CDR-based systems are not capable of supporting the full scope
+of the EUDRD without major upgrades, meaning that communication providers will need to deal
+with missing data (e.g. location information with all services, Internet logs, e-mail logs, incoming calls
+etc.).
+
+Number of Records
+The sheer number of detail records is a challenge. Frost & Sullivan estimates that a large
+communication provider could have in excess of a billion records to capture and process every single
+day. Although each record is not more than 300-400 bytes on average, there must be a proper
+system in place to mediate, load and store the data efficiently.
+The development of the communications market with more and more services coming online that
+will require data to be retained will result in the already large number of records to increase further.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+7
+
+Data Centre Demands Spiralling
+There is hardly an organisation in the world not concerned about the capacity of its data centre(s). In
+recent years, the development of data loads (i.e. the computational loads of data to be processed)
+and the related storage requirements has been truly exceptional. Not only has the increase in data
+loads been enormous, it also appears that the rate at which data loads increase every year is not
+slowing down.
+Many data centres are already struggling to cope with demand, and research conducted by Frost &
+Sullivan has shown that two thirds of organisations believe they will run out of data centre capacity
+within the next two years – if they have not run out already.
+Once stored, a communication provider’s data
+centre must protect the records in order to live
+up to the stringent data security requirements of
+the EUDRD. This, in itself, requires a rethink,
+because most data centres were not set up with
+the EUDRD in mind, and because security
+measures have detailed implications all the way
+down to the physical location of the data centre.
+In short, the EUDRD adversely affects an already
+difficult situation for many communication
+provider data centres. As the number of retained
+records grows, the storage requirement will grow.
+Most organisations are acutely aware of this, but
+they do not always have a solution readily
+available.
+
+Financial Challenges
+The EUDRD creates both direct and indirect financial challenges for communication providers. The
+direct financial challenges relate to the cost of implementing and maintaining a data retention system
+and to the handling of the individual requests for data to be made available to the police.
+Some countries subsidise the direct data retention costs, but subsidies are neither fully transparent,
+nor consistent across the EU countries, and some countries provide no subsidies whatsoever.
+Frost & Sullivan regards the United Kingdom as a best practice example. The UK operates a
+reimbursement scheme which covers the capital expenditure of systems and operating expenditure
+of staff, with a budget of approximately £30 million per year (≈€36 million).
+Even so, Frost & Sullivan estimates that the average yearly cost of living up to the obligations of the
+EUDRD could run as high as €0.10 per subscriber (or prepaid user). The costs are particularly high
+for operators that have frequent interaction with the police and security services, and we find the
+main cost driver to be the high level of manual processes on which many operators still rely, tying up
+skilled resources to ensure timely EUDRD compliance.
+What this means to communication providers is that, even if they receive a government subsidy
+towards meeting the EUDRD obligations, they need to be looking at minimising operational costs by
+improving their automated response capabilities.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+8
+
+Finally, no governments pay any subsidies or compensation for indirect data retention costs, and
+Frost & Sullivan finds that many operators fail to even capture these costs and recognise them as
+EUDRD compliance costs.
+Indirect costs have different root causes. They can be upgrade costs at a data centre or even real
+estate costs at a data centre that outgrows its existing facilities. Indirect costs can also be the cost of
+disruption to business flows and processes, as existing systems are modified to cope with data
+retention, or it could be the opportunity cost of staff whose time is channelled from revenuegenerating activities (e.g. the provisioning of end-user billable services) to EUDRD activities which
+are not revenue generating.
+A relatively modest investment in more sophisticated data retention systems and procedures could
+create significant savings elsewhere in the organisation.
+
+Lack of Standardisation
+Even though ETSI has defined an electronic handover interface – the RDHI – which would
+standardise the way the police and security services send warrants and receive results, the handover
+interface has not yet been implemented.
+This means that communication providers must be prepared to receive warrants in many different
+forms: Faxes, e-mails or even traditional letters. It also means that the processing of a single warrant
+can involve a lot of purely manual work. This obviously generates an unnecessary cost – as we
+discussed in the previous chapter – but it also creates organisational challenge because there is no
+easy way to measure performance and to facilitate easy follow-up.
+Communication providers also need to live up to their
+data protection obligations under the EUDRD,
+meaning that they must exercise due care when
+transmitting retained data to the police and in making
+sure that only records covered by a warrant are
+actually transmitted. Moreover, it is not in all cases
+easy for communication provider staff to establish
+whether or not a police request for data is valid and
+justified.
+Unfortunately, Frost & Sullivan does not believe that
+the RDHI will be made mandatory any time soon. In
+many European countries, the responsibility for
+policing is fragmented, and numerous police and
+security services exist (some of them even working in
+parallel with similar remits) so streamlining the police
+side of things could be tricky.
+In all fairness, the national regulators in some
+countries have strong ambitions to establish the RDHI
+as a standard, and these ambitions obviously enjoy the
+support of the communication providers. In Germany,
+for example, the TKÜV regulation already specifies
+the RDHI as an optional interface.
+That said, the RDHI will only be a truly effective tool if it is exclusive, meaning that communication
+providers would be allowed to reject warrants transmitted through any other means. Given the
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+9
+
+relative lack of IT sophistication of many European police forces, the European ministries of the
+interior are not likely to throw their weight behind the RDHI, just to help the communication
+providers.
+An even greater standardisation challenge relates to cross-border data flows, particularly for panregional operators, as varying national legislation does not adhere to EU’s freedom of transfer of
+information.
+
+Political Challenges
+Because most EU directives need to be transposed into national legislation (in most cases) before
+they become a source of law, the EU data retention regulations are open to national differences in
+implementation and interpretation. This creates a political challenge for communication providers,
+because they cannot be certain that their data retention obligations will not change, even if the
+Directive remains the same, due to national political intervention.
+At the moment, response times and standards
+are effectively different across the different
+levels of service providers in Europe, and there
+are even inconsistencies between similar
+operators in the same countries. In most
+countries, parliament will have voted to
+authorise a minister (e.g. the minister of the
+interior, the justice minister or the minister of
+communication) to specify the detailed
+interpretation of the law. There is nothing
+stopping a minister from issuing a strict
+regulation if he or she feels communication
+provider performance to be sub optimal. If there
+were ever a case in which it could be alleged
+that a serious crime had not been prevented
+due to slow response times, ministers would
+most certainly leap to tighten regulation.
+Finally, growth of different types of new
+communication technologies, not covered in the
+current Directive, could result in extended data
+retention obligations to cover the new means of communication, leading to further challenges for
+communication providers.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+10
+
+Different Solutions to Meeting the Challenges
+We have established that the vast majority of communication providers will not be able to meet the
+challenges of the EUDRD unless they take concrete measures. They can adapt existing systems;
+invest in a new, dedicated system; or outsource data retention altogether.
+
+Adapting Existing Systems
+Adapting existing systems may be a good option for smaller telecom operators with a limited service
+offering.
+All operators already have operations and billing support systems (OSS/BSS) in place, and most
+operators own those systems and operate them in house. Small MVNOs may outsource OSS/BSS to
+a third party (typically the network operator or enabler).
+Existing OSS/BSS solutions include sub systems that pull data off the network nodes and generate
+CDRs; sub systems that calculate the cost of the call (a function referred to as “rating” or “charging”)
+and sub systems that issue a bill for the call. These sub systems will map CDRs to individual users.
+Most operators will also have fraud prevention and detection systems in place (some referred to as
+“revenue assurance”) which track usage by individual post and prepaid subscribers and makes sure
+that a user does not run up unduly high bills or is allowed to continue calls after he or she has
+depleted a prepaid credit.
+All the solutions and sub systems can potentially be adapted to provide EUDRD compliance. In the
+short term, adapting existing systems can be a cheap solution which avoids large capital outlays.
+There are, however, a number of important caveats.
+All the solutions and sub systems we have described have the one thing in common that they were
+designed to handle chargeable calls (or chargeable internet access). Consequently, they are not well
+suited to capturing traffic for which an operator does not charge on a per call basis or per megabyte
+basis (e.g. e-mail, flatrated broadband access, unsuccessful call attempts, incoming calls etc.).
+The adaptation of existing systems are in-house projects, and operators need to manage the
+development process and the lifecycle of the new solution. This is not cheap, and the cost of
+integration may not be correctly captured in organisations. With in-house projects, there is a
+tendency to just deal with the immediate issues and not consider future requirements, meaning that
+an adapted existing system might not be a future-proof solution.
+When operators implement upgrades and other developments to existing systems, there is always a
+risk of disruption. The billing function is at the heart of every operator. Even short disruptions –
+when operators are unable to process bills for just a few days – will have an immediate and adverse
+effect on cash flow.
+
+Implementing Dedicated Solutions
+An alternative to interfering with existing systems is the implementation of a dedicated data
+retention solution.
+There are a number of dedicated data retention solutions on the market that were conceived for
+data retention and store data separately. The vendors of dedicated solutions vary in their background
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+11
+
+(there are specialised vendors, storage vendors, telecom equipment vendors, security vendors and
+system integrators); in their business models and go-to-market strategies.
+Over the past few years, Frost & Sullivan has seen the market for dedicated solutions grow. Clearly,
+many communication providers have felt encouraged to invest in more sophisticated data retention
+solutions. Many of these communication providers share the expectation that their data retention
+obligations will grow in the future, due to increasing concerns in society over criminal activity and
+terrorism.
+Despite the initial investment, for most communication providers, Frost & Sullivan believes that
+dedicated systems will be the cheaper option in the medium to long term. Also, in countries where
+the data protection regulation allows data mining for commercial purposes, a dedicated solution will
+give communication providers a better, more complete picture of usage patterns, allowing them to
+carry out complex analyses for business development and planning purposes.
+In this whitepaper, we will analyse one good example of a dedicated data retention solution – the
+Utimaco DRS™.
+Headquartered in Germany, Sophos-owned Utimaco Safeware AG has addressed the challenges of
+the EUDRD with the introduction of an all new, purpose-built solution for telecom data retention.
+The Utimaco DRS™ is based on the experience and technology of Utimaco’s world-leading lawful
+intercept system, the Utimaco LIMS™, deployed by telecom operators in more than sixty countries
+around the world.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+12
+
+Utimaco DRS™ is a Valid Data Retention Solution
+Utimaco DRS™ (“DRS” stands for Data Retention Suite) is built around one front-end component –
+the DRS Management Server – and two back-end components – the DRS Backend Server and Data
+Warehouse, as illustrated below.
+
+Source: Utimaco Safeware AG, 2010
+
+Utimaco DRS™ was designed for seamless integration into existing multi-vendor and multi-service
+networks. The solution can be customised easily to interface with CDR/IPDR systems, log files, subscriber databases, and other network nodes.
+
+Data Warehousing Solution
+In one of the previous chapters of this whitepaper we have seen why storage is such a fundamental
+part of any data retention system, so we will examine the storage component of Utimaco DRS™ in
+some detail.
+Three approaches to storage exist:
+•
+•
+•
+
+Data Warehousing
+Tiered Storage
+Relational Database Management Systems (RDBMS)
+
+The storage component of Utimaco DRS™ is a data warehousing solution. The advantage of the data
+warehouse is that it can handle huge volumes of data without reducing the accessibility of the data
+but is generally not the cheapest solution. Tiered storage, on the other hand, archives older data in
+moderate to low performance databases, thereby reducing the cost of storage. The disadvantage is
+that the accessibility of the data is reduced. RDBMS provides fast and precise retrieval but is not well
+suited for billions of small records like CDRs/IPDRs, as they generate too much overhead and
+provide poor query times. RDBMS are designed for transaction, not for fast queries and analytics.
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+13
+
+Frost & Sullivan finds that Utimaco has taken an innovative approach to data warehousing, aiming to
+provide the best of both worlds – swift data handling and low cost. The organisation of the data in
+the DRS data warehouse differs significantly from common relational databases. DRS arranges the
+data by column rather than by line, automatically indexing tables but avoiding the overhead
+associated with traditional approaches to indexing.
+Columnar storage also means that much more effective compression algorithms can be applied to
+the data so that storage requirements are reduced even further. Compression rates between 40%
+and 80% are common for CDR data.
+
+Multi-tenant Solution
+A single Utimaco DRS™ system can be used to administer warrants and search requests for multiple
+network operators and service providers.
+The granular rights management system of Utimaco DRS™ can be configured to securely segregate
+between networks, users, and authorities and thus supports various business models like MVNO
+models, managed services, or cross-border service platforms.
+
+Configurable Workflow
+Utimaco DRS™ incorporates a configurable workflow management system which reduces
+operational expenses by automating the administrative tasks of request handling and delivery of
+search results to authorized agencies.
+Comprehensive security mechanisms like granular user management functionality, strong access
+control, encrypted storage and handover, and full audit trails of all user and system events, are
+fundamental features to fulfil the EUDRD obligations without compromising compliance with national
+data protection laws.
+
+Cost Advantage
+According to Utimaco, the average yearly cost of complying with the EUDRD using Utimaco DRS™
+could be as little as €0.01 per subscriber – or ten times lower than the costs currently incurred by
+some communication providers.
+If one compares to the alternative of adapting existing OSS/BSS solutions to cope with data retention
+requirements, Frost & Sullivan is satisfied that Utimaco DRS™ will provide lower overall data
+retention costs, better response times for handling warrants as well as less complicated workflows
+and internal procedures.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+14
+
+Beyond the European Union
+Because the EUDRD is the most extensive piece of data retention legislation adopted by any country
+or union of countries today, Frost & Sullivan believes that emerging regulations in other parts of the
+world will be similar.
+The issue of data retention is critical for homeland security regardless of what county enacts such
+regulations, yet the methods and solutions needed to satisfy these requirements must account for
+the importance of subscriber information and avoid violating the privacy of individuals who are not
+subjects of criminal investigations. This need was anticipated by the EUDRD and will likely be a part
+of other legislation throughout the world.
+
+EEA and Australasia
+The EEA allows participation in the EU Single Market by non EU members, on condition that the non
+EU members adhere to a significant portion of the EU regulatory framework. The EEA has taken a
+tough stand on money laundering and bank secrecy, and data retention would logically be covered by
+the agreement. The EEA has, however, postponed the implementation of data retention provisions
+until a joint committee has reached political agreement on the inclusion of the EUDRD into the EEA
+framework.
+The global need for police and security service authorised data retention is gaining significance worldwide and will be a major concern for many countries in the coming years due to security threats
+from current global events. Frost & Sullivan is seeing data retention needs outside Europe and North
+America come into focus. Countries such as New Zealand and Australia as well as some of the
+nations in Southeast Asia have or are now considering data retention legislation.
+
+United States
+Although the Obama administration has yet to state its position with regard to enacting a data
+retention law, Frost & Sullivan believes that enhanced data retention directives will likely be drafted
+for legislation in the
+United States, as soon as
+the presidency has dealt
+with some of the more
+pressing
+economic
+agendas.
+Since 9/11 there has been
+a shift in the perception of
+the American public of the
+balance between civil
+liberties and effective
+crime prevention. Because
+data retention is such a
+powerful tool which is relatively inexpensive (for the law enforcement agencies) to implement, we
+think that data retention legislation, if it comes, will be far less controversial today than it would have
+been ten years ago.
+Current US laws define a data preservation obligation, not data retention. Data preservation only
+requires communication providers to retain specific information explicitly requested by the law
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+15
+
+enforcement agencies. This, of course, is very different from the concept of data retention, as defined
+by the EUDRD.
+Over the last couple of years, legislation has been proposed in the US that would require companies
+to hold on to data for specific time periods without the requirement of a government request. Such
+legislation would mirror the EU’s data retention directive. Many spectators believe that any proposed
+legislation would, in first instance, apply to ISPs and require retention for a period to be determined
+by the Attorney General.
+The US has an even more fragmented approach to policing than countries like the United Kingdom
+and Italy, and this is certainly a challenge for law-makers. We can, perhaps, assume that the US will
+have learnt important lessons from Europe and will have addressed issues such as the standardisation
+of the interface between law enforcement agencies and communication providers.
+Currently, it is common practise amongst operators and ISPs to store communications data for all
+kinds of other purposes (billing, fraud prevention, data mining etc.). US law does not require
+operators and ISPs to destroy this data within a certain time period, so it is fair to say that the
+current US system lacks important regulations and restrictions in regards to data privacy. A
+subpoena is sufficient for law enforcement agencies to request potentially sensitive personal data. If
+the US introduces data retention, it will have to also address the existing privacy deficit by mandating
+that data be destroyed after a certain period, and this will significantly add to the complexity of
+communication provider operations.
+Frost & Sullivan believes that a solution like the Utimaco DRS™ will become a necessary tool for US
+communication providers to deal with future data retention requirements.
+
+Beyond Telecommunications
+Frost & Sullivan expects that future developments of the EUDRD will span across other sectors. An
+extended scope of the EUDRD – or new directives that might replace it – could cover sectors such
+as airlines, train operators, banks, insurance companies, retail, entertainment and the healthcare
+sector.
+In some countries, there are national initiatives to that effect, some driven by the trend towards egovernment and e-healthcare, and a desire to deliver services to citizens more efficiently to offset the
+effects of budget cuts. Frost & Sullivan is already seeing a beginning customisation of dedicated data
+retention solutions to meet the requirements from other sectors.
+Frost & Sullivan believes that, over time, as more complex customer service offerings become
+prevalent by providing a real-time component based on presence, location and/or preference, the
+need for retaining and correlating data, not only to address police and security services but also to
+address other business needs on a near real-time basis, will be the norm rather than the exception.
+We also believe that data retention can become a revenue stream for some communication
+providers. As data retention obligations are introduced in other sectors, market players will be
+looking at outsourcing, opening up a market for third-party data retention service providers.
+Telecom operators and ISPs, having amassed unrivalled experience in this field and having already
+invested in sophisticated data retention solutions, will be in a good position to exploit this
+opportunity.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+16
+
+Conclusion
+We have shown that the far-reaching provisions of the EU Data Retention Directive create significant
+challenges for communication providers throughout Europe.
+Communication providers trying to decide what steps to take to address these challenges should
+think very carefully about whether to adapt existing systems or invest in a dedicated solution, and
+they should consider the long-term implications.
+Whereas adapting existing OSS/BSS solutions is a viable option for smaller telecom operators with
+simple service offerings, Frost & Sullivan believes that the majority of communication providers
+would benefit from the implementation of a dedicated data retention solution.
+Given the diversity of solutions in the market, communication providers should ensure an exhaustive
+feasibility analysis of the varying capabilities of each solution, particularly in terms of scalability and
+the viability of upgrades in meeting future requirements. Selecting a future-proof solution is
+particularly important, as the increase in the amount of legislation concerning terrorism and crime, is
+likely to lead to more and stricter data retention regulation.
+Frost & Sullivan has analysed the Utimaco DRS™ and concludes that this is a valid solution which will
+enable communication providers to effectively meet the challenges of data retention. We are satisfied
+that Utimaco DRS™ will provide cost savings in the medium term; improve workflows and
+procedures; that it will integrate with legacy systems and networks; and that it will handle vast
+quantities of data and provide fast response times.
+
+Meeting the Challenges of Data Retention: Now and in the Future
+© Frost & Sullivan, 2010
+
+17
+
+CON TAC T
+US
+
+London
+4 Grosvenor Gardens
+London SW1W 0DH
+Tel. +44 (0)20 7343 8383
+Fax +44 (0)20 7730 3343
+Oxford
+Oxford Business Park South
+Oxford OX4 2GX
+Tel. +44 (0)1865 39 8600
+Fax +44 (0)1865 39 8601
+Frankfurt
+Clemensstraße 9
+60487 Frankfurt a.M.
+Tel. +49 (0)69 7 70 33-0
+Fax +49 (0)69 23 45 66
+Paris
+24, rue de Londres
+75009 Paris
+Tel. +33 (0)1 42 81 54 50
+Fax +33 (0)1 42 81 54 52
+
+Beijing
+Bengaluru
+Bogotá
+
+Milan
+Via Mario Pagano, 38
+20145 Milano
+Tel. +39 02 4651 4819
+Fax +39 02 4802 7054
+
+Buenos Aires
+Cape Town
+Chennai
+Delhi
+Dubai
+Frankfurt
+Kolkata
+Kuala Lumpur
+London
+Melbourne
+
+About Utimaco
+For more than 25 years Utimaco has been a leading global provider of
+data security solutions. Since 1994 Utimaco has been providing lawful
+interception systems for mobile and fixed network operators and Internet service providers. The Utimaco Data Retention Suite was introduced in response to the EU directive 2006/24/EC and at the request
+of telecom customers for integrated LI and DR solutions. With more
+than 160 installations in 60 countries, Utimaco is truly a leading supplier
+in the worldwide lawful interception market.
+
+Mexico City
+Milan
+Mumbai
+New York
+Oxford
+Paris
+San Antonio
+São Paulo
+Seoul
+
+Utimaco participates actively in a range of standardization institutes
+and is an active member of ETSI (European Telecommunications Standards Institute) and various other associations like eco, VATM, Bitkom,
+Breko and the WiMAX forum. In this way, Utimaco participates in market developments and supports other members with its competence.
+Since 1 July 2009, Utimaco Safeware AG has been part of the Sophos
+Group, a world leader in IT security and data protection with headquarters in Boston, US and Oxford, UK. While Utimaco data security
+products are now distributed by Sophos, the business units "Lawful Interception and Monitoring Solutions" and "Hardware Security Module"
+form Utimaco’s operating businesses. For more information please visit
+http://lims.utimaco.com.
+
+Shanghai
+Silicon Valley
+Singapore
+Sophia Antipolis
+Sydney
+Tel Aviv
+Tokyo
+Toronto
+Warsaw
+
+About Frost & Sullivan
+Frost & Sullivan, the Growth Partnership Company, enables clients to
+accelerate growth and achieve best-in-class positions in growth, innovation and leadership. The company's Growth Partnership Service provides the CEO and the CEO's Growth Team with disciplined research
+and best practice models to drive the generation, evaluation and implementation of powerful growth strategies. Frost & Sullivan leverages almost fifty years of experience in partnering with Global 1000
+companies, emerging businesses and the investment community from
+40 offices on six continents. To join our Growth Partnership, please visit
+www.frost.com.
+
+Warsaw
+ul. Domaniewska 41A
+02-672 Warszawa
+Tel. +48 (0)22 390 4135
+Fax +48 (0)22 390 4160
+Silicon Valley
+331 East Evelyn Avenue, Suite 100
+Mountain View, California 94041-1538
+Tel. +1 650 475 4500
+Fax +1 650 475 1570
+San Antonio
+7550 IH 10 West, Suite 400
+San Antonio, Texas 78229-5616
+Tel. +1 210 348 1000
+Fax +1 210 348 1003
+Toronto
+2001 Sheppard Avenue East, Suite 504
+Toronto, Ontario M2J 4Z8
+Tel. +1 416 490 1511
+Fax +1 416 490 1533
+
+

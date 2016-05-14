@@ -1,0 +1,1490 @@
+1
+
+Gamma:
+
+Strategy for an
+
+overall Intelligence
+Concept
+Th. Fischer – May 04, 2011
+
+Introduction
+
+2
+
+Scope and Preconditions
+The three companies Gamma Group, Desoma and Dreamlab intend to create Telecommunication Intelligence
+Systems for different telecommunication networks to fulfill the customers‘ needs and requirements regarding
+Lawful Interception, Massive Data Interception, Data Retention and traffic/application/protocol Control (Traffic
+Blocking and Shaping).
+These different intelligence methods and technologies are to be deployed in different network environments like
+„classic“ fixed and mobile networks as well as in IP-based (packet oriented) networks. However, not every
+technology/method will be used in every network in the same way if it will be used at all.
+The Intelligence Systems must be modular/scalable and have to be combined depending on the communication
+environments and needs in different project/countries.
+The main expertise of all three partners is the „IP-world“. There should be some technological competence on
+Desoma‘s side regarding the classic networks (PSTN,Mobile), while Gamma has the world wide marktet access
+and competence regarding sales and marketing for all technologies mentioned above.
+Beside some „restrictions“ regarding specific knowledge (which has to be evaluated) there are for sure
+restrictions regarding man power, time and money.
+A strategy has to be defined to create Intelligence System(s) which can be realized in a rather short period of
+time to generate RoI, being
+competitive and making the most use of currently available knowledge and experience of all partners.
+The following slides will give an overview of the different Intelligence Solutions‘ requirements and technologies
+and an indication regarding the availability of solutions and/or the capability to solve the technial requirements.
+
+Networks <-> Intelligence
+Methods used
+Networks
+Methods
+
+3
+
+PSTN
+(ISDN/POTS)
+
+Mobile
+(GSM/GPRS/UMTS/
+LTE)
+
+IP-Networks
+
+Lawful
+Interception
+
+Yes
+supported by Network
+
+Yes
+Supported by Network
+
+Yes
+partly supported by
+NW
+mainly own Appliances
+
+Mass Data
+Interception
+
+Yes
+International
+Gateways
+
+?
+
+Yes
+Internet Gateways
+
+No
+
+partly
+for/in the IP-part of the
+NW
+
+Yes
+i.e. at Internet
+Gateways
+
+Yes
+supported by Network
+
+Yes
+supported by Network
+
+Yes
+using NW elements
+and/or
+own Appliances
+
+Not inside the NW but
+for PC/Nb indirectly via
+IP-NW
+
+For PC/Nb possible in
+Mobile NW or
+indirectly
+via IP-NW (FinFly ISP).
+For mobile
+Phones/PDA etc. own
+FinFisher-Application
+
+Yes
+FinFly ISP
+
+Blocking / Shaping
+
+Data Retention
+
+Infection
+
+Networks (Intelligence Methods) <->
+Solutions / Technologies
+Networks
+Methods
+
+PSTN
+(ISDN/POTS)
+
+Admin HI1:
+inside NW
+IRI HI2:IP/X.25-Receiver
+S2mLawful Interception CC HI3:
+Recorder
+Tgt.-Ident:
+inside NW
+
+Mass Data
+Interception
+
+Blocking / Shaping
+
+Admin:own Admin
+IRI HI2:???
+CC HI3:
+S2mRecorder
+
+n/a
+
+Mobile
+(GSM/GPRS/UMTS/L
+TE)
+Admin HI1:
+inside NW
+IRI HI2:IP/X.25-Receiver
+CC HI3:
+S2mRecorder
+CC HI3 IP:
+own IPAppliance
+Tgt.-Ident:
+inside NW
+?????
+
+4
+
+IP-Networks
+Admin HI1:
+HI2 (= HI3):
+CC HI3:
+Appliance
+Tgt.-Ident:
+Appliance
+
+own Admin
+n/a
+own IP-
+
+Admin HI1:
+HI2 (= HI3):
+CC HI3:
+Appliance
+
+own Admin
+n/a
+own IP-
+
+own IP-
+
+IP-Part of the NW:
+Admin:own Admin
+Block/Shape: own IPAppliance
+Tgt.-Ident:
+own IPAppliances
+
+Admin:own Admin
+Block/Shape: own IPAppliance
+Tgt.-Ident:
+own IPAppliance
+
+Network Elements
+(OSS/BSS) provide Info for
+DRS (CDRs)
+
+Using Network Elements
+(OSS/BSS) and/or own IPAppliances
+
+Data Retention
+
+Network Elements
+(OSS/BSS) provide Info for
+DRS (CDRs)
+
+Infection
+
+See IP-Networks for PC/Nb
+
+Mobile Phones:
+Indirectly: See IP-Networks
+Admin:own Admin
+
+Tgt.-Ident:
+manually (?)
+Delivery:
+own
+„Methods“
+
+Admin:own Admin
+Tgt.-Ident:
+own IPAppliance
+Delivery:
+own IPAppliance
+
+Solutions / Techologies <-> Availability on our
+5
+side
+PSTN (ISDN/POTS)
+Mobile (GSM/UMTS/LTE)
+IP-Networks
+LI
+
+Mass
+Data
+
+B&S
+
+DRS
+
+INFEC
+
+LI
+
+Mass
+Data
+
+B&S
+(IPonly)
+
+DRS
+
+INFEC
+Mobile
+
+LI
+
+Mass
+Data
+
+B&S
+
+DRS
+
+INFEC
+
+Administration
+
+NW
+
+Desom
+a/
+3rd
+Party
+
+n/a
+
+Tbd
+
+n/a
+
+NW
+
+n/a
+
+Dreaml
+ab
+
+Tbd
+
+GG
+
+DE/DL
+
+DE/DL
+
+DE/DL
+
+Tbd
+
+DL/GG
+
+Data Capturing /
+Handling
+
+NW
+
+Desom
+a/
+3rd
+Party
+
+n/a
+
+Tbd
+
+n/a
+
+NW
+
+n/a
+
+Dreaml
+ab
+
+Tbd
+
+GG
+
+Dreaml
+ab
+
+Dreaml
+ab
+
+Dreaml
+ab
+
+Tbd
+
+DL/GG
+
+Target Identification
+
+NW
+
+Manuall
+y
+NW
+
+n/a
+
+Tbd
+
+n/a
+
+NW
+
+n/a
+
+Dreaml
+ab
+
+Tbd
+
+GG
+
+Dreaml
+ab
+
+Dreaml
+ab
+
+Dreaml
+ab
+
+Tbd
+
+Dreaml
+ab
+
+Mediation
+
+IRI only
+
+???
+
+n/a
+
+Tbd
+
+n/a
+
+IRI-NW
+IP DL
+
+n/a
+
+n/a
+
+Tbd
+
+n/a
+
+Dreaml
+ab
+
+Dreaml
+ab
+
+n/a
+
+Tbd
+
+n/a
+
+Receiving Data
+
+Desoma
+/
+3rd
+Party
+
+Desom
+a/
+3rd
+Party
+
+n/a
+
+Tbd
+
+n/a
+
+Desom
+a
+
+n/a
+
+n/a
+
+Tbd
+
+GG
+
+Desom
+a
+
+Desom
+a
+
+n/a
+
+Tbd
+
+GG
+
+DB (Storage/Archive)
+
+Desoma
+
+Desom
+a
+
+n/a
+
+Tbd
+
+n/a
+
+Desom
+a
+
+n/a
+
+n/a
+
+Tbd
+
+GG
+
+Desom
+a
+
+Desom
+a
+
+n/a
+
+Tbd
+
+GG
+
+Decode / Demodul
+
+Desoma
+
+Desom
+a
+
+n/a
+
+Tbd
+
+n/a
+
+Desom
+a
+
+n/a
+
+n/a
+
+Tbd
+
+n/a
+
+DE/DL
+
+DE/DL
+
+n/a
+
+Tbd
+
+n/a
+
+Reconstruction
+
+Desoma
+
+Desom
+a
+
+n/a
+
+Tbd
+
+n/a
+
+Desom
+a
+
+n/a
+
+n/a
+
+Tbd
+
+n/a
+
+DE/DL
+
+DE/DL
+
+n/a
+
+Tbd
+
+n/a
+
+Back-End Admin
+
+DE/DL
+
+DE/DL
+
+n/a
+
+Tbd
+
+n/a
+
+DE/DL
+
+n/a
+
+n/a
+
+Tbd
+
+GG
+
+DE/DL
+
+DE/DL
+
+DE/DL
+
+Tbd
+
+DL/GG
+
+User Management
+
+DE/DL
+
+DE/DL
+
+n/a
+
+Tbd
+
+n/a
+
+DE/DL
+
+n/a
+
+n/a
+
+Tbd
+
+GG
+
+DE/DL
+
+DE/DL
+
+DE/DL
+
+Tbd
+
+DL/GG
+
+TASKS
+
+Fro
+ntEn
+d
+
+Ba
+ckEn
+d
+
+Lege
+nd:
+
+provided/available by eihter the NW or by
+a partner
+to be defined OR using 3rd Party solution
+(DRS)
+
+not needed / not
+applicable
+to be
+done/defined/created
+
+needs more
+investigation/analysis
+under investigation
+
+Graphical Overview – all Solutions/Methods
+Methodolog
+y
+Targets
+
+Networks
+
+IM – Mass (IP)
+
+LI - (IP)
+
+ISP
+AAA
+Tgt.-ID
+Probe
+
+AAA
+Index. IPProbe
+active/passi
+ve
+
+Tgt.-ID
+Probe
+
+ISP
+
+Admin
+
+Receiving
+
+Decode
+Demod
+Storage
+Archiving
+Analysis
+Evaluatio
+n
+
+Block (IP)
+
+LI – (Voice + IP)
+
+PST
+N
+
+ISP
+
+Tgt.-ID
+Probe
+
+Infect. Proxy
+active
+BS IPProbe
+active
+
+DL
+Mediation
+IP
+
+Ethernet
+DL/DEAdmin
+Mass-IP
+
+HI3 –
+CC
+ISDN
+
+HI2/HI3
+IRI/CC
+Eth
+TCP/IP
+
+NFS or
+UDP
+
+Back-End
+
+AAA
+
+LI-Probe
+passive
+Network
+Element
+s
+
+Mediation
+
+Front-End
+
+INF (IP)
+
+No incoming DATA
+
+Ethernet
+DL-ADMF
+LI
+
+Ring-Buffer
+Module
+GRID Detection
+Mod
+
+DL-ADMF
+FF-ISP
+
+HI3 – CC
+Voice
+Recorder
+
+Collecti
+on
+Devices
+
+HI2 – IRI
+Receiver
+DRS
+SERVER
+
+HI3 – CC
+Voice
+Recorder
+HI3 – CC
+??? Module
+
+??? Module
+
+IP
+
+DRS
+
+Mobil
+e
+
+HI2 – IRI
+Receiver
+
+HI3 – CC
+??? Module
+
+IP
+
+LI – (Voice +
+IP)
+
+HI1
+HI1
+Marking
+Marking
+Targets
+Targets
+PSTN
+Mobile
+Intercepti
+Intercepti
+Mediati
+on
+on
+on
+Mgmt.
+Mgmt.
+MobileHI3 –
+CC
+ISDN
+HI2 – IRI
+HI2 – IRI
+X.25, TCP/IP,
+X.25, TCP/IP,
+X.31
+X.31
+HI3 – CC
+FTAM, FTP,
+FTAM, FTP,
+Eth
+Rose
+Rose
+TCP/IP ISDN
+Eth/X.
+Eth/X.
+Eth
+Ethernet
+S2m
+25
+25
+
+DL-ADMF
+BS
+FinSpy
+MASTER
+
+Assembly
+Module
+
+IP
+
+ISDN
+S2m
+
+Ethernet
+
+6
+
+??? Modules
+
+IP
+
+VOIC
+E
+
+DATA WAREHOUSE
+
+Users / Evaluator / Operators
+
+IRI
+
+IP
+
+VOIC
+E
+
+IRI
+
+IP
+
+IP-Network – Mass IP Interception
+Methodolog
+y
+Targets
+
+Networks
+
+7
+
+Data Capturing:DAISY from Desoma is curretly using a CS-2000 or PN41-Blade (IBM) to connect
+passively or actively to
+
+IM – Mass (IP)
+
+the network (Indexing Module = IP-Probe). This has to be changed to use HP-Servers with
+appropriate
+NICs from Dreamlab.
+
+ISP
+
+Active will be chosen in case a Man-in-the-Middle attack is planned for SSL certificates
+(using Bypass
+
+AAA
+Tgt.-ID
+Probe
+
+Index. IPProbe
+active/passi
+ve
+
+Function). In this module data filtering takes place to search for specific data and reduce
+the amount of
+data to be sent to the Back-End. It has to be defined whether String Search must be
+integrated into the
+
+Mediation
+
+IP-Probes to reach a finer granularity for Filtering data of interest.
+Target Identif.: Dreamlab has Tgt-Id-Probes available in case Mass IP-Interception has to be
+specified for dedicated
+
+NFS or
+UDP
+
+Front-End
+Back-End
+Admin
+
+Receiving
+
+Decode
+Demod
+
+subscribers (exceptional case)
+
+Ethernet
+
+Data handover: NFS and/or UDP is used currently and will be implemented into the Dreamlab IPProbes too, to
+
+DL/DEAdmin
+Mass-IP
+
+handover the captured IP-data to the Ring-Buffer / GRID Detection Module.
+
+Ring-Buffer
+Module
+GRID Detection
+Mod
+
+Admin: Has to take care about the workflow in the Mass IP Interception System. The user can enter
+Filter
+
+Assembly
+Module
+
+Criteria which are forwarded to the IP-Probe(s) to filter/capture data of interest. If necessary
+the Tgt-IdProbes are configured as well.
+
+Storage
+Archiving
+Analysis
+Evaluatio
+n
+
+IP
+
+The Admin has to be designed and has to integrate a User Management with several layers
+
+IP
+
+DATA WAREHOUSE
+Users / Evaluator /
+Operators
+
+of user
+rights (who has the right to access what kind of data; Admin, User, Auditor etc.)
+Ring-Buffer &
+GRID Detection:
+and generate so
+
+These Modules receive the captured IP-data from the Front-End (IP-Probe)
+
+called additional Meta-Data. Data are stored with different Storage solutions. GRID is
+
+IP-Network – Lawful Interception
+Methodolog
+y
+Targets
+
+LI - (IP)
+
+Networks
+
+AAA
+Tgt.-ID
+Probe
+
+Data Capturing:This will be the same kind of HP-Servers used for Mass IP-data
+Interception to capture
+IP-Data for LI passively. In addition Dreamlab is capable of handling IP-data
+provided by
+
+ISP
+
+Network Elements (Juniper, Cisco, Huawei).
+
+LI-Probe
+passive
+Network
+Element
+s
+DL
+Mediation
+IP
+
+Mediation
+
+Target Identif.: Dreamlab has Tgt-Id-Probes available to capture assinged IPaddresses of Targets by
+searching for their nw access credentials.
+Data Handover
+= Mediation:
+data formats
+
+HI2/HI3
+IRI/CC
+Eth
+TCP/IP
+
+Front-End
+
+8
+
+This Dreamlab appliance can convert the captured IP-data into several
+
+(i.e. ETSI) for IP-datza handover to several Monitoring Centers simultaneously.
+
+Ethernet
+
+Back-End
+
+Admin: Has to take care about the workflow in the LI System. The user can enter the
+NW access
+
+DL-ADMF
+LI
+
+Admin
+
+credentials for the Targets of interest forwarded to the Tgt-Id-Probe(s). For LI
+Receiving
+
+Decode
+Demod
+Storage
+Archiving
+Analysis
+Evaluatio
+n
+
+the
+
+Ring-Buffer
+Module
+GRID Detection
+Mod
+
+HI3 – CC
+??? Module
+
+Assembly
+Module
+
+IP
+
+??? Module
+
+IP
+
+IP
+
+handling of a LIIDs is esssential (to create warrants).
+The Admin has to be designed and has to integrate a User and Warrant
+Management
+with several layers of user rights (who has the right to access what kind of
+data; Admin,
+User, Auditor etc.). This LIID structure will aply for LI in PSTN / Mobile NW too.
+
+DATA WAREHOUSE
+Users / Evaluator / Operators
+
+Receiving Data: It has to be analyzed whether the concept using the Ring-Buffer, GRID
+and
+Assembly Modules of the Mass IP Interception solution can be used for LI
+as well.
+
+IP-Network – Blocking/Shaping and Infection
+Methodolog
+y
+Targets
+
+Networks
+
+INF (IP)
+
+AAA
+
+Block (IP)
+
+Remarks:
+The solutions IP-traffic Blocking & Shaping and the Infection using FF ISP are
+different form other
+Intelligence Methods described because Blocking & Shaping doesn‘t require any data to be
+transferred
+
+ISP
+
+Tgt.-ID
+Probe
+
+9
+
+from the Front to the Back-End. The same applies in the first step for the data provided by
+remotely
+
+Infect. Proxy
+active
+BS IPProbe
+active
+
+controlled targets. These data are received by FinSpy Server and can be pushed into to
+Data
+Warehouse on demand.
+
+Mediation
+Data Handling: Again HP-Servers will be used but for both Blocking & Shaping and Infection these
+Servers MUST be
+actively inline for data manipulations. The Bypass Function is a must have too.
+No incoming DATA
+
+Front-End
+Back-End
+Admin
+
+Receiving
+
+Target Identif.: Tgt-Id-Probes are needed and used in the same way as for LI. In addition they can
+be used to block
+
+Ethernet
+DL-ADMF
+FF-ISP
+
+and/or shape the traffic of subscribers of interest. Without Tgt-Id-Probes B&S will take care
+about
+
+DL-ADMF
+BS
+
+protocols / applications only without target „awareness“.
+
+FinSpy
+MASTER
+
+It has to be defined whether String Search must be integrated into the IP-Probes to reach a
+finer
+granularity for blocking / shaping and maybe infection.
+
+Decode
+Demod
+Storage
+Archiving
+Analysis
+Evaluatio
+n
+
+Data handover: Only defined for FinSpy (Master).
+IP
+
+DATA WAREHOUSE
+Users / Evaluator /
+Operators
+
+Admin: The Admin is available for FF ISP.
+An Admin System has to be designed taking care about the workflow in the
+Blocking/Shaping System.
+The user can enter Filter Criteria = Blocking/Shaping Criteria (which might be the same
+used for the
+Mass IP-data System). Using Tgt-Id-probes NW access credentials must be administered
+too.
+
+PSTN & Mobile NW – Lawful Interception
+10
+Data Capturing:In both Networks (PSTN and Mobile) data capturing is performed
+Methodolog
+(Voice
+and
+IP) LI – (Voice +
+LI – (Voice
++ IP)
+inside the NW
+y
+Targets
+
+Networks
+
+IP)
+
+PST
+N
+
+HI3 –
+CC
+ISDN
+
+Back-End
+
+ISDN
+S2m
+
+Admin
+
+Receiving
+
+kind of solutions). This applies for both Voice (voice, modem, fax) and IP-
+
+Mobil
+e
+
+data.
+Target Identif.: This is also part of the NW-LI-functions.
+
+HI1
+HI1
+Marking
+Marking
+Targets
+Targets
+PSTN
+Mobile
+Intercepti
+Intercepti
+Mediati
+on
+on
+on
+Mgmt.
+Mgmt.
+MobileHI3 –
+CC
+ISDN
+HI2 – IRI
+HI2 – IRI
+X.25, TCP/IP,
+X.25, TCP/IP,
+X.31
+X.31
+HI3 – CC
+FTAM, FTP,
+FTAM, FTP,
+Eth
+Rose
+Rose
+TCP/IP ISDN
+Eth/X.
+Eth/X.
+Eth
+S2m
+25
+25
+
+Mediation
+
+Front-End
+
+using NW-vendor specific solutions (assuming the NW-vendor is
+providing such
+
+HI2 – IRI
+Receiver
+HI3 – CC
+Voice
+Recorder
+
+(fixed / mobile) will be marked for LI inside the NW. The Interception
+Mgmt.
+Systems (PSTN/Mobile) also provide the IRI-data (either ASN.1 encoded
+or as
+ASCII-files). Assigning a LIID is part of this admin process and it has to
+refer to the
+LIID used in the Monitoring Center for admin the LI-warrant.
+Data Handover
+CC-Voice:
+Voice data will be transferred via ISDN (S2m) to the Back-End
+(PCM30, A-law
+
+HI2 – IRI
+Receiver
+
+encoded) from the switches of the NW.
+
+HI3 – CC
+Voice
+Recorder
+HI3 – CC
+??? Module
+
+Decode
+Demod
+
+Admin: Also the Admin-Function of the NW is part of the NW-environment.
+Subscribers
+
+IRI:
+IRI-Record can be either FTAM, FTP or Rose on X.25/X.31 or TCP/IP
+provided via
+
+??? Modules
+
+the NW-LI-Management System(s).
+CC-IP
+
+Storage
+Archiving
+Analysis
+Evaluatio
+n
+
+VOIC
+E
+
+IRI
+
+IP
+
+VOIC
+E
+
+IRI
+
+DATA WAREHOUSE
+
+= Mediation:
+Mediation
+
+IP-data from GPRS/UMTS will be mediated using Dreamlabs
+
+Appliance to provide i.e. ETSI-formated data to the Back-End.
+
+Users / Evaluator / Operators
+
+Receiving Data: Receiving CC-Voice and IRI-Records will made own/separate
+Appliances
+necessary. IP-Data from GPRS/UMTS via DL Mediation have to be handled
+in the
+
+All Networks – Data Retention System
+Methodolog
+y
+Targets
+
+Networks
+
+DRS
+
+11
+
+Data Capturing:Data to be captured accross all kinds of NWs are:
+WHO (IP, Username, [Mobile] Phone No., IMSI, IMEI)
+is/was
+
+ISP
+AAA
+
+PST
+N
+
+communicating with WHOM (IP....) at what DATE/TIME
+
+Mobil
+e
+
+using
+what KIND OF METHOD/PROTOCOL (Mail, WWW, Skype,
+Collecti
+on
+Devices
+
+Chat, Voice, Fax, SMS...). It might be possible to keep
+i.e.
+also the subjects of Emails etc. (which extends the
+classic
+
+Mediation
+
+DRS). Data are provided either by the Networks
+themselves
+by interfacing OSS/BSS (Billing Systems; CDRs), or using
+NW-elements in IP-NW (Switches, Routers – Cisco,
+Juniper,
+
+Front-End
+Back-End
+Admin
+
+...) or using own IP-Appliances in IP-NWs to create these
+Ethernet
+
+kind if data by analyzing/capturing the traffic. In IPNetworks
+existing Target-Id-Probes (for LI, FF ISP) can be used
+
+DRS
+SERVER
+
+additionally to get user data.
+
+Receiving
+
+Data Handover: The different DRS-data have to be more or less
+normalized
+
+Decode
+Demod
+
+to
+
+depending from which source/NW they are coming from
+be stored in the Data Warehouse and being retrieved
+again
+Storage
+Archiving
+Analysis
+Evaluatio
+n
+
+IP
+
+on demand.
+
+Data Wareh.:
+DATA WAREHOUSE
+
+Users / Evaluator /
+Operators
+
+Due to the huge amount of data and the high
+
+data rates
+
+coming from different NWs it will make sense to keep the
+data in a separate storage/Data Warehouse.
+Admin: Due to the very specific usage of a DRS and the different
+
+Conclusion – proposal how to proceed ...
+
+12
+
+Conclusion
+This conclusion is based on the following assumptions and facts:
+1. More IP-knowledge than classic PSTN/Mobile NW knowledge available within the 3 partners
+2. Sales experience and market access is available for all solutions
+3. PSTN/Mobile Voice data need a complete different handling (receiving, decoding, evaluation) than IP-data
+4. No. 2 becomes even more difficult dealing with decoding of modem and fax transmissions
+5. LI for classic PSTN/Mobile NWs depend very much on the LI-implementations provided by the different NWvendors
+6. DRS is characterized by huge amounts of data, a wide range of different intefaces needed to capture/receive
+data, different Hand-over-Interfaces (HI-A, HI-B) and different approaches when data are to be retrieved,
+own/different user management etc.
+7. Different Intelligence Methods need different kinds of administration functions
+8. Different Intelligence Methods need different ways of storage (data structures), different decoding and
+analysis/evaluation methods
+The proposed way to go should be:
+9. Start with Mass IP-Data Interception (for this Intelligence Method the most work is done / solutions are available)
+10. Next Step will be LI in IP-Networks (a lot of components can be used and/or are available and can be modified
+accordingly)
+11. Due to the fact that Infection solutions are products ready to use (FinFly ISP, FinFlyWeb, FinFlyUSB) the data
+coming from FinSpy Master have to be integrated into the Data Warehouse (like we did for other MCs).
+12. Blocking and Shaping has no real impact on the Back-End because no data transfer towards the BE has to take
+place. It can be kept as a separate product, making use of filter criteria also used for Mass IP-data Interception.
+Having an own GUI running on the same Management Workstation like Mass IP Interception and/or LI and/or
+Infection will be sufficient.
+13. Although LI in PSTN/Mobile networks provide a lot of functions as part of the networks we still will need a lot of
+additional equipment (HW/SW) to receive, decode and evaluate captured data. Maybe Appliances and Software
+from 3rd Parties might be a solution (ASC, Spectronic, others). For us integrating the data in the Warehouse then
+would be the major task together with an overall System/Warrant administration. Interfacing to other data
+
+Vielen Dank für die Aufmerksamkeit
+
+13
+
+

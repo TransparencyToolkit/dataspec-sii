@@ -1,0 +1,139 @@
+LI System
+
+Lawful Interception System
+Overview
+
+INTRODUCTION
+
+FEATURES
+
+Widespread information technologies provide fast and
+dynamic communication media even for criminals and
+terrorists. To be able to guarantee public safety, law
+enforcement agencies (LEAs) need to identify, intercept
+and analyze the content of the malicious communication.
+INVEA-TECH provides law enforcement and government
+agencies with the state of the art technology to solve the key
+part of the investigation process. INVEA-TECH LI System
+is the ideal instrument for collecting evidence from
+wired IP-based networks.
+
+
+
+ETSI LI standards conformance
+
+
+
+Easy third-party monitoring centers integration
+
+
+
+Dynamic target identification (DHCP, RADIUS)
+
+
+
+Hardware accelerated wire-speed 10G probes
+
+
+
+Centralized control over whole system
+
+
+
+Support for several independent LEAs
+
+
+
+Up to 1000 IPv4 and 1000 IPv6 active targets
+
+
+
+Encrypted communication and authentication
+
+
+
+Easily adaptable to national legislative
+
+SYSTEM DESCRIPTION
+Architecture and implementation of the LI System follows
+international standards closely while keeping high flexibility
+of the whole system. Therefore it can be deployed in
+different countries over the world and also easily modified
+to meet national legislative.
+LI system consists of two main components–- interception
+probes and mediation device - which are deployed at ISP`s
+site. Interconnection of the components and schematic
+installation are shown in the picture. Whole system is
+managed through easy-to-use web interface compatible
+with all most-used web browsers.
+The interception probes are located at input part of the
+processing chain. Traffic interception is based on the
+provisioned targets and their dynamic identification by
+analysis of AAA (RADIUS, DIAMETER) or host control
+(DHCP) systems. Their non-intrusive installation and passive
+operation mode guarantee invisibility in the network.
+Handover of the intercepted data is performed
+by mediation device. Mediation device encapsulates data
+stream into standardized format and forwards it to LEA
+for further processing.
+
+POLICE
+
+WEB INTERFACE
+
+RADIUS, DHCP
+
+PROBE
+CONTROL
+
+MEDIATION
+FUNCTION
+
+INTERCEPTION PROBES
+
+Interception probe is the essential element of the system.
+It is processing network traffic and searching for the traffic
+of interest. All intercepted traffic is forwarded to mediation
+device for conversion to handover format.
+ Full-duplex 10 Gbps line monitoring
+ LR, SR fiber optics supported
+ Data export over dedicated 1 Gbps interface
+ Support for L2 protocols (MPLS, VLAN, QinQ)
+ Standard rack-mountable form factor
+MEDIATION DEVICE
+
+Mediation device is the central part of the lawful interception system. It is scalable and allows to increase volume
+of intercepted traffic as well as number of controlled
+interception probes.
+ Support for standardized handover interfaces
+ Handles multiple interception probes
+ User friendly management interface
+
+MEDIATION DEVICE
+
+DYNAMIC
+TARGET
+
+INTERCEPTION PROBE
+
+HI1, HI2, HI3
+
+SECRET
+SERVICE
+
+ Standard rack-mountable form factor
+
+Ordering Information
+Please contact INVEA-TECH for pricing and additional
+information about this product.
+
+www.invea-tech.com
+INVEA-TECH a. s.
+U Vodárny 2965/2
+616 00 Brno, Czech Republic
+
++420 5 1 1 205 250
++420 602 6 4 7 68 4
+info@invea-tech.com
+
+

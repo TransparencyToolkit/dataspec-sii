@@ -1,0 +1,507 @@
+CRFS
+
+rty systems
+
+Introduction
+Wide area multi-mission monitoring and geolocation systems for
+spectru m-critical sites.
+RFeye Arrays provide cost-effective high performance real-time
+
+maps, satellite images and 2D and 3D GIS datasets, to give
+
+signals monitoring, analysis and geolocation for spectrum-
+
+a unique positional display showing source geolocation
+
+critical areas. Sites include government ranges, military training
+
+probabilities, irrespective of signal power, bandwidth or
+
+and proving grounds, army and naval bases, airports, sensitive
+
+frequency.
+
+borders and perimeters.Arrays are available in a range of
+sizes and antenna configurations for fixed or vehicle-based
+
+Modular and flexible deployments
+
+deployment with frequency range options from 20MHz to
+
+Each RFeye Arrays is fully self-containedwithin a robust IP65
+
+18GHz.Twin receiver channels provide simultaneous monitoring
+
+rated radome designed for hostile conditions. Close coupling of
+
+and geolocation capabilities.
+
+the RFeye Node and antenna modules reduces cable runs and
+cable losses and significantly improves performance at higher
+
+Class-leading signal interception
+
+frequencies.Various directional antenna options are available
+
+The RFeye Array is a fully integrated multi-mission system for
+
+from 100 MHz to 18 GHz and an RFeye frequency extender
+
+continuous 2417 spectrum monitoring and surveillance and for
+
+module is available for AOA on VHF transmissions down to 20
+
+detecting and locating unauthorized, suspicious or interfering
+
+MHz. Arrays can be networked over large distances as part of a
+
+transmitters. It is designed to intercept signals, however
+
+wider monitoring andTDOA network with other RFeye Nodes.
+
+transient, perform signals analysis and classification and quickly
+and reliably geolocate target transmitters, all in real time or
+recorded for future analyses.
+The RFeye Array uses a unique multi-layer approach that is
+more sophisticated and versatile than traditional direction
+finding. High performance spiral directional antenna modules
+are optimized for different frequency bands and arranged in
+multiple orientations.The Array is sensitive to the majority of
+incoming signal polarizations including all linear polarizations,
+allowing reliable detection of signals including those invisible to
+most DF systems that use only vertically polarized antennas.
+
+-
+
+Augmented geolocation techniques beyond direction finding
+The RFeye receiver commutates at very high speed around the
+antennas to make near-simultaneous measurements in multiple
+directions. It measures correlations and calculates actual
+positional probabilities using "augmentednTime Difference of
+Arrival (TDOA) andlor Power on Arrival (POA) techniques.
+In addition, it gives a bearing (Angle of Arrival) based on
+received power at each antenna. Measurements from these
+different techniques can be overlaid onto a wide variety of
+
+RFeye Array configurations
+RFeye Array 200
+
+RFeye Array 300
+
+Single channel system configuration example: AOA 300 MHz -
+
+Dual channel system configuration example: AOA 20 MHz - 6 GHz,
+
+4 GHz,TDOA Ibackground monitoring capability 10 MHz - 6 GHz,
+
+TDOAI background monitoring 10 MHz - 18 GHz (with externally
+
+shown with internal omnidirectional antenna fitted.
+
+mounted omnidirectional antennals). Base system plusVHF
+frequency extender.
+
+300 MHz - 4 GHz
+Monitoring and TDOAIPOA
+
+10 MHz - 6 GHz
+
+Number of channels
+
+I Mechanical & environmental
+
+Nechanical & environmental
+
+Weight
+
+---
+
+20 - 300 MHz (VHF]extender optlon
+
+Uumber of channels
+
+Env~mnmentalprotection
+
+10MHr-6GHz
+
+.
+p
+-
+
+20 - 300 MHziVHFiextender optlon
+
+Storage
+temperme
+
+Monitoring and TDOAIPOA
+6 - 18 GHr ISHF)extender option
+
+6 - 18 GHz (SHF] extender option
+.
+p
+.
+
+Operatingtemperature
+
+300 MHz - 6 GHr
+
+I -28 to +50"C(-18 to 122°F)
+
+j
+
+41D+wci4tolm
+
+RFeye Node & electronics / B 7
+System Iffi5
+
+Operatingtemperature
+
+mtemperature
+
+I -28to+50"C[-18to12Pfl
+
+1
+
+Enwmnmental pmtectlon
+
+Weight
+
+4n+~~C~4rnliBT~
+RFeye Node & elebonlcs IP67
+S W m IP65
+
+I
+
+KJkg/I76lbs
+
+RFeye Array 700
+
+RFeye Array 500
+
+Dual channel system configuration example: AOA 100 MHz - 18
+
+Dual channel system configuration example: AOA 20 MHz - 18 GHz,
+
+GHz,TDOAI background monitoring 100 MHz - 18 GHz (to 10
+
+TDOAI background monitoring 100 MHz - 18 GHz (to 10 MHz with
+
+MHz with externally mounted omnidirectional antenna). Base
+
+externally mounted omnidirectional antenna). "SKeyeView"45'
+
+system plus SHF frequency extender.
+
+and vertically aligned directional antennas. Base system plusVHF
+frequency extender.
+
+AOA
+Mon~toringand TOOA/POA
+
+1
+
+6 - 18 GHz (SHF) exrender opticn
+20 - 300 MHz (VHF)extender ophm
+
+1WMHz-6GHz
+
+AOA
+
+10MHz-6GHz
+
+Monrtoring and TDONPOA
+
+Yes
+
+I
+
+.-
+
+- .. -.
+-
+
+I 1OMHz-18GHz
+
+6 - 18 GHz ISHFI extender opt~on
+
+--
+
+.
+
+20 - 300 MHz(VHF)extender ophon
+
+Yes
+
+Number of channels
+
+Mechanical & environmental
+
+100MHz- 18GHz
+
+I
+
+NIA
+
+1
+
+.-
+
+--
+
+-
+
+-.
+
+Yes
+
+Number of channels
+
+I
+
+Mechanical & environmental
+
+I
+
+Guide to direction finding and geolocation
+CRFS employs a unique multi-layer approach for high probability
+detection and geolocation of signals and transmitters of all types.
+
+There are a number of well-established techniques for locating
+
+Time Difference of Amval
+
+the source of a given signal.These include Angle of Arrival
+
+TDOA is a well-proven technique that uses synchronous time
+
+(AOA),Time Difference of Arrival (TDOA)and Power on Arrival
+
+domain captures to determine the relative time of arrival of a
+
+(POA).Each technique has its advantages and disadvantages,
+
+signal at different receiver locations.The technique is optimal
+
+with varying degrees of accuracy for successfully locating
+
+for geolocation over wide areas. Two monitoring receiver
+
+different signal types. CRFS's approach is to make simultaneous
+
+points will provide geolocation probability in two dimensions
+
+RFeye measurements using any two or all three of these
+
+(i.e. approximately along a hyperbolic curve), whereas three
+
+geolocation techniques, as appropriate, overlaid onto a terrain
+
+or more monitoring receiver points will provide geolocation
+
+map.This approach maximizes the probability of accurately
+
+probability to a bounded area or point. TDOA works best for
+
+locating a given transmitter, whatever the signal type.
+
+wider modulation bandwidths with better signal correlation
+
+Angle of Arrival
+
+A significant advantage ofTDOA is that the processing gain
+
+properties and therefore localization to a more narrow area.
+AOA direction finding provides a bearing to received signals
+
+of correlations allows successful geolocation of signals which
+
+by rapidly switching between directional antenna elements in
+
+are close to or even below the receiver noise floor.Timing
+
+an antenna array. AOA is effective with any RF transmission
+
+synchronization is required between the receivers forTDOA.
+
+type as it responds directly to received RF power. Advantages
+
+For wide area deployments, this is provided most practically by
+
+from AOA include the excellent detection range resulting from
+
+the RFeye on-board GPS receiver. Using RFeye Arrays,TDOA
+
+directional antenna gain, and the ability to resolve multipath
+
+geolocation results are combined with AOA results to provide
+
+components to determine quality of signal bearings.
+
+unrivalled geolocation performance.
+Power on Amval
+
+AOA: Three receiver points ensures
+geolocation to small area, even when
+target is collinear with two receivers
+
+POA is a simple geolocation technique that uses synchronous
+frequency domain captures to determine and compare the
+instantaneous relative power of a signal at different receiver
+locations. Given the rapid fall-off in received signal power
+over distance from a transmitter, the POA technique is
+optimal for relatively short-range geolocation such as inbuilding monitoring, where the amplitude comparison yields
+
+As the technique is measuring signal power, ability to obtain
+
+sufficient differences. POA requires three or more monitoring
+
+AOA results is limited only by the noise floor of the receiver.
+
+receiver points to provide geolocation probability to a
+
+RFeye Arrays respond to most signal polarizations including
+
+point. Increasing the density of receiver points significantly
+
+all linear polarizations, overcoming the horizontal linear
+
+improves the quality of the geolocation. POA is effective with
+
+polarization blindness suffered by alternative direction finding
+
+any RF transmission type, from unmodulated carrier wave
+
+systems. RFeye Arrays use single or multiple receiver channels
+
+signals to narrow band or short burst pulsed transmissions,
+
+split between tiered and banded antenna arrays to multiply
+
+since the technique relies only on received RF power. POA
+
+the benefits from RFeye sweep speed and antenna switching
+
+requires timing synchronization between receivers. Although
+
+speed for increased probability of signal intercept. AOA
+
+GPS synchronization is viable, it is typically not practical or
+
+bearings from two or more Arrays are combined to provide
+
+secure for in-building applications. High performance wired
+
+geolocation to a single point. When augmented withTDOA
+
+timing synchronization systems such as RFeye SyncLincN are
+
+geolocation results, AOA provides assured geolocation over
+
+therefore used in-building.
+
+the greatest possible range of target signal types.
+
+RFeye Site software
+State-of-the-art desktop application for managing complex spectrtum
+operations using RFeye Arrays and Nodes.
+
+RFeye Site software provide easy multi-mission control
+
+all or any of the Nodes over wired or cellular networks,
+
+including 2417 continuous spectrum monitoring,
+
+with relative priority levels assignable to user levels and
+
+programmable masks and alarms, signal analysis and
+
+missions.
+
+optional signal classification capability, and full geolocation
+mapping capability.
+
+Plug-in modules are available for RFeye Site to enable and
+controlTDOA, AOA and POA geolocation.These support
+
+Each and every RFeye Array or Node in the network can be
+
+multiple simultaneous geolocations on multiple frequencies.
+
+assigned tasks from a large configurable menu, ranging
+
+Results are plotted on 2 0 or 3D maps and are displayed
+
+from requests for basic spectrum sweeps and occupancy
+
+as probability heat map overlays. Multiple results can be
+
+measurements, to the detection and alerting of spectrum
+
+overlaid onto the map for ease of visualization and analysis.
+
+events, to advanced signal classification and real-time
+
+The mapping tools include full zoom facility and ability to
+
+geolocation of sources of interest. Multiple users can
+
+display many simultaneous maps. SRTM data overlay is
+
+simultaneously make multiple requests of or interact with
+
+available to aid geolocation analysis.
+
+ancm Inutnndnrcmetnm
+
+nncrrinrinn
+
+Single channel system. ADA 300 MHz - 4 GHz. TDOA / background monitoring capabmltty 10
+MHz - 6 GHz(omnmdcrect~onalantenna not mcluded) Compact fixed or mobile system. 1 lrn
+radome or mofbox
+
+RFeye Array 200
+
+Array 300-SHF
+
+RFeye Array 500
+
+l
+
+beckground monitoring high end'frequency ranqe of RFeve Array 300 to cover SHF to 18 GHz
+
+Base system Dual channel system. AOA 100 MHz - 6 GHz, TDOA / background monitorcng
+100 MHz - 6 GHz Includesomnidirectional antenna rated 100 MHz - 18 GHz. TDOA /
+background monitorcng can be extended to 10 MHz with additional antenna fitted externally
+(not mcluded) 1 5m radome, fixed system
+
+1
+
+I
+
+SYS-OFA0005
+
+SYS-DFAOOOlS
+
+SYS-DFA0002
+
+VHF LGw m e n c y g x t e d r for Weye h y 333,t@M Wz. WS
+A ~ low
+A end
+frequency range of RFeye Array 500 to cover VHF to 20 MHz Ordered as addition to RFeye
+Array 500 Note RFeye Array systems with integrated low frequency extender module
+regUtrtaexternal omqidirectimi a n t m d s ) for TO@& / basksmwfd monrtoring
+
+antenna ratA 100 MHz ,113 W TDOA /
+
+RFeye Array 708
+
+For more information
+find out more or d ~ s c
+nquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources on our website at www.crfs.com-
+
+A
+
+SYS-DFAOOM-V
+
+

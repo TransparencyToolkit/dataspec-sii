@@ -1,0 +1,378 @@
+Qosmos ixEngine
+DPI & Metadata Extraction SDK
+
+1
+
+i- i
+
+E.
+
+I
+
+Product: Packet lnsp#t~onand
+Network lnteltigence ! % h i e
+Development Ki
+Applications: Embedding DPI and
+
+Development Tools For Best-In-Class
+Network Intelligence
+
+a'
+
+I
+
+metadata lnto various network
+appl~cat~ons
+Users: Developerr vvork~ngfor
+Equ~pmentVendors and Solut~on
+Vendors
+
+1
+
+Key Features: Embedded
+for full traffic
+software l~brar~es
+v ~ s i b ~ lat
+~ tw
+y e network s p e d
+
+Qosmos ixEngine is a DPI and metadata
+extraction software development kit
+used by TEMs and Solution Vendors to embed
+state of the art flow decoding technology
+into their applications.
+
+Application Program
+
+High performance
+The only DPI SDK that can handle a data
+plane of 10 Gbps on Linux
+Optimized for multicore processors such as
+Cavium, Tilera and NetLogic
+Many configuration options enable
+developers to optimize integration
+
+Optimized R&D
+..-*-A-.-
+
+r--A-
+
+CPU +OS
+
+Qosmos ready-to-use software reduces
+development cycles, costs and risks
+Developers can focus on building complete
+solutions and rely on Qosmos for its domain
+expertise in protocol, application and
+metadata extraction
+Future-proof technology with continuously
+updated protocols and applications
+
+ixEngine delivers complete visibility into
+network traffic in real time, including protocol
+and application classification and the delivery
+of communication metadata. This enables
+developers to inject application-level insight into
+
+Independent core decoding engine and
+protocol plugin library for fast protocol
+updates while preserving engine stability
+Protocol Plugin Creator to add customized
+protocol and application plugins to ixEngine
+
+'lThere
+
+is a trend towards using
+
+niche specialists in the DPI area.
+Outsourcing
+technical capabilities allows
+Telecom Equipment Manufacturers
+to focus on overall solutions
+development. "
+
+their solutions.
+
+Technology at a glance
+Designed with developers in mind, ixEngine
+accelerates the product development cycle.
+Ready-to-use software libraries reduce effort
+and lower risks associated with developing
+and maintaining a highly complex technology
+
+Classification of network flows using stateful
+Deep Packet Inspection and statistical
+protocol identification
+Real-time extraction of metadata and content
+from traffic flows
+
+internally.
+
+Correlation at flow, session, application,
+service and user levels
+
+Beyond DPI
+Qosmos delivers enhanced Network Intelligence
+
+1000+ protocol and application plugins to
+classify flows and extract information
+
+by going beyond traditional DPI to also extract
+
+Designed for:
+
+protocol and application metadata, enabling
+detailed understanding of network transactions
+up to the application level.
+
+Graham Finnie
+Chief Analyst, Heavy Reading
+
+Passive-mode applications: processing of
+extracted traffic information
+Inline-mode applications: managing traffic
+based on extracted information
+
+Your Network is Information
+
+Qosmos ixEngine
+
+% QOSMOS
+
+DPI & Metadata Extraction SDK
+
+Beyond DPI:
+Network Intelligence
+Technology with metadata
+extraction
+Software libraries provide complete traffic
+
+Memory footprint
+400 KB for the full set of protocol &
+application plugins
+
+mechanisms to activate/deactivate depending
+on feature and performance requirements:
+
+Flexible integration
+Tunable ratio for granularity of flow analysis/
+packet processing rate to fit your application
+requirements
+
+Protocol signature using Layer 7 stateful DPI
+(no use of TCPIUDP ports)
+
+User-defined metadata extraction
+
+Statistical protocol recognition
+
+Switchable IP and TCP flow reassembly
+process for packet reordering
+
+Automatic de-capsulation of tunneledl
+encapsulated traffic
+
+Customizable early packet discard
+mechanism
+
+Operates on fragmented, duplicated,
+de-sequenced packets
+
+Optional packet pre-filtering: depending on
+application requirements, all packets or only
+a subset of packets are parsed by ixEngine
+(e.g. classification only requires the first
+packets of a flow)
+
+Operates on bidirectional and unidirectional
+traffic
+Parsing of IP flows enables real-time
+extraction of traffic metadata (caller, type of
+file downloaded, IMSI, etc.) and content (e.g.
+email text or VolP stream based on RTP data)
+Advanced condition-matching mechanism
+based on session context to filter data and
+packets
+High-speed keyword search leveraging flow
+metadata
+Delivery of structured traffic information over
+simple APls
+Protocol Plugin Creator to easily build
+additional, customized protocol plugins
+Debugging information delivery to secure
+implementation
+
+Qosmos SessionizerTM
+ixEngine dynamic session context contains
+flow identification and observed metadata
+Session context is available to users (e.g.
+for packet management leveraging flow
+metadata)
+Correlation of control and data sessions
+Inheritance of traffic attributes on correlated
+sessions (e.g. SIP session attribute "caller"
+inherited in RTP session state)
+
+Performance
+Scalability up t o core network speeds at 10's
+of Gbps
+Optimized symmetric multiprocessing (SMP)
+support for scalability up to 96 cores
+Optimized code for the industry's highest
+performance multicore processors such as
+Cavium Octeon, NetLogic and Tilera TilePro
+
+l
+
+I
+
+2 KB per session
+
+visibility at flow, session, application, service
+and user levels. Users can configure the
+
+i Protocol & Application Support
+
+400 KB for executable code
+
+Included in ixEngine
+Software libraries for flow decoding
+Fully documented APls, tutorials and code
+samples to facilitate integration into thirdparty solutions
+
+~fluginsMite
+
+*
+
+100[k p m d s and appliatiom.
+
+0
+
+450Qt metadata extracted
+
+EmmpIerof -and
+'1 i d m i f i d
+1
+
+1
+
+* AudidVideo streaming: RTIf RTSE YVMk
+YoarTube, Dai&tottMn. Reb F%pxetc.
+* VolR H323, g!?MCQ a.
+Enterprise: Cirw Or&
+MS Exchamp, M c r Z k m.
+Peer-to-Per: W f e . B i t T m t efc
+
+* Newark: rrwIE M, 5IX2 etc.
+Instant Meaaging:skypeaEUYY, Gtalk, etc
+
+Webrnail: GmaiI, Hc~m-raitYahoo!W7, &c
+flaw level: IPa;ddrezr, r m p o r q , eff
+
+1
+
+SesionM:@terPwU~~~u'~yt9
+mfcrrmatiinz etc.
+&&&.";
+is%t-
+
+1
+
+;k*z-".Ie%
+
+* Snnakwr: w q d p m p r r u p e r
+
+User h l : cdfec; &gin, fMSf, etc.
+
+Frequent delivery of new protocol plugins
+
+Maximum
+evolutim
+
+Protocol Plugin Creator
+
+Linux distributions
+Linux %mdard Base 3.x
+CPU architectures
+X8632 / X86-64 Linux User Mode
+X86-32 Linux Kernel Mode
+Netlogic XLR 7xx 1 RMI 05
+Cavium Octeon 38xx I Simple Executive
+Cavium Octeon 58xx / Simple Executive
+Tilera TILEPro64
+Freescale PowerQUlCC / Linux User mode
+Freescale 8572 / Linux User mode
+
+1
+
+l
+
+Protocol plugin watch and updates as
+technology evolves
+
+Supported environments
+
+I
+
+'
+
+C o n t i w s protocd
+frequent updates. ~ y p i ~parl o t o ~ updates
+r
+imitablewithin days
+
+I
+
+l
+
+Qn-demanddevdcpnent of custom pratDcof
+
+I
+
+rerognition
+
+*
+
+Prom& Rugh Crca(rr to dewhp yourarstomired protecd and applitltlan phrgifl~
+
+l
+
+Hardware platforms
+IBM X-Series servers
+Bivio 7000
+Tilera TILExpress-20GTMcard
+Cavium Networks PCI-Express 10GbE
+Adapters
+GE Fanuc NPA-38x4 card
+ContinuousComputing Flexpacket PP50
+
+services
+Training, certification and support programs
+Integration of ixEngine into your solution
+
+Contacts
+
+1
+
+EMEA
+Pars - France
+
+- 3 17809 1440
+
+Americas
+Germantown, USA
+
+APAC
+S~ngapore
+
++l 301 5288301
+
++6563966401
+
+'a-sales@qosrnos corn us-ralesOqosmos corn
+
+apac-sales@qosrnoscorn
+
+I
+
+

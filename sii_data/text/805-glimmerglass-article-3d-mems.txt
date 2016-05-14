@@ -1,0 +1,360 @@
+Reprint from the
+March 2010
+Issue of
+C4ISR Journal
+
+2010 / March / Vol. 9, No. 2 / www.C4ISRjournal.com
+
+Technical briefing
+
+Inside the black box
+
+For intelligence to be relevant, it must be shared quickly with a complex
+n et wor k of u ser s. E n gin eer Kelvin Chau expla in s h ow t h e la t est swit ch in g devices u se m ir r or s, len ses a n d ligh t t o dir ect video, im a ger y a n d
+da t a wh er e it n eeds t o go.
+
+T
+
+r a dit ion a l opt ica l com m u n ica t ion s equ ipm en t is
+widely deployed by t h e
+wor ld’s m ost elit e in t elligen ce
+a gen cies, bu t t h e cr it ica l n eed
+for r a pid a n d flexible da t a dissem in a t ion is cr ea t in g a m or e
+cen t r a l r ole for pu r ely opt ica l
+“ph ot on ic” swit ch in g syst em s.
+To bet t er u n der st a n d t h e
+br ea kt h r ou gh s dr ivin g t h is
+t r en d, it is im por t a n t t o pu t
+t h em in con t ext wit h t h e
+in du st r y’s evolu t ion a n d ch a llen ges. Th e gr ea t m a jor it y of
+voice, video a n d da t a t r a ffic
+flows over fiber-optic networks.
+Undersea communications fibers
+a r e u sed t o con n ect con t in en t s;
+sign a ls a t sa t ellit e t er m in a ls
+a r e con ver t ed in t o op t ica l
+st r ea m s for gr ou n d t r a n sm ission ; sen sor sign a ls a r e ca r r ied
+over optical paths; and fiber-optic
+cables carry critical information
+for t elecom m u n ica t ion s ser vice
+pr ovider s a n d in t elligen ce
+a gen cies.
+Th e syst em ic deploym en t of
+fiber in fr a st r u ct u r e h a s delivered profound benefits, but also
+m a jor ch a llen ges.
+Befor e ph ot on ic swit ch es, t h e
+m a in m et h od for dir ect in g
+optical traffic at the intelligence
+com m u n it y’s com m u n ica t ion s
+h u bs wa s t o con ver t it t o elect r ica l sign a ls in side opt ica lelect r ica l-op t ica l (O-E -O)
+switches. The electrical signals
+would be redirected, or switched,
+in a n ew dir ect ion , a n d con Ma r ch 2010
+
+ver t ed ba ck t o opt ica l sign a ls
+for t r a n sm ission t h r ou gh fiberopt ic ca bles.
+Ma n a gin g t h ese opt ica l lin ks
+is a n in cr ea sin g pr oblem a s
+n et wor k oper a t or s expa n d
+capacity and migrate to Internet
+Protocol/Ethernet. With an everin cr ea sin g n u m ber of fiber s,
+multiple wavelengths per fiber,
+a nd ever-increa sing da ta ra tes,
+t h e pr ocess of opt ica l-elect r ica l
+con ver sion r equ ir ed h u n dr eds
+of elect r on ic ch ips, a n d t h ese
+chips required a commensura te
+a m ou n t of spa ce, coolin g a n d
+power. Given t h ese in cr ea sin g
+burdens, the idea of sidestepping
+t h e con ver sion pr ocess wh er e
+possible spa r ked t h e developm en t of ph ot on ic swit ch in g
+t ech n ology.
+A Th r ee-Dim en sion a l Micr oE lect r o-Mech a n ica l Syst em s
+(3D-ME MS) a r ch it ect u r e for
+pu t t in g m ir r or s on silicon h a s
+em er ged a s t h e m ost econ om ica lly via ble a ppr oa ch for bu ilding reconfigurable, transparent
+a nd sca la ble photonic switches.
+3D-ME MS com pon en t s a r e
+u sed t oda y in ca r n a viga t ion
+syst em s a n d in kjet h ea ds a n d
+m a n y ot h er a pplica t ion s. My
+com pa n y, Glim m er gla ss, h a s
+pioneered their use for photonic
+swit ch in g.
+The 3D-MEMS a fford a sca le
+n eeded t o su ppor t a globa l
+com m u n ica t ion s n et wor k n ode
+wit h m u lt iple fiber s, ea ch ca r rying hundreds of wavelengths.
+
+Sim ila r t ools a n d t ech n iqu es
+t o t h ose u sed t o m a n u fa ct u r e
+in t egr a t ed cir cu it s a lso en a ble
+3D-ME MS fa br ica t ion . Th is
+t ech n ology h a s qu ickly fou n d
+it s wa y in t o a va r iet y of com m er cia l, defen se a n d m edica l
+a pplica t ion s.
+Th e r ea l power of 3D-ME MS
+t ech n ology is en a blin g m a n y
+sm a ll bu t com plex elem en t s t o
+be pr ecisely bu ilt on a wa fer
+t h r ou gh lit h ogr a ph y, et ch in g
+and masking processes. Through
+ba t ch fa br ica t ion a n d m in imization of materials, 3D-MEMS
+-ba sed pr odu ct s a r e n ow m a n -
+
+u fa ct u r a ble a n d cost -effect ive
+a cr oss m a n y in du st r ies. Th ey
+a r e ligh t weigh t a n d r equ ir e
+very low power while providing
+h igh per for m a n ce.
+Aft er yea r s of t est in g a n d
+design , five m a jor ch a llen ges
+fa cin g t h e in t elligen ce com m u n it y h a ve been a ddr essed by
+a dva n ces in ph ot on ic opt ica l
+sign a l m a n a gem en t .
+1. FAST SWITCHING,
+LESS OPTICAL LOSS
+Glim m er gla ss h a r n essed 3DMEMS technology to create and
+con t r ol bea m st eer in g m ir r or s,
+en a blin g m illisecon d r econ figu r a t ion of opt ica l sign a l pa t h s
+for t h e dissem in a t ion of in t elligence. The company’s 3D-MEMS
+switch uses control mechanisms
+t o t ilt m ir r or s, a llowin g m a n y
+opt ica l ch a n n els t o be swit ch ed
+
+All con t en t © 2009, Ar m y Tim es P u blish in g Com pa n y
+
+Technical briefing
+in a ver y sm a ll spa ce. A pr opr iet a r y a lgor it h m fa cilit a t es
+pr ecision opt ica l, closed-loop
+bea m con t r ol t o est a blish lowloss, input-to-output connections
+and maintain connections under
+ch a n gin g en vir on m en t a l con dit ion s.
+At t h e h ea r t of t h e
+Glim m er gla ss ph ot on ic swit ch ,
+is a p r op r iet a r y 3D-ME MS
+m ir r or a r r a y. A dou blegim ba l
+actuator structure allows a wide
+r a n ge of t ilt in a ll dir ect ion s.
+Th e a r r a y, com posed of 14 x 15
+gold-coa t ed m ir r or s, is et ch ed
+out of single-crystal silicon. The
+in dividu a l m ir r or s a r e on e m illim et er in dia m et er, a n d m a n u fa ct u r ed t o a u n ifor m a n d
+exa ct degr ee of fla t n ess a n d
+r eflect ivit y t o a ch ieve t h e best
+opt ica l per for m a n ce.
+H in ges pr ovide t h e m ir r or s a
+full range of movement with no
+fr ict ion a n d vir t u a lly n o m a t er ia l st r ess. Wit h t h is design , a
+mirror can be adjusted to a new,
+st a ble posit ion wit h in 25 m illisecon ds. F u r t h er m or e, st r ess
+t est in g of t h is design r a n t h e
+m ir r or t h r ou gh 1 billion a dju st m en t cycles a n d fou n d n o
+hinge fatigue or degradation in
+swit ch in g r espon se. Th is 3DME MS p h ot on ic s wit ch in g
+a r ch it ect u r e offer s en or m ou s
+flexibility and efficiency relative
+t o cost a n d size. Wit h m a n y
+syst em s in t h e field ser vin g
+m ission cr it ica l in t elligen ce
+applications and many years of
+reliable data, the products have
+bu ilt a r epu t a t ion for t h eir
+depen da bilit y.
+3D-ME MS h a ve t h e best performance in terms of optical
+loss a m on g t h e pu r ely opt ica l
+swit ch t ech n ologies. E xcessive
+loss in a n optica l network could
+lea d t o t h e n eed for h igh erpower la ser s, in cr ea sin g t h e
+cost of surrounding equipment.
+Min im izin g su ch loss im pr oves
+t h e over a ll n et wor k econ om ics.
+Glim m er gla ss h a s developed
+a proprietary process to actively
+a lign a n d a t t a ch m icr olen s
+a r r a ys t o a pr ecision -a lign ed
+fiber a r r a y, cr ea t in g collim a t or
+arrays, providing excellent beam
+posit ion in g a n d poin t in g
+accuracy. Each collimated beam
+is pa r a llel t o a ll ot h er bea m s
+wit h in t h e a r r a y, a n d a ll em a n a t e fr om t h e m icr olen s a r r ay
+a t a per pen dicu la r a n gle t o
+Ma r ch 2010
+
+ME MS a r r a y. Th ese fiber-len s
+a r r a ys h a ve ou t st a n din g a lign m en t a n d low len s a ber r a t ion s
+r esu lt in g in opt ica l in ser t ion
+loss of less than 2 decibels when
+con figu r ed in a 3D-ME MS
+bea m st eer in g m ir r or en gin e.
+2. MORE CAPACITY
+There is a significant increase
+in por t ca pa cit y, wh ich equ a t es
+t o in cr ea ses in t h e a m ou n t of
+in for m a t ion t h a t ca n be dissem in a t ed a n d t h e n u m ber of
+u ser s wh o ca n r eceive a ct ion a ble in t elligen ce. Th e m odu la r
+a r ch it ect u r e of Glim m er gla ss
+design a llows a ba sic con figu r a t ion t o be ext en ded in t o a
+larger port count switch. Instead
+of a fold m ir r or, t h e syst em ca n
+be “u n folded” in t o t wo opt ica l
+su bsyst em s, ea ch com pr isin g
+a fiber, len s a n d m ir r or a r r a y.
+Wh en t h e t wo m ir r or a r r a ys’
+opt ica l a xes a r e a lign ed, ligh t
+can be relayed from one optical
+su bsyst em ’s fiber t o t h e ot h er
+opt ica l su bsyst em ’s fiber. Th is
+u n folded con figu r a t ion ca n
+support up to an unprecedented
+192 x192 por t s.
+Th e ph ot on ic swit ch in g
+a ppr oa ch pr ovides gr ea t flexibility in intelligence monitoring
+a n d r esou r ces sh a r in g, r edu ces
+n et wor k ch u r n a n d lower s
+costs. These attributes become
+m or e im por t a n t wh en da t a
+r a t es a n d volu m e clim b.
+3. FEWER UPGRADES NEEDED
+P h ot on ic swit ch in g pr odu ces
+bit rate and protocol transparent
+pla tforms with minima l system
+opt ica l loss by r edir ect in g t h e
+a ct u a l ph ot on s in st ea d of pr ocessing the information into an
+elect r ica l s ign a l. P h ot on ic
+swit ch in g devices ca n a ccept
+a n d m a n a ge evolvin g for m a t s
+a n d da t a r a t es a n d m a n a ge
+higher capacity signals without
+t h e n eed for u pgr a des, t h u s
+“fu t u r e pr oofin g” t h e n et wor k
+a n d pr ot ect in g in vest m en t s.
+4. SMALLER IS BETTER
+Th e swit ch es pr ovide a dr a m a t ic r edu ct ion in power, size
+a n d h ea t . Th e 3D-ME MS a r ch itecture requires only the micro
+m ovem en t of m ir r or s t o dir ect
+opt ica l sign a l pa t h s, wh ich is
+h igh ly com pa ct a n d en er gyefficient. Prior to this innovative
+a r ch it ect u r e, t h e opt ion wa s
+
+h u ge, expen sive a n d power
+hungry O-E-O switches typically
+requiring well over 1,000 watts.
+The 192x192 photonic optical
+swit ch fr om Glim m er gla ss in a
+com pa ct fou r r a ck u n it ch a ssis
+r equ ir es less t h a n 85 wa t t s
+(that of a light bulb), producing
+m in im a l h ea t . Th is t r a n sla t es
+into a reduced footprint and cost
+sa vin gs by elim in a t in g powergenerating, air-conditioning and
+distribution equipment such a s
+ba t t er ies, r ect ifier s, diesel gen erators and monthly maintenance.
+5. HANDS-FREE DISTRIBUTION
+P h ot on ic opt ica l solu t ion s
+a r e t r a n sfor m in g in t elligen ce
+collect ion a n d dissem in a t ion
+by en a blin g t h e flexibilit y of
+nonintrusive, remote monitoring
+a n d r a pid r econ figu r a t ion of
+opt ica l sign a l pa t h s t h r ou gh
+soft wa r e con t r ol, elim in a t in g
+t h e n eed for cost ly m a n u a l
+equ ipm en t a dju st m en t s a n d
+precluding human errors. Leaps
+for wa r d in soft wa r e a n d h a r dwa r e in t egr a t ion m a ke it possible for n et wor k oper a t or s a t
+r em ot e loca t ion s, pa r t icu la r ly
+h ea dqu a r t er con t r ol sit es, t o
+use Web-based graphical interfa ces or com m a n d la n gu a ge t o
+con t r ol ph ot on ic swit ch es.
+Operators are able to form large
+n et wor ks of m u lt iple swit ch es
+capable of being monitored and
+con t r olled fr om a sin gle r em ot e
+ser ver.
+In a ddit ion t o a ddin g m a jor
+flexibilit y in t h e m a n a gem en t
+of opt ica l sign a l pa t h s, r em ot e
+ca pa bilit ies pr ovide sign ifica n t
+reductions in operating expenses
+a n d ca p it a l exp en d it u r es.
+Beca u se n et wor k oper a t ion s
+ca n m a ke ch a n ges t h r ou gh
+gr a ph ica l in t er fa ces, t h er e is
+n o n eed t o sen d a t ech n icia n
+in a t r u ck t o m a n u a lly a dju st
+fiber or reconfigure the network
+wh en t h er e a r e pr oblem s.
+Glim m er gla ss syst em s en a ble
+agencies to flexibly split, amplify
+a n d dist r ibu t e opt ica l sign a ls
+dir ect ly t o a la r ge n u m ber of
+r ecipien t s, a n d sim u lt a n eou sly
+pr ovide pr ot ect ion a n d r est or a tion functions for any fiber path.
+If t h e syst em det ect s a loss of
+ligh t , it a u t om a t ica lly swit ch es
+t o t h e pr ot ect ion por t . Wh en
+t h e syst em det ect s ligh t r est oration, it automatically switches
+ba ck. Sin ce n et wor k r econ figu -
+
+r a t ion ca n be m a n a ged fr om
+a n y wor kst a t ion con n ect ed t o
+t h e n et wor k, r em ot e n odes ca n
+be r econ figu r ed wit h ou t t h e
+n eed for expen sive a n d er r orpr on e on sit e in t er ven t ion .
+Consider a military operations
+center, which requires constant
+feeds of critical data and where
+a u t om a t ic swit ch in g fr om a
+fa iled fiber cou ld pr eclu de loss
+of a ct ion a ble in t elligen ce. On e
+su ch exa m ple is a kn owledge
+wa ll displa yin g h igh -defin it ion
+in for m a t ion feeds fr om m a n y
+sou r ces r equ ir in g com plex
+m a n a gem en t .
+Ma ny intelligence community
+a pplica t ion s r equ ir e r em ot e
+sen sor m a n a gem en t . Ma n n in g
+these sensor sites is challenging
+due to both geogra phic loca tion
+a n d st a ffin g r equ ir em en t s.
+Sever a l in t elligen ce pr ogr a m s
+h a ve a lr ea dy r ea lized t h e flexibilit y of t h e r em ot ely m a n a ged
+photonic optical systems. Sensing
+loca t ion s h ave been set u p a n d,
+beca u se of t h e r em ot e m a n a gem en t ca pa bilit y, n et wor k m a n a ger s a n d in t elligen ce a n a lyst s
+ca n m a ke fiber swit ch in g decision s fr om h ea dqu a r t er s. Mu ch
+h a s been deba t ed a bou t t h e
+a bilit y of va r iou s in t elligen ce
+parties to collaborate. Significant
+wor k h a s been don e t o im pr ove
+in t elligen ce sh a r in g, su ch a s
+a cr os s t h e Dep a r t m en t of
+Defense’s Distributed Common
+Gr ou n d/Su r fa ce Syst em , t h e
+Na t ion a l Geospa t ia l-In t elligence Agency’s e-GEOINT Web
+s er vices a n d t h e N a t ion a l
+Secu r it y Agen cy’s Rea l Tim e
+Region a l Ga t ewa y.
+Th a n ks t o m a jor t ech n ology
+a dva n ces, ph ot on ic swit ch in g
+solutions today offer significant
+pot en t ia l for en h a n cin g r ea lt im e in for m a t ion exch a n ge
+a m on g a ll t h e r eleva n t in t elligen ce com m u n it y pa r t n er s.
+
+Electrical engineer
+and optics expert
+Kelvin K. Chau is
+head of system integration and testing
+at Glimmerglass, a
+Hayward, Calif.,based company
+founded in 2000 to develop optical
+communications systems for commercial and intelligence community
+customers.
+
+All con t en t © 2009, Ar m y Tim es P u blish in g Com pa n y
+
+

@@ -1,0 +1,1334 @@
+PMS
+
+Portable Monitoring Systems
+GSM/PSTN/IP/Radio FREQ
+
+TSU INDEX
+Portable Monitoring Systems GSM/PSTN/IP/RF
+  
+
+Ref
+
+Number
+
+Description
+
+1  
+
+4023  adv  
+
+Passive  GSM  Monitoring  System  
+
+2  
+
+4001  
+
+Portable  Modem  Interception  
+
+3  
+
+4002  
+
+Portable  Voice  &  Fax  monitoring  
+
+4  
+
+4003  
+
+Portable  Voice  &  Fax  &  Email  Monitoring  
+
+5  
+
+4008  
+
+Key  Ghost  Keystroke  Capturing  Device  
+
+6  
+
+4010  
+
+Portable  IP  Monitoring  
+
+7  
+
+4012  
+
+Computer  Keyboard  Remote  Monitoring  System  
+
+8  
+
+4013  
+
+Tactical  GSM  IMSI  Grabber  
+
+9  
+
+4018  
+
+Mobile  Investigator/Cloner  
+
+10  
+
+4028  
+
+Road  Warrior  –  Field  version  
+
+11  
+
+4035  
+
+Computer  Sniffer  Activity  Tool  
+
+12  
+
+GA900  
+
+Active  GSM  Portable  Interceptor  
+
+13  
+
+GA2G  
+
+GSM  Test  System  GA2G  Lite  
+
+14  
+
+  
+
+TMS  100/200   Radio  Monitoring  DF  Portable  
+
+Passive GSM Monitoring System
+
+Model 4023ADV
+
+GENERAL DEFINITION OF PURPOSE
+The Model 4023 - Advanced System is designed for surveillance tasks and monitoring of
+telephone conversations within the GSM 900/1800 networks. The system provides the option
+of both stationary and mobile operation.
+
+TECHNICAL DATA
+The system ensures monitoring of audio and data traffic within standard GSM 900/1800
+networks:
+Without application of encryption algorithms
+Application of encryption algorithm A5/2 [real-time] (decoding time: 0.01 sec.)
+Application of encryption algorithm A5/1 [real-time] when Ki is known (A5/1 decoding
+optional)
+Default configuration of the system - 8 reception channels
+The system ensures registration of radio-electronic circumstances within the radio cells to
+be monitored (frequency and characteristics of BCCH-channels)
+Channels to be monitored are, according to task, manually selected by the user
+The system contains a database (up to 100,000 calling partners), operating in real-time,
+which can be accessed corresponding to the selected search criteria and parameters
+Calling partners are identified according to the IMEISV, IMSI, TMSI, ISDN number (local and
+international number)
+Assessment of the presence of calling partners is monitored and identification of specific
+parameters (TMSI) occurs automatically by means of a mobile phone with special software.
+The special software is contained in the scope of delivery
+Registration and storage of telephone conversations occurs on system’s hard disk
+The system ensures registration and storage as audio codec - types FR, EFR, HR
+Playback of recordings may be carried out by the system itself (CoolEdit-Software)
+Identification of SMS and DTMF data
+System’s coverage:
+Down-Link - up to 10-km
+Up-Link - up to 500-m in city
+Assessment of coverage between calling partner and base station with accuracy of up to
+550m
+Delivery format: in a special PC casing and Notebook
+Operation System software: Windows XP
+CONFIDENTIAL
+
+1
+
+Passive GSM Monitoring System
+
+Model 4023ADV
+
+SCOPE OF DELIVERY
+Model 4023 - ADVANCED, main components:
+PC Pentium 4-1.7 GHz or higher, 2 GB RAM, 80 GB HDD
+Circuit board with main generator and power supply module for receiver
+Circuit board with 8 duplex-channel receivers
+Circuit board with main processor ADP6201PCI for digital signal processing
+Data input module ADM214x10MX
+Antenna system with integrated amplifier
+Notebook with LAN interface and cable
+Special software for analysis and evaluation
+User-manual
+Optional: Mobile telephone with special function for assessment of calling partner’s
+presence within the monitored GSM-cell (Ping-Handy)
+Optional: Mobile telephone with Net monitor
+
+TECHNICAL DATA
+GSM 900
+
+Reception channels
+Target numbers
+Identification through
+Frequency range of Downlink
+(BTS_MS)
+Frequency range of Uplink
+(MS_BTS)
+Channel spacing
+Number of channel
+Frequency deviation
+Frequency stability
+Receiver type
+Receiver sensitivity
+Antenna impedance
+Time of frequency change in
+Hopping mode
+Dynamics range
+Volume range
+Demodulator
+Decoder
+Speech codex
+Channel structure
+System software
+Audio format
+Power supply
+Operating temperature range
+
+GSM 1800
+8
+up to 1000
+IMSI, TMSI, IMEI, Class mark, Telephone number, Distance
+935 ... 960 MHz
+1805 ... 1880 MHz
+890 ... 915 MHz
+
+1710 ... 1785 MHz
+200 kHz
+
+124
+45 MHz
+
+375
+95 MHz
+0.03 ppm
+wide range receiver
+-105 dbm
+50
+< 500 s
+
+> 75 dB
+25 dB
+GMSK, asynchrony
+for Protocol A5-2
+RPE/LTP: FR, EFR
+TDMA/FDMA
+Windows XP
+standard Wave-format
+220 VAC, 50 Hz; 110 VAC, 60 Hz or external battery 12 V
+DC
++ 5 °C ... 40 °C
+CONFIDENTIAL
+
+2
+
+Portable Modem Interception
+
+Model 4001
+
+The Model 4001 is a true portable modem
+intercept solution to be used in operations
+where direct access to the target lines is
+required.
+This unit can be deployed in the field close to
+the target or installed on a permanent basis,
+for example, in a monitoring center. Due to
+the unique design of the physical line
+interface
+the
+system
+is
+completely
+undetectable by the target and is transparent
+to all parties on the line. making it ideal for all
+covert operations.
+
+SYSTEM SUMMARY
+The Model 4001 system is delivered as a complete turnkey solution, including all cables and
+accessories. It consists of a high quality and specially designed PSTN line interface and a
+lunchbox computer for recording and decoding. It is very easy to operate and it only needs a
+few hours of training to use it at its fullest potential.
+The system intercepts all dialup modem traffic on a two wire analog PSTN line, and has no
+influence on normal voice or fax traffic on the intercepted target line.
+V.90 and V.92 is supported but will be trained down to 33.600 from the interface box towards
+the target.
+The target line is connected in sequence to the line interface box that in turn connects to the
+lunchbox computer; power it up and you are ready to go.
+
+You can listen to any Voice over IP traffic. The audio player contains an automatic gain
+control filter to enhance the audio.
+With these advanced tools you are able to follow whatever the target is doing on the internet
+and easily pinpoint any illegal activity.
+Information can be copied to the built-in CD or DVD writer for presentation in court or other
+purposes.
+
+The intercepted traffic is decoded into readable information for access to a broad range
+of tools for dealing with the intercepted data.
+Web Mail
+Voice Over IP
+File Transfers
+Messenger Services
+
+Web pages
+E-mails
+Attachments
+Chat Sessions
+
+CONFIDENTIAL
+
+1
+
+Portable Modem Interception
+
+Model 4001
+Features
+
+Applications
+Field deployment and other temporary
+set-up scenarios
+Permanent set-up in monitoring centers
+and offices
+Operations where direct access to target
+lines are required
+Internal investigations
+Covert operations
+
+Easy set-up
+Easy to operate
+Automatic modem detection
+Supports V.90 and V.92
+Web page decoder and viewer
+E-mail decoder and viewer
+Password
+acquisition
+for
+encrypted protocols
+
+non-
+
+TECHNICAL SPECIFICATIONS
+Internal Modems
+Protocols
+Internet protocols
+
+PSTN Line Interface
+Connector
+
+Power Input
+Connector
+Power Supply
+AC input
+
+V.21 Bell, V.22 Bell, V.22bis, V.23, V.32, V.32bis, V.34 (33.6 / 28.8),
+K56flex (56000), V.90 (56000)
+HTTP, POP3, SMTP, IMAP, NNTP, IRC, TELNET, FTP, VoIP H.323,
+ICQ, AOL IM, Yahoo IM, MSN Messenger, AOL 6, 7 & 8, Kazaa
+
+Modular plug (RJ11) in parallel with Banana Jack 4 mm with cross
+hole
+
+IEC Plug, 115 / 230 V Selections
+
+250 W / 100-120 V / 50-420 Hz,
+200-250 V / 50-60 Hz auto select
+EN60950 EMI EN55022 Class B
+
+Dimensions (HxWxB)
+
+41x31x25 cm / 16.1x12.2x9.8 inches
+
+Weight
+
+9.75 kg / 21.5 lbs.
+
+ENVIRONMENTAL SPECIFICATIONS
+Temperature
+Operating
+temp. 0° C to +50° C / 32 F to 122 F
+Storage temp. Range
+-40° C to +70° C / -40 F to 158 F
+Humidity
+Range
+
+Max. 90%
+
+OPTIONS
+Hard Carrying Case, Dial-in Access
+Model 4001 is also available with a stationary PC
+CONFIDENTIAL
+
+2
+
+Portable Voice & Fax Monitoring
+
+Model 4002
+
+The Model 4002 is a true portable voice and fax monitoring solution containing an extended set
+of features for carrying out monitoring operations on standard analog PSTN lines.
+Use it as a plain Dialed Number Recorder or take advantage of the onboard facilities for doing
+Live Monitoring Operations with real-time access to your target's line and full control of
+recordings.
+In Live Monitored mode the operator is in full control of the recording and has access to
+functions for doing legal recordings like:
+Minimize/Maximize
+Spot Monitoring
+Record On/Off
+Synopsis Editor
+Transcript Editor
+The line mode can be changed dynamically throughout an operation. Recordings are triggered
+by:
+VOX
+On/off hook voltage
+Manually
+Voice recordings are stored in GSM 6.10 format and fax recordings are stored as TIFF images in
+a SQL database.
+
+APPLICATIONS
+Field deployment and other temporary setup monitoring scenarios
+Temporary/permanent set-up in small scale
+listening posts
+Operations where direct access to target
+line is required
+Simultaneous probe and line monitoring
+Internal investigations
+Covert operations
+
+FEATURES
+V.34 High speed fax decoding
+Voice and Fax monitoring
+4 or 8 lines high impedant PSTN interface
+Real-time audio and signaling
+Fax Decoding – all known standards
+Remote access and administration
+
+CONFIDENTIAL
+
+1
+
+Portable Voice & Fax Monitoring
+
+Model 4002
+
+TECHNICAL SPECIFICATIONS
+System Platform
+
+Line Capacity
+Analog Line Interfaces
+
+Portable Lunchbox with built-in screen and keyboard
+Microsoft 2000/XP Operating System
+Microsoft SQL Server 2000 Database
+4 or 8 analog lines
+High Impedance interface according to ETS 300 001
+Voltage On/Off hook
+VOX
+DTMF according to ITU-T Q.24 ANNEX A
+Dial Pulses according to ETS 300 001
+Caller ID according to ETS 300 659-1 and BEL-202
+
+Fax Decoding
+Protocols
+Non Standard Transmissions
+
+All Group 3 and Group 3 Enhanced
+Non standard library included
+
+Power Input
+Connector
+
+IEC Plug, 210 / 230 V Selections
+
+Power Supply
+AC input
+
+250 W / 100-120 V / 50-420 Hz,
+
+Dimensions (HxWxB)
+Weight
+
+200-250 V / 50-60 Hz auto select
+41x31x25 cm / 16.1x12.2x9.8 inches
+9.75 kg / 21.5 lbs.
+
+Options:
+The Model 4002 comes with email monitoring option (Model 4003)
+CONFIDENTIAL
+
+2
+
+Keyghost Keystroke Capturing Device
+
+Model 4008
+
+The KeyGhost is powered by its own hi-tech internal chip and can store up to 2,000,000
+keystrokes in non-volatile flash memory, which is a permanent memory that does not require
+power to retain storage.
+This enables the KeyGhost to operate completely independent of the hardware and operating
+system that is running on the PC. These stored keystrokes are protected with state-of-the-art,
+128-bit encryption.
+When the KeyGhost fills up with keystrokes, the earlier keystrokes are dropped. Therefore, the
+user will always have a record of the latest keystrokes on the log.
+
+Figure 1: External KeyGhost Device
+The KeyGhost plugs into the keyboard cable, or alternatively, it can be hardwired inside the
+keyboard. It records all keystrokes from the moment the computer is turned on to the moment
+it is turned off. It starts operating immediately and silently, recording all keystrokes.
+
+ADVANTAGES OF KEYGHOST:
+It picks up every keystroke – even those typed in the critical period
+between computer switch on and the operating system being
+loaded
+It cannot be removed easily if it is hardwired inside the keyboard or
+mounted on the motherboard
+It has a capacity of up to 2,000,000 keystrokes
+Impossible to disable from a remote location or using software alone
+It is impossible for a computer to detect it
+It is immune to magnetic fields, has no moving parts and is shock
+resistant
+Its access time is extremely fast
+The chance of failure is very low compared to conventional media
+like hard drives or CDROM discs, because it uses flash memory to
+store data and has no moving parts
+It is very user-friendly; users do not need to be computer experts to
+install it, just plug in the device to the keyboard cable
+The log cannot be modified in the KeyGhost. The log is an authentic
+record of what was typed, and therefore, it can be used
+CONFIDENTIAL
+
+Figure 2. Internal
+KeyGhost Device
+
+1
+
+Portable IP Monitoring
+
+Model 4010
+
+The ever increasing mobility of communications in our society with laptops, mobile phones,
+WLAN and PDAs also has some drawbacks. The mobile criminal offender takes advantage of
+gaps in the criminal prosecution, like monitoring of WLAN-spots in internet-cafes, hotel rooms
+and at airports. With Model 4010 we want
+to help close these gaps.
+Model 4010 is a portable system for
+recording, reconstructing and evaluating IPdata and their applications, e.g. email, websessions, chat.
+Model 4010 supports surveillance and
+S.W.A.T. teams to receive relevant
+information immediately on location and
+guarantees access.
+Model 4010 read the data, filters it
+according to predefined filter criteria (depending on the specific usage and the legal regulations),
+adds a timestamp to the data and saves it in raw format in a database. Using the Analyzer User
+Interface the data can be reconstructed und evaluated – online or offline, residential or on
+location. For archiving purposes the saved raw data can be exported automatically or manually
+via FTP to already existing archiving media. Re-importing of archived raw data is also possible.
+Model 4010 consist of three functional parts. The recording of the raw data, picked up from
+different kinds of communication lines, the database management for internal organizational
+purposes of this data and the reconstruction function to analyze and evaluate the recorded IPbased data.
+Intelligence for a better world
+The Internet has produced a veritable flood of
+communication options, which are also being used by
+criminal offenders.
+We are an innovative provider of technology and services for
+monitoring, recording and reconstructing telecommunication
+data for carriers and law enforcement agencies. Our service
+concept enables carriers and Internet Service Providers
+(ISPs) to meet their statutory obligations in the most costeffective way. With our Monitoring Center and its product
+line, state-of-the-art solutions are available for law
+enforcement agencies to reconstruct, analyze and archive all
+kinds of communication data (voice, facsimile, modem and
+IP-data). Elaman solutions are based strictly on the statutory
+specifications of the country concerned. In Germany, for
+instance, these are embodied in the Telecommunications
+Monitoring Ordinance.
+
+CONFIDENTIAL
+
+1
+
+Computer Keyboard Remote Monitoring System Model 4012
+INTRODUCTION
+The Model 4012 system monitors activity on the
+keyboard of a target computer, stores the
+keystroke activity and transmits collected data to
+a remote location. The system consists of the
+Model 4012 T micro transmitter, which is
+installed in the target keyboard and detects the
+code of each keystroke. The Model 4012 T then
+stores the codes and periodically transmits the
+codes in short data bursts to the Model 4012 R
+receiver. Model 4012 R supports four basic
+operational strategies:
+Stores up to 2.5 million key codes in the Model 4012 R receiver
+memory. The Model 4012 R can then be removed or accessed
+to retrieve the key codes
+Displays the received key codes directly on a PC through a
+serial connection
+Re-launches the data using the Model 4012 GSM module for
+real time transmission or scheduled download
+Downloads the key codes with the Model 4012 UHF link and
+the Model 4012 DL. An operator within the UHF link radio range
+of the target can quickly download the key codes using the
+hand-held Model 4012 DL. The retrieved data is stored in the
+Model 4012 DL for subsequent display and analysis
+The system operation and functional parameters can be controlled and viewed using the Model
+4012 SW software, or through SMS messages. The Model 4012 SW software filters and
+elaborates visual analysis key code data without any modification of the original text.
+
+FEATURES
+Special features built into the Model 4012 DL
+simplify usage by:
+quickly downloading the key codes
+assisting in the identification of the correct
+connection points for the Model 4012 T
+
+TECHNICAL FEATURES
+MODEL 4012 T
+Micro transmitter - Device to be installed into the target keyboard of a desktop PC
+Range
+Power
+Max. Consumption
+Transmission
+Burst
+
+300÷306 MHz at PLL
+0 ÷ +20 dBm (in 10 steps)
+130 mA (+20 dBm) – 250 mA (+26 dBm)
+FSK a 10 Kbit/sec
+(Manchester with hamming code)
+when buffer is full or periodically every minute
+CONFIDENTIAL
+
+1
+
+Computer Keyboard Remote Monitoring System Model 4012
+Live signal transmission every minute
+Setting of 10 channels and of power
+Carrier transmission for 1 minute at switching on, range check
+High active digital alarm input (ex. keyboard opening sensors)
+Dimensions (mm)
+16 x 48 x 4
+
+MODEL 4012 R
+Receiver - Diversity receiver system, with data memory and
+management software
+Range
+Power
+Data receiving
+
+300÷306 MHz at PLL
+supply external 12 V dc
+FSK at 10 Kbit/sec
+(Manchester with Hamming code and Diversity)
+256 Mbit on FLASH (2.5 millions of digits)
+
+Data memory
+Internal real time clock
+Bar LED signaling the received signal intensity
+Bar LED switching off through SMS messages, if Model 4012 R is connected to Model 4012
+GSM, or through PC
+Key word alarm
+alphanumeric sequence of 20 digits
+Milled aluminum box
+Dimensions (mm)
+40 x 77 x 22
+
+MODEL 4012 CK
+Keyboard connection tester - Tester for use during installation to
+verify correct positioning of the cables in the target keyboard
+Power supply
+Dimensions (mm)
+
+through 9 V PP9 alkaline batteries
+101 x 62 x 30
+
+MODEL 4012 GSM
+GSM link - Module to re-launch data from Model 4012 R through the GSM network
+Transmission on the GSM data channel
+Remote control of Model 4012 R through cellular
+Power supply
+external 12 V dc taken by Model 4012 R
+LED bar to indicate
+GSM network Power supply level
+Remotely controlled through SMS messages
+Automatic sending of status and alarm SMS
+Dimensions (mm)
+40 x 77 x 22
+
+MODEL 4012 UHF
+UHF link - Module to re-launch data from Model 4012 R through UHF
+radio transmission with Model 4012 DL
+Range
+Power supply
+Out peak power
+Transmission
+Milled aluminum box
+
+300÷400 MHz at PLL
+external 12 V dc taken by Model 4012 R
+2 W out
+FSK at 40 Kbit/sec
+CONFIDENTIAL
+
+2
+
+Computer Keyboard Remote Monitoring System Model 4012
+Dimensions (mm)
+
+40 x 77 x 22
+
+MODEL 4012 DL
+Data downloader - Auxiliary module for direct down-link from Model 4012 UHF, testing and
+installation
+LOGIC SECTION
+Internal memory
+32 MB
+LCD graphic display
+16 x 4
+Menu with scroll reading
+Functions
+data downloading
+Setting of new configuration
+Download of internal configuration
+Automatic data downloading procedure with GO command
+RADIO SECTION
+Down-link receiver
+(8 preset channels)
+300÷400 MHz
+Systems with Diversity e retry
+Down-link speed
+40 Kbit/sec
+-107 dBm
+Sensitivity
+Up-link transmitter (
+8 preset channels)
+300÷400 MHz
+Output power
+from +10 to +33 dBm in 9 steps
+Power transmission adjustment into consideration of the receiving quality and internal battery
+status
+Up-link speed
+10 Kbit/sec
+IN/OUT CONNECTORS
+2 SMA antennas for Diversity Receiver
+1 SMA antenna for the transmitter
+1 USB output to program and to download data on the PC
+1 jack (for audio-listening during down-link) with remote controlled GO button (automatic start of
+downloading procedure)
+1 jack for the tester
+1 miniDIN to connect PS2 PC keyboard connector (where to fix Model 4012T)
+1 connector for external power supply
+12 V
+2 alkaline PP9 - 9 V inside batteries
+
+CONFIDENTIAL
+
+3
+
+Tactical GSM IMSI Grabber
+
+Model 4013
+
+OVERVIEW
+The Model 4013 Unit is GSM Cell Simulation/Emulation
+equipment consisting of two dual band receivers and a
+dual band transmitter. The receivers are able to receive and
+decode clear data, transmitted by GSM cell sites and GSM
+mobiles. The transmitter can emulate the signals of a GSM
+cell site.
+The equipment can be used to:
+Determine IMSI information of target mobiles
+Force position information from target mobiles
+Deny Network access for specific mobiles
+Used with Direction Finding equipment to locate
+specific mobiles
+The unit is compact and self-contained.
+The equipment offers the following functions:
+Dual band Receiver decoding Cell transmissions
+Dual band Receiver decoding Mobile transmissions
+Dual band Transmitter able to emulate local Network
+Cell
+In-built single board computer with hard drive
+WiFi connection to PDA terminal
+In-built battery, 12V DC operation
+
+PRODUCT DESCRIPTION
+The Unit has the ability to scan the local GSM network, and make a decision as to the best Cell
+to emulate. When transmitting the Model 4013 emulates the local cell, and elicits the IMSI and
+IMIE information from the target's mobile. The Unit also has the ability to send specific
+messages to target's mobile to gain a response, which could be used for location or direction
+finding purposes.
+All of the Receiver functions of the GSM Network monitoring the Model 4013 are available for
+use in the Model 4013 application.
+
+CONFIDENTIAL
+
+1
+
+Tactical GSM IMSI Grabber
+
+Model 4013
+
+TECHNICAL SPECIFICATIONS
+Interface:
+
+WiFi, or direct connection. LAN 10/100 baseT
+CF Slot, USB, Audio sockets: Stereo out and Stereo in
+PS/2 Keyboard/Mouse 6 pin mini Din connector (combined)
+VGA connector
+RX antenna via TNC connector
+TX antenna via SMA connector
+
+Protocol:
+
+GSM
+
+European model (900/1800MHz)
+Input frequency range:
+RX A 925-960MHz & 1805 -1880MHz, RX B 880 - 915 MHz & 1710 – 1785MHz
+Transmit frequency range:
+925-960MHz & 1805 -1880MHz
+American model (850/1900MHz)
+Input frequency range:
+RX A 869-894MHz & 1930 -1990MHz, RX B 824 - 849 MHz & 1850 – 1910MHz
+Transmit frequency range:
+869-894MHz & 1930 -1990MHz
+Power:
+
+Internal +12v sealed lead acid battery
+External 12vDC at 6A max
+
+Size:
+
+167mm (6.6") h, 106mm (4.2") w, 235mm (9.25") d
+
+Weight:
+
+5 kgs. (11 lbs.) Approx
+
+DIMENSIONS
+
+CONFIDENTIAL
+
+2
+
+Mobile Investigator/Cloner
+
+Model 4018
+
+A fast, secure and easy to use forensic system for mobile phone examination
+With the Model 4018 Mobile Investigator System you can download data from the SIM and the
+handset in a mobile phone quickly and securely. A copy of all data is downloaded in only a few
+minutes and can be analyzed or used as evidence.
+The Mobile Investigator software guarantees that the data in the mobile phone cannot be
+changed or deleted.
+Examples of data that Mobile investigator can download:
+Phone books – names, numbers, e-mail etc.
+Text messages – sent, received, unsent and archived
+Calls – dialed, missed and received calls
+Pictures – stored pictures and pictures taken
+Calendar information
+Tasks
+Audio files
+IMEI, IMSI
+The software automatically recognizes which mobile phone is
+connected to the communication unit. No special setup is required to
+start reading the mobile phone.
+Mobile Investigator has been developed in consultation with Swedish
+Customs, the Swedish Police and the Swedish National Laboratory of Forensic Science with
+feedback from the UK Police.
+
+COMMUNICATION UNIT
+The Mobile investigator communication unit can communicate with the mobile phone via IR,
+Bluetooth or cable. The unit connects to a PC via a USB. The communication unit is built to be
+flexible, robust and portable, to suit both fieldwork and office work.
+
+USB
+Connection to a USB cable makes it easy to connect all kinds of mobile phones. Mobile
+Investigator is delivered with a USB interface. You can use either the mobile phone
+manufacturer's cables or our cables.
+
+BLUETOOTH
+Bluetooth is a standard feature of many newer phone models.
+Mobile Investigator is delivered with Bluetooth interface.
+
+IR
+Infrared is still very common as a feature in mobile phones.
+Mobile Investigator is delivered with IR interface.
+
+CONFIDENTIAL
+
+1
+
+Mobile Investigator/Cloner
+
+Model 4018
+
+HARDWARE KEY
+Mobile Investigator Software can be installed in an optional number of computers. To carry out
+an examination of a mobile phone just connect the communication unit using the USB key that
+comes with the system.
+The key also counts the examinations.
+
+CHARGING
+A smart universal charger is included in the Mobile Investigator System. You can easily charge
+the mobile phone before doing an examination.
+
+COMPLETE REPORT
+Mobile Investigator creates a report of all downloaded data. The report is also ready for
+administrative data as case reference, operator, exhibit ID and other information, useful to the
+investigation. Your own logotype, address and other contact details can easily be entered into
+the report. The time and date of the examination are generated automatically.
+
+CALLS AND TEXT MESSAGES
+A clear presentation of all incoming, outgoing and missed calls that the phone has the capacity
+to store is listed. Any name stored with a telephone number is also included. Text messages
+read, sent, unsent and archived are also listed. All the data is specified with its storage location
+in the phone – the SIM or in the Device.
+
+CONTACT DATA
+All data about the contacts in the phone are listed as name, phone number, and mobile number,
+e-mail etc. All the data is specified with its storage location in the phone – the SIM or in the
+Device.
+
+PICTURES
+All the pictures that are stored in the phone are listed in the report. The built-in preview function
+enlarges the picture for a first look.
+
+AUDIO
+All audio files that are stored in the phone are listed in
+the report. The audio files can be played directly from
+Mobile Investigator.
+
+CONTINUOUSLY DEVELOPING
+Mobile Investigator is continually being developed
+apace with new features in phones and new phone
+models on the market.
+
+CONFIDENTIAL
+
+2
+
+Road Warrior – Field Version
+
+Model 4028
+
+ROAD WARRIOR
+FIELD VERSION IS IDEALLY SUITED FOR MOBILE UNITS IN DEMANDING
+CONDITIONS
+In response to demand from our customers worldwide, we have developed a shock resistant,
+weatherproof all-in-one field version of our Model 4018 mobile phone forensics system – widely
+acknowledged as the industry standard. The new field version is available immediately.
+The 15 kilogram (33 lbs) field version is designed for mobile units of military intelligence, law
+enforcement and international organizations, such as United Nations peacekeeping forces.
+These organizations often require portable, self-sufficient forensics kits that are flexible, quick to
+use and easy to link to headquarters or remote computers.
+The all-in-one system features a built-in computer – with the latest version of Model 4018
+installed and configured – cables, SIM card reader, infrared and Bluetooth communications, as
+well as a chargeable 6–220 voltage battery that lasts 3–4 hours.
+
+SHOCK RESISTANT SUITCASE MEETS HIGHEST STANDARDS
+Built into an Army-green, high performance resin suitcase that meets the highest shock
+resistant standards (mil-801), the field version contains everything – hardware and software –
+required to perform a complete and rapid analysis for a majority of all mobile phones.
+“Military adapted” for the most demanding situations in the field, the field version is also
+equipped with a shockproof hard disk, which can be replaced with a 16 Mb flash disk – a less
+mechanically complicated device that is even more resistant to shocks.
+All Model 4028 software and hardware, including all the cables for the different phone
+manufacturers, have been manufactured by us, ensuring all parts are fully integrated and
+validated. Customers enjoy the security of working with a solution in which all the elements
+work together effectively, significantly minimizing problems and support issues.
+Completes our portfolio of forensics products
+The field version completes our portfolio of products for mobile phone forensics: the in-office
+“basic kit” that includes the communications unit, cables, software and SIM card reader (laptop
+not included); the “mobile version” for office and field that includes an aluminum suitcase, the
+communications unit, cables, software and SIM card (laptop is an option); and the field version.
+The highly robust suitcase, manufactured by Storm Case, feature press and pull latches,
+attached Vortex® valve that automatically adjusts air pressure without letting in air, unbreakable
+molded-in hasps, unique hinges and double-layered, soft-grip, solid-core carrying handles.
+The field version can be ordered with a keyboard in the local language required.
+Our product is today recognized as the industry standard in phone forensics and is used by law
+enforcement and other organizations around the world.
+CONFIDENTIAL
+
+1
+
+Road Warrior – Field Version
+
+Model 4028
+
+FEATURES
+The Model 4028 field version is a portable, self-sufficient mobile forensics kit that is flexible,
+quick to use and easy to link to headquarters or remote computer.
+Outer measurements 62.5 (length) x 50 (width) x 22 (height) mm
+IP66 when closed
+12" TFT display: 1024 x768 pixels
+512 MB RAM, max 1 GB
+Processor: Celeron M 800 MHz
+Data card with Intel 852GM chip, 1 x GBE Ethernet
+1 x 40 GB Automotive hardware disc SATA
+Battery life: 3–5 h
+3 USB 2.0 placed on front panel
+USB, IR and Bluetooth for communication with all phones; ability
+to switch on/off Bluetooth manually
+Speaker
+Line out
+Line in
+Key-board (US/UK/SV/TY/FR)
+Optional languages for key board upon request
+DC in 9–36 V with military 999 connectors
+DC/DC cable military 999 connectors in each end. Length approx. 1.8 m
+Capacity for approx. 45 phone cables, DC/DC cable and other accessories in the lid. The
+phone cables are provided by us
+Windows XP professional Service Pack 2, in English
+
+The Model 4028 field version is built into a
+military green, high-performance resin suitcase
+that is waterproof and shock resistant
+
+CONFIDENTIAL
+
+2
+
+Computer Sniffer Activity Tools
+
+Model 4035
+
+The Model 4035 computer sniffer is a highly effective
+software tool that can monitor activity on the computer
+in which it is installed and send that information to a
+collection point. The Model 4035 was created as a
+software micro-spy with key logging, mouse logging,
+screenshots, photo logging and voice logging functions.
+To maintain secrecy, the Model 4035 remains passive in
+the system; in other words it never takes the initiative,
+but simply reacts to other events or situations to hide
+itself behind something that the user already expects.
+Even during communication it never attempts to make a
+connection, but continuously monitors the state of the
+connection to intercept the moment when the
+connection is available.
+
+COLLECTED INFORMATION
+The Model 4035 deals with different types of information, mainly on the monitored PC. In
+particular:
+It records any session data, i.e. user name, timestamp, computer name, etc
+It captures any activity on the keyboard and also provides an automatic transposition for
+special keys or other phenomena connected with keyboard layout
+When first installed, it refreshes itself remotely and silently, without any further external
+action on-site
+It can produce a video-screenshot and send it over the net to be reproduced as a simple
+jpeg. Screenshots are taken silently, either at specific time intervals or during particular
+events
+If it detects an installed webcam, it can use it to take user's photo
+Audio capturing from the PC microphone is useful to intercept VoIp (i.e. Skype)
+All the info (keyboard activity log, screenshot, photos, etc.) is sent in an encrypted manner
+to a specific target address using any standard protocol
+
+HOW IT WORKS
+The software is composed of a silent transmitter and an admin tool. The system works by
+installing the transmitter on the target PC and using the admin tool at the listening site. The
+transmitter sends the captured information through a pre-designated mail server, either via
+email or other protocols, based on various opportunities for installation and configuration. The
+information from the transmitter is sent in encrypted format.
+
+TARGET OPERATING SYSTEMS
+Windows 98, ME, NT4, 2000, XP, 2003
+Unix, Linux, BSD (keylogger only)Related Software tools
+
+CONFIDENTIAL
+
+1
+
+Active GSM Portable Interceptor
+
+GA 900
+
+INTRODUCTION
+The GA900 was developed for services without access to the GSM-switches. Interception
+refers to GSM900 and GSM1800. The GSM Test System GA900 is a monitoring system
+featuring the following functions:
+Scan Mode: Identification of active mobiles within the detection range of GA900
+Search Mode: Search for dedicated mobiles
+Jam Mode: Blocking of mobiles
+Report Mode: Evaluation of the database by data filters
+Optional directional finding of the target.
+The following identifications are intercepted by GA900 even when the mobile is in the idle
+mode:
+Determination of the International Mobile Subscriber Identity (IMSI)
+Determination of the International Mobile Equipment Identity (IMEI )
+Determination of the telephone number of the called party
+Call to/from mobile for verification
+
+MODULES OF GA900
+The GSM Test System GA900 consists of the following modules (fig. 1):
+Commercial GSM Tx/Rx antenna
+Rx/Tx- (receive/transmit-) module
+Signaling unit
+Cell monitor
+Notebook PC (controller)
+Power supply
+Cable set
+Optional installation kit for cars
+Optional mobile portable case
+
+OPERATION
+The control computer, i.e. notebook, with the operator display (MMI) is based on standard-PC
+components. A modern state-of-the-art IBM-compatible PC with the operating system Windows
+2000 is used. All recorded data is stored in files on the hard disk. An object oriented data base
+management system is integrated to make the data management more comfortable.
+In the display of the Scan-Mode all the currently monitored subscribers are listed with their IMSI
+and IMEI. Additional data about the owner of the SIM-card, if edited by the operator of GA900,
+can be displayed by real-time operation of the database.
+Furthermore, time and location of the first interception can be displayed.
+With the help of the database, additional detailed information about the subscriber and his
+identity can be displayed. It is possible, for example, to request time and location of former
+interceptions from the database.
+
+CONFIDENTIAL
+
+1
+
+Active GSM Portable Interceptor
+
+GA 900
+
+FUNCTIONALITY
+The determination of the IMSI and IMEI via the air interface is possible only by a method, which
+simulates a base station inside a GSM network.
+This base station (GA900) transmits a beacon frequency with modified parameters. All mobiles
+in the vicinity of the simulated base station will now sequentially log-in on GA900 and it is
+possible to request IMSI and IMEI. This procedure is like a normal location update from one cell
+to another and therefore not noticeable to the subscriber.
+IMSI and IMEI are stored as a list in a data file. If the Access Class was specified, it is possible
+to store the AC with IMSI and IMEI to speed up the following search processes.
+For the duration the MS is logged to GA900, the MS is separated from the normal network.
+Calls originated by the mobile are now received by GA900 and the respective telephone number
+of the party called is displayed. However, the call will not be transferred to the normal network.
+These calls are responded by the Test System either by the operator of GA900 or by tones
+indicating that the subscriber is engaged or out of operation. Especially with the test extension
+the call can be established and the duplex voice channel can be intercepted. Mobile terminated
+calls cannot be intercepted.
+After registration of IMSI/IMEI non-relevant MS will be released to the GSM network. These MS
+will be separated for a short time from the net.
+
+Installed Vehicle Version
+
+CONFIDENTIAL
+
+Portable Version
+
+2
+
+GSM Test System GA2G Lite
+
+GA2G
+
+Leveraging the success of GA900 to next generation speed and miniature hardware R&S is
+extending the mobile radio monitoring portfolio of its renowned GSM Test Systems GA900 and
+GA900M with a new family member -- the GA2G. This new GSM monitoring tool is a very small
+and lightweight test system for the detection of subscriber presence and determining their
+identities.
+Providing two active virtual BTS-components, this highly portable multi band test system, which
+is the size of standard cabin luggage, allows special operations in more than one network Multichannel at a time.
+The usage of up to eight time slots per
+transceiver, which increases the acquisition
+speed to the maximum, together with Modern
+user interface -- the ideal form factor of the
+fully remote controlled GA2G -- a new field of
+close interception missions, is possible.
+Modern
+software
+architecture
+GA2G
+excellently complements the successful R&S
+mobile Cabin luggage sized radio monitoring
+products portfolio by adding speed and
+parallel-processing to the existing feature set
+of GA900 and GA900M.
+
+FEATURES
+Multi-band
+Up to 2 BTS in parallel, either in the same or in different networks at the same time
+GSM 900 including E-GSM
+GSM 1800
+Multi-channel
+Handling of up to 8 time slots per BTS
+Modern user interface
+Modern software architecture
+Attaché case size
+
+PRELIMINARY SPECIFICATIONS
+Transceivers (BTS)
+
+1 or 2*
+
+Timeslots used per transceiver
+
+up to 8
+
+Frequency Band(s)
+
+GSM900 incl. E-GSM and / or GSM 1800
+
+Max. output power (EIRP)
+
+0.5 W in GSM900, 1.0 W in GSM 1800
+
+Weight (Kg) starting from
+
+7.9
+
+Dimensions (mm)
+
+380 x 447 x 127
+
+Antenna
+
+directed patch panel
+
+Controller Concept
+
+remote controlled (Laptop)
+
+Operating modes
+
+Presence, Target
+
+CONFIDENTIAL
+
+1
+
+Radio Monitoring DF Portable
+
+TMS 100/200
+
+The Transportable Monitoring and Direction Finding Systems R&S TMS100 and R&S TMS200
+are optimized for mobile use at rapidly changing sites with unknown radio scenarios. They are
+designed for the following monitoring and DF tasks from 20 MHz to 1300 MHz, with an
+extendable range from 10 kHz (500 kHz for DF) to 3000 MHz. All measurement tasks can be
+performed either automatically (scheduled) or interactively.
+The key advantage of transportable systems over fixed monitoring stations is that once the
+allotted tasks at one site have been completed, a transportable system can be moved to
+another site, and quickly set up. Owing to the system’s compact design, it can even be installed
+on roofs or in difficult terrain. The antennas can be mounted on tripods.
+For mobile remote-controlled and portable use:
+Reliable solution for monitoring and direction finding between 20 MHz and 1300 MHz, with
+extendable range from 10 kHz (500 kHz for DF) to 3000 MHz
+Compact and cost-effective
+Different power supplies available: 100 V to 240 V AC or 11 V to 32 V DC
+Can easily be carried by two persons
+Quickly ready for use because of the very short setup time
+Can be operated up to 24 hours per day
+Controlled via Monitoring Software R&S ARGUS
+Transportable monitoring systems, either car-installed or portable, can perform all the
+measurement tasks usually associated with fixed or remote-controlled monitoring stations and
+have the extra advantages of being much more cost-effective and capable of changing location
+rapidly. This means that the coverage area of a network comprising fixed and remote-controlled
+monitoring stations can be expanded according to user requirement. No more than two persons
+are needed to the carry the system, which is on a portable rack.
+
+CONFIDENTIAL
+
+1
+
+Radio Monitoring DF Portable
+
+TMS 100/200
+
+The transportable system can be installed in all vehicle types and can be used as a mobile
+monitoring system. The portable rack containing the equipment can easily be fixed to the
+vehicle with four screws.
+Special fixtures are used to mount the DF and monitoring antennas on the roof of the vehicle.
+GPS receiver and compass can be added to the system so that location and bearing of the
+vehicle can automatically be determined. The transportable system installed in vehicles can also
+be remote-controlled. This is usually done via GSM/GPRS 900/1800 links. The system can be
+used even if the vehicle is moving. Antennas which are capable of withstanding the resulting
+forces must be mounted on the vehicle.
+Operation as an unattended fixed station and operation as an attended fixed station are
+essentially the same. Routers and modems, as additional components, are integrated into the
+transportable systems to enable remote control.
+Analog or digital dialing or leased lines or GSM/GPRS 900/1800 links are used with a data rate of
+at least 9.6 kbps. A control station can be created from a PC with the appropriate software, a
+router and a modem, or even from a transportable system when provided with the necessary
+communications equipment.
+Direction finding can be performed with at least two transportable systems.
+
+4 mobile systems operated as
+remote-controlled, unattended fixed
+monitoring stations
+
+CONFIDENTIAL
+
+Software Radio/DF
+Monitoring Specifications
+
+2
+
+Radio Monitoring DF Portable
+
+TMS 100/200
+
+R&S TMS200
+General data
+Operating temperature range
+
+–10 ºC to +55 ºC with option R&S TMS-B1:
+–10 ºC to +45 ºC with option R&S TMS-B1 and option R&S
+TMS-B4:
+–10 ºC to +50 ºC
+
+Storage temperature range
+
+–40 ºC to +70 ºC
+95 % cyclic, +25 ºC/+55°C with option R&S TMS-B1:
+
+Humidity
+
+80 % cyclic, +25 ºC/+40°C
+
+Sinusoidal vibration
+
+5 Hz to 150 Hz
+
+Random vibration
+
+10 Hz to 500 Hz
+
+Shock
+
+40 g shock spectrum
+
+EMC
+
+meets EMC directive of EU (89/336/EEC) and German EMC
+law
+
+Quality standard
+
+developed and manufactured in compliance with ISO 900
+
+Power supply
+
+100 V to 240 V AC/47 Hz to 63 Hz/226 VA
+
+Dimensions (W x H x D) (box)
+
+555 mm x 358 mm x 720 mm
+
+Weight of fully
+portable rack
+
+equipped
+
+40.1 kg
+with option R&S TMS-B1: plus 6.6 kg
+with option R&S ZS129A1: plus 5.5 kg
+
+CONFIDENTIAL
+
+3
+
+

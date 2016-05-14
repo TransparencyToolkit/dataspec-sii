@@ -1,0 +1,44 @@
+Mediation Device for Lawful Interception
+RCS Mediation Systems are fully compatible with all transport technologies (including ISDN, SS?, CDMA, GSM, UMTS, GPRS,
+CDMA2000, SIP, H.323, MGCP).
+On the handover side, the RCS MD family interfaces with all major standards including ETSI, GALEA, GHIS and many custom national standards.
+
+Mediation Systems for ISDN/SS7 / ISUP telephony
+RCS wire line Mediation Devices can be tailored to interface with any vendor technology and any necessary conversions and handover
+management made for both Intercepted contents and relevant call data.
+RCS wire line Mediation Devices provide Call Content buffering to increase the reliability of the national Lawful Interception system and
+counter any temporary unavailability of the transport network or Law Enforcement Monitoring Facilities.
+The flexible architecture can assimilate probing capabilities within the LI network; this is sometimes needed to meet requirements not natively
+supported by switches (e.g. tracking uncompleted and thus unbillable calls).
+
+NWOMgmt
+Functions
+
+Administration
+&Monltortng
+Function
+
+Mediation Systems for mobile telephony
+With RCS Mediation Devices for mobile telephony you can integrate several data sources to deliver all requested Lawful Interception information
+over the same egress channel .
+RCS mobile telephony Mediation Devices allow you to collect data from the relevant Mediation device in ISP sources, then coordinate the
+handover of basic and extended interception info.
+
+Mediation Systems for GPRS/ UMTS data
+RCS Mediation Devices are designed to interface with most network data gateways.
+RCS MD are compatible with the protocols used by most leading mobile switch providers; on the handover side, both ETSI and GALEA egress
+standards are available.
+
+Mediation Systems for ISP architectures
+The RCS ISP Mediation Devices family includes native support for CISCO, JUNIPER, LUCENT interception functions as well as interface capability
+for RCS MIPS probes, normally employed as MD's in an intelligent distribution system implemented to provide RADIUS authentication detection.
+RCS Mediation Devices can assimilate some internet probes within the same architecture to match interception requirements, without breaking
+the bank or substantially altering network layout
+
+Mediation Systems for VoIP architectures
+RCS VoIP MDs come in two different versions:
+• IP VoIP Mediations deliver intercepted data as raw IP traffic, when Internet monitoring centres are presumably used at Law Enforcement level.
+• Alternatively, when standard telephone handover is required, the RCS "hybrid" design means VoIP call contents can also be transferred to
+standard analogue recorders or ISDN monitoring centres.
+
+

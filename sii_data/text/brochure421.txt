@@ -1,0 +1,689 @@
+Telecommunications
+Services
+
+FTS.
+
+An overview of FTS products & services
+
+Issue Number: 1.0
+Document Ref: FTSIAT103
+Date: 31103111
+
+CONFIDENTIAL
+6 2011 Forensic TelecommunicationsServices Ltd.
+
+1.0
+
+Company overview
+
+2.0
+
+SIM card forensics SIMiFORm
+
+3.0
+
+Mobile phone forensics HEX Raptore
+
+4.0
+
+Advanced mobile phone forensics Chip-off
+
+5.0
+
+Forensic acquisition for Apple iPhone iXAMW& iXAMiner
+
+6.0
+
+FTS Training services
+
+7.0
+
+lMSl / IMEl grabber & locator FTS Seeker
+
+8.0
+
+Building a digital forensics laboratory
+
+9.0
+
+GPS device forensics X-NAV
+
+10.0
+
+Specialist equipment
+
+3 201 1 Forens~cTelecornmuntcaflons Sewlces Ltd
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Page 2 of 14
+
+CONFIDENTUU
+
+Date: 31103111
+
+C
+
+1.0
+
+Company overview
+
+Forensic Telecommunications Services Ltd. (FTS) is a world leader in the advanced
+extraction, analysis and presentation of data from mobile telephones, mobile networks and
+all forms of computing and mobile communications technology.
+FTS delivers specialist technical services and unique data extraction tools to a wide range of
+security services, police forces, legal services and corporate clients. Through the provision of
+highly specialised Software, hardware and training solutions the company also supports the
+activities of law enforcement and internal security agencies all over the world.
+Based in the UK with offices in Europe and the USA, FTS has provided advanced technical
+services since 2000, developing the experience and technical expertise to enable the
+delivery of Best Evidence as a standard. Building on this solid foundation, the business is
+managed and staffed by qualified individuals from the telecommunications industry and by
+experienced former police investigators.
+An accredited IS0 9001:2008 company, FTS is committed to achieving the internationally
+recognised IS0 standards relevant to the delivery of forensic services and software products,
+including IS0 17025:2005 and I S 0 27001:2005. A strong emphasis is placed on best practice
+and audited forensic processes to ensure the constant fidelity, integrity and credibility of all
+FTS's data output and products.
+Fundamental to FTS's ongoing success is a significant and continuing dedication to
+independent research and development, specifically the advancement of
+E-forensic extraction techniques, specialist telecoms products and the validation of digital
+forensic processes. It is through this continued commitment to quality, improvement and
+stability that FTS is assuring its long-term ability to deliver Best Evidence through Best
+Practice, thereby guaranteeing Best Value.
+
+Work in partnershipwith law enforcement agencies on MAJOR cases
+International terrorism
+International drug trafficking
+Money laundering
+Organized crime
+Rape and child abuse
+USA, UK, Canada, Spain, Germany, Lebanon, Saudi Arabia, Pakistan, Malaysia, Bali, etc.
+
+O 201 1 Forensic Telecommunicat~ons
+Serv~cesLtd.
+
+Page 3 of 14
+
+-
+
+www.ForensicTS.com
+
+CONFIDENTIAL
+
+Date: 31/03/11
+
+L
+
+S I M card forensics - SIMiFORe
+2.1
+
+SIM reading and copying hardware overview
+a. Support multiple SIM card formats i.e. GSM, iDEN, UMTS and CDMA etc.
+b. Copy all accessible data leaving the original SIM card unchanged
+c. Copy from an original SIM or custom copy SIM details from a library resource
+d. Provide reusable SIM copy cards for creating custom SlMs
+e. Support full Unicode and extended character sets
+f. Obtain handset IMEl data, location information, voicemail data and other
+information where possible
+
+2.2
+
+SIM reading and copying software overview
+The SIM reading software will, where possible, be able to retrieve;
+a. Phone book names and numbers
+b. USlM phonebook data including email addresses, category and number types
+and any additional names and numbers
+c. Numbers, time and date of calls received, made and missed
+d. Text messages sent, received and deleted that are stored on a SIM card
+e. Produce customisable reports which can be outputted to XML
+f. MD5# & SHAl# of the full read file proving fore~sicintegrity
+g. Leave no trace on the original SIM card of investigation
+
+201 1 Forenslc Teleronimun~cat~ons
+Servlce5 Ltd
+
+Page 4 of 14
+
+3.0
+
+Mobile phone forensics
+
+3.1
+
+- HEX Raptore
+
+Mobile data extraction hardware ovenriew
+The mobile handset raw and deleted data extraction hardware supports a wide
+range of commonly available mobile phones such as Nokia, Sony Ericsson, Samsung,
+Motorola, LG and others.
+It includes the necessary hardware for connecting to such mobile phones and
+
+extracting as much data as is possible including but not limited to;
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+h.
+i.
+
+Phonebook and call registers
+SMS text messages
+Pictures, sounds and video
+The SIM card serial number and lMSl of the SIM card's inserted into the phone
+Other data like calendar entries, to-do lists, speed dials etc.
+Security or handset lock code
+Deleted data from all of the above where possible
+Large number of models covered circa 360+
+Specifically large number of Nokia models covered circa 100+
+
+Mobile data interpretation software ovenriew
+a. The mobile product includes decoding software for interpretation of the HEX
+data retrieved from the handset.
+b. The data retrieved is presented in a reporting format suitable for evidential use.
+c. Multilingual decoding of text messages
+d. Decodingof images, video and audio
+e. Physical memory extraction
+f. Extraction with no SIM present
+g. Informationon last SIM used in the phone when SIM is not present
+h. MD5# of binary files to ensure forensic integrity
+i. Leaves no trace in phone of investigation
+
+B 201 1 Forenslc TelecommunicationsServles Ltd
+
+Page 5 of 14
+
+Date: 31103111
+
+COP#IDEHML
+
+Advanced mobile phone forensics - Chip-off
+When a mobile phone is purchased it usually comes in a shiny box complete with user
+manuals, PC-sync software and peripherals such as headphones, screen cleaning cloth and
+perhaps a case.
+A mobile phone that has been part of a terrorist incident, or simply damaged by a criminal in
+an attempt to destroy potential evidence detrimental to their freedom may arrive at a
+laboratory in a very different condition!
+Damage by fire, impact, water or even DNA analysis has, in the past, often meant the end of
+any useful digital evidence being made available from the device.
+There is however, a technique commonly referred to as 'CHIP-OFF' which means that such
+damaged devices can still provide vital intelligence and evidence.
+Specialist equipment can be used to remove the handset's memory chip which may then
+require resoldering before a memory image can be taken. This read can then be run through
+advanced software tools to decode the hexadecimal data and produce an evidential report.
+Though easy to describe, this process can be time consuming and highly specialised
+requiring skilled engineers to perform the task.
+
+Useless for evidence?
+
+Chip-off techniques mean 'not necessarily!'
+
+I
+Q 201 1 Forenslc Telecommun~cat~ons
+Services Ltd
+
+Page 6 of l 4
+
+CcWENTW
+
+www.Forens~cTS.corn
+
+Date: 31103111
+
+CONFIDENTIAL
+
+5.0
+
+-
+
+Forensic Acquisition for Apple iPhonem and iPod Touchm iXAMm & iXAMiner
+
+The Apple iPhonem offers an advanced multimedia experience that integrates cutting edge
+phone, web and media functions in one device. Forensically secure data recovery from such
+complex equipment requires a specialist solution.
+iXAMm is able to provide comprehensive, non-invasive data recovery from both the original
+and new 36 Apple iPhonem as well as iPod Touch". iXAM" is proven to deliver a range of
+information potentially vital to law enforcement investigation, providing anything from a
+stored contact or text message to an email, photograph or specific map location.
+Our secure extraction technique creates a full forensic image of the device via USB
+download, which can be retained for additional investigations in the future. A full evidential
+report is easily produced along with an XML audit trail covering the data extraction process.
+
+iXAMm
+a
+
+a
+a
+a
+a
+
+a
+
+a
+
+a
+a
+
+Address book (including multiple entry types i.e. home, mobile, work, webpage,
+assigned ringtone etc.)
+Call register
+Incoming and outgoing call durations
+SMS messages
+E-mails (plain text) and E-mail accounts used
+Extract and reproduce e-mail attachments
+Calendar entries
+Map locations (latitude, longitude and search terms)
+ICCIDIIMSI of last SIM card
+Speed dials, Tasks and Notes
+User specified dictionary words
+Live and deleted images (our image extraction will retrieve the time and date
+that a picture was taken and, if available, the location it was taken at i.e. latitude
+and longitude of the image)
+Video footage and Audio clips
+Content downloads
+Deleted and historic Call Register entries
+
+.3201 1 Forensic Telecomrnunicat~onsServlces Ltd
+
+Page 7 of 14
+
+CONFIDENTIAL
+
+Date: 31/03/11
+
+iXAM" users benefit from ongoing research and development as FTS continues to increase
+the range of live and deleted data recoverable from the Apple iPhoneWand iPod Touch".
+Regular updates are included with each seat licence.
+
+In most cases iXAM" can recover the following information where available:
+Live and deleted voicemail (potentiallyeverything received over the lifetime
+of the handset)
+lnternet bookmarks (including last visited date)
+lnternet history
+lnternet cookies (including websites visited and creation/expiry timestamps)
+Active and historic viewed web pages
+Wireless Network details (includingrouter IP/MAC/Subnet, domain name
+and last connection time)
+Bluetooth pairings (this includes device names, MAC addresses and PIN numbers for
+pairing. Also shows historic entries)
+Current time zone offset (not available on all firmware versions)
+IMEI/Firmware version (only possible in certain cases)
+Screen shots showing general use, function and data entry
+For 36 iPhoneW,we can extract GPS location fixes. These include latitude, longitude,
+altitude time and date. These are confirmed fixes - they prove that the device was
+definitely in that location at that time.
+
+iXAMinerWprovides automated decoding and reporting of data extracted by iXAM"
+
+8 201 1 Forensic TelecommunicationsServices Ltd
+
+Page 8 of 14
+
+CONFIDENTIAL
+
+Date: 31/03/11
+
+FTS Training services
+Investigator training services:
+Telecoms lnvestigators Course
+An intensive 3 day course, presented by accredited
+police trainers and guest speakers, designed to give
+officers and analysts working within law
+enforcement an insight into forensic telecoms as
+an investigative tool.
+Students will learn about key areas of telecoms
+investigation during a variety of presentations and
+exercises, culminating in an interactive scenario.
+The interactive nature of the course will enable
+students to share their own expertise and experience with others and in combination with
+the course subject matter they will be equipped with the knowledge to fulfil both the
+administrative and investigative aspects of their role as telecoms investigators.
+
+1
+.
+
+Crimes in Action Course
+This 2 day course is a natural follow up to the Telecoms lnvestigators Course whereby staff
+can expand their knowledge into the area of "live" telecoms data analysis. The course is
+designed to give law enforcement officers an insight into the use of live telecoms data as a
+dynamic investigative tool. Students will learn about key areas regarding the use of live
+telecoms data during a variety of presentations and an interactive scenario.
+The interactive nature of the course means that the students will utilise "live" telecoms data
+as part of a kidnap investigation. The students will be able to share their own expertise and
+experience with others. In combination with the course subject material, they will be
+equipped with the knowledge and skills to better plot and use live telecoms data when
+investigatingcrimes in action.
+Due to the profile of FTS, we are able to ensure that all our students are given up to date
+instruction on the latest techniques and methods surrounding telecoms evidence being used
+in criminal investigations.
+lnternet data Course
+A 1day course facilitated by accredited Police trainers and guest speakers who are
+specialists within their fields. The course is designed to give officers working within Law
+Enforcement an insight to recognisethe potential sources of communications data held by
+lnternet Service Providers, which may progress an investigation. Students will learn about
+key areas regarding the use of internet data during a variety of presentations and an
+interactive scenario.
+The interactive nature of the course means that the students will utilise internet/comms
+data as part of a missing person investigation. The students will be able to share their own
+expertise and experience with others. In combination with the course subject material, they
+will be equipped with the knowledge and skills to better use internet/comms data.
+This course is a natural follow up to the three day Telecoms lnvestigators Course whereby
+staff can expand their knowledge into the area of internetlcomms data.
+
+O 201 1 Forensic Telecommunications Services Ltd.
+
+Page 9 of 14
+
+Date: 31103111
+
+CONFIDENTIAL
+
+Digital Forensic Investigation Courses
+Mobile Phone Forensics training
+Level 1 - beginners
+Level 2 - intermediate
+Level 3 - advanced
+m
+Training at our 'virtual digital laboratory'
+facility in the South of England is given on a
+1:l or 1:2 basis by Senior Forensic
+Technicians.
+m
+Courses are bespoke created for the
+students and last from 1week to 12 weeks.
+Training includes;
+o Understandingforensic analysis in
+relation to mobile phone
+equipment.
+o Understandingthe digital forensics laboratory.
+o Understandingprocedures, quality, handling techniques to be used.
+o Understand Casework/ lnvestigation Management.
+o Understandingimaging Processes
+o Examine a variety of devices and extract digital evidence.
+o Write witness statements
+o Setup a forensic workstation and install forensic software tools.
+o Understand the need for peer review and validation
+m Visits from students from the UK or overseas can be fully provisioned (hotels,
+transport, weekend activities etc).
+SIM card forensics training
+
+Course in advanced methods for data extraction from damaged SIM cards
+Chip-off forensics training
+Course in advanced data extraction method
+for damaged mobile phone handsets as well
+as models unsupported by generic forensic
+tools.
+Computer and Hi-Tec device forensics training
+Three distinct areas covered at beginner /
+intermediate / advanced levels;
+Exhibit handling
+Core Computer forensic recovery skills
+m
+Other disciplines & professional development (Internal & External training courses)
+Course contents overview;
+m
+Understand forensic analysis in relation to computer equipment.
+Understand the Forensic Telecoms laboratory.
+Understandingprocedures, quality, handling techniques to be used.
+Understand Casework/ lnvestigation Management.
+Understandingimaging Processes
+m
+Examine Computers/Hard Drivesldata storage devices and extract digital evidence.
+m
+Write witness statements
+m
+Setup a forensic workstation and install forensic software tools.
+m
+Understand the need for peer review and validation
+m
+Visits from students from the UK or overseas can be fully provisioned (hotels, transport,
+weekend activities etc).
+
+3 201 1 Forens~cTelecommun~cat~ons
+Servtces Lfd
+
+Page 10 of 14
+
+OOlFOerrW
+
+www.ForensicTS.com
+
+7.0
+
+-
+
+lMSl / IMEl Grabber & Locator FTS Seeker
+
+People involved in unlawful activities frequently use mobile phones. The identities of these
+phones are often unknown, for example a Pay As You Go phone purchased for cash. Not
+being able to readily identify users and the phone identity through normal methods poses
+significant problems for law enforcement agencies.
+The FTS Seeker Handset Identifier/Locator provides an easily deployed, cost effective,
+system for establishing the identity of mobile phones in a specific area. The unit can recover
+both the handset identity (IMEI) and the SIM card identity (IMSI). These can subsequently be
+used to check Billing Records from the Network Operator, as well as being used for
+target location and to detect SIM card swapping.
+Tools of this type are, of necessity, deployed in potentially hostile areas, very close to a
+target. Covert operation is therefore of vital importance both to avoid detection by targets
+and to protect the safety of the operator. This system has been specifically designed with
+these requirements in mind, so that it may be easily operated and carried in a variety of
+concealments, for example a shoulder bag or rucksack. It also uses a rugged form of
+construction to withstand the rough treatment that is inevitable during operations of this
+type. The device can be deployed both inside and outside of a vehicle.
+
+Features:
+Ultra compact and easily portable system.
+Rugged construction in sealed casing.
+Backpack / Shoulder Bag or brief case deployment.
+Wireless user interface via PDA, Smart-Phone, Laptop or Netbook.
+Operationally simple to use by non technical personnel.
+Cost effective alternative to vehicle based systems.
+Dual base stations for'high speed operation -scan two networks at once.
+Embedded receiver for fast network survey.
+Automatic scan of multiple Networks (two at a time).
+Powerful built in database with removable media store.
+Totally silent operation using all solid state electronics.
+Built in software for lMSl catching identifyingwhich network or country lMSl is from.
+Built in software for IMEl identity of handset make and model.
+Self contained, operates from internal batteries.
+Simple download of results to a laptop for detailed analysis.
+GPS facility - coordinates stored of where unit is deployed.
+White list' function, to ignore 'friendly' IMSI/IMEl1s.
+User benefits:
+Fast, efficient, cost effective lMSl grabbing.
+Directional antennas focus target area.
+User "Mark" facility for logging of visual information.
+Simple target identity analysis using database.
+Easily concealed for covert operation.
+Supports target location.
+Adjustable grabbing times.
+
+3 201 1 Forensic Telecommunications Services Ltd
+
+Page 11 of14
+
+CONFIDENTIAL
+
+Date: 31/03/11
+
+Building a digital forensics laboratory
+With digital forensics laboratories across the United Kingdom and overseas, FTS analyse
+many tens of thousands of devices each year. Drawing on years of experience in providing
+digital forensics services to law enforcement agencies globally puts FTS in the position to
+offer an advisory or physical service to any agency wishing to build a forensics laboratory.
+Advisory service
+Physical supply and install of equipment
+Laboratory management software systems
+Procedures and specialist training
+Ongoing support and training services
+
+4 201 1 Forensfc Telecommunicallons Servlces Ltd
+
+Page 12 of 14
+
+CQHDemAL
+
+9.0
+
+Date: 31W11
+
+-
+
+GPS device forensics X-NAV
+FTS X-NAV is able to extract and analyse raw data from
+both portable and fixed satellite navigation systems. This
+is achieved using FTS' dedicated extraction software
+which, in many cases can produce highly detailed results
+including raw co-ordinates accurate to within 15cm. The
+range of data recoverable varies between devices but
+can include journey logs, planned routes, vehicle speeds
+at given times, and bearings (direction of travel).
+All this information can be plotted using FT9 custom mapping solution and forms part of a
+comprehensive post examination report produced to IS09001:2000 quality standards.
+
+1b9
+
+TomTom@(allcurrent models)
+Recover home locations, favourites, recent destinations and stored routes, both live
+(accessible by manual
+examination) and historic (only accessible from memory analysis by X-NAV software).
+Please note: These are not time and date stamped.
+
+A manual examination will only retrieve a maximum of 24 recent destinations from the
+device. With X-NAV software the recovery of considerably more is possible. The highest
+number X-NAV has achieved is 1700 destinations. If the SatNav has been paired to a
+Bluetooth enabled mobile phone; even without the recovery of that mobile, FTS can identify
+the phone, extract its call registers (not including times and dates), phonebook, possibly text
+messages with times and dates. X-NAV can also recover live and historic data including
+phone name, model and Bluetooth address.
+Garminm/ NavMan
+Similar to TomTomQ.However, X-NAV can currently only extract 'live' and not deleted data.
+Linked mobile phone information including core data and call registers can also be
+confirmed.
+Windows Mobilem Devices and Pocket PC PDAs
+Most devices store raw data from the satellites so it is possible to plot where the device was
+actually located.
+Sometimes analysis identifies times and dates, enabling the recovery of overview maps and
+other historic data. One such examination undertaken by X-NAV recovered 600 maps.
+Please note: Some Windows MobileW/PDAdevices use TomTomQnavigation software. In
+these cases X-NAV is able to retrieve the same level of GPS data as under TomTom'.
+
+Standard forensic analysis of the PDA device itself will also reveal all available telephony
+data (call registers, phonebook, speed dialling numbers, SMS and MMS messages), plus all
+PDA data (appointments, tasks, notes, e-mail messages, media files and documents).
+
+.32011 Forensic Telecommunications Services Ltd.
+
+Page 13 of 14
+
+CONFIDENTIAL
+
+10.0
+
+Date: 31/03/11
+
+Specialist equipment
+FTS maintain a portfolio of specialist intelligence products and services including;
+Interception range ovewiew;
+
+m
+
+m
+
+o
+
+Analogue telephone interception
+
+o
+
+Analogue interception with call routing
+
+o
+
+SwitchILI software dial-up receiving
+
+o
+
+Digital trunk interception
+
+o
+
+GSM interception
+
+o
+
+PBX monitoring
+
+o
+
+Call playback
+
+o
+
+Modem decoding (dial-up internet)
+
+o
+
+Broadband interception
+
+o
+
+Fax processing
+
+o
+
+Mapping
+
+Satellite phone interception;
+o
+
+Thuraya Tactical or Strategic monitoring systems
+
+o
+
+Iridium Monitoring & Decoding System IMDS - Tactical or Strategic systems
+
+Ghost phones (Nokia and LG) & coded phones
+Jammers
+Directional microphone system
+o
+
+Features an array of high quality miniature microphones and state of the art
+digital signal processing technology t o produce the most sophisticated
+microphone of its type anywhere in the world
+
+CDR collection and analysis system
+The system is designed to be part of a National/Regional Monitoring System that is
+fully capable of targeting TelecommunicationsTraftic and suspects in any particular
+region -or to look for their electronic association of suspects in ANY area across the
+nation and their supporters, funders or overseas associates.
+GSM location and tracking system
+o
+
+o
+
+The LTS provides the ability to locate GSM mobile devices on request and the ability
+to perform
+tracking of these devices over a period of time. The LTS is located within the
+selected Host operatots network while the requests are managed and targets
+monitored via the LTS system located in a secure HQ location.
+
+1201 1 Forensic Telecommun~cat~ons
+Servlces Lld
+
+Page 14 of 14
+
+

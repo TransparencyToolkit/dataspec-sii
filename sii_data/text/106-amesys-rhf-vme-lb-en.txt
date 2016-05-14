@@ -1,0 +1,224 @@
+RHF VME WB
+Wide band HF VME reception unit
+
+Application fields
+!
+
+HF spectrum analysis and monitoring
+
+!
+
+Wide band monitoring
+
+!
+
+Network monitoring and searching
+
+!
+
+Reception terminal for narrow multi
+band demodulators
+
+RHF VME WB is a HF wide band reception
+unit in the 100 KHz to 30 MHz range
+designed for listening and analysis of 2
+MHz band width.
+Designed with a VME structure, it offers a
+wide range of output interfaces of digital
+signal, complex with sampling rate of 2.4
+mega pairs (I,Q).
+
+Physical Features
+
+General features
+!
+
+RF input frequency range:
+
+: 233.7 mm
+: 40.5 mm
+: 160 mm
+
+!
+
+From BP/2 to 30 MHz
+0.5-30 MHz (band 1 MHz)
+1-30 MHz (band 2 MHz)
+Central frequency tuning step :1 Hz
+
+: < 2 Kg
+
+!
+
+Internal frequency reference :
+
+!
+
+Power supply
+
+: +5V, 23 Watts
+
+!
+
+Size
+
+: VME: 6U-8F (2 slots)
+
+!
+!
+!
+
+Height
+Width
+Depth
+
+!
+
+Weight
+
+!
+
+Operating
+temperature
+
+!
+
+Storage
+temperature
+
+!
+!
+
+: to +50°C
+
+External frequency reference :1, 2, 5 or 10 MHz
+
+!
+
+- 10 dBm to +10 dBm
+Analysis band at -3dB (PB) :
+
+!
+
+PB: 1 MHz
+0.02 to 2 MHz (optional)
+LO Locking time:
+
+!
+
+3 ms type to 25°C (jump 30 MHz)
+250 µs type to 25°C (jump 1 MHz)
+Configuration time: < 10 ms
+
+: -40°C to +55°C
+
+Output sampling speed :
+BP*1.2 pair (x, y) /s
+1.2 Mxy/s (1 MHz band)
+2.4 Mxy/s (2 MHz band)
+
+!
+
+Option :
+Output port C40 : plug max de 1024
+(X,Y) connector front face
+Output port PO2 : parallel type without
+plug
+VME output : 4096 pair Fifo (X,Y)
+
+Above mentioned specifications are subject to change without prior notice
+
+Remote control
+!
+
+!
+
+Serial link :
+RS232,
+RS485 configurable
+
+RS422
+
+Bus VME : Slave type A24-D16
+
+or
+
+Accuracy < ± 0.2*10-7
+Stability < ± 2*10-9 per day
+
+!
+
+Output Features
+!
+
+10 MHz
+
+!
+
+LO phase noise: < -130 dBc/Hz to ± 25 KHz
+< -145 dBc/Hz to ± 100 KHz
+< -150 dBc/Hz beyond ± 1 MHz
+
+!
+
+Input protection : 20 Watts HF (+43 dBm), 63 V fem
+
+!
+
+Input re injected LO Level : < -110 dBm
+
+!
+
+Internal parasitic signal :< -120 dBm eq. Input RF
+
+!
+
+Sensitivity (without attenuation): < -115 dBm in
+1kHz, S/B 10dB
+
+!
+
+Instantaneous dynamics: > 75 dB
+
+!
+
+Total dynamics: 140 dB (-130 dBm to +10 dBm)
+
+!
+
+Out-of-band rejection :> 75 dB
+
+!
+
+Image frequency rejection : > 90 dB
+
+!
+
+Intermediate frequency rejection : > 90 dB
+Band inter-modulation :
+
+!
+
+IMD3 difference > 75 dB
+for RF level < -6 dBm without Att.
+for RF level <+10 dBm with Att.
+
+!
+
+Out-of-band IP3 : > +30 dBm without Att
+> +47 dBm with Att
+AGC : range of 62 dB ; 2 dB tuning step
+
+!
+
+Attack time : < 1 ms for 62 dB
+
+!
+
+Decay time : 0.62s to 31s for 62 dB
+
+!
+
+Material subjected to R226 authorization
+
+

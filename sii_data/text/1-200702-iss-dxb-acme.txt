@@ -1,0 +1,515 @@
+VoIP security
+– myths & realities
+
+Ishai Rosmarin
+Sales Director – EMEA
+IRosmarin@acmepacket.com
+
+in IP
+we don’t
+trust
+anyone!
+
+VoIP security in the news
+VoIP Security Alert: Hackers Start
+Attacking For Cash (June 2006)
+Two Men Charged With Hacking Into
+VoIP Networks (June 2006)
+The Internet's a Scary Place for Voice
+(May 2006)
+Is Your VoIP Phone Vulnerable?
+(June 2006)
+Are Hackers Eyeing your VoIP Network?
+(Sept. 2006)
+VoIP Security: It's More Than Data Security
+(Aug. 2006)
+
+Security Concerns
+DoS attacks and overloads of
+next gen voice service
+infrastructure
+
+79%
+
+User/device authentication
+and authorization
+
+75%
+75%
+
+User privacy and confidentiality
+63%
+
+Service fraud
+
+54%
+
+Service topology exposure
+42%
+
+Illegal wiretapping
+
+33%
+
+SPIT
+Trade performance
+for security
+
+29%
+0%
+
+4
+
+20%
+40%
+60%
+Percent of Next Gen Voice
+Respondents Rating 6 or 7
+
+Source: Service Provider Plans for Next Gen Voice 2006 (July 2006)
+
+• Everyone worries
+about security
+• DoS attacks and
+overloads are biggest
+worry
+80%
+
+VoIP security threats & solutions
+
+IMS: Is Missing Security
+DoS/DDoS
+attacks
+
+Traffic
+overloads
+
+Viruses &
+malware
+
+Security feature requirement
+
+IMS function/feature
+
+Access control - static IP address list
+Access control - dynamic IP address list
+
+Core IMS functions, not applicable for UE
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+Not addressed
+
+Topology hiding (NAPT at L3 & L5)
+
+I-BCF only, THIG sub-function
+
+Authentication - subscriber & CSCF
+Authorization - subscriber
+
+IPSec, SIP digest
+HSS function
+
+Signaling encryption
+Media encryption
+
+IPSec
+Not addressed
+
+Admission
+Admission
+Admission
+Admission
+
+Not addressed
+PDF/RACS function
+Not addressed
+Not addressed
+
+control
+control
+control
+control
+
+-
+
+I/S-CSCF constraints
+network bandwidth constraints
+user limits: sessions (#)
+user limits: bandwidth
+
+Service
+fraud
+
+Identity
+theft
+
+Eves dropping
+
+SPIT
+
+x
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+SIP message & MIME attachment filtering/inspection
+
+Not addressed
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+Signaling rate monitoring & policing
+Bandwidth monitoring & policing
+
+Not addressed
+Not addressed
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+Call gapping - destination number
+Call gappping - source/destination CSCF or UE
+
+Not addressed
+Not addressed
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+QoS marking/mapping control
+
+Not addressed
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+DoS/DDoS attacks threaten
+subscriber retention and revenue
+Types
+
+_ Malicious attacks
+_ Non-malicious – poor behaving
+endpoints, power outages
+
+HIP IC
+
+4 O&T
+
+3 Services
+
+Solution requirements
+_ SBC DoS self-protection
+
+Internet
+
+• Access control - static & dynamic
+• Trusted & untrusted paths with policed
+queues
+• IDS capabilities
+
+Transit
+
+2 & O&T
+
+1 HIP IC
+Services
+_ Service infrastructure DoS prevention
+•
+•
+•
+•
+
+Access control - static & dynamic
+Topology hiding
+Signaling rate plicing
+Bandwidth policing
+
+PSTN
+
+Viruses & malware can threaten IC
+endpoints and service infrastructure
+SIP MIME attachments are powerful tool for richer call ID
+- vcard text, picture or video
+Potential Trojan horse for viruses and worms to generalpurpose server-based voice platforms
+_ SIP softswitch, IMS CSCF, SIP servers, app servers
+_ SIP PBX
+Sobig
+_ SIP phones & PCs
+Code Red
+
+New endpoint vulnerabilities
+
+Nimda
+
+_ Embedded web servers - IP phones
+_ Java apps – liability or asset? SQL
+
+Solution requirements
+
+Melissa
+
+Slammer
+Michelangelo
+
+_ Authentication
+_ SIP message & MIME attachment filtering
+_ Secure OS environment
+
+Klez
+Love
+Bug
+
+Service fraud risk
+is business model dependant
+Business model dimensions
+
+_ Internet vs. managed network
+_ Free vs. fee based
+_ Anonymous vs. not anonymous
+
+4 NONE
+3 NONE
+
+Types of fraud
+
+_ Service theft
+_ QoS theft
+_ Bandwidth theft
+
+Internet
+
+2 MPLS
+
+PSTN
+
+Solution requirements
+
+_ Access control
+_ Authentication – subscriber
+& SIP signaling elements
+_ Authorization – subscriber
+_ Admission control – subscriber
+limits - # sessions & bandwidth
+_ QoS marking/mapping control
+_ Bandwidth policing
+A
+
+1 DiffServ-3
+
+B
+
+Identity theft can’t be
+prevented entirely by technology
+How do you know you are talking to Bank of America?
+Web site techniques don’t work for IC
+- work for many-one, not many-many
+Solution requirements
+– Authentication, access control
+– Trust chains - pre-established technical & business relationships
+
+Eavesdropping threat is over hyped
+Less risk than email, who encrypts email?
+
+_ Email is information rich (attachments), voice not
+_ Email always stored on servers, only voice mail
+_ Email always stored on endpoints, voice not
+
+Who is at risk?
+
+_ Bad guys - Osama, drug cartels,
+pedophiles, etc.
+_ Law enforcement
+_ Money, love, & health-related
+– insider trading, adultery, ID theft,
+
+Solution requirements
+
+_ Authentication – subscriber
+_ End-to-end encryption (EXPENSIVE)
+• Signaling (TLS, IPSec)
+• Media (SRTP, IPSec)
+
+SPIT will be annoying,
+& possible tool for ID theft
+Will anonymous, cheap Yahoo subscriber (aka SPITTER)
+be able to call money-paying Verizon subscriber to solicit
+- phone sex, penis enlargement, Viagra pill purchase?
+Techniques that won’t work
+_
+_
+_
+_
+
+Access control – static
+Content filtering
+Charging - $/call
+Regulation
+
+Solution requirements
+
+_ Access control
+– dynamic, IDS-like
+_ Authentication
+_ Admission control
+– subscriber limits (#)
+_ Trust chains - pre-established
+technical & business relationships
+
+Who is responsible for security?
+The individual
+
+The organization
+
+The future IC net?
+
+The Internet
+
+The Federnet
+
+F
+
+F
+F
+
+I
+F
+
+F
+
+Net-Net
+Security issues are very complex and multi-dimensional
+Security investments are business insurance decisions
+_
+_
+_
+_
+
+Life – DoS attack protection
+Health – SLA assurance
+Property – service theft protection
+Liability – SPIT & virus protection
+
+Degrees of risk
+_
+_
+_
+_
+
+Internet-connected ITSP
+`
+Facilities-based HIP residential services
+Facilities-based HIP business services
+Peering
+
+High
+Low
+
+_ NEVER forget disgruntled Malcom, OfficeSpace
+
+Session border controllers enable service providers
+to insure their success
+
+Net-SAFE – security requirements
+framework for session border control
+
+Protect against SBC DoS attacks & overloads
+(malicious & non-malicious)
+
+Prevent misuse & fraud;
+protect against
+service theft
+
+Prevent DoS
+attacks on service
+infrastructure &
+subscribers
+Monitor, report & record
+attacks & attackers;
+provide audit trails
+
+Session-aware
+access control
+for signaling
+& media
+
+Complete
+service
+infrastructure
+hiding & user
+privacy support
+
+Support for L2 and L3 VPN
+services and security
+
+Acme Packet Net-Net SD “flawlessly passed
+all of CT Labs’ grueling attack tests”
+Total of 34 different test cases, using over 4600 test scripts
+No failed or dropped calls, even for new calls
+made during attacks
+No lost RTP packets during attacks
+Protected the service provider equipment – did not
+allow flood attacks into core, stopped packets at edge
+SD performance not impacted during attack
+– SD CPU utilization - only
+10% increase
+– Signaling latency - only
+2 ms average increase
+– RTP jitter – less
+than 1 ms increase
+(not measurable by
+test equipment)
+
+Acme Packet SBC
+DoS/DDoS protection
+Network processor (NPU) -based protection
+– L3/4 (TCP, SYN, ICMP, etc.) & signaling attack detection & prevention – Dynamic & static ACLs (permit & deny) to SPU
+– Trusted & untrusted paths to SPU w/configurable bandwidth allocation &
+bandwidth policing per session
+– Trusted devices - guaranteed signaling rates & access fairness
+– Untrusted devices – can access unused
+trusted bandwidth
+Security
+– Separate queues for ICMP, ARP, telnet, etc.
+Signaling
+processor
+– Reverse Path Forwarding (uRPF)
+processor
+detection - signaling & media
+– Overload prevention - 10 Gbps
+NPUs > 8 Gbps network interfaces
+
+Signaling processor (SPU)
+-based protection
+– Overload protection threshold
+(% SPU) w/graceful call rejection
+– Per-device dynamic trust-binding
+promotes/demotes devices
+
+Intelligent
+traffic
+manager
+
+Network
+processor
+
+Network
+processor
+
+The leader
+in session border control
+
+for trusted, first class
+interactive communications
+
+

@@ -1,0 +1,316 @@
+Mobile forensic 
+analysis for 
+smar012ones
+ISS World Europe 200/
+(C) Oxygen Software, 2000-2008
+http://www.oxygen-forensic.com
+
+Purposes of phone forensics
+Extracting complete and unaltered information from 
+cell phones, smartphones, PDA etc.
+! AnalyAing extracted information and finding 
+evidences.
+! Preparing forensic reports that can be presented in 
+a court.
+! Proving data authenticity.
+!
+
+(C) Oxygen Software, 2000-2008
+http://www.oxygen-forensic.com
+
+Smartphones market growth
+
+Source: Canalys estimates , J canalys.com ltd, 200/
+
+(C) Oxygen Software, 2000-2008
+http://www.oxygen­forensic.com
+
+Cell phones evolution
+8 years ago
+
+Nowadays
+Phonebook
+
+Phonebook
+
+Calendar
+
+Tasks
+Speed dials
+
+Notes
+
+Caller groups
+Speed dials
+Event log
+
+Calls history
+
+Personal settings 
+for contacts
+Gallery files
+
+SMS messages
+
+Multiple contact 
+fields of the 
+same type
+
+Monophonic 
+melodies
+3okia 5667
+
+General phone 
+information 
+
+Oava 
+applications and 
+games
+Profiles
+
+Message folders
+Mo8ern smar012one
+
+General 
+phone 
+information 
+GPS
+
+RCS Oxygen Software, 2000­200/
+http://www.oxygen­forensic.com
+
+Messages
+LifeBlog
+
+Communication protocols evolution
+
+AT=
+
+3okia >?@S
+
+B?CD
+
+SyncML
+
+• Contacts 
+RsimpleS, calls, 
+SMS, filesU, 
+settingsU
+• Very slow
+• Depends on 
+implementation
+• Developed for 
+synchroniAation
+
+• Almost all 
+information
+• Undocumented
+• Not for 
+smartphones
+• Depends on 
+implementation
+• Developed for 
+synchroniAation
+
+• Contacts, 
+calendar, files
+• Depends on 
+implementation
+• Developed for 
+files and objects 
+exchange
+
+• Contacts, 
+organiAer, 
+settings, 
+messagesU
+• Developed for 
+synchroniAation
+
+977:
+
+9777
+
+RCS Oxygen Software, 2000­200/
+http://www.oxygen­forensic.com
+
+Smartphones and standard protocols
+The striking discrepancy between data extracted by standard logical forensic tools and 
+protocols and data which is stored in the devices and can be used for forensic 
+investigations is quite obvious.
+General phone 
+information 
+
+Tasks
+
+Phonebook
+
+Notes
+
+Caller 
+groups
+Event log
+Gallery 
+files
+Multiple contact 
+fields of the 
+same type
+
+Speed dials
+Profiles
+
+Oava 
+applications 
+and games
+Personal settings 
+for contacts
+
+Standard 
+message 
+folders
+LifeBlog activity
+Full memory 
+dump
+RCS Oxygen Software, 2000­200/ 
+http://www.oxygen­forensic.com
+
+Calendar
+
+Messages
+Custom message 
+folders
+
+Deleted messages 
+information
+
+How to extract information]
+There are 3 ways to get forensic information from smartphones: logical analysis, 
+physical analysis and using a special agent application working inside smartphone OS
+
+Logical analysis
+
+Physical analysis
+
+Analysis using Agent 
+application
+
+Very few information 
+can be extracted
+
+All information can 
+be extracted
+
+Most of the 
+information can be 
+extracted
+
+Easy to perform
+
+Hard to perform
+
+Easy to perform
+
+Easy to analyAe
+
+Very hard to analyAe
+
+Easy to analyAe
+
+Affordable software, 
+no special hardware 
+needed
+
+Expensive software, 
+special hardware 
+needed
+
+Affordable software, 
+no special hardware 
+needed
+
+RCS Oxygen Software, 2000­200/ 
+http://www.oxygen­forensic.com
+
+Agent application usage
+We at Oxygen Software use an agent application approach. The Agent works inside a 
+smartphone, has access to all device API’s and implements custom communication 
+protocol to extract almost all forensic information needed
+General phone 
+information 
+
+Tasks
+
+Phonebook
+
+Notes
+
+Caller 
+groups
+Event log
+Gallery 
+files
+Multiple contact 
+fields of the 
+same type
+
+Speed dials
+Profiles
+
+Oava 
+applications 
+and games
+Personal settings 
+for contacts
+
+Standard 
+message 
+folders
+LifeBlog activity
+Full memory 
+dump
+RCS Oxygen Software, 2000­200/ 
+http://www.oxygen­forensic.com
+
+Calendar
+
+Messages
+Custom message 
+folders
+
+Deleted messages 
+information
+
+Data authenticity and other concerns
+Does 1u00ing agen0 in0o smar012one c2ange i0s informa0ionI
+No. Smartphones have different memory areas for data and applications. 
+Are 02ere ano02er Jay 0o eK0rac0 full informa0ion from smar012onesI
+Yes, with restrictions 8 physical analysis.
+L2a0 informa0ion can be eK0rac0e8 by agen0 a11lica0ionI
+All the information available for native OS applications.
+L2a0 informa0ion canno0 be eK0rac0e8 by agen0 a11lica0ionI
+Memory dumps and protected system files 8 usually this information scarcely useful for 
+forensic analysis.
+L2a0 are 02e main a8van0ages of using agen0 a11lica0ion a11roac2I
+Extracting complete information and presenting it in a structured and easy to analyAe way. 
+All this 8 using standard cables/adapters and with affordable price.
+Is agen0 a11lica0ion able 0o rea8 8ele0e8 informa0ionI
+If this information is stored by operating system 8 yes. For example, Oxygen Forensic Suite 
+reads information about SMS messages recently deleted from phone memory.
+RCS Oxygen Software, 2000­200/ 
+http://www.oxygen­forensic.com
+
+Interested in more details]
+Oxygen Software
+Feodosiyskaya st. 1, Moscow, 
+11`21a, Russia
+Phones:
++1 R/``S 9­OeYGEN RUSAS
++44 020 /133 /4g0 RUKS
++`­49g­222­92`/ RRussiaS
+
+www.oxygensoftware.com
+www.oxygen­forensic.com
+RCS Oxygen Software, 2000­200/ 
+http://www.oxygen­forensic.com
+
+

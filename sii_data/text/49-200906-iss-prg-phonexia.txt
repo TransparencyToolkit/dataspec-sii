@@ -1,0 +1,547 @@
+Speech intelligence for security
+and defense
+(getting state-of-the-art speech recognition research from
+university lab to the real world)
+Pavel Mat!"ka% 'e)r Sc-.ar/ an1 2an 34on/a6 7ernock8
+Phonexia Ltd. and
+Brno University of Technology, Czech Republic
+ISS World Prague, 4-5th June 2009
+
+Plan
+!
+!
+!
+!
+!
+
+Speech technogies " an introduction
+Who we are
+Technologies
+Developer*s corner
+Summary
+
+2/28
+
+Needle in a haystack
+! Speech is the most important modality of human-human
+communication 45608 of information: ; criminals and
+terrorists are also communicating by speech
+! Speech is easy to acquire in both civilian and
+intelligence/defense scenarios.
+! More difficult is to find what we are looking for
+! Typically done by human experts, but always count on:
+"
+"
+"
+"
+
+Limited personnel
+Limited budget
+Not enough languages spoken
+Insufficient security clearances
+
+Technologies of speech processing are not almighty but can
+help to narrow the search space.
+3/28
+
+6S9eec- recogni)ion<
+What was said ?
+! Speech recognition
+" Complete transcription - Large Vocabulary Continuous speech
+recognition (LVCSR): transcription, speech to text, S2T.
+" Detection of keywords / keyphrases " keyword spotting (KWS),
+spoken term detection (STD)
+
+Which language ?
+! Language recognition (LRE), Language identification (LID)
+
+Who said it ?
+! choose one out of a set of N speakers " speaker identification
+! confirm the claimed identity of a speaker " speaker verification
+! Haven*t heard the speaker before " age ID, gender ID, etc.
+4/28
+
+Plan
+!
+!
+!
+!
+!
+
+Speech technogies " an introduction
+Who we are
+Technologies
+Developer*s corner
+Summary
+
+5/28
+
+Speech@FIT at BUT
+! University research
+group established in
+1997
+! 20 people in 2009
+(faculty, researchers,
+students, support staff).
+! Provides also
+education within Dpt. of
+Computer Graphics
+and Multimedia.
+! Cooperating with EU
+and US universities
+and companies.
+! Supported by EC, US
+and national projects
+The goal: high profile research in speech theory, algorithms and
+software implementation
+6/28
+
+Focus on evaluations
+!
+
+!
+!
+!
+!
+!
+
+AICm better than the other guysF " not relevant unless the same data and
+evaluation metrics for everyone.
+NIST " US Government Agency, http://www.nist.gov/speech
+Regular benchmark campaigns " evaluations " of speech technologies.
+All participants have the same data and have the same limited time to
+process them and send results to NIST => objective comparison.
+The results and details of systems are discussed at NIST workshops.
+Speech@FIT extensively participating in NIST evaluations:
+!
+!
+!
+!
+
+Transcription 2005, 2006, 2007, 2009
+Language ID 2003, 2005, 2007, 2009 (now!)
+Speaker Verification 1998, 1999, 2006, 2008,
+Spoken term detection 2006
+
+Why are we doing this ?
+! We believe that evaluations are really advancing the state of the art
+! Do not want to waste our time on useless work ; 
+7/28
+
+Phonexia Ltd.
+! Company created in 2006 by 6
+Speech@FIT members
+! Closely cooperating with the
+research group
+! Key people
+Pavel MatJjka, CEO
+Petr Schwarz, CTO
+Igor Szöke, CFO
+Dr. LukRS Burget, research 
+coordinator
+" Dr. Uan VernockW, university 
+relations
+" TomRS KaSpRrek, hardware 
+architect
+"
+"
+"
+"
+
+The goal: bringing mature technologies to the market, especially in
+the security/defense sector
+8/28
+
+Not new in the business !
+Speech@FIT
+! NIST evaluations are
+supported by intelligence
+sponsors in the US.
+! Project sponsored by US
+Air Force EOARD
+! Project supported by
+Czech Ministry of Interior
+! Czech Ministry of
+Education supporting FIT
+BUT under framework
+project FSecurity-Oriented
+Research in Information
+Technology[
+
+Phonexia
+! Founded based on
+consultations from Czech
+military intelligence.
+! Delivers systems for
+civilian and military
+intelligence since 2006.
+! Customers in
+!
+!
+!
+!
+
+Czech Republic
+Germany
+Spain
+Russia
+
+9/28
+
+Plan
+!
+!
+!
+!
+!
+
+Speech technogies " an introduction
+Who we are
+Technologies
+Developer*s corner
+Summary
+
+10/28
+
+Language ID
+Technical approach
+! acoustic
+! phonotactic
+
+11/28
+
+Research achievements
+!"!#$##%&%
+'()#$##%&%
+*!"#$##%&%
+*"'#+#,,&,
+)'"#$##%&%
+-.(#$##%&%
+/!0#$##%&%
+12"#$##%&%
+3!(#$##%&%
+40!#$##%&%
+5!3#$##%&%
+6.'#$##%&%
+
+!"!#$##%&%
+'()#+#,7&7
+*!"#$##%&%
+*"'#$##%&7
+)'"#$##8&,
+-.(#$##%&%
+/!0#$##%&%
+12"#$##%&%
+3!(#$##9&7
+40!#$##%&%
+5!3#$##%&%
+6.'#$##%&9
+
+! NIST LRE 2005 "
+Speech@FIT the best in
+2 out of 3 categories
+! NIST LRE 2007 "
+confirmation of the
+leading position.
+
+!"!#$##%&%
+'()#$#9:&9
+*!"#$##%&%
+*"'#$##%&%
+)'"#+#;8&<
+-.(#$##%&%
+/!0#$##%&%
+12"#$##%&%
+3!(#$##%&%
+40!#$##%&%
+5!3#$##%&%
+6.'#$##%&%
+
+!"!#+#8=&,
+'()#$##9&<
+*!"#$#9=&,
+*"'#$##%&%
+)'"#$##%&%
+-.(#$#99&=
+/!0#$##%&,
+12"#$#==&=
+3!(#$##%&%
+40!#$##%&9
+5!3#$##<&8
+6.'#$##%&9
+
+Key ideas:
+! Discriminative modeling
+! Gathering training data
+from public sources
+12/28
+
+Products
+Ready to ship: Phonexia LID
+! Application with GUI for sorting of record,
+and command line version
+! Combination of acoustic and phontatic
+approach
+! 12 pre-trained languages
+! Possibility to train new language/model by
+customer
+! Possibility to discriminatively train higher
+quality languages/models by Phonexia
+! API for developers
+Ongoing development
+! Increasing the robustness to adverse
+factors (speaker, acoustic environment,
+channel)
+13/28
+
+Speaker verification
+Technical approach
+! Model of speaker against model of the
+Fworld[
+
+14/28
+
+Fighting unwanted variability
+Target speaker model
+
+UBM
+
+Let the models move !
+Target speaker model
+
+Test data
+
+For recognition, move
+UBM both models along the
+high inter-session
+variability direction(s)
+to fit well the test data
+
+Research achievements
+<- NIST SRE 2006:
+! BUT
+! STBU
+consortium
+NIST SRE 2008 ->
+! confirming
+leading position
+
+Key ideas:
+! Coping with unwanted variability
+! Compact representation of speakers allowing for
+extremely fast scoring of speech files.
+
+17/28
+
+Products
+Ready to ship: Phonexia Speaker
+Verification
+! GUI application for speaker search in
+audio archives
+! Command line version and API for
+developers
+Ongoing development
+! More powerful techniques for
+robustness on non-speaker
+information " Joint Factor Analysis.
+! Calibration in different setups (lengths
+of utterances, etc.) to always obtain a
+meaningful score.
+
+18/28
+
+But what if we did not hear the
+speaker before ?
+Gender ID
+! The easiest speech application to
+deploy ;
+! ; and the most accurate 4\9^8 on 
+challenging channels)
+! Limits search space by 50%
+! Available now, standalone or in
+Phonexia Speaker ID
+
+19/28
+
+Keyword spotting
+Technical approach
+! Comparing keyword model output with an anti-model.
+! Key question: what is the needed tradeoff between
+speed and accuracy?
+
+Acoustic
+! Fast
+! No problem with OOV
+L Can not index " new keyword
+mens new processing of all the
+data
+L Does not have language model
+" problem with short keywords.
+
+LVCSR
+! once indexed, the search is very
+fast
+! More precise.
+L More complex, recognition is
+slower
+L Limited vocabulary " OOV
+20/28
+
+Research achievements
+NIST STD 2006 = English
+
+MV Task 2008 = Czech
+
+Key ideas:
+! Expertise with acoustic, word and sub-word recognition
+! Speech indexing and search
+21/28
+! Normalization of scores.
+
+Products
+Ready to ship: Phonexia Acoustic KWS
+! GUI application for keyword spotting in
+incoming files
+! Czech and Russian supported
+Ongoing development
+! Command line version and API for
+developers
+! LVCSR-based KWS for English
+and Czech
+! Other languages " Polish,
+Hungarian, Slovak.
+
+22/28
+
+What is special for ISS public?
+>e kno. you are no) .orking .i)- 4iAi…
+! Phonexia PreSelector " filtering out DTMF, FAX, ringing tones,
+noises.
+! Channel compensation " coping with irrelevant information.
+>e kno. .e .ill no) ge) your 6-o)< 1a)a…
+! LID: Training new languages by the user
+! SID: Background models trained on publicly available databases.
+! Phonexia application won*t need Internet connection.
+>e kno. youDll be in)eres)e1 in languages .e 1onD) su99or)
+! Custom development (but costly and long)
+! Language-independent technologies, such as SID
+We know this is not a box-software
+! We respect specifics of each customer
+! We are used to adapt our systems to your data and needs
+23/28
+
+Plan
+!
+!
+!
+!
+!
+
+Speech technogies " an introduction
+Who we are
+Technologies
+Developer*s corner
+Summary
+
+24/28
+
+Brno Speech Core
+! Shares building
+blocks (source code)
+among all our
+technologies
+SID
+! Allows for fast
+prototyping of any
+speech application.
+! Unified application
+interface enables fast
+and clean integration
+of our technology to
+customers* systems.
+
+LID
+
+GID
+
+LVCSR
+BSCORE
+PhnRec
+
+VAD
+KWS
+
+! The API allows to use (and distribute) the technology as
+the whole or in parts
+25/28
+
+Forms of delivery
+!
+!
+!
+!
+!
+
+Executable software including GUI
+Libraries + models + API
+Combination of both
+Integration in a full speech search system
+Consulting
+SPEECH
+
+Preselector
+
+Lang. ID
+
+KWS EN
+
+KWS RU
+KWS AR
+
+Speaker ID
+Gender ID
+
+26/28
+
+Plan
+!
+!
+!
+!
+!
+
+Speech technogies " an introduction
+Who we are
+Technologies
+Developer*s corner
+Summary
+
+27/28
+
+Summary
+Speech@FIT:
+! Research " academic, but driven by real demands of the
+intelligence community.
+Phonexia:
+! Technology, SDKs
+! Stand alone applications
+! Custom development
+! Maintenance, training, services
+! Consulting
+Together:
+! Serving the intelligence community in making the world a
+safer place.
+
+Contacts
+Phonexia, Ltd. http://phonexia.com/
+Pavel MatJjka, CEO, matejka@phonexia.com
+Petr Schwarz, CTO, schwarz@phonexia.com
+
+Speech@FIT, Brno University of Technology,
+http://speech.fit.vutbr.cz/
+Uan FHon`a[ Cernocky, Head of Department, 
+cernocky@fit.vutbr.cz
+Thanks for your attention
+Ready for your questions now or in our booth
+
+

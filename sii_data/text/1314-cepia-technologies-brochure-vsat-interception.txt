@@ -1,0 +1,199 @@
+SatProbe 4000 VSAT
+lnterception IP Probe
+Affordable
+Powerful
+~lexible
+State-of-the-art
+Future-proof COTS and SDR architecture
+Multiple VSAT system protocols, e.g.:
+o DVB-RCS
+o ViaSat
+o iDirect
+The SP4000 provides state-of-the-art VSAT
+network interception from the forward and
+return links. The software radio architecture
+and the user-friendly design enables IP
+packet capture from operational networks
+provided by major VSAT manufactures, such
+as DVB-RCS, ViaSat and iDirect networks.
+SP4000 may start as a small single
+protocol system and then be expanded to
+multiple protocols and multiple carriers.
+
+i1
+I
+
+TAKE THE NEXT STEP...
+For more information or to inquire
+about purchase, please visit
+www.cepia.cz or contact our sales
+representative directly at:
+
+1
+
+1
+1
+i
+
+1
+
+CEPIA Technologies s.r.0.
+Veveri 31631111
+616 00 Brno
+Czech Republic
+
+CEPIA
+
+l
+
+i
+
+i
+i
+
+Tel.: +420 549 212 300
+Fax: +420 549 212 299
+E-mail: info@cepia.cz
+Web: www.cepia.cz
+
+-
+
+P
+
+TECHNOLOGIES
+..
+
+..
+
+.
+
+p
+
+p
+.
+
+-
+
+-
+
+I
+
+'
+l
+
+1
+1
+
+1
+
+The VSAT TDMA Classifier assists the
+operator in classifying the bursty carrier
+i
+technology, simplifying spectrum
+I
+surveillance and classification of the applied
+network technology.
+
+VSAT lnterception
+SatProbe 4000
+
+The software defined radio front end together with commercial off-the-shelf hardware
+provides affordable, future-proof, flexible
+and scalable solutions. The unique multiprotocol architecture allows analysis the VSAT
+networks currently of interest, minimizing
+equipment costs and maximizing capturing
+performance.
+
+Specifications
+www
+@*.U'
+
+g.
+
+Hub Station
+
+T Terminal
+
+f
+
+E
+
+SatProbe 4000
+
+Technical Description
+
+3
+
+lntercepted IP stream
+
+The SP4000 consists of:
+Capture Front End
+Controller
+Signal Processing Array
+The Capture Front End is a Software
+Defined Radio with an integrated wideband
+receiver, performing:
+Downconversion from L-band (or IF)
+Analogue to digital conversion
+Channel filtering
+Multiple Capture Front Ends may be connected to the same system, allowing flexible
+carrier selection from different transponders.
+The Controller performs:
+System management and control
+IP assembly from the
+DVB-SlS2 receiver card
+Distribution of the digitized capture
+stream to the RL decoders
+Collection of the decoded bursts
+from the decoder processes
+FL and RL IP assembly
+
+The flexible and scalable architecture
+allows flexible and user-friendly configuration and management of multiple frequencies and multiple VSAT protocols.
+The Signal Processing Array performs the
+demodulation and decoding of TDMA bursts
+and return the resulting burst payloads to
+the Controller.
+Forward Link RF
+
+Return Link RF
+
+Forward Link
+L-band RF signal
+DVB-SIDVB-S2
+Symbol rates 2-45 Msps
+IP protocols: MPE, proprietary
+Return Link
+L-band RF signal
+Modulation : QPSK, 8PSK
+Waveforms: DVB-RCS, proprietary
+Symbol rates 50 ksps - 6 Msps
+Protocols:
+DVB-RCS, DVB-RCS2
+Proprietary, e.g. iDirect, ViaSat
+Output
+lntercepted IP packets on several
+formats (e.g. pcap files, forwarded
+IP packets)
+Statistics, metadata
+System
+User friendly interface
+Scalable capacity
+COTS hardware
+Software defined radio capture front end
+Options
+Customization at request
+Ruggedized, mobile version
+
+t
+
+IP processing
+and analysis
+
+Use Cases
+Contra espionage
+Surveillance
+Counter intelligence
+Internal state security
+
+

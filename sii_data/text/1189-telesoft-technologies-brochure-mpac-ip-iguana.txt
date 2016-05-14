@@ -1,0 +1,297 @@
+MPAC-IP ‘IGUANA’
+
+The MPAC-IP ‘IGUANA’ SDH/SONET Packet Monitoring Card
+provides line-rate packet processing acceleration and
+monitoring access on up to 4x 10Gb/s packet/Ethernet
+over SDH and SONET optical interfaces.
+
+4x 10Gb/s SDH/SONET
+Packet Monitoring Card
+KEY FEATURES
+
+OVERVIEW
+
+• Up to 4x SFP+ monitoring inputs
+– SDH – STM-1, STM-4, STM-16, STM-64
+– SONET – OC-3, OC-12, OC-48, OC-192
+•P
+ acket/Ethernet over SDH/SONET (PoS/EoS)
+monitoring
+• VCAT/LCAS support
+•A
+ utomatic PoS/EoS protocol detection
+– PPP, HDLC, cHDLC, GFP, ATM AAL2/AAL5
+
+10Gb/s
+Ethernet
+outputs
+
+•3
+ 2,000 dynamically reconfigurable packet filters
+• Data tunnel awareness (GTP, L2TP, etc.)
+• Packet processing acceleration
+
+SDH – STM-1c/4c/16c/64c input
+SONET – OC-3c/12c/48c/192c input
+
+•4
+ ns precision time stamp, synchronized through
+external connector or host software
+
+• XMC Form Factor on full height PCIe carrier
+
+The MPAC-IP IGUANA 4x 10Gb/s card enables packet monitoring on Packet over SDH/SONET
+and ATM networks. The card incorporates up to 4x 10Gb/s SDH/SONET optical monitoring ports
+(STM-1/4/16/64 [OC-3/12/48/192]), capturing IP traffic from Packet/Ethernet over SDH/SONET
+(PoS/EoS) structured transport interfaces.
+
+KEY BENEFITS
+
+MPAC-IP ‘IGUANA’
+
+packet processor:
+
+Filtering
+Packet Header
+N-tuple
+Keyword with flow delivery
+
+• 100% IP packet capture on non-Ethernet
+optical interfaces
+
+• E nsure no CPU resource is used inspecting
+irrelevant packets. Onboard packet filters
+prefilter monitored data at line-rate
+• S ynchronize packets monitored at different
+network nodes with 4ns precision
+• Intercept known packet flows at zero CPU
+processing cost, by combining filters with
+Ethernet egress option
+• Capture tunnelled data packets
+•O
+ ffload CPU processing overhead from DPI
+applications. Packet processing acceleration features
+extract key data and generate additional information
+to support packet processing applications
+
+APPLICATIONS
+
+Ethernet
+Monitoring
+Inputs
+
+optical
+transport
+decoder:
+Ethernet
+
+• C onnect to networks where packet over SDH/
+SONET framing protocol is unknown, using
+automatic PoS protocol detection
+
+•
+•
+•
+
+• STM-1
+• STM-4
+• STM-16
+• STM-64
+• OC3
+• OC12
+• OC48
+• OC192
+
+L2 frame decoder:
+
+• ATM (ATM, AAL5, AAL2)
+• HDLC
+• GFP
+• PPP
+
+Metadata generation
+timestamp
+protocol classification
+N-tuple hash
+PHY port source ID
+
+•
+•
+•
+•
+
+PCIe
+
+• Up to 2x 10Gb/s SFP+ Ethernet egress option
+
+accelerated
+IP/ATM
+packet
+delivery
+
+Packet parsing
+protocol keyword
+user defined keyword
+
+•
+•
+
+Gbe delivery
+raw Ethernet (RTP encapsulation)
+UDP encapsulation
+IP encapsulation
+10Gbe encapsulation
+metadata header
+
+•
+•
+•
+•
+•
+
+10GbE
+
+• 8-lane PCIe bus connection to host
+
+IP/ATM
+10Gbe
+Monitoring
+Egress
+
+PCIe delivery
+acceleration metadata
+TPAF API
+
+•
+•
+
+Dynamically reconfigurable on-board packet filters ensure that the host application need only process
+packets which are of potential interest. The IGUANA card provides packet filtering and delivery based
+on packet headers – IP, GTP, MPLS labels, or other user-defined fields. It also identifies keywords deep in
+packet payloads, and delivers the subsequent packet flow. These feature realtime capture of all critical
+communication data, including those transported through network tunnels.
+
+PoS/EoS network monitoring:
+• Test and measurement
+• Quality of service monitoring
+• Cyber security
+• Network Intrusion Detection (IDS)
+• Lawful intercept
+
+The packet processing offload features pre-process captured packets – grouping communication flows,
+classifying and mapping protocol layers, parsing text protocol headers, and adding 4ns resolution
+timestamp – freeing the host CPU to run high-level realtime packet processing applications.
+The IGUANA card will either copy the captured, filtered, and pre-processed packets directly to host memory
+via 8-lane gen2 PCIe, or forward them to a remote server via the optional dual on-board 10 Gigabit
+Ethernet egress ports.
+
+MPAC-IP ‘IGUANA’
+4x 10Gb/s SDH/SONET
+Packet Monitoring Card
+TECHNICAL SPECIFICATIONS
+Monitoring interfaces:
+• Up to four optical monitoring inputs – SFP+
+• SDH – STM-1, STM-4, STM-16, STM-64
+• SONET – OC-3, OC-12, OC-48, OC-192
+Timing synchronization:
+• 4ns resolution timestamp
+• MMCX socket for 1PPS GPS timing reference (SMA adaptor supplied)
+• Precision Time Protocol (PTP) support
+Packet egress interfaces:
+• Up to 2x 10 Gigabit Ethernet egress to user network
+• 8-lane PCIe gen2 bus interface to host server (40Gb/s bandwidth)
+• Can combine with Telesoft’s JACKAL PCIe carrier for enhanced processing
+Monitoring interface transport structure support:
+• Automatic transport structure discovery
+• VCAT and LCAS monitoring
+• Packet/Ethernet over SDH/SONET
+• RFC 2615 compliant PPP based PoS
+• Monitoring of HDLC based PoS
+• Monitoring of GFP
+• ATM (Asynchronous Transfer Mode) support
+• Monitoring and delivery of raw ATM cells
+• Onboard AAL2/AAL5 packet reassembly
+Configurable channel access:
+• Configure specific SDH/SONET containers to monitor
+• Configure full monitoring of all containers
+
+Frame sizes:
+• 64 bytes to 16,000 bytes
+Up to 32,000 realtime configurable packet filters:
+• N-tuple based filters, including:
+• IP address
+• TCP/UDP ports
+• Protocol type field
+• GTP headers
+• MPLS labels
+• Custom header filtering options
+• String keyword matching filters
+• Protocol filters (e.g. SIP, html, SMTP)
+• Delivery of entire flow on string or protocol keyword match
+Packet processing offload:
+• 32-bit N-tuple hash to group communication flows (for load balancing, etc.)
+• Protocol layer mapping and classification – layers 2-4
+• Protocol keyword parsing
+• Packet slicing
+Physical characteristics:
+• Half-length, full-height PCIe
+• 10 watt power consumption
+• Operating temperature: 0° to 55°C (storage: -20° to 70°C)
+• Operating humidity: 8% to 90%
+Operating system support:
+• Linux
+
+Options for delivery of monitored data:
+1 – IP monitored on PoS delivered over PCIe bus
+2 – IP monitored on PoS delivered in an RTP stream over Gigabit Ethernet
+3 – Raw ATM cells delivered over PCIe bus
+4 – Raw ATM cells delivered as RTP stream over Gigabit Ethernet
+5 – Reassembled IP from monitored ATM AAL2/5 delivered over PCIe bus
+6 – Reassembled IP from monitored ATM AAL2/5 delivered over
+Gigabit Ethernet
+7 – Raw Ethernet frames extracted from PoS, and delivered intact
+
+www.telesoft-technologies.com
+Headquarters:
+
+Americas:
+
+India:
+
+Telesoft Technologies Ltd
+Observatory House 
+Blandford Dorset 
+DT11 9LQ  UK
+
+Telesoft Technologies Inc
+Suite 601 
+4340 Georgetown Square 
+Atlanta GA 30338 USA
+
+Telesoft Technologies Ltd
+(Branch Office) Building FC-24
+Sector 16A Noida 201301 
+Uttar Pradesh  India
+
+T.  +44 (0)1258 480880
+F.  +44 (0)1258 486598
+E. sales@telesoft-technologies.com
+
+T.  +1 770 454 6001
+F.  +1 770 452 0130
+E. salesusa@telesoft-technologies.com
+
+T.  +91 120 466 0300
+F.  +91 120 466 0301
+E. salesindia@telesoft-technologies.com
+
+DX-PAF-GEN-MK-DS-33712-01
+
+Telesoft Technologies and the Telesoft Technologies
+logo design are trademarks or registered trademarks
+of Telesoft Technologies Ltd or its subsidiaries. All other
+brand and product names may be trademarks of their
+respective companies. Copyright ©2011 by Telesoft
+Technologies Ltd. All rights reserved.
+
+

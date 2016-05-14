@@ -1,0 +1,1424 @@
+Mobiloc 4
+Inhaltsverzeichnis
+FL3
+Seite
+Seite
+Seite
+Seite
+
+2!
+3!
+4!
+6!
+
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+
+/
+/
+/
+/
+
+Steuerung
+Steuerung / Programmierung / Kennung
+Steuerung / Programmierung / Alarmierung
+Steuerung / Programmierung / Sensoreinstellung
+
+7!
+8!
+9!
+12!
+14!
+
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+
+/
+/
+/
+/
+/
+
+Steuerung
+Steuerung
+Steuerung
+Steuerung
+Steuerung
+
+/
+/
+/
+/
+
+Programmierung
+Programmierung
+Programmierung
+Programmierung
+
+/
+/
+/
+/
+
+Kennung
+Einstellungen
+Alarmierung
+Sensoreinstellung
+
+15!
+16!
+17!
+20!
+22!
+
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+
+/
+/
+/
+/
+/
+
+Steuerung
+Steuerung
+Steuerung
+Steuerung
+Steuerung
+
+/
+/
+/
+/
+
+Programmierung
+Programmierung
+Programmierung
+Programmierung
+
+/
+/
+/
+/
+
+Kennung
+Einstellungen
+Alarmierung
+Sensoreinstellung
+
+23!
+24!
+25!
+28!
+30!
+
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+Teilnehmerbutton
+
+/
+/
+/
+/
+/
+
+Steuerung
+Steuerung
+Steuerung
+Steuerung
+Steuerung
+
+/
+/
+/
+/
+
+Programmierung
+Programmierung
+Programmierung
+Programmierung
+
+/
+/
+/
+/
+
+Kennung
+Einstellungen
+Alarmierung
+Sensoreinstellung
+
+REC3
+Seite
+Seite
+Seite
+Seite
+Seite
+
+Seite
+Seite
+Seite
+Seite
+Seite
+
+QP2
+Seite
+Seite
+Seite
+Seite
+Seite
+
+Seite 31!
+
+Persönliche Notizen
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+FS1
+
+1
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FL3
+Teilnehmerbutton / Steuerung
+„Telefonnummer“
+Als Rufnummer des Gerätes wird bei Aufruf des Menüpunktes Steuerung
+die Datennummer aus der Datenbank übernommen. Es kann aber auch
+manuell eine Rufnummer in das Feld eingetragen werden.
+„Relais (Schalter 28) schalten“
+In diesem Feld kann der im FL3 integrierte Schaltkontakt verändert bzw.
+der aktuelle Zustand abgefragt werden. Die Funktion steht nur in einer
+Online-Verbindung zur Verfügung. Das im FL3 eingebaute Relais ist ein
+Wechselkontakt. Im Zustand „Schalter ist Aus“ ist der Kontakt über PIN4
+und PIN5 geschlossen, im Zustand „Ein“ über PIN4 und PIN3.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Programmierung“
+Der Button Programmierung ö" net die Registerkarten mit den
+programmierbaren Funktionen des FL3. Die Programmierung der Geräte
+kann nur bei einer aktiven Online-Verbindung durchgeführt werden.
+
+2
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FL3
+Teilnehmerbutton / Steuerung / Programmierung / Kennung
+
+„Programmieren“
+Erst mit diesem Button werden alle Parameter, die in den Registerkarten eingetragen sind, an das Gerät im Fahrzeug übertragen.
+Unabhängig davon, welche Registerkarte gerade angezeigt wird. Die Programmierung erfolgt, wie auch die Abfrage der vorhandenen
+Programmierung, nur wenn zu dem Gerät eine Online-Verbindung besteht.
+„Feldstärke abfragen“
+Hierüber kann die momentane GSM-Feldstärke des verbauten Gerätes als auch die Versionsnummer angezeigt werden. Die GSM-Feldstärke
+gibt dabei einen Hinweis auf die Güte des Verbaus der GSM-Antenne im Fahrzeug.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+Bei Ö" nen der Datenbank für die programmierten
+Parameter des Gerätes, werden die letzten eingetragenen
+Werte aus der Datenbank übernommen. Da die Geräte aber
+auch von einem anderen Rechner programmiert worden
+sein könnten, ist es erforderlich, zunächst, die vorhandene
+Programmierung abzufragen um die aktuellen Werte zu
+erhalten. Dies ist nur möglich, wenn die im Gerät
+programmierte Kennung mit der Kennung im Feld
+„Kennung“ identisch ist. Dieser Wert wird aus der
+Datenbank (Teilnehmerbutton/Bearbeiten) übernommen.
+Über die Kennungsfelder (Nation, Land, Behörde, Nummer)
+kann eine neue Kennung für das Gerät programmiert
+werden, die dann auch in der Datenbank für diesen
+Teilnehmer geändert werden muß.
+Als Nationenkennung ist im UKSP-Standard für die BRD die
+1 festgelegt. Die Länderkennung ergibt sich aus der Liste.
+Die Behördenkennung wird länderintern vergeben.
+
+3
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FL3
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+„Freigabe der Alarmierung“
+• Startalarm, Stopalarm, Eingangskontakt aktiv.
+! Diese 3 Alarme sind im FL3 immer aktiviert, sobald ein
+Alarmziel definiert ist, und können nicht einzeln
+abgeschaltet werden.
+• Verlassen des geographischen Bereiches. Im FL3 kann nur
+das Verlassen eines definierten Bereiches als Alarm aktiviert
+werden. Zur Funktion ist noch die richtige Programmierung
+des Alarmzieles notwendig.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Alarmziel“
+• Telefonnummer
+! Die Rufnummer des Alarmzieles kann entweder manuell
+eingetragen
+oder
+vorzugsweise
+aus
+der
+Rufnummerndatenbank übernommen werden. Wird die
+Alarmierung als SMS durchgeführt, muß in jedem Fall die
+Länderkennung mit einem „+“ Zeichen eingetragen sein
+(z.B. +49 für Deutschland).
+
+4
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FL3
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+
+„Netzbetreiber“
+• An dieser Position muß die Service-Center-Adresse (SCA)
+des Netzbetreibers eingetragen werden, dessen Karte im
+Gerät
+verbaut
+ist.
+Einige
+Netzbetreiber
+haben
+unterschiedliche SCA-Nummern, abhängig davon, ob die
+SMS-Netz intern oder zu einem anderen Netz gesendet
+werden soll (z.B. D2). Die Nummer kann aus der
+vorhandenen Liste übernommen oder manuell eingetragen
+werden. Die Länderkennung (z.B. +49) ist zwingend
+erforderlich.
+„automatische zyklische SMS-Meldung“
+• Der FL3 kann seine Position automatisch in einem
+vordefinierten Zeitraster an die Zentrale senden. Dies ist nur
+möglich, wenn ein Alarmziel als SMS definiert ist. Als
+Zeitraster kann eine von sieben verschiedenen Zeiten aus
+der vorgegebenen Liste ausgewählt werden. Die Alarme 1-3
+sind dadurch ebenfalls freigeschaltet.
+• Die SMS kann nicht während einer Online-Verbindung
+gesendet werden.
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Alarmierung über“
+• Als Alarmierung kann entweder eine SMS gesendet, oder ein
+sofortiger Aufbau einer Online-Verbindung aktiviert werden.
+Die SMS kann sowohl an den Zentralenrechner als auch an
+ein beliebiges Handy gesendet werden. Wird die SMS an die
+Zentrale gesendet, kann diese nur mittels eines GSMModems empfangen werden.
+• Die
+Online-Verbindung
+(Datenverbindung)
+kann
+sinnvollerweise nur zur Zentrale aufgebaut werden. Hierfür
+kann in der Zentrale auch ein Drahtmodem (analog, ISDN)
+angeschlossen sein. Nach Verbindungsaufbau werden sofort
+die aktuellen Positionsdaten und der Alarm in der Zentrale
+dargestellt.
+
+5
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FL3
+Teilnehmerbutton / Steuerung / Programmierung / Sensoreinstellung
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Sensor geographische Bereichsüberwachung“
+Der Bereich indem sich das Fahrzeug aufhalten darf, wird
+direkt auf der Karte im Mobiloc markiert (Doppelklick rechte
+Maustaste auf der Karte/ geographischen Bereich definieren).
+Als Bereich kann nur ein Rechteck programmiert werden.
+Erst die obere linke, dann die untere rechte Ecke auf der
+Karte anklicken. Mit dem Button übernehmen werden die
+Koordinaten der Eckpunkte in die Felder eingetragen. Ein
+bereits programmierter Bereich kann jederzeit wieder auf der
+Karte visualisiert werden.
+
+6
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+Teilnehmerbutton / Steuerung
+„Telefonnummer“
+Als Rufnummer des Gerätes wird bei Aufruf des Menüpunktes Steuerung die
+Datennummer aus der Datenbank übernommen. Es kann aber auch manuell eine
+Rufnummer in das Feld eingetragen werden.
+„Stromsparen Aus“
+Über diesen Button kann ein REC3 mittels SMS aus dem Schlafmodus geweckt werden.
+Als Rufnummer wird aus der Datenbank für dieses Gerät die eingetragene SMSRufnummer übernommen. Die Funktion kann nur ausgeführt werden, wenn an das
+System ein GSM-Modem entweder direkt oder über die Zentralenbox angeschlossen ist.
+Nachdem der REC3 geweckt wurde, (abhängig von der programmierten Weckzeit),
+antwortet er mit einer „Bin wach“ Meldung, ebenfalls via SMS. Die Funktion kann nicht
+während einer Online-Verbindung ausgeführt werden.
+
+„Polling Abfrage“
+Der REC3 kann mittels des Button „Polling Ein“ in den Pollingmodus gesetzt werden. Das bedeutet, daß nach dem Aufbau der OnlineVerbindung die Positionsdaten nicht automatisch vom Recorder ausgegeben werden, sondern nur auf Anfrage aus der Zentrale. Hierzu muß
+in der Datenbank für diesen Teilnehmer der Pollingmodus aktiviert werden (Teilnehmerbutton/Bearbeiten/UKSP-Anfrage im Pollingmode
+aktivieren). Über den Button „Normal Mode“ wird die Funktion wieder abgeschaltet. Der Recorder sendet nach Verbindungsaufbau jede
+Sekunde seine Position automatisch. Die Funktion kann nur in der Online-Verbindung aktiviert bzw. deaktiviert werden.
+
+„Programmierung“
+Der Button Programmierung ö" net die Registerkarten mit den programmierbaren Funktionen des REC3. Die Programmierung der Geräte
+kann nur bei einer aktiven Online-Verbindung durchgeführt werden.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Relais (Schalter 28) schalten“
+In diesem Feld kann der im REC3 integrierte Schaltkontakt verändert bzw. der aktuelle
+Zustand abgefragt werden. Die Funktion steht nur in einer Online-Verbindung zur
+Verfügung. Das im REC3 eingebaute Relais ist ein Wechselkontakt. Im Zustand „Schalter
+ist Aus“ ist der Kontakt über PIN4 und PIN5 geschlossen, im Zustand „Ein“ über PIN4
+und PIN3.
+
+7
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+Teilnehmerbutton / Steuerung / Programmierung / Kennung
+Bei Ö" nen der Datenbank für die programmierten Parameter
+des Gerätes, werden die letzten eingetragenen Werte aus der
+Datenbank übernommen. Da die Geräte aber auch von einem
+anderen Rechner programmiert worden sein könnten, ist es
+erforderlich, zunächst, die vorhandene Programmierung
+abzufragen um die aktuellen Werte zu erhalten. Dies ist nur
+möglich, wenn die im Gerät programmierte Kennung mit der
+Kennung im Feld „Kennung“ identisch ist. Dieser Wert wird
+aus
+der
+Datenbank
+(Teilnehmerbutton/Bearbeiten)
+übernommen.
+Über die Kennungsfelder (Nation, Land, Behörde, Nummer)
+kann dann eine neue Kennung für das Gerät programmiert
+werden, die auch in der Datenbank für diesen Teilnehmer
+geändert werden muß.
+Als Nationenkennung ist im UKSP-Standard für die BRD die 1
+festgelegt. Die Länderkennung ergibt sich aus der Liste. Die
+Behördenkennung wird länderintern vergeben.
+
+„Programmieren“
+Erst mit diesem Button werden alle Parameter, die in den
+Registerkarten eingetragen sind, an das Gerät im Fahrzeug
+übertragen. Unabhängig davon, welche Registerkarte gerade
+angezeigt wird. Die Programmierung erfolgt, wie auch die
+Abfrage der vorhandenen Programmierung, nur, wenn zu
+dem Gerät eine Online-Verbindung besteht.
+„Feldstärke abfragen“
+Hierüber kann die momentane GSM-Feldstärke des verbauten Gerätes als auch die Versionsnummer angezeigt werden. Die GSM-Feldstärke
+gibt dabei einen Hinweis auf die Güte des Verbaus der GSM-Antenne im Fahrzeug.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Neue Kennung programmieren“
+Hierüber wird die Kennung im Gerät geändert.
+
+8
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+„Recorder“
+In diesem Bereich wird die Speicherfunktion des Rekorders
+definiert. Die Speicherung erfolgt in Abhängigkeit der
+definierten Geschwindigkeit (z.B. 20km/h) und eines frei
+definierbaren Zeitrasters (1-120 sek.). Die Aufzeichnung
+beginnt
+sobald
+das
+Fahrzeug
+die
+eingestellte
+Geschwindigkeit erreicht bzw. überschritten hat. Fällt die
+Geschwindigkeit unter den programmierten Wert, so wird der
+erste Wert unterhalb des Filters noch gespeichert, sowie die
+erste „0 km/h“ Position. Diese beiden Positionen werden
+besonders gekennzeichnet, damit sie beim Packen nicht
+gelöscht werden.
+Ab der Recorderversion (3.03.04) kann die Speicherfunktion
+des Rekorders auch abgeschaltet werden, indem als
+Aufzeichnungsintervall 0 Sekunden eingetragen werden.
+Der REC3 speichert 145.000 Positionen. Ist der Speicher voll
+und der Menüpunkt „Daten werden in Rekorder gepackt“
+aktiviert, so wird jede 2. Position im Speicher gelöscht und
+die
+verbliebenen
+Positionen
+zu
+einem
+Block
+zusammengefaßt. Eine Ausnahme bilden, wie oben bereits
+beschriebenen, die Stoppositionen, die ebenfalls im Speicher
+verbleiben. Die Auflösung der Positionen hat nach dem
+Packen den doppelten Zeitabstand. Auch die neuen
+Positionen
+werden
+mit
+diesem
+neuen
+Zeitabstand
+gespeichert. Ist der Speicher erneut voll, so wiederholt sich
+diese Pack-Prozedur bis zu einer Auflösung von 30 Minuten.
+Ist das Packen nicht aktiviert, wird der Speichervorgang mit
+der 145.000 Position beendet. Alle weiteren Funktionen
+„Telefonmodem ist angeschlossen“
+bleiben davon unberührt.
+Der REC3 kann auch ohne GSM-Modem im Fahrzeug verbaut werden, um lediglich die Fahrtstrecke „O# ine“ aufzuzeichnen, und die Daten
+später (nach Ausbau) direkt am PC auszulesen. In diesem Fall muß dieser Menüpunkt deaktiviert werden, da der Recorder sonst versucht,
+das nicht vorhandene Modem zu initialisieren, und dadurch die Stromsparfunktion nicht einwandfrei arbeiten kann.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+
+9
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+
+„Wecksignal aus dem Stromsparmodus“
+Prinzipiell sind 2 Möglichkeiten vorhanden, um das Gerät aus
+dem Stromsparmodus wieder heraus zu aktivieren. Die erste
+Möglichkeit besteht durch das Senden der SMS-Massage
+„Stromsparen aus“ (Teilnehmerbutton/Steuerung). Um die
+SMS empfangen zu können, kann das GSM-Modul in einen
+programmierbaren Rhythmus eingeschaltet werden. Der
+Zeitzyklus kann in Minuten oder Stunden angegeben werden
+und beginnt mit der Programmierung des Gerätes (nicht mit
+dem Ende der Online-Verbindung). Der Recorder schaltet das
+GSM-Modul in dem programmierten Rhythmus ein. Das
+GSM-Modul bleibt für die programmierte Nachlaufzeit
+eingeschaltet, um eine SMS zu empfangen.
+Tri" t diese ein, (minimale Nachlaufzeit 2-5 min) wird der Stromsparmodus abgeschaltet (GSM-Modul und GPS aktiviert) und muß dann über
+die Programmierung des Gerätes neu aktiviert werden. Neben dem GSM-Modul kann zusätzlich auch der GPS-Empfänger für den gleichen
+Zeitraum aktiviert werden, um diesen mit neuen Daten zu versehen. Tri" t keine SMS ein, so werden die Module (GSM, GPS) nach dieser Zeit
+wieder abgeschaltet.
+Weiterhin kann die Aktivierung des Gerätes durch den aktiven Zündungskontakt und / oder den aktiven externen Kontakt erfolgen. Ist der
+entsprechende Kontakt aktiv, so wird der Stromsparmodus temporär abgeschaltet so lange, wie der Kontakt aktiv bleibt. Wird der Kontakt
+wieder deaktiviert (z.B. Zündung aus) bleibt das Gerät noch für die programmierte Nachlaufzeit wach, bevor der Stromsparmodus wieder
+eingeschaltet wird.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Stromsparen“
+Der Recorder verfügt über eine e$ ziente Stromsparfunktion,
+in der das Gerät weniger als 20mA Strom aufnimmt. In
+diesem Modus sind sowohl das GSM-Modul als auch der
+GPS-Empfänger abgeschaltet, d.h. das Gerät ist nicht
+erreichbar und zeichnet auch keine Positionen auf. Die
+Stromsparfunktion
+wird
+aktiv,
+wenn
+nach
+dem
+Programmieren die Online-Verbindung beendet wird und die
+programmierte Nachlaufzeit (z.B. 10 Minuten) abgelaufen ist.
+Sollen nur das GSM-Modul abgeschaltet werden, weil
+weiterhin die Positionen im Speicher aufgezeichnet werden
+müssen, ist dieses Feld zusätzlich zu aktivieren.
+
+10
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+„Online-Verbindung im Stromsparmodus“
+Wird in der Wachphase von der Zentrale eine OnlineVerbindung aufgebaut, hat diese Vorrang vor der
+Stromsparfunktion. Das Gerät bleibt weiterhin Online, auch
+wenn das Kriterium für das Wecken nicht mehr gegeben ist
+und die Nachlaufzeit bereits abgelaufen ist. Wird die
+Verbindung dann unterbrochen und war die Nachlaufzeit
+bereits abgelaufen, so wird das Gerät sofort in den
+Stromsparmodus versetzt. Andernfalls bleibt das Gerät noch
+für die verbleibende Nachlaufzeit wach.
+
+„zyklische Positionsmeldung im Stromsparmodus“
+Ist im Gerät die zyklische Positionsmeldung aktiviert, so wird
+der Zyklus automatisch auf die Zeit des zyklischen
+Wachwerdens verändert, wenn in der Wachphase der GPSEmpfänger mit aktiviert wurde und eine Position bestimmt
+werden konnte.
+Gefahr der Unerreichbarkeit durch Fehlprogrammierung
+Wird der Stromsparmodus aktiviert, aber keine zyklische Wachzeit programmiert und kein Kontakt markiert ist, so ist das Gerät
+N I E M E H R erreichbar. Das kann zwar gewollt sein, aber das Gerät kann dann nur noch reaktiviert werden, wenn es ausgebaut
+wurde.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Alarmfunktion im Stromsparmodus“
+Sind der externe Kontakt oder der Zündungskontakt als
+Alarm definiert, so wird bei Eintreten des Ereignisses das
+Gerät geweckt und der Alarm ausgegeben (nur bei
+Alarmierung
+via
+SMS).
+Anschließend
+wird
+die
+Stromsparfunktion sofort wieder eingeschaltet. Der Bereichsund Geschwindigkeitsalarm können nicht ausgelöst werden.
+
+11
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+! Im REC3 können sechs unterschiedliche Alarmkriterien
+einzeln oder in jeder beliebigen Kombination definiert
+werden. Eine Alarmierung ist nur möglich, wenn ein GSMModul angeschlossen ist (siehe Registerkarte Einstellungen)
+und ein entsprechendes Alarmziel definiert ist. Alle Alarme
+können nur an ein Ziel gesendet werden.
+
+„Alarmierung über“
+• Als Alarmierung kann entweder eine SMS gesendet, oder
+ein sofortiger Aufbau einer Online-Verbindung aktiviert
+werden. Die SMS kann sowohl an dem Zentralenrechner als
+auch an ein beliebiges Handy gesendet werden. Wird die
+SMS an die Zentrale gesendet, kann diese nur mittels eines
+GSM-Modems empfangen werden.
+* Die
+Online-Verbindung
+(Datenverbindung)
+kann
+sinnvollerweise nur zur Zentrale aufgebaut werden. Hierfür
+kann in der Zentrale auch ein Drahtmodem (analog, ISDN)
+angeschlossen sein. Nach Verbindungsaufbau werden
+sofort die aktuellen Positionsdaten und der Alarm in der
+Zentrale dargestellt.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+Alarmziel
+„Telefonnummer“
+• Die Rufnummer des Alarmzieles kann entweder manuell
+eingetragen
+oder
+vorzugsweise
+aus
+der
+Rufnummerndatenbank übernommen werden. Wird die
+Alarmierung als SMS durchgeführt, muß in jedem Fall die
+Länderkennung mit einem „+“ Zeichen eingetragen sein
+(+49 für Deutschland).
+
+12
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+„Automatische zyklische Position“
+Der REC3 kann seine Position in einem frei definierbaren
+Zeitraum (Sekunden, Minuten, Stunden) automatisch senden.
+Wird das Zeitfenster <15 Sekunden programmiert, sind unter
+Umständen mehrere Anwahlversuche notwendig um eine
+Online-Verbindung zu dem Gerät aufzubauen, da das Gerät
+permanent als besetzt gilt. Ein Zyklus < 5 Sekunden macht
+keinen Sinn, da die Übertragungszeit ggf. länger und deshalb
+die zeitliche Reihenfolge der eintre" ende Positionen nicht mehr
+gewährleistet ist.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Netzbetreiber“
+An dieser Position muß die Service-Center-Adresse (SCA) des
+Netzbetreibers eingetragen werden, dessen Karte im Gerät
+verbaut ist. Einige Netzbetreiber haben unterschiedliche SCANummern, abhängig davon, ob die SMS-Netz intern oder zu
+einem anderen Netz gesendet werden soll (z.B. D2). Die
+Nummer kann aus der vorhandenen Liste übernommen oder
+manuell eingetragen werden. Die Länderkennung (z.B. +49) ist
+zwingend erforderlich. Um eine SMS senden zu können, ist
+zudem die richtige SCA zwingend erforderlich.
+
+13
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung REC3
+Teilnehmerbutton / Steuerung / Programmierung / Sensoreinstellung
+
+„Alarm 1-3 Zündung, Eingangsport“
+Für die beiden Kontakte kann eine Totzeit programmiert
+werden, die nach Aktivierung des Kontaktes zunächst
+abgelaufen sein muß, bevor der Alarm ausgelöst wird, so daß
+Fehlalarme durch kurzfristige Spannungsschwankungen
+ausgeschlossen werden können. Eine Totzeit von 0 Sekunden
+bedeutet, deshalb das jeder, auch sehr kurze Impuls, sofort
+eine Alarmierung auslöst.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Sensor Geographische Bereichsüberwachung“
+Der geographische Bereich, der durch den REC3 überwacht
+werden soll, wird direkt auf der Karte im Mobiloc markiert
+(Doppelklick rechte Maustaste auf der Karte/ geographische
+Bereich definieren). Als Bereich kann nur ein Rechteck
+programmiert werden.
+Erst die obere linke, dann die untere rechte Ecke auf der Karte
+anklicken. Mit dem Button „übernehmen“ werden die
+Koordinaten der Eckpunkte in die Felder eingetragen. Ein
+bereits programmierter Bereich kann jederzeit wieder auf der
+Karte abgebildet werden.
+„Alarm 4, Geschwindigkeit“
+Die
+Alarmgeschwindigkeit
+kann
+als
+einfache
+Bereichsüberwachung genutzt werden. Der Sensor wird
+ausgelöst, wenn das Fahrzeug die definierte Geschwindigkeit
+für
+den
+programmierten
+Zeitraum
+ununterbrochen
+überschreitet. Bevor der Alarm erneut ausgelöst wird, muß
+die programmierte Geschwindigkeit zuvor unterschritten
+werden.
+
+14
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung
+„Telefonnummer“
+Als Rufnummer des Gerätes wird bei Aufruf des Menüpunktes Steuerung die
+Datennummer aus der Datenbank übernommen. Es kann aber auch manuell eine
+Rufnummer in das Feld eingetragen werden.
+„Stromsparen Aus“
+Über diesen Button kann der FS1 mittels SMS aus dem Schlafmodus geweckt werden.
+Als Rufnummer wird aus der Datenbank für dieses Gerät die eingetragene SMSRufnummer übernommen. Die Funktion kann nur ausgeführt werden, wenn an das
+System ein GSM-Modem entweder direkt oder über die Zentralenbox angeschlossen ist.
+Nachdem der FS1 geweckt wurde, (abhängig von der programmierten Weckzeit),
+antwortet er mit einer „Bin wach“ Meldung, ebenfalls via SMS. Die Funktion kann nicht
+während einer Online-Verbindung ausgeführt werden.
+
+„Polling Abfrage“
+Der FS1 kann mittels des Button „Polling Ein“ in den Pollingmodus gesetzt werden. Das bedeutet, daß nach dem Aufbau der OnlineVerbindung die Positionsdaten nicht automatisch vom Recorder ausgegeben werden, sondern nur auf Anfrage aus der Zentrale. Hierzu muß
+in der Datenbank für diesen Teilnehmer der Pollingmodus aktiviert werden (Teilnehmerbutton/Bearbeiten/UKSP-Anfrage im Pollingmode
+aktivieren). Über den Button „Normal Mode“ wird die Funktion wieder abgeschaltet. Der Recorder sendet nach Verbindungsaufbau jede
+Sekunde seine Position automatisch. Die Funktion kann nur in der Online-Verbindung aktiviert bzw. deaktiviert werden.
+„Programmierung“
+Der Button Programmierung ö" net die Registerkarten mit den programmierbaren Funktionen des FS1. Die Programmierung der Geräte kann
+nur bei einer aktiven Online-Verbindung durchgeführt werden.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Relais (Schalter 28) schalten“
+In diesem Feld kann der im FS1 integrierte Schaltkontakt verändert bzw. der aktuelle
+Zustand abgefragt werden. Die Funktion steht nur in einer Online-Verbindung zur
+Verfügung. Das im FS1 eingebaute Relais ist ein Wechselkontakt. Im Zustand „Schalter
+ist Aus“ ist der Kontakt über PIN4 und PIN5 geschlossen, im Zustand „Ein“ über PIN4
+und PIN3.
+
+15
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung / Programmierung / Kennung
+Bei Ö" nen der Datenbank für die programmierten Parameter
+des Gerätes, werden die letzten eingetragenen Werte aus der
+Datenbank übernommen. Da die Geräte aber auch von einem
+anderen Rechner programmiert worden sein könnten, ist es
+erforderlich, zunächst, die vorhandene Programmierung
+abzufragen um die aktuellen Werte zu erhalten. Dies ist nur
+möglich, wenn die im Gerät programmierte Kennung mit der
+Kennung im Feld „Kennung“ identisch ist. Dieser Wert wird
+aus
+der
+Datenbank
+(Teilnehmerbutton/Bearbeiten)
+übernommen.
+Über die Kennungsfelder (Nation, Land, Behörde, Nummer)
+kann dann eine neue Kennung für das Gerät programmiert
+werden, die auch in der Datenbank für diesen Teilnehmer
+geändert werden muß.
+Als Nationenkennung ist im UKSP-Standard für die BRD die 1
+festgelegt. Die Länderkennung ergibt sich aus der Liste. Die
+Behördenkennung wird länderintern vergeben.
+
+„Programmieren“
+Erst mit diesem Button werden alle Parameter, die in den
+Registerkarten eingetragen sind, an das Gerät im Fahrzeug
+übertragen. Unabhängig davon, welche Registerkarte gerade
+angezeigt wird. Die Programmierung erfolgt, wie auch die
+Abfrage der vorhandenen Programmierung, nur, wenn zu
+dem Gerät eine Online-Verbindung besteht.
+„Feldstärke abfragen“
+Hierüber kann die momentane GSM-Feldstärke des verbauten Gerätes als auch die Versionsnummer angezeigt werden. Die GSM-Feldstärke
+gibt dabei einen Hinweis auf die Güte des Verbaus der GSM-Antenne im Fahrzeug.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Neue Kennung programmieren“
+Hierüber wird die Kennung im Gerät geändert.
+
+16
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+
+Der FS1 kennt vier verschiedene Speichermodi (s.o.).
+1. Speichern bis Speicher voll
+2. Packen wenn Speicher voll
+3. Überschreiben wenn Speicher voll (Ringspeichern)
+4. Speicherfunktion ausschalten
+Im 1. Modus wird am Ende des Speichers die Funktion des Speichers abgeschaltet. Der Speicher enthält die ersten 32.000 Positionen der
+Fahrt.
+Im 2. Speichermodus wird nach der 32.000 Position jede 2. Position im Speicher gelöscht und die verbleibenden Positionen wieder zu einem
+Block zusammengefaßt. Eine Ausnahme bilden die bereits oben beschriebenen Stopppositionen, die ebenfalls im Speicher verbleiben. Die
+Auflösung der Positionen im Speicher hat nach dem Packen den doppelten Zeitabstand. Ist der Speicher erneut voll, so wiederholt sich diese
+Pack-Prozedur bis zu einer Auflösung von 30 Minuten. Anschließend wird die Speicherfunktion abgeschaltet. Im Speicher ist immer die
+gesamte Fahrstrecke abgespeichert.
+Im 3. Modus wird, wenn der Speicher voll ist, die jeweils älteste Position gelöscht (außer Stopppositionen). Der Speicher enthält immer die
+letzten gefahrenen 32.000 Positionen.
+Seite
+Über den 4. Speichermodus kann die Speicherfunktion temporär abgeschaltet werden.
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Recorder“
+In diesem Bereich wird die Speicherfunktion des FS1
+definiert. Die Speicherung erfolgt in Abhängigkeit der
+definierten Geschwindigkeit (z.B. 20km/h) und eines frei
+definierbaren Zeitrasters (1-120 Sek.). Die Aufzeichnung
+beginnt
+sobald
+das
+Fahrzeug
+die
+eingestellte
+Geschwindigkeit erreicht bzw. überschritten hat. Fällt die
+Geschwindigkeit unter den programmierten Wert, so wird der
+erste Wert unterhalb des Filters noch gespeichert, sowie die
+erste „0 km/h“ Position. Diese beiden Positionen werden
+besonders gekennzeichnet, damit sie beim Packen nicht
+gelöscht werden.
+
+17
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+
+„Wecksignal aus dem Stromsparmodus“
+Prinzipiell sind 2 Möglichkeiten vorhanden, um das Gerät aus dem
+Stromsparmodus wieder zu aktivieren. Die erste Möglichkeit besteht
+durch
+das
+Senden
+der
+SMS-Message
+„Stromsparen
+aus“ (Teilnehmerbutton/Steuerung). Um die SMS empfangen zu
+können, kann das GSM-Modul in einen programmierbaren Rhythmus
+eingeschaltet werden. Der Zeitzyklus kann in Minuten oder Stunden
+angegeben werden und beginnt mit der Programmierung des Gerätes
+(nicht mit dem Ende der Online-Verbindung). Der FS1 schaltet das
+GSM-Modul in dem programmierten Rhythmus ein. Das GSM-Modul
+bleibt für die programmierte Nachlaufzeit eingeschaltet um eine SMS
+Tri" t diese ein, (minimale Nachlaufzeit 2-5 min) wird der Stromsparmodus
+abgeschaltet (GSM-Modul und GPS aktiviert) und muß dann über
+zu empfangen.
+die Programmierung des Gerätes neu aktiviert werden. Neben dem GSM-Modul kann zusätzlich auch der GPS-Empfänger für den gleichen
+Zeitraum aktiviert werden, um diesen mit neuen Daten zu versehen. Tri" t keine SMS ein, so werden die Module (GSM, GPS) nach dieser Zeit
+wieder abgeschaltet.
+Weiterhin kann die Aktivierung des Gerätes durch den aktiven Zündungskontakt, den aktiven externen Kontakt und / oder den
+Bewegungsmelder erfolgen. Ist der entsprechende Kontakt markiert, so wird der Stromsparmodus temporär abgeschaltet so lange, wie der
+Kontakt aktiv bleibt. Wird der Kontakt wieder deaktiviert (z.B. Zündung aus) bleibt das Gerät noch für die programmierte Nachlaufzeit wach,
+bevor der Stromsparmodus wieder eingeschaltet wird.
+Wurde einer dieser Kontakte programmiert, vergrößert sich der Stromverbrauch im Stromsparmodus um ca. 5mA. Zusätzlich kann für jeden
+Kontakt individuell definiert werden, daß bei Aktivierung des Kontaktes nur der GPS-Empfänger eingeschaltet wird. Das Gerät bleibt dann
+unerreichbar, zeichnet aber Positionen im definierten Rhythmus auf.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Stromsparen“
+Der FS1 verfügt über eine e$ ziente Stromsparfunktion, in der das
+Gerät nur noch ca. 15mA aufnimmt. In diesem Modus sind sowohl das
+GSM-Modul als auch der GPS-Empfänger abgeschaltet, d.h. das Gerät
+ist nicht erreichbar und zeichnet auch keine Positionen auf. Die
+Stromsparfunktion wird aktiv, wenn nach dem Programmieren die
+Online-Verbindung beendet wird und die programmierte Nachlaufzeit
+(z.B. 10 Minuten) abgelaufen ist. Sollen nur das GSM-Modul
+abgeschaltet werden, weil weiterhin die Positionen im Speicher
+aufgezeichnet werden müssen, ist dieses Feld zusätzlich zu
+aktivieren.
+
+18
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+„Online-Verbindung im Stromsparmodus“
+Wird in der Wachphase von der Zentrale eine OnlineVerbindung aufgebaut, hat diese Vorrang vor der
+Stromsparfunktion. Das Gerät bleibt weiterhin Online, auch
+wenn das Kriterium für das Wecken nicht mehr gegeben ist
+und die Nachlaufzeit bereits abgelaufen ist. Wird die
+Verbindung dann unterbrochen und war die Nachlaufzeit
+bereits abgelaufen, so wird das Gerät sofort in den
+Stromsparmodus versetzt. Andernfalls bleibt das Gerät noch
+für die verbleibende Nachlaufzeit wach.
+
+„zyklische Positionsmeldung im Stromsparmodus“
+Ist im Gerät die zyklische Positionsmeldung aktiviert, so wird
+der Zyklus automatisch auf die Zeit des zyklischen
+Wachwerdens verändert, wenn in der Wachphase der GPSEmpfänger mit aktiviert wurde und eine Position bestimmt
+„Wachphase innerhalb einer bestimmten Zeit“
+werden konnte.
+Mit dieser Funktion kann der FS1 zu einem gezielten Zeitpunkt für einen frei definierbaren Zeitraum eingeschaltet werden. Die Zeitangaben
+sind in UTC bzw. GMT angegeben, da das Gerät die aktuelle Uhrzeit über den GPS-Empfänger bestimmt.
+Gefahr der Unerreichbarkeit durch Fehlprogrammierung
+Wird der Stromsparmodus aktiviert, aber keine zyklische oder definierte Wachzeit programmiert und kein Kontakt markiert ist, so
+ist das
+Gerät N I E M E H R erreichbar. Das kann zwar gewollt sein, aber das Gerät kann dann nur noch reaktiviert werden, wenn es
+ausgebaut wurde.
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Alarmfunktion im Stromsparmodus“
+Sind der externe Kontakt, der Bewegungsmelder oder der
+Zündungskontakt als Alarm definiert, so wird bei Eintreten
+des Ereignisses das Gerät geweckt und der Alarm
+ausgegeben (nur bei Alarmierung via SMS). Anschließend
+wird die Stromsparfunktion sofort wieder eingeschaltet. Der
+Bereichsund
+Geschwindigkeitsalarm
+können
+nicht
+ausgelöst werden.
+
+19
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+
+! Alarmziel
+„Alarmierung über“
+• Als Alarmierung kann entweder eine SMS gesendet, oder ein
+sofortiger Aufbau einer Online-Verbindung aktiviert werden.
+Die SMS kann sowohl an dem Zentralenrechner als auch an
+ein beliebiges Handy gesendet werden. Wird die SMS an die
+Zentrale gesendet, kann diese nur mittels eines GSMModems empfangen werden. Im SMS-Modus können zwei
+individuelle Ziele programmiert werden.
+• Die
+Online-Verbindung
+(Datenverbindung)
+kann
+sinnvollerweise nur zur Zentrale aufgebaut werden. Hierfür
+kann in der Zentrale auch ein Drahtmodem (analog, ISDN)
+angeschlossen sein. Nach Verbindungsaufbau werden sofort
+die aktuellen Positionsdaten und der Alarm in der Zentrale
+dargestellt. Im Online-Modus kann aus technischen Gründen
+nur die Rufnummer 1 definiert werden.
+„Telefonnummer“
+• Die Rufnummer des Alarmzieles kann entweder manuell
+eingetragen
+oder
+vorzugsweise
+aus
+der
+Rufnummerndatenbank übernommen werden. Wird die
+Alarmierung als SMS durchgeführt, muß in jedem Fall die
+Länderkennung mit einem „+“ Zeichen eingetragen sein
+(+49 für Deutschland).
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+! Im FS1 können neun unterschiedliche Alarmkriterien einzeln
+oder in jeder beliebigen Kombination definiert werden. Eine
+Alarmierung ist nur möglich, wenn ein entsprechendes
+Alarmziel definiert ist. Im Modus „SMS“ können die Alarme
+an zwei unabhängige Rufnummern abgesetzt werden.
+
+20
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+
+„Netzbetreiber“
+An dieser Position muß die Service-Center-Adresse (SCA) des
+Netzbetreibers eingetragen werden, dessen Karte im Gerät
+verbaut ist. Einige Netzbetreiber haben unterschiedliche
+SCA-Nummern, abhängig davon, ob die SMS Netz-intern
+oder zu einem anderen Netz gesendet werden soll (z.B. D2).
+Die Nummer kann aus der vorhandenen Liste übernommen
+oder manuell eingetragen werden. Die Länderkennung (z.B.
++49) ist zwingend erforderlich. Um eine SMS senden zu
+können, ist zudem die richtige SCA zwingend erforderlich.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Automatische zyklische Position“
+Der FS1 kann seine Position in einem frei definierbaren
+Zeitraum (Sekunden, Minuten, Stunden) automatisch senden.
+Wird das Zeitfenster <15 Sekunden programmiert, sind unter
+Umständen mehrere Anwahlversuche notwendig um eine
+Online-Verbindung zu dem Gerät aufzubauen, da das Gerät
+permanent als besetzt gilt. Ein Zyklus < 5 Sekunden macht
+keinen Sinn, da die Übertragungszeit ggf. länger ist und
+deshalb die zeitliche Reihenfolge der eintre" ende Positionen
+nicht mehr gewährleistet ist. Die Position kann an zwei
+individuelle Ziele gesendet werden.
+
+21
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FS1
+Teilnehmerbutton / Steuerung / Programmierung / Sensoreinstellung
+
+„ Zündung, externer Kontakt, Bewegungsmelder“
+Für die drei Kontakte kann eine Totzeit programmiert
+werden, die nach Aktivierung des Kontaktes zunächst
+abgelaufen sein muß, bevor der Alarm ausgelöst wird, so daß
+Fehlalarme durch kurzfristige Spannungsschwankungen
+ausgeschlossen werden können. Eine Totzeit von 0 Sekunden
+bedeutet, deshalb das jeder, auch sehr kurze Impuls, sofort
+eine Alarmierung auslöst.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Sensor Geographische Bereichsüberwachung“
+Der geographische Bereich, der durch den FS1 überwacht
+werden soll, wird direkt auf der Karte im Mobiloc markiert
+(Doppelklick rechte Maustaste auf der Karte/ geographische
+Bereich definieren). Als Bereich kann nur ein Rechteck
+programmiert werden.
+Erst die obere linke, dann die untere rechte Ecke auf der
+Karte anklicken. Mit dem Button „übernehmen“ werden die
+Koordinaten der Eckpunkte in die Felder eingetragen. Ein
+bereits programmierter Bereich kann jederzeit wieder auf der
+Karte abgebildet werden.
+„Alarmgeschwindigkeit“
+Die
+Alarmgeschwindigkeit
+kann
+als
+einfache
+Bereichsüberwachung genutzt werden. Der Sensor wird
+ausgelöst, wenn das Fahrzeug die definierte Geschwindigkeit
+für
+den
+programmierten
+Zeitraum
+ununterbrochen
+überschreitet. Bevor der Alarm erneut ausgelöst wird, muß
+die programmierte Geschwindigkeit zuvor unterschritten
+werden.
+
+22
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung
+„Telefonnummer“
+Als Rufnummer des Gerätes wird bei Aufruf des Menüpunktes Steuerung die
+Datennummer aus der Datenbank übernommen. Es kann aber auch manuell eine
+Rufnummer in das Feld eingetragen werden.
+
+„Polling Abfrage“
+Der QP2 kann mittels des Button „Polling Ein“ in den Pollingmodus gesetzt werden. Das
+bedeutet, daß nach dem Aufbau der Online-Verbindung die Positionsdaten nicht
+automatisch vom Recorder ausgegeben werden, sondern nur auf Anfrage aus der
+Zentrale. Hierzu muß in der Datenbank für diesen Teilnehmer der Pollingmodus
+aktiviert werden (Teilnehmerbutton/Bearbeiten/UKSP-Anfrage im Pollingmode
+aktivieren). Über den Button „Normal Mode“ wird die Funktion wieder abgeschaltet. Der
+Recorder sendet nach Verbindungsaufbau jede Sekunde seine Position automatisch.
+Die Funktion kann nur in der Online-Verbindung aktiviert bzw. deaktiviert
+werden.
+„Programmierung“
+Der Button Programmierung ö" net die Registerkarten mit den programmierbaren
+Funktionen des QP2. Die Programmierung der Geräte kann nur bei einer aktiven
+Online-Verbindung durchgeführt werden.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Stromsparen Aus“
+Über diesen Button kann ein QP2 mittels SMS aus dem Schlafmodus geweckt werden.
+Als Rufnummer wird aus der Datenbank für dieses Gerät die eingetragene SMSRufnummer übernommen. Die Funktion kann nur ausgeführt werden, wenn an das
+System ein GSM-Modem entweder direkt oder über die Zentralenbox angeschlossen ist.
+Nachdem der QP2 geweckt wurde, (abhängig von der programmierten Weckzeit),
+antwortet es mit einer „Bin wach“ Meldung, ebenfalls via SMS. Die Funktion kann nicht
+während einer Online-Verbindung ausgeführt werden.
+
+23
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung / Programmierung / Kennung
+Bei Ö" nen der Datenbank für die programmierten Parameter
+des Gerätes, werden die letzten eingetragenen Werte aus der
+Datenbank übernommen. Da die Geräte aber auch von einem
+anderen Rechner programmiert worden sein könnten, ist es
+erforderlich, zunächst, die vorhandene Programmierung
+abzufragen um die aktuellen Werte zu erhalten. Dies ist nur
+möglich, wenn die im Gerät programmierte Kennung mit der
+Kennung im Feld „Kennung“ identisch ist. Dieser Wert wird
+aus
+der
+Datenbank
+(Teilnehmerbutton/Bearbeiten)
+übernommen.
+Über die Kennungsfelder (Nation, Land, Behörde, Nummer)
+kann dann eine neue Kennung für das Gerät programmiert
+werden, die auch in der Datenbank für diesen Teilnehmer
+geändert werden muß.
+Als Nationenkennung ist im UKSP-Standard für die BRD die 1
+festgelegt. Die Länderkennung ergibt sich aus der Liste. Die
+Behördenkennung wird länderintern vergeben.
+
+„Programmieren“
+Erst mit diesem Button werden alle Parameter, die in den
+Registerkarten eingetragen sind, an das Gerät im Fahrzeug
+übertragen. Unabhängig davon, welche Registerkarte gerade
+angezeigt wird. Die Programmierung erfolgt, wie auch die
+Abfrage der vorhandenen Programmierung, nur, wenn zu
+dem Gerät eine Online-Verbindung besteht.
+„Feldstärke abfragen“
+Hierüber kann die momentane GSM-Feldstärke des verbauten Gerätes als auch die Versionsnummer angezeigt werden. Die GSM-Feldstärke
+gibt dabei einen Hinweis auf die Güte des Verbaus der GSM-Antenne im Fahrzeug.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Neue Kennung programmieren“
+Hierüber wird nur die Kennung im Gerät geändert.
+
+24
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+
+Der QP2 kennt vier verschiedene Speichermodi (s.o.).
+1. Speichern bis Speicher voll
+2. Packen wenn Speicher voll
+3. Überschreiben wenn Speicher voll (Ringspeichern)
+4. Speicherfunktion ausschalten
+Im 1. Modus wird am Ende des Speichers die Funktion des Speichers abgeschaltet. Der Speicher enthält die ersten 32.000 Positionen der
+Fahrt.
+Im 2. Speichermodus wird nach der 32.000 Position jede 2. Position im Speicher gelöscht und die verbleibenden Positionen wieder zu einem
+Block zusammengefaßt. Eine Ausnahme bilden die bereits oben beschriebenen Stopppositionen, die ebenfalls im Speicher verbleiben. Die
+Auflösung der Positionen im Speicher hat nach dem Packen den doppelten Zeitabstand. Ist der Speicher erneut voll, so wiederholt sich diese
+Pack-Prozedur bis zu einer Auflösung von 30 Minuten. Anschließend wird die Speicherfunktion abgeschaltet. Im Speicher ist immer die
+gesamte Fahrstrecke abgespeichert.
+Im 3. Modus wird, wenn der Speicher voll ist, die jeweils älteste Position gelöscht (außer Stopppositionen). Der Speicher enthält immer die
+letzten gefahrenen 32.000 Positionen.
+Seite
+Über den 4. Speichermodus kann die Speicherfunktion temporär abgeschaltet werden.
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Recorder“
+In diesem Bereich wird die Speicherfunktion des QP2
+definiert. Die Speicherung erfolgt in Abhängigkeit der
+definierten Geschwindigkeit (z.B. 20km/h) und eines frei
+definierbaren Zeitrasters (1-120 Sek.). Die Aufzeichnung
+beginnt
+sobald
+das
+Fahrzeug
+die
+eingestellte
+Geschwindigkeit erreicht bzw. überschritten hat. Fällt die
+Geschwindigkeit unter den programmierten Wert, so wird der
+erste Wert unterhalb des Filters noch gespeichert, sowie die
+erste „0 km/h“ Position. Diese beiden Positionen werden
+besonders gekennzeichnet, damit sie beim Packen nicht
+gelöscht werden.
+
+25
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+
+„Wecksignal aus dem Stromsparmodus“
+Prinzipiell sind 2 Möglichkeiten vorhanden, um das Gerät aus dem
+Stromsparmodus wieder heraus zu aktivieren. Die erste Möglichkeit
+besteht durch das Senden der SMS-Message „Stromsparen
+aus“ (Teilnehmerbutton/Steuerung). Um die SMS empfangen zu
+können, kann das GSM-Modul in einen programmierbaren Rhythmus
+eingeschaltet werden. Der Zeitzyklus kann in Minuten oder Stunden
+angegeben werden und beginnt mit der Programmierung des Gerätes
+(nicht mit dem Ende der Online-Verbindung). Der QP2 schaltet das
+GSM-Modul in dem programmierten Rhythmus ein. Das GSM-Modul
+bleibt für die programmierte Nachlaufzeit eingeschaltet um eine SMS
+zu empfangen.
+Tri" t diese ein, (minimale Nachlaufzeit 2-5 min) wird der Stromsparmodus abgeschaltet (GSM-Modul und GPS aktiviert) und muß dann über
+die Programmierung des Gerätes neu aktiviert werden. Neben dem GSM-Modul kann zusätzlich auch der GPS-Empfänger für den gleichen
+Zeitraum aktiviert werden, um diesen mit neuen Daten zu versehen. Tri" t keine SMS ein, so werden die Module (GSM, GPS) nach dieser Zeit
+wieder abgeschaltet.
+Weiterhin kann die Aktivierung des Gerätes durch den aktiven Zündungskontakt und / oder den Bewegungsmelder erfolgen. Ist der
+entsprechende Kontakt aktiv, so wird der Stromsparmodus temporär abgeschaltet so lange, wie der Kontakt markiert bleibt. Wird der
+Kontakt wieder deaktiviert (z.B. Zündung aus) bleibt das Gerät noch für die programmierte Nachlaufzeit wach, bevor der Stromsparmodus
+wieder eingeschaltet wird.
+Wurde einer dieser Kontakte programmiert, vergrößert sich der Stromverbrauch im Stromsparmodus um ca. 5mA. Zusätzlich kann für jeden
+Kontakt individuell definiert werden, daß bei Aktivierung des Kontaktes nur der GPS-Empfänger eingeschaltet wird. Das Gerät bleibt dann
+unerreichbar, zeichnet aber Positionen im definierten Rhythmus auf.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Stromsparen“
+Der QP2 verfügt über eine e$ ziente Stromsparfunktion, in der das
+Gerät nur noch ca. 10mA aufnimmt. In diesem Modus sind sowohl das
+GSM-Modul als auch der GPS-Empfänger abgeschaltet, d.h. das Gerät
+ist nicht erreichbar und zeichnet auch keine Positionen auf. Die
+Stromsparfunktion wird aktiv, wenn nach dem Programmieren die
+Online-Verbindung beendet wird und die programmierte Nachlaufzeit
+(z.B. 10 Minuten) abgelaufen ist. Sollen nur das GSM-Modul
+abgeschaltet werden, weil weiterhin die Positionen im Speicher
+aufgezeichnet werden müssen, ist dieses Feld zusätzlich zu aktivieren.
+
+26
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+„Online-Verbindung im Stromsparmodus“
+Wird in der Wachphase von der Zentrale eine OnlineVerbindung aufgebaut, hat diese Vorrang vor der
+Stromsparfunktion. Das Gerät bleibt weiterhin Online, auch
+wenn das Kriterium für das Wecken nicht mehr gegeben ist
+und die Nachlaufzeit bereits abgelaufen ist. Wird die
+Verbindung dann unterbrochen und war die Nachlaufzeit
+bereits abgelaufen, so wird das Gerät sofort in den
+Stromsparmodus versetzt. Andernfalls bleibt das Gerät noch
+für die verbleibende Nachlaufzeit wach.
+
+„zyklische Positionsmeldung im Stromsparmodus“
+Ist im Gerät die zyklische Positionsmeldung aktiviert, so wird
+der Zyklus automatisch auf die Zeit des zyklischen
+Wachwerdens verändert, wenn in der Wachphase der GPSEmpfänger mit aktiviert wurde und eine Position bestimmt
+werden konnte.
+
+„Wachphase innerhalb einer bestimmten Zeit“
+Mit dieser Funktion kann der QP2 zu einem gezielten Zeitpunkt für einen frei definierbaren Zeitraum eingeschaltet werden. Die Zeitangaben
+sind in UTC bzw. GMT angegeben, da das Gerät die aktuelle Uhrzeit über den GPS-Empfänger bestimmt.
+Gefahr der Unerreichbarkeit durch Fehlprogrammierung
+Wird der Stromsparmodus aktiviert, aber keine zyklische oder definierte Wachzeit programmiert und kein Kontakt markiert ist, so
+ist das
+Gerät N I E M E H R erreichbar. Das kann zwar gewollt sein, aber das Gerät kann dann nur noch reaktiviert werden, wenn es
+ausgebaut wurde.
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Alarmfunktion im Stromsparmodus“
+Sind der Bewegungsmelder oder der Zündungskontakt als
+Alarm definiert, so wird bei Eintreten des Ereignisses das
+Gerät geweckt und der Alarm ausgegeben (nur bei
+Alarmierung
+via
+SMS).
+Anschließend
+wird
+die
+Stromsparfunktion sofort wieder eingeschaltet. Der Bereichsund Geschwindigkeitsalarm können nicht ausgelöst werden.
+
+27
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+
+! Alarmziel
+„Alarmierung über“
+• Als Alarmierung kann entweder eine SMS gesendet, oder
+ein sofortiger Aufbau einer Online-Verbindung aktiviert
+werden. Die SMS kann sowohl an dem Zentralenrechner als
+auch an ein beliebiges Handy gesendet werden. Wird die
+SMS an die Zentrale gesendet, kann diese nur mittels eines
+GSM-Modems empfangen werden. Im SMS-Modus können
+zwei individuelle Ziele programmiert werden.
+• Die
+Online-Verbindung
+(Datenverbindung)
+kann
+sinnvollerweise nur zur Zentrale aufgebaut werden. Hierfür
+kann in der Zentrale auch ein Drahtmodem (analog, ISDN)
+angeschlossen sein. Nach Verbindungsaufbau werden
+sofort die aktuellen Positionsdaten und der Alarm in der
+Zentrale
+dargestellt.
+Im
+Online-Modus kann
+aus
+technischen Gründen nur die Rufnummer 1 definiert
+werden.
+„Telefonnummer“
+• Die Rufnummer des Alarmzieles kann entweder manuell
+eingetragen
+oder
+vorzugsweise
+aus
+der
+Rufnummerndatenbank übernommen werden. Wird die
+Alarmierung als SMS durchgeführt, muß in jedem Fall die
+Länderkennung mit einem „+“ Zeichen eingetragen sein
+(z.B. +49 für Deutschland).
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+! Im QP2 können sieben unterschiedliche Alarmkriterien
+einzeln oder in jeder beliebigen Kombination definiert
+werden. Eine Alarmierung ist nur möglich, wenn ein
+entsprechendes Alarmziel definiert ist. Im Modus „SMS“
+können die Alarme an zwei unabhängige Rufnummern
+abgesetzt werden.
+
+28
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+
+„Netzbetreiber“
+An dieser Position muß die Service-Center-Adresse (SCA) des
+Netzbetreibers eingetragen werden, dessen Karte im Gerät
+verbaut ist. Einige Netzbetreiber haben unterschiedliche
+SCA-Nummern, abhängig davon, ob die SMS Netz-intern
+oder zu einem anderen Netz gesendet werden soll (z.B. D2).
+Die Nummer kann aus der vorhandenen Liste übernommen
+oder manuell eingetragen werden. Die Länderkennung (z.B.
++49) ist zwingend erforderlich. Um eine SMS senden zu
+können, ist zudem die richtige SCA zwingend erforderlich.
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Automatische zyklische Position“
+Der QP2 kann seine Position in einem frei definierbaren
+Zeitraum (Sekunden, Minuten, Stunden) automatisch senden.
+Wird das Zeitfenster <15 Sekunden programmiert, sind unter
+Umständen mehrere Anwahlversuche notwendig um eine
+Online-Verbindung zu dem Gerät aufzubauen, da das Gerät
+permanent als besetzt gilt. Ein Zyklus < 5 Sekunden macht
+keinen Sinn, da die Übertragungszeit ggf. länger ist und
+deshalb die zeitliche Reihenfolge der eintre" ende Positionen
+nicht mehr gewährleistet ist. Die Position kann an zwei
+individuelle Ziele gesendet werden.
+
+29
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung QP2
+Teilnehmerbutton / Steuerung / Programmierung / Sensoreinstellung
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+„Sensor Geographische Bereichsüberwachung“
+Der geographische Bereich, der durch den QP2 überwacht
+werden soll, wird direkt auf der Karte im Mobiloc markiert
+(Doppelklick rechte Maustaste auf der Karte/ geographische
+Bereich definieren). Als Bereich kann nur ein Rechteck
+programmiert werden.
+Erst die obere linke, dann die untere rechte Ecke auf der
+Karte anklicken. Mit dem Button „übernehmen“ werden die
+Koordinaten der Eckpunkte in die Felder eingetragen. Ein
+bereits programmierter Bereich kann jederzeit wieder auf der
+Karte abgebildet werden.
+„Alarm Geschwindigkeit“
+Die
+Alarmgeschwindigkeit
+kann
+als
+einfache
+Bereichsüberwachung genutzt werden. Der Sensor wird
+ausgelöst, wenn das Fahrzeug die definierte Geschwindigkeit
+für
+den
+programmierten
+Zeitraum
+ununterbrochen
+überschreitet. Bevor der Alarm erneut ausgelöst wird, muß
+die programmierte Geschwindigkeit zuvor unterschritten
+werden.
+
+30
+
+Mobiloc 4
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+Persönliche Notizen
+
+31
+
+Mobiloc 4
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+Persönliche Notizen
+
+32
+
+Mobiloc 4
+
+Seite
+
+! PAD Datentechnik GmbH 01.11..2000
+
+Persönliche Notizen
+
+33
+
+

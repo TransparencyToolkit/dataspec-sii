@@ -1,0 +1,274 @@
+clerl,l\/\; Tolnl
+n
+
+e
+
+t
+
+NTELLIGENCE SOLUTIONS
+
+L
+
+\:'
+
+UGX Optima Platform
+
+j
+
+Multiple UMTSIGSM Firewall and Analysis Tool
+The cellxion range of GX & UGX Cellular Intercept, Firewall & Analysis products
+are designed t o provide Law Enforcement, Security Services and Military
+officers with a comprehensive set of tools to combat the growing use of mobile
+communications technology in crime and terrorism.
+The UGX Optima Platform offers a modular and versatile approach t o configuring
+your cellular analysis requirements. It allows for the easy configuration and
+upgrade of numerous cellular frequencies and technologies (GSM/UMTS), allowing
+a greater flexibility and future proofing of the investment made in this platform.
+
+KEY FEATURES
+Identified Subscriber Information
+
+W IMSI, IMEI, TMSI, system GPS latitude and
+longitude, SIM swap, MS activity, Timing
+Advance*, RxLev Measurements*,geolocation'.
+Operation modes
+W Targeted mode: Acquire, Lock Targets,
+Release Others
+
+W DF mode: Acquire, Lock & Locate Targets,
+Release Others
+
+W mySQL database ensures rapid and stable
+operation.
+W Downloadable java client for both Windows
+and Android operating systems allows access
+to system from remote locations.
+W Optimised for target acquisition and location.
+
+W Custom designed mapping engine integrates
+with GPS and Measurement Reports.
+Power output specification
+
+W Firewall mode: Acquire, Lock All
+
+The OPTIMA and 330 series are (per NodeB);
+
+W Global Denial of Services: Disable all
+handsets except operationally friendly
+
+W CPICH: 32dBm / 1.6W
+
+W Virtual Network: Clandestine "network ina-box" feature for a standalone network for
+operations to use in place of no coverage or
+during times of real net instability.
+
+W Peak: 42dBm / 16W
+
+Technology
+
+W Average: 35dBm / 3.2W
+The UMTS output power is checked against ETSl
+TS25.141 Test Model 1 for linearity and quality,
+measurements made on a R&S CMU300 cellular
+test set.
+
+W Integrated database engine: real time
+indexing, filtering and analysis, IMSI,
+IMEI, PLMN lookup, SIM swap detection,
+Roaming detection.
+
+W New VC4NC6 Voice and SMS interception
+option for designated targets (under
+development.)
+IP interconnection between hardware and
+client controllers.
+
+'Opt~onsava~lableCommerctal in confidence
+
+For further informian please contact sales on UK +44 (0)20 3137 1637
+
+1 tlS +l (704)248 6229 or email wles@mlIXirn.net
+
+SPECIFICATION
+U High Power Dedicated Embedded Controller PC
+U Removable Hard Drive with Embedded Linux OS
+U High Speed Digital Scanner for 850, 900, 1800, 1900,
+2100 MHz frequency ranges
+U Integrated Backup Power Supply for Data Preservation
+Controls up to ten transceivers (any combination;
+GSM UMTSKDMA)
+U USB port for extracting mission data & software updates
+via USM dongle
+U lntegrated 802.1 1b/g Wireless Router
+U Six LAN Ethernet ports for connection to modules
+& Client PCs
+U Internet facing firewall for remote client operation
+U Web server provides software for Client PCs
+U Web interface supports software updates for all modules
+U Compact 19" l U enclosure, 4.5 kilograms
+U Carrying handles for use without rack enclosure
+U Busbar support for tidy power pass-through
+U Fan assisted cooling
+U Network listen capability
+
+The OPTSCU is the system controller for the OPTIMA range
+of products and contains all the necessary embedded
+software and components to facilitate the correct operation
+of the OPTIMA plug-n-play transceiver architecture.
+
+Alternative Configurations
+U High Speed Digital Scanner for GSM/UMTS/CDMA
+85011900 [USA]
+
+U Automated 4-way switching of 5 separate GSM/UMTS
+signals for alternative antenna configuration (4 GSM, 1
+UMTS2100)
+U Software configuration for omni-directional and directional
+antennas supported
+U Plug-n-play compatibility with cellxion's Optima platform
+U 19" 2U enclosure, 6 kilos.
+U Busbar support for integrated power management
+U Fan assisted cooling
+U VSWR< 1.5:l
+U Colour coding of the different bands
+
+The antenna switch unit from cellxion allows for software
+controlled, automatic switching of the GSM and UMTS
+(21OOMHz) transceiver signals to enable operators to quickly
+and easily switch between a combination of 4 different
+antennas. With plug-n-play technology, it is easy to upgrade
+your existing Optima solution giving an automated RF
+solution to a variety of different antenna configurations.
+
+U
+U
+U
+U
+U
+U
+
+The OPTPSU is a power supply module dedicated for the
+OPTIMA'S requirements.
+
+110V or 220V AC mains operation (auto switching)
+24V to 32V DC operation
+In-Vehicle Remote On/Off capability
+Compact 19" 1U enclosure, 5 kilograms
+Busbar support for tidy power pass-through
+Fan assisted cooling in AC operating mode
+
+*Included with all modules
+
+1
+
+SPECIFICATION
+
+The OPT3U21 is a three transceiver UMTS Base Station
+System for mobile identity acquisition on the UMTS
+2100 MHz band. The OPT3U platform is based on real
+COTS transceivers, performing acquisition in 3G mode,
+not jamming.
+
+H High Power Dedicated Embedded Controller PC
+H Up to three UMTS 2100 transceivers. The UMTS output
+power is checked against ETSl TS25.141 Test Model 1 for
+linearity and quality, measurements made on a R&S
+CMU300 cellular test set.
+H CPlCH Transmit Power Control in 2dB steps down to
+320mW
+H 3GPP R5 Compliance (Local Area Cell TS25.104N6.8.0)
+H Commercial Grade hardware
+H HCS Priority makes cell more attractive to UEs
+H Legitimate 3G identity acquisition without GSM mode
+H Firmware upgradable via OPTSCU
+Alternative Configurations
+H Can be supplied as 1,2 or 3 transceivers of any one band
+H Flexible, inexpensive upgrade path
+
+The OPT2G918 is a dual transceiver GSM Base
+Station System for mobile identity acquisition, control
+and monitoring on the GSM90011800 bands.
+
+H
+H
+H
+H
+H
+H
+H
+H
+
+Two 20W GSM transceivers
+Transmit Power Control in 2dB steps down to 130mW
+GSM05.05 Receiver Compliance
+"Feels Like" function makes cell more attractive to UEs
+Each transceiver independently configurable
+Busbar support for tidy power pass-through*
+Heat dependent fan assisted cooling'
+Compact 19" 2U enclosure, 9 kilograms'
+
+Alternative Configurations
+H Also available in 850/1900 MHz GSM
+H Compatible with various Direction Finding (DF) equipment
+for enhanced geo-location capability
+
+NEW UMTS 900
+
+The OPT3U90 is a three transceiver UMTS Base Station System
+for mobile identity acquisition on the UMTS 900 MHz band.
+The OPT3U platform is based on real COTS transceivers,
+performing acquisition in 3G mode, not jamming.
+
+Angle of Arrival (AoA)
+
+The AoA receiver is a powerful vehicle based geo-location
+tool designed for the detection of GSM uplink traffic
+channels. It is designed to work in conjunction with the
+cellxion stimulation tools to tune to a specific mobile phone
+transmission. Working together with the digital mapping
+capability of the GUI, it will enable early identification and
+location of a specified MS.
+
+H Up to three UMTS 900 transceivers. The UMTS output
+power is checked against ETSl TS25.141 Test Model 1 for
+linearity and quality, measurements made on a R&S
+CMU300 cellular test set.
+U CPlCH Transmit Power Control in 2dB steps down to
+320mW
+U 3GPP R5 Compliance (Local Area Cell TS25.104N6.8.0)
+U Commercial Grade hardware
+H HCS Priority makes cell more attractive to UEs
+U Legitimate 3G identity acquisition without GSM mode
+H Firmware upgradable via OPTSCU
+Alternative Configurations
+H Up to three UMTS 900 or three UMTSI900 transceivers
+H Can be supplied as 1,2 or 3 transceivers of any one band
+H Flexible, inexpensive upgrade path
+
+U State of the art timeslot driven solution for acquiring
+the direction of one or more stimulated GSM sources
+H Plug and Play architecture
+H ~ o m ~ l e tintegrated
+el~
+with UGX platform and GUI
+H Geo-location capability combined with OSM engine to
+give CEP with probability zones.
+H LOB indication with +
+2%
+laccuracy
+U Compact 2U module
+
+:Fpf-h&&
+M&~rnp,Mr'@3i&m:.
+
+~d-
+
+44 (6) 13 135 1637 1 ?@+ l (704) 248 6229
+-44 (0)20 3137 2637 I mjlsales@ceIIXion.net
+
+cellxion Ltd Head Quarters:
+
+Hallmark House, 2 Timber Hill Rwd, Caterham,
+Sumy CR3 610, United Kingdom
+
+

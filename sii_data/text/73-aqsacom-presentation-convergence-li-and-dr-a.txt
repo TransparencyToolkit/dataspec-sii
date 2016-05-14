@@ -1,0 +1,764 @@
+'Convergence - LI and DR
+A Strategic Concept'
+Alan Dubberley
+VP Business Development, AQSACOM Pty
+
+ISSWorld
+Prague, 2009
+
+'"'
+
+AQSAc · M
+
+High Level Requirements: Ll+DR
+Law Enforcement & National Security Groups Need:
+• A solution that allows them access and interrogate data from
+LI and DR.
+• Solutions that evolve to cover new and evolving services.
+• A capability to configure and focus data for analysis.
+• Tools that allow data to be mixed or repackaged as new
+information is identified.
+• Effective Development options.
+• Secure Solutions.
+
+Carrier/ISPs Need:
+• Systems that meet National Requirements
+• Solutions that don't inhibit products
+• Cost effective approach.
+'"'
+
+AQSAc · M
+
+2
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+LI Network Flow Process with Mediation
+Centralized Provisioning - eg TTP
+
+Local CSP/ISP Provisioning
+
+U Provisioning
+Warrants
+Operator
+
+Warrants
+Operator
+
+QR
+
+Warrants
+Operator
+
+Warrants
+Operator
+
+Sewre Extranet
+
+IRI/COC
+CC/CCC
+
+•
+Law Enforcement Agencies
+
+AQSAC · M
+
+3
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Overview of a DR Solution - CSPASP Focus
+Local Provisioning
+ISP 1
+
+ISP 2
+
+Warrants
+Operator
+
+Centralized Provisioning
+
+Provisioning
+
+ISP n
+
+OR
+
+Warrants
+Ope.r ator
+
+Warrants
+Operator
+
+By Central
+Operator
+Options within
+regulatory
+framework
+
+Secure Extranet
+Legal Request
+to CSP/ISP
+
+DR RepositoryCSP/ISP
+
+- -·
+
+-
+
+-~
+
+-=><·-
+
+-
+
+.
+
+ADRIS
+
+Delivery to LEA
+
+DR
+RepositoryLEA
+
+Analysis/query
+Platform- LEA
+
+Law Enforcement
+Agencies
+
+AQSAC · M
+
+4
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+The Objective
+
+Putting Lawful Interception
+and Data Retention Together
+
+'"'
+
+AQSAc · M
+
+5
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Ll+DR
+Two Core Partners for an integrated solution:
+- The Carriers/ISP's
+- The Agencies
+
+Overall Solution must:
+• Have an integrated architecture, CSP to LEA
+•Compatible systems• Defined operating interfaces
+• Defined Processes
+•Effective
+•Secure
+
+• Agreed roadmaps
+
+'"'
+
+AQSAc · M
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Roadmaps- Fix Today, Evolve into the Future
+LI or DR solutions do not have to be 'Big-Bang'.
+• Fix Todays Requirement
+• Identify Evolution Requirements
+• Ensure you have Flexibility and Scalability.
+Objective is to invest in a solution that can grow and
+evolve with the business for both:
+• Carrier
+• LEA
+The 'business' on both fronts will change.
+'"'
+
+AQSAc · M
+
+7
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+System Design Must Be Comprehensive
+LI I DR Solution must:
+~
+~
+
+Interoperate with multiple telecommunication services and
+Support vendor-specific network elements.
+
+Aqsacom approach
+
+Statistics by equipment and services;
+LEA invoicing [AQSA 030413, 030414)
+
+Enhanced
+Hl1
+By service
+
+Enhanced
+Hl2
+By service
+
+Enhanced
+Hl3
+By service
+
+[AQSA 050575,
+050577)
+
+[AQSA 050575,
+050577)
+
+[AQSA 050575,
+050577)
+
+Fault
+Access &
+Tolerance
+Transmission By equipment
+Security
+[AQSA 030008)
+By equipment
+[in progress]
+
+ETSl/3GPP specifications
+[ETSI TS 101 671, TS 102 232, TS 102 233, TS 102 234,
+R 101 944, DTR Ll-00014; 3GPP TS 33.108)
+
+7 a ~IJfi.JJ:PD!J 111/iahlo!J and ~IFJ~i/Jte fl!IJ.ana !J/'IFJlcttocnJ11rµ.ai(fall8a sufivoillant4e Ihm
+will JmpPOV8 lhlJ opo1aJltJ11al fJjjiCJfJflf)JfJS tJj'l11VfJSIJgall0119
+
+AQSAC · M
+
+8
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+L
+
+/IL
+
+/ L
+
+Historic
+
+ass
+
+DO'
+
+00'
+
+~
+
+~L
+
+7L
+
+Network
+
+I/
+
+DCP ....I
+
+Probe
+
+111
+
+Del' ~-
+
+7L
+
+ERP
+
+I/
+
+DCP ....
+
+Collection & Forwarding
+Data Consultation
+
+7
+
+GIS
+
+DCP
+
+II
+
+~~
+
+Data
+Retentiolil
+Repositoi;y
+(SAN/NAS)
+
+Retrieval
+
+LEA Domain
+AQSAC · M
+
+9
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Data Storage- Considerations
+Data is being captured and stored for multiple
+purposes:
+• Action NOW- Life and Death
+• Action Now- Case in progress
+• Action now- Active Investigation
+• Store- Possible interest
+• Store for Future.
+
+'"'
+
+AQSAc · M
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Storing and Mining Data
+Given these 'Considerations':
+Strategic Framework for Data storage:
+• Prioritize/tag data in line with known search profiles.
+• Store high priority data to enable instant and effective
+. .
+m1n1ng.
+• Store low risk data in a way that balances cost with risk
+assessment.
+
+Invest in Solutions that achieve the business need- A
+structured approach.
+'"'
+
+AQSAc · M
+
+11
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Telecommunleation Surveillance Solution Arehifeewre
+Exploitation by LEA:
+• Content consultation and analysis
+• Traffic qualification
+• Service operation
+
+Interface D
+Consolidation by LEA:
+• Profiling communication &
+subscribers
+• Request for qualification of
+new traffic
+• Traffic aggregations
+
+Analysis Tools
+
+I Rules Engine I Data Mining
+
+Storage by Country:
+• Mass storage Device
+• SAN architecture
+• Database Model
+
+Mediation by Country :
+• Gathering of all data
+• Pre-filtering process
+• Forwarding in a secure and
+reliable mechanism
+
+ALIS
+
+I ADRIS I Roaming Survey I MobileTrack I ...
+
+Interface A
+Extraction by Network:
+• Communication signalling
+information
+• Communication content
+
+AQSAC · M
+
+FIX
+
+MOBILE
+
+12
+
+INTERNET
+
+SATELLITE
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Switch/
+Router
+ALIS™/
+
+ADRIS™-
+
+B ···· 8
+~ f·-,-· -u
+1
+
+CSP
+
+-··LEA
+
+UMfS
+Networb
+
+GSll
+Notwotb
+
+• •
+
+-
+
+LEMF. Front - End
+
+a .. a
+EJlf·"'l!l =1
+
+B ···· 8
+fCl re·-,-· -- I
+u
+1
+
+~
+
+hl~met
+~
+
+~
+
+g ···· g
+
+EJ f·"",. ==I
+1
+
+~
+
+9
+
+•
+
+-
+
+~lltt@
+
+NetwolU
+
+Ne~
+
+a .. a
+EJ f·"'l!l·· -1
+
+f
+
+ETSIL3GPP Enhanced Saec.
+
+Central Storage
+
+~1
+
+~
+
+Warrant
+Operator
+
+a
+APRIS™
+
+CenTore™
+
+ANAISCM
+
+t
+
+t
+AQSACOM HISpec.
+
++
+1··········1
+Investigators
+
+- - ""
+Drug Dept
+
+AQSAC · M
+
+Terrorism Dept
+
+•••••••••••
+
++
+1··········1
+
+""
+
+Money Laundering Dept
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Data Storage Principles
+• Data will be stored between 6 months and up to 3 years
+(if following EU framework). Period varies depending
+upon predetermined 'value' of data.
+• Data is IRI+ for DR and IRl+CC for LI.
+• Data captured and stored will have varying value, from
+P1 to much lower priorities.
+• Storing principles must allow effective mining.
+• Anticipate large volumes of data, much of this 'low
+value'.
+• But, some 'low value' data may become 'interesting'
+later- Must be able to retrieve and raise priority.
+
+'"'
+
+AQSAc · M
+
+14
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Data Flow Principles 1
+• LEAs do need ALL high priority data. This may
+include:
+• LI related material
+• Associates of people under active LI
+• People on 'high interest' list.
+This data is used for high priority Agency actions
+and Agency analysis.
+This is expected to be a low o/o of total available
+data.
+
+'"'
+
+AQSAc · M
+
+15
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Data Flow Principles 2
+Majority of stored data, all DR related, is for:
+- General analysis looking for 'fits' against defined
+criminal profiles.
+- Held for potential later use if 'new' areas or
+people of interest are identified.
+This data is available to LEAs but doesn't drive
+day-to-day high priority activities.
+
+'"'
+
+AQSAc · M
+
+16
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Action and Analysis -Principles 1
+
+• LEA Treasure Chest:
+• Known people and/or services
+• Understanding of Criminal Actions (Profiles)
+• LEA Stored Data for Analysis/Action
+• LI- High Priority (P1)
+• Target IRI- High Priority (P2)
+• DR High Value Material- Medium Priority (P3)
+This material drives direct LEA action and is used
+for detailed profile analysis.
+Material is stored using easy/quick access principles.
+'"'
+
+AQSAc · M
+
+17
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Action and Analysis- Principles 2
+Stored Data at CSP/ISP:
+• All data is DR related
+• Data is classified 'Low Value', Priority P4 and P5
+Due to high volumes, Data is stored using 'economic'
+principles that allow data to be mined but with much lower
+urgency.
+LEA Actions:
+• Active analysis using broad profile testing mechanism.
+Action- Filter data to assess if a combination of events
+have occurred.
+• LEAs provided with Alarm/Report if a profile match
+occurs.
+• Profile is managed /tuned by LEAs
+'"'
+
+AQSAc · M
+
+18
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+An Integrated LI/DR Solution
+
+Summary:
+• An integrated LI/DR solution is achievable and provides
+multiple benefits.
+• LI and DR analysis together has the potential to provide
+a powerful analysis capability.
+• Need an effective end-to-end data capture and store
+capability.
+• A System that balances storage between LEA and CSP
+can optimize costs and maintain operational flexibility
+• Need Flexible Architecture.
+• Establish a Good, Flexible Mining capability.
+• Use Profiling
+• Effective, flexible Analysis tools.
+'"'
+
+AQSAc · M
+
+19
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+BELGIUM
+
+FRANCE
+
+BASE
+
+®
+
+orangf:r
+0
+
+Gelstra
+
+'11
+
+Yes'
+
+~
+
+UAE • DUBAI
+
+~
+ver1zon
+
+NQRWAY
+
+NETHERLANDS
+
+-Ifeasynet
+
+0 telenor
+
+SWEDEN
+
+'
+
+11111AeroMobileN
+AQSAC · M
+
+vodafone"'
+SOUJTMI AFRICA
+
+~ Bouygues Telecom -i(mobistar
+
+AJRA()jt"( MOIAL( CONPHCTIVITY
+
+0
+
+OPT US
+
+cegetel
+
+UNITED KINGDOM
+
+NEW ZEALAND
+
+PORTUGAL
+
+.TELl52.
+20
+
+internet sofut.i ons
+
+USA.
+
+tll
+
+Neotel
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+Thank You
+
+AQSACOM Americas
+New York, US
+Tel: +1202315 3943
+
+AQSACOM Europe
+Paris, Franee
+Tel: +33 1 69 29 84 00
+
+A QSA C0 M Asia-Pacific
+Melbourne, Australia
+Tel: +61 3 99 09 72 80
+
+AQSACOM Middle East
+Dubai, UA E
+Tel: +971 44 35 58 30
+
+Email: sales@aqsacom.com
+
+AQSAC · M
+
+21
+
+Commercial in Confidence
+Subject to changes without notice
+ISS World- June 2008
+
+

@@ -1,0 +1,331 @@
+THE USA PATRIOT ACT:
+IMPLICATIONS FOR LAWFUL INTERCEPTION
+
+White Paper
+
+Presented Jointly by
+
+Intelligence and Information Systems
+
+May, 2006
+Aqsacom Document No. AQSA050579
+Copyright 2006 Aqsacom Inc. and Aqsacom SA. No portion of this document may be reproduced without
+the expressed permission of Aqsacom. The information of this document has been presented for illustrative
+purposes only. Aqsacom assumes no liability for errors or omissions.
+
+v 3.0
+
+1
+
+Aqsacom SA / Aqsacom Incorporated
+
+Table of Contents
+Introduction......................................................................................................................... 3
+Detail of Section II of USA Patriot Act .............................................................................. 4
+Additional Reauthorization Amendments........................................................................... 9
+For Further Reading:......................................................................................................... 10
+
+Aqsacom SA
+Les Conquerants, Bât B Everest
+1 avenue de l’Atlantique
+Les Ulis Courtabeouf Cedex
+F-91976 France
+Tel. 33 1 69 29 36 00
+Fax 33 1 69 29 84 01
+
+Aqsacom Inc.
+Washington, DC
+tel. +1 202 315 3943
+
+sales@aqsacom.com
+www.aqsacom.com
+
+v 3.0
+
+2
+
+Aqsacom SA / Aqsacom Incorporated
+
+THE USA PATRIOT ACT:
+IMPLICATIONS FOR LAWFUL INTERCEPTION
+
+Introduction
+Promptly after 11 September 2001, the US Congress and President signed into law the
+“Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism” Act (USA Patriot Act or “the Act”) of 2001. Among the
+many issues addressed in this Act, several provisions were introduced to facilitate electronic surveillance by law enforcement and the FBI, mainly through lawful interception,
+of suspected agents of foreign entities or individuals assisting such agents.
+In view of the considerable amount of controversy and confusion concerning the US Patriot Act as it relates to lawful interception (LI), this document attempts to summarize and
+clarify the Act’s sections that pertain to electronic surveillance. Most of these sections
+were considered as sunset (temporary) provisions that were due to expire on 31 December 2005. The Act was temporarily extended two times during the months that followed
+while Congress debated the substance and wording of the sunset provisions and matters
+pertaining to how the Act should handle the privacy issues and the rights of suspects.
+President George W. Bush finally signed a version of the Act into law on 9 March 2006.
+Commentaries in this document are restricted to the Act’s technical and procedural implications involving lawful interception. Note many of the provisions of the USA Patriot
+Act are essentially mark-ups to existing US law, notably the Foreign Intelligence Surveillance Act (FISA) of 1978 (Title 50, Chapter 36) and US Code 18 (Crimes and Criminal
+Procedure). Title II “Enhanced Surveillance Procedures” of the original USA Patriot Act
+focuses on electronic surveillance measures, and is the focus of this document.
+
+Note: in the following pages [S] refers to sections of the original USA Patriot Act that were originally set to
+expire on 31 December 2005, according to the “Sunset Provision” of Sec. 224 of the original USA Patriot
+Act; these sections have been made permanent by the 9 March 2006 law. Those sections originally not
+subject to this sunset provision are marked with [nS]; these sections remain permanent. Sections with extended sunset provisions are indicated in the text.
+
+v 3.0
+
+3
+
+Aqsacom SA / Aqsacom Incorporated
+
+Detail of Section II of USA Patriot Act
+Sec. 201: AUTHORITY TO INTERCEPT WIRE, ORAL, AND ELECTRONIC
+COMMUNICATIONS RELATING TO TERRORISM
+This section amends Title 18 of the US Code with a list of additional offenses that can be
+used to authorize a federal wiretap. The list now includes the use or development of
+chemical weapons, crimes of violence against Americans overseas, development of
+weapons of mass destruction, multinational terrorism, financing transactions with a country designated as a sponsor of terrorism, and providing material support to terrorists or
+terror organizations. The implication here is clearly more reasons for the authorization
+of wiretaps, all other causes held unchanged. [S]
+Sec. 202: AUTHORITY TO INTERCEPT WIRE, ORAL, AND ELECTRONIC
+COMMUNICATIONS RELATING TO COMPUTER FRAUD AND ABUSE OFFENSES.
+Augments Title 18 by including computer crimes to the list of mail-fraud related offenses
+that justify a federal wiretap. This section reflects the need for investigation of not only
+network and computer hacking by terrorists, but also rampant identity theft and computer-based child pornography. The implication here is not only an increase in the number of offenses that could lead to authorized wiretaps, but also a change in the nature of
+the interception – namely towards email, Web, and other Internet-based crimes. [S]
+Sec. 203: AUTHORITY TO SHARE CRIMINAL INVESTIGATIVE INFORMATION.
+This section declares that following proper procedures, information pertaining to a criminal investigation may be exchanged between grand juries, law enforcement, and federal
+investigative bodies. With regard to electronic surveillance, Sec. 203(b) permits information obtained from lawful interception to be shared among law enforcement and various federal agencies, including that from defense and intelligence operations. Sec.
+203(d) opens sharing to foreign intelligence information. Any such sharing of information among different government entities will require the systematic organization of surveillance data, especially as mixed forms of communications are now to be presented and
+exchanged among multiple investigative bodies (instead of only one). Secure storage
+and transmission of data needs to be assured, particularly in the handling of the identities of suspects and their intentions. [S]
+Sec. 206: ROVING SURVEILLANCE AUTHORITY UNDER THE FOREIGN INTELLIGENCE SURVEILLANCE ACT OF 1978.
+This section concerns “roving wiretaps” (or multipoint taps) in foreign intelligence investigations and is derived from FISA. Roving wiretaps enable, through a single court order,
+a target to be investigated over more than one location, or more than one type of commu-
+
+v 3.0
+
+4
+
+Aqsacom SA / Aqsacom Incorporated
+
+nications medium. Here the target must be a foreign person or agent to a foreign power
+operating on US soil. This measure has profound impact on lawful interception processes in that it can expand the scope of the surveillance beyond a single communications
+identity (e.g., phone number under surveillance) to multiple communications identities
+associated with the target, e.g., multiple fixed line and mobile phone numbers, email addresses, etc. Amendments to this section allow for expanded targeting of the surveillance, even when the suspected individuals or their locations cannot yet be specified but
+the targets can be indirectly specified by phone numbers, Internet addresses, etc. Furthermore, such identifiers of target traffic need not be permanently assigned to the target
+identity (e.g., IP addresses are often temporary, whereas phone numbers are more permanent). On the other hand, an amendment to this section does impose a time limit (up to
+60 days) on how long the roving procedures take place to track down the target, and the
+locations and services engaged in the investigation must also be documented by the investigating party. This section also states that if a target attempts to interfere with an investigation by thwarting the surveillance and identities of individuals, the communications carrier (as well as other parties) are then authorized to make as much of their facilities available as needed to support the surveillance. [Extended Sunset Provision – Expires 31 December 2009]
+Sec. 207: DURATION OF FISA SURVEILLANCE OF NON-UNITED STATES
+PERSONS WHO ARE AGENTS OF A FOREIGN POWER.
+Surveillance under FISA had been limited to 90 days, but the amendment extends this
+limit to one year. [S]
+Sec. 209: SEIZURE OF VOICE-MAIL MESSAGES PURSUANT TO WARRANTS.
+This essentially clarifies Title 18 (Sec 2703), stating that that law enforcement only needs
+a simple search warrant to seize a voice mail message, not a wiretap order which until
+now has been required for obtaining copies of voice mail from carrier and third-party
+voice mail services. Therefore, acquisition of stored messages may not require the sophisticated practices and procedures of lawful interception methods even if the messages
+are stored at telephone operator facilities. Nevertheless, LI technologies and systems
+could certainly play a role in securely delivering the messages to law enforcement and
+the courts. Likewise, LI would continue to play a role in real-time surveillance which requires the capture of messages as they are recorded and/or transmitted. [S]
+Sec. 210: SCOPE OF SUBPOENAS FOR RECORDS OF ELECTRONIC
+COMMUNICATIONS.
+This section extends identifiers of the target and other gathered surveillance information
+to include:
+! Name;
+! Address;
+
+v 3.0
+
+5
+
+Aqsacom SA / Aqsacom Incorporated
+
+!
+!
+!
+!
+
+Local and long distance telephone connection records, or records of session times
+and durations;
+Length of service (including start date) and types of services utilized;
+Telephone or instrument number or other subscriber number or identity, including
+any temporarily assigned network address (e.g., IP address);
+Means and source of payment for such service (including any credit card or bank
+account number) of a subscriber.
+
+Sec. 212: EMERGENCY DISCLOSURE OF ELECTRONIC COMMUNICATIONS TO PROTECT LIFE AND LIMB.
+Permits communications service providers to voluntarily disclose stored communications
+messages to law enforcement if the service provider believes the message implies danger
+of death or severe physical injury. Until this provision, law enforcement was not permitted to readily accept such notification. Amendments to this section also call for enhanced
+Congressional oversight of such voluntary disclosures through regular reports of such
+activities to be prepared by the US Attorney General. LI methods and systems could apply here for the secure delivery of the messages to law enforcement. Note this Section applies to the variety of public voice and data services now in use, including Internet. [S]
+Sec. 214: PEN REGISTER AND TRAP AND TRACE AUTHORITY UNDER FISA
+/ FACTUAL BASIS FOR PEN REGISTER AND TRAP AND TRACE AUTHORITY UNDER FISA.
+This section is a FISA modification that simplifies the procedure for an investigator’s requesting of pen register and trap and trace taps, while emphasizing that the need for the
+surveillance must be related to actions connected to acts of terrorism, clandestine operations, and other requirements under FISA. Amendments to the US PATRIOT Act call for
+more mandatory disclosure by the telecommunications supplier of information pertaining
+to the target, such as the types of services supplied to the target, phone numbers and IP
+addresses used by the target, how the target pays for the services (including release of
+target credit card or bank account numbers), how long the target has been a customer of
+the supplier, and patterns of usage by the target in using the supplier’s services. Again, it
+is emphasized that this information pertains only to suspected targets that are of a foreign
+nationality or are an agent of a foreign power and operating on US soil. [S]
+Sec. 215: ACCESS TO RECORDS AND OTHER ITEMS UNDER THE FOREIGN
+INTELLIGENCE SURVEILLANCE ACT / PROTECTIONS FOR COURT ORDERS TO PRODUCE RECORDS AND OTHER ITEMS IN INTELLIGENCE INVESTIGATIONS.
+Covers FBI orders for the production of any “tangible things” (including books, records,
+papers, documents, and other items) for an investigation to protect against international
+terrorism or clandestine intelligence activities. This section has been a considerable
+source of controversy because it expanded record collection to include library circulation
+records, library patron lists, book sales records, book customer lists, firearms sales re-
+
+v 3.0
+
+6
+
+Aqsacom SA / Aqsacom Incorporated
+
+cords, and medical records – subject to collection approval by the FBI Director or Deputy
+Director. Any unauthorized disclosure to third parties by librarians, sales agents, and
+other personnel assisting the FBI in such an investigation would constitute a crime. On
+the other hand, the amendment also calls for more intensive Congressional oversight of
+any such practices by the FBI. To lessen the severity of the law, HR3199 narrowed down
+the conditions under which the information covered under this section may be obtained,
+explicitly stating that any such collection has to be in the context of an investigation involving a foreign power or agent. Furthermore, HR3199 enables any search order under
+this section to be challenged by the target of the search by submitting a petition to a designated pool of judges prescribed in FISA (see also the brief discussion on the Additional
+Reauthorization Amendments below).
+Despite the broad scope of this act, the implications for LI are not clear. In theory, it is
+conceivable that user records associated with this act can reside on Web servers and that
+transactions could be recorded through e-commerce Web servers and emails. In such
+cases, real time collection of data from Web and email interactions with a suspect could
+therefore fall under this amendment. [Extended Sunset Provision – Expires 31 December
+2009]
+Sec. 216: MODIFICATION OF AUTHORITIES RELATING TO USE OF PEN
+REGISTERS AND TRAP AND TRACE DEVICES.
+Extends the implied functionality of tap and traces and pen registers to include routing
+and addressing information. This would imply authorized acquisition of interception related data for voice, voice over IP, and general IP through the more simplified legal
+processes of tap and traces and pen registers. Internet-based parameters could now be
+formally included in tap and trace data, including IP addresses, MAC layer addresses
+(for wireless and wired Ethernet interceptions), ATM addresses, MPLS labels, etc. [nS]
+Sec. 217: INTERCEPTION OF COMPUTER TRESPASSER COMMUNICATIONS.
+This section enables the government to intercept traffic to/from a computer system for the
+purposes of electronic surveillance of a suspect believed to have connected to the system
+without proper authorization (e.g., when suspect hacks into a computer). Clearly, LI
+techniques for IP interception are called for here. [S]
+Sec. 218: FOREIGN INTELLIGENCE INFORMATION.
+The wording of this section provides more generality in the use of electronic surveillance.
+Under the earlier FISA rulings, foreign intelligence probes were the “primary purpose”
+behind FISA-based electronic surveillance. This section expands the use of electronic
+surveillance by regarding foreign intelligence as “a significant purpose” behind the probe.
+From an LI perspective, this section can be viewed as helping the coordination of criminal and intelligence investigations to which systematic LI operations and information
+transmittal shared among investigating entities will be needed. [S]
+
+v 3.0
+
+7
+
+Aqsacom SA / Aqsacom Incorporated
+
+Sec. 220: NATIONWIDE SERVICE OF SEARCH WARRANTS FOR ELECTRONIC EVIDENCE.
+This section expands the geographic jurisdiction of any Federal court handling electronic
+surveillance. The effect is that a single wiretap warrant can now yield nationwide coverage, which is essential for the capturing of Internet messages which typically traverse nationwide networks. Once again, a profound impact on LI can be anticipated here, where
+a single interception order must be securely transmitted to multiple interception operation locations within and across communications service providers. Likewise, one or
+more monitoring centers would have to be equipped to handle nationwide interceptions.
+This section also points to opportunities for third-party lawful interception service providers who could coordinate their services over multiple jurisdictions. [S]
+Sec. 222: ASSISTANCE TO LAW ENFORCEMENT AGENCIES.
+This section claims communications service providers and other parties (e.g., landlords)
+assisting law enforcement in communications interception should not be imposed with
+additional technical obligations. It also states that all reasonable costs incurred from the
+surveillance should be reimbursed to these parties. The implications for LI are indirect
+here, and more advanced interception capabilities will likely be called for – especially in
+view of Sections 206 and 220. [nS]
+Sec. 223: CIVIL LIABILITY FOR CERTAIN UNAUTHORIZED DISCLOSURES
+This provision enables legal action against the US Government in the event that electronic surveillance data were willfully and maliciously disclosed by an agent or department of the US. Special measures must be undertaken to assure the confidentiality of
+information obtained from lawful interception, and to prevent “leakage” of non-targeted
+information into surveillance processes. [S]
+Sec. 225: IMMUNITY FOR COMPLIANCE WITH FISA WIRETAP.
+This amends FISA to provide immunity of communications service providers, landlords,
+and other parties when assisting the government in the collection of electronic surveillance data. [S]
+Sec 505: MISCELLANEOUS NATIONAL SECURITY AUTHORITIES / PROCEDURAL PROTECTIONS FOR NATIONAL SECURITY LETTERS.
+Recent proposed amendments enable a communications service provider to attempt to
+modify or set aside a request for electronic surveillance by seeking a court order from a
+US district court. This request of the court can only occur if the service provider believes
+the surveillance request is unreasonable, oppressive, or violates constitutional and legal
+rights of the provider. The amendment also enables a service provider to seek, through a
+US district court, modifications to FISA’s otherwise stringent nondisclosure rules concerning a specific electronic surveillance. [nS]
+
+v 3.0
+
+8
+
+Aqsacom SA / Aqsacom Incorporated
+
+Additional Reauthorization Amendments
+The USA PATRIOT Act Additional Reauthorizing Amendments Act of 2006 (S.2271),
+though not necessarily related uniquely to wiretapping, provides further qualification to
+FISA-related procedures, In short, persons receiving an order under FISA (such as via a
+“national security letter”:
+!
+
+may file a motion to contest the order in a designated court of law;
+
+!
+
+may file a motion to contest the nondisclosure requirements of the order, beginning one year from the time the order was put into effect, in a designated court of
+law;
+
+!
+
+is not obligated to disclose the name of the attorney or legal counsel firm who is
+assisting the person under investigation.
+
+This act provides clarification on the status of libraries in a federal investigation. In
+short, it reverses the ability for agents to serve, under the earlier US Patriot Act, national
+security letters that order the release of information pertaining to library patrons. The
+amendment now states that under US code Title 18 Sec. 2709, libraries should not be
+treated as a wire or electronic communication service provider (for most purposes) and
+therefore are not subject to surveillance under the lawful interception laws that pertain to
+communication services providers. In this context, “libraries” are the services of which
+include access to the Internet, books, journals, magazines, newspapers, or other similar
+forms of communication in print or digitally by patrons for their use, review, examination, or circulation. This amendment to the US Patriot Act is believed to make an investigator’s acquisition of library records a more rigorous process, with more governmental
+checks and balances.
+
+v 3.0
+
+9
+
+Aqsacom SA / Aqsacom Incorporated
+
+For Further Reading:
+USA PATRIOT Act, Public Law 107-56, 26 October 2001 (H.R. 3162)
+USA PATRIOT Improvement and Reauthorization Act of 2005, H.R. 3199, 3 January
+2006.
+USA PATRIOT Act Additional Reauthorizing Amendments Act of 2006, S.2271, 3 January
+2006.
+US Code 18 (Federal Crime and Rules of Criminal Procedure); Part I, Chapter 121, Section 2709: Counterintelligence access to telephone toll and transactional records.
+US Code 50, Chapter 36 (Foreign Intelligence Surveillance), Subchapters I (Electronic
+Surveillance) and III (Pen Registers and Trap and Trace Devices for Foreign Intelligence
+Purposes).
+Senate version of amendments to the USA Patriot Act, S. 1389 (13 July 2005)
+
+About the Author
+Benjamin Epstein, PhD, serves as the Chief Strategy Officer of Aqsacom. His work at
+Aqsacom covers development of advanced lawful interception systems, identification of
+trends in lawful interception requirements, and international marketing support. Dr. Epstein has a diverse carrier in commercial and military communications systems. He holds
+a PhD from the University of Pennsylvania, School of Engineering and Applied Sciences,
+as well as an MBA from the New York University Stern School of Business.
+About Aqsacom
+AQSACOM develops and markets real time Lawful Interception, Mobility Tracking and
+Surveillance solutions. With its core business focused on lawful interception and related
+applications for over ten years, AQSACOM provides end-to-end turnkey solutions for
+fulfilling lawful interception requirements anywhere in the world, especially over highly
+heterogeneous networking and services environments. AQSACOM’s diversified customer portfolio includes telecommunications carrier and government clients from more
+than 30 countries, covering geographical areas as diverse as Europe (including the former
+Eastern block), Asia-Pacific, North America, Africa and the Middle-East.
+
+v 3.0
+
+10
+
+Aqsacom SA / Aqsacom Incorporated
+
+

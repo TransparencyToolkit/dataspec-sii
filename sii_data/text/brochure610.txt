@@ -1,0 +1,166 @@
+Multiband Manpack
+The WAVpac is part of Linkabit’s next generation family of high performance tactical radios.
+Designed to provide reliable high quality voice and data communications over the full 1.6 to
+108 MHz frequency band, the WAVpac is a true multiband radio system.
+In addition to its extensive HF capabilities, the radio’s extended frequency range allows
+replacement of dual HF and VHF radio systems with a single radio. The WAVpac is a software
+defined radio featuring a DSP-based design and incorporating key features that include
+advanced data waveforms, digital voice, ALE, GPS, ECCM and encryption.
+The WAVpac is available as a 20W manpack, or as the core of 150W vehicular or base station system. Engineered for reliable operation in extremely harsh situations, the WAVpac is a
+rugged, completely immersible unit that meets the demanding environmental specifications of
+MIL-STD-810F.
+Using its embedded GPS receiver, accurate position location and time-of-day capability is a
+standard feature of the WAVpac. Automatic Link Establishment (ALE) compliant to
+MIL-STD-188-141B is also standard and provides automatic "best channel" selection.
+Multiple data waveforms, including MIL-STD-188-110B serial tone and Appendix C
+(QAM) and STANAG 4415, allow high-speed and robust data transfer. Wideband FSK is
+available to provide 16 kbps data transfer in the VHF frequency band.
+Digital Voice is possible through
+the implementation of a multi-rate
+STANAG 4591 (MELPe) vocoder and
+16 kbps CVSD. Frequency hopping and
+AES encryption options offer a high
+level of jamming resistance and transmission security for both digital voice
+and data communications.
+In order to host the most desirable
+waveforms available today and ensure
+ease of future upgrades, the WAVpac is
+a DSP based software defined radio. In
+addition, the WAVpac design also
+incorporates a state of the art Wide-band
+Digital Front End for future expandability and maximum flexibility. The
+WAVpac design translates to higher performance, lower weight, longer battery
+life and smaller size, allowing for
+extended operations with enhanced
+capabilities.
+
+• C OMPLETE 1.6 TO 108 MH Z
+C OVERAGE
+• 20 WATTS , W ITH E MBEDDED
+AUTOMATIC A NTENNA T UNER
+–1.6 TO 108 MH Z
+• S MALLEST & L IGHTEST M ULTIBAND
+M ANPACK AVAILABLE
+• S OFTWARE D EFINED DSP-B ASED
+• HF ECCM
+• VHF ECCM (O PTIONAL )
+• D IGITAL E NCRYPTION (AES)
+• H IGH S PEED DATA WAVEFORMS
+- HF: 75 TO 9600 BPS (110B)
+- HF ECCM – 20 HPS
+- VHF: 16 KBPS
+- VHF ECCM - 300 HPS
+(O PTIONAL )
+• D IGITAL VOICE
+(HF MELP E , VHF CVSD)
+• R EMOTE C ONTROL – F ULL
+F UNCTION
+• R UGGED AND WATERPROOF –
+DESIGNED FOR MIL-STD-810F
+
+WAVpac Multiband Manpack
+WAVpac S PECIFICATIONS
+General Specifications
+Frequency Range
+Resolution
+Net Presets
+Frequency Stability
+Modes of Operation
+Power Input
+Battery Types
+Data Interface
+
+1.6 to 107.99999 MHz
+10 Hz
+101, programmable
+1 ppm
+J3E (USB, LSB, suppressed carrier telephony); H3E (compatible AM - SSB plus full carrier); A1A (CW);
+J2A (SSB compatible CW); A3E (AM); F3E (FM); J1D (serial tone data); F2D (FSK data)
+26 VDC; operational range of 20 to 32 VDC
+Standard: BA-5590/U, BB-590/U, BB-490/U, BB-390/U, BB-2590
+RS-232, MIL-STD-188-114A (synchronous, asynchronous) Ethernet
+
+Transmitter
+Power Output
+Carrier Suppression
+Undesired Sideband
+Harmonics
+Spurious
+Audio Levels
+
+1/5/20 watts, selectable (1.6 – 107.99999 MHz)
+Better than -60 dB referenced to PEP (J3E)
+Better than -60 dB referenced to PEP
+-46 dB, referenced to PEP
+-50 dB, referenced to PEP
+1.5 mV at 150 ohms, or 0 dBm at 600 ohms for rated output
+
+Receiver
+Sensitivity
+Image, IF Rejection
+Squelch
+Audio Output
+
+0.5 uV for 10 dB SINAD (SSB, AME – 3 kHz, CW – 350 Hz); 3.0 uV (AM – 6 kHz); 0.4 uV (FM – 22 kHz)
+better than -80 dB
+Digital, front panel selectable
+Adjustable from –30 dBm to 0.0 dBm for a 1000 ohm load
+
+Antenna Tuner
+Type
+Antennas
+Memory Channels
+
+Internal, automatic
+Whips, long wires, dipoles, & NVIS (HF); AT-271A/U 10 ft whip (1.6 to 40 MHz); AT-892/U 1 meter tape
+(30 – 107.99999 MHz)
+101
+
+Mechanical
+Size
+Weight
+Color
+
+3.2 in. x 11.1 in. x 10.1 in. (H x W x D), includes battery
+12.75 lbs., includes BA-5590/U battery
+OD, CARC Green 383 per FED-STD-595
+
+Environmental
+Temperature
+Vibration
+Immersion
+Test Methods
+
+-40º to +70ºC (Operating)
+Ground Mobile/Loose Cargo
+Waterproof (1m for 30 Minutes)
+MIL-STD-810F
+
+Features
+Data
+Digital Voice
+ALE
+Frequency Hopping
+Encryption
+GPS
+
+HF: MIL-STD-188-110B serial tone (to 2400 bps), Appendix C, QAM (to 9600 bps)
+STANAG 4415 (robust 75 bps) VHF: WB FSK ( 8, 16 kbps)
+HF: MELPe (600, 1200, 2400 bps) VHF: CVSD (16 kbps)
+MIL-STD-188-141B, Appendix A
+Serial tone ECCM (HF 20 HPS, VHF 300 HPS - Optional)
+AES, voice and data, (key length of 128, 192, or 256 bits)
+Internal GPS receiver (with external GPS antenna)
+
+Note: all specifications subject to change without notice
+
+Cleared by Do D/OSR for public release under
+OSR Case Numb er 07 -S-2962 on November 29, 2007.
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078054005
+
+

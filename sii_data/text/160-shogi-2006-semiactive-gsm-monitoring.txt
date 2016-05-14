@@ -1,0 +1,405 @@
+Semi-Active GSM
+Monitoring System
+SCL-5020SE
+
+Technology Introduction:
+
+System Approach:
+
+GSM networks are most popular and
+widespread wireless communication media
+across the world, having a wide customer
+base in Europe and Asia-Pacific and
+command more than 50 percent of mobile
+customers. The advancement of GSM
+networks increases rapid growth of its users
+and services. Being an advance technology it
+becomes favorites for the criminals. These
+things created worldwide market for the
+analysis and monitoring of GSM network.
+
+The system is designed and developed as a
+Semi Active OFF-THE-AIR GSM Monitoring
+System. The Surveillance of UM interface (b/w
+BTS and Suspect’s mobile) provides total traffic
+monitoring including SMS and Voice, of the
+targeted Mobile. System uses state of art
+technology to on-line deciphering of A5.1 and
+A5.2 cipher algorithms.
+The system comes in a camouflaged case along
+with Control Laptop and Accessories.
+
+The advancement of GSM technology,
+enhanced
+technological
+features
+and
+increased complexity, presents competitive
+environment for Shoghi Communications to
+design and develop solutions to provide total
+Off -The- AIR Communication Surveillance
+system to its various Government and
+Intelligence Gathering customers.
+GSM operates on standards
+850MHz, 900MHz, 1800MHZ and
+bands and offer services such
+MMS, email, advanced video
+dictionaries
+
+frequency
+1900MHz
+as SMS,
+features,
+
+Due to the widespread availability of GSM
+networks, a GSM mobile has the potential to
+seamlessly
+roam
+nationally
+and
+internationally. GSM supports data services
+where users can send and receive data, at Figure 1 – The SCL-5020SE Intercepts calls form the UM
+interface between Target and BTS
+rates upto 9600bps.
+
+System Solution:
+The SCL 5020SE is has universal operating
+capability. This system can be used to
+intercept communications from any GSM
+service providers in the world irrespective of
+the type of encryption being used.
+In case of A5/2, the system is completely
+passive and does not need any Encryption
+key info to decipher the communication. In
+case of A5/1, the system comes with a Kc
+Retriever to obtain the Kc (Ciphering Key)
+from the network. As soon as the system
+SCL 5020SE identifies that the target Figure 2 – Main GUI of the SCL 5020SE
+communication-taking place is using A5/1
+encryption, the Kc retriever in the system Unlike the other active system where the
+becomes
+active.
+The
+Kc
+retriever monitoring agency is billed for the forwarding of
+automatically acts as a genuine BTS and target’s calls, which can raise suspicion form
+forces the suspects mobile to register with it, the target due to reduced bill amount (since the
+during the periodic location update. The Kc call charges are borne by the monitoring
+Retriever communicates with the suspects agency)
+mobile using A5/2 encryption, in the process
+the SCL-5020SE calculates the Kc. The Kc The SCL 5020SE system deciphers A5/1 and
+Retriever also asks the mobile to A5/2 ciphering algorithms online. The number of
+authenticate itself with its IMSI, by doing so channels, being received and recorded by the
+the system also obtains the suspect’s IMSI. system, can be from 4 & 6 for one control
+Both the Kc and IMSI information is stored in computer.
+a database. The Kc Retriever now logoff the
+suspect’s mobile from its BTS. The Suspect
+is then allowed to communicate with the
+Actual Service Provider’s network. With the
+Kc in the database the system can now
+decipher all communications encrypted using
+A5/1.
+The SCL 5020SE system does not require
+the service providers SIM for operation.
+Figure 3 – Recorder Window
+
+Features
+Real-time monitoring of GSM
+communications encrypted A5/1 and
+A5/2 Ciphering algorithms
+Universal Operating Capability –
+The system can be used to intercept
+communications from any GSM
+service providers in the world.
+100% target call monitor rate: The
+system
+can
+monitor
+all
+communications of the target (SMS
+and Voice) till he/she is within its
+coverage range
+The system is capable of extracting
+the Suspect’s actual Mobile
+Number from the network without
+any help from the service provider.
+
+Figure 4 – Receiver and Cell List Window
+
+The system can be configured to
+ignore certain subscribers from
+being
+intercepted.
+This
+is
+particularly useful in case of ignoring
+the operator’s cell phone during an
+operation.
+The system features a selective
+jamming capability, using which
+the operator can disable certain
+services of the suspect like
+Outgoing Call, Incoming Call, SMS,
+SS etc. can be jammed.
+
+Figure 5 – Target Window
+
+The SCL 5020SE system does not
+require the service providers SIM for
+operation
+
+Inbuilt Automatic paging system to
+obtain suspect related information
+No limit on the number of suspects that
+can be added to the target list.
+Target list can be created using PLMN,
+IMSI or Suspects Mobile Number.
+On line monitoring up to 6 duplex
+channels. Interception Monitoring and
+logging
+of
+GSM900/1800/1900
+communication standards in stationary
+or in mobile environments
+Automatic tuning of the Receivers, with
+a possibility of scanning and recognition
+of control channels and communication
+system parameters
+Monitoring of both forward and reverse
+channels (duplex conversation)
+Direction Finding Equipment can be
+integrated with the system. A digital
+map of the location can also be
+integrated.
+Several SCL-5020SE systems can be
+configured in a LAN environment.
+On-Line listing of the intercepted Cell
+phone calls.
+Possibility of round-the-clock operation
+in an auto mode without the operator
+involvement
+Provision of reliable reception of the
+information from channels of cellular
+communication
+systems
+with
+possibilities of noise-resistant coding.
+
+Unlike other Active systems where
+the suspect’s calls are routed
+through the system, the SCL5020SE works is semi active mode,
+where the suspect communicates
+with the normal network.
+The called party or the suspect will
+not see any change in caller ID (CLI)
+The system can monitor
+Incoming and Outgoing calls
+
+both
+
+The
+system
+maintains
+encryption being used by
+network.
+
+the
+the
+
+The system is transparent to the
+suspect and the Service Provider.
+
+Simplicity of maintenance, which
+does not require a deep knowledge,
+either in the field of computers, or in
+the field of cellular communication
+systems.
+
+IMSI Analysis Software (Optional)
+
+Figure 6 – BTS Tuning Window
+
+IMSI Analysis – IMSI database contains all the
+existing service providers in the world. This
+database contains information like Country
+Code, MCC, MNC, Operator Name, Operator
+Region, Network Name, technology (GSM
+850/900/1800/1900). Based on the first 5 Digits
+of the IMSI this software will tell you which
+country and which service provider does the
+SIM belongs to. This is very useful when you
+are monitoring suspects who are visiting your
+network from foreign networks. By analyzing
+his IMSI you will be able to know his home
+network.
+
+Figure 7 – Record Archive Window
+
+Class Mark Analysis Software
+(Optional)
+Class Mark Analysis: - A database of
+around 40,000 models of mobile phones
+and their ClassMark numbers have been
+created. The database contains information
+about the Models, Manufacturers their
+ClassMark numbers and Photographs (of
+some popular models only). This is useful
+when the suspect has to be monitored
+based on ClassMark
+Figure 8 – IMSI Analysis Software
+
+Figure 9 – ClassMark Analysis Software
+
+Advance Database Management Software Module For Passive GSM
+Monitoring System (Optional)
+The Advanced Database Management Software offers verity of features, which will enable
+the operators to efficiently use the intercepted data.
+Features:
+Customized Search: Extensive search feature
+enabling the users to search call database based on
+different call parameters that they are available off the
+air. Search based on – Dialed number, Received
+Number, IMSI, TMSI, IMEI, Called date, IN/OUT,
+BCCH, encryption, Class Mark (Mobile Mode) etc.
+Keyword Spotting in SMS: The system has the
+capability of sporting keywords within the received
+SMS messages. For example if you want to list all the
+SMS that has the word “MONEY”. You can create a
+query and the system will list all the SMS that has
+that particular word.
+Disk Alarm Feature: The systems will automatic
+sound an alarm whenever the disk space remaining
+for recording is less than the specified limit
+
+Figure 10 – Customized Search
+
+Figure 11 – Search Results
+
+User Interface in local language: Provision
+for user interface in local language will enable
+operators in quick decision-making; system can be
+customized to the required Local Language.
+Alerts on Hot Targets: The System has a
+provision for adding hot numbers. When any call is
+received on them, a buzzer will be played. There is
+no limit on numbers that can be added as hot
+numbers.
+
+Figure 12 – User Interface in Local
+Language
+
+View talk time: View talk time is to obtain
+information about talk time for a given period and for
+a particular channel
+Export File: The recorded audio can be exported
+to different formats like mp3, .wma etc using this
+feature.
+
+Figure 13 – Hot Numbers
+
+Archiving Data: The System has options for
+Selective Archiving or Complete Archiving. By using
+selective archiving you can archive calls that have
+been searched using any of the search criterion. If
+complete archiving is used it will create a full backup
+of all the data for the selected date.
+
+Figure 14 – Export Calls
+
+Integration of telephone Directory of
+different service providers: The System has
+the feature with the help of which Local Service
+provider’s directory can be integrated. This will allow
+easy searching of target’s vital information like
+Address and other telephones registered in his name.
+Adding Call Synopsis: There is no limit on the
+call synopsis that can be added to the call. The user
+can choose the language in which he wants to add the
+call synopsis.
+
+Figure 13 – Integration with Local
+Telephone Directory
+
+Figure 14 – Adding Call Synopsis
+
+Audio Enhancing And Amplifying Module
+The Audio enhancing and editing is achieved through
+third party software, Cool Edit Pro. This software is
+integrated into the existing
+ Recorded conversation can be amplified
+ Repeated payback of selected portion of the
+conversation
+ Noise Filtering to eliminate disturbances in
+recorded conversation
+ The recorded conversation can be played back at
+a slower rate for clear understanding of the
+conversation.
+ Provision for creating customized scientific filters
+
+Figure 15 - Operational Block Diagram of SCL-5020SE Semi Active GSM monitoring system
+
+About Shoghi:
+Shoghi Communications Ltd an ISO 9001-2000
+accredited enterprise, is an Engineering and System
+Integration company focused on delivering solutions
+in the field of Strategic Electronics, developing high
+grade Encryption Technologies and a leading
+provider of Analysis and Surveillance solutions.
+We carry out defined value addition and customize
+such
+equipments to
+meet
+the
+operational
+requirements of the user. Major efforts are being
+made to promote indigenous design and development
+of various technologies related to strategic
+importance, to make our country self sufficient in time
+to come.
+The Company has core competence to offer solutions
+for the upgrade & interface of Legacy systems and
+make various systems interoperable, across multiple
+platforms, multiple user groups. In response to our
+customer requirement, we are today working to
+provide solutions in the areas of C4ISR, Data
+Fusion,
+Imaging,
+Simulation,
+Artificial
+Intelligence and Information Warfare.
+Dedication to customer success is a core value that
+affects everything Shoghi does. We recognize that we
+must earn the right every day to continue to serve our
+customers. It is this understanding that drives our
+belief that Shoghi’s technical support mission includes
+building and maintaining a strong technical team fully
+in tune with the contemporary technological practices.
+With 85 percent of its human asset at the technical
+side, the Company has the ability and logistics to
+support all emerging requirements at customer
+premises or otherwise.
+
+Contact us
+Please feel free to contact our sales and
+marketing division for a detailed discussion on
+our range of products and solutions.
+
+SHOGHI COMMUNICATIONS LIMITED
+707, 7th Floor, Ansal Bhawan,
+16 K G Marg, New Delhi 110 001
+India
+Telephone: 91 11 23351301/ 23351302
+Facsimile: 91 11 23351303
+E-mail: sales@shoghicom.com
+URL:
+
+www.shoghi.co.in.
+
+Authorized Distributor:
+
+Shoghi Communications Limited reserves
+the right to vary these specifications
+without prior notice.
+© 2006 Shoghi Communications Limited
+
+

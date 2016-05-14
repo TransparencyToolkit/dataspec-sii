@@ -1,0 +1,459 @@
+Distributed Speech
+Transcription System
+
+Description
+! Nestor is a Network based
+distributed transcription and
+documenting system, designed
+to make transcription faster,
+more efficient giving better
+quality.
+! It provides automated workflow
+to multiple transcriptionists for
+fast documenting of large
+volume of speech.
+
+Applications
+Nestor is used for real-time
+transcription of
+!
+!
+!
+!
+!
+!
+
+Lectures,
+Conferences,
+Meetings,
+Negotiations,
+Speeches,
+Interviews.
+
+Applications
+Typical customers are:
+!
+!
+!
+!
+!
+
+Parliaments,
+Congress Halls,
+Documentation
+Departments,
+Journalists and News
+Agencies,
+Academic Institutions.
+
+Structure
+Negotiations
+
+Digital media
+& Internet
+
+Lectures
+
+Printouts
+Meetings
+
+Operational Procedures
+All incoming recordings are
+automatically cut into fragments of
+a given duration, then evenly
+distributed among the operators,
+who transcribe the speech
+fragments for text production.
+The editor’s workstation then
+combines the separate text
+segments from various operators
+into the whole document, which
+can be saved or printed out
+
+SPEECH
+
+Legend
+
+Nestor
+workflow
+
+Sound signal
+Text
+
+The speech signal is
+recorded by Sound
+Recording Stations.
+Digitized sound is
+automatically sent to
+Sound Server.
+
+Conference audio
+equipment
+
+Channel №1
+
+Sound
+recording
+stations
+
+Sound
+Server
+
+Sound + Text
+Control
+
+SPEECH
+
+Nestor
+workflow
+
+Conference audio
+equipment
+
+Sound Server
+Channel №1
+automatically
+distributes
+sound fragments between
+Operators. The
+Sound
+distribution process
+is
+recording
+controlled by Editors.
+stations
+
+Sound
+Server
+
+Operators in groups
+
+Legend
+Sound signal
+Text
+
+Editors
+
+Sound + Text
+Control
+
+SPEECH
+
+Nestor
+workflow
+
+Conference audio
+equipment
+
+Operators listen to the
+Channel №1
+speech fragments
+and type
+the corresponding text.
+Ready text fragments are
+SoundThe
+returned to the Editor.
+Sound
+Editor workstationrecording Server
+stations
+automatically connects
+these fragments in a whole
+document.
+.
+
+Operators in groups
+
+Legend
+Sound signal
+Text
+
+Editors
+
+Sound + Text
+Control
+
+SPEECH
+
+Nestor
+workflow
+
+Conference audio
+equipment
+
+Channel №1
+
+Sound
+recording
+stations
+
+Editors check transcription
+quality using hyperlink
+feature between text and
+sound, make correction,
+spell checking.
+
+Sound
+Server
+
+Operators in groups
+
+Legend
+Sound signal
+Text
+
+Editors
+
+Sound + Text
+Control
+
+SPEECH
+
+Conference audio
+equipment
+
+Nestor
+workflow
+Within several minutes after
+completion of speech the text
+of the speech is ready to be
+printed or published in the
+Internet or on digital media.
+.
+
+Channel №1
+
+TEXT
+
+Printout or
+web-publishing
+
+Sound
+recording
+stations
+
+Sound
+Server
+
+Operators in groups
+
+Legend
+Sound signal
+Text
+
+Editors
+
+Sound + Text
+Control
+
+SPEECH
+
+Conference audio
+equipment
+
+Nestor
+workflow
+
+Channel №2
+
+TEXT
+
+Printout or
+web-publishing
+
+Sound signal
+Text
+
+Editors
+
+Nestor’s workflow engine can process
+speech coming from more than 30
+channels simultaneously in several
+different languages by different
+groups of transcriptionists.
+
+Channel №1
+
+Channel №3
+
+Legend
+
+Sound
+recording
+stations
+
+Sound
+Server
+
+Operators in groups
+
+Sound + Text
+Control
+
+SPEECH
+
+Legend
+
+Nestor
+workflow
+
+Sound signal
+Text
+
+Editors
+
+Administrators
+
+Conference audio
+equipment
+
+Channel №1
+Channel №2
+Channel №3
+
+TEXT
+
+Sound
+recording
+stations
+
+Sound
+Server
+
+Administrator workplace is needed
+in order to manage groups in case
+of big number of operators.
+Printout or
+web-publishing
+
+Backup
+Server
+
+Operators in groups
+
+Sound + Text
+Control
+
+SPEECH
+
+Legend
+
+Nestor
+workflow
+
+Sound signal
+Text
+
+Editors
+
+Administrators
+
+Conference audio
+equipment
+
+Channel №1
+Channel №2
+Channel №3
+
+TEXT
+
+Sound
+recording
+stations
+
+Sound
+Server
+
+After completing the work, the sound
+files and the corresponding texts are
+stored in the archive if necessary.
+Printout or
+web-publishing
+
+Backup
+Server
+
+Operators in groups
+
+Sound + Text
+Control
+
+The main goal of Nestor is to receive the full text of
+speech in several minutes after it is finished and
+with absolutely perfect quality.
+
+Documentation Speed
+A group of five skilled
+Operators can handle
+transcription of one speech
+event (meeting, lecture, etc.)
+To manage three events
+simultaneously, three groups
+of Operators, i.e. 15 people
+are necessary.
+
+Comfort features
+Operator’s software set of
+features to transcribe effectively:
+"Variable playback speed
+"Use of Hotkeys
+"Tone correction
+"Loop playback
+
+Data protection
+Only the Administrator and the
+Editors have access to the full
+sound recordings plus texts and
+are allowed to edit and modify
+them.
+Operators work with short,
+separate speech fragments that
+can not be linked together. Thus
+the Operators will not know the
+contents of the whole event or
+tamper with the source audio or
+text.
+
+Data transmission
+
+The system is distributed over
+TCP/IP LAN
+
+System components
+• Administrator’s workstation (optional)
+• Editor’s workstation(s)(s)
+• Operator’s workstation(s)
+• Sound recording station(s)
+• Backup server (optional)
+• Sound server
+
+System Requirements
+# Administrator, editor, operator workplaces–
+MS Windows NT/2000/XP OS, sound card,
+LAN
+# Sound recording station, Sound Server,
+Backup Server – PIII or higher, MS
+Windows NT/2000/XP OS, LAN
+# Multi-channel professional I/O sound
+boards STC-H200
+
+Contact us
+Speech Technology Center
+St.Petersburg, Russia
+http://www.speechpro.com
+email: sales@speechpro.com
+
+$ Tel. +7 812 3310665
+
+% Fax +7 812 3279297
+
+German office:
+Speech Tech GmbH
+Saarbrücken, Germany
+http://www.speech-tek.com
+email: sales@speech-tek.com
+
+$ Tel. +49 681 9655709
+
+% Fax +49 69 25577077
+
+

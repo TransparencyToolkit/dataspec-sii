@@ -1,0 +1,133 @@
+NESTOR
+Distributed Speech Transcription System
+Applications
+Nestor is a Network based distributed transcription
+and documenting system, designed to make
+transcription faster, more efficient giving better
+quality. It provides automated workflow to multiple
+transcriptionists for fast documenting of large
+volume of speech. Nestor is applied in:
+u Parliaments and Congress halls
+u Academic Institutions
+u Broadcasting Companies and News Agencies
+u Transcription departments of companies
+u And anywhere, where there is a demand to for
+text of recorded or live speech
+
+Functional Overview
+u
+
+u
+
+u
+
+Functional Overview
+Sound recorded by sound stations and stored on
+sound server is distributed by editor or administrator in
+pieces between operators. Each operator type in
+transcription of one sound fragment. All fragments of
+sound and text are connected in a whole document
+with time marks allowing the checking of transcription
+quality. The whole text with sound is available at the
+editor’s workstation to check and correct. All the
+workflow is automatically controlled by system and
+managed from administrator/supervisor workstation.
+u
+
+u
+
+Faster Transcription
+Nestor helps to organize the work of the operators
+in the most rational way, so that even small team of
+typists can cope with large amounts of the speech
+data. Typists type in transcription using special text
+editor enabled with speech playback speed
+variability.
+System Scalability
+The system is designed to meet requirements of
+documentation service in full. The system is fully
+scalable for large institutions.
+
+u
+
+Playback speed changing
+This feature allows operator to choose the
+playback speed (using hotkeys) corresponding to
+speed of typing. When the speech is played at
+changed speed, it remains natural and intelligible.
+Combined text editor and wave player
+For text input Nestor uses specially designed text
+editor with wave player functions. When operators
+input the text, they can control the playback to
+rewind, to loop the sound and to change the speed
+of playback. And of course text editor is enabled
+with spell checker, macros and formatting.
+Text linked to sound
+An important feature of this editor is that text is
+automatically linked to the sound, making it very
+easy to find the speech corresponding to the
+certain fragment of text.
+Why Nestor is useful?
+It allows to obtain full text transcription of an event
+(conference, speech, talks, etc.) in few minutes.
+Tens of speeches in parallel can be processed by
+operators of the system at the same time.
+
+Nestor Distributed Speech Documentation System Functioning Chart
+
+Managers - Group Leaders
+
+Sound
+Servers
+
+Operators-typists
+Up to 50
+
+Speakers
+Up to 30 recording channels
+
+Texts of speeches
+
+Administrator
+
+Advantages
+u
+u
+u
+
+u
+u
+
+Fully automated workflow.
+Parallel input from 30 mics - speech of 30
+speakers can be processed simultaneously
+Workplaces of transcriptionists are optimized for
+maximum comfort and efficiency. The operators
+have different comfort features like Sound
+Stretcher and timbre adjustment.
+Based on TCP/IP LAN - allowing reduced
+installation costs
+Nestor has performance management, statistics
+and archiving features.
+
+u
+
+u
+
+u
+
+u
+
+Professional STC sound board - high quality
+sound input allowing to use long wires from the
+microphone to the sound board input (up to 200
+meters)
+Fast transcription - full text of an event can be
+obtained in few minutes after the event is
+finished
+Information protection - operators can hear only
+small portions of speech and don't have access
+to the whole information.
+Date/time of sound events tracking
+
+

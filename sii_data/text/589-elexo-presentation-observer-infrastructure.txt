@@ -1,0 +1,915 @@
+Observer Infrastructure
+(Anciennement "Link Analyst“)
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Observer Reporting Server
+Monitoring Aggrégé des Performances
+
+Observer Infrastructure
+ Remplace Link Analyst
+ Désormais conçu pour fournir des informations à ORS
+ Architecture distribuée
+ Utilise SNMP, WMI, IP SLA, WAAS, Ping, TraceRT, Transactions
+synthétiques, WSD, et NBAR
+ Utilisé en tant que produit seul ou intégré à ORS
+
+Les nouveautés
+
+
+Fonctionne en service Windows
+
+
+
+Alarmes supplémentaires en SNMP et Syslogs
+
+
+
+Rapports planifiés
+
+
+
+IP SLA, NBAR, WSD, WAAS et Transactions Synthétiques
+
+
+
+Encore plus de moniteurs prédéfinis :
+
+
+
+
+
+
+
+
+Cisco NBAR
+Citrix Secure Gateway
+Exchange Server 2000, 2003, et 2007
+IP SLA
+VMware ESX Server
+WAAS Core et Edge Server
+Wireless Access Point
+
+Cisco Internet Protocol Service Level Agreements
+ Analyse les niveaux de service pour les applications et services IP
+ Utilise une technologie de monitoring active
+
+ Mesures périodiques des routeurs ou commutateurs afin de générer des
+métriques de performance réseau et de services
+
+ Observer Infrastructure interroge routeurs et commutateurs en SNMP
+pour récupérer les résultats des tests
+
+Observer Infrastructure : Equipements IP SLA
+
+Discovered IP SLA Operations Report
+Device Group:
+
+NI-US
+
+Report Generated: 2010/04/ 25 22: 22:07
+Last Po fl Time!
+
+2010/04/ 25 22: 2 1: 50
+
+Device A.
+
+(
+
+IP )
+T ype
+
+IP_SLA_ l (10.0 , 38 , 180)
+IP _SLA 1 (10.0 , 192. 1)
+IP_SLA_2 ( 10.0, 192. 2)
+IP_SLA_2 ( 10.0 , 193. 1)
+
+in!r. NI_VOIP_ 285 1.netinst. com ( 10.0. 2~. 9)
+NICa t650ô (10.0 . 32. 1)
+
+Router
+
+Monitors
+! S i
+
+rA
+
+0
+
+Router
+Router
+Router
+\ Vireless Access Point
+
+Switch
+
+0
+0
+
+63
+63
+
+© 0
+
+,........,
+
+?
+
+Observer Infrastructure : Operations IP SLA
+Discover ed IP' SLA Operations Repo11: for IP_SLA_2
+1
+
+Busï n es.s Ci rou p :
+
+NI -US
+
+Rep e>rt G en e r ateidk 20 l0/04/ 25 22: 2 5: 54
+
+Devioe :
+
+IP _SLA_ 2
+
+l~letwo rk Add r ess:
+
+10.0 .19 2. 2
+
+Monitor.:
+
+Discov ered IP SLA Oper ations
+
+Disoov re r ed I P S LA Opera tion s::
+Monit or Element
+
+Obj ect (Index)
+
+Discovered DNS Availabiliti/
+
+""""'"N.d sco .corn
+
+Discovered DNS Connection loss
+occurred
+
+"'l."NW . dsco . corn
+
+Monit or Cat egory Status
+
+Syst em
+
+0
+
+Value
+
+Last 4 Hours
+
+100
+
+2010/04/ 25
+
+Av ailability
+
+22: 22.:0 2
+
+o/11>
+
+Syst em
+
+0
+
+0
+Occurre nce
+
+~
+
+0.80
+~ 0.40
+0
+u
+
+2010/04/.25
+22:.22.:02
+
+-=' .
+
+-"
+
+.2QQ.
+
+Discovered DNS Lat est RIT
+
+'ll."l1." l"' . d sco . corn
+
+Syst em
+
+0
+
+153 ms
+
+tJ)
+
+E
+
+150
+0
+
+•·
+
+._.....
+elPXO
+
+Time
+
+~
+
+t--
+
+1.L -
+
+6:
+
+___,
+
+21J10/04/2 5
+22:.22.:02
+
+Observer Infrastructure :
+Historique des opérations IP SLA
+
+Network Based Application Recognition (NBAR)
+ Mécanisme utilisé par les routeurs Cisco pour reconnaitre un flux de
+données en inspectant les paquets envoyés
+ Observer Infrastructure interroge le routeur en SNMP pour obtenir les
+statistiques
+ Fournit les statistiques de volume des protocoles par port
+
+Observer Infrastructure :
+Volume par Protocole par Interface
+
+Observer Infrastructure :
+Historique de l’utilisation des protocoles
+
+Web Services on Devices (WSD)
+ Découverte et accès aux périphériques distants et aux services associés
+au travers du réseau
+ Observer Infrastructure interroge les informations concernant les
+ressources comme la CPU et la mémoire
+
+Résumé des machines virtuelles d’un VM Host
+
+VMware ESX Server-VM (Wso) Report
+Devîce G ~ou p;
+
+NI HQ
+
+Report G en erated: 20 10/04/ 25 08: 15:OO
+l ast Poll Time:
+
+20 10tb 4/ 25 08: 14: 20
+
+Device .â.
+
+( IP )
+
+Monit ors
+
+Type
+VMwar e Virtual Server
+Jjl>
+
+QA -ESX.netinst. com (10.0 . 38.82)
+sander-vm40.netinst. com (10 .0 . 38 . 223}
+
+® 'S ® 0 © 0
+92
+0
+1
+
+VM·Nare Virtual Ser ver
+VM'Nar e Virtual Seni er
+
+0
+
+226
+
+?
+
+Détail de chaque machine virtuelle
+
+VMware ESX Server-VM (WSD Report lor· sander-vm40.neti nst.con1
+1
+)
+
+Business Group:
+
+NI HQ
+
+Rep-c.rt iGener.ated~ 2010/ 04/ 2 5 08 : 18 :2 1
+Devïcie,:
+
+~
+
+sander -vm.q(I.netinst. corn
+
+~letw·ork Ail d ress:
+
+10. O.38. 223
+
+M onito r :
+
+~JM 11t.•a re ESX Serv er -VM (WSD)
+
+Vïrtuial M.acihïnes:
+Monitors
+Virtual Mach ine
+
+•·
+
+._.....
+elPXO
+
+Guest OS
+
+Memor)I' Size State
+
+2 52 W 764 OBS v 14. l
+
+Microsoft '1Nindm1\'S 7 (64-bit:)
+
+1280 (MB)
+
+ON
+
+XP64_BASE3
+
+Microsoft: 'iNindo•Ns XP Professional (64-bit )
+
+OFF
+
+226 W 764 NI MS v 14. 1
+
+Microsoft '1Nindm1\1s 7 (64 -bit:)
+
+800 UvlB)
+768 (MB)
+
+W764_BASE
+232 2KSVV 12
+
+Microsoft 'iNindm•\'S Vista (64-bit )
+Microsoft '1Nindm1\'S 2000 Senier
+
+12.80 (MB)
+640 Uv1B)
+
+OFF
+OFF
+
+23 1 UBUNTU sFlo·N
+
+Ubuntu Linux ( 32-bit )
+
+640 Uv1B)
+
+ON
+
+228 XP32 OBS v 14.0
+
+Microsoft \r-/indo Ns XP Professional (32-bit )
+
+1536 U"1B)
+
+OFF
+
+238 0864
+
+Microsoft \l'i/indo•Ns Serv er 20 08 (64-bit )
+
+1024 (MB)
+
+ON
+
+v Center Seni er
+
+Microsoft \r./indo1Ns XP Professional (64-bit )
+
+1024 (MB)
+
+ON
+
+1
+
+ON
+
+®®® O © O ®
+0
+21
+0
+21
+0
+0
+0
+
+18
+21
+21
+
+Détails des ressources des machines virtuelles
+
+VMware ESX Se1Ver-VM (WSD Report loi· sande 1·-vn140.netinst.co1n
+1
+)
+
+1
+
+Bu s iness G llOU p:
+
+1
+
+1
+
+NI HQ
+
+ltepcu t 6 en e rated: 2D 10/04/ 25 08: 2:3: 2.6
+Dev ioe :
+
+.ilJo
+
+sander -'1,i'm40.netinst. corn
+
+Hetw.o rk Ad d res.s:
+
+lO . O. 38 . 223
+
+M o nito r=
+
+VMware ESX Serv er-VM (VUSD)
+
+Vïrtua l Ma ,cihi:ne :
+
+2 52 \l'i/764 0 85 v 14 . l
+
+VMwa rre E.5X Servrer-VM (WSD):
+Monit or Element
+
+VM CPU Utilization 'o/11>
+
+Monit or Cat egory
+
+Sy st em
+
+Obj ect (Index)
+
+252. W 764 OBS v 14 . l
+([Total])
+
+Status
+
+0
+
+Last 4 Hours
+
+Value
+
+4.430
+Per cent
+
+=
+Q)
+(,,)
+
+i...
+
+Q)
+
+c.
+
+~IM Disk - Reads
+KBps
+
+•·
+
+._.....
+elPXO
+
+Sy stem
+
+2.S.2 \l'i/764 OBS v 14 . l
+([Total] )
+
+0
+
+0 KBps
+
+8
+4
+
+1--
+
+-p.
+
+A
+
+Time
+
+>
+
+------1
+
+2D 10/04/ 2.S
+08 :00:.20
+
+0
+
+.20 10/04/ 25
+08 :00:20
+
+Wide Area Application Services (WAAS)
+ Combinaison de services d’optimisation WAN et d’accélération des
+applications basées sur TCP et des fichiers
+ Présente des difficultés pour le monitoring
+ Observer Infrastructure utilise SNMP pour rassembler les statistiques
+des Serveurs de cœurs et de périphérie:
+
+
+
+
+
+
+
+
+Taux de compression
+Volume du trafic reçu et envoyé
+Messages reçus et envoyés
+Lecture et écriture
+Sessions connectées
+Fichiers ouverts
+Demandes distantes
+
+Moniteur WAAS
+
+
+
+
+Établir des performances avant et après déploiement.
+Comparer la performance d'une application optimisée de celle non-optimisée.
+Vérifier l'amélioration attendue des performances.
+
+Transactions synthétiques
+ Allez plus loin que l’interrogation d’ouverture de socket
+ Permet de traquer si un services particulier est fonctionnel ou non
+ Permet d’obtenir une vue détaillée des services
+ Permet de tester les réponses aux messages applicatifs
+ Permet d’écrire des requêtes spécifiques et personnalisables
+
+Surveillance des services au travers des
+transactions synthétiques
+
+Observer Infrastructure - Déploiement
+
+Observer Reporting Server
+
+Local
+Network
+
+•·
+
+._.....
+elPXO
+
+Observer Infrastructure - Déploiement
+t1
+
+Observer Infrastructure - [10.0. 36.156:Netinst.com]
+
+::J File
+
+Edit
+
+* (.j
+
+View
+
+~
+
+[31
+
+Tools
+
+Window
+
+Help
+
+-
+
+lj[j
+
+i51 X
+
+l?
+
+COD
+
+Business Groups/Routes:
+
+91 · ~
+....
+
+Local Business Groups
+
+.,
+.,
+
+Just Netinst
+
+~:
+
+(t)
+
+1±1···
+
+°'
+
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+
+Wireless Access Point
+Switch
+
+Training App
+
+Router
+
+3
+
+e .&. ~ ~ o.o.36 1 56
+IB···.,
+
+Nl_GW_2851.netinst. com
+
+l
+
+Netinst.com
+
+4
+
+r
+
+wap54g
+
+Router
+
+Upstairs_Dell_6200
+
+Switch
+
+li, " "' NI UK
+
+Switch
+Web Server
+8
+9
+
+Web Server
+
+~
+
+antivirusserver
+
+Internet Information Server
+
+10 .... Switch
+11
+
+~
+
+Switch
+
+SUPPORT-WAN
+
+Web Server
+
+12
+
+~
+
+10.0.38.205
+
+Web Server
+
+13
+
+8
+
+supportrackl05
+
+Web Server
+
+SUPPORTRACKI08
+
+Windows Workstation
+Web Server
+
+supportrack103
+
+Station
+
+supportrackl 09
+
+Station
+
+supportexpand
+
+Windows Workstation
+
+1Ogig-generator
+
+Station
+
+10.0. 1.1
+
+OO : 15:62:95:21 :39
+
+10.0. 1.4
+
+OO :D0:2B:AI :BA:CO
+
+10.0.38.180
+
+OO:OC:85:BD:08:80
+
+10.0.38.229
+
+00:06:25:3C:09:91
+
+10.0.32 .3
+
+00:21 :9B:B7:67:72
+
+10.0.38.150
+
+00:90:2B:BA:32:47
+
+10.0.38.172
+
+OO :OE: OC: OO :CA:SE vistatest
+
+10.0.38.64
+
+00:40:96:53:DE:FA
+
+10.0.38.178
+
+OO :OE: OC: 6C:C7:8F antivirusserver
+
+10.0.38.50
+
+00:30:F1:8A:75:1A
+
+10.0.38.102
+
+OO:OE:OC:DO:AS:ES support-wan
+
+10.0.38.205
+
+OO :OD:5D:04:4E:DA
+
+10.0.38.105
+
+OO:E0:81:4 l :A6:59 supportr ackl 05
+
+10.0.38.108
+
+00:22: 15:F2:B5: l i supportrackl 08
+
+10.0.38.110
+
+00:22: 15:67:5F:DB ors-server
+
+10.0.38.103
+
+OO : lB:FC: 1A:21: 17 supportrackl 03
+
+10 .0.38.109
+
+00:23 :54 :8D:6E:48 supportr ack109
+
+10.0.38.11 1
+
+OO : 1F:C6:84:84 :9A supportex pand
+
+10.0.38.112
+
+00:50:8D:9C:42:71 lOgig-generator
+
+SUPPORT-WA
+
+SUPPORTRAC
+
+E
+
+[Il
+
+nu
+Polling starts in 1 minute, 20 seconds .. . Rediscovery starts in 8 minutes, 7 seconds ...
+
+•·
+
+._.....
+elPXO
+
+.'.1t
+~ TrainingApp
+ml Log Setlings
+
+• ,
+
+Find
+
+1LJt
+~
+
+NI
+World
+
+1LJt
+~
+
+NOC
+
+l.'...it
+~ 18
+
+N wN I on7
+
+1LJt
+~ Just
+
+Netinst
+
+1~
+~
+
+SUMMARY
+
+1~ 10.0.36.156:
+1
+
+NI UK
+
+L l i
+!f:
+
+·
+
+10.0.36.1 56: Net1nst.com
+
+_ l _ Log Filter._~DN E_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+
+Observer Infrastructure Appliances
+ 100 ou 500 Device Appliance
+
+
+
+
+
+1.3U chassis
+4 Gb RAM
+Quad core processor
+1 TB storage
+
+ Enterprise Appliance
+
+
+
+
+
+2U chassis
+8 Gb RAM
+Dual Quad Core Processor
+2 TB storage (4 x 500 GB)
+
+ Also sold as software only (100/500 Device)
+
+

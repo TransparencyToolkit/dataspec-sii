@@ -1,0 +1,196 @@
+Multi Room Monitoring via Telephone Lines
+(Heimdal / TSE 4004)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+1
+
+Multi Room Monitoring via Telephone Lines
+(Heimdal / TSE 4004)
+
+The TSE 4004 Wired Room Monitoring System is a highly professional system designed for remote
+monitoring where full transmitter
+control via standard PSTN lines is
+needed. TSE 4004 is designed to
+allow the user to install up to 8
+transmitters, using a combination
+of active phone lines or spare wires
+and mains lines. The individual
+transmitters can be switched on
+and off remotely. The modular TSE
+4004 system consists of transmitter(s), one receiver module, PSTN
+modules and of control software
+for PC.
+Transmitters
+The TSE 4004 transmitters incorporate the following advanced features: scrambler,
+AGC and remote control receiver.
+The remote controlled functions of the transmitters are power on/off and scrambler
+on/off.
+Two different types of transmitters have been developed for the TSE 4004 system.
+The TSE 4004 Wired Monitoring transmitter (HWM) is to be used on active phone
+lines or spare wires. The TSE 4004 Carrier Current transmitter (HCC) is to be used
+on active mains lines.
+Receiver System
+The RX module is a small, flat and compact cabinet, which is only 44 mm high. One
+RX module handles 2 transmitters simultaneously.
+The RX module has the following features:
+-
+
+Target line interface for both PSTN and spare wires (HWM) and mains wires (HCC)
+Dual tuner - each with 4 channels
+High impedant input for LF audio. Enables monitoring of PSTN line without transmitter
+Audio descrambler
+Remote control of transmitters
+Noise masking for HWM transmitters
+Line output for recording
+Output for headphones
+
+It is possible to have both HWM and HCC transmitters operating at the same time,
+enabling the operator to monitor, for example, one HWM transmitter and one HCC
+transmitter simultaneously.
+The RX module is powered from an external low voltage source. The RX module is
+delivered with a mains adapter, but can also be powered from a car battery.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+PSTN Module – Remote set-up
+The PSTN module provides a link from the listening post to the monitoring site. One
+PSTN module is needed at the monitoring site and one at the listening post. The
+PSTN module can handle 2 lines simultaneously and transfers both the audio from
+the transmitter and the remote control commands.
+The PSTN module at the monitoring site can also be dialed up from standard telephone equipment, including mobile phones. Access to the system is done by
+means of the telephone keypad. This feature enables the operator to make a quick
+control of the TX / RX / PSTN set-up.
+The PSTN module is very easy to install – it is connected to the receiver via one single cable, containing all the required signals and power.
+Control Software
+All facilities in the TSE 4004 system can be software controlled via a PC. The control
+set-up can be provided by connecting the control PC directly to the receiver module
+or to the local PSTN module at the listening post.
+Applications
+- TSE 4004 is ideal for operations requiring:
+- Single room monitoring
+- Multi-location room monitoring
+- Phone lines, spare wires and mains lines
+- Local set-up
+- Remote set-up
+- Undercover “black-box” set-up
+Features
+- 4 active transmitter channels
+- High audio quality
+- Small size transmitters
+- Audio scrambling
+- Remote control of transmitters
+- PSTN module for link of intercepted audio to remote listening post
+- Current re-injection on phone lines for system security
+- Small “black-box” receiver unit
+- Control of software via PC
+- Easy to install
+- Easy to use
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Technical Specifications
+RX module
+
+Number of channels
+Frequency range
+Sensitivity
+Number of built-in tuners
+Modulation
+Remote control transmitter
+Serial interface to PC /
+PSTN module
+Power source
+Dimension (HxWxD)
+
+Transmitters
+General
+data
+
+Number of channels
+Frequency range
+Type of modulation
+Audio scrambling
+Remote controllable
+Packing
+
+HWM
+specific data
+
+Transmitted power
+Line voltage range
+Dimensions (HxWxD)
+
+HCC specific
+data
+
+Transmitted power
+Mains voltage range
+Dimensions (HxWxD)
+
+PSTN module – Remote set-up
+
+PSTN interface
+Number of PSTN lines
+Data mode
+Tape control
+
+4
+110-240 kHz
+10 dBuV / 20 dB
+SINAD
+2
+FM
+28 kHz, OOK
+RS-232
+7-11 VAC or 10-15
+VDC
+44x130x164 mm /
+1.7x5.1x6.5 inches
+4
+110-240 kHz
+FM
+Frequency inversion
+Yes
+Shrink tube, black
+50 mVRMS into
+100
+6-80 VDC
+Approx. 7.5x32x20
+mm / 0.3x1.3x0.8
+inches
+500 mVRMS into 2
+85-265 VAC
+Approx. 15x35x23
+mm / 0.6x1.4x0.9
+inches
+Global compliant,
+SW controlled
+2
+FSK / DTMF
+VOX controlled, adjustable from PC
+SW
+
+Serial interface to PC /
+RX module
+
+RS-232
+
+Dimension (HxWxD)
+
+44x130x84 mm /
+1.7x5.1x3.3 inches
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+

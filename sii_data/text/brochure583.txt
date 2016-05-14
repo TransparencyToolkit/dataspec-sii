@@ -1,0 +1,189 @@
+I
+
+TMR 16E1 PCle
+PC1 Express form factor Digital E l Trunk Passive Board
+
+Technical Specifications
+Features
+Dimensions
+
+153x98x14mm
+
+PuIm S h p Cmphnm
+
+as ITU-T 0,703 pulse mask
+
+Lifw Code
+
+HDB3
+
+Clock RecoveryIRegeneration
+
+as ITU-T 6.703, 8.735,6.824m d 1.431
+
+Monitoring Mode
+
+G.772 Non-intrusive monitoring
+
+I
+Form Facto
+
+Apt& M
+
+Uses BTT's APi and Drivers,
+Supports W~ndowsand Linux Operating System
+
+r
+
+Options
+TMR 16E1 PSS-B: It may be used in conjunction of TMR 16E1 PCle board for tapping
+of up to 16 E l signals. It is 19" rack mountable unlt with 20 RJ45 female ports, 16 RJ45
+port is for each E l input and 4 RJ45 ports for connection to TMRl6El PCle board.
+
+d
+Patch panel options
+
+TMR 16E1 PSD-A: It may be used in application that require the E l signal
+Input to be simultaneously connected to active terminal equipment, while at
+the same time connecting the copy of the E l signal to TMR 16E1 PCle board.
+
+Call Monitoring & Recording Applications Software
+API : E l Analyses Library
+Supports SS7 [ISUP),Rl,R2 and ISDN PR1 call
+state and voice signal analyses
+
+E l Analyses Library Common Features
+Tone Detection
+CallerlDIDTMFlMF Detection
+Activity lSilence Detectors
+Stereo Recording
+Live Monitoring
+StartIStop Call Recording Triggers
+
+About Tamara:
+Since its establlshment in 1996,Tamara Electronics has been a company specialized i n the design of hardware products. With know-how on PC1
+Express, PCI, USB , Embedded Linux. Ethernet and more others, we provide design and production servlce. Experience, rellabllltyand Leading edge
+of technology allow us to manage designing hardware for security, intelligence and law enforcement agencies.
+*Driver and software's are supplled by BTT, solutlon partner of Tamara. Iwww.btt-lnt.coml
+
+Address : Acibadem Cad. 3413 Kadlkoy 34718 Istanbul - TURKiYE
+electronics design
+
+Phone
+
+:
+
++90 12161 418 92 94 e-mall
+
+: tamaraEitamara.corn.tr
+
+I
+
+Qtamara
+
+TMR l 6 E
+PC1 Express f o r m factor Digital E l Trunk Passive Board
+TMR 16E1 PCle provides the platform to build powerful
+applications based on PSTN and GSM Mobile Network
+protocols.
+The TMR 16E1 PCle is capable of operating in nonintrusi+e monitoring o r terminating modes, this allows
+tapping of the network for surveillance o r other ValueAdded Services [as OSS) where required.
+Supporting BTT's* broad range of SS7,RI,R2 and
+ISDN PR1 based telephony APl's, call monitoring and
+recording applications can be developed.
+
+.
+
+Leading chassis manufacturers are removing the legacy
+PC1 slots from PCIserver products, replacing them with
+higher capacity PCle slots. This change in expansion
+bus architecture demands new form factor telephony
+boards to be developed. TMR 16E1 PCle is a low profile,
+half size PC1 Express board, allowing it to be deployed
+in the widest selection of chassis available.
+
+TMR 16E1 PCle
+
+Features
+16 E l Inputs ( 8pair of Rx+TxI per board
+
+Non-intrusive and undetectable hlgh Impedance
+
+Target Applications
+
+passive monitoring or 120 ohm termination mode optlons
+Unique Hardware Serlal Number [Silicon ID1for
+
+TMR 16E1 PCle is suitable for deployment by system
+intearators.
+OEMs and amtication
+develooers.
+a
+,
+
+distinguish itself from other boards and prevent plracy
+
+r
+
+Data transfer with 16 channel double buffer DMA technology
+TMR 16E1 PCleisusedasatoolfo
+tio
+to passively tap E l trunks in high-density telephony
+environments. It can be permanently installed E l trunks
+such as in the PSTN SS7 network and on GSM Gb, Abis, A
+interfaces. The monitored data from the network can be
+used for a wide varietv of value added services [VAS) and
+operational support system [OSS] applications.
+~ i c aOSS
+l
+applica
+
+Wlndows & Llnux Driver
+
+Benefits
+PC1 Express computer bus Increases solution Longevlty
+
+Fraud management systems @j,33$
+Billing systems
+Performancellc
+Quality of service monitor in^
+->F*
+Network management
+h
+E911 location, search and rescue
+Lawful interception requirements
+
+Scalable, can monitor a single E l to countrywlde networks
+Powerful, allows complex fllterlng, mass monltorlng,
+tracklng of numerous targets etc without degrading or
+
+overloading operator equipment
+
+1
+
+Overlay system, Independent from operator equipment
+
+Typical
+VAS applications
+include
+..
+..
+Welcome note for roamers
+Missed call alerts
+Roaming servic
+Location based
+Location based informat~onpoints
+'Where am I?' / 'Where is?' Location services
+..aaM'=.m.-7,.
+
+Electronic Desian Company
+
+High density half size low profile PC1 Express card
+
+,-X
+
+(
+
+1
+
+

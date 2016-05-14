@@ -1,0 +1,578 @@
+3GPP SA 3 LI handling US and European needs
+Bernhard Spalt
+Chair 3GPP SA 3 LI
+
+Nokia Siemens Networks
+Vienna, Austria
+
+Company Confidential
+1
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Content
+!Structure of 3GPP
+!General Concept
+!Common IMS
+!Dynamic triggering
+" Questions
+" Conclusion
+
+!Back Up
+
+Company Confidential
+2
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+3rd Generation Partnership Project
+Organizational Partners:
+ARIB, CCSA, ETSI, ATIS, TTA, and TTC
+
+ARIB
+(Japan)
+
+ATIS (USA)
+
+CCSA
+(China)
+
+TTA
+(Korea)
+Company Confidential
+3
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+TTC
+(Japan)
+
+Definition of the Third Generation Partnership
+Project
+3GPP will provide globally applicable Technical Specifications
+for a 3rd Generation Mobile System based on the evolved GSM
+core network, and the Universal Terrestrial Radio Access
+(UTRA), to be transposed by relevant standardization bodies
+(Organizational Partners) into appropriate deliverables (e.g.,
+standards).
+
+Company Confidential
+4
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+TSG ORGANIZATION
+
+Project Co­ordination Group
+2PCG3
+TSG GERAN
+
+TSG RAN
+
+GSM EDGE
+Radio Access Network
+
+Radio Access Networks
+
+GERAN WG1
+
+RAN WG1
+
+Radio Aspects
+
+Radio Layer 1
+specification
+
+GERAN WG2
+
+RAN WG2
+
+Protocol Aspects
+
+GERAN WG3
+
+Terminal Testing
+
+)*%123 ! )4%123
+
+4%123 ! <=*%127%%%%%%%%%%%%%%%%%%%%%%%
+
+)*%12&
+
+4%12&
+
+)*%125 ! )4%125
+
+4%125 ! )4%12>
+
+)*%127 ! )4%127
+
+2?<=*%126
+2?<=*%127
+
+Company Confidential )4%127
+5
+© Nokia Siemens Networks
+
+@ ! 2?<=*5
+
+SA WG2
+
+RAN WG3
+
+SA WG3
+
+Radio Performance &
+Protocol Aspects
+
+RAN WGL
+
+)*%126 ! )4%126
+
+Services
+
+Architecture
+
+RAN WG4
+
+)*%)+,$%#$-.+,/0%%%%%%%%%%%%%%%4%4$,89#:;0
+
+SA WG1
+
+Radio Layer2 spec &
+Radio Layer3 RR spec
+
+lub spec lur spec lu spec &
+UTRAN O&M requirements
+
+CLOSED GROUPS
+
+TSG SA
+
+Services &
+System Aspects
+
+Mobile Terminal
+Conformance Testing
+
+Bernhard Spalt / Sep. 2008
+
+Security
+
+SA WG4
+Codec
+
+TSG CT
+
+Core Network
+& Terminals
+
+CT WG1
+
+MM/CC/SM 2lu3
+
+CT WG3
+
+Interworking with
+External Networks
+
+CT WG4
+
+MAP/GTP/BCH/SS
+
+CT WGV
+
+Smart Card
+Application Aspects
+
+SA WGL
+
+Telecom Management
+
+!"#
+
+General Concept
+!
+
+One document set as LI solution for 3GPP
+
+!
+
+National LI regulation could be done via one reference
+" Clear structure of necessary functions
+
+!
+
+Include the common requirements of all 3GPP members
+
+!
+
+Detailed stage 2 definitions
+
+!
+
+Mainly based on access interception, but service
+interception is already fixed for specific services
+
+Company Confidential
+6
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Specifications
+
+! TS 33.106 Lawful Interception requirements
+" Stage 1
+
+! TS 33.107 Lawful Interception architecture and functions
+" Stage 2
+
+! TS 33.108 Handover interface for Lawful Interception
+" Stage 3
+" Based on / coordinated with ES 201 671 / TS 101 671
+
+Company Confidential
+7
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Common IMS LI
+According to the agreement between TISPAN & 3GPP the IMS
+definitions out of 3GPP will also be used by TISPAN.
+IMS LI definitions have to be drafted in a way that also TISPAN
+could use them.
+Update of current specification is suffizient
+Main question for LEAs: Who will fix the details for CC??
+! dynamic triggering seems to be the solution
+
+Company Confidential
+8
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Dynamic triggering
+General questions
+1. LI could be activated within one domain within one country
+2. LI could be activated within one domain
+#on&' care abou' na'ional bor#ers
+
+3. LI could be activated within one country,
+domain / operator borders doesn't matter
+
+4. LI could be activated at 'any' access server
+no domain or border restriction
+
+Company Confidential
+9
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+1. LI could be activated within one domain within
+one country
+Current assumption within all LI concepts and standards.
+Usual LEA behavior:
+! 2ne 3arran' for 5o3n6 cus'omers
+! Several warrants for all operators for roamers
+
+Company Confidential
+10
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+2. LI could be activated within one domain
+!"#$%&'()*&(+",%&#(%-"#(.&+")!*)/
+Operators still hope to get centralized services
+Main problem:
+" is it legal to send the target list out of the country ?
+Solution within EU could be expected
+
+Company Confidential
+11
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+3.LI could be activated within one country,
+domain / operator borders doesn't matter
+Legal question:
+Could Operator 1 activate LI in the Operator 2 network?
+
+"In this way quite dangerous!
+German regulations already include this requirement, but no
+technical details exist!!
+
+"Get a solution involving the regulators
+"trusted government organization
+Company Confidential
+12
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+4. LI could be activated at 'any' access server
+no domain or border restriction
+Practical question:
+Could a SIP service provider (e.g. in India) offering this service
+in Germany activate interception for CC within Germany??
+
+Problems:
+!Sending target info out of the intercepting country
+!8o 9rela'ion5 be'3een IRI an# << =rovi#ing o=era'ors
+!@ui'e #angerous for misuse by 5anybo#y6
+
+"No technical solution seen,
+"too many legal restrictions / problems
+Company Confidential
+13
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Dynamic triggering
+Conclusion
+If standardization fixes LI dynamic triggering solutions for
+question 3, but no concepts for question 4!
+Might / Will bring market / marketing advantages for operators
+working based on question 4.
+Expect statements (explicit or implicit):
+Choose our service, you will not be intercepted !!
+Worst case:
+Operator will go out of the country to prevent LI
+
+Company Confidential
+14
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Contact
+
+Bernhard Spalt
+mailto:bernhard.spalt.ext@nsn.com
+mailto:bernhard.spalt@siemens.com
+
+Tel.: +43 51707 21474
+
+Company Confidential
+15
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Access Interception
+My usual s'a'emen'C 9De' i' a' 'Ee access or forge' i'5
+Background:
+!All information has to go via the access nodes
+!No discussion where the service is executed and if the access
+is possible at all
+!If an UE is able to handle this, a Monitoring Center (MC) has to
+support the same functionality
+
+Company Confidential
+16
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Service Interception
+!
+
+Additional requirements for each service
+" No clear situation where these services are created/executed
+
+!
+!
+!
+!
+
+Additional LI functions for each service
+Always detailed functions " no national regulation for
+services
+Access to service might be out of the national jurisdiction
+"restriction for services usually not possible and also
+not recommended
+Cost consideration
+" Seems to provide for a cheaper MC; but this is not true
+" Expensive at the TSP side
+
+Company Confidential
+17
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+LI for conferencing
+Whole chapter will become a national option, as the details
+might conflict with national regulations.
+Currently no CS LI requirements for conference server exists
+All these details are fixed for SIP specific conferencing
+
+Company Confidential
+18
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+LI for conferencing (Fig)
+Draft common architecture
+
+X1_1
+HI1
+
+Mediation
+Function
+
+ADMF
+AS/MRFC
+
+X1_2
+HI2
+
+X2
+
+Mediation
+Function
+
+LEMF
+
+Delivery
+Function 2
+X1_3
+
+HI3
+
+X3
+
+Mediation
+Function
+
+Company Confidential
+19
+© Nokia Siemens Networks
+
+Delivery
+Function 3
+
+Bernhard Spalt / Sep. 2008
+
+MRFP
+
+History
+Alrea#y for DSM 'Ee Hsame‘ bo#y eJis's" SMG 10 WP D
+Specifications:
+
+GSM 1.33 (old GSM 10.20)
+GSM 2.33
+GSM 3.33
+Currently maintained by SA3 LI as
+41.033"1.33
+42.033"2.33
+43.033"3.33
+Company Confidential
+20
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Abbreviations I
+AAA
+ADMF
+BM-SC
+CC
+CS
+ASN.1
+CC
+CSCF
+DF
+GGSN
+GPRS
+GSM
+GSN
+HI
+HI1
+HI2
+HI3
+IMEI
+IMS
+
+Authentication, Authorization, and Accounting
+Administration Function
+Broadcast-Multicast Service Centre
+Content of Communication
+Circuit Switched
+Abstract Syntax Notation, Version 1
+Content of Communication
+Call Session Control Function
+Delivery Function
+Gateway GPRS Support Node
+General Packet Radio Service
+Global System for Mobile communications
+GPRS Support Node (SGSN or GGSN)
+Handover Interface
+Handover Interface Port 1 (for Administrative Information)
+Handover Interface Port 2 (for Intercept Related Information)
+Handover Interface Port 3 (for Content of Communication)
+International Mobile station Equipment Identity
+IP Multimedia Core Network Subsystem
+
+Company Confidential
+21
+© Nokia Siemens Networks
+
+Bernhard Spalt / Sep. 2008
+
+Abbreviations II
+IMSI
+IP
+IRI
+LEA
+LEMF
+LI
+MF
+MME
+MSISDN
+P-CSCF
+P-GW
+PDP
+S-CSCF
+S-GW
+SGSN
+SIP
+SMS
+URI
+URL
+Company Confidential
+22
+© Nokia Siemens Networks
+
+International Mobile Subscriber Identity
+Internet Protocol
+Intercept Related Information
+Law Enforcement Agency
+Law Enforcement Monitoring Facility
+Lawful Interception
+Mediation Function
+Mobility Management Entity
+Mobile Subscriber ISDN Number
+Proxy Call Session Control Function
+PDN Gateway
+Packet Data Protocol
+Serving Call Session Control Function
+Serving Gateway
+Serving GPRS Support Node
+Session Initiation Protocol
+Short Message Service
+Universal Resource Identifier
+Universal Resource Locator
+Bernhard Spalt / Sep. 2008
+
+

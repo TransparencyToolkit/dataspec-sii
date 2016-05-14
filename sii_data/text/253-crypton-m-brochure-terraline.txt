@@ -1,0 +1,174 @@
+Trunk-based communications monitoring system
+
+"Terraline Portable"
+The system is intended for operative control of up to 8 duplex digital E1 trunks of fixed phone network or
+GSM cellular communication network. "Terraline Portable" system allows to provide fast monitoring of
+currently interesting connections. The optimization of used software enables to combine on one PC th e
+abilities of big stat ionary monitoring syst ems.
+"Terrallne Portabl e" system provides:
+·Monitoring connection, tapping and translation of up to 8 duplex digital trunks of E1 standard
+(G. 703) 75/120 Ohm;
+· Procession of digital trunks with ITU #5, R1, Rl .5, R2, DTMF, R2D, ISDN, EDSS1, SS#7 signaling;
+· Procession of digital t runks of GSM cellular communications network with A or A- ter interfaces;
+·Automated selection of sessions by phone numbers, M SISDN, IMSI, IMEI, Cell ID;
+·Demodulation of fax sessions, according to V.27ter, V.29, V. 17 and V.34 fax recommendations;
+·Procession of MH, MR, MMR, ECM, JBIG, JPEG protocols.
+•Demodulation ofV.21 , V.22, V.22bis, V.26, V.26bis, V.27, V.29, V.32, V.32bis, V.33, V.34, V.90 modem sessions;
+·Decoding and error correction V.42, V.42bis, V.44, CODEX, MNP 1-5, HDLC, PPP, Slip, UUCP, IP, TCP, UDP, SMTP,
+POP3, IMAP, MIME, FTP, Web, X-Y-Z modem and Kermit protocols etc;
+·Support of the local database, providing the storage
+phone numbers of interest and search of information
+about the required communication sessions;
+· Automated archiving of the recorded information into external digital media;
+\l.J\'\
+· Automated operation of the system according to pre-set scenario;
+·Possibility of the remote access to the system via LAN, WAN, Dial-up, Leased line.
+
+oJ
+
+.... ............ .. .. .... ............... ........... ........................................" .
+~
+
+•
+
+•
+•
+
+•
+•
+••
+•
+•
+
+Digital Trunk
+Processlng Server
+
+MSC
+
+Trunk-based communications monitoring system
+
+E
+cu
+
+...,
+"'~
+"'en
+c
+
+·-...,...
+·-c
+0
+0
+
+E
+
+"'c
+0
+·-...,
+ta
+
+u
+
+..........
+
+·-c:::s
+
+CV E
+E
+
+c
+
+·...I
+
+0
+u
+"'C
+GI
+
+ta
+RS
+"'
+I.. .c
+I..
+
+I
+
+~
+
+..
+~
+c
+
+:::s
+
+t.. ... .
+
+"Terraline GJobaJ"
+The"Terraline"Global Monitoring System (hereinafter as "System") is designed for auto·
+matically input, record and process communication sessions from digital trunks with dif·
+ferent kind of sig naling such as ITU #5, R1 , R1 .5, R2, DTMF, R2D, ISDN, EDSS1, SS#7 and
+A or A·ter interfaces. The System provides dassificatio n of sessions according to signal
+forms (voice, fax or data) and their storage during predetermi ned time together with the
+session-related Information (date, time, duration, calling and called telephone number,
+TMSI, IMSI, IMEI, cell's number etc.). Also System provides an ability to determine a loca·
+ti on of the selected/targeted mobile subscriber while the session is in progress.
+"Terra line Global" system provides:
+•Monitorin g connection, tapping and translation of digital trunks of E1 and STM1 -16;
+·Procession of d igital trunks w ith ITU #5, R1, R1.5, R2, DTMF, R2D, ISDN, EDSS 1, SS#7
+signaling;
+· Procession of digital trunks of GSM cellular communications network with A or A-ter
+interfaces;
+· Automated selection of sessions by phone numbers, MSISDN, IMSI, IMEI, Cell ID;
+• Demodulation of fax sessions, according to V.27ter, V.29, V.17 and V.34 fax recommendations;
+· Procession of MH, MR, MMR, ECM, JBIG, ~PEG protocols.
+·Demodulation ofV.21 V.22, V.22bjs, V.26, V.26bis, V.27, V.29, V.32, V.32bis, V.33, V.34,
+V.90 modem session ;
+,
+,
+\
+·Decoding and error co rr ction 1,(.42, V.42,bis, V.44,CODEX, MNP 1· ,btc, PPP. Slip, UUCP,
+IP. TCP. UDP, SMTP, POP3, IMAP, MIME, FTP, Web, X-Y-Z :modem and K~~m it protocols ~tc;
+·Support of the local databa~e, providing the storage of phone numbers of Interest
+and search of information about the required communication se'ssions;
+· Automated archiving of the recorded information Into external digital media;
+• Automated opera~jon of the system according to pre-set scenario;
+·Possibility of the remote access to the system via LAN, WAN, Dial-up, Leased line.
+
+. . . ..... . . . .. ..... ..... .. ........ .... ........ ......... . ....... .. ...... .
+•
+
+1)
+I
+I
+I
+I
+
+•
+
+L
+
+_ _ c.n..
+
+(J
+
+•
+•
+•
+
+~
+Admlratratof
+
++ (J
+- -oe
+
+~
+
+~
+
+~
+
+~
+
+/
+
+

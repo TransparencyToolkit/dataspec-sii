@@ -1,0 +1,238 @@
+Utimaco LIMS™
+Lawful Interception of Telecommunication Services
+
+Benefits
+Compliance
+Provides surveillance of all common
+telecommunication services in fixed
+and mobile networks, incl. telephony,
+fax, SMS, MMS, Push-to-Talk,
+Internet, e-mail, VoIP, webmail,
+instant messaging and others
+Complies with regulatory requirements
+in numerous countries worldwide
+Conforms to international lawful
+interception standards of ETSI, 3GPP,
+ATIS/ANSI, CableLabs and others
+
+Cost Efficiency
+
+Lawful Interception of Telecommunication Services
+Throughout the world providers of telecommunication services are required to support law enforcement
+agencies in their fight against crime and terrorism. Network operators and telecommunication service
+providers have to install interception facilities in their network to fulfil these obligations. The legal framework of lawful interception (LI) is defined by national laws and regulations, the technical details are defi-
+
+Central management of all intercepts
+even in heterogeneous networks
+Modular, scalable architecture for
+small to very large communication
+networks
+Smooth integration into available
+networks
+
+ned by a number of international technical standards.
+Utimaco LIMS (Lawful Interception Management System) is a proven solution for network operators and
+service providers to automate the administrative and operative tasks related to lawful interception. The
+system is based on a central management platform for the surveillance of communication services and
+implements electronic interfaces to various authorized law enforcement agencies and their monitoring
+centers.
+Utimaco LIMS offers the industry’s broadest range of supported network elements for active
+interception as well as highspeed network probes for passive interception. This approach enables
+lawful interception in virtually any fixed, mobile, and Internet service provider’s environment without
+any negative impact on the performance and reliability of the network and revenue generating services.
+Communication services supported include telephony, fax, SMS, MMS, e-mail, voicemail, VoIP, webmail
+and instant messaging as well as other Internet services. While the system is designed for large-scale
+networks with millions of subscribers, the LIMS suite easily scales to economically feasible solutions for
+networks with only a few thousand users. The modular architecture of LIMS facilitates cost-effective extension
+and adaptation to new technologies and regulatory requirements.
+LIMS complies with international LI standards of ETSI, 3GPP, ATIS/ANSI and CableLabs and satisfies
+the highest security requirements to protect the privacy of all associated data. Utimaco supports providers,
+carriers, and LEAs in need of lawful interception solutions with consulting and technical support services,
+and also provides managed service models together with qualified solution partners.
+
+About Utimaco
+For more than 25 years Utimaco is a leading global provider of data security solutions. Since 1994 Utimaco has been
+providing lawful interception systems for mobile and fixed network operators and Internet service providers.
+Utimaco Data Retention Suite was introduced in response to the EU directive 2006/24/EC and at the request of telecom
+customers for integrated LI and DR solutions. With more than 160 installations in 60 countries, Utimaco is a leading
+global supplier in the LI market.
+While Utimaco data security products are now distributed by Sophos, the business units „Lawful Interception and
+Monitoring Solutions“ and „Hardware Security Module“ form Utimaco’s operating businesses.
+
+Reliability
+Meets highest security demands
+No negative impact on performance
+or reliability of networks and services
+Continuous enhancements support
+the latest technologies and standards
+Close cooperation with regulatory
+authorities and standardization bodies
+16 years of experience in lawful interception
+
+Utimaco LIMS™
+Networks & Services
+GSM, GPRS, UMTS, CDMA,
+CDMA2000, LTE
+PSTN (Fixed Telephony)
+xDSL, cable
+WiMAX, WLAN
+SMS, MMS, Voicemail
+PoC (Push-to-Talk over Cellular)
+Internet Access (IPv4 and IPv6)
+VoIP (SIP, RTP, H.323, SCCP)
+E-mail (POP3, SMTP, IMAP, webmail)
+other IP-based services
+
+Telecommunication Service Provider
+Utimaco LIMS
+
+Law Enforcement
+Agency
+
+TM
+
+LI Handover
+Interface
+
+INI (Internal
+Network Interface)
+X1
+
+HI1
+HI2
+
+Fixed Network
+
+HI3
+X2
+X3
+
+X1
+
+Management Server
+
+Mediation Device 1
+
+Database
+
+Mediation Device 2
+
+Decoder SSL
+
+Mediation Device 3
+
+Gateway
+
+.
+.
+.
+
+High-Availability Module
+
+Mediation Device n
+
+Remote Provisioning Unit
+
+Monitoring Center
+
+X2
+X3
+
+Mobile Network
+
+X1
+
+Lawful Interception Standards
+ETSI TS 101 671 (voice), TS 101 331
+(generic), ES 201 158 (generic),
+TS 102 232-1 to 102 232-6 (IP, E-Mail,
+VoIP)
+ANSI/ATIS: J-STD-025-B (Voice,
+CDMA), T1.678 (VoIP), T1.IPNA,
+T1.IAS (IP), T1.724 (UMTS), TIA-1072
+(PoC)
+3GPP: TS 33.106, TS 33.107,
+TS 33.108 (UMTS)
+PacketCable v1.5 (Cable)
+
+Vendor Interfaces
+Acme Packet, Arris, Bridgewater,
+Broadsoft, Casa Systems, Cisco,
+Ericsson, Huawei, Iptego, Juniper,
+Motorola, Nokia Siemens Networks,
+Nortel, Redback, Sitronics, Sonus,
+Starent Networks, Sun, ThomsonCirpack, Unisys, Vocaltec, ZTE
+and others
+
+Performance
+Maximum number of subscribers:
+virtually unlimited, scalable configurations from 1,000 to several million
+subscribers
+Maximum number of interception
+targets: scalable up to thousands of
+parallel interception targets
+Probe performance: up to 10 Gbps
+per probe
+
+ISP (e-mail, VoIP,...)
+
+X2
+X3
+
+INI: Internal Network Interface
+IRI: Interception Related Information
+CC: Content of Communication
+
+x1, x2, x3:
+
+Internal Network Interfaces for LI Provisioning, IRI
+and CC exchange
+H1, H2, H3: Standard handover interface to the Law Enforcement
+Agency for LI Provisioning, IRI and CC exchange
+
+Key Features
+Central administration of intercepts and target assignments
+Active and passive interception of voice and data services
+Collection and mediation of intercepted data from all network nodes
+Standard compliant delivery of intercepted communications to the appropriate
+law enforcement agency
+Comprehensive user management with granular access rights
+Multi-tenancy, segregates up to 64 different networks/providers
+Authority management
+Integrated system administration and alarm monitor
+Security features
+- RBAC (Role-based Access Control)
+- Transparent separation of multiple authorities
+- Full audit trails of all user and system events
+- IPsec/SSH/TLS encryption
+- Encrypted database and backups
+- System monitor and alarms
+- System redundancy
+- Disaster recovery system
+- Automatic consistency checks
+- Secure remote access
+Remote administration of other LI systems
+Dynamic load-balancing
+Integrated billing capabilities
+Various language kits available
+
+Network Interfaces
+10/100/1000 Mb Ethernet,
+10 Gb Ethernet, X.25, ISDN, E1/T1,
+SDH/Sonet, ATM, SS7 interfaces
+
+Copyright Information
+Copyright © 1994-2011 – Utimaco Safeware AG - a member of the Sophos group, July 2011
+Utimaco LIMS™
+Utimaco LIMS is a trademark of Utimaco Safeware AG. All other named trademarks are trademarks of the particular copyright holder.
+Specifications are subject to change without notice.
+
+www.utimaco.com/lims
+Utimaco Safeware AG
+Germanusstraße 4
+52080 Aachen
+Germany
+Phone +49 (0) 241-16 96-0
+li-contact@utimaco.com
+
+

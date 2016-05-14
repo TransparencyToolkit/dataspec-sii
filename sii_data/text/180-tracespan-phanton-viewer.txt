@@ -1,0 +1,147 @@
+Product Brief
+Phantom Viewer™
+For the Lawful Interception (LI) community seeking a professional and convenient way
+to view and listen to IP intercepted traffic, TraceSpan Communications now offers the
+Phantom Viewer™.
+The Phantom Viewer™ is a unique monitoring application offering comprehensive
+displays of network traffic including Internet Browsing, Email services, FTP, Instant
+Messaging and Voice calls.
+The Phantom Viewer™ combined with the Phantom™ family of passive tapping devices
+is the optimal monitoring solution for the LI community.
+Key Features
+Comprehensive analysis and display of network traffic (web browsing, instant
+messaging, file transfer and email/webmail)
+Detailed target information
+Voice calls playback
+Real-time display and off-line playback via PCAP interface
+Ease of use
+
+10/16/2011
+Rev: 0.5
+
+TraceSpan Communications
+Tel: +972-9-7462221, Fax: +972-9-7469411
+Email: info@tracespan.com, URL: http://www.tracespan.com
+
+Page 1
+
+Phantom Viewer™ Product Brief
+
+Internet Browsing
+The Phantom Viewer™ provides a web page
+view which is very similar to original web browser
+display. The user therefore is able to see the
+web pages as displayed on the Target’s PC. .
+The application also provides information related
+to the session such as date, time and web
+address.
+
+Emails
+Supporting protocols such as POP3, SMTP, IMAP and different WebMail services, the
+Phantom Viewer™ displays emails as seen on a standard email client.
+In addition to the content of the email, the
+user can also see the sender’s email
+address (“From”), the recipients email
+addresses (“To”, “CC”, “BCC”) as well as the
+subject of the email, the date and the time.
+In case an attachment exists, it is shown
+and can be opened from the Phantom
+Viewer application.
+Extremely important information that is also
+displayed is the Username and the
+Password of the target in the email server,
+if they were used in this session.
+
+10/16/2011
+Rev: 0.4
+
+TraceSpan Communications
+Tel: +972-9-7462221, Fax: +972-9-7469411
+Email: info@tracespan.com, URL: http://www.tracespan.com
+
+Page 2
+
+Phantom Viewer™ Product Brief
+
+Instant Messaging
+Chat sessions of different services such as
+MSN messenger, Yahoo messenger, AOL
+messenger, ICQ and QQ are conveniently
+displayed. File transfer over these services
+is also supported.
+Information such as the target IP address,
+the date and the time is also shown.
+
+Voice Calls
+The Phantom Viewer™ not only enables to
+view the traffic content but also to listen to
+actual voice calls over different platforms
+and services such as IM applications, SIP
+and H.323.
+The application supports all the major
+codecs currently available and support for
+new codecs is constantly added.
+
+10/16/2011
+Rev: 0.4
+
+TraceSpan Communications
+Tel: +972-9-7462221, Fax: +972-9-7469411
+Email: info@tracespan.com, URL: http://www.tracespan.com
+
+Page 3
+
+Phantom Viewer™ Product Brief
+
+Easy Search Function
+The amount of intercepted data very large and difficult to
+manage. Phantom Viewer™ has an easy search and
+filter function that allows finding what you are looking for
+instantly by utilizing an integrated database. You can
+define several queries with different keywords and the
+relevant information will be conveniently displayed.
+
+System Specifications and Minimum Requirement
+OS
+
+Windows® XP Professional
+
+System requirements
+
+Intel® Pentium 4, 3.4GHz, 2GB RAM, 30MB disk space
+
+Supported protocols
+
+SMTP, POP3, IMAP4, HTTP, FTP, Telnet, H.323, SIP and RTP
+
+Supported Codecs
+
+G.711, G.723, Microsoft GSM, G.729 and G.726
+
+Supported applications
+
+ICQ, MSN, AIM, Yahoo, AOL, QQ and Windows Live
+
+Supported Webmails
+
+MSN, Yahoo and Gmail
+
+Import file format
+
+Libpcap format
+
+Contact Information
+E-mail: info@tracespan.com
+Website: www.tracespan.com
+
+Specifications are subject to change without prior notice
+10/16/2011
+Rev: 0.4
+
+TraceSpan Communications
+Tel: +972-9-7462221, Fax: +972-9-7469411
+Email: info@tracespan.com, URL: http://www.tracespan.com
+
+Page 4
+
+

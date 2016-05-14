@@ -1,0 +1,1685 @@
+ARPEGE ISIS-4G/IRIS-4G/IRMA-4G
+Satellite Monitoring System
+Retrieval of information from ACeSIISAT satellite communications system (GMR-2)
+
+A Rohde&Schwarz Company
+
+ARPEGE ISIS-4Gl
+
+The modular system concept allows information to be
+captured with and without call contents (traffic channels)
+monitoring.
+
+Satellite Monitoring
+System
+The ARPEGE ISIS-4G/IRIS-4G/IRMA-4G satellite
+monitoring system enables the passive monitoring and analysis
+Of communications sessions Of the
+ACeS and ISAT satellite communications systems via
+the air interface.
+The GMR-2 satellite monitoring system includes three
+main system components and the ARPEGE monitoring
+center:
+I ARPEGE ISIS4G monitors the telephone activities within
+the GMR-2 satellite global beam. ARPEGE ISIS4G is part
+of the central station
+I ARPEGE IRIS-4G monitors active GMR-2 mobile phone
+contents within the GMR-2 satellite global beam (C-bandonly). Duplex phone contents are available within a range
+of approx. 1000 kilometers from the monitoring site.
+ARPEGE IRISQG is part of the central station
+I ARPEGE IRMA4G monitors active GMR-2 mobile phone
+contents outside the ARPEGE IRIS-4G system's two-way
+coverage area. ARPEGE IRMA-4G is part of the remote
+sensor station
+I The ARPEGE monitoring center is usually located near
+the central station. Operators there analyze the intercepted GMR-2 activities and communications contents
+
+L
+
+N.R L-
+
+,U--
+
+iWr@ptk?m
+
+(INMARSAT)
+
+@
+
+-
+
+Without call contents monitoring, the system supplies
+statistical information about the IMSls of active GMR-2
+mobile phones in GMR-2 spot beams. With call contents
+monitoring, the system provides identifying characteristics
+of the calling and the called subscribers, as well as intercepted contents, e.g. voice, fax or data. The information
+thus gained can be processed, analyzed and forwarded to
+the customer by means of the ARPEGE monitoring center.
+The ARPEGE ISIS-4GIIRIS-4GIIRMA-4Gsatellite monitoring systems are
+of the SatMon system
+from
+-
+
+.
+
+ARPEGE (see figure below)
+
+Key facts
+I Satellite
+
+monitoring system for GMR-2 footprint areas
+(ACeS over Garuda-l and ISAT over 1-4 INMARSAT
+satellites)
+I Two-way contents monitoring in areas outside range of
+central station by means of remote sensors
+I Display of telephone activities in spot beams on electronic map
+I Contents analysis and network analysis by means of
+ARPEGE monitoring center software
+I Modular, scalable system configuration
+I Sustained system concept: universal hardware platform
+for implementing various SatMon systems, and
+comprehensive system health monitoring
+
+U " ~ P ~ - % * ,
+
+ARPEGE THE%*
+interceptionsysten
+(Thura~a)
+
+$
+
+ARPEGE ISIS-4
+(ACeSASAT mobile phones)
+
+ARPEGE ISIS-4Gl
+IRIS-4GlI RMA-4G
+Satellite Monitoring
+System
+
+-
+
+ARPEGE ISlSQG determining GMR-2 activities
+and identifying areas of interest
+D page 6
+
+ARPEGE IRISQGIARPEGE IRMA4G
+GMR-2 contents
+
+- monitoring
+
+lnterception of duplex traffic with a central station
+interception of transmissions in remote regions
+without deploying a remote sensor
+I lnterception of duplex traffic in remote regions by
+deploying remote sensors
+D page 8
+
+I
+
+I One-way
+
+Seamless intelligence by reconstructing intercepted
+GMR-2 data
+D page 13
+Monitoring fax and data communications
+D page 14
+Convenient, subscriber-oriented analysis with the
+ARPEGE monitoring center
+D page 15
+Safe investment due to sustained system concept
+D page 17
+
+ARPEGE ISIS-4GIIRIS-4GIIRMA-4GSatellite Monitoring System 3
+
+Introduction
+GMR based mobile radio systems
+GMR is an ETSl standard and stands for "GEO mobile
+radio interface". Many parts of the GMR standard are
+derived from the GSM standard.
+Three satellite systems run GMR-based radiocommunications systems: Thuraya, ACeS (Asia Cellular Satellite System) and ISAT. Thuraya is based on the GMR-1 standard,
+which is not discussed in this document. For more information about the Thuraya system, refer to the ARPEGE
+EDITHTTHERESEIMARTHE product brochure. ACeS and
+ISAT are based on the GMR-2 standard.
+ACeS is a company headquartered in Indonesia and operates one satellite (Garuda-l). The coverage area includes
+Indonesia, Malaysia, Thailand, Vietnam, China, India and
+parts of Pakistan. In 2006, ACeS entered into a collaboration
+agreement with INMARSAT, a satellite telecommunications
+company based in Great Britain. INMARSAT runs the ISAT
+mobile radio system and operates three 4th generation satellites (1-4 EMEA, 1-4 APAC, 1-4 Americas), which provide
+GMR-2 service. Currently, 1-4 EMEA and 1-4 APAC provide
+ISAT service in Africa, the Middle East, Asia and Europe.
+The GMR-2 system enables voice, fax and data communications. Voice traffic accounts for the largest part of all
+GMR-2 communications.
+
+GMR-2 coverane areas
+
+GMR-2 mobile phones are only slightly larger than conventional GSM mobile phones. GMR-2 mobile phones operate
+in dual mode: If a GSM network is available, it is used to
+set up a call; otherwise, a call is established via a GMR-2
+satellite. However, subscribers can force a connection via
+satellite even if a GSM network is available.
+The geosynchronous satellites provide coverage for mobile
+communications via a large number of spot beams. Communications within a spot beam take place in the L band.
+Communications between the satellite and the gateway
+stations take place in the C band in the global beam
+and can thus be monitored from any location within the
+GMR-2 satellite's footprint area.
+
+Aspects of radiomonitoring
+Similar as in GSM networks, the traffic channels and
+most signaling channels are encrypted in the GMR-2
+system. For contents analysis, captured traffic needs to be
+decoded first.
+ARPEGE ISIS-4G monitors communications in the C band
+from any location within the GMR-2 satellite's footprint
+area.
+ARPEGE IRIS-4G and ARPEGE IRMA-4G capture
+traffic channels (voice, fax, data) and identifying call
+characteristics.
+
+m
+..
+,
+
+l
+
+\ C/L band
+
+Monitoring range
+Similar to the terrestrial GSM, the GMR-2 system uses the
+same radlo frequencies in different spot beams (frequency
+reuse). As an inherent feature of the GMR-2 system, twoway interception of traffic channels is possible only in a
+limited number of spot beams around the site of the monitoring system. Two-way Interception means the reception
+and processing of the incoming (forward link) and outgoing (return link) radio signals (each from the perspective of the GMR-2 subscriber). The two-way intercept~on
+range depends on the areas covered by the spot beams
+and on the distance between spot beams using the same
+frequency and timeslots. Outside the two-way interception
+range, a central station (ARPEGE IRIS4G) intercepts and
+processes the return links (outgoing voice, fax and data)
+for a speclflc number of spot beam areas. Remote L band
+sensors (ARPEGE IRMA4G) intercept the forward link on
+site, thus expanding the two-way Interception range of the
+monitoring system.
+As a basic rule, duplex communications can be intercepted in the spot beam in which the monitoring system is
+located. Plus, duplex communications can be intercepted
+In some spot beams adjacent to the center spot beam
+depending on the allocation of frequencies and tlmeslots.
+
+ARpEGElRMA4G
+
+The flgure on the lower left shows as an example the
+coverage provided by a Korean-based ARPEGE IRIS4G
+
+l
+
+I
+
+system.
+Neighboring spot beam clusters can use the same frequencies without interfering with one another. Spot beams
+that use the same frequency can be successfully intercepted by one monitoring station due to the use of different timeslots. Typically, the spot beams in question differ
+in signal power. The stronger signal will be intercepted; the
+weaker signal will be lost.
+
+7
+
+Two-way interception range of a Korean-based
+ARPEGE IRIS4G svstem
+
+'
+
+A preliminary site survey is recommended in order to
+measure the actual coverage provided by the relevant
+spot beams (spot beam visibility). This, in turn, will help to
+determine the monitoring coverage provided by ARPEGE
+
+ARPEGE ISIS-4GIIRIS-4GIIRMA-4GSatellite Monitoring System 5
+
+ARPEGE ISIS-4G -
+
+Principle of operation
+Each activity of a mobile phone in the GMR-2 system
+starts with some bursts that are transmitted over the
+standalone dedicated control channel (SDCCH).This feature has been adopted from the GSM standard, though
+the GMR-2 SDCCH burst's structure is different from that
+of the corresponding GSM burst.
+
+determining GMR-2
+activities and
+identifying areas of
+interest
+
+An SDCCH channel is established for each traffic channel in a spot beam for one of the following reasons, for
+example:
+I The subscriber initiates a call (mobile-originated call)
+I The subscriber accepts a call (mobile-terminated call)
+I For technical reasons (location update, etc.), without any
+activity on the part of the subscriber
+SDCCH bursts are transmitted from the mobile phone to
+the satellite in the L band. Signal interception takes place
+in the C band, i.e. in the downlink from the satellite to the
+gateway station.
+It must be taken into account, however, that there is no
+fixed mapping of the traffic channel of a spot beam in
+the L band uplink to frequencies in the C band downlink.
+Instead, frequency mapping may be changed without
+notice. For the monitoring system, this means that all
+SDCCH channels of the GMR-2 satellite system have to be
+intercepted simultaneously, even if the area of interest may
+be limited.
+
+Operating principle of the ARPEGE ISIS-4G
+satellite monitoring system
+
+,
+
+The required monitoring bandwidth may vary depending on the type of satellite being monitored (ACeS or
+INMARSAT). ARPEGE ISIS4G provides full-band activity
+detection for ACeS monitoring. For GMR-2 activities over
+INMARSAT satellites, which operate in a wlder frequency
+range, ARPEGE ISIS4G needs to be expanded to provide
+full-band activity detection (ARPEGE ISIS-4G + ARPEGE
+ISIS-4G-X).
+ARPEGE ISIS4G receives the GMR-2 s~gnalfrom a tracking parabolic antenna for the C band that converts the signal t o the L band. The figure opposite shows the operating
+principle of the ARPEGE ISIS-4G satellite monitoring systern in a simplified manner.
+
+L band
+
+I
+
+Gateway station
+
+ARPEGEISIS4G
+
+System structure
+The ARPEGE ISIS4G satellite monitoring system contains
+the following components:
+I L band downconversion to the IF
+I Wideband digitlz~ngand signal processing unit including
+SDCCH burst detection
+I SDCCH burst analyzers
+I Sensor server
+I Analysis and statistics workstation
+
+Functional description
+The global beam of the GMR-2 satellite is received in the
+C band with a parabolic antenna. The GMR-2 frequency
+band is downconverted by means of multiple downconverters. The required number of downconverters and corresponding processing units depends on the type of satellite being monitored (ACeS or INMARSAT).
+
+The signals are digitized and searched in realtime for
+SDCCH bursts. Detected bursts are marked and transferred
+to one of the SDCCH burst analyzers.
+
+The required antenna size depends on the location of the
+ARPEGE ISIS4G monitoring system. Antenna diameters in
+the order of seven to nine meters are appropriate.
+
+A result data record is generated for each access of a
+mobile phone t o the GMR-2 system. The data record
+essentially contains the following information:
+I Timestamp
+I Spot beam ID
+I Reason for activity (e.g. mobile-originated call,
+response to paging, location update)
+I Power class of mobile phone
+I lMSl of satellite terminal (SIM card)
+
+After conversion to the L band, the signals are transmitted to the building that houses the central station of the
+monitoring system. Long distances of more than 100 m
+between the antenna and this building can be bridged by
+using fiber-optic cables.
+The described system configuration is dimensioned to
+monitor signals from one satellite. To monitor several
+GMR-2 satellites simultaneously, multiple sets of equipment must be used.
+
+The SDCCH analyzer demodulates and decodes the
+burst information. The results obtained are stored as data
+records in a database on the server.
+
+To visualize and analyze the stored data records, we
+recommend that you use the ARPEGE monitoring center
+(see page 15).
+
+Analys~sand stat~sticsworkstation
+
+ARPEGE ISIS-4G/IRIS-4G/IRMA-4G Satellite Monitoring System 7
+
+ARPEGE IRIS-4G/
+ARPEGE IRMA-4G monitoring GMR-2
+contents
+Interception of
+duplex traffic with a
+central station
+
+Principle of operation
+ARPEGE IRIS4G is an expansion of ARPEGE ISIS-4G.
+Some components of ARPEGE IRIS4G require data from
+ARPEGE ISIS4G. The ARPEGE IRIS-4G modules operate on the following principle: They monitor the downlink
+transmissions from the satellite in the C band and in the L
+band. In the L band, the system receives the forward link
+(from the gateway station to the mobile phone); in the C
+band, it receives the return link (from the mobile phone t o
+the gateway station).
+In the L band, the mapping of frequencies to the spot
+beam footprints is stable. In the C band, by contrast, the
+frequency mapping may change. Based on the results obtained with ARPEGE ISIS-4G, the current frequency mapping is automatically determined. The resulting pairs of frequencies are integrated into the processing chain through
+digital subband selection.
+The term "frequency mapping" designates the relationship between the L band uplink frequency and the C band
+downlink frequency for each channel. The frequency
+mapping can be changed by the network operator. The
+wideband concept of ARPEGE ISIS4G ensures that
+any changes in frequency mapping will be immediately
+detected ' J .
+
+-~
+
+Operating principle of the AKPttit lKlS-4ti
+catellite monitoring
+
+System structure
+The figure on the next page (bottom) is a block diagram of
+an ARPEGE ISIS-4GlARPEGE IRIS4G satellite monitoring
+system. It contains the following components:
+I ARPEGE ISIS-4G monitoring system including a tracking
+antenna for the C band (e.g. ARPEGE IM-AC)
+I Fixed L band antenna (e.g. ARPEGE IM-AL)
+I Subband selection unit for C band and L band signals
+(included in ARPEGE IRIS-4G)
+I Scalable number of subband processing units
+(ARPEGE IRIS-SBU)
+I GMR-2 source decoding (included in ARPEGE IRIS4G)
+I ARPEGE monitoring center including session server and
+analysis workstations
+
+'1
+
+Monitoring system
+
+Gateway station
+
+ARPEGE ISIS-4G provides full-band activity detection for ACeS monitoring. For
+GMR-2 activities over INMARSATsatellites, which operate in a wider frequency
+range, ARPEGE ISIS-4G needs to be expanded to provide full-band activity detection (ARPEGE ISIS-4G + ARPEGE ISIS-4G-X).
+
+ISubband selection
+
+I
+C band downlink
+
+L band downlink
+
+-
+
+l
+
+l
+
+RF sampling and digital
+downconversion(DDC)
+m
+
+m-m
+
+I
+
+,:z:
+
+:X:
+
+::
+: m,:= p
+
+Control unit
+
+*.
+,.jc-j
+~:::;z~:+z T.?%2?--k-'
+
+?
+
+,
+
+::
+
+:E-:,:
+
+,:.:.'P.=kq;7*f "IF over lP"
+.
+L
+.
+.
+
+,.
+
+.-.?c,,
+.:. . .g;-.:
+f
+
+Functional description
+A GMR-2 subband consists of one carrier with a bandwidth of 200 kHz for the forward link (L band downlink)
+and four carriers of 50 kHz for the return link (C band
+downlink). The subbands assigned to a spot beam are digitally downconverted (DDC) and dispatched in pairs for the
+return link and the forward link to a subband unit (SBU)
+via a local area network (LAN). Each SBU can process up
+to four subbands per spot beam (for detailed information
+about subband units, refer to the specifications at the end
+of this product brochure).
+After AID conversion and demodulation, the relevant protocol layers are decoded and analyzed. Results are stored
+on the server. Depending on the selected operating mode,
+the system intercepts and stores all calls or only those
+related to specific targets (subscribers). ~ar~etlsubscriber
+management is performed by means of the target database of the ARPEGE monitoring center.
+
+SBU l
+
+I
+
+bband X (L)
+.
+
+ARPEGE IRIS-SBU
+^
+
+, , .
+
+-
+
+Sensor
+EDMW
+
+ostprocessing
+GMR-2 source
+I
+
+IRI:
+CC:
+
+interception-relatedinformation
+(time, IMEI, IMSI. TMSI, phone numbers, spot beam. GPS data,
+call contents (voice, fax. raw data)
+
+...)
+
+~ ~ n sserver
+or
+database
+
+-
+
+iRPEGE ISIS-4G SDCCH monitoring
+
+selection
+
+iubbmd processing
+(ARPEOE IRIS-SBU)
+
+ARPEGE ISIS-4GIIRIS-4GIIRMA-4G Satellite Monitoring System 9
+
+One-way interception
+of transmissions
+in remote regions
+without deploying a
+remote sensor
+
+Principle of operation
+
+The ARPEGE IRIS-CON C-band-only option intercepts
+one-way channel contents in remote areas without the
+use of a remote sensor. It extracts the contents from the
+C band signal, allowing the return link contents of any spot
+beam to be analyzed. It is thus possible to collect missionrelevant information immediately, i.e. without - or before
+- installing a semi-mobile or fixed L band sensor in the
+target area.
+The system operator assigns C-band-only processing
+resources (SBUs) to spot beams of interest. Subband units
+in C-band-only mode make it possible to intercept contents and to locate GMR-2 subscribers with spot beam
+accuracy. Missions to be performed as part of new operations can, therefore, be promptly accomplished.
+The figure below illustrates mission planning for ARPEGE
+IRIS-4G (including ARPEGE IRIS-CON). The red spot beam
+footprints are located near the central station, and the associated subbands are processed by subband units in
+two-way mode. The blue spot beam footprints are located
+in remote regions, and the associated subbands are processed by further subband units at the central station in
+C-band-only mode.
+
+(re$: dualex. blue: simdex. C-band-onlv interceation)
+
+m
+
+I
+
+Interception of
+duplex traffic in
+remote regions by
+deploying remote
+sensors
+Principle of operation
+The remote satellite monitoring system intercepts downlink transmissions from the satellite in the C band at
+the central station (ARPEGE IRIS4G with ARPEGE
+IRIS-SBU(s)).In the L band, downlink transmissions are
+received at one or more remote locations (ARPEGE
+IRMA-4G with ARPEGE IRMA-SBU(s))that are not covered
+by the central station.
+The operating principle of remote monitoring differs from
+that of central monitoring in only one aspect: The SBU
+subsystems for traffic channel and signaling channel
+interception and processing are located at different sites
+for the C band and the L band. The remote sensor station
+(ARPEGE IRMA-4G) is connected to the central station
+(ARPEGE IRIS-4G) via a wide area network (WAN), and is
+remote-controlled from the central station.
+
+System structure
+The figure below shows an ARPEGE ISIS-4GlARPEGE
+IRIS-4G central station that intercepts GMR-2 duplex contents by means of an ARPEGE IRMA4G remote sensor.
+For two-way interception of voice channels, the hardware
+for traffic channel and signaling channel processing must
+be distributed symmetrically at the central station and
+the remote site. In other words, there must be an equal
+number of subband processing units (ARPEGE IRIS-SBUI
+ARPEGE IRMA-SBU) provided at the central station and at
+the remote site. This is necessary to ensure that an equal
+pool of resources is available to capture the forward and
+the return link of a voice connection.
+The remote satellite monitoring system contains the
+following components:
+I Fixed L band antenna at remote site (ARPEGE IM-AL)
+I Subband selection unit for C band signals at central
+station (included in ARPEGE IRIS-4G)
+I Subband selection unit for L band signals at site of
+remote sensor (included in ARPEGE IRMA4G)
+I Scalable number of subband processing units for the
+L band and the C band (ARPEGE IRIS-SBUIARPEGE
+IRMA-SBU)
+
+Iperating principle of the ARPEGE IRMA-4G satellite monitoring system
+
+1
+
+I
+
+Gateway station
+
+ARPEGE ISIS-4G/IRIS-4G/IRMA-4G Satellite M~bnitoringSystem 11
+
+Functional description
+Subbands assigned to each other in the L band and in the
+C band are received at different sites. They are digitally
+downconverted (DDC), and each subband is dispatched
+via a LAN to an SBU at the respective site. The traffic
+channels and signaling channels are then processed in
+the same manner as in the ARPEGE IRIS4G system. Each
+SBU can process up to four subbands (for detailed information about subband units, refer to the specifications at
+the end of this product brochure).
+I # .
+
+a
+
+a
+
+C - - - - - - -
+
+I
+
+-
+
+A
+
+I
+
+-
+
+A
+
+9
+
+The SBUs at the central station and at the remote site are
+connected to one another via a WAN. This connection is
+used to transport encrypted and plain contents from the
+remote sensor to the central station. Plus, the WAN is
+used for configuring and controlling the remote sensor.
+It is also possible to install a workstatlon for contents
+analysis at the sensor site (analysis workstation not
+included in ARPEGE IRMA-4G).
+
+Central monitoring
+station
+(central area)
+
+----------------,
+
+Remote sensor
+(remote areas)
+
+~.J-.
+I
+
+A
+
+,UWkkW U~Frd'tlWFI
+
+h data processin
+at a later stage
+
+The monitoring system is capable of handling failures
+in the data transmission between the central station
+'
+(ARPEGE IRIS-4G) and the remote sensor station (ARPEGE
+IRMA-4G). If interruptions occur, the subband units involved automatically switch to isolated operation and store
+the intercepted data. When the link is re-established later,
+the stored intercepted data is processed offline.
+
+R R G F PRMA-I R
+
+ARPEGE IRMA-4G supports downtimes of up to five min, utes. The ARPEGE IRMA-LR option allows longer downtimes to be covered.
+
+Eubband (L]
+
+l
+
+.
+-----------
+
+-'b-
+
+l"'
+
+Central monltorlng statlon
+(central area)
+
+ARPEGE IRIS4G
+Contents monrtorlng
+- - - - - * - - - m -
+
+ARPEGE IR-MB-4G
+
+- - m - - - - - - - -
+
+:$;$@yis
+
+&&:I&,O.
+:
+
+I
+
+Remote sensor
+(remote areas)
+l
+
+Seamless intelligence
+by reconstructing
+intercepted G MR-2
+data
+
+ARPEGE IRMA4G supports downtirres in the data trans.
+mlsslon between ARPEGE IRIS-4G arid ARPEGE I RMA4G
+of up to five minutes. Longer downtirnes place greater
+demands on memory capacity and olfline processing. The
+ARPEGE IRMA-LR link recovery and replay option provides
+the customer with seamless intelligence. Even though the
+dedicated line between the central stiation and the remote
+sensor station in the target area may be down for several
+hours, the GMR-2 data intercepted during isolated operation can be reconstructed at a later time.
+ARPEGE also provides custom-tailored, project-specific
+hybrid solutions. If the broadband dedicated line goes
+down, the system switches to isolated operation and can
+automatically establish a narrowband backup link (e.g. via
+VSAT or mobile radio). The resource rnanagement function transmits interception-related information (IRI) and
+selected call contents (CC) via the narrowband backup
+link. Despite the limited WAN connection, the customer
+can largely continue to gain intelligenze about missionrelevant GMR-2 subscribers. For further information
+and to select the best solution, please contact our Sales
+department.
+
+ARPEGE ISIS-4G/IRIS-4G/IRMA-4GSatellite Monitoring System 13
+
+Monitoring
+fax and data
+communications
+
+Fax and circuit-switched data communications account for
+only a small portion of all GMR-2 traffic. Subscribers need
+a special data cable and a PC in order to send fax or e-mail
+messages via a GMR-2 mobile phone.
+
+Demodulation and channel decoding
+Fax and data information is transmitted via logical traffic
+channels at higher data rates. The call setup procedure
+for fax and data transmissions is in the beginning identical to that used for voice links. At the end of the call setup
+procedure - i.e. after authentication - a reallocation to traffic channels with a higher transmission rate takes place.
+Compared with logical voice channels, the decoding of
+fax and data channels requires twice or three times the
+amount of resources.
+Source decoding
+Intercepted fax data is converted to a readable picture format (source decoding). For data links, intercepted binary
+data is analyzed by means of a data decoder and represented in a suitable format.
+The optional ARPEGE IRIS-DAF data and fax expansion
+includes all components necessary to intercept fax and
+data traffic, i.e.:
+I Channel decoder software for SBUs
+I Data decoder for decoding data traffic
+I GMR-2 fax source decoder
+
+Convenient,
+subscriber-oriented
+analysis with the
+ARPEGE monitoring
+center
+
+GMR-2 activity analysis software
+The data stored in the database is subjected to extensive
+analysis using the system-specific software. Analysis can
+be carried out according to spot-beam-specific or time
+criteria, and can also be correlated with information gained
+from other sources. Operators can use predefined filters or
+generate database queries of their own using a convenient
+input mask. Results are displayed in a table andlor graphically on a digital spot beam map. A number of tools are
+available to help operators configure and operate the system in line with their specific requirements, thus optimizing work efficiency. The various events displayed on the
+map are assigned different colors and symbols, which can
+be configured by the operator.
+The operator can define alarm criteria, e.g.:
+I Calls from a specific area (GMR-2 spot beam)
+I Specific lMSl activity
+
+I
+
+Map display (example)
+
+The map display can be filtered according to a variety of
+criteria. The operator can choose between a global display and the display of an operator-defined region. Zoom
+functions are also available. Additional information can
+be called up for each region on the map by selecting the
+specific spotbeam.
+
+!
+
+ore than 50 calls
+
+I
+
+1
+
+Between 1 1 and 50 calls
+:tween 1 and 10 calls
+
+s t of results (example)
+I
+
+;if
+
+Spot beam
+
+105
+105
+105
+l
+105
+1105
+--
+
+-
+
+P
+
+--
+
+rype or activr
+-ocatron upda.Mobile-originatedcall
+Location update
+Mobile-originatedcall
+Response to paging
+Location update
+Response to paging
+-.-- - call
+Mobile-originated
+-p
+P
+
+p
+
+F power
+,.ass 3
+Class 3
+l Class 4
+' Class 3
+CYn3
+I Class 2
+class 2
+I ass 3
+
+/
+
+1
+
+I
+-.
+
+a
+
+--
+
+ARPEGE ISIS4GlIRIS4G11RMA4G Satellite Monitoring System 15
+
+Operational concept for contents analysis
+The supervisor defines the spot beams that are to be further
+processed. The spot beams are selected from an electronic
+map that displays the spot beam footprints. Mission-relevant
+GMR-2 session contents are stored on the session server,
+which is part of the ARPEGE monitoring center. The monitoring center software offers tools and functions supporting
+the following operations for strategic contents analysis:
+I Tasking
+I Processing
+I Analysis
+I Reporting
+Operators administrate the object data of subscribers of interest in the target database as required for the mission to
+be performed. To identify new subscribers, all calls can be
+stored in the session database in the open-channel mode.
+The database application allows calls to be filtered, e.g. according to specific areas, area codes, telephone numbers,
+identities (IMEI, IMSI) and other GMR-2-specific parameters.
+Any combination of filter criteria can be used. The session
+database automatically assigns sessions to specific operators, who are defined in the target database. The operators
+assess the recorded information and, if appropriate, generate reports, or log calls in the subscriber history lists in the
+target database. Evaluators can display the spot beams in
+which GMR-2 subscribers are active on an electronic map.
+
+INetwork analyrer viewer (example)
+
+Phone
+.-L>.
+
+I
+
+\ \ l ///
+Object 0-Bos!
+
+Components of contents analysis subsystem
+Contents analysis is performed by means of the following
+components:
+I Session server with mass memory and ARPEGE monitoring center (redundant session server system optionally
+available on request)
+I Workstations for GMR-2 mobile activity analysis
+(one workstation included in ARPEGE ISIS-4G)
+I Workstations for GMR-2 contents analysis
+The workstations for contents analysis are suitable for
+users operating at different hierarchical levels and handling different tasks. Access rights and security levels can
+be individually defined and administrated by means of the
+integrated user management. The number of workstations
+can be scaled to customer's requirements.
+
+Network analysis
+The ARPEGE monitoring center software includes analysis
+tools that support evaluators in determining relationships
+between subscribers that are difficult to recognize in the
+result lists produced by a database query. The identification of communications between subscribers is based on
+phone numbers and on GMR-2-specific identities, see figure "Network analyzer viewer (example)".
+
+Safe investment
+due to sustained
+system concept
+The rapid advances in satellite communications and the
+relatively short life cycles of satellite services require economic and future-ready interception concepts also in the
+area of satellite intelligence (Satlnt). Satellite operators
+implement new services by means of firmware updates
+of their satellites (space segment). Plus, new services
+converge to yield uniform procedures and standards
+(spot beam technology, FDMA, TDMA, DAMA).
+The principles for monitoring and intercepting the various types of GMR-based systems are nearly identical.
+The ARPEGE ISIS-4GlIRIS-4GlIRMA-4G GMR-2 satellite
+monitoring systems therefore use a universal hardware
+platform. An existing GMR-2 monitoring system can be
+expanded to include a Thuraya (GMR-1) monitoring system by adding nearly the same hardware components as
+used in the existing system. Comprehensive SNMP-based
+system management and health monitoring supplement
+cross-system servicing and monitoring of the system software and hardware.
+
+System overview
+The ARPEGE ISIS-4GlIRIS-4GlIRMA-4G satellite monitoring system includes the following components:
+IARPEGE ISIS4G ACeSIISAT activity monitoring system
+I ARPEGE IRIS4G ACeSIISAT contents monitoring system
+(requires ARPEGE ISIS-4G)
+r ARPEGE IRMA-4G remote ACeSIISAT contents monitoring sensor
+I ARPEGE IRIS-SBUIARPEGE IRMA-SBU ACeSIISAT
+subband unit (suitable for use with ARPEGE IRIS4G and
+ARPEGE IRMA-4G)
+I ARPEGE IRIS-CON ACeSIISAT C-band-only option
+(for one-way interception of traffic in remote spot beams
+without a remote sensor)
+I ARPEGE IRIS-DAF ACeSIISAT data and fax option
+I ARPEGE IRMA-LR ACeSIISAT link recovery and replay
+option
+I ARPEGE IM-AC C band antenna system
+IARPEGE IM-AL L band antenna system
+
+ARPEGE ISIS4G and ARPEGE ISISQG-X
+The required monitoring bandwidth may vary depending on the type of satellite being monitored (ACeS or
+INMARSAT). ARPEGE ISIS4G provides full-band activity
+detection for ACeS monitoring. For GMR-2 activities over
+INMARSAT satellites, which operate in a wider frequency
+range, ARPEGE ISIS4G needs to be expanded to provide
+full-band activity detection (ARPEGE ISIS-4G + ARPEGE
+ISIS-4G-X).
+
+I mapping for ACeS
+U "U"",
+
+L "U""
+
+3 , ".,""'I",
+
+I
+
+l
+
+I
+
+C band/L band frequency
+j mapplng for INMARSAT
+Full-band actlvlty monitor~ng
+for ACeS
+Full-band actlvlty monltorlng
+for INMARSAT
+l - ..
+.
+
+m
+
+I
+
+I
+
+,
+
+I
+
+l
+m
+
+l -
+
+-
+
+/ Feature
+
+/ Activity monitoring
+
+/
+
+I
+
+Determinationof uplinkldownlink
+frequency mapping
+
+p
+
+1
+
+S
+
+Working principle
+I
+Interception of SDCCH contents
+1
+of a satellite footprint by means of
+wideband concept
+I
+Osto5s
+(the actual time needed is a
+stochastic value)
+
+Information provided by ARPEGE ISIS-4G:
+I Timestamp
+
+r Spot beam ID
+I Reason for
+
+activating the mobile phone (e.g. mobileoriginated call, response to paging, location update)
+I lMSl of satellite terminal (SIM card)
+ARPEGE ISIS-4G/IRIS-4G/IRMA-4G Satellite Monitoring System 17
+
+j
+
+ARPEGE IRIS-4GlARPEGE IRMA-4G
+Information additionally provided by ARPEGE IRIS-4G/
+ARPEGE IRMA4G (as compared to ARPEGE ISIS4G):
+I Called telephone number (mobile-originated call)
+I Caller's telephone number (mobile-terminated call)
+I Identifying characteristics, e.g. IMEl of mobile phone,
+lMSl of SIM card
+I Recorded call contents, e.g. voice, fax or data
+The RF frontend of ARPEGE IRIS4G has the type designation ARPEGE IRIS-CL and supports the processing of up
+to 32 subbands of the GMR-2 system by means of digital
+downconversion (DDC). ARPEGE IRIS-CL has 24 unused
+slots for ARPEGE IRIS-SBU subband units. The configuration depends on requirements (two-way interception or
+one-way interception).
+See also section "System configuration - example".
+The RF frontend of ARPEGE IRMA4G has the type designation ARPEGE IRMA-L and supports the processing of up
+to 32 subbands of the GMR-2 system by means of digital
+downconversion.
+ARPEGE IRMA-L has 12 unused slots for ARPEGE
+IRMA-SBU subband units. The use of more than 24 (12)
+SBUs in ARPEGE IRIS4G (ARPEGE IRMA4G) is possible.
+The number of digitally downconvertable (DDC) subbands
+per frontend is scalable (expandable). Please contact our
+Sales department.
+'
+
+ARPEGE IRIS-4GlARPEGE IRMA4G supports downtimes
+of the WAN between the central station and the remote
+sensor station of up to five minutes. Longer interruptions
+are covered by the ARPEGE IRMA-LR option.
+
+ARPEGE IRIS-SBUIARPEGE IRMA-SBU GMR-2
+subband unit
+Supports GMR-2 subband processing:
+I Two-way interception in standard mode (requires two
+DDCs per SBU)
+I One-way interception in remote mode (requires one DDC
+per SBU)
+Processes all logical subband channels (SCH, BCCH,
+AGCH, SDCCH, SACCH).
+Channel capacity is typically 32 voice channels, or up to
+40 voice channels in the case of multiple subbands within
+a GMR-2 spot beam. The monitoring of GMR-2 hot spots
+is supported. Please contact our Sales department.
+
+Feature
+Spot beams per SBU
+(standard or remote mode)
+Subband processing capaclty per
+SBU
+Sess~onslchannels
+per subband
+- -
+
+Value
+1
+
+up to 4 subbands per spot beam
+up to 40 (32 typ~cal)
+
+ARPEGE IRIS-CON GMR-2 C-band-only
+Enables any ARPEGE IRIS-SBU subband unit to be operated in C-band-only mode. This mode allows one-way
+interception of communications in remote regions without the use of a remote sensor. ARPEGE IRIS-CON adds
+a third operating mode to each subband unit (ARPEGE
+IRIS-SBU) contained in the monitoring system. All subband units support the following modes of operation:
+I Two-way interception in standard mode (requires two
+DDCs per ARPEGE IRIS-SBU)
+I One-way interception in remote mode (requires one DDC
+per ARPEGE IRIS-SBUIARPEGE IRMA-SBU)
+I One-way interception in C-band-only mode (requires one
+DDC per ARPEGE IRIS-SBU)
+ARPEGE IRIS-DAF GMR-2 data and fax
+Monitoring of circuit-switched GMR-2 data and fax services. Conversion of call contents to a readable format.
+ARPEGE IRIS-DAF includes a fax source decoder and a
+data source decoder.
+
+ARPEGE IRMA-LR GMR-2 link recovery and replay
+If the data link fails, the first five minutes are covered
+by the system's basic configuration (ARPEGE IRIS-4Gl
+ARPEGE IRMA4G). ARPEGE IRMA-LR supports extended
+downtimes of the WAN between the central station and
+the remote sensor starting at the sixth minute. ARPEGE
+IRMA-LR enables the second processing step for GMR-2
+data intercepted by ARPEGE IRIS4G and ARPEGE IRMABG during isolated operation. If the dedicated line
+between the central station and the remote sensor goes
+down for several hours, the data intercepted during this
+time can be reconstructed at a later time. For further information about ARPEGE IRMA-LR, refer to section "Requirements on data link to remote sensor".
+ARPEGE also offers project-specific hybrid solutions for
+use with narrowband links. For more information, refer
+to "Seamless intelligence by reconstructing intercepted
+GMR-2 data".
+
+ARPEGE IM-AC C band antenna system1
+ARPEGE IM-AL L band antenna system
+The size and configuration of the antenna systems vary
+depending on the position of the monitoring system within
+the GMR-2 coverage zone. The C band receiving antenna
+typically has a diameter of approx. 7 m. The L band antenna typically consists of a flat panel with an edge length of
+approx. 60 cm. Antenna systems are supplied project-specifically. Existing C band receiving antennas can be taken
+into consideration if necessary.
+
+ARPEGE IRMA-T retrofit kit for transport of
+remote sensor
+Remote sensors are typically used in a stationary scenario.
+For operation in semi-mobile applications, the ARPEGE
+IRMA-T retrofit kit is available to simplify transport of the
+remote sensor. ARPEGE IRMA-T includes carrier cases and
+cables adapted to ARPEGE IRMA4G.
+
+ARPEGE ISIS-4GIIRIS-4GIIRMA-4GSatellite Monitoring System 19
+
+System configuration
+example
+
+Camponents of remote sensor A
+
+-
+
+Remote sensor A for L band monitoring is based on
+ARPEGE IRMA4G and consists of the following components:
+I ARPEGE IRMA-L remote GMR-2 contents monitoring
+sensor core for traffic channel monitoring
+I 4 X ARPEGE IRMA-SBU GMR-2 subband unit
+I ARPEGE IM-AL L band antenna system
+I ARPEGE IRMA-LR link recovery and replay option
+I ARPEGE IRMA-T retrofit kit for transport of remote
+sensor
+
+The system discussed in this example consists of one
+central station and two remote sensor stations. The figure
+on the next page illustrates the configuration and components of the ARPEGE ISIS-4G/IRIS-4G/IRMA-4Gexample
+system. The figure below shows the geographic perspective. The dashed line represents the border of an example
+country.
+
+Components of remote sensor B
+Remote sensor B for L band monitoring is based on
+ARPEGE MARTINE4G and consists of the following
+components:
+I ARPEGE MARTINE-4G transportable GMR-2 sensor
+IARPEGE MARTINE-F retrofit kit for transportable GMR-2
+sensor
+
+Components of central station
+The central station for C band and L band monitoring
+discussed here consists of the following components:
+I ARPEGE ISIS-4G GMR-2 activity monitoring system
+including one workstation
+I ARPEGE IRIS-CL GMR-2 contents monitoring system
+core for traffic channel monitoring
+I 9 X ARPEGE IRIS-SBU GMR-2 subband unit
+I ARPEGE IRIS-CON GMR-2 C-band-only option
+I ARPEGE IM-AC C band antenna system
+I ARPEGE IM-AL L band antenna system
+I ARPEGE monitoring center
+
+-
+
+I
+
+eographic perspective - example country
+Remote sensor A
+
+I
+
+Central monitoring station
+
+\
+
+l
+
+I
+
+l
+
+r
+
+Remote sensor B
+
+The subband unit included in ARPEGE MARTINE-4G is
+connected to the stationary GMR-2 monitoring system.
+In conjunction with the ARPEGE MARTINE-F retrofit kit,
+the transportable GMR-2 sensor operates in remote mode.
+ARPEGE MARTINE-F has free slots which can be installed
+with additional SBUs (ARPEGE IRMA-SBU).
+
+300 km
+to 600 km
+
+1
+
+The system supervisor can dynamically allocate the SBUs
+to the mission-relevant spot beams.
+
+Factors determining sy!
+
+:onfigwrat
+
+The number of active G l v ~ n rrluuile
+-~
+phorles vdrles from
+region to reglon. The number of GMR-2 activities within
+a region can change as a result of external influences
+(e.g. natural disasters, major events, unrest). The focus on
+missions and areas of interest for operations will change
+accordingly.
+In the example configuration discussed here, a total
+of nine ARPEGE IRIS-SBUs are provided at the central
+station. The ARPEGE IRIS-SBUs support three modes of
+operation:
+ITwo-way interception in standard mode (requires two
+DDC channels per SBU)
+I One-way intercept~onin remote mode in conjunction
+with a remote sensor (requires one DDC channel per
+SBU plus one common DDC pilot channel)
+I One-way interception in C-band-only mode (requires
+one DDC channel per SBU plus one common DDC pilot
+channel)
+The RF frontend of ARPEGE IRIS-4G supports the processing of up to 32 DDC subbands. Each DDC subband has
+(typically) 32 voice channels. Up to 16 ARPEGE IRIS-SBUs
+can therefore be operated ~ntwo-way intercept~onmode
+in conjunction with an RF frontend. This ylelds a channel
+
+Depending on the area of interest and the missions t o be
+performed, channel capacity can be distributed in different
+ways between the central station and the remote sensors.
+
+capacity of 512 duplex voice channels. In the example
+configuration discussed here, the channel capacity is
+288 duplex voice channels for local coverage (9 X 32).
+Alternatively, all nine ARPEGE IRIS-SBUs of the central
+station can be operated in one-way interception mode,
+yielding a channel capacity of typically 288 simplex voice
+channels. The ARPEGE IRMA-SBUs of the two remote
+sensor stations A and B process the local L band downlinks. In conjunction with the ARPEGE IRIS-SBUs of the
+central station being operated in remote mode, this results
+in a total of typically 288 duplex voice channels (two
+remote sensors plus the central station).
+
+For further questions regarding the scaling of the channel
+capacity of the GMR-2 (ACeSIISAT) monitoring system and
+the required number of remote sensors, please contact
+our Sales department.
+
+IConfiguration and components of ARPEGE ISIS-4G/IRIS-4G/IRMA-4G example system
+
+I
+
+I
+I
+I
+I
+
+I
+I
+
+(free expanslon
+
+I
+
+ARPEGE IM-AC
+
+sII
+
+(free expansion s
+(free expansion z
+
+I
+I
+I
+I
+
+Ifroo ovn3nrinn r
+
+(free expar
+
+)
+
+(free expansion :
+
+1
+
+expansion :
+
+Remote sensor
+B
+ARPEGE IM-AL
+
+ARPEGE IM-AL
+:entral monitorin,
+station
+
+(free expansion r
+WAN
+ARPEGE IRMA-I
+ARPEGE IRMA-I
+
+Remote sensor
+
+ARPEGE ISIS-4GIIRIS4GIIRMA-4G Satellite Monitoring S y s t e m 21
+
+Specifications
+in brief
+
+The ARPEGE ISIS-4GlIRIS-4GlIRMA4G GMR-2 satellite monitoring system has been designed for handling
+the frequency ranges and procedures used in the GMR-2
+system.
+
+Receiving system
+Frequency range, C band
+Receivingantenna
+
+3600 MHz to 3800 MHz
+7.3 m to 9 m parabolic antenna (ARPEGE IM-AC),
+righthand and lefthand circular polarization
+140 MHz
+2 X 40 MHz (ARPEGE ISIS-4G)
+4 X 40 MHz (ARPEGE ISIS-4G + ARPEGE ISIS-4G-X)
+1525 MHz to 1559 MHz
+(ARPEGE IM-AL) receiving antenna, circular polarization
+140 MHz
+34 MHz
+scalable number of processing units in a system
+
+lntermediatefrequency
+Bandwidth
+Frequency range, L band
+Receiving antenna
+lntermediatefrequency
+Bandwidth
+Signal processlng
+ARPEGE ISIS4GIARPEGE I S I S 4
+Activity monitoring
+
++ ARPEGE ISIS-4GX
+
+Determinationof uplinkldownlink frequency mapping
+lnformation provided by ARPEGE ISIS-4G
+
+ARPEGE IRIS-4GIARPEGE I R M A 4
+lnformation additionally provided by ARPEGE IRIS-4GlARPEGE IRMA-4G
+(as compared to ARPEGE ISIS4G)
+
+ARPEGE IRIS-SBUIARPEGE IRMA-SBU
+Spot beams per SBU (standard or remote mode)
+Subband processlng capac~typer SBU
+Sess~ons/channels
+per subband
+- - --
+
+-
+
+,/
+
+lnterceptlon of SDCCH contents of a satellite footprint by means of
+w~debandconcept
+0 s to 5 S (the actual tlme needed 1s a stochastlc value)
+I t~mestamp
+I spot beam ID
+I reason for actlvatlng the moblie phone (e g mob~le-ortg~nated
+call,
+response to paglng, locat~onupdate)
+I lMSl of satell~tetermlnal (SIM card)
+I called telephone number
+
+(mobile-originatedcall)
+caller's telephone number (mobile-terminatedcall)
+I identifying characteristics, e.g. IMEl of mobile phone, lMSl of SIM card
+i I recorded call contents, e.g. voice, circuit-switched data or fax
+I
+
+I
+
+~
+
+1
+up to 4 subbands w~thinone spot beam
+up
+to 40 (32 typical)
+- .. -
+
+Requirements on data link to remote sensor
+In general, a permanent data link is required between the
+remote L band sensor and the central station. The required
+data rate for transmissions between the central station and
+the remote sensor depends on the following factors:
+I GMR-2 traffic density at site of remote sensor
+I Number of SBUs at site of remote sensor
+I Type (VPN or proprietary) and extent of encryption;
+this determines the data overhead
+Remote sensors can be connected to the central station
+via a dedicated symmetrical or asymmetrical line with
+an ensured data rate of 2 Mbitls or higher. A data rate of
+2 Mbitls permits the simultaneous processing of 120 channels (at permanent full capacity). In the uplink, the sensor sends L band raw data to the central station. A G.703
+frame relay or an ISDN 2SM unframed link should be used
+as a data link. Other types of data links are available on
+request (e.g. VSAT). The round trip time should be shorter
+than one second.
+
+Ordering information
+l Type
+
+Designation
+
+1 ACeSIISAT Activity Monitoring System
+
+I Order No.
+
+ARPEGE ISIS-4G
+
+on request
+
+ACeSJISAT Activity Monitoring Expansion
+
+ARPEGE ISIS-4G-X
+
+on request
+
+ACeSIISAT Contents Monitoring System Core
+
+ARPEGE IRIS-CL
+
+on request
+
+ARPEGE ISIS-L
+
+on request
+
+/ ACeSlISAT Subband Unit
+
+ARPEGE IRIS-SBU
+
+on request
+
+/
+
+ARPEGE IRMA-SBU
+
+on request
+
+I ACeSllSAT C-Band-Only Option
+
+ARPEGE IRIS-CON
+
+on request
+
+( ACeSIISAT Data and Fax Option
+
+ARPEGE IRIS-DAF
+
+on request
+
+ARPEGE IRMA-LR
+
+on request
+
+ARPEGE IRMA-T
+
+on request
+
+ARPEGE IM-AC
+
+on request
+
+1 Remote ACeSllSAT Contents Monitoring Sensor Core
+ACeSllSAT Subband Unit
+
+i
+
+ACeSIISAT Link Recovery and Replay Option
+
+l Retrof~t. Kit. for Transport of Remote Sensor
+1 C Band Antenna System
+'
+
+L Band Antenna System
+
+I
+
+L
+-
+
+P
+-
+
+-
+
+ARPEGE IM-AL
+-- - .
+
+-
+
+P
+P
+
+--
+
+P
+
+.
+
+on request
+P
+
+--
+
+P
+P
+
+--
+
+.
+
+The system components are not sold as single products. Additional system components, licenses and services are
+required depending on the system and its configuration. For information about configuration and licensing, please
+contact our Sales department.
+
+ARPEGE will help you determine the optimum solution for your requirements.
+You will find us at
+conract@arpege-!3as.com
+
+Types of intercepted information
+
+, Type o f event
+
+l Networks
+
+/
+
+Mob~le-or~g~nated
+call1' ISAT to other
+
+; bailed No.
+l m
+
+1 Calling No.
+l
+
+I llv~a~
+
+Location 41
+
+i
+
+Mobile-terminatedcall1'! Other to ISAT
+Mob~le-to-mob~lell
+
+: ISAT
+
+Locat~onupdate3'
+lMSl detach4'
+
+a 2)
+
+Power on
+
+, Power off
+
+ISAT to other
+SMS
+outgo~nglincoming~~
+
+'l
+
+*'
+3'
+
+'l
+
+a 2)
+
+-
+
+Voice calls only.
+If both ISAT mobile phones are within monitoring range.
+Only during initial registration in a spot beam.
+Not existing in ISAT networks.
+
+ISAT CDR C-band-onlv mode
+IType
+o f event
+Networks
+
+,
+
+S
+
+Moblle-or~g~nated
+call1' ISAT to other
+
+m
+Called No.
+a
+
+Mobile-terminatedcall1) Other to ISAT
+Mob~le-to-mob~lel)
+Locat~onupdate3'
+lMSl detach4'
+SMS
+outgoing/incoming4'
+
+Calling No.
+
+lMSl
+a
+
+a
+
+' ISAT
+
+Power on
+
+Location 4'
+
+2'
+
+a
+
+1 Power off
+
+ISAT to other
+
+--
+
+'l
+
+Half-duplex voice calls (one-way interception) only.
+
+4'
+
+If both ISAT mobile phones are within monitoring range.
+Only during initial registration in a spot beam.
+Not existing in ISAT networks.
+
+ARPEGE ISIS-4G/IRIS-4G/IRMA-4GSatellite Monitoring System 23
+
+mwwarpege-sas.ectm
+Arpege S.A.S., ZE Athelia 111753, Voie Antdope
+13600 La Ciotat France
+Phone: +33 442 84 47 95
+Fax: +33 442 84 47 96
+contact@arpege-sas.mrn
+Trade names are tfadernarksof the owners I Prhflted In Frmm )%6
+PD 5214.3630.12 1 Version 01.Q01 May 2010
+Data without tol~eranoelimits L not b~ndhgI Subject to ~haneps
+ARPEGE ISIS4GtIRIS-4GIIRMA-4G
+O 2010 Arphge S.A S. I 13600 La Clatat I Frame
+
+

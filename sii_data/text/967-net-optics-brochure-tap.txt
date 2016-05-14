@@ -1,0 +1,111 @@
+10/100/1000 Tap
+1 - 10/100/1000BaseT
+Network Link
+
+Get total traffic visibility for 10/100/1000 monitoring and security devices by placing
+Net Optics 10/100/1000 (Triple-speed) Taps on critical network links. Network support for
+passive and fail-open monitoring of 10, 100, or 1000 Mbps links. This Tap is also ideal for use
+with monitoring tools configured with 10, 100 or 1000 Mbps interfaces.
+
+Operating Specifications:
+
+For superior in-line reliability, the Triple-speed Tap features Link Fault Detect (LFD), which gives
+the devices connected to the Tap critical information about link status. If either side of the
+bi-directional link fails, the Tap immediately communicates the fault to both devices, reducing
+the time required to activate a redundant path.
+
+Mechanical Specifications:
+
+The in-line functionality of the Tap ensures that monitoring tools receive all full-duplex traffic as
+if it were in-line, including Layer 1 and Layer 2 errors. Fail-open technology provides
+transparent forwarding of all traffic on the link in the event of a Tap power failure.
+For extra uptime protection, Net Optics Triple-speed Taps offer redundant power supplies.
+Should the primary power source fail, the Tap automatically switches to the backup power
+source. All network and monitoring cables necessary for plug-and-play deployment are
+included.
+
+Passive, Secure Technology
+
+• Provides passive access at 10/100/1000 Mbps speeds without data stream
+interference or introducing a point of failure
+• Permanent in-line installation without affecting network performance
+• Link Fault Detect prevents undetected link failures
+• Passes all full-duplex traffic (including errors) from all layers for comprehensive
+troubleshooting
+• No IP address is needed for the Tap or monitoring device, enhancing monitoring security
+• Redundant power ensures monitoring uptime
+
+Ease of Use
+•
+•
+•
+•
+•
+
+LED indicators show redundant power, speed, link and data status
+DIP switches select auto-negotiation of fixed speed and duplexing settings
+Front-mounted connectors make installation and operation quick and easy
+Optional 19-inch rack frames hold up to 3 or 12 Taps
+Tested and compatible with all major manufacturers’ monitoring devices,
+including protocol analyzers, probes, and intrusion detection systems
+
+Operating Temperature: 0ºC to 55ºC
+Storage Temperature: -10ºC to 70ºC
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Power Supply:
+
+Input: 100-240VAC, 0.5A, 47-63Hz
+Output:12V, 1.5A
+Output:DC Power Input: -48 VDC typical, -36 VDC min, -75
+VDC max
+Dimensions: 1.125” high x 6.25” deep x 4.5” wide
+
+Cable Interface:
+Copper Cable Type:
+
+22-24 AWG unshielded twisted pair cable, CAT5e
+Link Distance Supported: 100 meters
+
+Connectors:
+
+Monitoring Ports: (2) RJ45, 8-pin connectors
+Network Ports: (2) RJ45, 8-pin connectors
+
+Certifications:
+
+Fully RoHS compliant
+Fully IEEE 802.3 compliant
+Part Number
+
+Description
+
+TP-CU3
+TP-CU3-48V
+RK-12V2
+RK-3V2
+
+10/100/1000BaseT Tap
+10/100/1000BaseT Tap -48VDC
+Twelve Slot Rack Mount Frame
+Three Slot Rack Mount Frame
+
+All products include a 1 year manufacturer’s warranty. An additional 1
+or 2 year extended warranty may also be purchased.
+
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+5303 Betsy Ross Drive • Santa Clara, CA 95054
+Tel: +1 (408) 737-7777 • www.netoptics.com
+
+Net Optics® is a registered trademark of Net Optics, Inc. Copyright 1996-2007 Net Optics, Inc. All
+rights reserved. Additional company and product names may be trademarks or registered trademarks
+of the individual companies and are respectfully acknowledged.
+PUBTPCU3D Rev. 1B, 07/07
+
+

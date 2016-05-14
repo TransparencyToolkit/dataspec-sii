@@ -1,0 +1,106 @@
+Solutions D‘Écoute Et D‘Infection À Distance
+FINFLY WEB
+
+L‘un des défis majeurs de l‘utilisation d‘une solution
+d‘écoute à distance est de l‘installer sur le système cible, en
+particulier lorsqu‘on ne dispose que de peu d‘information
+(par exemple juste une adresse mail) et qu‘aucun accès
+physique n‘est possible.
+
+INFORMATIONS RAPIDES
+Utilisation:
+
+· Opérations stratégiques
+
+Capacités:
+
+· Déploie une solution d’écoute
+à distance sur le système cible
+via des sites web
+
+Contenu:
+
+· Logiciel
+
+FinFly Web est conçu pour permettre une infection à distance et secrète d’un système cible en utilisant un large
+éventail d’attaques par le web.
+FinFly Web fournit une interface cliquer-pointer qui permet à l’agent de créer facilement un code d’infection
+personnalisé en fonction des modules sélectionnés.
+Les systèmes cibles qui visitent un site web préparé avec le
+code d’infection mis en œuvre seront secrètement infectés avec le logiciel configuré.
+
+Exemple D’utilisation 1 : Unité De Surveillance
+
+Exemple D’utilisation 2 : Agence De Renseignement
+
+Technique
+
+Un client a déployé FinFly ISP chez le principal opérateur
+de son pays. Il a été combiné avec FinFly Web pour infecter à distance les cibles qui visitaient des sites hostiles au gouvernement, en injectant secrètement le code
+FinFly Web dans les sites en question
+
+Après avoir profilé une cible, l’unité a créé un site web
+susceptible d’intéresser celle-ci, et lui a envoyé le lien
+par le biais d’un forum de discussion. Dès l’ouverture
+du lien vers le site web de l’unité, une solution d’écoute à
+distance a été installée sur le système cible, et la cible a pu
+été écoutée depuis le QG.
+
+Présentation Des Fonctionnalités
+· Des modules Web entièrement personnalisables
+· Directement installables secrètement dans chaque site Web
+· Intégration complète avec FinFly LAN et FinFly ISP pour un déploiement y compris dans des sites web
+populaires (webmail, portails vidéo, etc.)
+· Installe la solution d’écoute à distance, même si la seule information connue est l’adresse mail
+· Possibilité de cibler toute personne visitant les sites web configurés
+Pour une liste complète des fonctionnalités, veuillez consulter les Spécifications Produit
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Solutions D‘Écoute Et D‘Infection À Distance
+FINFLY WEB
+
+Composants Du Produit
+
+FinFly Web
+· Logiciel à base de cliquer-pointer pour créer
+des sites d’infection personnalisés
+
+Infection directe FinFly Web
+
+Integration complète avec FinFly LAN Et FinFly ISP
+
+Solutions D‘Écoute Et D‘Infection À Distance
+FINFLY WEB
+
+Exemple : Applet Java (Internet Explorer, Firefox, Opera, Safari)
+Le site va demander à la cible d’accepter un plug-in Java qui peut être signé avec
+n’importe quel nom de société (par exemple «Microsoft Corporation»)
+
+Exemple : Composant Manquant (IE, Firefox, Opera, Safari)
+Le site web va prétendre qu’un plug-in ou un codec est absent du système cible, et
+demander à télécharger et installer le logiciel manquant.
+
+Solutions D‘Écoute Et D‘Infection À Distance
+FINFLY WEB
+
+Exemple : XPI Manquante (Firefox Uniquement, Toutes Plateformes)
+Ce module demandera à la cible d’installer des plug-in supplémentaires pour arriver à
+consulter le site web
+
+The information contained herein is confidential
+and subject to change without notice. Gamma
+Group International shall not be liable for
+technical or editorial errors or omissions
+contained herein.
+
+GAMMA INTERNATIONAL
+United Kingdom
+Tel: +44 - 1264 - 332 411
+Fax: +44 - 1264 - 332 422
+info@gammagroup.com
+
+

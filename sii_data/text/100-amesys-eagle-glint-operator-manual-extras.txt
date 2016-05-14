@@ -1,0 +1,644 @@
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+1.3.  COMPONENTS AND TERMINOLOGY OF THE MMI 
+The  EAGLE’s  Man­Machine  Interface  (MMI)  is  made  of  a  logo,  a  toolbar 
+including  three  modules  and  a  workspace  changing  according  to  the 
+selected  module.  The  diagram  below  illustrates  the  components  and  the 
+terminology used by the MMI: 
+
+ 
+In addition, various Status message can be displayed. Their colour follows a 
+convention: 
+Green: requested action is successful 
+ 
+Yellow: you missed an action 
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 7/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+
+2.2.  NEW INTERCEPTION MANAGER (NIM) 
+The  “New Interception Manager (NIM)”  module  contains  the  different 
+Process  Folders  (OC,  GS,  NI  or  Uncatched)  allocated  to  you  by  your 
+Superuser. 
+
+ 
+Once you have selected a Process Folder, you can hide the modules
+by clicking on the
+
+button, to enlarge your workspace.
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 11/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.1. Search Directives Tab 
+The “Search Directives” tab list chronologically the orders coming from the 
+Superuser  for  each  Process  Folder.  They  include  a  “Note”  and  the 
+“Timestamp” (date and time) of its emission. 
+
+ 
+Check regularly the “Search Directives” to be up-to-date of the
+Superuser’s orders.
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 12/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.2. Pre­classified interception Tabs 
+The pre­classified interception tabs, “All”, “All\Http” (all interceptions except 
+Http), “Mail”, “VoIP”, “Chat”, “Search Engine”, “Http” and “Transfer” list the 
+interceptions by category. 
+
+ 
+Some of the tabs have a drop­down list to refine the selection as described 
+in the table below: 
+All 
+
+All\Http 
+
+Mail 
+
+VoIP 
+ 
+
+ 
+
+Transfer 
+ 
+
+ 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 13/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.3. Search Function 
+The “Search” function is a text search engine that can help you to minimize 
+the  time  required  to  find  valuable  information,  and  the  amount  of 
+interceptions which must be consulted. 
+Once  a  search  is  done,  automatically,  a  new  tab  will  be  created  as  shown 
+below, allowing you to work on it or to refine your search. When finish, click 
+on the Close tab button   to close a Search result tab. 
+
+ 
+The “Search” function uses a list of common words that are not
+indexed such as for example “of”, “the”, “is” and so on.
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 15/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.4. Filter Function 
+An interception can have various statuses: 
+“Unread” until any operator open it for the first time 
+“Opened”  when  it  has  been  opened  but  does  not  have  “Relevance
+note”
+“Closed”  when  any  operator  attributes  to  it  “Relevance note”  (Zero, 
+Poor, Good or Very good). 
+With  the  “Filter”  function,  you  can  filter  interceptions  according  to  their 
+current  status.  For  example,  below  are  displayed  only  “Opened”  and 
+“Closed” interceptions. 
+
+ 
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 18/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.5. Graph+ (only for OC) 
+In the case of an “Open Case” (OC) Process Folder, EAGLE system creates a 
+“Graph+” chart  automatically,  using  information  from  every  interception. 
+The  “Graph+” is  a  graphical  tool  designed  to  display  and  to  analyze  the 
+intelligence relating to an investigation in a visual form. It supports you in 
+your  analysis,  helping  to  navigate  through  large  networks  of  data  and 
+discover underlying interconnections quickly. 
+Click the “Graph+” button. A new tab called “Graph” appears: 
+
+ 
+When finish, click on the Close tab button   to close a “Graph” tab. 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 20/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+From the Graph+, you can: 
+Center  the  chart  on  a  particular  ID  or  suspect  by  clicking  on  it  and 
+then on the “Center” button. 
+Remove  an  uninteresting  node  by  clicking  on  it  and  then  on  the 
+“Remove”  button.  The  “Switch to full view”  button  allows  you  to 
+display every node, even the previously removed ones. 
+The colour of the nodes follows a convention: 
+Colour 
+Green 
+
+Description 
+IDs from automatic 
+extract 
+
+Blue 
+
+Suspects 
+
+Grey 
+
+Removed IDs 
+
+Example 
+ 
+ 
+ 
+
+By clicking on a Suspect node, you can access to the Suspect information’s: 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 21/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 22/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.6. Suspects (only for OC) 
+In  the  case  of  an  “Open Case”  (OC)  Process  Folder,  you  can  directly 
+visualize only connections between suspects. 
+Click  on  the  “Suspects”  button.  A  new  tab  called  “Suspects”  appears  as 
+shown on the picture below: 
+
+ 
+When finish, click on the Close tab button   to close a “Suspects” tab. 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 23/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+As for the Graph+, by clicking on the link between suspects, you can directly 
+visualize their communications: 
+
+ 
+When finish, click on the Close tab button   to close a “Link” tab. 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 24/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.7. No­Interest popup 
+At  any  time,  you  can  report  uninteresting  IDs  to  your  Superuser  through 
+the “No-Interest” popup. 
+Move  the  mouse  over  the  “No-Interest (Mouse here to focus)”  title  at  the 
+top of the workspace to display the popup window. 
+From the drop­down lists, select respectively the type of ID (email address, 
+Phone  number  or  ISP  account),  the  operator  (=,  BEGINS_WITH  or 
+ENDS_WITH) and type the appropriate ID in the text box. 
+
+ 
+Click  the  “Send ...”  button  to  send  your  suggestion  to  the  Superuser.  A 
+confirmation message is displayed: 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 25/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+2.2.8. Warnings popup 
+The “Warnings” popup window is an information area alerting you when at 
+least one new interception is available in any of your OC Process Folders. 
+
+ 
+In addition, a window is regularly displayed: 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 27/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 32/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+3.2.1. Technical Data 
+Every  interception  will  have  a  “TECHNICAL DATA”  table  as  the  one  shown 
+below: 
+
+ 
+Unique identifier 
+a unique hexadecimal number which is assigned by EAGLE to identify an 
+interception 
+Type and Category 
+Classification of the interception 
+Date 
+Accurate  date  and  time  of  the  interception  expressed  in  UTC 
+(Coordinated Universal Time) time standard. 
+Transcoding status 
+Only VoIP communications need Transcoding. 
+TCP Informations 
+xx.xxx.250.1
+: 
+00 
+From 
+IP address 
+
+   
+
+110 
+
+Port 
+
+­ xx.xxx.121.1
+: 
+> 
+27 
+ 
+To 
+ 
+
+IP address 
+
+   
+
+1142 
+
+Port 
+
+In addition, by moving the mouse over every IP address, a Geolocalization 
+popup window appears with the accurate coordinates: 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 33/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 34/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+3.2.2. Technical Specific Data 
+Every interception will have a “TECHNICAL SPECIFIC DATA” table but the fields 
+can be different: 
+
+ 
+For further details, please see the paragraphs dedicated to each category of 
+interceptions. 
+3.2.3. Extra Data 
+For  every  interception,  EAGLE  system  extract  automatically  some 
+interesting  data  from  the  content  itself  such  as  email  address,  telephone 
+number and ISP ID. 
+The result appears in the “EXTRA DATA” table: 
+
+ 
+The  extra  data  supports  you  in  your  analysis,  helping  to  report  every 
+interesting IDs for improvement of further interception. 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 35/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+3.2.5. Transcription 
+You must associate to each interception ranked as “Good” or “Very Good” a 
+transcription. 
+Click on the “Open Transcription” link at the end of each interception page. 
+A “Transcription” page opens, similar to the one below: 
+
+ 
+A typical transcription includes: 
+A list of “Named Entities” such as names, geographic places ... 
+A  complete  “Translation”  of  any  written  text  or  a  complete 
+transcription 
+
+and 
+
+translation 
+
+(if 
+
+needed) 
+
+of 
+
+any 
+
+communication 
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 39/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+voice 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+3.3.  CATEGORIES OF INTERCEPTION 
+3.3.1. Mail 
+Below  is  a  typical  “TECHNICAL SPECIFIC DATA”  table  in  the  case  of  a  Mail 
+interception: 
+
+ 
+ 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 41/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+3.3.2. VoIP 
+Below  is  a  typical  “TECHNICAL SPECIFIC DATA”  table  in  the  case  of  a  VoIP 
+interception: 
+
+ 
+ 
+
+ 
+
+3.3.3. Chat 
+Below  is  a  typical  “TECHNICAL SPECIFIC DATA”  table  in  the  case  of  a  Chat 
+interception: 
+ 
+ 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 42/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+3.3.4. Http 
+Below  is  a  typical  “TECHNICAL SPECIFIC DATA”  table  in  the  case  of  a  Http 
+interception: 
+ 
+
+3.3.5. Search Engine 
+Below  is  a  typical  “TECHNICAL SPECIFIC DATA”  table  in  the  case  of  a  Search 
+Engine interception: 
+ 
+
+3.3.6. Transfer 
+Below  is  a  typical  “TECHNICAL SPECIFIC DATA”  table  in  the  case  of  a  Transfer 
+interception: 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 43/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+4.2.  EAGLE MESSAGES 
+4.2.1. Interception locked by someone else 
+When  an  interception  is  opened  for  the  first  time  by  an  Operator  (you  or 
+somebody else), its current Status is changed for “Open” and a mechanism, 
+called  Lock,  is  applied  for  enforcing  limits  on  its  access.  This  is  done  to 
+avoid concurrency ranking of an interception. 
+
+ 
+Then, the owner of the Lock become the “owner” of the interception and all 
+other operators will have a read­only access until the Lock will be released. 
+This will be done when the owner of the Lock will rank the interception. 
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 49/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+4.2.2. At least 2 suspects are needed, sorry 
+The “Suspects” tab displays only connections between suspects. You obtain 
+the  “At least 2 suspects are needed, sorry”  message  when  one  or  fewer 
+Suspects are linked to your current OC Process Folder: this is normal. 
+
+ 
+If you report new IDs through the “Named Entities” of your “Transcription”, 
+your  Superuser  will  create  new  Suspects  and  linked  them  to  your  OC 
+Process  Folder.  Then,  when  at  least  two  Suspects  will  be  linked  on  it,  you 
+will be able to use the “Suspects” tab. 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 51/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+4.2.3. Too many nodes 
+ 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 52/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+4.2.4. Cannot retrieve mail 
+Please alert your Superuser as soon as possible. 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 53/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+4.3.  CASES STUDY 
+4.3.1. Junk e­mail 
+E­mail  spams,  also  known  as  Junk  e­mails,  are  identical  messages  sent  to 
+numerous recipients by e­mail. Below is an example of spam: 
+
+ 
+EAGLE  has  its  own  e­mail  spam  filtering  based  on  content­matching  rules 
+which are applied to determine whether an email is “spam” or “ham” (non­
+spam  messages).  Most  rules  are  based  on  regular  expressions  that  are 
+matched  against  the  body  or  header  fields  of  the  message.  Usually  a 
+message will only be considered as spam if it matches multiple criteria. 
+EAGLE’s  spamfilter  tries  to  reinforce  its  own  rules.  Typically,  when  you 
+attribute a “Relevance note” you feed example of ham (useful) mails to the 
+spamfilter: 
+ 
+And when you click on the “This is spam, send it to spamfilter” button, you 
+feed example of spam mails. 
+ 
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 55/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+4.3.2. e­Newsletters, Alerts ... 
+Do not confused junk e­mail with a solicited mail such as e­Newsletters or 
+the Google Alert below to which it is necessary to subscribe. 
+
+ 
+Nevertheless,  emails  such  as  e­Newsletters  or  Alerts  can  often,  but  not 
+always,  be  reported  to  your  Superuser  as  not­Interesting  e­mails.  As 
+counterexample,  consider  the  following  e­Newsletter  from  a  specialized 
+website: 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 57/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+Below are different examples of notifications: 
+
+ 
+
+ 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 60/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+EAGLE GLINT ­ OPERATOR MANUAL 
+ 
+4.3.4. Placeholder in a message 
+To protect your privacy from junk e­mail senders, some e­mail client such 
+as  Microsoft  Office  Outlook  are  configured  by  default  to  block  image 
+downloads  from  the  Internet.  Then,  a  blocked  image  appears  as  a 
+placeholder indicating an image can't be displayed. 
+
+ 
+
+Reference: EAGLE / MAN­EAGLE­OPERATOR 
+Version 1.0 — 19/03/09 
+Page 61/66 
+This document is AMESYS property. It cannot be copied nor communicated to a third party without AMESYS written authorization.
+
+ 
+
+ 
+
+

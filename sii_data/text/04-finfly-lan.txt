@@ -1,0 +1,100 @@
+Remote Monitoring & Infection Solutions
+FINFLY LAN
+
+Some of the major challenges Law Enforcement agencies
+are facing are mobile Targets, where no physical access
+to a computer system can be achieved as well as Targets
+who do not open any infected Files that have been sent
+via email to their accounts.
+In particular, security-aware Targets are almost impossible
+to infect as they keep their systems up-to-date and no
+exploits or Basic Intrusion techniques will lead to success.
+
+QUICK INFORMATION
+Usage:
+
+· Tactical Operations
+
+Capabilities:
+
+· Deploys Remote Monitoring
+Solution on Target System in
+Local Area Network
+
+Content:
+
+· Software
+
+FinFly LAN was developed to deploy a Remote Monitoring
+Solution covertly on Target Systems in Local Area Networks
+(Wired and Wireless/802.11). It is able to infect Files that
+are downloaded by the Target on-the-fly, infect the Target
+by sending fake Software Updates for popular Software
+or infect the Target by injecting the Payload into visited
+Websites.
+
+Usage Example 1: Technical Surveillance Unit
+
+Usage Example 2: Anti-Corruption
+
+A Technical Surveillance Unit was following a Target
+for weeks without being able to physically access the
+target computer. They used FinFly LAN to install the Remote
+Monitoring Solution on the target computer when he was
+using a public Hotspot at a coffee shop.
+
+FinFly LAN was used to remotely install the Remote
+Monitoring Solution on the computer of a Target while
+he was using it inside his hotel room. The Agents were
+in another room connected to the same network and
+manipulated the Websites the Target was visiting to trigger
+the installation.
+
+Feature Overview
+·
+·
+·
+·
+·
+·
+
+Discovers all Computer Systems connected to Local Area Network
+Works in Wired and Wireless (802.11) Networks
+Can be combined with FinIntrusion Kit for covert Network Access
+Hides Remote Monitoring Solution in Downloads of Targets
+Injects Remote Monitoring Solution as Software Updates
+Remotely installs Remote Monitoring Solution through Websites visited by the Target
+
+For a full feature list please refer to the Product Specifications.
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Remote Monitoring & Infection Solutions
+FINFLY LAN
+
+Product Components
+
+FinFly LAN
+
+FinIntrusion Kit - Integration (Optional)
+
+· Linux-based Software with simple User-Interface
+
+· FinFly LAN will be loaded as a module into
+the FinIntrusion Kit
+
+Infection through Local Area Networks
+
+Remote Monitoring & Infection Solutions
+FINFLY LAN
+
+Automated User-Interface
+· Simple to use without extensive training
+
+Multiple-Target and Payload Support
+· Different Executables can be added for each Target
+
+

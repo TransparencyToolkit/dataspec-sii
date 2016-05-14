@@ -1,0 +1,40 @@
+RCS probing system for ISON PRI channels
+General Features
+DFDM is a voice and data distributor monitor used to intercept calls on PCM (2 MB) trunks and ISDN PRI.
+Signals on monitored links are analyzed 24/7 so that as soon as a target telephone number is recognized, the relevant Call Content (CC)
+is saved to disk and an Intercept Related Information {IRI) generated listing all technical information on the call.
+DFDM exports CC and !RI to the configured Lawful Enforcement Monitoring Facility (LEMF) using ISDN BRI or PRI connectivity. If there is no
+connection, the system buffers all information collected so it can be download later.
+The connection between monitored trunks and OFDM is made using passive TAPs that replicate the two directions of the monitored Link on
+two different E1 interfaces.
+
+Main features
+• Up to four (4) E1 ports to monitor up to two (2) contemporary E1 links.
+• Up to twenty (20) active Targets.
+• ISDN signal monitoring.
+• Portable equipment.
+• Egress toward LEMF on BRI or PRI link.
+• Configurable egress for Stereo or Mixed modes.
+• Integrated O&M terminal.
+• Windows Server Operating System
+Extra Functions
+• Call tracking: a CSV (Comma Separated Values) file is generated daily listing all caller/called numbers and the Timestamp.
+• Dynamic configuration: target defining parameters can be changed dynamically, for both Monitored and LEMF numbers.
+• Blank call check: if the end_of_call event is not logged in DFDM, the LEMF call will not be closed. This generates a "blank call" which can be
+terminated by:
+• Voluntary closedown by the O&M terminal.
+• Automatic silence detection (configurable).
+• Checking if same timeslot is being used by another cal l: this feature prevents the interception of undesired calls.
+• Test call: the operator can send a test call to LEMF from the O&M terminal to check connectivity.
+• Local Listening: the O&M terminal can be configured to listen to calls using DFDMAudio resources.
+• O&M: the Operation and Management terminal is a web application available on DFDM that can be accessed from a remote or local
+browser. The following menus are available:
+• List/EditTargets
+• Send Test Call
+• System Configuration
+• Diagnostics
+• Manual Closedown of egress call
+• Application Log view:
+• O&M terminal access is password-protected.
+
+

@@ -1,0 +1,184 @@
+Open Networking in Lawful Interception
+
+by
+Rob Lin
+Director of Sales
+Innovative | High Performance | Reliable
+
+10/13/2011
+
+©2011 - Simena, LLC - Confidential
+
+Simena’s Vision of Open Networking
+ Networking equipment with open source operating system
+and applications.
+ Proprietary hardware is still needed for performance.
+ Linux based control plane using multicore processor.
+ Linux prompt, not a closed CLI.
+ SDK/API for developing custom applications.
+ Abundance of tools/apps/protocols: Perl, HTTP/HTTPS,
+SNMP, e-mail, TACACS+, Syslog, SSH, etc.
+ Open specifications for adding new hardware to the system.
+
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+Existing Lawful Interception Networks
+
+Data
+collectors &
+aggregators
+
+Email, VoIP,
+video & Data
+Recorders &
+Analyzers
+
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+Open Networking in Lawful Interception (LI)
+
+ Automating and customizing applications to create copies of
+packets, distribute, and filter them.
+ Being able to add new features easily:
+ Parsing headers to create triggers for further analysis.
+ Switching, replacing, removing, stacking VLAN/MPLS tags.
+ Adding new packet filters for new protocols
+
+ Packet de-duplication
+
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+Open Networking in Lawful Interception (LI)
+
+ SDK/API for managing the equipment remotely from other
+applications, besides using web and CLI interfaces only.
+ Time synchronization and time stamping by using open
+standards such as IEEE1588.
+ Running key LI applications such DPI in the same
+equipment.
+
+ Providing open hardware specifications for customers to
+integrate NPU/FPGA based solutions.
+
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+PFS: Example Use Case
+Core
+Router
+
+Core
+Router
+
+Simena
+Taps
+
+Simena
+Taps
+
+Access
+Router
+
+Access
+Router
+Simena Packet Flow Switch
+
+Email, VoIP,
+video & Data
+Recorders &
+Analyzers
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+Packet Flow Switch – PFS1764
+ Industry’s first open monitoring switch
+
+ Industry's highest port density without any dedicated ports
+ Linux based control plane, text based configuration files
+ Industry's lowest and fixed latency – 300 ns
+ 4x 40G & 48x 10/1G ports
+ Applications
+ Tool Aggregator,
+ Packet Distributor
+ Your applications!
+
+ Rich Feature Set:
+ Any-to-any connections,
+ Packet slicing, packet tagging, load balancing, internal tap, loopback
+ ACLs, clustering, central management, Web GUI,
+ HTTP, HTTPS, SSH, Telnet, Syslog, SNMP, SMTP, TACACS+, etc.
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+PFS1764 - Architecture
+ Linux based & open access control plane on multicore processor
+
+
+Develop and run your scripts & applications on PFS1764
+
+ Ethernet switch based data plane
+
+
+Standard L2/L3 switching features: ACL, load balancing, VLAN/MPLS tagging, IP tunneling, etc.
+
+
+
+Being able to add custom NPU/FPGA based PCI-E card with direct access to data plane
+
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+About Simena
+ Established in 2002, Headquartered in Sterling, VA
+Fast growing, 185% revenue growth in 2010
+ Manufacturer of Network Monitoring, Test & Measurement
+Equipment
+ Product Families:
+ Packet Flow Switch
+ Network Taps
+ Network Emulator
+ Traffic Generator
+ Worldwide Distributors on 27 countries
+ Over 150 customers around the world
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+Contact Information
+
+Rob Lin
+Director of Sales
+45999 Center Oak Plaza,
+Suite 100
+Sterling, Virginia 20166, USA
+Tel:
+
++1.571.323.1500
+
+Fax:
+
++1.571.323.1600
+
+E-mail:
+
+info@simena.net
+
+Web:
+
+www.simena.net
+
+Innovative | High Performance | Reliable
+
+©2011 - Simena, LLC - Confidential
+
+

@@ -1,0 +1,320 @@
+Innovationszentrum für
+Telekommunikationstechnik IZT
+
+COMINT Technology
+
+March 2011
+
+Overview
+
+ Company Profile
+ Signal Sources
+ S1000
+ COMINT Simulator
+ Digital Wideband Receivers
+ R3000
+ RecPlay System
+ R4000
+
+About IZT
+Innovationszentrum fü
+fü r
+Telekommunikationstechnik GmbH IZT
+ based in Erlangen, Germany
+ founded 1997 as spin-off from the Fraunhofer
+
+Gesellschaft, an organization for applied research
+(„home of mp3“)
+ about 50 employees
+ focusing on rf technology and fast digital signal
+
+processing
+system engineering
+ rf and microwave design
+ fast digital hardware
+ FPGA programming
+
+
+ worldwide sales in different markets directly or
+
+through distributors and system integrators
+
+Technologies and Applications
+IZT combines worldworld-class RF frontends with advanced signal processing to
+create high performance products for capturing,
+capturing, modifying and generating
+radio signals.
+signals.
+
+Digital Multichannel Signal Sources
+ Consumer receiver testing
+ RF environment simulation for MIMO receivers
+ COMINT simulation and test
+
+Channel Simulators
+ Modelling the effects of a satellite link on the signal with up to 700MHz bandwidth
+
+Digital Wideband Receivers and Analyzers
+
+
+
+
+
+ITU spectrum monitoring and enforcement
+Anti Surveillance operations
+Wideband radio signal capture
+COMINT and Jammer systems
+
+IZT Signal Sources
+Signal interpolation and combining in realreal-time
+ 9 kHz...3(6) GHz frequency range
+ 2x120 MHz realtime bandwidth
+ Interpolation and mixing performed in real time
+ Impairments (fading, phase noise, doppler, blockage) applied in real-time
+
+Coherent System
+ Phase synchronous replay of diversity signals
+ Antenna diagram simulation
+ Over-The-Air Testing
+
+31 or more independent channels
+ Can contain one or more emissions
+ Different sample rates
+ Placed anywhere in the spectrum
+
+IZT S1000
+Signal parameters adjustable while operating
+ Frequency, power, delay
+ Noise, impairments, fading, phase noise
+
+Different data sources
+ 1,750,000,000 samples RAM
+ Continuous streaming 2x24 MSamples/sec.
+ Internal harddrive
+
+Waveforms
+ CW, AM, FM, LSB/USB, QAM, DAB, DAB+, DVB-T, DRM, DRM+, HD-Radio
+ Frequency hopper simulation: > 2000 hops/sec, spread up to 120 MHz
+ Real-time modulators for XM / Sirius
+ Playback of recorded live signals
+ Easy-to-use Matlab interface
+
+IZT Signal Sources
+
+Signal Generator IZT S1000
+
+COMINT Simulator S5000
+COMINT Simulator
+ Continuous coverage of 20...3000 MHz
+
+in 120MHz blocks
+ Thousands of accurately controlled
+
+signals with actual content
+ Hours of RF environment scenarios
+ Capability to stimulate a DF system
+
+based on
+ Antenna characteristics (steering
+matrix)
+ Azimuth/elevation and power for
+each individual signal
+ Up to fourteen antenna inputs
+supported
+ Scalable
+
+Applications
+Applications for the IZT S1000 and S5000
+ Cost effective testing of consumer radios
+ Replay of recorded signals
+ RF environment simulation
+ Phase synchronous replay of diversity signals
+ Testing of COMINT/SIGINT systems
+ Testing of DF systems
+ Operator training
+ Chip Design
+ Testing of LTE and DVB-T2 environments
+
+IZT Receivers
+Superior Digital Processing
+ Real-time PSD
+ Multi-channel DDC (I/Q)
+ Fully synchronous to support DF or TDOA
+ Smart self-contained data format
+ Very efficient use of commercial LAN infrastructure
+
+World Class RF Performance
+ Performance parameters comparable to big players in the market
+ Coverage from 9 kHz to 18 GHz
+ 24/120 MHz bandwidth
+
+IZT R3000 Wideband Digital Receivers
+ General
+ Successful in the market since 2006
+ Set the standard for new generation of digital
+receivers
+ High SFDR (84dB @ B=100kHz in VHF; >90dB in HF)
+ Four DDC channels
+ Simultaneous I/Q, PSD and FFT for each channel
+ GBit LAN interface directly at the FPGA supports
+>90% network load for data transfer
+ Applications
+ Leading product for ITU spectrum monitoring (HF and
+VUHF)
+ DOA and TDOA location finding
+ Anti surveillance
+ COMINT and jammers by several system integrators
+
+R3301 Portable Wideband RF Recorder
+R3301 Portable Wideband RF Recorder
+ Combination of R3000 with PC
+ For portable and mobile applications
+ Contains UPS with AC and DC supply
+ Touch screen
+ Extremely low RF emissions
+ Continuous recording of up to 20.5 MHz
+
+bandwidth
+ 2TByte storage space for minimum 6 hours of
+
+signal
+ Built-in GPS and high stability reference
+ Used for capturing RF signals in the field
+
+IZT RecPlay: Single Antenna Setup
+One Channel Setup
+ RF Recorder IZT R3301
+ Streaming Server IZT P1x00
+ Signal Generator IZT S1000
+
+IZT RecPlay: Dual Antenna Diversity Setup
+Two Channel Setup
+ 2x RF Recorder
+ Synchronization Unit
+ Streaming Server
+ Signal Generator
+
+with dual RF output
+ Cal-Kits (optional)
+
+Data Handling
+ 2.5“ HDDs, swapable
+ Direct link via Gigabit LAN
+
+interface
+ Internet VPN connection
+
+IZT Replay: Multi-Antenna Diversity Setup
+
+IZT R4000
+Key Features
+ 120 MHz Instantaneous Bandwidth
+ real-time wideband spectrum
+ zoomed spectrum
+ Selective continuous recording
+ up to 127 sub-bands
+ automatic activity detection or/and manual selection of sub-bands
+ max. ~1TByte/hour data
+ Seamless online/offline operation
+ access to past or current signal
+ up to 127 work stations can access I/Q data digitally
+ analog IF outputs can be provided
+ High quality RF frontends
+ up to 18GHz
+ Direct sampling up to 140 MHz
+ Configurable pre-selector
+
+R4000 Receiver Subsystem
+
+R4000 Digital Processing
+
+IZT R4000 Receiver Frontends
+Four different frontends
+ HVHF
+ 9 kHz...140 MHz with direct sampling
+ Very high SFDR
+ 16 configurable pre-selector filters (~1:1.2 frequency spacing) with adjustable bandwidth
+ Notch filter for FM Broadcast band
+ RF3
+ Extends frequency range to 3000 MHz
+ 120 MHz IF bandwidth
+ RF6
+ Extends frequency range from 3 GHz to 6 GHz
+ Dual conversion, highly linear design
+ Fully phase stable
+ RF18
+ Extends frequency range from 3 GHz to 18 GHz
+ YIG as pre-selector
+ 120 MHz IF bandwidth
+
+R4000 Configurable Pre-Selector
+
+IZT R4000 Interface for System Integrators
+A Software Interface to the IZT R4000 will be available for System
+Integrators
+ No direct access to R4000 LAN interface to reduce complexity
+ Customer is responsible for the IT
+ IZT R4000 driver software performs
+ Receiver control based on client software commands
+ Data de-compression
+ Extraction of narrow band channels
+ spectrum provided in R3000 data format by low-level IZT software
+ Delayed I/Q can be requested by client application (up to 127 channels) in
+
+R3000 data format
+ Dual GBit Interface can handle 60....80 MHz cumulative bandwidth
+ 10 GBit Interface makes full 120 MHz available
+
+R4000 Signal Collection System
+
+R4000 Selective Recording and Processing
+
+R4000 Selective Recording and Processing
+
+R4000 Operation
+Energy Detection
+ Determines active subbands
+ Manual
+ Automatic modes
+
+Signal Capture
+ Active subbands are stored in a storage system
+
+Retrieval
+ Workstations request portions of the captured signals based on availability
+ Receive content via LAN
+
+Roadmap: Digitizer
+Two Channel Digitizer
+ 2x120 MHz instantaneous bandwidth (hardware limitation to 10 MHz possible)
+ More than two channels possible
+ 240 MHz I/F or baseband input
+ Can be combined with IZT‘s frontends (HVHF/3/6/18 GHz)
+ Can incorporate an electronic antenna switch
+ Real-time DDC or FFT in FPGA, time stamps in the data stream
+ 10GBit optical LAN output
+ IP protocol in FPGA for easy interfacing to a PC or IZT S1000
+ Completely shielded and industrial temperature range
+
+Applications
+ Cost effective to high performance DF systems with digitization at the antenna
+ Real-time MIMO over-the-air test setups
+
+Summary
+Summary
+ IZT has built a reputation as supplier for advanced high performance receivers
+ R3000 is well established in the market
+ R4000 covers high end applications – IT systems now have years ahead to catch up
+ Extension towards cost effective and high performance hardware for DF is the
+
+logical next step
+ COMINT Simulator is our master piece in terms of signal generation
+ S1000 has been very well received in the civilian markets – military and
+
+government markets will be targeted next
+
+WRTT Technical Concept
+
+Thank You
+
+

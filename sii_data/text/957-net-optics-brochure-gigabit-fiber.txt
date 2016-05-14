@@ -1,0 +1,125 @@
+GigaBit Fiber Taps
+Get total traffic visibility for monitoring and security devices by placing Net Optics GigaBit
+Fiber Taps on critical network links. The new slim profile of the GigaBit Fiber Tap saves
+rack space—install up to six Taps in a one rack unit panel. The all-optical design of the
+GigaBit Fiber Tap is optimized and tested for high-performance on GigaBit fiber networks.
+The all-optical design of the GigaBit Fiber Tap is optimized and tested for
+high-performance on GigaBit fiber networks. Available for both singlemode and
+multimode fiber, GigaBit Fiber Taps support passive monitoring of GigaBit links at speeds
+at 1000 Mbps.
+Requiring no power, the GigaBit Fiber Taps establish permanent passive access ports
+without introducing a point of failure or disturbing other network connections. These
+passive Taps deliver full-duplex monitoring with zero impact on network traffic around
+the clock.
+
+Operating Specifications:
+
+Operating Temperature: -40ºC to 85ºC
+Storage Temperature: -55ºC to 85ºC
+Relative Humidity: 10%min, 95%max, non-condensing
+
+Mechanical Specifications:
+
+Dimensions: 0.809” high x 4.375” deep x 5.550” wide
+
+Splitter Specifications:
+Fiber Type:
+
+Without an IP address, monitoring devices are isolated from the network, dramatically
+reducing their exposure to attacks. However, the monitoring device connected to the Tap
+still sees all full-duplex traffic as if it were in-line, including Layer 1 and Layer 2 errors.
+
+Corning Singlemode 8.5/125µm, wavelength 1310nm
+Split Ratio
+Network Port
+Monitor Port
+Insertion Loss
+Insertion Loss
+90/10
+0.8 dB
+12.0 dB
+80/20
+1.3 dB
+8.0 dB
+70/30
+2.0 dB
+6.1 dB
+60/40
+2.8 dB
+4.8 dB
+50/50
+3.7 dB
+3.7 dB
+
+Passive, Secure Technology
+
+Connectors:
+
+Full-duplex monitoring is a snap with a custom monitoring cable that sends each side of
+the signal to a separate NIC on the monitoring device. All network and monitoring cables
+necessary for plug-and-play deployment are included.
+
+• Provides passive access at speeds at 1000 Mbps without data stream
+interference or introducing a point of failure
+• All-optical design is optimized and tested for GigaBit fiber networks
+• Permanent in-line installation without affecting network performance
+• Passes all full-duplex traffic (including errors) from all layers for comprehensive
+troubleshooting
+• No IP address is needed for the Tap or monitoring device, enhancing monitoring
+security
+• Completely transparent to the network and requires no power
+
+Ease of Use
+
+• Front-mounted network connectors for easy installation and operation
+• Angled connectors minimize cable strain
+• Silk-screened application diagram illustrates all connections for easy
+deployment
+• Optional 19-inch rack frame holds up to 6 Taps
+• Compatible with all major manufacturer’s monitoring devices including
+protocol analyzers, probes, and intrusion detection/prevention systems
+
+1130 Mountain View-Alviso Road • Sunnyvale, CA 94089
+Tel: +1 (408) 737-7777 • www.netoptics.com
+
+Monitoring Port: (1) Duplex SC connector
+Network Ports: (2) Duplex SC connectors
+
+Certifications:
+
+Fully RoHS compliant
+Part Number
+
+Description
+
+TP-LX5-SCSLM*
+TP-LX4-SCSLM*
+TP-LX3-SCSLM*
+TP-LX2-SCSLM*
+TP-LX1-SCSLM*
+RK-6V2
+
+GigaBit Fiber Tap, LX-SM, 1310nm, 50:50
+GigaBit Fiber Tap, LX-SM, 1310nm, 60:40
+GigaBit Fiber Tap, LX-SM, 1310nm, 70:30
+GigaBit Fiber Tap, LX-SM, 1310nm, 80:20
+GigaBit Fiber Tap, LX-SM, 1310nm, 90:10
+Six Slot Rack Mount Frame
+
+*Also available in Multimode SX models. All products include a 1 year
+manufacturer’s warranty. An additional 1 or 2 year extended warranty may
+also be purchased.
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+Net Optics® is a registered trademark of Net Optics, Inc. Copyright 1996-2006 Net Optics, Inc. All
+rights reserved. Additional company and product names may be trademarks or registered trademarks of
+the individual companies and are respectfully acknowledged.
+PUBTPLXSCD Rev. 1, 07/06
+
+

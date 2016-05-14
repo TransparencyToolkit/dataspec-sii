@@ -1,0 +1,300 @@
+GSM-XPZ Family
+Technical Specifications
+
+CONFIDENTIAL
+
+1
+
+Overview
+
+GSM-XPZ
+Designed as a tactical tool for law enforcement, Government agencies and the Military, the
+GSM-XP family of GSM active interception solutions have proven to be a global hit with
+proven success in the field.
+MMI is proud now to provide preliminary specifications for its next generation solution.
+Based on commercial base-station technology this offers a quantum leap in mobile
+acquisition rate, higher transmit power, operational ranges and for the first time
+simultaneous operation on multiple networks and simultaneous servicing of multiple targets.
+A range of products will be available targeted to provide an optimal solution for different
+mission scenarios. Key features include:
+•
+
+Up to 50 Watts output power on 2 simultaneous channels
+
+•
+
+Up to 4 simultaneous channels, allowing emulation of
+- 4 broadcast channels on one network
+- 4 broadcast channels on four different networks
+
+•
+
+Dual band solutions covering 900/1800 or 850/1900 MHz and for the first time
+
+•
+
+a world box providing 850/900/1800/1900MHz capability
+
+•
+
+Real time monitoring and intercept of up to 4 simultaneous calls
+
+•
+
+Integrated antenna switch on the vehicle models
+
+•
+
+Capability to service multiple targets – up to 7 targets per carrier
+
+•
+
+Ruggedised carry-case
+
+•
+
+Multiple form factors to cover different operational scenarios
+CONFIDENTIAL
+
+2
+
+Model Variants
+Three variants will be available:
+• GSM-XPZ-PV (Vehicle model )
+• GSM-XPZ-HP (Highly Portable model)
+
+GSM-XPZ-PV: The vehicle model is designed for customers with an ‘in-country’
+requirement, i.e. operation within their own borders. The system may require a vehicle
+installation which will be performed in-country by qualified MMI representatives.
+The nature of the installation allows the system to transmit up to 50 Watts which when
+added to the improved receive sensitivity and channel equalisation dramatically extends the
+range. In addition the system will support multiple channels simultaneously to a maximum of
+4 channels within the unit. The PV system is supplied with a bench top power supply to
+allow normal use when not installed into a vehicle.
+
+GSM-XPZ-HP: A new model variant this is designed for customers who wish to operate
+discretely close to the target. Packaged into a small case, such as a briefcase, the system
+can be easily used in public places without alerting targets.
+In addition the system will support multiple channels simultaneously to a maximum of 2
+channels within the unit. The highly portable variant will be able to transmit up to 250mW in
+2 channels configured either as 900/1800 or 850/1900 variants. The antennas will be
+integrated with there an option to add an external Power Pack to increase transmitted RF
+power.
+
+CONFIDENTIAL
+
+3
+
+Features
+Generic Features for GSM-XPZ-PV systems
+• Ability to adjust BTS power to a maximum 50W
+• Ability to transmit 4 GSM broadcast channels simultaneously
+• Enhanced IMSI acquisition rate (theoretically to 60 registrations per BTS per second)
+• Intercept of 4 outgoing target calls simultaneously.
+• Perform a Blind Call per GSM timeslot = 7 blind calls simultaneously per channel
+• Upto 28 Simultaneous Blind Calls whilst IMSI Grabbing
+• Advanced manipulation of BCH data to ensure better phone retention (once locked)
+• Ability to survey spectrum using custom phone modules
+• Display of SERVER & 6 neighbouring cell information to enable simple cell emulation
+• Ability to adjust target mobile power once in a call to maximum 2W transmission
+• Visual indication of RX power lev (mobile reporting BTS received signal strength)
+• Advanced configuration of BTS for emulation of any network type
+• Off-line mode for mission file viewing
+• Powerful database search facility for quick target identification
+• Multiple antenna management using In-built antenna switching circuitry
+• Remote system operation via wireless link
+
+Control Options
+To provide users with maximum flexibility a range of control options is available; direct
+Ethernet connection to the controlling laptop; wireless connection using a suitably enabled
+device e.g. PDA, Laptop etc. In this mode multiple users will be able to connect and view
+the following information over a secure connection:
+• Target Identification – included as standard
+• Voice Intercept (only available on PV variant)
+• SMS Intercept
+• Direction Finding support
+• Service Denial
+• Bubble mode
+
+CONFIDENTIAL
+
+4
+
+The operator will be able to adapt the Graphical User Interface (GUI) to display the key
+information. The GUI will build on the familiarity of the existing GSM-XP to allow both novice
+and experienced users the control to easily simultaneously operate 4 basestations.
+To enhance security, mission data is stored on an external memory device. This can be
+easily switched between multiple systems, or used to examine mission data offline on a
+separate PC or on the GSM-XPZ itself. This also allows for protection of mission data, should
+the system have to be loaned to other organisations or returned to MMI. All events as per
+current GSM-XP operation will be time stamped and logged in a mission file along with
+intercepted Voice/SMS data. To maintain the integrity of the data the mission files cannot be
+edited or recorded voice replayed without using MMI software.
+Operational Modes
+Research & Release
+
+Allows phones from up to 4 networks to simultaneously attach to
+the GSM-XPZ enabling their IMSI / IMEI to be logged. Once
+logged, they are released back to the real network - the most
+covert operational mode.
+
+Research & Lock
+
+Locks selected target phones to the GSM-XP BTS Ping Mode
+Clones the selected BTS exactly including LAC. A much quicker
+and more efficient way of capturing mobiles as it removes the
+overheads associated with a location update – the least covert
+operational mode.
+
+Bubble Mode
+
+Unless otherwise specified all phones registering to the system
+will be locked to the system thus creating a bubble of phones
+restricted from accessing the real networks.
+
+Service Denial to all Hostiles
+Exclusive Network
+
+Sends a service denial message to all phones, potential
+hostiles, that prevents them from rejoining a real network.
+
+Allows friendly phones to use the XPZ as a means to covertly
+contact other operatives. Calls made in this way do not use the
+real network and are therefore secure.
+
+Target Mobile Actions
+Overt Call
+Allows operator to call a target phone and optionally converse.
+Blind Call
+
+Covert (silent) call to a target phone. Used in conjunction with
+directional finding equipment.
+
+Send SMS
+
+Allows operator to send SMS to a target phone.
+
+SIM Swap Indication
+
+Shows indication of SIM swap.
+
+Make Target
+
+Allows operator to make a phone a target.
+
+Invalidate Target
+
+Allows operator to deny service to a selected target.
+
+Make Reject
+
+Allows operator to reject selected phones from the GSM-XP to
+prevent any interference by the system.
+
+Show Target
+
+History Shows all recorded activity by the target phone.
+
+CONFIDENTIAL
+
+5
+
+Technical Specifications
+The specification will vary depending upon the model purchased however the key
+specifications are presented below:
+Radio Interface
+Transmit/Receive Frequencies:
+Channel Frequency:
+Output Power:
+Receive Sensitivity:
+GSM/GPRS Functionality
+Channel Capability:
+TS0
+TS1-7
+Call Control Capabilities:
+
+Hopping:
+Electrical MMI:
+Speech Encoding/Decoding:
+MS Power Level Control:
+SACCH MEAS Results:
+SMS Point-to-Point:
+General Specifications
+Size:
+PV HP Weight:
+
+Euro Variant: E-GSM, GSM, DCS
+US Variant: 850 , PCS
+Quad Variant: 850, E-GSM, GSM, DCS, PCS
+200 KHz
+PV up to 50W per band
+HP up to 250mW per band
+>-95dBm (RAKE receiver).
+
+FCCH, SCH, BCCH, CCCH, SDCCH/4, SACCH/C4
+TCH/F+FCCH/F+SACCH/TF
+SDCCH/8, SACCH/C8
+TCH/F+FCCH/F+SACCH/TF
+BS Originated Call (Covert or Alerting), MS Originated Call
+(BS Terminated or BS Extended onto real Network), MS
+Camp on, MS Camp off, BS Call Disconnect, MS Call
+Disconnect
+No
+Ethernet
+Full Rate speech (FR) GSM06.10
+GSM900; 5 to 19, GSM1800; 0 to 13.
+RXLEV, Timing Advance.
+Mobile Originated, BTS Originated
+
+Operating Temperature:
+Storage Temperature:
+
+200mm (H) x 500mm (W) x 580mm (D)
+70mm (H) x 280mm (W) x 290mm (D)
+PV < 28 Kg (55lbs)
+HP < 4.5 Kg (10bs)
+-5° C to +45°C (23°F to 113°F)
+-10° C to +70° C (14°F to 158°F)
+
+Power Consumption
+GSM-XPZ-PV
+GSM-XPZ –HP
+
+600W
+40W
+
+Power Supply
+GSM-XPZ-PV
+GSM-XPZ -HP
+
+24 Vdc
+2 x Li-Ion Batteries (300Wh approx 8 hrs) or
+12 Vdc input
+
+CONFIDENTIAL
+
+6
+
+Interface Connectors:
+GSM-XPZ-PV
+
+GSM-XPZ-HP
+
+Antennas via N-Type connectors: 2 x 900MHz, 2 x
+1800MHz, 2 x combined 900/1800MHz connectors for
+Omni-directional antennas.
+Data/Audio Interface via Ethernet
+Secure Wireless WPA (Optional)
+In-built 900/1800MHz Omni-directional antennas.
+Data Interface via Ethernet
+Secure Wireless WPA
+
+CONFIDENTIAL
+
+7
+
+CONFIDENTIAL
+
+8
+
+

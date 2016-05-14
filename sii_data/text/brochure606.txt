@@ -1,0 +1,88 @@
+GEOLOCATION NETWORKING
+FOR THE MD-405A
+L-3 Linkabit offers a complete Geolocation Networking package for the MD-405A
+Signals Intelligence (SIGINT) System that incorporates all the features of the Remote
+Host Control Human Machine Interface (HMI) including signal processing displays,
+signal search, and database capabilities plus a Geolocation Network. The Geolocation
+Network uses multiple laptop computers connected to MD-405A SIGINT receivers across
+a network to synthesize and display results that provide the correlation and manipulation
+of multiple MD-405A SIGINT receivers from a Master Station. The Master Station can
+control remote outstations and be equipped with an MD-405A SIGINT receiver.
+The Geolocation Network communications configuration can be provided through any
+combination of the following to meet the needs of the mission:
+• L-3 Linkabit’s WAVpac Multi-band Radio
+• Standard TCP-IP Connection
+• PSTN through standard or dedicated phone lines
+• Direct connection through RS-232
+The standard Geolocation Network is comprised of one Master
+Station and one or more remote station; however, two or more
+remote stations provide the best results. The Master Station
+synthesizes the results of its own Line of Bearing (LOB) and that of
+the remote stations to provide a best estimate of the location of the
+emitter. Each time the location of the emitter can be determined, a
+fix is displayed on the map. After a series of fixes is obtained, the
+system displays a best guess of the emitter’s location.
+The Geolocation Network also provides the capability to remotely
+operate a Geolocation Network from a Command Post. The Command Post communicates
+with the Master Station of a single or multiple Geolocation Networks. The Command
+Post sends Direction Finding requests to the Master Station and receives back reports
+from each Master Station.
+
+Geolocation Networking for the MD-405A
+
+GEOLOCATION NETWORK FEATURES
+Flexible network architecture connects nodes with any combination of:
+• Linkabit’s WAVpac multi-band radio
+• Standard TCP/IP Networking
+• Direct RS-232 connection
+• Standard or dedicated phone lines through a modem
+Enhanced Geolocation Network Features:
+• “Flash the Net” – Remote station can request the network immediately tune and perform Geolocation
+on a specific signal
+• “Stare Operation” – Each remote can be programmed to look for up two different signals. When
+found, the entire network will immediately tune and perform Geolocation on the signal. Stare is
+programmable for signal level and duration
+• Command Post capability to remotely control a Geolocation Network
+Mapping software supports numerous formats including:
+DTED
+
+ADRG/CIB
+
+Arc Grid
+
+ESRI Shape Files
+
+GeoTIFF
+
+Standard Bitmaps
+
+JPEG2000
+
+KML/KMZ
+
+In addition, Geolocation software’s Embedded Map Utility supports the export of Google Earth images for
+use as a map file.
+Encryption provided between Nodes. (PC Based 256 Bit AES)
+Geolocation Network Operator Diagnostics Include:
+• An enhanced BIT/diagnostic screen
+• Ping Testing with confirmation between active nodes
+• A Chat Interface between nodes on the network
+Separate User and Administrator Screens (Administrator Screens are Password Protected).
+Master or Remote Relationship can be established for any node, for each mission, since
+common software runs on all nodes.
+Master Station synthesizes the result from all nodes. Results can be sent to a Command Post or the remotes
+for analysis and tasking.
+
+Note: All specifications subject to change without notice
+
+Cleared by Do D/OSR for public release under
+OSR Case Number 0 8-S-0647 on March 12, 2008.
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078061009
+
+

@@ -1,0 +1,1447 @@
+(
+
+Table of Content
+
+0
+
+1. Introduction
+
+0
+
+2. Tactlcal IT Intrusion
+
+~
+
+oo
+
+Portfolio
+
+3. Remote Monitoring &
+Infection Solut ions
+
+4. IT Intrusion Training
+Programm
+
+oo
+t.A"''"'
+
+~
+
+...,,
+
+~r
+
+Gamma Grou - Fields of 0 eration
+• Gamma TSE
+•
+
+Technlcal Surveillance Equipment
+Surveillance Vans
+
+• G2Systems
+•
+
+Intelligence Training
+
+•
+
+VIP Protection
+
+• Gamma lnternatlonal
+•
+
+Flnf isher - IT Intrusion
+
+•
+
+Communication Monitoring
+
+.A"-'''••! ...
+
+JI
+
+S. Summary
+
+~
+
+3
+
+We onl serve Governmental Customers
+
+4
+
+• Law Enforœment Agencies:
+Police (Intelligence, Speclal Branch), Antl -Corruption,
+VIP Protection, Presidentlal Guard, Customs, Naval &
+Boarder Security
+
+tttiltn
+
+• Intelligence Agencies:
+Internai and External Security Departments
+• Mllltary:
+Intelligence, Signal Intelligence, Army, Navy, Air Force
+• Speclal Events:
+International Conferences & Events
+
+........ ••,.(·"'~
+
+"
+
+,:::;
+
+Fact s Sales & Su
+.r-
+
+• Founded:
+1996
+
+t..r---
+
+• Office Locations:
+9 offices in 4 continents
+• P;rtner Sales & Support:
+Southern America
+• Gamma Group Turnover :
+EU R 80' (ln 2010)
+• Employees :
+78 Globally
+
+r.,, ...... ,.f,'-'(lul
+
+'
+
+2
+
+Histo
+•
+
+and Back round of Finfisher
+
+6
+
+Research startlng point was the most go11ernment used
+Intrusion tool worldwlde: Backtrack (4 Miiiion downloads)
+
+•
+
+Wlnnlng one of the top 1ntruslon Specialists and founder of
+Backtrack to bulld up required capabifrties and to deslgn a
+comprehenslve portfolio
+
+•
+
+Generating a t eam of world class intrusi on and research
+specialists and programmers (well known through public
+presentations at conventions I.e. Black Hat. DEFCON)
+
+_ Challenges in LI systems
+Due to changes ln technology, tr adltlonal passive monitoring systems face new
+challenges that can o nly be solved by combining them wlth actl"e solutions.
+
+•
+
+Encryption technologies:
+• SSL/TLS Encryptlon (Web, E-Mall, Messenger, ...)
+• Instant Messaglng (Skype, Sl mpUte, Blackberry Messenger ...)
+•
+
+Data Encryptlon (PGP, S/MIME, ... )
+
+•
+
+Hard-Dlsk Encryption (Truecrypt, SafeGuard, ...)
+
+• VPN Connections
+•
+
+Global mob llity of Devices and Targets
+
+•
+
+Anonymity through Hotspots, Proxies, Webmall, ...
+
+{.,,..'\"-''-'""GQ_
+
+TRUE
+
+G M il
+
+e
+
+JI
+
+3
+
+Governmental IT Intrusion in the News
+IT Intrusion is used worldwide by many governments slnce several vears.
+
+0 Germany Furious Over Chinese Spy
+Hackers
+
+t's-web.
+
+~Gëôîgia -i>~esiden
+Site under
+..- ·DDoS attack from Russian hackers
+Summar
+
+Stuxnet malware is 'weapon' out to destroy
+
+... Iran's Bushehr nuclear plant?
+..................................... _ _
+............ ""'.. . ._._°""'...,,.....
+. ..., ....... a....·•
+n..-......-..............
+
+~
+
+..i...... ..,in.~
+
+--.... -·-
+
+..u-~..,.,flbfC.
+
+_ .,,,
+,..,..........
+.....
+.,..........
+_..,...
+~-..9"'\ .....- •
+,.. ~
+
+..
+
+~,..
+
+......
+
+Governmental IT Intrusion - Le al Situation
+New laws are being established ail a round the world and Trojan-Ho rse tetllnologv
+ls already legally used ln many countries.
+ZDNet N.,.. / Software
+
+Australian police get go-ahead on spyware
+..... Leaked Documenta Show Gennan Police Attemptlng to
+Hack S~
+.... . ~11111 _ , . . .
+
+swon _
+
+,,,.,._,r. --...
+
+n•-- -
+
+,.
+
+•
+
+D '"'
+
+------
+
+FBI uses hacking technology for surveillance
+
+,....m
+....cmropa
+~c
+hl""IC.
+
+H«lotW. ~ horM>.
+
+tuWi A~ tool ~ IMlftt deV~ by i.w .,fo~•tM!du i. rPlot.ty
+6Ntd-~~,,.....,....
+....,.....eom.,uLW'9Wlle......,.n.;an~
+
+....
+
+~ '~· 'MCUri"" ~ ~ -----...
+0a TueMMy.
+
+f'ICg;,&C re~ ttt.11.thefBJ "'-~ 0'\8 ~~CD ~11,,a>y-.loog<NJ
+
+~~(lt!W"~..rt__.--· ...:r't~
+
+4
+
+Table of Content
+
+10
+
+u0 -
+
+~
+
+oo
+
+1. Introduct ion
+
+2. Tactlcal IT lntruslon
+
+Portfolio
+
+3. Remote Monitoring &
+Infection Solutions
+4. JT Intrusion Tralnlng
+
+Programm
+S. Summary
+
+c.,'\ ..... "-•,'\t,1..>uu•'
+
+Tactical IT Intrusion Portfolio
+
+,,
+
+FinUSB Suit e
+
+5
+
+FinUSB Suite
+
+0 erational Usa e
+
+The FinUSB Suite ls designed to covertly extract data
+from Target Systems.
+
+...
+12
+
+Typical Operations:
+Public Systems:
+•
+
+Quick Forensic Analysls (20-30 seconds)
+
+•
+
+Essentlal tool for Technical Surveillance Units
+
+Target Systems:
+•
+
+Using Sources t hat have physical atcess to automat\ca\ly
+extract Intelligence
+
+•
+
+Dongle can
+
+•
+
+Data is fully encrypted and can only be decrypted ln HQ
+
+FinUSB Suite
+
+be used e.g. by housekeeping staff
+
+Core Features
+
+13
+
+Extraction of Usernames and Pa$swords for ail common
+software llke:
+•
+
+E·Ma Il Clients
+
+•
+
+Messengers
+
+• Browsers
+Sllent Copylng of Files (Search Dlsks, Recycle-Bin, lai.t Opened)
+
+~
+
+Extracting Network Information (Chat logs, Browsing History,
+WEP/WPA(2) Keys, Cookies, ...)
+Compilation of System Information (Runnl ng/lnstalled Software,
+Hard-Disk 1nformation, ...)
+
+6
+
+./
+I'
+
+FinUSB Suite
+
+\
+
+Head uarter Software
+
+The FlnUSB HQ provîdes target-speclflc configurations and professlona\ data ana\ys\s.
+
+..........
+
+·--..._
+...
+
+----,.....
+
+FinUSB Suite Professional Re orts
+Sam pie repôrt generated by the AnUSB HQ software:
+:S
+
+----------·----- ----
+
+......
+
+__;;..__ __;,..,_
+
+----------.
+·------ ---...
+
+..A._'"'•\L
+
+~.11
+
+1
+
+7
+
+l&
+
+FinUSB Suite
+
+Portable Unit
+
+18
+
+• Notebook (Windows 7, FlnUSB HQ)
+
+• 10 FlnUSB Dongles
+
+••
+
+5
+
+• 2 Bootable CD-Roms
+
+r
+
+.A"-'••.:..Gk'[J JI
+
+Tactical IT Intrusion Portfolio
+
+17
+
+Finlntrusion Kit
+
+8
+
+s a
+
+Finlnt ruslon Kit
+
+,,
+
+0 erational Usa e
+
+The Flnlntruslon Kit is a portable IT Intrusion kit whlch can be used for varlous
+strategic and tactical attocks by red-teams inslde or outsl de the Headquarters.
+
+Typical Operatlons:
+Wireless Networks:
+•
+
+Break Encryptlon and record ail Tra Hic
+
+•
+
+Record Usernames and Passwords even for SSL-encrypted
+sites (e.g. Facebooll. MySpace, Onllne Bank1ng)
+
+Access remote Systems:
+
+~·. . . . . . . l
+
+1.1
+
+•
+
+Gain access to remote Infrastructures and Webservers
+
+•
+
+Get access to E-Mail Accounts
+
+'
+
+'--
+
+Finlntruslon Kit /Core Features
+•
+
+Discover Wireless LANs (802.111 and Bluetooth• devkes
+
+•
+
+Recover WEP (64 and 128 bit J Passphrase withln 2-5 mlnutes
+
+•
+
+Break WPAl and WPA2 Passphrase using Dictionary Attacks
+
+•
+
+Emulate Rogue Wireless Access-Polnt (802.11)
+
+•
+
+Actively monitor Local Area Network (Wired and W lreless) and extract
+
+19
+
+e-
+
+Usernames and Passwords even for SSL/Tl5-encrypted Sessions llke
+GMall, Hotmail, Facebook, etc.
+•
+
+Remotely break into E-Mall Accounts uslng Network-, System- and
+Password-based Intrusion Techniques
+
+....,
+
+. . . . . . . .\ (
+
+1.1[
+
+jl'
+
+...
+
+9
+
+•
+X
+Finlntrusion Kit 0 eration Center
+
+20
+
+The Operation Center provldes easv·to-use pofnt·and·cllck attacks.
+
+__.J
+F"TOC
+
+Wei< ___.
+FTOC
+
+,___,._._ . . .
+
+Finlntrusion Kit
+
+-----
+
+Covert Tactical Un"'it,___ _ _ _ __ _ _ _
+21
+
+• Notebook (FlnTrack, FTOC)
+
+••
+
+• Autorun and bootable USB Device
+
+• FinTrack bootable CD·Rom
+
+• Wireless Intrusion Hardware
+
+10
+
+Tactical IT Intrusion Portfolio
+
+22
+
+FinfireWire
+
+FlnFireWire / Operational Usage
+
+23
+
+The FinFireWlre product enables quick and covert access to locked Target Systems
+wlthout looslng crltical evidence due to requlrlng to reboot the
+
+~~tem.
+
+Typlcal Operatlons:
+Unlock Runnlng Systems:
+• Get Uve access to runnlng Systems, no more need to reboot
+and loose essential Evidence
+• Mod iflcation of system ls only temporary and reverted after
+Operation
+
+a
+
+Dump RAM Information:
+
+ç
+
+• Extract data from physlcal RAM forforenslc analysls
+• Recover crypto passwords and more
+-~
+
+r.,"\.._. •••• r "-
+
+.
+
+1
+
+11
+
+FinFireWire Core Features
+The product fu nctions on any major Operatlng System such as
+Microsoft Windows (XP -> 7), llnu>e and Mac OSX
+• The product enables the <igent to access the Target System without
+provldlng any password
+No reboot ls required, quick and covert accen is possibl~ wlthout
+looslng Important evidence
+• Ali configured RAM can be recorded lnto a file and later analyzed ln
+common Forenslc tools like Encase to dlscover e.g. Hard-Disk
+Encryptlon Passwords
+Works with FlreWire/1394, PCMCIA and Express Car d
+
+Fin lreWi e
+
+User Interface
+
+25
+
+Once connected to the Target System, the software provides a easy-to-use polntand-cllck Interface.
+
+12
+
+FinfireWire
+
+Portable Unit
+
+• FinFireWire Software
+
+• FireWire Cables for ail Ports
+
+• PCMCIA /Express Card Adapters
+
+C GAMMAGROLJP
+
+Table of Content
+
+27
+
+l . Introduction
+2. Tact ical IT Intrusion
+
+Portfolio
+
+3. Remote Monitoring &
+Infection Solutions
+4 . 1T Intrusion Tra'ini ng
+
+Programm
+S. Summary
+
+13
+
+Remote Monitorin and Infection Solutions
+
+FlnSpy
+
+FinSpv / Operational Usage
+FlnSpy ls an advanced Intrusion system which once lrnp\emented \nto Il Target
+System guarantees full access to the system with advanced features.
+Typlcal Operatlons:
+M onitor Encrypted Co mmunication:
+•
+
+Full access to all communltatlon lncluding Skype
+
+•
+
+Record even SSL-encrypted Communication
+
+Remotely Access Target System s:
+• Full File-System Access
+• Surveillance through Webcam and Microphone
+•
+
+Llve Monitoring even ifTargets are ln forelgn Countries
+
+14
+
+Fins
+
+Core Features
+
+30
+
+The product functions on any major Operatlng System such as
+M icrosoft Windows (2000 -> 7), Mac OSX and LlnuK
+Ali communication and ail temporary files are fully encrypted
+Target software is regularly tested to bypass the world's top 40 AntlVlrus applications and hide deep lnside the Target System
+True location of the Headquarter ls completely hidden through
+anonymizlng Proxies around the world
+The system can be fully Integrated wlth an eKlstlng Law Enlorcement
+Monitoring Functionality (LEMF)
+Court-proof Evidence according to European Standards
+
+Fins
+
+Target Features
+
+•
+
+Full Skypé Monitoring (Câll~. Chat s, Fiie Transfers, Vldeo, ContaLt lM)
+
+•
+
+Recordlng of all VolP communication
+
+•
+
+live Survelllance through Webtam and Microphone
+
+•
+
+Count ry Tracing of Target
+
+•
+
+Full Flle-Access: live File-Browsing, capturlng of
+
+•
+
+31
+
+deleted/prlnted/opened Documents
+•
+
+Process-based Keylogger for !aster analysls
+
+•
+
+Forenslc Tools for Live Remote Forenslc
+
+•
+
+Enhanced Flltering of data and recorded Information
+
+15
+
+Fins
+
+32
+
+With the FlnSpy Master LEMF Interface the tactical solution can be fully lntegrated
+lnto the Law Enforcement Monitoring Functionality (LEMF)
+
+•
+
+t
+
+Th• RnSpy Rolay(s) lorward
+conn~nk>ns
+
+The lnfected Target System sends
+
+betw.tln
+
+Targets and MUt~r
+
+e heartbut 10 the FlnSpy Relay(s)
+as soon lt ls onllne
+
+Fins
+
+User Interface
+
+The whole system is controlled through the easy-to-use Graphical User llitèrface.
+
+16
+
+FinS
+• FlnSpy Master and Relay
+
+• FlnSpy Agent(s)
+
+Remote Monitoring and Infection Solutions
+
+17
+
+FlnFly USB provldes an easv·to-use and reliable way of lnstalling Remote
+Monitoring Solutions on Target Systems when physlcal access l s aval\able.
+
+Typical Operations:
+Deploy FlnSpy on runnlng System:
+•
+
+Plug-in USB ln runnlng Target System to install f lnSpy
+
+Deploy FlnSpy on turned off System:
+•
+
+FinFI USB
+
+Boet USB to automatically deploy FinSpy
+
+Core Features
+
+Common USB Oevice with hldden functionallty
+Automatlc execution on Windows 2000/XP based Systems
+
+37
+
+••
+
+One-Click execution on Windows Vista/7 based Systems
+Automatic Installation through bootable System
+• Can even Infect switched off Target Systems when the Hard·Disl< ls
+fully encrypted with TrueCrypt
+
+1
+
+18
+
+FinFI USB
+
+Hardware and Software
+
+• 5 Flnfly USB Oongles
+
+• Full lntegratlon into FinSpy
+
+Remote Monitorin and Infection Solutions
+
+39
+
+Fin Fly
+
+Web
+
+19
+
+Finfl Web
+
+0 erati onal Usa e
+
+FinFly Web is designed to covertly lnject a configurable software into remote
+Target Systems through lntegration in Websites.
+Typlcal Operations:
+Deploy FinSpy through custom Homepages:
+•
+
+Create Webslte ofTarget lnterest field
+
+•
+
+Infect Target w lth FinSpy when lt vlsts the Website
+
+Cr eate Fin Fly LAN/ Finfly ISP Module
+•
+
+Finfl Web
+
+Create Infection Module for lntegration into FinFly LAN and
+FinFly ISP
+
+Core Features
+
+41
+
+Ali common Browsers are supported
+Varlous Modules are available for Infection
+S'upports generatlon of Stand-Alone Websl tes to infect Targets
+where only E-Mail Address or Username lnside a OiKussion
+Board is known
+Creates FinFly LAN/AnFly ISP Packages to l nject the Modules
+
+i!!l!!~~~l
+
+even into popular sites llke GMall, YouTube, etc.
+
+20
+
+FinFI Web
+
+LAN
+
+ISP lnte ration
+
+FinFI Web
+
+Hardware an~d
+~
+S_
+o_
+ft_
+w_a_r_
+e_ _ _ __ _ _ _ __•3
+
+42
+
+• FinFly Web user Interface
+
+-r=-EJ . ____
+1:::.. 1 .........----___
+_....,_ __....,.
+
+I~..__ ...,
+
+21
+
+Remote Monitorin and Infection Solutions
+
+lAN
+
+FinFI LAN
+
+O erational Usa e
+
+Fin Fly LAN is designed to covertly injecta configurable software lnto remote
+Target Systems ln Local Area Networks.
+
+Typlcal Operations:
+Oeploy FinSpy through HotspOU:
+•
+
+lnstall FinSpy on Target System through Hotspot W\re\ess
+Network
+
+•
+
+Deploy by infecting common Websites (e.g. 'louTube)
+
+Oeploy FinSpy through LAN:
+•
+
+lnstall FinSpy on Target System ln local Area Netwo~
+
+•
+
+Deploy by injecting fake Software Updates
+
+22
+
+Finfl LAN
+
+Core Features
+
+46
+
+Oiscovers all computer systems connected to the Local Area
+Network via IP-Address, MAC-Address, Host-Na me and
+Operatlng System
+Works in Wired and Wireless (802.11) networks
+Can be comblned with Finlntruslon Kit for covert network acces.s
+Hldes Remote Monitoring Solution ln Downloads of Targets
+1nj ects Remote Monitoring Solution as Software Updates
+Remotely lnstalls Remote Monitoring Solution through
+Websites vlslted by the Target
+-
+
+-
+
+'-
+
+-.,.:.-..p•,\(,"'1() ' "
+
+....___
+
+Finfl LAN / Workflow
+
+47
+Router
+
+G ateway
+
+1
+T•raet
+for-lnfectkM'I
+
+23
+
+FinFI LAN Hardware and Software
+• FlnFly LAN User Interface
+
+.
+-"
+
+l~~~7Joo'I~
+
+IWl....UoQ
+
+~-1JJ~
+
+_....,_
+
+twwo.•.u .u •~ - ~M!UhJ._,J:<U«o::i
+
+~MIUI
+
+....,...._....._
+
+--tl!""" .......
+
+............. ..__....,...,...,
+~
+
+·.........
+
+.t;..--•
+l).c.,.,...1,0
+
+IN.u..l..llllt'l11'W:..l1t
+
+11'11
+
+4 ........
+
+twYU-"~'*'""1'11
+
+........ ~
+
+··~- ·
+
+-<Il .
+
+PTZ
+
+s5ZC
+
+t · -
+
+T
+
+g=
+
+Remote Monitorin and Infection Solutions
+
+49
+
+ISP
+
+(..,l.M.,,•AC:,~tllJP
+
+24
+
+FinFly ISP is deslgned to covertly injecta configurable software into
+remote Target Systems through ISP networks.
+
+Typical Operations:
+Deploy in Batkbone of ISP:
+•
+
+lnstall FinSpy on Target Systems by selecting their
+Username/RADIUS name for Infection
+
+lnstall in Core of Local Area Networks:
+•
+
+~
+
+lnstall in small ISP/LAN Environments to lnstall FlnSpy on
+local clients (e.g. in Hotels or Corporate Networ'Ks)
+
+~Mr•,\t,RUlJI'
+
+FinFI ISP
+
+Core Features
+
+51
+
+ldentify Targets by:
+•
+
+Username, Password (e.g. xDSL)
+
+• MAC·Addresses (Cable)
+• Dial-in phone number (ISDN, POTS)
+• IMSI, T-IMSI, MSISDN (Internet Access ln Mobile Networks)
+Hides Remote Monitoring Solution in Downloads of Targets
+lnjects Remote Monitoring Solution as Software Updates
+Remotely lnstalls Remote Monitoring Solution through
+Websites visited by the Target
+
+1
+~,.A._,._,
+
+o\<._,J,/
+
+'
+
+/1
+
+25
+
+ment Exam le
+ISP Network
+
+................ ( u
+
+,,
+
+-...____
+
+26
+
+FinFI ISP
+
+Hardware and Software
+
+• FinFly ISP User Interface (GUI)
+
+~ ==::;;::=
+
+=--"-======
+• Hardware -dependent on requlres performance
+
+Remote Monitoring and Infection Solutions
+
+FinSpy Mobile
+
+27
+
+Fins
+
+56
+
+FinSpy Mobile is an advanced Intrusion system which once implemented lnto a Target
+Phone guarantees full access to the communication and built-in features.
+Typica 1Operations:
+Monitor all Comm unication:
+•
+
+Full access to all basic Communication like SMS/MMS, calls, etc
+
+•
+
+Record even encrypted Communication like BlackBerry
+Messenger
+
+live Surveillance:
+
+Fins
+
+•
+
+GPS Tracking of Target Phones
+
+•
+
+Spyca Ils to llsten Live to Phone
+
+Mobile Core Feature""s_ _ _ _ _ _ _______;,_51
+
+The product functlons on any major Operatlng System such as
+BlackBerry, IOS (iPhone), Androld and Windows Mobile/
+Windows Phone
+Ali communication and ail temporary files are fully encrypted
+BlackBerry Messenger survelllance
+Recording of lncoming and outgoing E-Malls
+Location Tracking (Cell IDs and GPS Data)
+l i ve Surveillance through Sllent Calls
+Basic Communication Interception like Calls, SMS/MMS, Cali \.ogs
+
+••
+~
+EvMlen<•
+
+28
+
+FinS
+
+Mobile Setu
+
+58
+
+The FinSpy Mobile server is connected by infected Target Phones over the Internet
+(GPRS / UMTS / Wi-Fi) or through the VolP Server (SMS /Phone Calls).
+
+The lnfected Target Phone communicates
+through GPRS/UMTS/Wi-Fi or
+SMS/Voice-Calls
+
+FinS
+
+Mobile
+
+User Interface
+
+59
+
+The whole system is côritro llêél thrôugh thê easy-to-use Graphléal U~ér lntérfâeê.
+
+--·--...
+\
+>
+
+(.,'\l'. • .._1 AC,'-'{lUI
+
+29
+
+Fins
+
+Mobile Infection Techni ues
+
+80
+
+Varlous infection techniques exists like:
+• Remote Infecti on via Bookmark SMS to Target Phone
+
+• Provlder-Supported Infection via WAP Push
+
+• Tactical Infection via Cable or Bluetooth
+
+• Infection when synchronizing with infected PC (Q4 2011)
+
+\
+
+(OAM'•~(__;H{JIJI
+
+Fins
+
+Mobile Strate ic S stem
+
+61
+
+• Fin Spy Master and Relay
+
+• FinSpy Agent(s)
+
+• FlnSpy VolP Server PRI Cards for up to 30 llnes
+
+.,....,.._•• ,.::..C-,Q,-)
+
+\
+I'
+
+30
+
+Table of Content
+
+62
+
+1. Introduction
+2. Tactical JT Intrusion
+Portfolio
+
+3. Remote Monitoring &
+Infection Solutions
+4. JT Int rusion Training
+Program m
+
+ôoo
+
+S. Summary
+
+63
+
+FinTraining
+
+31
+
+FinTrainin
+With Gamma's Team ofworld-leading IT Intrusion experts, a wide-range of
+practical IT Intrusion trainings is avallable.
+Typlcal Operations:
+Gain Access to Webserver:
+• Remotely get access to Target ll!rvers
+• Actlvely Monitor forelgn Targets
+
+Perform Security Assessment:
+• Evaluate Securlty of critlcal Infrastructures
+• lncrease Security through regular Penetration TesH
+
+(
+
+1".<A G ~(JtJ I
+
+~-
+
+{.._A ..
+
+FlnTraining /Core Facts
+Tra lnlng Facts:
+• Trainings conducted in Europe or ln-Country
+
+.
+
+• Umlted te 2-4 participants
+• Fully practical trainings
+
+.
+
+65
+
+·-
+
+,,.'_'
+
+__ ....,.. ' 1
+
+-.....,.
+
+• Tèchnlques can lmmedlately be used for real-llfe operatlons
+
+Contents:
+• Basic IT Intrusion Training courses for ail Tapies
+• Most Trainings are fully customlzed to lulfill customer needs and req\lirements
+
+32
+
+•
+FlnTrainin
+
+les
+
+Example Courses:
+•
+
+Basic and Advanced IT Intrusion
+Basic and Advanced Software Exploitation
+Bask and Advanced Web Application Intrusion
+
+•
+
+Wireless IT Intrusion (WlAN, Bluetooth, RF)
+
+Example Topfcs:
+Profillng of Target Websites, Networks and Persons
+•
+
+Traclng of anonymous E-Mails
+Remote access to Webmail Accounts
+Securlty Assessment of Web-Servers & Web-Services
+
+•
+
+Monitoring Hot-Spots, Internet Café's and Hotel Networks
+
+Table of Content
+
+67
+
+1. Introduction
+
+2. Tactical IT Intrusion
+Portfolio
+
+3. Remote Monitoring &
+Infection Solutions
+
+4. IT Intrusion Training
+Programm
+S. Summary
+
+~._.._.At~
+
+1
+
+33
+
+Finfisher - The Corn lete IT Intrusion Portfolio
+
+68
+
+FlnSpy Mobile
+FlnUS8 Suite
+
+]'
+
+flnFl,.~e
+
+f1v USll
+Physical
+
+~~11
+
+.LL
+
+FlnFlyWeb
+
+~
+
+LAN
+
+I
+RnFlylAH
+
+AnlntrwlorJ kit
+
+89
+
+Onllne Support WebsiU! lncludes:
+-
+
+---- - -
+
+User Manuals
+•
+
+Prod uct Roadmaps
+
+•
+
+Product Change-Logs
+
+•
+
+Frequently Asked Questions
+
+•
+
+Bug Reporting System
+
+.
+
+•
+
+.Il
+
+.
+
+-
+
+!;i,.
+
+Software updates provlded via:
+•
+
+Download from Web
+
+•
+
+Via Online Update System
+
+,.,.,. ....... .,,rJ.1r1
+
+r-
+
+'
+
+34
+
+Wh Gamma as a Partner?
+
+70
+
+Commercial:
+Long-term, stable & strong partner
+Entlrely self.financed, independ ent and prlvately-owned tompa11v
+Ali solutions are made in accordance ta end-users requlrements
+
+Technlcal:
+Many years of experle nce on the field of Governmental IT Intrusion
+Most advanced solutions and portfolio ln the market
+Exlstlng global support infrastructure
+
+.............
+
+_(_~
+
+1
+
+........__
+
+35
+
+

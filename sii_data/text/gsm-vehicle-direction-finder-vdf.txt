@@ -1,0 +1,115 @@
+GSM Vehicle Direction Finder (VDF)
+Technical Specifications
+
+CONFIDENTIAL
+
+1
+
+GSM Vehicle Direction Finder (VDF)
+Overview
+
+The VDF a complementary product to the GSM-XPZ, is a key element of
+the MMI solution deployed to locate targets.
+
+Based on the latest military technology, the DFV is a vehicle based
+direction finding system that significantly addresses the weakness of
+current direction finding systems. This significantly increases the
+operational benefit to the customer:
+• direction find targets to within a few metres
+• azimuth and elevation target resolution
+• direction finding on specific GSM timeslots
+• multi-antenna array for accurate target resolution
+• map overlay of target position data
+• covert antenna fit
+
+GSM-VDF Features
+
+The VDF is designed to work in conjunction with the GSM-XPZ product
+family. Available in 2 options, supporting either the Euro or US bands,
+location finding of a radiating target mobile can be performed from a
+vehicle.
+Comprising of a multi-antenna array, system unit and laptop the system
+can be either permanently or temporarily mounted in a vehicle using either
+an external vehicle antenna or a highly covert internal antenna.
+
+CONFIDENTIAL
+
+2
+
+The antennas are very simply calibrated before the start of the mission
+using a supplied hand-held calibration unit. The key features of the VDF are:
+• Direction find to a preset GSM frequency and timeslot.
+• Direction find to a preset GSM frequency (for GSM XPZ accurate DF
+mode)
+• Direction find simultaneously in Azimuth and Elevation
+• Covert antenna mounted within vehicle or optional roof mount antenna
+• Simple GUI display of direction in Azimuth and Elevation
+• Display of historic vehicle and direction track
+• Map overlay
+• Capability for remote interface to other DF and XPZ devices
+• Direction given in relation to North and vehicle direction
+• Integrated GPS and compass
+
+VDF Specifications
+
+Function
+Function:
+
+Provides RF signal strength indication on a
+selectable RF channel
+
+Channel Range:
+
+Euro: ARFCN 975-1023 , 0-124 , 512-885
+US: ARFCN 128-251, 512-810
+
+Direction Finding Axis Simultaneous in Azimuth and Elevation
+Resolution:
+
+Better than 5o
+
+Accuracy
+
+Better than 5o
+
+Power Supply:
+
+12V , 40W
+
+Antenna (covert) :
+
+Azimuth 360o Elevation (as per vehicle aperture)
+
+Antenna (rooftop)
+
+Azimuth 360o
+Elevation 90o
+
+Mapping Formats
+
+Combined Vector and Raster data
+ESRI shape file (SHP)
+Raster data in Band Interleaved by Line (BIL)
+Bitmap (BMP)
+Multiresolution Seamless Image Database (MrSID)
+Portable Network Graphics (PNG)
+ERDAS
+Joint Picture Expert Group (JPEG)
+TIFF and GeoTIFF
+CONFIDENTIAL
+
+3
+
+CONFIDENTIAL
+
+4
+
+MMI Research adopts a policy of continual upgrade and
+reserves the right to amend specifications and products
+where necessary.
+
+CONFIDENTIAL
+
+5
+
+

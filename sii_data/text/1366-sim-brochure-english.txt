@@ -1,0 +1,164 @@
+SIMLogger
+multi-channel call recording system
+for analog, system, ISDN 30B+D and
+2B+D lines
+SlMLogger - stand-alone fully functional
+call recording system for recording calls
+and fax transmissions on analog, digital
+system (proprietary PBX), ISDN 30B+D,
+2B+D and radio-telephone lines.
+Each voice or fax call is recorded as a
+separate file along with an unique call id,
+dateltime, call duration, channel
+number, call direction, called and caller's
+number etc.
+It is possible to record conversations in
+encrypted proprietary or WAV format.
+SIM recording formats were tested by
+forensic experts and received a positive
+recommendation for using for a court
+evidence purposes.
+
+local operation
+remote
+operation
+Archiving
+
+Database
+
+supported
+phone
+lineslsignal
+sources
+Maximum
+
+capacity
+
+(channelslunit)
+
+mirroring
+other
+
+additional
+software
+
+analog, ISDN 2B+D
+
+Basic functionality (local unit):
+Configurable recording's format - per channel
+Recording calls in the *.wav format andlor a compressed
+format from telephone, fax and radio lines
+Decoding DTMF and FSK signaling (for analog lines)
+Capturing and decoding of dialled numbers and recording
+radio signals in Select V standard (analog) for radio lines
+with Select V signalling
+.Capturing and decoding of D-channel information for
+digital system (PBX proprietary) lines (information
+available on phone's LCD)
+Decoding numbers (dialed, called, grouplACD numbers
+etc.) for ISDN lines
+Information about time and date of call, length and format
+of a call
+HDD usage monitoring, automatic file removal
+mechanism - configurable by an administrator
+
+Selective recording on ISDN, system and analog lines (with
+DTMFIFSK signaling)
+Additional Call Data provided by a PBX - in case of integrated
+systems
+Automatic Gain Control during recording
+Ring detection function for analog lines
+Recording in advance
+Multi-level access rights management
+Multi-language support
+I A N 1WAN operation
+*Access to full GUI - when connecting external monitor,
+keyboard and mouse.
+Local real-time monitoring and playback:
+Local real-time listening and playback independent on recording
+process
+Filtering criteria: date, time, time interval, telephone numbers,
+call direction, channel number etc.
+Possibility of com bining search criteria
+Rewind, playback from a specific moment, pause
+*Additional functionality when using optional full graphical
+interface:
+9 Marking fragments of a call for listening
+9 Advanced filtering of recordings, additional parameters of
+filtration and any combination of search criteria: start time,
+end call, call length, channel description, recording's
+attribute, dateltime periods, file format, signal source, info,
+call tags, SQL query
+P adding and editing notes
+9 customization of GUI
+defining list of availablelviewable
+columns, call related information
+
+-
+
+Integration examples:
+PBXs - with CSTA or other CTI link
+Command and Control Systems
+Multikom-2 telecom system
+Other third-party products can be integrated using API
+Local archiving:
+Local backup to CD or DVD
+Manual or automatic archiving
+Archiving criteria (list of recordings to be archived) accessible
+by playback application
+
+Automatic start of backup process - based
+on configurable settings (like exceeding
+max. amount of data, periodic etc.)
+Backup media information (like serial
+numbers etc.) are stored in recorder's
+database
+Automatic calculation of the size and
+quantity of archival data storage media
+Network Features:
+LAN IWAN operation
+Remote monitoring, management and
+configuration using Windows mechanism,
+VNC, Radmin or other third-party tools
+Automatic network backup, the ability to
+define any number of paths for local or
+network archiving
+Multi-recorder architecture - allows to build
+systems from several recorders connected
+vial LANMlAN (requires optional software
+and additional server)
+Playback software for LANMlAN operation
+Additional applications for SIMLOGGER
+recorders
+Remote management:
+Comprec Server application for remote
+management via I A N IWAN
+Webserver application for web-based
+remote management
+Other commercial applications for remote
+smanagement for the Windows, like PC
+Anywhere, Radmin
+Remote playback:
+NetPlayer application: search, playback - for
+not encrypted and not compressed (G.711)
+recordings (application available free of
+charge as standard equipment)
+Webplayer application for web-based
+search and playback of encrypted and notcompressed (G.711) recordings
+NetPlayer Plus application (USB dongle
+protected) for search and playback of
+encrypted and compressed recordings.
+Additional NetPlayer Plus functionality:
+9 graphical visualization of recorded faxes
+9 conversion of encrypted recordings to
+WAV format
+9 reconstruction of the database
+9 deleting recordings
+Remote monitoring:
+COMSA Recorder application for remote
+monitoring of recorder's status and automatic
+notification to selected users about any
+abnormal events (notification by e-mail, SMS
+option, voice telephony, etc.).
+
+

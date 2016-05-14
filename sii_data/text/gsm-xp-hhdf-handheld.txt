@@ -1,0 +1,158 @@
+GSM XP HHDF (Handheld DF)
+Technical Specification
+
+CONFIDENTIAL
+
+1
+
+GSM-XP-HHDF Overview
+The GSM-XP-HHDF, a complementary product to the GSM-XP-DBDF, significantly
+enhances GSM-XP operational effectiveness when locating targets.
+
+A highly unique design the GSM-XP-HHDF dramatically enhances the ability of the
+user to operate in new scenarios with a level of covertness previously considered
+not possible. The benefits to the user are:
+•
+•
+•
+•
+•
+•
+•
+
+operate within buildings
+direction find targets to within a few metres
+small in size can be worn within a shirt pocket
+audio and visual target indication
+ability to change RF channel in the field
+minimise operational time within the danger zone
+requires only standard AA batteries
+
+1.1. GSM-XP-HHDF Features
+The GSM-XP-HHDF is designed to work in conjunction with both the GSM-XP-V
+and GSM-XP-R systems. Available in 2 options, supporting either the GSM-XP
+918V/R or GSM-XP 819V/R, location finding of a radiating target mobile can be
+performed in conditions where vehicle deployment is not possible.
+The key features of the GSM-XP-HHDF are:
+•
+•
+•
+•
+•
+•
+•
+•
+
+small in size
+simple yet flexible user interface.
+LED indication to show received signal strength
+audio indication
+squelch control to allow sensitivity adjustment
+volume control
+vibration alert
+dual band operation
+CONFIDENTIAL
+
+2
+
+•
+•
+•
+•
+
+RF selectability in the field
+RF channel indication
+range of external holders for covert mounting
+capability for wireless loop attachment to enable highly covert operation
+
+1.2. GSM-XP-HHDF Specifications
+The specification of the GSM-XP-HHDF unit will vary depending upon the model
+purchased. Two options are available:
+•
+•
+
+GSM-XP-HHDF-918 is a 900/1800 MHz variant
+GSM-XP-HHDF-819 is a 850/1900 MHz variant
+
+1.3. Function
+Function:
+
+Provides RF signal strength indication on a selectable
+RF Channel
+
+Operational Modes:
+
+LED signal strength indication only
+Audio signal strength indication only
+LED and audio signal selection
+
+Channel Range:
+
+GSM-XP-HHDF-918:
+ARFCN 975-1023 , 0-124 , 512-885
+GSM-XP-HHDF-819:
+ARFCN 128-251, 512-810
+
+Channel Selection:
+
+ARFCN selectable from GUI across channel range
+applicable to the Option
+
+Interfaces:
+
+On/Off Volume control
+Mode/Channel Selection
+Antenna connector (SMA)
+RF sensitivity adjustment (squelch)
+USB (for future function)
+
+Power Supply:
+
+2xAA Batteries
+
+Antennas (supplied):
+
+Dual band monopole
+Dual band rectangular patch
+
+CONFIDENTIAL
+
+3
+
+1.4. Radio Performance
+RF
+Receive Sensitivity: >-typically -97dBm
+Frequency Range (GSM-XP-HHDF-918):
+• 880MHz to 915MHz (GSM900 Uplink)
+• 1710MHz to 1785MHz (GSM1800 Uplink)
+Frequency Range (GSM-XP-HHDF-819):
+• 824MHz to 849MHz (850 Uplink)
+• 1850MHz to 1910MHz (1900 Uplink)
+
+2. General Specifications
+Size:
+Weight:
+Operating Temperature:
+Storage Temperature:
+Power:
+Battery Life:
+
+90mm (H) x 65mm (W) x 28mm (D)
+140g
+0 degrees C to +50 degrees C
+-20 degrees C to +75 degrees C
+2xAA cells
+typically better than 10 hours (dependent on usage)
+
+Elaman adopts a policy of continual upgrade and reserves the right to amend
+specifications and products where necessary.
+
+CONFIDENTIAL
+
+4
+
+CONFIDENTIAL
+
+5
+
+

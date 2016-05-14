@@ -1,0 +1,174 @@
+Aucliopc 1000
+
+Audi
+Record R e p l a y R e a c t
+
+Digital recording and playback of voice & data
+AudioPC 1000 sPECIFICATION5
+!"D#5 OF OPERATION
+Standalone Recorder/Playback System
+Standalone Playback
+
+RECORDER SPECIFICATION
+Recorder Format: Desktop or Industrial (4U)
+Weight: With typical configuration of RAID discs, dual D V D
+Maximum No of Recorder Channels, with LAM and audio bandwidth = 64
+Maximum No of Recorder Channels at 40 KHz = 8
+Maximum No of Replay Channels at audio bandwidth = B
+Operating System: Windows NT, 2000
+CPU: Minimum Pentium 4, 2,4 GHz
+RAM: Minimum 1024MB
+Hard disk size: Minimum 120GB
+Hard disks supported: RAID i t o RAID 10.
+On Line Voice storage: Minimum 7500 hours with GSM
+Triggers: Digital trigger, VOX or pre-programmed
+Compression: G726 - 16243240 Kbps, PCM, OhM
+Audio Output. Built in speaker with stereo outpcst jack forfiesdphonee and line output
+Maximum Power Required: 120 Watts.
+Frequency response 2 0 - 4 0 KHz (+1- 3dB, 1 !"z,#$ %&'n()'ss*)d
+*)
+*)d
+ADU/DAC RESOLUTION -24 Bit
+AGC - ATTACK TIME- 16,32,48 msecs, D'%a+,i#s-'- 1 sec to 17 mets
+POWER SUPPLIES: 220-240 VAC standard; optional 11 .&-120V
+-120V a.c. ; optional redundant
+power supply
+Dimensions in rrim 440(Width) & 1 B0(Height) & 450(Depth) or 500)Depth with handles)
+
+ARCHIVE
+Maximum number of recorder files = 1000000 or 10,000,000 with SQL server
+Archive media: CND (9.4 GB), CDRW, MO and OVO Jukebox.
+.
+No of Archive media supported - 6
+Configuration: Parallel (archiving same data to different disks) or serial (archiving to each disk in
+a sequential operation).
+Voice storage per DVD : Typical 1250 hours with LAM
+DVD drive search time- typical - 1 sec
+DVD drive search time- max -S sec
+DVD Jukebox (on line storage): 145,000 hours. 290,000 hours.,or 880,000 h.u)5
+)
+)5
+DVD Jukebox search time - typical DVD Jukebox search time - max - 2 sec
+/
+'
+Network Area Storage(NAS) and Storage Area Network ( S
+
+PLAYBACK PC SPECIFICATION
+Playback from either tie recorder ora separate multi media PC.
+Operating Systems; Windows 95, 98, NT and 2000
+Data Cards: Sound Blaster compatible
+Features: Bookmarks, Jump to Time, Jump forward, Jump Back, Synchronised playback of up to
+8 channels, Loop mode.
+Synchronisation accuracy: ( 8 channels) 1..m
+..m2
+..m
+m2.
+2.
+Playback search time from hard disc 2 seconds for 500,000 files from AudioPC recorders
+Tests were performed on a standard AudioPC recorder
+No of Bookmarks: 20 (per file)
+No of Characters per Bookmark: 511
+Loop increments 1-300 sec, incrementing {1 ,2,3,4,5,6,7,B,9, 10,1 5,2030,60,120,1 80,240,300}
+Playback speed: Variable from 0.75x to 2.0x without pitch correction
+
+N
+MAXIMUM NO OF SIMULTANEOUS NETWORK PLAYBACK USERS: S
+more than 5 users a SQL Server licence is required.
+Communication Protocol. TCP/IP
+
+OPTIONAL FUNCTIONALITY
+Management and security: Refer to SmartAdministrator
+Monitoring and Alarming: Refer to SmartMoriitor and srnartAlarm
+External Time synchronisation: Refer to Sm0)t
+0) 1l%%k
+0)t
+Label Printing: Refer to SmartLabeller
+
+Transcription: Refer to AudioWord
+API/Active it Connectivity: Refer to $rrsartAPl
+Communication see snarsserislsyrneh
+Centralised archiving: Refer to SmartArclsiver
+Copying 01 archive media: Refer to SrnartCopy
+
+OPTIONAL DATA INTERFACE UNIT (0IU-1 005)
+Conditions, buffers and splits (for redundant operations) the inputs signals
+Size: 20, Depth 250 r e t excluding connectors
+Power supplies: 220-240 VAC starndard, 1 Ox-i 20V a.c.factory order option.
+Optional redundant power supply.,
+Maximum power required. 40Watts I
+Inputs! Telephony, analogue interface Analogue differeAtial with optional signal common.
+No of inputs per module 3 2
+No of outputs per module - 2&32 $&t(s % h a 3 4 l
+Outputs. Single ended, designed to dneeieto•f0kohmu
+Isolation betyeeee drci,iits' - 60 volts
+Isolation ( t ' i 5 1 0 0 0 volts
+Input impede .
+Input %o#9'%t&%
+'%
+'%t&%
+1.4 off 25 pin mule socket 0 types
+Output c o s i t i t
+Crosstalk•
+Gain - i . # 4 l 6 f t 7
+Distortion 1 % "
+Signal to #0le''a4- dB referenced toO dB $ h 6 4
+Approvals - 4 B j 8 9 Low voltage di/'%tiv'Z1i881, 8:1 - 89/336/EEC, 92/31/EEC, 98/13/81
+as appropriate ..
+Max Input « dOV4.c. common erode 5V ac, r.m,u
+Dynamic )0)t6 - 44d; to 1 OdE (isms) without distortion (limited to approu + 15 dEns peak at a
+reference inteet$0
+Isolation betttedalloower supply and recording channels' 3.75 r m r s
+Weight:
+
+OPTIONALXI'ELEPHONY INTERFACE UNIT (0IU-1 006)
+Used to recoed t elpension side of all leading manufacturers; Aspect, Bosch, BT, C&W,
+Ericsson, INITERTE' Lucepit Avaya sDX. :it'(/B4.<t
+.< 'l, Rockwell, Samsung, Siemens, Toshiba,
+.<t
+Nitsuko, PhilipS, ,-4
+,- )0d,
+)0 LC, Ascom etc
+Please enquire regarding other interface.:.
+
+' " $ % I " L El TELEPHoNY,INT'RFAcE UNIT (DIU-1 007)
+
+Provides ath elbsitnal interface for the %$n&''&*tt$'f'f 30 channels slots in E1 or P1:=.
+1:=. data to 30
+channels of anelogue data, No signalling informatton is provided with this solution
+
+OPTIONAL & % Mega I ' ' 1 4 ! 3 2 TELEPHONY INTERFACE
+UNIT (DIU-1 009)
+
+Provides an external interface for the conversion of 32 channel slots in >.,. Megalink or ?1:=2
+data 1032 channels 05 analouge date. No signalling information is provided with this solution
+
+OPTIONAL 4 Wire TELEPHONY INTERFACE(D1U-1 009)
+Provides 4 mire to 7 wire interface.
+
+TRAINING
+All the following are available use-learning modules from AudioSoft's web site or as standalone
+CD's,
+Operating Training: Now to record, replay and administer AudioPC
+Maintainer Training: How to maintain AudioPU systems
+Operator Assessment: Test your competency as an AvdioPC user
+Maintainer Assessment: Tent your competency as an AudioPC maintainer
+
+ENVIRONMENTAL CONDITIONS
+Operating Temperatures: 5-40 Deg C
+Storage Temperature: -10 to 60 Deg C
+Humidity: 85x/o RH )non condensing) at 40 Deg C
+For MIL qualified variants please contact AindioSoft.
+
+Windows is a registered trademark of the Microsoft Corporation. Audiosoft duly acknowledges all trademarks and names mentioned in this brochure. AudioSoft
+reserves the right to continually develop our product range; as a result spectfcati ons are subject to change.
+January 2004 PPE 1502
+
+= Longwood Court, Love Lane
+Cirencester, Gloucestershire,
+GL7 1YG, United Kingdom
+Tel: +44 (0) 1285 883800
+Fax: +44 (0) 1285 883801
+E-mail: sales(@audiosoft co uk
+Web: http://www.audiosoft.co.uk'
+
+

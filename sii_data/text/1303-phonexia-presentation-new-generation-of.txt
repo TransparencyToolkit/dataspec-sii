@@ -1,0 +1,858 @@
+cc)
+p h ri
+
+ets
+
+ci
+
+NEW GENERATION OF
+SPEAKER ID & LANGUAGE ID
+
+AGENDA
+1. A b o u t
+2. S I D & LID Technology
+3. U s a g e
+4. Integration
+
+phor9±eitin
+
+SPEECH TECHNOLOGIES
+Speaker/Voice
+Recognition
+
+Who speaks?
+John Do,
+
+Gender
+Recognition
+Language
+Recognition
+
+What gender?
+or e t e
+
+• • • 1 1 0 1 .
+
+What language?
+- lglish/Ar ? ?
+
+410111004,--
+
+audio (speech)
+
+Speech
+Recognition
+
+Keywords hunting
+Kilt s p o t t e d
+W h a t w a s said?
+"I will come at 5!"
+
+Phone3An
+
+www.phonexiacom
+
+COOPERATION
+
+1
+it
+
+We offer:
+• Consultations
+• S p e e c h technologies
+system design / technology / adaptation & optimisation
+/ delivery / technical support / maintenance
+
+• C u s t o m research and development
+
+Phonerin
+
+www.phonexiacom
+
+PHONEXIA
+Goal:
+Help clients to extract automatically
+maximum of valuable information from
+spoken speech.
+• 2 0 0 6 founded as spin-off of
+Brno University of Technology (BUT)
+• 6 + years or work for security/defense sector
+15+ years experience in speech processing
+• H e a d q u a t e r in Czech Republic,
+active worldwide
+• T i g h t collaboration with BUT
+- 2 0 researches moves the technology forward
+- 1 5 people for development, sales, marketing
+and technical support
+
+PhoneIlin
+
+w
+
+w
+
+w
+
+.
+
+p
+
+h
+
+o
+
+n
+
+e
+
+x
+
+i
+
+a
+
+.
+
+c
+
+o
+
+m
+
+CLIENTS AND PARTNERS
+Customers and partners:
+• S e c u r i t y and defense agencies
+• C a l l centers
+• I T integrators
+• H W suppliers
+• T V and radio stations (audio
+archive indexing)
+• Universities
+• Customers on several continents:
+USA, Russia, UK, Germany,
+France, Czech Republic, Poland,
+Slovakia, India,
+Spain, Israel,
+Mexico,
+
+Ministerstvo obrany
+repubilky
+
+I C C •••••- .0-2111111:
+
+SE E
+El l
+• Ele
+
+111V2aTECH
+SQ
+conetIc
+La W i t d c l C I n i t
+
+OptimSys
+
+•
+
+www.phonexia.com
+
+ci
+TECHNOLOGY VIEW
+
+LANGUAGE RECOGNITION
+• C r i m e is caused by some minorities very often
+e C a l l record forwarding based on lang./dialect
+x
+(to operator I other technologies I archive ...)
+• L a n g u a g e validation /Analysis of the audio archive x
+
+1-,
+
+,
+
+Technology:
+
+®
+
+• 5 0 + languages & customer can add new (20h)
+• U s e r based calibration
+• i V e c t o r based technology, discriminative training,
+acoustic channel independent
+C2;)
+P h o n e ) : in
+
+www.phonexiacom
+
+SPEAKER RECOGNITION
+• S p e a k e r verification / search / spotting
+clustering, link/pattern analysis
+• A c o u s t i c channel and language independent
+technology, noise and channel distortion robust
+technology
+• B a s e d on 'Vectors algorithm
+• Vo i c e p r i n t extraction and comparison
+• C o m p a c t voiceprint representation (<1kB)
+• M i l l i o n s of comparisons in fraction of seconds
+• D i a r i z a t i o n (speaker segmentation)
+• U s e r based system training,
+user based calibration
+P h o n e Itin
+
+www.phonexia.com
+
+HOW DOES IT WORK?
+
+audio
+VP1
+VP2
+VP3
+VP4 F i l e s
+VP5 o r
+VP6 D B
+(SQL)
+
+pre-processing,
+VP 0
+segmantat ion
+
+Extraction
+Comparison
+
+Phoneuiri
+
+%VP1
+%VP2
+%VP3
+%VP4
+%VP5
+%VP6
+
+scoring
+post-processing
+
+www.phonexia.com
+
+SEVERAL SPEAKERS
+
+Zaudios
+pre-processing
++ diarization
+
+VP VP 0.1
+VP 0.2
+VP 0.3
+
+Wavl
+Wav2
+Wav3
+
+Extraction
+cl-t)
+Phoneuin
+
+VP1
+VP2
+VP3
+VP4 F i l e s
+VP5 o r
+VP6 D B
+(SQL)
+
+Comparison
+
+1p/oVP-1
+%VP2
+%VP3
+%VP4
+%VP5
+%VP6
+
+scoring
+post-processing
+voAmtpnonexia.com
+
+EXAMPLE
+
+AS- a
+
+Audio record 15 sec
+DB of 50.000 voice prints of the suspects
+- time to extract one voice-print :
+- time to compare the voice-prints :
+
+0.25 sec
+0.0625 sec
+
+TOTAL time:
+
+www.phonexia.com
+
+Ph
+
+ne 1
+WHAT FOR?
+
+Ph
+INTEGRATION
+
+1ci
+
+INTEGRATION - CMDLINE
+• T h e command line version (Win or Linux for 32/64 bits, ...).
+• Good for automatic processing.
+• Using skripting languages
+(bat/shell script, Perl, Python ...)
+• Possible inputs: one audio file / list of the files / folder
+v p e x t r a c t - c s e t t i n g s \ e x t r a c t . b s - v - d example - e way - h example\vprints
+
+vpcompare - c s e t t i n g s \ c o m p a r e . b s - 1 - o s c o r e . t x t l i s t l . t x t
+
+Phonerin
+
+w
+
+w
+
+w
+
+.
+
+p
+
+h
+
+o
+
+n
+
+e
+
+x
+
+i
+
+a
+
+list2.txt
+
+.
+
+c
+
+o
+
+m
+
+INTEGRATION - PSIP
+Phonexia Speech Intelligence Platform (PSIP)
+Configuration example
+<speaker_id>
+
+Output example
+csid>
+
+<name>sid</name>
+
+<name>sid</name>
+
+<tag>sid</tag>
+
+<type>speaker i d < / t y p e >
+
+<input>list</input>
+
+<speech l e n g t h > 3 . 8 4 0 < / s p e e c h l e n g t h >
+
+<listl>listl.txt</listl>
+<list2>list2.txt</list2>
+
+<best speaker>John</best speaker>
+< b e s t _s c o r e > 9 4 . 0 2 1 < / b e s t s c o r e >
+</sid>
+
+<scoring>score.sco</scoring>
+</speaker i d >
+
+Phonerin
+
+www.phonexiacom
+
+VALUE OF COMBINATION
+Quality control
+and
+segmentation
+
+Language
+identification
+
+Speech
+transcription
+English
+
+Speech
+transcript
+
+Keyword
+spotting
+Russian
+
+Detected
+keywords
+
+Keyword
+spotting
+Arabic
+
+• Detected
+keywords
+
+Call
+Garbage
+Unknown
+language
+
+Phoneum
+
+www.phonexia.com
+
+SPEECH INTELLIGENCE
+PLATFORM
+if* O H N i - XML
+coring
+
+XML
+output
+
+XML
+output
+
+XML
+output
+
+XML
+output
+
+XML
+output
+
+XML
+output
+
+INTEGRATION A P I
+cottlitilMESIMMr-
+
+V O M M M M M M M M M M M M M M i r
+
+11111 M r
+
+SDK - API (C++, Java, C#), documentation, examples
+instruction for other platforms (Net, Delphi, ...)
+Ifinclude " b s a p i . h "
+
+SLIDI * p l i d
+
+s t a t i c _ c a s t < S L I D I *>(3SAPICreateInstance(SIID_Liu));
+
+plid->Init("default.cfg")
+plid->SetModelDirectory("languages"); plid->ActivateAllModels();
+
+p l i d - > Te s t F i l e ( " f i l e . w a v " )
+i n t num; c h a r **pplanguages = plid->GetModelNames(&num);
+f l o a t *pscores = plid->GetModelScores();
+
+plid->Release();
+
+UZ;)
+
+Pr11311PWIll
+
+Documentation:
+Phonexia.col o w n l o a d
+www.phonexia.com
+
+FOR EVALUATION
+all1111111111111111
+
+www.phonexia.comidownk
+• S W
+
+for Windows/Linux in GUI cmd-line version.
+
+• T h e free license file is send to the specified email.
+0 2 Lariu40e Wen6ca11
+$ 0 6 111 . 5 3 , LC.R..."
+
+.:41:2csion thrushat shit
+
+LIMUKCES4
+
+ir
+twiwk
+mmkpwasur
+Out.
+
+-e,
+
+procnc/snput/kelymn
+0 2 Lang
+
+N
+
+i n t e 41(mr1 panswaan smowni ' I t e m I
+nwr ram
+
+Pow,
+
+I
+
+p r w s t i r t i n i t i t r e _ W o m a n _ L w a v
+Rerx.pme 2 . . . F r e n c h canathan ( 0.00016•)
+
++
+
+Play lief S l a y F a z e
+
+Score w
+
+Gender
+
+100.000
+
+F (76396)
+
+q kelly3.wer
+
+97.760
+
+F (34364)
+
+q jullajmay
+
+43.669
+
+F (59-205)
+
+q pani_twac
+
+40236
+
+M (97362)
+
+q lullai.wav
+
+35236
+
+F (16312)
+
+000030
+
+60:00910
+
+q daadiarav
+
+31971
+
+m (93759)
+
+0100:22
+
+00:0039
+
+• L ProgramFdes
+
+q
+
+32360
+
+m 93244)
+
+0023037
+
+00:0030
+
+• t r a m Fa. (see)
+
+Cif paul_lwav
+
+1(245
+
+M (97142)
+
+0102,21
+
+000036
+
+settngs
+L test
+
+± t tan
+• PelLogs
+setae
+
+danktivac
+
+snit- n risr
+
+L users
+n•
+em is ready
+
+(;)
+Phoneuin
+
+-
+
+Ale
+
+models
+
+essIng
+
+-
+
+q kelty_lowar
+
+e a C:
+I e , Phonexe SM
+L data
+
+arlaritlaWer
+
+L i X -I_
+
+Testing I speakers
+
+k e c *as extenn5
+
+1 sae nine I Ls-as-...-
+
+P i t a . ) riputidavid
+
+n
+
+de f d i t V i e w H e l p
+
+40
+
+•
+
+T.15412%6
+
+at
+
+▪ Kelly - Speaker Identi c
+
+warm, se p r o o n s i m p u t i v e r _ w o r w a n _ i was
+
+•
+
+4
+
+km:4.-P( 1111011111
+
+kemsi 8
+
+www.phonexia.com
+
+HOW CAN WE HELP?
+Phonexia is
+a technology company
+
+°wino,
+wrlisteppits
+
+O a d
+
+P h O n e X i a
+
+D e m o
+
+APPI,CatiOnS
+
+P r o t a • 11 0 , 0 n
+
+S e n d . ,
+- 0 0 • 1 , 1 t w . a b l e t n a l o g a m o e r a ol v a t . t r o e r v t k i e t l i z t h t
+. . . . e r p w t e l l o n f i v o w e t , o t c o - o m O y n • f t e ow m i l P l O o t h e 0 , % ” 1 , 0 1 • • • c k
+
+.y0/flow.
+Pun.
+
+m
+
+i
+
+d
+
+,
+
+I
+
+t
+
+y
+
+•
+
+*
+
+b
+
+u
+
+n
+
+,
+
+S
+
+t
+
+e
+
+r
+
+d
+
+p
+
+e
+
+n
+
+i
+
+l
+
+,
+
+a
+
+.
+
+1
+
+,
+
+P
+
+1
+
+.
+
+7
+
+.
+
+1
+
+6
+
+P
+
+g
+
+I
+
+M
+
+A
+
+O
+
+N
+
+.
+
+r
+
+.
+
+,
+
+C a t s .
+
+o.••••,
+th.noat.- •••••-th. ft- • ..••••
+
+Utot,
+
+We can offer:
+• Consultations
+• Speech technologies and solutions
+• Custom development.
+• Research
+
+?
+
+e
+
+•
+
+• • • • • M o apfAnsw.
+
+n l• sm.o.mew
+o
+
+a
+
+Cri."4-1 r . = = . " : " " • • • • , , ••
+—
+
+•
+
+P h o s t a • • • • • • • • • • •oympopel t p d a w , n o m o
+i t t l t e a r c a n y • F l n d e rat. t n t i 5 a w s l a b l e 0 0 , 4 . g a l - i c e s . . . m t .
+, Te n t l s 1 • 1 0 1 1 . a . V o l t e m m t e i n e gedrnciAto t eoun i m
+t tLeee. -•. . -1t .w1i "t n t i n t .
+o neSi C7a.D. vt n
+nw
+m s . a r t i m , no • * * i * m o m u m w d o azAmn • • • • e t r i nmdls, gin!, • • • • • • • v o n e c t
+o t o s Ta • t e s a r t a t m m a l l u e :§itto s . s t r • •
+
+f=r;d;C::1".?::
+
+Get the most
+from speech records
+C?:)
+PME3110
+
+www.phonexia.com
+
+ClatA
+Radim Kudia
+Do you have all!
+for your business
+
+BDM
++420 732 100 775
+kudia©phonexia.com
+
+ENI
+
+Ph' lexia s.fr.
+CALL CENTER
+ktjtaw".-new)r,fics.,--t•
+INTELLIGENC
+tsrbotdbm., E
+11n.n.,,,,kr
+con,
+tos•tt,
+i
+
+t
+
++420 511 205 265
+info©phonexia.com
+
+A•E,3/4„04
+U D I ° A lIt oVs I
+-4,00
+
+Try it!
+www.phonexiacom/download
+www.superlectures.com (BUT)
+Phnnetin
+
+www.phonexia.com
+
+

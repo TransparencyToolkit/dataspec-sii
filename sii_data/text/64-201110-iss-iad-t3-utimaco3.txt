@@ -1,0 +1,503 @@
+Utimaco Safeware –
+Lawful Interception and Monitoring Solutions
+
+12th October 2011 – ISS World Americas
+Ramon Mendez
+Business Unit LIMS
+
+Confidential Information
+This presentation contains confidential information related to
+Utimaco Safeware AG
+AG, Utimaco products and services
+services. It may not
+be disclosed to others without prior acknowledgement by Utimaco.
+
+Contents
+ Utimaco Safeware & Sophos
+ Business Unit LIMS
+ Utimaco LIMS Overview
+ Utimaco DRS Overview
+ The EU Directive – Data Retention on Europe today
+ The Utimaco Advantage
+
+© Utimaco Safeware AG
+
+2
+
+Utimaco Safeware AG
+A member of the Sophos Group
+Sophos Group
+Utimaco Safeware AG
+ Lawful Interception
+ Data Retention
+
+ Strong Encryption and
+
+
+Digital Signatures
+Hardware Securityy
+
+Sophos PLC
+ Endpoint Protection
+ Information Security
+ IT Governance and
+Compliance
+
+© Utimaco Safeware AG
+
+3
+
+Sophos Group
+Company Facts
+Uti
+Utimaco
+Safeware
+S f
+AG
+ Headquarters in Oberursel and Aachen, Germany
+ 163 employees
+ € 37.7 million revenues (fiscal year 10/11)
+
+S h PLC
+Sophos
+ Headquarters in Oxford, UK and
+
+
+
+Burlington, MA, USA
+1,800 employees
+$ 340 million revenues (fiscal year 10/11)
+
+Sophos is a world leader
+in IT security and control
+
+© Utimaco Safeware AG
+
+4
+
+Utimaco LIMS
+Competence in Lawful Interception
+ Utimaco has been providing LI solutions since 1994
+ Market leader in Germany
+ Worldwide operations: more than 180 installations in 60 countries
+ Lawful Interception and Data Retention Systems
+
+for 10 thousands to millions of subscribers
+ Strong partnerships with leading telecom infrastructure vendors
+ Compliant to international LI standards of ETSI, 3GPP, ANSI/ATIS,
+
+CableLabs and active member of ETSI TC LI
+ Conform to numerous national telecommunication laws
+
+© Utimaco Safeware AG
+
+5
+
+Utimaco LIMS
+Lawful Interception of Telecommunications Services
+ Utimaco LIMS™ – Proven Solution for
+Mobile network operators
+Fixed network operators
+Internet service providers
+
+© Utimaco Safeware AG
+
+6
+
+Utimaco DRS
+Data Retention vs
+vs. Lawful Interception
+
+Past
+
+Data Retention
+Call Detail Records
+Subscriber Data
+
+Future
+
+Lawful Interception
+Call Detail Records
+Call Content
+
+ Complementary
+C
+l
+t
+means tto assist
+i t law
+l
+enforcement
+f
+t and
+d anti-terrorism
+ti t
+i
+ Technically many similarities
+
+© Utimaco Safeware AG
+
+7
+
+Data Retention – Lawful Interception
+Overlaps
+
+
+
+Archival
+of connection
+records and
+subsriber data
+
+© Utimaco Safeware AG
+
+
+
+Legal obligation
+of service providers
+
+
+
+
+
+Handover interfaces
+to law enforcement
+agencies
+
+Realtime
+monitoring of
+communication
+
+
+
+
+
+Network interfaces
+
+
+
+Administration
+of warrants
+
+Connections
+records and
+content
+
+
+
+No long-term
+g
+storage
+
+
+
+Access protection
+
+
+
+Data security
+
+
+
+Accounting and auditing
+
+
+
+Applies to voice
+& data
+
+8
+
+Data Preservation vs. Data Retention
+ Data Preservation (aka. ‘quick freeze’)
+Is applied only from the moment a suspicion arises
+A Preservation order is issued with respect to a particular person
+ Data Retention
+Is key to investigate events prior to the moment when a criminal
+suspicion arises
+Guarantees availability of historical data linked to current investigation
+case
+Gathers all relevant communication records, suspicious or not
+
+© Utimaco Safeware AG
+
+9
+
+Utimaco DRS
+A carrier grade data retention solution
+ Purpose-built system for compliance with the EU DR directive
+
+and with national telecom laws for data retention
+ Key functions
+Collects communications data (CDR, IPDR) and subscriber data from
+any telecommunications network
+Retains large amounts of data in a powerful and secure data warehouse
+Provides very fast search and analytics in billions of data records
+Automates request processing and delivers data to authorized agencies
+byy fax,,
+e-mail, or secure IP interfaces
+
+© Utimaco Safeware AG
+
+10
+
+Utimaco DRS
+System overview
+ Central Management of all requests for retained data
+
+Benefit: Easy of use, high automation, low OPEX, strong security
+ Modularity and scalability
+
+Benefit: Cost-effective integration in existing networks of any size with
+various communication services, low CAPEX
+ High performance for load and search
+
+Benefit: Suitable for large networks with several billions of CDRs per day
+ Fine
+Fi granular
+l user and
+d security
+it management,
+t multi-tenant
+lti t
+t capability
+bilit
+
+Benefit: Strong data protection as required by law, suitable for
+multi-provider networks and hosted service models
+
+© Utimaco Safeware AG
+
+11
+
+Contents
+ Utimaco Safeware & Sophos
+ Business Unit LIMS
+ Utimaco LIMS Overview
+ Utimaco DRS Overview
+ The EU Directive – Data Retention in Europe today
+ The Utimaco Advantage
+
+© Utimaco Safeware AG
+
+12
+
+EU Directive 2006/24/EC
+“DR
+DR Directive”
+Directive
+ The Directive aims at harmonizing the provisions of the member states concerning
+
+
+
+
+
+
+
+
+
+
+
+
+
+obligations incumbent on the providers of telecommunications services with
+respect to data retention
+The objective is to ensure the availability of subscriber traffic related data (CDRs)
+and subscriber data for the purpose of investigating, detecting and prosecuting
+serious crime
+Telco systems previously support law enforcement to varying degrees
+Entered into force on 3rd May, 2006
+Member states to enact the EU Directive by 15th September 2007
+Internet access,, Internet telephony
+deadline of March 09
+p
+y and e-mail,, optional
+p
+Obligation to retain data
+Telcos, ISPs and anyone providing publicly available telecom services
+Retention period: 6 to 24 months
+What’s to be retained
+Essential subscriber traffic information regarding mobile, internet and fixed
+telephony, internet access and e-mails and subscriber data
+Accessibility
+Upon request to competent authority “without undue delay”
+
+© Utimaco Safeware AG
+
+13
+
+Data to be retained
+According to the EU Directive
+Subscriber Data
+
+Telephony
+
+Internet
+
+E-Mail
+
+• Name
+
+• A/B/C phone number
+
+• Subscriber ID
+
+• Email address
+
+• Address
+
+• A/B/C IMSI
+
+• Subscriber IP
+
+sender and
+
+• Date&time of service
+
+• A/B/C IMEI
+
+activation
+
+• Date&time of begin
+and end of call
+• Service type (call,
+data SMS,
+SMS …))
+data,
+• VoIP: IP address of
+caller
+
+address
+• Date&time of begin
+and end of Internet
+connection
+• Calling no. or circuit
+ID
+
+receiver(s)
+• Date&time of send,
+send
+receive, store
+• Subscriber ID
+((user account))
+• Subscriber IP
+address
+
+• Mobile: location at
+begin and end of call
+
+• Some countries require additional data to be retained.
+retained E.g.
+E g Denmark: web session,
+session …
+
+© Utimaco Safeware AG
+
+14
+
+Adoption of the EU DR Directive in Europe
+EUDRD fully implemented
+EUDRD implemented in 2010
+Non EU member
+EUDRD transposed into law
+but declared unconstitutional
+EUDRD not implemented
+
+Correct: June, 2010
+Source: Frost & Sullivan, 2010
+
+
+
+Austria has implemented the DRD in national law by April 2011. Operators must comply by
+April 2012.
+ Greece has implemented the DRD in national law by Feb 2011. Operators must comply in
+2012
+2012.
+
+
+Cyprus has declared the law “unconstitutional” in Feb 2011.
+
+© Utimaco Safeware AG
+
+15
+
+European Directive revision – why?
+ Law Enforcement Agencies
+
+Need to be equipped with the tools needed to serve the criminal
+justice system
+ Telecommunication Service Providers
+
+Need harmonised rules to ensure a smooth functioning of internal
+market
+ Users
+
+Personal data needs to be protected and this calls for high standards
+to be applied in all Member States
+ End-to-end data retention process
+
+Key areas need to be carefully considered: purpose, period,
+authorities, procedures, arrangements for reimbursing operators
+
+© Utimaco Safeware AG
+
+16
+
+Utimaco LIMS & DRS
+The Utimaco Advantage
+ Experience
+Utimaco has been providing
+g LI systems
+y
+for more than 16 yyears to 150+ operators
+in more than 60 countries
+
+ Expertise
+Utimaco actively cooperates with standardization bodies and equipment vendors to
+continuously
+ti
+l adapt
+d t th
+the Uti
+Utimaco products
+d t tto newestt ttechnical
+h i l and
+d regulatory
+l t
+requirements
+i
+t
+
+ Compliance
+Utimaco LIMS + DRS complies with numerous national regulations and international
+technical standards for lawful interception
+
+ Cost-efficiency
+The modular architecture of Utimaco LIMS and DRS enables cost-effective solutions
+for networks of any size
+
+ Reliability
+Utimaco is a recognized global player and financially stable public company in the worldwide IT security industry. We support our customers in all technical and organizational
+aspects related to lawful interception
+
+© Utimaco Safeware AG
+
+17
+
+Utimaco LIMS
+Partners
+
+© Utimaco Safeware AG
+
+18
+
+please visit us at booth # 102
+Ramon Mendez
+Business Unit LIMS
+ramon.mendez@utimaco.de
+
+© Utimaco Safeware AG
+
+19
+
+

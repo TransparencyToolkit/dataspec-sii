@@ -1,0 +1,67 @@
+Milliseconds Matter:
+Achieving Real-Time Intelligence
+Today's intelligence systems are facing the demands of ever expanding tlows of data. New and far more advanced generations of electronic data
+sources are enabling opportunities to discover information in ways never before possible. However, traditional, centralized data platforms are not
+natively capable of supporting the demands of modern intelligence systems that require high ingest, correlation, massively parallel processing,
+fusion and real-time decision support from distributed and complex data.
+
+The Challenge: Find Terrorists, Where They Are, Now.
+When it cornes to unlocking the networks of crime and terrorist
+organizations hidden within your data, relationships are the single
+most important key. Advanced data and relationship analytics are the
+cornerstone of generating intelligence information from raw data.
+Analytics requires a higher order of data mining than traditional
+methods and SQL queries. ldentifying behavioural patterns and trends,
+finding hidden connections between suspects, and discovering
+centrality within networks ail require a data platform capable of
+moving through information in a highly scalable, parallel environment
+
+The Capabilities of Traditional, Relational Technologies
+Do Not Support Today's Requirements.
+ln a recent internai test, comparing Objectivity/08 to the world's most
+widely used commercial relational database management system, the
+objective was to traverse increasing numbers of relationships, to find
+connections between two objects separated by 5 degrees.
+Objectivity/DB traversed 96,000 relationships to 5-degrees in 15
+seconds, while the leading relational database required over 16 hours.
+ln the 15 seconds it took Objectivity/DB to traverse nearly 100,000
+relationships, the leading relational solution was only able to traverse
+1,600.
+Traversing Complex Relationships in Data
+Leading Relational DBMS vs. Objectivity/DB
+
+Objectivity/DB Enables Real-Time Intelligence
+ln a recent customer scenario, Objectivity/ DB was demonstrated
+analysing 1OO million phone call records, discovering 5 degree
+relationships between individuals within seconds, and on a
+standard laptop. The leading relational database based system was
+unable to return a single result even after running for several hours
+on high-end hardware.
+This relationship analysis or "link hunting" system was also
+configured to utilize distributed computing or virtualized cloud
+computing environments with ease. Objectivity/DB is a completely
+distributed solution and actually gains processing power in almost
+linear relation to the available hardware and compute nodes. If you
+achieve a certain performance rate on some number of machines,
+and then distribute the same data across ten times the machines,
+the results will be returned to analysts roughly ten times faster.
+When this system is deployed it will support hundreds of
+concurrent users, billions and billions of nodes and relationships,
+and will return results from queries against complex graph
+structures within a matter of seconds.
+This Objectivity customer can determine where the bad guys
+are right now, rather than where they were two days ago.
+
+Objectivity, lnc. is the leader in distributed, scalable data
+management technology, and is the enabling technology
+powering some of the most complex applications and mission
+critical systems used in government, business and science
+organizations today.
+
+Objectivity, lnc
+640 West California Avenue, Suite 21 O
+Sunnyvale, California, 94086-3624
+U.S. 1 408 992 71 OO
+www.objectivity.com
+
+

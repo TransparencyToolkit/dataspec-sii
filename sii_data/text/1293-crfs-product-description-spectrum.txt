@@ -1,0 +1,464 @@
+1 1 1 1
+CRFS
+
+CRFS
+
+SPECTRUM I N T E L L I G E N C E SYSTEMS
+
+CRFS Limited
+Beach Drive, Cambridge, CB25 9TL, UK
+
+CRFS Inc.
+34428 Yucaipa Boulevard, Suite E346
+Yucaipa, CA 92399, USA
+
+Tel: +44 (0)1223815 615 Fax: +44 (0)1223 280 351
+
+949 413 1024
+Tel: +l
+
+Email: enquiries@crfs.com
+
+Email: enquiries@crfs.com
+
+Building 7200, Cambridge Research Park
+
+.,.,
+
+System Architecture
+Block Down Converter uses same
+form factor as standard RFeye
+Node and extends RFeye Node
+h e n q rangeto 1SGtiz
+
+OmnidirectionalAntenna
+2 GHz to 18 GHz
+Ae 2
+
+DirectionalAntenna
+
+Standard RFeye
+Node sweeping
+10 M H r to 6 GHz
+
+I
+Ethernet
+
+\
+
+6M)MHztobGHz
+Ae 3-5
+
+O m n i d l ~ n aAntenna
+l
+800 MHzto 6 GHz
+Ae 3-5
+
+Antennas for full 10 MHz - 18 GHz frequency range are input via RFeye Block Down
+
+RFeye Node and RFeye BDC CO-located
+
+Converter, combined installation shares single cable for POnE power and data
+
+within an Outdoor Mounting Kit
+(sunshield cover removed)
+
+Technical specifications
+Frequency
+
+Signal input
+
+Sional outout
+
+8-96112
+
+Output connector
+
+Slngle SMA wrput IF to Node
+
+W m u m wtput level
+
+-20 d8m
+
+9- U r n
+
+1Z-15w
+15-14W
+
+Mechanical
+Interfaces
+
+Environmental
+
+owrwmw
+gi~*@'
+
+3Ptat55"CW2t~-1318F)
+
+"asB*$q,
+
+*Y&"$+
+Sensitivity(equivalent noise figures at maximum sensitivity)
+
+Emnronmental prarotmtron
+
+1
+W with ophmel snwronmental wver
+
+For more information
+
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com o r call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.corr
+
+1 1 1 1
+
+.i.
+
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Llrnlted Copyr~ghtO 2013 CRFS Llm~tedAll r~ghtsresewed. No part of thls document may be reproduced or d~str~buted
+In any manner w~thoutthe prlor wrltten consent of CRFS The lnformatlon and statements prov~dedIn thls document are for lnformatlonal purposes only and are subject to change w~thout
+notlce Document Number crfs-md00014-c03. August 2013
+p
+
+p
+
+p
+
+Key teatures
+Seamless exre~~sion
+of the RFeye Node
+
+-
+
+to 18 GHz
+
+High performance RFeye monitoring of microwave
+
+Plug and play installation and operation
+
+transmissions up to 18 GHz
+
+Multi-user, multi-mission compatible
+
+The RFeye Block Down Converter (BDC) seamlessly extends the
+frequency range o f the RFeye Node from 6 GHz up to 18 GHz.
+
+Rugged and c o m p a ~ ~
+IP67 rated with optional environmental
+cover
+
+Frequencies above 6 GHz are down-converted to allow analysis using
+the Node. It enables all of the extensive real-time analysis capability
+of the RFeye Node t o be accessed at these higher frequencies with
+
+Fast synthesiser tuning and preselection
+
+minimal impact o n overall system speed and RF performance.
+
+filtering
+Plug and play operation
+
+Multiple RF ports for multi-antenna
+
+The BDC is connected t o the RFeye Node via a calibrated IF link and
+
+operation
+
+is fully controlled b y the RFeye Node allowing for simple plug and
+
+Mounting kits available tor easl
+
+play operation. It can be run from the same power supply, simplifying
+
+deployment
+
+installation and reducing additional cable run requirements.The BDC
+accepts RF inputs for the full extended RFeye frequency range from 10
+MHz to 18 GHz.
+
+All the power of the RFeye up to 18 GHz
+The BDC extends all of the multi-user, multi-mission functionality of the
+RFeye Node to microwave frequencies allowing monitoring of bands
+such as radar transmitters, satellite communications, radio relay links,
+short range terrestrial data links and high frequency bugging devices.
+CRFS Limited
+Building 7200, Cambridge Research Park
+
+Designed for hostile environments
+
+Beach Drive, Cambridge, CB25 9TL, UK
+
+The BDC uses the same form factor and mounting options as the RFeye
+Node, permitting standardization of mounting options. It is also built
+
+Tel: +44 (0) 1223 815615
+Fax: +M 10) 1223 280151
+Email: enquiries@crfs.com
+Web: www.cr~s.com
+
+1 111
+CRFS
+
+to the same strict environmental specifications and is designed for use
+i n outdoor or indoor, fixed or mobile operation, including i n hostile
+environments.
+
+IP67 Environmental protection cover
+The environmental protection cover fully isolates the front panel of the Node and BDC providing outstanding IP67 rated
+environmental protection.The operating temperature range of the unit is from -30°C to +55OC (-22OF to +13I0F), making it
+suitable for most environments.
+
+External interface panel for Ethernet*
+
+Top mounted W i m d s e i l u l a r antennas
+
+E - n v k e n r r t e ~ t i t l ~
+
+with POnE, 2 X N-type RF, and USB
+
+with hoist ring
+
+Node & BDC
+
+Omnidirectional antenna
+
+Omnidirectional antenna
+
+Omnidirectional antenna
+
+10 MHz - l GHz
+
+0.8 GHz - 6 GHz
+
+0.8 GHz - 18 GHz
+
+Mechanical specifications
+Weight
+
+Part number
+
+320 mm (W) x360 mm (h) X 170mm(d)
+
+7 7 kg (17 Ibs)exdudirtgNode
+
+Node only. KIT-OUT0006
+
+126"(wJxl42"(h)x67"(d)
+(excludimantenna polesl
+
+/ BDC
+
+Node + BM: KlTOUTOOlO
+
+Antennas*"
+
+Dimensions
+
+Weight
+
+Part number
+
+08GHz-1BGHz
+
+100 mm (3.9) diameter X 108 mm 14.3") height
+
+720 g 11 5 Ibsl
+
+Outdoor mounting kit
+
+Dimensions
+
+* Ethernet surge protection available on request
+*" Detailedspecifications available on request, antenna cables supplied separately
+
+For more information
+To f i n d o u t m o r e o r discuss y o u r specific application, please e-mail u s at
+enquiries@crfs.com o r call +44 (0) 1223 815 615.You can also f i n d useful
+resources o n o u r website at w w w . c r ~ s . c o m
+
+1 1 1 1
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Limited. Copyright O 2013 CRFS Limited. All rights reserved. No pan of this document may be reproduced or distributed in any manner without the p r i o ~
+written consent of CRFS. The information and statements provided in this document are for ~nformationalpurposes only and are subject to change without notice. Document Number crfs-mdW030-c05, August 2013.
+
+Pre-assembled rugged outdoor kit with antennas
+for fast and simple RFeye network installation
+Node-only and combined Node+BDC kit
+Single cable installation via Power on
+
+The RFeye Node has been designed for quick and easy deployment
+
+F
+th~rn~t
+--..-...--
+
+with maintenance-free use. In keeping with this approach, CRFS supply
+a complete pre-assembled Outdoor Mounting Kit for easy attachment
+
+Pole, wall or ~ ~ l amoun
+st
+
+to wall, pole or mast, as well as a range of high performance
+
+Multiple RF
+operation
+
+omnidirectional antennas. Both a Node-only option up to 6 GHz and a
+Node + Block Down Converter option up to 18 GHz are available.
+
+Complete hardware setup ready for use
+The Node-only kit includes a stainless steel outdoor mounting system
+with brackets and fittings, 2 X antenna pole mounts, hoist ring and
+sunshield, an environmental protection cover for the Node, GPS and
+cellular antennas, Power o n Ethernet injector with mains cable (56VDC),
+all required cabling and an external interface panel with outdoor rated
+connectors.
+
+Combined Node and BDC within standardized kit
+The Node + BDC kit includes an additional environmental protection
+cover for the BDC, an uprated POnE injector to split POnE feed between
+the Node and BDC, plus additional required cabling.
+CRFS Lim~ted
+Building 7200, Cambridge Research Park
+
+Pre-fitted antennas and additional auxiliary antenna connectors
+
+Beach Drive, Cambridge, CB25 9TL. UK
+
+The Outdoor Mounting Kit is designed to accommodate a range of IP67
+rated omnidirectional antennas to cover the frequency range from 10 MHz
+
+Tel: +44 (0) 1223 815615
+
+u p to 18 GHz. Antennas can be supplied as an option pre-mounted with
+
+Fax: +44 (0) 1223 280351
+
+integrated RF cable assemblies for ease of installation.
+
+Email: enquiries@crfs.com
+Web: www.cr~s.com
+
+CRFS
+
+Easy to deploy as fixed or portable/rnobile units
+The Node is housed in a rugged, compact lightweight
+enclosure and has an environmental cover that provides IP67
+protection for hostile environments. It is low power and can be
+powered from multiple sources. It can be discreetly deployed
+in-building, easily mast mounted outdoors or deployed in
+various man-portable or mobile configurations. Data can be
+accessed securely in real time via IF! stored locally to USB
+drive or optional internal SSD, transmitted via the built-in
+modem or via Ethernet to a centralized database.
+
+Technical specifications
+Receiver performance
+
+Frequency reference
+
+Signal analysis
+Real-time anads~s
+bandWlM
+
+20 MHz mlmurn
+
+Reference wtput
+
+Via expansionpan, 10 MM
+
+Internal frequency reference
+Interfaces
+
+Agetng
+
+better than d ppm per year
+
+Operatingsystem and software development options
+Power mnwrnptian
+
+I- %W.
+
+)abio
+
+GW*,rnW
+
+a W m
+
+SMA, passive and acflve 13 3
+nodnail antennas supported
+Data storage
+
+Expansim ports
+
+Sweep and triggering
+Sweep speed
+
+40 GHds (fast synthes~zer)
+IQ W&@
+qmliv wWlW
+
+2, cOnftgurabIe to provide
+(a) &
+rty& rnput
+tb)frequency reference litput
+(c) mernal Epenpheral) corftrot
+(d) frequency reference output
+
+Mechanical
+
+Timing reference
+
+RFeye Synclmc
+
+Environmental
+
+For more information
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+.esources o n our website at www.crfs.corr
+CRFS and RFeye are trademarks or registered trademarks of CRFS Llm~tedCopyr~ghtQ2013 CRFS lmlted All r~ghtsr e s e ~ e dNo pan of thls document may be reproduced or d~str~buted
+ln any mannerwlthout the prlor
+wrltten consent of CRFS The lnformat~onand statements prov~dedIn thls document are for ~nformat~onal
+purposes only and are subject to change w~thoutnotlce Document Number crfs-md00011-c04, August 2013
+
+Intelligent networkable node for spectrum
+monitoring of sensitive buildings, critical sites,
+borders, or any area of interest
+The RFeye Node sets the new standard for high performance, cost-
+
+* Embedded Linux system, local bulk data
+storage, integrated SSD option
+Rugged and compact, /P67 with optional
+
+effective, real time 2417 monitoring of the radio spectrum. It has been
+designed and packaged to enable flexible and scalable deployments
+in remote distributed networks.With built-in intelligence, the Node can
+operate both autonomously and in cooperation with other Nodes in the
+network.
+
+Very high probability of signal intercept
+Capable of sweeping from 10 MHz to 6 GHz (or optionally to 18 GHz) at
+40 GHzls, the RFeye Node captures signals of all types, including transient
+transmissions such as pulsing or short-burst signals. High sensitivity and
+exceptionally low spurious components mean that it is able reliably to
+distinguish even very low power signals from the noise floor.
+
+Flexible multi-user multi-mission capability
+The RFeye's unique architecture is capable of supporting multiple
+concurrent tasks and missions, as well as multiple queries from
+simultaneous users. Remote programming allows tasks to be assigned
+relative priorities and the Node is able seamlessly to execute the
+required tasks in the most efficient manner. In this way, the Node is
+able concurrently to perform sweeps and IQ captures, make spectrum
+occupancy measurements, monitor mask breakages and trigger alarms,
+log data to memory, record sequences for playback, measure an AOA
+bearing or coordinate with nearby Nodes to carry out geolocation
+measurements usingTDOA or POA techniques. In addition, there is no limit
+to the number of users who can simultaneously query the Node via IP and
+make varying requests to display information of interest.
+
+

@@ -1,0 +1,227 @@
+l
+
+1
+
+High Performance GPS Logistics Tracking for
+Trailers, Containers, Vehicles and Remote Assets
+Ocellus TlOO is a High Sensitivity GPS/
+GPRS logistics, fleet management and
+tracking product, suitable for tracking
+trailers, vehicles, containers and other
+remote assets. High Sensitivity GPS
+enables TlOO to be installed without
+external antennas, e.g. under a vehicle in
+a convenient location for the installer, e.g.
+adjacent to a junction box.
+Ocellus TlOO is designed to be powered
+by the vehicle to which it is connected.
+If installed on an aticulated trailer for
+example, the TlOO internal battery
+continually charges while the tractor
+unit is connected; when the trailer is
+disconnected from power the unit detects
+this and switches to a power-saving mode
+to extend its battery life.
+The unit detects its motion state and
+determines journey start / stop and
+movement, enabling the automated
+generation of management reports from
+web tracking services.
+The rugged enclosure and connector
+system, integrated antennas and
+rechargeable battery make Ocellus
+TlOO easy and inexpensive to install and
+highly reliable by removing the need
+for a complex wiring installation, or
+replacement of batteries.
+
+Applications
+Logistics and Fleet Management - easy to
+install on vehicles, trailers and containers.
+Designed for tracking in difFicult
+environments.
+
+Key features
+
+L;
+
+Supply Chain Security - connect remote
+sensors to TlOO digital inputs to obtain
+event reports / alarms, door opened or
+other sensor activated, e.g. outside an
+intended (geofenced) area.
+Plant Tracking - ideal for tracking heavy
+construction vehicles and machinery,
+where rugged construction, robust fixings,
+high environmental specification, and
+covert operation are Paramount.
+Asset Tracking - may be used to track
+valuable goods in the supply chain; the
+rugged construction of TlOO makes it
+particularly suitable for building into
+custom shipping containers and pallets.
+
+U---
+
+High s e n s W i GPS for
+'
+L bstallatjonwithout external
+@
+
+economical global operation
+Internal redrargeable battery
+
+I
+
+I
+
+enables
+
+!
+
+Ocellus TlOOi Specification
+GPS Performance
+
+RF Reception Sensitivity:
+
+(12 Channel)
+
+-186 dBW tracking
+-184 dBW acquisition
+
+Signal Acquisition
+Hot:
+Warm:
+Cold:
+Re-acquisition:
+
+< l sec
+<38 sec
+<45 sec
+<0.5 sec
+
+Accuracy
+
+Position: Outdoor/lndoor
+Velocity (Outdoor):
+
+<5m / <50m typical
+<0.05ms-l
+
+GSM/GPRS Performance
+
+TlOOi GSM frequencies supported
+GPRS Class 10:
+Point-to-point SMS:
+Text and PDU mode SMS
+GSM phase 2/2+ compliant
+Output Power - GSM850/900
+Output Power - GSM1800/1900
+
+850/1800/1900 MHz
+Max 85.6 kbps
+MO and MT
+
+2W
+1W
+
+Position Fixes Store
+
+(In Internal Memory)
+
+Up to 4,000 positions
+
+Physical
+
+Ocellus TlOO Dimensions:
+Weight:
+Ocellus TlOO Case:
+
+150mm (L) X 153mm (W) X 55mm (H) (approx)
+440g (T100i-31); 380g (T100i-11)
+30% GF Polymer / Silicone Rubber Seal
+
+Environmental
+
+Operating / Storage Temp:
+Max Velocity / Altitude:
+Max Acceleration /Jerk:
+Dust /Water Ingress Protection:
+Chemical Resistance:
+
+-20°C to + 60°C / -40°C to +8S0C
+515ms-l/ 18,000m
+Complies with DEF STAN 00-35 (Part 3)
+Sealed to IP65, IP66, IP67 and IP69K
+Resists salt spray and most fluids used in industrial
+applications
+
+Power
+
+Internal Battery
+Charging Requirements:
+
+Lithium Polymer
+9-32V, 4.5W max.
+
+Power Efficiency
+
+Period of autonomous operation
+without connection to vehicle power:
+
+T100i-31:
+
+* Depending on installation
+conditions; these figures are for
+guidance only.
+
+*10-15 days (reporting 100 times per day)
+*2 years (reporting once a day)
+
+~100i-11: * > l day (reporting 100 times per day)
+* > l month (reporting once per day)
+
+Interfaces
+
+Inputs:
+Outputs:
+Serial port:
+Power input:
+Connector:
+
+4x digital inputs (2 active high, 2 active low).
+3x digital outputs.
+RS232
+9 - 32V DC
+18-way Cinch 1.5mm sealed header system.
+
+Options / Accessiories
+
+Cables
+A range of TlOO accessories and
+additional services is available. Please
+contact QinetiQ for more details.
+Examples include:
+
+A range of cables (2-core / 5-core / 10-core) is available to
+take advantage of different I/OJs.
+PC Interface Accessory, Configuration Cable, Service Tool,
+12V Universal Mains Charger, Header Removal Tool, Blanking
+Plug (for fit and forget applications), SIM insertion and
+configuration service.
+
+This specification is subject to change without notice.
+Customer Contact
+QinetiQ
+Cody Technology Park
+lvely Road, Farnborough
+Hampshire, GU14 OLX
+United Kingdom
+Tel: +44 (0)8700 100 942
+www.QinetiQ.com
+Copyright O QinetiQ 09/11
+QinetiQ/TS/GPS/DSllO1263
+
+QinetiQ
+
+

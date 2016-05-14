@@ -1,0 +1,200 @@
+HINTON Network
+Independent CDR
+Application Note
+Advantages of Passive Probes
+Introduction
+A call detail record (CDR) is created for every call made in the telecommunication network by the
+network elements (switches) through which the call is routed. These are usually passed to the
+operational and billing support systems, which provide services such as monitoring the network
+for quality of service, creating the customer bills and fraud prevention.
+Call detail records can also be extracted from the network by passively monitoring (via a “tap” on
+the network interface itself) the telecommunication network. This provides the ability to create
+more complex ‘enhanced’ CDR files, with the added security of a network independent solution.
+This CDR extraction functionality can all be provided by the HINTON passive probe product
+range, either as a primary function, or in addition to lawful interception and location monitoring
+functionality also offered by the probe.
+
+What is a Call Data Record?
+
+Application
+When deployed in a telecommunications network for any monitoring purposes (for example
+lawful interception, or location monitoring) the HINTON product generates CDR files for all calls
+(successful or unsuccessful) that occur on the monitored network interfaces. These files are
+generated for calls regardless of whether interception or any other action has taken place against
+an active filter, making the files suitable for use in a variety of applications including:
+
+Lawful Interception
+System
+
+Handover
+Interfaces
+
+Billing, FMS, QoS
+Application(s)
+
+Enriched
+CDR
+
+Network
+CDR
+
+HINTON
+
+Tap(s)
+
+Internal
+
+BSC
+MSC
+BSC
+
+A-Interface
+
+E-Interface
+
+GMSC
+
+Example GSM network
+
+HINTON Network
+Independent CDR
+Application Note
+Example of Enhanced CDRs
+
+Application Continued
+While these functions can be achieved with the use of CDR functionality
+
+HINTON passive probes allow enhanced CDR files incorporating
+
+provided by the network elements, the use of a passive probe offers
+
+additional bearer information. A typical application example
+would be looking for DTMF digits within a phone call and keeping
+
+three key enhancements:
+
+this information as an enhanced call data record.
+
+The ability to remove all this functionality from the network switches
+(accessible to all network engineers) to a secure network independent
+system with restricted access.
+
+For example a subscriber may make calls call a calling card server.
+
+The ability to have two separate sources of CDR files (from the
+
+He would ring the calling card server with an 0800 number, then
+
+network and securely / independently from the probe) to allow
+
+use DTMF tones to enter his user number to identify himself and
+
+comparison and verification of the records being generated.
+
+the number he wants to call. The calling card server completes
+
+The ability to enhance CDR files with additional information not offered
+
+the call.
+By extracting the DTMF tones of the number called, HINTON
+probes allow end-to-end correlation of numbers (OLi & TLi) around
+
+Modem / Voice).
+
+the pre-paid service node. This enables accurate billing, as well as
+quality of service, fraud and other business support system checks
+
+The diagram overleaf shows a HINTON Interceptor probe deployed
+
+that were not previously possible.
+Interception functionality, with CDR files separately being delivered to
+the operators network management applications.
+Example showing
+enhanced CDRs
+
+Billing, FMS, QoS
+Application(s)
+Enriched
+CDRs
+
+Calling party number:
+07780 222 4567
+
+Alternative
+
+HINTON
+
+HINTON
+
+Alternative
+
+MSC
+
+Calling party number
+Calling card number
+Called party number
+(from DTMF) + more
+
+Calling card server:
+0800 5555 9876
+DTMF digits dialled:
++49 777 123456
+
+Calling Card
+Server
+
+Calling card server:
++44 012 349876
+Calling party number:
++49 777 123456
+
+CDRs from
+gateway
+
+International
+Gateway
+
+OLi = 07880 2224567
+OLi = 07880 2224567
+OLi = +44 012 349876
+TLi = 0800 555 9876
+TLi = 0800 555 9876
+TLi = +49 777 123456
+End-to-end correlation of originating and terminating line identities for calling cards - enables billing and fraud checks
+
+India:
+Telesoft Technologies Ltd
+Observatory House
+Blandford Dorset
+DT11 9LQ UK
+
+Telesoft Technologies Inc
+Suite 601
+4340 Georgetown Square
+Atlanta GA 30338 USA
+
+Telesoft Technologies Ltd
+(Branch Office) Building FC-24
+Sector 16A Noida 201301
+Uttar Pradesh India
+
+T. +44 (0)1258 480880
+F. +44 (0)1258 486598
+E. sales@telesoft-technologies.com
+
+T. +1 770 454 6001
+F. +1 770 452 0130
+E. salesusa@telesoft-technologies.com
+
+T. +91 120 466 0300
+F. +91 120 466 0301
+E. salesindia@telesoft-technologies.com
+
+DX-HIN-GEN-MK-GU-33447-01
+
+Telesoft Technologies, the Telesoft Technologies logo
+design, HINTON, TDAPI, MPAC are trademarks or registered
+All other brand and product names may be trademarks of
+their respective companies. Copyright ©2008 by Telesoft
+
+

@@ -1,0 +1,133 @@
+DATAsheet
+
+V5022
+Quad Channel 10 Gigabit Ethernet FPGA PCI Express Card
+
+Benefits
+
+Overview
+
+Enables a new generation of High Speed Trading systems
+
+High Frequency Trading firms and exchanges require highperformance and ultra low latency programmable network cards
+in order to accelerate trades in under 2 microseconds. The
+V5022, a quad 10 Gigabit Ethernet Virtex-6 PCI Express card,
+doubles port density and reduces latency by more than
+50 percent when compared to other technologies on the market.
+It provides the advanced features and performance needed to
+gain a competitive edge in the marketplace.
+
+Provides ultra-low latency interface to 10 Gigabit Ethernet
+networks
+Provides reliable performance in real time
+
+Features
+Quad 10 Gigabit Ethernet SFP+ optical ports
+Xilinx Virtex-6 XC6VHX380T or XC6VHX565T FPGA
+Two independent banks of up to 4GB DDR3 SDRAM
+Four independent banks of up to 144Mbit QDRII+ SRAM
+PCI Express x8 host interface (Gen 1 and Gen 2)
+System monitor feature enabled
+Dual boot image with fallback multi-boot feature
+Mini SAS transceiver interface for intercard communication
+RS-232 interface for application debugging
+PPS interface for time synchronization with µSec resolution
+
+Functional Description
+The V5022 is built with purpose for processing high-bandwidth
+network traffic in real time. As a build option, it supports the
+HX380T and HX565T from Xilinx offering customers some key
+benefits, including very high number of logic gates and reliable
+communications. The two independent DDR3 SDRAM memory
+interfaces provide adequate buffering to sustain traffic over 10
+Gigabit Ethernet networks. In addition, the four independent
+QDRII+ SRAM memory interfaces make the architecture ideal for
+implementing advanced algorithms that require buffering or fast
+look-up tables. Another key feature is the ability to connect cards
+using a high-speed serial interface to allow direct communication
+between cards in the system without host intervention. The
+front panel has four 10 Gigabit Ethernet SFP+ optical ports that
+support both short range and long range fiber.
+The V5022 product is shipping with expressXG, AdvancedIO’s
+flexible FPGA development framework, to allow fast application
+development so customers can roll out new trading services on
+the market quickly. AdvancedIO ensures extreme reliability that
+gives customers confidence to deploy their product in critical
+applications. Like other products in the same family, the V5022 is
+compatible with several high-performance servers from leading
+OEMs, such as HP ProLiant DL380 Generation 6. This single slot
+solution allows customers to maximize the number of cards per
+server, resulting in a smaller server footprint.
+
+www.advancedio.com Toll free 1.877.331.7755
+
+DATAsheet
+
+V5022
+Quad Channel 10 Gigabit Ethernet FPGA PCI Express Card
+
+Technical Specifications
+NETWORK INTERFACe
+
+Quad 10 Gigabit Ethernet SFP+ optical ports, supporting MMF
+850nm (10GBASE-SR) or SMF 1310nm (10GBASE-LR)
+FPGA Device
+
+Xilinx Virtex-6 XC6VHX380T or XC6VHX565T
+Memory	
+
+2 banks of 1GB to 4GB 64-bit 533MHz DDR3 SDRAM
+4 banks of 36Mbit to 144Mbit 18-bit 350MHz QDRII+ SRAM
+HOST INTERFACE
+
+PCI Express x8 supporting 2.5 or 5.0 GT/s
+external interface	
+
+Mini SAS transceiver interface for intercard communication
+PPS Interface for time synchronization with µSec resolution
+RS-232 serial interface for debug
+> V5022 Quad Channel 10GbE FPGA PCI Express Card
+Architecture Diagram
+
+Our Commitment
+
+SYSTEM REQUIREMENTS	
+
+X86 64-bit processor 2GHz or better, 1GB RAM, 1GB disk space
+Free PCI Express x8 or x16 slot
+COMPLIANCE	
+
+AdvancedIO is committed to providing the latest innovations
+in technology, architectures, and techniques to keep our
+customers one step ahead of the rest. Our products, complete
+with expressXG Development Framework, is intended to offer our
+customers an entirely unique out-of-the-box experience.
+
+PCI Express Card Electromechanical Specification, Rev 2.0
+IEEE 802.3ae 2002 10GBASE LAN
+FCC 47 CFR Part 15, Subpart B, Class A (USA)
+IEC 60950-1 (International)
+RoHS Directive 2002/95EC
+DIMENSIONS	
+
+111.15 mm x 167.65 mm (standard height, half-length)
+Temperature	
+
+Operating: 0 to 50° C
+Storage: -40° C to 85° C
+
+For more information on our products:
+www.advancedio.com
+contactus@advancedio.com
+Suite 601-3292 Production Way
+Burnaby, BC V5A 4R4
+Canada
+
+Phone 604.331.1600
+Fax 604.331.1800
+Toll Free 1.877.331.7755
+
+AdvancedIO reserves the right to modify any product without prior notice. All trademarks are the property of their respective owners.
+AdvancedIO, udpXG and expressXG are trademarks of AdvancedIO Systems. Copyright © 2012 AdvancedIO Systems. All rights reserved. Revision: March 2012
+
+

@@ -1,0 +1,57 @@
+SMS - Nachrichten zur Steuerung der Mikrofoneinstellungen im GSM96MS2b:
+
+SMS - Nachrichten zur Steuerung
+
+V5956M10
+
+- Micro 1 aus, nicht speichern
+
+V5956M11
+
+- Micro 1 ein, nicht speichern
+
+V5956M20
+
+- Micro 2 aus, nicht speichern
+
+V5956M21
+
+- Micro 2 ein, nicht speichern
+
+V5956L+
+
+- Lautstärke + 1 Stufe, nicht speichern
+
+V5956L-
+
+- Lautstärke - 1 Stufe, nicht speichern
+
+V5956Lx
+
+- Lautstärke auf Stufe x ( x = 1-8 ), nicht speichern
+
+V5956I
+
+- Abfragen Geräteinfo
+
+V5956+49......
+V5956S
+
+- Einstellen der Service Center Adresse, speichern
+
+- Alle Parameter M.. und L.. speichern
+
+SMS - Nachricht vom mobilen Gerät
+
+V5956Ixyyyyi,f,
+x=Lautstaerke 1 bis 8
+yyyy ist Zustand Mic1, 2, 3, 4 : 0 Mic aus, 1 Mic an
+i
+
+Zellenident, variable Laenge
+
+f
+
+Feldstaerke, variable Laenge
+
+

@@ -1,0 +1,180 @@
+XDataNet
+What is XDataNet?
+XDataNet offers leading edge database techniques that provide a superb solution
+for long term data archiving and fast data retrieval capability.
+XDataNet is a sophisticated data warehouse and mining solution that decodes,
+monitors and stores live data records. The system connects to real time data
+sources using secure TCP/IP connection over wide area networks. In doing so,
+it receives binary data, decodes the specified fields before inserting them into a
+central database for later analysis.
+The system is capable of holding multi-billions of records over terabytes of RAID
+configured fibre channel (FC) arrays.
+
+Data
+Centre
+
+Satellite
+
+1
+
+N
+
+WAN / Internet
+
+Data
+Centre
+
+Satellite
+
+Router
+PSTN
+
+PSTN
+Mobile
+
+Mobile
+FTP Server
+Gigabit Switch1
+Application Server
+
+DB Server
+
+Fibre Switch
+
+Gigabit Switch2
+Fibre Connections
+CAT5 Connections
+SAN = Storage Area Network
+
+SAN
+
+PC Clients
+
+XAD Communications Ltd.
+www.xadco.com
+
+XDataNet
+1
+
+Who uses XDataNet?
+Information is a precious asset. Many organisations have an essential
+requirement to retrieve, protect and manage high volumes of strategic data.
+XDataNet provides an ideal data management solution for organisations such
+as Emergency Services, Law Enforcement, Traffic Management, Banking, Utility
+Companies, Government and many Private Sector businesses.
+
+How does XDataNet work?
+Real time data is collected from distributed data centers and fed to XDataNet
+for storage and analysis. The stored data is analysed and reported by using a web
+based software application running on a UNIX based Apache platform.
+A user friendly interface allows various field search options over text, numbers,
+date and time. Each entry can be marked and notes can be posted to other system
+users during data analysis. User defined content filters limit data insertion and
+partitions certain fields to offer ‘extra fast’ search capability.
+
+XDataNet Requirements :
+Minimum Server Requirements
+System Architecture
+Operating System
+Storage
+RAM
+CPU
+Network
+Database Engine
+Software
+
+Minimum Client Requirements
+System Architecture
+Operating System
+Storage
+RAM
+CPU
+Network
+Software
+
+64 bit
+Windows 2003 Server
+RedHat Linux R5
+2.0 TB RAID Configured Fibre Channel SAN
+16 GB
+4xDual Core 2.4 GHz
+1 GB/s
+Oracle 11g R1 64 bit
+Apache 2.2
+PHP 5.0
+
+XAD Communications Ltd.
+www.xadco.com
+
+32 bit
+Windows XP
+40 GB
+512 MB
+1.0 GHz
+100 MB/s
+Internet Explorer 6.0
+
+XDataNet
+2
+
+Why buy XDataNet?
+1.Expandable and Flexible Architecture :
+XDataNet is based on a flexible architecture that is totally independent of your
+software environment. This means that your XDataNet solution is easily expandable
+should there be a need to manage increasing volumes of data. To accommodate
+expansion, additional database servers and storage arrays can be integrated to
+the system with minimum disruption. ‘Server load balancing’ and ‘data partitioning’
+guarantees continued and stable system operation.
+2. Multilingual Data Entry and Operation :
+In order to accommodate globally dispersed or multicultural operations,
+XDataNet supports multilingual data entry and display schemes. This means the
+user interface language is determined when logging on to the system dependent
+upon your chosen language settings.
+3. Integrated System Audits :
+To increase operational efficiency and prevent unauthorised system access,
+each user activity session is logged and stored in the database. When logging on,
+system administrators and individual users can view their activity logs, together with
+any sent and received notes via a user portal.
+4. Built-in Workflow :
+A group formation structure allows the system administrator to define the
+hierarchical work flow of an organization. This means individual user accounts and
+access privileges are configurable to facilitate maximum operational flexibility and
+security.
+5. Web based Application Software :
+XDataNet is a web based application that is deployed instantly and economically.
+No client software is needed for operator terminals and the system can be accessed
+from anywhere in the world using standard PC. In addition, just a low level of centrally
+controlled on-going maintenance is required to keep the system running efficiently.
+6. Outstanding Search Performance :
+XDataNet search capability is based on a uniquely intuitive concept that facilitates
+‘clever links’ within the data fields that significantly enhance the operator’s search
+capabilities. This means search and data retrieval routines can be rapidly set-up
+and carried out by the user.
+7. Easy Integration :
+Because XDataNet is web based and system settings are based on XML
+parameters, it is easily integrated to any existing IT environment. This makes
+implementation painless as well as economical.
+
+XAD Communications Ltd.
+www.xadco.com
+
+XDataNet
+3
+
+XDataNet-br20081111
+
+XAD
+
+COMMUNICATIONS LTD
+
+Weir House
+93 Whitby Road
+Bristol BS4 4AR
+United Kingdom
+
+Tel 	 : +44 (0) 117 300 5217
+Fax 	 : +44 (0) 560 310 6745
+E-mail 	: sales@xadco.com
+Web 	 : www.xadco.com
+
+

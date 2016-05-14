@@ -1,0 +1,316 @@
+TRM-1000
+SATCOM On-The-Move Terminal
+Continuous and reliable access to real time information is a key
+enabler to keep remote users connected where infrastructure is
+lacking (e.g. natural disasters, border surveillance and tactical
+scenarios).
+The TRM-1000 is a field-proven, highly efficient, flexible, secure,
+low cost, SATCOM On-the-Move (SOTM) terminal that provides
+users the specialized IP SATCOM that is necessary to keep mobile
+and dispersed troops connected.
+The major components of the TRM-1000 are the MPM-1000
+Internet Protocol (IP) modem with its embedded Network Centric
+Waveform (NCW), plus a FSS-4000 series On-the-Move (OTM) antenna.
+The TRM-1000 is specifically designed to utilize the full capabilities
+of the Wideband Global SATCOM (WGS) satellites. The NCW is
+designed to support the IP user by using native Ethernet encapsulation,
+which makes it easy to configure military networks that require
+COMSEC, TCP accelerators, and any other IP net-working devices.
+
+K EY F EATURES :
+• A READYMADE COMMUNICATIONS
+ARCHITECTURE FOR REMOTE OPERATION
+IN AN IMMATURE ENVIRONMENT
+
+• S UPPORTS THE MAXIMUM NUMBER OF
+USERS AND HIGHEST DATA RATES BY
+OPTIMIZING SATELLITE BANDWIDTH AND
+POWER
+
+– H IGHLY EFFICIENT MF-TDMA WAVEFORM
+WITH A DAMA C ONTROLLER
+– AUTOMATIC LINK OPTIMIZATION WITH
+A DAPTIVE DATA R ATE AND P OWER C ONTROL
+– R EAL TIME , LOW LATENCY VOICE AND VIDEO
+SERVICES WITH 16 LEVELS OF DATA PRIORITY
+
+• H IGHLY ADAPTABLE HARDWARE DESIGN
+SUPPORTS MULTIPLE FREQUENCIES AND
+COMMUNICATIONS BETWEEN HETERO GENEOUS TERMINALS
+
+– I NTERCHANGEABLE ANTENNA FEEDS ALLOW
+OPERATION WITH X, K U OR K A -B AND
+SATELLITES
+
+– A LLOWS THE USE OF ALL SIZES AND TYPES
+OF TERMINALS IN A SINGLE M ESH , H UB S POKE , OR H YBRID NETWORK TOPOLOGY
+
+• A DVANCED ANTENNA TECHNOLOGY
+ENABLES RELIABLE MOBILE ACCESS
+WITH AUTOMATIC LINK ESTABLISHMENT
+
+The TRM-1000 features an affordable and flexible Vehicular
+Mounted Earth Station (VMES) antenna, configurable for most
+platforms and missions. With their multi-aperture and multi-band
+capability on a common pedestal, the antennas offer greater
+deployment flexibility.
+
+– F ULL - MOTION AZIMUTH OVER ELEVATION
+
+Connection and configuration of the TRM-1000 is very simple. An
+external power connection is all that is required.
+Once the components are mounted, an intuitive
+user interface allows
+for quick configuration
+and monitoring.
+
+– Q UIETER OPERATION AND HIGHER
+
+Shown with FSS-4180-LC Antenna
+
+GIMBAL PERMITS DISH TO SPIN WITHOUT
+RESTRICTION OF CABLE LOOPS , ALLOWING
+THE ANTENNA TO MAINTAIN NETWORK
+ACCESS INDEFINITELY WITHOUT PERIODI CALLY BEING FORCED TO GIVE UP ITS
+NETWORK CONNECTION TO “ UNWIND ”
+
+– 100% POINTING ACCURACY TO WITHIN
+½ DEGREE WITH ELEVATION COVERAGE UP
+TO 70 DEGREES
+MAINTENANCE RELIABILITY SINCE THERE
+ARE NO BELTS , CHAINS , OR GEARS ; THUS
+MINIMIZING THE NUMBER OF MOVING PARTS
+
+• I NHERENT LOW PROBABILITY OF
+INTERCEPT AND EXPLOITATION
+
+– FIPS 140-2 VALIDATED ENCRYPTION OF
+ALL TRANSMISSIONS USING HIGHEST
+AVAILABLE CRYPTOGRAPHIC KEY STRENGTH
+
+(AES-256)
+
+TRM-1000
+
+SATCOM-On-The-Move Terminal
+
+Terminal Components
+
+NCW MF-TDMA Mode
+Data Rate (kbps)
+
+• L-3 MPM-1000 NCW IP Modem
+• L-3 FSS-4000 Series On-The-Move Antenna
+• Ruggedized Terminal Control Laptop & HMI Software
+• Power Conditioning Module
+• HAIPE In-line Network Encryptor (optional)
+• TCP Performance Enhancement Proxy (optional)
+• Router/Switch (optional)
+
+TRM-1000 Terminal General Specifications
+Frequency
+Ku
+Ka
+X
+EIRP
+G/T
+Receive Pointing Loss
+Max Vehicle Speed
+Power Consumption
+Terminal Equipment
+Antenna
+
+Rx: 10.95 to 12.75 GHz; Tx: 13.75 to 14.50 GHz
+Rx: 20.20 to 21.20 GHz; Tx: 30.00 to 31.00 GHz
+Rx: 7.25 to 7.75 GHz; Tx: 7.90 to 8.40 GHz
+43.8 dBW (18˝ FS-4000-2, Ku-Band)
+12.4 dB/K (18˝ FS-4000-2, Ku-Band)
+< 1 dB up to 70 deg El (FSS-4000-LC/2)
+< 1 dB up to 90 deg El (FSS-4000-3)
+60 mph (100 km/hr)
+28VDC or 90VAC-264VAC/47-63 Hz, 320 Watts2
+28VDC, 420 Watts (continuous)
+
+Antenna/RF Parameters
+Pedestal
+Available
+Frequency
+Bands
+Available
+Aperture
+Sizes
+Coverage
+
+Tracking
+Antenna
+Controller
+Beacon
+Receiver
+Inertial
+Navigation
+Unit (INU)
+MTBF
+
+32, 48, 64, 96, 128, 192, 256, 384, 512,
+768, 1024, 1536, 2048 and 30721
+Modulation
+BPSK (Rate ½ Coding)
+OQPSK (Rate ½, ⅔ and ¾ Coding)
+8 PSK (Rate ⅔ Coding)
+FEC
+Serial Concatenated Convolutional
+Coding (SCCC Turbo Coder)
+Direct Sequence Spread Factors 1, 2, 4, 6, 8, 12, 16
+Number of Carriers
+Two Transmit MF-TDMA
+Four Receive MF-TDMA
+Modem Encryption
+FIPS 140-2 Validated AES-256 (CBC)
+SATCOM Network Bandwidth
+500 MHz
+SATCOM Network Capabilities Up to 255 Nodes Addressable
+Full Mesh, Star, and Hybrid Topologies
+Burst-to-Burst Link Power Control,
+Spread Factor, Data Rate, Code Rate,
+and Modulation Assignment
+Baseband Data Interface
+10/100/1000 Base-T Ethernet
+
+FDMA Mode
+MIL-STD-188-165A
+Modulation and Data Rate
+FEC and Scrambling
+
+Baseband Data Interface
+
+FSS-4000-LC
+2-Axis
+
+FSS-4000-2
+2-Axis
+
+FSS-4000-3
+3-Axis
+
+Ku and Ka
+
+Ku, Ka, and X
+
+Ku, Ka, and X
+
+16˝ (41 cm),
+18˝ (46 cm)
+
+16˝ (41 cm),
+18˝ (46 cm),
+20˝ (51 cm)
+Az: 360 deg
+Continuous
+El: 0 to 90 deg
+
+18˝ (46 cm),
+20˝ (51 cm)
+
+Control & Monitoring
+Main Terminal Control
+
+Az: 360 deg
+Continuous
+El: 0 to 90 deg
+
+Open-Loop
+
+Az: 360 deg
+Continuous
+X-level: +/-30 deg
+El: -5 to 105 deg
+Open-Loop
+
+2U 19˝ rack-mount
+or
+½ ATR form-factor
+
+2U 19˝ rack-mount
+or
+½ ATR form-factor
+
+Embedded
+
+N/A
+
+N/A
+
+Embedded
+
+Honeywell Talon
+or
+GE Aviation NFM
+7000 hrs
+
+Honeywell Talon or
+GE Aviation NFM
+7000 hrs
+
+Hybrid Closed
+or Open-Loop
+Embedded
+
+5000 hrs
+
+Type I Modem
+BPSK – 65kbps to 6300 kbps
+QPSK/OQPSK – 64 kbps to 8472 kbps
+Convolutional Coding, RS Coding and
+Data Scrambling IAW IESS-308, 309,
+310, and OM-73
+MIL-STD-188-114/RS-422/RS-423
+
+MIL-STD-188-165A Modem
+Control
+
+10/100/1000 Base-T Ethernet;
+SNMP/Linkabit terminal control software
+RS-485 (FDMA mode only)
+
+Mechanical/Environmental
+Size
+Terminal Equipment
+Antenna
+Weight
+Terminal Equipment
+Antenna
+Operating Temperature
+Terminal Equipment
+Antenna
+Environmental
+
+19-inch rack, 6U height2
+26L˝ x 25W˝ x 17H˝ (FS-4000-LC)
+~ 150 lbs2 (configuration dependent)
+120 lbs (FS-4000-LC)
+00C to 500C
+-400C to +710C
+MIL-STD-810F
+
+1. Maximum data rate depends on link and satellite characteristics
+2. Includes options
+Note: All specifications subject to change without notice
+
+Deployment Configurations
+• Vehicle Mounted SATCOM On-The-Move (SOTM)
+• Terminal Equipment Dismounted from Vehicle
+– Permits use of larger (fly away) antenna and increased
+network bandwidth
+
+L-3 Ruggedized MPM-1000 NCW IP Modem
+
+Cleared by DoD/OSR for p ublic release u nder OSR Case Number 10-S-1619 o n A ug us t 5 , 2 01 0 .
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078065003
+
+

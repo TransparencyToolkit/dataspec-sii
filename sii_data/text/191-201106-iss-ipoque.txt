@@ -1,0 +1,961 @@
+ 
+
+ 
+
+ 
+
+SUPPORTED PROTOCOLSAND
+
+APPUCAHONS ?p
+
+LAYER-7 BEHAVIORAL PROTOCOL SIGNATURES 
+
+ipoque?s protocol and appiication classification engine (PACE) is able to
+identify the protocoi of network traffic based on a combination of deep
+packet inspection and behavioral analgSis no matteriftheg are
+plain text or use advanced and obfuscation techniques.
+
+The following list includes all supported protocols (in bold), sub-protocols
+for some ofthern (in itaiic), and the most important appiications using
+these protocois (in normai letters). The current version of this protocoi
+list and more information about ipoaue?s products are availabie on our
+website I
+
+REGULAR SIGNATURE UPDATES
+
+Reguiar PACE updates are available at ieast once 0 month to ensure
+the continuing effectiveness ofthe protocol signatures. Updates can be
+downloaded from ipoque?s support portal at http://portalipoquecom.
+Please note that firranire updates for PRX Traffic Manager and DPX
+Network Probe have different release schedules. -
+
+Supported Protocols and Applications
+
+CUSTOM PROTOCOL DEFINITIONS
+
+?Custom protocol definitions allow the administrator to specify protocol
+patterns based on the following criteria: 
+
+- Lager-4 protocol TCP, UDP) 
+- Lager-4 ports (lists and ranges of source and destination ports)
+0 Lager?7 protocol (from the list below) 
+
+0 HTTP host list or URL list for HTTP-based lager?7 protocols
+
+0 Traffic direction inbound, outbound)
+
+- SSL certificate information for traffic
+
+Custom protocoi definitions can be used in rule definitionsjust as stand-
+ard lager?7 protocols. For example, this enabies the individual traffic man?
+agement for video streams of different Web platforms such as YouTube.
+
+ 
+
+Ares 2.1.1.3035
+Ares 2.1.6.3040
+
+Filepipe 2.7
+
+KCEasg 0.19
+
+BitTorrent
+BitTorrent-plain
+
+ABC 31
+
+Acquisition 2.1
+Anatomic P2P 0.1
+
+Arctic Torrent 1.2.3
+Azureus [Vuze 2.3.0.6
+Azureus [Vuze 2.4.0.2
+Azureus [Vuze 2.5.0.0
+Azureus /Vuze 2.5.0.2 
+Azureus /Vuze 3.0
+Azureus Vuze 3.0.0.946
+Azureus [\Juze 3.0.160
+Azureus Vuze 3.0.30 1
+
+Azureus [Vuze 4.2.0.2
+Azureus [Vuze 4.2.0.8
+Azureus [Vuze 4.2.0.80
+Azureus [Vuze 4.2.0.9
+Azureus /Vu_ze 4.3.0.0
+Azureus [Vuze 4.3.0.1
+Azureus [Vuze 4.3.0.2
+Azureus [Vuze 4.3.0.4
+Azureus [Vuze 4.3.0.40
+Azureus /Vu_ze 4.3.0.5
+
+Azureus [Vuze 4.3.0.6 
+Azureus Vuze 4.3.0.7
+
+Azureus [Vuze 4.3.1.0
+Azureus /Vuze 4.3.1.00
+Azureus /Vuze 4.3.1.1
+Azureus Vuze 4.3.1.2
+Azureus [Vuze 4.3.1.4
+Azureus Vuze 4.3.15
+Azureus Vuze 4.4.0.0
+
+BitComet 1.14
+BitComet 1.15
+BitComet 1.16
+BitComet 1.17
+BitComet 1.18 
+BitComet 1.19
+BitComet 1.20
+BitComet1.21
+BitComet 1.22
+BitComet 1.25
+BitFlu 0.91
+BitFlu 1.21
+BitLord 0.56
+BitLord 1.01
+
+BitLord 1.1
+
+BitLord 1.2 Beta
+BitLord 2.0 Beta
+BitPump
+
+Bits on Wheels 1.0.6
+
+PEER TO PEER
+
+Aimini Azureus [Vuze 3.0.5.0 Azureus [Vuze 4.4.0.1 BitSpirit 3.6.0.200 BitTorrent/ Mainline 7.2
+(Aimini 1.9 Azureus [Vuze 3.0.5.2 Azureus Vuze 4.4.0.2. BitSpirit 3.6.0.300 BitTgra nt 1.1.1
+'AppieJuice Azureus /Vuze 3.0.5.20 Azureus /Vuze 4.4.0.4 BitSpirit 3.6.0.315 Blizzard Downloader
+
+Appiejaice 029142.229 Azureus [Vuze 3.0.5.26 Azureus /Vuze 4.4.0.6 BitSpirit 3.6.0.330 BTG 0.9.2 
+
+Appleiuice 0.30.146 Azureus [Vuze 3.1.0.0 Azureus /Vuze 4.5.0.4 BitSpirit 3.6.0.336 BtManager 1.99.4
+
+Appleiuice 031149.110 Azureus /Vuze 3.1.1.0 Azureus Vuze 4.5.1.0 Bitspirit 3.6.0.362 BTSharp 3.1.0b
+
+ANts P2P Azureus [Vuze 4.0.0.2 BitComet 0.61 0.91 BitSpirit 3.6.0.401 burst! 3.1.ob
+
+ANts P2P 1.6 Azureus [Vuze 4.0.0.4 BitComet 0.93 BitSpirit 3.6.0 403 CTorrent 1.3.4
+
+Ares Azureus [Vuze 4.1.0.0 BitComet 0.96 BitSpirit 3.6.0.550 Deluge 1.1.9
+
+Ares 1.9.2 Azureus /Vuze 4.1.0.2 BitComet 0.99 BitTornado 0.3.17 Deluge 1.2.0
+
+Ares 2.0.8 Azureas [Vuze 4.1.0.4 BitComet 1.0 BitTornado 0.3.18 Deluge 1.2.0_rc1
+
+Ares 2.0.9 Azureus [Vuze 4.2.0.0 BitComet101 - 1.10 BitTorrent Mainline 4.26.0 Deluge 1.2.0_rc2
+
+BitTorrent Mainline 5.0.0 - Deluge 1.2.0_rc3 -
+
+5.0.9 Deluge 1.2.0_rc4
+BitTorrent [Mainline 6.0.1 Deluge 1.2.0?rc5
+6.0.3 Deluge 1.2.1
+BitTorrent Mainline 6.1.1 Deluge 
+BitTorrent Mainline 6.1.2 Deluge 1.2.3
+BitTorrent Mainline 6.1.20 Deluge 1.3.0_rc1
+BitTorrent Mainline 6.2 Deluge 1.3.1
+
+FlashGet 1.9.6
+FlashGet 3.2.0.1060 Beta
+
+BitTorrent /M0inline 6.20 
+BitTorrent/Mainline 6.2b
+
+BitTorrent /Maln|ine 6.2c FlashGet 3.3.0.1092
+BitTorrent Mainline 6.3 FlashGet 3.5.0.1126 .
+BitTorrent/ Mainline 6.3a Freeloader 
+
+FrostWi re, 4.20.9.0-
+
+G3 Torrent 1.01
+
+Gnome BitTorrent 0.0.32
+Holite 0.3.1
+
+Halite 0.3.2
+
+Hailte 0.3.2.1
+
+BitTorrent Mainline 6.3b
+BitTorrent Mainline 63c
+BitTorrent Malniine 6.4
+BitTorrent Mainiine 6.4a
+BitTorrent Mainiine 6.4b
+BitTorrent Mainiine 7.1
+
+ 
+
+
+
+ 
+
+ 
+
+Halite 0.3.2.2
+KTarrent 3.2.3
+KTorrent 3.3beta 
+'KTorrent 3.34
+LimeWire 4.12.11
+1 LimeWire 4.12.15
+LimeWire 4.12.6
+LimeWire 4.13.0 Beta 
+LimeWire 4.13.14
+LimeWire 4.13.2 Beta?
+LimeWire 4.14.10
+LimeWire 4.14.8
+LimeWire 4.16.7
+LimeWire 4.17.3
+LimeWire 4.18.1
+LimeWire 4.18.3
+LimeWire 4.18.8
+LimeWire 5.0.11
+LimeWire 5.1.2
+LimeWire 5.2.13
+LimeWire 5.3.0 Beta
+LimeWire 5.3.6
+LimeWire 5.4.5
+LimeWire 5.4.6
+LimeWire 5.4.7
+LimeWire 5.4.8
+LimeWire 5.5.5
+LimeWire 5.5.6
+LimeWire 5.5.7
+time-Wire 5.5.8
+LimeWire 5.5.9
+LimeWire 5.5.14
+MiDankeg 3.0.0
+Mo'noTorrent 0.72
+MooPolice 2.0
+MaoPolice 2.2
+MooPolice 2.3
+MooPolice 2.4
+Opera 10.00
+Opera 10.63
+Opera 11.0
+Panda 2.5.1.4
+aBittarrent 1.5.1
+qBittarrent 2.4.2
+QTarrent 0.9.5
+r'iorrent 0.8.5
+rTarrent 0.8.6
+Rufus 0.6.9
+Rufus 0.7 Beta
+Shareaza 2.2.5.3
+Shareaza 2.3.1.0
+Shareaza 2.4.0.0
+Shareaza 2.5
+Shareaza 2.5.1
+Snareaza 2.5.2
+Shareaza 2.5.3
+Shareaza 7.0091481
+Sharktorrent 0.1.8.4
+Sharktorrent 0.2.0.4
+ngTorrent 1.41
+
+Tomato Torrent 1.5.1
+Torrentflux 2.4 I
+
+
+Torrent Swapper 1.0
+TorrentVoive 1.4 Beta
+Transmission 1.74
+
+Transmission 1.93
+
+Turbo Torrent-
+
+IpTorrent 1.6
+
+pTarrent 1.6.2
+pTarrent 1.7 
+pTorrent 1.7.2
+pTarrent 1.7.5
+pTarrent 1.7.7 
+pTorrent 1.7 Beta
+pTarrent1.8.0
+pTa-rrent 1.8.arc2
+pTarrent 1.8.0rc6
+pTarrent1.8.1
+pTorren1182
+pTorrent 1.8.3 Beta
+pTorrent 1.8.3 Stable
+pTorrent 1.8.4
+pTorrent 1.8.5
+pTorrent 2.0 Beta
+pTarrent 2.0.4
+pTorrent 2.2
+W?zBit
+
+Xtorrent 1.1
+Xtarrent 2.0
+ZipTorrent
+DirectConnect
+DirectCannect-hub
+DirectCanect-peer
+DirectConnect~adc-peer
+1.2.1
+ApechH 1.3.4
+0.750b
+0.77aax
+CZDC 0.699b2
+CZDC 0.699c
+
+
+
+0.691
+
+0.695
+
+0.698
+0.699
+0.705
+
+0-709I
+0.750
+
+0.770
+
+DCTC 0.85.9
+Dolda Connect 1.3
+Elise 0.005
+
+fulDC 6.7.8
+
+fulDC 6.79
+
+Citch
+
+LDCC
+
+LinuxDC++ 1.0.2
+Microdc
+
+Micradcz 0.15.6
+
+.
+Revcannect'0674
+Saba b0 DC 102 
+ShakesPeer 0.9.5
+ShakesPeer 0.9.11
+StrongDC++ 2.3.0
+StrangDC++ 2.4.1,
+Valknut 0.49 
+eDonkeg
+eDankey-plar'n
+
+aMule 2.2.5 .
+aMule 2.1.3
+
+aMule 2.2.3
+
+aMule 2.2.6
+eDankeg2000 1.4.5
+eMule 0.46c I
+eMule 0.470 - 0.47c
+eMule 0.480
+eMule 0.490 0.49c
+eMule 0.500
+obfuscated eMule
+eMule Plus 1.2e
+Hgdra node 0.3.0
+lubster
+
+Lphont 3.0
+
+Lphant 3.50 3.51
+MLDonkeg 3.0.0
+MLDonkeg 3.0.3
+Morpheus 5.4.0.1080
+Morpheus 5.5.1
+Shareaza 2.4.0.0
+Shareaza 2.5.3.0
+MP3 4.7.0
+xMule 1.13.6
+
+XalaX 2.0
+
+Filetopia
+
+filetapia 3.04
+Freenet
+
+Freenet 0.7
+
+Freenet 0.7.5
+Gnutella
+Acquisition 2.1
+Acquisition 2.2.1
+Acqlite 0.3.5
+
+Acqlite 0.4.1
+Apolion 1.0.2.1
+BearFiix 1.2
+
+Cabas 0.8.1
+
+Cabas 0.8.2
+CacoGnut 1.21 .
+DM2 1.23.1
+
+Filepipe
+
+FrastWire 4.18.1
+FrostWire 4.20.9.0
+giFT 0.0.11
+Gnucleos 1.8.6.0
+Gnucleus 2.0.2.0
+Gtk?gnutella 0.96.6
+CIqu
+
+iMesh Light-5.0.2.
+
+KCEasg 0.19" 
+KCEasg 0.19-rc1
+Kiwi Alpha 3.1.4 
+LimeWire 4.12.11
+LimeWire 4.12.15
+LimeWire 4.12.6
+LimeWire 4.13.0 Beta
+LimeWire 4.13.14
+LimeWire 4.13.2 Beta
+LimeWire 4.14.10
+LimeWire 4.14.8
+LimeWire 4.16.7
+LimeWire 4.17.3
+LimeWire 4.18.1
+LimeWire 4.18.3
+
+LimeWire 4.18.8
+
+LimeWire 5.0.11
+LimeWire 5.1.2
+LimeWire 5.2.13
+LimeWire 5.3.0 Beta
+LimeWire 5.5.13
+Morpheus 5.4.0.1080
+Morpheus 5.5.1
+Morpheus 5.7.1
+Mutelia 0.4.5
+Phex 3.4.2.116
+Poisoned 0.5191
+Qtella 0.7.0
+Shareaza 2.4.0.0
+SwapperNET 45166030216
+ngelia 1.40
+MP3 4.70
+XFactar 
+XNap 3.0
+
+XoioX 2.0
+
+iMesh
+
+BearShare 6.1
+BearShare 7.0 - 7.1
+iMesh 7.1
+
+iMesh 7.2.0
+
+iMesh 8.1.0.60352
+iMesh 9.0
+
+iMesh 10.0
+
+iMesh Lite 5.0.2
+Lphant 4.0
+
+Lphant 5.1
+Shareaza 7.0
+KaZaa I Fasttrack
+Apollon 1.0.2.1
+iMesh Light 5.0.2
+Kazaa 3.2.7
+
+Kazaa Lite
+Mammoth 0.1.3
+Filepipe 
+Manolito
+
+Blubster 3.02
+Blubster 3.1.1
+Manalito 1.18 1.19
+Manolita 3.07
+
+Manoiito 3.1.1
+Pialet 3.07
+Piolet 3.1.1
+Mute
+
+Mute 0.5.1
+OpenFT
+Open FT 0.5.2
+Filepipe
+
+OFF
+
+OFF 0.17.00
+OFF 0.19.13
+OFF 0.19.34
+Panda
+Pando 1.5.5.1
+Panda 1.6
+Panda 2.0.0.5
+Pando 2.0.2.2
+Panda 2.0.3.0
+
+Panda 2.3.0.0
+
+Panda 2.3.0.2
+Pando 2.3.2.3
+Panda 2.5.1.4
+SoulSeek
+
+SaulSeek 156
+SouISeek156b
+SaulSeek156c
+SaulSeek 157 NS 13e
+SoulSeek 157 test 8
+Saulseex 1.0b6
+pgSoulSeek 1.2.7c
+
+StealthNet
+
+stealthNet 0.8.7.7
+Thunder Webthunder
+Thunder WebThunder
+56-9344
+Thunder/WebThunder
+5.810.675 
+Thunder /WebThunder
+5.812.689
+
+Thunder [WebThunder
+53?13?699
+Thunder/WebThunder
+5.8.9.662
+
+Thunder /WebThunder
+5.9.7.1062
+
+
+3.53
+
+3.54 Beta 4
+XNap 2.5r3
+
+Wiring
+
+Wiring 2.0b7.1
+
+XDCC
+
+XDCC Catcher 2.3
+
+XDCC Fetcher 1.409
+XDCC Fetcher 1.432
+
+XDCC Klipper 4.5
+
+ 
+
+MessAerNG (EM)
+
+GadueGadu Miranda 0.8.0027 Miranda 0.9.0 Jabber'video iChat 5.0.3
+
+(Jada?Cadu?server Miranda 0.9.0 6.3.2 Jabber?letransfer Kopete 1.0 -
+Gadu?Gadu?Ie-transfer lM+ 7.1 600313 Talk-unknown Miranda 0.6.6 6.6.8
+Gada?Gadu-voice 4. 3 Meeba Gaogle Talk?voice Miranda 0.7.13 - 0.7.14
+
+Adium 1.3.10 lM+ 4.5 PoPa Goggle Talk-video Miranda 0.7.17
+
+GaduGadu 17.02.09 PoPo 2009bet01 Goggle Talk?filetransfer Miranda 0.7.6 - 0.7.7
+CaduGadu 4.04.09 (RC?unknown QQ Adium 1.3.10 Miranda 0.8.0025
+
+GaduGadu 01.09.09 lRC??Ie-transfer Q0 2005 Agttm 0.4.6 Miranda 0.8.0027
+
+CaduGadu 7.7 Agttm 0.4.6 00 2007beta3 GMX Muitirnessenger Miranda 0.9.0
+
+GaduGadu 10 Miranda 0.6.6 - 6.6.8 00 2009 3.01.2047 Pidgin (previouslg Caim) 2.6.2
+Miranda 0.6.6-1 6.6.8 Miranda 0.7.13 - 0.7.14 QQ 2009betaz GMX Muitimessenger Psi 0.11 -
+
+Miranda 0.7.13 - 0.7.14
+Miranda 0.7.17
+Miranda 0.7.6 0.7.7
+Miranda 0.8.0025
+
+Miranda 0.7.17
+Miranda 0.7.6 - 0.7.7
+Miranda 0.8.0025 
+Miranda 0.8.0027
+
+QQ International beta3
+
+labber/Gaogle Talk (XMPP) I -
+
+Jabberrunknown
+Jabberevaice
+
+3.70.2815
+
+Goagie Talk1.0.o.92
+Gaagie?i?alk 1.0.0.104
+Googie Talk 1.0.0.105
+
+Psi 0.13
+Psi 0.14
+Qnext 3.0.4.64beta
+Qnext 4.0.4.420eta
+
+ 
+
+i paque.com
+
+ 
+
+Pro 3.1
+Triliian/Triilian P1031120
+Triliian/Trillian Pro 3.1 9.0
+Webcle Multimessenger 
+3.01.2048
+
+?Webde Multimessenger
+3.70.2816 I
+Jabber App Nimbuzz . 5
+Nimbuzz' 1.3.0
+
+
+
+M$N~unknown
+MSN-voice
+
+MSN?via'ea
+MSN-?le-transfer
+
+Adium 1.3.10 
+
+Agttm 0.4.6
+
+GMX Multimessenger
+3.01.2047
+
+GMX Multimessenger
+3.70.2815
+
+Miranda. 0.9.0 - 
+Pidgin 2.6.2 (previously Gaim)
+
+Pidgin 2.7.3
+
+Triliian/Trillian Pro 3.1.12.0 
+Triliian/Triliian Pro 3.1.9.0
+Qnext 30.4.64beta
+
+'Qnext 4.0.4.42beta
+
+Webde Multin?nessenger
+3.01.2048
+
+Webde Multimessenger
+3.70.2816 
+Windows Live 14080501202
+Windows Live 1408064206
+Windows Live 1408117416
+Oscar
+
+Oscar-unknown
+Oscar?ie-trang?er
+Oscar-picture-transfer
+Oscar-Voice
+
+Oscar?video
+
+- rco 5.1
+
+6
+
+
+
+7.2
+
+Kapete 1.0
+
+Miranda 0.6.32
+
+Miranda 0.6.6 - 0.6.8 
+Miranda 0.7.13 - 0.7.14 1
+Miranda 0717
+
+Miranda 0.7.6 - 0.7.7
+Miranda 0.8.0025
+
+Miranda 0.8.0a27
+
+Miranda 0 9.0 
+Pidgin 2.6.2 (previously Cairn)
+Pidgin 2.7.3 - 
+'Iriilian/Trillian Pro 3.1.12.0
+Triilian/Trillian Pro 3.1.9.0
+Qnext 3.0.4.64bet0
+
+Qnext 4.0.4.42beta
+
+Webde Multimessenger
+
+Paitalk17705, -V
+Paltalk 17710
+Paltalk 17716
+
+Paltalk 17772
+
+Webde Multimessenger
+Qnext
+
+Yahoo
+Yahoo-unknown
+Vanna-voice
+Yahoo-video
+Yahoo?le-transfer
+Yahoojwebchat
+0.4.6
+
+Cairn
+
+GMX Multimessenger
+3.01.2047
+
+GMX Multimessenger
+3.70.2815
+
+Kopete 1.0
+
+Miranda 6.3.2
+
+original Yahoo client 3.0
+original Yahoo client 3.5
+original Yahoo client 4.1
+original Yahoo client 5.0
+original Yahoo client 5.5
+original Yahoo client 5.6
+original Yahoo client 60
+original Yahoo client 6.1
+original Yahoo client 7.4
+original Yahoo client 7.5.0.647
+original Yahoo client 8.0
+original Yahoo client 8.1.0.421
+original Yahoo client 9.0.0.2152
+original Yahoo client 9.0.0.2162
+original Yahoo client
+10.0.0.1270
+
+Pidgin 2.6.2 (previousiy Gaim)
+Pidgin 2.7.3
+
+Qnext 3.0.4.64beta
+
+Qnext 4.0.4.42 beta
+
+ 
+
+ 
+
+Kopete 1.0 AIM 1.2 3.01.2048 Miranda 0.6.6 0.6.8 Trillion/Trillion Pro 3.1.12.0
+Miranda 0.6.6 - 0.6.6.8 AIM 6.1 Webde Multimessenger Miranda 0.7.13 - 0.7.14 Triilian/Trillian Pro 3.1.9.0
+Miranda 0.7.13 - 0.7.14 AIM 6.8 370.2816 Miranda 0.7.17 
+Miranda 0.7.17 CMX Multimessenger Paltalk Miranda 0.7.6 - 0.7.7. 3.01.2048 
+Miranda 0.7.6 0.7.7 3.01.2047 Paltalk?server Miranda 0.8.0025 Webde Multimessenger
+Miranda 0.8.0025 GMX Multimessenger Paltalkfiie?trangfer Miranda 0.8.0027 3.70.2816
+
+Miranda 0.8.0027 3.70.2815 Paltalk-voice Miranda 0.9.0
+
+STANDARD PROTOCOLS
+
+AFP OSPF UItraBac DDL?speedshare.org
+BGP pcAnywhere Usenet DDL-ultrashare.de
+DHCP VNC DDL?up-?lacom
+
+DNS POP3 Direct Download Link (DDL) DDL-[foldenm DDL-uplaaded.ta
+
+EGP RADIUS DDL-45h3red.com . DDL-uplaading.com
+FTP DDL~badangacom DBL?media?re.com DDL?upfoadingit.com
+FTP~control Syratei Radius Dot-badanga?et DDL-megashare.com DDL-uploadyourfiles.de
+FTP-data RDP DDL-magashares.cam DDL~wiiuplaadnet
+HTTP RDS DDL-eaSy?sharuom DDL?megaupload.com . DDL-your?lehostxom
+HTTP App ACTIVESYNC SMBICIFS DDL?learchiwu DDL?mo?lecorn 
+
+ICMP SMTP DDL~zsharanet
+
+IGMP SNMP DDL?lefactorgxom DDL?rapidsharecpm 
+IMAP SSDP DDL?lefrant.com DBL?rapidshareae DDL-meg'aroticxom
+
+PP STU DDL-frlehacam d. to
+
+MGPI Sgsiog DDL-frlebaseto
+TDS th-fiIemet DDL?sharebee.com DDL?netlaad.in
+NETBIOS TeomViewer DDL-?lesto DDL-massmirroccam
+NFS Telnet DDL?le-uploadmet DDL~adrivecom 
+
+NTP TFTP DDL?leupyoursmm DDL?simpleupload.net
+
+VOICE OVER 1P- (VOIP)
+
+Fring Skinny Sky pe v3.1.0.152 Sky pe v3.6.0.248
+Firing-unknown ooVoo Skype Sky pe v3.2.0.53 Sky pe v3.8.0.96
+Fang-voice RTCP Hype-unknown Skype v3.2.0.63 Sky pe v3.8.0.115
+
+H.323 SIP 5kgpe?voice Sky pe v3.2.0.82 Sky pe v3.8.0.139
+
+Ekiga 3.2.0 SIP?unknown Skype-out Sky pe v3.2.0.115 Sky pe v3.8.0.154
+
+Ekng 3.2.6 Skypevidea Sky pe v3.2.0.145 Sky pe v3.8.0.180
+NetMeeting 3.01 SIP~yahoo Skg'pe v2.6.0.1o5 Sky pe v3.2.0.148 Sky pe v3.8.0.188.
+OpenH.323 1.19.0.1 SIP?yanage Skype v2.8.0.851 Sky pe v3.2.0.152 Sky pe Beta v4.0.0.176
+XMeeting 0.4p2 SIP-oscar Skype v3.0.0.106 Sky pe v3.2.0.158 Sky pe Beta v4.0.0.226
+IAX SIPvgadu?gadu Skype v3.0.0.123 Sky pe v3.2.0.163 Sky pe v4.0.0.195
+
+Diax 0.9.14 SJP?ascar?video Skype v3.0.0.137 Skype v3.2.0.175 Sky pe v4.0.0.206
+Firefly 3.3.2 SiP-yahoa-vr?dea Sky pe v3.0.0.154 Skype v3.5.0.107 Skype v4.0.0.215
+IAXCornm 1.2.0 SIP?ichatj?acetime Skype v3.0.0.190 Skype v3.5.0.158 Sky pe v4.0.0.216
+lAXPhone 2.16eta3 Ekiga 3.2.0 Skgpe v3.0.0.198 Skype v3.5.0.178 Skype v4.0.0.224
+ldefisk/Zoiper 2.22 Ekiga 3.2.6 Skype v3.0.0.205 Skype v3.5.0.202 Skype v4.0.0.226
+
+Kiax 2.1 betaz Gizmo 3.1.2.291 Skgpe v3.0.0 209 Skype v3.5.0.214 Skype v4.1.0.136
+LaudHush 1321 iPhone Facetime 4.0.2 Skgpe v3.0.0.214 Skgpe v3.5.0.229 Sky pe v4.1.0.141
+PURtei OpenWeng'a/ Sky pe v3.0.0.216 Skgpe v3.5.0.234 Skype v4.1.0.166
+YakaPhone 1.4.2 QuteCom 2.2rc3 Skype v3.0.0.217 Skgpe v3.5.0.239 Skgpe v5.0.0.152
+0.8 SipGate Skype v3.0.0.218 Skgpe v3.6.0.115 Skype Beta v5.0.0.6378
+lskaat Twinkle 1.4.2 Sk'ype v3.1.0.112 Skype v3.6.0.127 Skype v3.0.0
+MGCP Vonage 093 Sky pe v3.1.0.144 Skype v3.6.0.159 Truphane
+MGCP-control I XMeeting 0.4p2 Sky pe v3.1.0.150 Skype v3.6.0.244 Teamspeok
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+?t Fiohde 3?s
+
+ 
+
+STREAMING PnoTaco-Ls
+
+. QuickTime 7.6.8
+
+ 
+
+ 
+
+*Website?embeda?ed?ash content
+
+ 
+
+ 
+
+AVI VLC 1.1.4 Pandora TVUPiayer2.4.5.1
+Feidian Winamp 31.531 PPLive . Reai Media TVU Player 2.4.8.2
+Feidian 1.0.1.32 Winamp 5.56 PPLive 1.8.7 RealMediaPlayer 11 - TVU Player 2.5.3.1
+Feidian 1.3.1 Winamp 5.581 1.9.23 RealMediaPlayer14 
+
+Flash? - PPLive 2.0.21. RTP 2.0.0.11
+
+BBC ORB - PPLive 2.1.0.0011 2007
+
+Clip?shde ORB?unknown PPLive 2.2.1 SCTP 2008
+.Caolstream ORB?server PPLive 2.2.2 2010
+myspacecom ORB-client PPLive 2.3.4.0024 Fishradio 1.1 CAST
+
+myvideode ORB-client?rtsp PPLive 2.6.3 iTunes 10.01.22 VeohTV .
+
+you porncom ORB?ciient-rdt Slingbox VeohTV Web Player 1.1.3beta
+youtubecom ORB-client?mwv 1.0.18.29 Slingbox 1.3.0 VeohTV Web Player 1.2.2.1112
+etc. ORB~client-wma P?PStream 1.0.4.641 Siingbox 1.4.0 VeohTV 3.9.6.1048
+Funshion ORB?client-?ash 22.27.1067 "Slingbox 2.0.2481 Windows Media Stream
+icecast ORE-client??v 22.34.1122 Slingbox 2.0.3508 Zattoo
+
+icecast 2.3.2 ORB-client-ggp 7 26.84.6000 SopCast Zattoo 3.1.0
+
+EPTV ORB-clientwupload4dawnload 2.6.86.7800 SapCast 1.1.1 Zattoo 3.3.3 - 3.3.4
+Tel-iome/TV2 1.2460588 ORB 1.01.0695 2.6.86.8250 SopCast 2.0.4 Zattoo 3.0.5beta
+Kantiki ORB 2.00.0873 2.6.86.8800 SapCast 3.0.3 Zattoo 3.1.1.11916
+MMS ORB 2.00.0885 2.7.0.1148 SopCast 3.2.4 Zattoo 3.3.1.18350
+Windows Media Pia yer 11 ORB 2.00.0930 GO 1 SopCast 3.2.9 Zattoo 4.0.5
+
+Move ORB 2.01002 5 QQLive Spotify 
+
+MPEG ORB 2.01.0026 QQLive 5.01 Spotify 0.4.8
+
+Jupster 4.0.0 ORB 2.01.0028 QQLive 7.3 TVAnts
+
+Screamer Radio 03.8 ORB 2.01.0039 QOLive 8.0 TVAnts 1.0.0.59
+
+Screamer Radio 04.3 ORB 2.01.0042 OQLive 8.32- TVAnts 1.0.0.590835
+
+Screamer Radio 04.4 ORB 2.50.0185 QuickTime TVUPlayer
+
+VLC 0.8.6h ORB 2.57.0010 iTunes 7.6.2.9 TVU Pia yer 2.3.2
+
+VLC 1.0.2 Octashape iTunes 9.0.1 TVU Pla yer 2.3.6beta1
+
+VLC 1.0.5 CNN strreaming QuickTime 7.6.4 TVUPlayer 2.4.1.0
+
+TUNNEL PROTOCOLS
+
+55L GTPvuser?data Open L2TP 1.6 SSH UltraSu rf 10.05
+
+HamachiVPN NetMotion Tereer VoipSwitch Vol-P Tunnel
+IMAPS HamachiVPN 1.0.3.0 NetMotion 9.1 Tor VPN-X
+
+POPSS LogMeln Homachi 2.0.2.85 . Tar 0.1.10 VTun
+
+IP in EP Hotspat Shield 1.3 Tor 0.2.27 VTun 3.0.211
+
+Stunnel lPsec MyFreedom 2.1wrc9 UltraSurf YourFreedom
+
+GRE lPsec UDP 2.1?rc11 UltraSurf 10.02 Socks
+
+GTP ISAKMP PPTP UitraSurf 10.03 Socks v4
+
+GTP?contral SoftEthernet UitraSurf 10.04 Socks v5
+
+GAMING PROTOCOLS BUSINESS PROTOCOLS
+
+Armagetron Halo Sina Game Citrix PostgreSQL
+
+Battlefieid Liveiy Speilforce LDAP SAP
+
+CGA Games Maplestary Splash Fighters MUSQL 
+
+Clubpenguin Papa Game Spiash Fighters 2.56.01 Kerberas 2005 900204700
+Crossfire Papa Carrie 2.0261761 Steam
+
+Crossfire 1.0.52 PS3 Steam v008 49/770
+
+130qu Quake Vietcong
+
+Florensia 00 Game Warcraftg MOBILE INTERNET PROTOCOLS
+
+Fiesta rFactar Wii 
+
+GameKit rFactor 1.2.515 World of Warcraft Biackberry WAP-WTLS
+
+Guildwars Second Life Warid of Warcraft 1.4.0.228 WAP-WSP Multimedia Messaging Service
+Guiid Wars 32.488 Second Life 1.21.6.99587 Xbax 
+
+Half-Life 2 and Mods Second Life 2.4.0
+
+ 
+
+2011ipoque 
+PRO-1101
+
+
+info@ipoque com
+
+ipagrre Gran, Neurnurkr 29-33. 04109 Leipzig, Germany
+Phone +49 341 59403 0 Fax: +49 34159403019
+

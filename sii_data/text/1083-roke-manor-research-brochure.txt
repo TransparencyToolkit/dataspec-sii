@@ -1,0 +1,98 @@
+Digital Wideband Receiver
+
+A Siemens Company
+
+Introduction
+Roke Manor's Digital Wideband Receiver digitises a 30 MHz band o f spectrum and down-converts 4
+programmable narrowband channels to complex base-band. The receiver simultaneously transfers both
+snap-shots of the wideband signal and 4 narrowband signal streams over a industry-standard USB2 interface to
+a PC for further signal processing.
+Applications of the receiver include standard HF receivers, N-channel receivers, frequency hopping systems and
+wideband spectrum monitoring systems.
+
+Features
+• 4 analogue R F i n p u t s (providing incremental
+analogue signal processing):
+- direct input to the 14 bit, 80MHz A/D converter
+(for general purpose applications, e.g. VHF / UHF
+reception via under-sampling or with an external
+RF down-converter),
+- input via digitally controlled gain block (-25 to +34dB),
+- input via 30MHz anti-alias filter,
+- input via noise-shaping filter for improved dynamic
+range (antenna dependent).
+
+• VVideband and narrowband signals are multiplexed
+together and transferred over an industry-standard
+USB2 interface t o a P C f o r further processing
+
+• 256K sample buffer to capture snapshots of the
+wideband signal.
+
+• Receiver control via PC / embedded processor
+
+• 4 channel digital down-conversion to complex base-band
+- Programmable centre frequency, bandwidth and
+sample rate,
+• Programmable decimation filters to match signal
+bandwidth and shape,
+- Capable of extracting WCDMA I DECT / GSM etc
+bandwidths.
+
+• Auxiliary connector for mezzanine card to implement
+additional custom functions.
+
+(demodulation / decoding)
+- Programmable frame format to select narrowband
+channels and wideband signal transfer rate.
+• Modular interface permits alternative interfaces
+(eg to DSPs) to be developed.
+• Scalable FPGA capable of DSP functions eg FFTs
+for spectrum monitoring applications.
+through USB2 or general purpose interface
+- Configures analogue gain, digital down-converters
+and output frame format.
+
+/CONTINUED
+See Resilient Networks, Miniature Radar Altimeters,
+'Spinner' — and our other n e w technologies on stand 9 7 5
+
+Roke
+Manor
+Research
+
+Owned by Siemens, our client base includes Siemens, other companies
+and Government departments. Projects range from feasibility studies to
+designs for high volume manufacture. In addition, low volume manufacture
+can be undertaken in-house.
+We bring a competitive edge to our clients' by applying world-class talent to
+create innovative and timely solutions that meet their development needs.
+Roke Manor Research is a unique company with a rich heritage and exceptional
+people. It is a business which prides itself on pioneering innovation and producing
+first-class technical solutions to demanding customer problems across commercial
+and defence arenas.
+This comes from a foundation of world-class science and engineering expertise
+and an enviable breadth of knowledge and skill. In addition to technological
+excellence, the company embraces an entrepreneurial culture that balances
+engineering excellence, customer focus, business acumen and first-class project
+management skills.
+Managing Director, Paul Stein appointed in 1996, has overseen the growth of
+business from El 9m to over E40m. Paul is a member of the Ministry of Defence
+Scientific Advisory Council and sits on the South-East Science and Technology
+Advisory Council.
+
+ENDS
+
+For further information please contact
+Roger Holtby, Marketing Communications Manager
+Roke Manor Research
+Tel +44 (0)1794 833455
+Email roger hollby©roke co uk
+Roke M a n o r Research http //www roke co.uk
+
+David Salter, Account Executive
+Defence, Roke Manor Research
+Tel +44 (0)1794 833332
+Email david salter@roke co uk
+
+

@@ -1,0 +1,145 @@
+Observer 12
+Fonctions de sécurité
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Distributed Network Analysis
+Architecture
+z
+
+Les 2 composants clés d’Observer, la
+console et la sonde partagent le même
+code assurant ainsi les mêmes
+caractéristiques d’analyses sur toutes
+les plateformes …
+
+z
+
+… Visibilité Locale/Distante. L’
+architecture distribuée d’Observer
+autorise la même capacité d’analyse
+sur la totalité du réseau de
+l’entreprise quelque que soit le lieu où
+l’on se trouve …
+
+z
+
+… Multi réseaux. L’Observer couvre de
+multiples technologies comme le
+Gigabit sur des liens tronc, le WiFi, le
+WAN ou l’Ethernet 10/100/1000 avec
+la même capacité d’analyse et la
+même interface homme machine
+
+Filaire vers sans fil. Local et distant. Données et applications.
+
+Analyse de bout en bout du réseau
+Sonde
+logicielle
+Top Talkers
+
+MultiHop Analysis
+
+Connection Dynamics
+
+GigaStor
+
+Sonde
+matérielle10/100/1000
+
+VoIP Analysis
+
+Sonde matérielle WAN et
+Gigabit
+
+Système Suite Observer Gigabit
+et WAN
+
+Application Analysis
+
+SNMP Management
+
+Sécurité WiFi
+z Comment
+
+puis-je surveiller mon réseau
+Wireless pour des failles de sécurité
+comme des points d’accès non autorisés?
+
+Sécurité WiFi
+
+Triggers and Alarms - Configure les conditions de surveillance par
+déclencheurs
+
+Sécurité WiFi
+
+Triggers and Alarms - Configure les conditions de surveillance par
+déclencheurs
+
+Sécurité WiFi
+
+Top Talkers – Vérification du paramétrage des points d’accès et des
+connexions entre utilisateurs
+
+Sécurité du trafic
+z Vous
+
+souhaitez être prévenus en cas de
+trafic non souhaité (virus, hack, P2P,etc…)
+
+Sécurité du trafic
+
+Des filtres de trafic (Virus, Attaques…) vous permettent d’identifier
+immédiatement les stations concernées
+
+Sécurité du trafic
+
+Configuration aisée des filtres et actions automatiques
+
+Observer Forensics
+ Est-ce le réseau ? Est-ce l’application ? Est-ce un souci de
+sécurité ? Avec Observer, il est facile d’identifier les
+problèmes
+
+Sécurité et analyse “Forensics”
+ Analyse rétrospective pour les problèmes de sécurité
+ Fonctionnalités IDS “type SNORT” développées par Network Instruments
+ Comparaison avec les données passées d’attaques connues et
+d’anomalies
+ Obtention de rapports « post mortem » et de sécurité
+
+Choisissez un
+intervalle de
+temps
+Visualisez la
+sévérité de
+l’événement
+
+Identifiez
+le type
+d’événement
+
+Filtrez jusqu’à
+la règle Snort
+appropriée
+pour plus
+d’information
+
+Analyse Forensics – les avantages
+ Visualisez les attaques et les violations dans le
+contexte puisque vous êtes informé de ce qui
+se passe sur le réseau
+ Obtenez des preuves des problèmes de
+conformité et de sécurité
+ Remontez le temps et trouvez la source des
+anomalies
+ Facilitez la collaboration entre les différents
+départements informatiques (maintenance et
+sécurité) en délivrant des données à tous
+
+

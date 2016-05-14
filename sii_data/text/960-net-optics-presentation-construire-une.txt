@@ -1,0 +1,895 @@
+Construire une plateforme
+d’accès pour la surveillance
+
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Qui est NetOptics?
+• Créé en 1996, basé à Santa Clara, Californie
+• Produits déployés par plus de 5000 clients globaux
+• Représentants dans le monde entier (Elexo en France)
+• Leader en innovation
+
+Industry Firsts
+
+Commutateur iBypass
+
+TAP 10 GigaBit
+
+Agrégation de port iTAP
+2
+
+Qu’est ce qui mène le marché de la surveillance ?
+
+• Les menaces sur le réseau
+• La surveillance de la performance
+• La conformité
+
+La complexité croissante des réseaux, la prolifération des applications
+et le développement de nouvelles technologies comme le 10 gigabit
+Ethernet conduisent à une demande croissante de surveillance.
+Source: Frost & Sullivan
+3
+
+Qu’est-ce qu’un TAP ?
+• TAP est l’acronyme de “ Test Access Port “.
+• C’est un dispositif autonome placé en insertion sur un
+lien de réseau pour créer un port d’accès permanent à
+ce lien.
+• Il est destiné à la surveillance passive de tout le trafic
+du lien sans interférence avec le flux de données et
+sans introduire de point de défaillance.
+Remarque amusante : TAP en anglais signifie aussi “ robinet “, ce qui
+correspond assez bien à la fonction du produit
+Nota : TAP étant un acronyme, il ne prend pas la marque du pluriel
+
+4
+
+Principe de fonctionnement d’un TAP
+• Le TAP est placé en insertion dans le lien.
+• Il recopie intégralement le flux de données des deux
+directions du lien vers un ou plusieurs outils de surveillance
+ou d’analyse.
+
+5
+
+Comment fonctionne un TAP?
+
+Système de surveillance
+
+6
+
+Quel est l’intérêt d’un TAP ?
+Intérêt par rapport à un concentrateur
+– Les concentrateurs sont un point faible
+surtout s’ils ne sont pas supervisables.
+– Les matériels de surveillance reliés au
+concentrateur peuvent être vus et donc
+compromis ou attaqués.
+– Les matériels de surveillance peuvent
+émettre des données sur le réseau.
+– Plus le taux d’utilisation est élevé, plus le
+taux de collision l’est.
+– Les concentrateurs ne retransmettent
+pas les collisions.
+
+Intérêt par rapport à un commutateur
+– Les commutateurs ne permettent
+généralement que la recopie d’un port à
+la fois.
+– La recopie de ports élimine les paquets
+corrompus et les erreurs de bas niveau.
+– Les commutateurs ne permettent
+généralement qu’une plage limitée de
+ports pouvant être recopiés.
+– Pas de surveillance proactive, juste une
+solution réactive ponctuelle.
+– La bande passante du port de recopie
+offre un accès limité au trafic full-duplex
+sur des liens haut débit.
+– Il y a possibilité d’interférence avec les
+données du réseau quand la vitesse
+allouée au port de recopie augmente.
+– L’utilisation de ports pour la surveillance
+les rend indisponibles pour le réseau.
+
+7
+
+Comment surveillez-vous les points sensibles?
+
+Groupe
+de
+travail
+Extrémité
+Centre
+de
+données
+
+Cœur
+
+Plateforme d’accès de surveillance
+8
+
+Survol de la famille de produits
+•
+
+Rapide et fiable, le TAP passif fournit une connexion un pour un
+entre un lien de réseau et un dispositif de surveillance
+
+•
+
+Surveille les données importantes d'un lien réseau avec plusieurs
+outils de sécurité ou de surveillance
+
+•
+
+Copie les données de multiples liens vers des ports affectés. Crée
+une matrice "un lien vers des outils de suivi" puissante et contrôlable
+par logiciel
+
+Matrice de commutation
+
+•
+
+TAP agrégateur de ports et de liens : Permet l'accès d'un à plusieurs
+liens full-duplex. De deux (agrégateur de ports) à quatre (agrégateur
+de liens) outils de suivi
+
+TAP agrégateur de ports et de liens
+
+•
+
+Prévenir la rupture d’un lien en connectant la sonde insérée dans ce
+lien à notre commutateur unique la court-circuitant en cas de
+défaillance
+
+•
+
+Produits iTAP, iBypass et iMatrix Commutateur. Pour voir l'utilisation
+du lien, les statistiques de trafic et les alarmes via la face avant et
+les interfaces distantes, même si un outil de contrôle n'est pas
+connecté
+
+•
+
+Dirige le trafic intéressant vers les ressources de surveillance
+appropriées
+
+TAP réseau
+
+TAP à régénération
+
+Commutateur court-circuit
+
+TAP intelligent
+
+Boitier de filtrage
+9
+
+Bande passante
+
+Une innovation qui correspond aux besoins des clients
+
+Filtrage
+automatique
+Accès Plus
+Sécurité IPS
+Accès Classiques
+Connectivité
+
+Intelligence/Visibilité
+
+Surveillance & Filtrage
+intelligents
+10
+
+Méthodes de surveillance avec risques potentiels
+Les réseaux multi protocoles et les vitesses GigaBit changent les règles
+1. Ports de recopie (span)
+• En compétition avec le trafic haute priorité pour la bande
+passante
+• Perte de paquets nécessaire pour la recherche de
+pannes
+• Change le temps inter trames
+
+Commutateur
+
+2. En ligne
+• Point faible non passif
+• Limite l’utilisation des outils et les options de
+redéploiement
+• Non optimisé pour le déploiement d’outils multiples sur
+un seul lien
+
+Commutateur
+
+Commutateur
+
+3. Concentrateurs (hubs)
+• Vision uniquement half-duplex
+• Support limité des interfaces fibre
+• Les concentrateur GigaBit sont chers
+
+Commutateur
+
+Hub
+
+Commutateur
+
+11
+
+Recommandation pour le déploiement d’outils
+
+• Capture de 100% du trafic en ligne
+• Opération passive sécurisée
+• Evitement intelligent de pannes
+Gère des charges
+de
+• Déployés comme infrastructure importantes
+trafic ?
+Invisible aux
+• Recommandés par tous les
+attaques?
+Configuration à
+principaux vendeurs d’outils
+distance?
+
+Port de recopie
+
+Concentrateur
+
+Equipement en
+ligne
+
+TAP
+
+Non
+
+Non
+
+Peut-être
+
+Oui
+
+Non
+
+Non
+
+Non
+
+Oui
+
+Oui
+
+Peut-être
+
+Oui
+
+Oui
+
+Visibilité sur 100%
+du trafic?
+
+Non
+
+Non
+
+Oui
+
+Oui
+
+Trafic full-duplex?
+
+Limited
+
+Non
+
+Oui
+
+Oui
+
+Point faible?
+
+Non
+
+Oui
+
+Oui
+
+Non
+
+12
+
+Avantages des TAP
+Spécialement conçus comme points d’accès en ligne pour la
+surveillance non intrusive, passive entre deux équipements réseau,
+quel qu'ils soient.
+• Copient tout le trafic - Incluant les paquets sur et sous
+dimensionnés et les erreurs aux niveaux 1 et 2
+• Connectivité passive - Pas d’introduction de délai ou points de
+faiblesse
+• Accroissent les options de connectivité pour les outils de
+surveillance
+• Minimisent la configuration des ports de recopie
+“In the incident response business the Teeny TAP are the perfect addition to jump
+bags!”
+- Mike Poor, Security Analyst
+
+13
+
+TAP Cuivre et fibre
+Flux de données
+
+TAP 10/100/1000
+BaseT
+
+Port moniteur A
+
+Port moniteur B
+
+Analyseur
+
+• Cuivre disponible en 10/100 Mbps, 1 Gbps et 10/100/1000 Mbps
+• Fibre disponible pour OC3, OC12, GigaBit et 10 GigaBit
+– Plusieurs taux de couplage
+– Pas besoin d’alimentation secteur
+
+• Un lien vers un outil de surveillance (full-duplex)
+• Technologie de tolérance de panne
+• Nécessite deux interfaces réseau dans l’outil de surveillance
+14
+
+TAP Convertisseur
+Allie les avantages d’un tap classique avec la conversion de media intégrée
+- Facilite la connexion d’outils de surveillance sur des réseaux dissemblables
+Pour la surveillance d’éléments de
+surveillance en fibre SX :
+• Cuivre vers fibre
+• TAP convertisseur LX vers SX
+• TAP convertisseur ZX vers SX
+• TAP convertisseur TX vers SX
+
+Pour la surveillance d’éléments de
+surveillance en cuivre :
+
+Mon Port A
+
+Mon Port B
+
+Monitor w/1 Gig
+SX
+
+• TAP convertisseur FX vers TX (100BaseT)
+• TAP convertisseur SX vers TX
+• TAP convertisseur LX vers TX
+
+Types de câbles supportés
+Multimode - 50 ou 62.5/125μm, 850nm
+Monomode - 8.5/125μm, 1310nm
+15
+
+TAP agrégateur de ports
+Combine les flux duplex d’UN lien en copiant toutes les données
+agrégées vers DEUX ports moniteurs
+Flux de données
+Routeur
+
+Moniteur IDS
+
+Commutateur
+Analyseur
+
+• Disponible pour outils de surveillance 10/100BaseT, 1 GigaBit et 10 GigaBit
+• Fourni le trafic full-duplex (FD) aux outils de surveillance n’ayant qu’une seule
+interface réseau
+• Permet un accès simultané à des outils similaires ou disparates
+• Evite les problèmes de contention pour accéder au lien
+(réseau/sécurité/VoIP/groupes vidéo)
+16
+
+TAP agrégateur de liens (en insertion)
+Surveille jusqu’à QUATRE liens réseau avec QUATRE outils
+d’analyse en GigaBit
+Flux de données
+
+• Agrège jusqu’à 4 liens fullduplex
+• Les ports SFP moniteurs
+peuvent être en cuivre ou
+en fibre
+• Aussi disponible pour ports
+réseau GigaBit fibre
+• Pas de trafic entre les ports
+réseau
+
+Trafic
+agregé
+
+Réseau 1
+
+Réseau 4
+
+Analyseur
+
+17
+
+TAP agrégateur de liens (en recopie)
+Agrège les données de multiples ports de recopie vers des outils
+de surveillance GigaBit
+Flux de données
+
+Monitor
+
+Network
+Span Ports
+
+Span 1
+
+Analyzer
+
+Span 4
+
+Span 7
+
+• Agrège jusqu’à sessions de
+recopie
+• Les ports moniteurs en SFP
+peuvent être cuivre ou fibre ou
+une combinaison des deux
+• Simplifie la surveillance des
+réseaux convergents
+• Permet de centraliser avec un
+seul outil la surveillance des
+données de multiples
+commutateurs de réseau
+
+18
+
+TAP à régénération inséré en ligne
+Accès simultané à un lien par de multiples outils de
+surveillance
+Flux de données
+
+Sonde IDS
+
+Analyseur
+Commutateur
+
+Routeur
+
+• Auto-détection de vitesses 10/100Mbps, GigaBit ou 10GigaBit disponible
+• Tous les ports moniteurs voient tous les types de paquets, les données
+des VLAN et les erreurs de lien
+• Alimentations secteur redondantes
+• Disponible en 2, 4, et 8 ports moniteurs
+• interfaces des ports moniteurs en cuivre et fibre
+• Trafic HD vers les ports moniteurs
+19
+
+TAP à régénération en recopie
+Accès au trafic depuis DEUX ports de recopie vers de multiples
+outils de surveillance
+Flux de données
+
+Span 2
+
+Span
+Ports
+
+Span 2
+
+Analyseur
+
+Span 1
+
+Span 1
+
+Sonde IDS
+Span 1
+
+Analyseur
+
+Span 2
+
+Commutateur 1
+
+Commutateur 2
+
+• Multiplie les ressources des commutateurs réseau pour la surveillance
+• Crée des canaux séparés associés à une surveillance pour chaque port
+• 10GigaBit, 1GigaBit, 10/100Mbps
+• Disponible en 2, 4, et 8 ports moniteurs par port de recopie (cuivre et fibre)
+- 16 éléments de surveillance au total
+20
+
+Commutateurs Matriciels et iMatrices
+Fournissent la visibilité et l’automatisme pour surveiller des liens multiples.
+Eliminent le besoin de reconnecter et reconfigurer les analyseurs pour
+chaque nouvelle tache de surveillance.
+Trafic de données
+
+• Support cuivre 10/100/1000
+
+• Étendent la couverture et le RsI des
+outils de surveillance
+
+• Support fibre
+• Alimentation redondante
+
+• Maintiennent la surveillance des liens
+sans coupure du réseau
+
+• Support DS3/E3
+
+• Surveillance automatisée de
+multiples liens ou ports de recopie
+
+• Afficheurs très lisibles
+• Fonctionnalité iMatrix disponible
+
+• 2 ou 4 ports moniteurs
+• 16 ou 32 ports de connexion en ligne
+ou en recopie
+21
+
+Configuration des commutateurs iMatrix
+Surveillance configurable du trafic un vers un
+Ventes
+
+Analyseur
+
+Finance
+
+Développement
+
+IDS
+
+• Logiciel de gestion de la scrutation des ports
+• Accès fixe ou chronométré – un port réseau vers un port
+moniteur
+• Support des outils de surveillance de sécurité et d’analyse
+22
+
+Solutions de contournement d’outil en ligne
+Fournissent une protection contre la rupture du lien lors de la
+connexion en ligne d’équipements – IPS (Intrusion Prevention
+Systems), pare-feux, boîtiers d’optimisation de bande passante
+
+Commutateur de contournement 10/100/1000
+
+Commutateur de contournement 10 GigaBit "iBypass"
+
+Commutateur de contournement 4 stations
+
+Commutateur de contournement
+La fonction exclusive "Heartbeat " ("mesure du
+pouls") surveille les paquets et préserve
+l’état du lien entre l’IPS et le commutateur de
+contournement
+• Protège contre les défaut d’alimentation, de
+lien et d’application
+• Fournit une grande flexibilité pour les
+implémentations, les déplacements, etc.
+
+Commutateur de contournement "iBypass"
+• Fonctions en PLUS
+• Gestion et statistiques SNMP
+• Accès et contrôle à distance
+• Affichage en face avant
+• SFP sur ports moniteurs
+
+23
+
+Modes opératoires des contournements
+Contournement désactivé
+
+Contournement activé
+Panne d’alimentation
+IPS Appliance
+Gel du logiciel
+Maintenance programmée
+
+Sonde IPS
+
+Commutateur
+
+Commutateur
+iBypass
+
+Routeur
+
+Commutateur
+
+Sonde IPS
+
+Commutateur
+iBypass
+
+Routeur
+
+1.
+
+Le commutateur iBypass envoie
+le trafic à l’IPS
+
+1.
+
+Le commutateur iBypass envoie
+le trafic à l’IPS
+
+2.
+
+La fonction Heartbeat surveille les
+paquets et vérifie le statut du lien
+
+2.
+
+La fonction Heartbeat surveille les
+paquets et vérifie le statut du lien
+
+3.
+
+Tout le trafic est routé vers la
+destination désirée
+
+3.
+
+Le lien dans l’IPS se rompt
+
+4.
+
+Tout le trafic est automatiquement
+dévié au travers du iBypass
+24
+
+Déploiements des IPS et iBypass
+IPS
+
+Commutateurs doubles
+• Châssis séparés
+• 2 pour 1U
+• Nécessite un bandeau de
+montage en rack
+• Alimentation redondante
+• Modèles Bypass et iBypass
+
+Commutateur
+
+Commutateur iBypass
+Commutateur iBypass
+Routeur
+
+Commutateur
+
+Pare-feux
+IPS
+
+IPS
+
+Multi-stations
+• 4 By-pass par châssis 1U
+• Alimentation intégrée
+
+Commutateur
+
+• Alimentation redondante
+• CLI par Bypass
+• Modèle seulement Bypass
+
+Commutateur 4 Stations
+Routeur
+
+Commutateur
+
+Pare-feux
+IPS
+
+25
+
+TAP 10/100 zéro délai
+Technologie éliminant les 10 ms de délai ajoutés au trafic dans d’autres TAP en
+cas de perte d’alimentation.
+•
+Un délai court peut entrainer un délai beaucoup plus long par effet de
+cascade si les routeurs et commutateurs doivent renégocier le lien.
+La technologie zéro délai assure :
+•
+Aucune perte de paquet
+•
+Aucune introduction de latence
+•
+La perte d’alimentation sur un TAP n’est pas vue par le réseau
+Produits NetOptics avec technologie zéro délai
+•
+TAP 10/100BaseT
+•
+TAP à régénération 10/100BaseT
+TAP agrégateurs de liens 10/100BaseT
+•
+
+26
+
+Gestion de la lumière !
+Le taux de couplage est le rapport entre la quantité de lumière parcourant la fibre
+optique d’un lien entre deux équipements et celle prélevée par le TAP sur ce lien
+pour la rediriger vers le port moniteur. Cette notion est très importante dans les
+réseaux en fibre optique !
+• Pour un taux de couplage correct, un budget des pertes (en puissance) doit être
+calculé
+Qu’est-ce qu’un budget de pertes
+(en puissance) et comment le
+calculer ?
+
+Routeur
+
+Commutateur
+
+Puissance optique = X
+
+Un budget de pertes (en puissance) est la
+somme des atténuations sur le lien de bout en
+bout.
+Il reste tolérable tant que les données entre les
+deux équipements ne sont pas corrompues.
+
+Puissance optique = X/2
+
+TAP taux de 50/50
+Puissance optique = X/2
+
+Outil de surveillance
+
+Pour le calculer, il faut déterminer les
+paramètres suivants :
+Longueur du lien, type de fibre, puissance
+d’émission, sensibilité du récepteur, nombre
+d’interconnexions et d’épissures.
+
+X/2 > Seuil de sensibilité du recepteur
+
+27
+
+Technologie iTAP
+Accès au réseau et visibilité permanente du lien
+Famille agrégateurs de ports
+
+• Logiciel de gestion Compass™ inclus
+• Intégration et control SNMP
+• Alarmes évoluées et fonctions d’alerte
+• Collecte améliorée des statistiques du lien
+
+Famille commutateurs de dérivation (Bypass)
+
+• Le TAP vous indique où un outil de
+surveillance peut être nécessaire
+• Afficheurs en face avant faciles à lire
+
+Famille matrices de commutation
+
+28
+
+Caractéristiques de la gestion par Compass
+Gestion du système, du Web & CLI
+Suit l’information du lien
+• Identifie les pics d’utilisation de la bande passante
+• Référence les statistiques du trafic (baseline)
+• Les alarmes peuvent identifier quand connecter des
+outils de surveillance
+Contrôle l’accès aux données
+• Valide ou invalide les ports moniteurs si nécessaire
+• Réinitialise les alarmes (triggers reset)
+Options du logiciel de gestion
+• Web – Gestion d’un équipement
+• GUI - MAP Cartographie à large visibilité
+• Interface de lignes de commandes (CLI)
+
+Information
+
+Control
+
+Access
+
+29
+
+Gestionnaire du système
+
+• Plateforme de gestion de base
+- Windows 98, 2000, XP et
+suivants …
+• Contrôle tous les “iTAP” validés
+depuis une seule interface
+graphique
+• Indicateurs visuels de statuts
+• Remise à zéro des alarmes
+• Facilité d’utilisation des outils de
+rapports
+• API disponible
+
+30
+
+Filtrage et marquage des données pour les outils
+Maximise l’utilité des données capturées
+Troncature de paquets
+• Capture seulement les entêtes de
+paquets
+• Ou ajoute quelques informations de
+contenu
+• Satisfait les exigences de conformité
+Horodatage
+• Marque les paquets en cas d’utilisation
+de l’agrégation de ports
+• Voit facilement l’ordre des paquets et
+l’information des ports
+• Différents formats disponibles
+
+31
+
+Quoi de neuf en 10 GigaBit
+iTAP agrégateur de port 10 GigaBit
+
+• Interfaces réseau SR and LR
+• Ports moniteurs XFP
+• Nouvelle fonction - Modes FD/HD
+• Agrégation et fonctionnalité TAP
+
+iBypass 10 GigaBit
+
+• Interfaces réseau SR and LR
+• Ports moniteurs XFP
+• Nouvelle fonction - Mode HD
+• Fonctionnalité TAP pour
+déploiements d’IDS
+
+Mode HD
+Deux flux peuvent être
+séparés pour deux
+outils ou combinés pour
+un outil
+
+IPS en mode IDS
+
+32
+
+Director
+
+• Visibilité complète sur les réseaux
+périphériques, cœur et groupes de
+travail
+• Redirection du trafic par type de
+protocole vers des outils de
+surveillance spécifiques
+• Filtrage intelligent multi-protocoles
+sur réseaux surexploités
+• 2 à 4 ports entrées/sortie 10Gbps
+• 2 x 12 ports réseau 1Gbps en ligne
+ou en recopie
+• 10 ports moniteurs 1Gbps
+• Jusqu’à 30 filtres par port moniteur
+• Logiciel Compass validé
+33
+
+Envisagez l’accès partout
+Construisez une infrastructure avec une plateforme solide
+
+Groupe de
+travail
+Centre de
+données
+
+Périphérie
+Cœur
+
+Plateforme d’accès pour la surveillance
+
+34
+
+Elexo
+info@elexo.fr
++33 1 41 22 10 00
+
+35
+
+

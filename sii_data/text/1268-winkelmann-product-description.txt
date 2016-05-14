@@ -1,0 +1,488 @@
+Features
+• Scans 26GHz in less than 4 seconds at
+3kHz resolution (approximately
+100,000,000 samples per second)
+• Full span spectrum analyzer display,
+6GHz, 1OGHz and 26GHz models available
+• Full span waterfall display for analysis of
+signals over time
+• Dedicated ultra wideband (UWB) receiver
+detects signals impossible to find with
+conventional receiver (optional)
+• Full reporting features
+• Localization of threat signals with Directional
+Log Periodic Probe Antenna (optional)
+• Zoom the sweep display or dynamically
+change start and stop frequencies while
+sweeping
+• High resolution 15" colour touch screen
+with 'drag' & 'move' controls
+• Remote operation by means of Ethernet
+(via third party software)
+• Built-in auto switching antenna system
+
+1OkHz to 26GHz
+
+www.winkelmann.co.uk
+
+Applications
+• Technical Surveillance Countermeasures
+(TSCM)
+• Government sweep teams for internal and
+external security
+• Radio monitoring by regulatory
+government authorities
+• RF environment monitoring and
+interference management
+• Monitoring all incoming and outgoing
+signals from military bases
+• Signal acquisition and analysis in a
+compact and portable package
+• In-conference Monitoring
+
+Overview
+
+Technology
+The system contains a full-feature Core 2 Duo PC
+running Windows 7 and a state-of-the-art receiver
+(designed by Winkelmann). The receiver uses an
+analogue front end, combined with software filtering
+and demodulation to provide the best combination of
+fast scan speed and receiver performance.
+This design enables the system to sweep extremely fast;
+the software provides a wide range of analysis tools for
+the detection and location of bugging devices.
+
+The Raptor RXi is an ultra-fast-scanning
+nter-surveillance
+receiver for quickly detecting surveillance transmitters.
+The Raptor scans from 1OkHz to 26GHz in under 4s,
+detecting even the briefest pulsed transmissions.
+Featuring a fast Core 2 Duo processor, its multiple
+software tools and demodulators detect frequencyhopping, burst mode and spread spectrum devices as
+well as analogue audio and video signals.
+Two spectrum analyser windows allow the user to
+simultaneously view the whole spectrum and zoom in
+on individual frequencies. The 'Waterfall' display mode
+gives an intuitive display of signals over time.
+The Raptor is designed to allow 24hr continuous
+monitoring of the radio spectrum to detect remotecontrolled devices. Using its built-in Ethernet port, the
+Raptor can be operated remotely, allowing sites to be
+continuously monitored without the need for a site visit.
+Modern ultra wideband (UWB) spread spectrum devices
+are challenging for a conventional receiver to detect. Its
+optional integrated, dedicated UWB receiver allows the
+Raptor to detect such devices easily.
+The Raptor is a portable device, allowing reference scans
+to be easily run in different areas of a building, operating
+either from an internal rechargeable battery or an
+external supply. Its integrated antenna system provides
+excellent wideband performance from 1OkHz to 26GHz.
+The Raptor can also be supplied with an external passive
+omni-directional antenna which has amazing coverage
+from below 20MHz to 26GHz. With nominal gains of OdBi
+or higher over 99.5% of the frequency range.
+
+The user interface has been carefully designed
+to be simple and intuitive; the spectrum analyzer
+display shows the entire spectrum in one graphical
+window with the facility to zoom in on areas of
+interest. A separate zoom window allows the user
+to simultaneously look at areas of the spectrum in
+high-resolution mode. Displays spectrum as a list or
+graphically. Facility to compare lists or graphs sampled
+in different locations, plus allows user to zoom over the
+spectrum without any interruption at even 20MHz.
+
+Software
+The software package includes :
+• Spectrum Analyzer Window
+i;o
+
+Spectrum Zoom Window
+
+s User definable start and stop frequencies
+l':i
+
+Signal Log Window
+
+"' Waterfall Display
+111
+
+Automatic Sweep for Analogue Bugs
+
+a Video Display (PAL/NTSC/SECAM)
+"" Audio Receiver (Analog Demodulation)
+11
+
+Probe Search Window
+
+• Ultra-wideband Receiver (optional)
+n Save spectrum displays or'snapshot' of
+brief signals
+M
+
+Save application configurations and
+user-defined parameters to disk
+
+Screen shots
+Legend:
+
+F1eq
+
+Peak ...
+
+B'widh
+
+89.1MHi
+91.3MHz
+
+.s2d8m
+
+7tl.3;Hz
+
+POW!lf
+
+F'nt Seen
+
+Notes
+
+-70cllm 15:0308 Ml!I
+15:0308 May
+
+162kHz
+107lo..Ht
+
+102-7MHz ·71dllm
+
+17'11.Hz
+
+HM. !MHz -ncllm
+108. ~Hz -ndllm
+
+101kHz
+95.Ak.Hz
+
+113kHz
+
+-S!kflm
+.ssdlm
+-SOdlm
+
+.SSlflm
+-57dllm
+.m:fim
+-&kllm
+
+~
+
+BBC Rl!d[]
+
+·72r.flm
+
+96CMHz
+98.SMHz ·7&1lm
+100.CMHz -02dllm
+100 !MHz -ndllm
+
+1: Main Frame Menu
+2: Signal Log Controls
+3: Signal Log Window
+4: Spectrum AnalyzerToolbar
+S: Trace Display Colour Controls
+6: Start/Stop Scan Controls
+7: Scan Frequency Controls
+8: Activate/Display Signal Log
+9: Activate/Display Waterfall Display
+10: Display Spectrum Zoom Window
+11 : Signal Log Signal Snapshot
+12: Spectrum Analyzer Window
+13: Waterfall Window
+14: Spectrum Zoom Window
+
+BBCAad
+
+~
+1S·OJDBM111
+15.03DBM111
+
+150308MIW
+1!5.03tl3Mf&'
+15.0308M11111
+15.0JOSM.w
+150308Mlf
+
+Window
+
+M.
+
+~
+
+Start ' 30MHz
+
+I Ast Display j
+
+Scan •
+
+Display
+• Sigial • Peak Sig
+
+R'R I
+
+ro;:;;:;;;;:;;:
+
+Fl'RI
+
+j ~ Stop ~ ~
+
+I Single J
+D
+
+~
+
+Signal Log
+0 Log
+
+Waterlal
+~ Log
+
+Zoom
+
+~ D is~
+D!PJi!iiil
+D Noise Floor D Signal Markers ~
+
+!:f•lp
+
+Smoothing
+
+D Frequency
+
+50kHz , .,. ,
+
+D Display
+
+Sig Threshold • Smoothed Signal
+
+I
+
+Re/1 Load J
+
+181
+
+Re/2
+
+ILoad J 181
+
+Re/3
+
+------~-----
+
+Clear Graphical display of full spectrum analyzer bandwidth, 6GHz, 1OGHz or 26GHz (depending on model)
+
+ILoad J 181
+
+·-
+
+Re/4
+
+ILoad J
+
+Technical Specifications
+
+Product Codes
+RAPTOR RXi Countersurvelllance Receiver
+- Full Systems
+3-299-020
+
+RAPTOR RXi 6GHz- Full system and accessories with
+signal processing software, video demodulation, builtin auto switching antenna system, high resolution
+1S" touch screen display with 'drag' & 'move' controls,
+Internal Li-ion rechargeable battery, universal power
+supply 90-264VAC, power cable, protective soft carry
+case & Guidance Manual
+
+3-299-021
+
+RAPTOR RXi 1OGHz- Full system and accessories with
+signal processing software, video demodulation, builtin auto switching antenna system, high resolution
+1S" touch screen display with 'drag' & 'move' controls,
+Internal Li-ion rechargeable battery, universal power
+supply 90-264VAC, power cable, protective soft carry
+case & Guidance Manual ·
+
+3-299-022
+
+RAPTOR RXi 26GHz- Full system and accessories with
+signal processing software, video demodulation, builtin auto switching antenna system, high resolution
+. 15" touch screen display with 'drag' & 'move' controls,
+internal Li-ion rechargeable battery, universal power
+supply 90-264VAC, power cable, protective soft carry
+case & Guidance Manual
+
+RAPTOR RXi Countersurvelllance Receiver
+- Accessories 8r Upgrades
+3-299-023
+
+Ultra Wideband Receiver Module (built-in) designed
+specifically for detecting ultra wideband transmission
+based on multiband OFDM
+
+3-299-024
+
+Accessory case including Directional Log Periodic Probe
+Antenna with SMA connector, Sm cable, tone box (1),
+tone box antenna, spare Li-ion rechargeable battery,
+smart battery charger 90/260V all housed in protective
+soft pouch including machined foam insert (Acey Pouch
+can be attached to the side of main Raptor case)
+
+3-299-025
+
+Spare Slot-in Rechargeable Lithium Ion Smart Battery
+
+3-299-026
+
+Desktop Smart Charger: 90-260VAC, Output: 12V, 2.SA DC
+
+3-299-027
+
+Directional Log Periodic Probe Antenna 6SOMHz to
+1SGHz with Sm cable
+
+3-299-028
+
+Directional Log Periodic Probe Antenna 1OOMHz to
+26GHz with Sm cable
+
+3-299-029
+
+External antenna, omni wide-band passive,
+20MHz - 26GHz supplied with tabletop tripod and
+roof rack mount
+
+3-299-048
+
+Tone Box with antennae
+
+3-299-995
+
+GSM 196 Cellular Detector can detect both 2G
+(GSM900/1 SOO) and 3G (WCDMA /UMTS 2100) with
+cadenced vibration alert and latched alarm
+
+3-299-993
+
+GSM 196A Cellular Detector can detect both 2G
+(GSMSS0/1900) and 3G (WCDMA /UMTS 2100) with
+cadenced vibration alert and latched alarm
+
+'lll+44(0)U42719024
+11:+44 (0) 1342 719030
+
+I: satesOWlnkelmann.co.\lk
+.,..,......Js&dUS co ..
+
+Profiles
+Right-Side View
+
+Legend:
+1: Antenna
+2: Base unit
+3: External Monitor Output
+Connector·
+4: PS/2 Connector·
+5: Serial 1/0 Connector·
+6: Ethernet connector·
+7: 2x USB Connectors·
+8: Stylus
+9: Battery Compartment
+• layout and availability of t hese connectors are
+subject to change.
+
+Left-Side View
+Legend:
+1: Speaker Output Connector
+2: Speaker
+3: DC Supply Input Connector
+4: Mike Input Connector
+5: Mains Interface Connector
+6: Mains Interface Fuses
+7: External RF In Connector
+8: Power On/Off Button
+
+Transport Case
+Legend:
+1: Accessory Case
+2: Raptor Carry Case
+
+The Raptor RXi comes in a
+soft carry case. The optional
+Accessory Case can be
+attached to the main Raptor
+RXi carry case using the four
+snap-on clips.
+
+Accessory Case (optional)
+Legend:
+1: Spare Battery
+2: Tone Box Antenna
+3: Handle /Tripod
+4: Tone Box
+5: Battery Charger Power Adaptor
+6: DC power cable and mains
+supply lead
+7: Directional Probe Antenna
+8: Probe cable (underneath
+the antenna)
+9: Stand-alone battery charger
+
+The Directional Probe Antenna
+can be used as a probe
+antenna when performing a
+Probe Search and as a desktop
+directional antenna.
+
+Probe Search Window
+il RAPTORRXi
+
+Centre Frequency 418.4MHz Span 6.8MHz
+
+-40dBm
+
+-35d8m
+
+~ l-· - 1
+
+-lOdBm
+
+-25d8m
+
+·20dBm
+
+1'.j Audio
+
+External antenna,
+omni wide-band
+passive, 20MHz 26GHz supplied
+with tabletop
+tripod and roof
+rack mount
+
+The Probe Search Window can be used with a Probe Antenna to find
+the location of a suspect transmission.
+The Probe Search gives a visual (and audible if required) reading of the
+strength of a signal. Using an External Directional Antenna, this can be
+used to locate the physical location of a transmitter. The Raptor RXi optional
+accessory case contains a Directional Probe Antenna (right) which can be
+used for this purpose. This Directional Probe Antenna is officially rated from
+700MHz to 6GHz. In practice the Probe Antenna performs below 700MHz
+and above 6GHz. (Other frequencies are available upon request - see
+Product Codes on back page.)
+
+Directional Log
+Periodic Probe
+Antenna for locating
+digital transmissions
+
+

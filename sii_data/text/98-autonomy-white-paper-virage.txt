@@ -1,0 +1,1109 @@
+Virage Security & Surveillance
+White Paper
+
+[Yj
+
+VIRAGE"
+
+Security &. Surveillance
+
+Contents
+Introduction
+
+01
+
+Digital/Network Video Recording
+
+02
+
+Electronic Point of Sale Monitoring
+
+05
+
+Container Surveillance and Management
+
+08
+
+Automatic Number/License Plate Recognition
+
+10
+
+Intelligent Scene Analysis System
+
+14
+
+Biometrics and Audio Recognition
+
+20
+
+Command and Control
+
+21
+
+Security
+
+26
+
+Conclusion
+
+27
+
+Introduction
+Security and surveillance operations have become an
+increasingly important consideration at a corporate, national
+and global level as organizations strive to protect individuals
+and mitigate against risks posed to public and corporate
+assets. While surveillance operations and observation
+form an integral part of any security strategy, the ability
+to understand, analyze and interpret the significance of
+information gathered as part of surveillance operations is
+a fundamenta l requ irement for all security environments
+today. Increasing volumes and types of data, including video
+footage, camera stills, vehicle registration plates, traffic
+records, police databases, immigration records, telephone
+conversations and transaction reports form part of security
+operations and point to the need to adopt comprehensive
+strategies which encompass all security data.
+Virage Security and Surveillance supports every stage of security and surveillance operations, providing an extensive
+range of advanced recognition and recording systems as wel l as capabilities for instant and post event retrieva l
+and analytics. A flexible and entirely modular architecture allows customers to select products according to their
+specific requirements to create tailor-made, highly sophisticated security systems. All products may be used either
+as individual components on a standalone basis or multi-linked to each other to create a centralized control and
+management center.
+Combining world leading technologies from security, infrastructure and video specialists, Virage offers one of the most
+sophisticated security and surveillance solutions in the world. Pioneering advanced recognition technologies originally
+developed for the security services lie at the heart of Virage Security and Surveillance and provide a strong foundation
+for a sophisticated product range which includes: Digital/Network Video Recording (DVR/NVR), Automatic Number
+Plate Recognition (ANPR), Intelligent Scene Ana lysis System (iSAS), Electronic Point of Sale Monitoring (EPOS).
+Container Surveillance and Management System (CSM). fi ngerprint and audio analysis and 3-D face recognition.
+As part of the Autonomy Group, Virage has been fully integrated w ith Autonomy's award winning technology
+- offering enhanced analytical capabilities. Autonomy's unique technology allows organizations to monitor vast
+quantities of information from disparate sources, understand all data gathered at a conceptual level and place each
+piece of information in context with other known intelligence. By automatically understanding the inherent meaning
+and potential significance of any piece of information, Autonomy's technology brings fresh, intelligent insight and
+immediate analytical capabilities to all security environments.
+
+1
+
+Digital/Network Video Recording
+As an integral part of crime control policy, social control theory and community consciousness, CCTV is a defining
+feature of today’s society and a powerful tool used by corporations and governments worldwide. High quality digital
+and network recording facilities are a critical component of any successful CCTV strategy to ensure that potentially
+vital images are captured and retained safely for further analysis. While CCTV footage is popularly believed to play an
+important role in crime detection and prevention, in order for a system to be truly effective, robust recording equipment
+is a priority.
+Moreover, simply capturing and storing images indiscriminately does not, in itself, constitute an effective solution, DVR/
+NVR technologies which merely capture and store footage fall desperately short of the levels of complexity required
+by most security and surveillance environments. Virage Security and Surveillance DVR/NVR offers organizations state
+of the art recording technology together with advanced retrieval functionality for rapid image recall to ensure that
+key images can be located quickly and easily for further analysis. Bringing fresh intelligence to digital and network
+recording and transmission, Virage DVR/NVR is sophisticated enough to alter its function in response to changing
+circumstances and distinguish between different types of behavior and alarm. With storage capacity expanding into
+petabytes, the ability to record at full resolution across multiple channels and prioritize its activity dynamically, Virage
+Security and Surveillance offers a new breed of DVR/NVR.
+
+Dynamic Resource Prioritization
+Surveillance staff can link straight to live images from multiple cameras and locations linked to a DVR/NVR unit. All
+images captured and retained by Virage DVR/NVR resolve fine detail and allow users accessing images, either on the
+fly or in retrospect, to analyze detailed, high resolution images.
+Unlike other systems which require extensive configuration by an administrator or are limited to one simple recording
+option, Virage Security and Surveillance DVR/NVR is entirely flexible and can perform multiple recording functions
+simultaneously and reconfigure itself dynamically based on an alarm. Increasing the frame recording rate, switching
+between cameras or switching between storage buffer types, ensures resources are prioritized dynamically according to
+demand.
+In order to ensure a commitment to recording and storing high quality images likely to be required for post event
+analysis, cameras may be configured to change their frame recording rate according to certain pre-defined conditions.
+For example, when integrated with Virage Security and Surveillance Intelligent Scene Analysis System (iSAS), if certain
+activity is detected within the field of view, such as someone leaving a bag unattended, DVR/NVR can be programmed
+to react to this alarm and automatically increase the recording frame rate prior to, during and after the event. Virage
+DVR/NVR can be configured to respond to multiple categories of alarm including Video Motion Detect (VMD), digital,
+Automatic Number Plate Recognition (ANPR) and Intelligent Scene Analysis System (iSAS):
+
+2
+
+•
+
+VMD: DVR/NVR can be configured to react once motion is detected within a specified scene or
+particular area within a scene.
+
+•
+
+Digital: these can be generated by physical movements including the opening of a barrier or door;
+when such movement is detected, DVR/NVR can be configured to respond automatically.
+
+•
+
+ANPR/iSAS: when integrated with Virage Security and Surveillance ANPR or iSAS systems, pre-defined
+alarms are automatically relayed to the DVR/NVR unit to ensure appropriate images are captured and
+stored upon recognition of certain vehicles or behaviors.
+
+Figure 1- Virag< monitors multiple lrxation>simu//anrously
+
+Audio
+A key requirement for many remote surveillance systems is bi-directional audio transmission which enables
+surveillance staff to communicate with persons remotely. Virage Security and Surveillance DVR/NVR supports bid irectional audio transmission, and where requ ired, units can be equipped with audio recording facilities which
+will synchronize video from an associated camera to achieve full "lip-sync". Typically used when identifying and
+challenging intruders, audio transmission and record ing capabilities offer enhanced facilities for remote surveillance
+operations.
+
+Storage Capacity and Principles
+Virage Security and Surveillance DVR/NVR offers extensive storage capabilities and hard disk drive (HDD) capacity
+which can be adapted to suit individ ual project requ irements. While storage costs have decreased significantly
+in recent years, and Virage continues to lead the market in providing comprehensive storage faci lities, in most
+circumstances, it is neither necessary nor desirable to store large quantities of irrelevant footage.
+Virage DVR/NVR can be configured to prioritize storage of images accordingly. All images are stored to a HDD w hich
+is integrated w ithin each DVR/NVR unit. The system uses HDD circular buffers working on a first-in first-out (FIFO)
+
+3
+
+principle to ensure that there is always storage capacity available for new images. Buffer size determines the maximum
+length of storage period available, so by using multiple buffers of differing sizes, images can be stored for different
+lengths of time. Virage can record and store all background images routinely for a specified time, e.g. for 7 days or
+30 days, dependent on buffer size and where required, store footage from immediately before, during and/or after an
+event on a separate buffer so that it is available for retrospective analysis.
+Storage levels are monitored automatically to make sure that all necessary images are captured and archived correctly.
+Should storage be consumed faster than expected, either as a result of a higher than expected number of events or
+due to a miscalculation, the user will be automatically alerted to this in order to ensure that images may be continually
+recorded and stored according to requirements. In order to increase the amount of images stored within any given
+DVR system, the compression level of images may be modified at any time, thereby making the system extremely
+flexible to changing requirements.
+
+Extensive Archive Options
+In general, the size of storage buffers will determine the length of time for which any images are retained, but where
+specific images need to be retained for an extended period of time, DVR/NVR provides multiple levels of archiving:
+
+• Snap shot archiving: involves saving single images as a standard bitmap to the archive directory or CD
+- saved images may then be printed or emailed where it is necessary for other parties to gain access
+to the images.
+• Streaming: enables users to review images from multiple cameras individually e.g. if an incident was
+suspected to have taken place between 3.00am and 3.15am an operator would be able to retrieve,
+store and review all the images from that time period individually using streaming.
+• Major event download: used when large quantities of images must be retained for further analysis using a local area network (LAN) connection and software provided by Virage, images can be copied
+bit for bit onto another network computer with no impact on the current performance of the DVR/NVR
+system.
+
+Advanced Retrieval Functions
+An extensive range of retrieval features ensure that users can locate and retrieve relevant images quickly and easily.
+As well as searching and retrieving images by time and camera, where users wish to search by alarm category such
+as by iSAS alarm, users may specify multiple parameters in order to retrieve specific events within a given alarm – for
+example, find images of dangerous vehicle maneuvers within a specific scene.
+
+4
+
+Electronic Point of Sale Monitoring
+With internal employee theft on the increase and current systems falling short of the mark, businesses need to
+implement new measures to detect and prevent fraudulent activity. Surveillance systems need to be able to capture
+the right information at the right time and, where necessary, analyze it intelligently to uncover correlations which
+might otherwise not be apparent. Systems currently in place often rely heavily on human surveillance (see page
+15) however, this type of surveillance alone is highly ineffective. Businesses need solutions which complement their
+efforts, maximize the efficiency and efficacy of POS surveillance and reduce losses.
+Virage Security and Surveillance EPOS delivers DVR/NVR of the highest quality. Combined with synchronous capture
+of cash register transactional data, Virage EPOS offers retailers the most versatile and efficient surveillance and retail
+management system available. Full data capture, including time synchronized image and transactional data together
+with centralized reporting and management enable retailers to monitor multiple locations simultaneously and correlate
+results from multiple cash registers. Multiple site EPOS data and daily reports can be sent to and managed from a
+central location and remote access enables off site reports and investigations. These features make Virage Security and
+Surveillance EPOS the most comprehensive solution of its kind available on the market today.
+
+Theft and Fraud: The Challenge
+According to recent national statistics, theft costs retailers around 5% of their annual turnover with 20% of theft
+attributable to credit card fraud and employees responsible for over 50% of shrinkage. Research has shown that
+whilst 19% of firms with fewer than 15 employees have experienced staff fraud, this figure more than doubles to 48%
+for businesses with over 36 staff. In addition, the U.S. Department of Justice estimates that insider theft is growing at
+15% annually. More alarmingly, research has shown that 75% of internal theft is undetected.
+Theft and fraud, clearly extremely detrimental and a huge issue to companies of all sizes worldwide, show no signs of
+easing. Detecting fraudulent activity is a key concern, particularly amongst petrol stations, confectioners, tobacconists,
+newsagents, convenience stores, supermarkets, pubs and clubs and fast food outlets. More than ever companies are
+seeking new measures to combat this illegal activity, however, many businesses still only rely on manual surveillance
+techniques alone. Research carried out indicates that businesses lost as much as $60 billion in 2005 as a result of
+not using anti-fraud software. That aside, even where software solutions have been implemented, in many cases these
+solutions fall short of requirements and subsequently fail to adequately combat illegal activity.
+
+Live Point of Sale Monitoring
+Virage Security and Surveillance offer solutions to suit all retail applications and budgets. Virage Electronic Point Of
+Sale (EPOS) enables effective stock management by reducing stock losses and increasing profits. Virage offers an
+unrivalled combination of high quality DVR/NVR and EPOS monitoring in one package. Designed to detect and deter
+fraudulent activity at the Point of Sale (POS), EPOS synchronization associates POS transactional data with DVR/NVR
+
+5
+
+CCTV footage. In this way, Vi rage EPOS acts as an early warning system by alerting surveillance staff to suspicious or
+illegal activity at the cash register, as it happens. Rules-based keyword matches, based on given req uirements, allow
+alerts to be triggered at the POS when transactions such as voids, refunds, discounts and cashback are activated.
+
+Figure 2 - Viragt EPOS monilors activity al !ht Poi11/ efSalt.
+
+Intelligent Post Event Analysis
+In addition to providing live EPOS monitoring, Virage enables playback of prerecorded images. DVR/NVR data can be
+analyzed post event by reviewing data stored on the HDD. All data is stored in a database at the time it is created
+and can be quickly and easily located as and when required for future analysis. Retrospective investigation options
+support a ful l range of retrieval options e.g. transaction data, video images or multiple parameters. Transaction data is
+searchable by:
+
+•
+
+Date
+
+•
+•
+
+Time
+Product
+
+•
+•
+
+Price
+Till Number
+
+•
+
+Other search parameters (including multiple parameters) based on pre-defined rules
+e.g. void plus cashback
+
+An intuitive, user-friendly interface w ith drag and drop features makes the system easy to use and means minimal
+training is required. Users can search and view records based on transaction data and where CCTV images are
+available, these wil l be displayed along with the transaction data. Similarly, users can search for an image or video
+segment and then request the transactional data for this image/segment. Transaction data and video footage are
+always available but users are able to choose w hether that information is displayed along with what they've searched
+for. Under no circumstances is transactional data automatically burned onto the video imagery as this could render
+the CCTV footage useless. In the event that users wish to display transactional data with the video footage, users can
+choose to overlay transactional data on top of video footage. Where multiple cameras are in use, users can search all
+cameras simultaneously through a single interface, or simply narrow their search to results from a specified camera.
+
+6
+
+Advanced analytics, such as clustering (identifying related groups of data), enable the discovery of trends and
+correlations across the entire data set, providing the ability to spot unusual activity spanning multiple cash registers
+which may have otherwise gone undetected. Conceptual analytics which use unique pattern matching techniques
+to detect underlying trends and anomalies in any given data set, enable retailers to gain greater insight into all
+transactional data and corresponding video images (for further information on these features please see page 22).
+
+Architecture, Configuration and Training
+Virage Security and Surveillance EPOS is fully scalable and suitable for both small and large scale deployments. Virage
+EPOS is integrated with the DVR/NVR to provide comprehensive recording and analysis functionality. Up to 16 cash
+registers can be attached to each DVR/NVR unit and multiple DVR/NVR units can be seamlessly linked together to
+increase system size w here necessary. Separate interfaces are available to allow connection with, for example: cash
+registers (300 types), Automatic Teller Machines (ATM's), coin scales and sorters, car park ticket machines, weigh
+bridges and toll booths. Virage are continually innovating and creating new interfaces to suit changing customer
+requirements. In addition, data can be accessed both locally and remotely providing the basis for the most versatile,
+flexible and remote surveillance and retai l management system available today.
+Virage Security and Surveillance ensures that storage requirements are actively managed for optimum performance by
+automatically overwriting all captured images after a specified time. Pre-event recording can be triggered to ensure that
+images w hich precede a significant event can be appropriately captured and stored for later analysis. These storage
+techniques ensure that all images surrounding potentially significant activity can be kept without the need for extensive
+storage capacity. Predefined events can be configured within Virage EPOS to increase the recording frame rate on
+key words or hard wired alarm inputs. Frame capture can be configured to automati cally increase where the systems
+detects unusual or suspicious activity - this means important visual information is not lost at a critical moment. HDD
+performance remains unaffected by both search and playback features. The storage capacity of the installed system
+will determi ne how long images are kept. In addition, limits can be set on individual users to limit how fa r back they
+are able to search through footage.
+
+MM@M*i!Q
+
+Figure 3 - EPOS retril!Ves transactional data which can al.so be viewed alongside imagery
+from multiple camtras ifiksirtd.
+
+7
+
+Container Surveillance and Management
+It has been estimated that there are up to 19 million containers currently in transition globally and that traffic is
+increasing at a rate of about 10 percent annually. Given the ever increasing volumes of traffic, vehicle and container
+identification and tracking has never been so important to the logistics industry. Not only do organizations need to
+know where containers are and when they will be delivered but also other more detailed information such as what
+condition the containers were in at various stages throughout their journey and who and where they were accessed
+along the way. Virage CSM enables comprehensive vehicle and container identification and tracking in logistics
+environments; from seaports and inland container terminals to rail container terminals. Automation within Virage CSM
+removes the need for costly additional manual input and makes the identification, tracking, control and management
+of logistic processes highly efficient. A unique combination of core technologies and superior analytical capabilities
+give Virage CSM the power to provide added intelligence which can be used to improve future operations and deliver
+significant benefits to businesses.
+
+Advanced Vehicle and Container Recognition Systems
+Virage Security and Surveillance Container Surveillance and Management (CSM) is a world leading vehicle and
+container recognition system. This highly sophisticated tool enables businesses to keep track of the ever-increasing
+volumes of cargo that flow through transport hubs such as seaports, inland container terminals and rail container
+terminals. Virage CSM automatically captures vehicle and container information, including:
+
+•
+•
+•
+•
+•
+•
+
+Vehicle number/license plate
+Container(s) ISO numbers
+Container type
+Container damage recording
+Site and gate location
+Date/time
+
+Not only does Virage Security and Surveillance CSM enable businesses to keep an accurate record of exactly when
+and where containers pass through certain points in the transport network; in addition, through high quality digital
+video recording and management, Virage CSM keeps track of what condition containers are in at various stages of their
+journey throughout the world. By capturing this cross section of data, Virage provides complex cross referencing for
+24/7/365 operations. CSM can significantly increase traffic efficiency as the system works on moving vehicles as well
+as those which are static. CSM works on standard 20,30,40,45 and 20 + 20 ft containers.
+
+8
+
+Core Technologies
+Virage Security and Surveillance CSM employs world-class Optical Character Recognition (OCR) for container
+and number/license plate recognition. Fully automated OCR in conj unction with high quality recording of digital
+video images offers users the ability to centralize all of this data and cross-reference it with, for example, container
+inventories in order to repurpose the information quickly and efficiently for further analysis and use. Core technology
+means Virage CSM is able to offer advanced automated functionality such as automatic clustering, profiling,
+alerting and hyperlinking in conjunction with web distribution of data and video. This provides Virage Security and
+Surveillance with unique, superior analytical capabiliti es and added intelligence (see page 22 for further information
+on functionality and integration).
+
+Architecture
+Due to the open architecture design of CSM, the system is able to communicate and interface with on-site
+management systems, eliminating a w ide range of manual processes leading to significant return on investment.
+Virage Security and Surveillance CSM is fully compatible with existing information systems and can be set up to work
+as a web, intranet and/or other application. Virage's web access features mean customers can view data quickly and
+easily over the web when they need. The system is fully scalable and easily managed using intuitive administration
+panes. CSM can be integrated with Virage Command and Control as well as with other Virage applications such as
+ANPR and iSAS for superior intelligence and analytical capabilities.
+
+Figuff 4 - Virag.. CSM tracks container data $11Ch as numlwplate, cargo number and
+
+ttren rontaintr co11dition.
+
+9
+
+Automatic Number/License Plate Recognition
+Automating the processes of identifying and tracking vehicles has valuable applications for both commercial and law
+enforcement purposes. The ability to identify vehicles in all conditions and trigger appropriate actions automatically
+is a key requirement in many environments ranging from car park surveillance and monitoring forecourts to traffic
+law enforcement and border controls. With the capability to integrate with multiple databases and automatically cross
+reference and correlate identified license plates with other data, Virage Security and Surveillance ANPR offers the most
+sophisticated technology for automatic vehicle identification and tracking. When integrated with Virage DVR/NVR,
+ANPR provides a comprehensive, end to end solution which encompasses every aspect of vehicle recognition and
+tracking together with advanced recording, retrieval and analytical capabilities.
+Compatible with existing CCTV systems, Virage ANPR can recognize and record number/license plates including
+international plates even at speeds exceeding 100 MPH, and where necessary, trigger an appropriate response.
+Example applications include: identifying stolen vehicles, car park surveillance, traffic law enforcement and access
+control such as monitoring drive throughs, filling stations, toll booths and border controls. With inbuilt digital and
+network recording capabilities and the ability to integrate with multiple repositories such as police databases and traffic
+records, Virage ANPR is suitable for all vehicle surveillance operations.
+
+Advanced Automatic Vehicle Identification and Tracking
+Full integration with multiple databases and the ability to correlate recorded number plates with other data, such as
+stolen vehicle registers, traffic and law enforcement records, credit card transaction reports and customer records
+place Virage Security and Surveillance ANPR capabilities way beyond traditional plate recognition systems. Virage’s
+comprehensive approach, which automatically cross references each vehicle identified with any other data sources
+available supports efforts to understand and interpret the potential significance of certain behaviors.
+In addition to assisting in traffic law enforcement and vehicle identification, Virage Security and Surveillance ANPR
+has numerous commercial applications. For example, renowned retailers use Virage ANPR to ensure their most
+loyal customers receive outstanding levels of customer service. At the entrance to the car park, ANPR automatically
+detects loyalty cardholders as they enter and automatically assigns them a convenient parking space. As well as
+enabling retailers to offer special customers a more personalized service, Virage ANPR provides valuable insights into
+customers' shopping habits such as how frequently they visited the store over any given time period. Virage Security
+and Surveillance ANPR is also used to streamline logistics operations, for example, loading and unloading goods at
+distribution centers. By automatically matching vehicle number/license plates with information held in local databases,
+Virage ANPR triggers entry authorization and automatically directs vehicles to designated bays where relevant
+documentation will be waiting so that unloading/loading can commence immediately.
+
+10
+
+Core Technologies
+Neural Network (NN) based OCR techniques lie at the heart of Virage Security and Surveillance ANPR capabilities,
+supporting advanced character recognition in all conditions. Unlike template matching used by other systems, which
+is dependent on receiving high quality images in order to identify number plates successfully, Virage ANPR utilizes NN
+based OCR techniques which provide much greater tolerance for matching poorly defined characters. Virage ANPR can
+also be integrated w ith Virage Command and Control for further advanced functionality (see page 22).
+
+High Performance in All Conditions
+Automatic format checking places each plate reading in context by verifying the identified number plate against typical
+templates in any given territory. By taking multiple readings of each plate and using sophisticated probability matching
+techniques to analyze and calculate the likelihood that any given reading is correct, ANPR is able to recognize number
+plates extremely accurately.
+
+Figurt S • Multiple image grabs, automaticJonna/ Checking and sophisticated
+probabilistic matching ttdmiques produce highly atamJ/tplali! rtading rtSUh
+
+Virage Security and Surveillance ANPR can accurately identify number/license plates even in the most demanding
+conditions, such as when visibility is low due to adverse weather or poor light conditions. When combined with
+an infrared illuminator, Virage ANPR is even able to recognize number plates at night. In addition, ANPR is able to
+capture and identify square, inverse, borderless and foreign plates entirely automatically. Where required, adjustments
+to contrast, plate size, country number/license plate format, skew and rotation settings can be made by the operator
+to fine tune the system in order to achieve optimum performance in specific conditions. The system can be configured
+to trigger prerecording where required to ensure important images are captured and stored for later analysis (see page
+22). In addition, Virage enables recording via digital triggering to achieve a 100% capture rate.
+
+11
+
+Database Integration and Action Assignment
+Number/license plates may be added into the database, along w ith any associated metadata, such as registered
+vehicle owner's name, home address and driver history by importing a text fi le into the database. Once vehicles are
+entered into the databases, actions can be associated with each plate by assigning a code to each entry; this ensures
+that once a vehicle is correctly identified, pre-defined instructions will be followed. Virage enables integration with
+third party databases. Database records can be individ ually entered or imported as a one off, or periodically integrated
+- this enables mass data transfer from the third party system to the Virage system. For example, where Virage Security
+and Surveillance ANPR is used for access control, a code can be assigned to authorized cars to trigger a barrier to be
+ra ised so that authorized vehicles can gain access. Where an unrecognized vehicle is detected, the system could be
+configured to play a WAV file which would refuse the vehicle entry and trigger a live audio/video connection w hich
+would be relayed to security staff instantaneously for verification. Where required, different codes and actions may be
+assigned depending on what time or date any given vehicle is identified: for example, when employee vehicles are
+detected approaching a staff ca r park, the system can be configured to raise the barrier if it is a weekday, but if it is
+during the weekend, the system can be configured to allow access, but also record footage of the vehicle and notify
+the driver's supervisor that they were onsite during the weekend.
+
+....... .......
+
+,..
+.,,.
+r ...............~
+
+Iii""---.. . .
+
+Figure 6 - Assigning alarm codes and actions to number plates using thr administration srreen.
+
+The list below provides a sample of typical actions upon vehicle recognition:
+
+•
+
+raise barrier
+
+•
+
+change traffic lights
+
+•
+•
+
+display LCD text
+play WAV file
+
+•
+
+alert supervisor via SMS/email
+
+•
+
+deny access
+
+•
+•
+
+open live video/audio connection
+trigger recording via DVR/NVR (including pre-recording)
+
+•
+
+store image of vehicle/plate/driver
+
+•
+
+increase frame rate for higher quality recording
+
+12
+
+Number/License Plate Searching and Retrieval
+An intuitive user interface ensures that information captured by Virage Security and Surveillance ANPR is easily
+accessible and that key events can be readily identified by security personnel. Virage DVR/NVR provides extensive event
+viewing and searching options including instant plate matching, partial plate matching as well as a full range of options
+to search by specific parameters including camera, date, time, alert code, plate and category. Where multiple cameras are
+in operation, users can search all cameras simultaneously through a single interface, or if desired, narrow their search to
+resu lts from a specified camera. Users can create 'hot lists' of specified vehicles they w ish to track closely and compare
+any identified number/license plate to predefi ned lists or perform full vehicle and driver database matching in order to
+match identified vehicles with any entry within the database.
+
+..
+
+,_, _ .
+,..,._.., I
+
+_,_...,. I
+
+_,.........
+bfeet-etw
+
+,
+I
+
+, ..... v.- I
+
+0-0...•ND 1...,.. ..,..1efl11
+
+Figure 7 • Viragt ANPRfaci/;tates search and rdritva/ ofkty events.
+
+If images from an overview camera are available, these can be displayed adj acent to the footage of the number plate
+enabling operators to view driver or vehicle images alongside number plate images. Any metadata associated which has
+been included in the database entry, such as registered vehicle owner, address and traffic records is presented alongside
+each recogn ized number plate to enable operators to gain instant visibility into the history of any identified vehicle. For
+optimum performance and in order to maximize storage, Virage Security and Surveillance employ advanced techniques
+(see page 2).
+
+13
+
+Intelligent Scene Analysis System
+As risk management becomes an increasingly important consideration for international corporations and governments
+alike, so does the need for effective CCTV systems and technologies which allow organizations to detect and understand
+the significance of observed behaviors more accurately. In order to maximize the investment in such services and
+improve the standard of surveillance operations, organizations should invest in systems which enable them to interpret
+and understand the significance of images gathered as part of CCTV surveillance operations more closely. Virage Security
+and Surveillance iSAS has been proven to increase the efficiency and efficacy of surveillance operations dramatically
+by automatically detecting, analyzing and interpreting all activity within a field of view. Trusted by key law enforcement
+agencies, governments, retailers and major transport service providers, Virage iSAS significantly complements all
+surveillance operations.
+
+Traditional CCTV Surveillance
+The overall efficacy of any CCTV system is entirely dependent upon the
+extent to which individuals are able to recognize and respond to the video
+surveillance signals presented to them. Human error accounts for virtually
+all failures to respond appropriately to video surveillance signals. Recent
+industry figures suggest that up to 85% of on-screen information goes
+unnoticed once a system operator has been on duty for a mere fifteen
+minutes, rendering a typical CCTV system desperately inefficient.
+Multiple duties and discontinuity in personnel, such as shift changes
+and high staff turnover, contribute to reduced efficiency and dramatically
+decrease the quality of surveillance operations. In addition, failures in
+
+Figure 8
+
+concentration and consciousness can impact greatly. Human concentration
+span typically wanes after 45 minutes according to recent scientific studies. Typical surveillance shifts lasting up to 12
+hours far exceed the normal human concentration span and contribute significantly to failures to identify and respond to
+unusual behaviors. Even when an operator is fully focused on a surveillance task, a number of low level failures in the
+human consciousness are responsible for failure to detect important activity:
+
+• Change blindness: visual disruption within a scene e.g. switching between multiple screens or blinking,
+can result in vital information being missed.
+• Inattentional blindness: when the brain is focused on one particular activity, for example, counting
+vehicles leaving a car park, it will frequently become unable to respond to other stimuli.
+• Attentional blink: when the brain shifts its focus from one activity to another, events can be missed in
+the time it takes to transfer concentration from one activity to the other.
+• Repetition blindness: repeated sequences of similar items can cause some events to be missed.
+
+14
+
+Virage Intelligent Scene Analysis
+Virage Security and Surveillance developed Intelligent Scene Analysis System (iSAS) in consultation with key security
+agencies to improve the efficiency and efficacy of surveillance operations. Complementing existing surveillance
+procedures, Virage iSAS enables organizations to anticipate and detect potential threats or illegal action, instantly
+and automatically, and take proactive preventative action against any security concerns. Ideally suited to complex
+multi-camera environments such as airports, major transport networks and government buildings, iSAS enables
+organizations to monitor multiple locations simultaneously and, most importantly, monitor for different behaviors within
+each scene.
+By detecting suspicious behaviors, identifying potential security threats and providing alerts entirely automatically,
+Virage enables CCTV operators to focus their activities on behaviors which require attention and verification by a
+security professional. A full range of features including advanced VMD, non motion detect, object sizing, object
+tracking and object counting enable surveillance officers to understand the potential significance of any motion or
+object within view.
+ACCESS
+CONTROL
+
+PERIMETER
+SECURITY
+
+AUDIO
+ALERT
+
+PDA / EMAIL
+
+TRAFFIC
+MONITORING
+
+PUBLIC AREA
+SECURITY
+
+LIVE AUDIO
++ VIDEO
+CAMERA
+
+PTZ CONTROL
+
+TRANSPORT
+SECURITY
+
+DATABASE
+
+REMOTE
+SECURITY
+
+DIGITAL VIDEO
+RECORDINGS
+
+Figure 9 - iSAS is suitable for a range of environments and easily connects to existing third party systems.
+
+Instant Recognition and Analysis
+In order to correctly identify suspicious behavior, it is essential that any object or movement is placed in context. Using
+advanced techniques, iSAS identifies and categorizes objects in a scene by size, shape, color, speed, direction, location
+and time of day and, over time, builds up a history of these objects. By then putting each object and motion in
+context, using techniques such as comparing object histories, VMD, non motion detect, object sizing, object tracking,
+object counting and behavioural analysis, Virage Security and Surveillance iSAS enables surveillance staff to interpret
+the threat that any given object or motion may pose more accurately. iSAS performs multiple levels of recognition and
+analysis on video data from simple tasks such as identifying movement within a scene through to complex behavioral
+analysis. Full details of recognition techniques are detailed below.
+
+15
+
+Video Motion Detect
+VMD is the most basic form of recognition which identifi es movement of objects within a specified field of view, for
+example, a person entering a restricted area.
+
+- __,
+
+-~·
+
+-
+
+- -.J-- •
+~·
+
+Figure 10 - iSAS monitors traffic on a motorway.
+
+Non Motion Detect
+Non Motion Detect (NMD) has the ability to recognize static objects within a scene such as unattended baggage in an
+airport. Users may set parameters to define the types of object which should be detected and also define the length of
+time an object should be static in order to be classed as a stationary object.
+
+Figure 11 • Using ad.aT1ted NN ha.std OCR lethniqua, iSAS NMD can identify stationary
+objects which may ronstitute a threat.
+
+Object Sizing
+Detecting the size of an object or a group of objects in a field of view alerts surveillance staff to situations which may
+requ ire a response. For example, w here iSAS is used for monitoring traffic flow, if a traffic jam is detected, surveillance
+staff can be alerted immediately and if necessary, an additional lane could be opened to ease congestion.
+
+16
+
+Object Tracking
+In addition to identifying objects, Virage Security and Survei llance iSAS can track objects entirely automatically
+between multiple cameras. While an object remains in a field of view, it is tracked automatically using the coordinate
+information to control a Pan Tilt Zoom (PTZ) camera.
+
+Object Counting
+By automatically categorizing identified objects into known types, Virage iSAS can generate counts for d ifferent
+categories. Multiple counts can also be configured, for example, iSAS can count the number of ca rs entering a car park
+and the number of cars leaving simultaneously.
+
+Behavioral Analysis
+Behavioral analysis offers the most advanced form of scene recognition. Once an obj ect has been identified and
+is being tracked by Virage Security and Surveillance iSAS, the system is capable of employing more sophisticated
+techniques for further analysis. Virage iSAS is able to differentiate between va rious scenarios by placing all identified
+behavior within the context of normal behaviors as specified by the user. By applying an associated motion history to
+an object, iSAS can automatically undertake complex behavioral analysis in ord er to recognize unusual or suspicious
+activity and alert surveillance staff to this immediately.
+
+Figure 12 · iSAS u.tts object histories to idenliJY unusual or suspicious bthaviors.
+
+Training and Configuration
+As each surveillance and monitoring environment is unique, Virage Security and Surveil lance gives organizations the
+flexibi lity to set and refine their own defi nitions as to what behavior could constitute a potential security threat and
+also define the precise action to be taken once a potential threat has been correctly identified. Training and configuring
+an iSAS system does not require any spec ialist input from Vi rage and may be performed by any competent system
+operator.
+
+17
+
+Using an intuitive user interface operators can train the system, using live or prerecorded images, to recognize
+unusual behavior which may present a threat and establish multiple definitions for multiple locations. For example,
+the user can train the system to trigger an alert to unattended baggage in the arrivals hall of an airport which would
+automatically result in a prerecorded message over the PA system. Baggage being held by airline staff however would
+not trigger such a response. Virage supports a range of training methods including:
+
+• Non alerting content: where the system is introduced to video containing no specific events.
+• Alerting content: involves training the system on specific events contained within the video.
+•
+
+Simulating alerts: by inserting objects into the scene which can then be used to generate example
+events.
+
+•
+
+Alert verification: the most sophisticated training procedure consists of using pre-generated alerts
+in order to enhance system training and improve overall performance. By allocating a series of pregenerated alerts into specific categories, such as examples of suspicious and unsuspicious behavior,
+the system can be configured to identify behaviors more accurately. Such user verification allows
+the system to build up a model of known behaviors and gives the system greater insight into what
+constitutes usual and unusual behaviors.
+
+Figure 13 • iSAS can bt traintd to recogniu sptrific bthlll'iort and trigger alerts as required.
+
+To allow organizations to monitor a w ide area against a set of diverse criteria, Virage Security and Survei llance iSAS
+can be applied to any new or existing CCTV system and loaded up with different configu rations for different cameras
+or camera positions. Moreover, iSAS can be configured to identify multiple categories of alarms w ithin a scene at
+the same time, each with its own set of specified alert actions. Other configuration options include masking a scene
+so that objects w ithin a certain peri meter are not detected, masking alerts generated by any obj ect within a specified
+area, setting time or occurance limits on alarms generated per incident and full customization of results notification
+with the inclusion of metadata associated with system, camera, data, time and alarm code.
+
+18
+
+Architecture
+Virage Security and Surveillance iSAS can be used on a stand alone basis for alarm recording only or fully integrated
+with Virage DVR/NVR and/or other Virage products for advanced functionality. In addition to providing continuous
+survei llance and alerting through advanced instant intelligent scene analysis, fu ll DVR/NVR integration enables
+organizations to store images for post-event analysis. An intuitive user interface enables operators to retrieve recorded
+video quickly and easily in order to find specific events and carry out forensic analysis retrospectively.
+
+Figure 14 · An intuilivt user inlerfact enahlts opera/Qrs to search and rttrill'< images easily.
+
+A flexible architecture and modular approach makes iSAS suitable for point of activity and remote surveillance
+operations. iSAS monitors direct analogue feeds from the cameras so once an event is detected, alerts can be streamed
+over the network to a remote location. Such a system provides optimal resolution for identifying objects within a scene
+whilst only requiring minimal bandwidth to relay the events and any associated alerts to a remote location. For remote
+surveillance operati ons, video can be streamed in MPEG4 or MPEG2 format and analyzed at a remote location. Where
+alerts are generated from the video stream, these can be processed locally or relayed to a remote location. Using this
+technique, banks of iSAS may be switched using dynamic prioritization across any number of cameras in order to
+support large scale remote surveillance operations.
+
+19
+
+Biometrics and Audio Recognition
+Audio Recognition
+Virage Security and Surveillance speech recognition technology enables security organizations to search files in
+video, radio and telephony systems instantly. Virage’s speech technology is fundamentally different; whereas other
+technologies adopt a simple phonetic approach using only acoustic information, Virage achieves a higher level of
+understanding through language modeling.
+Language modeling involves concept extraction in conjunction with acoustic-phonetic methods to achieve significantly
+greater accuracy and better results. Simple acoustic-phonetic methods alone fail to achieve good speech to text
+translation. The acoustic-phonetic approach doesn’t differentiate, for example, between “can I” and “can eye”. In this
+example, where the desired option is “can I”, Virage’s speech technologies employ intelligent probabilistic language
+modeling to understand the context of what is being said and in this way select the appropriate option “can I”.
+Virage’s audio recognition functionality includes:
+
+• Speaker independence: the system is trained on a large balanced corpus of data encompassing many
+different variables such as different accents or male-female pitch and tone - this means the acoustic
+models are speaker independent. The solution works out-of-the-box with no manual training although
+customization for specific accents or speakers can be done
+• Extensive vocabularies: there is no arbitrary limit on vocabulary size
+• Speaker identification: Virage audio recognition can be trained to enable individual speakers to be
+identified
+• Word spotting and phrase recognition: Virage can search audio by standard keyword as well as
+conceptual methods. Conceptual searching returns references to conceptually related information
+ranked by relevance or contextual distance.
+• Patented Autonomy technology: reduces CPU and memory usage for increased speed of operations
+and improved performance
+• Support for both high quality audio such as broadcast as well as telephony
+
+Fingerprint and 3D Face Recognition
+Virage Security and Surveillance also offer other powerful biometric identification tools in addition to audio recognition.
+The Virage fingerprint recognition solution uses the same established fingerprint minutae techniques as a police
+fingerprint expert – this enables fingerprints to be located and matched against a database of millions in order to
+successfully identify individuals. In addition, Virage Security and Surveillance provides facial recognition technology
+where other biometrics, such as fingerprint analysis, are not suitable. Facial recognition techniques are often used for
+example where suspects need to be identified at a distance and/or non-cooperatively. However, 2D face recognition
+has always had fundamental limitations with regard to posture, expression and lighting. Virage Security and
+Surveillance employ superior three-dimensional recognition techniques rather than the traditional 2D facial matching
+process for optimum performance.
+
+20
+
+Command and Control
+Given the complex nature of security and surveillance operations and the vast amount of heterogeneous data which
+requires aggregation and analysis, the need for advanced technologies which can make sense of information and alert
+the relevant parties to crucial intelligence has never been so great. The Virage Security and Surveillance Command and
+Control infrastructure enables all Virage products to interact seamlessly. It has been specifically designed to allow easy
+integration of third party equipment such as alarm panels, display units etc. Although certain Virage products can be
+deployed for simple functions such as standalone capture and archive, in order to perform more advanced functions,
+Virage provides three levels of Command and Control for a range of different environments and needs; from simplistic
+rule-based models to highly complex, intelligent solutions based on conceptual analysis.
+
+Level I
+Virage Command and Control Level I offers a simple rule-based solution. Any number of Virage products can be
+connected with the Command and Control system which performs as per instructions pre-defined by a systems
+administrator. For example, if Virage DVR and EPOS were set up with Level I, the system could be programmed to
+highlight particularly unusual till transactions such as large sums of cashback on the logged till transaction data.
+Virage NVR and CSM might also be deployed with Level I to monitor traffic at a port and could be trained to raise a
+barrier for particular vehicles whilst disallowing entry for others.
+
+Level II
+In addition to performing simple rule-based functions, Virage Level II Command and Control handles logical
+interactions between disparate pieces of data. Level II offers additional capabilities which enable instant analysis
+and logical calculations to be carried out on data flows. Virage DVR, iSAS and Command and Control Level II might
+be used for example, to monitor vehicle speeds between points; by identifying the same object and calculating the
+distance between the two points, the system could calculate distance traveled within a given time frame and therefore
+what speed the vehicle/s must have been traveling at. Another example might be deploying NVR and ANPR to monitor
+carpark usage in multiple locations and calculate usage percentages based on initial numbers collected i.e. the system
+could highlight that the central carpark has the highest usage at 50% whilst north and south car parks have 20% and
+30% usage respectively.
+
+Level III
+Virage Command and Control Level III has been fully integrated with Autonomy’s technology to deliver a complete
+state-of the-art solution for all security and surveillance needs no matter how complex. Through this intelligent
+platform, Virage offers users the ability to form a conceptual understanding of information and recognize potential
+threats automatically. Autonomy’s core technology is used by some of the most prestigious intelligence and defense
+agencies worldwide including the U.S. Department of Homeland Security, U.S. Department of Defense, The British
+Ministry of Defense, the Olympic Games Security Committee, National Nuclear Security Administration and numerous
+other intelligence and defense agencies worldwide. One of the key reasons organizations choose Autonomy, is its
+ability to discover “the unknown” which has a significant impact upon the efficacy of many world-renowned security
+agencies.
+
+21
+
+Autonomy’s technology forms a conceptual understanding of all forms of unstructured, semi-structured and structured
+data be it visual, auditory or alphanumeric in character. At its core, the technology uses a combination of Bayesian
+Inference and Shannon’s Information Theory to automatically extract the key concepts from any piece/s of information.
+As a mathematical platform, it is not constrained by the limitations of linguistic or rules-based models. Distinct
+concepts, ideas and behaviors are exposed within any data set on the basis of mathematically derived coherence
+and not rigid conformity to predefined structures or characteristics. This enables the technology to recognize the
+potential threat for the first time, both at a tactical and strategic level, without prior training or insight. Operationally,
+this results in an intelligent surveillance infrastructure capable of instantly and automatically fusing vast quantities of
+heterogeneous data, identifying interrelationships, spotting important trends and alerting surveillance officers to this
+vital intelligence. Additional functionality can be seamlessly integrated into the system in order to perform further
+advanced data fusion operations.
+
+Additional Level III Functionality
+Conceptual Retrieval and Search
+Content can be searched simultaneously in any language and any format, wherever it is stored. Search options
+include: Conceptual Search, Natural Language Retrieval, Query By Example, Refine By Example and Cross-Language
+Search. The technology retrieves and returns references to conceptually related information and results are presented
+with summaries and hyperlinks to similar information instantly and automatically.
+
+Hyperlinking
+This feature enables automated matching and identifying of similar pieces of information. Powerful automatic
+hyperlinking functionality identifies vital relationships between information, enabling intelligent contextual crossreferencing of content without the need for user input.
+By completely removing the requirement for manual input through its use of intelligent conceptual and contextual
+association, Virage ensures the instantly generated links are always up-to-date and highly relevant to users. For
+example, if CSM and Level III Command and Control were deployed to monitor vehicles and containers at a port, the
+technology could make intelligent associations between information in a police database, imagery captured by DVR/
+NVR and data within CSM, to report stolen or illegitimate vehicles and/or drivers. The technology might also link to
+further intelligence of other illicit activities being performed by these vehicle drivers. Not only are people kept informed
+of the latest, most relevant information but also - in this way - duplication and time spent navigating for information
+and overall costs are significantly reduced:
+
+•
+•
+•
+•
+•
+
+Reduces the cost of maintaining unstructured information within any environment
+Reduces the time taken to navigate to related information
+Reduces duplication of effort
+Keeps people informed and right up-to-date
+Retains browsers or consumers on a website through dynamically recommending further content and
+products
+
+22
+
+Clustering
+Automatic Clustering enables organizations to analyze large sets of document data or even user-profile information
+and automatically identify inherent information clusters and consequently trends and themes. Clustering provides
+organizations with instant high-level visibility of the knowledge base, eliminating knowledge gaps and enabling the
+organization to react quickly where necessary. For example, using Level Ill Command and Control, number/license
+plates captured by ANPR could be clustered and matched against a police database. In this way, potential correlations
+within data - such as repeat offences committed by the same d river attempting to d isguise his actions by using
+d ifferent vehicles - could be uncovered and acti on taken to prevent future occurrences of the same instance. Other
+benefits include:
+
+•
+
+Instant high-level visibility of the knowledge base
+
+•
+
+Automatically identifies information trends and themes
+
+•
+
+Eliminates knowledge gaps
+
+•
+
+Optimizes an organization's information flow
+
+• Reacts to information changes
+Powerful visualization tools make it easy for users to understand and interpret data sets. Virage provides two intuitive
+Java-based user interfaces to make clusters visible:
+
+•
+
+2D Cluster Map: is used to identify conceptual similarities and differences between clusters and
+display them in 2D. Based on Java Server Pages (JSP), the landscape is generated from the interrelationships between clusters and the documents contained within those clusters. Designed to provide
+a single overview of the clusters contained within the data, clusters that are close together correlate to
+higher degrees of similarity, whilst dissimilar clusters are situated further apart.
+
+•
+
+Spectrograph: this user interface displays the relationship between clusters in successive periods and
+sets of data. Clusters are presented as a JSP-based 3D spectrograph whereby the x-axis represents
+information over time (enabling users to visualize how clusters develop over a given time period), whilst
+the y-axis represents the range of concepts defined within the knowledge base (see figure 15).
+
+PQATAl IN A IOK _ . ... .
+
+-·- ...............
+,.....
+......
+
+~t-~~10 ..................
+
+,..... ~IMW--~
+..... ~.DM
+lWtll*..--. ..............
+...
+
+..
+
+........ '-'l ...
+
+......... ....,....,... ..... "'" .....
+_,.,.,.., .......................,.,..... ,..,..°""' ...... ,__.pq
+~
+
+..
+c
+
+~
+
+'¥
+
+-
+
+~
+
+...... . ....,..,. . .. w.:Milll!t
+
+-~=--="::!'..,__....,
+
+l.
+
+..._ _ _
+
+-_
+
+~"'
+
+............_...
+
+........
+.,.w ...1.......................,,...., •
+r....._ . ..,..,.tt-a
+
+~ ~....... ~,......... Cllrrtl ................
+
+-
+
+oat ...
+
+..... ..... ------- ...-~.._
+GHil
+~ INiiik'""•
+
+~-
+
+Figure 15
+
+23
+
+Automatic Profiling
+Automatic Profiling can be used by organizations to accurately understand individuals’ interests based on browsing,
+content consumption or content contribution. By generating a multi-faceted conceptual profile of each user, based on
+both explicit profiles (agents) and implicit profiles (click-through and submission), the feature creates a very current
+understanding of user interests without the need for any explicit input on their part. Profiling facilitates and speeds
+up surveillance operations as it enables vital intelligence to be delivered to the user without their needing to actively
+search for it.
+
+Personalized Agents
+Personalized Agents can be set up to proactively deliver highly relevant, accurate information to users. Agents can be
+trained to look for conceptually related themes from concepts a user defines either implicitly or explicitly as part of
+their profile. By continuously monitoring live information streams and matching relevant, conceptually related content
+against profiles, Agents can uncover data that may potentially hold new significance for intelligence operations –
+increasing overall knowledge and improving response rates. Through its automatic approach, Agents assist surveillance
+staff to monitor activity and information which may potentially be critical and which might otherwise have been missed
+or required significant investigative processes to discover.
+
+Intelligent Alerting
+Advanced Alerting functionality monitors information in order to automatically and instantly alert users to information
+which may be of interest to them based on their profile or the agents they have set up. For example, if a surveillance
+officer had set up agents to monitor and deliver information on a particular suspect, if the agents detected similarly
+conceptually related activity being discussed by another person, the system could automatically trigger an alert in order
+for security staff to be alerted to this potential correlation. Instant alert mechanisms could be web interfaces, e-mails,
+SMS or digital alarms amongst others.
+
+24
+
+Architecture
+Command and Control Level Ill is a scalable, data agnostic platform, independent and modular by design, w hich can
+very simply be integrated into current or legacy systems to provide automatic conceptual analysis across all data and
+deliver a unifi ed intelligence exchange across all platforms. The system acts as an intelligent 'information brokerage' to
+aggregate, combine and deliver a unified stream of information from a variety of applications and sources even when
+they fai l to share a common language, data structure and format, logic or comm unication methodology. Command and
+Control Level Ill can seamlessly be integrated with Virage Security and Surveillance EPOS, CSM, ANPR and iSAS for
+advanced intelligence operations (see figure 16).
+
+Figure 16
+
+25
+
+Security
+Maintaining security and ensuring only authorized personnel gain access to sensitive data is key to almost every
+organization. Increasingly complex IT environments mean there are often several systems in place each requiring a
+different set of authentication procedures. Virage’s infrastructure exactly mirrors the security entitlement required to
+deliver the right information to the right people according to who is entitled to see it. The world's largest and most
+secure intelligence organizations have deployed Autonomy to safeguard their most sensitive information assets.
+Virage Security and Surveillance is unique in its approach to managing and maintaining security and is able to
+seamlessly integrate with existing third party systems whilst respecting existing security. Advanced methodologies for,
+user authentication, data protection and verification ensure the right people have access to legitimate data. In addition,
+advanced functions such as mapping significantly improve system performance within even the largest, most complex
+environments. These unique advantages make it the number one choice for many leading organizations today.
+
+Security Integration
+By integrating fully with other security equipment and procedures, Virage Security and Surveillance respects existing
+security and enables organizations to respond appropriately and efficiently to ever changing requirements. Virage is a
+world leader in seamlessly integrating with a range of diverse third-party information sources, such as Documentum,
+Lotus Notes, Oracle Server or OpenText.
+
+Secure Data Authentication and Personnel Verification
+Extensive user authentication, data protection and verification procedures make Virage suitable for the most demanding
+security and surveillance environments. Virage can provide all aspects of security management including document and
+intra-document access control against user, group and role level entitlement; this ensures only authorized personnel
+gain access to sensitive data. Encrypted inter-machine and intra-process communication protocols are woven into
+the fabric of Virage’s modular design at a fundamental level, providing secure transmission of information throughout
+the architecture. In addition, Virage ensures the integrity of all data captured is preserved through results encryption
+and image watermarking. Full audit tracking enables authorized personnel to gain immediate visibility into the history
+associated with any record in the system.
+
+Intellectual Asset Protection System (IAS)
+Virage’s Intellectual Asset Protection System (IAS) is a comprehensive and modular security architecture that uniquely
+provides:
+
+• Asset scalability through Mapped Security
+• Group membership scalability through Group Servers
+• Operational granularity via a Document-centric model enabling secure real time operation and total
+flexibility over your security policies
+
+26
+
+Conclusion
+Security and surveillance operations are widely regarded as an integral and essential part of today's society. As
+organizations at all levels, ranging from law enforcement agencies and governments to large corporations and public
+bodies seek to enhance the security and safety of assets and personnel, security and surveillance technologies are an
+increasingly commonplace and necessary part of our daily lives.
+Growing demands to protect public safety, buildings and commercial assets accentuate the need for robust security
+and surveillance solutions in a wide range of environments. Consequently, surveillance techniques are increasingly
+prevalent, especially in many European countries where CCTV systems are now extremely customary. While CCTV
+cameras in themselves do much to establish public and corporate confidence, the effectiveness of such systems when
+used in isolation is often limited. Organizations seeking to implement a truly effective and responsible security and
+surveillance strategy must consider embracing additional systems such as EPOS, CSM, ANPR, iSAS and BIS as well as
+addressing the way in which data and images obtained from such techniques are recorded and stored. Furthermore,
+as security requirements become increasingly complex and threats posed to individuals, corporations and nations more
+sophisticated, it is ever more critical that organizations gain a holistic view of their security and surveillance procedures.
+The ability to correlate and cross reference data gained from multiple applications such as ANPR and iSAS with other
+sources allows organizations to adopt an intelligence led approach to security and surveillance operations. As part of
+the Autonomy Group, Virage Security and Surveillance offers a comprehensive solution which enables organizations
+to implement key solutions for specific requirements as well as supporting the overall objectives of their security
+and surveillance strategy. By incorporating Autonomy’s core technology, Virage Security and Surveillance is able to
+automatically understand and interpret the potential significance of multiple pieces of security data, and correlate
+that information with other known intelligence to enable organizations to implement comprehensive security and
+surveillance solutions. Virage’s unique approach brings new visibility and intelligence to security and surveillance
+operations and equips organizations with the technology they need in order to safeguard public, private and corporate
+assets and respond effectively to security threats today and in the future.
+
+27
+
+The information contained in this document represents the current opinion as of the date of publication of Autonomy Systems Ltd.
+regarding the issues discussed. Autonomy's opinion is based upon our review of competitor product information publicly available as
+of the date of this document.
+Because Autonomy must respond to changing market conditions, it should not be interpreted to be commitment on the part of
+Autonomy, and Autonomy cannot attest to the accuracy of any information presented after the date of publication.
+This document is for informational purposes only; Autonomy is not making warranties, express or implied, in this document.
+
+(Autonomy Inc. and Autonomy Systems Limited are both subsidiaries of Autonomy Corporation plc.)
+
+

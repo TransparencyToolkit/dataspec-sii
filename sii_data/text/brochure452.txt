@@ -1,0 +1,111 @@
+l
+S
+
+Ii
+
+*
+m-
+
+BP
+
+I
+
+l
+
+1
+
+Biometric Speaker Spotting System ( B S ~ )
+Engine designed f o r integration in large-scale systems
+- such as intelligence a n d strategic interception systems -
+
+spot, filter a n d classify
+large amounts of incoming audio files
+to
+
+I
+(landline, cellular, VOIP)
+
+B S -~Feature rich capabilities:
+
+Bs3 Functions:
+
+Speaker Identification
+The system compares incoming audio files (up t o t w o
+speakers within a mono or a stereo channel) with one or
+various potential targets (N t o M identification).
+Spotted audios are returned with associated target
+matching scores (Likelihood Ratios - LR), which are
+compared with defined threshold levels that trigger alarms
+in related strategic interception and intelligence systems.
+Gender Identification
+The system identifies the gender (male/female) of the
+speakerls o f the recording, allowing the system t o focus on
+a specific gender.
+Language ldentification
+The system performs the comparison of incoming
+audio files with the pre-loaded language models (open set
+identification),
+adding operative
+value
+to
+live
+communication monitoring by directing calls t o the
+appropriate live listener.
+BS3 uses AGNITlO's proprietary and pioneering voice
+biometrics technology (text independent, channel
+independent and language independent) based on unique
+information extracted from an individual's vocal tract, thus
+obtaining a high level o f accuracy and reliability.
+
+r A
+
+W
+
+L
+
+-
+
+-
+
+Analysisand
+
+production
+
+3 Speaker Identification (SID)
+3 Gender Identification (CID)
+3 Language Identification (LID)
+
+Bs3 Use cases:
+3 Frontal analysis and processing (effective
+
+prioritization):
+Speaker spotting o f key targets inside a
+continuous flow of telephone conversations (landline,
+cellular, VOIP) in near-real time
+
+• Storage 'Digint' (traceability):
+Datamining for large storage repositories t o t a g o r
+classify individuals f o r further intelligence processing
+(on request)
+
+Benefits:
+'
+, Reduces dramatically the number of calls
+required f o r further intelligence processing
+'
+,Facilitates easy and quick speaker
+huge audio data storage repositories
+
+pursuit in
+
+Bs3 packaged as a software library
+(native JAVA API*)
+is modular, scalable and easy to integrate
+into multi-platforms
+
+Interaction
+
+A
+API: ApplicationProgrammingInterface
+
+

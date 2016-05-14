@@ -1,0 +1,170 @@
+ISS Webinar – 13th may 2008
+Identification of Nomadic
+Targets
+Presented by Vincent BARRY
+VP Global Sales
+
+Solutions to current Challenges
+What is the common Telco/ISP investigative link?
+The electronic ‘DNA’
+• CDR’s, IP Metadata, RADIUS logs
+–
+
+A identifier, B Identifier, Operators, Cell (or ISP) Location, Time on/off, other more
+technical info (trunk ID’s, Server IP addr, bytes sent/rec, MAC addr, type of service)
+
+Using Intelligent Systems to analyse massive amounts of data
+– CDR/SMS/IP-Metadata/IP-Logs
+•
+•
+•
+•
+•
+
+Ability to profile target behaviour
+Identify multiple SIM/Handset/Device usage
+Rules engines to extract patterns and known Identifiers
+Easy to use – not assume technical genius at k/b
+Data to Charting - fast - to display complex device pattern, relationships
+
+Location Tracking System- GSM/CDMA
+•
+•
+•
+
+Passively track ‘visiting’ subscribers – identify specific roamers/country/target ID
+Alerts on known devices/numbers
+Geo Fencing against known/new mobiles and areas of interest/concern
+
+How we can identify targets
+
+Profiling on Telecommunications identifiers
+Internet account & login
+•Account: abu_bakar
+•Password: ab430456
+
+georgeb@gmail.com
+ali@hotmail.com
+baddy@yahoo.com
+
+Multiple Sims
+
+Location
+IP address
+MAC address
+Metadata
+
+PSTN phone
+Multiple Handphones
+
+We can track a specific target through ALL his electronic
+communications - if the data is available from the Operators.
+We can
+• detect change of SIM and change of handset after identifying 1
+suspect Number
+• We can even detect that profile again even if the phone AND
+SIM are changed – (Call fingerprinting)
+fingerprinting)
+
+Profiling
+Compares Telecomms behaviour of a Target or device with stored
+historical profile
+Searches for deviations from normal behaviour
+Uses ThorpeGlen patented processes -statistical engine data analysis
+
+Examples
++999
+
+Target has passed his phone onto someone else.
+= Target’s behaviour has changed.
+Output Layer
+
+0
+Hidden
+Layer
+Call Count
+
+Time of Day
+
+Day of Week
+
+-999
+Orig Cell
+
+Dest Cell
+
+Duration
+
+Probability / Deviation
+
+Target using multiple SIMS, or changed handset
+
+1. After making request to
+Telco for CDR block keyed on 1 Target number.
+With 1 click we can produce
+a chart to illustrate call/
+relationship
+
+2. Our system will highlight
+other number that has been a
+“number of interest” in past
+
+Our system will extract the 2
+numbers of interest and examine
+for commonality (profile) classic illustration of same target
+- different SIM and Handset
+
+By charting CDR’s on 1 known number
+our system will automatically display the
+relationship of an identified IMIE
+(handset) and the multiple SIM’s used
+with that Handset (in this example 3
+SIM’s)– which is one of the attributes of a
+Target Call Profile – then we can look for
+other IMIE used with any of those SIMS –
+extracting the multiple device
+relationship/pattern
+
+Geographic Profile Example
+Comparing CDR Cell ID location of Target with
+Location Tracking solution updates - active updates
+Overlaying historic
+CDR/SMS location
+data
+
+Database listing showing individual
+location update entries that can
+provide quick access and identify
+
+Profile of location updates –
+clusters show target is stationery in
+Base Station area during time of
+forced “Mobile Location update”
+
+New Developments Finding Cliques (people Cells) within mass data
+Identifying Cliques (groups that only talk amongst themselves)
+• Everyone on a Telephone network is part of a group
+• Most groups talk to other groups/individuals/nodes
+• Example we have already researched
+– We processed all the CDR’s from all subscribers (1 week) in a Mobile
+network we have access to
+– Over 1 billion per day x 7 days = 8 billion+ events
+– 1 operator 50 m subscribers
+– 48 m – 1 large group
+– 400k – large nodes (services, shops, info numbers, etc)
+– Remainder - we graded the remaining groups into size (largest to
+smallest) they ranged in size from 2 to 142 subscribers
+– Identified a number of groups that
+• only call each other – never to other numbers
+• No-one ever calls their numbers
+• WHY??
+
+Clique Example
+
+Thank you
+Further information and discussion:
+Vincent Barry – VP Global Sales
+Vincent.barry@thorpeglen.com
+Mobile - +65-97558905
+
+

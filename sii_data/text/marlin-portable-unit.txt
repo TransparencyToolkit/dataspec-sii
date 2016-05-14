@@ -1,0 +1,202 @@
+Marlin Portable Unit
+
+CONFIDENTIAL
+
+1
+
+Marlin Portable Monitoring Unit
+Overview
+Marlin is a rapidly deployable system for the monitoring of calls made across the Inmarsat and
+Thuraya satellite systems. The call intercept is invisible to both the user and the satellite
+network.
+Marlin enables traffic between the
+mobile terminal and the satellite to
+be monitored in a line of sight
+operation, within radio range of the
+target.
+Control of the system is via an
+intuitive windows based GUI.
+Incoming calls are displayed in realtime, and voice is played via a laptop
+computer, with each side of the call
+played back on either channel of the
+stereo output. Software to decode
+and display a number of fax and data
+protocols is included with the GUI.
+Information relating to the identification of called and calling parties is recorded, along with the
+geographical location (depending on service type and network).
+
+Physical Description
+The Marlin Portable Monitoring System comprises:
+• Laptop
+• Satellite and Target Antennae
+• Marlin Portable Monitoring Unit
+• Power Supply
+These are supplied in travel cases for easy transport.
+The monitoring unit itself is housed in a small desktop case (a rack mountable version is also
+available).
+It contains the following removable cards:
+• 2 x Multi-channel Demodulator Cards
+• 1 x Dual L-band Down Converter
+Each card sits horizontally and plugs into the unit from the front, allowing easy replacement of
+individual cards. A backplane provides power and signal distribution within the unit, along with
+accommodating an Ethernet Switch and Frequency Reference.
+
+CONFIDENTIAL
+
+2
+
+Key Features
+Platform
+•
+•
+•
+•
+•
+•
+•
+
+Satellite to ground monitoring in line of sight
+Intercept of up to 7 calls simultaneously
+Small, portable form factor
+Lightweight
+L-band ‘Target’ and ‘Satellite’ inputs
+Built in high stability reference
+10/100BaseT Ethernet Control & Data Interface
+
+Inmarsat
+•
+•
+•
+•
+
+B (including HSD)
+M
+Mini-M
+Gan (including HSD)
+
+Thuraya
+• Voice, Fax and Data
+• Up to 3 spot-beams simultaneously monitored
+• Up to TBC simultaneous calls
+
+Technical Description
+The Demodulator Card includes the following:
+• Wideband High Speed ADC
+• Digital Down-Converter
+• Digital Signal Processor
+• Ethernet Interface
+The Demodulator Card accepts an instantaneous bandwidth of 34MHz, centered around
+72MHz. The signal is filtered for image rejection, and then digitized by a high-speed analog-todigital converter. Frequency-tuning is performed by a digital down converter (DDC). The
+resultant base-band signals are filtered by a programmable digital filter and DMA’d directly to
+the DSP for demodulation. The demodulated data is output via the Ethernet Interface.
+The Dual Down Converter Card takes L-band input from the Satellite and Target antennas, and
+down-converts to the 72MHz required by the demodulator cards. Power is supplied to the
+antenna LNAs via the same connection, allowing rapid deployment. It features variable
+attenuation to accommodate the wide range of signal conditions experienced in the tactical
+environment.
+The backplane provides a 10 MHz reference and IF input signal to each of the Demodulator
+Cards. The 10MHz frequency reference is derived from a temperature compensated crystal
+oscillator with a stability of 1ppm.
+The Ethernet Switch provides 4 10/100BaseT auto-negotiating Ethernet ports. Two of the ports
+connect internally to the Demodulator Cards. The remaining two ports are connected to RJ-45
+connectors on the front of the unit. One allows connection to the laptop required for control of
+the Marlin. The other is an expansion port. This allows a second unit to be ‘daisy chained’, so
+that both units may be controlled from a single laptop, or for the connection of compatible
+accessories.
+
+CONFIDENTIAL
+
+3
+
+Specifications
+Ref Input
+Target Connector
+Satellite Connector
+Input Impedance
+Target Attenuation
+Satellite Attenuation
+Target Frequency Range
+Satellite Frequency Range
+
+BNC Female
+TNC Female
+50 Ω
+0 – 60 dB in 30dB steps
+0 – 24 dB in 6dB steps
+1626.5 – 1660.5 MHz
+1525.0 – 1559.0 MHz
+
+Internal Frequency Reference
+Reference Frequency
+10 MHz
+Reference Type
+Temperature Compensated Crystal Oscillator (TCXO)
+Reference stability
+1ppm
+Ethernet Control & Data Interface
+Connector
+Female RJ-45
+Number of Connectors
+2
+Interface Type
+10/100BaseT auto-negotiating
+Description
+Command input/data and status output, daisy chain to
+subsequent unit
+Physical
+Unit Dimension
+
+Card Size
+Color
+
+135mm (h) x 315mm (w) x225mm (d)
+(excludes 19" rack mounting hardware)
+5.2 kg unit standalone, 6 kg rack mounted
+2 x Demodulator Cards
+1 x Dual Down Converter
+233 (h) x 220 (d)
+RAL 9006 Light Grey
+
+Operating Temperature
+Storage Temperature
+Relative Humidity
+Cooling
+
+0°C to +40°C
+0°C to +60°C
+10% to 90% non-condensing
+Internal forced air cooling provided
+
+Weight
+Unit contents
+
+CE Approval
+Safety
+EMC
+External Power Supply
+Voltage
+Frequency
+Voltage selection
+Power Consumption
+Dimensions
+Weight
+
+EN60950 LVD
+EN55022 Emissions
+EN55024 Immunity
+115-230V AC
+60-50 Hz
+Auto-ranging
+250W
+65mm (h) x 188mm (w) x 95 (d)
+0.8 kg
+
+CONFIDENTIAL
+
+4
+
+CONFIDENTIAL
+
+5
+
+

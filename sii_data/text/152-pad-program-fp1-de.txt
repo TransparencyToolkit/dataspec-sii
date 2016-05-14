@@ -1,0 +1,1168 @@
+Mobiloc 4
+Inhaltsverzeichnis
+FP1
+2!
+3!
+4610 14 20 23 34 -
+
+!
+!
+5!
+9!
+13!
+19!
+22!
+33!
+36!
+
+Teilnehmerbutton / Steuerung / Online-Befehle
+Teilnehmerbutton / Steuerung / SMS-Befehle
+!
+Teilnehmerbutton / Steuerung / Programmierung
+!
+Teilnehmerbutton / Steuerung / Programmierung
+!
+Teilnehmerbutton / Steuerung / Programmierung
+!
+Teilnehmerbutton / Steuerung / Programmierung
+!
+Teilnehmerbutton / Steuerung / Programmierung
+!
+Teilnehmerbutton / Steuerung / Programmierung
+!
+Persönliche Notizen!
+!
+
+/
+/
+/
+/
+/
+/
+
+Kennungen
+Einstellungen
+Alarmierung
+Sensoren
+Batterie
+Stromsparen
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Seite
+Seite
+Seite
+Seite
+Seite
+Seite
+Seite
+Seite
+Seite
+!
+
+1
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Online-Befehle
+„Telefonnummer“
+Die Anwahl erfolgt durch Betätigen des Buttons „Wählen“. Wird die Anwahl nicht
+gestartet, kann es sein, daß unter den Verbindungsdaten keine oder eine falsche
+COM-Schnittstelle, bzw. Zentralen-ID zugewiesen wurde (Teilnehmer/Bearbeiten/
+Verbindung).
+
+„Neustart GPS-Empfänger“
+In seltenen Fällen kann es zu einem Fehlverhalten und damit zu einer
+Koordinatenberechnung durch den GPS-Empfänger kommen. Durch einen
+wird der GPS-Empfänger gezwungen seine Daten zu verwerfen und die
+völlig neu zu ermitteln. Dies kann je nach Antennenlage auch mehrere
+dauern.
+
+falschen
+Kaltstart
+Position
+Minuten
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Polling Abfrage“
+Der FP1 kann mittels des Button „Polling Ein“ in den Pollingmodus gesetzt werden.
+Das bedeutet, dass nach dem Aufbau der Online-Verbindung die Positionsdaten
+nicht automatisch vom FP1 ausgegeben werden, sondern nur auf Anfrage aus der
+Zentrale. Hierzu muß in der Datenbank für diesen Teilnehmer der Pollingmodus
+aktiviert werden (Teilnehmerbutton/Bearbeiten/UKSP-Anfrage im Pollingmode
+aktivieren). Über den Button „Normal Mode“ wird die Funktion wieder abgeschaltet.
+Das FP1 sendet nach Verbindungsaufbau jede Sekunde seine Position automatisch.
+Die Funktion kann nur in der Online-Verbindung aktiviert bzw. deaktiviert
+werden.
+Das Polling aus der Zentrale funktioniert nur, wenn die ID des Teilnehmers in der
+Datenbank mit der ID im Gerät übereinstimmt.
+
+2
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / SMS-Befehle
+„Telefonnummer SMS“
+Wird hier keine Nummer angezeigt so ist sie in der Teilnehmerdatenbank nicht
+eingetragen worden (Teilnehmer/Bearbeiten/Verbindung).
+„Stromsparen Aus“
+Über diesen Button kann ein FP1 mittels SMS aus dem Schlafmodus geweckt werden.
+Als Rufnummer wird aus der Datenbank für dieses Gerät die eingetragene SMSRufnummer übernommen. Die Funktion kann nur ausgeführt werden, wenn an das
+System ein GSM-Modem entweder direkt oder über die Zentralen- oder Jägerbox
+angeschlossen ist. Nachdem der FP1 geweckt wurde, (abhängig von der
+programmierten Weckzeit), antwortet es mit einer „Bin wach“ Meldung, ebenfalls via
+SMS. Die Funktion kann nicht während einer Online-Verbindung ausgeführt
+werden. Der Stromsparmodus des Gerätes wird deaktiviert und kann nur durch
+erneute Programmierung wieder aktiviert werden.
+falschen
+Kaltstart
+Position
+Minuten
+
+„Feldstärke und Zelleninfo“
+Diese SMS wird durch das Gerät mit einer SMS beantwortet, die die Kennung der
+aktuellen GSM-Zelle, sowie die GSM-Feldstärke enthält. Die Daten werden in
+Mobimessage eingetragen und können darüber angezeigt werden.
+„zyklische SMS konfigurieren“
+Die Nutzung dieser Funktion via SMS setzt voraus, dass über die Programmierung
+des Gerätes grundsätzlich die zyklische Positions-SMS programmiert und aktiviert
+wurde.
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Neustart GPS-Empfänger“
+In seltenen Fällen kann es zu einem Fehlverhalten und damit zu einer
+Koordinatenberechnung durch den GPS-Empfänger kommen. Durch einen
+wird der GPS-Empfänger gezwungen seine Daten zu verwerfen und die
+völlig neu zu ermitteln. Dies kann je nach Antennenlage auch mehrere
+dauern.
+
+„Programmierung“
+Der Button Programmierung ö" net die Registerkarten mit den programmierbaren
+Seite
+Funktionen des FP1. Die Programmierung der Geräte kann nur bei einer aktiven
+Online-Verbindung durchgeführt werden.
+3
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Kennungen
+Bei Starten der Programmierung werden in der Online-Verbindung
+automatisch die Daten aus dem verbundenen Gerät ausgelesen. Dies
+ist nur möglich, wenn die im Gerät programmierte Kennung mit der
+Kennung im Feld „Kennung“ identisch ist. Dieser Wert wird aus der
+Datenbank (Teilnehmerbutton/Bearbeiten) übernommen. Auch die
+Neuprogrammierung des Gerätes inkl. einer neuen Kennung, ist nur
+möglich, wenn die ID des Teilnehmers in der Datenbank mit der ID des
+Gerätes übereinstimmt.
+Über die Kennungsfelder (Nation, Land, Behörde, Nummer) kann eine
+neue Kennung für das Gerät programmiert werden, die dann auch in
+der Datenbank für diesen Teilnehmer geändert werden muss.
+Als Nationenkennung ist im UKSP-Standard für die BRD die 1
+festgelegt. Die Länderkennung ergibt sich aus der Liste. Die
+Behördenkennung wird länderintern vergeben.
+
+„Programmieren“
+Erst mit diesem Button werden alle Parameter, die in den
+Registerkarten eingetragen sind, an das Gerät im Fahrzeug übertragen,
+unabhängig davon, welche Registerkarte gerade angezeigt wird. Die
+Programmierung erfolgt, wie auch die Abfrage der vorhandenen
+Programmierung, nur, wenn zu dem Gerät eine Online-Verbindung
+besteht.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Neue Kennung programmieren“
+Hierüber wird nur die Kennung im Gerät geändert.
+
+4
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Kennungen
+
+„Feldstärke abfragen“
+Soll
+das Kennwort
+wieder die
+gelöscht
+werden, so
+muss zunächstdes
+das Feld
+Hierüber
+kann sowohl
+momentane
+GSM-Feldstärke
+„neues
+Kennwort“
+unddie
+diese
+Löschung durchangezeigt
+das Kennwort
+verbauten
+Gerätesgelöscht
+als auch
+Versionsnummer
+bestätigt
+werden.
+Das Setzen des
+bzw.auf
+dasdie
+Löschen
+werden. Die
+GSM-Feldstärke
+gibt neuen
+dabeiKennwortes
+einen Hinweis
+erfolgt
+über
+den Button
+„Programmieren“.
+Dabei Die
+werden
+auch alle
+Güte des
+Verbaus
+der GSM-Antenne
+im Fahrzeug.
+Anzeige
+anderen
+im Gerät
+auf die aktuell eingestellten Werte gesetzt.
+erfolgt inParameter
+der Kopfzeile
+des Fensters.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Kennwort für die Programmierung“
+Die Parameter des FP1 können im Gerät über ein Kennwort geschützt
+werden. Im Auslieferungszustand ist das Gerät ohne Kennwort. Soll ein
+Kennwort vergeben werden, dann müssen beide Punkte aktiviert
+werden.
+Bestand
+bereits
+ein
+Kennwort,
+so
+muss
+zur
+Umprogrammierung das alte Kennwort eingegeben werden.
+
+5
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+Das FP1 ist mit einem Positions- oder Hitstoryspeicher ausstattet der
+mehr als 60.000 Positionen mit Datum, Uhrzeit, Geschwindigkeit und
+Sensorzuständen speichert. Das Auslesen des Speichers erfolgt über den
+separaten Menüpunkt „Rekorder auslesen“ (Teilnehmerbutton).
+
+Der FP1 kennt vier verschiedene Speichermodi (s.o.).
+1. Speichern bis Speicher voll
+2. Packen wenn Speicher voll
+3. Überschreiben wenn Speicher voll (Ringspeicher)
+4. Speicherfunktion ausschalten
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Recorder“
+In diesem Bereich wird die Speicherfunktion des FP1 definiert. Die
+Speicherung erfolgt in Abhängigkeit der definierten Geschwindigkeit (z.B.
+50km/h) und eines frei definierbaren Zeitrasters (1-120 Sek.). Die
+Aufzeichnung beginnt sobald das Fahrzeug die eingestellte
+Geschwindigkeit
+erreicht
+bzw.
+überschritten
+hat.
+Fällt
+die
+Geschwindigkeit unter den programmierten Wert, so wird der erste Wert
+unterhalb des Filters noch gespeichert, sowie die erste „0 km/h“ Position.
+Diese
+beiden
+Positionen
+(Stopppositionen)
+werden
+besonders
+gekennzeichnet, damit sie beim Packen nicht gelöscht werden.
+
+6
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+Im 1. Modus wird am Ende des Speichers die Funktion des Speichers
+abgeschaltet. Der Speicher enthält die ersten 60.000 Positionen der Fahrt.
+Im 2. Speichermodus wird nach der 60.000ten Position jede 2. Position
+im Speicher gelöscht und die verbleibenden Positionen wieder zu einem
+Block zusammengefasst. Eine Ausnahme bilden die bereits oben
+beschriebenen Stopppositionen, die ebenfalls im Speicher verbleiben. Die
+Auflösung der Positionen im Speicher hat nach dem Packen den
+doppelten Zeitabstand. Die folgende Aufzeichnung wird ebenfalls auf den
+doppelten Wert gesetzt, so dass der Speicher immer die gleichzeitliche
+Auflösung aufweist. Ist der Speicher erneut voll, so wiederholt sich diese
+Pack-Prozedur bis zu einer Auflösung von 30 Minuten. Anschließend wird
+die Speicherfunktion abgeschaltet. Im Speicher ist immer die gesamte
+Fahrstrecke (inkl. der Stoppositionen) abgespeichert.
+Im 3. Modus wird, wenn der Speicher voll ist, die jeweils älteste Position
+gelöscht (außer Stopppositionen). Der Speicher enthält immer die letzten
+gefahrenen 60.000 Positionen.
+Über den 4. Speichermodus kann die Speicherfunktion temporär
+abgeschaltet werden.
+
+Werden die Felder der einzelnen Sensoren aktiviert, so wird
+unabhängig zur momentanen Speicherfunktion bei Änderung des
+entsprechenden Sensorzustandes sofort eine aktuelle Position
+zusätzlich im Speicher abgelegt und markiert.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Aufzeichnen bei Sensorwechsel“
+
+7
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+„Verifizieren der Anrufer anhand der Nummer auf der SIM-Karte“
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Diese Funktion bietet einen erhöhten Schutz gegen unberechtigten
+Zugri" auf das Gerät bzw. Steuerung der SMS-Funktion. Das Gerät ist
+nur für freigegebene Rufnummern verfügbar.
+Hierzu müssen bereits vor Einsatzbeginn bzw. vor dem Verbau oder
+Anbringen des Gerätes über ein separates Handy die berechtigten
+Rufnummern im Telefonbuch der SIM-Karte abgespeichert werden.
+Durch Aktivieren einer oder beider Funktionen werden die
+entsprechenden Aktionen nur durchgeführt, wenn die Rufnummer des
+eintre" endes Rufes oder der eintre" enden SMS im Telefonbuch auf der
+SIM-Karte gefunden wird. Alle anderen Rufe (SMS) werden nicht
+angenommen (verworfen). Diese Funktion bedingt zwangsläufig, dass
+die Übertragung der Rufnummer der abfragenden bzw. anrufenden
+Stelle freigeschaltet sein muss.
+
+8
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Einstellungen
+
+Dabei können die Ziele separat aktiviert und die Zykluszeiten separat
+programmiert werden. Jedes Ziel kann mit zwei zusätzlichen
+Funktionen programmiert werden. „direkt“ bedeutet, dass die SMS
+nicht in den Speicher des Empfängerhandys, sondern direkt auf dem
+Display angezeigt wird. „SMS wenn Online“ heißt, dass die zyklische
+SMS auch dann gesendet wird, wenn aus Mobiloc heraus zu den FP1
+eine Datenverbindung aufgebaut wurde.
+„Netzbetreiber“
+An dieser Position muss die Service-Center-Adresse (SCA) des
+Netzbetreibers eingetragen werden, dessen Karte im Gerät verbaut ist.
+Einige Netzbetreiber haben unterschiedliche SCA-Nummern, abhängig
+davon, ob die SMS Netz-intern oder zu einem anderen Netz gesendet
+werden soll. Die Nummer kann aus der vorhandenen Liste übernommen
+oder manuell eingetragen werden. Die Länderkennung (z.B. +49) ist
+zwingend erforderlich. Um eine SMS senden zu können, ist zudem die
+richtige SCA zwingend erforderlich. Über dem Eingabefeld wird ggf.
+bereits das Netz angezeigt, dessen Karte im FP1 verbaut wurde.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Automatische zyklische SMS-Position“
+Der FP1 kann seine Position in einem frei definierbaren Zeitraum
+(Sekunden, Minuten, Stunden) automatisch senden. Wird das
+Zeitfenster <15 Sekunden programmiert, sind unter Umständen
+mehrere Anwahlversuche notwendig um eine Online-Verbindung zu
+dem Gerät aufzubauen, da das Gerät permanent als besetzt gilt. Ein
+Zyklus < 5 Sekunden macht keinen Sinn, da die Übertragungszeit ggf.
+länger und deshalb die zeitliche Reihenfolge der eintre" ende
+Positionen nicht mehr gewährleistet ist. Die Position kann an zwei
+individuelle Ziele gesendet werden.
+
+9
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+
+• Als Alarmierung kann entweder eine SMS gesendet, oder ein
+sofortiger Aufbau einer Online-Verbindung aktiviert werden. Die
+SMS kann sowohl an dem Zentralenrechner als auch an ein
+beliebiges Handy gesendet werden. Wird die SMS an die Zentrale
+gesendet, kann diese nur mittels eines GSM-Modems empfangen
+werden. Im SMS-Modus können zwei individuelle Ziele
+programmiert werden.
+• Die Online-Verbindung (Datenverbindung) kann sinnvollerweise
+nur zur Zentrale bzw. Jäger aufgebaut werden. Hierfür kann in der
+Zentrale auch ein Drahtmodem (analog, ISDN) angeschlossen sein.
+Nach
+Verbindungsaufbau
+werden
+sofort
+die
+aktuellen
+Positionsdaten und der Alarm in der Zentrale dargestellt. Im
+Online-Modus kann aus technischen Gründen nur die Rufnummer
+1 definiert werden.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Im FP1 können bis zu 12 unterschiedliche Sensoren als Alarm definiert
+werden. Dabei kann die Alarmierung für die beiden Sensorenzustände
+getrennt aktiviert werden. Die Einstellungen für die Sensoren erfolgt
+über die separate Registerkarte „Sensoren“. Jeder Sensorwechsel (wenn
+programmiert) kann dabei individuell an bis zu 5 Alarmziele (nur im
+SMS-Mode) gesendet werden. Ein Alarmziel (1-5) kann nur zugewiesen
+werden, wenn zu dem Ziel auch eine entsprechende Rufnummer
+eingetragen ist. In der Liste der Alarmsensoren werden links die
+Zustände aufgeführt, die im Tacho durch einen roten Punkt signalisiert
+werden (z.B. Bewegungsmelder – Bewegung). Rechts stehen die
+Zustände die grün angezeigt werden. Dabei ist es für die Darstellung
+im Tacho unerheblich ob der entsprechende Zustand als Alarm
+aktiviert wurde oder nicht.
+Alarmierung über“
+
+10
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+„Freigabe der Alarmierung über die Alarmsensoren“
+• Roaming im GSM-Netz
+Dieser Sensor aktiviert einen Alarm, wenn sich das FP1 innerhalb
+des eigenen Netzes befindet (Heimatnetz) oder außerhalb.
+• Bewegungsmelder
+Alarmierung bei erkannter Bewegung oder wenn das Objekt steht.
+Dieser Alarm ist auch im Schlafmodus aktiv.
+• Geschwindigkeit
+Alarmierung bei Überschreiten oder Unterschreiten einer
+programmierten Geschwindigkeit. Die Geschwindigkeit wird über
+den GPS-Empfänger ermittelt.
+• Kontakt
+Das FP1 ist mit einem separaten Eingangskontakt ausgerüstet.
+„Ein“ bedeutet dabei Kontakt gegen Masse geschaltet, „Aus“ gleich
+Kontakt o" en. Dieser Alarm ist auch im Schlafmodus aktiv.
+
+• Akkubetrieb
+Das FP1 ist mit einem integrierten Akku ausgestattet, der
+automatisch eingeschaltet wird, wenn die externe Spannung einen
+unteren Grenzwert unterschreitet, d.h. die externe Batterie
+vollständig entladen ist. Dieser Zustand kann durch Aktivieren an
+die programmierte Alarmziele gesendet werden. Der Modus
+Akkubetrieb wird erst zurückgesetzt, wenn die externe
+Spannungsquelle abgezogen und eine neue Batterie angesteckt
+wurde (Tiefentladeschutz). Dieser Alarm ist auch im Schlafmodus
+aktiv.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+• Batterieüberwachung
+Alarmierung erfolgt, sobald die vorgegebene Kapazitätsgrenze für
+die externe Batterie unterschritten wird.
+
+11
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+„Freigabe der Alarmierung über die Alarmsensoren“
+• GPS-Ausfall
+Der Sensor wird gesetzt, wenn die interne Elektronik im FP1 keine
+Daten mehr vom integrierten GPS-Empfänger erhält, d.h. der GPSEmpfänger ausgefallen ist. Er zeigt nicht an, das zur Zeit keine
+Satelliten erkannt werden, oder ob die GPS-Antenne defekt ist.
+
+• Alarmziel
+Im FP1 können bis zu 5 Zielrufnummern als SMS-Alarmziel
+programmiert und individuell allen einzelnen Alarmsensoren
+zugeordnet werden. Jedes Ziel kann mit zwei zusätzlichen
+Funktionen paramentiert werden. „direkt“ bedeutet, dass die SMS
+nicht in den Speicher des Empfängerhandys eingetragen, sondern
+direkt auf dem Display angezeigt wird. „SMS wenn Online“ heißt,
+dass die Alarmierung via SMS auch dann gesendet wird, wenn
+zeitgleich aus Mobiloc heraus zu dem FP1 eine Datenverbindung
+aufgebaut ist.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+• Geographischer Bereich 1-5
+Im FP1 können bis zu 5 individuelle Geo-Bereiche definiert werden.
+Jeder Bereich kann dabei für die Alarmierung individuell aktiviert
+werden. Dabei können die Bereiche sowohl ineinander liegen
+(Zonenalarm), als auch ineinander übergehen. Jeder Wechsel
+(Verlassen des Bereiches, Eintritt in den Bereich) wird, wenn aktiviert,
+individuell für jeden Bereich gemeldet.
+
+12
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Alarmierung
+„Alarmtexte“
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Dieser Button ist nur in der Online-Verbindung aktiviert und
+ermöglicht die individuelle Programmierung der Alarmtexte des FP1.
+Eine Änderung dieser Texte sollte nur in begründeten Ausnahmefällen
+erfolgen.
+Geänderte
+Werte
+werden
+durch
+den
+Button
+„Programmierung“ in das Gerät übernommen. Der Button
+„Standardtexte“ setzt die vom Werk aus vorgegebenen Texte wieder in
+die Maske ein. Über den Button „Einstellung“ kommt man zur
+ursprünglichen Programmiermaske wieder zurück.
+
+13
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Sensoren
+„Sensor geographische Bereichsüberwachung“
+Das FP1 kennt 5 unabhängige geographische Bereiche, die einzeln
+entweder als Rechteck oder kreisförmige Fläche definiert werden
+können. Die Bereiche dürfen sowohl ineinander liegen, als auch
+ineinander übergehen.
+Rechteckige Bereiche werden über die obere linke und die untere
+rechte Ecke definiert. Die Festlegung der Bereiche erfolgt in der Regel
+direkt in der Karte. Hierzu wird in der MuG-Karte über den Button
+
+Zusätzlich muss der Bereich noch mit einem Namen (max. 8 Zeichen)
+versehen werden. Im Fall der Alarmierung via SMS dient dieser Name
+zur Kennzeichnung des Alarmes. Auf der Geogrid-Karte wird das
+Definitionsfenster über den Doppelklick mit der rechten Maustaste in
+die Karte und Auswahl des entsprechenden Menüpunktes geö" net.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+das Fenster geographischer Bereich geö" net, die Eckpunkte direkt
+auf der Karte markiert und mittels des Button „übernehmen“ in die
+Maske eingetragen.
+
+14
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Sensoren
+Eine weitere Definitionsmöglichkeit des Bereiches besteht durch die
+direkte Eingabe des Längen- und Breitengrades. Das Eingabeformat
+kann aus 3 verschiedenen Möglichkeiten gewählt werden.
+
+Hierbei kann der Mittelpunkt mit einem Radius definiert werden. Die
+Übernahme erfolgt in der Regel aus einer Punktedatenbank, wobei
+verschiedene
+Punktedatenbanken
+definiert
+werden
+können.
+Punktobjekte können nur über das MuG-Fenster
+
+definiert und in die Datenbank übernommen werden. Die manuelle
+Eingabe der Werte ist ebenfalls möglich.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Als 2. Variante der Bereichsdefinition steht die Programmierung von
+kreisförmigen Bereichen zur Verfügung.
+
+15
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Sensoren
+Der Bereich 1 (erste Registerkarte) kann mit einer zusätzlichen
+Funktion erweitert werden.
+
+Damit bei einem Aufenthalt des Zielobjektes an einer definierten
+Bereichsgrenze oder zwischen zwei ineinanderübergehenden
+Bereiche nicht permanent einen Alarm ausgelöst, kann für alle
+Bereiche gemeinsam, eine Mindestaufenthaltsdauer (1-120Sek) für
+den neuen Bereich definiert werden, bevor der neue Bereich
+akzeptiert wird.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Über die Aktivierung der Funktion „per SMS programmierbar“ kann
+der Bereich 1 von jedem Handy aus umprogrammiert werden. Mittels
+einer SMS „GEO 500“ wird ein kreisförmiger Bereich mit dem Radius
+von 500m um den augenblicklichen Standort programmiert. Diese
+Umprogrammierung kann beliebig oft erfolgen. Voraussetzung ist
+lediglich, dass vorher in der Programmierung entsprechende
+Alarmziele für den Bereich 1 festgelegt wurden.
+Der Button „alle anzeigen“ ermöglicht die gleichzeitige Darstellung
+aller definierten Bereiche, ggf. muss der Maßstab der Karte angepasst
+werden. Über das x wird die Darstellung wieder gelöscht.
+
+16
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Sensoren
+„Bewegungsmelder“
+
+Für den Bewegungsmelder können 4 verschiedene Nachlaufzeiten
+programmiert werden, wobei der Wert 19 Sekunden für Testzwecke
+vorbehalten ist, da im Einsatz auch jeder Ampelstop als Ruhe
+gewertet und ggf. alarmiert würde. Für die Stromsparfunktion ist
+weiterhin zu beachten, dass der Zustand „Ruhe“ erst nach Ablauf
+dieser Nachlaufzeit detektiert wird.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Der FP1 ist mit einem programmierbaren Bewegungsmelder
+ausgerüstet. Es können sowohl die Empfindlichkeit als auch eine
+Nachlaufzeit programmiert werden. Der Wert 0 bedeutet dabei
+unempfindlich, der Wert 15 sehr empfindlich. Die „normalen“ Werte
+liegen im Bereich 7-10.
+
+17
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Sensoren
+„Geschwindigkeit“
+
+Die Geschwindigkeitsüberwachung kann unter anderem als einfache
+Bereichsüberwachung genutzt werden.
+Der Sensor wird ausgelöst, wenn das Objekt die definierte
+Geschwindigkeit für den definierten Zeitraum ununterbrochen überoder unterschreitet. Bevor der Alarm erneut ausgelöst wird, muss die
+programmierte Geschwindigkeit wieder unter- bzw. überschritten
+werden.
+„Kontakt“
+
+„Batterieüberwachung“
+
+Das FP1 misst die Energie, die aus der externen Batterie entnommen
+wird. Für die rechtzeitige Alarmierung kann ein Grenzwert gesetzt
+werden, dessen unterschreiten einen Alarm auslöst. Der Grenzwert
+wird in Prozent angegeben und bezieht sich auf die definierte
+Batteriekapazität.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Das FP1 ist mit einem externen Kontakt ausgerüstet. Damit nicht
+kurze Spannungseinbrüche eine Zustandsänderung und ggf. einen
+Alarm auslösen, kann an dieser Stelle eine Totzeit eingestellt werden,
+für die der neue Kontaktzustand stabil sein muss.
+
+18
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Sensoren
+
+Neben dem einfachen Roamingalarm können im FP1 bis zu 5 GSMNetze zusätzlich überwacht werden. Bewegt sich das Objekt aus
+seinem Heimatnetz in eines der überwachten Netze, dann wird nicht
+nur das verlassen des Heimatnetzes, sondern auch das Hineinfahren
+in das überwachte Netz gemeldet. Ebenso das Herausfahren aus dem
+programmierten Netz in ein anderes ausländische Netz führt zu einer
+Meldung, wie auch das Hineinfahren in ein programmiertes GSMNetz aus einem anderen ausländischen Netz. Dadurch können
+unabhängig von den programmierbaren Geo-Bereichen bis zu 5
+Länder zusätzlich überwacht werden. Voraussetzung ist, dass der
+entsprechende Roaming-Alarm gesetzt ist. Die Programmierung der
+Netze erfolgt durch Übernahme des Länder-/Netz-Codes aus der
+Mobilfunkliste. Damit im Grenzbereich nicht ständig ein Alarm
+erzeugt wird, kann eine entsprechende Zeit definiert werden, für die
+das Gerät in dem überwachten GSM-Netz eingebucht sein muss.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„GSM-Netze der Überwachung“
+
+19
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+„Batteriezustand“
+Das FP1 ist für den Einsatz in der Schnellpräparation gedacht und
+deshalb speziell für den Batteriebetrieb ausgelegt. Die nominale
+Eingangsspannung ist 7,2V, d.h. zum Betrieb mit 2 in Reihe
+geschalteten Lithiumzellen von 3,6V. Dabei können grundsätzlich
+beliebige Kapazitätsgrößen angeschlossen werden. Im Feld
+Gesamtkapazität wird die Kapazität des vollen Batteriepacks
+angegeben (100%). Mittels des Button „ändern“, wird ein Menüfenster
+geö" net, über das vorhandene Definitionen geladen werden können
+oder aber ein neuer Batteriewert definiert werden kann. Das FP1 ist
+mit einer Leistungsmessung ausgestattet. Über einen Messwiderstand
+wird kontinuierlich die aus der Batterie entnommene Leistung
+ermittelt. Dieses Verfahren ermöglicht eine gute Annäherung der
+tatsächlichen Restkapazität in der externen Batterie. Da die Kapazität
+aber noch von anderen Faktoren (Temperatur, Spitzenstrom, etc.)
+abhängig ist, kann der ermittelte Wert dennoch nur eine Annäherung
+darstellen.
+Das Feld aktuelle Kapazität zeigt diesen ermittelten Wert an. Die
+Anzeige wird durch den Button „vorhandene Programmierung
+abfragen“ aktualisiert. Wird eine nicht volle Batterie eingesetzt, kann
+dieser Wert nach Betätigen des Button „ändern“ auch manuell gesetzt
+werden. Ebenso können die Werte einer teilentladenen Batterie für
+einen weiteren Einsatz mittels „speichern unter“ abgespeichert und
+später als Wert wieder geladen werden.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Teilnehmerbutton / Steuerung / Programmierung / Batterie
+
+20
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Batterie
+
+Hierzu muss lediglich der Mauszeiger auf diesen Tag zeigen.
+Für einen neuen Einsatz kann das abgespeicherte 10-Tage-Profil
+über den Button „Löschen“ zurückgesetzt werden.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Stromverbrauch der vergangenen Tage“
+Die kontinuierliche Leistungsmessung ermöglicht zusätzlich das
+Erstellen eines Leistungs- oder Verbrauchsprofil. Das FP1 speichert
+dabei den Energieverbrauch der letzten 10 Tage. Dies ermöglicht
+eine genauere Abschätzung der noch verbleibenden Einsatzdauer, da
+das
+Verbrauchsprofil
+abhängig
+von
+der
+Programmierung,
+Bewegungs-, Ruhezeiten sowie Online-Zeiträumen erfasst. Der
+angegebene Wert gibt dabei den durchschnittlichen Stromwert des
+Tages an und entspricht damit einen mAh-Wert. Mit 24h multipliziert
+ergibt dieses die verbrauchte Kapazität für den gewählten Tag. Dir
+Höhe der Balken ist in % zu der Gesamtkapazität der
+angeschlossenen Batterie definiert und veranschaulicht so auf
+einfache Weise das Verbrauchsprofil, ggf. auch ein Bewegungsprofil.
+Anhand dieser Profilwerte kann damit auch die restliche
+Betriebsdauer mit der angeschlossenen Batterie abgeschätzt werden.
+Gleiches gilt auch für den integrierten Akku. Da durch eine
+Neuprogrammierung sich die Verbrauchswerte erheblich ändern
+können, ist der ermittelte Wert ggf. zu ungenau. Daher kann auch
+über den Verbrauchswert eines einzelnen Tages die Restlaufzeit für
+Batterie und Reserveakku berechnet werden.
+
+21
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Batterie
+
+„GPS-Diagnose“
+Die hier angezeigten Werte stammen direkt aus dem GPS-Empfänger
+und sind deshalb in englischer Sprache. Wenn die Werte nicht als ok
+gelten, werden sie rot hinterlegt.
+GPS-Status zeigt die Anzahl der Satelliten an, GPS-Antenna kann
+einen Kurzschluss in der Zuleitung zur Antenne signalisieren.
+Das FP1 hat keine Pu" erbatterie für den integrierten GPS-Empfänger.
+Diese Funktion übernimmt der integrierte Akku. War dieser
+vollständig entladen, so wird bei erneuter Inbetriebnahme der Wert
+GPS-Batterie rot markiert. Dies gilt auch für die auf dem GPSEmpfänger integrierte Uhr.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Diagnose“
+Über den Button „Diagnose“ wird ein Fenster geö" net, dass
+verschiedene „interne“ Werte des FP1 visualisiert. Die Spannung
+Batterie (Akku) zeigt direkt den Spannungswert an dem
+Anschlusspins an. Spannung Charger ist die Ladespannung für den
+internen Akku und zeigt nur dann einen richtigen Wert an, wenn der
+Akku geladen wird (Laden Ein). Spannung Logik gibt die Spannung
+am Prozessor an, Spannung GPS zeigt die Versorgungsspannung des
+GPS-Empfängers. Spannung Main ist die Versorgungsspannung des
+FP1 nach der Schutzschaltung. Die Stromanzeige ist eine
+Momentanzeige und kann in größeren Bereichswerten variieren, da in
+der Online-Verbindung der Stromverbrauch durch das GSM-Modul
+stark variiert.
+
+22
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Stromsparen“
+Das
+FP1
+verfügt
+über
+umfangreiche
+Funktionen,
+den
+Energieverbrauch zu senken und damit die Einsatzdauer zu
+verlängern. Der integrierte Akku ermöglicht eine zusätzliche
+Verlängerung der Einsatzzeit. Um den Betrieb des Gerätes nach der
+Entladung der externen Batterie zu optimieren, können im FP1 für die
+beiden
+Betriebsarten
+unterschiedliche
+Stromsparfunktionen
+programmiert werden. Für beide Betriebsarten stehen dabei die
+gleichen Funktionen und Einstellungen zur Verfügung.
+Denkbar ist, das beim Umschalten auf den Akku-Modus, das das
+Gerät nur noch sehr wenig aktiv ist um den Einsatz so lange wie
+möglich zu gewährleisten, oder aber das Gerät wird sofort wach und
+ist verfügbar um möglichst schnell die externe Batterie wechseln zu
+können.
+Um im Akku-Modus eigene Stromspareinstellungen nutzen zu
+können, muss die Funktion „Stromsparen Akku-Modus verwenden“
+aktiviert werden.
+Für beide Stromsparmodi stehen die gleichen Einstellungen zur
+Verfügung. Ergänzt werden die Funktionen durch zusätzliche GPSStromsparfunktionen, die von den „normalen“ Stromsparmodi
+unabhängig sind und ebenfalls für beide Modi programmiert werden
+können.
+
+23
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+„Stromsparen“
+Das FP1 verfügt über mehrere e# ziente Stromsparfunktionen, den
+den Stromverbrauch auf unter „1mA“ (ca. 500-600$A) senken
+können. Die Aktivierung ist nur in der Online-Verbindung möglich.
+Grundsätzlich gibt es drei unterschiedliche Stromsparmodi:
+•GSM-Modem und GPS ausschalten
+In diesem Modus sind sowohl das integrierte GSM-Modul als auch
+der GPS-Empfänger ausgeschaltet, das bedeutet das Gerät ist nicht
+erreichbar und zeichnet auch keine weiteren Positionen auf.
+
+•Nur GPS ausschalten
+Das Gerät bleicht erreichbar, zeichnet aber keine Positionen mehr
+auf. Der GPS-Empfänger wird entweder durch programmierte
+Wecksignale oder bei einer Online-Verbindung eingeschaltet. Je nach
+Abschaltdauer bzw. Entfernung zur letzten bekannten Position, kann
+die Ermittlung der Position von einigen Sekunden bis zu mehreren
+Minuten dauern.
+Die Stromsparfunktion wird durch die Programmierung aktiviert,
+wenn die Online-Verbindung beendet und die programmierte
+Nachlaufzeit abgelaufen ist. War das Gerät nach der Programmierung
+noch länger als die Nachlaufzeit online, wird der Stromsparmodus
+sofort nach Beenden der Verbindung aktiv und ist ggf. sofort nicht
+mehr erreichbar.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+•Nur GSM ausschalten
+Diese Funktion schaltet das GSM-Modul aus, ermöglicht aber
+weiterhin das Aufzeichnen der Positionsdaten, sowie die
+verschiedenen
+gehbasierenden
+Alarme
+(Bereich
+und
+Geschwindigkeit).
+
+24
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+„Wecksignale aus dem Stromsparmodus“
+
+ein
+
+Gerät
+
+aus
+
+dem
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Grundsätzlich existieren 3 Möglichkeiten
+Schlafmodus wieder zu aktivieren.
+
+25
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+„Wecksignale aus dem Stromsparmodus“
+
+Die erste Möglichkeit besteht durch das Senden der SMS-Message
+„Stromsparen aus“ (Teilnehmerbutton Steuerung). Hierzu wird das
+GSM-Modul in einen Minuten/Stunden Zyklus eingeschaltet. Das
+Modul bleibt für die eingestellte Nachlaufzeit wach und wartet auf die
+SMS. Tri" t diese ein (minimale Nachlaufzeit von 5 Minuten
+erforderlich) wird der Stromsparmodus deaktiviert und muss ggf.
+durch Programmierung neu aktiviert werden. Der Zeitzyklus beginnt
+mit dem Programmieren der Funktion, nicht mit dem Ende der
+Online-Verbindung. Dabei gibt es folgende Verfahren:
+Ist die Zykluszeit in Minuten eingestellt, wird das Gerät genau nach
+Ablauf der Zeit wieder wach. Die Nachlaufzeit ist in den Rhythmus
+integriert, so dass das Gerät etwa zur selben Minute wach wird.
+Ist die Zykluszeit in Stunden angegeben, so ist die erste Stunde
+bereits zur nächsten vollen Stunde abgelaufen, d.h. ggf. bereits nach
+1 Minute, wenn die Programmierung z.B. um 13:59 erfolgte. Das
+Gerät wird dann entsprechend dem programmierten Zyklus immer
+zur vollen Stunde für die programmierte Nachlaufzeit wach.
+Neben dem GSM-Modul kann, wenn ebenfalls ausgeschaltet, auch
+das GPS-Modul im gleichen Rhythmus eingeschaltet werden. Das ist
+dann sinnvoll, wenn die Zykluszeit hoch gewählt wurde, damit der
+GPS-Empfänger ggf. die Almanachdaten au" rischen kann.
+Tri" t in diesem Modus in der programmierten Nachlaufzeit keine SMS
+ein, wird die Stromsparfunktion automatisch wieder aktiv.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+•Zyklisches Wachwerden
+
+26
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+•Hardwarebedingtes Wecken
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Eine weitere Möglichkeit das Gerät aus dem Schlafmodus zu
+aktivieren besteht durch das Schließen des externen Kontaktes oder
+durch detektierte Bewegung. Der Schlafmodus wird dabei nur
+temporär verlassen. Sind die Bedingungen wieder inaktiv, so bleibt
+das Gerät noch für die programmierte Nachlaufzeit wach. Bleiben die
+programmierten Kontakte inaktiv, so geht das FP1 automatisch
+wieder in den Schlafmodus zurück. Zusätzlich kann für jeden Kontakt
+individuell definiert werden, dass das FP1 bei Aktivierung nur den
+GPS-Empfänger einschaltet, das GSM-Modul ausgeschaltet bleibt.
+Das Gerät bleibt dann unerreichbar, zeichnet aber im definierten
+Rhythmus Positionen auf und ermöglicht gleichzeitig die GeoAlarme.
+
+27
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+•definierte Wachphasen
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Unabhängig von den anderen programmierten Weckfunktionen
+können zwei Wachzeiten festgelegt werden, zu dem das Gerät gezielt
+eingeschaltet bzw. wieder ausgeschaltet wird.
+Ganz wichtig! Die angegebenen Zeiten beziehen sich immer auf
+die UTC-Zeit, da das Gerät nur mit der GPS-Zeit arbeitet.
+
+28
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+„GPS-Stromsparfunktionen“
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Die GPS-Stromsparmodi sind unabhängig von den allgemeinen
+Stromsparfunktionen und können nur in der Online-Verbindung
+umprogrammiert werden. Grundsätzlich sind diese Modi nur im
+aktiven Zustand des Gerätes in Funktion, der GPS-Empfänger
+prinzipiell eingeschaltet ist, d.h. nicht durch eine Stromsparfunktion
+ausgeschaltet ist. Auch der GPS-Stromsparmodus ist individuell für
+den Normalmodus (ext. Spannungsversorgung) und dem AkkuModus programmierbar. Die GPS-Stromsparmodi ermöglichen eine
+weitere Verbrauchsreduzierung und somit verlängerte Einsatzzeiten
+bei gleicher Batteriekapazität.
+
+29
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+•GPS nur bei Bewegung ein
+In diesem Modus ist der GPS-Empfänger grundsätzlich ausgeschaltet.
+Erst wenn der Bewegungsmelder Bewegung detektiert, wird der GPS
+eingeschaltet. Dabei ist zu beachten, das je nach Länge der „AusZeit“ es bis zu einigen Minuten dauern kann, bis eine Position
+ermittelt werden kann und dementsprechend die Aufzeichnung von
+Positionen oder die Geo-Alarme aktiv sind.
+
+Der Trickle-Mode ermöglicht im allgemeinen Betrieb eine
+stromsparende Nutzung des integrierten GPS-Empfängers. Der GPSEmpfänger wird zyklisch für unterschiedliche Zeiträume Ein-bzw.
+Ausgeschaltet. Das bedeutet, das die Aufzeichnung auch nur in der
+Ein-Phase aktiv sein kann. Je länger die Aus-Phase ist, desto länger
+braucht der GPS-Empfänger um seine aktuelle Position wieder zu
+finden. Für den Trickle-Mode sollte die Antenne möglichst „gut“
+verbaut sein, bedeutet nach Möglichkeit ohne Reflexionen arbeiten
+um eine schnelle Positionierung überhaupt zu ermöglichen.
+Der Trickle-Mode kann eingeschränkt werden auf einen sogenannten
+„Parkhausmodus“, d.h. es sind keine Satelliten sichtbar. Das Gerät
+wartet zunächst für die definierte „Wartezeit“ und geht dann erst in
+den Trickle-Mode über. Werden wieder Satelliten erkannt, wird der
+Trickle-Mode automatisch wieder verlassen.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+•GPS- zyklisch schalten (Trickle-Mode)
+
+30
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+•Schrankmodus
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Durch den integrierten Akku bleibt das Gerät grundsätzlich weiterhin
+aktiv, auch wenn die externe Batterie abgezogen wird. Ist dies nicht
+erwünscht, kann durch Aktivierung des Feldes das Gerät, durch
+Abziehen der Batterie automatisch ausgeschaltet werden. Diese
+Funktion ist auch aktiv, wenn sich das Gerät bereits im Akku-Betrieb
+befindet, weil die angeschlossene Batterie entladen und damit
+abgeschaltet ist.
+
+31
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+„Online-Verbindung im Stromsparmodus“
+Wird in der Wachphase von der Zentrale eine Online-Verbindung
+aufgebaut, hat diese Vorrang vor der Stromsparfunktion. Das Gerät
+bleibt weiterhin Online, auch wenn das Kriterium für das Wecken
+nicht mehr gegeben und die Nachlaufzeit bereits abgelaufen ist. Wird
+die Verbindung dann unterbrochen und war die Nachlaufzeit bereits
+abgelaufen, so wird das Gerät sofort in den Stromsparmodus
+versetzt. Andernfalls bleibt das Gerät noch für die verbleibende
+Nachlaufzeit wach.
+War der GPS-Empfänger ausgeschaltet, so wird er für die Dauer der
+Verbindung automatisch eingeschaltet.
+
+„Zyklische Positionsmeldung im Stromsparmodus“
+Ist im Gerät die zyklische Positionsmeldung via SMS programmiert, so
+wird dies aktiv, sobald das Gerät wach ist und eine Position ermittelt
+werden konnte.
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Alarmfunktion im Stromsparmodus“
+Sind der Bewegungsmelder oder der Kontakt als Alarm definiert, so
+wird bei Eintreten des Ereignisses das Gerät geweckt und der Alarm
+ausgegeben (nur bei Alarmierung via SMS). Anschließend wird die
+Stromsparfunktion sofort wieder eingeschaltet. Bereichs- und
+Geschwindigkeitsalarme können nur ausgelöst werden, wenn der
+GPS-Empfänger eingeschaltet ist und eine Position ermittelt werden
+konnte.
+
+32
+
+Mobiloc 4
+Programmierung Fahrzeugausrüstung FP1
+Teilnehmerbutton / Steuerung / Programmierung / Stromsparen
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+„Kritische Funktion des Bewegungsmelders im Stromsparmodus“
+Wird das FP1 durch ein programmiertes Ereignis geweckt, dann führt
+das Einschalten der Module zu einem hohen Stromimpuls. Ist im FP1
+der Bewegungsmelder zu empfindlich eingestellt oder das Objekt in
+einem Bereich mit hohen Erschütterungen abgestellt (z.B. Bahnlinie
+mit Güterverkehr) kann es dazu kommen, das das Gerät durch
+permanentes Wecken mittels des Bewegungsmelders einen
+unverhältnismäßig hohen Energieverbrauch aufweist, der im
+Extremfall höher ist als ohne Stromsparfunktionen. Analog gilt dies
+auch für den GPS-Stromsparmodus.
+
+33
+
+Mobiloc 4
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Persönliche Notizen
+
+34
+
+Mobiloc 4
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Persönliche Notizen
+
+35
+
+Mobiloc 4
+
+Seite
+
+! PAD Datentechnik GmbH 25.05.2004
+
+Persönliche Notizen
+
+36
+
+

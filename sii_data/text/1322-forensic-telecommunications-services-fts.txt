@@ -1,0 +1,382 @@
+Forensic
+Telecommunications
+Services
+
+F
+
+P S Seeker
+IMSI Grabber & Locator
+
+1118
+
+•
+
+n• • •
+
+- m .
+
+n-
+
+111
+_ - - - - 11 e ---- - . • 1 1• 1 • 1
+
+0
+
+Commercial in Confidence
+
+•
+
+•
+
+r
+
+User benefits:
+
+H S Seeker
+
+IMSI Grabber & Locator
+
+Introduction:
+People involved in unlawful activities frequently use mobile phones. The
+identities of these phones are often unknown, for example a Pay As You
+Go phone purchased for cash. Not being able to readily identify users
+and t h e phone identity through normal methods poses significant
+problems for law enforcement agencies.
+
+• Fast, efficient, cost effective IMSI grabbing.
+• Directional antennas focus target area.
+• U s e r "Mark" facility for logging of visual information.
+• Simple target identity analysis using database.
+• Easily concealed for covert operation.
+• Supports target location.
+• Adjustable grabbing times.
+
+High Speed Acquisition:
+
+The FTS Seeker Handset Identifier/Locator provides an easily deployed,
+cost effective, system for establishing the identity of mobile phones in
+a specific area. The unit can recover both the handset identity (IMEI) and
+the SIM card identity (IMSI). These can subsequently be used to check
+Billing Records from the Network Operator, as well as being used for
+target location and to detect SIM card swapping.
+
+The FTS Seeker has a dedicated configuration which allows for two
+base stations t o be configured within the same package, tuned t o
+different GSM bands.This configuration allows simultaneous acquisition
+of data from two networks.The automatic search of each network also
+
+Tools of this type are, of necessity, deployed in potentially hostile areas,
+very close to a target. Covert operation is therefore of vital importance
+both t o avoid detection by targets and t o protect the safety of the
+operator. This system has been specifically designed w i t h these
+requirements in mind, so that it may be easily operated and carried in
+a variety of concealments, for example a shoulder bag or rucksack. It
+also uses a rugged f o r m o f construction t o withstand t h e rough
+treatment that is inevitable during operations of this type. The device
+can be deployed both inside and outside of a vehicle.
+
+approximately 6 minutes.
+
+Designed and optimised
+for use by Law Enforcement Agencies:
+The FTS Seeker has been designed from the outset to be optimised
+solely for IMSI Grabbing and IMSI location tasks.
+The FTS Seeker does not provide any facility for intercepting and recording
+voice transmissions over the network. Nor does the system allow specific
+fire-walling or restriction of network services to handset devices within its
+range. This design ensures that when the system is in operational use these
+types o f activity cannot be used inadvertently o r accidentally by the
+operative while conducting IMSI searching / location finding.
+Not least, Senior Officers can authorise the use of IMSI grabbing using
+the FTS Seeker safe in the knowledge that doing so cannot lead to a
+situation w h e r e a n unintentional unauthorised i n t e r c e p t m a y
+compromise the result of an intended operation. Being designed for
+use under the strict rules applied by UK and similar jurisdictions makes
+the unit safe for use in many other countries. We would be happy t o
+provide advice about specific countries.
+The final important benefit of this design is that it allows a much more
+compact and cost effective IMSI grabber unit than has previously been
+available.
+
+Features:
+•
+•
+•
+•
+
+U l t r a compact and easily portable system.
+Rugged construction in sealed casing.
+Backpack / Shoulder Bag or brief case deployment.
+Wireless user interface via PDA, Smart-Phone,
+
+Laptop or Netbook.
+• Operationally simple to use by non technical personnel.
+• C o s t effective alternative to vehicle based systems.
+• D u a l base stations for high speed operation — scan two
+networks at once.
+• Embedded receiver for fast network survey.
+• A u t o m a t i c scan of multiple Networks (two at a time).
+• Powerful built in database with removable media store.
+• Totally silent operation using all solid state electronics.
+• B u i l t in software for IMSI catching identifying which network or
+country IMSI is from.
+• B u i l t in software for IMEI identity of handset make and model.
+• S e l f contained, operates from internal batteries.
+• Simple download of results to a laptop for detailed analysis.
+• G P S facility — coordinates stored of where unit is deployed.
+• ' W h i t e list' function, to ignore 'friendly' IMSI/IMErs.
+
+reduces the overall search time. The unit typically interrogates —300
+handsets/minute. A full scan o f 4 different networks could take
+
+Dual Function System Operation:
+Grabbing
+The F I S Seeker is deployed in the vicinity o f the target. The User
+initiates an automatic network scan so that the system can determine
+the operating parameters of all the cellular networks in the area.
+Once this has been completed t h e user can s t a r t IMSI Grabber
+operation. This is completely automatic.The system acts as a 'phantom'
+base station on the cellular network. Mobile phones that are switched
+on in the vicinity will register to the phantom cell and the system will
+capture their IMSI and N E I . These details are logged in the system
+database.The mobiles are then returned to the real network within a
+few seconds causing minimal disruption to service.The system contains
+two base stations so two network bands can be monitored at the same
+time.The system cycles through each network in turn until all have been
+covered.The user may initiate the IMSI grabbing sequence at periodic
+intervals to build up a picture of phone users over a period of time or
+at different locations.
+In addition to logging the IMSI of captured phones, the system database
+also records IMEI, network, a GPS reading and a timestamp from the
+system clock. There is also a user 'mark' facility, which allows the
+operator to record a time-stamped tag in the database to log a specific
+action by the target (e.g. switching a phone on o r off).
+Locating
+The same system can switch function to locate a phone. Using a known
+IMSI, input this into the system, then search your area to grab that IMSI.
+Once the IMSI is grabbed you then have it on your own quiet channel,
+registering to our own phantom cell. Then, using your choice of overt
+or covert radio receiver / spectrum analyser, you can measure the signal
+strength of the phone (IMSI) and locate where it is.
+This can identify where the phone is within houses, rooms and other
+specific locations O n c e operational the user's handset screen displays
+a full strength signal and cell broadcast as normal, so the user is unaware
+it is on the Seeker's channel. The user would be unable to make a call
+throughout the process.
+
+Operational Examples:
+Case scenarios for the use of the FTS Seeker IMSI
+Grabber/Locator
+Identifying unknown mobile phone number of suspects
+You know the identity o f a suspect but need t o identify the mobile
+phone numbers he's using. Whilst carrying out mobile surveillance of
+your suspect, deploy the FTS Seeker. The FTS Seeker can be used in a
+surveillance vehicle or carried in a bag by a surveillance officer on f o o t
+During the surveillance of a suspect the IMSI grabber is set to run from
+different locations. It will obtain IMEI/IMSI numbers from within the
+target area of each location.Any common IMEI/IMSI numbers could be
+linked to the suspect.
+
+Commercial in Confidence
+
+Finding missing persons / kidnap victims / locating suspects
+A Law Enforcement Agency already knows the IMEI/IMSI number it's
+trying to locate and have obtained the last known cell sector it used
+(from the appropriate Network Provider).The FTS Seeker is deployed
+in a vehicle and then on foot in the cell sector area. The IMEI/IMSI
+number is identified and the unit 'locks' i t to an unused radio channel.
+The mobile can be located by using either the inbuilt antenna o r
+ancillary optional direction-finding systems.
+Intelligence Gathering at High Security Events, e.g. Political
+Speeches,VIP visits
+A single o r multiple FTS Seekers can be deployed at fixed points o r
+roaming through key areas o f an event. IMEI/IMSI numbers grabbed
+during t h e event can b e used b y Law Enforcement Agencies f o r
+intelligence purposes. Early identification of suspects can begin straight
+away (possible criminal / terrorist attack at the event), o r through
+analysis after the event. If any known IMEI/IMSI numbers are identified
+during grabs at the event, the system can be switched to locate mode
+and the suspect mobile/s located. As the grabber/locator works on both
+IMEI/IMSI numbers, if the same handset but a different IMSI is used, the
+device will still identify it.
+Search and Arrest Operations
+
+Configuration:
+The system has been specifically designed for effective and convenient
+use in the field. The construction is rugged and compact and i t is
+intended that it can be easily concealed inside a bag such as a shoulder
+bag, rucksack or briefcase.
+
+Directional Antennas
+The u n i t includes directional anntenas
+concealed behind the front covers. These
+provide the user greater range and control
+over the surveillance area.
+Omni-Directional Antennas
+Optional small whip antennas are provided
+to allow circular coverage around the unit
+when there is little or no information about
+the possible location o f the target within
+the search area.
+
+Deliverables Included in
+Basic System:
+
+Prior to entering high risk areas for house searches, the FTS Seeker can
+be deployed in grabbing mode to confirm the presence and location of
+the suspect phones, thereby confirming the presence of a suspect o r
+suspects and ensuring the search teams make the appropriate risk
+assessments.
+
+GSM Handset Identifier/ Locator Unit, with 2 Base station modules
+(normally 900 and 1800MHz)
+PC Software
+Smart phone for Remote Control
+Panel antenna 6 0 ' beam angle
+Omni-directional Whip antennas
+Battery and Mains charger Unit
+I day training for up to 4 persons (UK)
+
+Border Protection
+Although data acquisition takes between 4 5 t o 6 0 seconds ( p e r
+network), providing there is a sufficient choke point within the border
+crossing area to slow down all persons entering, deploy the FTS Seeker
+in it's portable o r fixed grabbing mode and record all IMEI/IMSI's
+entering through the border for later intelligence analysis.
+N.B. The phones to be grabbed/located must be turned on
+
+' 6 0 .
+
+Optional Extras:
+Units for fixed deployment, e.g. at an airport or ferry terminal
+Vehicle Interface Unit or Fixed Mains Power Unit
+Set of I, 2 or 4 small handheld locator units
+(only work with main unit)
+UMTS (3G) induced system reallocation tools to divert 3G users
+onto GSM
+
+Prisons/Secure units
+Detection, identification and locating of unauthorised mobile phones.
+
+Additional advanced training on using a Spectrum Analyser
+Additional batteries
+Handheld Spectrum Analyser
+Licence / support must also be purchased
+
+Technical Information:
+Frequency bands:
+
+Power:
+
+Supplied to cover two GSM bands simultaneously.
+The standard configuration is 900 and 1800 MHz.
+Set-ups with alternative frequencies are available.
+Available Frequencies: 850, 900, I 800 & 1900 MHz
+
+Internal battery: Operating time:
+
+Range:
+Maximum range: up to 300m
+The detection range may be preset by the user.
+Local topography and urban density will affect maximum range.
+Vehicle options can significantly increase range.
+Transmitter Output:
+5mW to I W depending on acquisition range set.
+Complies with EU directive (2204.40/EC) on operator EMC safe
+exposure level.
+Target Acquisition Rate:
+> 300 handsets/minute
+Typical scan time for 4 Networks: 6 minutes
+
+—90 minutes under typical operational use
+—60 minutes continuous use (fully charged battery)
+I 2V (7.0A) via standard auxiliary power adaptor
+100 to 250V (50/60Hz) battery charger unit
+
+Vehicle supply:
+Mains power:
+
+Storage:
+-1 0 to 40° C
+0 to 90% Humidity (non condensing)
+Noise:
+Inaudible operation: < I 5db (SPL)
+
+Physical:
+Dimensions: L e n g t h : 4 4 5 m m
+Width: 3 0 0 m m
+
+Antennas:
+Internal antennas: Directional beam width approx 60'
+Whip antennas: O m n i - d i r e c t i o n a l - 360'
+
+Weight:
+
+<
+
+Height: 1 5 0 m m
+I 0.5kg approx
+(including battery)
+
+•
+
+TII
+
+(May be configured by the user prior to use)
+
+.145 rnrn
+
+Operational Environment:
+Temperature:
+
+0
+
+to 30° C (normal operating cycle)
+30 to 35° C (reduced operating cycle)
+Relative Humidity: 0 to 90% ( n o n condensing)
+300 rnen
+
+Corn -
+
+•
+
+•
+
+-
+
+1
+
+-
+
+•
+
+HEADQUART
+P.O. Box 242
+Sevenoaks
+Kent TN15 6ZT
+United Kingdom
+I : +44 (0)1732 459 811
+F : +44 (0)1732 741 261
+E : infogforensicts.cauk
+
+www.ForensicTS.co.uk
+
+••
+•
+
+:t4
+
+•
+
+Note:
+The information provided in this Technical Information Brochure is intended for use only by Governments, Government
+Institutions and Law Enforcement Agencies approved by the Government of the United Kingdom. The equipment
+described within this Technical Information Brochure will not, under any circumstances, be demonstrated, offered for
+sale, sold or exported to any institution, agency or country not approved by the Government of the United Kingdom.
+ES 74524
+
+@ 2010 Forensic Telecommunications Services Ltd.
+
+Commercial i n C o n f i d e n c e
+
+

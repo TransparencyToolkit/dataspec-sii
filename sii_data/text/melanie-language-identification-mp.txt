@@ -1,0 +1,72 @@
+MELANIE
+Language Identification
+MP
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+MELANIE – Language Identification, MP
+Functionality
+Speech signals can be analysed according to the language prevailing in the speech.
+For each speech signal, an overall score and probability is estimated. In addition,
+these values can also be estimated for any time interval.
+
+Training of Models
+Goal
+
+Training is performed in order to optimise the models on the
+languages and channel of the application.
+
+Training Data
+
+The training data must be labeled according to the language in
+the speech signal. The data must be representative and as
+similar as possible to the data of the application. A minimum of
+one hour of data is required for each language.
+
+Trained Models
+
+In case of insufficient data, trained models for a set of
+languages can be provided to use the system from scratch.
+
+Technical Data
+OperatingSystem Available on Windows XP and Linux
+Processing Time
+• On a P4; 3GHz, 1GB RAM computer
+• Classifying 10 different languages
+• 1/7 of real time; i.e. a signal of 7 minutes length is processed in one minute
+Recognition Rate The recognition rate depends on the number of languages, on
+the similarities and charactistics of the languages, and on the
+speech quality. For example, when distinguishing 5 languages
+in radio quality, an accuracy of 80 % can be obtained.
+Products
+Mel-Pr-MP-site
+Mel-Pr-MP-PC
+Mel-Tr-MP
+Mel-LM-MP
+
+Production environment for MELANIE MP (site license)
+Production environment for MELANIE MP (PC license)
+Training environment for MELANIE MP
+Trained language models for classification with MP
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Consequently, this means that a recording with a signal length of 20
+minutes can be fully classified in one minute.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+

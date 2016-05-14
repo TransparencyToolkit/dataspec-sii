@@ -1,0 +1,258 @@
+Utimaco DRS™
+Automated Data Retention for Telecommunications Service Providers
+
+Features
+Collects communications data (CDR,
+IPDR) and subscriber data from any
+telecommunications network
+Retains large amounts of data in a
+powerful and secure data warehouse
+Provides very fast search and
+analytics in billions of data records
+Automates request processing and
+delivers data to authorized agencies
+by fax, e-mail, or secure IP interfaces
+
+Benefits
+
+Automated Data Retention for
+Telecommunications Service Providers
+
+Complete solution to satisfy the
+
+Retention of subscriber data and communications related data has become a legal require-
+
+Lowest operating costs due to
+
+ment for telecom operators and service providers around the world. Laws and regulations like
+the EU Directive 2006/24/EC oblige telecommunications service providers to retain CDRs,
+IPDRs, as well as subscriber data for a period of six to twenty-four months.While much of the
+data required is being recorded by providers already for billing and marketing purposes, these
+new regulations put some cumbersome and potentially costly obligations on CSPs in regards
+to data security, delivery of data, and completeness of information.
+Utimaco has addressed these challenges with a brand-new approach that is affordable,
+
+data retention obligations of
+communications service providers
+high automation of workflows
+Cost-effective integration in
+existing networks of any size with
+various communication services
+Suitable for large networks with
+several billions of CDRs per day
+Reliable system security and
+data protection
+
+quickly implemented, and secure. Utimaco Data Retention Suite (DRS) is a state-of-the-art,
+purpose-built management system for secure data retention and fast data retrieval. The
+system has been designed to easily integrate into existing network infrastructures that
+generate thousands of data records or even up to several billion records per day.
+Utimaco DRS incorporates a configurable workflow management system which reduces
+operational expenses by automating the administrative tasks of request handling and delivery
+of search results to authorized agencies. Comprehensive security mechanisms like granular
+user management functionality, strong access control, encrypted storage and handover, and
+full audit trails of all user and system events, are fundamental features to support compliance
+with national regulations for data protection and for public safety.
+
+About Utimaco
+For more than 25 years Utimaco is a leading global provider of data security solutions. Since 1994 Utimaco has been
+providing lawful interception systems for mobile and fixed network operators and Internet service providers.
+Utimaco Data Retention Suite was introduced in response to the EU directive 2006/24/EC and at the request of telecom
+customers for integrated LI and DR solutions. With more than 150 installations in 60 countries, Utimaco is a leading
+global supplier in the LI market.
+While Utimaco data security products are now distributed by Sophos, the business units „Lawful Interception and
+Monitoring Solutions“ and „Hardware Security Module“ form Utimaco’s operating businesses.
+
+DRS-Datenblatt_101006 1
+
+06.10.2010 16:09:48 Uhr
+
+Utimaco DRS™
+Hardware Specifications
+
+Operation
+& Administration
+
+Law Enforcement
+Agency
+
+Utimaco Data Retention Suite
+
+Oracle X86 servers
+https
+
+Frontend
+
+DRS Management Server
+
+Various configurations from single
+server appliances to multi-server
+clusters
+
+Workflow Management
+
+ETSI Interface
+
+Web Server
+
+Email Interface
+
+System Monitor
+
+Fax Interface
+
+Integrated disk storage (up to 12TB)
+
+DRS Backend Server
+
+External SAN from 6TB to 1000TB
+(RAID)
+
+Warrant, User, Note, Authority,
+System Management
+
+Handover
+Interface
+Data Analysis
+
+Data Integration
+
+DRS Collection Devices
+
+Sybase IQ data warehouse
+
+HI-B
+
+System Monitor
+
+Backend
+
+Oracle Solaris 10
+Operating System
+
+Data
+Warehouse
+
+HI-A
+
+CD 1
+
+CD 2
+
+CDR
+Mediation
+System
+
+Router
+
+...
+
+CD x
+
+Query
+Processing
+Data Archive
+
+CE marked, FCC compliant, ROHS
+Telecom
+Network
+
+Services
+PSTN telephony
+Mobile telephony & data (GSM,
+UMTS, CDMA)
+Mobile Messaging (SMS, MMS)
+
+Highlights
+
+Internet Access
+(DSL, cable, Wimax, WLAN)
+
+Seamless Integration
+
+Switch
+
+Location
+Server
+
+Subscriber
+Database
+
+E-Mail, Webmail
+
+Utimaco DRS has been designed for seamless integration into existing multi-vendor and multiservice networks. The solution can be customized easily to interface with CDR/IPDR systems, log files,
+sub-scriber databases, and other network nodes.
+
+Other services on request
+
+Multi-tenancy
+
+VoIP, Push-to-Talk
+
+Security
+Granular rights management
+Remote access via https
+(password, certificate)
+Full audit trail (encrypted)
+Data integrity protection
+Encrypted storage (optional)
+Hardened operating system
+
+Performance
+Loads up to 100,000 records
+per second (on one server)
+Average search performance:
+5 sec per 1000 query results
+
+Norms and Standards
+EU Directive 2006/EC/24
+ETSI TS 102 656
+ETSI TS 102 657
+
+One Utimaco DRS system can be used to administer warrants and search requests for multiple network operators and service providers. The granular rights management system of Utimaco DRS can
+be configured to securely segregate between networks, users, and authorities and thus supports
+various business models like MVNO models, managed services, or cross-border service platforms.
+
+High Performance & Capacity
+Utimaco DRS has been optimized for simultaneous loading of massive data volumes and fast query
+processing. The system can ingest several billion data records per day, supporting the transaction
+rates generated by large telecommunications networks with millions of subscribers. Average queries
+results are returned in seconds not minutes.
+
+Strong Security
+Comprehensive security features like role-based access control, encryption and integrity checks prevent
+unauthorized access and manipulations of sensitive data during storage and handover. Full audit trails
+are maintained for all system and user events to provide full accountability for evidential quality.
+
+High-availability
+Server redundancy, RAID-5 data mirroring and real-time system monitoring are integral concepts of
+Utimaco DRS to satisfy highest availability demands and disaster resilience.
+
+Cost-efficiency
+Utimaco DRS runs on broadly available and cost-efficient X86 servers and uses standard SAS/
+SATA disks arranged in RAID-5 arrays. This together with the excellent data compression rates
+reduces hardware expenses to the absolute minimum.
+
+Standards based
+Utimaco DRS is fully compliant with latest ETSI standards in support of the European Data Retention
+Directive 2006/24/EC.
+
+Copyright Information
+Copyright © 1994-2010 – Utimaco Safeware AG - a member of the Sophos group, October 2010
+Utimaco DRS™
+Utimaco DRS is a trademark of Utimaco Safeware AG. All other named trademarks are trademarks of the particular copyright holder.
+Specifications are subject to change without notice.
+
+www.utimaco.com/drs
+Utimaco Safeware AG
+Germanusstraße 4
+52080 Aachen
+Germany
+Phone +49 (0) 241-16 96-0
+li-contact@utimaco.com
+
+DRS-Datenblatt_101006 2
+
+06.10.2010 16:09:50 Uhr
+
+

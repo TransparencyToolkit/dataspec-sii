@@ -1,0 +1,222 @@
+Utimaco L I M S ~ ~
+
+Techpaper
+Lawful Interception with Umbrella Systems
+
+Utimaco LIMS'~
+
+Table of contents
+
+.............................................................................................3
+
+1
+
+The Challenge
+
+2
+
+Umbrella Systems....................................................................................... 4
+
+3
+
+Abbreviations.............................................................................................. 7
+
+Utimaco LlMS
+Techpaper Umbrella Systems
+25. Aug 2010
+
+O Copyright Utimaco Safeware AG
+
+2of8
+
+Utimaco L I M S ~ ~
+
+The Challenge
+The sheer number of lawful interception decisions is constantly increasing, as the method
+of electronic surveillance of telecommunications services becomes the prominent and
+accepted choice of law enforcement agencies (LEAs) and government bodies in their
+fight against crime and terrorism. Today, most fixed and mobile network operators and
+telecommunication service providers have installed systems to enable lawful interception
+(LI) for the various voice and data services they offer to their customers. Comprehensive
+national laws have been established enabling LEAs to engage communications service
+providers (CSPs) to arrange electronic surveillance of specific individuals (also referred
+to as targets). In reality, however, the range of different networks, services, and
+interception systems together with the increasing number of intercepts pose considerable
+challenges for LEAs and monitoring centers. In practice, the sheer complexity of lawful
+interception in such a heterogeneous and dispersed LI environment inevitably leads to
+errors and delays during the activation of LI decisions or in the collection of interception
+data. Furthermore, authorities require an immediate overview of all active intercepts to
+facilitate analysis and statistics of nationwide LI activity.
+
+Utimaco LlMS
+Techpaper Umbrella Systems
+
+25.Aug 201 0
+
+C
+3 Copyright Utimaco Safeware AG
+
+3 of 8
+
+Utimaco L I M S ~ ~
+
+2
+
+Umbrella Systems
+
+Utimaco has addressed these needs and challenges by developing an umbrella
+management system that is capable of interconnecting various LI management systems
+via an automated HI1 interface (see also ETSl TS 101 671 for a definition of Hll-H13
+interfaces). As shown in figure l ) , the umbrella LlMS is a single interface and
+management platform for all monitoring centers. lntercept targets entered at the umbrella
+system are provisioned to the various operator LI systems. Delivery of communications
+content (CC) is effected directly between the mediation devices or interception access
+points of the operator's network and the collection devices of the monitoring center.
+lntercept related information (IRI) is first handed over to one mediation device per service
+provider participating in the umbrella system. This guarantees that all IRI is logged,
+tagged and delivered to the appropriate monitoring center in a standardized format that
+enables the monitoring center to correlate CC and IRI with the original intercept.
+
+Figure 1 : Architecture of the Umbrella LI System
+
+Utimaco LlMS
+Techpaper Umbrella Systems
+25. Aug 2010
+
+O Copyright Utimaco Safeware AG
+
+4 of 8
+
+Utimaco L I M S ~ ~
+
+As shown in the diagram, the LI systems of the providers maintain an important role in
+the network as they connect to the proprietary interfaces of the various network elements
+and incorporate mediation and delivery functions for each type of service.
+The use of an umbrella system has various advantages for administrative bodies:
+m
+
+Immediate access: Intercept targets can be activated instantly and provisioned
+automatically on one or more operator networks. There is no delay due to paper
+fax or manual configurations on several systems.
+Central database: The central storage and maintenance of all intercept targets
+enables full control of all active interception requests. It facilitates security audits
+and consistency checks, and allows detailed statistics and instant failure
+recognition.
+Transparency: Administration and delivery channels between the connected
+service provider systems are strictly segregated. This ensures that operator
+network personnel have no access to any details of interception decisions in other
+networks.
+No performance loss: Although the administration function is centralized,
+delivery of intercept data is effected directly from the distributed mediation devices
+(DF2) and network elements to the monitoring center.
+Reliability: The central management of all LI systems enhances the reliability of
+the entire LI network. System failures can be detected automatically by alarm
+messages so that operators can immediately take appropriate action or require the
+administrator of the faulty network to analyze the problem locally. To further
+enhance the availability of the system, a redundant management server can be
+operated in hot standby mode. Should local failure recovery fail, the system can
+instantly switch to the standby server. Automation of the provisioning process
+further reduces the risk of human error.
+Cost reduction: Automation of the provisioning interfaces (HII) leads to an
+acceleration of processes and thus reduces the costs of operation for both the
+LEA and the service provider.
+
+Utimaco LlMS
+Techpaper Umbrella Systems
+
+25. Aug 2010
+
+C3 Copyright Utimaco Safeware AG
+
+5 of 8
+
+Utimaco L I M S ~ ~
+
+Extensibility: The modular architecture of the Utimaco umbrella system provides
+a solid basis for future extensions of the LI system. In fact there is virtually no limit
+to the number of client systems that can be connected to the umbrella LIMS.
+Similarly, the maximum number of interception targets and the range of supported
+communication services can be scaled to need by adding new mediation devices.
+Furthermore, LlMS includes a granular access rights management system for
+multiple local or remote operators. For instance, it would be possible to have
+multiple LEASoperating on the same umbrella LlMS while maintaining individual
+security profiles for each LEA.
+
+Utimaco LlMS
+Techpaper Umbrella Systems
+
+25.Aug 2010
+
+O Copyright Utimaco Safeware AG
+
+6of8
+
+Utimaco L I M S ~ ~
+
+3 Abbreviations
+CC: Content of Communication
+CSP: Communication Service Provider
+DF2: Distribution Function for IRI
+DF3: Distribution Function for CC
+HII, H12, H13: Standardized hand-over interfaces to LEAS
+IRI: Interception Related Information
+LEA: Law Enforcement Agency
+MC: Monitoring Center
+
+Utimaco LlMS
+Techpaper Umbrella Systems
+
+25. Aug 2010
+
+O Copyright Utimaco Safeware AG
+
+7 of 8
+
+1.
+
+&
+
+-
+
+. :
+
+P
+p
+
+-
+
+-
+
+Utimaco LIMS"
+
+Utimaco Safeware AG
+Germanusstr. 4
+52080 Aachen
+
+Germany
+Phone: +49 (241) 1696-0
+Fax:
+
++49 (241) 1696-199
+
+Copyright lnformation
+
+G9 2010 - Utimaco Safeware AG
+All rights reserved.
+The lnformation in this document must not be changed without the expressed written agreement of Utimaco
+Safeware AG.
+
+Utimaco LlMS is a trademark of Utimaco Safeware AG. All other named trademarks are trademarks of the
+particular copyright holder. Individual functions may have different characteristics according to the different
+capabilities of the operating systems.
+
+Utimaco LlMS
+Techpaper Umbrella Systems
+
+25.Aug 2010
+
+O Copyright Utimaco Safeware AG
+
+8 of 8
+
+

@@ -1,0 +1,103 @@
+NETTAP @ADSL
+SONDE PASSIVE D’INTERCEPTION ADSL SUR LIGNE ANALOGIQUE
+
+NetTap est une sonde
+d’acquisition du flux IP passant
+sur une ligne ADSL
+NetTap couvre les différents
+protocoles ADSL, y compris
+l’ADSL 2+
+Complètement passive via une
+interface
+haute
+impédance
+(invisible au niveau CPE1et CO1).
+Indépendante des équipements
+utilisés
+par
+les
+opérateurs,
+fournisseurs d’accès ADSL et
+modems client.
+NetTap est administrée à travers
+une interface Web, sécurisée par
+HTTPS, qui permet :
+- La configuration des sondes
+(données administratives, filtres,
+ligne de renvoi, chiffrement, …)
+- La supervision des sondes (état,
+alarmes, …).
+
+MAIN FEATURES
+Interception simultanée des
+flux montant (upload) et
+descendant (download), sous
+forme de fichiers PCAP. Ces
+fichiers peuvent être chiffrés.
+Génération de
+(Interception
+Information).
+
+fichiers IRI
+Related
+
+Facilité de mise en œuvre.
+Indépendant des protocoles
+réseau.
+Deux
+modes
+fonctionnement :
+
+de
+
+Mode miroir permettant, après
+démodulation, de renvoyer
+tout le trafic IP sur un lien
+Ethernet qui pourra être sniffé
+par n’importe quel équipement
+d’analyse réseau (sondes
+Ethernet).
+Mode
+autonome
+filtré
+permettant de stocker le trafic
+IP en fonction de règles de
+filtrage définies par l’utilisateur
+puis de le rejouer à posteriori
+ou à distance.
+
+INTERCEPTION DIRECTE
+
+INTERCEPTION CHEZ L’OPERATEUR
+
+SPECIFICATIONS TECHNIQUES
+Spécifications
+• Dimensions (mm) 210(L)x254(l)x56(H)
+• Poids (kg)
+
+4
+
+Normalisations ADSL supportées
+•
+
+ADSL
+
+•
+
+ADSL2
+
+ADSL2+
+
+ITU-T G.992.1
+ITU-T G.992.3
+ITU-T G.992.5
+
+Entrées
+• Branchement parallèle sur ligne analogique ADSL (connecteur RJ11)
+• Alimentation 110-240VAC 50/60Hz
+Sorties
+• Interface de miroir Ethernet (connecteur RJ45)
+• Interface Ethernet d’administration et d’accès distant (connecteur RJ45)
+LES SPECIFICATIONS PEUVENT ETRE MODIFIEES DANS ANNONCE
+
+

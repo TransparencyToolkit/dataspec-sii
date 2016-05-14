@@ -1,0 +1,133 @@
+GSM Analyzer
+Analyze multiple GSM links
+across Gs, Abis, A, Ls, Lb,
+Lp, Up, B, C, D, and more
+
+
+Supports MTP2, MTP3, SCCP,
+BSSMAP, MM, CC, SMS,
+BTSM, RR etc.
+
+The Global System for Mobile communications is a digital cellular communications system.
+GSM standards are used to provide the interface between the various entities in GSM network.
+Supports National and
+International Variants
+
+
+Decodes RR Layer Nontransparent Messages
+
+
+Transmit Recorded Trace
+Files
+
+
+Summary, Detail, Hex-dump,
+Statistic and Call-trace views
+
+
+Search & Filtering capabilities
+
+
+Real-time & Offline analysis
+
+
+Statistics Based on Framecount, Byte-count etc
+
+
+GSM networks presently operates in three different frequency ranges:
+• GSM 900 (operates in the 900 MHz frequency range and is the most common in Europe
+and rest of the world),
+• GSM 1800 or DCS 1800 (operates in the 1800 MHz frequency range and is found in a
+rapidly-increasing number of countries including France, Germany, Switzerland, the UK,
+and Russia)
+• PCS 1900 or DCS 1900 - the only frequency used in the United States and Canada for
+GSM).
+Between these the only differences, so far seem to be the power levels, frequency & some small
+changes in signaling
+GL’s GSM Analyzer is used to analyze GSM protocols, a switching and signaling
+telecommunication protocol between MSC & BSC, BSC & BTS, MSC & HLR, MSC & VLR,
+etc. and operates on T1 & E1 channels. GL Communications supports the following types of
+GSM analyzers:
+• Real-time GSM Analyzer (Pre-requisites: GL's field proven E1 or T1 internal cards or USB
+Laptop E1 or T1 external units, required licenses and Windows 2000/XP Operating
+System).
+• Offline GSM Analyzers (Pre-requisites: Hardware Dongles and Windows 2000/XP
+Operating System).
+Main Features
+• Interfaces supported - A, A-bis, B, C, D, E, F, H, J, Gs, Up, Ls, Lb, and Lp.
+• Summary View displays MTP2, MTP3 information, GSM Message types, information
+about various channels used during the call, frequency hopping etc.
+• Detailed View displays easy to understand decodes of user-selected frame.
+• Decoding of many RR layer non-transparent messages such as “System Information”,
+“Measurement Result”, “Immediate Assignment” etc.
+• Statistics view displays statistics based on frame count, byte count, frames/sec, bytes/sec
+etc for the entire captured data.
+• Call trace view displays call statistics such as number of active/completed calls, duration of
+completed calls, Type of Call (e.g. SMS/Location), IMSI/TMSI associated with each call.
+• Call Detail Recording feature includes data link groups that help in defining the direction
+of the calls in a given network.
+• Recorded trace files can be played back using HDLC playback option.
+• Simultaneous decoding of multiple GSM Links on the different T1/E1 channels.
+• Exports detailed and summary information to a comma delimited file for subsequent import
+into a database or spreadsheet.
+• Remote monitoring capability using GL's Network Surveillance System.
+For more details, please visit our web page http://www.gl.com/gsmanalyzer.html.
+
+818 West Diamond Avenue - Third Floor. Gaithersburg, MD 20878 z (V) 301-670-4784 (F) 301-670-9187
+Web Page Address: http://www.gl.com/ z E-Mail Address: gl-info@gl.com
+
+Summary, Detail and Hexdump Views
+The analyzer displays summary, detail, call trace, statistics, and
+hex dump views in different panes. The summary pane displays
+Dev#, Time Slot, Frame#, Time, Length, Error, Summary view
+displays Dev#, Time Slot, Frame #, Time, Length, Error, BSN,
+BIB, FSN, FIB, Status Field, SLC, DPC, OPC, SCCP Message,
+and so on. User can select a frame in summary view to analyze
+and decode each frame in the detail view. The Hex dump view
+displays the frame information in HEX and ASCII format.
+
+Real-time and Offline Analysis
+Users can capture and analyze GSM frames in real-time and
+record all or filtered traffic into a trace file.
+The recorded trace file can then be analyzed offline and
+exported to ASCII file, or printed. Real-time capturing requires
+user to specify timeslots, bit inversion, octet bit reversion,
+user/network side, and data transmission rate. Recorded trace
+file can be opened later for offline analysis. and can then
+transmit using the HDLC File Playback application.
+
+Filtering and Search
+Users can record all or filtered traffic into a trace file. Filtering
+and search capability adds a powerful feature to the GSM
+analyzer. This feature can isolate required frames from captured
+frames in real-time, as well as offline. Users can specify custom
+values for frame length to filter frames during real-time capture.
+The frames can also be filtered after completion of capture
+according to Data Link, MTP2, MTP3, SCCP, LAPD, BTSM,
+RR, MM and more. Similarly, search capability helps user to
+search for a particular frame based on specific search criteria.
+Call Trace & Statistics View
+Call trace defining important call specific parameters like Call
+ID, Call disposition, Call duration, OPC/DPC, Call type (pointto-point/point-to-multipoint etc) calculated based on signaling
+messages, are displayed in Call Trace view. Various statistics
+can be obtained in statistics view to study the performance and
+trend in the GSM network based on different parameters e.g.
+Use Type, Statistic type and various patterns.
+Buyers Guide:
+XX150 - Real-time GSM Protocol Analyzer (T1 or E1)
+OLV150 - Offline GSM Analyzer
+Related Software
+XX090 - HDLC Capture and Playback Software (T1 or E1)
+XX120 - Real time SS7 Analysis Software (T1 or E1)
+XX153 - TRAU Analysis & Emulation Software
+XX155 - GPRS Analysis Software
+Related Hardware
+UTE001 - Portable USB based Dual T1 or E1 Laptop Analyzer
+
+HDT001/HDE001 - HD T1 or E1 PCI Cards
+*Specifications and features subject to change without notice.
+
+818 West Diamond Avenue - Third Floor. Gaithersburg, MD 20878 z (V) 301-670-4784 (F) 301-670-9187
+Web Page Address: http://www.gl.com/ z E-Mail Address: gl-info@gl.com
+
+

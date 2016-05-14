@@ -1,0 +1,164 @@
+Automatic Speaker ldentification System (ASIS)
+deployed f o r b u i l d i n g
+
+centralized voice biometrics databases
+- dedicated t o l a w enforcement organizations -
+
+new to01 f o r identification
+o f suspects a n d criminals during investigations
+
+p r o v i d i n g police forces with a
+
+ASlS - Feature rich capabilities:
+ASlS provides services comparable t o existing Automatic
+Fingerprint Identification System (AFIS):
+Collecting voice biometrics information o f known
+or unknown suspects and related details (e.g.
+name/group) o n a central database;
+Comparing 'field' samples (e.g. intercepted calls) o f
+an unknown individual against voice biometric models
+stored in the central database (or a sub-unit o f it by
+applying criteria such as Gender or Language): 1 t o M
+identification.
+The identification results consist o f a list o f possible
+candidates with matching scores (ranked from highest t o
+lowest probability t o show that the audio test belongs t o
+the suspect), thus providing support f o r further
+investigations.
+
+ASlS has been designed t o cater f o r different customers'
+
+ASlS Functions:
+
++ Centralized Voice Biometrics Database
+3 Speaker Identification (SID)
+
+ASIS Use cases:
+I) Storage of voice samples
+
+f o r further
+
+intelligence required in a speaker query
+
++
+
+Subsequent identification o f speakerls
+involved in a case during a Police o r Security forces
+Investigation
+
+requirements (small t o large deployments). ASlS takes
+advantages o f client-sewer architecture: deployment
+cost reduced, n o disk space needed on the client's PC,
+data stored o n t h e server with far greater security
+controls, control access and resources guaranteed, etc.
+ASlS uses ACNITlO's proprietary and pioneering voice
+biometrics technology (text independent, channel
+independent and language independent) based o n
+unique information extracted from an individual's vocal
+tract, thus obtaining a high level o f accuracy and
+reliability.
+
+ASISpsweb-based interface is
+intuitive, scalable and can be integrated
+into a multi-modal platform including
+complementary biometrics to increase
+identification accuracy
+
+----
+
+-
+
+ASlS Key competitive advantages:
+
+*dl
+
+3 Architecture
+ASlS is a distributed system ~Iient-seI-~er
+whereby
+t h e application server responds t o requests coming
+from all Web clients: ASlS provides identification
+capabilities f o r multiple operators w i t h multiple
+simultaneous requests
+
+ASlS interface
+
+AS1S is:
+
+Intuitive: does n o t require any expertise
+Scalable: f r o m a single server t o multiple
+server system
+
+Modular: from 5,000
+
+t o Imillion voices stored
+and from 5 t o u p 1,000 simultaneous connections
+
+3 Main functionalities
+Database
+management:
+registration,
+modification, deletion, search
+Training (voice
+model) and launching
+identification (immediately or delayed)
+Process monitoring and administration
+Database access control (different profiles)
+
+ASlS Architecture
+
+I
+
+3 Performance
+ASIS'S multi-engine architecture enables speaker
+identification among more than loo,ooo voice models
+in Iminute, on recommended hardware platforms
+
+AGNITIO - Leading Voice Biometric
+Technology for Homeland Security:
+Recent independent tests conducted by International
+Biometric Group (IBG) demonstrated AGNITlO's
+superior voice biometric technology capabilities.
+'Agnitio identified the correct voice within the
+top 2 results 99.02% of the time using 60 seconds of audio
+in a cross channel environment.'
+
+International-Biometric-Croup
+t c a r a r r h
+
+Consulting
+
+I a l r g r . t l o n
+
+ACNITlO's voice biometric consultants are available t o
+provide all t h e necessary expertise and support t o our
+clients worldwide in order t o ensure the best results.
+Consulting services include voice database creation,
+basic and advanced training f o r users and system
+administrators.
+
+ASlS in Keywords:
+'A pioneering Voice Biometrics
+Database'
+Voice Database Management,
+
+SID
+
+High Accuracy
+
+Rapid and Efficient
+
+Intuitive and User-friendly
+Scalable
+
+Modular
+~ v d c Bianetricr
+e
+Database
+
+ww.agnitio.es
+
+info@agrtitio.es
+Headquarters; Madrid, Spa'n
++34 91 5'Q 24 17
+
+

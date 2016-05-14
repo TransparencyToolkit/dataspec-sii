@@ -1,0 +1,332 @@
+Intercepted internet traffic in
+a classified environment
+
+FoxReplay
+Workstation
+Protection
+Analysis of intercepted IP traffic in a classified
+environment brings along specific challenges.
+Without proper security measures, intercepted
+malicious content may manifest itself in the
+classified analysis network. This concerns
+viruses, worms, adware but also malicious
+code specifically designed by third parties
+(e.g. certain tapped entities) to disrupt
+interception capabilities.
+This document describes several options to
+ensure that potentially insecure and malicious
+content can be analysed in a classified
+environment.
+
+Prerequisites
+
+Sandboxing
+
+The following prerequisites apply to the several options to handle insecure
+
+Virtualisation techniques and sandboxes making the reconstructed data
+
+and malicious content described in this document:
+
+available to analysts is a good security measure that assures that if virus
+
+•
+
+Data can be active and passive. Passive data is stored and cannot
+
+protection fails, infections do not spread to other systems and are limited
+
+perform actions or have actions performed. Active data may – with or
+
+to the virtual environment. In combination with remote desktop con-
+
+without user intervention (“clicking”) – lead to execution of instruc-
+
+nections, this ensures the workstations used by the analysts remain free
+
+tions on a computer.
+
+from any (malicious) active content and any infected system can easily be
+
+•
+
+Intercepted traffic in packets is passive.
+
+“refreshed”.
+
+•
+
+Reconstructed traffic by FoxReplay Analyst may become activated.
+
+Please note that these safe environments sometimes can be detected by
+
+•
+
+Word documents, email messages, web pages, Excel spreadsheets,
+
+the hostile code and acted upon i.e. defending itself from being analysed,
+
+chat conversations etc. are all active data.
+
+destroying the guest operating system prior to allowing the tracing of the
+
+A just viewed and handled graphical representation is not active any
+
+program, etc.
+
+•
+
+more.
+•
+
+Active data can be transformed, using the right techniques, into pas-
+
+Diverse operating systems and applications
+
+sive (visual) documents (e.g. in PDF format or screen dumps).
+
+Using different operating systems may limit the impact of malicious code
+in a network environment as it may not be effective on all hosts. In some
+
+Protection Controls
+
+cases this includes the application layer as well. Where a hostile exploit
+usually focuses on one particular (version of an) operating system or ap-
+
+Virus Scanner
+
+plication, it leaves systems running other software (versions) unharmed.
+
+The most elementary security measure that is able to protect against most
+
+Although it may seem a trivial measure, this may ensure continuous availa-
+
+public viruses, worms and other forms of malicious content is the imple-
+
+bility of the environment in case virus protection software fails.
+
+mentation of virus scanners. However, application of virus scanners alone
+does not always offer the right level of protection.
+
+Network segmentation and isolation
+
+Virus scanners should be applied at the client level and only if required at
+
+To prevent further spreading of malicious code, strict network segmen-
+
+the server level. The former allows for protection against malicious content
+
+tation and host isolation is essential. Communications with other systems
+
+that is “run” on the analysts’ workstations, e.g. local exploits, macro code
+
+should be limited to the bare essential protocols. Firewalls, data diodes
+
+in MS Office documents, etc. The latter could be applied to provide a certain
+
+and content filtering can be used to enforce this. The virtual sandboxes
+
+level of protection for the analysis server infrastructure, including the
+
+should be isolated from each other and have no means of communicating
+
+FoxReplay Analyst servers. The use of different vendors may be advised on
+
+with any other system in the virtual sandbox infrastructure, just with the
+
+different layers of the infrastructure. In case a virus is not detected by one
+
+client that started them and the proxy to the FoxReplay Analyst infrastruc-
+
+antivirus product, the other virus protection product may be able to
+
+ture.
+
+detect it.
+Please note that if antivirus software is used, this may have an impact on
+
+There are several ways of achieving this. In the network infrastructure,
+
+performance on both the client and the server side. Furthermore, some
+
+isolated or private VLANs could be defined to ensure hosts only are able to
+
+content may be blocked resulting in failed or partial reconstruction of
+
+communicate with the FoxReplay Analyst infrastructure and not with each
+
+intercepted internet data. This is especially the case on the server side of
+
+other. This measure relies on adequate configuration of (virtual) network
+
+the infrastructure.
+
+switches. Another solution is using a (secure) tunnel from a virtual sandbox to the FoxReplay Analyst environment, all communications is routed
+
+Remote Desktop
+
+over this tunnel to the proxy server. Unless any hostile code is able to
+
+Using terminal server, Citrix or VMware-like solutions allows for concen-
+
+change routing tables and/or the default gateway, this denies virtual sand-
+
+tration of active data in a single assigned location. Centrally dedicated
+
+boxes talking to each other and prevents spreading of malicious content.
+
+servers process the active data as reconstructed by Fox ReplayAnalyst. The
+active data is presented to the analysts through a remote desktop connection, exchanging only keyboard, video and mouse control data between the
+servers and the client systems. The active data is passed as passive data to
+the client workstations.
+Using remote desktop provides good assurance that any infection by intercepted malicious code does not affect the client system used by the analyst.
+
+Benefits of FoxReplay Analyst
+
+Defence in depth
+The best level of protection is achieved when the above security measures
+are combined, creating a layered defence against malicious content. A buf-
+
+•
+
+Real-time & Streaming
+
+fer zone or DMZ for performing the actual analysis in between the FoxRe-
+
+•
+
+Perfect reconstruction
+
+play Analyst infrastructure and the classified network provides assurance
+
+•
+
+Communication in chronological order
+
+hostile code is isolated and cannot spread any further. Antivirus software
+
+•
+
+Full-text search
+
+is installed on both the analyst’s workstation and the virtual sandbox
+
+•
+
+Swift support for changed internet protocols / applications
+
+environments. From the physical workstation in the classified network,
+
+•
+
+Support for custom internet protocols / applications
+
+an analyst “remotely” starts and connects to an isolated virtual sandbox
+
+•
+
+As easy as using the internet
+
+environment (DMZ) for analysis. This can be achieved by a physical KVM
+
+•
+
+See exactly what the target saw
+
+connection or approved remote desktop software.
+
+•
+
+Simultaneous ‘side-by-side’ communications
+
+•
+
+Supports all natural languages
+
+•
+
+Client-side software
+
+Limited functions are available to create for example PDF reports and
+export them outside the virtual sandbox environment into the classified
+network. Normal data diode and content filtering constructions for importing data into a classified network should be used.
+
+Sample Deployment
+Below is a sample deployment that includes the levels of workstation
+protection discussed above. The workstations only send keyboard and
+mouse commands to the virtual sandbox infrastructure and receive only
+video updates back through e.g. a remote desktop protocol. By default, like
+any other system in the network, the workstations have virus protection
+software installed. The analyst uses a virtual sandbox to start Mozilla
+Firefox and connect to the proxy server of the FoxReplay Analyst Infrastructure. Each virtual sandbox as well as the virtual sandbox infrastructure also runs virus protection and is isolated from the other sandboxes
+through private VLANs and/or dedicated tunnels to the FoxReplay Analyst
+environment. Antivirus software in the FoxReplay Analyst infrastructure
+environment is optional and could be considered.
+Virtual Sandbox
+Infrastructure
+
+Virtual
+Sandbox
+
+Workstation
+
+Workstation
+
+Classified network
+
+Firewall
+/ Diode
+
+kvm
+
+Virtual
+Sandbox
+
+Sandbox Network
+
+In case a virus manifests itself in a virtual sandbox, first the virus protection software should trigger and eliminate the threat. If this fails, the
+second layer of protection is that the virus is isolated to the specific virtual
+sandbox and cannot spread to other sandboxes or most importantly, the
+classified network.
+
+FoxReplay Analyst Infrastructure
+
+Proxy
+
+Firewall
+
+https
+
+Viewer
+Node
+Viewer
+Node
+
+Fox-IT
+Fox-IT is a leading IT security company with a strong international reputation. From our headquarters in the Netherlands and
+our offices in Aruba and the UK, we deliver specialist security
+and intelligence solutions for government bodies and other
+major organizations worldwide. Our core business is developing
+solutions for the protection of state secrets, conducting digital
+forensics, audits, managed security services, consultancy and
+training courses.
+
+contact
+Fox-IT
+Olof Palmestraat 6
+2616 LM Delft
+The Netherlands
+t
+f
+e
+
+P.O Box 638
+2600 AP Delft
+
++31 (0)15 284 79 99
++31 (0)15 284 79 90
+replay-sales@fox-it.com
+
+www.foxreplay.eu
+
+

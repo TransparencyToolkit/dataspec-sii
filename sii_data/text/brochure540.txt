@@ -1,0 +1,1803 @@
+ASA
+Delivering Complex: Interoperability
+
+ASA
+
+L-3 ASA is a pioneering systems solutions company with core capabilities in
+
+the development and through life management of ~ohp~ei~nformation
+Systems, Data Fusion Solutions and Mission ~onfi~uradle
+Communication
+Systems.
+
+The threats facing commanders in the defence and security domains remain challenging and uncertain,
+while the capabilities and forces a t their disposal have never been more complex.
+A t L-3 ASA we understand this complexity and recognise the absolute need for capability integration,
+
+interoperability and system agility a t every C2 level.
+Space Situational Awareness
+
+Understanding our risks and vulnerabilities in this domain requires an awareness of operational activity
+in Space and the ability t o detect and respond to threats and unforeseen events.
+At L-3 ASA we have a strong reputation for developing products to enhance Space Situational
+Awareness, through the optimisation of sensors and through the fusing of multi-source data, to provide
+greater discrimination and characterisationof Space activity.
+
+With the richness and variety of modern communications methods, being able to connect securely and
+reliably is essential.
+
+~
+
+L-3 ASA's enabling technologies have been satisfying the needs for Government, Military and
+
+Commercial customers for over 15 years, supplying robust high availability systems for deployment in
+challenging environments.
+
+11
+
+Intelligence Systems
+
+For over a decade UK law enforcement has utilised a range of L-3 ASA's intelligence, workflow and case
+management solutions.
+Providing multi-level security access these solutions allow for the analysis and dissemination of highly
+sensitive information in a secure and reliable way and users can structure, manipulate and tag data to
+meet their own requirements.
+
+L-3 ASA lnformation Systems Business Stream covers a number of technologies and applications.These
+include our Passenger lnformation and Entertainment Systems, Content Management, Intelligent
+Maintenance and Operation Management systems. Be it by Air or Rail, Passengers now expect to be
+connected from when they leave home to when they arrive at their destination. L-3 ASA's proven
+
+.
+
+JK OFFICE
+.-3 Communications ASA Ltd
+lusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU51
+' +44 (0)1252 775700
++44 (0)1252 775701
+S OFFICE
+division of L-3 STRATIS, 1 1955 Freedom Drive, Reston VA 20190
+
+~ww.L-3asa.com info.asa@L-3com.com
+
+.........................................
+
+.........................................
+
+Man Portable Signal Intelligence System
+Linkabit's AN/PRD-13(V)2 Man Portable Signals Intelligence (SIGINT)
+System incorporates sophisticated RF intercept and Direction
+Finding (DF) processing capabilities into a low power, lightweight, ruggedized, and reliable system that satisfies the most
+demanding applications and mission requirements.
+The ANIPRD-13(V)2 has been developed to support tactical SIGINT
+missions by providing:
+Signal Environment Characterization
+Signal Exploitation
+Signal Location
+Threat Warning
+The ANIPRD-13(V)2 contains a powerful signal
+search capability that allows quick and accurate characterization of the signal
+environment. The system can support directed search, general search, or a combination of
+searches, providing the user greater flexibility.
+For directed searches, the system allows the user to program a channel list of up to
+400 normal plus 20 priority channels.
+The system's general search capability allows for the monitoring of up to 9 bands.
+Three band search strategies are supported: automatic, semi-automatic, and new energy. In
+addition, a frequency pass list of up to 400 signals can be maintained.
+When signals are detected, the system can maintain an active signals list measuring
+center frequency, bandwidth, time-first-seen, percent time active, DF bearing, and signal
+strength. An optional recorder is available to record and playback intercepted audio and
+signal parameters.
+
+Linkabit
+
+I
+
+ANIPRD - 13(V)2 Man Portable Signal Intelligence System
+
+The system has been optimized for the man portable tactical mission. The entire
+system can be transported and operated by a single person, set-up in less than 5 minutes,
+and weighs just 19.5 kg (43 lbs) including the MB-5700 NiCd Battery and all field
+accessories. The system, cables, and components fit in a single pack and can be
+parachute jumped in support of airborne operations.
+Key system components include the:
+MD-405A ReceiverIProcessor
+MA-445C HFIVHFIUHF DF Antenna (2-2000 MHz)
+MA-715A HFIVHFIUHF Monitor Antenna (2-2000 MHz)
+MA-308 Handheld DF Antenna (2-500 MHz)
+The heart of the ANIPRD-13(V)2 is the MD-405A ReceiverIProcessor. This unit
+includes all system interfaces, three receivers, and dual microcontrollers, plus associated
+display and man-machine interface (MMI) functions. The task-managed
+MM1 provides easy, convenient operator access to all receiver
+resources and system features. The processor uses a patented single
+channel interferometer DF technique providing accurate DF and excel-
+
+L
+
+lent sensitivity in a system that is low power and lightweight. It provides superior performance with most modulation signal types
+including SSB and OOK-Morse. The DF histogram display is particularly effective during weak signal conditions, simplex nets, or adverse
+propagation conditions that typify lower frequency bands.
+The lightweight, low profile MA-445C HFIVHFIUHF antenna
+provides accurate DF coverage from 2 to 2000 MHz. The MA-715A
+
+THE M D - 4 0 5 A RECEIVER/
+
+broadband dual whip antennas provide monitoring capability from 2 to 2000 MHz. The
+
+PROCESSOR IS THE HEART OF
+
+MA-308 is a handheld DF antenna used to support localization of nearby transmitters
+
+THE ANIPRD-13(V)2 SYSTEM.
+
+during on the move missions, such as locating a downed pilot's beacon. Other antennas
+may be used with the system to optimize it for ground vehicle, maritime, or fixed site
+applications.
+The use of a low power design and effective power management allows the system
+to be operated using the internally mounted MB-5700 NiCd or other approved battery.
+An optional solar panel can be provided to power the system for extended operations or
+to recharge the MB-5700 NiCd battery. Additionally other power sources can be utilized
+with use of the provided accessory kit including local power at 110 or 220 VAC at 50 or
+60 Hz, and direct DC power from 10 - 28 VDC.
+
+"Linkabit is the world leader in small, lightweight, low power
+signal intercept, direction finding, and signal processing systems for tactical Signals Intelligence (SZGZNT) applications."
+
+Features
+Frequency Coverage
+
+2 - 2000 MHz DF and Intercept (MA-445C)
+2 - 2000 MHz Monitor (MA-7 15A)
+2 - 500 MHz DF (MA-308)
+
+Demodulators
+DFIIntercept Receiver
+Monitor Receivers
+
+FM (200 kHz, 50 kHz, 15 kHz), AM (15 kHz, 6 kHz), SSB (6 kHz, 3 kHz), CW (3 kHz, 0.5 kHz)
+FM (15 kHz),AM (15 kHz, 6 kHz), SSB (6 kHz, 3 kHz), CW (3 kHz, 0.5 kHz)
+
+DF Accuracy
+
+3" RMS Typical (Antenna and Location Dependent)
+
+DF Coverage
+
+360" Azimuth, 0" to +60° Elevation
+
+Graphical Displays
+
+PAN (SOkHz, 200kHz, 900kHz, SMHz spans)
+DF (Histogram and Vector)
+
+Number of Receivers
+
+1 DFlIntercept and 2 Monitor Receivers; manual independent receiver control by user
+
+Remote Interface
+
+RS-232C
+
+Receiver Operating Modes
+
+Directed Search (Channel Scan): 400 Normal channels, 20 priority channels
+General Search (Band Sweep): Automatic, semi-automatic, new energy modes
+Bands: Selectable, 9 bands
+Signal List: Log up to 400: Center frequency, BW, time statistics
+Pass List: Avoid up to 400 channels
+Built-In-Test: End-to-end system test, includes: Start-up. Operator Initiated, and background
+
+Physical Characteristics
+
+System Weight: 19.5kg (43 lbs) including MB-5700 NiCd Battery and all field accessories
+Power: 9.5 watts max
+Power Input: 10 to 28 VDC
+Temperature: -20°C to +50°C Operating
+-40°C to +70°C Storage
+Humidity: 0 to 100% Condensing
+Altitude: 15,240 meters (50,000 feet)
+Submersion: 1 meter (3 feet) for 1 minute (MD-405A)
+Rain, Salt Fog, Vibration: Tested to MIL-STD-810E modified
+
+ANIYKU-13(V)2 Man Portable Signal ~ntelligenceSystem
+
+2tst
+
+Century Leadership
+
+i n Small, Lightweight,
+
+Low
+
+Power
+
+SIGINT
+
+Systems - Linkabit is the world leader in small, lightweight, low power signals intercept,
+direction finding, and signal processing systems for tactical signals intelligence (SIGINT)
+applications. U.S. and international military
+forces and law enforcement agencies use our
+systems to provide critical SIGINT capability
+for a multitude of missions. These include
+systems for man portable and small
+platforms, such as ground vehicles and pat
+Located in San Diego, we are committed to
+providing the best high technology-based SIGINT
+products
+
+and
+
+services
+
+to
+
+our
+
+customers. This commitment ensures
+that our systems provide maximum
+self-protection and situational awareness to users on the electronic battlefield, regardless of the climatic
+condition or location.
+Today's
+
+information-intensive
+
+operations are a forerunner to tomorrow's exciting
+challenges. We are uniquely
+
+positioned
+
+to help
+
+Government and commercial customers succeed by delivering optimum solutions at the best
+value. Since the early 1980's, we have continuously delivered leading edge solutions to our
+customers, while steadily expanding our capabilities, products, and performance reputation.
+
+Note: All specifications subject to change without notice
+
+Cleared by DoDIOFOISR for public release under
+OFOISR Case Number 06-S-1185 on May 2 , 2006.
+
+LlNKABlT DIVISION
+
+3033 SCIENCE PARK ROAD, SAN DIEGO, C A 92121
+( 8 5 8 ) 552-9555 FAX ( 8 5 8 ) 552-9668 WWW.L.~COM.COM
+Product Service Help Deslc 1-800-331-9401
+e-mail: LinkabitProducts@ L-3comcom
+
+Linkabi
+
+SIGpac Man Portable
+Signals Intelligence (SIGINT) System
+Linkabit's SZGpac is the next-generation tactical Signals Intelligence (SZGZNT)System for
+globa1,fill-spectrum operations. Its low-power, lightweight, ruggedized and modular design
+incorporates sophisticated state-of-the-art W,signal processing and Direction Finding (DF)
+techniques. Using a software-driven design approach, SZGpac gives today 's intelligence
+professional a versatile and modular capability that is easily scaled to support a wide variety of
+missions to include man-packable, mobile, riverine, and unmanned applications.
+The SIGpac simultaneously conducts DF, monitor, search and scan operations. There are
+three search modes for both General and Directed Search:
+Automatic Search - Performs the search on a continuous basis without user notification and
+signal collection,unless a signal is observed on the High Value List.
+Semi-Automatic Search - Performs the search and immediately stops and waits for user
+interaction at each signal detect that is not on the Pass List.
+New Signal Occurrence Search -Performs the search and immediately stops and waits for user
+interaction only when a new signal detect is observed that does not reside on the Pass List,
+Signal List and Channel List.
+The general search capability allows the flexibility to monitor up to 10 (TBR) frequency
+bands by indicating frequency start and stop,F1 to F2, for each specified band. These frequency
+bands can be contiguous,non-contiguous or overlapping.
+When critical signals are detected, SIGpac maintains an active signals list measuring center
+frequency,bandwidth, time first seen, percent time active, DF bearing, modulation type, and
+signal strength.
+SIGpac is optimized for the remote tactical mission. The SIGINT Capability can be
+transported and operated by a single person and set-up in less than 5 minutes. The total weight is
+less than 27 pounds, which includes cabling, DF antenna, and internally-mounted battery. All
+accessories fit in a standard military issued ALICEYRucksack for ease of transport and airborne
+early entry operations.
+Key system componentsinclude the:
+SIGpac R e c e i v e r ~ e s s o(100
+r KHz - 3000 MHz)
+MA-445C HFNHF/UHF DF Antenna (2-2000 MHz)
+WControl Cable
+The heart of SIGpac is the Receiver/Processor. The processor uses a patent-pending
+interferometer DF technique typically providing 3 degrees RMS of DF accuracy, as well as
+excellent sensitivity to distinguish a variety of signals. SIGpac provides superior performance
+with most modulation types including CW, USB, LSB ,AM, ISB and FM.
+The lightweight, low profile, combat-proven MA-445C HFNHFIUHF antenna provides
+accurate DF coverage from 2 to 2000 MHz. Built in flexibility allows for the use of antennas
+optimized for specific RF environments,as well as quick integration to ground mobile, maritime, or fixed-site missions.
+The use of a low-power design and effective power management allows the system to be
+operated using the internally-mountedstandard military batteries. Multiple power sources can be
+utilized with use of an external adapter including vehicle, shore and generator power at 110 or
+220VAC at 50 or 60 Hz.
+
+SlGPAC IS OPTlMlZED FORTHE
+
+TACT~CAL
+SlGlNT M ~ S S ~ OBY
+N
+PROVIDING:
+SIGNAL ENVIRONMENT
+CHARACTERIZATION
+SIGNAL EXPLOrrATION
+SIGNAL LOCATION
+
+l
+
+~
+
+1
+,
+1
+
+Linkabit
+
+SIGpac Man Portable Signals Intelligence (SIGINT) System
+Product Specs
+0.5 - 3000 MHz DF and Intercept (Receiver)
+2 - 2000 MHz (with MA-445C)
+3" RMS Typical
+1"
+10 pV/m (nominally)
+FM, AM, SSB, CW, 21SB
+10 Hz
+15ms
+75 dB or greater
+Integrate multiple LOB estimates, up to at least 30, for
+enhanced accuracy
+Provide operator-selectableDF integration time
+Provide internal storage for at least 100 LOBS
+(including timestamps)
+Provide built-in-test (BIT) to the card level
+115 pounds
+5 6.0 inches (without whip)
+12.0 square feet
+Ethernet 101100 or USB
+1 9 meter SEP
+1lmeter
+Bearing accuracy: 11"
+Bearing resolution: 10.1"
+
+Frequency Coverage
+DF Accuracy
+DF Resolution
+DFThreshold
+Demodulators
+Tuner Frequency Resolution
+Tuner Tuning Speed
+Tuner Dynamic Range
+Processor
+
+Antenna Weight
+Antenna Height
+Antenna Area
+Remote Interface
+Position Accuracy
+Position Resolution
+Electronic Compass'
+Physical Characteristics System
+Size:
+Weight:
+
+3.50" H X 9.23"W X 11.05" D
+1 2 7 pounds
+(excluding antenna mount, and power source)
+20 to 30 VDC (stand-alone),
+9V to 36V (with external adapter)
+5 15 Watts when fully operational
+BB390, BB390B, BB590, BB590MB
+BB2590, BA5390, BA5590
+
+Power Input
+Power:
+Battery Type:
+Environment
+OperatingTemperature:
+Storage Temperature:
+Humidity:
+Altitude:
+Submersion:
+Rain, Salt Fog, Vibration:
+
+-20" to +60°C
+-40" to +55"C
+5% to 95% Condensing
+15,000 feet
+1 meter (3 feet) for 1 minute
+Tested to MIL-STD-810Fmodified
+
+Resistant to externally generated radio frequency interference (RFI)
+In accordancewith MIL-STD-461E, tests CE102, CE106, CS101,
+CS103, CS114, CS115, CS116, RE102 and RS1
+Note: All specifications subject to change without notice
+
+Cleared by DoDIOSR for Public Release
+Under 10-S-3026 on August 24,2010.
+
+LlNKABlT DIVISION
+
+3033 X I E N C E PARK ROAD, SAN DIEGO, C A 92121
+(858) 552-9555 FAX (858) 552-9668 WWW.L-3COM.COM
+Product Service Help D e s l c 1-800-331-9401
+e-mail: LinkabitProducts@ L - 3 c o m c o m
+
+MA-445C
+HFIVHFIUHF DF Antenna
+The MA-445C HF/VHF/UHF DF Antenna provides accurate direction finding
+
+( D F ) over the 2 to 2,000-MHz frequency range in a small and lightweight unit.
+The antenna was designed for use on vertically-polarized ground wave
+and sky wave signals. The MA-445C may be ground or tripod mounted,
+and can also be operated from the top of a ground vehicle with a
+metal roof using Linkabit's optional vehicle mounting strap. In the
+ANIPRD-13(V) 1 and ANIPRD- 13(V)2 system configurations, a
+common RFIcontrol cable is used to connect the MA-445C to
+Linkabit's SIGINT receiverlprocessors (MD-403A and MD-405A).
+The MA-445C is physically divided into two frequency sections:
+
+"B
+
+2-100 MHz (called the HF portion) and 100-2,000 MHz (called the
+MA-445C
+
+VHFIUHF portion). The unit design incorporates several antenna technologies:
+
+HFIVHFIUHF DF
+
+-
+
+Ferrite-loaded crossed loops plus a short active monopole whip
+covering 2-100 MHz
+
+ANTENNA ELEMENT
+ATTACHED
+
+An annular slot with eight feed points covering 100-460 MHz
+A four-element monopole array covering 460-2,000 MHz
+each antenna section has an independent calibration (frequency versus angle)
+correction table read by the receiver/processor on power-up, as well as an
+independent built-in test (BIT) oscillator to help isolate failures between antenna
+
+I
+
+I
+
+sections. The VHFIUHF section contains a switchable low noise, high
+performance preamplifier. The preamplifier can be enabled to improve antenna
+sensitivity and offset coaxial cable loss.
+
+I
+
+communications
+Linkabit
+
+1
+
+MA-445C HFIVHFIUHF DF Antenna
+MA-445C HFIVHFIUHF DF Antenna Features
+.Performance Characteristics
+2-2,000 Mhz
+360"
+0" to 10"
+0" to 60"
+3" RMS typical
+See chart
+Vertical
+50 Ohms unbalanced
+Selectable (Inlout)
+Gain: 18 dB nominal
+NF: 4.0 dB nominal
+IP3: + l 8 dBm minimum
+RF: Waterproof BNC; Control: Sealed JT quick disconnect
+
+Frequency Coverage
+Azimuth Coverage
+Elevation Coverage, 2-1 00 MHz
+Elevation Coverage, 100-2000 MHz
+Bearing ~ c c u r a c y '
+Bearing Sensitivity2
+Polarization
+Output Impedance
+Preamplifier (100-2,000 MHz)
+
+Connector
+
+Physical and Environmental Characteristics
+330 mm, 13 in.
+140 mm, 5.5 in.
+4.08 kg (9 Ibs.)
+1 Watt maximum at 12 VDC
+Operating: -20" to +50° C; Storage: -40" to +70° C
+0 to 100% Condensing
+4,572 m (15,000 ft)
+
+Size (diameter)
+Height (less whip)
+Weight
+Power
+Temperature
+Humidity
+Altitude
+
+Test range, AM demodulator, un-modulated signal, 1 sec. integration, 20 dB SIN
+Test range, AM demodulator, un-modulated signal, 6" RMS degrees jitter, 1 sec. integration. Bearing accuracy and sensitivity in
+operational situations are subject to the effects of installation, proximity of large conductive objects, terrain, and elevation
+
+Note: All specifications subject to change without notice
+
+Part Number
+02-105608-01
+05-103228-01
+05-105872-01
+03-102475-01
+
+Description
+MA-445C Antenna
+Tri~od
+RFIControl Cable
+Tie Down Kit
+
+Includes
+Antenna, Manuals
+Antenna Tripod
+Cable
+Antenna Mount Strap
+
+Cleared by DoDIOFOISR for public release under
+OFOISR Case Number 06-S-1601 on June 22,2006.
+LlNKABlT DIVISION
+S A N D I E G O , C A 92121
+
+3033 SCIENCEP A R K R O A D ,
+F A X ( 8 5 8 ) 552-9668 WWWmL-3COM.COM
+Product S e r v i c e Help Desk Number: 1-800-331-9401
+e-mail: LinkabitProductsQL-3com.com
+
+( 8 5 8 ) 552-9555
+
+communications
+Unkabit
+
+Multi-Role Tactical Common Data Link
+'The MR-TCDL (Multi-Role Tactical Common Data Link) is the most
+interoperable and scalable "System of Systems" in the military's broadbandnetworking inventory. Coupling the power of modularity and scalability with
+the rewards of parts-commonality and packaging flexibility MR-TCDL drives the
+highest levels of performance and value in military communication networks.
+
+Multi-Role Tactical Common Data Link (MR-TCDL)
+Key Features
+Wideband RF wide-areanetwork backbone for GIG and
+diverse IP subnets including
+Communications OTM
+Multi-band including LOS (X and
+Ku-bands) and SATCOM (Ka, X
+and Ku-bands)
+B
+
+LOS ranges up to 500 km
+(dependingon selected RF options)
+
+Symmetric and asymmetric
+TCDL data rates from 200 kbps
+up to 274 Mbps
+JTEL approved SCA compliant
+architecture and TUAV Level IV
+Software programmable
+architecture provides greater
+interoperability and flexibility
+User Ports: 3 to 7 for 10/100
+Base-T Ethernet and 1 to 2 for
+Gig Ethernet
+Layer 2 and Layer 3 processing
+Self-forming, self-healing, mobile
+ad hoc networking
+Networking topology
+management including: point-topoint, point-multi-point, hub and
+spoke, relay, semi-mesh
+LOS communications: STD-CDL,
+N-CDL and bandwidth efficient
+modes
+Scalable from 1 to 4 link systems
+MMPP (Mix and Match, Plug and
+Play) family of modules to suit
+virtually any application.
+FPGA-based, open-standard
+interface-CPCI, IP System.
+Networking rotocols: IPv4, IPv6,
+BGP, IGMP, DHCP, SNMP, ICMP,
+PIM/SIM and others
+
+1
+
+Product Description
+The MR-TCDL "System of Systemsnprovides warfighters with broadband data, voice
+
+'
+
+and video services, connecting on-the-move surface, fixed surface, airborne and spacebased platforms using:
+Line-of-sight communications including:
+STD-CDL to 274 Mbps
+Bandwidth efficient modes to 274 Mbps
+N-CDL to 137 Mbps O L 67 Mbps I L (both hub and spoke)
+Ad hoc network formulation
+Broadband SATCOM communications including:
+Comms-On-the-Move (COTM) capability
+MR-TCDL leverages Common Modules (cPCI), Common Module Carriers and an
+extensive family of RF and antenna solutions. It's scalable and modular methodology
+allows military network configurations to effectively connect warfighters on disparate
+legacy and emerging subnets, by allowing a two-level maintenance concept, a JTEL
+approved SCA architecture using a gigabit Ethernet IP switch fabric and full
+contractor logistics support (CLS). MR-TCDL accomplishes this whiie pleasing
+both taxpayer and end users.
+
+Typical Air Configurations
+
+Typical Single Link
+
+Typical UAV 3-L.....
+
+Typical 3-Link ATE
+
+Typical Fixed STE
+
+Typical SATCOM STE Kit
+
+Typical Surface Confiaurations
+
+Typical On-the-Move STE
+
+'There are as many possible configurations as user requirements.
+'The configurations shown above are just a few of the possibilities.
+Detailed data sheets are available on the individual configurations.
+PDF versions can be downloaded from the L-3 Communications,
+Communication Systems-West website: www.LBcom.com/csw
+
+Specifications
+Configuring MR-TCDL
+Family of
+Interoperable
+Actxmsorles
+MMPP (Mix and
+Match Plug and Play)
+
+Family of
+Common Module
+sets
+
+1
+
+Famlly of
+Common Module '
+Carriers
+
+FPGA-based
+Open Standard
+Interface cPCl
+
+Common carriers for all
+LRUs
+Flexible mounting 8 cooling
+
+-
+
+SATCOM
+Frequency
+Converters
+(X, Ku and Ka)
+
+l
+
+Mbps Modem
+
+'
+
+QSlot
+- 3 Slot
+2
+
+Chassis
+
+30"Antenna
+(X or KulKa)
+
+l-
+
+Chassls
+
+1- r-
+
+Wideband
+Mobile Router
+System
+
+-
+
+Modular and flexible to reach all
+different range requirements
+
+(Ku or Ka)
+
+Chassis
+
+H-
+
+Family of
+Multl-Purpose
+RF Components
+
+17.5" Antenna
+
+4 slot
+
+Multiplexer
+
+-
+
+1
+
+4su*ce
+Antenna
+(LOS: f l u
+
+Controller
+Slice Base
+
+Vertical Stack
+
+LOS Frequency
+Converters
+(X and Ku)
+
+9.45"
+
+U
+
+Antenna
+Hub High PA
+
+Receiver
+
+Hub
+
+25" Antenna
+
+Roll
+Stabilized
+Ornni
+
+Scalable, modular MMPP architecture enables customization within families of common system components
+and installation methodologies.
+
+-
+
+L-3 Communications( Communication Systems West
+
+640 North 2200 West, P.O. Box 16850,Salt Lake Clty, Utah 841 16-0850,U.S. Toll Frea: 800-874-817i
+Internatmal: +E01 -594-2000,
+Fa: 801-594-3003,
+E-mail: CSWPmducts42L-3com.com,www.L-3x1
+Data contamed wRhrn thisdow(m8nt are summary A nature and s
+
+u
+
+b
+
+/
+
+Cleared by DoDfOSR for public release under 07-S-2726 on 13 September 2007.
+
+e
+
+c
+
+rnlw
+
+I
+
+Dissemination of intelligence
+Intelligence is disseminated to other parties such as partner agencies.This process allows partial, composite or
+full dissemination of raw intelligence as permitted. Dissemination capabilities include:
+Q Partial dissemination - redacted documents or fragments from a document
+
+I
+I
+I
+I
+
+Q Composite dissemination - custom dissemination from multiple sources
+Q Full document - disseminate document in its native format
+
+Document management
+The underlying enterprise document management system provides conventional content management functionality, including:
+Q Check-in, check-out, versioning
+Q Advanced searching, including full-text, search term highlighting and scoring
+
+Q Scalable architecture for consistent system availability
+
+I
+
+Security and records management
+
+I
+
+A custom multi-level 114 security model with extensive audit capability which includes:
+
+I
+I
+II
+
+Q Detailed security model allowing varying degrees of access
+Q Full audit trail for all user actions
+
+O Complete data histories filterable by event and user
+Collaborative intelligenceenvironment
+Analysts have access to a system that enables collaboration, including the registration of flags or interest markers on entities to alert other users and agencies of ongoing investigations or potential operational conflicts.This
+includes:
+
+I
+I
+I
+
+Q Covert and overt flags on data
+Q Grant specific markers to users upon request and approval
+Q Conduct status checks against marked entities
+
+Q Mediation between marker owners and other interested users
+
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+........................................................................................................................................................................
+...........................................................................................................................................................................
+...UK.OFFI.cE.........."
+.....................
+...................
+..................................................................................
+"
+
+"
+
+L-3 Communications ASA Ltd
+Rusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU51 2QS
+. .T +P4 (0).1?52775700. .info.a.sa@l-?com,con?. . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. .. .. .. . .. .. .. .. .. .. . .. .. .
+~
+
+.. .. .. ......... .. .. .. .. .. .. .. .. .. .. .. .. .. ....... .. .. .. .. .. .. .. .. .. .. .. .. .. ......... .. .. .. .. .. .. .. .. .. .. .. .. .. ......... .. .. .. . . . .
+
+I
+
+L-3 ASA delivers robust, scalable and extensible intelligence
+solutions which have been in use for a decade a t the highest
+levels of UK law enforcement. It provides core intelligence
+management capability that underpins expert analyst's
+efforts in the fight against crime.
+The L-3 ASA intelligence repository and analysis platforms allow the entry, search, retrieval, structuring and
+manipulation of information. Built using an extensible service-oriented architecture, enterprise document management system and a robust, multi-levelsecurity system, raw and unstructureddata is transformed into a structured network of entities and relationships with full data provenance. These capabilities, combined with a
+customisable business process and workflow engine, provide a valuable tool used for the analysis and dissemination of critical and highly sensitive intelligence by UK law enforcement.
+
+Input and structuring of raw intelligence
+
+I
+
+Analysts use a controlled process for creating structured intelligence from raw intelligence information. Intelligence input and structuring capabilities include:
+
+1
+
+Q Upload intelligence reports as controlled. versioned
+
+I
+
+documents
+
+Q Link entities with each other with full data prov-
+
+Q Tag entities within intelligence reports
+Q Search for or create tagged entities
+
+enance and relationship nature maintained
+Q Upload and link supporting documents
+
+Search and display of intelligence
+Users conduct structured (meta-data) and unstructured (content) searches against an intelligence repository.
+Once found. all information regarding the entity in question and those related to it can be displayed to the user.
+Search and display capabilities include:
+Q Search based on structured and unstructured
+information
+
+Q Display of core entity profile data (structureddata)
+Q
+
+Guided search capability
+Editing and saving of queries
+I
+
+1
+
+Q Link tagged entities to intelligence reports
+
+Interest markers and flags
+
+Q Display of links between entities
+Q Visualisation of networks, items and relationships
+
+Q Scoring and categorization of search results
+
+l
+
+Q Search agents and persistent searches
+
+Q Preview of document contents (unstructured data)
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+l::: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+d Military Applicati
+
+In a world where the confidentiality, integrity, and availability
+of information is paramount, L-3 ASA ensures the
+communication paths are open, reliable, accessible, and
+
+m!,
+
+P
+
+secure.
+Systems provided by L-3 ASA offer the widest choice of
+interface,
+operating system, and communication
+technologies. Enabling multiple networks, devices, and data
+systems t o interoperate securely in the field.
+
+L-3 ASA is a proven provider of mission configurable intelligent switching and interoperability systems, enabling
+Vole circuit switched, radio, and Satcom networks and devices to inter-communicate.Secure interoperability is
+achieved through an adaptation to incorporate the majority of Crypto devices.
+Q lnteroperability Gateways
+
+Q Legacy and current Crypto Gateways
+
+Q High Grade Secure Communications
+
+Q Command & Control Room Communications
+
+Unified Communications is a key requirement and MultiSwitch is the cornerstone for the provision of Interoperability for the UK CORMORANT, GATE, SKYNET and FALCON programmes, uniquely providing a single node to
+handle the UKTaclSDN and NATO STANAG 4578Ed2 protocols.
+
+MultiSwitch
+A t the core of L-3 ASKScommunications systems is MultiSwitch, a multi-source COTS component-based Interop-
+
+erability product. With access to the protocol stack, full use can be made of standard extensions to enable versatility in the solution.
+MultiSwitch solutions are available in a variety of configurations, suitable for deployment from data centre to
+battlefield.
+
+ultiswitch - Unify~ngCommunicaLl
+
+Multiswitch is suitable for leading edge applications, including:
+
+O Crypto Inter-operability gateways
++
+
+Legacy crypto life extension
+
+VolP to PSTN gateways
+Q Tactical deployable military gateways
+Q
+
+Conference systems
+
+Q Least Cost routing IP telephony gateways
+Q High availability switching platforms
+
+Q CCWAfideo switching and compression gateways
+
+..........................................................................................................................................................................
+..........................................................................................................................................................................
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+
+..........................................................................................................................................................................
+..........................................................................................................................................................................
+.........................................................................................................................................................................
+
+b.pil.tE."
+
+. . . ..".K
+. . . . . . . . . . . . . . . . . . . . .. .. .. .. .. . . .. . .. ... .. ... .. . .. ... .. ... .. . .. ... . . . . . . . . ... .. ... .. ... . . . . . .. .. .. ..... .. .. .. ..... .. .. .. ... .. .. .. ..... .. .. .. ..... .. .. .. ... .. .. .. ..... .. .. .. ..... .. .. .. ... .. .. .. ..... .. .. .. ..... .. .. .. ... .. .. .. ..... .. .. .. ..... .. .. .. ... .. .. .. ..... .. .. .. .. . . .
+
+L-3 Communications ASA Ltd
+Rusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU5l 2QS
+T +44 (0)1252 775700 info.asa@l-3com.com
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+. . . . . . . . . . . .
+
+................................................................
+
+................................................................
+.
+
+.
+
+.
+
+_
+
+_
+
+_
+
+_
+
+_
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+~
+
+-
+
+-
+
+-
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+o
+
+.
+
+o
+
+.
+
+.
+
+~
+
+o
+
+.
+
+o
+
+I
+I
+I
+
+I
+
+The Space domain presents ~ l ~ i q uchallenges
+e
+that continue to test our technological limits while providing unpal
+alleled opportunities to exploit real-time information in our
+2
+increasingly global enterprises.
+"-r&
+
+g&#
+
+?&
+
+'$
+
+At L-3 ASA we have a strong reputation for developing products to enhance Space Situational Awareness,
+through the optimisation of sensors and through the fusing of multi-source data, to provide greater discrimination and characterisation of Space activity.
+We continue to work in partnership with the operational Space community and are proud of our contribution to
+the daunting task of improving awareness of a remote and increasingly critical environment.
+Underpinned by over 20 years of development of high throughput real-time systems operating in the most challenging environments:L-3 ASA Capabilities
+Q Space and Missile Defence Systems
+
+Q Deployment of Real-Time High Throughput System
+
+O Enhancement of Legacy Sensor Systems
+O Radar Data Processing
+O Kinematic Fusion and Tracking
+@ Simultaneous PrecisionTracking of Multiple Target Types
+
+........................................................................................................................................................................
+..........................................................................................................................................................................
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . .. .. . .. .. . .. . . . .
+
+. .
+
+TOTS underpins our Space and Missile Defence business stream. It is a powerful real-time multi-target tracking
+and sensor data fusion technology developed by L-3 Communications ASA Ltd. in collaboration with US and UK
+Government operational community. A singleTOTS-based system is capable of fusing informationfrom multiple
+distributed sources to enable target tracking and identification covering simultaneously the domains of Air,
+Space and Missile Defense. In the Space Surveillance and Missile Defence domains,TOTS enables the resolution
+and tracking of complex and increasingly small objects.
+
+... ... ... ... ... ... ........... ... ... ... ... ... ... ... ... ... ... .............. ... ... ... ... ... ... ... ... ... ................. ............ .. .. .. .. .. .. .. .. .. .. . .. .. .. .. .. .. ... ... ..
+............................................ :P r ~ v o?WwbEweriecc.e: ...
+
+ASSURED SOLUTION;/':
+
+Space and Missile Defence Sensor Enhancement
+Using technology developed in response to the need for enhanced Space Situational Awareness, L-3 ASA has
+been able to optimize existing sensors to resolve and track smaller and more complex objects. The technology
+can be applied to a number of sensor types in any highly assured and safety-criticalenvironment, with the potential to maximise sensor performance against Difficult Air and SpaceTargets.
+Features Include:
+Q State-of-the-art, real time, kinematic fusion &tracking software system
+
++Number of tracks governed by computer capacity
+Q Simultaneous, precision tracking of multiple target types
+
++Ground targets, surface ships, aircraft, helicopters. cruise missiles, UAV's, ballistic missiles and orbiting
+objects - detection through to weapons engagement
+Q Fuses returns from multiple heterogeneoussensors
++ Radar(s), IFF,TADILs, passive sensors (EOIIR)
+-,Target characteristics (e.g. from ESM) can be associated with tracks
++ Number of sensors unlimited
+Q Low-latency concurrent processing
++ Continuous automated selection of optimal filter model based on target kinematic behaviour
+-+ 4 ballistic models (filters)and 7 air breathing models (filters)
++ Autonomous-multiple-model (AMM) tracking
++ a priori knowledge of target behaviour not required
+Q Comprehensive API for straightforward exploitationlintegration
+
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+
+..........................................................................................................................................................................
+.........................................................................................................................................................................
+. .........................................................................................................................................................................
+
+I
+
+UK OFFICE'
+L-3 CommunicationsASA Ltd
+Rusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU51 2QS
+'
+
+' .
+
+L-3 ASA has over 20 years of expertise in the developmenr
+and delivery of complex multi-sensor data fusion and
+battlespace management systems.
+
+We have delivered decision support tools across the Air and Missile Defence environments, developing a reputation for overcoming the most demanding information and data fusion challenges.
+Our core C2 products are modular, scalable and adaptable to suit any operational timeline, with a proven pedigree of safety and security assurance that can only come from fielding within operationally critical mission
+systems.
+Above all, they provide the practical means to integrate force elements across the Battlespace.
+
+L-3 Communications ASA Capabilities
+
+Q Sensor Data Fusion and Tracking
+
+L-3 ASKSexperience in the Air Defence arena are:
+
+Q Single Integrated Air Picture Production
+
+Q UK MOD'SLand Environment Air Picture Provision
+(LEAPP)
+
+Q Information Dissemination via Link 16
+
+Q Automated Sense and Warn (AS&W) programmes.
+
+Q Expertise in integrating data from legacy sensors
+
+Q Systems Integration
+
+L-3 ASA is responsible for the core 'Situational Awareness Component' (SAC) and for integration of the overall
+software for the LEAPP and AS&W programmes.
+The SAC produces a Local Air Picture (LAP) by the fusion of sensor data and the reconciliation of this local picture
+with the Recognised Air Picture(RAP) provided through Tactical Data Link interface.
+
+TOTS
+TOTS multi-sensor fusion-tracker underpins the L-3 ASA SAC, fusing data from the organic radars and other external sensors which might be located within or near to the local area.The system also incorporates counter-rocket,
+artillery and mortar (C-RAM)warning capabilities and is configurable to meet multiple mission requirements.
+It is a powerful real-time multi-target tracking and sensor data fusion technology developed by ASA with US and
+
+UK Government support. Able to simultaneously track multiple targets of different types, and with the ability to
+resolve tracks from marginal sensor inputs, TOTS provides a scalable 'black box' solution to the fusionltracking
+requirements of surveillance, weapon control, battle management and security systems.
+Features Include:
+Q State-of-the-art, real time, kinematic fusion &tracking software system
++Number of tracks governed by computer capacity
+1
+
+Q Simultaneous, precision tracking of multiple target types
++Ground targets, surface ships, aircraft, helicopters, cruise missiles, UAV's, ballistic missiles and orbiting
+
+objects - detection through to weapons engagement
+Q Fuses returns from multiple heterogeneous sensors
++ Radar(s), IFF,TADILs, passive sensors (EOIIR)
+4 Target characteristics (e.g. from ESM) can be associated with tracks
++ Number of sensors unlimited
+Q Low-latency concurrent processing
+Continuous automated selection of optimal filter model based on target kinematic behaviour
++ 4 ballistic models (filters) and 7 air breathing models (filters)
+-, Autonomous-multiple-model (AMM) tracking
+4 a priori knowledge of target behaviour not required
+Q Comprehensive API for straightforward exploitationlintegration
+
+Information Fusion
+,g Tracking
+
+L-3 Communications ASA Ltd
+Rusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU51 2QS
+T
+. . .+44
+. . (0)1252
+. . . . .775700
+. . . . .info.asa@l-3com.com
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+.-. -..- ..- -..-..- ..- -..-..- ... .... ... .... ... ....... ...*..*... ...............*........*....*..*..... .. .*....*.*... .*..... .*... .. .. ....... .*.*..*... .... .*. ...* ..* ...*..* .. .. .. .. .. .. .. .. .. .. .. .. .
+
+L-3 ASA delivers robust, scalable and extensible intelligence
+solutions which have been in use for a decade at the highest
+levels of UK law enforcement. It provides core intelligence
+
+management capability that underpins expert analyst's
+efforts in the fight against crime.
+The L-3 ASA intelligence repository and analysis platforms allow the entry, search, retrieval, structuring and
+manipulation of information. Built using an extensible service-oriented architecture, enterprise document management system and a robust, multi-levelsecurity system, raw and unstructureddata is transformed into a structured network of entities and relationships with full data provenance. These capabilities, combined with a
+customisable business process and workflow engine, provide a valuable tool used for the analysis and dissemination of critical and highly sensitive intelligence by UK law enforcement.
+
+Input and structuring of raw intelligence
+Analysts use a controlled process for creating structured intelligence from raw intelligence information. Intelligence input and structuring capabilities include:
+
+Q Upload intelligence reports as controlled, versioned
+documents
+
+e Tag entities within intelligence reports
+Q Search for or create tagged entities
+
+Q Link tagged entities to intelligence reports
+Q Link entities with each other with full data prov-
+
+enance and relationship nature maintained
+Q Upload and link supporting documents
+
+Search and display of intelligence
+Users conduct structured (meta-data) and unstructured (content) searches against an intelligence repository.
+Once found, all information regarding the entity in question and those related to it can be displayed to the user.
+Search and display capabilities include:
+Q Search based on structured and unstructured
+information
+Q Guided search capability
+Q Editing and saving of queries
+
+Q Scoring and categorization of search results
+Search agents and persistent searches
+Q Preview of document contents (unstructured data)
+
+Q Display of core entity profile data (structureddata)
+Q Interest markers and flags
+
+Q Display of links between entities
+Q Visualisation of networks, items and relationships
+
+)A Intelligence by
+
+I
+
+Dissemination of intelligence
+Intelligence is disseminated to other parties such as partner agencies.This process allows partial, composite or
+full dissemination of raw intelligence as permitted. Dissemination capabilities include:
+
+I
+
+I
+
+Q Partial dissemination - redacted documents or fragments from a document
+
+Q Composite dissemination - custom dissemination from multiple sources
+Q Full document - disseminate document in its native format
+
+Document management
+The underlying enterprise document management system provides conventional content management functionality, including:
+Q Check-in, check-out, versioning
+Q Advanced searching, including full-text, search term highlighting and scoring
+
+Q Scalable architecture for consistent system availability
+
+I
+I
+
+Security and records management
+A custom multi-level 114 security model with extensive audit capability which includes:
+Q Detailed security model allowing varying degrees of access
+
+Q Full audit trail for all user actions
+
+I
+
+Q Complete data histories filterable by event and user
+Collaborative intelligence environment
+Analysts have access to a system that enables collaboration, including the registration of flags or interest markers on entities to alert other users and agencies of ongoing investigations or potential operational conflicts.This
+includes:
+Q Covert and overt flags on data
+
+Q Grant specific markers to users upon request and approval
+Q Conduct status checks against marked entities
+
+Q Mediation between marker owners and other interested users
+
+..........................................................................................................................................................................
+..........................................................................................................................................................................
+..........................................................................................................................................................................
+..........................................................................................................................................................................
+
+..........................................................................................................................................................................
+.........................................................................................................................................................................
+..........................................................................................................................................................................
+......................................................................................................................................................................
+
+WK OFFI'CE
+L-3 Communications ASA Ltd
+Rusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU51 2QS
+. .T +P4 (01.1 252 7757S)O. .info.asa@l-3com,con? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+' '
+
+... ... . ... ... ... ....... ... ... ....... ... ... .......... ... .......... ... ............. ............. ... ..... ........ ..... ........ ........ ..... ........ ... .......... ... ... ...... .. .. .. .. .. .. .. .. .. .. .. .
+
+VOITEX SATCOM Modem International (VIl-li)
+'The VSMi is the next generation of compact, multi-band, multi-use, IP software
+defined radio. 'The combination of Line-of-Sight and SATCOM
+functionality reduces cost and SWAP. Adherence to MIL- STD-188- 165A,
+CDL/STANAG 7085(1), and other legacy standards guarantees a flexible and
+
+VORTEX SATCOM Modem International (VSMi)
+Key Features
+Broadband full duplex SATCOM
+capability; UHF through Ka
+Broadband full-duplex LOS
+capability; UHF through Ku
+Mission selectable RFE and
+antenna; flexibility to meet
+system requirements
+Net-T multi-access capability
+Compact, Low SWaP
+Layer 2 and 3 Networking
+for data relay
+Mitigates adjacent satellite
+interference
+Data Encryption
+Independent Transmit and
+Receive
+Simple, web-browser GUI control
+1080p30 HD Video
+
+.
+
+Networking Conops
+Simultaneous video streaming
+Smartphone Pico Cell
+Wide area surveillance
+Biometrics
+Medevac
+Voice Over IP
+White board and chat
+Large file transfer
+Remote sensor control
+Soldiersight Suite
+Exploitation and mapping
+Nine-line messages
+Blue force tracking
+Applications available
+upon request
+
+Product Description
+The VSMi is a compact I P digital transceiver that provides wide-band communications
+capabity adaptable to a wide variety of applications. When operating in the SATCOM
+mode, the full duplex, multi-band VSMi is interoperable with military and commercial
+geostationary satellites providing co~ectivity
+up to 52 Mbps according to MIL-STD188-165A between host and satellite ground station(s).When operating in the Line of
+Site (LOS) mode, the VSMi supports digital data rates to 45 Mbps and is interoperable
+with all versions of ROVER and SIR systems. The combination of fully interoperable
+duplex LOS and SATCOM in one s m d compact package makes the VSMi the ideal
+communications system of choice for a wide array of airborne and ground applications.
+
+Applications
+
+-
+
+Ground Based Tactical
+Operations Center
+Manned ISR Aircraft
+UAV Operations
+Mobile SATCOM Systems
+Manpack SATCOM
+
+0
+0
+
+Multiple antenna assembly options available to meet the needs of end users, satellite providers.
+and platform integrators for LOS and BLOS implementations.
+
+Specifications
+SATCOM Performance Characteristics
+
+LOS Performance Characteristics
+
+Transmit Bands**
+
+Transmit and Receive Bands*'
+
+Ka-band: 27.5-31.0 GHz
+Ku-band: 13.75-1 4.5 GHz
+X-band: 7.9-8.4 GHz
+C-band: 5.85-6.65 GHz
+L-band: 950-2050 MHz
+VHFIUHF: 243-270 MHz and 292-318 MHz
+
+Receive Bands**
+
+-
+
+Ka-band: 17.2-21.2 GHz
+Ku-band: 10.95-12.75 GHz
+X-band: 7.25-7.75 GHz
+C-band: 3.4-4.2 GHz
+L-band: 950-2050 MHz
+VHFIUHF: 243-270 MHz and 292-318 MHz
+
+Data Rates
+MIL-STD-188-165A: 64 kbps-52 Mbps
+MIL-STD-188-165B"
+JIPM*
+DVB-S2, RCS*
+
+- Ku-band:
+
+15.15-1 5.35GHz
+14.4-14.83 GHz
+
+C-band:
+m
+
+5.25-5.85 GHz
+4.4-4.94 GHz
+
+- S-band: 2200-2500 MHz
+L-band: 1625-1850 MHz
+VHFIUHF: 230-470 MHz
+
+Data Rates
+CDL: 200 kbps-45 Mbps
+Tactical:
+
+-
+
+455 kbps (receive only), 466 kbps
+1.6, 3.2,6.4 Mbps
+
+VNW 50 kbps-5 Mbps
+DVB-T*
+
+Net-T Multi-Access
+For details, see Net-T data sheet
+*Future software upgrade
+
+**Additional frequency options may be available.
+
+Specifications
+Physical Characteristics
+
+General Performance Characteristics
+Encryption
+
+.Size:
+
+External
+AES
+
+Weight:
+Power
+
+Networking
+Layer 2, 3 switchinglrouting
+IPv4
+IPv6*
+
+Input Power: 10-32 VDC
+Consumption: 60W
+
+External or User Interfaces
+- User 110:
+*
+
+a
+
+11.4cmx9.7cmx21.9cm
+(4.5" X 3.8" X 8.6")
+< 4.6 kg (< 10.0 Ibs)
+
+Environmental
+Temperature:
+Operating: -20 to +70 C
+Non-Operating: -40 to +85 C
+
+Ethernet (Qty 2; 1 Gig, 10/100 Base-T Ethernet)
+RS-232 (Qty 3; Console, GPS, Remote Operation)
+RS-422
+RS-530
+Audio in/out
+USB 2.0
+Video (Qty 2; IdOut)
+- RS-170 SD and HD-SDI
+Video compression standards:
+- SD: MPEG-2. MPEG-4 part 2. H.264,
+Motion JPEG. H.261 (decode only)
+- HD: H.264
+
+Altitude: -152.4 to 21,336 m (-500 to 70,000 ft)
+Humidity: MIL-STD-8106 Method 507.4
+(non-condensing), RTCNCO-16OE, Sec 10
+Shock: MIL-STD-8106 method 516.5
+Vibration: MIL-STD-8106 method 514.5
+EMI:
+MIL-STD-461E
+Salt Fog: MIL-STD-810F, method 509.4
+Fungus: MIL-STD-81OF, method 508.5
+
+.
+
+Antenna, RFE 110:
+RS-232
+RS-485 (Qty 2; antenna control)
+
+Other:
+RF In (Qty 2; Ka, UHF thru Ku)
+RF Out (Qty 2; Ka, UHF thru Ku)
+IF idout test port
+10 MHz idout reference
+
+*~uture
+software upgrade
+
+L-3 Communications ICommunication Systems - West
+8r- -640 North 2200 West, P.O. Box 16850, Salt Lake City, Utah 84116-0850, U.S Toll Free:
+International: +E01-594-2000. Fax: 801-594-3003, E-mail: CSWProducts@L-3com.com.
+
+'
+
+Data contained within this dourrneot are summaIy in nature and subject to change at any time at L-3 Communications' discretion.
+
+Cleared by DoDIOSR for public release under 11-S-1892 on 1 April 2011.
+
+W
+11 All Rights
+l l-DSH-079
+
+The Space domain presents unique challenges that continue to test our technological limits while providing unpal
+alleled opportunities to exploit real-time information in our
+increasingly global enterprises.
+
+@pmgm
+W?
+.
+.
++
+P
++
+
+At L-3 ASA we have a strong reputation for developing products to enhance Space Situational Awareness,
+through the optimisation of sensors and through the fusing of multi-source data, to provide greater discrimination and characterisationof Space activity.
+We continue to work in partnership with the operational Space community and are proud of our contribution to
+the daunting task of improving awareness of a remote and increasingly critical environment.
+Underpinned by over 20 years of development of high throughput real-time systems operating in the most challenging environments:L-3 ASA Capabilities
+Q Space and Missile Defence Systems
+
+Q Deployment of Real-Time High Throughput System
+
+Q Enhancement of Legacy Sensor Systems
+Radar Data Processing
+
+Q Kinematic Fusion and Tracking
+
+Q Simultaneous PrecisionTracking of Multiple Target Types
+
+TOTS
+TOTS underpins our Space and Missile Defence business stream. It is a powerful real-time multi-target tracking
+and sensor data fusion technology developed by L-3 Communications ASA Ltd. in collaboration with US and UK
+Government operational community. A singleTOTS-based system is capable of fusing information from multiple
+distributed sources to enable target tracking and identification covering simultaneously the domains of Air,
+Space and Missile Defense. In the Space Surveillance and Missile Defence domains, TOTS enables the resolution
+and tracking of complex and increasingly small objects.
+
+.. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. . .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. . .. .. .. .. .. .. .. .. ..
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . e r q ~ !?71pyy3@qyr[e~qe: : : :
+...................
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+o
+
+- - - - , , , , , , , , - - - , - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - * -
+
+1
+
+I
+I
+
+iituationa~t larttnes
+ASSURED SOLUTION
+
+Space and Missile Defence Sensor Enhancement
+Using technology developed in response to the need for enhanced Space Situational Awareness, L-3 ASA has
+been able to optimize existing sensors to resolve and track smaller and more complex objects. The technology
+can be applied to a number of sensor types in any highly assured and safety-critical environment, with the potential to maximise sensor performance against Difficult Air and SpaceTargets.
+Features Include:
+Q State-of-the-art, real time, kinematic fusion & tracking software system
+
++Number of tracks governed by computer capacity
+Q Simultaneous, precision tracking of multiple target types
+
++Ground targets, surface ships, aircraft, helicopters, cruise missiles, UAV's, ballistic missiles and orbiting
+objects - detection through to weapons engagement
+Q Fuses returns from multiple heterogeneous sensors
++ Radar(s), IFF, TADILs, passive sensors (EOIIR)
+
++Target characteristics (e.g. from ESM) can be associated with tracks
+-, Number of sensors unlimited
+Q Low-latencyconcurrent processing
+-, Continuous automated selection of optimal filter
+
+model based on target kinematic behaviour
+-+ 4 ballistic models (filters) and 7 air breathing models (filters)
+-, Autonomous-multiple-model (AMM) tracking
+-, a priori knowledge of target behaviour not required
+
+Q Comprehensive API for straightforward exploitationlintegration
+
+L-3 Communications ASA Ltd
+Rusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU51 2QS
+
+L-3ASA has over 20 years of expertise in the development
+and delivery of complex multi-sensor data fusion and
+battlespace management systems.
+I
+I
+
+i
+
+1
+
+We have delivered decision support tools across the Air and Missile Defence environments, developing a reputation for overcoming the most demanding information and data fusion challenges.
+Our core C2 products are modular, scalable and adaptable to suit any operational timeline, with a proven pedigree of safety and security assurance that can only come from fielding within operationally critical mission
+
+Above all, they provide the practical means to integrate force elements across the Battlespace.
+
+........................................................................................................................................................................
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+...........................................................................................................................................................................
+........................................................................................................................................................
+
+L-3 Communications ASA Capabilities
+Q Sensor Data Fusion and Tracking
+Q Single Integrated Air Picture Production
+
+Q Information Disseminationvia Link 16
+
+L-3 ASKSexperience in the Air Defence arena are:
+Q UK MOD'SLand Environment Air Picture Provision
+(LEAPP)
+Q Automated Sense and Warn (AS&W) programmes.
+
+Q Expertise in integrating data from legacy sensors
+
+Q Systems Integration
+
+L-3 ASA is responsible for the core 'Situational Awareness Component' (SAC) and for integration of the overall
+software for the LEAPP and AS&W programmes.
+The SAC produces a Local Air Picture (LAP) by the fusion of sensor data and the reconciliation of this local picture
+with the Recognised Air Picture(RAP) provided through Tactical Data Link interface.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+.. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. ........................................ . . . . . . . . . . . . . . . . . . .. .. .. ..
+
+...........................................: : :erP!% mew4 Wrie!)c.e. ...
+
+TOTS
+TOTS multi-sensor fusion-tracker underpins the L-3 ASA SAC, fusing data from the organic radars and other external sensors which might be located within or near to the local area. The system also incorporates counter-rocket,
+artillery and mortar (C-RAM) warning capabilities and is configurable to meet multiple mission requirements.
+It is a powerful real-time multi-target tracking and sensor data fusion technology developed by ASA with US and
+UK Government support. Able to simultaneously track multiple targets of different types, and with the ability to
+resolve tracks from marginal sensor inputs, TOTS provides a scalable 'black box' solution to the fusionltracking
+requirements of surveillance, weapon control, battle management and security systems.
+
+Features Include:
+Q State-of-the-art, real time, kinematic fusion &tracking software system
++Number of tracks governed by computer capacity
+O Simultaneous, precision tracking of multiple target types
+-+Groundtargets, surface ships, aircraft, helicopters, cruise missiles, UAVs, ballistic missiles and orbiting
+objects - detection through to weapons engagement
+Q Fuses returns from multiple heterogeneous sensors
++ Radar(s), IFF,TADILs, passive sensors (EOIIR)
++Target characteristics (e.g. from ESM) can be associated with tracks
+-, Number of sensors unlimited
+Q Low-latency concurrent processing
+
+Continuous automated selection of optimal filter model based on target kinematic behaviour
++ 4 ballistic models (filters)and 7 air breathing models (filters)
++ Autonomous-multiple-model (AMM) tracking
++
+
++a
+
+priori knowledge of target behaviour not required
+Q Comprehensive API for straightforward exploitation/integration
+Operating System Support
+Windows
+Linux
+
+L-3 CommunicationsASA Ltd
+Rusint House, Harvest Crescent, Ancells Business Park, Fleet, Hampshire GU51 2QS
+
+

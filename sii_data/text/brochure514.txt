@@ -1,0 +1,384 @@
+Qosmos
+ixMachine LI Edition
+
+Product: Lawful lnterception
+Probe
+
+Applications: Lawful Interception,
+Data Retention
+Users: LI Solution Vendors,
+Law Enforcement Agencies,
+Systems Integrators
+Key features: Identification of
+targets and interception of IP
+communications
+
+Lawful lnterception Probe
+for IP Communications
+
+Fore more info:
+www.qosmos.com/products/
+qosmos-ixmachine-li
+
+Qosmos ixMachine LI Edition
+
+Full IP traffic interception based on Virtual
+
+has been specifically designed to meet
+
+ID triggers
+
+the technological challenges of Lawful
+
+lntercept all target traffic from a physical
+
+lnterception with support for increasingly
+
+access point (IP address, IMSI, etc.)
+
+complex communication protocols.
+
+ldentify targets across all their virtual
+
+Versatile: Accurately identify targets across all
+
+address)
+
+lnternet applications, virtual IDs, and physical
+
+Track target across applications, virtual IDs
+
+locations.
+
+and locations
+
+identifiers (e.g. a Webmail login or an email
+
+Laser Sharp: Identify targets and intercept
+
+Email Interception (ETSI TS 102232-2)
+
+flows based on real-time parsing of the complex
+
+Intercept entire SMTP session or a specific
+
+grammar of network flows.
+
+email within an SMTP session
+
+Standards - compliant: Compliant with ETSl
+
+Set triggers on any emailing identifier: sender
+address, receiver address, login etc
+
+standard for the HI2 and H13 interfaces.
+Beyond standards: Intercept emails within an
+SMTP session; intercept Webmails, IM and non-standard communication channels; intercept
+
+-
+
+P
+
+Qosmos ixM L1 Edition
+has been designed to
+in terface seamlessly
+with third-party
+Lawful lnterception
+systems.
+
+P
+
+P
+
+-
+
+--
+
+-
+
+-
+
+--
+
+losmosixMachineU Edition
+
+I
+
+SSH Remote Access
+
+l
+
+Confiauration
+
+across multiple applications, physical locations,
+terminals and Web identities.
+Fits your LI solutions: Passive probe designed
+for seamless integration with mediation device
+and management systems.
+
+VolP interception (ETSI TS 102232-5)
+
+lnterception Modes
+
+lntercept VolP traffic
+Set triggers on any SIP identifier: IMSi, etc.
+
+Full IP traffic intercept based on
+authentication data (ETSI TS 102232-3)
+
+Non-standard service interception
+
+lntercept all IP traffic for a given target
+
+lntercept traffic of IP services such as IM,
+
+Set triggers on DHCP, Radius, Diameter
+
+Webmail etc.
+
+metadata
+
+Set triggers on service(s) identifiers
+
+a!! QOSMOS
+Your Network is Information
+
+Qosmos
+
+% QOSMOS
+
+ixMachine LI Edition
+Features
+
+Intercept Related Information (IRI) delivery
+
+Traffic flow parsing
+
+Leveraging a portfolio of 4 000 traffic attributes
+
+100% reliability of interception: no false
+
+-far beyond traditional probes - ixMachine LI
+
+positives. Dynamic parsing of flows according
+
+Edition identifies and delivers in real time all
+
+to protocol grammar (unlike static pattern
+
+communication, service and location associated
+
+matching)
+
+information required to feed the HI2 interface.
+
+Protocol and Application Tools
+Protocol Plugin Library
+The widest and deepest protocol and
+
+No use of TCPIUDP ports for classification:
+protocols identification based on syntactic
+
+Data retention
+
+and semantic analysis
+Correlation of flows into sessions and
+
+The real-time parsing of each flow - whether
+
+applications
+
+communication records to meet regulatory data
+
+applicat~onknowledge on the market allows
+LEASto Intercept any trafflc lncludlng the latest
+
+I
+
+Webmails or regional IP-based communications
+Over 300 protocols and applications
+
+recognized
+lnstant Messaging: Skype, MSN, Gtalk, etc.
+Webma~ls:Gmall, Hotmall, YahooMall, etc.
+VolP: H323, SIP, MGCP, etc.
+Moblle telephony: WAP, GTP, etc.
+Network: TCPIIP, DNS, DHCP, Radius etc
+Peer-to-Peer: eMule, BitTorrent, etc.
+Others: online gaming, business appllcatlons
+etc
+
+intercepted or not - delivers fine-grained
+
+Detection of obfuscated and encrypted
+
+retention requirements. Communication records
+
+protocols
+
+may include VolP, email, Webmail, lnstant
+Messaging, file transfer, P2P and other IP-based
+
+Triggers and ldentification
+
+applications.
+
+ixMachine LI Edition Probes parse traffic in real
+time, identifying all traffic attributes (sender,
+receiver, caller, called party, login etc.) necessary
+
+Hardware or software probe
+
+to pinpoint a target.
+
+EncryptedTraffic
+
+ldentification of targets with authentication
+
+ixMachine L1 Edition
+
+information
+
+Hardware probe for intercepting traffic up to
+
+ldentification of virtual IDs
+
+core network speeds.
+
+Detection of obfuscated and encrypted
+protocols such as Skype, BitTorent, VPN, SSH
+and SSL
+
+lnterception based on payload keywords
+
+On the fly deciphering of encrypted protocols
+
+Probes are configured through the HI1
+
+ixMOS LI Edition
+
+interface.
+
+Qosmos firmware (including interception
+
+such as SSL (requires that keys are provided
+
+II
+
+hardware.
+
+The Virtual ID Manager correlates the
+virtual identities of a person when using IP
+
+ixMachine LI Edition Soft Probe
+
+communication applications (e.g. username)
+
+Qosmos software for Linux distribution.
+
+Protocol Watch Service
+Protocol evolutions are monitored to enaole
+fast response and updates t o evolving and
+
+with the network identification (e.g. IP address).
+
+new protocols
+On-demand addition of new or customtzed
+
+This enables tracking of a target across all Web
+
+protocol plugins to the library
+
+identities and physical locations.
+
+Scalable solution
+
+Interception of communication content
+
+ixMachine LI Edition probe architecture enables
+
+ixMachine LI Edition probes can be configured
+
+interception of very large quantity of targets.
+
+to fit the exact requirements of the LEA.
+
+The number of rules set has no significant
+
+lnterception of all IP traffic for a given trigger
+
+impact on performance. The multi-gigabit
+
+Selective interception of traffic (e.g. Email,
+
+surveillance capacity of the ixMachine LI Edition
+
+Webmail, lnstant Messaging, VolP, etc.)
+
+allows users to manage millions of concurrent
+
+Compatible with the X3 interface to feed
+
+sessions and hundreds of thousands of rules.
+
+I
+1
+
+by the Law Enforcement Agency)
+
+software and OS) that can be installed on COTS
+Virtual ID Manager
+
+I
+
+I
+I
+
+Protad Plugin SDK
+Allows users t o create their own specific
+
+U Edition.
+
+mediation device with all communication
+
+Contacts
+EMEA
+5 Impasse Chalabre
+75017 Paris - France
+Phone: +33 1 78 09 1440
+Email: emea-sales@qosmos.com
+
+Depending on LEA objectives and system
+architecture, probes can intercept all the IP
+traffic or specific parts of the traffic (e.g. Ernail
+traffic, VolP traffic, etc).
+
+Americas
+Germantown, MD, USA
+Phone: +l
+301 528 8301
+Email: us-sales@qosmos.com
+Asia Pacific
+
+1
+
+Singapore
+
+Phone: +65 6396 6401
+Email: apac-sales@qosmos.com
+
+1
+I
+
+protocoi plugim and Integrate them In the IXM
+
+content required by the H13 interface
+
+1
+1
+
+C
+
+1
+
+

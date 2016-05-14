@@ -1,0 +1,150 @@
+SIGpac Man Portable
+Signals Intelligence (SIGINT) System
+Linkabit’s SIGpac is the next-generation tactical Signals Intelligence (SIGINT) System for
+global, full-spectrum operations. Its low-power, lightweight, ruggedized and modular design
+incorporates sophisticated state-of-the-art RF, signal processing and Direction Finding (DF)
+techniques. Using a software-driven design approach, SIGpac gives today’s intelligence
+professional a versatile and modular capability that is easily scaled to support a wide variety of
+missions to include man-packable, mobile, riverine, and unmanned applications.
+The SIGpac simultaneously conducts DF, monitor, search and scan operations. There are
+three search modes for both General and Directed Search:
+Automatic Search – Performs the search on a continuous basis without user notification and
+signal collection, unless a signal is observed on the High Value List.
+Semi-Automatic Search – Performs the search and immediately stops and waits for user
+interaction at each signal detect that is not on the Pass List.
+New Signal Occurrence Search – Performs the search and immediately stops and waits for user
+interaction only when a new signal detect is observed that does not reside on the Pass List, Signal
+List and Channel List.
+The general search capability allows the flexibility to monitor up to 10 (TBR) frequency
+bands by indicating frequency start and stop, F1 to F2, for each specified band. These frequency
+bands can be contiguous, non-contiguous or overlapping.
+When critical signals are detected, SIGpac maintains an active signals list measuring center
+frequency, bandwidth, time first seen, percent time active, DF bearing, modulation type, and
+signal strength.
+SIGpac is optimized for the remote tactical mission. The SIGINT Capability can be
+transported and operated by a single person and set-up in less than 5 minutes. The total weight is
+less than 27 pounds, which includes cabling, DF antenna, and internally-mounted battery. All
+accessories fit in a standard military issued ALICE/Rucksack for ease of transport and airborne
+early entry operations.
+Key system components include the:
+• SIGpac Receiver/Processor (100 KHz – 3000 MHz)
+• MA-445C HF/VHF/UHF DF Antenna (2-2000 MHz)
+• RF/Control Cable
+The heart of SIGpac is the Receiver/Processor. The processor uses a patent-pending
+interferometer DF technique typically providing 3 degrees RMS of DF accuracy, as well as
+excellent sensitivity to distinguish a variety of signals. SIGpac provides superior performance
+with most modulation types including CW, USB, LSB, AM, ISB and FM.
+The lightweight, low profile, combat-proven MA-445C HF/VHF/UHF antenna provides
+accurate DF coverage from 2 to 2000 MHz. Built in flexibility allows for the use of antennas
+optimized for specific RF environments, as well as quick integration to ground mobile, maritime,
+or fixed-site missions.
+The use of a low-power design and effective power management allows the system to be
+operated using the internally-mounted standard military batteries. Multiple power sources can be
+utilized with use of an external adapter including vehicle, shore and generator power at 110 or
+220VAC at 50 or 60 Hz.
+
+SIGPAC IS OPTIMIZED FOR THE
+TACTICAL SIGINT MISSION BY
+PROVIDING:
+• SIGNAL ENVIRONMENT
+CHARACTERIZATION
+
+• SIGNAL EXPLOITATION
+• SIGNAL LOCATION
+• THREAT WARNING
+
+SIGpac Man Portable Signals Intelligence (SIGINT) System
+Product Specs
+Frequency Coverage
+
+0.5 – 3000 MHz DF and Intercept (Receiver)
+2 – 2000 MHz (with MA-445C)
+3° RMS Typical
+1°
+10 µV/m (nominally)
+FM, AM , SSB, CW, 2ISB
+10 Hz
+≤ 5 ms
+75 dB or greater
+Integrate multiple LOB estimates, up to at least 30, for
+enhanced accuracy
+Provide operator-selectable DF integration time
+Provide internal storage for at least 100 LOBs
+(including timestamps)
+Provide built-in-test (BIT) to the card level
+≤ 15 pounds
+≤ 6.0 inches (without whip)
+≤ 2.0 square feet
+Ethernet 10/100 or USB
+≤ 9 meter SEP
+≤ 1 meter
+Bearing accuracy: ≤ 1°
+Bearing resolution: ≤ 0.1°
+
+DF Accuracy
+DF Resolution
+DF Threshold
+Demodulators
+Tuner Frequency Resolution
+Tuner Tuning Speed
+Tuner Dynamic Range
+Processor
+Processor
+Processor
+Processor
+Antenna Weight
+Antenna Height
+Antenna Area
+Remote Interface
+Position Accuracy
+Position Resolution
+Electronic Compass*
+Physical Characteristics System
+Size:
+Weight:
+
+3.50˝ H x 9.23˝ W x 11.05˝ D
+≤ 27 pounds
+(excluding antenna mount, and power source)
+
+Power Input
+
+20 to 30 VDC (stand-alone),
+9V to 36V (with external adapter)
+≤ 15 Watts when fully operational
+BB390, BB390B, BB590, BB590MB
+BB2590, BA5390, BA5590
+
+Power:
+Battery Type:
+Environment
+Operating Temperature:
+Storage Temperature:
+Humidity:
+Altitude:
+Submersion:
+Rain, Salt Fog, Vibration:
+
+-20° to +60°C
+-40° to +55°C
+5% to 95% Condensing
+15,000 feet
+1 meter (3 feet) for 1 minute
+Tested to MIL-STD-810F modified
+
+Resistant to externally generated radio frequency interference (RFI)
+In accordance with MIL-STD-461E, tests CE102, CE106, CS101,
+CS103, CS114, CS115, CS116, RE102 and RS1
+Note: All specifications subject to change without notice
+
+C l ea r ed b y D o D / OS R f o r Public Release
+U n de r 10 -S -3 0 26 o n A ug ust 24 , 20 10.
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078063005
+
+

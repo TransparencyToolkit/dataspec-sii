@@ -1,0 +1,233 @@
+L
+
+3
+HINTON Mobile
+Data Probe
+
+The HINTON Mobile Data Probe is used by telecommunications operators and law
+enforcement agencies to provide regulatory enforcement of lawful interception, and by
+government agencies involved in the collection of signals intelligence for homeland security
+purposes. The data gathered is used to counter terrorism, corruption, and criminal threats
+such as drug trafficking.
+
+CDMA 2000 Aquater interface support
+MAP signaling monitoring
+
+Interceptionof subscriber data sessions
+...
+
+100,000+ active target filters
+
+g
+
+&l
+
+-. . ',-2.
+L
+
+Target on mobile subscriber identities
+(IMSI/MSISDN/IMEI)
+Shared subscriber identity mapping
+Standards compliant handover
+(ETSI TS 133 108)
+
+-
+
+The HINTON Mobile Data Probe enables the simultaneous monitoring of thousands of
+subscriber data access sessions on GSM and UMTS wireless telecommunications networks,
+capturing complete subscriber data sessions based on known mobile network identities
+and providing intercept handover using standards based interfaces from ETS1/3GPP
+Monitoring at the Gn interface interconnect between serving and gateway GPRS support
+nodes provides optimal coverage, with optional monitoring of the Gr and C/D interfaces for
+improved subscriber identity correlation from MAP signaling carried over SIGTRAN, and the
+ability to monitor network interconnects (Gp interface) to offer full coverage as needed.
+
+Aarket leading hardware density
+-Only 1U rack space for up to
+8 GigE inputs
+
+.,,-,,
+?+L
+
+<-...-2ed
+e2
+
+.:
+
+a
+
+A-
+
+Reliable interceptionof
+data communication
+
+Telesoft Technologies has been deploying intelligence gathering and lawful interception
+solutions since 1991, and we have built an enviable reputation for ease of connection into
+a wide variety of networks with local standards variants, reliability in the field, and our
+ability to provide innovative solutions to issues encountered by LEASand law enforcement
+agencies in the successful acquisition of the right intelligence.
+
+Intercept based on
+'
+
+Ease of integration to existing
+collection/mediation systems
+with ETSl standard interfaces
+
+' -;
+:.
+ETSl TS 133 108
+
+Other
+PLMN
+
+~1
+
+,
+
+1
+1
+
+Lawful interceptionfor regulatory
+compliance
+,.
+,G.
+
+TECHNOLOGIES
+
+The HINTON Mobile Data Probe provides monitoring of
+mobile data sewices to meet the growing need for lawful
+interception and intelligence gathering in GSM, UMTS and
+COMA2000 wireless networks.
+
+GSM/UMTS Gn/Gp interface support
+
+'
+
+telesoft
+
+:;g
+
+=d.#
+
+Interception for intelligence gathering
+Target identity and location monitoring
+
+SGSN
+
+Handover Interface
+
+F telesoft
+
+TECHNOLOGIES
+
+iINTON Mobile
+
+Iata Probe
+I
+
+TECHNICAL SPECIFICATIONS
+
+Monitored interfaces
+Gigabit Ethernet
+SDH (STM-1/4)
+GSM (GPRS) Gn/Gp interface - GTP v0 (ETSI EN 301 347 v7.5.1)
+UMTS (HSDPA) Gn/Gp interface - GTP v1 (3GPP TS 29.060)
+MAP Signaling for identity correlation
+- with SIGTRAN Transport (MZUA/MZPA/M3UA)
+
+-
+
+-
+
+Intercept related information generation
+ASN.l encoded messages for call and non-call events
+Compliant to ETSI TS 133 108 lawful interception reporting interface,
+for ease of integration
+BEGIN, CONTINUE, and END reporting for intercepted sessions
+
+-
+
+Interception capability
+GTP user plane session intercept
+Handover compliant to ETSI TS 133 108
+
+-
+
+Subscriber targeting
+Target on IMSI, and MSISDN/IMEI where correlation available
+9 priority levels for target filters, enabling 'hot' target lists
+Each filter is individually assigned to:
+-capture statistical (RI) data only
+- IRI, and data session interception
+-white list (no reporting of IRI, or data interception)
+
+-
+
+Headquarters:
+Telesoft Technologies Ltd
+Observatory House
+Blandford Dorset
+DT11 9LQ UK
+
+Americas:
+Telesoft Technologies Inc
+Suite 601
+4340 Georgetown Square
+Atlanta GA 30338 USA
+
+Probe dimensioning
+Two configurations:
+- lawful intercept - 4 or 8 inputs, up to 8 Gbps traffic
+- mass intercept - 2 or 4 inputs, up to 4 Gbps traffic
+- u p to 5% of total traffic as control plane signalling
+100,000 concurrent complex target filters
+4,000 intercept related information (IRI) messages per second
+Up to 16,000 concurrent bearer intercepts
+- lawful intercept configuration - up to 10% of total traffic rate
+-mass intercept configuration - up to 1000h of total traffic rate
+
+-
+
+-
+
+Call data records
+Full call state machine tracking all (targeted and non-targeted)
+monitored data sessions
+Generates standardized CDRs for all sessions
+
+-
+
+Platform
+Power: 110/230v AC (50/60 Hz), or 48v DC
+Operating temperature: O'C to t40.C
+Operating relative humidity: 10% - 90% (non-condensing)
+Storage temperature: -20-C to t70.C
+Storage relative humidity: 5% - 95% (non-condensing)
+
+-
+
+India:
+Telesoft Technologies Ltd
+(Branch Office) Building FC-24
+Sector 16A Noida 201301
+Uttar Pradesh India
+
+relesoft Technologies, the Telesoft Technologies logo
+
+design and HIMON are l d e m k s or registered
+
+T. +91 120 466 0300
+
+tradernab of Teleson TechnologiesLtd or its subsidiaries.
+
+F. +91 120 466 0301
+E. salesindiaOtelesoft-technologies.com
+
+T e h i f TechnologiesLI~.~ l ights
+l ,wed.
+
+All othw brand and product names may be tmdemak
+of their respective companies. Copyright ozol l by
+
+

@@ -1,0 +1,273 @@
+Ares
+Système d’interception
+de Bandes C/L Thuraya
+
+Supériorité des informations grâce à une analyse stratégique
+Introduction
+Dans un monde de crises et de conflits internationaux et dans
+le cadre de la lutte contre le crime et le terrorisme, l’interception et l’analyse des télécommunications par satellite
+jouent aujourd’hui un rôle prépondérant. En étudian les
+contenus des télécommunications et les réseaux de communication et en analysant les interdépendances significatives, les forces militaires et les services de renseignements
+généraux sont désormais capables d‘identifier les dangers
+de manière précoce et de mettre en oeuvre des mesures
+visant à repousser ces menaces et à lutter contre le crime.
+
+de communication en résultant sont largement utilisées par
+les personnes et les organisations qui intéressent les services
+de renseignements, les services militaires et de police. Elles
+doivent par conséquent être analysées au moyen de systèmes
+de détection modernes.
+
+L’avènement de la télécommunication par satellite, permettant de téléphoner et d‘échanger des données à partir de
+n‘importe quel point du globe, a engendré une véritable
+révolution mondiale en termes de communication. Les voies
+
+Terminaux Thuraya actifs pendant un laps de temps d’une minute
+
+(881) 3736 4578 xxxx
+09:28 PM
+
+Rheinmetall Defence Electronics (RDE) est leader au
+niveau international dans le secteur du traitement des
+données satellite. Thuraya et Inmarsat et partenaire
+de longue date des organisations militaires et services
+de renseignements généraux.
+
+09
+:51
+PM
+
+Depuis le début de l’année 1990, RDE développe et
+commercialise des systèmes dédiés à l’analyse des
+connexions de télécommunication par satellite. À
+l’heure actuelle, plus de 40 systèmes tactiques et
+plus de 10 systèmes stratégiques de détection sont
+utilisés par nos clients dans le monde entier.
+Rheinmetall Defence Electronics fait partie du groupe
+Rheinmetall, emploie environ 1.400 personnes à
+l’échelle internationale et dégage un chiffre d‘affaires
+de 380 millions d’euros.
+
+(91) 315 6753 xxxx
+
+10:
+05 A
+M
+06:
+46 A
+M
+06:
+45 A
+M
+
+À propos de Rheinmetall Defence Electronics
+
+05:10 PM
+10:14 PM
+01:15 PM
+05:36 AM
+
+(49) 30 354 xxxx
+
+(881) 6785 2344 xxxx
+
+2
+
+Architecture du système
+
+Exploration de données et logiciel de traçage
+
+Le système d’interception de bandes C/L Thuraya ARES se
+compose des sous-systèmes suivants:
+
+Des outils d’exploitation performants sont disponibles pour
+l’analyse et la représentation des informations collectées:
+
+Sous-système d’antenne: acquisition des signaux RF et
+conversion par abaissement de fréquence (down
+conversion)
+Sous-système de capteurs: numérisation des signaux de
+fréquence intermédiaire, démodulation des données,
+décryptage et décodage
+Sous-système d’analyse et de contrôle: analyse des informations de sessions, configuration et gestion du système
+
+Système de rapport et d’analyse de la communication
+–CARS (Communication Analysis and Reporting System)
+Système de positionnement cible–TAPOS
+(Target Positioning System)
+Relation cible–TAREL (Target Relation)
+Analyse des conversations et outils de reconnaissance
+optique des caractères (OCR)
+
+Caractéristiques techniques (configuration de base)
+Sous-système d’antenne
+Antenne de bande C
+– Diamètre du réflecteur 5m à 8m (selon le lieu d’implantation)
+– Poursuite d’antenne automatique
+Antenne de bande L
+– Diamètre du réflecteur 1 m
+Convertisseur-abaisseur de fréquence numérique (bande C)
+– Largeur de bande 150 MHz (4.800 canaux de fréquence
+Thuraya)
+– Contrôle automatique de niveau
+Convertisseur-abaisseur de fréquence numérique (bande L)
+– Largeur de bande 34MHz(1.088 canauxde fréquence Thuraya)
+– Contrôle automatique de niveau
+
+Horloge de référence/Serveur NTP
+Convertisseur-abaisseur de
+fréquence de bande C/C
+Convertisseur-abaisseur de
+fréquence de bande L
+Frontal large bande
+34 canaux de trafic de bande C
+34 canaux de trafic de bande L
+600 canaux d’accès
+aléatoires (RACH)
+Unité de décryptage
+Serveur de données
+
+Unité de stockage
+
+Sous-système de capteurs
+Récepteur programmable multicanaux (bandes C et L)
+– Numérisation de plus de 1 600 canaux de fréquence
+de bande C
+– Numérisation de tous les canaux de fréquence de
+bande L
+Unité de traitement des signaux
+– Démodulation et décodage de 34 canaux de fréquence
+de ban de C et de 34 canaux de fréquence de bande L
+– Démodulation et décodage de tous les canaux d’accès
+aléatoires (RACH)
+Sous-système d’analyse et de contrôle
+Unité de décryptage
+– Décryptage simultané des canaux cryptés
+Architecture de serveur puissante et à sécurité intégrée
+en cas de panne
+– Analyse des informations de sessions
+– Configuration et gestion du système
+Capacité des canaux
+34 canaux de fréquence de bande C et 34 canaux de fréquence de bande L
+– Extensible par pas de 102 canaux de fréquence
+Tous les canaux d’accès aléatoires (RACH)
+Capacité de stockage
+1,8 téraoctet
+Interfaces
+Exportation de sessions (informations relatives aux
+sessions et données du trafic)
+Alimentation électrique
+115 – 230 VCA
+50 – 60 Hz
+env. 3,0 kW
+
+Dimensions
+Support 19“
+Hauteur 1,50 m
+
+3
+
+Caractéristiques clés
+Le système d’interception moderne évolutif ARES est le système stratégique utilisé pour contrôler la télécommunication
+par satellite Thuraya à l’échelle internationale (voix, SMS, fax,
+données). Ce système offre une grande flexibilité et de nombreuses possibilités d’extension. La configuration de base
+permet déjà de détecter et d’analyser simultanément 70
+canaux de fréquence et offre un potentiel d’étude de plus de
+200 conversations téléphoniques. Grâce à l’exploitation des
+technologies DSP et FPGA, ce système peut être logé dans
+un seul support de 19“. En ajoutant des cartes enfichables
+individuelles, la capacité peut être étendue graduellement
+de plus de 100 canaux de fréquence jusqu’à interception physique intégrale. Cette structure compacte offre des avantages
+de taille en termes de coût du cycle de vie, d’encombrement,
+de consommation électrique, de climatisation, etc.
+Il est possible d’ajouter au système fixe des capteurs à faisceaux étroits supplémentaires (cf. ARGUS) pour détecter des
+faisceaux étroits hors de portée du système fixe en utilisant
+un réseau étendu (WAN). Cette méthode permet de regrouper
+des systèmes et d’assurer ainsi une interception continue
+globale et une restitution du trafic réseau Thuraya.
+Le contrôle et la détection parallèles de tous les canaux
+d’accès aléatoires (RACH) offrent la possibilité d‘identifier
+rapidement les modifications régulières d‘attribution des
+
+canaux de fréquence dans les différents faisceaux étroits et
+d‘ajuster le réglage des capteurs en conséquence. En outre,
+l’analyse des informations issues des canaux d’accès aléatoires permet de déterminer la position d’un terminal Thuraya
+actif et de la représenter sur une carte. Cette fonctionnalité
+est incluse de série dans la configuration de base.
+L’analyse des données de connexion (Session Related Information) permet de sélectionner des groupes cibles importants
+et de soumettre les contenus des trafics correspondants à
+un traitement supplémentaire des données.
+Partie intégrante du système, le composant matériel de
+décryptage assure le décodage simultané de plus de 200
+conversations concomitantes. Pour analyser les informations collectées, il est possible de raccorder au système un
+nombre illimité d‘ordinateurs de poste de travail via le
+réseau local LAN.
+RDE est en mesure de proposer des installations complètes
+clés en main, travaux de construction, installation, mise en
+service et formations compris. Il est également possible d’intégrer des composants préexistants au système, par exemple
+l’antenne de bande C, et de conserver le logiciel préalablement utilisé par le client pour le traitement supplémentaire
+des données. Au cours de la phase d’exploitation, RDE propose également des contrats de maintenance et d’assistance
+sur mesure en fonction des souhaits du client.
+
+Nombre d’appels Thuraya par heure (émetteur portable, récepteur portable) Groupe de 7 emplacements, 4 jours
+16000
+14000
+12000
+10000
+8000
+6000
+4000
+2000
+
+26.02. 19:00
+
+26.02. 13:00
+
+26.02. 07:00
+
+26.02. 01:00
+
+25.02. 19:00
+
+25.02. 13:00
+
+25.02. 07:00
+
+25.02. 01:00
+
+24.02. 19:00
+
+24.02. 13:00
+
+24.02. 07:00
+
+24.02. 01:00
+
+23.02. 19:00
+
+23.02. 13:00
+
+23.02. 07:00
+
+23.02. 01:00
+
+0
+
+Récepteur portable
+Émetteur portable
+
+4
+
+Région de
+couverture
+Thuraya
+existante
+
+5
+
+B011f09.07©Rheinmetall
+
+Rheinmetall Defence Electronics GmbH · Brüggeweg 54 · 28309 Brême · Allemagne
+Tél. +49 4 21 4 57-01 · Fax +49 4 21 4 57-29 00 · www.rheinmetall-defence.com
+
+

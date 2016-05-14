@@ -1,0 +1,355 @@
+NCW-1200
+Network Centric Waveform (NCW)
+1.2 Meter Flyaway Terminal
+The NCW-1200 is a 1.2 meter Ku-band transportable SATCOM
+At-The-Halt (ATH) transit-case terminal that provides NCW
+tactical users with the specialized Internet Protocol (IP) communication capabilities to keep remote users connected where infrastructure is lacking (e.g. natural disasters, border surveillance and
+tactical scenarios).
+The NCW-1200 is comprised of three major transportable
+components, a rack-mount Baseband Power Distribution (BPD)
+transit-case, a Terminal Support Equipment (TSE) transit-case, and
+an Antenna Pedestal Positioner (APP) transit-case. Together, these
+transport components comprise a fully self-contained NCW
+network asset that requires only external prime power (shore/vehicle
+AC or vehicle DC) and a laptop PC for deployment.
+The NCW-1200 is designed to operate at full capability over all
+standard and extended Ku-band commercial satellites. By employing
+the optional Ka-band kit, which is also stored in the TSE
+transit-case, the terminal may be operated over the Wideband
+Global SATCOM (WGS) Satellite. By employing this multi-band
+capability on a common pedestal, the NCW-1200 terminal offers
+greater world-wide deployment flexibility for both military and
+commercial applications.
+The standard terminal provides plug-and-play
+NCW network operation with autoacquisition in the Ku-band. The
+1.2 meter antenna also offers an
+affordable and flexible VSAT
+capability that provides enhanced performance when
+throughput and portability
+must be traded to optimize
+mission requirements.
+
+O PERATING F EATURES :
+• NCW N ETWORKING
+– E THERNET S WITCH A RCHITECTURE AT
+S ATELLITE L INK -L AYER (SLL)
+– R EAL -T IME VOICE & V IDEO S UPPORTED
+– N ATIVE M ESH TOPOLOGY WITH S TAR
+& H YBRID S UPPORT
+– DAMA R ESOURCE S CHEDULING
+– MF-TDMA R ESOURCE A CCESS
+– F ULLY AUTOMATIC L INK -M ANAGEMENT
+– A DAPTIVE DSSS E MISSIONS C ONTROL
+(FCC/ITU C OMPLIANT )
+– R APID N ETWORK A CQUISITION
+– R APID R E - ACQUISITION A FTER FADEOUT
+– H ETEROGENEOUS T ERMINAL
+O PERATIONS IN THE S AME N ETWORK
+– H UB -A SSISTED (I.E. D OUBLE -H OP )
+F ORWARDING FOR D ISADVANTAGED
+T ERMINALS
+– D IFFERENTIATED S ERVICES (D IFFSERV )
+QOS
+– FIPS 140-2 L EVEL -2 (AES-256) C OVER
+• D EPLOYMENT F LEXIBILITY
+– E ASY T RANSPORTABILITY
+(T HREE T RANSIT C ASES )
+– E STIMATED 30-M INUTE S ETUP T IME
+– E STIMATED 15-M INUTE S TOWAGE T IME
+– O NE -B UTTON S ATELLITE A CQUISITION
+– O PERATION IN K U -B ANDS
+(M ILITARY K A -B AND O PTIONAL )
+– I NTERCHANGEABLE A NTENNA F EEDS
+(K A -B AND S TUB A DAPTER S TANDARD )
+– E THERNET 802.3 DATA /M&C P ORTS
+FOR NCW O PERATION
+– S TANDARD S ERIAL DATA /M&C
+I NTERFACE P ORTS FOR FDMA
+O PERATION
+
+NCW-1200
+
+NCW 1.2 meter Flyaway Terminal
+
+At the IP networking level, the BPD rack-mount transit-case can
+support a suite of baseband networking devices, including the L-3
+Linkabit MPM-1000 modem, which can be configured to accommodate both military and commercial IP networking req ui re ment s.
+These devices can include routers, COMSEC units, TCP accelerators,
+
+Specifications
+Antenna/RF
+Reflector
+
+1.2 meter circular, 6-segment carbon fiber: other reflector sizes
+optional
+
+Transmit Frequency
+
+Receive Frequency
+
+Ku:
+
+13.75 – 14.50 GHz
+
+Ka:
+
+30.0 – 31.0 GHz (optional)
+
+Ku:
+
+10.95 – 12.15 GHz (LNB 1)
+11.70 – 12.20 GHz (LNB 2)
+12.25 – 12.75 GHz (LNB 3)
+
+Polarization
+Deployed 1.2 m Antenna
+BUC/SSPA
+
+EIRP
+
+G/T
+MPM-1000 Modem
+
+Ka:
+
+20.2 – 21.2 GHz (optional)
+
+Ku:
+
+Linear orthogonal Tx and Rx (reversible)
+
+Ka:
+
+LHCP/RHCP Tx and Rx (reversible, optional)
+
+Ku:
+
+40 Watts @ P1dB (25 Watts available)
+
+Ka:
+
+12 Watts @ saturation (optional)
+
+Ku:
+
+58 dBW @ P1dB, typical midband
+
+Ka:
+
+60 dBW @ saturation midband (optional)
+
+Ku:
+
+20 dB/K @ 11.9 GHz, clear-sky 30º elevation
+
+Ka:
+
+23 dB/K @ 20.7 GHz, clear-sky 20º elevation (optional)
+
+Cross-Polarization
+
+30 dB within 1 dB of beamwidth
+
+Off-Axis Sidelobes
+
+Ku:
+
+Meets FCC, ITU, Intelsat, and Eutelsat requirements
+
+Ka:
+
+Meets MIL-STD-188-164A requirements
+
+Position Control
+
+One-button auto-acquisition, peaking, and polar-adjust
+with integrated GPS/compass/level-sensor
+
+Travel Limits
+
+Azimuth: +/- 90 degrees
+Elevation: 7 - 85 degrees
+Polarization: +91 degrees
+
+NCW-1200 HMMWV Stowage
+
+Motorized El over Az positioner with polar rotation feed
+
+or other baseband devices unique to some military networks. In addition, the black BPD power-distribution function allows operation in a
+classified enclave that provides red primary power, such as in a tactical ISR sensor vehicle. NOTE: The BPD transit-case is common to
+the L-3 Linkabit TRM-1000 SATCOM On-The-Move (SOTM) terminal.
+
+FDMA Operating Mode
+MIL-STD-188-165A
+
+Type I
+
+Modulation and Data Rate
+
+BPSK
+
+64 kbps to 6000 kbps
+
+QPSK/OQPSK
+
+64 kbps to 8472 kbps
+
+FEC and Scrambling
+
+Convolutional coding, RS coding and data scrambling
+(IAW IESS-308, 309, 310, and OM-73)
+
+Input Data
+
+MIL-STD-188-114/RS-422/RS-423 interface port
+
+Monitor and Control
+
+RS-485 interface port
+L-3 Linkabit HMI software (laptop optional)
+
+Baseband Power Distribution
+Transit Case
+
+NCW Operating Mode
+Data Rate (kbps)
+
+32, 48, 64, 96, 128, 192, 256, 384, 512, 768, 1024,
+1536, 2048, and 3072 *
+
+Modulation
+
+BPSK
+
+Rate 1/2 coding
+
+OQPSK
+
+Rate 1/2 and 3/4 coding
+
+8 PSK
+
+Rate 2/3 coding (future upgrade)
+
+FEC
+
+Serial Concatenated Convolutional Coder (SCCC, Turbo Coder)
+
+DSSS Spread Factors
+
+1, 2, 4, 6, 8, 12, and 16 (for FCC/ITU mobile communications)
+
+Simultaneous Carriers
+
+MF-TDMA: 2-Transmit, 4-Receive
+
+Encryption
+
+FIPS 140-2 certified AES-256 (CBC) TRANSEC
+
+Input Data
+
+Ethernet 802.3 10/100/1000 Base-T interface port (RJ-45)
+
+Monitor and Control
+
+Antenna Pedestal Positioner
+Transit Case
+
+SNMPv3 protocol
+Ethernet 802.3 10/100 Base-T interface port (RJ-45)
+L-3 Linkabit HMI software (laptop optional)
+
+Network Bandwidth
+
+Up to 500 MHz **
+
+Network Capabilities
+
+Up to 255 addressable nodes
+Full mesh, star, and hybrid topologies
+Burst-to-burst link management w/ LPC and ACM
+
+* Maximum data rate depends on link and satellite characteristics
+** Available with Ruggedized MPM-1000
+
+Terminal Support Equipment
+Transit Case
+
+NCW-1200
+
+NCW 1.2 meter Flyaway Terminal
+
+Prime Power
+Shore Input
+
+90 - 265 VAC, single-phase, 47-400 Hz
+
+Vehicle Input
+
+21- 36 VDC
+
+Environmental
+Temperature
+
+Humidity
+
+Wind
+
+Antenna/RF:
+
+-20º C to +52º C (operating)
+
+BPD indoor unit:
+
+-0º C to +50º C (operating)
+
+All equipment:
+
+-34º C to +71º C (non-operating)
+
+Baseband equipment:
+
+5 to 85% non-condensing
+
+Outdoor equipment:
+
+0 – 100% condensing
+
+30 mph operating w/ gusts to 45 mph (stabilizers deployed)
+60 mph in stowed position
+
+Transport Cases
+Baseband Power Distribution
+
+5RU rack-mount transit-case:
+25H x 28W x 14D inches @ 151 lbs
+Contains: MPM-1000 modem, power inverter,
+power filters, and router
+
+Terminal Support Equipment
+
+20H x 36W x 24D inches @ 179 lbs (standard)
+NOTE: <150 lbs with optional Ka-band equipment
+Contains: Reflector, remote ACU and power supply,
+stabilizers, BUC/SSPA and power supply, LNBs,
+antenna feed boom, and assorted W/G and cables
+
+Antenna Pedestal Positioner
+
+20H x 36W x 24D inches @ 120 lbs
+Contains: Antenna positioner and pedestal
+
+Note: All specifications subject to change without notice
+
+C leared b y DoD/OSR fo r Pu b lic R e lease
+Un d er 1 1 -S-10 7 6 o n F eb ru ar y 4 , 2 0 1 1 .
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+e-mail: LinkabitProducts@L-3com.com
+Product Ser vice Help Desk Number: 1-800-331-9401
+1078064003
+
+

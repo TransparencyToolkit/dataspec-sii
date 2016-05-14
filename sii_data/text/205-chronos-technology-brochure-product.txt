@@ -1,0 +1,138 @@
+SIMULATE Any dynamic, time or position
+REPLAY GPS andfor GLONASS RF data
+
+SatGsn v2 by RACELOGIC is the most cost effective multi-constellation
+Global Navigation Satellite System (GNSS) Simulation Software available.
+If you are testing and developing GPS/GLONASS
+receivers or applications, then you'll find SatEon
+ve makes your job easier, quicker and more
+effective.
+What is Batban v e ?
+Bat6en ve is Racelogic's GNSS scenario generation
+software which enables you to create a data file,
+based on a user-generated trajectory file that can be
+replayed on a LabSat GNSS Simulator. With
+Eat6en ve you can generate a scenario to simulate
+a test anywhere in the world, with position, route,
+speed, date and time all defined by the user.
+
+.
+
+-0
+
+vB Software User interface
+
+Why use Sat6en v$? software?
+You might be based in Europe, but your GPS devices
+will be deployed throughout the world.
+With
+Bat6an vi2 you can create a test scenario based on
+a user-generated trajectory file for virtually any
+location, including hostile areas for which live-sky field
+testing might be impossible. This allows you t o verify
+that your GPS equipment design performs as required,
+in a variety of locations that may be geographically
+remote from your facility. It also means the same
+scenario can be replayed repeatedly to see how the
+device under test (DUT) performs.
+Of course, LobSat can record and replay live data,
+but creating an artificial scenario allows you to
+precisely control the data content, and create a 'gold
+standard' file for carrying out true comparisons
+between receivers. From your bench you can try
+different acceleration levels, crossing different time
+zones, the equator, leap second roll-overs and many
+hard t o replicate tests.
+
+Choice of two software pmgmmmes
+mot6m wt UIS Only Umulatbn Software with
+'L.#RI l b i t and ZIWrC CT 2Mt GPS RF data
+output in static or dynamic modes: User confiurable
+tkne, date and duration for static scenario.creation.
+mvg dynamic scenario creation with draw a
+route, file upload and user defined command options.
+
+-
+
+Saeen vlC GPS & GLONW
+
+SimulaPion Software
+with
+l b i t and 2.bbl Y 2bii GPS and
+GLONASS RF data output in &tic or dynamic modes:
+User configurable time, date and duration input for
+static scenario creation. Saeen wt dynamic
+scenario creation with draw a route, file upload and
+user defined command ootions.
+
+rlow does it work?
+Creating a scenario with Smt6en VC is easy. A
+relatively complicated route can be defined in just a
+few clicks, leaving the software to automatically
+generate a fully realistic scenario. If you have an
+NMEA or KML file of your route, you can simply
+import this directly into the software. Alternatively
+you can create a scenario from scratch, either by
+creating a route in Googk Mapsm mapping service, or
+by building a unlque trajectory using simple user
+defined commandswithin the muC software.
+
+Smt6en M scenario generation process
+8U80n uC software can also import data in a
+
+variety of formats including: Coo& Earthw mapping
+service 'kml', Racelogic VBOX '.vbo' and User Defined
+profiles.
+The user defined command file feature allows for any
+dynamic, time or location to be defined.
+VC
+can easily create complex trajectory or flight profiles.
+To make the process even easier a number of
+predefined examples are included: Acceleration,
+circle, square, figure of eight, airport take off, North
+Pole circle, South Pole circle, equator circle and circle
+around a set point. These can easily be modified to
+create complex routines.
+SU6en VC Scenario Creation Diagram
+
+with
+
+Brt6en M Draw a Route Screen
+Once the route and velocity profile have been defined,
+the software will use this data to create a [ktd.n
+scenario file which can be replayed on a mor
+&~bBmt
+E simulator into a device under test (DUT).
+LmbEat is able to play the scenario file with
+consistency and repeatability as part of a testing
+regime.
+
+iat-Gen vi
+process dai
+
+Racelogic
+
+.krnl, NMEA.
+
+Simulator
+
+Urcr defined
+
+roftwrn k supplied by I)rlCUOGKLtd., experts in the M d of GP$ TaWng and Data LoLging. Rased in the UK
+with a d d i i 0ffiCe5 in Germany, RACELOGICa n an IX) 9001company thrt supplies spuclaliicd GPS basedtest aquipment
+to many well k m wrpontions, in om 90 countrimsaroundthe mrrld.
+
+-uC
+
+ChTechnology Ltd
+Stowfield House Upper Stowfield
+Lydbrook, ~loucktershire
+CL17 9PD United Kinadorn
+
+-
+
+Tel: +44 (0)1594 862200
+
+11tII)L881
+
+

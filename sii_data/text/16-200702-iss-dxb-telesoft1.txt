@@ -1,0 +1,474 @@
+Intelligent Probing for Intelligence
+and LI Applications
+
+Presented by
+Keith Driver - Telesoft Technologies
+February 2007 v1.0
+
+Topics
+What is Intelligent Probing?
+How is it achieved?
+What can be achieved?
+How relevant is this to 3G networks?
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 2
+
+What is Intelligent Probing?
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 3
+
+Definition
+Intelligent Probing is:
+– Selective Acquisition of data, based on network
+signalling and bearer properties
+• E.g. DTMF tones, original called number, type of call
+• Not just called/calling party numbers
+
+– Handling of incomplete network data
+– Real time network data Analysis
+• CIC mapping derivations
+• Multiple Subscriber Identity/Location correlations
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 4
+
+Goals
+To provide precise event selection capability
+To provide independent access to network data
+across network types
+– ( GSM/CDMA/3GPP/PSTN/Sattelite )
+
+To provide a single central interface for handover
+of the information
+To operate in imperfect environments
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 5
+
+Intelligent Probing
+Probing both signalling and communication
+content
+– Signalling, examining ALL signalling parameters, not just
+called/calling party numbers
+–
+–
+–
+–
+–
+
+Original Called Number
+Redirecting Number
+Calling Party Category … etc
+Prefix/Suffix/wildcard matching
+Number normalisation
+
+– Communications Content
+• DTMF digit extraction
+• Activity (Energy) detection in timeslots
+• Classification of content ( Fax/Modem/Voice )
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 6
+
+Complex event selection
+Call selection based on complex criteria
+–
+–
+–
+–
+–
+–
+–
+–
+
+Calls from A to B
+Calls from A to B redirected to C
+Calls only from B
+All Fax calls
+All Modem calls from A to B
+All events on a declared circuit
+Events where timeslot energy > -20dBm
+SMS from A to C when B is located with A
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 7
+
+Independent Access
+Intelligent Probes are mostly passive ( nonintrusive ), and therefore independent
+Intelligent probes are purpose designed
+Able to Acquire data from different
+networks/interfaces
+Provide Standardised Handover Interfaces ETSI /
+CALEA / TIIT etc
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 8
+
+Implementation of Intelligent Probes
+Acquiring network data occurs in two ways
+– Forwarding from existing infrastructure
+•
+•
+•
+•
+•
+
+‘Internal Interception’
+Manufacturer specific implementation
+Limited functionality, hard to extend and slow to do
+Non core function to network node
+Generally focused on minimum LI requirements
+
+– Passive monitoring of interconnects
+•
+•
+•
+•
+•
+
+Generic access to network data
+Rich functionality, easy and fast to extend
+Specialised equipment
+Wide range of capability
+Less ‘visible’
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 9
+
+Internal Interception Function
+
+Acquisition from
+– Network nodes
+– Passive tapping
+
+Each has advantages
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 10
+
+Internal vs Off Switch
+Internal
+– Pros
+• No extra equipment necessary
+• Handover interface implemented within the equipment
+• Access to internal data structures can make it more efficient
+
+– Cons
+•
+•
+•
+•
+
+Each manufacturer implements the interface differently
+Provisioning of target data is not uniform
+Manufacturers often charge for the feature
+The switch is forced to perform a non-core task and takes
+resources from core tasks
+• The switch must be tasked with the LI warrants
+• An upgrade in switch s/w can ‘break’ the LI feeds
+• On switch solutions can introduce detectable artefacts
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 11
+
+Internal vs !Off Switch"
+Off Switch
+– Pros
+• LI function will not affect the network performance or customer
+experience.
+• Independent of network equipment and vendors. A single
+interface presented.
+• Defined interfaces for remote tasking.
+• More intelligence can be placed in the probe, greatly benefiting
+the LEA.
+• The same equipment can be used for Intelligence intercept as for
+LI.
+
+– Cons
+• More equipment must be deployed and managed.
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 12
+
+Architecture
+Truly intelligent probes can only be offered
+through passive acces
+Passive monitoring also confers
+– A single handover interface for all
+LI/Intelligence data
+– Single provisioning point
+– Electronic provisioning
+– Physically Centralized target holding - more
+secure
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 13
+
+Operation in Imperfect environments
+Lawful Intercept usually allows for full access to
+signalling and bearers
+Intelligence gathering is more opportunistic.
+Intelligent probes derive data from incomplete
+intercept data
+– Only one path (Tx or Rx ) of the signalling and or
+bearers may be available
+– Data may be of poor quality ( high error rate )
+– Only a proportion of bearers may be accessible
+– Some signalling may be load shared across links that
+are not accessible
+
+Intelligent Probes have specific algorithms for this
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 14
+
+How is it Achieved?
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 15
+
+Passive Access
+Passive Access through tapping of electrical
+and optical bearers
+Remote and distributed probe deployment
+Backhaul to centralised processing
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 16
+
+Accumulated handover
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 17
+
+Accumulated Handover
+Network signalling and content is probed from
+the observed network
+Events are relayed to the central processing
+server over transfer network
+The server makes decisions on recording and
+meta data creation ( CDR’s / IRI etc )
+The probes are instructed to stream the call
+content to a destination recorder.
+All decisions are made centrally
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 18
+
+What can be Achieved?
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 19
+
+Easier collection
+Large scale network monitoring from a
+single interface
+– Disparate technologies, interfaces,locations
+
+Clandestine/opportunistic access
+Access with greater security
+Passive solution means no compromise to
+network integrity
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 20
+
+Easier processing
+Lower volume of acquired data for analyst
+processing, through better selection
+Automatic processing of data flows
+– e.g. ( Fax-->demodulator->OCR->keyword recognition )
+
+Event triggers based on target proximity
+/accumulation/absence
+Event triggers based on communication content.
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 21
+
+How Relevant is this to 3G networks?
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 22
+
+Packet based Networks
+Networks are being converged/replaced with
+packet based transport
+Telephony is still the primary service of such
+networks, and therefore must be acquired
+Mandated Internal functions scavenge resource
+limiting capacity
+Selection of the correct flows from packet
+networks is even more important
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 23
+
+Access to packet transmission
+Passive access to packet transports is
+needed
+– WAN links with PoS, or the 3GPP Iuxx
+interfaces with ATM/HDLC transports
+– SIGTRAN signalling transports
+– Packet accumulation and forwarding
+– LAN links with hardware support for Deep
+Packet inspection in real time
+
+But the analysis is identical
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 24
+
+Legal considerations
+The Legal position for packet networks will be
+very complex. Unwarrented collection may be
+key to national security.
+Media Gateways may be located outside
+jurisdiction, but signalling will be inside
+Warrants for target installation in equipment not
+owned by the authority will not be possible
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 25
+
+Summary
+Intelligent Probing provides
+–
+–
+–
+–
+–
+–
+
+Precise targetting
+Reduced workload for analysts- reduced volumes
+More secure collection of data
+Independent and immediate access to data
+Sophisticated triggers (location / proximity)
+Network nodes are not required to perform non-core
+tasks
+
+A better solution for Intelligence, and for Lawful
+Intercept
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 26
+
+Further Information
+http://www.telesoft-technologies.com
+– HINTON product range
+•
+•
+•
+•
+•
+
+GSM/CDMA/PSTN/Sattelite probes
+3GPP Iu/Nb/Nc probes
+OSS Probes
+Lawful Intercept/Intelligence probes
+Probes for revenue generating applications
+– Missed Call/Welcome Roamer/
+
+Commercial in Confidence
+
+www.telesoft-technologies.com
+
+Page 27
+
+Thank you for watching
+
+www.telesoft-technologies.com
+
+Telesoft Technologies Ltd
+Observatory House
+Blandford Dorset
+DT11 9LQ UK
+
+Telesoft Technologies Inc
+Suite 601
+4340 Georgetown Square
+Atlanta GA 30338 USA
+
+T. +44 (0)1258 480 880
+F. +44 (0)1258 486 598
+E. sales@telesoft-technologies.com
+
+T. +1 770 454 6001
+F. +1 770 452 0130
+E. salesusa@telesoft-technologies.com
+
+

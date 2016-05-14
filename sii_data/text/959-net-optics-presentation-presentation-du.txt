@@ -1,0 +1,651 @@
+Présentation du
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+But du Director
+
+Améliorer la surveillance des données grâce à un
+matériel spécialement conçu par NetOptics pour diriger
+intelligemment l’information vers qui de droit
+
+2
+
+Gestion des données capturées
+Point critique :
+• Les solutions de surveillance se multiplient au fur et à
+mesure que les réseaux fournissent plus de services et
+transportent plus de trafic multi-protocoles
+
+Analyseur
+
+RMON
+
+IDS
+
+La solution :
+• Un appareil filtrant "intelligent" et souple qui dirige le trafic
+intéressant, par type de protocole, à différents outils de
+surveillance
+– Capacité de surveillance de 1 et 10 Gbps
+– Filtrage du trafic multi-niveaux
+– Exploitation efficace et moins couteuse des ressources
+
+?
+
+Forensics
+
+IPS
+
+Contention d’outils
+
+3
+
+Director
+
+Bénéfices :
+• Combine les fonctionnalités de plusieurs produits NetOptics
+– iTapTM, agrégation, régénération, matrice de commutation
+
+•
+•
+•
+•
+
+Débit physique total de 74Gbps (7400 ), 5400 (54Gbps) et 34Gbps (3400)
+Cible les services IT centralisés de surveillance de données
+Simplifie la quantité de données envoyées à des outils de suivi
+Permet d'utiliser des outils de surveillance à 1Gbps sur des réseaux à 10Gbps, et des outils de surveillance à 10Gbps
+sur des liens 1Gbps agrégés
+• Filtrage sur base matérielle pour une très faible latence
+• Trois châssis de base pour répondre aux différentes tailles d’applications
+• 15 ans de MTBF !
+4
+
+Présentation du châssis Director 7400
+Face avant
+• Dix ports moniteur 1Gbps via SFP
+• Deux ports moniteur/réseau 10Gbps
+configurables via XFP
+• Deux emplacements pour ports réseau
+
+Ports
+
+Emplacement pour 12
+ports réseau 1Gbps
+
+10Gbps configurables
+
+– Chaque emplacement peut accepter douze ports
+réseau 1Gbps
+
+• Diodes de statut faciles à interpréter
+Ports moniteurs 1Gbps
+
+Face arrière
+
+Emplacement pour 12
+ports réseau 1Gbps
+
+• Deux ports 10Gbps triple fonctions via XFP
+– Chaînage, TAP et Span
+
+•
+•
+•
+•
+
+Port de gestion 10/100/1000 Mbps
+Port RS232 pour CLI
+Port USB pour mise à jour logicielle
+Deux alimentations interchangeables sous
+tension
+
+Port USB
+Port de gestion
+10/100/1000 Mbps
+
+Port RS232
+
+Deux alimentations
+interchangeables sous tension
+
+Port de chaînage 10Gbps
+
+5
+
+Présentation du châssis Director 5400
+Face avant
+• Dix ports moniteur 1Gbps via SFP
+• Deux emplacements pour ports réseau
+– Chaque emplacement peut accepter douze ports
+réseau 1Gbps
+
+Emplacement pour 12
+ports réseau 1Gbps
+
+• Diodes de statut faciles à interpréter
+
+Face arrière
+• Deux ports 10Gbps triple fonctions via XFP
+
+Ports moniteurs 1Gbps
+
+– Chaînage, TAP et Span
+
+•
+•
+•
+•
+
+Port de gestion 10/100/1000 Mbps
+Port RS232 pour CLI
+Port USB pour mise à jour logicielle
+Deux alimentations interchangeables sous
+tension
+
+Emplacement pour 12
+ports réseau 1Gbps
+
+Port USB
+Port de gestion 10/100/1000 Mbps
+
+Port RS232
+
+Deux alimentations
+interchangeables
+sous tension
+
+Port de chaînage 10Gbps
+
+6
+
+Présentation du châssis Director 3400
+Face avant
+• Dix ports moniteur 1Gbps via SFP
+• Deux emplacements pour ports réseau
+– Chaque emplacement peut accepter douze ports
+réseau 1Gbps
+
+Emplacement pour 12 ports
+réseau 1Gbps
+
+• Diodes de statut faciles à interpréter
+
+Face arrière
+•
+•
+•
+•
+
+Port de gestion 10/100/1000 Mbps
+Port RS232 pour CLI
+Port USB pour mise à jour logicielle
+Deux alimentations interchangeables sous
+tension
+
+Ports moniteurs
+1Gbps
+Port de gestion
+10/100 Mbps
+Port USB
+
+Emplacement pour 12 ports
+réseau 1Gbps
+
+Deux alimentations
+interchangeables
+sous tension
+
+• Pas de port 10G
+• Pas de chaînage possible
+Port RS232
+
+7
+
+DNM (Director Network Modules)
+
+Ports réseau fibre
+
+Ports réseau cuivre
+
+Caractéristiques communes
+• Accès passif en ligne ou par recopie de ports
+• Modules fibre et cuivre
+• Emplacements indépendants
+
+• Interchangeables sous tension
+• Diode de statut pour chaque port
+• Statistiques de type RMON
+
+Caractéristiques cuivre
+• Douze ports 1Gbps
+• Six en ligne (TAP) ou douze en recopie de ports
+
+• Connectivité 10/100/1000 Mbps
+• Détection de défaut du lien (LFD) sur les ports en
+ligne
+
+Caractéristiques fibre
+• Douze ports 1Gbps
+•
+
+Six en ligne (TAP) ou douze en recopie de ports
+
+• Connecteurs LC, SX (50/62.5μm) ou LX (8.5 μ m)
+• Taux de couplage 50/50, 60/40, 70/30
+
+8
+
+Ports 10 Gbps configurables
+Ports Moniteurs
+
+Ports réseau sélectionnés
+Analyseur
+
+Ports réseau en recopie
+
+Ports moniteurs
+sélectionnés
+
+Ports réseau en insertion de lien
+IDS
+
+• Deux ports 10Gbps moniteur/réseau
+• Basé sur des interfaces XFP – SR et LR supportés
+• Possibilités de configuration :
+– Moniteur – Le trafic est copié à partir des ports réseau 1Gbps sélectionnés
+– Réseau – Le trafic 10Gbps est copié vers les ports moniteur sélectionnés
+– Possibilité d’un port moniteur plus un port réseau
+
+9
+
+Ports Moniteur
+
+SFP cuivre 1Gbps
+
+SFP fibre 1Gbps
+
+Douze ports moniteur disponibles
+XFP SR 10Gbps
+
+XFP LR 10Gbps
+
+• Filtrage par protocole TapFlowTM actif
+• Dix ports pour outils de surveillance 1Gbps
+– Connexions en cuivre et fibre supportées via SFP
+
+• Deux ports pour outils de surveillance 10Gbps (XFP SR et LR supportés)
+• Chaque port est capable de surveiller n’importe quel port ou groupe de ports réseau
+• Supporte tous les outils d’analyse réseau, forensic et sécurité
+
+10
+
+Filtrage par protocole - TapFlowTM
+
+HTTP
+
+SMTP
+IMAP
+
+VoIP
+
+FTP
+
+DHCP
+IPv4
+
+HTTP
+
+TCP
+
+SNMP
+TCP
+
+Analyseur
+
+RMON
+
+IPv6
+IDS
+• Transmet le trafic sélectionné aux ports moniteur dédiés
+• Filtrage du trafic par :
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+Adresses source et destination IP V4 et V6
+Adresses Source et destination MAC
+Ports TCP/UDP
+VLAN
+Sous réseaux
+Paires de sessions IPv4 et IPv6 IP
+Liens entre modules réseau
+Masque de plages de VLAN, d’adresses IP et MAC, de ports
+Conditions Add/Drop
+Protocoles (DHCP, FTP, HTTP, IMAP, SMTP, SNMP, TCP…)
+
+11
+
+Exemple de TapFlow
+
+TM
+
+TapFlow
+Port 2
+Port 1
+
+VoIP
+
+Port 6
+HTTP
+
+iSCSI
+
+Port 3
+
+Port 9
+
+Analyseur
+Port
+réseau 26
+
+Port n
+
+Port
+réseau 4
+
+IDS
+
+• Configuration des filtres TapFlow via commandes d’un port moniteur
+• Exemple
+– Surveillance du trafic HTTP venant d’un serveur Web :
+port 6 <= HTTP traffic from network port 4
+– Transmission de tout le trafic venant des serveurs de messagerie pour détecter des contenus malveillants :
+port 9 <= Destination IP 192.168.70.0:192.168.70.63
+
+12
+
+Filtrage multicouches
+Filtre
+TCP
+
+Filtre
+HTML
+
+Filtre
+SNMP
+
+Filtre
+192.0.0.5
+
+Analyseur
+•
+•
+•
+•
+•
+•
+
+Filtrage TapFlow multicouches par port moniteur
+N’importe quel port vers n’importe quel autre, any to many, many to many
+N’importe quel port vers plusieurs
+Plusieurs ports vers plusieurs autres
+Supporte plus de 1000 éléments filtre par châssis
+Exemple - Filtres multicouches sur port moniteur 6
+– Monitor port 6 <= TCP traffic from network port 1
+AND HTML traffic from network ports 4 and 6
+AND SNMP traffic from 192.0.0.5 on network port 8
+
+13
+
+Regroupement de ports
+Analyseur
+Groupe 1
+
+Groupe 2
+Analyseur
+
+IDS
+
+IDS
+
+• Tout le trafic venant d’un ou plusieurs ports réseau est copié vers les ports moniteur sélectionnés
+• Un groupe peut être constitué d’1 à 26 ports réseau
+• Configurable via le moniteur du port de commandes
+
+14
+
+Chaînage des châssis
+
+Bâtiment 1
+
+•
+•
+•
+•
+•
+
+Bâtiment 2
+
+Deux ports 10Gbps via XFP
+Support de SR, LR, et ER
+Connexion jusqu’à 10 châssis - 260 ports réseau disponibles
+Tous les ports moniteur (jusqu’à 120) actifs pour une évolutivité souple
+Gestion de la chaîne entière grâce au System Manager
+– Gestion locale et distante supportées
+
+15
+
+Logiciel Indigo de gestion & configuration
+System Manager
+• Accès et gestion à distance
+– Interface Web graphique conviviale
+– Cartographie large visibilité
+– Interface par ligne de commande
+
+VoIP
+DHCP
+
+• Rapports complets sur les liens
+– Identification des pointes d’utilisation de la bande
+passante
+– Statistiques de trafic constaté
+
+• Contrôle d’accès par utilisateur
+– Validation/invalidation des ports moniteurs
+– Remise à zéro des triggers d’alarme
+– Filtrage et règles de configuration accessibles par
+onglets
+
+• Sécurité
+– SNMP v3
+– Authentification distante via RADIUS/TACACS+
+
+16
+
+Déploiement souple et évolutif
+Une plateforme
+polyvalente d’accès
+à la surveillance
+(MAP) pour une
+meilleure gestion de
+la visibilité des flux
+et des menaces sur
+la sécurité dans
+l’ensemble du
+réseau
+
+•
+•
+•
+•
+
+IDS
+
+Analyseur
+
+Analyzer
+
+RMON
+
+Forensics
+
+Forensics
+
+Protection complète contre les menaces à tous niveaux
+Connectivité par recopie de ports, hors bande et en ligne
+Analyse du trafic interservices
+Centralisation des ressources et outils de gestion
+
+17
+
+Exemple de projet en plusieurs phases
+Port de gestion 10/100 Mbps
+Port RS232
+Port USB
+(face arrière)
+
+Phase 1
+Deux ports 10Gbps configurables
+
+Tous les ports moniteur
+
+1 emplacement
+avec 12 ports
+réseau
+
+2ème emplacement
+réseau non activé
+
+• Matériel 100% évolutif
+• Nouvelles fonctionnalités validées par logiciel
+
+Phase 2
+Interface de lignes de
+commandes (CLI)
+
+Interfaces graphiques
+Web Manager et System
+Manager
+
+Chaînage jusqu’à 10 châssis
+via les ports 10Gbps en face arrière
+
+2ème emplacement réseau
+activé
+
+18
+
+Plateforme d’accès à la surveillance
+Accès intégré dans l’infrastructure avant l’apparition des problèmes
+
+19
+
+Références disponibles (châssis)
+• Châssis 7400 : DIR-7400
+–
+–
+–
+–
+–
+
+10 ports SFP moniteurs
+2 emplacements pour modules réseau
+4 ports XFP 10Gbps
+chaînage possible entre châssis
+2 alimentations redondantes (220 V AC ou 48 V DC)
+
+• Châssis 5400 : DIR-5400
+–
+–
+–
+–
+–
+
+10 ports SFP moniteurs
+2 emplacements pour modules réseau
+2 ports XFP 10Gbps
+chaînage possible entre châssis
+2 alimentations redondantes (220 V AC ou 48 V DC)
+
+• Châssis 3400 : DIR-3400
+– 10 ports SFP moniteurs
+– 2 emplacements pour modules réseau
+– 2 alimentations redondantes (220 V AC ou 48 V DC)
+– DIR-PWRAC - Alimentation de rechange 220 V AC
+– DIR-PWRDC - Alimentation de rechange 48 V DC
+20
+
+Références disponibles (modules réseau)
+– DNM-100 -- Module 6 voies en insertion (12 ports) 10/100/1000 Mbps cuivre (mode TAP)
+– DNM-110 -- Module 12 voies en recopie (12 ports) 10/100/1000 Mbps cuivre (mode Span)
+– DNM-200 -- Module 6 voies en insertion (12 ports) GigaBit SX fibre 62.5 µm 50:50, LC, 850nm (mode TAP)
+– DNM-202 -- Module 6 voies en insertion (12 ports) GigaBit SX fibre 62.5 µm 70:30, LC, 850nm (mode TAP)
+– DNM-210 -- Module 12 voies en recopie (12 ports) GigaBit SX fibre 62.5µm, LC, 850nm (mode Span)
+– DNM-220 -- Module 6 voies en insertion (12 ports) GigaBit SX fibre 50µm, 50:50, LC, 850nm (mode TAP)
+– DNM-222 -- Module 6 voies en insertion (12 ports) GigaBit SX fibre 50µm, 70:30, LC, 850nm (mode TAP)
+– DNM-230 -- Module 12 voies en recopie (12 ports) GigaBit SX fibre 50µm, LC, 850nm (mode Span)
+– DNM-300 -- Module 6 voies en insertion (12 ports) GigaBit LX fibre 8.5µm, 50:50, LC, 1310nm (mode TAP)
+– DNM-302 -- Module 6 voies en insertion (12 ports) GigaBit LX fibre 8.5µm, 70:30, LC, 1310nm (mode TAP)
+– DNM-310 -- Module 12 voies en recopie (12 ports) GigaBit LX fibre 8.5µm, LC, 1310nm (mode Span)
+– DNM-320 -- Module 6 voies en insertion (12 ports) GigaBit ZX fibre 8.5µm, 50:50, LC, 1550nm (mode TAP)
+– DNM-330 -- Module 12 voies en recopie (12 ports) GigaBit ZX fibre 8.5µm, LC, 1550nm (mode Span)
+
+21
+
+Références disponibles (SFP, SFP+, XFP)
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+–
+
+SFPKT-GCU
+SFPKT-50SX
+SFPKT-SX
+SFPKT-LX
+SFPKT-ZX
+SFP+KT-SR
+SFP+KT-50SR
+SFP+KT-LR
+XFPKT-ER
+XFPKT-50SR
+XFPKT-SR
+XFPKT-LR
+
+Kit SFP cuivre 1G, avec câble
+Kit SFP fibre, 1G, SX (850nm) avec câble 50µm
+Kit SFP fibre, 1G, SX (850nm) avec câble 62.5µm
+Kit SFP fibre, 1G, LX (1310nm) avec câble 8.5µm
+Kit SFP fibre, 1G, ZX (1550nm) avec câble 8.5µm
+Kit SFP+ fibre, 10G, SR (850nm) avec câble 62.5µm
+Kit SFP+ fibre, 10G, 50SR (850nm) avec câble 50µm
+Kit SFP+ fibre, 10G, LR (1310nm) avec câble 8.5µm
+Kit XFP fibre, 10G, ER (1550nm) avec câble 8.5µm
+Kit XFP fibre, 10G, 50SR (850nm) avec câble 50µm
+Kit XFP fibre, 10G, SR (850nm) avec câble 62.5µm
+Kit XFP fibre, 10G, LR (1310nm) avec câble 8.5µm
+
+22
+
+

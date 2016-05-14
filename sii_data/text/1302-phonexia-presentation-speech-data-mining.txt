@@ -1,0 +1,1357 @@
+SPEECH DATA MINING,
+SPEECH ANALYTICS,
+VOICE BIOMETRY
+
+INFORMATION IN SPEECH
+Average person pronounce about 7400 words a day, but the
+same person writes only few hundreds of words a day.
+
+Only the text is indexed by search engines, searchable and
+used in business decisions nowadays. The rest is lost.
+Ce;)
+P h o n e , : in
+
+www.phonexia.corn, 2/28
+
+WHAT IS IN SPEECH?
+Speaker
+
+Lontent
+
+Language
+Dialect, speaker origin
+Education
+Gender, age
+Speaker identity
+
+Keywords
+Speech transcription
+Topic
+When speaker speaks
+
+1
+
+IvironmAr
+
+iuipment
+Where speakers speaks
+Device (phone/mike!...)
+To whom speakers speaks Transmit channels
+(dialog, reading, public talk) (landlineicell phone/Skype)
+Other sounds
+Codecs (gsmimp3/...)
+(music etc.)
+Speech quality
+ct)
+
+Phonpuin
+
+www.phonexiacom, 3/28
+
+PHONEXIA
+Goal:
+Help clients to extract automatically
+maximum of valuable information from
+spoker -,peech.
+• B a s e d in 2006 as spin-off of Brno University
+of Technology
+• 1 5 years experience in speech processing,
+6 years or work for security/defense sector
+• S e a t and main office in Brno, Czech
+Republic, active worldwide
+• T i g h t collaboration with BUT
+— 2 0 researches moves the technology
+forward
+— 1 5 people for development, sales, marketing
+and technical support
+
+• M o r e than $1.000.000 invested every year
+to research and development
+Phonetin
+
+www.phonexiacom, 4/28
+
+GET THE MOST
+
+Swimaudio (speech)
+
+SpeakerNoice
+Recognition
+
+Who speaks?
+John Doe
+
+Gender
+Recognition
+
+What gender?
+Male or , i d l e
+
+Language
+Recognition
+
+What language?
+Erly li1/42e1
+
+Keywords hunting
+Speech
+Recognition
+
+1'John spotted
+
+What was said?
+"Hello John!"
+
+Time/relation
+analysis
+Phoneuiri
+
+Who asked to
+whom?
+John asked Paul
+
+VALUES AND BENEFITS
+Process automation
+- record forwarding, search, authorization of clients
+Higher effiriency
+- more records can be processed every day
+- spotting of words or phrases, priority queues for analysis by human
+wv iformation
+- speech technologies brings new information that was not used before
+- analytics of metadata extracted from speech
+Impro\wdd quality of services
+- rating of agents in contact centers
+Improveu security
+- voice biometry for authorization of clients on foreground of background
+- speaker certifies for trusted calls
+phonerin
+
+w
+
+w
+
+w
+
+phonexia.com, 6/28
+
+COOPERATION
+
+We offer:
+• 0-peech technologie
+system design / technology I delivery
+technical support / maintenance
+
+• Jnsultations
+• Custom development and iesearch
+
+T; )
+Phonpuiri
+
+‘ANVW. phonexia. co m , 7/28
+
+CLIENTS AND PARTNERS
+1111•1111111Mar
+
+Ministerstvo obran\•
+
+.'!ustomers and partners
+• S e c u r i t y and defense agencies
+• C a l l centers
+• I T integrators
+• H W suppliers
+• T V and radio stations (audio
+archive indexing)
+• Universities
+• Customers on several continents:
+USA, Russia, Germany, France
+Switzerland, Czech Republic,
+Poland, Slovakia, Spain, Romania,
+Israel, India, Mexico
+
+. ' h e republiky
+
+SIEMENS
+
+t r o t i_litst.1'111, 4 y
+'
+
+ettimSys
+
+,
+
+n▪ o
+on 11 Hilt:1:16P ff
+
+A
+4 4
+A ly
+A
+
+T O V E K
+t i e
+S.
+
+F o n e t
+La WI: del C n r r i r
+
+F.
+
+•Er
+
+urne><It\
+inveaTecH
+
+OrStIcCiL•
+pe-11/;./ -r
+fty:7--4 •••••., -
+
+,•
+•
+
+k3A
+I.
+
+Phoneuin
+
+www.phonexia.com, 8/28
+
+LANGUAGE RECOGNITION
+• A u t o m a t i c recognition of the language spoken.
+• 5 0
+
+languages + user can add new by himself!
+
+• C a n be used also as dialect recognition
+• A c o u s t i c channel independent
+• i V e c t o r based technology, discriminative training, < 1kB
+voiceprints
+
+111111110MI
+
+Usage:
+• C r i m e is caused by some minorities very often
+• C a l l record forwarding
+(to operator / other technologies I archive ...)
+• A n a l y s i s of the audio archive
+• M o n i t o r i n g of some call services or media sources.
+L-11
+Phoneuin
+
+x
+www.phonexia.com, 9/28
+
+GENDER RECOGNITION
+• A u t o m a t i c recognition of gender
+• H i g h l y accurate and robust technology,
+very easy deployment
+• A c o u s t i c channel and language
+independent
+• E x t r e m e l y fast
+
+Usage:
+• N a r r o w the searched space to half or
+quarter (dialogs)
+Ph9 a m
+
+www.phonexia.com, i 0/28
+
+SPEAKER RECOGNITION
+• S e v e r a l scenarios: speaker verification,
+speaker search, speaker spotting, link/pattern
+analysis
+• A c o u s t i c channel and language independent
+technology, noise and channel distortion robust
+technology
+• B a s e d on iVectors
+• Vo i c e p r i n t extraction and scoring
+• C o m p a c t voiceprint representation
+(about 600 bytes)
+• M i l l i o n s of comparisons in fraction of seconds
+• D i a r i z a t i o n (speaker segmentation)
+• U s e r based system training, user based
+calibration
+Phonetttin
+
+›>
+
+www.phonexiacom, 11/28
+
+LINK ANALYSIS
+Explore relations among people
+if they use
+several phones
+
+r •
+,
+TTQ (1c1=50, Is=0, tp=2)
+
+4ant29.10.2010 1 8 1 0 : 3 1 (97s)
+
+4bm 29.10.2010 18:10:31
+
+A T T Q (Id=50, Is=0, tp=2)
+
+Link analysis tools
+
++420234)00056
+zibm
+
+Usage:
+• S e a r c h for patterns
+• T i m e analysis
+• F r e q u e n c y of calls
+proceeded by specific
+people
+(12 Analyst's Notebook)
+
+z + 4 2 0 5 5 5 X ) 0 ( 5 6 7
++420500)00(128
+3m\ \
+\
+
+—-
+
+\
+C
+m
+---Gm + 4 2 0 6 0 8 > 0 0 < 9 3 2
+K
+
+o
+
+h
+
+o
+
+u
+
+t
+
+e
+
+k
+
+lflT TTQ 0=50,15=0, tP=
+
+2m
+
+2m 29.10.2010 18:10:30 (165s)
+
++420777)006456
+
+6m
+2rn
+>A--
+
+h a t
+
+6 m 29.10.2010 18:10:32 (132s)'—
+Neznamcf2 (eng)
+
+N e r n a m c r l (eng▪ )
+TTQ (111.50, 15=0, tp=2)
+
+Phon• euiti
+
+l m 29.10. 0 1 0 18:10:30 (52.s10.201
+3r11 3 m 29.10.2010 18:10:31 (41s) -7m 29.1C
+
+1
+
+A
+
+T T Q (1c1=50, Is=0, tp=2)
+
+www.phonexia.com, 12/28
+
+N
+
+'OhonesOa - Speaker lb
+
+P h o n e Itin
+
+• E a s y identification of suspects in
+streets
+• Ve r i f i c a t i o n of collaborators based
+on voice biometry
+• R u n s fully on cellphone
+• Vo i c e p r i n t s can be shared with large
+landline/GSM/VolP m o n i t o r i n g
+systems
+• P o s s i b i l i t y co create voiceprint
+directly on the device
+• S e v e r a l thousand voiceprints fits
+easily
+www.phonexia.com, 13/28
+
+SPEECH TRANSCRIPTION
+• Information can be searched
+quickly anytime
+
+Comae p i n g o r . i n n s
+PI SS. Ilya awns d o s
+
+• Transcript can be processed by
+tools for content analysis of text
+• R e a d i n g is faster then listening
+• Alternative transcription hypothesis
+almost 100% of spoken words can be found
+
+P o , 6 1 1 1 WOO 011 I N
+
+I
+
+N
+
+• el% d a y. ••••• oat be • 111
+
+41L
+
+1 s t =
+
+l o i n , ft
+
+•••• d a s
+%Nip , . . •
+
+• I " .
+
+l i t 0
+Ira is.
+
+d
+
+0 di,.
+m
+a
+WM h t . . _
+- . . . . 1 f t 1 . 1 . 11 .
+
+earl,
+
+a
+
+s
+
+o
+
+s
+
+,
+
+.
+
+• Languages: EN (native/non-native), CZ, RU
+Online example:
+• SuperLectures.com — search in lectures
+P h o n e ) : tin
+
+www.phonexia.com, 14/28
+
+SPEECH TRANSCRIPTION
+
+Source
+
+What if they did something similar to what they do
+AT the Vietnam memorial. The Vietnam Memorial is
+staffed AND run by a lot of THE volunteers who are
+responsible for...
+
+Transcript what if they did something similar to what they do
+WITH the vietnam memorial the vietnam memorial is
+staffed IN run by a lot of *** volunteers who are
+responsible for...
+uge ) w s l e t t e r
+Phoneuin
+
+w
+
+w
+
+w
+
+.
+
+p
+
+h
+
+o
+
+n
+
+e
+
+x
+
+i
+
+a
+
+.
+
+c
+
+o
+
+m
+
+,
+
+15/28
+
+INTEGRATION WITH TEXT BASED
+TOOLS T O V E K SERVER
+• Processing of large volumes of speech
+transcriptions
+• Indexing and search, complex queries
+• S e a r c h in alternative recognition hypothesis
+• Categorization of records
+• Delivery of content based on user defined profiles
+(sets of queries)
+4 11 4 6 4 1 •
+• Metadata (comments, knowledge ...)
+,IF v
+- -
+
+T O V E K
+www.phonexia.com, 16/28
+
+KEYWORD SPOTTING
+The input is a list of keywords, the output
+are occurrences with scores
+;p Lch transcription based KWS
+• speech transcription including alternative
+hypothesis and word confidences,
+comparison of confidences with threshold
+• Ve r y accurate, but slower and expensive
+to develop
+• C a n be indexed easily
+Acoustic KWS
+• c a n be developed quickly for any
+language with low cost, less accurate
+Phone i n
+
+w
+
+w
+
+w
+
+.
+
+p
+
+h
+
+o
+
+n
+
+e
+
+x
+
+i
+
+a
+
+.
+
+c
+
+o
+
+m
+
+,
+
+17/28
+
+ACOUSTIC KEYWORD
+SPOTTING
+• F a s t analysis of the content for
+pre-selection of records
+• O f t e n used in quality control in
+contact centers
+• Keywords entered as a text are
+searched in the audio
+• Languages: EN, RU, GE, FL, CZ,
+SK, HU, Levantive AR, Venezuelan SF
+• N e w languages are added every year
+• N e w language can be added as a service
+in 1 to 2 months
+(10 to 20 hours of annotated speech is necessary)
+[ M o m in
+
+www.phonexiascom, 18/28
+
+TIME ANALYSIS OF DIALOGS
+S I M E N S I M E N S I M I N S F A r r e i r r e c f s r -
+
+• C a n help to preselect highly informative records for
+analysis
+• M a n y statistics: speaker activity, number of
+speaker turns, speech speed, information flow,
+cross talks, reaction times
+• Statistics over source person or time
+
+to- * 0
+
+C;:t
+Pflnnmtlfl
+
+10-0+144f
+
+www.phonexia.com, 19/28
+
+INTEGRATION (HIGH LEVEL)
+t
+
+e
+
+l
+
+a
+
+g
+
+e
+
+r
+
+l
+
+a
+
+f
+
+i
+
+e
+
+e
+
+M
+
+E
+
+-
+
+• G U I desktop version
+- evaluation, simple use cases
+- specialized applications
+• Command line
+- easy integration in scripting languages (Peri, Python,
+Bash, TcITIk ...)
+detailed evaluations
+• Intelligence Platform
+- Integration of all speech technologies, processing
+schema in XML, output metadata in XML
+Prinnoitin
+
+www.phonexistom, 20/28
+
+SPEECH INTELLIGENCE
+PLATFORM
+• •ituation
+Data mining systems for intelligence
+- many technologies involved,
+- data come from several sources
+- processing schemes change rapidly
+- exact procedures are secret know-how.
+• i o l u t i o n = Speech Intelligence Platform
+Design and deployment of the speech
+processing system alone, in very short time and without
+deep knowledge about speech technologies.
+C o
+PhoneInn
+
+www.phonexia.com, 21/28
+
+SPEECH INTELLIGENCE
+PLATFORM
+a-0o-
+
+1
+XML
+config
+
+XML
+
+SQL
+Phonerin
+
+www.phonexia.com, 22/28
+
+MULTI LINGUAL •
+H
+TRANSCRIPTION AND KEYWORD
+SPOTTING SYSTEM
+
+Speech
+
+Quality control
+and
+segmentation
+
+Garbage
+
+Language
+identification
+
+Speech
+transcription
+English
+
+Speech
+transcript
+
+Unknown
+language
+
+Keyword
+spotting
+Russian
+
+Detected
+keywords
+
+\••••_,
+
+Keyword
+spotting
+Polish
+
+Q ; )
+Phone i n
+
+-1110.
+
+Detected
+keywords
+
+www.phonexia.com, 23/28
+
+INTEGRATION (LOW LEVEL)
+• Software + SDK (API, documentation, examples)
+- for direct integration to client's IT system
+- C++ API, Java API (TomCat, JBoss, desktop apps),
+CI* API
+- platforms Windows/Linux 64/32 bits, Android
+- easy porting to any POSIX platform that
+supports GCC
+• W 3 C network protocols (MRCP v2/SIP/RTP) for
+integration with common IVR platforms (Avaya, Cisco,
+OptimTalk, FreeSwitch, Asterix ...) for Speaker ID
+
+SPEECH ANALYTIC SERVER
+IChecidgecordPage
+
+Speech Analytics Server
+Card, -7
+
+its v
+
+Phontrrin
+Settings v
+
+Statistics v A n a l y t i c ' s
+
+About L o g o u t
+
+Record i n p u t
+Saved file: d a v i d _ l . w a v
+select fie:
+
+[ Ptothazet_
+
+1 Upload 1
+
+Uploaded record
+Insert date
+
+File d a c g d _ i way
+
+Name
+
+Owner
+
+Length [el
+
+— 1
+
+Language
+Update this record I
+
+Gender
+
+S p e e c h length 151
+
+Compare result
+
+Sceech Ans(ybcs Server
+
+Snowing 1 to 10 of 1015 . •
+Audio
+
+a
+
+v
+
+a
+
+i
+
+.e
+
+PrObabgINVI.
+99
+
+Quetta
+
+sfraley
+
+99
+
+Mon
+
+A
+
+99
+
+David
+
+Bowie
+
+l
+
+98
+
+Malcolm
+
+Tillotson
+
+w a L l
+
+73
+
+Busier
+
+Herbst
+
+72
+
+Stias
+
+Coelho
+
+59
+
+Miles
+
+Polen
+
+2 . 0 3 3 O . o • 023
+
+iON
+
+65
+
+A d d the r e c o r d to the s e l e c t e d s p e a k e t
+
+min. reaction time tot channels)
+
+Miguel
+
+Siegfried
+
+49
+
+Neville
+
+Camire
+
+44
+
+Nphonso
+
+Augustus
+
+Create new speaker with the record
+
+0 0 3
+
+G
+
+I
+
+0
+
+0
+
+Q
+
+Se
+
+235
+
+M
+
+22
+
+Wm. 'mobs dm ha
+
+Max.teaction time CS chattnets)
+f
+
+i s
+
+I a
+
+( . 0 mai 133.222.•
+
+a
+
+a
+
+Z
+
+s
+
+X
+
+1
+
+1
+
+42
+
+reactimp tins Es]
+
+1
+
+Average teactkm t o t channels)
+
+• 0 • 0 3 . 1 2 , 3 3 2 20222032.
+O M 0 2 21•33 X3R • 0 2 RIO 0221
+
+131 L 0 2 3 0
+
+A r r r a l t maceordrie 1111
+
+c2:1
+Phoneltin
+
+rmr-r•Trikrirri
+
+31230403.3
+
+www.phonexia.com, 25/28
+
+EVALUATION
+www.phonexiatomidownload
+• S o f t w a r e for Windows/Linux in GUI and cmd-line versions
+• F r e e evaluation license file is sent to email
+CO Casette temme
+
+SOW, I S i t e ,
+
+h e s jeALs_ ee-Cacits ,seep
+icamann
+
+Qs ones,
+
+(At L A N uliqt k o r a , a o c e
+
+.c.Eol,"_1",rpti Ate*
+
+- 4 . e jemmy frmana
+
+t e r n Tr d
+
+12,1..0W
+
+D i l a weirdo •oft
+I
+
+b•
+
+a c
+
+'wee* 1
+
+rine.
+•
+
+Fam
+
+•
+
+Fromthamcian
+
+armels.,%
+
+P i l l a t a t i n p U t i k a y. i r a V
+
+n c . 1 0 0 0 11
+
+OZ0,3
+
+4
+
+1 ; * Ling
+
+•• & m e n
+
+111", 1 L I I P M ! ••1/1_1.," I f i t r o a
+
+' t w o
+• 3401..l.
+
+PM.StriPut I
+
+15...mess
+
+CieKelly - Speaker Identification
+
+m . o .
+• SOznio,
+
+R o z s m g file P ” O r i S t i l l p U t i g e r _ v n p n a n i . V i a .
+
+,
+
+le k i d 1 ' ) l w H e l p
+
+111 • • • U
+
+Octne.est
+
+M O M S / ' I v a ! Ire_wornan
+
+a . m t s r o u t . . F r e n c h canadan ( 0,0013161)
+
+Mal 5 t . 3 ,
+
+A t h i
+
+€1:10,
+
+C:
+
+a
+
+t
+
+- Xelg
+
+-
+
+=
+I
+modeis
+
+•-o nssos
+
+L
+
+smarsom 1 ( memeopta 1 easwereasea o n m e s s e s
+
+l
+
+a
+
+p i t o Play1 1
+
+File
+Phonena_SID
+dats
+
+ALS, to c m . m o n :
+
+Ft •L m a t o - w i n rw.),,..kr9Aboe
+
+A
+
+El
+StE9
+
+Testi"; liteakeTs1
+
+I r a n tg.t.
+
+Fit stroccomfrwttfre_myeert.n.Orsow k e t , O n O m t t o n e x % I
+
+),
+: . o e t
+
+s'ttings
+tnl
+
+f t t J Pan
+.1t
+PerfLoo
+1 i r j Program Nes
+• P r o g r a m Res 036)
+
+kellyjeav
+
+Score
+ROOM
+
+Gender
+
+co•
+
+(76195)
+
+971(0
+
+F 034304)
+
+julia_twa,
+
+41669
+
+F (59/05)
+
+pauLLwav
+
+40/36
+
+M (97362)
+
+4hilia2pres
+
+35.236
+
+F (76.912)
+
+03,00,30
+
+00,CO340
+
+33971
+
+M G91591
+
+0090,22
+
+00,0339
+
+32360
+
+M (99.744)
+
+0090,17
+
+00,0330
+
+18245
+
+M (97142)
+
+009021
+
+000036
+6
+
+17 kepi-wee
+
+davidimay
+david j w a v
+
+paulipeas
+
+t i Uses
+
+eseg
+
+• ?mac.,
+A ,
+System is ready
+
+Phoneuin
+
+www.phonexia.com, 26/28
+
+HOW CAN WE HELP?
+nonexia is
+a technology company
+
+leac
+
+oad P e o e e x i a D e m o A d d i t c a t I o d e
+
+tecanalerpla
+.1644a I
+
+P l a w a r w r l e a C P W W W W I t h c a l w . I o w a W a i t e . accoack a w n
+Soncharrr
+W a w a .
+0
+,
+_ c r e c o n w a r
+aeSsio
+i • a a r e
+
+1 1 1 1 . 1 1 1 1 1 1 1 1
+
+We can offer:
+• Consultations
+
+w
+
+w
+
+w
+
+• P i l a w , . W o o i n g , l i l o a l W rahma a t t l a m
+
+[ 1 nr's-
+
+d
+
+a
+
+t
+
+e
+
+r
+
+dro
+
+4 4
+
+t h e n r a W a t a r Imorcare• h a o w n e r , . a , • W v e n a e c e i c h
+W i t ih• w e a l * e w e r 1 1 . wcacaara
+
+w
+
+a
+
+n
+
+w w w
+
+k
+
+:
+
+-
+
+a y.
+
+It'r—rrra
+1 , 4 t e c r e o , 4 4 a r s . 111 t s S W m e c a r a t l e W r e c c n o , a . P 4 a t g a w p t o f w e a ,
+✓emade I t P r e t , caw t o c a w acr,• a r d . 4 4 4 4 T . r o o d W e c a r r o W r w a l alca
+m e w l k w co f rat 1 5 5 t e r t m d c o v w i t a l . * v o . i t h e s t ,r1 oh c al = e a a n a s t • a t
+0 ( 0 0 7 1 1 1 . 1 , F l e t r o w a l cm W e i
+
+_
+
+. r .
+
+.
+
+w a w a
+a • P a a r 4 r r r
+
+• PIMMO•One••••
+
+• Speech technologies and solutions
+• Custom development.
+• Research
+
+Phoneltin
+
+t w a w a , a l w e l a o s t w w a W t s w e a t 4 4 4 4 s e m a w cce,
+c a i c
+m u t e are % w a t t l e c a n La e l l a r t e a e or w a r c r o n Ve r y w a l k 1
+g •
+t o • t e a m * , n e t c a n w a v e s a • c 4 rea 4 • 1 4 t h e D a w n , .
+am a Ow 4 1 . 4 4 a W c a •
+l a r
+roacwae
+4
+o w
+4 1
+•
+lotWorre
+
+.
+
+p
+
+h
+
+o
+
+n
+
+e
+
+x
+
+I S M ' S
+
+1 0 0 Pomo
+
+We help our clients
+to get the most from
+speech records
+
+i
+
+a
+
+.
+
+c
+
+o
+
+m
+
+,
+
+27/27
+
+1:1 8a A
+DATA MINING
+FROM SPEECH
+Do you have all
+for your business
+
+Ph, i x i a sx.o.
+EN,
+
+k t C A L L CENTER
+
++420 511 205 265
++420 733 532 890
+info©phonexia.com
+www.phonexia.comidownioad
+
+INTELLIGENcE
+• -nil
+
+' I t s
+
+f o r,
+SP•so,
+
+AUDI
+:rast,,,r,„..
+I
+• c;:b.,,14,111
+
+Trad,
+
+P h o n e ) : in
+
+W W W. p h o n e x i a . c o m , 2 8 / 2 8
+
+

@@ -1,0 +1,577 @@
+Jet •
+AS • •
+
+gav I-2 a
+
+-1 o
+
+ISS World Dubai
+March 2014
+Sven Jonas, Deputy Head R&D LIMS
+
+utimaco®
+
+r
+
+C r : P r - c c
+
+r a r
+
+Consolidating Lawful Interception
+A case study
+
+/
+a
+
+e s
+
+SAO
+I
+
+-
+
+g r 1_2
+
+s 0 r- g r e
+
+MINN
+
+utimaCO®
+
+Utimaco at a glance
+. . . . . . ........ • • .....
+
+Headquarters:
+Aachen —
+one of Germany's
+high-technology
+centers
+
+4
+
+In 2013
+a management led
+buy out was backed
+by the investors Pinova
+and SIP
+
+2
+
+3
+
+Employees: 110+
+
+more than
+
+(70% in R&D, Support,
+Production and over
+1000 combined man
+years of experience)
+
+5
+Official Security
+clearance by the
+German government:
+
+1.000 installations
+in over
+
+80 countries
+
+6
+
+Revenue:
+(FY 12/13)
+
+e 30.0 million
+
+Die Deuisehe
+Kredinvirtschaft
+
+VCOrnmon Criteria
+
+Page 2
+LI Consolidation • ISS World Dubai • March 2014
+
+•
+
+utimaco®
+
+Utimaco LIMS
+ComrtMence in I. awful Interception
+Utimaco has been providing LI solutions since 1994
+Worldwide operations: around 250 LIMS installations
+in over 80 countries
+• Lawful interception and Data Retention Systems
+scalable from 10 thousands to millions of subscribers
+Strong partnerships with leading telecom infrastructure
+vendors
+• Compliant to international LI standards of ETSI, 3GPID.
+ANSI/ATIS, CableLabs and active member of ETSI TC LI
+Conform to numerous national telecommunication laws
+
+LI Consolidation • ISS World Dubai • March 2014
+
+Page 3
+
+ft
+utimaccs®
+
+Introduction
+Motivation for Consolidation
+Lawful Interception is a legal requirement on telecom operators
+LI systems manage LI requests from LEA
+LI systems for different networks
+• LI systems for different services
+
+Network extensions by acquisition integration of smaller
+carriers and service providers
+Heterogeneous networks covering multiple services
+Different platforms from multiple vendors
+LI platform per service
+
+LI Consolidation • ISS World Dubai • March 2014
+
+Page 4
+
+utimaco®
+
+A Case Study
+Key business imperatives (1/2)
+Consolidate LI system
+Four distinct LI systems to be integrated
+Legacy system to be replaced
+
+No Risk
+Work on the LI system should not lead to any disruption in the LI service
+
+• Improve efficiency
+Workflows to be optimized
+LI system for all services to be operated from different locations
+Response times to be met in all cases
+
+LI Consolidation • ISS World Dubai • March 2014
+
+Page 5
+
+utimaco®
+
+A Case Study
+Key business imperatives (2/2)
+Reduce OPEX
+IA Operational costs were to be reduced by at least 30%
+
+• ROI in eighteen month
+All investments to be compensated by cost savings (staff, power) within
+18 months
+
+Li Consolidation • ISS World Dubai • March 2014
+
+Page 6
+
+utimaal
+Technical Requirements
+How they have been defined
+Consulting company of the customer prepared an evaluation report.
+Result: Utimaco was asked to consolidate the system fulfill
+requirements
+Replacement of the LI system for the fixed network and the legacy system
+Integration of the LI system for the mobile network
+Service 50.000 active targets up to 17.000 concurrent intercepts
+Support at least 4 Gbps throughput; 500 Mbps single line throughput
+Max. response time of one second on 80% of all user inputs
+
+LI Consolidation • ISS World Dubai M a r c h 2014
+
+Page 7
+
+•
+utimacci
+Additional Requirements
+• 100% system availability. No single point of failure permissible.
+Full migration of all target data to the new system.
+• Zero data loss during the migration.
+
+Detailed documentation of all products and services.
+• Technical training for administrators and operators.
+24x7 technical support.
+Completion of the project within one year. Old system will be
+switched off at a fixed date. No more maintenance on the old
+system.
+
+Li Consolidation • !SS World Dubai • March 2014
+Page 8
+
+•
+
+utimaco®
+Challenges and Obstacles (1/2)
+How to overcome
+26 different network elements from 11 vendors.
+Switch vendors are: Alcatel, Cisco, Ericsson, Huawei, Juniper, NokiaSiemens and others.
+3000 network elements to be provisioned
+
+Know-how on the legacy system was dispersed among many
+people from different departments.
+Technical specifications of network interfaces were incomplete
+
+LI Consolidation • ISS World Dubai • March 2014
+
+Page 9
+
+•
+
+utimaccs®
+Challenges and Obstacles (2/2)
+How to overcome
+• Some network elements required outdated technologies.
+• Tight schedule. Fixed date to switch of the old solutions.
+Required smooth migration of thousands of targets within a few
+hours.
+
+LI Consolidation • ISS World Dubai • March 2014
+
+Page 10
+
+•
+utimaco
+Functional Layout
+Consolidated LI setup
+Law Enforcement Agency 1
+
+112.3.
+Voice&Data
+
+Utimaco LIMS
+
+ii
+
+LIMS User Terminals
+
+GOV
+
+Monitoring Center
+
+VPN
+
+Law Enforcement Agency 2
+LIMS Management Server
+Fixed Network
+Voice & Data
+ADMF
+. p ' 1 1 1 . 1 1 €1-11-17911
+
+—VPN—
+
+ii
+
+LIMS Mediation Devices
+
+3,k
+NGN
+IP Multimedia
+
+DF2
+.11111•1111ML
+
+Monitoring Center
+
+—HI-2
+
+VPN
+/ DF3
+" 1 0 . 11111 . 111 ,
+
+Law Enforcement Agency n
+
+•--
+
+Werall
+
+S t
+
+eraa
+ring center
+
+ISP
+
+LI Consolidation • 1SS World Dubai • March 2014
+
+111 S - - . .
+
+I
+
+I
+
+Page 11
+
+utimaco®
+
+Implementation
+CornerstonPs
+• LIMS system is spread over several physical sites
+LIMS Management Server is located at the central site
+• Remote access to the LIMS MS from all sites
+• LIMS mediation devices are located at 4 sites close to the NE
+
+LI Consolidation • ISS World Dubai • March 2014
+
+P
+
+a
+
+g
+
+e
+
+12
+
+•
+utimaco®
+Milestone Plan
+4th Quarter
+Oct N o v
+
+1
+
+D e c
+
+s
+J a n
+
+t
+
+Quarter
+F e b
+
+M a r
+
+2
+
+n
+
+d
+
+A p r
+
+Quarter
+M a y
+
+3
+
+J u n
+
+r
+J u l
+
+d
+
+Quarter
+A u g
+
+S e p
+
+4
+
+t
+
+h
+
+O c t
+
+Quarter
+N o v
+
+1
+
+D e c
+
+s
+
+t
+
+J a n
+
+Quarter
+F e b
+
+M a r
+
+A p r
+
+M a y
+
+Project Phase 1
+Purchase Order, Contract Signature
+Detailed Design Concept
+Design Approval
+Implementation
+Customer Shipment
+Installation, Migration. Testing. Training
+Customer Acceptance
+
+Project Phase 2
+
+0
+
+Purchase Order
+
+Design Approval
+Implementation
+
+i D e t a i l e d Design Concept
+
+Customer Shipment
+Installation. Migration, Testing. Training
+Customer Acceptance
+
+LI Consolidation • ISS World Dubai • March 2014
+
+P
+
+a
+
+g
+
+e
+
+13
+
+•
+Project Phase 1
+
+utimacci
+
+• System to be deployed in two phases
+Phase 1: all network elements already supported by Utimaco
+LIMS
+These nodes handle the majority of subscribers (fixed voice
+and fixed broadband)
+By that 80% of the intercepts migrated to the new system with
+phase 1
+
+LI Consolidation • ISS World Dubai • March 2014
+Page 14
+
+utimaco®
+
+Project Phase 2
+Remaining NEs network parts and services.
+NEs that needed to be developed.
+Implementation went smoothly as the main system was already
+up and running.
+Phase 2 changes are SW updates on the SW level
+implemented with phase 1.
+
+LI Consolidation • ISS World Dubai • March 2014
+
+Page 15
+
+utimaco
+Lessons Learned (1/2)
+What can go wrong what can be improved?
+Consolidation can be a complex challenge because
+Replacing legacy systems disperse knowledge and specifications of
+NEs.
+Large networks, location wise, number of NEs and services offered by
+the operator.
+Risks of service outages on the LI system while migration.
+
+LI Consolidation • !SS World Dubai • March 2014
+
+P
+
+a
+
+g
+
+e
+
+16
+
+utimaco
+Lessons Learned (1/2)
+What can go wrong what can be improved?
+Consolidation can be a complex challenge because
+Replacing legacy systems disperse knowledge and specifications of
+NEs.
+Large networks, location wise, number of NEs and services offered by
+the operator.
+t Risks of service outages on the LI system while migration.
+
+LI Consolidation • !SS World Dubai • March 2014
+
+P
+
+a
+
+g
+
+e
+
+16
+
+utimaco®
+Lessons Learned (2/2)
+What can go wrong what can be improved?
+Consolidation is manageable by
+Meticulous requirement analysis
+Solid system design
+Detailed project planning and regular follow up
+Consequent project management including status reports the board
+High attention on possible test scenarios while migration
+
+Result is still worth it, because of significant
+savings and ROI within eighteen months!
+
+LI Consolidat on • ISS World Dubai • March 2014
+
+P
+
+a
+
+g
+
+e
+
+17
+
+utimaco®
+
+Why Utimaco
+Experience, Competence and Skills
+In the LI business for more than nineteen years now
+Preferred partner of many of the world's leading telecom
+vendors
+250 Network interface are available out of the box
+IOT test executed before the mediation device will be delivered
+Utimaco offered the best price-performance and the shortest
+deployment time
+Full range of network technologies supported
+Flexibility, Independence, Reliability
+
+Your partner in Lawful Interception!
+LI Consolidation • ISS World Dubai March 2014
+
+Page 18
+
+Thank you for your attention!
+Utimaco Safeware AG
+Germanusstralle 4
+52080 Aachen, Germany
+Phone +49 241 1696-0
+W
+
+e
+
+b
+
+v v , V V. U 111 1 1 0 - L , U . L A J . i ;
+
+E-Mail li-contact©utimacacom
+Copyright © 2014 — Utimaco Safeware AG
+All trademarks are trademarks of the particular
+copyright holder. Specifications are subject to
+change without notice.
+
+

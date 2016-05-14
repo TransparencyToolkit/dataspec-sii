@@ -1,0 +1,92 @@
+Soluciones De Infección Y Monitoreo Remota
+FINFLY LAN
+
+Algunos de los principales retos a los que deben enfrentarse las fuerzas y cuerpos de seguridad son los objetivos
+móviles, cuando no es posible acceder físicamente al
+sistema informático y aquellos objetivos que no abren
+ninguno de los archivos infectados enviados por correo
+electrónico a sus cuentas.
+
+DE UN VISTAZO
+
+En concreto, resulta casi imposible infectar a este tipo de
+objetivos, ya que mantienen sus sistemas actualizados y ni
+la explotación de vulnerabilidades ni otras técnicas de
+intrusión básicas tienen éxito con ellos.
+
+Uso:
+
+· Operaciones tácticas
+
+Capacidades:
+
+· Implementa una solución de
+monitorización remota en un
+sistema objetivo conectado a
+una red LAN
+
+Contenido:
+
+· Software
+
+FinFly LAN ha sido desarrollado para implementar secretamente soluciones de monitorización remota en sistemas
+objetivo conectados a redes LAN (con cable e inalámbricas/802.11). Puede infectar archivos descargados por el
+objetivo en tiempo real, infectar el sistema objetivo enviando falsas actualizaciones para aplicaciones de software
+populares o infectar el sistema objetivo introduciendo la
+carga en sitios Web visitados.
+Ejemplo De Uso 1: Unidad Técnica De Vigilancia
+
+Ejemplo De Uso 2: Anticorrupción
+
+Una unidad técnica de vigilancia estuvo siguiendo a un
+objetivo durante semanas sin poder acceder físicamente al
+ordenador. Los agentes utilizaron FinFly LAN para instalar
+la solución de monitorización remota en el ordenador del
+objetivo este utilizaba un punto de conexión inalámbrica
+público en una cafetería.
+
+FinFly LAN se utilizó para instalar de forma remota una solución de monitorización remota en el ordenador de un objetivo mientras lo utilizaba desde una habitación de hotel.
+Los agentes se encontraban en otra habitación del hotel
+conectados a la misma red y manipularon el sitio Web
+que estaba visitando el objetivo para activar la instalación.
+
+Descripción General De Funciones
+· Descubre todos los sistemas informáticos conectados a una red LAN.
+· Funciona tanto en redes con cable como inalámbricas (802.11).
+· Se puede combinar con FinIntrusion Kit y sus funcionalidades de acceso encubierto a
+redes.
+· Oculta la solución de monitorización remota en las descargas de los objetivos.
+· Disfraza la solución de monitoreo remoto en forma de actualizaciones de software.
+· Instala remotamente soluciones de monitoreo remoto a través de los sitios web que visita
+el objetivo.
+Encontrará la lista completa de funciones en las Especificaciones del producto
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Soluciones De Infección Y Monitoreo Remota
+FINFLY LAN
+
+Componentes Del Producto
+
+FinFly LAN
+· Software basado en Linux con una interfaz de usuario fácil
+de utilizar.
+
+Infección A Través De Redes LAN
+
+FinIntrusion Kit - Integración (opcional)
+· FinFly LAN se puede cargar como un módulo en el FinIntrusion Kit.
+
+Soluciones De Infección Y Monitoreo Remota
+FINFLY LAN
+
+Interfaz De Usuario Automatizada
+· Fácil de utilizar sin recibir mucha formación específica
+
+Compatibilidad Con Múltiples Objetivos Y Cargas
+· Se pueden añadir varios ejecutables para cada objetivo
+
+

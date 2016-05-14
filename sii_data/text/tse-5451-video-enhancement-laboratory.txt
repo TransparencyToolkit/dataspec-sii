@@ -1,0 +1,223 @@
+Video Enhancement
+Laboratory
+Model 5451
+
+CONFIDENTIAL
+– Subject
+to change
+withoutwithout
+prior notice!
+CONFIDENTIAL
+– Subject
+to change
+prior notice!
+
+1
+
+Video Enhancement Laboratory
+
+Model 5451
+
+TSE 5451 system for video and still picture enhancement is designed for use by law
+enforcement agencies and organizations. In addition to the full range of image enhancement features listed below, the TSE 5451 system also offers an audit trail with
+playback facility (to replay processing operations), case management and tools for court
+presentation. The processed video may also be displayed on a second external PAL
+video monitor. The TSE 5451 also features de-blurring capabilities, integration of nonconsecutive frames and a macro builder facility.
+The user interface enables operators with no previous detailed knowledge of image
+processing to use the TSE 5451 effectively. The functional system is capable of digitizing up to 10 seconds of uncompressed live video to memory. This allows the operator
+to browse through the captured sequence to select optimal images.
+The TSE 5451 system runs as a 32 bit multi-threaded application under Windows XP
+Pro; normally supplied with a state-of-the-art PC, a suitable high performance graphics
+card and a video frame grabber.
+A video source (PAL/NTSC/SECAM) can be connected and viewed live in a window. To
+record video in real-time uncompressed on a hard disk and manipulate the data is easy.
+Just as if it is on a VCR; press record and the computer does the work. After recording,
+operations can be performed on the sequence, e.g. integration, stabilization, moving object integration or applying filters on the complete sequence or subsequence.
+
+Image Enhancement Features
+• Movie Pack
+• Office Pack
+• DV Pack
+• Browsing
+• Field/frame Conversion
+• Replay
+• Annotation
+• Multi-selection
+• Integration Display
+• Dual monitor operation
+• Live image operation
+• Noise reduction
+• Contour enhancement
+• De-blurring
+• Contrast enhancement
+• Geometric correction
+• Image integration
+• Case management and security
+• Image sequence browser
+• Court presentations
+
+Movie Pack
+Moving object integration is possible: a person or number plate in a sequence can be
+tracked and consequently integrated. A jolting sequence caused by a moving camera
+can be stabilized and all filters can be applied to a complete sequence, such as a filter/LUT, Stretch, Equalize and Moving Average operation.
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Office Pack
+The operator can design his own report format and layout through MS-WORD. Own
+logo, address, image caption, etc, can be included and printed seamlessly with the
+processed images of the TSE 5451.
+DV Pack
+TSE 5451 allows to load, display and process digital video (avi,jpeg); a number of digital
+formats can be loaded and processed. It is completed with a tool for controlling the digital
+recorder. A digital device is connected into the fire wire connection; a choice can be made
+as to which one is used as frame grabber.
+Raid
+Besides providing image enhancement operations, the TSE 5451 contains the RAID functionality; the capability of recording live uncompressed video up to 6 hours to a hard disk
+array. The recorded images are displayed in the live window and the scroller.
+A variety of operations is possible with reference to sequences:
+• Browsing: Scrolling through the sequence and selection an image
+• Field/frame conversion: stepping per field/frame and deinterlacing
+• Replay: replaying the whole (or part of the) sequence once or cyclic, back or forward and in different speed
+• Annotation: images are assigned a unique sequential number. This annotation
+feature guarantees the integrity of the image capture and processing without the
+need for final storage of the entire sequence
+• Multi-selection: selecting more images at the same time and saving as a new
+sequence (can be used for manual demultiplexing)
+• Integration: efficient integration of images
+• Display: adjustable display area sequence. The preview images in the scroller
+show an adjustable zoomed part of the images of the sequence
+• Dual Monitor operation: use two large monitors for a more convenient and efficient operating environment
+Separate packs are:
+• Offline Demultiplex packs
+• TV output pack
+• Track pack
+Noise Reduction
+TSE 5451 offers three filters for noise reduction (average, median and low-pass) where the
+filter strength is determined by a single parameter.
+Contour Enhancement
+TSE 5451 has a set of seven contour extraction filters and user definable kernels. The result of the filter is added to the weighted original image, giving the effect of contrast enhancement.
+De-blurring
+This may be accomplished by three different algorithms, based on "inverse filtering". Deblurring requires the operator to set only one or two parameters.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Contrast Enhancement
+The contrast of the image can be stretched automatically and a manual grey level map may
+also be used for more complex scenes. Thermo-graphic images can be processed with a
+pseudo-color facility. Grey level mapping produces a live update of the image and its histogram.
+Geometrical Correction
+Portions of an image may be warped using a second-degree polynomial to compensate for
+perspective distortions.
+Image Integration
+Dark images can be enhanced using integration. The operator may do this manually,
+adding image by image, or automatically in real-time up to a maximum of 10,000
+frames. Non-consecutive frames may be integrated as well.
+Case Management and Security
+All operations relating to a case are stored in an audit trail for that case. The TSE 5451
+can replay the functions contained in that audit trail.
+Image Sequence Browser
+The TSE 5451 has the ability to capture up to 10 seconds of uncompressed video to
+system memory. The user can easily step through the captured image sequence to select the most useful images. Since the VCR has not been operated in jog mode, the images retain maximum quality, while tape damage is minimized.
+Presentations
+Several dedicated drawing tools are included to allow the creation of (court) presentations. The tools are secured from image editing use. Presentations may be recorded directly to VCR or printed on hardcopy video printers.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+Technical Specifications
+Defocusing de-blurring
+
+-frequency domain de-blurring (by FFT/inverse FFT)
+-iterative estimation filter and Landweber filter
+
+Motion de-blurring
+
+-frame shifting: lines/pixels, field replication
+-frequency domain de-blurring and iterative estimation
+filter, accounting for motion direction
+
+Geometry
+
+-perspective warping
+-image rotation 0-360° in 1 increment (with/without interpolation)
+-image flipping (horizontal/vertical)
+-bright saturated colors, selectable color palette
+-text, arrows, circles, square boxes, square
+-alphanumerical) grids, rectangles blocking-out capability
+
+Overlays (moveable)
+
+Image integration
+
+-up to 10,000 consecutive frames in real-time
+-manual selected set of frames or fields
+-direct intermediate result on screen
+
+Registration of fields
+
+-frame-to-field conversion for both fields
+-movement of odd and even fields horizontally/vertically
+-frame to field conversion switchable between line replication and interpolation
+
+Sequences
+
+-working with sequences: scrolling, selecting, pasting,
+cutting, etc. (Efficiency Pack)
+-de-multiplexing on the base of image contents (Optional
+De-multiplex pack)
+
+Other functions
+
+-Conversion of live and still color image to monochrome
+-inversion of image to negative
+-logic functions: and/or/xor/nor/not/nand
+-identification of images by filename text overlay
+-GUI free of blending/retouching, undo/redo option
+-calibration facility, global reset
+-macro builder facility
+-labeling of composite image as such
+-arrhythmic functions: +, -, * and threshold
+
+Administration for each
+case
+
+-operator, time interval of processing, audit trail, grabbed
+images
+-facility for VCR tape identification and frame counts integrated images
+-storage drive is user definable, saving in proprietary and
+other formats
+-TIFF 6.0, bitmap BMP, secured proprietary format
+-visual image manager for fast browsing of images
+
+Storage, encryption,
+reading and writing
+
+Caption facilities
+
+-automatically overlaid, positioned by user, including case
+details and print number
+
+Zoom
+
+-(any part of) images with variable magnification (up to
+x32)
+-zoom by pixel replication and pixel interpolation
+-zooming of (any part of) the still image controlled from
+GUI, adjustable in increments or any factor; zoom can pan
+across image (controlled from GUI)
+-live zoomed image can be displayed on 2nd monitor
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+

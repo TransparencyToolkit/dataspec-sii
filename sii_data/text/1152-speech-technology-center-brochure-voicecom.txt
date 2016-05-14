@@ -1,0 +1,112 @@
+VOICECOM SDK
+Software Developer Kit
+for Language Independent Voice Command Control
+Speech Technology Center offers for
+licensing ready-made voice commands
+technology to enable any application with a
+most natural and convenient voice interface.
+STC is also ready to implement its own
+original speaker-dependent or speakerindependent speech recognition technology
+into your particular products. Both PC and
+DSP solutions are available.
+
+Applications
+u
+u
+u
+u
+u
+u
+u
+
+Business software;
+Medical software;
+Educational software;
+Multimedia software;
+Spoken password input;
+Spoken numerical input as an alternative to
+keyboard input for any Windows program;
+Electronic and computer games.
+
+Advantages
+u
+
+Recognizes dozens of speech commands. The
+user can have as many commands as necessary.
+The maximum number depends on the commands
+menu structure;
+
+u
+
+Activation with a ‘magic’ key word (optional);
+
+u
+
+Recognizes commands in any language;
+
+u
+
+Can be adjusted to any new voice;
+
+u
+
+Has an option to improve recognition;
+
+u
+
+Voice response for acknowledgment, that is
+audible confirmation that the command is
+understood and the system is ready to perform it
+(optional);
+
+u
+
+Can be combined with speaker verification
+module Voice Key SDK to restrict access to some
+commands, for example, for children or visitors;
+
+u
+
+Can work in the speaker-independent mode with a
+possibility to add speaker-dependent word
+templates;
+
+u
+
+STC developers have great experience in creating
+and optimizing commands templates database in
+order to have speaker-independent mode for
+specific applications;
+
+u
+
+Noise robust, shows good recognition in noisy
+environment;
+
+u
+
+Low resource consumption. The technology can
+be embedded in any resource-limited device
+(mobile equipment, PDAs, etc.) When embedded
+in PC software, it doesn’t lead to performance loss.
+
+u
+
+Also available
+- Voice Command Control DSP Board
+- VoiceCom TI eXpressDSP compliant algorithm
+
+SDK Package
+- 32 bit DLL (dynamic link library) for MS Windows
+XP/2000/9x/ME/NT;
+- user’s manual;
+- sample demo software with sources in Visual
+C++.
+SDK for other OS and ANSI C source codes are
+available by special order. Prices will be quoted upon
+request. Free demo is available at the web site.
+VoiceCom SDK is registered under Russian legal
+regulations. The registration number is 2000610353
+of 05/05/2000.
+
+

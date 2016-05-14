@@ -1,0 +1,153 @@
+Self-hosting Covert VoIP and IP
+Interception, Transport and Display
+
+FoxReplay
+Covert
+
+In order to benefit from IP-based intercepts, a
+necessary condition is the ability to gain access
+to the relevant data. Various agencies and
+organizations will have different existing ways
+to intercept & transport suspect’s traffic. This
+document outlines how FoxReplayCovert can
+facilitate a stand-alone Interception capability.
+Such a capability can provide a vital supporting
+role in mission-related activities, in unfriendly
+or even hostile environments.
+This document outlines the specifics of how
+FoxReplay can help an organization benefit
+from IP intercepts generated in the field.
+
+Context
+
+2. Storage & Transmission
+
+To reliably and dependably benefit from IP based intercepts, the following
+
+Once IP packets have been intercepted, they must be stored (perhaps brief-
+
+functionality must be present:
+
+ly) until it is possible to transmit them to the location where analysis will
+
+1.
+
+Interception
+
+be performed. For many purposes, the FoxReplayCovert devices can store
+
+2.
+
+Storage & Transmission
+
+adequate amounts of data without further aid. If larger amounts of data
+
+3.
+
+Collection
+
+need to be buffered, the solution can be customized to retain terabytes of
+
+4.
+
+Processing & Analysis
+
+data. Transmission of packets can either occur ‘in-line’ with intercepted
+traffic, or use a dedicated out-of-band connectivity. In-line transmission is
+
+In many LI environments, items 1 and 2 are lawfully performed by tele-
+
+fully auto-configuring, whereas dedicated transport may require VSAT or
+
+communications companies (carriers), whereas item 3 is often run by a
+
+other mobile IP connectivity.
+
+centralized government agency. In all but a very few exceptions, the actual
+processing and analysis of intercepted IP traffic is performed by government
+
+3. Collection
+
+agencies themselves.
+
+Before analysis, the captured, stored and transmitted data must be collected (‘received’). Such collection can occur more or less covertly. When
+
+In some cases however, items 1 through 4 are the responsibility of the
+
+operating in more ‘steady’ environments, collection can be performed over
+
+government organization.
+
+VSAT-based IP networks (for both in-line and dedicated transmission).
+It is however also possible to deliver intercepted data to anonymous mail
+
+1. Interception
+
+boxes , in encrypted form. Any kind of internet access can then be utilized
+
+Gaining access to IP-data carrying relevant information (email, chat traffic,
+
+to extract the intercepted data from such mailboxes.
+
+voice over IP) is the first step in benefiting from IP Intelligence.
+This mode allows a FoxReplayCovert device to operate without any further
+Friendly environments
+
+infrastructure.
+
+Even in friendly environments, covert interception may be required if there
+is no formalized alternative. To support such use, FoxReplayCovert equip-
+
+4. Processing & Analysis
+
+ment is small, quiet and unobtrusive (both on the network and physically).
+
+The established FoxReplayAnalyst solution can also be delivered on a ruggedized laptop, including complete ‘restart from scratch’ ability, and other
+
+Unfriendly environments
+
+features that make it possible to use the software in the field, without
+
+When interception needs to occur in an unfriendly or even hostile environ-
+
+requiring technical support.
+
+ment, additional factors come into play. Therefore, to satisfy the needs of an
+unfriendly environment, FoxReplayCovert is available in a rugged version,
+and, suitable for quick deployment and can operate in environments with no
+(reliable) electrical power. Finally, FoxReplayCovert can operate completely automated so there is no need for configuration during deployment.
+Selection
+Often, analysts will be interested in only specific traffic, for example, to
+focus on VoIP and not on WWW. In other cases, only certain email addresses or certain computers within an internet café will need to be targeted.
+
+contact
+
+FoxReplayCovert can be configured to focus on specific kinds of traffic, such
+as on specific email or IP addresses.
+Covert
+FoxReplayCovert is available in many different forms, some of which look
+
+Fox-IT
+Olof Palmestraat 6
+2616 LM Delft
+The Netherlands
+
+P.O Box 638
+2600 AP Delft
+
+exactly like ‘branded’ networking equipment. In addition, they can also
+operate like such normal networking equipment. Various editions of our
+FoxReplayAnalyst software tools differ in size and capability, to fit exactly
+mission needs.
+
+t
+f
+e
+
++31 (0)15 284 79 99
++31 (0)15 284 79 90
+replay-sales@fox-it.com
+
+www.foxreplay.eu
+
+

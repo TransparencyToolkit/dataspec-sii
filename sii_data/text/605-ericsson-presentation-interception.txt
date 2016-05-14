@@ -1,0 +1,2189 @@
+Interception Management System
+
+CELLNET Drop 2
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+1
+
+Course Objectives:
+After this course, participants will be able to:
+• Understand the Interception Concept
+• Understand the Remote Control Equipment
+Subsystem functions
+• Overview of XMATE Platform - WIOZ Tool and
+Transaction Log Tool
+• Use the IMS platform functions to:
+I.
+II.
+III.
+IV.
+
+Initiate a warrant
+Audit a warrant
+Monitor a warrant
+Terminate a warrant
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+2
+
+Course Objectives:
+After this course, participants will be able to:
+• To manage the directory structure and files
+• To manage the security and access control /
+authorisation
+• To have an overview of the Monitoing Tool
+• To administer the IMS transmission process
+• To administer the IMS database
+• To manage the IMS backup and recovery
+• To have an overview of system upgrade procedure
+• To manage Third Party Software Components
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+3
+
+Table of Contents
+1. Overview ....................................................................4
+1.1 IMS General Functions ………………………….
+1.2 Ericsson Interception Concept ..............................5
+1.3 IMS Architecture Platform ....................................6
+1.4 IMS Application and Relationship.........................7
+2. Remote Control Equipment Subsystem…………….
+2.1 Remote Control Equipment Subsystem
+Implementation ...
+3. Overview of XMATE Platform Functions …..……..
+4. IMS Operation .........................................................18
+4.1 Network Interface Communication.....................19
+4.2 Warrant handling ................................................23
+4.3 Audit process ......................................................29
+4
+© Ericsson Interception
+Systems, 2000
+CELLNET DropInterface...........................
+2
+4.4Management
+Warrant
+Management
+
+Table of Contents
+3. Administering IMS ………...................................……………....10
+3.1 IMS Directory Structure - $AOMPHOME/bin directory …...11
+3.2 $AOMPHOME/bin/admin directory.. .............................…...23
+3.3 Other directories ……………......…………....................…...36
+3.4 IMS Configuration Files - $AOMPHOME/setup/redrs....…...39
+3.5 IMS Configuration Files - $AOMPHOME/setup/redrs/text....61
+3.6 IMS Configuration Files - CTB Run-Time Variables......…....62
+3.7 Configurable IMS Attributes ……...........................................65
+3.8 $AOMPHOME/setup - Parameters of Interest ………………
+3.9 dcs_password Configuration …………………………………
+4. Security and Access Control / Authorisation ……………………
+4.1 Security and Access Control / Authorisation ………………..
+4.2 Create new
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+5
+
+1. Overview
+Module Objectives
+Be able to explain:
+• Intercept Concept
+• IMS Architecture Platform
+• IMS Application and Relationship
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+6
+
+1.1 IMS General Functions
+• Server Functions
+Sending of commands to the Network Element
+• Operator Functions
+Management of the interception service performed
+by an IMS operator
+• Administration Functions
+Configure & maintain the application
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+7
+
+1.2 Interception Concept
+Law Enforcement Agencies
+Monitoring Centre
+Call
+Content
+
+MC
+
+Call
+Data (DMC)
+
+MC
+
+MC
+
+PSTN/ISDN
+
+X.31
+
+PSDN (X.25)
+
+IMS
+
+Call Content
+(voice and data)
+
+Operator
+
+(Interception Management System)
+
+Call Data
+(data about call)
+
+A-party
+
+Service
+Management
+
+PSDN (X.25)
+RES
+AXE
+
+B-party
+
+© Ericsson Interception Management Systems, 2000
+
+AXE
+
+CELLNET Drop 2
+
+AXE
+
+AXE
+
+8
+
+1.3 IMS Architecture Platform
+Interception Management Application
+(REDRB)
+
+Graph. Al.
+Presentation
+(ALGPB)
+
+Command
+Terminal
+(CHB)
+
+Macro Comm
+Tool
+(CFB)
+
+File
+Transfer
+(FTB)
+
+Application Programming Interface (API)
+
+Monitor
+Block
+(AMB)
+
+Operating
+System
+Solaris (UNIX)
+
+Authority
+Admin.
+(AOMPB)
+
+User
+Interface
+(CDE&Applix)
+
+Data
+Commun.
+(DCB)
+
+Alarm
+Handling
+(AHB)
+
+Command
+Log
+(CLB)
+
+X.25
+
+OSI/FTAM
+
+Solstice
+security
+Manager
+
+Computer Platform (Sun Ultra Sparc)
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+IMS
+
+XMATE
+
+Third
+Party
+Components
+
+9
+
+1.4 Network Interface Communication
+
+IMS
+
+Administration commands
+
+AXE
+RES
+
+Collects the data output
+RCEFILE via communication
+port
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+10
+
+1.5 Communication to AXE
+Link supervision
+OMC
+Supervision based on the heart-beat reception from AXE
+(1 min)
+IMS
+Supervision based on the time scheduled polling from IMS
+(defined by Administrator, recommended 5-10 min)
+Includes supervision of:
+• Data Communication Server (DCS)
+• Physical connection to the data network (IMS connection)
+• Physical connection of AXE to the data network
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+11
+
+1.6 Warrant Handling
+Characteristics
+• Warrant Activation/deactivation
+• Warrant subscription monitoring (Audit, reload related
+update)
+• Checking Monitoring number operational status
+• Security access control
+• Event logging
+• Security input of the interception sensitive information
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+12
+
+1.7 Broadcast Ordering
+Activation
+
+IMS
+
+Sends the MML commands for
+ordering of monitoring of an
+warrant RCSUI
+
+AXE
+
+Deactivation
+
+IMS
+
+Sends the MML commands &
+update the database
+RCSUE
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+AXE
+
+13
+
+1.8 Warrant Handling
+Initiate State machine model
+
+Initiate
+
+Idle
+
+Delete(1)
+
+Action: Delete
+Actor : Administrator
+Tool : DB Admin
+Log : Yes
+Descr. :
+
+Action: Initiate
+Actor : Operator
+Tool : Warrant Init.
+Log : Yes
+Descr. : Warrant initiated in
+the IMS DB but not
+in the network
+
+Initiated
+
+(1) Deletion of the warrant
+in the IMS DB.
+No warrant in the network
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+14
+
+1.8 Warrant Handling
+Initiate State machine model
+
+Idle
+
+Initiate
+
+Delete(1)
+
+Initiate
+
+Initiated
+
+Action: Initiate
+Actor : System (automatic)
+Tool : n/a
+Log : Yes
+Descr. : Warrant initiated in
+the IMS DB and
+in the network.
+Send Start Data Record.
+Increment respective
+warrant statistic counter
+
+Initiated
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+15
+
+1.8 Warrant Handling
+Terminate State machine model
+
+Initiate
+
+Idle
+
+Delete(1)
+
+Initiate
+
+Initiated
+
+Action: Delete
+Actor : Administrator
+Tool : DB Admin
+Log : Yes
+Descr. :
+
+Initiated
+
+Terminate
+
+Delete(1)
+
+Terminated
+
+(1) Deletion of the warrant
+in the IMS DB.
+No warrant in the network
+
+© Ericsson Interception Management Systems, 2000
+
+Action: Terminate
+Actor : System (automatic)
+Tool : n/a
+Log : Yes
+Descr. : Warrant deinitiated in
+the network but the info.
+still in the IMS DB.
+Send Stop Data Record
+
+CELLNET Drop 2
+
+16
+
+1.8 Warrant Handling
+State machine model
+
+Action: Initiate
+Actor : Operator
+Tool : Warrant Init.
+Log : Yes
+Descr. : Warrant initiated in
+the IMS DB but not
+in the network
+
+Initiate
+
+Idle
+
+Delete(1)
+
+Action: Initiate
+Actor : System (automatic)
+Tool : n/a
+Log : Yes
+Descr. : Warrant initiated in
+the IMS DB and
+in the network.
+Send Start Data Record.
+Increment respective
+warrant statistic counter
+
+Initiate
+
+Initiated
+
+Action: Delete
+Actor : Administrator
+Tool : DB Admin
+Log : Yes
+Descr. :
+(1) Deletion of the warrant
+in the IMS DB.
+No warrant in the network
+
+Initiated
+
+Action: Terminate
+Actor : System (automatic)
+Tool : n/a
+Log : Yes
+Descr. : Warrant deinitiated in
+the network but the info.
+still in the IMS DB.
+Send Stop Data Record
+
+Terminate
+
+Delete(1)
+
+Terminated
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+17
+
+1.9 Grouping of Network Element
+• NE can be grouped according to
+characteristics like location, and type of
+services
+• A NE can be member of multiple groups
+• Benefit of grouping NE:
+– time saving when updating, upgrading and
+maintaining
+– centralize the controlling function
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+18
+
+2. Remote Control Equipment Subsystem
+Module Objectives
+Be able to:
+• Use the AXE MML commands
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+19
+
+2.1 Remote Control Equipment Subsystem
+• The content of the call can be speech or data
+• Both calls to & from a target subscriber can be
+monitored
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+20
+
+2.1 Remote Control Equipment
+Subsystem Implementation
+• IMS functions are implemented as a function
+block (REDRB) on the XMATE system
+application platform.
+• Communication with the external system is
+provided via DCB
+• DCB provides a gateway function between the
+internal network based on TCP/IP protocol &
+external communication networks based on the X.
+25 protocol
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+21
+
+2.2 Remote Control Equipment Subsystem
+AXE 10
+
+APZ
+
+GSS
+
+APT
+
+TCS
+
+System Level
+
+RES
+
+Subsystem
+Level
+
+Function Block
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+22
+
+2.3 Useful RES Commands
+Here are some sample RES commands:
+
+• RCSUI for initiating of a monitoring
+Parameters: MONB, MCNB, CTYPE, RCE, CUG, NI, SUPPRESS and MUID
+• RCSUE for ending of a monitoring
+Parameters: MONB, MUID
+• RCSUP for printing defined data
+Parameters: MONB, MUID
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+23
+
+3. Overview of XMATE Platform
+Module Objectives
+Be able to operate:
+
+• WIOZ Tool
+Man Machine Language (MML) Command
+Terminal Tool
+• Transaction Log Tool
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+24
+
+3.1 Man Machine Language
+Command (MML) Terminal Tool
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+25
+
+3.2 MML Terminal Tool
+Interaction with the
+electronic manual
+Supports:
+• Automatic log of commands and
+responses (Autolog)
+• Authority and access control
+• Dangerous command
+notification
+• Command log
+• Support for the remote FC
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+Cat & Paste
+
+26
+
+3.3 Setting up user preferences
+• The system administrator may set up various
+standard preferences when installing XMATE
+which you may wish to change to suit yourself.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+27
+
+3.4 Connecting to a network element
+• You can only connect a WiOZ Communication
+Tool session to a single network element at a time.
+• WiOZ Communication Tool session may connect
+to any network element via a DCS gateway
+running on any host on you local area network.
+• The DCS gateway handles the external connection
+to remote network elements.
+• If you need to connect to several elements, launch
+additional sessions.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+28
+
+3.5 To open a connection to a network element
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+29
+
+3.6 To view your authorisation settings
+• The system administrator sets up your user
+authorisation file so that you can only
+connect to particular network elements and
+send them particular commands. You can
+view permitted network elements and
+commands.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+30
+
+3.7 Sending commands to network elements
+• You send all commands to a network element
+from the command input box.
+• The network element returns all responses –
+whether immediate printout (IPO) or delayed
+result printout (RPO) – to the printout box.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+31
+
+3.8 To edit and re-send a command sent
+previously
+• Find the command in the history list and click it
+only once. The command copies to the command
+input box.
+• Edit the command as required and press Return to
+send it. When the IPO Window button is visible,
+an immediate response appears in the printout box.
+The command also appends to the history list
+regardless if any changes have been made.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+32
+
+3.9 To immediately re-send a command
+sent previously
+• Find the command in the history list and doubleclick it.
+• WiOZ Communication Tool sends the command
+immediately without copying it to the command
+input box. When the IPO Window button is
+visible, an immediate response appears in the
+printout box. The command does not append to
+the history list compare with ‘To edit and resend a
+command sent previously’ above.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+33
+
+3.10 Entry Commands and Sub
+Commands
+• Entry command is a command which
+establishes a session with the specified
+Support Processor Group (SPG) for various
+sub-system.
+• It enables the operator to subsequently enter
+sub-commands which are executed in the
+SPG.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+34
+
+3.11 Dangerous commands
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+35
+
+3.10 To step through a command file – in
+sequence
+• You must create command files before you can
+send any to a network element – see.
+• This method only lets you send commands in
+strict sequence from first to last. And you can only
+see one command at a time.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+36
+
+3.11 To step through a command file – out of
+sequence
+• You must create command files before you
+can send any to a network element.
+• This method lets you see all the commands
+in a command file before you begin sending
+them.
+• You can also send them in any order.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+37
+
+3.12 Handling the output from network
+elements
+• If the IPO window is currently being
+displayed, the RPO indicator at the top right
+will illuminate when WiOZ Communication
+Tool receives a result printout (RPO).
+• You can then switch the printout box to
+view the contents of the RPO.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+38
+
+3.13 To view either immediate or result
+printouts (IPO or RPO)
+• Click the IPO Window button in the WiOZ
+– Communication Terminal window.
+• The button changes to ‘RPO Window’ and
+the printout box displays the delayed RPO
+buffer.
+• Click the RPO Window button in the WiOZ
+– Communication Terminal window.
+• The button changes to ‘IPO Window’ and
+the printout box displays the IPO buffer.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+39
+
+3.14 To end a lengthy printout
+prematurely
+• Acknowledgement responses in the immediate
+printout (IPO) buffer are usually short.
+• Result printouts (RPO) can be lengthy and you
+may wish to cut them short.
+• Click the Break button in the WiOZ –
+Communication Terminal window.
+• The response in the printout box ends immediately
+when viewing either the IPO or
+• RPO buffer.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+40
+
+3.15 To save all or part of session
+printouts to log files
+• You may save all or part of the printout box
+to a log file.
+• You can save only the immediate printout
+(IPO) or only the Result printout (RPO), or
+you have been switching auto logging on
+and off, and need to save the entire session.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+41
+
+3.16 To delete the contents of the
+printout box
+• You may want to start with a clean printout
+box, especially if you wish to save a record
+of a new session of commands and
+responses.
+• Right-click in the printout box and choose
+the Clear Window menu option.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+42
+
+3.17 Working with the history list
+• When you send a man-machine language (MML)
+command to a network element, WiOZ Communication
+Tool appends the command to the history list.
+• As you send commands, WiOZ Communication Tool
+appends them to the top of the history list box, that is, the
+earliest command is at the bottom and the latest at the top.
+The line numbers show you the order and help you keep
+track when resending commands.
+• When you save the history list to a command file, the file is
+ordered as you would expect – earliest commands at the
+beginning and latest commands at the end.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+43
+
+3.18 Working with command files
+• Command files consist of a series of man-machine
+language (MML) statements, one to a line, in the same
+syntax as you would type them in the command input box.
+• In a command file, the first command to execute is at the
+‘top’ or beginning of the file and the last to execute is at the
+‘bottom’ or end.
+• When you open a command file in the history list, WiOZ
+Communication Tool reverses the displayed order.
+• The line numbers tell you which are earlier or later. Keep
+these differences in mind when you are creating and
+editing command files.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+44
+
+3.19 To save the history list to a
+command file
+• Right-click in the history list and choose the
+Save To CmdFile menu option.
+The File Selection Box dialogue opens at
+the default directory for command files.
+You may navigate to a different directory if
+you wish.
+• Type the name for the new command file
+and click OK.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+45
+
+3.20 To create new command files
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+46
+
+3.21 To edit command files
+• A command file is just an ordinary ASCII text file.
+So you may prefer another editor, such as Text
+Editor. Or you may use a traditional UNIX editor,
+such as vi or emacs.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+47
+
+3.22 To open or import existing
+command files
+• Consider clearing the current contents of the Edit
+Command File window.
+• A file does not open into a new window. Instead, WiOZ
+Communication Tool inserts the file at the location of the
+insertion point in the current window.
+• Choose the File > New menu option to start with an empty
+window.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+48
+
+3.23 To end an editing session
+• CAUTION No warning of unsaved file
+WiOZ Communication Tool does not warn
+you if you quit the Edit Command File
+window while its contents are unsaved.
+• Choose the File > Save menu option and
+save the contents of the Edit Command
+File window if not already saved.
+• Choose the File > Quit menu option.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+49
+
+3.24 Managing command files
+• You may use the File Manager of the Common Desktop
+Environment (CDE) to copy, rename, and move command
+files. See the Common Desktop Environment.
+• CAUTION Deleted files are gone forever Once you
+delete a command file the only way you might
+be able to recover it is if the system
+administrator can restore it from a back-up
+tape.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+50
+
+3.25 Working with session log files
+• Log files are a permanent record of the commands
+sent to a network element and its responses as
+displayed in the printout box.
+• They are useful when you are developing
+command files and you need a record of the
+interactions with an network element for
+debugging.
+• Log files can be an audit trail during network
+operations to record how the behaviour of the
+network is altered.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+51
+
+3.26 Transaction
+Log Tool
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+52
+
+4. IMS Operation
+Module Objectives
+Be able to:
+
+•
+•
+•
+•
+
+Initialise a warrant
+Stop a warrant
+Audit the network
+Monitor network status
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+53
+
+4.1 WARRANT MANAGEMENT
+USER INTERFACE
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+54
+
+4.2 Warrant Initiation
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+55
+
+4.3 Warrant Initiation
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+56
+
+4.4 Warrant Stopping
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+57
+
+4.5 Warrant Stopping
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+58
+
+4.6 Audit the Network
+The audit function can be used to obtain these
+details:
+• what interceptions have been initiated for a
+particular network element or group of network
+elements.
+• which network elements or groups of network
+elements are actively intercepting calls.
+• which subscribers are the targets of interceptions.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+59
+
+4.7 Synchronise the IMS & NE
+Database
+• Synchronising forces the specified network
+elements to be updated based on the audit
+report contents.
+• The IMS Database is assumed to be correct,
+hence all activation in the network elements
+are synchronised to be consistent with the
+IMS Database.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+60
+
+4.8 Audit Process
+• Provides a comparison between the list of monitored
+subscribers in an AXE & the IMS.
+List of
+monitored
+subscribers
+in IMC
+
+List of
+monitored
+subscribers
+in AXE
+
+compare
+
+Generate
+
+Audit Report
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+61
+
+4.9 Audit User Interface
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+62
+
+4.10 Audit Output
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+63
+
+4.11 Monitoring Status
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+64
+
+5. Administering IMS
+Module Objectives
+Be able to:
+• Manage the directory structure and files
+• Manage the configuration parameters
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+1
+
+5.1 IMS Directory Structure
+• READM
+Database admin/search application (user interface)
+• RRS
+Rerouting application (user interface)
+• irun
+Script used to start IMS applications
+• irun_debug
+Debug version of the irun script
+• ims_run
+Script used to start IMS applications on an executive server host
+• ims_app
+IMS Application (Operator) startup script
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+2
+
+5.2 $AOMPHOME/bin/admin Directory
+• TR_PARAM
+IMS Server Administrator and Configuration
+Application (user interface)
+• CTB
+Collection and Transmission Server
+• imas
+Mediation and Activation Server
+• DCFTAM
+FTAM Protocol module of DCS
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+3
+
+5.3 Other Directories
+• /etc/rc2.d/ ( [SK]98xmateims )
+Automatic server startup scripts after server host reboot
+• $AOMPHOME/axhome/macros
+Applix(tm) Macros for IMS Application (Operator) user interface
+• $AOMPHOME/scripts/imsau.abo
+Applix(tm) IMS Application (Operator) user interface
+• $AOMPHOME/log
+Various log files
+• $AOMPHOME/data/redrs/jobq
+Default placement of job queue and DMC destination queues
+• $AOMPHOME/setup/redrs
+IMS system configuration area and database
+• $AOMPHOME/doc
+Contains a pdf version of the IMS Operator and Administrator Manual
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+4
+
+5.4 IMS Configuration Files
+$AOMPHOME/setup/redrs Directory
+*!
+
+This is the IMS database - RTDS.REDRS.
+
+*!
+!
+
+It contains all information relevant for warrant processing,
+!
+operation and data product management.
+
+*!
+!
+!
+
+This file is the main runtime configuration repository, containing
+such items as Network Elements, DMCs, all warrants and
+!
+warrant related information and status, etc.
+
+* ! It is useful to backup this file on a regular basis as it constitutes
+!
+all runtime knowledge of the IMS system.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+5
+
+5.5 IMS Configuration Files
+$AOMPHOME/setup/redrs/text Directory
+• IMSAttribute
+This is the main IMS configuration file. Any
+updates to this file will become visible to the IMS
+system after the first subsequent administrator
+invocation of the IMS Administration (READM)
+user interface. There is no need to restart any of
+the IMS servers. The content of this file is listed
+and explained separately.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+6
+
+5.6 IMS Configuration Files
+CTB Run-Time Variables
+Parameter file
+The files consist of the variable names followed by the appropriate value.
+# Maximum number of concurrent activation/termination sessions (Default: 10)
+mas_max_conc_conn 10
+# Automatic retry activation/termination period in min. (def: 0=disabled)
+res10actterm1_retry_period 1
+# Act/Term retry expiry counter (def:0=infinite retry)
+res10actterm1_expiry 5
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+7
+
+5.8 $AOMPHOME/setup
+Parameters of Interest
+# Subscribe to DCS-es for alarm logging (ie enable/disable alarm logging from
+# DCSes and network elements)?
+log_ne_dcs_alarms no
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+8
+
+5.9 dcs_password Configuration
+#
+# Logical_name
+#
+iog11
+anon
+DMC1
+DMC2
+DMC3
+DMC4
+
+Id
+
+User_name
+
+Password
+
+Info
+
+1
+2
+3
+4
+5
+6
+
+SYSTEM
+anon
+dmc1
+dmc2
+dmc3
+dmc4
+
+INIT
+o.tel.o
+o.tel.o
+o.tel.o
+o.tel.o
+
+""
+""
+""
+""
+""
+""
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+9
+
+6. Security and Access Control / Authorisation
+Module Objectives
+Be able to:
+
+• Create IMS Operator
+• Create IMS Administrator
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+10
+
+6.1 Security & Access Control / Authorisation
+• User Access Security is based on the security management
+function implemented in the application platform
+(XMATE)
+• The security management in XMATE operates at 4 levels:
+–
+–
+–
+–
+
+Access to the system
+Access to the application
+Access to the Network Element
+Authorization to issue individual commands
+
+• All the 4 levels controlled by UNIX authorization features
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+11
+
+6.2 Create new Operator &
+Administrator and Assign Authorisation
+• Use admintool to create the groups. The
+following user group parameters are
+recommended:
+• Group Id ! Id number !
+aompadm ! 81!
+!
+aompusr ! 83!
+!
+
+© Ericsson Interception Management Systems, 2000
+
+Users
+aomp
+aompop1,aompop2,aompop3
+
+CELLNET Drop 2
+
+12
+
+6.3 Adding/removing User Authorisation
+Privileges
+An user privileges is defined by:
+• The User Authority Group file (UAGF) -UsrAuthG
+• An MML Command Group File (CGF) CmdAuthF.<n>
+• An Alarm Authority Group File (AUF) AlarmAuthF.<m>
+• A Script Authority Group File (SGF) - ScrAuthF.<p>
+• n: Command Group Number (CGN) greater than 0
+(i.e. 1-N)
+• m: Alarm Group Number (AGN) greater than 0 (i.e. 1N)
+• p: Script Group Number (SGF) greater than 0 (i.e. 1© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+13
+
+7. XMATE Monitor Tool
+Module Objectives
+Be able to:
+•
+•
+•
+•
+•
+
+Add/remove the Information Handling Server (IHS)
+Add/remove the Data Communication Server (DCS)
+Add/remove the File Transfer Server (FTS)
+Activate and deactivate the IHS, DCS, FTS
+Add/delete NE to/from XMATE
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+14
+
+7.1 XMATE Monitor
+• The XMATE monitor is used to control these
+servers:
+– Information Handling Server (IHS)
+– Data Communication Server (DCS)
+– File Transfer Server (FTS)
+
+• IHS and DCS must be active for all XMATE
+functions
+• FTS must be active if file transfers are to be
+performed.
+• The monitor is used to activate, deactivate, and
+examine all of the servers that are on the network.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+15
+
+7.2 Server Configuration
+• XMATE can be configured in many
+ways, either standalone with IHS,
+DCS, and FTS all running on the
+same machine, or over a network,
+with the four servers running on
+different machines. On a network,
+there may be multiple DCS and FTS
+servers.
+• Only one IHS server per XMATE system
+should run. This handles all alarms
+16
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+7.3 Starting And Stopping Servers
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+17
+
+7.4 Add/Remove NEs and DMCs IN XMATE
+(Network Elements/Data Monitoring Centres)
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+18
+
+7.5 The
+Monitor
+Window
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+19
+
+7.6 Adding Servers
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+20
+
+7.7 Adding an IHS server
+
+This window is used to control and examine an IHS server on a given
+host.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+21
+
+7.8 Adding a DCS server
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+22
+
+7.9 Adding a FTS server
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+23
+
+7.10 Information And Probes
+• It is possible to perform several
+different tests on theDCS server.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+24
+
+7.11 Listen Requests
+• Certain applications make listen requests
+to the DCS server. Occasionally
+applications will exit abnormally, and are
+unable to cancel their listen requests.
+• The monitor must then be used to cancel
+the requests.
+• Every listen request made by applications to DCS
+is listed in the report window.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+25
+
+7.12 Network Element Setup
+• The Network Element Setup U/I enables the
+XMATE System Administrator to configure
+the NetWork Map (NWM). Configuring the
+NWM involves defining Network Elements
+(NEs) for one or more Data Communication
+gateways (DCSs). The NWM contains
+information of an XMATE system domain
+comprising: DCS gateways, NEs and their
+characteristics.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+26
+
+7.13 Running The X.25 NE Setup
+Interface
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+27
+
+7.14 Configuring An X.25 Network
+Element
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+28
+
+7.15 Network Element Setup
+• Defining a new
+NE
+• Modifying an
+existing NE
+• Deleting an
+existing NE
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+29
+
+7.16 Generating The DCS
+• After making changes to all links for the
+specified DCS host, generate a setup file
+which will be used by the DCS gateway
+when it is invoked on the DCS host.
+• If a DCS gateway is already running it will
+automatically detect that the setup file
+has changed and update its internal NE
+memory list.
+• To generate the DCS File select Generate
+DCS File from the File bar menu option.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+30
+
+8. Administering IMS Transmission
+Process
+Module Objectives
+Be able to perform:
+
+• Start/Stop the IMAS server
+• DMC/NE Synchronization
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+31
+
+8.1 IMS Application Process
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+32
+
+8.2 Starting/stopping the IMAS server
+• To start the imas server, click the ‘Activate’
+button.
+• To stop the imas server, click the
+‘Deactivate’ button.
+• The current status of the server can be
+displayed at any time by pressing the Status
+button.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+33
+
+8.3 Usage Error
+These errors can occur when the Apply button has
+been clicked.
+
+Not all fields are filled in
+Applied failed.
+Not all fields are filled in.
+
+Invalid Job Directory
+Applied failed.
+Invalid job directory.
+
+Couldn’t save parameters
+Applied failed.
+Couldn’t save parameters in file.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+34
+
+8.4 Starting/stopping the transmission process
+• Not used by Cellnet.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+35
+
+9. Administering IMS Database
+Module Objectives
+Be able to manage interception and monitoring elements:
+•
+•
+•
+•
+•
+•
+•
+•
+
+To add a network elements to the database
+To delete a network elements from the database
+To modify a network elements in the database
+To create a network element group
+To add a DMC in the database
+To delete a DMC in the database
+To update NE and DMC in the database
+To search in the database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+1
+
+… continue
+
+9. Administering IMS Database
+Module Objectives
+
+Be able to manage the database:
+
+• To view and print target subscriber details
+• To add, edit & delete target subscriber
+entries in the database
+• To reset the Measurement Data Product
+Counter (MDPC)
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+2
+
+9.1 Administering IMS Database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+3
+
+9.2 Administering IMS Database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+4
+
+9.3 Pop-up menu
+Right-clicking in the IMS Administration window
+pops up a menu which gives immediate access to
+updating and management dialogues as follows:
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+5
+
+9.4 File menu
+The File menu lets you set up the IMS database
+with the details of network elements, data
+monitoring centres (DMC), and target subscribers’
+numbers (monitored network numbers – MNN).
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+6
+
+9.5 Search menu
+The Search menu lets you define the criteria
+for searching the IMS database, then search
+for items matching those criteria.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+7
+
+9.6 Options menu
+The Options menu lets you print details of selected
+entries in the IMS Administration window and update
+the database with network elements and data
+monitoring centres (DMC) data.
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+8
+
+9.7 To add a Network Element to
+database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+9
+
+9.8 To add a Network Element to
+database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+10
+
+9.9 To delete a Network Element from
+database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+11
+
+9.10 To modify a Network Element in
+the database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+12
+
+9.11 To add a data monitoring centre in
+the database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+13
+
+9.12 To delete a data monitoring centre
+in the database
+• Choose the File > Setup > DMC List menu option in the IMS
+Administration window.
+• The Data Monitoring Centres dialog box displays any data
+monitoring centres (DMC) that are currently defined.
+• Click on one DMC and then click on the Delete button.
+• You cannot delete a primary (DMC-A) or secondary (DMC-B) data
+monitoring centre that is still receiving data products from IMS.
+• A DMC cannot be deleted under the following circumstances:
+– - if another DMC is re-routed to the DMC to be deleted.
+– - if there is an active warrant against the DMC to be deleted.
+– - if the DMC to be deleted has entries in its queue even if the
+warrant is in TERMINATE state.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+14
+
+9.13 To update network elements and
+data monitoring centres in the database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+15
+
+9.14 Searching the database
+• You must find a target subscriber’s details
+before you can update them in the database.
+IMS search capabilities allows these details
+to be found using different searching
+criteria.
+• This section shows how
+– To specify search criteria
+– To search for database entries
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+16
+
+9.15 To specify search criteria
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+17
+
+9.16 To specify search criteria
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+18
+
+9.17 To specify
+search criteria
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+19
+
+9.18 Managing database
+• Normally IMS maintains and updates the
+database automatically. But you may need
+to edit the database manually when faults
+occur in the network.
+• This section describes the major task areas
+of:
+– Viewing and printing target subscriber details
+– Adding, editing, and deleting target subscriber
+entries
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+20
+
+9.19 To view
+or print the
+details of a
+single entry
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+21
+
+9.20 To add
+target
+subscriber’s
+number to
+the database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+22
+
+9.21 To add a target subscriber’s number
+to the database
+• A confirmatory alert appears when the MNN or
+IMEI is successfully added to the database.
+• An error alert appears if the target MNN (or IMEI)
+is already in the database.
+• Activate the newly added warrant
+Deactivate and activate the IMS Mediation and
+Activation server in order for it to activate the
+monitoring of the newly added warrants in the
+network elements.
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+23
+
+9.22 To delete subscriber’s entry from
+the database
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+24
+
+9.23 Statistics Review -- Counting Traffic
+• Two traffic counters are implemented in the Dbase for each monitored
+subscriber.
+• The counters are incremented for each received data output for the life
+of the warrant.
+• WDPC -- Warrant Data Product Counter
+• MDPC -- Measurement Data Product Counter
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+25
+
+9.24 To reset the measurements data-product
+counter (MDPC)
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+26
+
+9.25 Add/Remove NEs and DMCs IN IMS
+(Network Elements/Data Monitoring Centres)
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+27
+
+10. System Maintenance Backup and
+Recovery
+Module Objectives
+Be able to perform:
+
+• UNIX System maintenance (HD backups)
+• XMATE platform transaction log backups
+• IMS Database backup
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+28
+
+10.1 System Administration and Maintenance
+•
+•
+•
+•
+•
+
+UNIX system backups (cron)
+IMS database backup (cron)
+IMS Alarm and Command Log backup
+Deletion of old warrants
+Directory maintenance (DP, Billing, Log)
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+29
+
+11. Third Party Software Component
+Module Objectives
+
+• An overview of the third party software
+components used by XMATE/IMS
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+30
+
+11.1 Third Party Software Components:
+User Interface and Presentation
+• Applix Software System
+– /home/applix/applix
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+31
+
+11.2 Third Party Software Components:
+Network Communication
+
+• SunLink X.25
+
+– /opt/SUNWconn/bin/x25tool
+– /opt/SUNWconn/bin/x25trace -t -i /dev/lapb -l 0
+– /opt/SUNWconn/bin/vcstat -i 3 [-L]
+
+• Solstice OSI
+– /opt/SUNWconn/bin/ositool
+
+• Solstice FTAM
+– /opt/SUNWconn/bin/ftamtool
+– /opt/SUNWconn/bin/osiftam
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+32
+
+11.3 X.25 Tool
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+33
+
+11.4 OSI Tool &
+Stack Manager
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+34
+
+11.5
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+35
+
+11.6 OSI Tool: Addressing
+and ES-IS Configuration
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+36
+
+11.7 OSI Tool: Route Manager
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+37
+
+11.8 FTAM
+Tool
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+38
+
+11.9 FTAM
+Configuration Tool
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+39
+
+11.10 OSIFTAM
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+40
+
+References:
+• LZBP 101 289 Rev J
+IMS Administrator & Operator Manual
+
+© Ericsson Interception Management Systems, 2000
+
+CELLNET Drop 2
+
+41
+
+

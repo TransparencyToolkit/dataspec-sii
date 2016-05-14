@@ -1,0 +1,215 @@
+MELANIE
+VIDA
+Visual Document Analysis
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+MELANIE – VIDA, Visual Documents Analysis
+(Analysis and Visualisation of Texts)
+VIDA – Visual Document Analysis
+• Interactive user interface for visual representation of documents and analysis
+results
+• Analysis of documents against defined criteria e. g.
+- number of words in the text
+- entities such as places, names, organizations
+• Statistical analysis of texts
+- keywords
+- n-grams
+- word associations
+• Automatic national language identification for texts in
+- German
+- English
+- French
+- Italian
+• Text abstraction for speed reading and faster scanning of information
+• Analysis results displayed in tables and graphs
+- word frequencies
+- associations
+• Text tagging, where texts are highlighted according to relevant criteria
+• Relations between keywords
+• Finding similar texts
+
+Finding important text entities
+Words in the various meaning categories are
+found automatically. Different highlighting is
+used in the text for each of the meaning
+categories.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Metadata
+General information on the analysed
+document is compiled as metadata.
+This metadata includes the following
+information, for example:
+• Document name
+• Source directory
+• Creation date
+• Number of words, lines and
+characters
+• National language
+
+Word statistics
+A set of word statistics provides
+information on the most frequently
+used words
+and the most frequently used words
+relevant to the content i.e.
+keywords.
+
+Keywords – Word n-grams
+Statistical determination and listing
+of all keywords and word n-grams
+(common sequences of words).
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+National language identification
+Automatic determination of the language of
+a text. National language identification is
+currently implemented for the following
+languages:
+• German
+• English
+• French
+• Italian
+Other languages can be implemented on
+request.
+
+Abstraction
+A summary can be generated
+automatically to enable speed-reading
+of the text.
+
+Visualisation – Frequency
+Visual representation of the frequency of
+specified keywords in the text.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+Visualisation – Associations
+VIDA includes the visualisation option of
+an association graph for delivering faster
+identification of the text content.
+
+Visualisation – Entities
+VIDA
+provides
+coloured
+highlighting of entities and also
+lists entities and keywords in a
+table.
+
+Finding similar texts
+VIDA provides a function that
+assesses the similarity of texts,
+for text location. This function
+automatically lists in a table all the
+texts analysed, in order of
+decreasing
+similarity. In addition, the most
+important matches are output in
+keywords.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+VIDA – Specification
+Operating systems
+
+Windows, Linux
+
+Automatic national language identification
+
+• German
+• English
+• French
+• Italian
+• Other languages on request
+
+Text analysis
+
+• English
+• German
+• Other languages on request
+
+Statistical analysis of texts
+
+Based on word lists and rules
+
+No linguistic knowledge necessary
+Functions
+
+• Word statistics
+• Automatic determination of
+keywords and n-grams
+• Word associations
+• Histogram for word
+frequencies
+• Marking (tagging) of entities:
+proper names, places, date, etc.
+• Visualisation of associations
+and entities
+
+Ordering information
+VIDA-Inter Vida tool, to be used interactively, incl. graphical user interface
+VIDA-Prod Vida program to be embedded in software environment
+VIDA-Conf Vida configuration software, used for adaptation to new domain
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+Company Principles and Policy
+Technology
+… in development and company management is state-of-the-art,
+and represents only the best.
+Quality
+… in all areas of our company is regarded as the almost requirement
+for risk-free and successful cooperation with our customers,
+and business partners.
+Market Position
+… we are the specialists in the field of signal and data processing
+as well as pattern recognition, and we are glad to face competition.
+Colleagues
+… form the roots of our company, and give the performance required
+for maintaining and building the technical base, and close
+personal cooperation we have with our clientele.
+Growth
+… we strive toward a healthy, stable foundation at home and
+abroad.
+Services
+… are comprehensive and complete. As a full-system company
+we offer standard equipment, systems, and services.
+Trust
+… in the relationships to our business partners, and within our
+own company forms the basis of our business.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+7
+
+Consequently, this means that a recording with a signal length of 20
+minutes can be fully classified in one minute.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+8
+
+

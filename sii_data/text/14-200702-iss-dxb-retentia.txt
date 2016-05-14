@@ -1,0 +1,350 @@
+IP Data Retention
+The challenge of IP Data
+Retention to Traditional Approach
+27 February 2007
+mario.mene@retentia.com
+
+Summary
+The challenge
+The typical solution
+Retentia’s approach
+DRS: the solution for IP data
+retention
+The company
+
+Reference Scenario
+International and national regulations set mandatory
+requirements on transactions to be retained and query
+response time
+Privacy and security regulations define data protection
+rules and access criteria
+Enterprises are willing to spend as little as possible on
+data retention
+Increase in traffic and monitored transactions is pushing
+the managed data size to the sky
+
+Meeting all these conflicting requirements is a big
+challenge for system designers and developers
+Time is ripe for a dedicated software product
+
+The IP challenge (size)
+IP data retention is making the task more
+challenging
+Huge amount of data if compared to traditional
+phone CDR volumes
+A typical user makes tens of phone calls but
+might send and receive hundreds of mails and
+browse thousands of web pages and images
+
+The IP challenge (flexibility)
+Small differences in legislation from country to
+country might impact heavily on system
+requirements
+Changes over time in regulation might impact
+heavily on the volume of data managed by the
+system
+
+The IP challenge (adaptability)
+The type and size of data to be stored and
+managed is very variable compared to standard
+telephony CDR
+Telephony CDR are very standard and well
+defined objects; from their correctness depends
+the phone bill
+IP CDR may range from IP packets to system
+logs
+
+The IP challenge (definition)
+Depending on standard definitions and
+country regulations, exists a gray area
+between data retention and interception
+10.5.135.12:8600 -> 192.168.1.1:80
+
+Retention
+
+GET www.retentia.com
+GET www.retentia.com/logo.jpg
+
+Interception
+
+The “easy” answer
+A system with high data management capability
+Very customizable and scalable
+Able to manage all sorts of data
+
+We need an RDBMS!!!
+
+What is the price?
+performance (many CPU)
+storage (many TB)
+licenses
+management
+security
+
+$$$ TCO $$$
+
+The DRS answer
+Data to be managed is known in advance
+Queries to be run are known in advance
+configuration phase
+
+any data
+any query
+
+The DRS answer
+Using, during the system configuration phase,
+the knowledge on data to be managed and
+queries to be run in the configuration phase, we
+can deliver a significantly more efficient system
+Adding more data flows or modifying data
+formats and queries is simply done, often in
+minutes, with a new configuration
+
+The real-life results
+billions of record managed with PC class
+hardware
+up to 80% storage savings compared to DB
+guaranteed query response time
+total data protection due to proprietary
+encrypted data file format
+
+Comparing Costs
+Medium Operator
+(100 Mill.CDR per day)
+
+Large Operator
+(10 Bill.CDR per day)
+
+Traditional
+Solution
+
+The Retentia
+Solution
+
+Traditional
+Solution
+
+The Retentia
+Solution
+
+3 TB
+
+1.5 TB
+
+300 TB
+
+145 TB
+
+2 x 12 CPU
+
+4 CPU
+
+16 x 32 CPU
+
+60 CPU
+
+3’rd party
+Licenses
+
+2 Oracle x 12
+CPU
+
+2 Oracle x 2
+CPU
+
+16 Oracle x 32
+CPU
+
+2 Oracle x 4 CPU
+
+Total Cost
+of
+(2)
+Solution
+
+$0.6M $1.0M
+
+$0.1M - $0.2M
+
+$15M - $20M+
+
+$2M - $3M
+
+Storage(1)
+Servers
+
+(1) Based on a retention period of 6 months
+(2) Excluding LEA Product licenses and integration costs
+
+The Process Management
+Challenge
+In today Telco/ISP scenario the management and
+handling of LEA requests is becoming an
+increasingly complex task
+Enforcement and monitoring of SLA
+Multiple Data Repositories
+Complete control and tracing of data access
+Monitoring of request handling process
+Security of data communication with LEAs
+Reducing operator costs
+
+The DRS answer
+DRS provides a single access point for all LEA support activities enforcing
+security and tracking of accesses
+It can manage Data Retention queries as well as provisioning of Legal
+Interception requests
+DRS provides a centralized monitoring of all process phases
+The web interface can be securely accessed from remote (ideally directly
+from LEA)
+The process streamlining capability and simplified request input screens
+can dramatically improve the whole process efficiency
+DRS provides a virtual repository access, masking the complexity of
+repositories from operators
+Centralized process monitoring and scheduling of requests helps in
+meeting SLA
+DRS is already handling the HI1 interface
+
+Process management = security + savings
+
+The complete picture
+The Data Retention Suite is a complete suite of software products that
+manages the processing of requests from LEAs using a centralized
+architecture. The Suite is composed by 3 main products:
+
+DRS/wm
+! DRS/wm (Workflow Management) handles all process phases (incoming
+requests management, services splitting, storage system interface
+management, multi-repository virtualization, etc)
+
+DRS/db and DRS/fs
+!Archiving and fast retrieval of traffic stored on Data Base (/db) or File
+Systems (/fs) based storage architecture in a compressed and encrypted
+format.
+Secure and fast retrieval of traffic data, to support service level agreement.
+DRS/fs significantly reduce storage dedicated to data retention.
+
+The complete picture (2)
+
+FAX Server
+
+WEB Access
+
+HI1
+
+LEA Workflow Management
+
+LEA Interface
+
+DRS/WM
+
+Law
+Enforcement
+Agencies
+
+Legal
+Interception
+
+LI systems
+
+Data Retention
+
+DSR/fs
+DSR/db
+
+DRS: the suite for LEA support
+Configurable
+! Configurable input data interface for multiple data format
+! Configurable normalized internal record format
+! Configurable internal processing routing
+
+Convergent
+! Data independent
+
+Scalable
+! Vertical - Multiple instances
+! Horizontal - Multiple platforms
+
+Secure
+! Encrypted data and requests
+! Encrypted Results
+! Internal tracing of all users activity
+
+DRS/wm
+Configurable workflow management
+Configurable new LEA service requests
+Third party interception systems integration (API)
+External systems interface integration
+(API)
+Remote Archives centralized
+management
+Status control and alarms management
+Web link with LEAs Interception centers
+Multi-operator architecture support
+(service bureau for TELCO/ISP)
+Secure data/info access (strong
+authentication, data encryption etc.)
+Web based user interface
+
+DRS/db
+Voice and IP traffic storage and retrieval
+Storage on DB (compressed format)
+Optimized enquiry
+Acquisition from mediation systems (CDR, IPDR, LOGS, etc.)
+Acquisition from third parties probes (IP/SS7)
+
+Key Points
+Configurable input data flows
+RDBMS based storage architecture
+
+DRS/fs
+Voice and IP traffic storage and retrieval
+Storage on indexed, compressed and coded files (proprietary format)
+Optimized indexed file inquiry
+Acquisition from mediation systems (CDR, IPDR, LOGS, etc.)
+Acquisition from third parties probes (IP/SS7)
+
+Key points
+Configurable input data
+Configurable index keys
+Exceptional data loading and query
+performance
+Lowest TCO – Storage saving
+
+DRS References
+Mobile
+! RFI-GSMR (Italian GSM Railway)
+! TIM BRASIL (Brazil: standard TDMA and GSM)
+Wireline
+! ADRTEL (Rome airports Group)
+! EUTELIA
+Triple Play
+! FASTWEB
+! TI Media (ISPs - Telecom Italia)
+Classified Project
+! Italian DOD
+
+About us
+• Retentia is the leading brand in data retention management and
+provides data capture, archiving, and tracing solutions for Telco's,
+ISP's, Enterprises, and Law Enforcement agencies all over the
+world.
+• Retentia's Data Retention Suite (DRS) enables Telco's and ISP's to
+assist Law Enforcement Agency's to locate and prosecute
+suspicious behavior and to comply with federal legislation and
+directives - faster and for less money than competing solutions.
+
+About us
+Retentia's portfolio of proven Data Retention products supports the
+complex scale, security and performance requirements of some of
+the world's most demanding organizations.
+With its unique specialization, leading-edge technology and toptier customer base, Retentia qualifies as one of the most dynamic
+and fastest-growing companies in Homeland Security.
+Retentia is the commercial brand of Systeam Italy Spa, an
+international company, wholly owned subsidiary of Intelligentias,
+Inc. (ITLI)
+Retentia is headquartered in Silicon Valley with regional offices in
+London and Rome.
+
+Questions
+
+

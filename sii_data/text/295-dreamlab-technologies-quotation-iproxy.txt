@@ -1,0 +1,1609 @@
+Quotation: Monitoring system for iproxy-project
+
+Quoted for: Gamma International GmbH
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+Gamma International GmbH
+Mr. Thomas Fischer
+Baierbrunnerstr. 15
+D-81379 Munich
+
+Bern, 21. Dezember 2010
+
+Quotation: Monitoring system for iproxy-project
+Quotation number: 3104488
+
+Dear Mr. Fischer
+Thank you for your interest in our services.
+We are pleased to submit the following quotation concerning the Monitoring system for iproxy-project.
+The quotation shows a summary of the actions planned and lists the costs for every step.
+If you have any further questions or comments concerning this quotation, do not hesitate to call us.
+We are looking forward to support you in this project.
+Yours sincerely,
+
+Nicolas Mayencourt
+CEO
+Dreamlab Technologies AG
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+2/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+Table of contents
+1. Fundamentals ...................................................................................................................................................... 5
+1.1 Starting point and objectives......................................................................................................................... 5
+2. Qualifications of Dreamlab.................................................................................................................................... 6
+3. Project workflow and deliverables........................................................................................................................ 7
+3.1 Overview of the actual iproxy infrastructure..................................................................................................7
+3.1.1 Network infrastructure for the iproxy infrastructure...............................................................................7
+3.2 Overview of the monitoring solution..............................................................................................................8
+3.3 Functional overview of the monitoring solution.............................................................................................9
+3.4 Project management................................................................................................................................... 12
+3.5 Devices and infrastructure.......................................................................................................................... 12
+3.6 On-Site installation, integration to existing infrastructure and tests in Oman..............................................13
+3.7 Training....................................................................................................................................................... 13
+3.8 System care................................................................................................................................................ 13
+3.9 On-site maintenance in Oman.................................................................................................................... 13
+3.10 Co-ordination Meetings............................................................................................................................. 13
+4. Terms and conditions......................................................................................................................................... 14
+5. Obligation to cooperate....................................................................................................................................... 15
+6. Costs................................................................................................................................................................... 16
+6.1 Services provided by Dreamlab Technologies............................................................................................16
+6.2 Monitoring and alarming system................................................................................................................. 17
+6.3 Redundant monitoring and alarming...........................................................................................................18
+6.4 System maintenance (on-site) per call-out..................................................................................................18
+6.5 On-site co-ordination meetings per call-out................................................................................................18
+6.6 System maintenance for redundant system (on-site) per call-out...............................................................19
+6.7 Solution maintenance.................................................................................................................................. 19
+7. Order for quotation no. 3104488......................................................................................................................... 20
+8. Conditions........................................................................................................................................................... 21
+8.1 Prices.......................................................................................................................................................... 21
+8.2 Expenses.................................................................................................................................................... 21
+8.3 Payment Conditions.................................................................................................................................... 21
+8.4 Deadlines.................................................................................................................................................... 21
+8.5 Validity of this quotation.............................................................................................................................. 21
+8.6 Attachment.................................................................................................................................................. 21
+9. Contact............................................................................................................................................................... 22
+9.1 Client........................................................................................................................................................... 22
+9.2 Service provider.......................................................................................................................................... 22
+10. Attachment........................................................................................................................................................ 23
+10.1 Hardware infrastructure............................................................................................................................. 23
+10.1.1 HP DL 380 Generation 7 (G7) with 3x 146GB HDs, DVD, Red. PS. ILO.........................................23
+10.2 Alerting and monitoring infrastructure.......................................................................................................24
+10.2.1 Nagios Tactical Monitoring Overview...............................................................................................24
+10.2.2 Nagios Service Details..................................................................................................................... 25
+10.2.3 Nagios Host Details.......................................................................................................................... 26
+10.2.4 Nagios Host Group Summary...........................................................................................................27
+10.2.5 Nagios Status Host Map................................................................................................................... 28
+10.2.6 Nagios Extended Host Process Information.....................................................................................29
+10.2.7 Nagios Trend Host View................................................................................................................... 30
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+3/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.8 Nagios Trend Service View..............................................................................................................31
+10.2.9 Nagios Service Availability...............................................................................................................32
+10.2.10 Nagvis Overview............................................................................................................................. 33
+10.2.11 Nagvis Overview ............................................................................................................................ 34
+10.2.12 Nagvis Map Overview..................................................................................................................... 35
+10.2.13 Nagvis Rack Overview................................................................................................................... 36
+10.2.14 Nagvis Site Overview..................................................................................................................... 37
+10.2.15 Nagvis Overview............................................................................................................................. 38
+10.2.16 Nagvis System Detail Overview.....................................................................................................39
+10.2.17 Munin Screen Overview................................................................................................................. 40
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+4/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+1. Fundamentals
+This offer is based upon a request of Thomas Fischer of Gamma International as well as on various
+conversations between Gamma International, Dreamlab Technologies AG and the end customer.
+1.1 Starting point and objectives
+During the integration tests in Oman in September 2010 the end customer figured out that not all of the
+components of the iproxy infrastructure are under their full control. It is, for example possible that changes of the
+Oman-network may occur without their knowledge. Thus, it might occur that ISPs may modify some of the current
+configuration. Therefore, the question arose whether it is possible to identify such a modification in the network
+setup by monitoring the whole iproxy infrastructure.
+From this point of view, a request for an efficient and user-friendly monitoring of the iproxy infrastructure including
+all components of the systems was derived. This requirement is discussed and a proposal for solution is
+described in this offer.
+The solution covers several aspects:
+•
+
+All components of the iproxy infrastructure and all services running on the systems will be monitored.
+
+•
+
+For defined critical outages of the hardware components, processes and/or services the system will send
+SMS- and/or e-mail-alarms to persons defined beforehand.
+
+•
+
+A web-based management GUI offers a wide range of views, which allow the operators to easily identify
+system issues and outages.
+
+•
+
+A set of reports offers possibilities to retrieve condensed information on the system like statistics on
+outages or performance problems.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+5/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+2. Qualifications of Dreamlab
+Since 1998, Dreamlab Technologies AG supports economical, governmental and educational institutions and
+organizations. Our main activities are strategical consulting and education as well as conception, realization,
+integration, operation and maintenance of IT solutions based on open standards.
+Since 2003, Dreamlab officially represents the Institute for Security and Open Methodologies (ISECOM) in
+Switzerland, France and Germany. ISECOM is an international non-profit organization that develops open
+standards for IT security and business integrity testing. It is the editor of the Open Source Security Testing
+Methodology Manual (OSSTMM), the most widely spread standard foriInformation security testing. Nicolas
+Mayencourt, CEO of Dreamlab Technologies, is a member of the board of directors of ISECOM and presides its
+units "Business Development" and "Academic Alliance".
+Dreamlab is the only education partner of ISECOM in Switzerland, France and Germany and it offers OSSTMM
+certification courses for security professionals in collaboration with ISECOM and an international network of
+partner organizations and universities. In cooperation with the University of Applied Science of Berne, Dreamlab
+launches Switzerland‘s first OSSTMM certification courses. Dreamlab also provides a Hacker Highschool to help
+young people to become aware of responsible handling of IT technologies.
+Through close partnership with ISECOM and an active collaboration in setting new standards, Dreamlab is always
+up-to-date and even ahead of the
+
+times. Being a honorary member of the security section of the Swiss
+
+Informatics Society, a member of the OpenTCPA Research Group and of the World Wide Web Consortium (W3C)
+means being part of the newest developments in IT security. Within W3C, Dreamlab is responsible for the Xforms
+Standard and is an active part of other working groups (e.g. HTML) to integrate security knowledge into
+processes of creation and maintenance of future standards. Customers of Dreamlab directly benefit from this
+body of knowledge, from the contact network and from the insight into developments and future marketplaces.
+The Dreamlab staff consists of skilled OSSTMM professionals who constantly observe the security branch and
+have access to the latest developments and trends. To be able to advise their customers the best, they exchange
+knowledge at the most important international IT security conferences and keep on educating themselves
+continually.
+Since 2005, Dreamlab has developed a software suite for lawful interception and data retention and has
+successfully implemented the solution with various Swiss and international customers. The Dreamlab LI-SWSuite is unique with regards to security, performance, flexibility and price on the market. The software
+components are under permanent development, are compliant with the common ETSI-standard and cover most
+of the interception requirements on all relevant technologies of IP networks.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+6/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+3. Project workflow and deliverables
+3.1 Overview of the actual iproxy infrastructure
+3.1.1 Network infrastructure for the iproxy infrastructure
+In 2010, the infection proxy solution for the fixnet part was implemented on-site in Oman. The picture below
+shows the network infrastructure and the setup as currently implemented.
+
+Illustration 1: Current topology of the network with infection proxies
+
+During the tests in Oman, the end customer asked for a monitoring possibility of the iproxy infrastructure with the
+goal to identify changes and modifications of the setup.
+The following quotation specifies the elements of the proposed monitoring system.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+7/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+3.2 Overview of the monitoring solution
+
+The proposed solution is based on the implemented iproxy infrastructure. The monitoring will cover all hardwareand software components of the iproxy infrastructure, e.g. the management infrastructure, the AAA-probes and
+the iproxies. The picture below gives an overview of the elements needed for the monitoring system.
+
+Illustration 2: Proposed monitoring solution:The green dashed lines show the monitoring of the radius probes, the
+iproxies at the internet exchanges and the management server. The monitoring server detects and stores events
+in the monitored infrastructure and sends alarms by SMS and emails to the responsible technical staff members
+upon defined cases. The second monitoring server (in light blue) indicates the redundant monitoring cluster.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+8/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+3.3 Functional overview of the monitoring solution
+The proposed monitoring solution is based on Nagios-Munin, the state-of-the-art monitoring software.
+Components to be monitored
+The following system components of the iproxy infrastructure are subject to monitoring (see picture 2 on page 8):
+•
+
+the management server at the LEA (ADMF)
+
+•
+
+the 2 AAA-probes for the IP-access and WIFI
+
+•
+
+the 2 iproxies at the internet exchange
+
+For the named components the monitoring system will be configured with agents to monitor several layers (see
+Picture 3 below):
+Hardware Layer Monitoring:
+
+Important hardware components will be monitored like disks, CPUs, raidcontroller, power (on/off) or network cards, plugging / unplugging of cables.
+For these elements checks will be made in order to control the hardware
+condition .
+
+System Layer Monitoring:
+
+System processes are monitored and important data and aspects like disc
+capacity, RAM capacity, CPU performance etc. will be checked. Errors and
+system critical values (for example: disc capacity over 80% etc.) are detected.
+Regular alive-checks are done.
+
+Application Layer Monitoring:
+
+An overall process check on each machine gives important information on the
+overall condition of the monitored element.
+
+Illustration 3: The proposed monitoring consists of several levels. On the lower levels hardware components,
+system and application processes are monitored. On a higher level services (like iProxy 2) are monitored.
+Detailed presentations of the graphical user interface are shown in appendix in ch. 10, p. 23ff.
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+9/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+However, smart monitoring does include more than monitoring all the components. Only when combining and
+understanding the components as a whole service the results of a monitoring are good results. Thus, the
+monitoring is service-oriented where the components and its dependencies are included.
+In our proposal we introduce two higher layers of services, while the first reflects “a site” (for example the NDP1).
+Thus, it is possible to easily drill down information concerning site “NDP1” or site “management infrastructure
+(ADMF)” and hence, to identify in the monitoring whether the service of site “NDP1” is correctly working or not.
+On the highest level, dependencies between the sites are introduced to build a view of the whole service. In order
+to introduce this view related to monitoring, deep insight in the real implementation of a service is needed. As a
+result, the user gets qualified information about the service level of the monitored service, thus, reaching a level
+where monitoring is intuitively understood – also by non-application specialists.
+
+Alerting and alarming
+The monitoring system allows to set up alerts on nearly any kind of event. Typical alerts are outages of hardware
+components, exceeding of critical values like disc space usage, timeouts etc. Based on alerts, alarming
+mechanisms can be used to send an alarm by email or SMS to persons defined beforehand.
+Example for an alarm: assuming a network cable is unplugged at NDP1. The monitoring system triggers an alarm
+set up beforehand, which alerts the person in charge at LEA (for example by SMS or Mail).
+
+Views (for details also see the appendix on page 23)
+The monitoring system will offer a set of views, which show the aspects of the monitoring system as described in
+the previous section, and which are helpful when analysing problems, alerts and outages. Detailed examples and
+short descriptions of the views are shown in the appendix on page 23ff.
+View
+
+Short description
+
+Tactical view
+
+The tactical overview always shows all service and host checks that are performed
+and gives an overview of the condition of the whole system and its corresponding
+services. The monitoring platform is service-aware and knows which services
+depend on what underlying systems. In case of outages or problems, this screen
+directly indicates the elements that need treatment.
+
+Service details
+
+The service overview pane dissects the rendered services in its components. Each
+component is actively monitored and in case of failure, the operator knows exactly,
+which element is causing the issue.
+
+Host details
+
+The host details pane shows all hosts participating in the system and its condition.
+From this screen the operator can drill in the detailed checks and their corresponding
+history.
+
+Host group summary
+
+Modern services usually need more than one host to be rendered correctly. In the
+host group pane the operator is shown the logical function blocks including its real
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+10/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+View
+
+Short description
+time monitored condition, which is typically used for first line diagnosis of problems
+or anomalies.
+
+Status host map
+
+The host map shows the measured state in a topological manner.
+
+Extended host process
+
+This detailed screen shows the specific monitoring configuration on a per-host-basis.
+
+information
+Trend host view
+
+With the trending tool the overall availability and availability trends are being
+calculated in a format, which delivers the perfect basis to calculate SLA aspects.
+
+Trend service view
+
+This example shows service outages on a timeline. Perfect for reconstructing events
+or managing outages.
+
+Service availability
+
+This feature of the monitoring platform calculates on a per-host-basis the detailed
+service availabilities in a defined timespan.
+
+Overview
+
+With the Nagvis extension the whole monitoring infrastructure can be combined with
+informal layouts and graphs. This tool is of great value and helps visualising the very
+low-level technical measurements by transforming them into very informative and
+high-level views enabling the operator to quickly identify potential problems.
+
+Map overview
+
+Combining multiple views and graphs leads to considerably reduced debugging
+times. From the very high level layouts, the operator can access the rack view and
+therefore see, where problems need treatment on a physical layer.
+
+Site Overview
+
+This is another example of a very high-level and highly condensed system view.
+Bear in mind that the informal layouts get enhanced by the various real time checks,
+which, when correlated and condensed, lead to one working or not working
+statement per logical unit.
+
+Virtualized system
+
+With this monitoring platform, even virtualised systems can be dissected and shown
+
+overview
+
+in informal graphs.
+
+System detail overview
+
+This example shows all actual performance consumptions on all systems on one
+single page.
+
+Screen overview
+
+With the additional performance graphs, every measurement is shown in detail in tie
+series plots. Operators therefore get a very detailed view of every single aspect of a
+service and host. With means of the time series and the operational knowledge the
+operators get a very detailed insight on any impact from any service providing the
+systems.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+11/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+3.4 Project management
+The project management must be assigned to project planning, communication, and co-ordination; this will ease
+the handling of all tasks that arise, such as in particular the co-ordination and communication within the teams,
+co-ordination of on-site work, collaboration with the parties involved, ordering and monitoring of duties to cooperate, guaranteeing of the provision of any existing dependencies, hardware assembly, factory testing, the
+provision of all project-related documentation such as system and instruction manuals.
+3.5 Devices and infrastructure
+Before the on-site installation, the hardware will be assembled, equipped and preconfigured with all software
+components at Dreamlab Technologies. Additionally, a detailed test will be accomplished before shipping. The
+systems are, as a matter of principle, delivered to the desired address ready-to-use. Dreamlab will deliver the
+following hardware and software components for the project:
+Monitoring server cluster
+The monitoring system will run on a HP DL 380 G7 server cluster. The servers must have internet access and
+access to the GSM network in order to send e-mails and SMS. In order to grant a very high monitoring service
+level, the monitoring system runs as a redundant cluster system. The monitoring servers are setup in a
+hotstandby-mode with heartbeat and a mirroring of the harddiscs. The Nagios and Munin platforms have to be
+clustered and configured accordingly.
+
+Software components
+The monitoring system is based on the Nagios system. The monitoring server will contain the following elements:
+Server software setup
+• Nagios platform
+• Munin platform
+• Nagvis visualisation platform
+The installation contains the setup of the Nagios platform, the Munin platform and the Nagvis visualisation
+platform, as well as the following configurations:
+•
+•
+•
+•
+
+Webserver / web interface configuration
+Nagios Server configuration
+Munin Server configuration
+Nagvis visualisation server configuration
+
+Client agent software setup
+• Installation and preconfiguration of the Nagios agents on to the client systems (see overview picture
+Illustration 2 on page 8)
+• Installation and preconfiguration of the Munin agents on to the Client systems (see illustration 2 on page 8)
+•
+Customized client agent checks
+• Writing customized Nagios agent checks
+• Writing customized Munin agent checks
+Alerting
+• Installation / configuration SMS / Mail alerting functionality
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+12/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+Testing
+• Nagios server functional tests
+• Munin server functional tests
+• The infrastructure will be assembled, configured and subjected to a detailed burn-in test at Dreamlab
+
+3.6 On-Site installation, integration to existing infrastructure and tests in Oman
+The monitoring system will be finally configured and tested in Oman in accordance with the needs of the end
+customer.
+Client agent software setup
+• On-site Installation and final configuration of the Nagios agents on to the client systems (see illustration 2 on
+page 8)
+• On-Site installation and final configuration of the Munin agents on to the client systems (see illustration 2 on
+page 8)
+Alerting
+• Installation / configuration SMS / mail alerting functionality in accordance with the needs of the end customer
+Testing and fine tuning
+• Nagios server on-site integration tests
+• Munin server on-site integration tests
+Customizing for the client
+• Alerting and monitoring infrastructure adjusting to the clients wish
+
+3.7 Training
+Persons responsible will receive system training, including all necessary training documentation adapted for the
+client system in English.
+3.8 System care
+Support and maintenance covers all activities in support of the client operating with the installed systems in case
+service is needed.
+3.9 On-site maintenance in Oman
+The SLA can be fulfilled without remote access and in the scope of an annual visit at the client’s location, during
+which, updates and tests can be carried out or open questions can be discussed with the customer. This can
+occur every year, every semester, or every quarter of the year. Since this is very much a security-related and
+sensitive infrastructure, which is located in a public network, Dreamlab advises that the maintenance work will be
+undertaken as frequently as possible (every quarter of the year, if possible).
+3.10 Co-ordination Meetings
+In addition to the system maintenance, a co-ordination meeting with the client takes place on-site once a year,
+during which the needs and requirements of the client can be discussed and where relevant information, news
+and current trends can be exchanged on a management level.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+13/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+4. Terms and conditions
+This quotation is valuable within the following limitations. The conditions listed bellow must be granted by Gamma
+International GmbH (in the following: client).
+I.
+
+The client will not claim any requirements concerning possible damage or harm connected to operations
+performed by the staff of Dreamlab Technologies apart from harms or damages due to carelessly or purposely
+wrong performed or neglect actions.
+
+II. The client will forego all assertion of claims on account of any possible adverse effects and/or damages that
+may arise in connection with the assignment. Reserved are damages that arise through serious negligence or
+deliberate actions or omissions by the staff of Dreamlab Technologies.
+III. The current approach for monitoring covers the actually implemented infection proxy system of Oman as
+delivered in PO-Nr: 3104256.1 (“Infection Proxy Project)
+IV. The management server cluster of the monitoring system must have Internet access and the ability to send
+SMS.
+V. The site where the monitoring servers are placed, must have GSM-coverage in good quality. Alternatively, a
+GSM-antenna must be placed, the signal must be received the server room.
+VI. The ISPs must provide a layer 2 ethernet network with sufficient bandwidth (at least 10mb/s) and guarantee a
+low latency from the LEA/LEMF to the infection proxy centres.
+VII.The networks used must be configured the way an IP-connection exists from the management server to the
+radius probes and the infection proxies. The infection proxies must be connected with the radius probes in the
+same way.
+VIII.If during the course of the on-site installations some of the above named preconditions and limitations should
+not be fulfilled, Dreamlab Technologies AG reserves the right to treat the work linked to such missing
+preconditions as change requests to this offer, which have to be paid Based on time and material needed in
+addition.
+Please do precisely document any additional information, differences, amendments or comments.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+14/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+5. Obligation to cooperate
+We assume Gamma International GmbHs (in the following: Client) cooperation and support of the project to cover
+the following points:
+I.
+
+The client will make available document templates and information necessary for the execution of the work.
+
+II. The client will inform parties involved in the project about the upcoming work.
+III. The client will organise all necessary information, accesses and entries that are required for the workflow of
+the project.
+IV. The client will organise meetings and establish contact with the parties involved.
+V. The client will make available the network connections and the network between the servers and the sites.
+VI. The client will make available sufficient network connections for the delivered components.
+VII.The client will make available housing space for the delivered turn-key solutions (Racks, UPS, cooling).
+VIII.The client will organise the transport of staff and material.
+IX. The client will organise all additional test equipment for the FAT / E2E tests.
+X. The client needs to prepare Internet access, which is needed for the monitoring system to run. The monitoring
+system must be able to send mails, thus an e-mail adress is needed for the monitoring system too.
+XI. Two Sim-cards for access to the GSM-network in Oman have to be provided by the end-customer.
+XII.Rackspace is needed at the LEA.
+XIII.2 Network ports per server and a crosslink (minimum 1 Gbit) between both are needed for the monitoring
+system.
+XIV.A laptop with a mail account and a mobile phone are needed to test the monitoring solution.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+15/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+6. Costs
+Quotation number: 3104488
+6.1 Services provided by Dreamlab Technologies
+Item
+001
+
+Description
+
+Unit Price
+
+8 days
+
+12'800.00
+
+1'440.00
+
+15 days
+
+21'600.00
+
+1'440.00
+
+4 days
+
+5'760.00
+
+1'800.00
+
+3 days
+
+5'400.00
+
+Option: Configuration and for redundant system
+The monitoring solution will be configured and tested
+as redundant cluster at Dreamlab
+
+004
+
+1'600.00
+
+On site assembly, installation and test in Oman
+All the equipment will be assembled, the system will be
+preconfigured and shipped to Oman. The system will
+be thoroughly tested and handed over to the client.
+
+003
+
+Net Value
+CHF
+
+Project management and documentation
+Project Management for the co-ordination of all work
+that arises, production of all project-related
+documentation
+
+002
+
+Number
+
+Training
+Persons responsible will receive system training,
+including all necessary documentation adapted for the
+client system in English (2 days on-site, 1 day for
+preparation)
+
+Total
+Services provided by Dreamlab Technologies
+Prices do not include VAT and shipping and are in CHF.
+
+Dreamlab Technologies AG
+
+45'560.00
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+16/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+6.2 Monitoring and alarming system
+Position
+001
+
+Description
+
+Unit price
+
+Net worth
+CHF
+
+HP DL 380 Generation 7 (G7)
+With 6x 146GB SAS HDs, 6x2GB PC3-RAM, DVD,
+Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Number
+
+16'955.00
+
+1
+
+16'955.00
+
+60'000.00
+
+1
+
+60'000.00
+
+Nagios Munin Installation Dreamlab monitoring
+centre
+Server software setup
+• Installation of Nagios platform
+• Installation of Munin platform
+• Installation of Nagvis visualisation platform
+• Webserver / web interface configuration
+• Nagios server configuration
+• Nagvis visualisation server configuration
+• Munin server configuration
+Client agent software setup
+• Installation and configuration of the Nagios agents
+on to the client system
+• Installation and configuration of the Munin agents
+on to the Client system
+Customized client agent checks
+• Writing customized Nagios agent checks
+• Writing customized Munin agent checks
+Alerting
+• Installation / configuration SMS / mail alerting
+functionality
+Testing and fine tuning
+• Nagios server integration and functional tests
+• Munin server integration and functional tests
+• The infrastructure will be assembled, configured,
+and subjected to a detailed burn-in test at Dreamlab
+Customizing for the client
+• Alerting and monitoring infrastructure adjusting to
+its clients wish
+
+003
+
+GSM modem alarming path
+
+1'000.00
+
+1
+
+1'000.00
+
+004
+
+Customising of alerting rules
+
+1'800.00
+
+3
+
+5'400.00
+
+Total
+Monitoring and alarming option
+Prices without VAT and in CHF.
+
+Dreamlab Technologies AG
+
+83'355.00
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+17/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+6.3 Redundant monitoring and alarming
+Position
+001
+
+Description
+
+Unit price
+
+16'955.00
+
+1
+
+16'955.00
+
+40'000.00
+
+1
+
+40'000.00
+
+1'000.00
+
+1
+
+1'000.00
+
+Nagios Munin Installation Dreamlab monitoring
+centre
+Setup, customising and testing in accordance with
+Position 002 of chapter 6.2 for the redundancy system
+
+003
+
+Net worth
+CHF
+
+HP DL 380 Generation 7 (G7)
+Redundant Server with 3x 146GB SAS HDs, 6x2GB
+PC3-RAM, DVD, Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Number
+
+GSM modem alarming path
+
+Total
+Redundant monitoring and alarming
+Prices without VAT and in CHF.
+
+57'955.00
+
+6.4 System maintenance (on-site) per call-out
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+On-site system maintenance
+Loading of updates, system tests, troubleshooting,
+depending on client’s wishes up to four times a year (5
+days per call-out). We recommend at least two visits
+(better four) on-site for system maintenance per year.
+
+Total
+
+1'600.00
+
+5 days
+
+System maintenance/per call-out (on-site variant)
+
+8'000.00
+8'000.00
+
+Prices do not include VAT and shipping and are in CHF.
+
+6.5 On-site co-ordination meetings per call-out
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+Co-ordination Meetings
+Annual co-ordination meeting with the client, including
+exchange of information at management level,
+depending on client’s wishes up to four times a year (3
+days per call-out).
+We recommend at least 2 visits on-site for coordination
+meetings per year.
+
+Total
+
+1'800.00
+
+1 days
+
+Co-ordination meetings per call-out
+
+1'800.00
+1'800.00
+
+Prices do not include VAT and shipping and are in CHF.
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+18/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+6.6 System maintenance for redundant system (on-site) per call-out
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+On-site system maintenance
+Loading of updates, system tests, troubleshooting,
+depending on client’s wishes up to four times a year (5
+days per call-out)
+
+Total
+
+1'600.00
+
+2 days
+
+System Maintenance/per call-out (on-site variant)
+
+3'200.00
+1'600.00
+
+Prices do not include VAT and shipping and are in CHF.
+
+6.7 Solution maintenance
+The annual solution maintenance ensures that the solution built for the customer is permanently maintained and
+that a solution test environment is held and maintained at the Dreamlab offices in Berne.
+Item
+
+Description
+
+001
+
+Monitoring solution for the iproxy infrastructure
+
+003
+
+Option: Cluster extension of monitoring solution
+
+Total
+
+Annual solution maintenance
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+24'000.00
+
+1
+
+24'000.00
+
+12'000.00
+
+1
+
+12'000.00
+36'000.00
+
+Prices do not include VAT and shipping and are in CHF.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+19/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+7. Order for quotation no. 3104488
+
+Subscription details „Monitoring system for iproxy-project“
+Description
+
+Net worth CHF
+
+Monitoring and alarming
+
+83'355.00
+
+Services provided by Dreamlab
+
+34'400.00
+
+Training
+
+5'400.00
+
+Annual solution maintenance
+
+24'000.00
+
+Option redundant monitoring
+Redundant monitoring implmentation
+
+57'955.00
+
+Services provided by Dreamlab for redundancy
+
+5'760.00
+
+Annual solution maintenance for redundant system
+
+12'000.00
+
+Please tick.
+
+Subscription details: Recurring charges
+Description
+
+Unit Price
+
+System maintenance per call-out
+
+8'000.00
+
+On-Site coordination p. call-out
+
+1'800.00
+
+Option: Redundant system
+System maintenance per call-out
+
+3'200.00
+
+Nr. of c-o
+
+Net worth CHF
+
+Please tick and give the total number of call-outs requested per year.
+
+Conditions
+Prices
+All prices are in CHF without VAT.
+Expenses
+Travel expenses within Switzerland are included in the offer.
+Payment Conditions
+30% down payment, 30% at time of delivery, 20% after installation and 20% after the final acceptance of the end
+user/customer, in accordance with the co-operation agreement.
+Deadlines
+Deadlines are yet to define exactly.
+Validity of this quotation
+This quotation is valid for 4 weeks, starting from the date of issue.
+Acceptance of general terms and conditions and obligation to cooperate.
+
+Locality
+
+Date
+
+Person responsible Gamma International GmbH
+Name:
+
+Signature:
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+20/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+8. Conditions
+8.1 Prices
+All prices are in CHF without VAT (MwSt.).
+8.2 Expenses
+Travel expenses within Switzerland are included in the offer.
+8.3 Payment Conditions
+30% down payment, 30% at time of delivery, 20% after installation, and 20% after the final acceptance of the enduser/customer, in accordance with the co-operation agreement.
+8.4 Deadlines
+Deadlines are yet to define exactly.
+8.5 Validity of this quotation
+This quotation is valid for 4 weeks, starting from the date of issue.
+8.6 Attachment
+General terms and conditions of business of Dreamlab Technologies AG.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+21/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+9. Contact
+9.1 Client
+Gamma International GmbH
+
+Address
+
+Baierbrunnerstr. 15
+
+Postal code and city
+
+D-81379 Munich
+
+Thomas
+
+Name
+
+Fischer
+
+Phone
+
++49 89 242 0918–0
+
+Mobile
+
++49 172 266 1654
+
+E-Mail
+
+tf@gamma-international.de
+
+Address
+
+Monbijoustrasse 36
+
+Postal code and locality
+
+CH-3011 Bern
+
+Name
+
+Mayencourt
+
+Contact commercial
+First name
+Function
+
+9.2 Service provider
+Dreamlab Technologies AG
+
+Contact commercial
+First name
+
+Nicolas
+
+Function
+
+CEO
+
+Phone
+
++41 (0)31 398 66 66
+
+E-Mail
+
+nicolas.mayencourt@dreamlab.net
+
+Mobile
+
+Contact technical
+First name
+
+Felix
+
+Function
+
+Senior Consultant
+
+Phone
+
++41 (0)31 398 66 66
+
+E-Mail
+
+felix.merz@dreamlab.net
+
+Dreamlab Technologies AG
+
+Name
+
+Merz
+
+Mobile
+
++41 79 223 71 75
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+22/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10. Attachment
+10.1 Hardware infrastructure
+10.1.1 HP DL 380 Generation 7 (G7) with 3x 146GB HDs, DVD, Red. PS. ILO.
+
+Processor
+
+2x Intel® Xeon® Processor X5650 (2.6 GHz, 8MB L3 Cache) Sixcore
+
+Cache Memory
+
+8MB (1 x 8MB) Level 3 cache
+
+Memory
+
+12 GB (6 x 2 GB) PC3-10600R (DDR3-1333) Registered DIMMs
+
+Network Controller
+
+Two BCM5709C with dual-port Gigabit Server Adapters
+
+Storage Controller
+
+HP Smart Array P410i/102MB with BBWC
+
+Drives
+
+HP Slim SATA DVD RW drive
+
+Controller
+
+Smart Array P410i Controller with Zero Memory (Raid 0/1/1+0)
+
+Internal Storage
+
+Standard: 8 SFF SAS/SATA HDD Bays
+Optional: 16 SFF SAS/SATA HDD Bays
+
+Optical Drive
+
+HP Slim SATA DVD RW drive
+
+Power Supply
+
+2x 750W Hot Plug Power Supplies
+
+Fans
+
+6x (N+1 redundancy standard)
+
+Form Factor
+
+Rack (2U), Height 3.38-inch (8.59 cm); Width: 17.25 (44.54 cm);
+Depth:
+27.25 inches (69.98 cm)
+
+Accessory
+
+Without upgrade elements and rack mount kit
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+23/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2 Alerting and monitoring infrastructure
+10.2.1 Nagios Tactical Monitoring Overview
+
+The tactical overview always shows all services and host checks that are performed and gives an overview of the
+condition of the whole system and its corresponding services. The monitoring platform is service-aware and
+knows which services depend on what underlying systems. In case of outages or problems this screen directly
+indicates the elements that need treatment.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+24/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.2 Nagios Service Details
+
+The service overview pane dissects the rendered services in its components. Each component is actively
+monitored and in case of failure the operator knows exactly, which element is causing issues. Of course, a history
+of all events is being kept.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+25/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.3 Nagios Host Details
+
+The host details pane shows all hosts participating in the system and its condition. From this screen the operator
+can drill in the detailed checks and their corresponding history.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+26/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.4 Nagios Host Group Summary
+
+Modern services usually need more than one host to be rendered correctly. In the host group pane the operator is
+shown the logical function blocks including its real time monitored condition. This is a great tool for first line
+diagnosis of problems or anomalies.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+27/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.5 Nagios Status Host Map
+
+The host map shows the measured state in a topological manner.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+28/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.6 Nagios Extended Host Process Information
+
+This detailed screen shows the specific monitoring configuration on a per-host-basis.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+29/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.7 Nagios Trend Host View
+
+With the trending tool the overall availability and availability trends are being calculated in a format which delivers
+the perfect basis to calculate SLA aspects.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+30/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.8 Nagios Trend Service View
+
+This example shows service outages on a timeline. Perfect for reconstructing events or managing outages.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+31/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.9 Nagios Service Availability
+
+This feature of the monitoring platform calculates the detailed service availabilities in a defined timespan on a perhost-basis.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+32/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.10 Nagvis Overview
+
+With the Nagvis extension the whole monitoring infrastructure can be combined with informal layouts and graphs.
+This tool is of great value and helps visualising the very low-level technical measurements by transforming them
+to very informal and high-level views enabling the operator to quickly identify potential problems.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+33/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.11 Nagvis Overview
+
+With the Nagvis extension the whole monitoring infrastructure can be combined with informal layouts and graphs.
+This tool is of great value and helps visualising the very low-level technical measurements by transforming them
+into very informative and high-level views enabling the operator to quickly identify potential problems.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+34/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.12 Nagvis Map Overview
+
+There is no limitation to the way the operator wants the service checks to be correlated and represented. In this
+example a very high-level country-wide overview of a system is shown.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+35/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.13 Nagvis Rack Overview
+
+Combining multiple views and graphs lead to considerately reduced debugging times. From the very high level
+layouts the operator can access the rack view and see where problems need treatment on a physical layer.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+36/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.14 Nagvis Site Overview
+
+This is another example of a very high-level and highly condensed system view. Bear in mind that the informal
+layouts get enhanced by the various real time checks, which, when correlated and condensed, lead to one
+working or not working statement per logical unit.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+37/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.15 Nagvis Overview
+
+With this monitoring platform even virtualised systems can be dissected and shown in informal graphs.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+38/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.16 Nagvis System Detail Overview
+
+This example shows all actual performance consumptions on all systems on one single page.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+39/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+10.2.17 Munin Screen Overview
+
+With the additional performance graphs, every measurement is shown in detail in tie series plots. Operators
+therefore get a very detailed view of every single aspect of a service and host. With means of the time series and
+the operational knowledge the operators get a very detailed insight on any impact from any service providing the
+systems.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+40/41
+
+Quotation: Monitoring system for iproxy-project
+Commercial in Confidence © Dreamlab Technologies AG
+
+In this example the incoming and outgoing network traffic is shown. This is a great tool to identify performance
+bottlenecks and enables forecasts.
+
+Dreamlab Technologies AG
+
+Monbijoustrasse 36 CH-3011 Berne
+
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+41/41
+
+

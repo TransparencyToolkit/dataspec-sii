@@ -1,0 +1,185 @@
+Real Time Traffic Analysis0
+
+1223
+
+Mul6iservice 8e69orks
+
+<urren6 si6ua6ion in 6elecoms ne69orks
+Constantly increasing volumes of traffic3 
+Growth of new types of traffic 8video, online games, voice, 
+etc.<3
+!"#$"#%&'()*+",&(-+%.,"&+/"&(0"#*+(#1%&
+network3 
+
+Transfer of several types of traffic in 
+one session3
+Constantly growing range of added 
+services and user applications.
+
+Mo=ern mul6iservice ne69orks
+
+In6erce?6 in mul6iservice ne69orks
+
+<om?onen6 ?ar6s@
+RealA6ime 6raffic analysis subsys6em@
+CDE FTraffic intercept filterG ! 6o?Alevel moni6oring =eviceI 
+fil6ra6ion an= in6erce?6 of all ne69ork 6raffic3
+Jrobe FIntercept serverG ! signaling message in6erce?6 =eviceI 
+rou6ing of voice informa6ion FRTJG an= o6Ker 6y?es of 6raffic3
+<on6rol <en6re 8Monitoring and intercept centre< ! informa6ion 
+=is6ribu6ion sys6emI con6rol of access ?rivileges an= 
+func6ionali6y3
+S6orage FInformation repositoryG ! KigK securi6y =a6a arcKive 
+9i6K KigKAs?ee= access3
+
+S?ecifics of realA6ime 6raffic analysis
+!"#$%&'()*+,)-%./($012#$.3(4)5($2+,/1)%54)
+.#,."#$012#$.3(4)5($2+,/1)6"1#57)7%$(2%819:
+!(-%,%$()-,+.(11#57)+*)4#**(,(5$)$8-(1)+*)$,%**#.)
+6;+#.(<)(0=%#'<);#4(+)($.:9
+>#4(),%57()+*).,#$(,#%)*+,)$,%**#.)%5%'81#1)6$8-()
++*)%--'#.%$#+50'%8(, .+5$(5$<)"1(,)?@<)?A)
+%44,(11<)5($2+,/)4+=%#5)5%=(<)($.:9
+B#=()'#=#$1)*+,)-,+.(11#57)-%./($1)6-,#+,#$#(1)
+%54)="'$#0'(;(')C"("#579
+!$+,%7()+*)$%,7($)#5*+,=%$#+5)+5'8<)5+$#*#.%$#+5)
++*)#$1)4($(.$#+5)%$)D+5$,+')D(5$,(
+
+A=van6ages over conven6ional LI@
+
+E:
+
+D%5)+-(,%$()+5)%58)(F#1$#57)
+.+=="5#.%$#+51)5($2+,/:
+
+G:
+
+?5$(,.(-$)%54)*%1$)%5%'81#1)+*)%58)$8-()+*)
+#5*+,=%$#+5)%..+,4#57)$+)#54#;#4"%').,#$(,#%:
+
+H:
+
+!#57'().+5$,+').(5$,()*+,)=+5#$+,#57)%'')
+$,%**#.)1$,(%=1:
+
+I:
+
+A%11#;()#5$(,.(-$)7"%,%5$((1)$3%$)#5$(,.(-$)
+%.$#;#$#(1),(=%#5)"54($(.$%&'(:
+
+J:
+
+D%-%.#$8)*+,),(=+$().+55(.$#+5)+;(,)1(.",()
+.3%55('1:
+
+Selec6ion an= analysis cri6eria
+
+Flexible configuration of 
+filter criteria.
+
+Informa6ion ?rocessing ?rinci?les
+
+<ommercial a??lica6ions
+
+E:
+
+Detection o) users visiting /)or0idden2 network resources:
+
+G:
+
+@($(.$#+5)+*)"5%"$3+,#1(4)%..(11)%54)=%'#.#+"1)
+1"&1.,#&(,1)6#5).+5K"5.$#+5)2#$3)LLL)181$(=19:
+
+H:
+
+L"$+=%$#.)%5%'81#1)+*)$,%**#.)#5),(%'0$#=(<)1$+,%7()+*)
+,('(;%5$)4%$%:
+
+I:
+
+D3(./#57)-%,%=($(,1)+*)1"&1.,#&(,).+55(.$#+51)$+)1-(.#*#.)
+5($2+,/),(1+",.(1:
+
+J:
+
+M1%7()+*)#5*+,=%$#+5)*+,)&#''#57)-",-+1(1)"54(,).+=&#5(4)
+$%,#**1:
+
+N:
+
+!$%$#1$#.1O
+E:
+
+@($(,=#5#57)=+1$)*,(C"(5$'8);#1#$(4)5($2+,/),(1+",.(1:
+
+G:
+
+@($(,=#5#57)%,(%1)+*)#5$(,(1$)$+)5($2+,/)"1(,1:
+
+H:
+
+P#54#57)"5%..+"5$(4)5($2+,/)$,%**#.:)
+
+Securi6y as?ec6s
+
+Trans?or6
+
+Secure connections used in all sections of
+network
+
+In6erce?6 ?oin6s
+
+Placement of subject under monitoring
+remains undetectable both to subject and
+to network operator
+
+<onfigura6ion
+
+System configuration and configuration of
+intercept & analysis criteria can only be
+set from the Control Centre and only by
+authorised personnel.
+
+Informa6ion s6orage
+
+Information is stored in encrypted format
+in specialised databases
+
+In=e?en=en6 con6rol 
+grou?s
+
+Several
+groups
+can
+operate
+independently, parallel monitoring cannot
+be detected.
+
+A==i6ional o?6ions0 S?eecK Jerce?6ion0
+
+A==i6ional o?6ions0 Traffic analysis0
+
+S?eecK recogni6ion.
+De6ec6ion of key 9or=s an= ?Krases in 6Ke 
+s?eecK s6ream0
+<onfigurable sensi6ivi6y for recogni6ion of 
+se?ara6e ?Krases0 
+OP?an=able vocabulary0
+OP6ra recogni6ion =ic6ionaries an= languages 
+can be a==e=0
+Au6oma6ic no6ifica6ion on recogni6ion of key 
+9or=s in conversa6ion of moni6ore= subscriber0
+QigKligK6s only necessary informa6ion abou6 a 
+?o6en6ially sus?ec6 user0
+
+Thank you for your
+attention.
+Robert Leitch,
+PROTEI Ltd.
+Tel: +7 (812) 449-47-27
+E-mail: info@protei.com; sorm@protei.ru;
+http://www.protei.com
+
+In Prague: +44 77 488 05 143
+
+

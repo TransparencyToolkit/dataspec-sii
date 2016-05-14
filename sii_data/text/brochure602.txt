@@ -1,0 +1,221 @@
+MPM-1000 IP Modem
+Provides WIN-T and other Users the Specialized IP
+SATCOM to Keep Highly Mobile, Dispersed and Remote
+Users Connected
+Linkabit’s MPM-1000 modem with its Network Centric Waveform (NCW)
+
+FEATURES:
+
+reduces operational cost and supports the maximum number of IP users by
+
+• EXTREMELY EFFICIENT USE OF
+SATELLITE RESOURCES
+– ADVANCED MF-TDMA WITH A
+BANDWIDTH-ON-DEMAND DAMA
+SCHEDULER
+
+providing extremely efficient use of satellite bandwidth over any Military or
+Commercial transponded satellite.
+The NCW is the Army’s Open Standard (Non-Proprietary) Waveform that
+provides optimal network performance in any SATCOM architecture with any
+size terminals. It provides a fully certified secure network that is self forming
+
+– POWER EFFICIENT TURBO CODEC
+ON A LL L INKS WITH I NTERLEAVER
+BLOCK LENGTHS TO ACCOMMODATE IP ENCAPSULATION
+
+and healing which makes it very easy to use and maintain. Satellite resources
+
+– BUILT-IN DIFFSERV-BASED
+QUALITY OF SERVICE (QOS)
+
+can be managed on the battlefield or from any remote area with no special Hub
+
+• OPTIMAL PERFORMANCE IN ANY
+SATCOM ARCHITECTURE
+
+hardware required.
+Any large aperture terminal can operate as the Network Controller and there are
+allowances for automatic or planned Network Control handover. It supports Full
+Mesh (Peer-to-Peer), Hub-Spoke and Hybrid Networks. It provides Hub Assist
+for increased throughput of severely disadvantaged terminals.
+The MPM-1000 provides for real time, secure services such as full duplex VoIP,
+video and/or data transfers. It also provides outstanding Communications
+On-the-Move (COTM) support.
+
+– BROAD RANGE OF OPERATING
+PARAMETERS WITH FINE CONTROL
+RESOLUTION FOR EIRP, DATA
+RATES, MODULATION, CODING
+AND D IRECT S EQUENCE S PREAD ING ON A BURST-B Y-BURST B ASIS
+– SIMULTANEOUS SUPPORT FOR
+SPREAD AND NON SPREAD USERS
+• PROVIDES REAL TIME, SECURE
+SERVICES
+– LOW JITTER
+– MAC LAYER ARQ FOR ASSURED
+DELIVERY
+– EMBEDDED SECURITY (AES-256
+CBC MODE) FIPS 140-2
+• OUTSTANDING COTM SUPPORT
+– RAPID ACQUISITION AND
+REACQUISITION
+– DOPPLER COMPENSATION
+– DIRECT SEQUENCE SPREADING
+
+MPM-1000 IP Modem
+MPM-1000 IP Modem Technical Specifications
+Mechanical/Electrical
+
+Interleaver Block Length:
+
+Size:
+
+1U 19˝ Rack Mountable Chassis
+19˝ Wide x 1.75˝ High x 18.5˝ Deep
+
+Weight:
+
+<20 lbs (excluding mounting slides)
+
+Input Power:
+
+90 VAC to 264 VAC, 47-63 Hz or
++24 VDC Vehicle Power (optional)
+
+Power Consumption:
+
+<150 Watts
+
+Mounting Provisions:
+
+Designed for installation of locking
+slides
+All I/O connectors on rear panel
+
+Frequency Reference:
+
+1280, (640, 2560, and 5120 –
+Future Upgrade) 2560 with the
+LDPC Option**
+Modulation Formats:
+
+OQPSK (Rate1/2 and 3/4 Coding)
+BPSK and OQPSK (Rate 1/2 and
+3/4 with the LDPC Option**)
+Direct Sequence Spreading Gain:
+0 to 12 dB (Spread factors 1, 2, 4,
+6, 8, 12 and 16); up to 8.192 Mcps
+
+Internal or External (5 or 10 MHz)
+10 MHz Reference Output for
+External Devices
+
+BPSK (Rate1/2 Coding)
+
+Number of Carriers (MF-TDMA Only Operation):
+
+Baseband Interfaces
+
+2 Tx MF-TDMA
+
+Monitor/Control:
+
+10/100 Base-T and RS-485
+
+4 Rx MF-TDMA
+
+Burst Data Port:
+
+100/1000 Base-T
+
+SCPC Data Port:
+
+MIL-STD-188-114/RS-422/RS-423
+
+Number of Carriers (MF-TDMA with SVOW):
+1 Tx MF-TDMA
+4 Rx MF-TDMA
+1 Tx/Rx SVOW
+
+Intermediate Frequency: 70 MHz (52 to 88 MHz)
+L-Band (*Optional)
+(Rx: 950-2150 MHz;
+Tx: 950-1750 MHz)
+
+Encryption:
+
+FIPS 140-2 Certification for
+TRANSEC
+
+Network Centric Operating Modes
+Network Controller, Network Member
+
+Control:
+
+Network Capabilities
+Full Mesh, Star, and Hybrid Topologies; Burst-to-Burst
+Dynamic Control of Power and Spread Factor, Data Rate,
+Channel Rate, Modulation and Code Rate
+
+32 kbps – 3.072 Mbps (Per Carrier)
+with Turbo Code
+
+Type I:
+
+SCCC – Rates 1/2 and 3/4 (Rate
+2/3 – Future Upgrade)
+
+BPSK - 64 kbps to 6000 kbps
+QPSK/OQPSK - 64 kbps to 8472
+kbps
+
+Convolutional Coding, RS Coding and Data Scrambling:
+(IAW IESS-308, 309, 310 and
+OM-73)
+
+32 kbps – 6.144 Mbps (Per Carrier)
+with LDPC Option**
+Turbo Coding:
+
+SNMP/L-3 Linkabit CMA/HCI
+
+MIL-STD-188-165A (FDMA) Compliant
+
+MF-TDMA Network Centric Waveform
+Data Rate:
+
+AES - 256 CBC TRANSEC
+
+Environmental
+Non-Operating Temp:
+
+-40˚C to +71˚C
+
+Low Density Parity Code (LDPC)
+Option**
+
+Operating Temp:
+
+0˚C to +50˚C
+
+Rate 1/2**
+
+Vibration/Shock:
+
+Designed for vehicular transport
+
+* L - B a n d o p t i o n i n c l u d e s 1 0 M H z r e f e r e n c e s i g n a l o n T x a n d R x I F a s w e l l a s + 1 2 VDC on Rx IF
+* * M o d e m s w i t h L D P C C o d i n g o p t i o n a r e n o t c o m p a t i b l e w i t h m o d e m s u s ing Turbo Code
+Note: All specifications subject to change without notice.
+.
+C l e a r e d b y D o D / O S R f o r p u b l i c r e l e a s e u n d e r O S R C a s e N u m b e r 1 1 - S - 2 6 1 8 o n June 21, 2011.
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078049003
+
+

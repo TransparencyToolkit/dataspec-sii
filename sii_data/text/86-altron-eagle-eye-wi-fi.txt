@@ -1,0 +1,197 @@
+1. Introduction
+Internet access has become very popular by the
+emergence of broadband services, and busy yet
+unregulated Internet traffic causes challenges to
+administration and management. When it comes to
+gathering intelligence from public Internet networks
+the ISP monitoring solution is a time consuming
+process which may result in loss of critical and vital
+clues. Tactical Packet Sniffing is one of important
+ways to preserve evidence. Besides, when ISP side
+monitoring fails to track the suspect's identity
+especially if the target is operating from a Cyber Cafe,
+University campus or Free Wi-Fi zones, tactical
+sniffing supports a number of monitoring scenarios
+encountered in public internet networks like Cafes,
+Restaurants, Airports, Shopping Malls, hotels,
+airports, etc.
+
+EAGLE EYE
+Wi-Fi
+
+The Eagle Eye - Wi-Fi system is intended for
+intercepting information from Wi-Fi wireless
+networks, real-time analysis, classification, and
+storing of the intercepted information.
+Packet sniffing technology used by the Eagle EyeWi-Fi enables to sniff information related to a specific
+target, such as AP or STA, or all the traffic of one
+channel or several wireless channels without
+interfering original network environment.
+The Eagle Eye - Wi-Fi system can automatically
+sniff Internet activities, such as Email, Chat, URL and
+File Transfer (FTP), P2P, Telnet, etc.
+
+1
+
+The Eagle Eye - Wi-Fi can be used in enterprise sector for preventing misusing of
+network resources, blocking loopholes to avoid leaking confidential information, and
+monitoring cyber-slackers.
+The Eagle Eye - Wi-Fi can be a perfect solution for police, military, information
+investigation and forensic departments as a legal interception tool to crack and track down
+illegal Internet activities such as illegal betting, transactions, access and activities that
+may lead to terrorism.
+2. Application
+The Eagle Eye - Wi-Fi can sniff wireless packets (802.11a/b/g) from any available wireless
+network in its range of coverage.
+A specific wireless device (AP or STA) or network can be selected for data capturing. Data
+can be also captured from specific wireless channel.
+In open wireless network without encryption the Eagle Eye - Wi-Fi system can capture
+wireless packets, decode and display them immediately in an original format.
+In wireless network with encryption, such as WEP key, the system can crack a WEP key
+automatically or manually. Time required for decryption of a WEP key depends on network
+condition: active or inactive. The more packets are captured, the higher chances are to
+encrypt the WEP key.
+Internet
+
+Wireless
+STA
+
+Wireless
+STA
+
+Wireless AP
+
+Wireless
+STA
+
+2
+
+Eagle Eye-WiFi
+
+Tactical Use of the Eagle Eye - Wi-Fi system
+Eagle Eye - Wi-Fi system can be operated at one lap-top or can be scaled for simultaneous
+capture of the traffic from several points. The Eagle Eye - Wi-Fi system can be turned into a
+distributed system for the account of stand alone devices (drones) that transformed traffic
+capture and its transfer for further centralized processing at the remote server.
+Drones support all of the capture methods that the Wireless Eagle Eye system normally
+supports, including interception by one drone with multiple capture devices. As drones do
+not do decode packets, they require minimum hardware.
+Drones capture wireless data and forward them to the Eagle Eye - MC through a special
+connection (i.e. wired Ethernet). The Eagle Eye - MC provides a single point of receipt and
+registration of the intercepted information for all the drones. For this purpose an additional
+software module is to be installed at the MC. Eagle Eye - Wi-Fi can be fully integrated with
+monitoring centre for registering and processing information coming from Wi-Fi by means
+of the MC.
+
+Internet
+
+Wireless
+AP
+
+Drone
+
+Wireless
+AP
+
+Secure IP tunnel
+
+Drone
+
+3
+Eagle Eye-MC
+
+3. Content Reconstruction Functions
+First module Eagle Eye - Wi-Fi 802.11 a/b/g Wireless LAN Forensics Appliance provides
+front-end packet collection sub-module and back-end protocol restructured sub-module.
+This module can act as both wireless LAN detector and sniffer; and the sub-module is used
+to detect 802.11a/b/g Access Point (AP) and Wireless Station (STA) over the layer 2
+network communication. The second module acts as a module of restoring and
+performing forensics, which categorizes the retrieved packet by its wireless nature and
+restores packet arrangement by sequence, then save the packet. At the same time, it will
+decipher the categorized packet by known protocol into plain text and store it into
+database for reference.
+Content Reconstruction functions support the following protocols:
+E-mail: POP3, SMTP, IMAP.
+Instant Message: YAHOO, MSN, ICQ, etc.
+Website: HTTP Link, HTTP Content.
+File Transfer Protocol: FTP.
+Telnet.
+VoIP: SIP,RTP,H.323, etc.
+Others.
+4. Features
+Scanning and capturing data of 3 concurrent channels.
+Capturing full 802.I1 data, management, and control frames. Supports 802.I1a,
+802.I1b, and 802.I1g.
+Microsecond timestamp resolution.
+Internal antenna and the integrated MC connector for an optional external
+antenna.
+Traffic injection.
+Decryption of WEP encrypted wireless packets.
+Real-time decryption of WEP/WPA PSK wireless packets using a known key.
+Full reconstruction of TCP flows in real time based on captured packets.
+
+4
+
+Identification and filtering of layer-7 traffic using a real-time DPI engine.
+Creating of filters and triggers for registering information.
+Extraction of application layer metadata and reconstruction of content for the
+following protocols:
+a. E-mail: POP3, SMTP, IMAP.
+b. Instant Message: YAHOO, MSN, ICQ, etc.
+c. HTTP Content.
+d. FTP.
+e. Telnet.
+f. VoIP: SIP,RTP,H.323.
+Full IPDR and CDR generation for all network flows.
+Storage of captured content and metadata in a local DB and transfer of this
+information to a remote Monitoring Center.
+WEB-access of the operator to the locally stored content with possibility of viewing,
+searching and è filtering.
+Record of traffic in the format enabling to analyze traffic in the Wireshark thereby
+providing in-depth protocol dissection and trace file analysis capabilities.
+Operating systems: Windows 2000, 2003, XP, or Vista.
+5. Ranges of application
+The system can be used:
+To prevent confidentiality disclosure.
+To prevent a company for being hacked.
+To protect business right (such as intellectual property etc).
+To manage wireless traffic and to monitor utilization.
+To manage wireless network access behavior.
+To help government and law enforcement agencies such as Police and Military
+forces to neutralize threats from terrorists and criminals.
+Legal interception system.
+
+5
+
+6. Benefits
+Fully-featured portable tactical system for
+monitoring and analysing the Wi-Fi network traffic
+at one computer.
+Support of 802.I1a, 802.I1b, and 802.I1g.
+WEP/WPA decryption.
+Monitoring and registration of all traffic of a
+definite AP, and selective registration of a definite
+STA or definite content.
+Secret use in public places.
+Possibility of operation in a portable version
+with the same full set of tools for monitoring and
+analysis as when using distributed stationary
+posts for monitoring with the single point for
+collecting and analysing information.
+7. Who needs Eagle Eye - Wi-Fi?
+Business Enterprises (finance and banking
+sector).
+Police sector.
+Forensics and Information Investigation.
+Lawful Department.
+
+6
+
+EAGLE EYE - Wi-Fi
+6, Kostomarovskaya str.
+61002 Kharkov, Ukraine
+Tel./Fax: +38 (057) 766-13-63
+e-mail: post@altron.ua
+http://www.altron.ua
+
+

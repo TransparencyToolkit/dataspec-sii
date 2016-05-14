@@ -1,0 +1,1566 @@
+Siemens Intelligence Platform
+ISS Dubai – Feb 26th, 2007
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Agenda
+
+! Challenges
+! Requirements
+
+! Intelligence Tools
+
+! System Aspects
+
+! Summary
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+2
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Did you ever wonder …
+If the person flying into your country at a particular date every month is visiting
+his company’s headquarters?
+" but the date sometimes falls on a weekend…
+If the irregular high banking transaction of a certain person is related to an
+inheritance from his just passed away mother?
+" or from the art theft last week…
+
+Sure, you are able to answer these questions
+But do you have
+- the time ?
+- the staff to follow every seemingly unimportant hint ?
+Non contractual; Commercial in confidence; Subject to change without notice
+
+3
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+How do you cope with …..
+
+… vague subscriber identities
+•
+
+Variety of pre-paid SIM cards for mobile phones
+
+•
+
+Internet access from differing public locations
+
+•
+
+Nomadic use of VoIP phones
+
+•
+
+Variety of anonymous log-in identities
+
+... undetermined operator LI responsibilities
+•
+
+Soft switch and payload via separate operators
+
+•
+
+Peer-to-peer communication
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+4
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Imagine …
+
+… to get a report within minutes:
+•
+
+Track all major contact persons of the main militant group in the
+country using this data sources:
+- E-mail, Fax, SMS
+- Phone calls
+- Bank transfer data
+- Flight booking details
+- Credit Card records
+
+•
+
+Identify new suspicious persons and organisations regarding money
+laundering.
+
+•
+
+Which suspect person or group shows a different behaviour today
+compared with the normal behaviour?
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+5
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+How can I find the
+needle in the haystack?
+
+… or at least make the haystack considerably smaller?
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+6
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Requirements
+
+KEY VISUAL IPF
+
+! Challenges
+! Requirements
+
+! Intelligence Tools
+
+! System Aspects
+
+! Summary
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+7
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+The Intelligence Platform in the context of
+Homeland Security
+Missions
+
+Missions
+Prevent
+
+• Terrorist threats
+
+Intelligence &
+warnings
+
+• Organised crime
+• Illegal immigration
+• Smuggling
+
+Intelligence Platform
+
+Threats & Challenges
+
+Recover
+
+Border &
+transportation
+security
+
+Critical infrastructure
+protection
+
+Chemical Agents
+
+Defense against
+catastrophic events
+Emergency preparedness
+and response
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+ISS Dubai Feb 2007
+
+Respond
+
+Domestic counter
+terrorism
+
+• Hijacking
+• Sabotage
+• Nuclear, Biological,
+
+• Natural Disasters
+• Man-made Disasters
+• Diseases
+8
+
+Protect
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Customer Requirements …
+
+Fact
+Law Enforcement and Government authorities are drowning in huge amounts of
+disparate data
+Challenge
+To extract intelligence from this data and produce usable information
+Task
+To provide a system that can connect to all available data sources to generate
+comprehensive profiles of persons, groups, or entities
+
+in TIME
+Non contractual; Commercial in confidence; Subject to change without notice
+
+9
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+The Intelligence Platform
+Design principle
+
+The Siemens Intelligence Platform is designed for organisations related to
+•
+•
+
+Law Enforcement
+Government
+
+•
+
+Other investigative organisations
+
+To support their task in the fields of
+• Intelligent Analysis
+•
+•
+
+Case Management
+Forensics
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+10
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Tools
+
+! Challenges
+! Requirements
+
+! Intelligence Tools
+
+! System Aspects
+
+! Summary
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+11
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Market Positioning
+
+•
+
+Main goal: Creating new intelligence
+
+•
+
+User: Intelligence Officers and Analysts
+
+•
+
+Customising and service are substantial parts of the offer
+
+•
+
+Parallel product line to the Siemens Monitoring Center
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+12
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Your Solution –
+The Intelligence Platform
+
+•
+
+Integrate data from many different sources
+
+•
+
+Structure unstructured data (files) by deploying Indexing and
+Intelligence Modules
+
+•
+
+Create new intelligence using sophisticated Intelligence Applications
+
+•
+
+Processing of mass data to enable comprehensive investigations
+
+•
+
+Object oriented handling (e.g. targets, cases)
+
+•
+
+One desktop for all applications
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+13
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Platform
+System Architecture
+
+Common
+workplace
+for
+analysts
+
+Intelligence
+Modules
+
+Indexing
+
+Intelligence Applications
+
+Rule based
+Queries
+
+Stores all
+collected
+information
+
+Objects Reporting Roles Workflow
+
+Intelligence
+Mining
+
+draw new
+intelligence
+based on
+enriched
+meta data
+
+Intelligence Desk
+
+Intelligence Warehouse
+Data Integration
+
+enrich the
+collected
+unstructured
+information
+with new
+meta data
+
+Connect to
+data
+sources and
+gather data
+Any
+customer
+accessible
+data source
+
+Customer Data Sources and MC
+Non contractual; Commercial in confidence; Subject to change without notice
+
+14
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Data Integration
+Examples of Data Sources
+
+•
+
+Siemens Monitoring Center
+
+•
+
+Bank account transactions
+
+•
+
+Data Retention Systems
+
+•
+
+Insurance company data bases
+
+•
+
+Telephone book data bases
+
+•
+
+Border Control data base
+
+•
+
+Telephone billing records
+
+•
+
+Passport data base
+
+•
+
+Internet Protocol Address GIS
+
+•
+
+Finger print data base
+
+•
+
+Police and criminal records
+
+•
+
+DNA analysis data base
+
+•
+
+Driving Licence register
+
+•
+
+Registry office records
+
+•
+
+Traffic control points
+
+•
+
+Land registry data base
+
+•
+
+Vehicle registration data base
+
+•
+
+Car rental data base
+
+•
+
+Credit card transactions
+
+•
+
+Any other data base which
+contain relevant data
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+15
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Warehouse
+
+• The Intelligence Warehouse stores all collected operational data
+- Database
+- File Storage System
+• Data can be entered in different ways
+- Imported by Data Integration
+- Created by Intelligence Applications or Intelligence Modules
+- Manually entered by the Analyst
+• Data stored can be accessed, processed, and viewed from the
+Intelligence Desk
+Non contractual; Commercial in confidence; Subject to change without notice
+
+16
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications and Modules
+Goal: Create new Intelligence
+from existing information
+
+Intelligence Desk
+Intelligence
+Modules
+
+Indexing
+
+Rule
+based
+Queries
+
+draw new
+intelligence
+based on
+enriched
+meta data
+
+Intelligenc
+e Mining
+
+Objects Reporting Roles Workflow
+Intelligence Applications
+
+enrich the
+collected
+unstructured
+information
+with new
+meta data
+
+Intelligence Warehouse
+Data Integration
+
+Customer Data Sources and MC
+Non contractual; Commercial in confidence; Subject to change without notice
+
+17
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Overview
+
+•
+
+Intelligence Mining
+- Pattern Recognition
+- Pattern Profiling
+- Link Analysis
+
+•
+
+Rule Based Queries
+
+•
+
+Indexing
+- Full Text Indexing and Retrieval
+- Named Entity Extraction
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+18
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Intelligence Mining: Pattern Recognition
+
+What is it?
+•
+
+Detects automatically all reoccurring patterns meeting certain criteria
+
+How does it work?
+•
+
+Define the objects and links (relations)
+
+•
+
+Set
+- time frame in which patterns occur
+- minimum occurrence count
+
+•
+
+Data Source: Intelligence Warehouse
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+19
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Intelligence Mining: Pattern Recognition - Example
+
+Example Task:
+•
+
+Results:
+
+Search for suspicious patterns in
+21,237,645 call records
+
+0911/345678
+
+0821/409021
+
+Criteria:
+•
+•
+
+Time frame:
+1 hour
+Minimum count: 5
+089/721345
+
+0911/33459
+
+089/71363
+
+0841/3011
+
+Additional Examples
+• money transfers between bank accounts
+• geographical movements of targets
+Non contractual; Commercial in confidence; Subject to change without notice
+
+20
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Intelligence Mining: Pattern Profiling
+
+Principle:
+•
+
+Pattern Profiling includes patterns with
+- behavior
+- communication
+- movement
+- relationship
+
+•
+
+A target usually has its individual behavior which only changes slowly
+over time
+
+•
+
+Sudden changes in target behavior
+- Generates an alarm
+- Draws the analyst’s attention
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+21
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Intelligence Mining: Pattern Profiling - Example
+ATM drawn money
+per week
+
+Known
+target
+pattern
+Alarms are
+generated
+
+Geographical Location
+
+Phone calls
+per day
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+22
+
+ISS Dubai Feb 2007
+
+Deviation
+No
+Small
+Large
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Intelligence Mining: Link Analysis
+
+•
+
+The nodes represent any kind of object available in the database
+
+•
+
+The links represent relations between these objects
+
+•
+
+Display the relation of
+any information
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+23
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Rule Based Queries
+
+To construct complex database queries without database knowledge
+
+•
+
+The analyst constructs a semi-graphical model of the query
+
+•
+
+The system retrieves all instances from the database that fulfil the Rule
+
+Suspect A
+
+Owner
+
+•
+
+Account A
+
+Example:
+$20,000
+
+Search the database for all
+occurrences where two suspects
+
+b) use a bank account to transfer
+money via a third party
+
+$20,000
+Suspect B
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+24
+
+ISS Dubai Feb 2007
+
+Account X
+
+Phone Call
+
+Owner
+
+a) are communicating via phone calls
+
+Account B
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Indexing: Full Text Indexing and Retrieval
+
+•
+
+Indexing is performed on all sorts of text documents, like
+- Web pages
+- Word documents, Transcripts
+- Emails, SMS, Chat protocols
+as well as on data base records in general
+
+•
+
+The Indexing process constantly runs in the background
+
+•
+
+The analyst can quickly search in a Google-like manner for words or phrases
+
+•
+
+Typical response time < 1 sec
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+25
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Applications
+Indexing: Named Entity Extraction - Example
+
+Task: Find targets sharing a name of a geographical place
+Criteria:
+
+Casablanca
+Riyadh
+New York
+
+Target
+A
+
+• Detection of geographical places
+• Target A gets associated with Casablanca,
+Riyadh and New York.
+Named Entity
+Recognition
+
+Mosow
+
+Casablanca
+Riyadh
+New York
+
+Target
+B
+
+Target
+A
+
+Tunis
+London
+Casablanca
+
+Dubai
+Jerusalem
+
+Target
+E
+
+Results:
+Targets A, D, and E
+share the city name “Casablanca”
+
+Target
+C
+
+Tunis
+Madrid
+Casablanca
+
+Target
+D
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+26
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Modules
+Overview
+Voice Domain
+• Speaker Recognition
+• Language Recognition
+• Word & Phrase spotting
+• Topic Spotting
+• Emotion detection
+• Automatic Transcription
+Text Domain
+• Topic Spotting
+• Language Detection
+• Optical Character Recognition
+• Automatic Translation
+
+An
+I
+the ntelli
+g
+exi back ence
+stin gro
+un Modu
+gr
+d
+newaw in and le run
+int form enri s in
+elli
+c
+a
+gen tion hes
+ce with
+
+Image Domain
+• Image Recognition (Images/Pictures/Logotypes)
+• Video Recognition
+Non contractual; Commercial in confidence; Subject to change without notice
+
+27
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Modules
+Topic Spotting in the text domain
+
+How does it work?
+•
+
+The Analyst defines a number of topics, e.g.:
+- Drug Trafficking
+- Corruption
+- Money Laundering
+- Kidnapping
+
+•
+
+The analyst provides sample documents containing typical
+contents for each topic
+
+•
+
+The Intelligence Module is trained on the samples
+
+•
+
+After training the Intelligence Module classifies documents
+with unknown contents according to the trained classes
+
+•
+
+Topic Spotting is language independent
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+28
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Modules
+Topic Spotting – Text example
+
+Typical Topic Spotting result (accuracy ~90%)
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+29
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Modules
+Language Detection – Text example
+
+Topic Spotting applied to language detection (accuracy = 100%)
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+30
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Modules
+Process Management
+
+Task: Process an input file with a number of different Intelligence
+Modules according to a user defined workflow
+•
+
+Default processes
+
+•
+
+Analysts can graphically design processes on their own
+
+Goal: To enable automated analysis processes
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+31
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Modules
+Process Management - Example
+
+Intelligence Warehouse
+
+Intercept
+
+Language
+
+Language
+Recognition
+
+English?
+
+no
+
+Stop
+
+no
+
+Stop
+
+yes
+Intercept
+
+Speaker
+Recognition
+Speaker
+
+John
+Doe ?
+
+Re
+su
+Al
+lt
+sp arm s:
+m ea on
+“C ent ks E ly
+as ion ng if “
+ab s
+J
+l
+la the ish ohn
+nc
+a
+a” wo nd Do
+e”
+rd
+
+yes
+Intercept
+
+Word
+Recognition
+Word
+
+“Casablanca"?
+
+no
+
+Stop
+
+yes
+
+Alarm
+Non contractual; Commercial in confidence; Subject to change without notice
+
+32
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Overview
+
+•
+
+Common workplace for the analyst to support
+- Planning and Direction
+- Analysis and Production
+- Dissemination
+within the Intelligence Cycle
+
+•
+
+Integration of the different Intelligence Applications and Modules
+- Configuration
+
+•
+
+Visualisation
+
+•
+
+Customer and investigation specific reporting
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+33
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Concept
+
+•
+
+The Intelligence Platform is based on an object oriented concept
+Object types - examples:
+- Target
+- Telephone number
+- Car licence number
+- Bank account number
+- Civic registration number
+- Date and Time
+
+•
+
+In each object the user can drill down to get the properties of the object, e.g.
+- Target
+- Telephone number, email address
+- Associated objects
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+34
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Views & Roles
+Views
+•
+
+Structured View, similar to Windows Explorer
+
+•
+
+Object View
+- Targets
+- Attributes
+- Communications
+
+•
+
+Analysis View
+- Intelligence Applications
+- Intelligence Modules
+- Process Management
+
+Roles & Security
+•
+
+Analyst, Investigator (restricted access)
+
+•
+
+Supervisor (defined access)
+
+•
+
+Administrator (contents not accessible)
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+35
+
+ISS Dubai Feb 2007
+
+Wor
+bes ld-wid
+e
+t-inc
+l
+a
+Sec
+urit ss
+y
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Object Views – Target centric
+
+John Doe
+
+Lisa Dee
+
+John .Doe @msn.com
+Lisa.Dee@msn.com
+
+www.msn.com
+
+069 /522 79383
+08221 /493872
+
+John .Doe @msn.com
+Derek .Domino@ msn.com
+
+030 /38766
+0201 /77635
+
+www.google .com
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+36
+
+ISS Dubai Feb 2007
+
+www.siemens .com
+
+0402 /448766
+0202 /55535
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Object Views – Email centric
+
+John .Doe @msn.com
+Lisa.Dee@msn.com
+Eric.Smith @msn.com
+Sarah .Jones @msn.com
+
+John .Doe@msn .com
+Derek.Domino @msn.com
+
+Lisa Dee
+
+John Doe
+
+Derek Domino
+
+Eric Smith
+Sarah Jones
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+37
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Location Tracking - GIS
+
+Geographical view is applicable to any objects for which location information
+is available, e.g.
+•
+
+Vehicle tracking using
+Toll Road Systems
+
+•
+
+Location information of
+ATM machines
+
+•
+
+Mobile phone tracking
+
+•
+
+Geographical IP address
+mapping of nomadic targets
+
+•
+
+Information provided by
+surveillance teams
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+38
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Workflow Management
+
+The Workflow Management supports the customer to comply with
+standardised procedures:
+•
+
+The customer’s operational processes are reflected within this system
+
+•
+
+Collaboration functions enable efficient teamwork
+
+•
+
+National and legal restrictions can be depicted within the Workflow
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+39
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Desk
+Reporting - Dissemination
+
+Comprehensive reporting function
+•
+
+Based on templates
+
+•
+
+Templates are customised depending on specific requirements
+
+•
+
+Mixed content: Charts, tables, plain text, structured text
+
+•
+
+Various output formats, e.g. Word, Acrobat Reader, Excel
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+40
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Statistics
+
+The Intelligence Platform constantly maintains different kinds of
+statistics. These include
+•
+
+Workload of the Intelligence Applications and Modules
+
+•
+
+Workload of database and data storage
+
+•
+
+Health information of the Intelligence Applications and Modules
+
+•
+
+Operator statistics per role, user, tool usage etc.
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+41
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+System Aspects
+
+! Challenges
+! Requirements
+
+! Intelligence Tools
+
+! System Aspects
+
+! Summary
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+42
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Platform
+Architecture
+
+Scalability:
+
+The system can operate as a
+- “Mini-Sized” entry system as well as with
+- Data Center dimensions processing mass data (TB)
+
+Redundancy: Avoid single points of failure
+Dislocation:
+
+Remote access possible
+
+Modularity:
+
+Basic Platform System - with optional extensions
+Intelligence Modules
+Intelligence Applications
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+43
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Modularity
+Basic System
+• Intelligence Warehouse
+• Data Integration
+• Intelligence Desk
+• Basic set of Intelligence Applications
+• Basic set of Intelligence Modules
+
+Optional components
+• Additional Intelligence Applications
+• Additional Intelligence Modules
+• Workflow Management
+Non contractual; Commercial in confidence; Subject to change without notice
+
+44
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Customisation
+
+•
+
+End-to-end solution provided by Siemens
+
+•
+
+High customisation level of
+- Interfaces
+- Templates (e.g. Reports)
+- Workflow
+
+•
+
+Service agreements for
+- Regular upgrades
+- Integration of Customer Data Sources
+- Template modifications
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+45
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Summary
+
+! Challenges
+! Requirements
+
+! Intelligence Tools
+
+! System Aspects
+
+! Summary
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+46
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Intelligence Platform
+Advantages
+Operational
+•
+
+Reduced manpower, reduced operating costs
+
+•
+
+Harmonise Homeland Security information
+
+•
+
+Instant customized reports, e.g. “Daily Status”
+
+Process
+•
+
+Automated supervision of target behaviour
+
+•
+
+Don’t miss any part of information, e.g. Dragnet Investigations
+
+Analysis
+•
+
+Comprehensive identification of former unknown suspects
+
+•
+
+Very fast results
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+47
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Fact & Objective
+
+End-to-end Lawful Interception solutions – only from Siemens
+
+Making the world safer
+... with trend-setting intelligence solutions
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+48
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+Thank you for your attention
+
+Name: Tilmann L. Gabriel
+E-mail: tilmann-laurence.gabriel.ext@siemens.com
+
+Non contractual; Commercial in confidence; Subject to change without notice
+
+49
+
+ISS Dubai Feb 2007
+
+Copyright © Siemens Networks GmbH & Co. KG 2007
+
+

@@ -1,0 +1,344 @@
+MELANIE
+Trained Models for Language
+Identification
+(Trained language model for classification with
+MP/SQ Mel-LM-SQ, Mel-LM,MP)
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+MELANIE – Trained Models for Language Identification
+
+Functionality
+Using the models, MELANIE classifiers can be
+used from scratch without an additional training
+step.
+These trained language models can be
+recommended if not sufficient training material
+is available for the languages to be classified.
+The performance is the better, the more close
+the data of the application correspond to the
+used language model. For these trained models,
+the type of signal quality is given in the
+following table.
+
+Available models
+Short Cut1
+
+Language
+
+Dialect
+
+Quality
+
+CAF-ARA-EG-TEL
+
+Arabic
+
+Egyptian
+
+Telephone
+
+MED-ARA-RTV
+
+Arabic
+
+Microfon
+
+Radio / TV
+
+CAF-CHI-TEL
+
+Chinese, Mandarin
+
+Mainland
+
+Telephone
+
+CAF-CHI-TW-TEL
+
+Chinese, Mandarin
+
+Taiwan
+
+Telephone
+
+MED-CHI-RTV
+
+Chinese
+
+Radio / TV
+
+MED-SCR-RTV
+
+Croatian
+
+Radio / TV
+
+MED-CZE-RTV
+
+Czech
+
+Radio / TV
+
+MED-DUT-RTV
+
+Dutch; Netherlands
+
+Radio / TV
+
+CAF-ENG-US-TEL
+
+English
+
+American , non-Southern
+
+Telephone
+
+CAF-ENG-US-S-TEL
+
+English
+
+American , Southern
+
+Telephone
+
+MED-ENG-RTV
+
+English
+
+Radio / TV
+
+CAF-FAS-TEL
+
+Farsi
+
+Telephone
+
+MED-FIN-RTV
+
+Finnish
+
+Radio / TV
+
+CAF-FRE-CA-TEL
+
+French Canadian
+
+Telephone
+
+MED-FRE-RTV
+
+French
+
+Radio / TV
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Short Cut2
+
+Language
+
+Dialect
+
+CAF-GER-TEL
+
+German
+
+Telephone
+
+MED-GRE-RTV
+
+Greek
+
+Radio / TV
+
+CAF-HIN-TEL
+
+Hindi
+
+Telephone
+
+MED-HUN-RTV
+
+Hungarian
+
+Radio / TV
+
+MED-IND-RTV
+
+Indonesian
+
+Radio / TV
+
+MED-ITA-RTV
+
+Italian
+
+Radio / TV
+
+CAF-JPN-TEL
+
+Japanese
+
+Telephone
+
+MED-JPN-RTV
+
+Japanese
+
+Radio / TV
+
+CAF-KOR-TEL
+
+Korean
+
+Telephone
+
+MED-NOR-RTV
+
+Norwegian
+
+Radio / TV
+
+MED-POL-RTV
+
+Polish
+
+Radio / TV
+
+MED-POR-RTV
+
+Portuguese
+
+Radio / TV
+
+MED-RUM-RTV
+
+Romanian
+
+Radio / TV
+
+MED-RUS-RTV
+
+Russian
+
+Radio / TV
+
+MED-SCC-RTV
+
+Serbian
+
+Radio / TV
+
+MED-SLV-RTV
+
+Slovenian
+
+Radio / TV
+
+CAF-SPA-TEL
+
+Spanish
+
+Non-Caribbean
+
+Telephone
+
+CAF-SPA-C-TEL
+
+Spanish
+
+Caribbean
+
+Telephone
+
+MED-SPA-RTV
+
+Spanish
+
+Radio / TV
+
+MED-SWE-RTV
+
+Swedish
+
+Radio / TV
+
+CAF-TAM-TEL
+
+Tamil
+
+Telephone
+
+MED-THA-RTV
+
+Thai
+
+Radio / TV
+
+MED-TUR-RTV
+
+Turkish
+
+Radio / TV
+
+CAF-VIE-TEL
+
+Vietnamese
+
+Telephone
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+Quality
+
+3
+
+Company Principles and Policy
+Technology
+… in development and company management is state-of-the-art,
+and represents only the best.
+Quality
+… in all areas of our company is regarded as the almost requirement
+for risk-free and successful cooperation with our customers,
+and business partners.
+Market Position
+… we are the specialists in the field of signal and data processing
+as well as pattern recognition, and we are glad to face competition.
+Colleagues
+… form the roots of our company, and give the performance required
+for maintaining and building the technical base, and close
+personal cooperation we have with our clientele.
+Growth
+… we strive toward a healthy, stable foundation at home and
+abroad.
+Services
+… are comprehensive and complete. As a full-system company
+we offer standard equipment, systems, and services.
+Trust
+… in the relationships to our business partners, and within our
+own company forms the basis of our business.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+Consequently, this means that a recording with a signal length of 20
+minutes can be fully classified in one minute.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+

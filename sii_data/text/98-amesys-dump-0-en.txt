@@ -1,0 +1,167 @@
+DUMB-O
+E-mail Interceptor
+
+DUMB-0 is a SERPIKOM monitoring
+product.
+The DUMB-0 system has high capacity to
+capture and process e-mails in a small
+enclosure.
+The DUMB-0 system is specifically
+dedicated to the capture and the formatting
+over an IP Ethernet Network. It has two
+different modes of acquisition:
+
+!
+
+Automatic push for integration into a
+complete COMINT system
+
+!
+
+Automated management of the hard disk
+capacity
+
+!
+
+Load balancing for multiple
+configurations (filter mode).
+CA
+
+CAPACITIES
+! Protocols: POP, IMAP, SMTP
+!
+
+!
+
+!
+
+directly from a Ethernet IP-based flow
+via selection port
+in the form of pcap files acquired
+independently
+
+The DUMB-0 system includes in standard
+the following features:
+!
+
+Direct acquisition in the Ethernet / IP
+stream
+
+!
+
+Indirect acquisition by PCAP files
+
+!
+
+Advanced treatment of intercepted
+emails
+
+!
+
+"Stand alone" operating mode
+
+Selection by port number
+
+PERFORMANCES
+! Processing capacity 10,000 email / day
+!
+
+60 Gb storage capacity
+
+!
+
+Direct-filtering network 10/100/1000
+Mbps
+
+ADMINISTRATION
+! Integration in a simplified existing IP
+network;
+!
+
+Management and monitoring: telnet / ssh
+/ web
+
+!
+
+Configuration management profiles.
+
+Reliability
+!
+!
+!
+
+Unix System board
+Autotest and alarms
+NTP synchronization.
+
+- 1 port 10/100 Ethernet;
+- VGA, keyboard & mouse PS2;
+- CompactFlash card in front.
+Mechanical / power / envir.
+
+Multiple systems
+- Software updates through a CompactFlash
+exchange
+- Load balancing among several DUMB-0
+(filter mode).
+
+Data processing
+- Determination of the main language used in
+the message body;
+- "rich" extraction of information: mail
+addresses, telephone number;
+- Indexing the message body for subsequent
+search by keyword;
+- Qualification of e-mails on user configurable
+criteria.
+
+Exploitation
+Stand-alone local:
+Direct exploitation via the Web interface
+enclosure;
+Stand-alone remote:
+direct exploitation by using a standard Mail
+User Agent (outlook, thunderbird…);
+Above mentioned specifications are subject to change without prior notice
+
+Stand-alone configuration:
+by adding screen / keyboard / mouse;
+
+External power 12V-5A;
+Dimensions:
+! width 20 cm
+! height: 5.5 cm
+! depth: 24 cm;
+Temperature: 5 ° C to 40 ° C;
+- ROHS.
+Interfaces management
+- Telnet / ssh;
+- Web;
+- LCD front panel.
+Setting up and monitoring
+- Management by activity profiles;
+- Secured access by password;
+- Multi-level access (admin, user);
+- IPv4:
+! fixed IP
+! DHCP client;
+- Date / Time:
+! manual
+! NTP.
+Tools for monitoring
+- Disk capacity;
+- Inspector-processing files;
+- Statistics of network traffic.
+
+Filter mode: the DUMB-0 sends automatically
+the intercepted information on a receiving
+system (DBMS interfaces).
+
+Physical interfaces
+- LCD-front (20x2 characters);
+- 12 keyboard keys (functions and direct
+navigation menu);
+- 3 ports 10/100/1000 Ethernet;
+Material subjected to R226 authorization
+
+

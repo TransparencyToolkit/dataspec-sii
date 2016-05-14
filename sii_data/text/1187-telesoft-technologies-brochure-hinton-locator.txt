@@ -1,0 +1,225 @@
+HINTON Locator
+Integration Fundamentals
+Application Note
+Key Points
+•	 HINTON	Locator	is	a	passive	monitoring	
+	 probe	extracting	data	from	the	network
+•	 Allows	network	based	location	services	for	
+	 all	subscriber	and	handset	types,	even	the	
+	 most	basic	low	cost	handsets
+
+This	application	note	describes	how	the	
+HINTON	Locator	may	be	integrated	into	
+an	overall	location-based	services	system	
+based	around	a	2G	GSM	or	3G	UMTS	
+network.
+
+OVERVIEW
+The HINTON provides the ability to passively monitor a cellular radio access network, and related
+interfaces, of cellular telecommunications networks gathering data relating to subscriber location.
+Combined with geolocation software this allows the calculation of subscriber locations using a
+variety of techniques.
+
+•	 Data	from	Telesoft	API	provides	information	
+	 to	3rd	party	Geoloation	process.	
+
+The diagram below shows the components of a full location-based services (LBS) system,
+incorporating the HINTON Locator, for access to network data relating to subscriber location, along
+with the flow of information through this system. The full system consists of four major parts:
+
+•	 Provided	information	can	include:
+	 -	Cell	ID,	timing	advance	from	serving	cell
+	 -	Received	signal	strength	from	cells	
+	 -	Location	area	information
+	 -	Roaming	information	etc
+
+1) The monitored network - The design of this network and its radio planning provide the basic
+constraints on the potential accuracy of the system, and the distribution/dimensioning of the
+probe system deployed for monitoring.
+
+•	 Geolocation	process	provides	X/Y	location
+to supported applications
+
+2) The HINTON Locator - Provides monitoring of interfaces in the monitored network, through
+protected tap points. This data is filtered against subscriber identities and network events to
+provide reporting of necessary data to the Geolocation process through a TCP/IP based API.
+
+•	 Applications	include	services	such	as:	
+	 -	mobile	advertising,
+	 -	E911	emergency	location,	
+	 -	‘where	am	I?’	(find	yourself)
+	 -	‘where	is?’	(find	something/someone)
+
+Typical Interfaces Monitored
+
+3) The Geolocation process - This process correlates data provided by one or more HINTON
+Locator probes and uses this to calculate the location of subscribers for use by the top
+level application. There are a variety of available algorithms and methods available for this
+process, which determines the accuracy which can be established from the available network
+information.
+4) Supported application - This application provides the required functionality to the system user,
+a wide variety of location based service applications are available covering value added services,
+network management and homeland security requirements amongst others.
+
+•	 Abis	Interface
+•	 A	Interface
+•	 IuB	Interface
+•	 IuCS	Interface
+•	 C/D	Interface
+•	 International	Links
+
+Supported Applications
+Subscriber Location
+Geolocation Process
+Telesoft API
+HINTON Locator
+Monitored Interfaces
+
+Monitored Network
+
+HINTON Locator
+Integration Fundamentals
+Application Note
+Passive or Active monitoring?
+
+Where to Monitor?
+The HINTON Locator monitors a number of network interfaces
+
+The HINTON Locator provides a mechanism for extracting location
+
+depending on the network type and accuracy needed. The typical
+
+information on subscribers from the mobile network without the need
+
+interfaces monitored for different information are shown in the
+
+for direct interaction with network elements (such as the BSC through
+
+diagram below:
+
+an SMLC), this has a number of advantages over the typically used active
+
+•	 Abis interface - for detailed location parameters in a 2/2.5G
+
+solution including:
+
+network, and correlation of IMSI-TMS-IMEI-LAC identities (and in
+
+• Mass monitoring - active solutions are typically limited to a very small
+
+some cases MSISDN from SMS messages).
+
+number of subscribers by the available processing resource of network
+
+•	 A interface - provides serving cell identity.
+
+elements (NEs), while an independent probe can monitor up to 100% of
+
+•	IuB	interface	-	equivalent	to	the	Abis	interface	in	a	3G	UMTS	
+
+subscribers.
+• Vendor agnostic - a passive probe can provide a common delivery of
+
+network
+•	 IuCS interface - equivalent to the A-Interface in a 3G UMTS
+
+information regardless of the manufacturer of network equipment.
+• No Lb interface dependence - a passive probe does not require a
+
+network.
+•	 C and D interfaces - provides mapping of IMSI and MSISDN
+
+identities where needed.
+
+dedicated location interface to the NEs, these are not always available,
+and even when present the probe removes the need for potentially
+expensive feature licenses on network equipment.
+
+•	 International links from the MSC and HLR - gives information
+
+about inbound and outbound roaming subscribers.
+
+• Multiple application support - a passive probe can deliver information to
+
+multiple applications concurrently, allowing a common access platform
+for VAS, OSS and security applications.
+• No network impact - the use of passive
+
+technology removes the potential for a
+
+2G
+BTS
+
+location application to affect operational
+
+BSC
+
+network performance by overloading or
+
+Abis
+
+incorrectly accessing network elements.
+
+A
+
+MSC
+3G
+nodeB
+luB
+
+RNC
+HLR
+
+luCS
+
+International
+Network
+
+C/D
+
+HLR
+
+www.telesoft-technologies.com
+Headquarters:
+
+Americas:
+
+India:
+
+Telesoft Technologies Ltd
+Observatory House
+Blandford Dorset
+DT11 9LQ UK
+
+Telesoft Technologies Inc
+Suite 601
+4340 Georgetown Square
+Atlanta GA 30338 USA
+
+Telesoft Technologies Ltd
+Building FC-24 Sector 16A
+Noida 201301
+Uttar Pradesh India
+
+T. +44 (0)1258 480880
+F. +44 (0)1258 486598
+E. sales@telesoft-technologies.com
+
+T. +1 770 454 6001
+F. +1 770 452 0130
+E. salesusa@telesoft-technologies.com
+
+T. +91 120 466 0300
+F. +91 120 466 0301
+E. salesindia@telesoft-technologies.com
+
+DX-HIN-GEN-MK-GU-32964-01
+
+Telesoft Technologies, the Telesoft Technologies logo
+design and HINTON are trademarks or registered
+trademarks of Telesoft Technologies Ltd or its subsidiaries.
+All other brand and product names may be trademarks of
+their respective companies. Copyright ©2009 by Telesoft
+Technologies Ltd. All rights reserved.
+
+

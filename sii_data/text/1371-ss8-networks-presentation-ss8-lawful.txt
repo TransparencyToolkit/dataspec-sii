@@ -1,0 +1,1023 @@
+SS8 Lawful Intercept Briefing
+
+SS8 Networks confidential information, not for distribution
+
+SS8 Networks Overview
+
+• 
+• 
+• 
+• 
+• 
+• 
+
+Privately held company with 20+ years of operating history
+12 years providing Law Intercept solutions
+Headquartered in San Jose, CA
+Market leader in lawful intercept delivery function solution
+250 worldwide service provider customers
+OEM relationship with some of the largest equipment vendors
+(Lucent, Nortel, Alcatel)
+
+SS8 Networks confidential information, not for distribution
+
+Agenda
+
+• 
+• 
+• 
+
+What is Lawful Intercept (LI)
+How does it work
+Rules, Regulations and Successes
+
+SS8 Networks confidential information, not for distribution
+
+What is Lawful Intercept?
+
+• 
+
+The targeted intercept of voice and data services, by a service provider on
+the behalf of Law Enforcement, when authorized by a court
+
+• 
+
+Uses:
+–  Criminal - Investigation and Prosecution of criminal activity
+–  Intelligence Gathering - Investigation of individuals for Homeland security, antiterrorism and other threats
+
+SS8 Networks confidential information, not for distribution
+
+How is Lawful Intercept performed?
+
+• 
+
+Identify the user
+–  Determine the target identifier (phone number, email address, IP address etc.)
+
+• 
+
+Wait for authentication
+–  When the target utilizes the network they must be authenticated. Watch for that
+event.
+
+• 
+
+Find the edge
+–  When the target authenticates, find the edge device closest to the target (so as
+not to miss any peer-to-peer transactions) and obtain a copy of the target’s
+communications.
+
+SS8 Networks confidential information, not for distribution
+
+Lawful Intercept Network Architecture
+Access Function
+
+Delivery
+Function
+Collection Function
+• 
+Access elements that provide connectivity to
+• • 
+• • 
+• 
+• 
+SBC
+
+target’s voice & data communications
+• Identifies
+Provisions
+the
+access
+elements
+with
+target
+and
+replicates
+target’s
+traffic
+Recording
+and
+storage
+of
+intercepted
+traffic
+identifying information
+PSTN
+switches,
+BRAS
+Analysis
+tools toSBC,
+track,routers,
+correlate
+and interpret
+• 
+Receives target information from access elements
+intercepted
+SS8
+passivetraffic
+probe
+typically via custom interface
+Support of delivery standards
+• 
+Correlates and converts raw target traffic to
+standards based interface towards LEA
+
+LEA
+Phone switches
+
+Xcipio
+VoIP
+Call Agent
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+enough
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+
+Routers, data
+switches
+
+Service Provider
+Domain
+
+Passive probe
+
+SS8 Networks confidential information, not for distribution
+
+Law Enforcement
+Domain
+
+Defining the Interfaces
+Access Function
+
+Delivery Function
+
+Collection Function
+
+Provisioning
+Internal Network Interface #1
+
+INI-1
+
+Provisioning
+
+SBC
+
+Handover Interface #1
+
+HI-1
+
+LEA
+
+Phone switches
+
+INI-2
+
+Communication Data /
+Signaling
+
+Xcipio
+
+Internal Network Interface #2
+
+HI-2
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+enough
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+
+Why a Delivery Function?
+Data / Signaling
+VoIP
+•  Law Enforcement lacks
+the expertise, resources and time to developHandover
+interfaces
+to all
+Interface
+#2network
+Call Agent
+elements and protocols
+HI-3
+INI-3
+•  The Delivery Function has to be
+a carrier class network element, not PC based.
+Media Content
+Media
+Content
+Routers,
+data
+•  Centralized Command and
+Control
+for all LI activity in a carriers network
+Handover Interface #3
+Network
+Interface #3
+switches
+•  DF creates a single Internal
+interface
+point
+for network elements and law enforcement
+•  Carriers don’t need to learn the LI functions of multiple devices, reduces costs for training,
+maintenance and OPEX
+secure solution (isolated, fewer people involved)
+Service•  More
+Provider
+Law Enforcement
+•  Number of network elements
+has increased
+Passive
+probe significantly from one or two phone switches
+Domain
+Domain
+(routers, CMTS, gateways etc.)
+SS8 Networks confidential information, not for distribution
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+
+Methods for Lawful Intercept
+§ 
+
+Active Approach
+Ø  Work with the network equipment manufacturers to develop lawful intercept capability
+in the network elements.
+Ø  Utilize existing network elements for lawful intercept
+Ø  Sometimes serious impact to network performance
+Ø  No need for additional hardware
+
+§ 
+
+Passive Approach
+Ø  Use passive probes or sniffers as Access Function to monitor the network and filter
+target’s traffic
+Ø  Requires expensive additional hardware
+Ø  No impact to the network performance
+
+§ 
+
+Hybrid – utilizes both
+
+SS8 Networks confidential information, not for distribution
+
+Active Approach to IP Data Intercept
+Law Enforcement
+Agency
+
+Service Provider Domain
+
+Provisioning
+of Warrant
+
+LI Administration
+Function
+
+AAA Server
+
+Law Enforcement
+Monitoring Facility
+
+INI-1 Admin
+INI – 2 IRI
+
+XCIPIO
+
+HI-2
+
+The
+image
+cannot
+be
+displa
+yed.
+Your
+
+Radius
+Authenticate
+
+HI-3
+SNMPv3
+Request
+
+Intercepted
+Data – INI-3
+Data Stream/IP Access
+
+Target
+Subscriber
+Router
+
+SS8 Networks confidential information, not for distribution
+
+Internet
+
+The
+image
+cannot
+be
+display
+ed.
+Your
+
+The
+image
+cannot
+be
+displa
+yed.
+Your
+
+Passive Approach to IP Data Intercept
+Law Enforcement
+Agency
+
+Service Provider Domain
+
+Provisioning
+of Warrant
+
+LI Administration
+Function
+
+Law Enforcement
+Monitoring Facility
+
+AAA Server
+XCIPIO
+
+HI-2
+HI-3
+
+Radius
+Authenticate
+
+Provisioning
+
+Report
+IP Address
+INI-2
+
+The
+image
+cannot
+be
+display
+ed.
+Your
+
+The
+image
+cannot
+be
+display
+ed.
+Your
+
+Report
+Intercepted
+Data
+INI-3
+
+Internet
+Target
+Subscriber
+
+Data Stream/IP Access
+
+WLAN
+Aggregation
+Router
+
+SS8 Networks confidential information, not for distribution
+
+The
+image
+cannot
+be
+display
+ed.
+Your
+
+Standards
+
+SS8 Networks confidential information, not for distribution
+
+Standards: Impact and Use
+
+One exceptionCollection
+is PacketCable.
+It
+Use:
+Access Function
+Delivery Function
+Function
+also defines how the AFs in a
+Mainly used to define how the DF communicates
+cable network
+communicate
+Law Enforcement Domain
+with
+the CF
+Service
+Provider Domain
+with the DF
+Initiated by US legislation called CALEA –
+Communications Assistance for Law
+Enforcement Act. This act required the
+Telecom industry to come up with standards
+BRAS
+for accessing and delivering intercepted
+communications to the LEAs.
+LEA
+The standard they created
+is switches
+called J-STD-025, it
+Phone
+describes how call data and call content is
+delivered to the CF from the DF.
+XCIPIO
+Before that custom solutions were developed or
+bought by Law Enforcement and placed at the
+VoIP
+service providers premises.
+Call Agent
+Since J-STD was adopted several other standards
+have emerged:
+Impact:
+datapossible.
+J-STD-25A
+Standards
+– made
+Punchlist
+cost effectiveRouters,
+solutions
+switches
+J-STD-25B
+Without standards
+– CDMA2000
+it would
+wireless
+be adata
+totally custom environment without any ability to produce offthe-shelf,
+reproducible
+PacketCable
+– VoIP
+for Cable products.
+networks
+•  Standards
+components:
+T1.678
+– VoIP for defined
+wireline,the
+PTT,
+PoC
+–  Access
+Function
+(AF),
+Delivery Function (DF), Collection Function (CF)
+ETSI 33.108
+– GPRS
+wireless
+data
+Passive probe
+•  102.232
+Standards
+defined
+the demarcation points and the need for interfaces
+ETSI
+– ISP
+data intercepts
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+
+SS8 Networks confidential information, not for distribution
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+
+The image
+cannot be
+displayed.
+Your
+computer
+may not
+have
+
+A bit about Xcipio
+
+SS8 Networks confidential information, not for distribution
+
+The Components of Xcipio
+Access Function
+
+Delivery Function
+
+Collection Function
+
+Provisioning
+Internal Network Interface #1
+
+Provisioning
+
+INI-1
+
+Handover Interface #1
+
+HI-1
+LEA
+
+INI-2
+
+Communication Data /
+Signaling
+
+Xcipio
+
+Internal Network Interface #2
+
+HI-2
+Data / Signaling
+Handover Interface #2
+
+INI-3
+
+Media Content
+Internal Network Interface #3
+
+Service Provider
+Domain
+
+Th
+e
+im
+ag
+e
+
+Th
+e
+im
+ag
+e
+
+Th
+e
+im
+ag
+e
+
+HI-3
+
+Media Content
+Handover Interface #3
+
+Law Enforcement
+Domain
+SS8 Networks confidential information, not for distribution
+
+Provisioning Element:
+
+The Components of Xcipio
+User Interface
+Remote or local access to Xcipio
+INI-1 Provisioning
+
+Element
+
+HI-1
+
+Database, User Interface
+
+INI-2
+
+Intercept Engine
+
+PE-2200
+
+Call data, call events, signaling
+
+Software module
+
+LIS – Lawful Intercept Server
+
+IE-2100
+
+Core Software Application
+- real-time processing -
+
+Content Processor
+processing, routing,
+replicating, identification,
+encapsulation, encryption and
+delivery of content (packet
+and/or TDM voice) to law
+enforcement in real-time.
+
+Software module
+
+LIS
+Software release
+
+Physical Layer
+
+HI-2
+
+Primary
+Server
+
+Sun servers, Ethernet connectivity,
+IP packets, switch matrix cards
+
+IP Packet processing
+
+Content Processor
+
+INI-3 Filters, encapsulates content
+
+TDM Switch Matrix
+
+Passive probe
+
+CP-2300
+Software module
+
+Database, supports User
+Interface, maintains all
+warrant
+information,
+creates
+Intercept
+Engine:
+Receives
+call data,image
+call of
+shared memory
+intercept
+events,
+networkinformation
+signaling,
+INI-2LIS:
+and HI-2
+Signaling stacks (SIP,SS7),
+TCP/IP stacks, error logs,
+alarms, SNMP, Managed
+object structure etc.
+
+HI-3
+
+(IP, VoIP, TDM, HTTP etc.)
+
+SS8 Networks confidential information, not for distribution
+
+Rules and Regulations
+
+SS8 Networks confidential information, not for distribution
+
+CALEA Decision Making
+Passes
+Legislation
+(CALEA)
+
+Congress
+Tasked with
+enforcement
+and
+implementation
+
+Arbitrator
+between Law
+Enforcement
+and service
+providers
+
+Dept of Justice
+
+FCC
+
+FBI
+
+Carriers
+
+Industry Standards Body
+Standards
+include:
+J-STD-025A, B
+PacketCable,
+T1.678, T1.IPNA
+
+SS8 Networks confidential information, not for distribution
+
+Required to
+implement
+CALEA solution
+in their networks.
+Develop
+standards for use
+with different
+technologies
+
+The Burden on Law Enforcement
+• 
+
+• 
+
+• 
+
+The first tool available to track bad guys is with a subpoena for call records. This
+is done on a regular basis and 10’s of thousands of these are done on an annual
+basis. These are literally copies of relevant phone bills that are sent to the LEA
+either electronically or as paper copies. Many times they are uploaded into a
+Collection Function for analysis.
+The next step is to get a warrant for a Pen Register or Trap and Trace. These
+are historical terms used to identify calling activities (off-hook, ringing, answer,
+disconnect, call forward, hookflash etc.). These events are sent in real time from
+the delivery function to the collection function for analysis. Far fewer of these are
+done then the subpoenas for call records
+The last step is to get a Title III. This is usually only approved after a true need is
+demonstrated to the judge. This is also quite expensive for Law Enforcement. US
+law dictates that the intercept must be monitored live, 24 hours a day, by a Law
+Enforcement agent and any part of the conversation that isn’t relevant to the case
+must be “minimized”. In addition to the live monitoring (requiring multiple teams),
+there is usually a ground team surveiling the target. So due to the significant
+burden to justify the grounds for such a warrant and the manpower required to
+support it, very few (relatively speaking ~1700) are done each year.
+
+SS8 Networks confidential information, not for distribution
+
+CALEA Report Requirements for Congress
+
+Department of Justice CALEA
+
+Audit Report DOJ Inspector General – April *
+
+Department of Justice FISA
+
+DOJ Attorney General Report - April
+
+Federal and
+State LEA
+
+Admin. Office of US Courts – Wiretap Report - April
+
+Congress
+* Not covered here
+
+SS8 Networks confidential information, not for distribution
+
+Recent Events
+
+In 2004 the FBI, DOJ and DEA filed a joint petition asking the FCC to
+clarify the implementation of CALEA for Broadband and VoIP
+providers.
+In August 2005 the FCC issued a “First Report and Order” deeming that
+“Facilities based and inter-connected VoIP providers” must provide
+CALEA support. It also required that compliance be achieved within
+18 months of the Order.
+In May 2006 the FCC issued a “Second Report and Order” confirming
+that there would be no extensions and that the service providers
+must come into compliance by the original date stated in the First
+Report and Order.
+On June 9th, an appeal made on behalf of Service providers seeking to
+stall or alter the FCC report was denied by the DC Circuit Court and
+the FCC ruling was upheld.
+Service providers now have a true call to action and must come into
+compliance by May 14th 2007
+
+SS8 Networks confidential information, not for distribution
+
+Impact
+
+SS8 Networks confidential information, not for distribution
+
+Number of Intercept Orders
+• 
+
+2004 Authorized Intercept Orders: 1,710
+–  Increase of 19% from prior year
+
+• 
+
+Federal: 730 State: 980
+–  Federal increase of 26%
+–  State increase of 13%
+
+• 
+
+Four states accounted for 76% of intercept orders
+
+New York - 347
+New Jersey - 144
+California – 144
+
+Florida - 72
+
+SS8 Networks confidential information, not for distribution
+
+Intercept Applications by Offense Type
+.
+
+Homicide
+4%
+
+Robbery
+2%
+
+Other
+5%
+
+Gambling
+5%
+Racketeering
+8%
+
+Narcotics
+76%
+
+SS8 Networks confidential information, not for distribution
+
+Duration of Intercept Orders
+• 
+
+Average duration of 43 days
+–  Decrease from prior year of 44 days
+
+• 
+
+Average original duration of 28 days
+–  1,341 extensions averaging 28 days authorized
+–  Increase of 17% from prior year
+
+• 
+
+Longest was 390 days
+–  Federal: racketeering (IL)
+–  State: narcotics (NY)
+
+• 
+
+24 (Federal) and 59 (State) in operation for less than one week
+
+SS8 Networks confidential information, not for distribution
+
+Activity of Intercept Orders
+• 
+
+Average number of persons communications intercepted
+–  126 per order
+• 
+
+Average number of communications per order was 3,017
+
+–  Increase from prior year of 116 per order
+
+• 
+
+Average percentage of communications that were incriminating was 21%
+–  Decrease of 33% from prior year
+
+• 
+
+88% for portable devices (mobile communications)
+–  94% telephonic
+
+• 
+
+Most active
+–  206,444 computer messages over 30 days (counterfeiting)
+–  107,779 computer messages over 30 days (racketeering)
+–  681 per day for 30 days (narcotics)
+
+SS8 Networks confidential information, not for distribution
+
+Costs of Intercept Orders
+
+• 
+• 
+
+Costs reflect installing intercept devices and monitoring communications
+2004 cost average of $63,011
+–  Overall up 1% from prior year
+–  Federal average cost of $75,527, increase of 5%
+–  State average cost of $52,490, decrease of 3%
+
+SS8 Networks confidential information, not for distribution
+
+Arrests and Convictions
+
+• 
+
+Statistics skewed due to length of cases beyond reporting period
+–  Leveled by filing of Supplemental Reports
+
+• 
+
+4,506 persons arrested based on intercepts
+–  Increase of 23%
+
+• 
+• 
+• 
+
+634 persons convicted (14%)
+Federal accounted for 53% of arrests and 23% of convictions
+Supplemental reporting
+–  2,153 arrests and 1,683 convictions based on prior years intercepts
+
+SS8 Networks confidential information, not for distribution
+
+Various Case Highlights
+15 arrests with 7 Convictions
+Seizure of 50 kilos cocaine; 3 vehicles; 15 weapons; $2.6M
+4 arrests
+Seizure of 2 tons marijuana; 10 vehicles;
+4 weapons; $2.1M
+
+45 arrests
+Seizure of 16 pounds methamphetamine;
+6 kilos cocaine; 2 indoor marijuana
+operations; 7 vehicle; 26 weapons; $1.1M
+
+11 day wiretap led to arrest of
+conspirators planning to murder police
+officer
+
+One day wiretap led to recovery of
+kidnapping victim
+
+SS8 Networks confidential information, not for distribution
+
+11 arrests
+Seizure of 23 kilos cocaine; 9
+vehicles; 20 weapons; $1.7M
+
+Department of Justice - FISA Report
+
+• 
+
+Foreign Intelligence Surveillance Act
+–  Requirement to report to Congress – filed in April
+–  Report is only amount of orders
+–  FISA applications and orders are governed by Separate Court system
+•  Relatively secret, in fact most Americans do not know of Court’s existence
+
+• 
+
+1,754 application and orders approved
+–  This is the extent of information provided
+
+SS8 Networks confidential information, not for distribution
+
+Thank You
+
+Scott W. Coleman
+Dir. Of Marketing - LI
+SS8 Networks confidential information, not for distribution
+
+

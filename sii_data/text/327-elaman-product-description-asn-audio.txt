@@ -1,0 +1,382 @@
+Audio Surveillance
+Network
+
+CONFIDENTIAL
+
+1
+
+Audio Surveillance Network
+
+1 Product Description
+Audio Surveillance Network (ASN) is a complete solution for law enforcement
+agencies to collect, transmit, store and analyze audio coming from distant targets at a
+centralized location. ASN consists of both hardware and software elements suitable
+for building a countrywide audio surveillance system, or to conduct standalone tactical
+operations. A typical ASN layout consists of various target locations, remote location
+sites, a central headquarters and a set of observer terminals.
+
+Audio is captured form a target location by audio transmitters containing tiny
+microphones, and transferred to the remote location site over a telephone line.
+Usually, a remote location site exists near a location exchange. It contains a large bank
+of receivers to collect audio from various target locations. The received audio channels
+are digitized and stored in a remote location server.
+CONFIDENTIAL
+
+2
+
+The audio data is sent to the headquarters using a DSL or E1 link. The headquarters
+stores digital audio coming from a number of remote locations in a huge database.
+Observer terminals access the headquarters database using custom written audio
+surveillance software. An ActiveX based audio player offers audio analysis capability
+and on-line comment tag submission to the observers. ASN is the only system of its
+kind that offers real-time audio surveillance from a number of distant targets from
+beginning to end.
+2 System Elements
+The Following system elements have been developed to build an ASN.
+Target Location
+•
+Xad Audio Transmitter (XTL-ATx)
+Remote Location Site
+•
+Xad Audio Receiver (XKL-ARx)
+
+•
+
+Xad Audio Acquisition Platform (XRL-ACQ)
+
+•
+
+Xad Remote Location Server (XRL-SER)
+
+•
+
+Xad Remote Location Software (XRL-SW)
+
+Headquarters
+Xad Headquarter server (XHQ-SER)
+
+•
+•
+
+Xad Headquarter Software (XHQ-SW)
+
+2.1 AUDIO TRANSMITTERS (XRL-ATx)
+Audio is collected from the target location using Audio Transmitters (XTL-ATx). Each
+transmitter contains a high gain, sensitive microphone, which is installed on the target
+line irrespective of the location and polarity. The installation does not interfere with
+the normal operation of telephone equipment. XTL-ATx comes in two versions – XRLATP works with standard POTS, while XRL-ATA is designed for ADSL enabled
+telephone lines. For major operations, up to four XRL-ATx units can be deployed per
+target. A user can remotely activate the desired XRL-ATx leaving the others in standby
+mode.
+Each XRL-ATx has built-in intelligence to sense the line status and start-stop its
+operation independent of the user intervention. Salient features of an XRL-ATx are
+listed below:
+
+•
+
+Small size 16 x 9 mm
+
+•
+
+Low current consumption (active 4mA, standby 4μA
+
+•
+
+High gain microphone 48 dB
+
+•
+
+Polarity free installation
+
+•
+
+Seamless operations on PSTN and ADSL enabled lines
+
+•
+
+Automatic start-stop and mute functions
+
+•
+
+Choice of 4 transmitters per line
+
+CONFIDENTIAL
+
+3
+
+2.2 Audio Receiver (XRLS-ARx)
+Audio Receiver (XRLS-ARx) is a very low noise state-of-the-art receiver to extract clear
+audio signals from noisy telephone lines at a distance of 5 Km from the target
+location. XRLS-ARx outputs receive audio to the headquarters and phono sockets.
+There are manual control buttons on the XRLS-ARx to switch between multitransmitter installations or mute all, if required. XRLS-ARx also provides a digital
+interface which is used to control XRLS-ARx from the headquarters’ software. Main
+features of XRLS-ARx are listed below:
+
+•
+
+Transparent operations on PSTN and ADSL enabled lines
+
+•
+
+Standalone and network operation
+
+•
+
+Automatic voltage control
+
+•
+
+Manual button control for standalone operations
+
+•
+
+Digital control interface
+
+•
+
+Logic circuitry to control up to 4 audio transmitters
+
+•
+
+Built-in digital voltmeter
+
+•
+
+Audio Vu-meter
+
+•
+
+Automatic volume control
+
+•
+
+Phono socket
+
+•
+
+Headphone socket
+
+CONFIDENTIAL
+
+4
+
+2.3 Audio Acquisition Platform (XRLS-ACQ)
+The Audio Acquisition Platform (XRLS-ACQ) is a 1U height 19 inch rack mount unit. It
+consists of a custom built PCB to acquire, digitize and transfer 28 audio channels to a
+Remote Location Server (XRLS-SER).
+
+ACQ uses four 8-bit analog to digital converters to digitize the audio channels. The
+digital audio samples are buffered before sending them to XRLS-SER using a USB 2.0
+interface. Main features of the XRLS-ACQ platform are listed below:
+
+•
+
+19 inch rack mountable casing
+
+•
+
+Parallel A/D conversion of 28 analog audio channels
+
+•
+
+64KB buffer memory to ensure data continuity
+
+•
+
+High speed data transfer using USB2 interface
+
+•
+
+Integrated interface for audio and transmitter control using RJ45 ports
+
+•
+
+Acquisition status display
+
+CONFIDENTIAL
+
+5
+
+2.4 Xad Remote Location Server (XRLS-SER)
+The Remote Location Server (XRLS-SER) is a powerful machine built with 64 bit AMD
+2.0GHz dual core processor and Linux operating system. The industrial PC casing with
+front and rear fan support provides ruggedness to operate in extreme temperatures
+expected at a remote location site. The remote location server is lockable at the front
+providing extra security to the system.
+
+2.5 Remote Location Server Software (XRLS-SW)
+The remote location server software (XRLS-SW) runs on XRLS-SER and controls the
+main functionality of a remote location site. It is written in C++ under a Linux
+operating system. For security reasons, a user interface has not been built in the
+remote location software. The remote location operator uses a console window to
+execute commands for each task. Main features of XRLS-SW are listed below:
+
+•
+
+Command line interface for added security and reliability
+
+•
+
+Security database installation without user interaction
+
+•
+
+Built under Linux for easy integration, faster speed and stability
+
+•
+
+Database storage for systematic archiving of audio streams
+
+•
+
+Automatic audio acquisition and uploading according to the headquarters’
+schedule
+
+•
+
+Thread based real-time audio encoding and uploading
+
+•
+
+Local audio offload option for emergency
+
+•
+
+Segmentation of audio streams into packets for quick transmission
+
+•
+
+Synchronized time stamping of audio data cross the ASN
+
+•
+
+Lossless compression of audio data for integrity and completeness
+
+•
+
+Remote control of attached audio devices from the HQ software
+
+•
+
+Password protection, activity logging and secure reporting to HQ software
+
+•
+
+Memory management and automatic deletion of contents
+
+•
+
+Separate audio device set-up and local testing utility
+
+Transmission Hardware
+The requirement for transmission hardware (E1 routers, DSL and related components)
+may differ in each case. Depending upon the requirement, we can specify the
+transmission hardware to be used in an ASN.
+
+CONFIDENTIAL
+
+6
+
+2.6 Headquarter Servers (XHQ-SER)
+The HQ is the main control center of the ASN. It is connected to remote location sites
+in a star network topology. The XHQ-SER comprises two database servers, a storage
+server, and an application server. The database servers are similar in specification to
+XRLS servers. The storage configuration is tailored according to the requirements. To
+build redundancy, the database servers are connected to the storage server in cluster
+configuration. The application server is an apache based server, which hosts webbased HQ server software. It allows the observer terminal to access the huge audio
+database.
+2.7 Headquarter Server Software (XHQ-SW)
+The headquarter server software (XHQ-SW) provides the main control of the ASN.
+XHQ-SW software is accessed by the Microsoft Internet Explorer through a Webbased environment. The complex system information remains hidden behind a user
+friendly graphical user interface (GUI). All the software pages are interconnected. A
+user can navigate across them using a dynamic menu bar. The menu items vary
+according to the user access privileges.
+The main features of the XHQ-SF are listed below:
+
+•
+
+Secure login feature with individual access rights
+
+•
+
+Personalized home page portal for each user
+
+•
+
+Easy and dynamic remote location site creation
+
+•
+
+Site and target location based user access
+
+•
+
+Hierarchical user and group management structure
+
+•
+
+Entity based access rights and on the fly user creation
+
+•
+
+Automatic information update across the network
+
+•
+
+Time, tag and target based audio content search
+
+•
+
+ActiveX based audio player with audio range control
+
+•
+
+Custom audio play list with forward/backward audio search options
+
+•
+
+Real-time audio access and analyze feature
+
+•
+
+Observer comment tagging and retrieval
+
+•
+
+Audio save option for privileged users
+
+•
+
+Automatic e-mail feature within the groups
+
+•
+
+Audio transmitter control for each remote location site
+
+•
+
+Network site status reporting
+
+•
+
+Advanced audio download scheduler for target locations
+
+•
+
+Activity log and reporting
+
+2.8 Observer Terminals (OT)
+Observer Terminals are standard PCs connected to the HQ server in an intra net
+configuration. They access XHQ-SW to access and listen to audio records stored in
+the HQ database. ASN setup does not require an installation of the client software.
+Updates are automatically reflected to the observer terminals when XHQ-SW is
+updated on the headquarter application server.
+CONFIDENTIAL
+
+7
+
+CONFIDENTIAL
+
+8
+
+

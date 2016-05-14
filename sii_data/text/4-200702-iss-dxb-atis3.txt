@@ -1,0 +1,233 @@
+Target and Service
+Based Interception in
+an IP Environment
+Alessandro Guida
+ATIS systems GmbH
+ISS World Dubai 26.02.2007
+alessandro.guida@atis-systems.com
+
+What are my messages?
+
+• IP interception and monitoring
+– End-to-end is better
+
+• But it can be difficult…
+– Cost for network operators
+– Content usability for LEA
+
+• Klarios® makes it easier…
+– A solution for day-to-day challenges
+
+IP Interception and Monitoring
+
+IP Interception and Monitoring –
+End-to-End is Better… (1)
+
+KLARIOS® AIMS-PS
+Administration Function
+
+• Administration of users and roles
+Topology Administration
+
+• Reporting and logging
+• Topology management
+• Interception management
+– Warrant administration
+– Filter administration
+– Interception provisioning
+
+Filter Administration
+
+IP Interception and Monitoring –
+End-to-End is Better… (2)
+
+KLARIOS® AIMS-PS
+Interception Access Points
+
+Application IP Layer
+
+LI Dedicated
+Protocol
+Analyser
+
+ISP Equipment
+
+–
+–
+–
+–
+–
+–
+
+Routers
+Switches
+
+Sniffer
+Email
+Proxy
+Radius/
+DHCP Proxy
+
+HUB Mode
+
+Radius
+Server
+Mail
+Server
+
+Network Tap
+
+Aggregation
+Level Router
+
+• Issues to keep in mind:
+Supported applications
+Filter functions
+Throughput
+Delivery formats
+Security
+Connection to network
+
+Mirroring Port
+
+Proxy Mode
+
+Aggregation
+Level Router
+
+Aggregation
+Level Router
+
+Ethernet
+Hub
+
+Probe
+
+NAS
+
+Probe
+
+NAS
+
+NAS
+
+Probe
+
+IP Interception and Monitoring –
+End-to-End is Better… (3)
+
+KLARIOS® AIMS-PS
+Mediation Device
+• Mediation functions
+– Integration of IAPs
+– Specific gateway Interfaces
+(ETSI, CALEA, SORM….)
+– Filter functions
+– Export functions
+
+IP Interception and Monitoring –
+End-to-End is Better… (4)
+
+KLARIOS® IP Monitoring Centre
+
+KLARIOS® IP Monitoring Centre
+Content Decoding
+Version
+
+IHL
+
+TOS
+
+Total Lenght
+
+IP Header
+
+Identification
+TTL
+
+Flags
+
+Protocol
+
+Fragment Offset
+Header Checksum
+
+Source Address
+Destination Address
+
+Source Port
+
+Destination Port
+Sequence Number
+Acknowledgement Number
+
+HTTP Message
+
+HTTP Start Line
+
+TCP Payload
+
+TCP Packet
+
+IP Payload
+
+TCP Header
+
+IP Packet
+
+Option + Padding
+
+Generic Headers
+Payload
+Method Headers
+Entity Headers
+
+Data
+Message Body
+Message Trailer
+
+KLARIOS® IP Monitoring Centre
+Content Processing and Analysis
+
+KLARIOS® IP Monitoring Centre
+Content Presentation
+
+HTTP/1.1 200 OK
+...
+Content-Type: text/html
+<HTML><HEAD><TITLE>Google</TITLE>
+...
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+...
+alt=Google src="Google-Dateien/logo.gif"
+...
+
+HTTP/1.1 200 OK
+...
+Content-Type: image/gif
+logo.gif
+
+KLARIOS® IP Monitoring Centre
+The Internet Viewer
+
+• Search/
+Navigate
+• Display
+• Secure
+• Classify
+• Order
+
+Why ATIS systems
+
+Reasons to work with ATIS systems
+• State of the art technology
+• In-depth understanding of LEA requirements
+• In-depth understanding of IP networks
+• Reliable partner for planning, design and
+implementation
+• Consultancy service over the entire project
+lifecycle
+
+Questions?
+
+

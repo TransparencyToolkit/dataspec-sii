@@ -1,0 +1,603 @@
+Cyber Security Monitoring
+
+Packet Capture's lnconvenient Truth
+
+ln today's world, every organisation is exposed to the
+risk of cyber attack and data loss. With the network
+now being critical to almost every organisation,
+business leaders have an absolute obligation to
+
+Network security systems that use software-based
+techniques to acquire packets from the wire drop some
+of them. The truth is that software-based NICs were
+never designed to be used to acquire packets from the
+wire; they were designed to move data between servers
+
+protect customer information, corporate IP and the
+integrity of the network - because the consequences
+of not doing so are extremely serious . The days of
+tick-box compliance for PCI, HIPAA, SOX or any other
+government mandated security requirement are gone.
+Today, it's about reputation, brand and corporate risk
+which demand a very different approach to network
+security.
+Endace Network Monitoring
+and Recording Fabrics
+provide deep network-wide
+visibility into both internai
+and external cyber security
+threats on high-speed and
+ultra-high-speed networks.
+
+and hosts . Our testing has shown, with alarming
+consistency, that at line rates over 2Gb/s it's almost
+impossible to trust systems that aren't built using
+purpose-built hardware. Endace Systems are designed
+and built to capture packets, without data Joss on highspeed links.
+
+"If you haven t got
+1
+
+every packet, then
+any analysis that
+you do is pointless"
+
+They use a distributed
+'fabric' of passive systems
+to analyse network traffic
+in real-time . Not only does
+every packet get analysed, but they also get recorded
+
+to a local storage buffer to enable retrospective forensic
+analysis and archiving for evidentiary purposes.
+
+If you have any doubt as to whether accuracy of
+packet capture matters then consider this:
+The Conficker worm is 57KB in size. Based on a
+standard Ethernet frame (1, 518 bytes), Conficker is
+carried in approximately 37 packets, any one of which
+could potentially contain the signature that an IDS
+needs to see in order to trigger an alert.
+On a 50% loaded 1Gb/s link, packet loss of 0.00002 %
+could cause a system to miss the critical packet that
+triggers the alert. So forget '5 nines'; in reality, nothing
+less than 100% capture is acceptable in the world of
+signature-based network security.
+
+If you're already at 2Gb/s,
+or you can see 2Gb/s on the
+horizon, and you are using
+a software-based system,
+then you should be treating
+the output of your network
+security systems with
+extreme caution .
+
+lntroducing Endace Systems
+
+lntroducing Endace Security Manager
+
+Our systems corne in a range of different sizes and port
+
+Endace Security Manager (ESM) is our Network
+Intrusion Detection System . ESM is included with every
+
+configurations to enable them to be matched to the
+needs of particular network segment(s}. They scale from
+
+Endace System as part of the Endace Application Suite,
+
+10/1 OOMb/s to 1OOGb/s and are designed from the
+
+which is designed to address the core monitoring and
+
+ground up to enable up to six different applications to
+
+security needs of every network .
+
+leverage the sa me corn mon source of 100% accu rate
+data.
+
+When deployed across a network as part of a
+
+EndaceSensors
+EndaceSensors™ are real-time monitoring systems
+designed to be deployed in places where no captureto-disk is required. These 1U systems support either
+4x 1Gb/s ports or 2x 1OGb/s ports and can analyse
+up to 10 Gigabits of network traffic per second
+
+Monitoring and Recording Fabric, ESM provides deep,
+network-wide visibility 1nto the widest possible range
+of cyber threats. With the knowledge that your IDS is
+interrogating every single packet on the w1re you can,
+for the first time, rest assured that you're being alerted
+to everything that really matters on your network .
+
+with an average rule set (depending on the spec1fic
+
+Key features
+
+configuration).
+
+• Proven 100% accu rate packet capture to
+1OOGb/s
+• SNORT® based deep packet inspection
+engine
+• Integrated forensics and analytics for
+improved MTIR
+
+EndaceProbes
+ln addition to monitoring up to 20 Gigabits of traffic
+per second in real time, EndaceProbes™ support
+high-speed write-to-disk capability at speeds of up
+
+• Support for custom and blended rule sets
+• Full line rate write-to-disk for post-event
+forensics
+
+to 1OGb/s. EndaceProbes are available in a range of
+
+• Rapid and efficient data mining
+
+d1fferent configurations with up to 1Ox 1OGb/s ports
+
+• Support for multiple VLANs
+
+or 20x 1Gb/s ports, ma king them ideal for highthroughput environments where rack space is limited
+
+• System by system rule management
+capability
+
+and port density is key.
+
+• Rapid SIM / SIEM and NMS integration
+
+Ali Endace Systems are based on a three-layer
+architecture called the Endace Platform. The Endace
+Platform leverages commodity hardware which
+
+Endace System Performance Specifications
+
+incorporates our own DAG® technology, a proprietary
+software management layer called OSm which enables
+
+MODEL
+
+PORT DENSITY
+
+IDS THROUGHPUT*
+
+central management of ail systems and a virtual
+
+EndaceProbe Series
+7000
+
+8-20 X 1GigE or 4-10 x
+10GigE
+
+3.6Gb/s
+
+EP3000
+
+4-8 x 1GigE or 2-4 x
+10GigE
+
+3.6Gb/s
+
+EP300
+
+8 x 1Gb Ethernet
+
+1.SGb/s
+
+EP100
+
+4x 1Gb Ethernet
+
+SOOMb/s
+
+EndaceSensor Series
+3000
+
+4x 1OGb Ethernet
+2x 1OGb Ethernet
+
+2.SGb/s
+
+ES300
+
+8 x 1Gb Ethernet
+
+1.SGb/s
+
+ES100
+
+4x 10/100/1Gb
+Ethernet
+
+SOOMb/s
+
+application layer into which multiple applications or
+tools can be deployed simultaneously.
+
+*Average throughput 1s based upon an average rule set and thus 1s an
+est1mate on/y
+
+specific to your network. Our intrusion detection system
+
+ESM Architecture
+
+enables you to blend different rule sets from third-party
+
+ESM consists of a distributed set of SNORT-powered
+
+sources, community sources and your own customwritten rules to create a rule profile that really delivers.
+
+systems that are connected to a range of different
+physical links across the network. The way that the
+system is architected means that different segments of
+
+Taking contrai of your rules isn't as daunting as many
+
+the network (VLANs) can be monitored with specific
+
+organisations perceive; like everything, it requires good
+
+rule sets, which is essential as different VLANs within
+
+planning and the right partnerships, which is where we
+
+the same organisation can be exposed to quite different
+
+can help w1th our rule-tuning service. We have a team
+of profess1onals on hand to help you get your rules
+
+cyber threats.
+
+exactly right.
+
+Ali ESM Systems are connected back to the Endace
+Management Server which hosts the master ESM
+database. Using Java-based clients, engineers connect
+to the ESM database and are presented with an easy-to-
+
+100% Proof
+
+use dashboard from which they can interrogate alerts.
+
+Saying that we capture 100% of packets and
+proving it are two d1fferent things To make
+
+SNORTpower
+
+sure that we really do what we say, we gave
+
+ESM 1s built using the SNORT<'l> industry-standard, open-
+
+our system to NSS Labs and asked them to
+
+source IDS engine. SNORT already powers more than
+
+test 1t for us. Based on their attack leakage
+
+250,000 IDS and IPS sensors around the world and
+
+detection test, which is the closest thing there
+
+is trusted by government agencies and Fortune 1000
+
+is to an industry standard test, we prove that
+
+organisations. With a global community of developers
+
+our systems really do capture every packet at
+
+contnbuting to the code base, 1t is far and away the
+
+1OGb/s.
+
+most flexible and trusted IDS engine in existence.
+
+0 NSS Labs
+
+Vaur ules
+Your network is unique. lt has a mix of protocols, users
+and traffic that are specif1c to you, so it stands to reason
+
+NSS Labs stated that our 1OGb/s system was
+
+that the rules that you are go1ng to want to deploy are
+
+"one of the few products on the market
+capable of servicing the high throughput of a
+
+go1ng to be equally unique.
+
+true 10-Gigabit environ ment".
+Building an effective cyber monitoring system
+necessitates creating and ma1ntaining a rule set that is
+
+Packet size
+-
+
+NSS Labs Attack Leakage Test results
+
+1.7K B
+4K B
+
+-0
+
+Cii
+
+t:Cii
+
+...
+
+80 %
+
+Cii
+
+-0
+
+Ill
+
+~
+
+60 %
+
+IJ
+
+IV
+
+~
+
+IV
+
+~
+
+40 %
+
+en
+
+c::
+·;;;
+
+'#.
+
+20 %
+0%
+
+Î
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Gb/s throughput
+
+7
+
+8
+
+9
+
+10
+
+..."'
+
+~~
+
+..
+
+11:57
+
+Endace Security Manager dashboard
+
+Reducing Mean-Time-To-Resolution
+For many organisations, being alerted to security
+events is one thing; being able to analyse then perform
+remediation on them when they are coming in fast
+and furious is quite another. To make the processing of
+security events more efficient, Endace Security Manager
+incorporates a unique workflow engine that enables
+engineers to investigate events efficiently, without
+compromising accuracy.
+
+·-
+
+-~=~r"
+-u.."''-'*
+..
+..
+
+-
+
+Q•~
+
+....."':.c
+.==:
+...- = :... '".
+~--· - Io
+
+The remediation process is based around three simple
+steps which are ail tightly coupled together at the
+system level to enable rapid workflow through multiple
+applications on a single hast
+• Open the alert in ESM and assess its importance
+• View the event in context using Endace Analytics and
+identify the specific packets of interest
+Extract the raw packets of interest using our data
+mining tool (Packet Access) and open them in
+Wireshark or another protocol analyser.
+lt's quite clear that the volume of events being thrown
+at security operation centre teams isn't going to start
+diminishing any time soon, so ensuring that your
+system is doing everything it can to help accelerate the
+process of investigating events is a smart move. We're
+committed to help reducing MTIR with every new
+release of ESM .
+
+-.. - . -l-
+
+&,jT•lllllC----·
+
+·:·...-=--~
+""'::'
+
+t :.:::.::
+-···
+...
+- -:----- .- ,,':':
+
+·-·· ~- ~
+
+~
+
+Endace Analytics
+
+lllolloN· ....... 10.,.
+
+SIM/SIEM lntegration
+
+Endace Application
+
+Along with SNMP, Syslog and firewall logs, IDS alerts
+
+oc
+
+are important contributors to any organisation's
+
+Endace fabncs don't just do IDS; they are in fact an
+open and flexible hosting platform for any application
+
+security event correlation layer. We work closely with
+
+that uses packet data to generate intelligence.
+
+most of the major SIM / SIEM vendors to ensure that
+
+Each Endace System can hast up to six commercial,
+
+our outputs are consistent with their inputs and that
+
+open-source or custom applications alongside IDS
+
+integration is rapid, seamless and tested.
+
+functionality.
+
+e iQ
+net w or k s
+
+9
+
+~ ......
+
+nitrosecurity
+
+~
+
+Visit www.endace.com/ endace-application-dock to
+find out what other applications are certified to run on
+the platform.
+
+~) netforensics~
+ln addition to providing a critical feed into these
+systems, Endace Systems also facil1tate packet-
+
+application
+dock
+
+application
+suite
+
+level interrogation of events generated through the
+correlation layer. Using the highly accurate timestamps
+that are attached to every packet as they are captured,
+users can request packet-level traces in response to
+
+___.rî._____
+WIRESHARK
+
+events generated by the SIM. As any security operation
+
+~aura
+
+~RedEye
+
+~ nETSCOUT.
+
+centre team member worth their stripes will attest to,
+"untli you've seen the packets, you've seen nothing".
+
+Integrated vulnerability scanning
+As well as knowing what's travers1ng your network,
+it's equally critical to know what systems should and
+shouldn't be live on your network in order to stop
+hackers, viruses and malware from exploiting potential
+weaknesses. Misconfigured networks and unpatched
+machines are still the most common cause of security
+breaches and, despite the vigilance of IT staff, these
+vulnerabilities pose a constant threat.
+By integrating a market-leading
+vulnerability scanner into the
+system architecture, organisations
+cannot only consolidate hardware in their data centres,
+but can also leverage the power of the EndaceProbe's
+write-to-disk capability to capture any traffic going to
+(or from) systems that are outside of an organisation's
+trusted white list.
+
+The last word on value
+The benefits of deploying an Endace Fabric extend well
+beyond the ability just to see everyth1ng. They 1nclude:
+• Reduction in hardware footprint
+• Rapid integration
+• Application agility / reduction in time-to-value
+• Roadmap to 1OOGb/s
+Endace Monitoring and Recording Fabrics are unique
+and are being rapidly adopted by organisations across
+the world that recognise the need to see everything on
+their networks.
+
+Endace Systems are the
+cornerstone for some of
+the most sophisticated
+cyber-security deployments
+on the planet
+Endace has been selling the most accurate,
+open and trusted network monitoring and
+recording systems to the world's largest
+telcos, governments, financ1al institutions
+and Fortune 1000 enterprises for more than
+10 years.
+Our systems help our customers to manage
+risk, reputation and compliance; where the
+consequences of miss1ng network events
+have the potent1al to be catastrophic.
+
+Endace UK
+Davidson House
+Forbury Square, Reading
+Berkshire RG1 3EU
+p +44 118 900 1425
+
+Endace USA
+1442 5 Pen rose Place
+Suite 225, Chantilly,
+VA20151
+P (toll free) 800 572 0557
+email enquiries@endace.com
+
+endace.com
+
+~
+en dace
+
+

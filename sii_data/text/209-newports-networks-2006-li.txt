@@ -1,0 +1,462 @@
+Lawful Interception
+Overview
+
+Lawful Interception Overview
+Introduction
+
+LI deals with two ‘products’, these are; Contents of Communications
+(CC) and Intercept Related Information (IRI). Contents of
+Communications is exactly what it sounds like: the voice, video
+or message contents. Intercept Related Information refers to the
+signalling information, the source and destination of the call etc.
+
+L
+
+awful Interception (LI) is a requirement placed upon
+service providers to provide legally sanctioned official
+access to private communications. With the existing
+Public Switched Telephone Network (PSTN), Lawful
+Interception is performed by applying a physical ‘tap’ on
+the telephone line of the target in response to a warrant from
+a Law Enforcement Agency (LEA). However, Voice over IP
+(VoIP) technology has enabled the mobility of the end-user,
+so it is no longer possible to guarantee the interception of
+calls based on tapping a physical line.
+
+Figure 1 shows the logical flow of Intercept Related Information
+(IRI) and Contents of Communications (CC) from its collection
+in the Public Network to the handover interface to the Law
+Enforcement Monitoring Facility (LEMF) as defined by ETSI. In
+North America CALEA (Communications Assistance for Law
+Enforcement Act) requires operators to provide LI capabilities. The
+network architecture and handover specifications are based on the
+PacketCable™ surveillance model shown in Figure 2 below, the
+general architectural similarities can be seen.
+
+Whilst the detailed requirements for LI may differ from one jurisdiction
+to another, the general requirements are the same. The LI system
+must provide transparent interception of specified traffic only and
+the subject must not be aware of the interception. The service
+provided to other users must not be affected during interception.
+
+PacketCable Telecommunication Service Provider
+
+Architecture Overview
+Service
+Provider
+Administration
+
+Although the detail of LI may vary from country to country we
+can look at the general logical and physical requirements and
+also explain much of the common terminology used. The primary
+purpose of the service provider network is to enable private
+communications between individuals; any LI functionality built into
+the network must not affect the normal service to those individuals.
+The architecture requires a distinct separation of the Public
+Telecom Network (PTN) and the networks used for distribution and
+processing of LI information. The interfaces between the PTN and
+the Law Enforcement Monitoring Facility (LEMF) are standardised
+within a particular territory.
+
+Intercept Access
+(for Call Data)
+CMS
+
+Intercept Access
+(for Call Content)
+MG
+
+Delivery Function
+
+Intercept Access
+(for Call Content)
+CMTS
+
+Lawful
+Authorization
+
+PSTN
+
+Subscriber
+CM/MTA
+
+Demarcation Point
+
+Law
+Enforcement
+Administration
+
+Collection
+Function
+
+Law Enforcement Agency
+AI145
+
+Figure 2 – PacketCable™ Surveillance Model
+
+Figure 3 below shows the high-level functions and interfaces as
+defined by ETSI, the Mediation Function (MF) provides standardized
+interfaces, HI2 – Intercept Related Information, and HI3 – Call
+Contents, from the Public Telecom Network to the LEA Network.
+
+Public Network
+LEA Network
+Network Operator's
+Administration
+Function
+IIF
+
+IRI
+Mediation
+Function
+
+Internal Intercept Function
+
+Intercept Related
+Information (IRI)
+Content of
+Communication (CC)
+
+CC
+Mediation
+Function
+
+Internal Network
+Interfaces INI
+
+HI1
+
+Administration
+Function
+(ADMF)
+
+HI1
+
+INI1
+
+HI2
+Communication
+Node
+
+Communication
+Node
+
+LI Handover
+Interface HI
+
+INI2,INI3
+
+INI2,INI3
+
+HI3
+
+Mediation
+Function
+(MF)
+
+Public Telecom Network
+
+LEMF
+
+HI2, HI3
+
+LEA Network
+
+AI144
+
+LEMF
+
+Figure 1 - General Network Arrangements for Interception (ETSI)
+
+LEMF
+AI146
+
+Figure 3 - Distinction between PTN and Law Enforcement Network
+
+Lawful Interception Overview Page 2
+www.newport-networks.com
+
+© 2006 Newport Networks Ltd
+
+info@newport-networks.com
+
+Basic Elements of LI in a Public Telecom
+Network
+
+Public Telecoms Network
+
+There are three primary elements required within the public network
+to achieve Lawful Interception, these are:
+ An Internal Intercept Function (IIF) located in the network
+nodes.
+
+
+A Mediation Function (MF) between the PTN and LEMF.
+
+
+
+An Administration Function (ADMF) to manage orders for
+interception in the PTN.
+
+Secure Connection
+Tasking Data
+Interception Data
+
+Web Based GUI
+
+14
+60
+
+SBC
+
+(IIF)
+Backup Administration Unit
+
+Internal Intercept Function (IIF)
+
+LI Administration Function
+(ADMF)
+
+These functions are located within the network nodes and are
+responsible for generating the Intercept Related Information (IRI)
+and Contents of Communications (CC).
+
+Mediation Function (MF)
+This function clearly delineates the PTN from
+communicates with the IIFs using Internal Network
+which can be proprietary. The MF communicates
+LEMFs through locally standardized interfaces:
+Interfaces (HI2 and HI3).
+
+14
+
+60
+
+SBC
+
+(IIF)
+Backup Mediation Unit
+
+the LEMF. It
+Interfaces (INIs)
+to one or more
+the Handover
+
+HI2 - Intercept Related Information
+HI3 - Contents of Communication
+
+Administration Function (ADMF)
+
+Law Enforcement
+Monitoring Facility
+(LEMF)
+
+This function handles the serving of interception orders and
+communicates with the IIFs and MF though an Internal Network
+Interface.
+
+Implementing LI within an VoIP Network
+One of the primary problems that service providers face when
+managing VoIP and multimedia calls is the separation of the
+signalling and media streams. In other words it is quite possible
+that the two streams may take completely different paths through
+the network. In addition, even when they do pass through the
+same device, it may not be aware of the relationship between the
+streams. Some devices within the network are however specifically
+designed to understand and manage the separate signalling and
+media streams – session border controllers. Typically located at
+the borders of the service provider’s network, these offer an ideal
+location to implement the IIF as they receive Intercept Related
+Information from the signalling stream and can intercept Contents
+of Communication directly from the media stream.
+
+LI Mediation Function
+(MF)
+
+Law Enforcement
+Agency (LEA)
+AI174
+
+Figure 4 –Example Physical Architecture
+
+Figure 4 above shows the physical elements of the LI system, their
+logical functions and the interfaces to the LEMF.
+LI Administration Function (ADMF) is typically implemented on
+a hardened Management Unit; it provides a secure method to
+enable traffic to be targeted and routed. The ADMF uses a secure
+connection to one or more of the IIFs and to one or more Mediation
+Units. The ADMF is often backed up by a warm standby, which
+replicates all data between the units.
+LI Mediation Function (MF) performs the mediation and delivery
+functions, it is typically implemented on a hardened Mediation
+Unit; it receives generic formatted IRI and CC data from one or
+more IIFs and translates it into the country specific format for the
+Handover Interfaces (HI2 & HI3) to the LEMF. The MF receives
+target details from the ADMF and validates the received IRI and
+CC data to ensure that only the warranted data is passed to the
+LEMF. The MF usually supports the forwarding of intercepted traffic
+to many LEMF interfaces simultaneously. The Mediation Unit is
+often backed up by a slave unit which takes over in case of failure
+of the primary unit.
+
+Lawful Interception Overview Page 3
+www.newport-networks.com
+
+© 2006 Newport Networks Ltd
+
+info@newport-networks.com
+
+Internal Intercept Function (IIF) is most effective when implemented
+in hardware within the network nodes in order to provide the most
+effective and rapid detection without incurring additional software
+processing and delays which may allow the presence of the intercept
+to be detected. The IIF collects Intercept Related Information (IRI)
+and Contents of Communication (CC) ask requested by the ADMF,
+and converts these to a generic format which is passed to the MF.
+
+Administration Functions
+The ADMF must only be accessed by authorized users. It will
+manage the deployment of tasks to the other LI elements.
+Tasking Targets – Each target will require a Warrant ID and Case
+ID assigned by the LEA. Each case may require IRI or CC or both
+to be intercepted. Each task is assigned a start date and an end
+date, upon which the case will expire.
+
+execute a number of access, security and quality management
+roles; they offer an ideal location to implement a Lawful Intercept
+solution. Carrier class SBCs already offer the levels of redundancy
+and resilience to provide ‘five 9s’ availability, further endorsing
+their suitability for the location of the IIF.
+
+Terminology
+ADMF
+
+Administration Function
+
+CALEA
+
+Communications Assistance for Law Enforcement Act
+
+CC
+
+Contents of Communication
+
+ETSI
+
+European Telecommunications Standards Institute
+
+HI
+
+Handover Interface
+
+IIF
+
+Internal Intercept Function
+
+INI
+
+Internal Networks Interface
+
+IRI
+
+Intercept Related Information
+
+LEA
+
+Law Enforcement Agency
+
+LEMF
+
+Law Enforcement Monitoring Facility
+
+LI
+
+Lawful Interception
+
+Information Volatility
+
+MF
+
+Mediation Function
+
+Essential target information must be encrypted by the ADMF
+and any information stored in the IIF in encoded form, thereby
+preventing unauthorized access to sensitive warrant information.
+Any information stored within the IIF should be stored in volatile
+memory, so that this information is erased if a component of the
+network node is removed or powered down. Only the encrypted
+database of the ADMF should be maintained during power-down
+situations.
+
+PSTN
+
+Public Switched Telephone Network
+
+PTN
+
+Public Telecom Network
+
+VoIP
+
+Voice over IP
+
+Auditing Tasks – The ADMF is typically responsible for auditing
+the network of IIFs to ensure that the target lists match; differences
+should be automatically reconciled.
+Mediation Function Configuration – Each interface to the LEMF must
+be individually specified to match the required standard output.
+
+In the event of a link failure between the MF and the LEMF the
+intercept products may be buffered for a short time in memory only.
+Any long term failure of the interface will result in intercept products
+being lost – this information must not be spooled to permanent
+storage.
+
+Conclusion
+Recently it has become increasingly clear that VoIP services will
+be expected to provide Lawful Intercept and Emergency Call
+Handling services to the same level experienced in the PSTN.
+The FCC in North America for example has mandated that both
+emergency calls and Lawful Intercept must be available. Whilst not
+all countries mandate this capability, any network operator building
+a publicly available voice or multimedia over IP service today will
+need to plan a network which is flexible enough to implement
+these regulatory services in the future. Session border controllers
+are being deployed at strategic points within VoIP networks to
+
+References
+ETSI TS 101 331 - Telecommunications security; Lawful
+Interception (LI) Requirements of Law Enforcement Agencies
+ETSI TR 101 943 - Telecommunications security; Lawful
+Interception (LI); Concepts of Interception in a Generic Network
+Architecture
+ETSI TS 101 671 - Telecommunications security; Lawful
+Interception (LI); Handover interface for the lawful interception of
+telecommunications traffic
+PKT-SP-ESP1.5-I01-050128; PacketCable™ 1.5 Specifications;
+Electronic Surveillance
+A summary of the ETSI LI specs is located at:
+http://portal.etsi.org/li/Summary.asp
+Current ETSI specs can be downloaded from:
+http://portal.etsi.org/li/status.asp
+Current PacketCable™ specs can be found at:
+http://www.packetcable.com/specifications/
+
+Lawful Interception Overview Page 4
+www.newport-networks.com
+
+© 2006 Newport Networks Ltd
+
+info@newport-networks.com
+
+www.newport-networks.com
+
+info@newport-networks.com
+
+The Newport Networks’ logo is a registered trademark of Newport Networks Ltd. MediaProxy™ and SignallingProxy™ are trademarks of Newport Networks Ltd. ©2006 Newport Networks Limited. All rights reserved. Whilst every effort has been made to
+ensure that the information included in this publication is accurate at the time of going to press, Newport Networks Ltd assumes no responsibility for the accuracy of the information. Newport Networks Ltd reserves the right to change their specifications at any
+time without prior notice. Some features described in this document may be planned for future releases and may not be available in the current product. Newport Networks Ltd reserves the right to modify its product development schedule without notice and
+does not guarantee that any feature or product mentioned in this document will be produced or produced in the form described.
+91-0087-01-0001-A
+
+

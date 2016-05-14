@@ -1,0 +1,215 @@
+Lawful Interception
+and Location Based Services
+
+©ATIS systems GmbH 2007
+
+ISS Dubai Feb 2007
+
+Content
+• Overview of Location Based Services
+(LBS)
+• Integration of LBS in LI platforms
+• Future trends and technical challenges
+
+Overview of LBS
+
+Location Types and Market Drivers
+• Location types
+– Geo-spatial coordinates
+– Civic addresses
+– Location attributes
+
+• Market Drivers
+– Regulation
+(E911, Data Retention)
+– Competition
+
+LBS Technology
+Networkbased
+Cell-based
+
+Cell ID
+Cell ID + TA
+
+UE-based
+
+LBS Technology
+Networkbased
+Cell-based
+
+Triangulationbased
+
+UE-based
+
+Cell ID
+Cell ID + TA
+TDOA , AOA
+
+E-OTD
+
+EFLT
+AFLT
+
+LBS Technology
+Networkbased
+
+Triangulationbased
+
+Cell ID
+Cell ID + TA
+TDOA , AOA
+
+Satellite-based
+(GNSS)
+
+HY
+
+BR
+
+EFLT
+
+E-OTD
+
+ID
+
+Cell-based
+
+UE-based
+
+A-GPS
+
+AFLT
+GPS
+
+Accuracy
+Network/ UE
+GPS + Network
+Assistance
+
+Network + Mobile
+Measurements
+
+Network
+
+Technology
+AGPS, GPS,
+GPS Hybrid
+
+Accuracy
+5-30m
+
+AFLT, EOTD
+
+100-200m
+
+TDOA, AOA
+
+100-200m
+
+EFLT
+
+250-350m
+
+CELL ID + TA
+CELL ID
+
+500m
+100- 3000m
+
+LI Location Based Applications
+•
+•
+•
+•
+•
+•
+•
+
+Accurate location
+Accurate tracking
+Valid reference over time
+Hot-zone in/out alerts
+Relation analysis
+Field operations management
+“Bad guy” gathering
+
+LBS Effect on Positioning
+
+8º41’13’’, 50º 7’1’’
+
+LBS Effect on Tracking
+
+Integration of LBS
+in LI Platforms
+
+LBS Architecture
+
+LI and LBS
+
+LBS in LEMF
+
+LBS in LEMF – Application
+
+LBS in LEMF – Positioning
+
+LBS in LEMF – Tracking
+
+Future Trends
+and Technical Challenges
+
+LBS in All-IP Domain
+• IETF – work in progress
+– RFC
+• Geopriv requirements, RFC-3693, Feb !04
+• DHCP coordinates-LCI, RFC-3825, Jul !04
+
+– Internet Draft
+•
+•
+•
+•
+
+ECRIT requirements, Apr !06
+DHCPv4/6 CIVIC, Jan !06
+Location types registry, Mar !06
+Carrying location objects in RADIUS, Mar !06
+
+• Wi/Fi LBS
+
+Future LBS in All-IP LI
+• All-IP markets
+– Future growth in IP-LBS
+– Growth in LBS-enabled devices
+
+• LI
+– Contribution to standardization efforts
+– Growth in LBS-based LI
+– Enhanced LEMFs with analysis tools based
+on movement profiles
+
+ATIS – who are we?
+Our mission ...
+•
+Working as your long-term partner for integrated
+lawful interception, monitoring and analysis
+solutions for communication networks
+
+..our business ...
+•
+•
+•
+•
+
+Private independent company with a 60-year history
+Approx. 200 employees
+Headquartered in Bad Homburg, Germany
+Offices in Switzerland, Abu Dhabi, Paris, Atlanta and
+Moscow
+• Extensive track record as a partner of law enforcement,
+network equipment vendors and network operators
+
+Questions ?
+
+Questions ?
+
+

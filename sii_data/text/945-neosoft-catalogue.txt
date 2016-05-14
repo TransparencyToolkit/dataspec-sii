@@ -1,0 +1,1258 @@
+About Us
+NeoSoft aims at the development, production and distribution of informatics and security products, based on cellular technologies 3G, GSM, CDMA.
+Our engineers and technologies developers have more than 15 years experience.
+Our worldwide known equipment is:
+
+..,. GSM/3G Mobile Active Monitoring System
+
+.... IMSI/ IMEI GSM/ UMTS catcher
+
+..,. GSM Passive Monitoring System
+
+.... InPoint SMS System
+
+.... GSM Hybrid Monitoring System
+
+.... GSM communication system
+
+.... CDMA Passive Monitoring System
+
+..,. Localization System
+
+• NeoSoft AG is situated in Zurich, Switzerland.
+• Our core business and competence are GSM technologies.
+• Using our GSM expertise we deliver the fastest and the easiest solutions for various applications.
+
+Our mission
+We elaborate and produce high quality equipment for counter-terrorism purpose, information protection and provision of public security. With our
+products we are making our contribution for a saver world. Our equipment is well known and distributed worldwide.
+
+Contents
+About Us
+1. GSM/3G Mobile Active Monitoring System NEOSOPT NS-15-1-SAS51 *
+2. GSM Monitoring Pully Passive System NEOSOPT NS-15-1-PS51 *
+3. GSM Monitoring Hybrid System NEOSOPT NS-15-1-HPS51 *
+4. GSM Portable Semi-Active System NEOSOPT NS-15-1-PAS51 *
+5. CDMA Monitoring Pully Passive System NEOSOPT NS-15-4-PS*
+6. A5 .1 Deciphering Network Unit NEOSOPT NS-15-1-DNU
+7. Deciphering Laptop NEOSOPT NS-15-1-DLP
+8. Handheld Direction Pinder NEOSOPT NS-15-DP
+9. Portable IMSI/IMEI 3G Catcher NEOSOPT NS-17-3G*
+10. Portable IMSI/IMEI GSM Catcher NEOSOPT NS-17-2G*
+11. SMS Advertising System NEOSOPT InPOINT SMS
+12. Portable GSM Communication System NEOSOPTNS-15-1-PCS
+13. Localization System NEOSOPT NS-15-5-LOC
+Contacts
+-- - - - -----------HHH __________
+
+--- ------ -------- - - -- ------------------·----------- -
+
+*The system is designed for govemment agencies and law enforcement groups only.
+
+GSM/3G Mobile Active Monitoring System
+NEOSOFT NS-15-1-SASSl
+Purpose:
+The system is designed for active real time GSM/ 3G monitoring in the following bands: 850, EGSM/1800,
+1900 MHz for GSM and 850, 900, 1700, 1900, 2100 MHz for 3G.
+The basic units of the system are GSM and 3G modules which provide communication with the
+corresponding types of mobile phones. Each of these units creates a fake BTS with the best operation
+parameters (GSM/ 3G) for communication. Since the mobile phone has registered within the fake GSM BTS
+ail connections can be monitored by the system. 3Gmobilephones will be downgraded to GSM operation
+mode and can be intercepted by GSM monitoring system.
+The basic units of the system are GSM and 3G modules which provide communication with the
+corresponding types of mobile phones. Each of these units creates a fake BTS with the best operation
+parameters (GSM/ 3G) for communication. Since the mobile phone has registered within the fake GSM BTS
+all connections can be monitored by the system . 3Gmobilephones will be downgraded to GSM operation
+mode and can be intercepted by GSM monitoring system.
+
+Features:
+• Secretly operates in real time with ail types of ciphering (AS .1,
+AS.2, AS.3) in GSM networks
+
+• Mapping of target position using combination of public internet
+BTS services and internai mobile phone's measurements
+
+• Detects GSM mobile phones located within the area controlled by the
+system
+
+• Correlation tool to find actual target's IMSI/IMEI identity
+
+• Manipula tes the state of mobile phones registered within the system
+• Records voice sessions, SS, SMS messages and call related
+information to HDD
+
+• Tunes TIC level of the searched mobile phone during "direction
+finding" procedure
+• Real time verification and KC evaluation for selected targets
+• Selective jamming for registered mobile phones
+
+• Calls and SMS censoring with network activity emulation
+
+• Remotely activates GPS receiver on the target's mobile phone
+
+• Manual and automatic Public Numbers (PN) detection for registered
+mobile phones
+
+• Automatic speech recognition (voice identification) system. (Optional)
+
+• Detects the change of SIM card or mobile phone
+
+• Special set for fitting into vehides and helicopters. Outstanding power
+supply solutions. Various options for reducing number of aerials.
+
+• Calls and SMS from system's operator to GSM network provider
+subscribers using target' s identity
+
+• Target's microphone activation. Certain limitations may apply
+
+• Tracking Cell information
+• Allows to marks the target's mobile phone with various icons that
+can't be deleted manually
+• Communication with SS7 system for target's 2G and 3G mobile
+phones localization
+
+• Monitoring of GPRS traffic. Certain limitations may apply.
+• Sending SMS to each registered mobile phone.
+• VPN IP connection.
+• High reliability of the equipment.
+
+GSM Frequency range
+
+850, 900, 1800, 1900 MHz
+
+UMTS Freq range
+
+850, 900, 1700, 1900, 2100 MHz
+
+Output power
+
+0.01- 10 Watts
+
+Operation range
+- In rural area
+- In urban area
+
+-up to 1500 m
+- up to 1000 m
+
+Support of Incoming calls, SMS
+
+Yes
+
+RF sensitivity
+
+-110 dBm
+
+Number of registered targets
+
+Unlimited
+
+Number of encrypted conversations at the same time
+
+1-6 for 1 Clone unit
+
+Connection with laptop
+
+LAN, Internet via VPN
+
+Dimensions:
+- GSM unit
+- 3G unit
+- Clone unit
+
+- 330x268x80 mm
+- 330x268x80 mm
+- 330x268x55 mm
+
+Operating temperature range
+
++0" to +55'C
+
+Power
+- Clone unit, GSM unit, 3G unit
+- Laptop
+
+- DC 24V
+- DC 20V
+
+GSM Monitoring Fully Passive System
+NEOSOFT NS-15-1-PSSl
+Purpose:
+The system is designed for passive real time GSM monitoring in ail existing
+GSM Networks worldwide: 850, EGSM/DCS, PCSranges and all type
+of encryption such as AS.O, AS.1, AS.2.The system works secretly and
+does not affect any settings of the GSM network provider. The prindple of
+operation of this system is to receive downlink channel (from GSM base
+station) and uplink channel (from mobile phone) simultaneously using
+multiple receivers, each of them tuned on totheone base station.
+The system consists of receivers which can manage several connections
+simultaneously. Oneunit (Receiver) has 8 duplexchannels. The final
+configuration of the system can consist of multiple units which allows to
+satisfy customer's requirements on the number of ARFCN channels.
+The Passive Monitoring System is completely undetectable. There is no
+transmission towards BTS or the mobilephone.
+
+For operation in countries with AS.1 GSM session coding the system can be additionally equipped with the special AS .1 deciphering multi-processor unit
+(Option). AS.2 deciphering featuresare presented in the form of special software on the operator's laptop.
+
+Features:
+• Fully passive real time traffic monitoring of forward and reverse
+ARFCN channels
+• Real time GSM AS.1, AS.2deciphering features.
+• Operates secretly at large distances.
+• "Random" and "Selective" operation modes.
+• Mapping of target position using combination of public internet BTS
+services and interna! mobile phone's measurements
+• Target TMSI identity detection in manual and automatic modes.
+• Target IMSI identity detection by SS7 request
+• Mapping Target location by SS7 request
+
+• Records on operator's laptop HDDall required GSM session information (incoming and outgoingvoiceand call related data, SMSmessages, SS, normal and periodic location updating, IMSI attach,
+IMSI detach)
+• 8 full duplex channels in one unit. There is no limit of units, which allows
+creationof thesystem with the following number ofARFCN channels: 32,
+64,128
+• Units can be used ail together (in one place) or separated from each
+other (each unit being used in different place)
+• Automatic speech recognition (voice identification) system (option)
+• LAN, Internet via VPN connection
+• High reliability of the equipment
+
+• Supports frequency hopping and ail types of voice codecs: FR, EFR, HR,
+AMR
+
+Frequency range
+
+850, EGSM/DCS, PCS
+
+Number of duplex channels in one Receiver
+
+8 duplex
+
+Maximum number of monitoring channels
+
+128 channels
+
+RF sensitivity
+
+-llOdBm
+
+Predicted operation range
+
+upto 35km
+
+Connection with operator's laptop
+
+LAN, Internet via VPN
+
+Receiver dimensions
+
+330x268x80 mm
+
+Power supply
+- Receiver
+- Laptop
+
+-DC 24V
+-DC 20V
+
+GSM Monitoring Hybrid System
+NEOSOFT NS-15-1-HPSSl
+Purpose:
+The Hybrid System enhancesthe capabilities of the Passive GSM
+monitoring system with Clone unit.
+Clone unit allows creationof a clone of the target's mobile phone, which
+helps to solve multiple tasks like public number detection (MSISDNs of
+targets), sencling SMS or even making a cal! on behalf of the target.
+
+Features:
+Ali features of Passive Monitoring System plus:
+• Automatic MSISDN detection of monitored targets. Various algorithms
+for PN detection: Calls, SMS , SS requests
+• The unique MSISDN database for NeoSoft passive and active monitoring
+systems
+• 1 Clone unit can contain up to 8 mobile phoneclones
+
+• Consists of several network units which provides advantages for
+operational purposes such as concealment, mobility, interchangeability,
+repairing. These units are easily controlled or even linked together
+remotely from the operator's laptop
+
+• Easily integrated into a vehicle for mobile applications
+• Special set for fitting into vehicles and helicopters. Outstanding
+power supply solutions. Various options for reducing number of
+aerials
+• Access to intercepted information in real time on private VPN
+channel
+• High reliability of the equipment
+
+Frequency range
+
+850, EGSM/ DCS, PCS
+
+Number of duplex channels in one Receiver
+
+8 duplex
+
+Maximum number of monitoring channels
+
+up to 128
+
+RF sensitivity
+
+-llOdBm
+
+Predicted operation range
+
+upto 35km
+
+Connection with operator's laptop
+
+LAN, Internet via VPN
+
+Dimensions:
+- Power supply
+- Clone box unit
+- Receiver unit
+- Decipher unit
+
+330x268x55 mm
+330x268x55 mm
+330x268x80 mm
+330x268x80 mm
+
+Power supply:
+- Receiver Unit
+- Clone Box Unit
+- Notebook
+
+-AC 110-230/24V
+-AC 110-230/24V
+-AC 110-230/20V
+
+GSM Portable Semi-Active System
+NEOSOFT NS-15-1-PASSl
+Purpose:
+The system is designed for active real time GSM monitoring in the following bands: 850,
+EGSM/1800, 1900 MHz.
+The basic unit of the system is portable GSM module which provides communication with mobile
+phones in the working area. It creates a fake BTS with the best operation parameters (GSM) for
+communication. Since the mobile phone has registered within the fake GSM BTS ail connections
+can be monitored by the system.
+The low-cost system configuration consists of the BTS module in the ruggedized case together
+with the gateway laptop for Internet connection, battery and a set of RX, TX and scanning aerials.
+A Clone unit is required to support incoming and outgoing communications of theregistered
+mobile phone with the real GSM network.The fake BTS and Clone unit are separated and
+connected via Internet VPN connection. For operation in countries with AS.1 GSM session coding
+the system can be additionally equipped with the special AS.1 deciphering multi-processor unit
+(Option) which is also connected to BTS via Internet VPN connection.
+The monitoring software can be installed on the gateway laptop as well as on remote computer.
+The top-level system configuration consists of the ruggedized case with the compact BTS,
+
+integrated clone unit,battery and software based AS.1 deciphering unit which is installed in the operator's laptop . The system has compact dimensions and
+is useful for target localization inside buildings, far located places and mountains.
+
+Features:
+• Secretly operates in real time with ail types of ciphering (AS .l , AS.2,
+AS.3) in GSM networks
+
+• Mapping of target position using combination of public internet
+BTS services and internai mobile phone's measurements
+
+• Detects GSM mobile phones located within the area controlled by
+the system
+
+• Correlation tool to find actual target's IMSI/IMEI identity
+
+• Manipulates the state of mobile phones registered within the system
+• Records voice sessions, SS, SMS messages and call related information
+toHDD
+• Calls and SMS censoring with network activity emulation
+
+• Tunes TX level of the searched mobile phone during "direction
+finding" procedure
+• Real time verification and KC evaluation for selected targets
+• Selective jamming for registered mobile phones.
+• Remotely activates GPS receiver on the target's mobile phone.
+
+• Manual and automatic Public Numbers (PN) detection for registered
+mobile phones
+
+• Automatic speech recognition (voice identification) system. (Optional)
+
+• Detects the change of SIM card or mobile phone
+
+• Special set for fitting into vehides and helicopters. Outstanding power
+supply solutions. Various options for redudng number of aerials
+
+• Calls and SMS from system's operator to GSM network provider
+subscribers using target' s identity
+
+• Target's microphone activation. Certain limitations may apply.
+
+• Allows to marks the target's mobile phone with various icons that can't
+be deleted manually
+
+• Monitoring of GPRS traffic. Certain limitations may apply.
+
+• Communication with SS7 system for target's 2G and 3G mobile phones
+localization
+
+• VPN IP connection.
+
+• Sending SMS to each registered mobile phone.
+• High reliability of the equipment.
+
+• Tracking Cell information
+Frequency range
+
+850, 900, 1800, 1900 MHz
+
+Output power
+
+0.04 - 4 Watts for case option
+
+Operation range
+- In rural area
+- In urban area
+
+up to 1000 m
+upto 700 m
+
+Support of Incoming calls, SMS
+
+Yes
+
+RF sensitivity
+
+- 110 dBm
+
+Number of registered targets
+
+Unlimited
+
+Number of encrypted conversations at the same time
+
+1-6 depends of amount of clone stations
+
+Connection with operator's laptop
+
+LAN, Internet via VPN
+
+Extemal battery
+
+capability to autonomous operation up to 8 hours
+
+Dimensions:
+- Portable GSM BTSunit
+- Clone unit
+
+- 290x260x75mm
+- 330x268x55 mm
+
+Operating temperature range
+
++0' to +SS'C
+
+Power:
+- Portable GSM BTS unit
+- Cloneunit
+- Laptop
+
+- DC 12-24V
+- DC 24V
+- DC 20V
+
+COMA Monitoring Pully Passive System
+NEOSOFT NS-15-4-PS
+Purpose:
+The system is designed for fully passive real time CDMA monitoring in
+the following ail existing Networks worldwide: CDMA 1 (IS-95, IS-95A,
+IS-9SB) and COMA 2000 (CDMA lx).
+The system works secretly and does not affect any settings of the CDMA
+network provider. The principle of operation of this system is to receive
+downlink channel (from CDMA base station). Since the CDMA mobile
+phone establish ed connection with another subscriber then the system
+uses one of receivers to control uplink channel (from mobile phone).
+The system consists of Receivers which can manage several connections
+simultaneously.
+
+•.:.r . .:. . .
+: . ..• •••• ...
+....
+. ... . . . . . . . . .
+"'
+
+....
+
+Oneunit(Receiver) has 4 channels. These channels will be reconfigured during voice communication into 2 duplex channels. The final configuration of the
+system can consist of multiple units which allows to satisfy customer's requirements on the number of channels.
+The Passive Monitoring System is completely undetectable. There is no transmission towards COMA base station or the mobile phone.
+
+Frequency bands
+
+450/800/1900 MHz
+
+Supported COMA Protocols
+
+COMA 1 (IS-95, IS-95A, IS-95B) and COMA 2000 (COMA lx)
+
+Supported voice codecs
+
+VRSC, EVRC, QCELP
+
+Channelsensitivity
+
+-llOdBm
+
+Ouplexing scheme
+
+FOO
+
+Number of monitoring BTS
+
+4 (for one Receiver)
+
+Number of duplex channels
+
+2 (for one Receiver)
+
+Number of monitoring targets
+
+Unlirnited
+
+Type of Operation
+
+Pully Passive
+
+Modes of Operation
+
+Random /Target Selection
+
+Effective range
+
+Up to 700m
+
+COMA Receiver's dimensions
+
+330x268x55 mm
+
+Power supply
+- Receiver
+- Persona! computer
+
+OC24V
+OC20V
+
+Weight
+
+3kg
+
+Operating temperature range
+
++o· to +45°C
+
+Connection via LAN or WLAN
+
+Yes
+
+• Oetects subscriber's real phone number or ESN during his registration in the network and cal!
+• Oetects real phone number (if subscriber has Calier ID function)
+• Records voice sessions, incoming SMS messages and cal! related information to HOO.
+
+AS.l Deciphering Network Unit
+NEOSOFT NS-15-1-DNU
+Purpose:
+The Deciphering network multi-processor unit is designed as optional equipment
+for NeoSoft active, passive and hybrid GSM monitoring systems. It is required for
+operation in countries with AS.1 GSM session coding.
+The AS .1 coding is a stream cipher which is used to provide over-the-air (OTA)
+communication privacy in the GSM cellular standard. As the result, ail OTA data
+is covered by the session key KC . When discovering KC, one can restore an entire
+GSM session with voice, SMS recording, etc.
+The hardware is controlled by a computer which is responsible for the deciphering
+configuration and the communication between the AS .1 Deciphering unit and
+NeoSoft GSM monitoring system. The AS.l Deciphering unit is a network device
+and can be connected to the operator's computer either directly by LAN cable or
+wirelessly using any available communication (GPRS, UMTS, satellite link, etc.) or
+via highly secured Internet VPN connection.
+
+-
+
+--.. :: :...........
+. . . ... . . ..
+:
+
+..
+
+The special software for A5.1 Deciphering unit can maintain more than one NeoSoft GSM system according with the priority. It is a typical
+server-client application. Usually, A5 .l Deciphering unit is located in a customer'shead quarter and is connected with GSM monitoring systems via
+Internet or Intranet.
+
+Handling of parallel evaluation
+
+Max BO KC
+
+Minimum deciphering time
+
+0.01 sec
+
+Average deciphering time (for probability > 98%)
+
+0.5 s
+
+Connection with NeoSoft GSM System
+
+Ethernet, Internet
+
+Operating temperature range
+
++5° to +25 ° c
+
+Storage temperature range
+
+-20° to +60° C
+
+Humidity
+
++40° C at 95% humidity
+
+Power supply
+
+DC24V
+
+Power consumption
+
+50W
+
+Dimensions
+
+330x268x80mm
+
+Weight
+
+5.6kg
+
+• One deciphering unit serves several GSM monitoringsystems with priority tuning.
+• Severa! decipheringunits can be used with one GSM monitoring system at the same time.
+
+Dedphering Laptop
+NEOSOFT NS-15-1-DLP
+Purpose:
+The Deciphering laptop is designed as optional equipment for NeoSoft passive, hybrid and
+portable active GSM monitoring systems. It is required for operation in countries with AS.1
+GSM session coding.
+The AS.1 coding is a stream cipher which is used to provide over-the-air (OTA)
+communication privacy in the GSM cellular standard. As the result, al! OTA datais covered
+by the session key KC. When discovering KC, one can restore an entire GSM session with
+voice, SMS recording, etc.
+The decipheringunit is implemented as software/ hardware in the operator's laptop which is
+responsible for the deciphering configuration and the communication between the AS .l
+Deciphering unit and NeoSoft GSM monitoring system. The AS.1 Deciphering unit is a
+network device and can be connected to the operator's computer either directly by LAN
+cable or wirelessly using any available communication (GPRS, UMTS, satellite link, etc.) or
+via highly secured Internet VPN connection.
+
+<
+
+•
+
+The special software for A5.1 Deciphering unit can maintain more than one NeoSoft GSM system according with the priority. It is a typical server-client
+application.
+Usually, A5.1 Deciphering unit is located in a customer's head quarter and is connected with GSM monitoring systems via Internet or Intranet.
+
+Minimum deciphering time
+
+0 .01 sec
+
+Averagedecipheringtime(forprobability> 983)
+
+1.Ss
+
+Connection with NeoSoft GM system
+
+Ethernet, Internet
+
+Operating temperature range
+
++5° c to +25°
+
+Storage temperature range
+
+-20' C to +60' C
+
+Humidity
+
++40°C at 953 humidity
+
+Power Supply
+- laptop
+
+DC20V
+
+Weight
+
+4,5kg
+
+• 2 KCs calculation in parallel
+• One deciphering unit serves several GSM monitoringsystems with priority tuning
+• Severa! deciphering units can be used with one GSM monitoring system at the same time.
+
+c
+
+Handheld Direction Finder
+NEOSOFT NS-15-DF
+Purpose:
+Direction finder is intended for searching and localizing handsets
+operating in EGSM/ DCS and 850/ PCS GSM bands.
+It is the optional equipment for mobile or portable active GSM
+
+•
+
+monitoring systems by NeoSoft.
+Since the mobile phone is registered by the active GSM monitoring
+system and the system's operator activated it's transmitter by the special
+software then the Direction finder (DF) can detect the direction of this
+transmission. The DF must be tuned to the same ARFCN channel as the
+BTS of the GSM monitoring system.From this moment the DF user will
+hear the detected sound signais of TDMA sequence natural for GSM
+
+~
+
+telephony. While operating the DF it is necessary to connect it to the
+antenna connector of the corresponding range. Rotating the antenna
+right or left allows achieve the maximum in signal level reading on the
+contrai unit LED or the maximum volume level in the head-phones or
+Bluetooth headset.
+
+1
+
+,_____ -
+
+1
+
+Features:
+Depending on direction and distance from the object volume level in
+head phones will change.
+
+• Compact dimensions
+• Case and body factor form options
+
+The maximum volume of the sound signal is correlated with the target's
+
+• Thin radiation pattern
+
+location. While the operator is approaching the object under searching, it
+might be necessary to change sensibility of the device switching on
+attenuator 10-60 dB.Attenuation value must be detected by experiment.
+
+• Included attenuator with remote control
+• Sound indication in wired and Bluetooth headsets
+
+Operation band
+
+EGSM/1800 and 850/1900 MHz
+
+Attenuator
+
+10-60 dB
+
+Operation distance
+
+up to SOOm
+
+Distance correlation parameter Sound
+
+TDMA sequence
+
+Type of direction acoustic indicator
+
+wired and Bluetooth headset
+
+Radiation pattern for basic antennas:
+
+Case Variant
+
+-- ------------------- ---------
+
+-------------------
+
+---~
+
+--------------------------------
+
+Body keeping
+
+--~- - - - -- ---------------------------------------·-·
+
+---------
+
+-----· --------------------------------
+
+Portable IMSl/IMEI 3G Catcher
+NEOSOFT NS-17-3G
+Purpose:
+The system is designed for government agencies and law enforcement groups in order
+to collect basic identities (IMSI, IMEI) of 3G mobile phonesin the working area
+(airport terminals, prisons, etc.).
+The basic unit of the system is 3G module which provides communication with the
+corresponding types of mobile phones. It also creates a fake BTS (Node B) with the
+best operation parameters for 3G communication. If the mobile phone try to register
+within the Node Bit present IMSI, IMEI identities and some detail information about
+communication capabilities. When required information is collected by the 3G
+Catcher then the mobile phone can be released to 3G provider's network or
+be downgraded to GSM operation mode. In the last casethe mobile phone can be
+intercepted by GSM monitoring system.
+It is also possible to make correlation analysis of IMSI/IMEI identities collected in the
+different places and estimate actual target's identity. The 3G Catcher is fully
+compatible with GSM/3G Mobile Active Monitoring System. It can be used either as
+a stand-alone device or be integrated with NeoSoft GSM Monitoring systems.
+
+: : ......
+....
+. . . . .....
+. .. .
+"
+
+"
+
+"
+
+"
+
+Features:
+• Semi-active type of the IMSI/ IMEI collection algorithm
+• Sean and detects 3G networksin the working area
+• Detects 3G mobile phones and collects their identities (IMSI, IMEI and
+TMSI)
+• Displays phone model, country of origin and the network provider
+
+Frequency Range
+
+Operation Range
+- In rural area
+- In urban area
+
+• The accuracy of distance measurementsfor 3Gmobile phones is less
+than 30 meters
+• Selectively forces 3G mobile phones to GSM operation mode
+• Selectively blocks communication of 3G mobile phones
+• Detects the actual target' s identities using "Target correlation" feature
+
+UMTS Bandl UMTS Band2 UMTS Band4 UMTS BandS UMTS Band8 -
+
+2100 MHz
+1900 MHz
+1700 MHz
+850 MHz
+900 MHz
+
+upto 1500 m
+up to 700m
+
+Average output power in 5 MHz
+
+0.1-5 Watts
+
+PldB power
+
+5 mW-25W
+
+Dimensions
+
+330x268x80mm
+
+Power supply
+- 3G BTS Unit (Node B)
+- Operator's laptop
+
+DC24V
+DC20V
+
+Connection via LAN or WLAN
+
+Yes
+
+•
+
+Portable IMSI/IMEI GSM Catcher
+NEOSOFT NS-17-2G
+Purpose:
+The system is designed for govemment agencies and law enforcement groups in order to
+collect basic identities (IMSI, IMEI) ofGSM mobile phones (MP) in the working area (airport
+terminals, prisons, etc.).
+The basic unit of the system is GSM module which provides communication with the
+corresponding types of MP. It creates a fake BTS with the best operation parameters for GSM
+communication. If the MPtry to register within the fake BTSit present IMSI, IMEI identities
+and some detail information about communication capabilities.
+When required information is collected by the GSM Catcher then the MP can be accepted or be
+released to GSM provider's network. If the MP is accepted by the GSM Catcher then operator
+can arrange calls and SMS messages toit. Also it will be possible to activate MP's transmitter
+and detect target' s location with the help of Direction fmder device (option).
+The system configuration consists of the BTS module in the ruggedized case together with the
+gateway laptop for Internet connection, battery and a set of RX, TX and scanning aerials.
+
+The software also provides correlation analysis of IMSI/ IMEI identities collected in the different places and estimate actual target's identity.
+The system has compact dimensions and is useful for target localization inside buildings, far located places and mountains.It can be used either as a stand-alone
+device or integrated in a NeoSoft GSM monitoring systems.
+
+Features:
+• Semi-active type of the IMS!/IMEI collection algorithm
+• Accepts selected mobile phones with capability of calls and SMS
+communication with the system's operator
+
+• Allows to marks the target's mobile phone with various icons that
+can't be deleted manually
+• Algorithmic optimization for catcher's functionality. Powerful
+output amplifier is not required
+
+• Selective jamming of mobile phones feature
+• Mobile phone presence verification
+• Mobile phone direction finding. (Option)
+• Mapping of target position using combination of public internet BTS
+services and intemal mobile phone's measurements.
+
+• Sending SMS to each registered mobile phone
+• VPN IP connection
+• Target's correlation feature
+
+Frequency Range
+
+850, 900, 1800, 1900 MHz
+
+Output power
+
+0.1-4 Watts
+
+Operation Range
+- In rural area
+
+up to 1000 m
+
+- In urban area
+
+up to 700m
+
+Power supply
+- GSM BTS Unit
+
+DC 12-24 V
+
+- Operator's laptop
+
+DC20v
+
+Extemal battery
+
+autonomous operation up to 8 hours
+
+Connection via LAN or WLAN
+
+Yes
+
+Dimensions:
+- GSM BTS Unit
+
+290x260x75 mm
+
+SMS Advertising System
+NEOSOFTinPOINTSMS
+Purpose:
+The system is designed to send a bull< of advertising SMS messages or even security
+messages to handsets in local areas (banks, businesses, railway stations, shops, hotels,
+ships, etc.)
+The basic unit of the system is GSM module which provides communication with the
+corresponding types of mobile phones. It creates a fake BTS with the best operation
+parameters for GSM communication. If the mobile phone will try to register within
+the fake BTSthen itwill receive required SMS message and will be released to GSM
+provider's network. The system has power adjustment feature and a set of directional
+aerials to create various operation areas(Private zones).
+
+Features:
+The system is aimed to provide SMS service only in the private area accord-
+
+• Full independence from the real GSM provider
+
+ing to the following rules:
+
+• SMS messages are absolutely free for the sender as well as for the
+subscriber
+
+• Sends broadcastSMS only to people who corne to the system's working
+area (potential business partners);
+
+• Sends SMS to all the GSM mobile phones which are coming into its
+working area with no limitations
+
+• Public numbers of mobile phones stay unknown for the operators of the
+system;
+
+• Sends SMS to all phone types and different GSM providers
+
+• Personal datais not collected;
+
+• Unlimited text size (amount of characters) gives a chance to send
+long texts with detailed descriptions
+
+• The system does not install any software, viruses etc on the processed
+mobile phones.
+
+• Possibility to put any text in the "SENDER" ("FROM") field
+• Very simple in use with an easy interface
+
+The system may be also useful for govemment agencies and law
+enforcement groups. The system can provide circular GSM messaging
+in cases of emergency, help to looking for eye-witnesses or giving
+instructions to people in disastrous areas.
+
+By utilizing our advertising system the following objectives can be achieved:
+• create a special outlook system that detects presence of new handsets in the place of interest and sends advertisement messages to each of them;
+• increase the attractiveness of your business to the customers;
+• keep interested parties updated about ongoing promotions, sweepstakes, contests, discounts, schedule changes, etc;
+• SMS-broadcasting in creative combination with news, finances, sport information, lottery results, and even horoscopes;
+• a company of any size can transfer information about its special offers to their existing and potential customers;
+• now it is not necessary to be contacted individually to each potential customer. Thus, spending for printed products can be reduced.
+
+Frequency Range
+
+850, 900, 1800, 1900 MHz
+
+Output power
+
+0.1-4 Watts
+
+Operation Range
+- In rural area
+- In urban area
+
+up to 1000 m
+upto 700m
+
+Number of SMS per 1 min
+
+up to 3000
+
+Power supply
+- GSM BTS Unit
+- Operator's laptop
+
+DC 12-24 V
+DC20v
+
+External battery
+
+autonomous operation up to 8 hours
+
+Connection via LAN or WLAN
+
+Yes
+
+Dimensions
+- GSM BTS Unit
+
+290x260x75 mm
+
+Portable GSM Communication System
+NEOSOFT NS-15-1-PCS
+Purpose:
+The system is designed for providing GSM communication in a local
+terri tory in the following bands: 850, EGSM/1800, 1900 MHz.
+The basic unit of the system is portable GSM module which provides
+communication with mobile phones in the working area. It creates a
+fake
+
+BTS
+
+with
+
+the
+
+best
+
+operation
+
+parameters
+
+(GSM)
+
+for
+
+communication. Since the mobile phone has registered within the fake
+GSM BTS all connections can be monitored by the system.
+The low-cost system configuration consists of the BTS module in the
+ruggedized case together with the gateway laptop for Internet
+connection, battery and a set of RX, TX and scanning aerials. It
+provides communication for registered mobile phones inside BTS
+working area. This may be useful in emergency cases when GSM
+provider network is damaged or absent.
+
+1
+
+1
+
+1
+
+A Clone unit is required to support incoming and outgoing communications of theregistered mobile phone with the real GSM network.The fake BTS
+and Clone unit are separated and connected via Internet VPN connection.
+For operation in countries with A5 .l GSM session coding the system can be additionally equipped with the special A5.1 deciphering multi-processor
+unit (Option) which is also connected to BTS via Internet VPN connection.
+The communication software can be installed on the gateway laptop as well as on remote computer.
+The top-level system configuration consists of the ruggedized case with the compact BTS, integrated clone unit,battery and software based A5.l
+deciphering unit which is installed in the operator's laptop.
+
+Features:
+• Internal corporate GSM communications for employees and clients
+using their own handsets
+• GSM communications for VIP persans and convoy in case intelligent
+jamminguse
+
+• Provides GSM-VOIP communication
+• Allows routing of handsets abroad through third party countries
+across non-interceptable and non-decryptable internet channels
+• High equipment's reliability
+
+• GSM communications in case of earthquakes and acts of terrorism
+• GSM communication for travelers, seamen, mountain-climbers,
+expeditions, etc.
+
+GSM Frequency range
+
+850, 900, 1800, 1900 MHz
+
+Output power
+
+0.01- 10 Watts
+
+Operation range
+- In rural area
+- In urban area
+
+up to 1500 m
+up to 1000 m
+
+Support of Incoming calls, SMS
+
+Yes
+
+RF sensitivity
+
+-110 dBm
+
+Number of registered targets
+
+Unlimited
+
+Number of encrypted conversations at the same time
+
+1-6 for 1 Clone unit
+
+Connection with laptop
+
+LAN, Internet via VPN
+
+Dimensions:
+-BTS unit
+- Clone unit
+
+330x268x80 mm
+330x268x55 mm
+
+Operating temperature range
+
++o· to +55°C
+
+Power
+- Clone unit
+- BTS unit
+- Laptop
+
+DC24V
+DC 12-24V
+DC20V
+
+Localization system
+NEOSOFT NS-15-5-LOC
+Purpose:
+The system is designed for government agencies and law enforcement
+groups to detect mobile phone location ail over the world. The system
+operates secretly and support 2G and 3G mobile phones types. lt can
+detect lMSI identity, Cel! ID and geographic coordinates of the BTS that
+registered the interested mobile phone.
+The Localization System requires connection to SS7 GSM/ 3G provider
+signaling system and connects to probes which are installed in the
+cellular network. Normally for SS7 requests the mobile phone can be
+detected with the accuracy from lOOm to lkm. The NeoSoft special
+software increases the accuracy of localization due to combination of
+public internet BTS services and interna! mobile phone's measurements.
+If the customer already have SS7 connection then the system can be
+connected directly toit. It is also possible to rent NeoSoft service of SS7
+connection.
+
+The system can be used either as a stand-alone device or integrated with NeoSoft GSM Monitoring Systems.
+In conjunction with our Monitoring Systems and IMSI/IMEI Catcher and Triangulation Method, an exact location of targets worldwide including
+monitoring possibilities can be achieved.
+
+Features:
+• Ali target movementscan be recorded
+• Fully integrated in NeoSoft Passive, Active and Hybrid Systems
+• Fully integrated in NeoSoft IMSI/IMEI Catcher.
+• Automatic IMSI detection of the target from the Public Number
+
+• Extends NeoSoft GSM system to provide the location of a target
+in case the target is not in the range of our system.
+• Shows each cell on the Map. (Different sources and possibilities to
+add user-defined data and sources).
+• Various statistical analyses with collected identities.
+
+• Shows time when the target registered in this Cell ID. Update
+itscurrent position using silent SMS.
+
+Supported mobile phone types
+
+GSM,3G
+
+Operation range
+
+inside GSM/3G networks worldwide
+
+Detailed info
+
+cellular network provider depended
+
+Power
+- Laptop
+
+- DC 20V
+
+Contacts
+We welcome your comments and suggestions on the quality and usefulness of this publication.
+Your feedback is an important part of the information used for revision.
+• Did you fmd any errors?
+• Is the information clearly presented?
+• Do you need more information? If yes, please specify.
+• What features do you like most about this manual?
+If you fmd any errors or have any suggestions for improvement, please let us know the name, and revision of the document
+and specify the chapter, section and page number. You can contact us by using any of the following methods:
+
+www.neosoft.ch
+E-mail: info@neosoft.ch
+Phone: +41 44 520 08 04
+Çl
+
+Postal Address:
+
+NeoSoftAG
+Uetlibergstrasse 132,
+CH-8045,
+Zurich, Switzerland
+
+El!iJ
+
+....
+
+Zo11ch Enge
+
+EJ El liil
+Ê11ge
+
+

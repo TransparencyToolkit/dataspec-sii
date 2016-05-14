@@ -1,0 +1,1247 @@
+ 
+
+Advanced Video
+Audio Recorder
+Model 5605
+(Manual)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+1 
+
+ 
+
+Table of Contents
+ 
+1. Caution ................................................................................................... 3
+
+1.1 Important Safety Rules .......................................................................................... 3
+
+2. Copyright Protection .............................................................................. 3
+3. Introduction to the TSE 5605 ................................................................. 4
+
+3.1 Overview of the TSE 5605 DVR ............................................................................ 4
+3.2 Highlights ............................................................................................................... 4
+3.3 The TSE 5605 DVR Features ................................................................................. 4
+
+4. System Basics ....................................................................................... 5
+
+4.1 Power and Batteries .............................................................................................. 5
+4.2 Charging The Unit .................................................................................................. 5
+4.3 Displaying The Battery Charge .............................................................................. 5
+4.4 Battery Technical Data ........................................................................................... 6
+4.5 Cables and Connections ........................................................................................ 6
+4.6 Connector Specification ......................................................................................... 7
+4.7 Microminiature D-Type Connectors ....................................................................... 7
+4.8 Standard Connections ............................................................................................ 8
+4.9 Connecting Cables ................................................................................................. 8
+4.10 Connecting Audio-Video Cables........................................................................... 9
+4.11 Compact Flash ................................................................................................... 10
+
+5. TSE 5605 Manager - Introduction (PC Configuration Utility) ................ 10
+
+5.1 Philosophy............................................................................................................ 10
+5.2 Minimum System Requirements......................................................................... 11
+5.3 How to install The Manager 1.0 ........................................................................... 11
+5.4 How to program a Compact Flash ....................................................................... 11
+
+6. The TSE 5605 Manager Settings ......................................................... 12
+
+6.1 Video Setup.......................................................................................................... 12
+6.2 Audio Setup ......................................................................................................... 15
+6.3 On Screen Display Setup ..................................................................................... 17
+6.4 Confidence Indicator ............................................................................................ 18
+6.4 Confidence Indicator ............................................................................................ 19
+6.5 Recording Setup .................................................................................................. 20
+6.6 Remarks ............................................................................................................... 24
+6.7 Serial Link............................................................................................................. 25
+6.8 Save as................................................................................................................. 25
+6.9 Compact Flash ..................................................................................................... 28
+
+9. Technical Specifications ....................................................................... 33
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+2 
+
+ 
+
+Advanced Video Audio Recorder
+
+Model 5605
+
+ 
+
+1. Caution
+ 
+1.1 Important Safety Rules
+NEVER OPEN THIS DEVICE. All maintenance, enhancement, or repair operations
+must be performed exclusively at our factory. Moreover, the device must be
+protected against rain and moisture in order to avoid damage to its electronic
+components.
+
+• The device works at a voltage of 5 Volts
+• Use only the power supply unit supplied with the TSE 5605.
+• Connecting the device to a power supply source, other than that specified, can
+lead to destruction of the device
+
+• Should humidity or any foreign material enter the device, disconnect it immediately
+
+from the electric power supply. Do not attempt to repair the device yourself. Call
+your Distributor to arrange for qualified assistance
+• Should the device not be used for extended periods, disconnect it from the electric
+power supply in addition to simply switching it off. To avoid the loss of data,
+always switch the device off first and then disconnect it from the electric power
+supply.
+Warnings are provided throughout this Manual to prevent damage to equipment or
+loss of data. Note these particular warnings:
+Chapter 4:
+Battery
+Chapter 4:
+Compact Flash Formatting - The formatting operation will delete all of the data on
+the CF. It is impossible to recover the data once it is deleted.
+WARNING
+Unauthorized alteration, modification or sale, and/or the improper use of, any TSE
+5605 is unlawful and strictly forbidden.
+
+2. Copyright Protection
+ 
+Video recordings, movies, and/or TV broadcasts may be protected by or subject to
+copyright law. The recording of such materials may be illegal, or may require the
+authorization of the copyright holder. (This protection holds true, in particular, for
+materials recorded from Cable TV stations.)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+3 
+
+ 
+
+3. Introduction to the TSE 5605
+ 
+3.1 Overview of the TSE 5605 DVR
+Thank you for purchasing the TSE 5605 Solid State Digital Audio/Video Recorder
+from us. The TSE 5605 has been specifically designed for Law enforcement
+applications in which a concealable, high quality recorder is required. The TSE 5605
+is light and compact, making it easy to hide on an agent’s body, in an automobile, in
+a wall or ceiling, or in virtually any other small space. It is housed in a rugged
+aluminum anodized case in order to withstand even the most difficult conditions in
+the field.
+
+3.2 Highlights
+
+ 
+- Extremely Small
+- Superior Quality via MJPG
+compression
+- Removable Compact Flash that in
+seconds can easily be swapped in the
+field with a spare when memory is full
+- Twin Stereo Microphone
+- Recording Start/Stop Switch
+- Low-Battery signal with LED or
+vibration feedback
+- Compact Flash configuration via PC
+interface
+- NTSC/PAL Format
+
+- Color and B/White recording
+mode
+- Time Lapse Frequencies:
+25,12,6,3,1
+- Hi-Fi Quality Stereo Audio
+Recording
+- No Moving Parts, No Noise
+- 5V/200 mAh power supply for
+camera
+- Comment Time/Date stamping
+with OSD (On-Screen Demand)
+functionality
+- Confidence Indicator
+- RS-232 Control
+
+3.3 The TSE 5605 DVR Features
+
+• Hardigg Case IM2050
+• TSE 5605 Digital Video Recorder
+• 5-Volt Power Supply
+• 15-Pin MIL Connector for Input Cable
+• Remote Record Switch, Video, Audio, Left and
+
+Right Channels with two external Knowles
+microphones
+• 9 Pin MIL Connector with cables
+• Input for 5-Volt Power Supply, Video output, Left
+and Right channel Audio Output
+• 9 Pin connector for RS232 connection via PC
+• CD-ROM with the Manager Software version 1.0
+and User Guide
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+4 
+
+ 
+
+4. System Basics
+
+4.1 Power and Batteries
+The TSE 5605 unit features a built-in 1300 mAh Lithium-Ion rechargeable battery.
+
+4.2 Charging The Unit
+To recharge the built-in Lithium-Ion battery, simply connect the unit to the included
+Power Supply. Connect the 3.5 Male DC-Plug on the TSE 5605 to the Female DCPlug on the Power Supply and plug the Power Supply into the wall outlet. Switch the
+unit ON. Make sure that the switch on the unit is in the ON position (see Fig. 1).
+This connection will begin to recharge the unit automatically. It normally takes two
+hours to fully charge the battery.
+The unit comes with a Universal Auto-Switching AC/DC Power Supply with an input
+range of 110-240 volts AC and an output voltage of 5 volts DC.
+
+4.3 Displaying The Battery Charge
+Please note that can be recharged with or without the Compact Flash (CF) card in
+its slot.
+If the CF card is not in its slot while charging the TSE 5605, there will not be any
+visual indication (LED) - See Fig. 5.
+If the CF card is in its slot while charging the unit, the LED indicators may or may not
+provide a visual indication depending on the circumstances.
+The settings pertaining to the Battery-Charge Status LEDs may have either been
+enabled or disabled in the software contained on the TSE 5605 CF card.
+If the “LED Status” functionality is set to Inactive, no visual indication will be
+provided when charging the battery. In this case, after plugging the 9-Pin Mil
+connector into the unit and connecting the Power Supply, the internal batteries will
+begin to charge; at the end of the charging period the LEDs will still be off.
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+5 
+
+ 
+Recommended Procedure:
+During the recharge cycle, a red LED will be a permanently lit (see Fig. 4). After the
+battery is fully charged, the LED will remain on, but the color will change to green
+(see Fig. 3).
+During operation, i.e. when the unit is powered by internal batteries, the Battery LED
+will be off at all times (see Fig. 2). Using the Manager program, it is possible to set
+up a warning light when the residual battery power is almost exhausted. This system
+was devised to ensure both low power consumption and fewer lights visible on the
+outside surface of the unit. If so desired, you can enable a Low-Battery signal from
+the internal vibration device (Vibra Motor).
+For additional information on LED Status, please refer to the Confidence Indicator
+Section.
+LED
+Static Red
+Static Green
+LED Light Off
+Flashing Red
+
+Description
+Battery Charging
+Battery Charged
+Battery Operation
+Low Battery
+
+Mode
+External Supply Providing 5 V
+External Supply Providing 5 V
+Unit Powered By Internal Battery
+Unit Powered By Internal Battery
+
+When the battery is discharged, the TSE 5605 performs three steps:
+1. Stops recording and closes current video clip.
+2. Internal circuitry goes on stand-by in Sleep Mode.
+3. The Battery circuitry is deactivated.
+
+4.4 Battery Technical Data
+Charge time for 1300 mAh Li-Ion Cell: 2 hours from completely discharged to fully
+charged
+Pre-charge period. When the battery is completely dead, it requires a 20 minute precharge before the unit will power on.
+
+4.5 Cables and Connections
+The unit Microminiature Twist-Pin Connectors offer uncompromising performance in
+a miniature package.
+This connector is suitable for applications requiring reduced size and weight, these
+MIL-DTL-83513, BS9523F0002 and BS9524F0013 approved connectors are used in
+missile systems, avionics, battlefield gear, and in other demanding Military and Law
+Enforcement applications.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+6 
+
+ 
+4.6 Connector Specification
+Shell - Aluminum Alloy 6061 or Stainless Steel
+Insulation - Liquid Crystal Polymer (LCP)
+Interface Seal - Flourosilicone Rubber, Blue
+Pin Contact - Beryllium Copper Gold over Nickel Plating
+Socket Contact - Copper Alloy Gold over Nickel Plating
+Hardware - Stainless Steel
+Encapsulant - Epoxy Resin
+Operating Temperature - from - 55° to +150° C.
+Shock, Vibration 50 g., 20g.
+Mating Force: (10 Ounces) X (# of Contacts)
+
+4.7 Microminiature D-Type Connectors
+The unit includes two 9-Pin and 15-Pin connectors
+
+The following is a complete list of system functionality
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+1
+2
+3
+4
+5
+6
+7
+
+15 Microminiature Connector
+Input: Tens 5-volt external power supply and battery charger
+Output: Tens 5-volt power supply for Camera and external small
+accessories
+Input: Digital remote in
+Input: Audio line & microphone level Left
+Input: Audio line & right microphone level
+Output: Tens 1.8 volts for microphone power supply
+Input: Video 1 Vpp 75 Ohm
+Digital Input: Power on - off
+Digital Output: Remote out
+Digital Output: External LED
+9 Microminiature Connector
+Input: Tens 5-volt external power supply and battery charger
+Input: RX serial RS232
+Output: Audio line level Right
+Output: Audio line level Left
+Output: Video 1 Vpp 75 ohm
+Output: 3.3 volts for supplying small external
+accessories
+Output: TX serial RS232
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+7 
+
+ 
+
+4.8 Standard Connections
+1
+2
+3
+4
+5
+
+15 Microminiature Connector
+Input: Video 1 Vpp 75 Ohms
+Input: Audio line & microphone level left
+Input: Audio line & right microphone level
+Output: Tens 1.8 Volts for microphone power supply
+Input: Digital remote in
+
+1
+2
+3
+4
+5
+6
+
+9 Microminiature Connector
+Input: Tens 5-volt external power supply and battery charger
+Input: RX serial RS232
+Output: Audio line level right
+Output: Audio line level left
+Output: Video 1 Vpp 75 ohm
+Output: TX serial RS232
+
+4.9 Connecting Cables
+The Microminiature 15-pin D-type connector terminals are mapped as follows:
+RCA Yellow Female
+Microphone Level Left
+Microphone Level Right
+Small anodized element with
+switch
+
+Video Input
+Audio Input Left with Knowels Microphone
+powered @ 1.8 V
+Audio Input Right with Knowels Microphone
+powered @ 1.8 V
+Two-Position Switch - Record/Stop
+
+The Microminiature 9-Pin D-Type connector terminals are mapped as follows:
+RCA Yellow Female
+RCA Red Female
+RCA White Female
+D-DUB 9 PIN Connector
+3.5 mm. DC Plug
+
+Output Video
+Output Audio Line Left
+Output Audio Line Right
+RS-232 and PC Connection
+Input: Tens 5 volts for external power supply
+and battery charger
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+8 
+
+ 
+
+4.10 Connecting Audio-Video Cables
+Proceed as follows to attach connectors to the TSE 5605.
+During operation, attach the D-SUB Microminiature 15-Pin connector to the TSE
+5605
+
+Tighten the screws
+Next connect the video camera to the yellow RCA female plug.
+
+When connecting the TSE 5605 to a PC or External Monitor, attach the D-SUB
+Microminiature 9-Pin connectors to the unit.
+
+Tighten the screws
+Next attach the male Audio/Video connectors to the monitor. Make sure that the
+connectors are attached properly.
+Warning: The TSE 5605 was designed not to have any intermediate connectors
+between the video camera and the 15-Pin video input connector. The best solution is
+to have only one cable from the TSE 5605 directly to the camera, without any
+intermediate connectors. However, an RCA connector was added to the standard
+15-Pin cable for enhanced flexibility. The same applies to powering the video
+camera; there is no 5-volt power cable, however it would be useful to power the
+video camera directly from the TSE 5605 to avoid additional bulky battery packs.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+9 
+
+ 
+
+4.11 Compact Flash
+The TSE 5605 uses a SanDisk Extreme III Series, Type I, Compact Flash memory
+card.
+After careful testing, Compact Flash and SanDisk accessories were chosen as the
+best solution in terms of functionality and compatibility with the Windows XP
+Operating System.
+We guarantee correct system operation exclusively with the Extreme III
+Compact Flash and card readers compatible with the Extreme III series.
+
+The TSE 5605 CF card is removable.
+As of the writing of this manual, the following Compact Flash formats are
+acceptable:
+EXTREME III: 8GB, 12GB, 16GB.
+For further information on CF card maximum capacity and on cards capable of
+operating at extended temperature ranges, please contact us.
+
+ 
+
+5. TSE 5605 Manager - Introduction (PC Configuration Utility)
+ 
+5.1 Philosophy
+The TSE 5605 Manager offers a very user-friendly, Windows-based interface with
+options that can be used to set up the unit.
+All functions have been included.
+TSE 5605 Manager Functionality Table
+Video Setup
+Audio Setup
+On Screen Display
+Confidence Indicator
+Recoding Setup
+
+Remarks
+Serial Link
+Save As
+Compact Flash
+
+The TSE 5605’s philosophy is to make it possible to program every Compact Flash
+card to be used through the Manager interface.
+The idea is for all settings to reside on each CF card.
+This means that you can program each CF card with different settings.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+10 
+
+ 
+Therefore, you can have a CF card that has been set up only to record video at 12
+frames per second, and another card set up only to record line audio with a sampling
+frequency of 48,000 Hz, and so on.
+By inserting the CF card into the unit’s slot and turning the System on, all settings
+stored on the CF card will be activated.
+This means that you can prepare various kinds of CF cards ahead of time, in the
+laboratory, and choose the correct card for the given situation before going out to the
+operational location. Keeping in mind that time is an important factor in certain
+operational situations we felt this solution was the most appropriate.
+
+5.2 Minimum System Requirements
+The Manager is a software interface compatible with Windows XP Service Pack 2
+1. Pentium 2.000 Mhz or greater with 64 MB RAM (128 recommended).
+2. One USB 2.0 compatible port
+3. Operating System: Windows XP Professional/Home with service Pack 2
+4. Latest Version of Direct X
+5. Latest version of Windows Media Player
+
+5.3 How to install The Manager 1.0
+To install the Manager, insert the CD-ROM in the CD-ROM drive of your PC, and
+then click on <Start><Run><Browse>. Select the CD-ROM drive, then click on the
+file called “manager.EXE” and follow the instructions displayed.
+
+Step1
+
+Step2
+
+5.4 How to program a Compact Flash
+Using a new Removable Compact Flash Card
+After installing the Manager software on your
+computer, connect the SanDisk Compact Flash
+reader to your PC by means of the USB or FireWire
+Port.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+11 
+
+ 
+Insert the CF card into the reader. Make sure that you insert the CF card correctly
+without damaging it.
+Windows XP will automatically recognize the peripheral device connected to the
+USB port.
+Check the icon on the lower right hand side of the desktop to see if the peripheral
+was recognized correctly.
+The TSE 5605 will only operate with a CF card formatted with a FAT 32 (File
+Allocation Table) file system.
+Open the Manager and continue setting up the CF card.
+
+6. The TSE 5605 Manager Settings
+ 
+6.1 Video Setup
+
+You can select all the video settings in the Video Setup interface.
+Video Format
+The TSE 5605 can operate either in PAL or NTSC mode.
+To select the format, enable one of the two choices as illustrated below:
+
+The TSE 5605 will generate FAT-32 MJPEG Video files.
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+12 
+
+ 
+Mode
+In the Mode frame, it is possible to choose the quality level of the recorded images
+and whether they should be in Color or B&W.
+
+Frames Per Second
+The TSE 5605 allows for variable frame rate operation. This means that users can
+select 25/30 frames per second for smoother video. However, in order to save space
+on the CF card, users can decide to decrease the number of frames per sec. to 12,
+5, 2, and 1 for PAL or to 15, 7, 3, and 1 for NTSC.
+
+Video Quality
+This is where you can set up the TSE 5605’s Video Compression Quality.
+Selecting Very High produces video of the highest quality. Please remember that
+progressively higher Video Quality involves progressively shorter recording times
+available on the CF card. In any case, High and Normal video quality both provide
+excellent definition; we advise you to test the three Video Quality settings to
+determine the best compromise based on your own needs.
+The TSE 5605 encodes all Video in the MJPEG format, FAT 32 file system.
+The maximum possible size for a file on a FAT 32 volume is 4 GB minus 1 Byte
+(232−1 bytes). The TSE 5605 splits the video files into different sizes. If you set the
+Video Quality to Very High, at 25 fps, the TSE 5605 will create files each about 1.95
+MB. On the other hand, if you set the frame rate to 5 fps, the files will measure
+about 630 MB. This means that, in the case of a 2-hour recording session, there will
+be multiple files that contain your Audio/Video recordings.
+Inside these variable-length files you will find 30 minutes of uninterrupted recording.
+All Events recorded on the CF cards will have .AVI extensions.
+The Video Signal Resolution is 352 x 288 CIF (Common Intermediate Format)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+13 
+
+ 
+Video Loop Through
+This function allows you to enable or disable Video Loop Through during a recording
+session. If set to “never” there is a noticeable increase in internal battery life since
+the unit turns off all power to the Video Output connector.
+Enabling the “recording” functionality also enables image viewing during the
+recording session.
+Power consumption with Video Loop Through enabled is 250 mAh
+Power consumption with Video Loop Through disabled is 180 mAh
+
+Video Camera Appendix
+CMOS
+Basically, there are two types of cameras. CMOS (Complementary Metal Oxide
+Semiconductor) cameras are the least expensive to manufacture because of the
+relative simplicity of their sensor pick-ups. The measurement of image quality largely
+depends on the resolution of the camera. Resolution is measured in horizontal TV
+lines. There are just over 600 lines of horizontal resolution on a PAL television. The
+higher the resolution of the camera (more horizontal lines) the more well-defined the
+final image will appear. CMOS cameras tend to be slightly smaller then CCD
+cameras.
+CCD
+The other type of camera is a CCD camera (Charge Coupled Device). CCD cameras
+have much more complicated circuitry to produce a sharper image and a more
+realistic reproduction of colors. The best CCD "bullet-style" cameras available at the
+moment can display up to 480 lines in PAL, which is a nice sharp clear image; in
+reality, any camera of this size displaying upwards of 420 lines will give you good
+picture quality. CCD "bullet" cameras allow more light to the sensor with bigger
+internal lenses which makes the final image comparable to a mid-range camcorder.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+14 
+
+ 
+6.2 Audio Setup
+
+Input Selection
+The TSE 5605 encodes all audio into uncompressed PCM format.
+In the Input Selection Frame, use Right Input or Left Input if you are using only one
+monophonic channel. Select Stereo Input if you have installed area microphones for
+both channels. Stereo Recordings of speech are often much easier to understand
+than mono recordings. This improvement is because we hear in stereo and are used
+to discerning audio in noisy environments. Stereo recordings, however, require twice
+as much space for storage.
+
+Differential Audio Input is useful when you need to use very long cables and want to
+reduce the ensuring noise that could possibly affect the audio signal.
+The supplied cable is not compatible with Differential Audio Input. Please let us
+know if you need a custom cable.
+The TSE 5605 uses Knowles EK 3031 microphones.
+The unit has an output connector for powering microphones @ 1.8 Vdc.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+15 
+
+ 
+
+Right and Left Mic Boost
+The TSE 5605 has a built-in audio amplifier that allows you to increase or decrease
+the Audio Input Signal of either the right or the left channel.
+
+Sampling Frequency
+The TSE 5605 is able to sample Audio at three different frequencies. Increasing this
+frequency enables recording of a lot more high-frequency data, however it also
+involves using up a lot more space on the CF card. The higher the frequency, the
+higher the fidelity of the sound.
+
+Level
+The next two Sections are used to further boost or decrease the input signal level of
+either the right or the left channel.
+We recommend boosting the signal by at least 8.5 dB when using ambient
+microphones.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+16 
+
+ 
+
+6.3 On Screen Display Setup
+
+Enabling this function makes it possible to write text on top of the video data. This
+data can be written either in the Top Line or in the Bottom Line.
+
+Enabling comments makes it possible to insert text either in the Top Line or in the
+Bottom Line up to a maximum of 31 characters.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+17 
+
+ 
+
+6.4 Confidence Indicator
+With the TSE 5605 it is possible to enable warnings in case of system errors or
+warnings while recording audio or video. These can be either visual warnings or
+acoustic warnings.
+The Visual warnings are provided by the two LEDs placed on top of the box.
+Acoustic warnings, on the other hand, are provided by an internal Vibration Motor.
+The TSE 5605 can operate with or without confidence indicators based on the
+individual requirements of your job.
+Visual warnings – Enable LEDs
+Enabling LEDs turns on visual warnings
+1. During the recording phase
+2. In case of errors while recording. For example, no video signal, noisy video signal,
+different input format (a CF card set to PAL with a camera set to NTSC).
+3. When recharging the battery, the LED will also provide a warning when the
+battery is fully charged.
+4. In case of battery malfunction, the LED will provide a visual error warning.
+
+As far as the Battery Status LED is concerned, please refer to Chapter 4.
+If the Recording Status LED is enabled with default setting, the following situations
+will be possible:
+LED
+Static Green
+Flashing Red
+Recording
+
+Flashing Red
+Error
+
+Description
+The system is in Stand-By mode and ready for recording
+The LED will flash repeatedly. If the interval (Period) is set
+to 1000 (1 sec.) the LED will flash Green once every
+second while it is recording (i.e. the flashing interval is 1
+second and the flashing rate is 1 times x 1 second).
+The LED will flash repeatedly. If the interval (Period) is set
+to 100 (1/1000 sec.) the LED will flash Red 10 times every
+second (approx.) while it is recording (i.e. the flashing
+interval is 1/10 second and the flashing rate is 10 times x
+second, approx.).
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+18 
+
+ 
+
+6.4 Confidence Indicator
+
+All the settings in the LED Status frame can be changed based on individual
+requirements.
+Width - Width of the LED signal
+Period - Rate at which the LEDs will flash. The value is in 1/1000 of a second.
+Therefore 1000 = 1 second
+Repeat - Number of iterations of the visual warning.
+
+Acoustic Warnings – Enable Vibration
+The TSE 5605 contains a built-in Vibration Motor
+Enabling the Vibration Motor produces acoustic signals:
+1. During the recording phase
+2. In case of errors while recording. For example, no video signal, noisy video signal,
+different input format (a CF card set to PAL with a camera set to NTSC).
+3. In case of battery malfunction, the Vibra Motor will provide an acoustic error
+warning.
+All the settings in the Vibra Status frame can be changed based on individual
+requirements.
+Width:
+Period:
+Repeat:
+
+Intensity of the Vibra Motor signal
+Duration of the Vibra Motor signal. The value is in 1/1000 of a second.
+Thus 32,000 = 32 seconds
+Number of iterations of the Vibra Motor
+
+Example: If we set up a Width of 500, a Period of 32,000, and a Repeat of 0 in the
+Recording box, when recording is activated using the Switch, the TSE 5605’s Vibra
+Motor will turn on for ½ a second (500 Width) and will repeat every 32 seconds
+(Period = 32,000).
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+19 
+
+ 
+
+6.5 Recording Setup
+The Recording Setup interface offers two choices.
+1. Recording Mode.
+It is possible to set up the TSE 5605’s Compact Flash card as desired. Therefore, as
+mentioned previously, you can set up different CF cards with different parameters -one for Video + Audio, another only for recording Video, and a third only for
+recording Audio.
+
+2. Recording Start
+With the TSE 5605, you can Start Recording in two different ways.
+By means of the RS232 input/output or by means of an External Switch.
+
+Switch
+The TSE 5605 is provided with a Switch to Start and Stop recording.
+The Switch is located on one of the cables leading to the 15-Pin Connector
+Position
+Position 2
+
+Description
+Stop
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+20 
+
+ 
+
+Serial RS-232
+When the Serial Protocol box is enabled, TSE 5605 will be able to use serial controls.
+The unit has a wire terminating on D-SUB9 on the 9-Pin MIL connector.
+
+Besides the Serial connection (see Serial Link in Section 6.7) for setting up the date
+and time of the TSE 5605’s Serial Number Recognition, this connection is used to
+remote control the unit (Rx-Tx).
+To control remotely via your PC, it is necessary to connect the female D-SUB 9 Pin
+to the PC. New PCs are often not equipped with this type of connector.
+If that is the case, it is necessary to use an “RS-232 to USB” converter which can be
+found in most computer stores.
+If your PC does not have a D-SUB9 port available, first connect the RS-232/USB
+converter to the USB port of your PC.
+Wait until Windows XP has recognized the peripheral. Then connect the TSE 5605’s
+D-SUB9-Pin female connector to the D-SUB9 male connector on the RS-232/USB
+adapter.
+The RS-232 protocol makes it possible to remotely control the unit at a speed of
+115200 bps (bits per second).
+Creating a Hyper Terminal Connection
+To issue a command, it is necessary to create a new Hyper Terminal connection.
+To create a Hyper Terminal connection, go to START/PROGRAMS/ACCESSORIES/
+COMMUNICATIONS.
+Click on Hyper Terminal.
+Step 1.
+Type a name for the New Connection: For example, TSE 5605
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+21 
+
+ 
+
+Step 2
+Input the Com Port number. To clarify this step, please read the Serial Link
+paragraph in section 6.7.
+
+Step 3
+Set up the Communication Parameters
+Bits per Sec.
+Data Bits:
+Parity:
+Stop Bit:
+Hand Shake:
+
+115200
+8
+None
+1
+None
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+22 
+
+ 
+
+Creating a Hyper Terminal Connection
+Now you have a new Connection.
+Start the new connection, turn on the unit, and press Enter in the Hyper Terminal
+Menu.
+Simple Serial Protocol:
+$RECORD + Enter, starts recording
+$STOP__ + Enter, stops recording
+The commands are 8 characters long including Enter
+To stop recording you can also proceed as follows:
+$STOP + Enter. Please remember that there should always be a total of 8 characters
+including Enter.
+Example: To record, write
+$RECORD and push Enter (total 8 characters).
+The unit will respond:
+A, command recognized
+N, command not recognized
+E, error
+B, occupied
+O, no error
+The RS-232 functionality is incompatible with stacking
+Stacking
+Stacking requires additional hardware not included with the TSE 5605.
+When Stacking is enabled, if you have a Stacking Box, it is possible to control
+anywhere from 2 to 12 units in sequence.
+A Stacking Box includes 12 15-Pin connectors that, along with the cables provided,
+make it possible to connect the various units. One side of the Stacking Box has input
+connectors for the signals coming from the various units.
+It is possible to input the following items to a Stacking Box: Power Input, AudioVideo Input, Switch ON-OFF Input. These signals will then be passed on by the
+Stacking Box to the individual units in the Loop.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+23 
+
+ 
+
+In other words, the first unit starts recording. When the CF card on the first unit is
+full, the Stacking Box shuts down the first unit and starts recording with the second
+unit, and so on, until the twelfth unit. At the end of the twelfth CF card, the Stacking
+Box automatically goes back to the first unit to start a new recording cycle.
+
+The Stacking Box is an additional feature provided separately. Please call us or your
+local reseller for additional information.
+6.6 Remarks
+When you enable the Remarks functionality, the Manager will write a 250-character
+Comment in each frame you are recording. If you set up a Password, only the
+Administrator will be able to open the comments file.
+Proceed as follows: Add a comment and a password. Set up the CF card with all
+parameters. After recording, place the Compact Flash card in the USB reader. Open
+the Manager and click on “Read Remarks from Audio Video Files”
+The system will ask you for the password, after which comments will be available
+for reading.
+This functionality is quite useful when backing-up files to a server for later retrieval.
+Remarks can include Location, Operator, and any other useful data. In addition, since
+remarks are written to each frame, you can be sure that the data has not been
+tampered with.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+24 
+
+ 
+
+6.7 Serial Link
+The TSE 5605 is able to interface with a PC through a DB 9-Pin connector
+The DB 9-Pin connector is located on the TSE 5605’s 9-PIN connector.
+If you do not already have an RS-232 interface on your PC, you can connect the DB
+9-Pin connector to an RS232/USB converter, available at most computer stores. To
+communicate with the unit, connect the DB 9-Pin connector to the PC.
+
+Turn on the unit and wait until the USB interface has been recognized by your PC.
+Start the Manager, set up the COM Port (first try with one COM Port, and if it does
+not work, try with another one in the COM Port frame).
+To make sure that the COM Port is working, click in the Serial Number section “Get
+S/N”. If the COM Port is the correct one, the Manager will display your TSE 5605’s
+Serial Number.
+At this point in time it will be possible to set up the date and time (please refer to the
+On-Screen Display Section).
+
+When the “Set Clock” button is clicked from the Configuration windows, the TSE
+5605 internal Clock will be set to the same time and date of the PC’s internal Clock.
+Before configuring the unit, be sure that the PC’s internal Clock is accurate. There
+are many programs available for synchronizing the PC’s clock with special time
+servers on the Internet. One such program is About Time, which can be found at:
+http://www.arachnoid.com/abouttime/index.html
+About Time will automatically connect to NIST (the National Institute of Standards
+and Technology) via the Internet and synchronize the PC.s clock with NIST’s atomic
+clock.
+6.8 Save as
+The Save As configuration window tells us that we have reached the end of our
+Setup work.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+25 
+
+ 
+
+Here is where you will need to input the name of the User who has entered the
+settings.
+
+This way, in the future, you will be able to find out who entered these settings.
+The Save Settings File to PC option makes it possible to save your settings within
+your PC together with the User’s name.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+26 
+
+ 
+
+Later on, it will always be possible to search for and load the saved parameters using
+the functionality “Load Setting File from PC”
+
+Clicking on “Default Settings” all parameters will be reset to factory defaults.
+
+The TSE 5605 Manager allows you to display all the parameters that you have
+entered, plus the available recording time on the CF card, on the right side of the
+Configuration Window. It is important to remember that these figures are more-orless precise since they depend on the video camera definition and the complexity of
+the images to be recorded. It is always best to test your own video cameras to
+validate the figures reported by the Manager.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+27 
+
+ 
+6.9 Compact Flash
+
+The Compact Flash interface handles the CF cards.
+The main purpose of this interface is to format and set up CF cards.
+In order to format the CF card, you must make sure that the SanDisk USB Reader,
+that was enabled for reading the Extreme III Compact Flash cards, is connected to
+the PC’s USB port.
+
+If the Windows symbol is present on your Desktop, you should be able to check the
+Compact Flash capacity in the Removable Disk window.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+28 
+
+ 
+
+To set up a CF card, you need to click on the “Save Settings to Compact Flash”
+button.
+
+MS Windows will ask you if you are sure, after which the formatting interface will be
+displayed.
+
+Using a new Removable Compact Flash Card
+As mentioned previously, the TSE 5605 uses ScanDisk Extreme III Compact Flash
+cards.
+CF cards should be formatted using the FAT 32 file system.
+You must name your Volume “TSE 5605”.
+
+Formatting can also be done using the Quick Format function.
+Once formatting has started, you need to wait for Windows to finish. When the
+message “Formatting complete” appears, click on OK.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+29 
+
+ 
+
+Click on “close” in the “Formatting Removable Disk” window.
+Wait a few seconds for the settings to be transferred to the Compact Flash card.
+To be safe, it is a good idea to check if the settings file has really been transferred to
+the CF card. Go to My Computer and see if the unit Volume has indeed been
+created. Open the unit Volume and make sure that the two files called “index” and
+“settings” are present.
+Your Compact Flash card is not ready for use.
+
+Please make sure to insert the CF card in the unit correctly. Make sure that the
+female side of the CF card is inserted in the slot. The part of the Compact Flash card
+containing graphics should face the side of the box that houses the LEDs.
+To remove the Compact Flash card from the unit, turn it around to the side with the
+notch. The grooved edge of the Compact Flash card has been designed to make it
+easy to remove. The notch on the box was designed for nails, not for fingers.
+Pressing your nail against the groove of the CF card makes it very easy to extract the
+card itself.
+Only insert and remove a CF card if the unit has been turned off.
+Once you have finished using the TSE 5605 for recording, you can place the
+Compact Flash card in the USB reader connected to your PC.
+After opening the Manager one more time, it will be possible to display the
+recordings as files in the CF card interface by selecting and deselecting the desired
+recordings and saving them to your PC. This is a useful way to back-up your work.
+
+The Read Settings function is important when, having set up different Compact
+Flash cards, you need to look at the settings.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+30 
+
+ 
+
+With the CF card inserted in the USB Reader, and clicking on this function, the
+Manager acquires and displays a summary of the Settings in the Save As window.
+
+Playing Back Recordings On Your PC.
+Once you have finished recording and inserted the Compact Flash card in the USB
+Reader slot, Windows will ask to open the files. Choose to open the files as a Folder.
+
+The TSE 5605 encodes the Video and Audio data based on the FAT 32 file system
+and creates .AVI files.
+The files generated by the unit do not need to be transferred to a PC for reading.
+Play back can be done directly from the Compact Flash card. Playing back recordings
+directly (Direct Play) makes it possible to avoid transcoding proprietary formats to
+PC-compatible formats, so that the Audio/Video quality is completely unaltered.
+Direct Play also makes it possible to view recordings on your PC and an external TV
+monitor at the same time, provided you connected it to your PC.s video output.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+31 
+
+ 
+
+Remember to set up Video Output as a Clone of your Main Monitor in your Video
+Card’s Properties settings.
+Another important consideration is Direct DVD Burning. The unit’s recordings are
+truly ready to be burned to DVD: Several DVD Players are already compatible with
+the format generated by the TSE 5605. We recommend finding a DVD player that is
+compatible with the Windows Media Player format.
+The .AVI FAT 32 format is universally compatible.
+The .AVI FAT 32 format is a file that can be up to 4 GB in size.
+The TSE 5605 generates files that vary from 1.95 Mb up to 650 Mb in size (this is
+the largest size with the various quality levels) and a constant duration of 30 minutes.
+Audio-Video synchronization, when cutting from one file to the next, was designed
+with the utmost precision.
+
+The lightness of the data ensures optimal management when using Windows-based
+forensic analysis software.
+Windows Media Player can be used to playback recordings, but make sure that
+Media Player does display your recordings correctly. In case of incorrect visualization
+during Playback, please open Windows Media Player and change the default
+settings.
+Every PC is a world unto itself, therefore, every PC should be managed
+independently.
+Besides Windows Media Player, there are a number of other Audio-Video Players on
+the market. If you are dissatisfied with Windows Media Player try installing a
+different player. Always create a Restore Point before installing new software.
+For expert users
+If you are not satisfied with the quality of playback using Windows Media Player (and
+we too have reservations) please remember that it is always possible to install a
+Codec such as “PIC Video” or others available over the Internet to improve the
+playback quality of MJPEG recordings in WMP.
+Always create a Restore Point before installing new software.
+The same applies to your PC.s Video Output. Filters can be enabled or disabled
+within your Graphics Card settings to improve the quality of your PC’s Video Output.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+32 
+
+ 
+
+The TSE 5605 is an Open System and will be integrated by optional additional
+Professional Software for expert users.
+Additional integrations, including hardware, are in the planning to satisfy different
+user needs.
+
+9. Technical Specifications
+ 
+Input Connector: 15 Pin High-Reliability Mil
+Specification Connector
+Analog Video Input Composite PAL and
+NTSC standards, Level 1.0 Vp-p 75 ohms
+Pixel Resolution: 720X576 pixel (PAL), 720X486
+Pixels (NTSC) High Quality: 9-Bit Video ADC
+Sampling rate: 27 MHz S/N Ratio 50 dB
+General Purpose Digital Input
+General Purpose Digital Output
+Digital Output for LEDS or other Confidence
+indicators
+External power on-off for longer stand- by time
+External Power Input (max 5.5 Volts)
+Power Output 5 volt max 200 mA
+Microphone bias voltage output 1.8 volt.
+Analog Audio Stereo input microphone and line
+Level Software Selectable.
+Line Level max 1 volt RMS 12 KOhm input
+impedance.
+Resolution 16 bits. 32000, 44100 and
+48000 Hz sampling rate.
+Output Connector 9 Pin high reliability Mil
+Specification Connector
+Analog Video Output Composite PAL and NTSC
+standards
+Level 1.0 Vp-p 75 ohms
+High Quality 10-bit Video Dacs
+Integral non linearity < 1 LSB at 10 bits
+80 db video SNR
+External Power Input max 5.5 volts
+RS232 serial connection max 115200 baud, TTL
+level
+Analog Stereo Audio Output, line Level
+Power output 3.3 volt max 100 mA.
+Video Compression
+MJPEG codec for superior image quality
+Real Time Compression or Decompression at
+720X288 @ 25 frames/sec. -PAL
+720X240 @30 frames/sec. -NTSC
+Visually loss-less compression at 5 :1 on natural
+images
+Compression ratio variable down to 5:1
+Field rate variable from 25 frames/sec
+To 1 frames/sec. PAL standard, 30 frames/sec
+to 1 frame/sec for NTSC
+
+Mechanical size and operating Condition
+Anodized Aluminum case 6061
+54 mm width, 12 mm height, 94 mm depth
+(with connector),
+100 grams weight including batteries.
+Operating Temperature 0° C to + 70° C
+Storage .20° C to +85° C
+Relative humidity 5% to 95% (MAX)
+Shock 200 - G
+Vibration 15-G
+
+Power Input:
+Internal Lithium Ion Battery @ 1300 mAh with
+battery Charger.
+External Power Input for simultaneous
+operation
+and battery charging (max 5.5 volts).
+
+Storage:
+Compact Flash type 1, San Disk Extreme III
+Capacity 4,8,12, 16 GB
+
+Consumption:
+Quality: High
+45 mAh in stand by mode @ 5 Volt
+180 mAh in recording mode w/out video
+output @ 5 Volt
+Battery Autonomy: approx. 3 hours
+
+Storage Capability
+Recording Time Audio+Video from 240 min
+(high quality mode) to 200 hours (time lapse
+mode at 1 field/sec.) with a compact flash of
+16 GB.
+This device is RoHS compliant
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+ 
+
+33 
+
+

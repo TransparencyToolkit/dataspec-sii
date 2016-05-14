@@ -1,0 +1,78 @@
+SOUND STRETCHER SDK
+Variable Speed Speech Playback
+Software Developer Kit
+Applications
+Speed up or slow down speech playback speed in:
+u
+u
+u
+
+Multimedia and Broadcasting applications
+Educational programs and Language acquisition
+Transcription of Speech
+
+Functional Overview
+Sound Stretcher SDK allows playback of speech in
+variable fast or slow modes without distorting the
+voice pitch, so that speech still sounds natural. It is
+an algorithm of real time speech modification
+
+Advantages
+u
+u
+u
+
+u
+u
+u
+u
+
+Up to 3 times faster or slower speech playback
+speed
+Low resource consumption
+Language-independent. Sound Stretcher can be
+used for any language, regardless of speaker's
+accent
+Playback speed is changed without voice pitch
+distortions, so that speech remains natural
+Smooth accelaration/slow-down rate adjustment
+Easy-to-use - easy-to-embed
+Also available
+- Sound Stretcher TI eXpress DSP compliant
+algorithm
+
+STC is a leading speech and signal technology
+developer. It has an extensive portfolio of
+proprietary know-how and a number of readymade products in the field of modern speech
+technology, especially for noise cancellation,
+speech enhancement and voice extraction.
+Contact us with any problem in speech or signal
+area.
+
+Technical Data
+u
+u
+
+u
+
+Operational System: MS Windows
+9x/NT/XP/2000
+Development platform:
+Microsoft Visual C++
+All DLL interface functions are declared as extern
+C
+Hardware requirements: Sound Blaster
+compatible sound card
+
+SDK Package
+- 32 bit DLL (dynamic link library) for MS Windows
+XP/2000/9x/ME/NT;
+- user’s manual;
+- sample demo software with sources in Visual C++.
+SDK for other OS and ANSI C source codes are
+available by special order. Prices will be quoted upon
+request. Free demo is available at the web site.
+
+Sound Stretcher sample software screenshot.
+
+

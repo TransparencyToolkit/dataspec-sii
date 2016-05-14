@@ -1,0 +1,683 @@
++
+
+Introduction
+GSM
+
++
+
+Passive GSM
+Monitoring System
+
+(Global
+
+System
+
+for
+
+Mobile
+
+Communications, originally Groupe Special
+Mobile) has become an essential means of
+communication in our modern society. This
+applies to everyone, including criminals who
+make use of phones as an accessory to their
+illegal
+
+activities.
+
+intercepting
+become
+
+For
+
+GSM
+
+essential
+
+these
+
+reasons
+
+communications
+for
+
+Government
+
+has
+Law
+
+Enforcement and Defence Agencies.
+Stratign
+
+offers
+
+two
+
+different
+
+ways
+
+of
+
+intercepting GSM communications, namely
+
+Semi Active
+GSM Monitoring System
+
+Stratign's Passive GSM Monitoring System is the most
+advanced "Off-The-Air" GSM interception and
+monitoring system that currently exists worldwide. The
+system does not transmit any information and hence is
+completely undetectable either by the operator or by
+the target that is being intercepted.
+
+about
+
+"Off-The-Air"
+
+GSM
+
+Features of the system
+• The System can monitor both forward and reverse
+channels (duplex conversation).
+• The system support FR, EFR, HR, AMR voice codec's.
+• The system automatically handles Frequency Hopping and
+Hand overs.
+• Scalable for intercepting up to 16 simultaneous
+communications.
+• Multiple systems can be linked to achieve higher number of
+simultaneously monitored channels.
+• All intercepted communications are stored in a database
+for easy access by the operators.
+
+• Can work in Random Call Interception Mode as well as
+Target Call Interception Mode.
+• Selection of the Targets by different parameters such as
+IMEI, IMSI, TMSI , Target distance from the base station,
+Type of target handset, Target's dialled & received number
+(PLMN).
+• Possibility of round-the-clock operation in an auto mode
+without the operator involvement.
+• Remote operation of the system, using a wide area network
+from virtually any part of the world.
+• The system can be configured either as Portable (Carry
+Case), Transportable (Installed in Vehicle) or Static (Fixed
+Location).
+
+System Block Diagram
+Secure Intranet
+
+~ Forward Channel
+
+Systems.
+
+Suspect
+
+from the radio link between the Base Station
+
+Target Correlation Module
+
+j
+
+Processing & Analysis Notebook
+
+Call Data Analysis Module (Optional)
+A5/2 Decryptor
+Software Module
+
+IMSI & Class Mark
+Analysis Module (Optional}
+
+in
+
+mind
+
+various
+
+Demodulation, Decoding
+& Decryption
+
+RF Acquisition
+
+Processing & Analysis
+
+system and in the process all the communications are
+recorded. The system can intercept both incoming as well
+as outgoing communications.
+The system is capable of operating on all frequency bands
+(850/900/1800/1900 MHz) of the GSM network and can
+decipher A5/0, A5/2 and A5/1 encryption standards in real
+time. It can be integrated with a 3G IMSI catcher to
+intercept communications from 3G (2100 MHz) networks.
+
+3G network by forcing 3G mobiles to communicate
+using 2G or 2.5G.
+• Does not require the service
+
+providers SIM
+
+for
+
+operation.
+• 100% target call monitor rate: The system can monitor
+all communications of the target (SMS and Voice) till
+
+Technical Specifications of Passive GSM Monitoring System
+Parameter
+
+Value
+
+Frequency Bands
+
+GSM 850
+
+• The system can be integrated with Direction Finder, to
+• The system is capable of extracting the Suspect's actual
+Mobile Number from the network.
+• The system can be configured to ignore certain
+
+EGSM 900
+
+DCS 1800
+
+PCD 1900
+
+Forward Channel (MHz)
+
+869 to 894
+
+925 to 960
+
+1805 to 1880
+
+1930 to 1990
+
+scenarios and user requirements, Stratign
+
+Reverse Channel (MHz)
+
+824 to 849
+
+880 to 915
+
+1710to1785
+
+1850 to 1910
+
+Supported Voice Codecs
+
+FR, EFR, HR, AMR
+
+offers two different solutions. These are
+
+the system is passed on to the actual network through the
+
+provide the direction of the target.
+
+Fig: Block Diagram of Passive GSM Monitoring System
+
+operational
+
+Keeping
+
+communications (Voice and SMS) of mobiles logged on to
+
+he/she is within its coverage range.
+
+systems operate without any cooperation
+
+transparent.
+
+emulates the service providers BTS, thereby forcing
+
+• Can monitor upto 12 duplex calls.
+
+Receiver Module
+
+radio link is called the UM interface. These
+
+is fully
+
+Base Station (BTS) and the Mobile Handset (MS) using the
+principle of " Man-In-The- Middle" attack. The system
+
+Service Provider.
+
+Operator
+
+Omni-Directional Antenna
+
+(BTS) and the Mobile Handset (MS). This
+
+its operation
+
+designed to intercept GSM communications between the
+
+• Can Intercept Voice and SMS communications form a
+GSM Processirig Module
+Base Station
+
+An "Off-The-Air" GSM Monitoring System is
+
+undetectable, and
+
+is
+
+• The system is transparent to the suspect and the
+
+A5/ 1 Hardware Decryptor Module
+Voice Recognition Module (Optional)
+
+Reverse Chan nel ~
+
+from the network operator. They are generally
+
+Monitoring System
+
+Features of the system
+
+UM interface
+
+Monitoring
+
+designed to intercept GSM communications
+
+Stratign's Semi Active GSM
+
+mobiles within the coverage range to log on to it. All the
+
+"Off-The-Air" and "Switch Based" Lawful
+Monitoring System. This brochure discusses
+
+The system is capable of operating on all GSM
+frequency bands (850/900/1800/1900 MHz) and can
+decipher A5/0, A5/2 and A5/1 encryption standards in
+real time. It can be integrated with a 3G IMSI catcher to
+intercept communications from 3G (2100 MHz)
+networks.
+
+Monitored Channels
+
+BCCH , CCCH , SACCH, SDCCH, FACCH, TCH
+
+Passive GSM Monitoring System and Semi
+
+Supported Deciphering
+
+A5/1 (External Hardware), A5/2 , A5/0
+
+Active GSM Monitoring System.
+
+No. Of Duplex Calls
+
+Upto 16 duplex channels
+
+Intercepted Traffic type
+
+Voice &SMS
+
+Mode of Operation
+
+Random Mode, Target Mode
+
+Selection of the Targets
+
+IMEI, IMSI, TMSI , Target distance from the base station,
+Target's dialed & Received Number (PLMN)
+
+Area of coverage
+
+Upto 30Km (depending on terrain)
+
+Available Option
+
+High Gain Directional Antenna, Vehicle Integration Kit, A5/1 Decryptor
+
+Power Supply
+
+240 VAC, 50Hz or 12VDC Direct from Car Battery
+
+subscribers from being intercepted.
+• The system can perform selective jamming ; using which
+the operator can disable certain services of the suspect
+like Outgoing Call , Incoming Call , SMS, SS etc.
+• Can modify the ID of selected targets for both incoming
+and outgoing calls.
+• Can make fake call (or send Fake SMS) to target.
+• Can Make call (or send the SMS) using target identity.
+• Target list can be created using PLMN, IMSI or Suspects
+Mobile Number.
+• The system can be configured either as Portable (Carry
+
+"'
+
+Case), Transportable (Installed in Vehicle) or Static
+(Fixed Location).
+
+System Block Diagram
+
+Suspect
+
+RF Aoq•Oltioo
+
+Demodulation,
+Decoding
+& Decryption
+
+c
+
+c
+
+Service Actual
+Base Station
+
+Active Station
+
+Emulated BTS
+
+'
+
+AS/2 Decryption
+Module
+
+GSM Processing
+Module
+
+Secure
+Intranet
+
+Voice Recognition
+Module (Optional)
+
+Processing &
+Analysis
+
+C
+
+Operator
+
+Target Correlation
+Module
+Processing & Analysis Notebook
+
+Call Data Analysis
+Module (Optional)
+
+IMSI & Class Mark
+Analysis Module (Optional)
+
+Fig: Block Diagram of Semi Active GSM Monitoring System
+
+Technical Specifications of Semi Active GSM Monitoring System
+Parameter
+
+value
+
+Frequency Bands
+
+GSM850
+
+EGSM 900
+
+DCS 1800
+
+PCD 1900
+
+Forward Channel (MHz)
+
+869 to 894
+
+925 to 960
+
+1805 to 1880
+
+1930 to 1990
+
+880 to 915
+
+1710to1785
+
+1850 to 1910
+
+Reverse Channel (MHz)
+
+824 to 849
+
+Supported Voice Codecs
+
+FR, EFR, AMR
+
+Monitored Channels
+
+BCCH , CCCH , SACCH , SDCCH , FACCH , TCH
+
+Supported Deciphering
+
+A5/1 (External Hardware), A5/2 , A5/0
+
+No. Of Duplex Calls
+
+Upto 12 duplex channels
+
+Intercepted Traffic type
+
+Voice&SMS
+
+Mode of Operation
+
+Random Mode, Target Mode
+
+Selection of the Targets
+
+IMEI, IMSI, MSISDN {Target's Actual Mobile Number)
+
+Area of coverage
+
+Upto 1.5 Km (Extendable upto 5 Km using Amplifier)
+
+Available Option
+
+High Gain Directional Antenna, Vehicle Integration Kit, A5/ 1 Decryptor
+
+BTS Transmitted Power
+
+Max. Upto 10 Watts
+
+Dimensions
+
+BTS - 260 x 290 x 130 mm (L x W x H)
+AS - 260 x 290 x 70 mm (L x W x H)
+
+Weight
+
+AS/1 Hardware
+Decryptor Module
+
+Approx. 9 KG 's (May vary based on con iguration)
+
+Operating Temperature
+
+o·c to 5D°C
+
+Power Supply
+
+VAC , 50 Hz or 12 VDC Direct from Car Battery
+
+Comparison of Passive GSM Monitoring System and Semi-Active GSM Monitoring System
+Feature
+Mode of Operation
+
+Passive GSM Monitoring System
+Completely Passive
+(The presence of the system
+cannot be detected)
+FR, EFR, HR, AMR
+Independently Tunable Receivers
+to any service provider.
+
+Supported Voice CODEC's
+Multi-Network Simultaneous
+Monitoring
+Maximum Distance that can be
+covered by the system
+
+FR, EFR, AMR
+System can be configured to monitor multiple
+service providers based on user requirement.
+
+Depends on the terrain and line of site
+and the power transmitted by the service
+providers BTS. Maximum can be up to 14 KM
+Possibility of missing trans side of conversation
+if the target handset is too far from the system
+
+Possibility of Intercepting
+Full Duplex calls
+Call routing
+Possibility of Spoofing SMS
+Possibility of Spoofing Calls
+Possibility of Retrieval of Public Number
+Automatic target interrogation
+
+Selective Jamming
+
+Passive hence routing not required
+Not Possible
+Not Possible
+Not Possible
+Can be Done, during the process the system is
+not fully passive, because it has to establish a
+silent call to the target's mobile phone. However
+chances of detection of the silent call by the
+target is very rare
+Not Possible
+
+Depends on the terrain and line of site,
+usually upto 500 mts, but can be increased
+upto 5 KM by using power amplifiers
+100%. All the intercepted calls will be full duplex,
+which means that both the trans and receive side of
+the conversation of the target will be intercepted
+Call is routed through the system
+Possible
+Possible
+Possible
+Possible
+
+Possible
+
+GSM Direction Finder
+
+Options
+
+The GSM Direction finder is designed to work along
+
+A5/1 Decryptor
+A5/1 decryptor is intended for monitoring
+communications form
+
+of GSM
+
+networks employing
+
+A5/1
+
+encryption schemes. It can serve more than one GSM
+Monitoring
+
+Semi - Active GSM Monitoring System
+Semi Active
+f:Jery difficult to detect, but not impossible)
+
+System. It is a typical server-client
+
+with the Semi Active GSM Monitoring System. GSM
+direction finder combined with a body antenna is
+intended for find the direction of mobile stations
+operating in the ranges 900, 1800, 1900 MHz
+
+application. Usually the decryptor is located in
+
+Power Amplifier
+
+headquarter connected to Internet with static IP
+
+To increase the range of system we have developed
+
+address, while GSM Monitoring System (Passive or
+
+20/40 Watt power amplifier. The amplifier is suitable for
+
+Semi Active) can be located virtually in any place of
+
+GSM base station and repeaters applications in the
+cellular frequency range. Amplifier is available for GSM
+
+the world.
+
+900, 1800, 850 and 1900 MHz frequency band.
+
+3G IMSI Catcher
+The 3G IMSI catcher is used to selectively force the
+
+High Gain Directional Antenna
+
+targets' phones operating in the 3G network to
+
+High gain directional antenna is specially designed to
+
+migrate to GSM mode, rest of the phones stay in 3G
+
+work with High Power Amplifier to achieve the
+
+modes. Being pushed into GSM mode, 3G phones
+
+maximum range.
+
+stay
+
+Vehicle Integration Kit
+
+there
+
+until
+
+reboot.
+
+It
+
+makes
+
+possible
+
+interception of such phones by GSM Passive or
+
+If customer prefers to deploy the system in a vehicle for
+
+Semi Active monitoring
+
+systems. Semi Active
+
+transportable application, we can provide complete
+
+systems, after finishing interception, can send these
+
+vehicle integration kit for the installation of the system
+
+phones back to 3G-mode.
+
+in Car/SUV. The vehicle integration kit will consist of
+Shock Proof 19" Rack, Shock Absorbers, Power
+Supply
+
+Accessories,
+
+Camouflaged
+
+Antenna,
+
+RF
+
+Shielding to protect the operator, Notebook Stand etc.
+
+

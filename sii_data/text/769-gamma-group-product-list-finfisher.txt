@@ -1,0 +1,1908 @@
+Tactical IT Intrusion Portfolio
+FININTRUSION KIT
+
+LAN/WLAN Active Password Sniffer
+· Captures even SS L-encrypted data like Webmail,
+Video Portai s, Online-Banking and more
+Main
+
+Networlc
+
+Configuration
+
+•
+
+Updates
+
+8
+
+U cense
+
+•
+
+lang uage
+
+passivesnitt l , 0 1ftp
+
+ail
+•
+
+About
+
+•
+
+Online Help
+
+--·
+
+~
+ttps
+
+1_0~.0.225_ 10 . ftp
+
+'u- '
+
+\i
+'
+
+. ...
+1
+
+ftp
+
+1
+
+bad·choice
+
+--···--·--··- ~
+··-·-·--·-·····-·---···---
+
+james@facebook.com Parker433
+
+130.89.149.226
+
+kassia3.snt.utwente.nl
+
+--·····--···-·····
+
+---··-··---·········--····-
+
+69.171.228.40
+
+www.facebook .com
+
+1anonym-;;~~·--·---·-: ~h·~~;@~~.'."_Ple.com_ 195:13s.22ï:i-:l2..~~~~~~~===
+
+10.0.0.225 . ,, snmp 1public
+192.168.0.253
+SNMP
+- 1-.;{)l.--·-·-L ·-···-···-··-··---········--L-·-·---- --·--~·--------10.0.0.225
+ire
+j unknown
+140.211.167.99 irc.freenode.com
+io.o.o.22si
+
+Welcome to Finlntrusion Kit
+
+Password jActivity Log 1
+Passwords
+
+....
+
+F"ININ T RU S ION K IT
+
+Preferences
+
+Wireless
+
+Target List
+
+F-ps-·
+
+L_
+
+pacob@yahoo.com--I §$%_BeckeR122
+
+---i
+
+217.146.187:123
+
+·mail~y-;;hc;o.com
+
+Monitoring against Target 10.0.0 .225 ls running in the background .
+
+--
+
+Gamma addresses ongoing
+developments in the IT Intrusion
+field with solutions to enhance
+the capabilities of our clients .
+Easy to use high-end solutions
+
+The Remote Monitoring and
+
+and techniques complement
+
+Deployment Solutions are used
+
+the intelligence community's
+
+to access target systems to give
+
+knowhow enabling it to address
+
+full access to stored information
+
+relevant Intrusion challenges
+
+with the ability to take contrai
+
+on a tactical level.
+
+of target system's functions to
+the point of capturing encrypted data and communications.
+When used in combination
+
+The IT Intrusion Training Pro-
+
+with enhanced remote deploy-
+
+gram includes courses on bath,
+
+ment methods, Government
+
+products supplied as well as
+
+Agencies w ill have the capa-
+
+practical IT Intrusion methods
+
+bi lity
+
+and techniques. This program
+
+software on target systems.
+
+transfers years of knowledge
+and experience to end-users,
+thus maximizing their capabilities in th1s field.
+
+to
+
+remotely
+
+deploy
+
+Remote Monitoring & Deployment Solutions
+FINFLY EXPLOIT PORTAL
+
+Standard Deployment methods for Remote Monitoring
+Solutions can often not be applied when dealing with
+well-trained and extremely careful Targets as they are
+familiar with common Deployment techniques and tools.
+
+QUICK INFORMATION
+
+ln most scenarios, 0-Day Exploits provide an extremely
+powerful and reliable way to deploy Remote Monitoring
+Solutions by exploiting unpatched vulnerabilities in
+Software the Target is using.
+The FinFly Exploit Portal offers access to a large library
+of 0-Day and 1-Day Exploits for popular software like
+Microsoft® Office, Internet Explorer, Adobe Acrobat
+Reader, and many more.
+
+Usage Example 1: High-Tech Crime Unit
+
+Usage Example 2: Intelligence Agency
+
+A High-Tech Crime Unit was investigating a Cyber-Crime
+and needed to deploy a Remote Monitoring Solution on
+a Target System. They used an Adobe Acrobat Reader
+0-Day Exploit and sent a prepared PDF file via Email to the
+Target. The Remote Monitoring Solution was automatically
+deployed once the Target opened the file .
+
+A Target was identified within a Discussion Board but no
+direct or Email contact was possible . The Agency created a
+Webserver containing an Internet Explorer 0-day Exploit
+which deployed the Payload on the Target System once the
+Target opened the URL that was sent to him through a
+private message in the Discussion Board.
+
+Feature Overview
+· Full Access to Web Portal and Exploit Generator
+
+· Government-Grade 0-Day Exploits which function on multiple Systems
+and Patch-levels without further modification
+·At least 4 major Exploits (common Browser/Mail/File-Viewer Software)
+permanently available
+
+· 30 day warranty for every Exploit within the Portal
+· Permanently updated 1-Day Exploits for various Software
+
+For a full feature list, please refer to the Produd Specifications.
+
+Remote Monitoring & Deployment Solutions
+FINFLY EXPLOIT PORTAL
+
+Product Components
+
+-
+
+~--
+
+-
+
+'
+
+---
+
+t""""t6ltn
+
+1 "-•
+
+~- -
+
+-
+
+~
+
+,, ....
+
+i::I<
+
+-----
+
+-:::::r=-
+
+_____
+
+~':".!:.:...'":"'" iiii ~=-z--= iiiii
+
+- ...
+
+Finfly Exploit Portal
+·Web Interface Exploit Library
+
+Finfly Exploit Portal Sample
+•
+
+Microsoft Internet Explore r 9 - 8 - 7 - 6 Remote Code E>< e cution E><ploit
+
+A use-after-free vu lnerability exists in Microsoft Internet Explorer when processing certain JavaScript
+and HTML data, which cou ld be e xp101ted to compromise a vulnerable system via a specia lly crafted
+web page.
+The vutnerabi lity affects Microsoft Internet Explorer 9, 8, 7 and 6 1 on Windows 7 SPl and prior 1
+Wi ndows Vista SP2 and prier, and Windows XP SP3 and prier· .
+The prov ided code execution exploit bypass es ASLR (Address Space Layout Randomizabon) and DE P
+
+(Data Execution Prevention) and wo rks on all Windows systems.
+• More Information and Details (Exp/01tupdt1tedon 2011·10·1'1 ExploitfirstFe/ease.don 2011·08·06)
+
+•
+
+Micr-osoft Internet EKplorer 9-8 Remote Sandbox Bypass Exploit
+
+A vulnerab1tity e xists 1n Microsoft Internet Explorer's sandbox ( Protected Mode) when processin
+certain data from a Law integrity process , which could be e xploit ed to achieve code execution ~
+Medium integnty and bypass Protected Mode.
+The vu lnerability affects Microsoft Internet Explorer 9 and 8 on Windows 7 SPl and prior and Windows
+Vista SP2 and prier (Windows XP SP3 and prier do not include a sandbo x).
+The pro vided exploit must be comb in ed to another JE code and must be used as a s e co nd stage
+shellcode.
+• More Info rmatio n a nd Details (EYploit updated OTI 2011·10·14 Exploit f1Fst Fe/e ased 0T1 1011·03·02)
+
+•
+
+Adobe Acrobat & Reader 9 . x POF Processing Code EM ec ution EKploit
+
+A buffer ovetflow vulnerability exists in Adobe Acrobat and Reader when processing certain data within
+a PDF document, which could be e xploited to co mpromise a vu lnerable system by trick1ng a user into
+opening a malicious PDF file .
+The provided code e xe cutio n e xploit bypasses ASLR (Addres s Space Layout Randomization) and DEP
+(Data Execution Prevention) and works on a il Wmdows systems.
+• More Informatio n and Detai ls (Exploit upd11ted OTI 2011·09·02 Exploit first released 0T1 2011·07·1S}
+
+Remote Monitoring & Deployment Solutions
+
+FIN SPY
+
+FinSpy is a fie ld-proven Remote Monitoring Solution that
+enables Governments to face the current challenges of
+monitoring Mobile and Security-Aware Targets that
+regularly change location, use encrypted and anonymous communication channels and reside in foreign
+countries .
+Traditiona l Lavvful Interception solutions face new challenges
+that can only be solved using active systems like FinSpy:
+
+QUICK INFORMATION
+· Strategic/Tactical Operations
+· Remote Computer Monitoring
+· Monitoring of Encrypted
+Communications
+
+· Data not transmitted over any network
+· Encrypted Communications
+· Targets in foreign countries
+FinSpy has been proven successful in operations around
+the world for many years, and va luable intelligence has
+been gathered about Target lndividuals and Organizations.
+When FinSpy is insta lled on a computer system it can be
+remotely controlled and accessed as soon as it is
+connected to the internet/network, no matter where in
+the world the Target System is based.
+
+Usage Example 1: Intelligence Agency
+FinSpy was insta lled on severa l computer systems inside
+Internet Cafes in critical areas in order to monitor them
+for suspicious activity, especia lly Skype communications to
+foreign individuals. Using the Webcam, pictures of the
+Targets were taken while they were using the system .
+
+Usage Example 2: Organized Crime
+FinSpy was covertly deployed on the Target Systems
+of several members of an Organized Crime Group. Using
+the country tracing and remote microphone access,
+essential information could be gathered from every meeting
+that was held by this group.
+
+Feature Overview
+Target Computer - Example Features:
+
+Headquarters - Example Features:
+
+· Bypassing of 40 regularly tested Antivirus Systems
+
+· Evidence Protection (Valid Evidence accord ing to
+European Standards)
+
+· Covert Communication with Headquarters
+·Full Skype Monitoring (Ca lis, Chats, File Transfers,
+Video, Contact List)
+
+·User-Management according to Security Clearances
+
+· Recording of common communications like Email,
+Chats and Voice-over-IP
+
+·Can be fully integrated with Law Enforcement
+Monitoring Functionality
+
+· Hidden from Public through Anonymizing Proxies
+
+· Live Surveillance through Webcam and Microphone
+· Country Tracing of Target
+· Silent extracting of Files from Hard-Disk
+· Process-based Key-logger for faster analysis
+· Live Remote Forensics on Target System
+· Advanced Filters to record only important information
+·Supports most common Operating Systems
+(Windows, Mac OSX and Linux)
+
+For a full feature list, please refer to the Product Specifications.
+
+Product Components
+
+°""' • -•-.:._a --·~'
+f· ·..-.·
+ljt
+
+--
+
+- '---··
+·-, _ ............_... ---
+
+- -- - --
+
+...
+
+-
+
+"""-
+
+.U-"9
+
+Ill
+
+.t
+
+..-..:.
+
+..
+
+~;lt-­
+
+~ - -.~'""
+_...ai 1' - • - . : a
+
+• ~;.!!
+
+cas • _ , . _ ,
+
+~
+
+-.......
+
+-
+
+· ~t--
+
+~
+
+t -,._,..,.•
+
+! -:::....
+
+FinSpy Master and Proxy
+
+FinSpy Agent
+
+· Full Contrai of Target Systems
+· Evidence Protection for Data and Activity Logs
+· Secure Storage
+· Security-Clearance based User and Target Management
+
+· Graphical User Interface for Live Sessions
+·Configuration and Data Analysis of Targets
+
+4
+
+--
+
+Remote Monitoring & Deployment Solutions
+
+FIN SPY
+
+Access Target Computer Systems around the world
+
+FinSpy Relay
+
+The FinSpy Relay( s) forward
+connections between
+Targets and Master
+
+The Target System sends
+a heartbeat to the FinSpy Relay(s)
+as soon as it is online
+
+The FinSpy Master manages ail Targets
+and Agents and stores the Data
+
+FinSpy Agents
+
+Monitoring Center
+
+Easy-to-use User Interface
+
+United~
+
+U
+
+...,.,
+
+MAC!~
+
+• CO!lligur~non
+
+T~MKUK
+
+• Ag~lm
+8 üceruelnform11ion
+
+gMVl'Y-jab<tl
+
+r"!'~o.
+
+. ...
+
+~....,,,
+
+INf'EClJONMAl
+
+1
+
+~
+p
+
+•
+
+l.ogoff {rn;m)
+
+"
+
+......
+
+......
+""""
+
+--
+
+ST\JART
+
+.J.: Utmd~
+
+•YmM
+
+WH
+
+PC·E
+
+S'ISTEM
+
+INDU
+
+WSl
+
+"""'
+
+ws
+
+""™
+
+"'
+""'"
+
+..........
+
+SV•TfM
+
+~
+
+"""
+
+""""
+
+2011-01-091 2:06:00
+
+uo
+
+87
+
+2011-06-1704:»J9
+
+m
+
+10!
+
+2011·12-151hll:AO
+
+'10
+
+81.l'
+
+2011-0S-1111:50:02
+
+""
+
+,......
+
+120
+
+NIA
+
+62.
+
+NIA
+
+"'
+,.,
+,
+
+Ctls..m
+
+lltntltûst
+
+Samb.~11
+
+T~idJK
+
+"-......
+--- -..........
+
+lAN
+
+te1.t-plc
+
+. """"'Logfil8
+
+NIA
+
+MdenceProtectlOll
+
+,,..,._
+
+S'ISTEM
+
+<.Li UNtN~
+
+..........
+
+-·' .....,..
+.............
+tr MMysM
+~
+
+........
+
+A UnotedK"ingdocn
+
+"''™
+
+UnttedArabEmor
+
+w~,
+
+117
+
+"""'
+......
+
+111
+
+KIMIAWmpit
+
+..
+...
+
+f'
+
+..
+
+92.t
+
+"'
+22J
+
+Ku.11.alumput' 203
+
+f'
+f'
+f'
+f'
+f'
+
+NIA
+
+uo
+
+2011-12-0900-..oœ
+
+3JO
+
+2011-12-1704.ll'Al
+
+,.,
+
+2011..0J-101733:31
+
+2.61
+
+2012-01-0910:11"8
+
+uo
+110
+
+2011-08-0S07:4!ù2
+
+2.16
+
+2011-10-091~
+
+102
+
+2011-12.0112:27i45
+2011-06-151~.21
+
+(' 2011-12-210i:06:11
+
+0
+
+2011 · 12-0717:56lol7
+
+f'
+
+2011·12-0900AA.:10
+
+NIA
+
+l.00
+
+2011-0S-1601:0M5
+
+m
+
+...,
+2.10
+
+20124Hl910:10:10
+
+(J
+
+20U.01-o9ll!l~14
+
+uo
+
+Remote Mon itoring & Deployment Solutions
+
+FIN SPY
+
+Live and Offline Target Configuration
+
+Oevelopu Centers
+
+W~m
+
+Capture Setbngs
+
+Mod~
+
+f re<io• n<y: ~~-----~
+E1t11T1ortd St.':~ for o smgle- fro~: 70 KB
+
+Full Intelligence on Target System
+
+1
+3
+· T~Lm
+
+• o•t•tw.lysis
+• c rutehrget
+
+i
+i
+
+••
+
+.: .: '
+
+1
+
+"
+
+. logoff (•'eirJ
+FinSpyA9mt V~2.3S
+
+"
+
+•
+
+1. Multiple Data Views
+2. Structured Data Analysis
+3. Importance Levels for all
+Recorded Files
+
+Remote Monitoring & Deployment Solutions
+FINFLY WEB
+
+Product Components
+
+___J
+
+;;:;-=O'=-=------
+
+EJ L __
+
+~ !,;==:-====--==
+::..:::::-.;...-::- - ~
+
+•
+
+FinFly Web
+· Custom Website Generator
+
+Full integration with Finfly LAN and Finfly ISP
+
+(W)LAN
+
+Local ISP
+
+Fin Fly Web
+
+Remote Monitoring & Deployment Solutions
+
+FINFLY WEB
+
+One of the major challenges in using a Remote Monitoring
+Solution is to install it onto the Target System, especially
+when only a little information, like an Email-address, is
+available and no physical access can be achieved.
+
+QUICK INFORMATION
+
+FinFly Web is designed to provide remote and covert
+deployment on a Target System by using a wide range of
+web-based attacks.
+FinFly Web provides a point-and-click interface, enabling
+the Agent to easily create a custom deployment code
+according to selected modules.
+The Payload will be deployed when the Target System visits
+the prepared website with the customized code.
+
+Usage Example 1: Technical Surveillance Unit
+
+Usage Example 2: Intelligence Agency
+
+After profiling a Target, the unit created a website of
+interest for the Target and sent him the link through a
+discussion board . Upon opening the Link to the unit's
+website, a Remote Monitoring Solution was installed on the
+Target System and the Target was monitored from within
+Headquarters.
+
+A customer deployed Finfly ISP within the main
+Internet Service Provider of his country. lt was combined
+with Fin Fly Web to remotely deploy the payload when
+the Target visited a trusted website .
+
+Feature Overview
+· Fully-Customizable Web Modules
+· Can be covertly installed into every Website
+· Full integration with Finfly LAN, Finfly NET and Finfly ISP to deploy even
+inside popular Websites, like Webmail, Video Portais, and more
+· lnstalls Remote Monitoring Solution even if only email address is known
+· Possibility to target every person visiting configured Websites
+
+For a full feature list, please refer to the Product Specifications.
+
+Remote Monitoring & Deployment Solutions
+
+FINFLY USB
+
+The FinFly USB provides an easy-to-use and reliable way
+of installing Remote Monitoring Solutions on computer
+systems when physical access is available.
+
+QUICK INFORMATION
+
+Once the FinFly USB is inserted into a computer, it
+automatically installs the configured software with
+little or no user-interaction and does not require
+IT-trained Agents when being used in operations. The
+FinFly USB can be used against multiple systems before
+being returned to Headquarters .
+
+Usage Example 1: Technical Surveillance Unit
+
+Usage Example 2: Intelligence Agency
+
+The FinFly USB wa s successfully used by Technical
+Surveillance Units in several countries to deploy a
+Remote Monitoring Solution onto Target Systems that
+were switched off, by simply booting the system from
+the FinFly USB device. This technique worked even for
+Target Systems that had full hard-disk encryption with
+products like TrueCrypt enabled .
+
+A Source in a domestic terror group was given a FinFly
+USB that secretly installed a Remote Monitoring
+Solution on several computers of the group when they
+were using the device to exchange documents between
+each other. The Target Systems cou ld then be remotely
+monitored from Headquarters, and the Fin Fly USB was
+later returned by the Source.
+
+Feature Overview
+·Can deploy even on powered off systems with full hard-disk encryption (e.g . TrueCrypt)
+
+· Covertly installs Remote Monitoring Solution on insertion in Target System
+· Little or no user-interaction is required
+· Functionality can be concealed by placing regular files like music, video and office
+documents on the device
+· Hardware is a common and non-suspicious USB device
+For a full feature list. please refer to the Product Specifications.
+
+Remote Monitoring & Deployment Solutions
+FINFLY USB
+
+Product Components
+
+[_J
+F"IN5P Y
+
+FinFly USBs
+
+Full FinSpy lntegration
+
+· USB Dongle
+· Deploys a Remote Monitoring Solution on Insertion into
+Target Systems
+· Deploys Remote Monitoring Solution during Boot Process
+
+· Automatic generation and activation through
+FinSpy Agent
+
+Tactical IT Intrusion Portfolio
+FINUSB SUITE
+
+The FinUSB Suite is a flexible product that enables Law
+Enforcement and Intelligence Agencies ta quickly and
+securely extract forensic information from computer
+systems without the requirement of IT-trained Agents.
+
+QUICK INFORMATION
+
+lt has been used in successful operations around the world
+where valuable intelligence has been acquired about
+Targets in covert and overt operations.
+
+Usage Example 1: Covert Operation
+
+Usage Example 2: Techniçal Surveillance Unit
+
+A source in an Organized Crime Group (OCG ) was
+given a FinUSB Dongle that secretly extracted Account
+Credentials of Web and Emai l accounts and Microsoft
+Office documents from the Target Systems, while the
+OCG used the USB device ta exchange regular files like
+Music, Video and Office Documents.
+
+A Technical Surveillance Unit (TSU) was following a Target
+that frequently visited random Internet Cafés making
+monitoring with Trojan-Horse-like technology impossible.
+The FinUSB was used ta extract the data left on the public
+Terminais used by the Target after the Target left.
+
+After returning the USB device ta Headquarters, the
+gathered data could be decrypted, analyzed and used ta
+constantly monitor the group remotely.
+
+Severa! documents that the Target opened in his web-mail
+could be recovered this way. The gathered information
+included crucial Office files, Browsing History through
+Cookie analysis, and more.
+
+Feature Overview
+· Optimized for Covert Operations
+· Easy usability through automated Execution
+· Extraction of Usernames and Passwords for ail common software like:
+·Email Clients
+· Messengers
+· Browsers
+· Remote Administration Tools
+
+· Silent Copying of Files (Search Disks, Recycle-Sin, Last opened/edited/created)
+· Extracting Network Information (Chat Logs, Browsing History, WEP/WPA(2) Keys, ... )
+·Compilation of System Information (Running/lnstalled Software, Hard-Disk Information, ... )
+For a full feature list, please refer to th e Product Specifications.
+
+Product Components
+
+F"IN U S 9
+
+1W10m
+
+HQ
+
+1""21Ma,2tllot21510MT~U...
+
+""-' 1.lJ.l-v10H 10&15'GMT f ...... U-
+
+Wl27'
+W17'4
+
+·-r-... . .
+•
+
+0--0.-..00..
+~
+
+L=::"'
+
+FinUSB Suite - Mobile Unit
+
+-
+
+w...t1•20111s>c210Mr F..._u..r
+
+b02020
+l.œot1
+
+n.
+
+'"°
+
+11M""t2Cl1101<16MGMl 1llS..,:NOI ltt>1"GMT
+
+ICPSPl
+
+J
+1
+
+FinUSB HQ
+· Graphical User Interface to decrypt and analyze
+gathered Data
+·Configure Dong le Operational Options
+
+10 FinUSB Dongle (U3 - 16GB)
+
+FinUSB - Windows Password Bypass
+
+· Covertly extracts data from system
+
+· Bypass Windows Logan without permanent
+system modifications
+
+Tactica l IT Intrusion Portfolio
+FINUSB SUITE
+
+Easy Usability
+
+1. Pick up a FinUSB Dongle
+
+~
+
+2. Configure ail desired Features /Modules and
+update your FinUSB Dongle with FinUSB HQ
+
+3. Go to your Target System
+
+~
+
+4 . Plug in your FinUSB Dongle
+
+~
+
+5. Wait until ail data is transferred
+
+6. Go back to your FinUSB HQ
+
+®
+.Al
+
+7 . Import ail Data from Fin USB Dongle
+8 . Generate Report
+
+Professional Reports
+
+FINUSB H4J
+
+fin USB Suite: Report
+1. Gtmeric
+G1n1nc Inform1tion
+
+W1ndnww; Aççpynt M.uhu
+f-M;oilAs52unn
+Mu1tnq•rA..ccou.,t 1
+
+Googl1 Chœm• Pu1wnnb
+ftr•fox Pt nwo!J!1
+N'ftw?rkPH'<WOrds
+
+Prot1cted· Stor11a
+
+! nIJrnlt Explorer Açço1.1nn-
+
+II I . System
+Wini:!Ms Prpdyçt l(ns
+W1ndo ...1UR4uu
+~
+Curr1ntPrcc1uH
+
+Gene.rie Information
+
+Pro
+
+Mode: Off
+
+IT Intrusion Training Program
+FINTRAINING
+
+Security awareness is essential for any government
+to maintain IT security and successfully prevent threats
+against IT infrastructure, which may result in a loss of
+confidentiality, data integrity and avai lability.
+On the other hand, tapies like CyberWar, Active Interception and lntelligence-Gathering through IT Intrusion
+have become more important on a daily basis and require
+Governments to build IT Intrusion teams to face these
+
+QUICK INFORMATION
+
+Content:
+
+new challenges .
+FinTraining courses are given by world-class IT Intrusion
+experts and are held in fully practical scenarios that
+focus on real-life operations as required by the end-user in
+order to solve their daily challenges .
+
+Gamma combines the individual training courses into a
+professional training and consulting program that
+builds up or enhances the capabilities of an IT Intrusion
+team. The Training courses are fully customized according
+to the end-user's operational challenges and requirements.
+
+Sample Course Subjects
+
+Consultancy Program
+
+· Profiling of Target Websites and Persans
+
+· Full IT Intrusion Training and Consulting Program
+
+· Tracing anonymous Emails
+
+· Structured build-up and Training of IT Intrusion Team
+
+· Remote access to Webmail Accounts
+
+·Full Assessment of Team Members
+
+· Security Assessment of Web-Servers & Web-Services
+· Practical Software Exploitation
+
+· Wireless IT Intrusion (WLAN/802.11 and Bluetooth)
+· Attacks on criti cal Infrastructures
+· Sniffing Data and User Credentials of Networks
+
+· Monitoring Hot-Spots, Internet Cafés and Hotel Networks
+· lntercepting and Recording Calls (VolP and DECT)
+· Cracking Password Hashes
+
+IT Intrusion Training Program
+FINTRAINING
+
+Customized courses in high-end training facilities worldwide
+
+Remote Monitoring & Deployment Solutions
+FINFLY NET
+
+ln many real-life operations, physical access to in-country
+target systems cannot be achieved.
+
+QUICK INFORMATION
+
+To solve th is, a covert remote installation of a Remote
+Monitoring Solution is required to be ab le to monitor the
+Target from within Headquarters.
+
+Finfly NET is a tactical (portable) solution to be deployed
+in a .,friendly" LAN environment (l ike hotels, hotspots,
+companies - with support of the network owner) on short
+notice, to remotely install the Remote Monitoring Solution
+on selected target systems.
+FinFly NET is based on a high performance portable PC
+combined with a Management Notebook to provide
+maximum mobility and flexibility in the targeted networks.
+A wide range of Network Interface Cards - all secured
+with bypass functions - is avai lable for the required active
+network connectivity.
+The end-user can select several sophisticated passive
+methods of Target and Traffic Identification . These
+vary from DHCP/RADIUS Mon itoring (MAC-Addresses, User
+Names), Flow Monitoring and Fi nger-Printing. Each method
+can be used either stand-alone or combined, to provide
+maximum success identifying the targets of interest.
+Of course fixed IP-Addresses can be used too.
+lt is able to patch Files that are downloaded by the
+Target on-the-fl y, send fake Software Updates for
+popular Software or inject the Payload into visited
+Websites .
+
+Usage Example LAN: Intelligence Agency
+Fin Fly NET is deployed i.e. in a hotel's LAN in front of the DSLModem before the IP-traffic is transm itted to an Internet
+Service Provider network.
+Targets of interest are identified in the IP-traffic by
+various passive profiling and identification methods and
+the Remote Monitoring Solution w ill be deployed on the
+positively identified Target Systems.
+
+Feature Overview
+·Can be installed inside a LAN environ ment (hotel, hotspot. company ...)
+· Ethernet 1000Base-T. 1000Base-SX, 1000Base-LX
+·Identifies Targets using different passive profiling/identification methods
+· Hides a Remote Mon itoring Solution in Downloads of Targets
+· lnjects a Remote Monitoring Solution as Software Updates
+· lnsta ll s a Remote Monitoring Solution through Websites visited by the Target
+
+For a full feature list. please refer to the Product Specifications.
+
+DIFFERENT DEPLOYMENT POSSIBILITIES
+
+Deployment in the LAN of a Hotel
+
+Guest Rooms
+
+Conference Rooms
+
+Base ment
+
+Deployment in the LAN of a WLAN Hotspot
+Access Point # 1
+
+WLAN Hotspot
+
+Access Point #2
+
+FinFly NET wil l be deployed at the appropriate location inside the facility. After connecting the Portable in-line to the link(s)
+provided, the user can start ana lyzing the traffic selecting various different methods to identify the targets of interest and their
+IP-traffic. The methods to be used for target identification strong ly depend on the network setup , features and services
+provided and used.
+
+Remote Monitoring & Deployment Solutions
+FINFLY NET
+
+TARGET PROFILING AND IDENTIFICATION
+HTTP Sniffer Module
+Browser and Operating System Types and Versions, History, Languages
+
+Email Sniffer Module
+POP3, SMTP
+
+Login Sniffer Module
+FTP, HTTP, IMAP, IRC, NNTP, POP, SMTP
+
+TCP/UDP Sniffer Module
+Source/Destination IP, Sou rce/Destination Ports
+
+DHCP/RADIUS Sniffer Module
+MAC, Hostname, IP Session start/end
+
+TARGET DEPLOYMENT METHODS
+Binary/Download
+Patching of ".exe" and/or " .scr" files
+
+Update Injection
+Fake Updates for different Applications
+
+Website Deployment
+Using FinFly Web to deploy during browsing activities
+
+Remote Monitoring & Deployment Solutions
+FINFLY NET
+
+Product Components
+
+Fin Fly NET consists of the following:
+· Target Profiling, Identifi cation & Deployment Proxy Server
+(Portab le)
+· Management System (Notebook)
+
+FinFly NET Portable
+
+FinFly NET Mgmt.
+
+Atlas A9 1 ?" Portable
+
+Lenovo Thinkpad
+T-Series
+
+Throughput:
+
+6 Gbps
+
+Max. no. of NICs:
+
+3 NI Cs (Interfaces)
+
+Interfaces:
+
+1x 1OOOBASE-T (Copper; 2 ports)
+1x 1OOOBASE-SX (MM-Fi ber; 2 ports)
+1x 1OOOBASE-LX (S M-Fiber; 2 ports)
+Others upon request
+
+Processors:
+
+1x Intel Core i7
+Intel Xeon upon request
+
+Cores:
+
+4 Cores / Processor
+
+RAM:
+
+12GB minimum
+
+HDD Capacity:
+
+2 x 1TB SATA
+
+Optical Drive:
+
+DVD+/-RW SATA
+
+Monitor:
+
+1 x 17" TFT, Keyboard, Touchpad
+
+Features:
+
+Bypass Switch Function for NICs
+
+Operating Systems: Linux GNU (Debian 5.0) hardened
+Windows 7 Prof. (Management Nb .)
+
+Important Note:
+Gamma provides next to FinFly NET the same intelligence capabi lities integrated within the FinFly ISP solution, whereas the
+target identification capabi lities are implemented into a fixed or portable ISP solution . This solution is characterized by high
+performance serve r t ec hnology wh ich wi ll be customized and integrated into the relevant ISP environment and related
+requirements.
+
+Tactical IT Intrusion Portfolio
+FININTRUSION KIT
+
+Finlntrusion Kit was designed and developed by worldclass IT Intrusion specialists, who have over 1O years of
+experience in their area through their work in several Tiger
+Teams (Red Teams) in the private and government sector
+assessing the security of different networks and organizations.
+The Fin lntrusion Kit is an up-to-date and covert operational
+Kit that can be used for most common IT Intrusion
+Operations in defensive and offensive areas. Current
+customers include Military CyberWar Departments,
+Intelligence Agencies, Police Intelligence and other
+Law Enforcement Agencies .
+
+QUICK INFORMATION
+Usage:
+
+· Strategic/Tactical Operations
+
+Capabilities:
+
+· Decodes WEP/WPA Encryption
+· Network Monitoring
+(including SSL Sessions)
+· IT Intrusion Attacks
+
+Content:
+
+· Hardware/Software
+
+Usage Example 1: Technical Surveillance Unit
+
+Usage Example 2: IT Security
+
+The FinIntrusion Kit was used to decode the WPA encryption
+of a Target's home Wireless network and t hen mon itor
+his Webmail (Gmail, Yahoo, ... ) and Social Network
+(Facebook, MySpace, .. .) credentials, which enabled the
+investigators to remotely monitor these accounts from
+Headquarters without the need to be close to the Target.
+
+Severa ! customers used the Fin lntrusion Kit to successfully
+bypass the security of networks and computer systems
+fo r offensive and defensive pu rposes using various
+Tools and Techniques.
+
+Usage Example 3: Strategic Use-Cases
+The Fin lntrusion Kit is widely used to remotely gain access
+to Target Email Accounts and Target Web -Servers and
+monitor their activities, includ ing Access-Logs and more.
+
+Feature Overview
+· Discovers Wireless LANs (802.11) and Bluetooth® devices
+· Recovers W EP (64 and 128 bit) Passphrases within 2-5 minutes
+
+· Breaks WPA 1 and WPA2 Passphrases using Dictionary Attacks
+· Actively mon itors Loca l Area Network (Wired and Wireless) and extracts Usernames and
+Passwords even for TLS/SSL-encrypted sessions
+
+·Integrated WiFi Catcher that can be combined with Password monitoring functionalities
+· Remotely breaks into Email Accounts using Network-, System- and Password-based Intrusion Techniques
+
+· Network Security Assessment and Va lidation
+For a full feature list, please refer to the Product Specifications.
+
+Product Components
+
+.
+
+Welcom e to the FinTrack Operat1on Center.
+
+~1e-c1•Cateqory10
+
+conl111Uf'
+
+~~
+
+- ,e _Jf!ol
+
+..,._,_.. .. -I0~-11<-•
+
+............
+
+.:-.
+
+~
+
+...
+
+Finlntrusion Kit - Covert Tactical Unit
+
+FinTrack Operation Center
+
+Basic IT Intrusion Components :
+· High-Power WLAN Adapter
+· High-Power Bluetooth Adapter
+· 802. 11 Anten nas
+·Many Common IT Intrusion devices
+
+· Graphical User Interface for Automated IT Intrusion
+Attacks
+
+WiFi Catcher
+· Catches close-by WLAN Devices and records Traffic and Passwords.
+~
+
+Netwoôc
+
+1 Configuration
+
+j
+
+wtretess
+
+Networl<s
+
+1
+
+Password
+
+d lents
+
+Activity
+
+LD9l
+
+Fake AP
+
+F°'ININTAUSION KIT
+
+.
+
+Upd.tlH
+
+•
+
+L.icenH
+
+.
+
+Liln9UAC)e
+
+.
+
+10/2812011
+10/28/2011
+lOllB/2011
+10/28/2011
+10/28/2011
+lDnS/2011
+
+..,...
+
+•
+
+PM
+PM
+PM
+PM
+PM
+PM
+
+lnitialize Adapter wlanl
+Setup Network Settings.
+
+Startu19 a DHCP Servtt.
+The Fake AP for ail former connected ESSIOs has been created.
+Cl ient 04:4 ~
+assoc1ated (unencrypted) ro ESSID: •defaulr
+Chent 04:4
+·." •
+assoc1ated (unencrypted) to ESSIO: *defaulr
+lOf.2812011 12:34:21 PM DHCPACK on 192.168.0 .2 to 04:4
+ia atO
+10/28/2011 12:34.27 PM OHCPACK on 192.168.0.2 to 04:4
+'loi via atO
+
+Onlîne Help
+
+•
+
+Welcome to the Anlntruslon IOl
+
+12:33:39
+12:33:43
+12:33:49
+12:33:49
+12:33:55
+12:34:09
+
+Monitor al! Targets
+
+~)
+
+FINFISHER PRODUCT SUPPORT
+FINSUPPORT
+
+FinSupport
+
+QUICK INFORMATION
+
+The FinSupport sustains upgrades and updates of the FinFisher™ product-line in combination with an annual support
+contract.
+
+· Overall Solution &
+Operational Support
+
+The FinFisher™ Support Webpage and Support Team provide the following services to clients:
+
+· Bug Fixing, Update of
+Features and Capabilities
+
+·On li ne access to:
+· Latest User Manual
+· Latest Product Specifications
+· Latest Product Training SI ides
+· Bug Reporting Frontend
+· Latest Anti Virus Test Report
+· Feature Request Frontend
+· Regular Software Updates:
+· Bug fixes
+·New Features
+· New Major Versions
+· Technical Support via Messenger:
+·Bug fixing
+· Partial Operational Support
+
+FinlifelineSupport
+The FinlifelineSupport provides professional back-office
+support for trouble resolution and technical queries. lt also
+provides back-office support remotely, for FinFisher™ Software bug fixes and Hardware replacements under warranty.
+Furthermore, with FinlifelineSupport the cl ient automatically
+receives new features and functionalities with the standard
+release of bug f ixes.
+
+· Hardware/Software
+
+Software Upgrades
+The FinlifelineSupport includes regular Software upgrades
+and guarantees automatic upgrades to the existing system
+with Software patches provided via the update system .
+These upgrades include new features, new enhancements
+and new fundionality, as per the client's roadmap (excluding
+hardware).
+
+Remote Monitoring & Deployment Solutions
+
+FINFLY ISP
+
+ln many real- life operations, physica l access to in-country
+Target Systems cannot be achieved, and a covert remote
+installation of a Remote Mon itoring Solution is required to
+be able to monitor the Target from within Headquarters.
+
+QUICK INFORMATION
+· Strategic Operations
+· Deploys Remote Monitoring
+Solution on Target System
+through ISP Network
+
+Fin Fly ISP is a strategic, countrywide, as well as a tactical
+(mobile) solution, that can be integrated into an ISP's
+Access and/or Core Network, to remote ly install the
+Remote Monitoring Solution on se lected Target Systems.
+
+· Hardware/Software
+
+FinFly ISP appliances are based on carrier grade server
+technology, providing a maximum of reliability and
+scalability to meet almost every challenge related to networks' topologies. A wide range of Network Interfaces all secured with bypass functions - is available for the
+required active network connectivity.
+Several passive and active methods of Target Identification from online monitoring via passive tapping to interactive
+communication between FinFly ISP and the AAA-Servers ensure that the Targets are identified and their appropriate
+traffic will be provided for the deployment process .
+FinFly ISP is able to patch Files that are downloaded by
+the Target on-the-fly or send fake Software Updates for
+popu lar Software. The new re lease integrates Gamma's
+powerful remote deployment application FinFly WEB that
+injects a Payload to any website visited by the Target.
+
+Usage Example: Intelligence Agency
+FinFly ISP was deployed in the main Internet Service
+Provider networks of the country and was actively used to
+remotely deploy a Remote Monitoring Solution on Target
+Systems. As the Targets have Dynamic-IP DSL Accounts,
+they are identified with their Radius Logon Name.
+
+Feature Overview
+· Can be insta lled inside an Internet Service Provider's Networks
+· Handles all common Protocols
+· Selected Targets by IP Address, Radius Login Name, DHCP and MSISDN
+· Hides Remote Monitoring Solution in Downloads of Targets
+· lnjects a Remote Monitoring Solution as Software Updates
+· Remotely insta lls a Remote Monitoring Solution through Websites visited by the Target
+
+For a full feature list, please refer to the Product Specifications.
+
+Different Location Possibilities
+· FinFly ISP can be used as a tactical or
+strategic so luti on within ISP networks
+
+ISP Network
+
+... more tactical
+
+RADIUS
+DHCP
+
+A tactical solution is mobile and the hardware is dedicated
+to the deployment tasks inside the access network close to
+the targets' access points. lt can be deployed on a shortterm basis to meet tacticâl requirements focused on a
+specific target or a small number of targets in an area .
+
+A strategic soluti on wou ld be a permanent ISP/co untrywide
+installation of FinFly ISP to select targets and deploy payloads from the remote headquarters without the need for
+the LEA to be on location .
+Of course, it is possible to combine tactical and strategic
+solutions to reach a maximum of flexibility for the deployment
+ope rations .
+
+Remote Monitoring & Deployment Solutions
+
+FINFLY ISP
+
+Network Setup
+
+Strategic Deployment
+
+Tactical Deployment
+
+Remote Monitoring & Deployment Solutions
+FINFLY ISP
+
+Product Components
+FinFly ISP Strategic
+A strategic deployment of FinFly ISP consists at least of
+the fol lowing:
+·Management System at the LEMF
+· Target Identification Probe Server(s) at the AAA-System
+of the network
+· Deployment Proxy Se rver(s) at, for example, the
+Internet Gateway(s)
+
+FinFly ISP Servers
+HP ProLiant DL-Series G7
+Business WS
+
+1
+
+Fin Fly ISP Workstation
+HP Z-Series
+
+... , . f. .
+'
+
+Cl"
+
+• 1·11
+
+:= c=
+
+.•
+
+.•
+
+1
+
+Throughput:
+
+> 20 Gbps
+
+Max. no. of NICs:
+
+2 - 8 NI Cs
+
+Interfaces:
+
+1 GE Copper / Fiber
+1OGE Copper / Fiber
+SONET/SDH OC-3 / -192
+STM-1 / -64
+ATM AALS
+
+Processors:
+
+1x - 8x Intel XEON
+
+Core:
+
+2 - 8 Cores / Processor
+
+RAM:
+
+12GB -1TB
+
+HDD Capacity:
+
+3 x 146GB - 4.8TB SAS
+
+Features:
+
+HP iLO 3
+Redundant Power
+Redundant Fans
+Bypass Switch Function (if applicable)
+
+•
+
+1
+:-
+
+11
+
+Il
+
+1
+
+•
+
+Operating System: Linux GNU (Debian 5.0) hardened
+
+FinFly ISP Tactical
+A tactica l FinFl y ISP System consists of the fo llow ing :
+·Target Identification & Deployment Proxy Server Portable
+· Management System Notebook
+
+FinFly ISP Portable
+Atlas A9 17" Portable
+
+FinFly ISP Mgmt.
+Lenovo Thinkpad
+T-Series
+
+Throughput:
+
+6 Gbps
+
+Max. no. of NICs:
+
+3 NI Cs (Interfaces)
+
+Interfaces:
+
+1x 1OOOBASE-T (Copper; 2 ports)
+1x 1OOOBASE-SX (MM-Fiber; 2 ports)
+1x 1OOOBASE-LX (SM -Fi ber; 2 ports)
+Others upon request
+
+Processors:
+
+1x Intel Core i7
+Intel Xeon upon request
+
+Cores:
+
+4 Cores / Processor
+
+RAM :
+
+12GB minimum
+
+HDD Capacity:
+
+2 x 1TB SATA
+
+Optical Drive:
+
+DVD+/-RW SATA
+
+Monitor:
+
+1 x 1 7" TFT, Keyboa rd, Touchpad
+
+Features:
+
+Bypass Switch Function for NIC s
+
+Operating Systems: Linux GNU (Debian 5 O) hardened
+Windows 7 Prof . (Mana gement Nb. )
+
+Tactical IT Intrusion Portfolio
+
+FINFIREWIRE
+
+Product Components
+
+1FinFireWire - Tactical Unit
+
+Point-and-Click User Interface
+
+· Complete Tactical System
+
+· Easy-to-use User Interface
+
+Connection Adapter Cards
+
+Universal FinWire CableSet
+
+· PCMCIA and ExpressCard Adapter for
+Target Systems without FireWire port
+
+·4 pin to 4 pin
+· 4 pin to 6 pin
+· 6 pin to 6 pin
+
+Usage
+
+1. Go to your Target System
+
+2. Start FinFireWire
+
+3. Plug in FireWire Adapter & Cable
+
+4. Select a Target
+
+5. Wait until System
+is unlocked
+
+Tactical IT Intrusion Portfolio
+
+FINFIREWIRE
+
+Technical Surveillance Units and Forensic Experts often face
+a situation where they need to access a running computer
+system without shutting it down in order to prevent data
+loss or save essential time during an operation . ln most
+cases, the Target System is protected with a passwordenabled Screensaver or the target user is not logged in
+and the Login Screen is active.
+FinFireWire enables the Operator to quick ly and covertly
+bypass the password-protected screen and access the
+Target System without leaving a trace or harming essential
+forensic evidence .
+
+QUICK INFORMATION
+Usage:
+
+· Tactical Operations
+
+Capabilities:
+
+·
+·
+·
+·
+
+Content:
+
+· Hardware/Software
+
+Bypasses User Password
+Covertly Accesses System
+Recovers Passwords from RAM
+Enables Live Forensics
+
+Usage Example 1: Forensic Operation
+
+Usage Example 2: Password Recovery
+
+A Forensic Unit entered the apartment of a Target and
+tried to access the computer system. The computer was
+switched on but the screen was locked.
+As they were not allowed, for legal reasons, to use a Remote
+Monitoring Solution, they would have lost all data by switching off the system as the hard-disk was fully encrypted.
+FinFireWire was used to unlock the running Target
+System enabling the Agent to copy all files before
+switching the computer off and taking it back to Headquarters.
+
+Combining the product with traditional Forensic
+applications like Encase®, Foren sic units used the
+RAM dump functionality to make a snapshot of the
+current RAM information and recovered the Hard-Disk
+encryption passphrase for TrueCrypt's full disk encryption.
+
+Feature Overview
+· Unlocks User-Logon for every User-Account
+· Unlocks Password-Protected Screensaver
+
+· Dumps full RAM for Forensic analysis
+· Enables live forensics without rebooting the Target System
+: User password is not changed
+· Supports Windows, Mac OSX and Linux
+· Works with FireWire/1394, PCMCIA and Express Card
+
+For a full feature list, please refer to the Product Specifications.
+
+

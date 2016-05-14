@@ -1,0 +1,114 @@
+Telephone Line Monitoring 
+Zebra E1/T1 
+
+CONFIDENTIAL
+
+1
+
+Telephone line Monitoring Zebra E1-T1
+The Zebra E1/T1 gateway is designed to
+monitor up to 128 uni-directional E1/T1
+inputs. Some applications require the Zebra
+gateway to terminate the monitored E1/T1
+inputs, for example: active connections to
+switches (e.g.: ETSI LI) or in satellite
+monitoring systems. Other applications
+require the Zebra gateway to passively tap
+carrier connections between switches. In
+the second type of application it is
+important to ensure that the Zebra gateway
+remains invisible to the monitored network,
+and that it never interferes with the signals
+on the monitored carriers, for example:
+when powering up or down.
+The Zebra E1/T1 coupler is designed to connect large numbers of monitored carriers to the
+Zebra E1/T1 gateway. Punch-down disconnection blocks provide a robust connection to the
+input pairs as well as cable management. It is possible to connect to active carriers without
+cutting the wires.
+Optional hi-z buffering modules can be mounted behind the coupling modules. The function of
+the hi-z buffer is to prevent signals from flowing from the Zebra gateway to the monitored
+network. The hi-z buffer consists of a single printed circuit board with a smaller profile than the
+coupling board. Hi-z buffering therefore does not require any additional rack space.
+Disconnection tabs allow each block of 8 input pairs to be disconnected from the monitored
+carriers.
+When hi-z buffers are used an optional signal indication module can be fitted. One LED is
+mounted above the disconnection block for each wire pair and indicates the signal status of that
+monitored carrier pair, for example: active connection with no alarms – green; alarms present –
+red; etc. The status indication module consists of a single printed circuit board mounted behind
+the coupling and buffer modules. It has the same profile as the hi-z buffer board and requires no
+additional rack space.
+The Zebra E1/T1 coupler, hi-z buffer and signal status indication modules can be used
+independently of the VASTech Zebra E1/T1 gateway.
+
+CONFIDENTIAL
+
+2
+
+Specifications
+Coupling module (can be used standalone)
+Dimensions
+
+Each complete 19” rack mount assembly consists of 2 brackets
+with rod mounting profile and 2 carrier coupling modules. Height:
+9U
+Capacity and monitored 2 × 64 twisted pairs – equivalent to the full capacity of 128 E1
+cable type
+inputs of one Zebra gateway. A version for coaxial carrier inputs will
+be available by 2007Q1
+Connection blocks
+Krone disconnection blocks. 8 pairs are connected on each block
+Connection tool
+Connectivity to gateway
+Power
+
+Krone insertion tool
+For every 16 input pairs: 1 × DB44 male connector with 32 pins
+connected
+No power required
+
+Buffer module (optional, requires coupling module)
+Dimensions
+
+Fits behind coupling module
+
+Capacity
+
+Same as coupling module
+
+Carrier impedance
+
+120Ω
+Versions for 75Ω and 100Ω will be available by 2001Q1
+Any signal flowing from the buffer to the monitored carrier will be
+attenuated by at least 20dB
+Each block of 8 input pairs can be disconnected from the monitored
+network by the removal of a disconnection tab
+No power required
+
+Return signal
+attenuation
+Disconnection from
+monitored carriers
+Power
+
+Signal status indication module (optional, requires coupling module)
+Dimensions
+Fits behind coupling module
+Capacity
+
+Same as coupling module
+
+Power
+
+1 × DIN rail-mounted 110V/240V transformer for each complete
+assembly. Input current 0.75A
+
+CONFIDENTIAL
+
+3
+
+CONFIDENTIAL
+
+4
+
+

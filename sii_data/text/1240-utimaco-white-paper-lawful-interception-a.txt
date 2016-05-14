@@ -1,0 +1,1087 @@
+LAWFUL INTERCEPTION:
+A MOUNTING CHALLENGE FOR
+SERVICE PROVIDERS AND GOVERNMENTS
+
+Executive Summary
+Lawful interception is the legally grounded process by which a communications network operator or
+service provider gives authorised officials access to the communications of individuals or
+organisations.
+The regulatory mandates for lawful interception have evolved over the years, but owing to
+international co-operation, far reaching standardisation has been achieved. Most countries in the
+world share the view that legal interception must be standards-based in order to achieve
+interoperability and smooth co-operation between the Police and operators and between the police
+forces of different countries. Standards also enable lower costs of products and ensure adequate data
+protection.
+Most countries in the world have some sort of regulation in place that covers interception. We
+distinguish between heavily regulated countries and countries with emerging legislation. In all heavily
+regulated countries, network and service providers have a statutory obligation to ensure and
+maintain interception capabilities. They must be able to intercept all applicable communications of a
+certain target without any gaps in coverage, and they must provide a network to transmit the
+intercepted information to the Police.
+Traditionally, lawful interception was straightforward and uncomplicated because it was confined to
+circuit-switched networks carrying voice traffic. Meanwhile, the communication patterns have
+changed. Today’s lawbreakers have a wide range of sophisticated, encrypted communication channels
+available to them, and with the changing communication patterns, the scope of interception has
+widened. The trend is unmistakable: service providers will be required to support law enforcement
+and intelligence gathering with an increasing amount of data across the entire array of service
+offerings and technologies.
+The challenges facing network operators and service providers are such that they cannot meet the
+fundamental requirements of lawful interception without dedicated lawful interception solution. From
+the perspective of the network operator or service provider, the primary obligations and general
+requirements for developing and deploying a lawful interception solution are: Cost effectiveness;
+minimal impact on the network infrastructure; compatibility and compliance; support of future
+technologies; reliability; and security.
+In most countries, each operator will deploy its own lawful interception solution, but in countries
+with emerging regulation, where the individual operators have yet to build up (or upgrade) their
+interception capabilities, an umbrella systems makes a lot of sense. An umbrella system is a single,
+integrated lawful interception system that covers all or several operators in a country.
+There are many valid lawful interception solutions on the market. The best way to introduce best
+practice is to partner with a solution vendor with many years of experience of designing and
+implementing lawful interception solutions. A good solution should interface with as many network
+elements as possible and support all standards. Operators should consider the long-term implications
+of the investment, as they will need regular updates and support and must adapt to future
+requirements. The long-term perspective makes it important to partner with a vendor to whom
+lawful interception is fundamental part of the product offering, and who is likely to be around in the
+long run.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+2
+
+Table of Contents
+The “Lawfulness” of Lawful Interception .............................................................................................................. 4
+Standardisation and International Co-operation ............................................................................................ 4
+National Regulation around the World ............................................................................................................ 5
+The LEAs and Interception Warrants ............................................................................................................... 8
+The Mounting Challenges of Lawful Interception................................................................................................ 9
+Changing Communication Patterns ................................................................................................................... 9
+Protection and Ethics .......................................................................................................................................... 11
+The Difficult Future of Lawful Interception ................................................................................................... 12
+Managing the Cost of Maintaining Inception Capabilities ........................................................................... 13
+Using Technology to Address the Challenges.................................................................................................... 14
+Meeting the Fundamental Requirements ........................................................................................................ 14
+Monitoring Networks with Dedicated Solutions ......................................................................................... 14
+Umbrella Systems ................................................................................................................................................. 18
+Utimaco LIMS™, a Leading-edge Solution .......................................................................................................... 19
+Main Components of Utimaco LIMS™ ........................................................................................................... 20
+Benefits delivered to Network Operators and LEAs .................................................................................. 21
+Conclusion .................................................................................................................................................................. 22
+
+List of Abbreviations
+3GPP
+AAA
+ANSI
+AP
+ATIS
+BRAS
+CALEA
+CDMA
+CMTS
+CPU
+DPI
+ETSI
+HI
+IIF
+IRC
+IRI
+ISP
+LEA
+LEMF
+LI
+NWO
+SORM
+SSL
+SvP
+TDM
+TLS
+TSM
+
+3rd Generation Partnership Project: A work group developing technical specifications for a 3rd
+Generation Mobile System based on the evolved GSM core networks.
+Authentication, Authorisation, Accounting: A network server used for access control.
+American National Standards Institute
+Access Provider
+Alliance for Telecommunications Industry Solutions: A work group under ANSI.
+Broadband Remote Access Server
+Communications Assistance for Law Enforcement Act: A United States wiretapping law from 1994
+Code Division Multiple Access: A radio channel access method used by several mobile communication
+technologies.
+Cable Modem Termination System
+Central Processing Unit
+Deep Packet Inspection
+European Telecommunications Standards Institute: An independent organisation developing telecommunications standards to be used throughout Europe.
+Handover Interface
+Internal Interception Function
+Internet Relay Chat
+Interception Related Information: Information pertaining to an on-going interception other than the
+communication content (incl. metadata).
+Internet Service Provider
+Law Enforcement Agency: National or local government agencies responsible for the enforcement of
+laws (e.g. police forces).
+Law Enforcement Monitoring Facility
+Lawful Interception
+Network Operator
+(System for Operative Investigative Activities):
+A Russian law passed in 1995 allowing the FSB to monitor telephone and internet communications.
+Secure Sockets Layer: An encryption protocol
+Service Provider
+Time-division Multiplexing
+Transport Layer Security: An encryption protocol
+Trusted Service Manager
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+3
+
+The “Lawfulness” of Lawful Interception
+“Interception” is an ancient concept – at least as old as the postal system – and we can safely assume
+that a systematic interception of messages will have been organised already at the time of the
+Emperor Augustus. Today, a modern scholarly definition of “lawful interception” is that it is the
+legally grounded process by which a provider of networks and/or communications services gives
+authorised officials access to the communications of individuals or organisations.
+
+Standardisation and International Co-operation
+The United States were pioneers of lawful interception when the Omnibus Crime Control and Safe
+Streets Act was introduced in 1968. Since then, the Western countries have worked together to
+develop the LI concept. The European Council resolution from 19951 – which forms the basis of all
+modern EU implementations of lawful interception – was a result of European governments working
+together with Australia, New Zealand, Canada and the USA.
+Owing to this international co-operation, far reaching standardisation has been achieved, and most
+countries in the world share the view that legal interception must be standards-based. Many
+standards have been adopted or emulated by many more countries than the ones that had originally
+sponsored their development. The international co-operation to define standards has had four
+objectives:
+Achieving interoperability and smooth co-operation between LEAs and operators as well as
+codifying the separation of duties between LEAs and operators;
+Enabling lower costs of products;
+Facilitating international co-operation between LEAs; and
+Ensuring adequate data protection
+ETSI
+The European Telecommunications Standards Institute (ETSI) enjoys a leading role in standardisation,
+not only in Europe but world-wide.
+ETSI has been a major driver
+behind the specification of handover interfaces and of the flow
+that intercepted data should
+follow. It specifies a general
+architecture for lawful interception that allows systematic
+and extensible communication
+between network operators and
+LEAs over defined interfaces and
+in compliance with national
+legislation.
+This general architecture applies
+to any kind of circuit- or packetswitched voice and data network.
+1
+
+COUNCIL RESOLUTION of 17 January 1995 on the lawful interception of telecommunications (96/C
+329/01)
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+4
+
+Under the terms of the ETSI standards, compliance is achieved by meeting the requirements for all
+provisions of lawful interception, and, in particular, the requirements for the Handover Interfaces
+(HIs) to the LEAs. Mandatory compliance with this ETSI standard has been enacted in a number of
+countries.
+3rd Generation Partnership Project (3GPP)
+In addition to the ETSI specifications, a consortium of technology organisations called the 3rd
+Generation Partnership Project (3GPP) has defined the technical specifications for lawful interception
+in 3G and future mobile networks. The standards 3GPP TS 33.106-108, establish a compliance
+framework that has been embraced by many industry participants.
+The 3GPP agreement, formalised towards the end of 1998, includes input from ETSI, the Association
+of Radio Industries and Businesses/Telecommunication Technology Committee (ARIB/TTC) in Japan,
+CCSA China, the Alliance for Telecommunications Industry Solutions (ATIS) in North America, and
+the Telecommunication Technology Association (TTA) in South Korea.
+ANSI/ATIS
+ATIS, the Alliance for Telecommunications Industry Solutions, which is a work group under the
+American standardisation institution (ANSI), has defined a number of interception standards that help
+network operators and service providers comply with CALEA – one of the four US laws that
+regulate lawful interception – passed in 1994 in order to help the US government foster interaction
+with network operators to make wiretapping easier. Solutions compliant with ANSI/ATIS standards
+provide a ‘Safe Harbour’ for the fulfilment of the LI obligations of the US network operators and
+service providers. This interaction was necessary due to the growth in new types of communications,
+like wireless phones and e-mail, along with rapid advances in technology. CALEA has been relatively
+successful and operators have been co-operative.
+ATIS has published new standards for broadband Internet access and VoIP services, as well as
+updates to existing standards for voice and CDMA interception.
+CableLabs (PacketCable)
+PacketCable standards by CableLabs provide the standards for hybrid fibre-coax networks used by
+cable television companies to provide telecommunications services (e.g. internet access, VoIP). LI
+standards provided by CableLabs are the de-facto standard for these types of networks,
+predominantly in the Americas.
+SORM
+SORM-1 was a Russian system, established in 1996 to monitor telephone communications. It was
+replaced in 1998 by SORM-2 to allow the monitoring of the internet, in addition to telephone
+communications.
+
+National Regulation around the World
+The majority of the World’s countries have a legal framework in place that regulates interception.
+Often those legal frameworks consist of several acts of parliament, directives and other legal texts (in
+the USA, for example, there are four main laws).
+Where lawful interception is heavily regulated, the regulatory mandates are fairly similar, whereas the
+situation for network and service providers is materially different in countries with emerging or no
+regulation.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+5
+
+Heavily Regulated Countries
+In all heavily regulated countries, network and service providers have a statutory obligation to ensure
+and maintain interception capabilities. They must be able to intercept all applicable communications
+of a certain target without any gaps in coverage, and they must provide a network to transmit the
+intercepted information to the LEAs.
+Reliability and integrity
+The network and service
+providers must deliver precise
+and accurate results with the
+highest levels of data integrity.
+The interception capabilities
+must be as reliable as the
+service(s) to be intercepted,
+and all interception activities
+must be recorded and logged.
+
+Separation of
+Intercepted Data
+Communications data should
+be divisible into individual
+components; for example, the
+metadata included in the Interception Related Information
+(IRI) should be separable from
+the communication content
+(CC).
+
+Transparent Surveillance
+The target must not be able to
+detect that he or she is being
+monitored.
+
+All countries allow legal interception in relation to serious crime such as murder, kidnapping and
+hijacking, to aid the police in investigating and construction a prosecution case. Most countries now
+also allow the monitoring of criminal behaviour, especially relating to suspected terrorism and mafia
+activity.
+White-collar crime is an interesting case. Some heavily regulated countries (e.g. the USA) allow
+lawful interception in relation to computer fraud and financial offences; some countries (e.g. Italy)
+make widespread use of lawful interception to fight corruption; and others again (e.g. Russia)
+explicitly allow lawful interception to combat tax fraud.
+Immediate
+Activation and
+Real-time
+Responsiveness
+Following the receipt
+of a warrant, the
+interception,
+must
+be activated within a
+few hours, and the
+network and service
+providers
+must
+ensure
+real-time
+delivery of the intercepted data.
+
+Sufficient
+Capacity
+The network and
+service
+providers
+must have adequate
+capacity to handle
+the scope and scale
+of all warranted
+activities. The UK,
+for
+example,
+requires capacity to
+intercept 1 in every
+10,000 subscribers.
+
+Data Security and
+Privacy
+Network and service
+providers
+must
+protect
+sensitive
+data
+during
+interception
+and
+transmission. They
+must safeguard an
+individual’s records.
+
+Decryption
+Network and service
+providers
+must
+deliver
+encrypted
+content in plain text
+format if the encryption keys are
+available to them.
+
+Other differences from country to country involve the communication services for which network
+and service providers must maintain interception capabilities. In Europe, the requirement is to
+intercept the access to the networks (circuit-switched or packet switched) plus some services (e.g.
+SMS, VoIP and e-mail), but not all kinds of other Internet services ... yet. It is up to the LEA to
+extract the application data (services) from the IP data. In Germany, a warrant typically remains in
+force for just 3 months, whereas a Swedish warrant can last 11 months. UK law stresses the
+responsibilities of the police forces and prevents most intercepted content from being used as
+evidence.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+6
+
+Countries with Emerging Regulation
+Different countries have different political traditions in relation to privacy and the rights of citizens,
+but a complete absence of interception regulation is incompatible with a modern democratic society.
+During the last few years, the rate of adoption of new technology in many parts of the world has
+exploded (in the Arab world, for example, the rate of adoption has doubled), but the legislative
+framework of those countries has not necessarily kept up.
+This is now beginning to change. We are seeing a tendency for increasingly comprehensive regulation
+to emerge in countries that have not previously had any. Frost & Sullivan believes that this tendency
+will continue, because one of the main drivers behind regulation and standardisation is
+democratisation and an enhancement of the general democratic understanding of people around the
+World.
+Where new regulation emerges, it follows international standards and established principles.
+Lebanon, for example, in 2009, implemented new lawful interception legislation “The
+Telecommunication Interception Act”. The Lebanese Act establishes that the interception of
+telecommunications requires a judicial or administrative decision. Namibia is an example of an
+African country that has recently done the same. The regulation follows the direction given by the
+country’s Information Technology Policy, published in September 2008, in which lawful interception
+features very prominently.
+India is an interesting example of a country whose legislation is out of date. The Indian supreme
+court attorney and technology legal expert Praveen Dalal considers that India has no constitutionally
+sound lawful interception law, because telephone tapping is still regulated by a law that goes back to
+the days of British rule, the Indian Telegraph Act, from 1885. According to Mr Dalal, interception is
+possible without a Court warrant, and he does not consider the Information Technology Act from
+2000 to be a constitutionally sound law to regulate e-surveillance.
+There is growing distrust and anger in India regarding privacy violations and violations of other civil
+liberties, and the Supreme Court has dealt with the issue several times.
+Africa is another region characterised by incomplete of regulation. Before the development of mobile
+communications, only the richest city dwellers in most African nations had access to
+telecommunication, but this picture has changed. Numerous mobile network operators and service
+providers exist even in the poorest countries, and modern communications have become much
+more accessible to people.
+Frost & Sullivan believes that there will be many implications for lawful interception in regions such as
+the Middle East and Africa, not only because lawful interception regulation guarantees privacy and
+civil liberties, but because lawful interception is also a powerful tool against corruption and similar
+evils which are often the first targets of democratisation movements.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+7
+
+The LEAs and Interception Warrants
+The right to privacy is enshrined in many constitutions and conventions. The European Convention
+on Human Rights (specifically article 8), for example, protects the individual against arbitrary
+interference by public authorities in his or her private or family life.
+This principle is potentially at odds with lawful interception, so, in order to protect the individual, all
+legal frameworks define in detail what bodies can authorise interception orders and for what
+purposes.
+In heavily regulated countries, there is complete legal and
+functional separation between the NWOs/SvPs/APs; the
+authorisation of interception orders; and the LEAs.
+The legal test for authorising an interception order (viz.
+issuing an interception warrant) varies from country to
+country, and not in all countries will it be a Court that
+applies that legal test. In the United Kingdom, for example,
+interception warrants are in the hands of the Secretary of
+State, who, for domestic surveillance, is the Home Secretary
+of the day.
+Heavily
+regulated
+countries will also
+precisely define what
+agencies (and what
+ranks of personnel in those agencies) are authorised to apply
+for interception orders.
+The Police will always be able to apply, but many countries
+go further and include security services, secret intelligence
+services, inland revenue, other authorities of the interior
+ministries, border protection, customs authorities etc.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+8
+
+The Mounting Challenges of Lawful Interception
+The requirement to assist the Police and other LEAs in their duties is not new. Call record retrieval
+in support of a subpoena is a common occurrence, and the US CALEA statute and similar laws in the
+European Union and elsewhere direct network operators and service providers to provide the
+content of communications (CC) and related information (IRI).
+Criminal and terrorist activity of the past few years has hastened a widening in LEA powers. CALEA
+has been updated several times to recognise broadband and VoIP services and the scope of the
+required interception capabilities in the EU has widened even more.
+The trend is unmistakable: service providers will be required to support law enforcement and
+intelligence gathering with an increasing amount of data across the entire array of service offerings
+and technologies. The need to intercept traffic, occasionally store the traffic, correlate it with
+subscriber data and quickly deliver it to an LEA will drive operational expense, causing network
+operators and service providers to reconsider their information management practices.
+In Frost & Sullivan’s opinion, governments also need to realise that it may be in their best interest to
+take responsibility for guaranteeing the lawful interception capabilities, rather than just piling
+requirements on top of service providers. There is no arguing that lawful interception is an incredibly
+powerful tool in the fight against crime, and numerous potentially devastating terrorist plots have
+been foiled thanks to intelligence gathered via lawful interception of telecommunications.
+
+Changing Communication Patterns
+Traditionally, lawful interception was straightforward and uncomplicated because it was confined to
+circuit-switched networks carrying voice traffic. LEAs would collect lists of numbers called and calls
+received by a target, and they would wire tap relevant fixed telephone lines.
+Meanwhile, the communication patterns have changed. Today’s lawbreakers have a wide range of
+sophisticated, encrypted communication channels available to them, and many of those channels rely
+on resources located outside the jurisdiction of the body issuing the interception warrant. With the
+changing communication patterns, the scope of interception has widened, presenting a real challenge
+to network operators and service providers.
+Moreover, the use of anonymous services over the Internet (e.g. hotspots and internet cafés) and
+mobile or nomadic use of telecom services across national borders make it difficult to locate and
+intercept targets.
+Addressing the Widening Interception Scope
+In the previous chapter we saw how network operators and service providers must be able to
+intercept all applicable communications of a certain target without any gaps in coverage. Considering
+that modern telecommunications networks offer access through a tremendous range of technologies
+(including PSTN, ISDN, xDSL, WLAN, WiMAX, GSM, GPRS, UMTS, CDMA, cable, LTE and other
+IP-based technologies), eliminating gaps in coverage is a challenge.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+9
+
+Most major network operators have always pursued a dual supplier policy in order to maximise their
+bargaining power in relation to the infrastructure vendors and to avoid excessive dependence on any
+one vendor. When network operators implement new communication technologies, the deal goes
+out to tender, and that often leads to the introduction of new vendors. Network operators may
+even award contracts for the expansion of existing networks to new vendors, because they are eager
+to take advantage of the aggressive pricing of emerging vendors. Consequently, most operators have
+highly heterogeneous networks across which to maintain interception capabilities. This, in itself, is a
+formidable challenge.
+Networks aside, an even greater challenge is the surveillance of applications. In Europe, user IDs (e.g.
+Internet logins), VoIP and e-mail are covered by the regulatory mandate. Service providers must be
+able to decrypt the communication content and supply it to the LEA in clear text if the encryption is
+provided by the network operator or service provider, or if the provider has access to the
+encryption key.
+Quality, Speed and Capacity
+Despite the technical complexity, the network operators and service providers must deliver accurate
+and reliable content and related information.
+What is more, there is little time to react and strict protocol must be followed. Once they have
+received a warrant, operators have less than a day (typically just a few hours) to:
+Verify the warrant
+Log the warrant into an
+administration centre
+Provision the interception
+
+Activate the interception
+
+Begin transmitting the IRI over one
+handover interface (HI2)
+
+Begin transmitting the communication
+content in real time over another
+handover interface (HI3), without
+retaining any data.
+
+At the expiration of a warrant, the operator must immediately deactivate the interception. Naturally,
+multiple interceptions will operate simultaneously, and everything must be concealed to the target
+and to operator staff not directly involved.
+Network operators and service providers that fail to meet the requirements are fined by the
+authorities, and repeated shortfalls could even endanger their licences, as many countries write the
+interception requirements into their licensing criteria.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+10
+
+Protection and Ethics
+Lawful interception is a powerful tool to fight crime, but it is an equally powerful tool to commit
+crime, if the necessary protections are not available.
+It would be a big mistake to assume that interception only took place in countries that have a well
+developed regulatory mandate for lawful interception. In countries with no regulation, interception
+can be used by governments to secure power by spying on its citizens, not to prevent crime but to
+control behaviour. Although one could argue that network operators are not legally obligated to
+carry out interception when there is no regulatory mandate, local operators will not find it in their
+best interest to withstand political pressure, and the network operators are often under the effective
+control of the government apparatus.
+Even in the so-called democratic world, illegal interception takes place, and it takes very little fantasy
+to imagine the damage that it can do to an individual.
+The so-called “Greek Watergate” scandal which erupted in 2005, is one of the highest profile case of
+illegal interception in Europe. It involved 106 mobile connections on the Greek Vodafone network.
+The victims were high-ranking civil servants and members of the Greek cabinet2. Four mobile
+switches (MSC) used by Vodafone were compromised, and 6,500 lines of rogue software code were
+installed directly on the switches, allowing the illegal interception to go undetected for a year. The
+perpetrators were never found.
+The fact that Vodafone’s lawful interception solution did not include an interception management
+system was one of the reasons why the malicious tap was not detected earlier.
+Vodafone Greece was fined a total of €95 million by the Greek authorities.
+Elsewhere in the EU, it is alleged that one third of all interceptions carried out in Bulgaria are illegal,
+and the country is currently under investigation by the European Commission3. In England, Scotland
+Yard has reopened its investigation of the tabloid newspaper News of the World which has allegedly
+gained access to the voicemail messages of two private individuals.
+Although maintaining lawful interception capabilities represents a cost to most network operators
+and service providers, not implementing the necessary data and privacy protection measures could
+represent an even greater cost. In additional to hefty fines, operators that fail to meet their privacy
+challenges leave themselves wide open to litigation which could lead to punitive damages and PR
+disasters.
+
+2
+3
+
+The Athens Affair, IEEE Spectrum Magazine, July 2007
+Dnevnik, 21 January 2011
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+11
+
+The Difficult Future of Lawful Interception
+Dramatic Increase in Interception Warrants
+Other than dealing with the technological complexity of interception, network operators and service
+providers must address the challenge of the growing number of interception warrants which are
+issued.
+In all the countries analysed by Frost & Sullivan, we recognise the same trend as illustrated by the
+Title III Wiretap Orders (interception of CC) from the United States:
+
+Source: Administrative Office of the US Courts and Electronic Privacy Information Center, 2010
+
+In Germany, the development is even more explosive: Between 1998 and 2007, the number of
+interception activities grew by 308%, and the share of interceptions targeting mobile connections
+grew from 59% to 89% exemplifying the changing communication patterns.
+Frost & Sullivan is convinced that the number of interception warrants will continue to rise. Although
+the legislation of some countries provide relief for very small service providers, the challenge for
+network operators and service providers is that they essentially have no way of knowing how many
+parallel inceptions they may be called upon to facilitate at any given time. This means that they need
+to maintain significant over capacity, in order to deal with peaks.
+The Delicate Position of ISPs
+Frost & Sullivan believes that the future of government surveillance of its citizens will be based on the
+original CALEA act (and similar laws around the world) and will impact all new communications
+mediums and technologies.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+12
+
+Internet-based communications have become ubiquitous and have grown far beyond the basic
+capabilities of e-mail, and the nature of the Internet also suggests that new applications and innovative
+tools will be developed in the future to extend communication options in unpredictable ways.
+What is fairly certain is that the development of the regulatory mandates will follow the
+communication patterns; and that the ISPs will find themselves right at the heart of that development.
+In other words, new regulatory requirements may have a bigger impact on ISPs than on network
+operators.
+It is easy to imagine how the interception capabilities may expand to applications such as Facebook
+and Twitter; to peer-to-peer networks, chat rooms and instant messaging applications; and to lowcost voice communication through a variety of companies and emerging technologies such as VoIP
+(Voice-over-IP) and Skype.
+Because the infrastructure on which those applications rely will typically be located outside the
+jurisdiction of a single country, updates of national regulatory mandates will need to focus on the one
+element which national legislation can control: the access. This puts the ISPs in a very delicate
+position, because the majority of the interception obligations will fall to them.
+Considering that many ISPs are small companies that do not have the experience and capabilities of
+the large network operators to deal with lawful interception, the challenges are daunting.
+
+Managing the Cost of Maintaining Inception Capabilities
+In the United States, after CALEA was passed, Congress allocated $500 million to subsidise the cost
+of implementing new interception-capable switches in the telecommunications infrastructure of the
+US network operators. With that money spent, the network operators and service providers must
+meet the infrastructure costs and the operational costs of maintaining the capabilities.
+In the rest of the world, the situation varies from country to country, but the prevailing trend is that
+network operations and service providers must carry the cost burden themselves.
+Lawful interception is a straight cost, not associated with any revenue stream whatsoever, at any
+point in time. The challenge is, therefore, to keep the costs as low as possible but not to accept
+shortcuts that might compromise the ability to comply with the regulatory mandate.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+13
+
+Using Technology to Address the Challenges
+Meeting the Fundamental Requirements
+As we have seen in the previous chapters, the challenges facing network operators and service
+providers are such that they cannot meet the fundamental requirements of lawful interception
+without using technology.
+Routers and switches are intelligent, and theoretically it would be possible to manually provision an
+interception, directly at a router or switch and redirect a copy of the traffic from there. This was
+exactly what happened during the “Greek Watergate”, because the perpetrators exploited the
+interception-capability of the switches in Vodafone’s network.
+If operators allow interceptions to be provisioned manually at a network element, they leave
+themselves wide open to abuse, because they are not able to perform consistency checks (i.e.
+verifying that the active interceptions exactly match the interceptions that have been warranted).
+This again means that those operators would be in breach of the regulatory mandates of most
+countries.
+In reality, no real-world operator in a highly regulated country presumes to handle lawful
+interception without some kind of dedicated solution: it is simply not possible.
+
+Monitoring Networks with Dedicated Solutions
+There have been lawful interception solutions on the market for the better part of two decades.
+Some solutions are supplied by the network infrastructure suppliers, other solutions have been
+developed by independent software vendors and system integrators. Utimaco LIMS™, the dedicated
+solution we analyse in this whitepaper, was originally developed in the beginning of the nineties to
+help mobile operators fulfil their LI obligations. Since then, LIMS has continuously been extended to
+support additional network technologies and telecom services.
+Key Components of a Dedicated Lawful Interception Solution
+Most dedicated solutions on the market today are similar in architecture and functionality. The main
+difference lies in the ability to interface with network elements and in the business model proposed
+by the solution vendor.
+The figure shows the
+typical functional flow
+of lawful interception
+on
+which
+the
+dedicated LI solutions
+are built.
+A monitoring centre,
+staffed
+by
+LEA
+personnel, relies on
+standardised interfaces
+(e.g. ETSI or ANSI) to
+gain
+access
+to
+communications provided over fixed networks, mobile networks, and IP-related channels. The monitoring interface
+handles interception warrants, IRI and communications content separately.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+14
+
+From the perspective of the network operator or service provider, the primary obligations and
+general requirements for developing and deploying a lawful interception solution are:
+Maintaining cost effectiveness: The solution minimises the time and effort involved in meeting
+the interception obligations.
+Minimising impact to the network infrastructure: The solution should not negatively
+impact the performance or behaviour of the network.
+Ensuring compatibility and compliance: The solution meets the requirements of national
+and international standards and is compatible with all network elements that make up the
+infrastructure.
+Supporting future technologies: The solution adapts to evolving standards and specifications
+as they are introduced throughout the world, and can scale to accommodate the bandwidth
+increases and performance requirements associated with increased service levels.
+Maintaining reliability: The solution delivers accurate results and maintains data integrity at
+every stage of the workflow.
+Enforcing security: At all points in the lawful interception system, data is protected against
+abuse. Surveillance activities are not detectable in any way by targets.
+Active v. passive interception
+We can distinguish between three types of interception: Active, passive and hybrid:
+Active interception means that the interception solution is an integral part of the network
+infrastructure. The interception management system is able to directly control the network elements
+(e.g. the routers, switches) and to filter and retrieve the IRI and CC directly at the network node.
+The IRI and content are then sent to the interception management system, where they are mediated,
+and from there to the LEA monitoring centre.
+Passive interception means that the network elements transmit a copy of all network traffic to the
+interception management system. The filtering takes place on the copy of the traffic within the
+management system, the traffic belonging to non interception targets is discarded whereas the IRI
+and communication content of targets is passed on to the LEA monitoring centre.
+Frost & Sullivan believes active interception to be the better option of the two, due to the lower
+capital costs and lower complexity involved. However, active interception is not an option when, for
+example, the network elements are not interception-capable. Also, active interception can have a
+negative impact on the performance of the network element that executes the interception function.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+15
+
+Hybrid Interception
+As its name suggests, hybrid interception is a combination of active and passive interception
+techniques, and it is becoming increasingly common. In the figure below, we illustrate hybrid
+interception of the basis of the Utimaco LIMS™ solution.
+Straightforward circuit-switched traffic on a network with modern switches can easily be intercepted
+using the active technique, because most telephone switches (MSCs) today support integrated
+interception functions. Most carrier-grade routers (e.g. BRAS, CMTS) also support integrated
+interception functions.
+
+Despite the capabilities of modern switches and routers, there are many situations where passive
+probes are required. A good example of such a situation is the provisioning of an IP intercept. First,
+the user login must be detected at the central AAA server of the service provider. Seeing that most
+AAA servers do not support integrated intercept features, the active technique cannot be used.
+Another reason for using passive probes could be that access to the MSC or router is prohibited
+(because the LI system is run by another party).
+In other words, when MSCs and routers are interception capable but the traffic that needs to be
+intercepted cannot be immediately identified (e.g. on the basis of a telephone number), then hybrid
+interception is the best solution. On an IP network, this would mean probing for the dynamic IP
+address of a particular target (using the passive technique); instructing the router to intercept traffic
+from that particular IP address (using the active technique); and relaying the traffic to the monitoring
+centre.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+16
+
+Monitoring Applications using Deep Packet Inspection
+With the development of the communication patterns and resulting expansion of the regulatory
+mandates we discussed in the previous chapter, network operators and service providers can no
+longer meet their obligations without using deep packet inspection technology.
+In an IP network, the packets that pass through a network are identified by headers. The network
+routers capture the headers, but it is not possible to identify the communication content or
+applications used by looking at the headers alone.
+DPI is a technology that can be used passively to analyse IP traffic at the application level. DPI
+equipment consists of network elements that can control entire classes of traffic on a per user or per
+group basis, because they are able to read below the header information as packets pass through
+them. That is what the "deep" in deep packet inspection means.
+DPI can look inside all IP traffic, drill into the so-called payload (the substance) of the packets, identify
+the applications used, pick out specific types of traffic (e.g. HTTP traffic), isolate a particular
+application (e.g. Hotmail) and then decode application attributes and content (e.g. webmails sent and
+received by the user). The same principle would apply to VoIP, peer-to-peer and any other traffic
+that would need to be intercepted. In other words, DPI can create clear-text records for various
+types of applications and protocols which are effectively not interceptable by the network nodes
+(routers and switches). It is also important to highlight that deep packet inspection is done in realtime (at full line rate speed).
+Many ISPs also rely on DPI for other purposes, mainly to manage congestion and give privileges to
+certain types of traffic. Traffic shaping can be used to differentiate service levels and to create
+broadband subscriptions that might exclude certain types of traffic (e.g. video streaming or VoIP).
+BT is a good example of an operator using DPI. According to BT4,
+deep packet inspection enables it to better monitor its network
+and to give priority to particularly important services. BT offers a
+VoIP and IPTV service in the UK. VoIP traffic needs to move
+quickly, and IPTV must always have a certain amount of bandwidth
+available to avoid distortions to the TV signal. BT accomplishes that
+using DPI.
+When DPI is used for lawful interception purposes, additional
+features are needed (e.g. the correlation of information between
+protocol levels and the intermediate storage of connection status
+information) to identify and extract the relevant traffic. This is why
+most DPI equipment that was installed for traffic shaping purposes
+is not suitable for use in an LI solution. DPI probes used in LI
+solutions must be interception capable and be integrated into a
+lawful interception management and mediation system.
+DPI equipment can also be used to pick apart any unencrypted protocol including instant messaging,
+chat rooms, and even online gaming. Challenges still exist, however. Internet Relay Chat (IRC) and
+instant messaging are relayed through a third-party server, so the chat server is at the centre of the
+conversations. This means that the DPI equipment would only identify that Person A interacts with
+the IRC third party server, not that Person A communicates with Person B, unless Person B is also
+an active interception target.
+
+4
+
+Ars Tecnica, 25 July 2007
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+17
+
+So, although DPI may be able to flag that some sort of suspect activity might be taking place, it is up
+to the Police to analyse the content received and to understand what is going on.
+In Frost & Sullivan’s opinion, although no one will dispute
+that lawful interception is a powerful tool, the real
+concern is whether or not the Police will be able to make
+sense of data it receives.
+Communication data is difficult to interpret outside its
+operational context, and the LEAs might not understand
+that context. In other words, as communication patterns
+and regulatory mandates become more sophisticated,
+every LEA that receives intercepted data will need to
+become more sophisticated. There is a real risk that insufficiently trained police officers will draw the wrong conclusions and, effectively, do more damage
+than good by orientating an investigation in the wrong direction.
+
+Umbrella Systems
+We said in the beginning that Frost & Sullivan would advise governments to take more direct
+responsibility for maintaining lawful inception capabilities, instead of just assuming that network
+operators and service providers will be able to meet the increasingly difficult challenges.
+Certainly, many governments (e.g. in France and the UK) will pay a contribution towards the cost of
+lawful inception, but in many countries, a government-sponsored umbrella system would be an even
+better solution.
+An umbrella system is an integrated lawful interception system that covers all operators in a
+jurisdiction (typically a country). An umbrella system is a model by way of which the network
+operators and service providers outsource their lawful interception activities to a third party,
+sometimes known as a “Trusted Third Party” or a “Trusted Service Manager” (TSM).
+The element of trust is important because the operators must be confident that their legal
+obligations are being met, and because all operators and providers in the eco system must trust the
+same third party. This again means that the TSM must be once removed from the competitive
+environment of the country and not have stakes or other vested interests in any of the market
+players. Naturally, a government itself could very well be a trusted service manager.
+In Frost & Sullivan’s opinion, umbrella systems make a lot of sense in countries with emerging
+regulation, where the individual operators have yet to build up (or upgrade) their interception
+capabilities. Many countries in Africa and Asia could benefit from umbrella systems, accomplishing a
+lawful interception “quantum leap”.
+Frost & Sullivan also believes that umbrella systems make sense from a capital and operational cost
+perspective, because establishing and maintaining a single lawful interception system will be cheaper
+than the combined cost of separate systems for each network operator and service provider. An
+umbrella system can be used by multiple LEAs, who manage their warrants independently of each
+other. Interception activities from different LEAs are segregated, and duplicated IRI and
+communication content are delivered to multiple LEAs in the case of multiple activities against the
+same target.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+18
+
+Utimaco LIMS™, a Leading-edge Solution
+Utimaco LIMS™ is one of the most significant LI solutions available today, with more than 160
+installations in service with operators around the world. In this chapter, we shall analyse Utimaco
+LIMS™ as a good example of a leading-edge solution.
+Utimaco LIMS™ is a central management system for all tasks related to the lawful interception of
+telecommunication services in mobile and fixed networks. It is a software-based solution consisting
+of the elements shown in the figure below.
+
+Utimaco LIMS runs on industry-standard servers with UNIX operating system. Customers can
+choose between small systems with a single CPU and medium and large-rack configurations with
+multiple CPUs and multiple servers.
+The LIMS portfolio comprises purpose-built DPI probes (LIMS Access Points) that support real-time
+monitoring of broadband IP networks. The probes provide wire-speed scalability from 10 Mbps to
+multiple 10 Gbps, with the flexibility to filter IP traffic from link layer to application level. LIMS
+Mediation Devices enable the integration of DPI probes and network nodes of various kinds.
+Utimaco LIMS currently supports over 250 different network elements and continues to develop
+new mediation devices and probes (respectively new protocol plug-ins for the DPI probes) to
+respond to emerging network technologies and upcoming lawful interception standards. Utimaco
+LIMS provides mediation in accordance with all major LI standards by ETSI, 3GPP, ANSI/ATIS, and
+CableLabs.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+19
+
+Main Components of Utimaco LIMS™
+There are five main components of the Utimaco LIMS™.
+LIMS Management Server
+The Management Server is the core component of the LIMS system. It provides a graphical interface
+for all users of Utimaco LIMS to administrate, operate and audit the system. Key functions of the
+LIMS Management Server are the administration of intercepts, network nodes (IAPs), authorities and
+monitoring centres and users. The server maintains a central database to securely store all sensitive
+information, like target data, authority settings and audit logs.
+LIMS Mediation Device
+The LIMS Mediation Devices perform all tasks related to the delivery of intercepted communications
+to the LEA monitoring centre. Mediation encompasses the conversion and mapping of interception
+data received from the internal network to the appropriate formats, protocols, and interfaces as
+required by the LEAs. Sometimes intercepted data must be stored intermediately in the Mediation
+Device before it can be forwarded to its final recipient. Utimaco offers the industry’s most
+comprehensive list of mediation devices supporting a wide range of technologies, services, protocols,
+and standards. There are LIMS Mediation Devices for more than 250 different network nodes of all
+major vendors. The delivery of intercepted data is compliant to various national regulations and
+international standards including CALEA, ATIS, ETSI, and 3GPP standards.
+LIMS Access Point
+The access points are the deep-packet-inspection probes. In passive interception, non-intrusive
+network probes are integrated into the operator’s network to filter, decode, and forward
+intercepted data to the LIMS, respectively to the appropriate LIMS Mediation Device. Utimaco
+provides a range of network probes for all common telecom protocols and network types.
+LIMS Gateway
+The LIMS Gateway is a modular device that converts packet-switched calls to circuit-switched calls
+and vice versa. The media gateway is often needed in VoIP and next generation networks where the
+handover interface to the LEAs requires a TDM-connection. In addition to the media conversion, the
+LIMS Gateway can also act as a signalling gateway between SS7, ISDN/DSS1, and other protocols.
+The modular hardware concept enables customised solutions for small and large networks.
+LIMS Remote Provisioning Unit
+All of the Management Server’s operator tasks can be accessed remotely in the same way, using the
+same graphical user interface and functions as from the local management console. The LIMS Remote
+Provisioning Unit ensures that the same security policies apply to both remote sessions and to local
+operation.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+20
+
+Benefits delivered to Network Operators and LEAs
+Flexibility and Versatility
+Utimaco LIMS™ can interface with some 250 network elements from a whole host of equipment
+suppliers. It has more interfaces than any other LI solution on the market today. Network operators
+are able to expand their networks and implement best-of-breed technology, without worrying about
+adverse effects on their LI capabilities.
+Owing to its modular software and hardware architecture Utimaco LIMS can be modified to support
+upcoming network technologies and services. The system scales from small networks with only few
+intercept targets to large networks with tens of thousands of simultaneous targets.
+Low OPEX and CAPEX
+Utimaco LIMS reduces the operational costs of providing lawful interception services to LEAs by
+automating the interception processes and by using centralised administration.
+Capital expenditure is minimised by using one single management system for many different
+networks and services. One LIMS can serve multiple tenants to support managed service models and
+MVNOs (Mobile Virtual Network Operator).
+Certified Compliance
+Utimaco LIMS has been tested for compliance with all common international LI standards from ETSI,
+3GPP, ANSI/ATIS, and CableLabs. LIMS has been installed and certified in more than 60 countries
+worldwide. Utimaco has never failed to bid for a lawful interception deal due to an inability to
+comply with international or local standards.
+Short Time-to-Market
+Utimaco has been developing lawful interception solutions for more than 16 years. The LIMS system
+has been integrated and tested with network nodes of all leading telecom and Internet infrastructure
+vendors. For operators this means shortest implementation times at minimum costs.
+High Security Standards
+Having been a leading IT security company for 25 years, Utimaco has implemented highest security
+standards throughout the LIMS system. This prevents misuse and provides the legal certainty to
+network operators and service providers that they can live up to their LI obligations without
+breaching their privacy protection obligations.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+21
+
+Conclusion
+The need for surveillance to combat crime and terrorism has never been greater than it is today, and
+the terrorists and other criminals have become extremely sophisticated in their use of today’s
+communications technologies. For the police and intelligence agencies, this creates an urgent need to
+monitor and collect data from sources other than traditional circuit-switched voice traffic.
+The regulatory mandates have expanded to interception capabilities for traffic that scarcely existed
+twenty years ago. No one is arguing that lawful interception is not a powerful law enforcement tool,
+but it does impose a huge burden on network operators and service providers. In this whitepaper we
+have shown that operator challenges are mounting and that many network operators and service
+providers will be struggling to meet their obligations.
+In Frost & Sullivan’s opinion, there is hardly an alternative to deploying a dedicated, complete LI
+solution. Without a complete solution, compliance can be a lot of work and there is an inherent risk
+of abuse and other failures to protect the privacy of the users. As we saw in the Greek scandal, it
+was the absence of an interception management system that made the illegal interception possible.
+There are many valid lawful interception solutions on the market. To realise the greatest benefits
+from the investment, Frost & Sullivan recommends that network operators and service providers
+should also implement best practice (i.e. overhaul procedures and streamline LI operations) to keep
+the operational costs down. The best way to introduce best practice is to partner with an LI vendor
+with many years of experience of designing and implementing LI solutions.
+Large network operators are likely to have highly heterogeneous networks. They are also likely to
+have several legacy LI systems in place, typically controlling different network elements supplied by
+different infrastructure vendors. Because most operators accrue no revenue from lawful
+interception, continuous stop-gap upgrades to the various legacy solutions at an incremental cost
+may seem like the obvious choice, but it may be the entirely wrong policy to pursue.
+In the long run, and although the initial investment would be higher, Frost & Sullivan believes
+operators should consider migrating to a single, future-proof lawful interception platform.
+Frost & Sullivan has analysed Utimaco’s LIMS™ solution, and we are satisfied that it is one of the
+most complete and versatile solutions on the market today. We are confident that migrating to a
+single Utimaco LIMS™ platform or introducing a Utimaco LIMS™ solution for the first time would
+enable most network operators and service providers to meet their lawful interception challenges,
+now and in the future.
+Utimaco LIMS™ is not unique in the marketplace, but Frost & Sullivan’s believes that its strategy to
+focus on interfacing with as many network elements as possible and supporting all international and
+local standards does give it a competitive advantage. The decision to design Utimaco LIMS™ around
+commercial, off-the-shelf hardware adds to the flexibility of the solution and keeps the incidental IT
+costs down.
+Network operators and service providers looking to select a lawful interception vendor should
+consider the long-term implications of the investment. They will need regular updates and support,
+and they will need to adapt to future requirements, so it is important to partner with a vendor to
+whom lawful interception is fundamental part of the product offering and who is likely to be around
+in the long run. Frost & Sullivan believes that Utimaco is one such vendor.
+
+Lawful Interception: A Mounting Challenge for Service Providers and Governments
+© Frost & Sullivan, 2011
+
+22
+
+CONTAC T
+US
+
+London
+4 Grosvenor Gardens
+London SW1W 0DH
+Tel. +44 (0)20 7343 8383
+Fax +44 (0)20 7730 3343
+Oxford
+Oxford Business Park South
+Oxford OX4 2GX
+Tel. +44 (0)1865 39 8600
+Fax +44 (0)1865 39 8601
+Frankfurt
+Clemensstraße 9
+60487 Frankfurt a.M.
+Tel. +49 (0)69 7 70 33-0
+Fax +49 (0)69 23 45 66
+Paris
+24, rue de Londres
+75009 Paris
+Tel. +33 (0)1 42 81 54 50
+Fax +33 (0)1 42 81 54 52
+
+Beijing
+Bengaluru
+Bogotá
+
+Milan
+Via Mario Pagano, 38
+20145 Milano
+Tel. +39 02 4651 4819
+Fax +39 02 4802 7054
+
+Buenos Aires
+Cape Town
+Chennai
+Delhi
+Dubai
+Frankfurt
+Kolkata
+Kuala Lumpur
+London
+Melbourne
+
+About Utimaco
+For more than 25 years Utimaco has been a leading global provider of
+data security solutions. Since 1994 Utimaco has been providing lawful
+interception systems for mobile and fixed network operators and Internet service providers. The Utimaco Data Retention Suite was introduced in response to the EU directive 2006/24/EC and at the request
+of telecom customers for integrated LI and DR solutions. With more
+than 160 installations in 60 countries, Utimaco is truly a leading supplier
+in the worldwide lawful interception market.
+
+Mexico City
+Milan
+Mumbai
+New York
+Oxford
+Paris
+San Antonio
+São Paulo
+Seoul
+
+Utimaco participates actively in a range of standardization institutes
+and is an active member of ETSI (European Telecommunications Standards Institute) and various other associations like eco, VATM, Bitkom,
+Breko and the WiMAX forum. In this way, Utimaco participates in market developments and supports other members with its competence.
+Since 1 July 2009, Utimaco Safeware AG has been part of the Sophos
+Group, a world leader in IT security and data protection with headquarters in Boston, US and Oxford, UK. While Utimaco data security
+products are now distributed by Sophos, the business units "Lawful Interception and Monitoring Solutions" and "Hardware Security Module"
+form Utimaco’s operating businesses. For more information please visit
+http://lims.utimaco.com.
+
+Shanghai
+Silicon Valley
+Singapore
+Sophia Antipolis
+Sydney
+Tel Aviv
+Tokyo
+Toronto
+Warsaw
+
+About Frost & Sullivan
+Frost & Sullivan, the Growth Partnership Company, enables clients to
+accelerate growth and achieve best-in-class positions in growth, innovation and leadership. The company's Growth Partnership Service provides the CEO and the CEO's Growth Team with disciplined research
+and best practice models to drive the generation, evaluation and implementation of powerful growth strategies. Frost & Sullivan leverages almost fifty years of experience in partnering with Global 1000
+companies, emerging businesses and the investment community from
+40 offices on six continents. To join our Growth Partnership, please visit
+www.frost.com.
+
+Warsaw
+ul. Domaniewska 41A
+02-672 Warszawa
+Tel. +48 (0)22 390 4135
+Fax +48 (0)22 390 4160
+Silicon Valley
+331 East Evelyn Avenue, Suite 100
+Mountain View, California 94041-1538
+Tel. +1 650 475 4500
+Fax +1 650 475 1570
+San Antonio
+7550 IH 10 West, Suite 400
+San Antonio, Texas 78229-5616
+Tel. +1 210 348 1000
+Fax +1 210 348 1003
+Toronto
+2001 Sheppard Avenue East, Suit e 504
+Toronto, Ontario M2J 4Z8
+Tel. +1 416 490 1511
+Fax +1 416 490 1533
+
+

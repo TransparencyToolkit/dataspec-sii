@@ -1,0 +1,99 @@
+Solutions D‘Écoute Et D‘Infection À Distance
+FINFLY LAN
+
+L‘un des défis majeurs pour les forces de l‘ordre, ce sont les
+cibles mobiles pour lesquelles l‘accès physique au système informatique n‘est pas possible, et les cibles qui
+n‘ouvrent pas de fichiers infectés envoyés par e-mail sur
+leur compte.
+En particulier, les cibles sensibilisées à la sécurité sont presque impossibles à infecter parce qu‘elles gardent leurs
+systèmes parfaitement à jour, et aucun « exploit » ou
+autre technique d‘intrusion basique ne pourra fonctionner.
+
+INFORMATIONS RAPIDES
+Utilisation :
+
+· Opérations tactiques
+
+Capacités :
+
+· Déploie une solution d’écoute
+à distance sur le système cible
+dans le réseau local
+
+Contenu:
+
+· Logiciel
+
+FinFly LAN a été conçu pour déployer secrètement une solution d‘écoute à distance sur les systèmes cibles dans des
+réseaux locaux, avec ou sans fil (802.11). Il est capable
+d‘infecter à la volée les fichiers qui sont téléchargés
+par la cible, d‘infecter la cible en envoyant des fausses
+mises à jour logicielles de logiciels courants ou encore
+d‘infecter la cible en injectant la charge dans les sites
+Web visités.
+
+Exemple D’utilisation 1 : Unité De Surveillance
+
+Exemple D’utilisation 2 : Anti-Corruption
+
+Technique
+
+FinFly LAN a été utilisé pour installer la solution d‘écoute à
+distance sur l‘ordinateur d‘une cible pendant qu‘elle utilisait
+celui-ci dans sa chambre d‘hôtel. Les agents étaient dans
+une autre chambre. Ils se sont connectés au même réseau, et ont déclenché l‘installation en manipulant les sites
+web que la cible était en train de visiter.
+
+Une unité de surveillance technique suivait une cible depuis
+des semaines sans parvenir à accéder physiquement à
+l‘ordinateur. Ils ont utilisé FinFly LAN pour installer la solution d‘écoute à distance sur le système cible alors qu‘elle
+utilisait un hotspot public dans un café.
+
+Présentation Des Fonctionnalités
+·
+·
+·
+·
+·
+·
+
+Découvre tous les systèmes informatiques connectés au réseau local
+Fonctionne dans des réseaux avec et sans fil (802.11)
+Peut être combiné avec le kit FinIntrusion pour un accès secret au réseau
+Cache la solution d’écoute à distance dans les téléchargements des cibles
+Injecte la solution d’écoute à distance sous la forme de mises à jour logicielles
+Installe la solution d’écoute à distance via les sites web visités par la cible
+
+Pour une liste complète des fonctionnalités, veuillez consulter les Spécifications Produit
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Solutions D‘Écoute Et D‘Infection À Distance
+FINFLY LAN
+
+Composants Du Produit
+
+FinFly LAN
+
+Kit FinIntrusion - Intégration (en option)
+
+· Un logiciel sur Linux avec une interface utilisateur simple
+
+· FinFly LAN peut être chargé comme module dans le kit
+FinIntrusion
+
+Infection Via Les Reseaux Locaux
+
+Solutions D‘Écoute Et D‘Infection À Distance
+FINFLY LAN
+
+Interface utilisateur automatisée
+· Simple à utiliser, sans nécessité de formation approfondieg
+
+Prise en charge de cibles multiples et de la charge utile
+· Différents exécutables peuvent être ajoutés pour chaque cible
+
+

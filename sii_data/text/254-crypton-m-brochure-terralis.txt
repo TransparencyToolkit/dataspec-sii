@@ -1,0 +1,135 @@
+Universal Legal Interception System
+
+E
+cu
+
+~
+
+"'
+
+~
+
+"'c0
+
+·-c.
+~
+
+cu
+cu
+c
+
+u
+a.
+~
+
+-cu
+RI
+
+~
+
+...I
+
+RI
+a.
+
+The TerraLIS Legal Interception System is intended for interception and procession of communication sessions from t elephon y and data t ran smission sub -n et works b y authorized law enforcement agencies. It provides the possibility of interception both from traditional chann el switched t elephone networks and new
+generation multi-service networks (NGN).
+Terrall$ provides:
+• Connection to network elements of service provider via SORM, ETSI, CALEA interfaces
+or via internal interfaces, provided by the communication switch itself (X-interface).
+Functional features of Terra LIS system:
+· Connection to the fo llowing types of network equipment: PSTN, GSM, CDMA, NGN,
+GGSN, SGSN, PDSN;
+• Interception of incoming and outgoing calls (internal, local, in-zone, long-distance
+and international) to/from certain subscribers of the given switch, being monitored;
+· Interception of outgoing call from all the subscribers of given switch to p re-defined
+numbers in the telephony network;
+· Interception of facts of setting up or changinh by the subscriber being monitored of
+the additional services, changing the direction of the calls (call forwarding, conference calls, etc.) or numbering information (fast dialing, direct calling, etc.).
+· Long-term storage of all the intercepted information;
+· Detection of subscriber's location w ith indication on the map;
+•Gathering of the statistic~ about ~ystem events;
+• Indication of information In convenient form;
+• Possibility of monitoring of subscribers by different identities.
+
+........................................................................
+
+"'cu
+
+>
+c
+
+·-::::>
+
+AdmlnJstrabOn
+
+Slo
+
+DO-
+
+4J
+Admon.slartO<
+
+Meolalion
+
+Switch
+
+Prooossion
+
+Device
+
+Site
+
+<©
+<©
+4J
+
+Supervisor
+
+Switch
+
+__....._
+
+._
+Switch
+
+Mediation
+Device
+
+X t Xl.XJ
+
+rex
+
+Mediation
+Device
+
+OCR
+Kov-d
+ProottltnQ Servert
+
+Opetator
+
+Operator
+
+Universal Legal Interception System
+Brief description ofTerraLIS system key elements.
+
+· Mediation Device (MD) is intended for interaction with switching equipmentof service provider for implementation of monitoring features. MD can be connected to switching equipment via various interfaces - SORM, ETSI,
+CA LEA. internal interfaces of equipment vendor.
+• Database Server is intended for storage of information about the registered communication sessions.
+• Archive server is intended for long -term ~tOri'l!)P of information about communication sessions. stored to the
+archive.
+· Query Procession Server is intended for separation of access from processing sites to procession subsystems.
+• Data Conversion Server is intended for conversion of fax and modem messages into the form, viewable by operators.
+•Data Processing Server is intended for procession and storage of information from data transmission sub-networks (GPRS, PDSN, IP-traffic).
+• Optical Recognition Station is intended for text recognition from intercepted fax pages and information storage
+to text files.
+•Keyword Search Station is intended for automated search of set keyword s through the recognized fax and modem messages.
+• System Administrator Workstation is intended for control of Operator's activities, formi ng of target selection
+table, allocation of tasks to Operators, etc.
+• Control Server is intended for technological control of elements of the system .
+• Administrator on Duty Workstation is intended for control of Operator's activities, allocation of tasks to Operators, distribution of load between Operators (within the margins, defined by System Administrator).
+• Operator Workstation is intended for procession of intercepted communicat ion sessions and creation of reports
+about their contents.
+
+

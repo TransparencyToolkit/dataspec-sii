@@ -1,0 +1,304 @@
+APPLICATION DECODING (APP EX)
+Radio Tactics currently support 65 embedded Application Decoders covering well known smartphone applications. These
+applications may store important data, including user details, passwords, contact details as well as conversational
+chat messages, in proprietary formats and the Application Decoders will allow this data to be extracted and viewed in a
+systematic and reliable manner.
+The Application Decoders that are currently available are:
+
+GENERIC DECODERS
+Application Name
+
+Decoded Data sets
+
+Agile Keychain
+
+Saved and synced passwords through Agile Kaychain, data decoded includes URL
+[location). timestamps, contents hash, title and type
+
+VCF
+
+Decodes contacts
+
+ANDROID OS DECODERS
+Application Name
+
+Decoded Data sets
+
+Android App List
+
+Decodes list of system packages and third party packages installed on device
+
+Android Device Into Decoder
+
+Gets the last known WiFi & Bluetooth Mac addresses, device serial number and host lP
+address [if used as tether)
+
+Epinephrine
+
+Backed up chat logs on SO card
+
+ESFile Explorer
+
+File Management App, displays history of files opened in App
+
+Evernote
+
+Notes and attachments
+
+Gumtree
+
+Cached images to display information on what the user has been browsing in the App
+
+Internet
+
+Samsung Default Browser gets web pages tha t are stored for offline reading with
+timestamps
+
+KeepSafe
+
+Password, email account
+
+Locations and Footprints [HTCl
+
+Essentially waypoints that can have images, audio associated; Trips or groups of
+waypoints to make out a j ourney
+
+NavFree
+
+GPS favourites. home. recent cities , streets, destinations and last search
+
+Opera Mobile Browser
+
+Browser Cache contains URL, Timestamp and the associated cache file name
+
+SuperBackup
+
+Bookmarks, calendar events, contacts, call logs, SMS backed up on SO card
+
+Tango
+
+Social Networking App, decodes media and attachments used in App
+
+Viber
+
+Message logs [if user selects email chat logs local copy stored on SO card). chat logs
+
+WhatsApp
+
+Decrypts backed up chat logs on SO card, group chat
+
+BLACKBERRY OS DECODERS
+Application Name
+
+Decoded Data sets
+
+Alarms
+
+Alarms from calendar and clock App
+
+Blackberry Messenger
+
+Chat logs
+
+Blackberry Messenger BBM .old files
+
+Renamed csv. Appear when bbm logs >147KB
+
+Browser Bookmarks
+
+Saved browser bookmarks
+
+Installed Applications List
+
+Installed applications
+
+Ping Chat!
+
+Chat logs
+
+Typed Browser History
+
+Addresses typed into Blackberry browser*
+
+.
+
+os ver s1on dependent
+
+APPLE iOS DECODERS
+Application Name
+
+Decoded Data sets
+
+AIM
+
+Chat logs
+
+Apple App List
+
+Decodes list of Apps installed on the device using package name
+
+Argas
+
+Searched items, saved items, local stores
+
+Atomic Browser
+
+Browser bookmarks and history
+
+Craigs List
+
+Favourites, account, hashed password, locations
+
+Dolphin Browser
+
+Browser bookmarks, history and speed dials
+
+Drop box
+
+Uploaded files and list of cached files
+
+eBay
+
+User details, recent searches and recently viewed items
+
+eBuddy
+
+Contacts and chat logs
+
+Evernote
+
+Notes and files uploaded to cloud
+
+Face book
+
+User details and friends list including UID
+
+Fring
+
+Chat logs, video and group calls
+
+Google Chrome
+
+Browser history, bookmarks and Google account, handles multiple accounts
+
+Google Maps
+
+Searched locations
+
+Google+
+
+Contacts
+
+Gmail
+
+Email inbox and sent item snippets
+
+Heytell
+
+Vo ice message logs
+
+Hookt
+
+Chat logs
+
+IM+
+
+User details and contacts
+
+iMessage
+
+iMessages, file attachments line. iOS 6)
+
+Kik
+
+Contacts and chat logs, user account, email and password
+
+Linkedln
+
+User details
+
+Live Profile
+
+Contacts and chat logs
+
+Location Tracking Database
+
+WiFi SSID and cell site locations
+
+Meebo
+
+Chat logs, contacts and user deta ils
+
+Mercury Browser
+
+Browser history and bookmarks
+
+MessageMe
+
+Decodes chat logs and contacts
+
+My Hidden Folder Pro
+
+Lists hidden files, successful and failed logins
+
+National Rail
+
+Search history and favourite stations
+
+Nimbuzz
+
+Chat logs, call/video logs and user details
+
+Private Photo Vault
+
+Hidden photos, albums, pin
+
+Safari
+
+Bookmarks, browser history and suspended tab history
+
+SatNav 2
+
+Recent destinat ions, favourites and home addresses
+
+Skype
+
+Contacts, chat logs, call logs, video and picture messages
+
+Touch
+
+Chat logs, Facebook contacts if linked through settings, group calls, experiences
+
+thetrainline .com
+
+Saved stations, saved timetables, saved journeys
+
+Viber
+
+Chat logs, group chat and call logs
+
+Waze
+
+Destination history
+
+WhatsApp
+
+Chat logs
+
+Yahoo! Messenger
+
+Contacts and chat logs
+
+You Tube
+
+History, last search history and account details
+
+Septembe r 2013
+
+rnforar.:Jdro-t.:Jctrcs corn
+
+RAD IO TACTICS
+
+r,ldro tactrc:. com
+
+

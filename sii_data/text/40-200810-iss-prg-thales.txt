@@ -1,0 +1,389 @@
+October
+2008
+
+ISS World Europe
+
+1
+
+Jean-Philippe LELIEVRE, jean-philippe.lelievre@fr.thalesgroup.com
+Prague, October 3rd, 2008
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+New solutions for massive monitoring
+
+Military communications characteristics :
+- numerous
+- redundant/coupled
+- reconfigurable (waveform, topology) : Software
+Defined Radio (SDR)!
+- multi-bandwidth
+
+October
+2008
+
++
+
+2
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Evaluation of spectrum activity on theaters 1/2
+
+Paramilitary forces/terrorist groups… communications
+characteristics :
+- civilian coms (mobile phones…)!
+- Private Mobile Radio (PMR)!
+- civilian HF
+- satellite coms (VSAT,Inmarsat, Iridium,
+Aces, Thuraya…)!
+- @ (Wi-fi, Wimax, Bluetooth…)!
+- old military equipment
+
+October
+2008
+
++
+
+3
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Evaluation of spectrum activity on theaters 2/2
+
+COMINT Target trends
+1
+MHz
+
+20
+MHz
+
+300
+MHz
+
+3 GHz
+
+VHF
+
+UHF
+
+1-30 MHz : HF communications
+20-88 MHz : VHF tactical military communications
+225-400 MHz : UHF aero military communications
+PMR, CDMA 2000
+900 & 1800 MHz : GSM
+DVB T
+
+1600 MHz : SAT (Inmarsat, Thuraya,….)!!
+1900 et 2100 MHz : UMTS, CDMA
+1200 & 1500 MHz : GPS
+
+October
+2008
+
+2.4GHz : WLAN
+
+4
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Spectrum activity
+
+Mission
+planning
+From C4I
+Multi-channel, wide-band
+interception
+Identification
+Monitoring
+
+Direction finding
+
+Jamming
+
+Technical analysis
+
+Realtime
+
+Offline
+
+October
+2008
+
+Jamming
+assessment
+
+Geolocation
+Production
+
+The hidden part in an intangible process : information superiority
+
+5
+
+Land & Joint Systems
+
+To C4I
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Communication Intelligence Electronic Warfare (CIEW) : functional components
+
+October
+2008
+6
+
+Spectrum occupancy
+higher density
+higher number of coms
+increase of the bandwidth to monitor
+higher bitrate/Hz => more
+compressions
+vocoders
+corrector codes
+multiplexers
+proprietary modes
+…
+crypto use
+=> It is getting more complicated
+!Apparent paradox : mass production is required to target
+!Automatisation
+Capture
+! Recording
+Land & Joint Systems
+! Processing
+!
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Impact on Communication Intelligence Electronic Warfare missions
+
+October
+2008
+
+- Broad spectrum monitoring
+- Multimode/reconfiguration
+- Multiple simultaneous networks monitoring
+- Access to the content issue =>
+- Increasing need for cryptoanalysis : « back in USSR »
+=> direction finding
+=> technical analysis
+=> surgical neutralisation
+
+7
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Future Communication Intelligence and Electronic Warfare needs
+
+! The leading European exporter of CIEW solutions worldwide : sensors,
+systems, and CIEW operation centres
+! EW System engineering and integration expertise in more than 20
+countries
+! All-source intelligence collection, fusion and dissemination to C4I
+! Dedicated CIEW hardware and software expertise :
+!
+
+Sensor design
+
+!
+
+Technical analysis
+
+!
+
+All-source data fusion
+
+!
+
+Intelligence dissemination
+
+October
+2008
+
+! End-to-end offerings of CIEW as part of C4ISR capabilities :
+
+8
+
+!
+
+Single-source multi-sensor
+
+!
+
+Multi-source intelligence and surveillance
+
+!
+
+Sensor-C2 integration
+
+!
+
+Networked communication architecture
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+CIEW: Thales answer to these challenges
+
+: National COMINT
+!
+
+Terrorists, guerilla, mafia, adverse military
+
+Users : strategic military intelligence or government security
+forces
+!
+
+Can be civil or military, joint or operated by Army, Navy, Air
+Force or Government
+
+Mission package : intelligence collection platforms, COMINT
+exploitation centres
+Fixed or mobile interception (HF, V/UHF, SHF, Internet, PSTN…
+PSTN…
+
+October
+2008
+
+Dedicated exploitation software
+
+9
+
+Land & Joint Systems
+
+Monitoring centre
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Threats to national security, external and internal
+
+! Transverse know-how : from sensor to system, from COMINT to C4ISR
+
+COMINT production
+
+SIGINT exploitation
+
+MultiMulti-source fusion
+
+IntelligenceIntelligence-C2 integration
+
+! 3 user-oriented solutions
+
+National solutions for threat
+assessment
+
+Tactical solutions for maritime
+communications electronic support
+
+Tactical solutions for Army communications
+electronic support and attack
+
+! Common hardware & software equipments (building blocks)
+
+October
+2008
+
+TRC 6200 light interception TRC 6300 tactical
+TRC 6000
+& DF payload
+interception & DF payload
+Technical analysis suite
+
+10
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+CIEW : A 3-tier offering
+
+TRC 274 Smart
+TRC 6500
+Strategic network monitoring communications jammer
+
+October
+2008
+
+Receivers (HF, VHF, UHF, SHF)!
+
+Front end
+
+Back end
+
+11
+
+Land & Joint Systems
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+TRC 6500 : Thales solution for massive interception
+
+!"#$%&'$(&)*+*,-.-%-'/
+0 !"'12'$)3&"*$4'&5"#6&788&9:;&%#&<&=:;&>?@A@B2&,*$(&*/&*$&#+%-#$
+!"'12'$)3&"*$4'&5"#6&788&9:;&%#&<&=:;&>?@A@B2&,*$(&*/&*$&#+%-#$CC!
+0 ?#6+"'D'$/-E'&F2%#6*%-)&G-(',*$(&H#$-%#"-$4&/#.2%-#$&
+78&H:;&-$&:!I
+J8@K<8@7L8&H:;&-$&M@N:!I&
+O&P&QL&H:;&-$&R:!
+0 R#5%S*"'&('5-$'(&T&R)*.*,.'&*")D-%')%2"'&2+&%#&L88&H:;&U$/%*$%*$'#2/&V*$(S-(%D
+R#5%S*"'&('5-$'(&T&R)*.*,.'&*")D-%')%2"'&2+&%#&L88&H:;&U$/%*$%*$'#2/&V*$(S-(%D
+0 W'*.0
+%-6'&T&*2%#6*%-)&('%')%-#$I).*//-5-)*%-#$I&('6#(2.*%-#$&*$(&(')#(-$4&#5&*..&6#('"$&
+W'*.0%-6'&T&*2%#6*%-)&('%')%-#$I).*//-5-)*%-#$I&('6#(2.*%-#$&*$(&(')#
+(-$4&#5&*..&6#('"$&
+*$(&/%'*.%D3&/-4$*./&>!:I&XYUC&>:!&6#('6I&M@N:!&I&?#6,*%&O'%&W*(-#I&H-)"#
+-#I&H-)"#00G*E'I&
+*$(&/%'*.%D3&/-4$*./&>!:I&XYUC&>:!&6#('6I&M@N:!&I&?#6,*%&O'%&W*(-#I&H-)"#
+RFZ?[HI&MRFZI ZD2"*3*@
+U$6*"/*%@\MV
+@\MV]
+ZD2"*3*@U$6*"/*%
+@\MV]C!
+0 H2.%-0
+H2.%-0)D*$$'.&*2%#6*%-)@6*$2*.&+"#)'//-$4&^&$&A&KLJ&)D*$$'./
+0 W'*.&%-6'&.-/%'$-$4
+W'*.&%-6'&.-/%'$-$400-$&#5&)#662$-)*%-#$/&)D*$$'./
+0 G-(',*$(&*$(&O*""#S,*$(&\-4-%*.&"')#"(-$4&5#"&#550
+G-(',*$(&*$(&O*""#S,*$(&\-4-%*.&"')#"(-$4&5#"&#550.-$'&*$*.3/-/
+V*)9&'$(&)*+*,-.-%-'/
+
+October
+2008
+
+H#$-%#"-$4 )'$%'"&
+
+12
+
+Land & Joint Systems
+
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+TRC 6500 2/2
+
+October
+2008
+
+Thank you!
+
+Welcome to our booth
+
+jean-philippe.lelievre@fr.thalesgroup.com
+
+13
+
+Land & Joint Systems
+This document is the property of Thales Group and may not be copied or communicated without written consent of Thales
+
+Questions?
+
+

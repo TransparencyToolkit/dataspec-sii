@@ -1,0 +1,370 @@
+Qosmos Network lntelligence
+
+Product: ixMachine LI Probes and
+ixEngine SDK
+
+for Lawful Interception
+
+Applications: Interception, H13
+Filtering, Monitoring Center
+Users: Suppliers of LI and lntelligence
+Solutions, Law Enforcement Agencies,
+Systems Integrators
+
+lntelligence a t Every Step of the
+lnterception System
+
+Key Features: ldentification of targets
+and interception o f IP communications
+For More Info:
+www.qosmos.com
+
+Lawful lnterception (LI) solution vendors require
+the capability to see inside protocols and
+IP-based applications used by subscribers in
+many functions of a system including:
+
+Benefits:
+lnterception of all services operated by
+Telcos (VolP, email) and over-the-top services
+(webmails, Instant Messaging, etc.)
+ldentification of users on any IP-based
+application ID (login, address, etc.)
+
+At the interception point
+In the Monitoring Center
+
+Qosmos expertise in real-time parsing of all
+
+Support interception at very high
+throughputs: monitoring of 20 Gbps per
+probe, up to 160 000 sessions intercepted
+simultaneously
+
+popular IP-based applications is crystallized in
+
+Passive probes, no impact on the network
+
+m
+
+m
+
+In traffic filtering and cleansing devices
+
+2 products used by LI solution vendors at
+critical steps of the interception process:
+
+Qosmos Network lntelligence in the
+Monitoring Center
+
+l ) ixMachine LI Edition probes:
+
+Product:
+
+I
+
+I
+I
+
+"The proliferation of new
+/P-based applications and the
+exponential growth of traffic
+volumes are the key issues
+faced by LEASand lnterception
+Solution Vendors. Our product
+strategy is designed to address
+these challenges."
+Jerome Tollet
+CTO, Qosmos
+
+ixEngine Software Development Kit for IP flow
+parsing
+
+For laser sharp interception up to 20 Gbps
+
+I
+
+2) ixEngine Software Development Kit:
+
+Software libraries embedded in monitoring
+
+Benefits:
+
+centers to extract communication attributes
+
+m
+
+and content from IP flows. Also used to filter
+
+Decodes unclean traffic (non H13, partial, etc.)
+Extracts communication metadata to index
+intercepted traffic
+
+intercepted traffic.
+
+-I
+
+Qosmos Technologie in a U System
+A
+!'
+
+L
+
+QOSMOS
+
+IRI
+
+m
+
+Monitoring
+
+Less storage and faster data access by
+working with application metadata instead of
+packets
+
+Qosmos Network lntelligence for
+Layer 7 Traffic Filtering
+
+ixMachine
+L1 Edition
+
+,
+
+Product:
+
+I
+Traffic
+
+Interception
+Probes
+
+Parses all existing and popular new protocols
+and applications
+
+. .
+
+,
+
+ixMachine LI Edition probes
+
+.
+
+m
+
+.
+
+.
+
+.
+
+.
+
+-
+
+.
+
+,
+
+: ,
+
+.
+
+.
+
+,
+
+.
+. . .
+. .
+,
+
+,
+
+.
+
+.
+
+. Benefits:
+
+Qosmos Network Intelligence at the
+Interception Point
+Product:
+
+..
+
+ixEngine embedded into a layer7 traffic filtering
+device
+
+IP Flows
+Parsing
+
+Filtering
+
+.
+
+.
+
+Enables Monitoring Center to scale by
+discarding irrelevant packets (IPTV, ads, etc.)
+Optimized storage
+Lower risk of information overload among
+analysts
+
+% QOSMOS
+Your Network is Information
+
+.!
+
+QOSMOS
+
+Case Study of LI Solution Embedding Qosmos Technology
+Overview
+Interception system for a whole country
+Monitoring of 550 Gbps in real time
+Qosmos ixMachine LI Edition at the
+interception point for IP traffic
+Qosmos ixEngine used in H13 filtering and
+in a monitoring center developed by a LI
+solution vendor
+
+1) lnterception with ixMachine LI
+Edition
+21 X ixMachine LI Edition 10 031 probes with
+4 X l0 GE links each
+Each probe monitors up to 20 Gbps of
+traffic and intercepts 120 000 simultaneous
+
+This reduces the number of packets
+processed and stored by the monitoring
+center by 90%
+instant upgrade of the monitoring center
+capability from 100 simultaneous targets to
+900 users while keeping the same hardware
+
+3) ixEngine in the Monitoring
+Center
+ixEngine embedded in the Monitoring
+Center accepts Ethernet, IP and H13 formats
+
+ixEngine parses the flows in real-time to
+extract metadata and content for
+
+- Standardized protocols: email sender,
+receiver, messaoe text, VolP caller and
+callee. etc
+
+sessions
+Unlimited number of interception rules
+
+47 X ixMachine LI Edition 1041 with 8 X l GE
+
+Monitoring Center
+
+links
+Each probe monitors up to 5 Gbps of traffic
+and intercepts 60 000 simultaneous sessions
+
+Interface
+
+Unlimited number of interception rules
+
+Place of Qosmos technology in LI System
+
+BF@?*
+
+,-- L.
+-7-
+
+4
+
+1
+
+- Instant
+Complex
+Messaging
+IP-based applications
+and webmails
+such as
+L
+',
+
+LI Edition
+Probe
+
+- Correlating communication attributes and
+content decreases storaqe
+- requirements
+.
+compared to storing the entire data flows
+(full packet capture) by a factor of up to
+
+I
+
+Passive probes plugged in TAP mode has no
+impact on the network
+lnterception on any application ID (login,
+email address, etc.) for all popular IP-based
+sewices
+m
+
+Advanced interception on keywords
+
+Space required to store a Yahoo! Mail message
+
+-.-
+
+-, --
+
+- --.--. L
+..-----
+
+-h.-
+
+I
+_
+
+J
+
+2) H13 Filtering with ixEngine
+H13 filtering device embedding Qosmos
+ixEngine developed by a LI solution vendor
+m
+
+ixEngine accepts H13 packets, parses H13
+flows in real-time to identify applications
+(email, webmail, video streaming, etc.)
+Based on the application identification
+provided by Qosmos ixEngine, the H13 filter
+selects only relevant packets (e.g. IPTV, ads
+and Youtube packets are discarded) and
+forwards them t o the Monitoring Center
+-1
+
+Full Packet Capture
+
+ixEngine Metadata
+
+Global System Performance
+550 Gbps monitored in real time
+UP to 5.3 Million simultaneous sessions
+intercepted
+Usage of Qosmos metadata and
+content allows LEA to store 2 years of
+communications instead of 6 months
+
+Contacts
+EMEA
+5 Impasse Chalabre
+75017 Paris - France
+Phone: +33 1 78 09 14 40
+
+Americas
+Germantown. MD. USA
+Phone: +l 301 528 8301
+APAC
+S~ngapore
+Phony t65 63 56 60 10
+
+www.qosmos.com
+
+

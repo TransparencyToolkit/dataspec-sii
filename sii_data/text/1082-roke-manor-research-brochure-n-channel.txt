@@ -1,0 +1,91 @@
+Compact 'N Channel' High Frequency
+Superresolution Direction Finding and
+Enhanced Signal Copy
+
+A Siemens Company
+
+Background
+Over the last decade Roke Manor Research has established itself as a world leader in advanced superresolution
+DF systems and associated digital adaptive beamforming for enhanced signal reception. Many systems
+are in operational use at a range of locations around the world. The technology has demonstrated excellent
+performance and is regarded as providing the highest standard of Direction Finding (OF) capability.
+
+The Technology
+The N Channel collection hardware employed to date for these systems has comprised of a rack of VXI double
+superhet HF receivers, associated VXI PC controller and ancillary VXI modules for calibration.
+Due to the recent advances in ADC
+technology i t i s now possible to
+offer a direct sampling 'N Channel'
+hardware solution at a fraction of the
+cost, size and power consumption
+of the W I equipments. In addition
+the 0 to 30MHz wideband nature of
+the receivers provides a powerful
+wideband signal acquisition capability.
+The n e w ' c o m p a c t N C h a n n e l
+hardware' is able to directly support
+all our production superresolution
+DF and E-copy code.
+
+9 channel collection with USB 2 interface for data transfer and control
+
+Features
+• Standard product has 9 x HF (0-30MHz) coherent, direct digitising, receivers all clocked from a common
+80MHz source. (Straightforward extension to more receiver channels).
+• Supports both wideband and narrow band data.
+- In wideband mode, blocks of the full 30MHz HF spectrum are transferred over the data interface
+In narrow band mode continuous N channel data is streamed over the interface.
+- Up to 4 simultaneous narrow band frequency channels are supported simultaneously via 4 channel digital
+down converters.
+- For the USB2 interface up to 200kHz bandwidth can be continuously streamed for the 9 receiver system
+- Both wideband and narrow band modes can be supported simultaneously.
+• Presently employs a USB2 interface for both data transfer and control but faster interfaces (e.g. Gigabit
+Ethernet) are in development.
+• Fully supports our current production Superresolution Direction Finding (SRDF) and E-copy software (the
+hardware mimics an N channel VXI receiver rack).
+• New energy detection provided for short duration signals.
+• Each receiver includes a powerful FPGA to perform, for example, an 8k point FFT.
+
+/CONTINUED
+See Resilient Networks, Miniature Radar Altimeters,
+'Spinner' — and our other n e w technologies on stand 9 7 5
+
+Roke
+Manor
+Research
+
+Owned by Siemens, our client base includes Siemens, other companies
+and Government departments. Projects range from feasibility studies to
+designs for high volume manufacture. In addition, low volume manufacture
+can be undertaken in-house.
+We bring a competitive edge to our clients' by applying world-class talent to
+create innovative and timely solutions that meet their development needs.
+Roke Manor Research is a unique company with a rich heritage and exceptional
+people. It is a business which prides itself on pioneering innovation and producing
+first-class technical solutions to demanding customer problems across commercial
+and defence arenas.
+This comes from a foundation of world-class science and engineering expertise
+and an enviable breadth of knowledge and skill. In addition to technological
+excellence, the company embraces an entrepreneurial culture that balances
+engineering excellence, customer focus, business acumen and first-class project
+management skills.
+Managing Director, Paul Stein appointed in 1996, has overseen the growth of
+business from El 9m to over E40m. Paul is a member of the Ministry of Defence
+Scientific Advisory Council and sits on the South-East Science and Technology
+Advisory Council.
+
+ENDS
+
+For further information please contact
+Roger Holtby, Marketing Communications Manager
+Roke Manor Research
+Tel +44 (0)1794 833455
+Email roger hollby©roke co uk
+Roke M a n o r Research http //www roke co.uk
+
+David Salter, Account Executive
+Defence, Roke Manor Research
+Tel +44 (0)1794 833332
+Email david salter@roke co uk
+
+

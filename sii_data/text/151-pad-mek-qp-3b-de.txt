@@ -1,0 +1,55 @@
+V ertrauliche Unterlagen
+- nur für den B O S-B ereich -
+
+Datenblatt zum MEK/QP3b
+Unterschied zwischen QP3 und QP3b
+
+D er Unterschied zwischen einem Q P3 und einem Q P3b ist ein erweiterter F unktionsumfang. Im einz elnen
+sind das die folgenden Punkte:
+
+-
+
+In dem Q P3b ist jetzt eine „zweite UTC-Wachphase“ nutzbar. D as bedeutet das jetzt eine
+zusätzliche fe st definierte W achphase in UT C-Z eit programmiert werden kann. Auf ein zyklisches
+wach werden kann ggf. verzichtet werden um entsprechend Strom zu sparen.
+
+-
+
+D as Q P3b besitz des weiteren einen neuen Alarm – der „GSM-Alarm“. Da s ist ein Alarm der für
+das ausbuchen im Heimatnetz (D eutschland) – das G erät befindet sich jetzt im Roaming, oder das
+wieder einbuchen im H eimatnetz genutzt werden kann (Länderalarm).
+
+-
+
+N eu ist auch der Alarm – „Unterschreiten der Alarmgeschwindigkeit“ um sich ggf. H altepunke
+auf der Autobahn alarmieren zu lassen.
+
+-
+
+Im Q P3b können jetzt bis zu fünf „geografische Bereiche“ definiert und separat aktiviert oder
+de aktiviert werden. Jeder der fünf B ereich kann mit einem eigenen N amen versehen werden der
+bei einem eintreffenden B ereichsalarm auch in Klartext (z . B . auf ein H andy) übermittelt wird.
+
+-
+
+Der „Verbrauchszähler“ ist eine wichtige N euerung die den verbrauchten Storm der externen
+Versorgungs batterie z ählt. Dieser Z ähler errechnet aufgrund der verschieden B etriebszustände des
+Q P3b, wie viel Strom verbraucht wurde. Diese Informationen können auc h von einem H andy
+abgefragt werden. Ac htung: Dieser W ert kann nur ein Richtwert für die voraussichtliche - noch zu
+erwartende Laufz eit mit der angeschlossenen B atterie sein. Zu viele äuß ere P arameter wie
+T emperatur, S endeleistung des G SM-Modul, et c. können dabei nicht erfasst werden. Jederz eit
+kann der B atterieverbrauch als Profil abgespeichert und zu einem späteren Z eitpunk t wieder in das
+Q P3b geladen werden. So kann eine B atterie auch für einen anderen Einsatz weiter genutzt
+werden und man rechnet mit den bereits „verbrauchten“ Werten weiter.
+
+-
+
+Der „Satellitenstatus“ ist eine weitere N euerung des Q P3b. Mit diesem Punkt kann man sich
+innerhalb einer bestehenden O nlineverbindung die F eldstärke und den Himmelsstandort der
+S atelliten anz eigen lassen. Dieser ist hilfreich um den V erbau einer G P S-Antenne visuell
+überprüfen z u können.
+
+K onta kt: P A D D ate nte chnik G mb H , L a ng e s F eld 24, D-31789 H ameln, T elefon +49 5151 5773 0, F ax +49 5151 5773 35
+Änderungen und Irrtümer vorbehalten. 08. 04. 2003
+
+

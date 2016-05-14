@@ -1,0 +1,225 @@
+AN/PRD-13(V)2
+Man Portable Signal Intelligence System
+Linkabit’s AN/PRD-13(V)2 Man Portable Signals Intelligence (SIGINT)
+System incorporates sophisticated RF intercept and Direction
+Finding (DF) processing capabilities into a low power, lightweight, ruggedized, and reliable system that satisfies the most
+demanding applications and mission requirements.
+The AN/PRD-13(V)2 has been developed to support tactical SIGINT
+missions by providing:
+• Signal Environment Characterization
+• Signal Exploitation
+• Signal Location
+• Threat Warning
+The AN/PRD-13(V)2 contains a powerful signal
+search capability that allows quick and accurate characterization of the signal
+environment. The system can support directed search, general search, or a combination of
+searches, providing the user greater flexibility.
+For directed searches, the system allows the user to program a channel list of up to
+400 normal plus 20 priority channels.
+The system’s general search capability allows for the monitoring of up to 9 bands.
+Three band search strategies are supported: automatic, semi-automatic, and new energy. In
+addition, a frequency pass list of up to 400 signals can be maintained.
+When signals are detected, the system can maintain an active signals list measuring
+center frequency, bandwidth, time-first-seen, percent time active, DF bearing, and signal
+strength. An optional recorder is available to record and playback intercepted audio and
+signal parameters.
+
+AN/PRD-13(V)2
+
+Man Portable Signal Intelligence System
+
+The system has been optimized for the man portable tactical mission. The entire
+system can be transported and operated by a single person, set-up in less than 5 minutes,
+and weighs just 19.5 kg (43 lbs) including the MB-5700 NiCd Battery and all field
+accessories. The system, cables, and components fit in a single pack and can be
+parachute jumped in support of airborne operations.
+Key system components include the:
+• MD-405A Receiver/Processor
+• MA-445C HF/VHF/UHF DF Antenna (2-2000 MHz)
+• MA-715A HF/VHF/UHF Monitor Antenna (2-2000 MHz)
+• MA-308 Handheld DF Antenna (2-500 MHz)
+The heart of the AN/PRD-13(V)2 is the MD-405A Receiver/Processor. This unit
+includes all system interfaces, three receivers, and dual microcontrollers, plus associated
+display and man-machine interface (MMI) functions. The task-managed
+MMI provides easy, convenient operator access to all receiver resources
+and system features. The processor uses a patented single channel
+interferometer DF technique providing accurate DF and excellent
+sensitivity in a system that is low power and lightweight. It provides
+superior performance with most modulation signal types including SSB
+and OOK-Morse. The DF histogram display is particularly effective
+during weak signal conditions, simplex nets, or adverse propagation
+conditions that typify lower frequency bands.
+The lightweight, low profile MA-445C HF/VHF/UHF antenna
+provides accurate DF coverage from 2 to 2000 MHz. The MA-715A
+T HE MD-405A R ECEIVER /
+
+broadband dual whip antennas provide monitoring capability from 2 to 2000 MHz. The
+
+P ROCESSOR IS THE HEART OF
+
+MA-308 is a handheld DF antenna used to support localization of nearby transmitters
+
+THE AN/PRD-13( V )2 SYSTEM .
+
+during on the move missions, such as locating a downed pilot’s beacon. Other antennas
+may be used with the system to optimize it for ground vehicle, maritime, or fixed site
+applications.
+The use of a low power design and effective power management allows the system
+to be operated using the internally mounted MB-5700 NiCd or other approved battery.
+An optional solar panel can be provided to power the system for extended operations or
+to recharge the MB-5700 NiCd battery. Additionally other power sources can be utilized
+with use of the provided accessory kit including local power at 110 or 220 VAC at 50 or
+60 Hz, and direct DC power from 10 - 28 VDC.
+
+“Linkabit is the world leader in small, lightweight, low power
+signal intercept, direction finding, and signal processing systems for tactical Signals Intelligence (SIGINT) applications.”
+
+Features
+Frequency Coverage
+
+2 - 2000 MHz DF and Intercept (MA-445C)
+2 - 2000 MHz Monitor (MA-715A)
+2 - 500 MHz DF (MA-308)
+
+Demodulators
+DF/Intercept Receiver
+Monitor Receivers
+
+FM (200 kHz, 50 kHz, 15 kHz), AM (15 kHz, 6 kHz), SSB (6 kHz, 3 kHz), CW (3 kHz, 0.5 kHz)
+FM (15 kHz), AM (15 kHz, 6 kHz), SSB (6 kHz, 3 kHz), CW (3 kHz, 0.5 kHz)
+
+DF Accuracy
+
+3° RMS Typical (Antenna and Location Dependent)
+
+DF Coverage
+
+360° Azimuth, 0° to +60° Elevation
+
+Graphical Displays
+
+PAN (50kHz, 200kHz, 900kHz, 5MHz spans)
+DF (Histogram and Vector)
+
+Number of Receivers
+
+1 DF/Intercept and 2 Monitor Receivers; manual independent receiver control by user
+
+Remote Interface
+
+RS-232C
+
+Receiver Operating Modes
+
+Directed Search (Channel Scan): 400 Normal channels, 20 priority channels
+General Search (Band Sweep): Automatic, semi-automatic, new energy modes
+Bands: Selectable, 9 bands
+Signal List: Log up to 400: Center frequency, BW, time statistics
+Pass List: Avoid up to 400 channels
+Built-In-Test: End-to-end system test, includes: Start-up, Operator Initiated, and background
+
+Physical Characteristics
+
+System Weight: 19.5kg (43 lbs) including MB-5700 NiCd Battery and all field accessories
+Power: 9.5 watts max
+Power Input: 10 to 28 VDC
+Temperature: -20°C to +50°C Operating
+-40°C to +70°C Storage
+Humidity: 0 to 100% Condensing
+Altitude: 15,240 meters (50,000 feet)
+Submersion: 1 meter (3 feet) for 1 minute (MD-405A)
+Rain, Salt Fog, Vibration: Tested to MIL-STD-810E modified
+
+AN/PRD-13(V)2
+
+21st
+
+Century
+
+Leadership
+
+in
+
+Man Portable Signal Intelligence System
+
+Small,
+
+Lightweight,
+
+Low
+
+Po w e r
+
+SIGINT
+
+S y s t e m s — Linkabit is the world leader in small, lightweight, low power signals intercept,
+direction finding, and signal processing systems for tactical signals intelligence (SIGINT)
+applications. U.S. and international military
+forces and law enforcement agencies use our
+systems to provide critical SIGINT capability
+for a multitude of missions. These include
+systems
+
+for
+
+man
+
+portable
+
+and
+
+small
+
+platforms, such as ground vehicles and patrol boats.
+Located in San Diego, we are committed to
+providing the best high technology-based SIGINT
+products
+
+and
+
+services
+
+to
+
+our
+
+customers. This commitment ensures
+that our systems provide maximum
+self-protection and situational awareness to users on the electronic battlefield, regardless of the climatic
+condition or location.
+Today’s
+
+information-intensive
+
+operations are a forerunner to tomorrow’s exciting
+challenges.
+
+We
+
+are
+
+uniquely
+
+positioned
+
+to
+
+help
+
+Government and commercial customers succeed by delivering optimum solutions at the best
+value. Since the early 1980’s, we have continuously delivered leading edge solutions to our
+customers, while steadily expanding our capabilities, products, and performance reputation.
+
+Note: All specifications subject to change without notice
+
+Cleared b y Do D/OFOISR for public release und er
+OFOISR Case Number 06-S-1185 o n May 2, 200 6.
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078008009
+
+

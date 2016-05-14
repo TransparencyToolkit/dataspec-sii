@@ -1,0 +1,405 @@
+Gathering
+Open Source Intelligence
+Anonymously
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+Background
+Founded Anonymizer
+in 1995
+Creating Solutions
+Since 1992
+Known for Consumer
+Privacy Service
+Major Corporate
+and Government
+Customers
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+2
+
+Exposed Field of Operations
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+3
+
+The Real World is Anonymous
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+4
+
+A Search History is Forever
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+5
+
+www.newsweek.com
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+6
+
+The Threats
+Profiling
+Blocking
+Cloaking
+e-Identity discovery
+Hostile environments
+Malware
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+7
+
+Profiling
+Cyber counterintelligence
+Focus of interest
+Activities
+Plans
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+8
+
+Search & Ads
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+9
+
+Blocking – Unprotected IP
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+10
+
+Cloaking – American IP
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+11
+
+Cloaking – Middle Eastern IP
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+12
+
+Pricing through the standard IP on hotels.com is $91 less
+expensive than the pricing through the Geo Distribution IP
+
+Standard IP: $179 (EU 139)
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+Geographic Distribution IP: $270 (EU 211)
+
+13
+
+e-Identity Discovery
+Extended duration
+High visibility
+Google background
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+14
+
+Hostile Environments
+Traffic analysis
+Forensics
+(capture of
+physical
+hardware)
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+15
+
+Facebook Hijack
+Anyone at an open
+Wi-Fi can read all of
+your unencrypted traffic
+Attacker can intercept
+personal information
+Attacker can capture
+and use:
+Username
+Password
+Authentication
+cookies
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+16
+
+Malware
+Exposed Internet
+activities leave
+internal networks
+vulnerable to
+compromise
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+17
+
+How do they
+know?
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+18
+
+What is an IP address?
+97.65.188.109
+
+Your computerʼs
+“street address”
+on the Internet
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+19
+
+WHOIS
+Name:
+Address:
+City:
+State:
+Postal Code:
+Country:
+Reg Date:
+Updated:
+Net Range:
+Org Tech Name:
+Org Tech Phone:
+Org Tech Email:
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+DRUG ENFORCEMENT ADMIN-DJDEA
+800 K STREET #500
+WASHINGTON
+DC
+20091
+US
+2008-10-16
+2008-10-16
+209.183.199.128 - 209.183.199.143
+Network Operations Center
++1-301-589-3060
+noc@atlantech.net
+20
+
+Published IP Addresses
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+21
+
+Exposed IP Addresses
+ Total IP addresses worldwide:
+
+Over 4 billion
+ IP addresses tracked on monitored lists:
+
+Over 2.5 billion
+59% of all IPs are published
+Source: Blocklist Manager
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+22
+
+Geolocation
+Based on:
+
+Fargo, ND
+
+IP address
+GPS
+Cell Towers
+Wi-Fi
+Behavior
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+23
+
+Illegal Anonymity is Easy
+Buy access with
+stolen credit card
+Use stolen
+access account
+Bot Net
+Malware/Phishing
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+24
+
+Non-Attribution is Not Enough
+
+Overt Attribution
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+Zero Attribution
+
+25
+
+Blend In
+
+Philosophical Approach
+Look like them
+Act like them
+Leave no unintended patterns
+Isolate research network from
+analysis
+Consider how you look at your end
+as well as to targets
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+26
+
+Non-Attribution
+Looking Like Nobody In Particular
+Usually geographically specific
+No particular identity
+Minimize patterns
+Techniques
+Random identities
+Long recurrence
+Wipe history
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+27
+
+High Volume Non-Attribution
+Hiding the Spotlight
+Automated search or harvesting
+generates massive traffic
+Detectable even if non-attributed
+Key metric
+Hits per target per source per day
+Techniques
+Many sources
+Rate limited
+Human-like click patterns
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+28
+
+Misattribution
+Working in Alias
+Communications are
+trackable to a specific
+entity
+Long lifetime aliases
+require special treatment
+Born yesterday problem
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+29
+
+Location Non-Attribution
+Second biggest targeting
+factor (after identity)
+Must look like a local
+When in Rome....
+Technical and human
+blending
+Which social networking site?
+Which chat rooms?
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+30
+
+HTTP Metadata
+System capable of changing:
+Country or region of origin
+Language
+Character set
+Operating system
+Browser type and version
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+31
+
+Isolate Your Activity From
+Your Network
+Customer
+Network
+
+Virtual Computer
+for Online Research
+
+Internet
+User’s Computer
+with Sensitive
+Information on
+Internal Network
+
+No Information,
+No Access to
+Internal Network
+
+Fire Wall
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+32
+
+Best Practices to Protect Yourself
+1. Think before you type. Your brain
+is your best security tool.
+
+7. Do not conduct any personal
+business on operational
+computers.
+
+2. Use a different email address for
+every website and for each
+activity.
+
+8. Work in a virtualized environment,
+and revert to a baseline image
+frequently.
+
+3. Use unique usernames and
+passwords for every site and for
+each activity.
+
+9. Never keep sensitive or work
+information on the machine (or
+Virtual Machine Image) used for
+Internet operations/investigations.
+
+4. Clear private data and history
+from your browsers after every
+session.
+
+10. Make sure your Internet activities
+can never be traced back to you
+or your organization.
+
+5. Use and maintain firewall and
+anti-malware tools.
+6. When engaged in Web
+harvesting, use a large number of
+source IP addresses.
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+33
+
+Thank You
+Lance Cottrell
+CTO, Ntrepid
+lance.cottrell@ntrepidcorp.com
+Exhibit Booth #209
+
+©2011 Ntrepid Corporation. All rights reserved. PROPRIETARY
+
+34
+
+

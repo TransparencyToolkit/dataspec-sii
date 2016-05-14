@@ -1,0 +1,126 @@
+Virtualisation
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Les tendances et défis de la virtualisation
+Adoption
+
+
+
+Fin 2009 : 55% des entreprises utilisent la virtualisation
+En 2010 : Un budget supplémentaire de 29% pour la virtualisation
+
+Challenges
+
+
+
+
+Les outils ne sont pas adaptés et deviennent aveugles
+Les outils embarqués manquent de profondeur d’analyse
+Vues limitées au monde physique ou virtuel
+
+Outils traditionnels dans un monde virtuel
+
+
+Limité à la vue du trafic entrant/sortant de la machine Physique
+
+
+
+Communications entre machines virtuelles indisponibles
+
+
+
+Les technologies SNMP et WMI peuvent obtenir des statistiques sur les
+équipements (plus orientées système)
+ Utilisation des ressources
+ Usage des applications
+ Compteurs de performance
+
+Principales préoccupations en Environnements virtuels
+75% ne disposent pas d’outils appropriés, de visibilité ou d’infos pour
+résoudre les problèmes en environnements virtuels
+
+Terminologie
+ Virtual Machine Host (VM Host) – Serveur physique doté d’une « hôte »
+OS / Logiciel (VMWare ESX, ESXi, etc…)
+ Virtual Machine (VM) – Installation d’un OS (Windows, Ubuntu, Debian)
+fonctionnant sous le VM Host
+ Virtual Switch (vSwitch) – Connexion logique entre les VM du même VM
+Host.
+ Virtual Network Interface Card (vNIC) – Interface logique de
+communication pour les VM, utilisée pour :
+ Connecter une VM à un vSwitch,
+ Permettre la communication à un réseau physique via une association à une
+NIC physique (pNIC)
+
+Environments Virtuels
+
+Environments Virtuels
+VM Host
+
+Externat Traffic
+
+Environments Virtuels
+VM Host
+Internai Traffic
+External Traffic
+
+Environments Virtuels
+VM Host
+...lnternalîraffic
+External Traffic
+
+Analysis
+Device
+
+Environments Virtuels
+VM Host
+
+Environments Virtuels
+VM Host
+Internai Traffic
+External Traffic
+
+Environments Virtuels
+VM Host
+Internai Traffic
+Externat Traffic
+
+Analysis
+Device
+
+Environments Virtuels
+VM Host
+1nterna1 Traffi c
+External Traffic
+
+Les avantages Network Instruments
+
+
+Même méthode d’analyse en réel qu’en virtuel
+
+
+
+Visualisation du trafic interne entre les machines virtuelles du même VM Host
+
+
+
+Profiter de l’Analyse Rétrospective grâce au TAP Virtuel
+
+
+
+Même interface, simplicité d’analyse
+
+
+
+Tous les modes et fonctionnalités sont disponibles
+
+Observer Reporting Server
+Monitoring Aggrégé des Performances
+
+

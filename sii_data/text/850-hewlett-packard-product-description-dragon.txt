@@ -1,0 +1,556 @@
+HP Investigation
+(DRAGON—Data Retention And
+Guardian Online) solution
+DRAGON release 6.3—Multi-Archive Management for
+efficient Data Archiving
+Solution brief
+
+HP Investigation is committed to help companies handle massive
+data in an efficient, secure, cost effective manner by offering several
+state-of-art solutions for data archiving, data management and
+transferring data into information. As information is increasingly
+important in our daily lives and companies need to capture data
+from various sources, or from different type of data storages, the
+need for a solution that can handle different archiving technologies
+is getting more crucial for heavy-duty data management and
+data store. Multi-Archive is a collection of databases (DBs)
+in which data is treated as one entity and viewed through a
+single user interface offered by DRAGON 6.3 GUI. Using
+DRAGON 6.3, it is becoming easier to collect and consolidate
+data from different sources in order to analyze and generate the
+required information as an outcome. Further enhancements to
+DRAGON 6.3 are also taking place to accelerate the query
+speed and performance, to improve the system security, and to
+enrich DRAGON 6.3 with the capability to extract data from
+Vertica database, as well as, beyond the existing database
+technologies that are available in DRAGON.
+
+Data collection, management, and
+archiving with DRAGON 6.3
+DRAGON manages the end-to-end lifecycle of data
+through the collection, management, and data archiving
+processes. See the Figure 1 below which outlines
+these steps.
+
+Figure 1: The end-to-end process for data collection, management and archiving with DRAGON 6.3
+
+Data Monitor
+and Capture
+
+Data Capture from traffic flows
+by Dragon Blue IP probe (DPI
+and IUM) to collect valuable
+data real-time
+
+Dragon Blue IP probe
+and IUM
+
+Federated Database
+Management, Lawful
+Interception and Analysis
+Dragon 6.3 offers a single point of GUI to
+manage various type of database
+
+DRAGON 6.3
+
+Data Retention
+Data Archive
+Depending on data structure, volume,
+retention period, query performance
+and access needs Dragon offers the
+most suitable DB
+
+Database 1
+
+Dragon Green:
+Oracle
+
+Networks
+
+Database 2
+Dragon Orange:
+MySQL
+
+Data
+Analysis
+Data are available
+for analysis
+
+Database 3
+
+Database 4
+
+Dragon Red:
+RainStor
+
+Vertica
+pre-integration
+
+3
+
+Data collection
+
+Data management
+
+Collecting the necessary data in a valuable format and
+understanding the information sitting deeply insight of
+data flows is the winner strategy that can be powered
+by DRAGON Blue IP probe Deep Packet Inspection
+(DPI and IUM) solution. DRAGON Blue provides the
+capability of monitoring, extracting, and filtering data
+directly from network traffic real-time, offering passive
+probes that generate no overhead on network devices,
+hence leave no impact on network operation. As
+different companies have different needs our main focus
+is the flexibility and the ability to customize DRAGON
+Blue to monitor exactly the same level of data flow
+insight and to collect exactly the same data required by
+our clients.
+
+Data retention or data archiving are not only about
+having data storage and store data. There are a number
+of important aspects to be considered, like security,
+authentication, accessibility, performance, management,
+and maintenance of databases. Nowadays, in most
+cases we talk about different database types as
+companies use various types of databases to store
+their various types of data. For instance, the client
+database, or communication activity database, or
+billing information database could be different entities;
+however the challenge is to synchronize the data among
+the databases and to be able to manage them as a
+single point of management. All these requirements are
+addressed by the DRAGON 6.3 proving to be the right
+solution for enterprise data management.
+
+For more information about DRAGON Blue solution, read
+the DRAGON Blue solution brief.
+
+The new features available in DRAGON 6.3
+	 1.	 Graphical flow configuration
+
+X
+
+The DRAGON Graphical Flow configurator offers a simple graphical interface to configure
+all aspect of data management; like how and which input data have to be loaded onto the
+archives, the retrieval query to extract the data, the layout and presentation of this data, the
+retention time, and the brokering query process flow on the Core Module. All these aspects are
+important elements of everyday work with databases.
+
+	 2.	 Multi-Archive Database Management
+For data capture, DRAGON 6.3 introduces an additional Federated Server architecture, based
+on the concept of data source. Federated database is a collection of databases treated as one
+entity and viewed through a single user interface offered by DRAGON 6.3 GUI. The data source
+is the only component of new DRAGON Federated Server dependent on the database in use. All
+Federated Server Chain functionalities are database independent, and use a specific data source
+when they need to access the databases:
+•	Query chain (doc generator and query engine)
+•	The Federated Server Chain is designed to address:
+−− Federated archive management
+−− Cross Archive Query configuration
+−− Query pipeline
+
+	
+?
+
+3.	 Real Time Query
+For data capture the Real Time Query (RTQ) feature represents a new logic flow for work item
+request elaboration, in addition to the asynchronous mode. The RTQ feature adds the capability
+of receiving work item results in a synchronous-like way. In this way DRAGON introduces a new
+tool to help end users in improved data query performance.
+
+	 4.	 Security
+DRAGON 6.3 introduces a new pluggable authentication system integrated with Active
+Directory and JBoss authentication system. This enhancement will delegate authentication but not
+authorization using a bind process between the authenticated user and an existing DRAGON user
+to determine his/her permissions.
+
+	 5.	 Vertica pre-integration
+For data capture he DRAGON 6.3 introduces a pre-integration with Vertica archive. The
+integration will be limited to the query part that means DRAGON 6.3 is able to read and query
+data from Vertica database.
+
+4
+
+Data archiving
+
+•	Reduce the system and data center complexity
+
+Every day, companies must store and manage a
+large amount of information, used for purposes
+ranging from marketing, to billing, to capacity planning,
+to legal and compliance. The size of data is so large
+that new prefixes have been invented: peta, exa,
+and zettabyte. Data is becoming one of the biggest
+corporate topics—data management is no longer an
+IT problem but a consideration of corporate strategy.
+Moreover, different data need different archive, retrieve,
+and security capabilities. They can be heterogeneous
+(a mix of text and multimedia, for instance). Some data
+need strong security and encryption.
+To survive the data explosion means to be able to
+govern all the different aspects of data explosion that:
+•	Dramatically reduce available storage
+•	Use the right archive technology for each data type
+
+•	Require data reliability on a wide range of devices
+used in different settings
+•	Require compliance and secure data management
+For more information about DRAGON Large Archive
+solution, read the DRAGON Large Archive solution
+whitepaper: Data explosion challenge…. and how to
+survive
+DRAGON provides the possibility to use the right
+archive technology per data type to reduce the system
+size and improve data archive efficiency and realizing
+cost saving. DRAGON also implements Federated
+Database Management in order to manage various
+types of databases at a single point of management
+screen (DRAGON 6.3 GUI) and to create relations
+between different database types.
+DRAGON offers the right archive technologies as the
+table shows below, the best fit for all:
+
+DRAGON product
+name
+
+DRAGON Green
+
+DRAGON Orange
+
+DRAGON Red
+
+Vertica
+
+Database
+Technology
+
+Oracle
+
+MySQL
+
+RainStor
+
+Vertica
+
+Upload/Query
+Capabilities
+
+Both upload
+and query
+
+Query only
+
+Both upload
+and query
+
+Query only
+
+Data Volume
+
+Large, Medium, or Low
+
+Medium or Low
+
+Large
+
+Large or Medium
+
+Query Response Time
+
+Within 10 seconds
+
+Within 10 seconds
+
+Within 100 seconds
+
+Within 10 seconds
+
+Access
+Requirements
+
+Deep and complex
+analysis for 1000
+of users
+
+Deep and complex
+analysis for 10
+of users
+
+Easily defined
+analysis for 100
+users
+
+Deep and complex
+analysis for 1000
+of users
+
+Focus
+
+High performance
+and flexibility
+
+Low TCO
+
+Low TCO
+
+High performance
+and analytics
+
+Data Compression
+Factor
+
+2x
+
+2x
+
+9x
+
+6x
+
+5
+
+Combination of different DB
+technologies with DRAGON
+It is possible to combine different databases by the
+DRAGON Multi-Archive capability. One of the scenarios
+is when the DRAGON Red solution is used for raw data
+(CDRs, and more) storage, and another database like
+Vertica is used for analysis purposes.
+DRAGON Red uses RainStor DB technologies as Data
+Store and focusing on the reduction of cost and effort of
+collecting and storing granular data. Typical usage as
+operational data store with the following features:
+•	Fast and efficient ingestion
+•	Industry-leading compression to reduce data size (to
+save storage costs)
+
+Vertica is focused on providing fast and agile analysis of
+data aggregated from RainStor data warehouse with the
+following features:
+•	Advanced and fast analytics
+•	Simple database design and tuning
+•	Automated performance optimization
+The combination of DRAGON Red and Vertica
+databases provides comprehensive analytical
+capabilities for companies and low TCO at the
+same time.
+
+Solution Architecture
+DRAGON 6.3 solution architecture is described on
+Figure 2.
+
+•	Simple management and scalability
+•	Fast SQL access and export to Enterprise Data
+Warehouse (EDW)
+
+Figure 2: DRAGON 6.3 High Level Architecture
+
+Log
+files
+HP DRAGON event/CDR archive solution
+IUM module
+
+DRAGON Server
+Loading Module
+
+Collection and
+Correlation
+
+Configurable
+Loaders
+
+Detailed
+Log/event
+Archives
+
+DRAGON Server
+Data access module
+Optimized
+data access
+
+DRAGON Core
+
+DRAGON
+Manager
+
+Complex and
+iterative query
+management
+
+Secure
+end user
+GUI
+
+DRAGON Core
+module provides
+additional query
+capabilities to
+manage complex
+query among different
+archives such as
+iterative query or join
+on different archives
+
+DRAGON Manager
+provides end user
+secure GUI to data
+stored as
+Role base access
+control, End user
+action tracking
+(audit), Automated
+input/output
+channel, etc.
+
+Detailed
+Log/event
+Archives
+
+DPI
+probes
+
+HP DRAGON main features
+DRAGON Collection
+module provide
+collection and
+correlation
+capabilities to
+«prepare» the data
+before their loading
+into the system
+
+6
+
+DRAGON Server
+Loading Module is
+in charge to the
+archive loading
+based on the
+standard product
+configuration
+including the data
+encryption option
+
+Different archive
+solutions for data
+retrieval, storage,
+compression
+optimization
+
+DRAGON Server
+Data access module
+allow to provide
+common and
+standard query
+capability on all
+archives superseding
+each archive
+capability itself
+
+Business benefits
+HP DRAGON delivers the multi-dimensional scalability of
+performance, capacity, and functionality required to fulfill
+communications data requests. Flexible HP DRAGON
+supports many business models including mobile virtual
+network operator (MVNO), hosted multiple operating
+units, multiple geographies, and others.
+Some of the main benefits of DRAGON:
+•	Complete solution for integrated Data Collection,
+Data Retention and Archiving offering highly scalable
+and flexible solutions to ease access to critical
+operations data.
+•	Scalable solution for data archiving with the provision
+of several types of database, like Oracle, MySQL,
+RainStor, Vertica, and Sensage, as per data usage
+requirements to improve TCO.
+•	Federated database management to treat database
+as one entity and be viewed through a single user
+interface offered by DRAGON 6.3 GUI.
+Benefits through integration:
+•	Supports all common integration standards and
+technologies including ETSI, CALEA, 3GPP, web
+services and XML
+•	Reduces operating cost through a common integration
+approach for both external and internal systems
+
+HP Services
+HP Solution Lifecycle Services
+HP Solution Lifecycle Services for the communications and media
+industry help you realize the full value of your solutions, from
+planning and assessment through testing, deployment, operation,
+and nearly continuous improvement. Each service area leverages
+proven processes and best practices to balance CAPEX and
+OPEX and reduce risk, while keeping your projects on time and your
+operations running smoothly.
+HP Services offer a proven way for navigating through your
+transformational journey:
+Consulting
+HP Solution Consulting Services help define business transformation
+and translate strategies into actionable solutions.
+Implementation
+HP Solution Implementation Services offer a low risk project lifecycle
+across design, development, customization, and network and
+system integration.
+Management
+HP Solutions Management Services increase the operational efficiency
+of your existing solutions, including reactive, proactive, operational,
+and enhancement services.
+Outsourcing
+HP Services offer a variety of sourcing options designed to improve
+business agility while reducing your OPEX; options include IT and
+infrastructure outsourcing (ITO), application management (AM), and
+business process outsourcing (BPO).
+
+Security:
+•	Provides comprehensive data security features,
+including encryption and certificates that protect
+privacy and integrity
+•	Includes robust user security mechanisms, such as user
+access controls, auditing and reporting, and optional
+integration to external authentication systems
+•	Enable confidence in communications through secure
+messaging channels
+
+HP in the telecommunications industry
+HP helps the world’s CSPs transform the way they do
+business—to grow in a fast-changing market, CSPs
+must meet the huge demand for new services, and
+streamline internal operations. HP is unmatched in its
+ability to help CSPs drive transformation: 30+ years of
+
+telecom experience, global IT leadership, expertise in
+entertainment, and leadership in consumer devices.
+HP offers a truly end-to-end portfolio from core network
+to handheld devices—including a suite of convergent
+IT and telecom solutions, such as: software (OSS/BSS,
+SDP, SDM, or cloud); professional services including:
+business consulting, integration, and managed services/
+outsourcing; joint go-to-market programs; carrier-grade
+servers; storage; printers; and tablets and smartphones.
+
+Contacts and Resources
+For more information visit www.hp.com/go/investigation
+or e-mail investigation@hp.com.
+
+Achieve the lowest TCO and the highest performance and query capabilities for your Data Warehouse
+deploying DRAGON 6.3 Multi-Archiving Database Management and Data Archiving solution. Offering
+end-to-end Data Collection, Data Management and Archiving employing DRAGON 6.3 GUI to maintain,
+analyze and query database to generate information in the required outcome. Visit:
+www.hp.com/go/investigation to know how.
+
+7
+
+Get connected
+www.hp.com/go/getconnected
+
+Get the insider view on tech trends, alerts, and
+HP solutions for better business outcomes
+
+© Copyright 2012 Hewlett-Packard Development Company, L.P. The information contained herein is subject to change without notice. The only warranties
+for HP products and services are set forth in the express warranty statements accompanying such products and services. Nothing herein should be
+construed as constituting an additional warranty. HP shall not be liable for technical or editorial errors or omissions contained herein.
+Oracle is a registered trademark of Oracle and/or its affiliates.
+4AA3-9070ENW, Created February 2012	
+
+

@@ -1,0 +1,239 @@
+CASPER-T – WI-FI NETWORK INTERCEPTION
+
+STANDARD FEATURES
+
+The CASPER-T system is specifically
+dedicated to the Wifi network
+interception. It has two different
+working modes: TAP interception
+of a targeted Wifi network, or local
+pcap recorder. When used as a Wifi
+TAP, CASPER-T output can be
+processed in SMINT or DUMB-0
+products.
+
+CASPER-T is a high end monitoring
+appliance from AMESYS Company.
+The CASPER-T system has
+superior interception and processing
+capacity in a small form factor
+product.
+
+!
+
+Direct acquisition in the Wifi/IP
+Stream
+
+!
+!
+!
+
+Passive scanning
+
+!
+
+Optional FPGA accelerated WPA
+brute force key calculation
+
+!
+
+Automated sample collector of
+accessible Wi-Fi networks
+
+!
+
+Local interception storage (pcap
+format)
+
+!
+
+Automated management of hard
+disk capacity
+
+!
+!
+
+Optional dual Wi-Fi scanner
+
+Passive WEP key calculation
+Semi-active WEP key calculation
+accelerator (average key
+calculation under 180s)
+
+Optional embedded GPS for
+referenced interceptions
+
+CAPACITIES
+
+!
+!
+!
+
+PHYSICAL INTERFACES
+
+802.11 b/g ;
+WEP key calculation ;
+Optional WPA calculation;
+
+PERFORMANCES
+
+!
+!
+!
+
+Up to 54Mb/s network;
+60 Gb storage capacity ;
+direct in-network replaty/TAP using 10/100
+Mb/s Ethernet interface.
+
+!
+!
+!
+!
+
+!
+
+simplified integration in an existing network;
+management and monitoring using
+telnet/ssh/web;
+Multiple configuration profiles.
+
+RELIABILITY
+
+!
+!
+!
+
+!
+
+Embedded Unix System;
+Auto test and alarms ;
+NTP synchronization.
+
+Software updates through profile
+management (front panel access);
+Optional FPGA based accelerator for WPA
+key breaking.
+
+DATA PROCESSING
+
+!
+!
+!
+
+Automated Wifi environment determination;
+Automated WEP key calculation for all
+available Wifi networks;
+TAP intercepted network to standard
+ethernet.
+
+EXPLOITATION
+
+!
+!
+
+1 Ethernet port 10/100;
+VGA (for system update & maintenance).
+
+!
+!
+!
+!
+!
+
+External Power 5V 3W;
+Size :
+o
+o
+o
+
+width 116 mm
+height : 40 mm
+depth : 120 mm ;
+
+Operating Temperature: +5°C to +40°C;
+Weight 500 gr
+ROHS.
+
+MANAGEMENT INTERFACES
+
+MULTIPLE SYSTEMS
+
+!
+
+6 key keyboard (direct functions and navigation
+menu);
+
+MECHANICAL/POWER/ENVIRONMENT
+
+ADMINISTRATION
+
+!
+!
+
+Removable LCD front panel (20x4 characters);
+
+“Stand Alone local”:
+Autonomous interception work;
+
+!
+!
+!
+
+telnet/ssh;
+Web;
+LCD front panel (removable).
+
+SETUP AND MONITORING
+
+!
+!
+!
+!
+!
+
+Multiple profiles;
+Secured access by password;
+Multi-level access (admin, user);
+IP V4:
+o
+o
+
+Fixed IP;
+DHCP client;
+
+date/time:
+o manual
+o NTP.
+
+TOOLS FOR MONITORING
+
+!
+!
+!
+
+Disk capacity;
+Processing fifo inspector ;
+Network statistics.
+
+“Sensor for Generic Processor”:
+direct exploitation by using a standard IP
+processor: SMINT, DUMB-0.
+
+THE SPECIFICATIONS AND INFORMATION CONCERNING THE PRODUCT IN THE PRESENT DOCUMENT MAY BE SUBJECT TO
+CHANGE WITHOUT PREVIOUS NOTICE.
+ALL STATEMENTS, INFORMATION AND RECOMMENDATIONS ENCLOSED IN THE PRESENT DOCUMENT ARE BELIEVED TO BE
+ACCURATE, BUT ARE PRESENTED WITHOUT WARRANTY OF ANY KIND, NEITHER EXPLICIT NOR IMPLICIT.
+USERS MUST TAKE FULL RESPONSIBILITY FOR THEIR INTERPRETATION, USE AND APPLICATION OF ANY PART OF THE
+CONCERNED PRODUCT.
+IN SPITE OF ANY OTHER ENCLOSED WARRANTY, ALL FILES, DOCUMENTS AND SOFTWARE ARE SUPPLIED AS SUCH, TO BE
+TAKEN WITH THEIR POTENTIAL FLAWS. AMESYS DOES NOT OFFER ANY TYPE OF WARRANTY REGARDING A LACK OF
+EXECUTION OR APPLICATION SKILLS, AND/OR AN INAPPROPRIATE COMMERCILIZATION OF THEM EITHER. AMESYS DENIES
+ANY RESPONSIBILITY, IN ANY CASE, CONCERNING INDIRECT, EXCEPTIONAL, REPETITIVE OR ACCIDENTAL DAMAGES. THE
+SAME POLICY STANDS FOR SITUATIONS SUCH AS CLAIMS RELATED TO PROFIT LOSS, DATA LOSS OR DAMAGES RESULTING
+OF A CLIENT’S WRONG USE AND/OR INTERPRETATION OF THE PRESENT DOCUMENTATION. AMESYS AWARENESS OF THE
+POSSIBILITY OF SUCH DAMAGES DOES NOT MAKE IT RESPONSIBLE FOR THEM. IT IS UP TO THE CLIENT TO MAKE SURE THAT
+HE IS PROPERLY SKILLED TO USE AMESYS’S PRODUCTS AND DOCUMENTATIONS
+SPECIFICATIONS ABOVE CAN BE MODIFIED WITHOUT NOTICE. DEVICE KEPT UNDER R226 APPROVAL
+
+

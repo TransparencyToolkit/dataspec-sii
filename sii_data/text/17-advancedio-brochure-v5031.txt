@@ -1,0 +1,368 @@
+DATASHEET
+
+I
+ADVANCEDIO
+
+ 
+
+V5031
+
+Quad Channel 10 Gigabit Ethernet FPGA PCI Express Card
+
+
+Applications
+
+
+Overview
+
+ 
+
+Ultra low latency electronic trading
+Sensor and radar systems
+
+Network security
+
+Network monitoring and optimization
+
+
+Bene?ts
+
+ 
+
+Launch new revenue generating financial trading products
+Deliver real time service reliability to your customers
+
+Deploy applications on the industry?s highest performance and
+lowest latency programmable network card
+
+
+Features
+
+ 
+
+Quad 1/10 Gigabit Ethernet optical ports
+
+Altera Stratix FPGA (scalable from A3 to AB)
+
+Two independent banks of up to 868 DDR3 SDRAM each
+Four independent banks of up to 144Mbit SRAM each
+8?Iane PCI Express Gen 3 host interface
+
+On?board FLASH for dual boot support
+
+Mini SAS transceiver interface for intercard communication
+interface for application debugging
+
+PPS interface for time with pSec resolution
+
+Built-in support for RTP 1588)
+
+The V5031 is the fifth generation of Advancele?s ?agship
+products and the industry?s highest performance 1OGE FPGA
+network card in production today. It is powered by the latest
+Stratix FPGA technology from Altera. Purpose-built for
+processing network data in real time, the V5031 has been
+optimized to provide the lowest possible latency and the
+highest possible performance. This makes it ideal for executing
+sophisticated financial trading strategies, processing market
+data feeds. and running a wide range of algorithms as close as
+possible to the network. To meet priority deadlines for rolling
+out new financial products, the Development
+Framework provides the standard toolset and debug capabilities
+required to create applications on the V5031 network card
+quickly.
+
+ 
+
+Toll free 1.877.331.7755
+
+DATASH EET
+
+ 
+
+V5031
+
+Quad Channel 10 Gigabit Ethernet FPGA PCI Express Card
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+mam
+
+WWI
+warm
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+i
+
+ 
+
+ 
+
+ 
+
+PCI. EdgoConnocu
+
+ 
+
+ 
+
+V5031 Quad Channel FPGA PCI Express Card Architecture
+
+ 
+
+Functional Description
+
+ 
+
+The V5031 is a quad port 10 Gigabit Ethernet FPGA network
+card with PCI Express Gen 3 host interface. The network
+interface is provided through pluggable transceivers that
+support short and long range ?ber.
+
+By combining key technology from Altera, the V5031 network
+card features the Stratix family of FPGAs, offering a range
+
+of logic elements from 340,000 to 952,000. The Stratix 
+scalability and high density makes it possible to support a wide
+range of applications and to implement complex algorithms. Its
+high capacity integrated transceivers are optimized for high-
+performance, high-bandwidth applications. The pluggable
+transceivers communicate directly with the Stratix device
+using built-in physical layer interfaces (PHY), which dramatically
+reduces the latency for data coming from and going to the
+network interface.
+
+The V5031 is available with a generous amount of memory to
+handle the most demanding applications. The card features two
+banks of up to BGB 72-bit wide memory running at a maximum
+clock rate of They offer a potential 17 GBytes/s raw
+bandwidth each. This could be used to provide buffering to sustain
+burst traf?c over 10 Gigabit Ethernet networks with data accessible
+from applications running on the FPGA or from the host.
+
+In addition, there are four banks of up to 144Mb 18-bit wide
+SRAM running at a maximum clock rate of They
+offer a potential 2.2 GBytes/s raw bandwidth each. This makes
+the architecture ideal for implementing advanced algorithms that
+require buffering or fast look-up tables.
+
+An 8-lane PCI Express Gen 3 host interface with built-in DMA
+channels optimized for fast data transfers provides unmatched
+bandwidth and speed while moving data between the card
+and the host memory. PCI Express Gen 3 doubles the effective
+bandwidth and adds protocol enhancements to increase
+end-system performance. The V5031 card has the ability to
+recon?gure the FPGA device without bringing down the host
+interface, a key requirement for applications where frequent
+downtime is not an option.
+
+The V5031 card has a high-speed, low-latency transceiver
+interface that allows direct communication between two cards in
+the system without host intervention. This is particularly useful for
+applications requiring extensive processing. it also allows for a soft
+handover, an essential feature for high availability system design.
+
+The V5031 card features an RS-232 interface and a software
+utility for debugging FPGA applications. The card?s pulse per
+second (PPS) interface can be used for time 
+and stamping of data. It also supports the 1588 Precision
+Time Protocol (PTP). The V5031 card comes with on-board
+temperature sensors with shut-down and automatic restart
+capability. The Stratix loads from an on-board FLASH with
+support for two boot images.
+
+Toll free 1.877.331.7755
+
+DATASH EET
+
+V5031
+
+Quad Channel 10 Gigabit Ethernet FPGA PCI Express Card
+
+
+Technical Speci?cations
+
+ 
+
+The V5031 ships with the expressXG Development Framework,
+a fully integrated package designed to deliver optimum
+functionality and accelerate application development on the
+V5031 network card. Advancele?s ?exible FPGA development
+framework toolset provides the infrastructure necessary to
+ensure rapid deployment of applications and allows seamless
+portability to the latest generation of network interface cards.
+The framework abstracts the details of Ethernet protocols and
+interfaces, memory controllers and host fabric interfaces, thereby
+reducing the development effort and schedule for designers to
+implement custom algorithms.
+
+AdvancedIO ensures extreme reliability that gives customers
+confidence to deploy their products in critical applications. Like
+other products in the same family, the V5031 card is compatible
+with several high-perfonnance sewers from leading OEMs, such
+as HP ProLiant DL380.11'1is single slot solution allows customers
+to maximize the number of cards per server, resulting in a smaller
+server footprint.
+
+
+Complete Product Support Program
+
+ 
+
+Advancele prides itself on its excellent customer support, a
+fact that is echoed by our customers. AdvancedIO provides
+industry standard warranty on its products, but it is the human
+factor that makes our support so valuable to our customers.
+Our team takes the time and effort to ensure that the customer
+experience with our products is a positive one.
+
+
+Our Commitment
+
+ 
+
+Advancele is committed to providing the latest innovations
+
+in technology, architectures, and techniques to keep our
+customers one step ahead of the rest. Our products, complete
+with expressXG Development Framework, are intended to offer
+customers an entirely unique out?of?the?box experience.
+
+FOR MORE INFORMATION ON OUR PRODUCTS:
+
+Phone 604.331.1600
+Fax 604.331.1800
+Toll Free 1.877.331.7755
+
+
+contactus?advancedio.com
+
+Suite 501 -3292 Production Way
+Burnaby, BC V5A 4R4
+Canada
+
+oftherrespective
+SM. AInghisreserved. 2012
+
+
+Comvy?lt02012?dranoed0
+
+NETWORK INTERFACE
+Quad 1/10 Gigabit Ethernet optical ports, supporting
+MMF 850nm (1 or SMF 1310nm 
+
+FPGA DEVICE
+Altera Stratix (scalable from A3 to AB)
+
+MEMORY
+2 banks of 163 to 8GB 72-bit up to 1066MHZ DDR3 SDRAM
+4 banks of 36Mbit t0 144Mbit 18?bit SRAM
+
+HOST INTERFACE
+x8 PCI Express Gen 3
+
+EXTERNAL INTERFACE
+
+Mini SAS transceiver interface for intercard communication
+
+PPS Interface for time with microsecond resolution
+serial interface for debug
+
+SYSTEM REQUIREMENTS
+X86 64?bit processor or better, 1GB RAM, 1GB disk space
+Free PCI Express x8 or x16 slot
+
+COMPLIANCE
+
+PCI Express Card Electromechanical Specification, Rev 2.0
+802.3ae 2002 10GBASE LAN
+
+FCC 47 CFR Part 15, Subpart B, Class A (USA)
+
+IEC 60950-1 (International)
+
+Directive 
+
+DIMENSIONS
+111.15 mm 167.65 mm (standard height, half?length)
+
+TEMPERATURE
+Operating: 0 to 
+Storage: ?40? to 
+
+ORDERING INFORMATION
+
+300?05031-02 V5031 Stratix 2x1 GB 4x36Mb 
+300-05031-03 V5031 Stratix GXA7 4x144Mb 
+300?05031?05 V5031 Stratix GXA3 2x1 GB 4x36Mb 
+
+Other product configurations are available. Please contact us for
+more information.
+
+
+
+
+ 
+
+ms
+

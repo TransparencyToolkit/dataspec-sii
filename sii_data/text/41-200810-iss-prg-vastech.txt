@@ -1,0 +1,318 @@
+Passive surveillance in support of LI
+
+André Scholtz
+a.scholtz@vastech.co.za
+
+VASTech
+! Created 1999
+! Development and system contractor
+house in Passive Surveillance
+! Core focus: Zebra Passive Surveillance
+System
+! Operational systems in number of
+countries
+
+Legal interception
+
+Incident
+
+How to identify
+targets and
+prevent
+incidents ?!
+
+Target identification
+
+Warrant (order)
+Interception for legal purposes
+Legal processes
+
+Understanding passive surveillance
+demands
+!
+!
+!
+!
+!
+
+40 000 channels plus in high density
+Petabytes of storage
+Covert and passive interception
+Multiple agencies
+IP, TDM; satellite, international
+switching centers, mobile, submarine
+landing stations
+
+!Conventional systems not suited
+
+What if sys'em is available '.a'…
+! Provides LI targets while supporting intelligence
+community
+! Provides unique intelligence proposition (go back in
+history)
+! Requires low vendor support dependence
+! Is flexible to adjust to changes in threat, technology
+and communications, operational conditions
+! Dense, scalable and distributable
+! Benefit naturally from technological advantages
+'.roug. Moore5s la6
+
+The ideal solution
+Changing communications environment
+(Satellite, landline, mobile; circuit and packet switched;
+different protocols)
+
+Suitable active/passive gateways
+(E1/T1, E3/DS3, STM-1/-4, IP)
+
+Off-the-shelf Processing and Storage
+(Networked architecture; distributed implementation;
+content capturing - records and stores everything;
+content enrichment 7 speech analysis, etc)
+
+Integration API
+Industry leading applications
+(Intelligence mining, extraction)
+
+Zebra
+
+24 U: 4000
+channels
+
+Zebra Architecture
+Zebra Gateway
+
+Remote Capture Unit 1
+
+Switching
+Centres
+
+Fax
+Demod
+Server
+Modem Demod
+Server
+Temp File
+Storage
+
+Channel
+Processor
+Server
+
+Utility
+Server
+
+NAS Head
+Server
+
+Utility
+Server
+Database
+Server
+
+Database
+Storage
+(CDR)
+
+File
+Storage
+
+NAS Head
+Servers
+
+Database
+Server
+
+Compression
+Server
+Application +API
+Server
+
+Firewall
+
+Remote Capture Unit 2
+Zebra Gateway
+
+Master Data Centre
+
+Database
+Storage
+(CDR)
+
+Archiving
+Server
+
+Application +API
+Server
+
+Fax
+Demod
+Server
+
+Firewall
+Modem Demod
+Server
+Temp File
+Storage
+
+Channel
+Processor
+Server
+NAS Head
+Server
+
+Utility
+Server
+Database
+Server
+
+Database
+Storage
+(CDR)
+
+Compression
+Server
+
+Satellite
+Systems
+
+`
+Application +API
+Server
+
+Firewall
+
+Administrator
+
+`
+
+`
+
+`
+
+User Workstations
+
+Key characteristics
+! Record everything that it is connected to
+7 No switches 7 no previous target knowledge required
+7 High intelligence value 7 analyze and listen to the past
+
+! Software centric, aimed at integration
+7 Fax, data and satellite DCME demodulation integrated as
+software
+7 API to integrate to customer applications and analysis tools
+
+! 8ommercially available :off-the-s.elf; .ar<6are
+7 Low vendor dependence
+7 =enefi' from Moore5s la6
+
+Key characteristics
+! Highly scalable and distributable
+7 50 000 channels+ with unified view
+7 Add more servers into Capture Unit
+7 Add more Capture units
+
+! High density
+7 500 stereo E1s per 42 U rack
+7 64 stereo E1s in 1U interception on remote sites 7 small
+footprint!
+
+! Groups and permission based security
+7 Tagging and workflow
+
+! Advanced CIC mapping
+
+Record all and filter
+
+Traffic
+
+Old approach
+
+Switch
+
+Capture
+and store
+No content,
+lost intelligence
+
+CRI
+Analysis
+
+New targets
+
+New approach
+
+Traffic
+
+Capture all
+
+Intermediate
+Storage
+
+CRI
+Analysis
+
+New targets
+
+Filter
+
+Long term
+Storage
+
+Filtering and permissions
+Interception and
+processing
+
+IRI Database Storage
+Call Content Storage
+
+Hot monitoring
+Group filter
+Operator filter
+and
+permissions
+
+Storage flexibility - example
+All intercepts in 64 kbps stereo for 5 days
+
+All voice
+compressed 8 kbps
+stereo 360 days
+
+All fax and data
+uncompressed for
+further 30 days
+
+Fax and data
+compressed for
+remainder of 365
+days
+
+All known target content for additional year online archive
+
+Exporting and migration
+
+All IRI for 2 years
+
+Storage flexibility - example
+
+Content enrichment and
+intelligence extraction
+! OCR and text search
+! Speaker identification and speech tools
+! Customer applications
+
+Conclusion
+Passive surveillance is complementary
+to LI
+! Provides a much larger pool of information
+! Helps identify targets and prevent incidents
+
+Systems do exist that provide large
+scale passive surveillance capabilities
+while:
+! Providing unique intelligence value
+! Protect investment against changes in technology
+! Low vendor hardware dependence
+
+

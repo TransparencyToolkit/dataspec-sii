@@ -1,0 +1,83 @@
+Cellular phones are one of the continued biggest growth industries
+world-wide, and the reliance on them is ever more important.
+Information of all kinds is conveyed by cell phones, including voice,
+text messaging, email and internet data. Whilst these devices are
+highly immune t o interception, it is not uncommon for law enforcement
+agencies to use spoof base station technology t o invoke a dialogue with
+a target handset in order t o identify and ultimately locate such devices.
+
+The cellxion NetSecure product is designed to
+provide Government agencies with a method
+of identifying the correct operation of mobile
+handset identification technology and detect it's
+unauthorised use in sensitive areas.
+NetSecure works by monitoring signalling
+information from legitimate GSM and UMTS
+base stations in an area and building a "digital
+fingerprint" of a normal operating environment.
+This information is analysed over time to
+establish normal operating heuristics and if a
+change is detected a warning or alarm state is
+established.
+
+The NetSecure unit is highly portable, requires
+low power, and also features a GPS interface
+for accurate time stamping of events. The GPS
+engine is also used as a timing reference to
+further improve the accuracy of event detection
+particularly in the UMTS domain.
+A web interface is used for the configuration of
+NetSecure devices, and SMTP/SMPP interfaces
+are used for the propagation of alarms to either
+email addresses or a mobile device via SMS. The
+detection routines are fully automatic and require
+no user interaction.
+
+As well is having the ability to detect the correct
+functioning of mobile handset identification
+technology, NetSecure can be used to identify
+potential espionage risks for cell phone users
+who are in sensitive areas such as:
+Embassies
+Government buildings (such as police
+headquarters)
+Military installations
+
+Commercial in confidence
+
+For further in#orrna%ionplease contact sales on UK +44 (0) 20 3137 1637 ' US +l(704) 248 6229 or email salemlMon.nest
+
+KEY FEATURES
+B Self contained high-speed GSM/UMTS wideband digital
+receiver
+B Selectable technology modes: GSM only, UMTS only or both
+(CDMA under development)
+Available in 900/1800/2100 or 850/1900/2100 frequency
+variants
+B All networks detected, analysed and continuously monitored
+B Self-Teaching algorithms to learn local cellular environment
+
+B Three level alarm status:
+- No Alarm
+-Warning (small change detected)
+-Alarm (highly probable detection of spoofing)
+B Alerts for detection of event, and when event expires
+B Alerts delivered by email through internal SMTP client or
+optionally by SMS via internal SMPP client
+B Programmable via simple Web interface
+
+B Highly adaptive change recognition sohare
+
+B Web interface provides a visual indication of all cells and
+associated information in the area of operation
+
+B Minimum user interaction required -true "power and go"
+functionality
+
+U Compact Size: 34mm X 76mm X 165mm
+
+LED status "comfort/alarm" indicator
+
+B Low power consumption
+
+

@@ -1,0 +1,487 @@
+ PACKET FORENSICS
+
+VOLUMEI 0 N01 0 2009
+
+ 
+
+DEVELOPMENTS
+
+'l?l Ili FROM FORENSICS COVERING 
+
+You?ve got a Man in the Middle
+
+An automated Approach to Intercepting Tm?ic in Fume/5
+
+Internet communications are increasingly being
+protected by transport layer security or the
+secure socket layer These are simple ad-hoc
+virtual private networks protected by 
+'l?hcy operate at the transport layer, usually over
+Once used exclusively by web servers to
+protect transactions, these technologies are now
+also used to protect e-mail access, voice over IP
+telephony and even entire Internet connections.
+
+This pervasive adoption has created major
+problems for lawful interception and technical
+investigations because intercepting this traf?c has
+traditionally resulted in capturing nothing but
+unreadable fodder.
+
+ 
+
+There have been a slew of ?attempted solutions?
+in the recent past that made intercepting some of
+this traf?c possible, but all previous attempts failed
+in the areas of reliability and complexity of setup--
+this often resulted in the accidental disruption of
+subscribers' communications all together, an
+unacceptable risk for most of us. As if that wasn?t
+bad enough, most attempted solutions involved
+speci?c application-layer protocols and were tied to
+those protocols. This meant they worked with web,
+but not with Voll? and so All things considered,
+the juice wasn?t worth the squeeze.
+
+  
+ 
+
+After much
+effort, we're excited
+to offer a solution
+that doesn?t suffer
+from these previous limitations. Our solution does
+just what you?d expect: you can see inside 
+tunnels and capture whatever traf?c is being
+protected-web, e-mail, voice over ll?, et al,
+regardless of the port numbers or protocol being
+tunneled. It works with all our existing targeting and
+policy features and there?s even a wizard to
+con?gure it through our graphical management
+software.
+
+WAYS AND MEANS
+
+Contrary to what many believe, interception of
+communications protected with high-assurance
+isn't always about defeating or
+cracking the usually about getting
+the keys yourself so you can at-
+will and therefore the doesn?t matter.
+This applies generally to both standalone 
+materials and communications 
+
+the topic of'l?lS and 831., this is
+accomplished by way of a ?man-in-thg-middlg? or
+?bucket brigade? attack. In its simplest form, a
+device is placed somewhere in between the
+communications network connecting to and
+it becomes an unintended go-between, speaking to
+A and independently while relaying information
+between them--of course that information is ?rst
+subject to its purview. When an tunnel is
+negotiated, instead ofcreating a tunnel betweenA
+and B, two tunnels actually get created--one fromA
+to and another from to B. When done
+correctle and are made to believe they are
+directly connected over an tunnel and the
+information transmitted between them is
+secure. All the while, sees all.
+
+ 
+
+PAGE 1
+
+ PACKET FORENSICS
+
+ 
+
+Technical Details
+
+Capabilities
+
+Intercept any communication within
+Secure Socket Layer (SSL) or Transport
+Layer Security (T LS) sessions
+
+All Packet Forensics targeting and policy
+capabilities can operate within the
+tunnel
+
+Operational Configurations
+ln-line with hardware bypass failsafe
+
+Import any certi?cate I public key or
+generate your own for presentation
+
+Availability
+
+Available in firmware releases after
+August 3 st. 2009 for all Packet
+Forensics platforms
+
+Available under customization program
+
+ 
+
+ 
+
+ 
+
+Contacts
+
+Of?ces in
+Virginia and
+Arizona. USA
+
+  
+
+Headquarters
+
+420 Smith Rd
+Tempe.AZ 8528i
+
+United States of America
+
+Telephone E-mail
+DomeStic US (800) 807 6|40
+International (757) 320 2002
+
+salesteam@packetforensics.com
+
+PACKET FORENSICS
+
+ 
+
+ 
+
+HOW DOES 
+
+Deployment and Capabilities
+
+just as it sounds, engaging in a
+man-in-the-middle attack requires
+the interception device to be
+placed in-line between the parties
+to be intercepted at some point in
+the network. This could be at the
+subscribers? telecom operator or
+even on-premises, close to the
+subject. Packet Forensics' devices
+are designed to be inserted-into
+and removed-from busy networks
+without causing any noticeable
+interruption. Even the failure of a
+device due to power loss or other
+factors is mitigated by our
+hardware bypass fail-safe system.
+Once in place, devices have the
+capability to become a go-bctween
+for any TLS or SSL connections in
+addition to having access to all
+unprotected traf?c. This allows
+you to conditionally intercept
+web, e-mail, and other traf?c
+at-will, even while it remains
+protected inside an 
+tunnel on the wire. All the same
+capabilities as other Packet
+Forensics products are still
+available, including the ability to
+extract pen/trap details only.
+
+Technical Considerations: 
+Using ?man-in-the-middle? to
+intercept TLS or $81. is essentially
+an attack against the underlying
+Dif?e-Hellman key
+agreement protocol. To protect
+against such attacks, public key
+infrastructure is often
+used to authenticate one or more
+sides of the tunnel by exchanging
+certain keys in advance, usually
+out-of-band. This is meant to
+provide assurance that no one is
+acting as an intermediary. Secure
+web access (I ITTP-S) is the best
+example of this, because when an
+
+VOLUMEI 0 NO. I 2009
+
+ 
+
+unexpected key is encountered, a
+web browser can warn the subject
+and give them an opportunity to
+accept. the key or decline, the
+connection.
+
+ 
+
+
+
+ 
+
+ 
+
+To use our product in this
+scenario, users have the ability to
+import a copy of any legitimate
+key they obtain (potentially by
+court order) or they can generate
+?look-alike? keys designed to give
+the subject a false sense of
+con?dence in its authenticity.
+
+Of course, this is only a
+concern for communications
+incorporating PKI. For most
+other protocols riding inside TLS
+or SSL tunnels-where no PKI is
+employed-interception happens
+seamlessly without any subscriber
+knowledge or involvement.
+
+(IAN YOU 
+
+Government Security
+
+IP communications adoption
+dictates the need to examine
+traf?c at-will, especially
+transiting government networks.
+
+Investigations
+
+Your investigative staff will
+likely collect its best evidence
+while users are lulled into a false
+sense of security afforded by web,
+e-mail or 
+
+Product Testing and Evaluation
+
+All network products should
+be tested diligently for phone-
+home capabilities with 
+
+ 
+
+PAGE 2
+
+PACKET FORENSICS
+
+VOLUMEII 0 N01 0 2010
+
+ 
+
+DEVELOPMENTS
+
+'l'l IE FROM PACKET FORENSICS COVERING INDUSTRY AND PRODUCT EVOLUTION
+
+Private Exchanges the IAX Dilemma
+
+Explosive Growth of I A Protocol and International Thinking Leaves Industry Unprepared
+
+Injune of 2009, Packet Forensics undertook a
+comprehensive research e?brt with the help of one
+of our partners, a global telecommunications service
+provider. Their network represents a large cross-
+section of the greater North American IP backbone
+because they are a tier-i Internet service provider, or
+to what people commonly refer as a carrier?s carrier.
+Amongst a larger agenda, we sought to unearth
+quantitative details related to actual protocol
+usage--what are people using to transport 
+traf?c and are they trunking to several large carriers
+or is there a preponderance of peerto-peer traf?c or
+interconnectivity between PBXs and providers.
+What we found not only surprised us, but warranted
+immediate action on our part to ?ll gaps in our
+product portfolio and to inform our current
+customers who rely upon us for passive 
+monitoring and interception.
+
+In order to preserve subscriber privacy, deep
+packet inspection (DPI) was used only to positively
+identify protocols and because of privacy sensitivity,
+we did not determine if calls were being executed
+independently or trunked. Traf?c flow records were
+analyzed to identify statistically signi?cant networks
+of call origination and termination and to get a
+sense of which protocols were being used in which
+telephony situations.
+
+The high level results of the analysis provided
+unexpected answers and insight. First, MGCP is still
+used across the public Internet, not only within
+enterprises. Second, H.323 remains the heavy-lifter
+for teleconferencing. Finally, InterAsterisk
+Exchange (IAX) protocol now comprises a double-
+digit percentage of This is particularly
+interesting when you consider IAX traf?c
+occupies only one stream for potentially
+dozens of calls when trunking. Consider
+also that although IAX is an open
+standard, the vast majority of telephony
+
+Iatforms im lementin IAX are non-
+
+ 
+
+North American Backbone Voll? Protocol I)istribution,june 
+
+commercial, public domain applications that don?t
+include facilities for active interception capability.
+Tim tbca and
+doing so requires systems like ours. The speed of
+
+AX adoption is nothing short of amazing. IAX is
+very different from most protocols, but its
+unique characteristics likely drove its adoption.
+First, it?s a binary protocol as opposed to text-based.
+Second, it doesn?t use RTP to carry call content.
+Instead, it offers a novel approach that aggregates
+both content and signaling into one stream making
+it NAT-friendly and vastly more ef?cient than RTP
+with two thirds less overhead per packet.
+
+Suf?ce it to say, much of our engineering time
+
+late last year was spent in support of
+
+MGCP and IAX development and we?re
+proud to say that we?re now the ?rst and
+
+only passive capture solution for IAX. We
+
+even support IAX's optional trunking
+
+con?gurations. It?s been a busy quarter around
+here and a roductivc one for our customers.
+
+   
+ 
+ 
+
+ 
+
+PAGE 1
+
+PACKET FORENSICS VOLUME II 0 2010
+
+ 
+
+ 
+
+ 
+
+Calling Card Operators
+Many international streams Detalls
+occur between non-facilities-based
+wholesalers who appear to
+operate calling card services.
+
+IAX VolP Support
+IAX I IAX2 (RFC 5456)
+in-band audio and dialed digits
+
+ 
+
+ 
+
+ 
+
+ 
+
+NEW IAX ?and mm? We"
+Direct audio playback support
+M?nn?rlng and '"tmq?uo" All Packet Forensics targeting and policy
+Packet Forensics devices now ?Pabl'ltles can be ?59" 
+OTHER OBSERVATIONS IAX Prom"l and perform Other 
+including its trunking capabilities. Operational Con?gurations
+Enterprises Using Internet Targeting IAX calls for wine with hardware bypass I faijsafe
+Thousands of enterprises are interception works the same as Tapl Mirror I SPAN
+using their Internet connections our implementanon Where
+to transmit to other users can telephone Anna?th
+enterprises and to ??apping, numbers and call direction as well Ari'arb'ez alter
+termination providers. Instead of as n) addressesv URIS and any 0f la u_a 3 Pa, rim
+using their Internet provider?s our other advanced policy criteria. Ava'hb'e under 
+
+ 
+
+telephony products exclusively,
+
+they utilize specialized 
+service providers for termination users can capture s'gnalmg' contaCtS
+
+and potentially origination. These content or both to $3"st the"
+needs as well as extract dialed
+
+service providers may be located Of?ces in
+
+in other countries and generally (1'96 and other meta data' .- Virginia and
+support 311? and/0r IAX Other Capabilities Arizona. USA
+Very few (less than one percent) of
+
+the providers we tested support
+of signaling or content.
+
+Data Availability and Formats
+
+ 
+
+ 
+
+Our pen-style reporting has
+been updated to provide textual
+details about IAX sessions.
+
+TOMl?ath" Origination The Packet Forensics direct
+
+ 
+
+Some origination and audio (RTP) player application has Headqtfarters
+termination accounts can be been enhanced to inClUdC IAX 420 sm'th Rd
+purchased in retail locations for alldio mixing. aml Tempe-AZ 8528'
+cash without requiring veri?able playback. making it even United States of America
+identi?cation for activation. Most ?exible and useful for 
+service providers can provision troubleshooting and monitoring.
+telephone numbers in hundreds of Te'ephone 8? E'ma"
+locales within seconds through on- Domestic US +l (800) 807 6|40
+
+line web management interfaces.
+Most honor clientsupplied caller
+id information which means their
+customers can make calls appear
+to originate from any telephone
+
+salesteam@packetforensics.com
+number. Calling-name (CNAM)
+service makes this particularly
+
+convincing by adding the name
+
+portion to the caller-id based upon 4? 11 PAC I 
+
+telephone number lookup only.
+
+International +l (757) 320 2002
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+PAGE 2
+

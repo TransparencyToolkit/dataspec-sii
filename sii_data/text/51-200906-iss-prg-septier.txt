@@ -1,0 +1,499 @@
+Dual &sage S+ra+egy of
+La1ful In+erce5+ion Sys+ems
+8lan S9aron
+:9ief Sales; Marke+ing > ?5era+ions ?fficer
+elan@se5+ierAcom
+
+111Ase5+ierAcom
+ISS Brague CDDE
+© 2009 Septier
+
+Lawful Interception
+
+!"#$%&'#()#*'%+&$+,$'#-#)+../&%)0'%+&1$23$405$
+6&,+()#.#&'$78#&)%#1$9467:1;$0&<$%&'#--%8#&)#$
+1#(=%)#1>$%&$0))+(<0&)#$5%'"$-+)0-$-05$0&<$0,'#($
+,+--+5%&8$</#$*(+)#11$0&<$(#)#%=%&8$*(+*#($
+0/'"+(%?0'%+&$,(+.$)+.*#'#&'$0/'"+(%'%#1@
+
+© 2009 Septier
+
+Lawful Interception
+
+© 2009 Septier
+
+About Septier
+! Founded in 2000
+
+! Privately owned
+! Develops advanced Telecom and IP solutions
+! More than 4B customers around the world
+
+! Technology & oem partnerships with:
+© 2009 Septier
+
+Legislation Forces Communication Service
+Providers GCSPsH to Act
+
+! DoIens of countries around the world have legislated
+lawful interception and intelligence gathering
+
+! Communications services providers must comply with
+local laws and regulations in order to get and maintain
+their licenses
+
+The Results
+! Heavy investments are carried out by CSPs and LEAs
+! Systems procurement and installation
+! Systems maintenance
+© 2009 Septier
+
+Economical Challenges
+
+! Extract more security out of LI budgets
+! LEAs
+
+! Recuperate the cost of Lawful interception
+! CSPs
+
+! Maintain LI systems in a high level of service
+and operations status
+
+! CSPs
+! LEAs
+© 2009 Septier
+
+What Can Be DoneP
+
+! !"#$%&'&(")'*&)+',-.&+%/'%-,0&12-3-4-/&
+possible
+
+! Combine lawful interception with commercial
+systems
+!Share investments between LEAs & CSPs
+! Generate additional revenues for the CSP
+
+! Save costs for the CSP
+! Without scarifying performance and security
+! While fully complying with local laws and
+regulations
+
+© 2009 Septier
+
+Powerful Mediation
+LEAs & CSPs
+
+© 2009 Septier
+
+Dual Usage Systems for Cellular
+Operators
+! Active systems
+! Lawful interception Mediation & Positioning GLBSH systems
+
+! Passive systems
+! Lawful interception Mediation & Positioning GLBSH systems
+! Lawful interception Mediation & Anti Fraud
+! Lawful interception Mediation & CDR generation and data
+retention
+
+! Lawful interception Mediation & Network surveillance
+! Lawful interception Mediation & Revenue assurance solutions
+
+© 2009 Septier
+
+Architecture
+SD
+
+S
+D
+0
+1
+2345
+6
+7
+R
+O
+U
+T
+IN
+G
+E
+IN
+A
+L
+R
+M
+BTS
+AXI520
+
+A-bis
+
+PO W E RST AC K
+
+SD
+
+n x E1/T1
+
+TM
+
+A X D 30 1
+
+Tx
+
+AXI 520
+
+Rx
+
+IuB
+AXI 520
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+A, IuCS, IuPS
+
+S
+D
+
+6
+7
+ROUTINGENGINE
+
+A
+L
+R
+M
+BTS, NODE-B
+AXI 520
+
+BSC, RNC
+
+MSC / SWITCH
+
+Septier
+Probe
+
+IP
+Network
+
+SLR Interception Server
+
+© 2009 Septier
+
+Passive Interception
+LEA n
+LEA 2
+LEA 1
+CSP
+
+CDRs
+LBS
+
+MPS
+
+Probe
+
+Anti Fraud
+
+2G, 3G
+LI Mediation
+BSC, RNC
+
+Probe
+
+Network
+Surveillance
+
+MSC
+
+© 2009 Septier
+
+Dual Usage Systems for
+Internet Service Providers
+Passive systems
+
+! Lawful interception Mediation & Gray VoIP
+detection & blocking
+
+! Lawful interception Mediation & CDR
+generation and data retention GVoIPH
+
+! Lawful interception Mediation & Network
+surveillance
+
+© 2009 Septier
+
+Septier Technology – The Basis
+for Dual Usage systems
+
+! Telecom Signaling GHW & SWH
+! Passive GmonitoringH
+! Active GinfluencingH
+
+! Real time Databases 6%-37+&#8&%2#)+'3"+&#8&93+-/%9#3+&$-/&+-:#3";
+
+! Real time Rule based engine
+! Voice and IP Interception
+! With deep packet inspection
+© 2009 Septier
+
+Septier Solutions
+! Lawful Interception & Intelligence gathering
+! Active mediation
+! Passive interception
+! Data retention
+! Location tracking
+! Cellular location solutions
+! Passive Enhanced Cell ID
+! Active GMLC
+! Assisted GPS
+! Fraud Management
+! Real time & offline
+! Real Time CDR Generation
+! Network Management & Surveillance
+! Link trace, Call trace, Counters, Statistics, Reports
+© 2009 Septier
+
+Septier LI Products
+! LI Explorer GBack end & Front endH
+! TDM GGSM, UMTS, CDMA, PSTNH
+! IP GInternet, VoIPH
+! Active & Passive
+
+! LI Explorer GMediationH
+! LI Explorer CDM
+! Call data retention, mining & reporting
+
+! LI Explorer GFront End onlyH
+! CDR generation for data retention
+
+© 2009 Septier
+
+Monitoring Center
+
+© 2009 Septier
+
+Voice Interception Result
+
+© 2009 Septier
+
+Cellular Positioning
+! Comprehensive cellular phones location
+infrastructure
+
+! Supporting GSM, UMTS, CDMA and iDEN
+networks & standards
+
+! Hybrid configurations of active, passive and
+assisted GPS
+
+! Active GMLC
+! Supporting GSM timing advance GTAH, UMTS
+RTT, CDAM delay
+
+! Passive and massive location
+! A, A-bis, IuCS, IuPS, IuB, IOS, NOIS
+! Assisted GPS GSUPL & IS-YY1H
+! Mediation for LBS applications
+
+Description
+
+! Pelephone G:DMA > &MTSH
+
+Features
+
+! Increase ARPU
+! Launch new services and applications
+! Comply with LI laws and regulations
+
+! Cellcom IJSM > &MTSH
+
+Case study
+
+Benefits
+© 2009 Septier
+
+MPC, GMLC & Passive Probes
+
+© 2009 Septier
+
+Single Phone Tracking
+
+© 2009 Septier
+
+Small Cell SiIe
+
+© 2009 Septier
+
+Medium Cell SiIe
+
+© 2009 Septier
+
+Mega Cell SiIe
+
+© 2009 Septier
+
+Fraud Explorer
+
+© 2009 Septier
+
+Fraud Explorer
+! Real time and offline anti fraud system
+
+! Real time alerting
+
+! For Telecom and NGN operators
+
+! Real time prevention
+
+! Based on CDRs generated by different sources
+
+! Extensive rule based engine
+
+such as passive probes and network elements
+
+! Combating different fraud types
+
+Description
+
+Features
+
+! Prevents internal fraud
+! MIRS GiDENH
+
+! Returns investment in a short time
+
+Case study
+
+Benefits
+© 2009 Septier
+
+Fraud Explorer
+
+TM
+
+- Workflow
+
+© 2009 Septier
+
+Signaling Network Monitoring
+! Signaling monitoring system based on passive
+probes installed at key locations in the
+network
+
+! Providing real time information and statistics
+! Intended for TDM and converged NGN
+networks
+
+! Link tracing
+! Call tracing
+! Counters
+! Statistics
+
+! Reporting
+
+Description
+
+! CYTA GJSM; &MTS; BSTK; KJKH
+
+Features
+
+! Improves network performance
+! Improves network quality of service
+! Simplifies problems resolution
+! Improves network utiliIation and efficiency
+
+Case study
+
+Benefits
+© 2009 Septier
+
+On#ine 'a) *or s.ste'
+survei##ance3
+
+Presents SS6 and IP
+)rotoco# in*or'ation9
+such as *au#ts9
+)er*or'ance and tracing
+Fau#t
+
+Monitoring
+Per*or'ance
+'onitoring
+
+>racing
+
+© 2009 Septier
+
+]DR Generators
+! Real-time CDRs generated by passive probes
+
+! Passive generation
+
+! Main interfaces:
+
+! Independent source of data
+
+A; Iu:S; IS&B; SIB; MJ:B; M8JA:?; I?S;
+K?IS; e+cA
+
+! Configurable fields
+! Oracle DB
+
+Description
+
+! Pelephone G:DMA > &MTSH
+
+Features
+
+! Can serve many applications
+Revenue assurance
+
+NrauO 5reven+ion
+Pilling
+LI Da+a re+en+ion
+
+! MIRS GIDENH
+
+! <#/=+&19%2&(>*'%&/'%-&?9**93,&$/#,/'@+.
+Case study
+
+Benefits
+© 2009 Septier
+
+Call Data Mining
+
+!
+
+History Retention DB
+
+© 2009 Septier
+
+Summary
+
+! When budgets are tight the only way to
+maximiIe security per ^ is a dual usage
+system
+
+! Existing products and solutions combine these
+capabilities today
+
+! The strategy is successfully implemented in
+the field for years around the world
+
+© 2009 Septier
+
+Thank you
+
+© 2009 Septier
+
+

@@ -1,0 +1,1168 @@
+FINFISHER: FinFly ISP Project
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+“Turkmenistan”
+Preconditions and Requirements
+Installation &
+Commissioning
+
+1
+
+Assumptions, Preconditions and
+Requirements
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+2
+
+TABLE OF CONTENT
+
+1 General.................................................................................................................... 3
+2 Co-Operation Duties................................................................................................ 3
+3 Project Assumptions, Limitations and PreConditions............................................... 4
+3.1 General.............................................................................................................. 4
+3.2 Technical Details............................................................................................. 12
+3.2.1 Project Overview....................................................................................... 12
+3.2.2 Turkmen Telecom (fixed Network)............................................................ 14
+3.2.3 TMCell (mobile Network)........................................................................... 16
+3.2.3.1 HUAWEI Domain.................................................................................. 16
+3.2.3.2 NSN Domain........................................................................................ 18
+3.2.4 Office / LEMF............................................................................................. 20
+3.2.5 All FinFly ISP Locations.............................................................................. 21
+3.3 Final Acceptance Tests (Test Equipment)........................................................ 22
+3.4 FinFly ISP Training........................................................................................... 23
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+3
+
+1 GENERAL
+The Preconditions and Requirements listed in this document have to be fulfilled
+and/or confirmed either prior to delivery of the FinFly ISP equipment, in a time
+period before installation will start or latest during the installation phase of the
+project itself.
+Some of the requirements will make it a necessity to have an on-site survey prior to
+delivery to ensure that preconditions and assumptions are fulfilled and didn’t
+change during the last months and to get a common understanding between all
+parties involved in this project.
+
+2 CO-OPERATION DUTIES
+For the FinFly ISP Project, Gamma Group assumes the following co-operation and
+project support on the part of the client (the customer and/or Elaman GmbH):
+No
+.
+
+Requirements / Preconditions /
+Assumption
+
+2.1
+
+The client will make available
+document templates and
+information necessary for the
+execution of the work
+The client will inform parties
+involved in the project about the
+upcoming work
+The client will organize all
+necessary information, accesses
+and entries that are required for
+the workflow of the project
+The client will organize meetings
+and establish contact with the
+parties involved
+The client will make available the
+network connections (minimum
+FE; GE Fiber is assumed for this
+project) and the network
+between the all FinFly ISP
+Appliances deployed in the two
+different Networks and at the
+LEMF
+The client will make available
+sufficient network connections
+for the delivered components
+The client will make available
+housing space for the delivered
+turn-key solutions (Server Racks)
+and appropriate power
+connections
+
+2.2
+
+2.3
+
+2.4
+
+2.5
+
+2.6
+
+2.7
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+Site
+Survey
+necessar
+y
+
+X
+X
+X
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+4
+
+2.8
+
+2.9
+
+The client will organize the
+transport of staff and material
+during installation, testing and
+training.
+The client will organize all
+additional test equipment for the
+Final Acceptance Test / End-2End Tests
+
+X
+
+X
+
+3 PROJECT ASSUMPTIONS, LIMITATIONS AND
+PRECONDITIONS
+3.1 General
+The System(s) to be deployed in this project can only INFECT international traffic of
+ADSL, dial-up and the fixed IP-Address broadband subscribers in Turkmen Telecom
+network and Mobile Subscribers using a Notebook / PC as the terminal to access the
+Internet via the Gateways between the Mobile Network Provider TMCell and
+Turkmen Telecom.
+The project was offered with the following assumptions, limitations and
+preconditions. The following preconditions must be fulfilled by the client (the
+customer and/or Elaman GmbH):
+1. The client will forego all assertion of claims on account of any possible adverse
+effects and/or damages that may arise in connection with the assignment.
+Reserved are damages that arise through serious negligence or deliberate
+actions or omissions by the staff of Dreamlab and/or Gamma.
+2.
+
+The current approach covers the mobile and fixed networks of the country of
+Turkmenistan (TMCell and Turkmen Telecom).
+Until now relevant information for this project are not 100% available and/or
+certain. Therefore the following assumptions have been used:
+
+These Limitations and Requirements listed in the following chapters I, II (II A and II
+B) below are pre-conditions which apply to this project. If during the course of the
+on-site survey and/or installation some of the above named preconditions and
+limitations are not fulfilled Gamma and Dreamlab reserve the right to treat the work
+linked to such missing preconditions as change requests to this project.
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+5
+
+I.
+
+Turkmen Telecom (fixed Network)
+
+We refer positioning to the graphic “Turkmen Telecom Network Infrastructure
+Overview” with the
+Cartesian Coordinates on the following page and the two network traces
+(Turkmentel.pcap,
+Turkmentel2.pcap). We assume that the traffic sample Turkmentel.pcap has
+been taken on the
+links between 2950 (D6) and 2960 or NAT in (C/D 3).
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+6
+
+to 2960 without
+any impact on the
+FinFly ISP Project
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+7
+
+a) All NATed customer traffic flows through the links between 2950 (D6) and
+2960 or NAT in (C/D 3)
+b) All non NATed customer internet traffic flows though the link 2950 (D6)
+and Satgate (A7).
+c) All dynamic IP's are solely provisioned via RADIUS.
+d) All RADIUS traffic flows through the link between 2950 (D6) and 2960 or
+NAT in (C/D 3)
+e) The only RADIUS dialog that is provisioning dynamic IP addresses is shown
+in the Turkmenistan.pcap in packet number 7 and 8. The property to set
+IP's is “FRAMED-IP-Address”. A sample for a failed Access-Request is
+documented in packet 5 and 6 in the same trace file.
+f) If there are more RADIUS dialog variants they will be documented and
+outlined by the provider.
+g) We assume there is no other or more dynamic IP provisioning mechanisms
+in place.
+h) All fixed IP address traffic flows through the link 2950 (D6) and Satgate
+(A7).
+i) All links are based on copper medium and support 10/100/1000 Mbps
+Ethernet.
+
+We have found non internal source IP-Addresses in the Turkmentel.pcap
+sample and need an
+explanation how this is possible.
+Please do precisely document any additional information, differences,
+amendments or comments.
+
+Preconditions / Requirements:
+No
+.
+
+Requirements / Preconditions /
+Assumption
+
+Prior to
+Delivery
+
+Before
+Installatio
+
+Latest
+during
+
+Site
+Survey
+
+fulfilled
+Date/Signat
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+8
+
+n
+starts
+3.1
+
+I
+
+Confirm that everything listed
+above
+a) – i) is correct and unchanged
+
+X
+
+Installatio
+n
+
+necessar
+y
+
+X
+
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+9
+
+II.
+
+TMCell (mobile Network)
+
+The TMCell network delivers mobile IP services and is split in a Huawei and a
+NSN domain.
+Both domains maintain one active and one passive link in between the SGSN
+and the GGSN.
+
+Huawei domain:
+
+A)
+
+a) The Huawei domain's network is based on copper 10/100/1000 Mbps
+Ethernet media
+b)
+
+The dynamic IP's of targets are provisioned on the Gn-Interface. The traffic
+sample TMCell_Huawei_SGSN-Gn-1_active.pcap contains all provisioning
+mechanisms.
+
+c) The mechanism for provisioning is showed in file TMCell_Huawei_SGSN-Gn1_active.pcap in packet 1548 and 1560. The unique target identifier can be
+the IMSI or the MSISDN (phone number). In this sample the mobile target
+receives the IP address 172.16.190.73.
+d)
+
+All subsequent mobile IP traffic from the target is as well flowing through
+the same Gn-Interface found in TMCell_Huawei_SGSN-Gn-1_active.pcap.
+
+e)
+
+The same mobile IP traffic flows through the Gi-Interface found in
+TMCell_Huawei_GGSN-Gi-2_active.pcap without GTP encapsulation.
+
+f)
+
+All mobile IP traffic is flowing through the Gn- and Gi-Interfaces on the
+active and upon failure the passive link.
+
+g)
+
+The TMCell_Huawei_SGSN-Gn-1_active.pcap traffic sample has been sniffed
+on the links between the SGSN and the GGSN.
+
+h)
+
+The TMCell_Huawei_GGSN-Gi-2_active.pcap traffic sample has been sniffed
+on the links between the GGSN and nsnfw01 and nsnfw02.
+
+Preconditions / Requirements:
+No
+.
+
+Requirements / Preconditions /
+Assumption
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+Site
+Survey
+necessar
+y
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+10
+
+3.1
+
+II
+A
+
+Confirm that everything listed
+above
+a) – h) is correct and unchanged
+
+X
+
+X
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+11
+
+NSN domain:
+
+B)
+a)
+
+The NSN domain's network is based on Fiber 1 Gbps Ethernet media
+
+b)
+
+The dynamic IP's of targets are provisioned on the Gn-Interface. The traffic
+sample TMCell_NSN_01-09Gn-1.pcap contains all provisioning mechanisms.
+
+c) The mechanism for provisioning is showed in file TMCell_NSN_01-09Gn1.pcap in packet 532 and 533. The unique target identifier can be the IMSI
+or the MSISDN (phone number). In this sample the mobile target receives
+the IP address 172.19.8.243.
+d) All subsequent mobile IP traffic from the target is as well flowing through
+the same Gn interface found in TMCell_NSN_01-09Gn-1.pcap.
+e)
+
+The same mobile IP traffic flows through the Gi-Interface found in
+TMCell_NSN_01-09Gi-1.pcap without GTP encapsulation.
+
+f)
+
+All mobile IP traffic is flowing through the Gn- and Gi-Interfaces on the
+active and upon failure the passive link.
+
+g) The TMCell_NSN_01-09Gn-1.pcap traffic sample has been sniffed on the
+links between the SGSN and the GGSN
+h)
+
+The TMCell_NSN_01-09Gi-1.pcap traffic sample has been sniffed on the
+links between the GGSN and nsnfw01 and nsnfw02.
+
+Preconditions / Requirements:
+No
+.
+
+Requirements / Preconditions /
+Assumption
+
+3.1
+
+Confirm that everything listed
+above
+a) – h) is correct and unchanged
+
+II
+B
+
+Prior to
+Delivery
+
+X
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+Site
+Survey
+necessar
+y
+
+X
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+12
+
+3.2 Technical Details
+3.2.1
+
+Project Overview
+
+The following graphic shows an overview of the project setup:
+
+1 Gbps Ethernet Fiber
+1000BASE-LX, Single
+Mode, 1310nm
+
+SC Connectors
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+13
+
+Preconditions / Requirements:
+The customer has to provide the two (2) network connections (red lines) between
+
+No.
+3.2.
+1
+
+1
+
+3.2.
+1
+
+2
+
+Requirements / Preconditions /
+Assumption
+TMCell and Turkmen Telecom
+1 Gbps Ethernet COPPER
+(1000BASE-T; RJ45 / 8P8C
+Connectors
+
+Turkmen Telecom and Office
+/LEMF
+1 Gbps Ethernet Single Mode
+FIBER (1000BASE-LX 1310nm;
+SC-Connectors)
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+Site
+Survey
+necessar
+y
+
+X
+
+X
+
+X
+
+X
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+14
+
+3.2.2
+
+Turkmen Telecom (fixed Network)
+
+The following graphics shows the relevant parts of the Turkmen Telecom fixed
+network used for the FinFly ISP Project:
+
+to 2960 without
+any impact on the
+FinFly ISP Project
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+15
+
+Preconditions / Requirements:
+The three (3) links FinFly ISP has to be connected to (1, 2, 3 – blue stars) are:
+
+No.
+3.2.
+2
+
+1
+
+3.2.
+2
+
+2
+
+Requirements / Preconditions /
+Assumption
+either 100 Mbps Ethernet
+COPPER
+(1000BASE-T; RJ45 / 8P8C
+Connectors)
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+Site
+Survey
+necessar
+y
+
+X
+
+X
+
+X
+
+X
+
+or 1 Gbps Ethernet COPPER
+(1000BASE-T; RJ45 / 8P8C
+Connectors)
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+16
+
+3.2.3
+
+TMCell (mobile Network)
+
+3.2.3.1 HUAWEI Domain
+The following graphics shows the relevant parts of the Huawei Domain of the TMCell
+mobile network used for the FinFly ISP Project:
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+17
+
+Preconditions / Requirements:
+The two (2) links FinFly ISP has to be connected to (1, 2 – blue stars) are:
+
+No.
+3.2.3
+.1
+
+1
+
+3.2.3
+.2
+
+2
+
+Requirements / Preconditions /
+Assumption
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installati
+on
+
+Site
+Survey
+necessar
+y
+
+Active 1 Gbps Ethernet Single
+Mode FIBER (1000BASE-LX
+1310nm;
+LC-Connectors)
+
+X
+
+X
+
+Failover 1 Gbps Ethernet
+Single Mode FIBER (1000BASELX 1310nm;
+LC-Connectors)
+
+X
+
+X
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+18
+
+3.2.3.2 NSN Domain
+The following graphics shows the relevant parts of the NSN Domain of the TMCell
+mobile network used for the FinFly ISP Project:
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+19
+
+Preconditions / Requirements:
+The two (2) links FinFly ISP has to be connected to (3, 4 – blue stars) are:
+
+No.
+3.2.3
+.2
+
+1
+
+3.2.3
+.2
+
+2
+
+Requirements / Preconditions /
+Assumption
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installati
+on
+
+Site
+Survey
+necessar
+y
+
+Active 1 Gbps Ethernet
+COPPER (1000BASE-T; RJ45 /
+8P8C Connectors)
+
+X
+
+X
+
+X
+
+X
+
+Failover 1 Gbps Ethernet
+COPPER (1000BASE-T; RJ45 /
+8P8C Connectors)
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+20
+
+3.2.4
+
+Office / LEMF
+
+The following graphics shows an overview of the Office / LEMF location for the FinFly
+ISP Project:
+
+1 Gbps Ethernet Fiber
+1000BASE-LX, Single
+Mode, 1310nm
+
+SC Connectors
+
+Preconditions / Requirements:
+For the Monitoring and Alarming Server it must be ensured that:
+
+No.
+3.2.
+4
+
+Requirements / Preconditions /
+Assumption
+
+3
+
+Latest
+during
+Installatio
+n
+
+X
+
+Email Address(es) have to be
+provided to send Alarm-Emails
+
+X
+
+GSM-coverage is available on
+location to send Alarm-SMS
+
+X
+
+2
+3.2.
+4
+
+Before
+Installatio
+n
+starts
+
+An Internet connection is
+available to send Alarm-Emails
+
+1
+3.2.
+4
+
+Prior to
+Delivery
+
+Site
+Survey
+necessar
+y
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+21
+
+3.2.
+4
+
+4
+
+Two (2) SIM-Cards of two (2)
+different Providers (if possible)
+have to be provided to send
+Alarm-SMS
+ONLY 1 SIM-Card will be
+provided, because there is
+only 1 Mobile Provider
+
+3.2.5
+
+X
+
+All FinFly ISP Locations
+
+At all locations there must be appropriate amount of space provided for:
+
+No.
+3.2.
+5
+
+1
+3.2.
+5
+
+2
+
+Requirements / Preconditions /
+Assumption
+
+Prior to
+Delivery
+
+Space for Server Racks provided
+(Turkmen Telecom, TMCell and
+Office / LEMF
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+X
+
+Space for FinFly ISP
+Management Workstation with
+two (2) 24”-TFT Displays,
+Keyboard, Mouse
+
+Site
+Survey
+necessar
+y
+
+fulfilled
+Date/Signat
+ure
+
+X
+X
+
+For all FinFly ISP locations it has to be decided by the customer, what kind of Power
+Plugs have be delivered to connect the Server Racks (UPS), the Switches and the
+Management Workstation.
+
+No.
+3.2.
+5
+
+Requirements / Preconditions /
+Assumption
+Type B
+(American 3-pin)
+
+3
+3.2.
+5
+
+4
+3.2.
+5
+
+5
+3.2.
+5
+
+6
+
+Type F
+(Schuko 2-pin)
+
+
+
+Type G
+(British 3-pin)
+
+All FinFly ISP Sites must provide
+200 – 240 V AC @ 50/60 Hz
+16 Ampere / 3.000 Watt
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+Site
+Survey
+necessar
+y
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+fulfilled
+Date/Signat
+ure
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+22
+
+Remarks:
+All FinFisher Products (except FinFly ISP) will be delivered with Power Plugs “Type
+G” and appropriate Adapter Sets to fulfill worldwide requirements.
+
+3.3 Final Acceptance Tests (Test Equipment)
+Gamma and Dreamlab assume the presence of the following, permanently installed
+and operational Test Equipment at the Office / LEMF location for Final Acceptance
+Testing:
+
+Preconditions / Requirements:
+
+No.
+3.3
+
+1
+3.3
+
+2
+3.3
+
+3
+
+3.3
+
+4
+
+Requirements / Preconditions /
+Assumption
+Test Target laptop and/or
+desktop with configured
+Windows Operating System, to
+be used for Infection
+xDSL-link with configured Router
+and Internet Access via Turkmen
+Telecom for the Test Target(s)
+mentioned above
+Dial-up connection with internet
+access via Turkmen Telecom,
+including valid credentials and a
+dial-up modem for the Test
+Target(s) mentioned above
+Mobile Internet Access via
+TMCell for the Test Target(s)
+mentioned above
+
+Prior to
+Delivery
+
+Before
+Installatio
+n
+starts
+
+Latest
+during
+Installatio
+n
+
+Site
+Survey
+necessar
+y
+
+fulfilled
+Date/Signat
+ure
+
+X
+
+X
+
+X
+
+X
+
+Regarding the location / the room for the Final Acceptance Tests pls. see the next
+chapter 3.4 “Training”
+
+FinFly ISP Project “Turkmenistan” – Install. & Comm. Assumptions,
+Preconditions and Requirements
+23
+
+3.4 FinFly ISP Training
+A five (5) days Training is part of the project and will be performed after the Final
+Acceptance Document is signed by all parties. The training will cover technical and
+operational topics for the FinFly ISP System and the Monitoring & Alarming System.
+
+Preconditions / Requirements:
+No.
+3.4
+
+1
+3.4
+
+2
+3.4
+
+3
+3.4
+
+4
+3.4
+
+5
+3.4
+
+6
+3.4
+
+7
+3.4
+
+8
+3.4
+
+Requirements / Preconditions /
+Assumption
+A maximum of six (6) students will participate in
+the trainings
+The Test Equipment listed in chapter 3.3 above
+with all listed Internet connections has to be kept
+available for the training
+Appropriate seating and desk space for up to 6
+students
+At least one of the following should be available in
+the room – flipchart, whiteboard and / or
+interactive whiteboard
+Suitable heating / air conditioning system must be
+available in the classroom
+Adequate lighting must be available in classroom
+and blinds should be available if necessary to
+reduce glare on projector screen
+Trainer will need full details of the fire evacuation
+procedure in the building
+Health and Safety considerations must be
+observed e.g. trailing cables etc.
+A LCD Projector / Beamer is required
+
+9
+3.4
+
+10
+3.4
+
+11
+3.4
+
+12
+
+A writing pad and ball pen for each student is
+required
+Hot and cold drinks should be provided for
+student breaks and ideally served near the
+classroom to prevent delays
+Lunch should be provided and again ideally
+served near to the classroom to prevent delays in
+returning to class
+
+After Installation
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+fulfilled
+Date/Signature
+
+

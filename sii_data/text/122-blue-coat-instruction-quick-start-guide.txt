@@ -1,0 +1,485 @@
+Blue Coat SG200 Quick Start Guide
+
+The Web Setup Wizard method allows you to use a directly-connected PC and a network connection to:
+•
+
+Assign the appliance IP, DNS, and gateway addresses.
+
+•
+
+Set access credentials and CLI password.
+
+•
+
+Configure Application Delivery Network (ADN) options, select what traffic type(s) to intercept, and
+set the default allow/deny policy.
+
+This can be performed anywhere. The Blue Coat SG200 can then be rack-mounted and/or connected
+to its permanent network position.
+The serial console allows you to use a terminal or PC running terminal emulation software to:
+•
+
+Assign the appliance IP, DNS, and gateway addresses.
+
+•
+
+Set access credentials and CLI password.
+
+The Blue Coat SG200 can then be accessed from a browser for further feature configuration.
+
+2
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Blue Coat SG200 Quick Start Guide
+
+Open a browser and enter the following URL:
+https://proxysg.bluecoat.com:8083
+
+A security warning appears. It is safe to click OK because the Blue Coat SG200 is directly connected
+to the PC.
+When the Blue Coat SG200 connects, the Initial Configuration window opens. Each page is described;
+enter information on each screen, as prompted:
+• Console username and password
+
+• CLI (enable mode) password
+
+• Serial port password
+
+• IP and Gateway IP Addresses
+
+• Default policy: allow/deny
+
+• Subnet mask
+
+When you complete the initial configuration, proceed to Step 6.
+
+4
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Blue Coat SG200 Quick Start Guide
+
+Open a browser and enter the following URL:
+https://proxysg.bluecoat.com:8083
+
+A security warning appears. It is safe to click OK because the Blue Coat SG200 is directly connected
+to the PC.
+When the Blue Coat SG200 connects, the Web Setup Wizard appears. Each page is described; some
+pages include mouse-over help. Enter information on each screen, as prompted:
+• Console username and password
+
+• CLI (enable mode) password
+
+• Serial port password
+
+• IP Address
+
+• ADN Manager addresses
+
+• Decision: Intercept traffic types
+
+• Default policy: allow/deny
+Note: The Web-based wizard is only available the first time the appliance is configured (or following
+a reset to factory defaults). After Configure is clicked during the final step, the wizard is no
+
+longer available.
+When you complete the wizard, proceed to Step 6.
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+5
+
+Blue Coat SG200 Quick Start Guide
+
+To access the serial console (if you did not use the Web Setup Wizard in Step 4a/b):
+1. Configure the terminal or PC terminal emulation software as follows:
+• Baud rate: 9600 bps
+• Parity: none
+
+• Data bits: 8
+• Stop bits: 1
+
+• Flow control: none
+1. If your console was already configured before powering on the Blue Coat SG200, you
+should see the configuration alert. If not, power down the Blue Coat SG200 and power
+back up after configuring the terminal. The system prompts you with the following:
+********** SYSTEM STARTUP TEMPORARILY SUSPENDED **********
+Press "enter" three times to activate the serial console
+
+2. As instructed, press <Enter> three times to begin the initial configuration procedure.
+Enter basic network information as prompted.
+3. When you complete the procedure, proceed to Step 6.
+
+6
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Blue Coat SG200 Quick Start Guide
+
+Add the Blue Coat SG200 to the network:
+a. Unplug the power cable from the Blue Coat SG200.
+b. Remove the cross-over cable from the PC and the Blue Coat SG200; store for future use.
+Remove the Ethernet cable and insert back into the PC.
+c.
+
+(Optional) Rack-mount the appliance in a two or four-post equipment rack. Attach the brackets
+to the side of the appliance (use three screws each). Attach the brackets ears to the rack (two
+screws each). Note: If you do not rack-mount the appliance, you can apply the four rubber pads
+(supplied) to the bottom of the appliance to protect against scratching the surface you set the
+appliance on -or- mount using the wall mount bracket (see the Blue Coat SG 200 Installation
+Guide).
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+7
+
+Blue Coat SG200 Quick Start Guide
+
+d. Plug the power cable back in. Insert the Ethernet cable connected to the router. If installing inline, insert the Ethernet cable from another Blue Coat SG200 or other network device to the
+lower interface.
+e. Proceed to Step 7.
+
+Verify that the Blue Coat SG200 has powered on successfully:
+a. The Power LED is green.
+b. The Ethernet connections are green. If the Blue Coat SG200 is not deployed in-line, only
+Ethernet 0 is green.
+c. The system is healthy.
+Note: See the Troubleshooting section on page 9 if lights are not the correct colors.
+
+8
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Blue Coat SG200 Quick Start Guide
+
+Important: To activate the SG200 license, you must register your hardware and install the license. To do
+this, you must have a Blue Coat WebPower account. If you do not yet have an account, go to:
+http://www.bluecoat.com/support/services/webpower_form.html
+To activate the SG200 license:
+1. Open a Web browser. Ensure that the pop-up blocker is disabled.
+2. Enter the IP address you assigned this appliance during initial setup: https://ip_address:8082
+3. Enter the access credentials, as specified during initial setup.
+4. Click Management Console. The license warning/registration screen appears. Enter your WebPower
+credentials and click Register Now; this automatically registers the hardware and displays the License
+Configuration and Management page.
+5. Enter using your WebPower credentials. Select the correct serial number; enter software serial number;
+click Apply.
+6. From the Management Console, navigate to the License page to begin the retrieval process:
+Maintenance>Licensing>Install.
+7. Click Retrieve. The Request License Key dialog displays. Enter your WebPower credentials and click
+Send Request.
+8. To verify license installation, click the View tab and click Refresh Data.
+If you require detailed procedures regarding registration, license retrieval, and installation, refer to the
+Licensing chapter in the Blue Coat ProxySG CMG Volume 2: Getting Started document, or click the Help
+button to view the contents of this chapter in HTML format.
+Blue Coat recommends attaching one of the software license stickers to the chassis and saving the other
+one for future reference. You can attach it to this document and file it, or attach it to another document as
+required in your enterprise.
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+9
+
+Blue Coat SG200 Quick Start Guide
+
+Problem:
+The network link is not established (on the rear of the appliance, the left-hand LED for the connected
+interface is not green).
+Solution:
+Check the network connections to verify they are not loose. Otherwise, the problem might be a bad network
+cable or possibly a problem with your router/switch.
+Problem:
+I cannot access the Web Setup Wizard from my browser.
+Solution:
+Attempt one or more of the following, as required:
+❐
+
+Ensure that you are in initial configuration mode (power LED is flashing from green to amber).
+Note: If your appliance needs to be returned to factory default settings, press the Reset button on
+the rear of the appliance. Refer to the Blue Coat SG200 Installation Guide for more details.
+
+❐
+
+Verify you entered the correct configuration URL: https://proxysg.bluecoat.com:8083.
+
+❐
+
+Attempt to access an external site, such as www.bluecoat.com, to verify Internet connectivity.
+
+❐
+
+Verify you are using a cross-over cable; verify all Blue Coat SG200 hardware connections.
+
+❐
+
+Verify the browser is not proxied.
+
+❐
+
+Enter one or more of the following URLs to access one of the common internal network IP
+addresses:
+• https://10.0.0.254:8083
+
+• https://172.16.0.254:8083
+
+• https://192.168.0.254:8083
+
+• https://192.168.1.254:8083
+
+• https://204.94.89.100:8083
+
+10
+
+❐
+
+Once the appliance is configured, the Web Setup Wizard is not available. If you suspect this Blue
+Coat SG200 has already be configured, but you require the configurations to change, you can
+reset the appliance to its factory defaults. Refer to the Blue Coat SG200 Installation Guide.
+
+❐
+
+Attempt another method, such as the Serial Console.
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Blue Coat SG200 Quick Start Guide
+
+❐
+
+How to Contact Support—When contacting Blue Coat Systems for technical phone support or to setup a RMA, be
+prepared to provide Blue Coat your serial number to verify entitlement. If you do not have your serial number, supply
+Blue Coat with your Support Contract Number, which can be found on your Support Contract Certificate.
+If you have purchased a Support Contract but have not received a Support Contract Certificate, send an e-mail to
+supportservices@bluecoat.com, and provide your product model, serial number(s) and contact information.
+For the current list of regional customer support phone numbers, see:
+http://www.bluecoat.com/support/contact.html
+
+❐
+
+WebPower—Customers who have an active Blue Coat Support Contract will be provided access to WebPower, Blue
+Coat's online Case Management Tool. WebPower allows you to create new technical support cases, review open
+cases, and add comments to existing cases online at any time. Web Power also provides you with access to exclusive
+Blue Coat support materials, installation notes, and updates. To obtain a Web Power Login, send an e-mail to
+supportservices@bluecoat.com, and provide your name, company name, e-mail address, telephone number, product
+model and serial number.
+
+❐
+
+How to Purchase Support—When acquiring a Blue Coat product, the company recommends that you purchase a
+Blue Coat Support Contract which are available from any Blue Coat Reseller. Information about Blue Coat Support
+Offerings can be found at:
+http://www.bluecoat.com/support/offerings/index.html.
+For more information about purchasing a Support Contract, contact Blue Coat Sales:
+Email: sales@bluecoat.com or service.quotes@bluecoat.com.
+Telephone: Toll Free in North America at 1-866-982-2628 (1-866-98-BCOAT).
+
+❐
+
+Contact Information
+Blue Coat Systems Inc.
+420 North Mary Ave
+Sunnyvale, CA 94085-4121
+http://www.bluecoat.com/support/contact.html
+bcs.info@bluecoat.com
+http://www.bluecoat.com
+For concerns or feedback about the documentation: documentation@bluecoat.com
+
+Copyright© 1999-2007 Blue Coat Systems, Inc. All rights reserved worldwide. No part of this document may be reproduced by any means
+nor modified, decompiled, disassembled, published or distributed, in whole or in part, or translated to any electronic medium or other
+means without the written consent of Blue Coat Systems, Inc. All right, title and interest in and to the Software and documentation are
+and shall remain the exclusive property of Blue Coat Systems, Inc. and its licensors. ProxySG™, ProxyAV™, CacheOS™, SGOS™,
+Spyware Interceptor™, Scope™, RA Connector™, RA Manager™, Remote Access™ are trademarks of Blue Coat Systems, Inc. and
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+11
+
+Blue Coat SG200 Quick Start Guide
+Installation Checklist
+You can photocopy this page and use it as you install Blue Coat appliances.
+Conventions:
+❐
+
+Bold—Required.
+
+❐
+
+Regular font—Recommended/optional.
+Task
+❏
+
+Unpack appliance package and check for all
+included parts.
+
+❏
+
+Review all safety notices.
+
+❏
+
+Power on the appliance.
+
+❏
+
+Perform initial configuration:
+
+Reference
+
+This Quick Start Guide and the Safety/
+Conformity document.
+
+The Blue Coat SG200 Installation Guide.
+
+Web Setup Wizard: Connect to PC and a network.
+Setup console: Connect to serial console.
+❏
+
+Connect the SG200 to your network
+(Interface 0).
+
+The Blue Coat SG200 Installation Guide.
+
+❏
+
+(Optional) Interface 1 is for connecting to another proxy
+or network device.
+
+CMG: Volume 2: Getting Started
+
+❏
+
+(Optional) Connect a serial console or PC with terminal
+emulation software.
+
+❏
+
+License the appliance.
+
+CMG: Volume 2: Getting Started.
+
+❏
+
+Upgrade the OS to the latest version.
+
+CMG: Volume 10: Managing the ProxySG.
+
+❏
+
+Set the appliance name. Blue Coat recommends the
+following convention:
+
+CMG: Volume 2: Getting Started.
+
+customer_name-state/country_abbreviation-model.
+For example: BlueCoat-CA-Sunnyvale-200-1.
+❏
+
+Set the system time.
+
+❏
+
+Employ a filter list to restrict access to the SG200.
+
+❏
+
+Configure the appliance as transparent or explicit.
+
+CMG: Volume 2: Getting Started.
+
+Notes
+
+12
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Blue Coat SG200 Quick Start Guide
+Settings For This Appliance
+Use this table to record the applicable network settings for this SG200. If you are unaware of what these
+settings are to be, contact your network manager. Use caution if you record passwords here. Store in a secure
+location.
+Parameter
+
+Setting
+
+Parameter
+
+IP address
+
+Subnet mask
+
+Gateway address
+
+DNS server
+
+Console username
+
+Console password
+
+Enable (CLI) password
+
+Serial port password
+
+Setting
+
+The following parameters are only configurable through the Web-based Wizard
+Primary ADN
+Manager IP address
+
+Backup ADN Manager
+IP address
+
+Server subnet 1
+
+Server subnet 2
+
+(IP/Mask)
+
+(IP/Mask)
+
+Server subnet 3
+
+Server subnet 4
+
+(IP/Mask)
+
+(IP/Mask)
+
+Intercept traffic?
+
+Circle: Yes / No
+
+Initial policy
+
+Circle: Allow / Deny
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Traffic to intercept
+
+Circle: CIFS / FTP / HTTP /
+IM / Exchange-Outlook /
+Streaming /
+Optimize other TCP traffic
+
+13
+
+Blue Coat SG200 Quick Start Guide
+
+14
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+Blue Coat SG200 Quick Start Guide
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+15
+
+Blue Coat SG200 Quick Start Guide
+
+16
+
+Document Number: 231-02821 Revision: B.0—03/07
+
+

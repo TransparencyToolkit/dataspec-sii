@@ -1,0 +1,2062 @@
+superior
+
+Pattern Discovery solutions
+...with the Power to Predict and Prevent
+
+VisuaLinks is written entirely in JavaTMand will run on any platform that supports Java 1.6.
+
+.'
+
+Visual Clarity Server Requirements
+
+Microsoft@Windows@2000, 2003, 2008, XP, Vista, or Windows 7
+LinuN
+Sun@ SolarisTM
+IBM@AK@
+32 bit Operating System (minimum)
+64 bit Operating System (recommended)
+Single Pentium Xeon 2 GHz or higher (minimum)
+Dual Pentium Core-Duo Xeon 2.66 GHz or higher (recommended)
+2 GB RAM (> 1 million records 1 1-5 users)
+4 GB RAM (1-5 million records 15-10 users)
+8 GB RAM (5-10 million records 1 10-20 users)
+32 GB RAM (10 million + records 120-40 users) A
+64 GB RAM (10 million records 140 + users) A
+
+Platform
+
+Processor
+Memory
+
+A
+
+Hard Ddve Space
+
+In these large implementations, consider multiple server configurations.
+
+- 750 MB of available space of "temp" space (on the drive where you are
+installing from)
+350 MB of available hard drive space for the Visual Clarity Server installation
+400 MB of available hard drive space for the optional MySQLa database
+server installation
+Network Card (when supporting an Applet or Web Start Client)
+Java Runtime Environment (JRE) 1.6.0, Update 7
+Database drivers (ODBC, JDBC, or native Java drivers)
+When supporting an Applet or Web Start Client:
+- lnternet Information Services (IIS) 5.0, or
+- Tomcat (included with the VisuaLinks soti'wam)
+
+Network Support
+Software
+
+VSsuaLinks Client Requirements
+Following are the system requirements for any machine running the VisuaLinks Client.
+Microsoft@Windows@2000,2003,2008, XP,
+Vista, or Windows 7
+Linu*
+Sun@ Salarism
+IBM@AIX@
+Pentium 411.5 GHz or higher (minimum)
+Pentium Core-Duo 1.6 GHz or higher
+(recommended)
+512 MB RAM (minimum)
+1 GB RAM (recommended)
+150 MB of available hard drive
+
+Network Card
+
+Microsom Windows@2000,2003,2008, XP,
+Vista, or Windows 7
+LinuxO
+Sun@ Solarism
+IBM@AK@
+Pentium 411.5 GHz or higher (minimum)
+Pentium Core-Duo 1.6 GHz or higher
+(recommended)
+512 MB RAM (minimum)
+1 GB RAM (recommended)
+Available hard disk space, on each machine that
+will run the VisuaLinks Client, to store data and
+associated fdes
+Network Card
+
+-
+
+Java Runtime Environment (JRE) 1.6.0, Update 7 Java Runtime Environment (JRE) 1.6.0, Update 7
+.Net Framework 2.0 (on any machine that will use .Net Framework 2.0 (on any machine that will use
+the i2-to-Visualinks Conversion tools)
+the i2-to-Visualinks Conversion tools)
+- or -lnternet Explorer 5.5 (or higher)
+Minimum 1024 X 768 monitor resolution
+Minimum 1024 X 768 monitor resolution
+Visual Analytics Inc.
+m.visualanalytics.com
+(877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyighm May 2010 FW20, All rights resewed
+
++
+VisuaLinksa is a data visualization and pattern
+discovery tool that can simultaneously connect to
+disparate relational databases.
+VisuaLinks is designed to be scaleable and flexible
+with low administrative cost. It can connect to any
+relational schema through a server-side, XML-based
+data view. The VisuaLinks architecture includesthree
+layers - the Client Layer, the Server Layer, and the
+Data Layer.
+
++
+
++
+
+The Client Layer is the end-user visualization
+component (the VisuaLinks Client). The
+VisuaLinks Client is the user interface responsible
+for the 3-D visual representation of data
+relationships and patterns and is the means for
+data extraction, analysis and output operations.
+This GUI-based front-end is also used for system
+administration, data modeling collaboration,
+network analysis, rule-based operations and
+many other user operations.
+
+The Data Layer refers to the data accessed by
+the Visual Clarity Server. This layer can be made
+up of any number of relational databases or even
+other servers that act as proxies to additional data
+layers. Access to the Data Layer is tightly
+controlled by the Visual Clarity Server security
+settings. Data access is also limited by the data
+modeling processwhich defines the values in your
+database returnedto users through VisuaLinks
+Client requests.
+
+VisuaLinks' integrated service components,
+including the DisambiguatoP, Matcher, Summary,
+and Miner, provide an unparalleled set of capabilities
+to support pattern detection and advanced data
+analysis for a variety of applications. To date,
+VisuaLinks has been used with a host of different
+domains of data, such as network traffic, medical
+patterns, pharmaceutical research, insurance fraud,
+bank transactions, drug trafficking, criminal
+investigations,terrorism, and many more.
+
+The Server Layer (Visual Clarity Server) is
+responsiblefor maintaining database connections,
+maintaining user connections, maintaining
+security profiles and storing the dynamicallylinked service components that represent the
+business logic of the VisuaLinks application.
+Each of these service components is loaded
+during the Visual Clarity Server startup process
+and accessed by users through requests from the
+VisuaLinks Clients.
+
+Visual Analytics Inc.
+ww.visualanalytics.com
+(877) 4074VAl
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright0 May 2010 FW20, All rights resewed
+
+data found during queries.
+
+Find all of an
+object's direct and
+indirect connections.
+
+-
+
+.
+
+M
+
+k
+
+YC"ZX&%~gi;
+
+"d
+
+on a variety of maps.
+
+Plot data along
+date-based time lines.
+
+Vlsual Analytics Inc.
+www.visualanalytics.com
+(877) 407-4VAl
+50 Citizens Way, Suite 202 Frederick, MD 21701
+CopyrightQ May 2010 FW20, All rights reserved
+
+Integration
+VisuaLinksa connects directly to your existing data sources
+including any commercial relational database system and a
+variety of file types. The Server component resides between
+your data sources and your users. It handles all access
+control, query requests and data exchanges between the
+data sources and users.
+
+Modeling
+The VisuaLinks Model Wizard lets you integrate various
+data sources into a single, consistent, graphical view of all
+your data. The Modeler defines the various types of data
+available, how they are connected, and their visual
+representation. The built-in transformation system, the
+DisambigutoP, helps to standardize and cleanse the data.
+
+Data Extraction Services
+The VisuaLinks services allow users to extract targeted
+information from your data sources - rather than loading in
+all available data and filtering down. VisuaLinks services
+provide a variety of unique search algorithms that can find
+data based on values, locations, connections and much
+more. These services provide analysts a clear starting point
+for analysis, bringing in additional information as required.
+
+Link Analysis and Pattern Discovery
+VisuaLinks provides an unparalleled set of analysis tools
+designed to drill-down into your data, visually exposing and
+displaying patterns, trends, unknown associations and
+hidden networks in your data. Data is presented in an
+illustration, in your data.
+
+)
+
+Presentation
+VisuaLinks includes a wide variety of tools to assist users
+in creating finished analysis products -from mapping and
+annotationsto export and reporting capabilities.
+
+disual Analytics Inc.
+www.visualanaiytics.com (877) 407-4VAl
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright@ May 2010 FW20, All rights resewed
+
+The Analysis Software to...
+
+...Analyze Money Laundering Patterns
+...Enhance Counterintelligence Capabilities
+...Assist in Combating Terrorism
+...Enable Actionable Intelligence
+...Expose Financial Crime
+VisuaLinkse is an advanced, visual data analysis
+toolkit designed for use in virtually any
+environment for any analytical need. VisuaLinks
+integrates, standardizes, controls access to, and
+enables analysis of your operational and
+organizational information in a visual manner,
+drawing connections between entities to expose
+and identify patterns and trends in your data.
+VisuaLinks presents data graphically "connecting the dots" by extracting and visually
+displaying data to uncover patterns, associations,
+networks, trends and anomalies in data.
+VisuaLinks addresses the entire analytical
+process -from access and integration to
+presentation and
+- providing a single and
+complete solution to a broad range of data
+analysis needs.
+VisuaLinksprovides an advanced set of analysis
+tools that allows you to:
+
++
++
+
+Couple directly to existing database systems
+without moving, transporting or copying data
+Integrate multiple sources of data to create a
+comprehensiveview of your data
+
+Query and display large amounts of data with no
+size limit
+Use a number of query algorithms to expose
+networks, patterns and trends in your data
+Visually reveal direct and indirect linkages within
+your data
+Perform proactive and reactive analysis supporting
+tactical and strategic operations
+Provide advanced analytical functions ensuring
+accurate pattern detection
+Collaborate with peers, sharing data and related
+analysis
+Prepare and print final analysis presentations
+Save and export data to a variety of formats
+VisuaLinks is a platform-independent solution that
+operates in a networked environment using a client
+server architecture to allow large numbers of users to
+analyze and collaborate on any type of information in
+an endless number of applications.
+Please contact our sales team at sales@.visualanalvtics.com with
+any questions or other information requests.
+
+D4quest an online demo at
+- - mw.visua~ana~ytics.com
+
+Visual Analytics Inc.
+w.visualanalytics.wm
+(877) 4074Vh1
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright0 May 2010 FW20. All rights reserved
+
+-
+
+I VISUALINKS
+D ~ o ~ u DESCRIPTION
+cT
+I a t t e r n Discovery Solutions
+
+Discover the SIMPLICITY and
+POWER of VisuaLinks today!
+
+-
+
+An advanced analysis tool built
+from the ground up to reveal links and
+patterns as you have never seen them before.
+I
+
+See the connections and expose the patterns in your data!
+
+I
+
+=xpand the Possibilitie
+
+gital Information Gabway
+
+bines the power of the Digital Information Gatewaj
+The Data Clari
+( D I P ) search ana retrieval technology with the ground-breaking analysis capa
+ties of VisuaLinksmto provide the most comprehensive solution for searching
+analyzing, sharing and reporting on multiple data sources.
+
+Superior Pattern Discovery Solutions"
+
+...with the Power to Predict and Prevent
+
+Visual Analytics Inc.
+www.visualanalytics.com
+(877) 407-4VAl
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright0 May 2010 FW20, All rights resewed
+
+I
+
+,J
+
+I INTEGRATION
+
+I PATTERN DISCOVERY
+
+I COLLABORATION
+
+VisuaLinks connects directly to your existing data sources,
+including any commercial relational database system and a
+variety of file types. VisuaLinks comes pre-configured to
+connect to several popular database systems and supports
+connections to virtually any commercially available
+database system.
+
+VisuaLinks is, at the core, a link analysis and pattern
+discovery technology. Its purpose is to uncover and expose
+patterns, trends and anomalies in data.
+
+VisuaLinks was developed with the concepts of
+information sharing and collaboration in mind. Knowing
+that collaboration between groups, divisions, organizations
+and agencies is the single best way to ensure that
+information is current and accurate, Visual Analytics built
+VisuaLinks as an analytical environment scalable and
+flexible enough to enable inter- and intra-organizational
+collaboration.
+
+VisuaLinks includes a powerful modeling system that helps you
+pull together data from different sources and create a single,
+consistent representationof the data for your uses. The
+modeling system provides a number of options that let you
+integrate your data, includingthe DisambiguatoP, another*: ,<?F~
+powerfulfeature of V i L i i , cwgned to zapply
+
+k7
+
+L
+
+I
+
+multitude of built in functions and supports custom-built
+functions. Functions range from simple case conversions and
+data type conversions to value validation and e n t i extraction.
+
+'re
+
+:,-I
+
+--
+
+I
+
+7 -
+
++
+
+'
+
+L,
+
+Ine mwellng sysrem gives you a grear aeal or TI~XIDIII~~
+1;1"^
+
+-<,~<i
+
+*
+
+V&
+
+L
+
+'
+
+-.?c*:
+
+designing the data representation, including images used to
+represent e n t i i types, relati~nshipline types and colors, data
+labels, banners, and legendsto name just a few.
+
+VisuaLinks includes a diverse set of tools that lay out
+different types of data to help analysts visually identify and
+recognize patterns in data, including grouping, association
+weighting, social network analysis, and temporal layouts.
+While not all layouts work well for all types of data, the
+With its Server-to-Server capabilities, data and analysis
+variety of layout techniques available in VisuaLinks can
+storageldistributionfeatures and real-time collaboration
+assist analysts in any data domain in uncovering previously
+G
+X,:
+,
+;
+-F-(
+w.rm;BM:
+tools, VisuaLinks is specifically designed to not only m?:unknown or unseen patterns.m;cna,rm:
+:,-,- -:
+- ,
+, .
+4%
+?support, but encourage, analytical teamwork.
+Vimtinks hdps
+~~valumesddatat(r
+d targets of interest using finering, d.~-down and lint*%
+I A PICTURE IS WORTH
+my??
+analysis tools. VisuaLinks can zero in on, or isolate, specific
+.
+, .
+Below are some sample results of VisuaLinksJdata"
+targets in the data, and then, step-by-step, build ,
+.
+.. *
+ationships that show patterns of activities or behaviors. #.: "** visualization and analysis.
+. --. , ..- ,, " ->Fy<%
+pplying a combination of these tools and techniques
+e ~ r a analysts
+b
+b wperfom
+a d prm&*m( s t m ~ t c, . and taH~;ar)
+e n ~ ~ in
+s ak fraction &(he time a lilawal
+* .
+SUM-^^^^--^-__.-_-^^^_ . - li.C.I~
+_
+
+,
+
+SEARCH AND RETRIEVAL
+The VisuaLinks Services are data extraction routines tha
+yiusers point and click to create a search while VisuaLinks
+hutomatically generates highly-complex SQL queries to return
+the informationto the user. These Services are generally the
+starting point for any analysis.
+Even the most powerful of the VisuaLinks Services is pointand-click driven. Each service is designed to hide and minimize
+:PC+n+heend user.
+
+'
+
+A+.
+
+I
+
+h
+
+7%ih
+
+W -
+
+Superior Pattern Discovery ~olution<
+
+Experience the Most Powerful and Easy to Use
+DATA SHARING Solution Available!
+
+Digital
+INFORMATION
+GATEWAY
+
+Create a secure and selective
+information sharing network without
+data conversions or secuflty concerns.
+Search any amount of data with one simple search
+in fractions of a second!
+
+I
+
+Er-md the Possibilities
+"..5-"y-n<
+
+...with VisuaLinks
+
+.
+
+.,-
+
+-_L**
+
+.
+
+.A-
+
+,L
+
+-.%A
+
+L
+
+TheD& CIa"fy@suite combines thepower of the ~suaLinks@
+analysis and paitemm
+discovery technology with the unparalleledsearch and retrieval capabilities of D
+Information Gateway ( D I P ) to provide the most comprehensivesolution availabi
+, st :hing,analyzing, sharina and reporting on r -tip16 ta sources.
+L
+
+Superior Pattern Discovery Solutions"
+
+...with the Power to Predict and Prevent
+
+Visual Analytics Inc.
+www.visualanalytics.com
+(877) 4074VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyrighm May 2010 FW20. All rights resewed
+
+I
+
+L
+.'=
+
+The Advanced lnformation Sharing
+and Retrieval Software to
+
+...
+
+V
+
+...Investigate Offenses and Critical Incidents
+...Expose and Attack Conspiracies
+...Uncover Organized Crime Rings
+...Examine Phone Tolls for Networks
+
+(igitala-
+
+INFORMATION
+
+...Identify Gang, Group and Cell Actlvity
+
+GATEWAY
+
+(I
+
+Digital lnformation Gateway (DIGaD)
+is the industry's best
+solution for FederatedSearch and lnformation Sharing in
+Law Enforcement. DIG can securely connect information
+among any number of organizations and handles an
+extensive number of databases, intranet content, web
+sites, office documents, and other types of files.
+The DIG Virtual Data Warehouse creates a single point of
+access to all of your information resources - databases, email archives, web sites, office documents and virtually any
+other type of electronic file. The DIG Virtual Data
+Warehouse provides integratedsecurity controls allowing
+you to set access limits to protect sensitive data. Users
+can search any and all data available with a single click.
+The DIGVirtual Data Warehouse Server-to-Server
+capability creates a secure and selective information
+sharing network enabling organizations to share data with
+other organizations. Data security and integrity are never
+compromised as data is never moved or copied and
+control over the data remains entirely with the original
+owner.
+
+The DIG Symphony Designer enables visualization of data
+quality programs through a point-and-click designer that
+builds on-the-fly transformations and generates results for
+review prior to deployment. Use the DIG Symphony
+Designer to build any number of transformations to fully
+integrate your data sources and provide a single,
+consistent view of all of your data.
+The DIG suite of tools provides your organization with:
+A single, integrated solution to managing data
+availability and access
+A single search and retrieval interface to all of your
+data resources
+Full control over data access permissions at the user
+level
+The ability to create common, searchable data types
+across multiple, disparate databases
+Completedata cleansing and transformation
+functionality
+Full, customizable event and transaction audit logging
+
++
++
++
++
++
++
+
+Request an online demo at
+~.visualanalytics.com
+
+DIG Symphony manages key data processing operations
+providing integrated data quality, standardization,
+integration, parsing, enhancing, correcting, merging,
+matching, purging and general cleansing functionality.
+
+Visual Analytic~Inc.
+www.visualanalytics.com
+(877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+g
+
+CopyrighKO May 2010 FW20. All rights reserved
+
+Integration
+Digital InformationGateway (DIG") connects directly to your
+existing data sources, including any commercial relational
+database system, e-mail archives, web sites, and over 60 types
+of files. The DIG Server resides betweenyour data sources and
+your users. It handles all access control, query requests and
+data exchanges between the data sources and users.
+
+Transformations
+The integrated DIG Symphony technology is a critical part of
+data integration. Symphony provides a wide variety of data
+cleansing and standardizationtools that help to create a
+single, consistent view of your data - regardless of the type of
+database system from which it was retrieved.
+
+Search and Retrieval
+DIG can search specific data sources, all data sources
+available, and even data sources shared by other agencies or
+organizations -all at once, in fractions of a second.
+DIG search results can be reviewed and exported to a variety
+of formats.
+
+Notifications
+DIG Alerts let users define criteria they want to monitor for in
+your data sources. Whenever data matchingthe criteria is
+added to a monitored data source, DIG sends an automated
+notification to one or more users.
+
+Virtual Data Warehousing
+The DIG Server-to-Server capability creates a secure and
+selective information sharing network- without the costs and
+security issues surrounding traditional data warehouses. Data
+is never moved or copied, and control over the data remains
+entirely with the original owner.
+
+Visual Analytics Inc.
+www.visualanalytics.com
+(877) 4074VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+CopyrightcD May 2010 FW20, All rights resewed
+
+(NFORM A T I O N
+GATEWAY
+d
+
+DIG searches all of your
+sources for matching
+documents, web sites,
+and database records.
+
+:.
+
+".-. -..
+4.2
+
+'.A(__
+..-m
+
+results returned from
+database sources.
+
+Review text results ..,,,, hit scoiing and
+original document viewing capabilities.
+
+Vlsual Analytics Inc.
+www.visualanalytics.com
+(877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, M D 21 701
+CopyrightCD May 2010 FW20, All rights reserved
+
+Digital
+INFORMATION
+GATEWAY
+
+DIG employs a scaleable flexible architecture
+coupled with low administrative cost.
+
+Digital InformationGateway (DIGa) is a data retrieval and
+manipulationtool that searches multiple information repositories - including any combination of databases, web sites,
+e-mails and user documents - simultaneously.
+DIG employs a scaleable flexible arahitecturecoupled with
+low administrative cost. DIG requires no customizationto
+connect to most data sources and uses standardscompliant ODBC or native drivers.
+The DIG architecture is broken into four distinct
+parts - the Presentation Layer, the Business Layer,
+the Data Access Layer, and the Data Layer.
+
++
+
++
+
++
++
+
+All communication in DIG is performed using XML and
+SOAP. SOAP allows DIG to communicate in the same
+fashion that a web browser communicates with a web
+server. This enables DIG to traverse firewalls via simple
+HTTP requests with no modificationsto firewalls that
+already allow HTTP requests.
+DIG, like other Visual Analytics products, is built on openarchitectures and standards, like XML, making it easy to
+adapt, extend or enhance to meet the specific needs of
+virtually any application.
+
+The Presentation Layer is the DIG User software. This
+software is the user interfacewhere all user interaction
+takes place. This software assists users in building
+and executing searches, communicateswith the
+Business Layer to request and retrieve information, and
+presents search results to the user for further analysis
+and data manipulation.
+The Business Layer consists of multiple services
+responsible for coordinating and handling requests
+from the Presentation Layer. These services include,
+but are not limited to, data filtering and manipulation,
+persistence, grouping and output. This layer handles
+all requests and returns from the DataAccess Layer
+as well as the core business logic.
+The DataAccess Layer is made up of several stateless
+services that are responsiblefor carrying out the
+requests of the Business Layer. Connections to all
+information repositories are handled at this layer.
+The Data Layer consists of informationrepositories.
+This can be any combination of databases, user
+documents, andlor web sites.
+
+Vlsual Analytlcs Inc.
+www.visualanalytics.com
+(877) 4074VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright0 May 2010 FW20. All rights resewed
+
+The DIG Server software must be installed on a server machine.
+Operating System
+
+Processor
+Memory
+Hard Drive Space
+
+Software
+
+Windows 2000 Server
+Windows 2003 Server
+Windows 2008 Server
+Dual Pentium 4 Xeon 2 GHz or higher
+4 GB RAM (minimum)
+32 GB RAM (recommended)
+175 MB for software installation
+Additional space for indexes
+(total of 15 GB available recommended)
+lnternet Information Services (IIS) installed and started automatically
+.NET Framework 2.0 (automatically installed with the DIG Server)
+ASP.NET
+SQL Server 2000 or SQL Server 2005 or SQL Server 2008
+
+Operating System
+
+Processor
+Memory
+Software
+
+Windows 98, 2* Edition
+Windows NT
+Windows 2000
+Windows XP
+Windows Vista
+Pentium 1111800 MHz (minimum)
+Pentium 411 GHz or higher (recommended)
+256 RAM (minimum)
+1 GB RAM (recommended)
+.NET Framework 2.0
+lnternet Explorer 6.0.1 or higher
+
+SOAP
+Digital lnformation Gateway (DIGm) supports the Simple Object Access Protocol (SOAP)
+providing a built-in solution to the issues surrounding communication over firewalls. SOAP
+support is includedwith the standard DIG installation.
+508 Compliance
+Visual Analytics strives to be in compliance with section 508 of the RehabilitationAct of
+1973, as amended (29 U.S.C. 794d). The Visual Analytics web site provides details on our
+508 compliance for all of our products.
+
+Add value to your existing data suite using the VAI Data Center source data. When querying or
+local information; why not check important referential data simultaneously?
+by DIG servers and enables y
+your own. Content is hosted,
+access to the most relevant information.
+
+atdmanih, lly,'$&itinue to form key industry partnerships to bring the most valuable sources of
+iformation 6 h r Federated Search andAnalytical environment.
+
+Visual Analytles Inc.
+www.visua1analytics.com
+(877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyrighg May 2010 FW20, All rights resewed
+
+Searching for, and securely sharing, your data, in multiple formats,
+across platForms and between organizations and business
+partners, is a difficult proposition. Data sharing has become a highpriority in many market sectors, but there are numerous practical
+challenges to delivering on this difficult challenge: disparate
+database systems with differing schemas, structured (tabular
+database information) versus unstructured data (Microsoft Word
+documents, PDF files, web pages, etc.), varying security
+requirements, and performance and cost considerations.
+Visual Analytics' Digital Information Gateway (DIG) solves this
+problem. DIG provides the means bv which vou can search anu
+
+I HIGH DATA VOLUMES
+
+SHARING DATA SOLVE1
+
+I HOMOGENIZED DA"
+DIG provides a layer of "abstraction" for each data source
+under its control, "mapping" a standard schema to the columns
+of each shared source. When a user receives query results, all
+columns returned adhere to this schema, regardless of the
+name given to any column in the source database. Differences
+between sources are hidden from the end-user, giving the enduser the illusion of querying a single, vast, database.
+
+INFORMATION
+GATEWAY
+
+l INSTANT SOA
+What's Instant SOA? It's the instant transformation bi your data
+into a Services Oriented Architecture that can be leveraged by
+anyone with access to the DIG network. DIG exposes shared
+data sources as Web Services, allowing any web service client
+to access the shared data. The DIG SOA framework provides a
+robust
+set d W& Sew.b
+pm&
+-. aPIs
+. - $M
+- - * - existing cliant
+-applications to easily use your data.
+W
+
+3.
+..
+
+How does DIG solve this challenge?
+
+FDigital
+-
+
+DIG promotes a higher degree of data consumption when
+compared with standard web sites or Portals. This is due to
+the automation, and multi-faceted nature, of the federated
+search. Giving users access to more of your data as well as
+the data of other agencies, can boost the value of your data to
+that user.
+
+1
+
+: SEARC
+
+%
+
+.
+
+-
+
+-
+
+-':DIG is designed to access any type of data, and provides a
+~
+
+.
+X
+
+-.--
+
+.
+.
+
+.
+
+-
+
+,.
+
+=
+X
+:
+.
+;
+
+~
+
+readymade set of web servi&s-that are generic and that put
+you in control. This is made possible by a modeling framewo
+that allows each data sour& to be mapped to the standard
+schema. Once your data is controlled by a DIG server, that data
+can be exposed as a web service - without any additional
+programming.
+
+Suite 202 , Frederick, M
+0 Toll Free 1-877-407-Vq
+www.visualanalytics.com
+
+$;g!
+
+.
+
+.
+
+..=
+
+I
+
+i
+
+l
+
+ui
+Q)
+
+Q)m
+E3
+P
+m r g g
+.iij S
+
+0
+
+sszz
+
+->.G
+
+Q)
+
+r
+
+3
+
+8 2 9 s
+.-S
+m o b
+Esg5
+3
+
+2.
+
+U
+
+args
+
+.%g;%
+
+Q : % m m L
+LU o ' t u 3
+
+3 2 S S 0
+
+a g.igz
+
+g
+
+943:
+= P
+
+m $..S
+
+0
+4
+
+.==*c
+
+=a.=
+3 CI)
+0 - m
+u u c Q ) m
+2 .G 5 .S
+- m
+$ ' =
+S E
+o c
+= cx
+%Q)
+
+;
+
+-at
+
+i.s
+- Q )
+
+,
+
+* --
+
+.+
+
+-
+
+s s-zm mrn 2E
+
+Q)
+
+CI)
+
+g
+
+E
+OS='+
+c
+Q) g 5 p
+3
+.-€ - S @
+L Q)
+
+=.=
+-330
+E EJqg;,
+Q)
+
+gm
+
+Q)
+
+.-
+
+PU)
+
+L
+
+Bmggir
+Q)
+
+Q)
+
+gg+z
+
+O h8
+5 ~ 5
+
+ga -i €s. EE: .
+
+a pt gLg C
+o
+sd
+c # p p 8
+
+" J m = ga EnL=u
+
+&
+
+g
+
+89-8
+=.=g3 5
+
+c c.6u >
+
+V ) c r r c u
+
+3.-
+
+n v.2 x ' z = f
+
+Q
+
+Y,
+
+. + e r n a g
+
+r n z - t g
+
+7-
+
+2
+
+.€S.$
+0=*m
+
+$.:g%$
+
+%sagg,e!
+nlJm--=
+e r n@>..'g;
+
+'P-
+
+c==
+
+0
+
+Q)-
+
+->c)!-.8
+
+m2Q)m
+
+.a, * m
+3 0l?
+
+L
+
+Qu) m 8 c
+g
+" 0&2 =mQ.E
+c
+Q);'
+
+rn = E m
+g m g i 5
+
+zip
+
+058.
+
+> . ~ m g s ~
+m8
+Q
+B C r , $ 28-1
+m Q ) r ~ i
+
+$?z
+P
+
+cQ)Q)sQ)=
+g 2a!Pstm,
+L > Q ) O ~
+
+.Eu-€
+
+U
+
+0
+
+lt.-+u=~
++&
+m
+na,
+2g
+Q
+a,*uC-If=
+
+8 = Q ) . wu , ms Qr) QL) oL ~
+U
+
+Q)-
+
+53
+
+L + ! - Q ) Q ) ~
+
+Q)'=
+
+3c 0'-
+
+c
+
+ago
+
+Q)
+U) = - a
+
+VAI Data Center
+
+Purchase Information
+
+-
+
+Access to vital data formatted for you and
+ready to use!
+
+VAI offers Tiered pricing based on the
+number of queries performed each month.
+
+The VAI Data Center uses DIG technology to
+make content available in a convenient and
+standardized format that supports real-time
+queries. We make it easy to find the data
+you are looking for using DIG'Sbuilt-in
+capabilitiesfor Full-Text Searching, Batch
+Queries, and Alerting on new content that
+matches what you're looking for.
+. .
+
+.
+
+I
+
+9
+
+-
+
+I
+
+Cost per
+Query
+
+..
+
+..
+
+~ ~ s s ~ o n - C rDam,
+~ r ~ cAta\our
+~ tingertips
+
+I
+
+fast, secure, convenient, standardized
+
+l
+-1
+
+. .
+
+,
+
+t
+
+Monthly
+Subscription
+
+,
+
+.
+
+The following methods of access are
+S U nD D O ~ ~ ~ ~1: -
+
+Queries
+
+.'
+
+bit3 Server to Server
+A "data1ayer"connectionfromyour DlGSe~er(s)
+to
+our DlGServe~s
+at the VAIData Cente!:, . .., .. . -.
+
+r
+
+8
+
+'VAI offers a 70% grace on monthly query
+volume. Queries in excess of the grace amount
+will be billed at the Cost per Query for that Tier.
+
+to DIG ~erv&
+I visua~inks
+Have a VisuaLinksServer, but not a OlGServer?
+
+Connect to our Data Center using the VisuaLinks
+to DIG Connector.
+
+" 3 Smart C
+
+I
+
+~t
+
+the DIG Smart Client to query any sources .
+. . , -.-. .- . ..
+available to youraccount. ': ' -'-,
+.
+. . .. . . ..,,
+.- . . . . . .
+.
+,
+. .
+..n7b Services
+:. '
+. '
+,
+
+. l b . -
+
+.>
+
+v
+
+.,,
+
+>
+
+..
+
+jnect your custom application, web site,
+portal, or commercialsofrware directly to any
+data sources available to your account. *Source
+code (C#)and documentation are available.
+
+I
+
+Visual Analytics offers our Data Center sources
+in a variety of packages to suit your
+organization's needs. Contact our sales team
+.
+for more details.
+'.* - . . . '
+. ., ,..-:. - .. ., ..
+
+.
+
+,
+
+'
+
+,
+
+.. .
+
+Email: sales@visualanalytics.com
+Phone: 1-877407-4VAI (4824)
+.
+
+-*-++
+
+.
+
+I
+
+.
+
+'
+l
+
+. .'
+
+.
+
+..
+
+.
+
+.
+
+'
+
+.. '
+
+1
+
+1 VAI provides discountsfor Multiple Packages.
+
+,
+,directly to o,, Jata Center web site and use
+
+II
+
+JI Packages require an annual commitment
+with either quarterly or annual billing. Any
+overage adjustmentsare billed on next
+billing cycle.
+
+VISUAL ANALYTIC$ IN[
+5 0 Cit~zensWay, Suite 202
+Frederick, MD 21701
+
+240-215-6600 1-877-407-4824
+http://www.visualanalytics.com
+
+r' ' '
+
+U.S. Sex Offenders -ackaa
+
+m
+3%
+
+l
+
+"hi,..
+
+The U.S. Sex Offenders Package provides
+access to over 500,000 sex offender records in
+all 50 states. Details include First and Last
+Name, Photo IMug Shot, Aliases, Addresses,
+Charge Information, Level of Offense, Links to
+Online Maps, and is fully Geo-Coded with
+Latitude l Longitude.
+This data is updated daily and provides fast,
+unified access to this important resource.
+Interested parties may include: Law
+Enforcement, Schools, Employers, Landlords,
+and Neighborhood Watch groups.
+Provided in partnership with Family Watchdo@
+(WWW. familywatchdog.us).
+
+JusticeXChange
+
+Package
+
+1
+-
+
+I W r\~~kAnalyzer
+Package combines several
+High-Risk Watch Lists, including the Nomino Data
+RiskFeedTMproducts, into one point of access.
+This package will help your organization identify
+key individuals and groups that are targeted by the
+U.S. Government for Bank, Fraud, or Terrorism
+reasons. Knowing that you are dealing with such
+people is key to making the right decision in any
+situation (employment, arrest, doing business
+with, positions of trust, etc.).
+'
+I
+
+Data sources include: OFAC, FBI, HMT, OSFI,
+Interpol, FATF, EU, WB, UN, BIS, and DTC.
+This data is updated weekly and provides a key
+reference point to help combat risk in almost any
+industry.
+
+This data is updated every few minutes and
+provides invaluable, unified access for Law
+Enforcement.
+
+The JusiceXChange Package indudes infwmation
+about incamrated individuals throughout the United
+States. Details indude Custody Status, O1Jlender
+Home Address and Phone, Offender Releam>/
+Transfer 1Escq~Statm,and Phota lMug W
+r
+
+Provided in partnership with ApprisSB
+(www.appriss. com).
+*This package is priced using the Appriss model. VAI
+pricing models do not apply.
+
+Social Security Death Master Index
+
+&,
+
+The MethCheck Package contains
+Pseudoephedrine registered sales data from major
+pharmacies around the United States. These sales
+are legally controlled and logged since retail
+Pseudoephedrine is a primary ingredient used by
+thousands of illicit Methamphetamine Labs.
+Access to this data lets you track individuals seeking
+to circumvent the legal buying limits by "smurting"
+from store to store. Individuals use this technique to
+accumulate an illegal amount of cold medicines,
+often used to create variations of 'meth."
+
+Provided in partnership with NominoDataTM
+(www.nominodata.com).
+
+pack-^
+
+MethCheck Package
+
+'W
+
+Access to this inform
+offenders, monitorin
+and tracking down dead-beat parents.
+This data is updated daily and providw
+unified acass f$r Law Enforcement
+
+'
+
+fslla
+
+P ~ V W in partners7,ip with ~ p p r i s s(w.appriss.
+~
+
+k - *.-G&
+
+"This package is priced using the Appriss model.
+models do not apply.
+
+ackage provides access to
+ly 82 million records on decea
+individuals. details include Social Security
+Number, First and Last Name, Birth Date, and
+Death Date.
+This data is updated monthly%
+n many areas?Activities
+men4 Employment
+y LaurWig C?onpliana
+
+*MC
+
+attern Discover)
+
+'mfm
+
+The Data Clarify environment allows users to
+search all database servers, documents, web pages.
+
+INFORMATION
+GATEWAY
+
+The Data Clarity Suite combines the power of
+VisuaLinksBand Digital lnformation Gateway (DIGaD)
+into
+an unmatched analytical environment.
+
+The Data Clarity environment provides the unparalleled
+power to discover patterns across all pertinent data,
+structured and unstructured, using our seamlessly
+interconnected Data Clarity Network. This network forms
+a virtual data warehouse without the cost and, more
+importantly, without the issues surrounding data ownership - data stays at the owner's location and the owner
+controls data access.
+Users of any of the validated Data Clarity sites can then
+search and mine all the information available within the
+Data Clarity Network of servers. This allows users of the
+environment to perform any operation across local and
+remote data of all data formats.
+
+The Data Clarity environment allows users to search all
+database servers, documents, web pages, and e-mail
+servers to perform data mining techniques, clustering,
+timeline analysis, social network analysis, entity extraction
+and classification, ad hoc reporting, and data sharing
+across many disparate organizations.
+Data Clarity is the most affordable and robust information
+sharing and pattern discovery solution available.
+
+Please contact our sales team for more information
+at 1-877-407-4VAl(4824) or email us at
+about the benefits of the
+Data Clarity Suite.
+
+v
+
+Pattern Discovery and lnformation Sharing Soitware
+Visual Analytics Inc. www.visualanalytics.com (877) 4074VAI
+50 Citizens Way, Suite 202 Frederick. MD 21701
+Copyright@ May 2010 FW20. All rights resewed
+
+The Power of
+tnformation Sharing
+Through
+Collaborative Analfljes
+
+The Data Clarity Suite takes advantage of the unique
+Server-to-Server (S2S) technology developed by Visual
+Analytics. The S2S technology seamlessly connects local
+and remote data sources into a network of distributed
+databases and users across different agencies1
+organizations.
+The network forms what some people would consider the
+ultimate virtual data warehouse. Unlike traditional data
+warehouses which are cumbersome, complex, and
+expensive to implement, the S2S approach enables each
+owner of data in the network to maintain control and
+security of the data while allowing access to the data. This
+approach removes all cost and security concerns as data is
+never copied or moved from its original location and each
+owner maintains full control over access. Furthermore,
+since the data access logs are recorded locally for each
+site or data source, the owners have full disclosure over
+how their data is being utilized.
+Each location in the network runs its own DIG Server
+creating maps and views of data that the consumers of the
+network will be able to access. This innovative approach to
+data sharing ensures that:
+
++ Data is always up to date (never copied or duplicated)
++ There are no ownership issues (owners of the data
+maintain their ownership)
+
++ Security, data access, and data purity is maintained by
++
+
+the original owners of the data
+(no changes can be made by outside users)
+There is no costly translation, fixed schema, or data
+transport (as would be required by a data warehouse
+or other approaches)
+
+Adding new data to a S2S network can literally take a
+matter of hours or even minutes - it is a simple process of
+deciding what data should be made available within the
+network and who will be granted access.
+Our S2S technology is the single best approach to finding
+criminals utilizing data across multiple data sources or
+multiple agencies and can be used inter-state or on a
+national basis in a relatively short time frame. With the
+S2S approach, the network data is always live and up-todate, whenever any source of information in the network
+is updated, all end-users with the appropriate
+permissions can find and utilize the information in a
+timely manner.
+
+Security, data access, and data purity
+is maintained by the original owners of the data
+
+Visual Analytics Inc. www.visualanalytics.com (877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+CopyrighD May 2010 FW20, All rights reserved
+
+Cornbating Terrorism
+Terrorism is a global threat influencing the attitude and
+behavior of a target group by threatening - or carrying out
+devastating actions. These actions, as we have seen,
+can and do include the use of conventional weapons,
+biological, chemical, or nuclear agents.
+
+The Visual Analytics Solution
+VisuaLinksa and Digital Information Gateway (DIG") are
+specifically designed to retrieve information from varied
+formats and sources to expose hidden activity and
+behavioral patterns.
+
+Today's terrorism also threatens our economic and
+information resources. Our vulnerability to terrorist attacks
+expands with our growing reliance on information
+technologies. Increased access to information and the
+centralization of vital components of local, national, and
+global infrastructure threaten both local and national
+security.
+
+The Visual Analytics solution allows you to:
++ Identify Relationships - uncover interactions and
+relationships between terrorist groups and their
+members.
++ Link Group Members - understand formal and
+informal organizational structures.
++ Connect Networks - expose connections between
+group members, outside individuals, other
+organizations, locations, facilities and communication
+networks.
++ Expose Group Operations- show shared assets,
+materials and supplies used to carry out terrorist
+missions.
++ Track Technologies - track different types of
+technologies used as components for manufacturing
+terrorist weapons.
++ Understand Behaviors - track and analyze group
+behaviors for early detection of potential threats.
++ Assess Vulnerabilities evaluate funding
+resources, recruiting methods, communication
+networks, storage facilities and other resources to
+uncover potential vulnerabilities.
+
+-
+
+Investigating today's terrorist groups requires inter-agency
+communication and collaboration. It is essential that law
+enforcement agencies and task forces be able to collect
+and analyze data from multiple data sources in order to
+monitor, penetrate, infiltrate, and prevent terrorist activity.
+Terrorism is a premeditated act that requires detectable
+preparations including money transfers, material
+purchases and personnel movement. Intelligence works
+against terrorism.
+
+-
+
+"Actionable intelligence is essential for preventing acts of
+terrorism. The timely and thorough analysis and
+dissemination of information about terrorists and their
+activities will improve the government's ability to disrupt
+and prevent terrorist acts and to provide useful warning to
+the private sector and our population. "
+
+- President George W. Bush
+as quoted in "TheDepartment of Homeland Security"
+from www.whitehouse.org
+
+Visual Analytics Inc. www.visualanalytics.com (877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright@ May 2010 W20.All rights resewed
+
+Border Security
+
+Narcotics Trafficking
+
+Protection of our national borders is a critical task in our
+national defense plan.
+
+Law enforcement initiatives attempt to attack drug trafficking
+organizations at every level through a careful coordination of
+local, state and federal efforts.
+
+The United States shares 5,525 miles of border with
+Canada and 1,989 miles of border with Mexico. The U.S.
+maritime border includes 95,000 miles of shoreline, and a
+3.4 million square mile exclusive economic zone. Every
+year, more than 500 million people cross our borders to
+enter the United States. Some 330 million of these people
+are non-citizens.
+Securing the borders requires the cooperation of several
+federal agencies - including those responsible for
+transportation security, immigration control, border patrol,
+customs, and maritime security - in support of the overall
+goal of providing Homeland Security.
+The ability to research and share information among and
+between these agencies is mission-critical.
+The Visual Analytics Solution
+VisuaLinksaand Digital lnformation Gateway (DIG@)are ideal
+tools for searching through a wide range of data sources to
+extract, analyze and visually expose pattems of activity.
+The Visual Analytics solution allows you to:
++ Share lnformation - give every agent the ability to
+retrieve information from any and every data source
+available with a single search.
++ Visualize Mass Data - expose patterns by reviewing
+and analyzing thousand of records.
++ Summarize - quickly produce frequency counts and
+statistical information.
++ Track and Comlate - compare data values such as
+names, IDs and addresses to track and identify
+individuals.
++ ldentify Routes - use geographic data to pinpoint
+and plot entrance routes.
+
+Law enforcement officials must constantly adapt to new
+situations, make greater use of intelligence, stay current
+with technology, and expand cooperation between
+agencies to be effective in their drug control efforts.
+All levels of law enforcement must employ operational
+(reactive) and strategic (proactive) analysis methods that
+focus on both short-term and long-term goals. In order to
+effectively perform both types of analysis, law enforcement
+agents must be able to access a wide range of information to
+uncover hidden links between cases which would normally
+seem unrelated.
+The Visual Analytics Solution
+VisuaLinksBand Digital lnformation Gateway (DIGa) are
+speufically designed to retrieve informationfrom varied formats
+and sources to expose hidden activity and behavioral pattems.
+The Visual Analflcs solution allows you to:
++ Share Information- give every agent the ability to
+retrieve infortnabon from any and every data source
+available.
++ Identify Relationships- uncover interactions and
+relationships between perpetrators and organizations.
++ WsualizeMass Data - expose pattems reviewing and
+analyzing huge amounts of data, with no sue limit.
++ Discover Patterns - quickly plot and analyze
+geographic and chorological data.
++ Summarize - quickly produce frequency counts and
+statistical information.
++ Track and Comlate - compare data values such as
+names, IDs and addresses to track and dent@individuals.
+
+CIR-
+
+Visual Analytics Inc. ww.visualanalytics.com (877) 4074VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright@ May 2010 FW20, All rights reserved
+
+The Common Criminal
+Vandalism - personal property theft - domestic violence
+- credit card fraud -firearms violations - money
+laundering - burglary - violent crime - environmental
+crime - cyber crime - identity theft. These are but a few
+
+The Visual Analytics Solution
+VisuaLinksmand Digital Information Gateway (DIGm)are
+ideal tools for searching through vast amounts of data to
+extract, analyze and visually expose patterns of activity.
+
+of the illicit activities encountered by local, state and
+federal law enforcement communities every day.
+
+The Visual Analytics solution allows you to:
++ Access Data - search any and every data
+source available with a single search.
++ Visualize Mass Data -work with thousands of data
+records with no size limitations.
++ Identify Relationships - expose interactions and
+relationships between all types of data, including
+suspects, organizations, ID numbers, vehicles, etc.
++ Find Networks - visually display and analyze clusters
+of related data.
++ Summarize Data -produce statistical information on
+the fly.
++ Track and Correlate - compare data values, such as
+names, using Soundex and other matching
+algorithms.
++ Share Data - rapidly respond to inter-agency data
+requests.
+
+How many of these crimes can be linked to individuals
+acting as agents of criminal organizations? Even vehicle
+theft is widely believed to be a form of organized crime
+generating billions of dollars in revenues each year.
+Among the many challenges in solving all types of crime
+is sifting through the vast amounts of information
+collected and stored in a wide variety of formats in a wide
+variety of systems throughout the country, and in fact, the
+world.
+The ability to access and analyze the right information at
+the right time is an indispensable factor in identifying and
+finding the perpetrators. Data mining is a powerful
+approach that supports crime analysis, crime mapping,
+and criminal intelligence.
+
+T
+
+Pob
+
+MOhammed
+
+Expose Grolrp Operations - show shared assets,
+materials and supplies used to carry out terrorist missions.
+Visual Analytics Inc. www.visualanalytics.com (877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright0 May 2010 FW20, All rights reserved
+
+l
+
+I
+
+Law ENFORCEM~-~SOLUTIONS
+Money Laundering & Financial Crimes
+Criminals launder money to hide criminal activity - everything from drug trafficking to tax evasion - that generates
+the money. It is the means that criminals use to legitimize
+the money.
+Although the exact amount of money laundered yearly is
+still not known, experts estimate that money laundering
+schemes are in the billions of dollars - possibly as high as
+$100 billion.
+Money launderers operate through layers of activities
+designed to hinder the detection, investigation and
+prosecution of their activities. This is often accomplished
+by structuring transactions, establishing businesses
+specifically for the purposes of manipulating accounts, or
+simply coercing individuals into ignoring reporting regulations.
+The Visual Analytics Solution
+VisuaLinkse and Digital Information Gateway (DIGe) are an
+indispensable toolset for highlighting and tracking suspicious transactions that can expose illegal financial activity.
+The Visual Analytics solution allows you to:
++ Access Data - search through and extract information from a wide variety of data source at once.
++ Visualize Mass Data - review thousands of financial
+transactions to identify questionable behaviors and
+unusual filing patterns.
++ Expose Structures - identify and display relationships that exist between individuals and organization
+involved in criminal activities.
++ Examine Accounts - reveal associations between
+accounts and people, banks, organizations, or other
+accounts.
++ Identify Duplicates - discover indirect relationships
+that show addresses, accounts or ID numbers with
+multiple users.
++ Analyze Transactions- uncover different types of
+transactions used by criminals.
++ Pinpoint Exchanges - use chronological and geographic data to target asset seizures.
+
+Examine Accounts - reveal associations between accounts
+and people, banks, organizations...
+
+Telephone Toll Analysis
+Telephone toll analysis is often underutilized in criminal
+investigations due to the sheer volume of data to be
+processed.
+When properly conducted, the analysis of telephone
+activity can single-handedly expose a variety of deceitful
+behaviors including long distance and cellular phone fraud
+and drug trafficking patterns, as well as validate associations between people and organizations.
+Data mining technologies allow investigatorsto uncover
+linkages between telephone numbers and peoplelorganizations to expose complex communication networks, identify
+investigative targets, and track chronological or sequential
+calling patterns.
+The Visual Analytics Solution
+VisuaLinkse is ideally suited to identifying suspicious
+patterns of telephone activity.
+The Visual Analytics solution allows you to:
++ Display Intense Activity - show any type of connection between telephone numbers to expose the
+commonality, pathways and networks that form
+between large collections of numbers.
++ Develop Frequency Counts - summarize the
+volume of calls from and between telephone numbers.
++ Plot TelephoneActivity - use proven placement
+techniques to visually reveal multiple patterns.
++ Consolidate Registered Numbers - merge or "alias"
+telephone numbers to view any organization, geographic area, or phone exchange as a single element.
++ Analyze Relationships - discover existing and
+emerging networks and their relationships.
++ Organize Calls - group telephone number by area
+codes, exchanges, subscribers, or any other characteristic to display patterns and trends.
+
+Display Intense
+Activity show any type of
+connection between
+telephone numbers
+
+Visual Analytics Inc. www.visualanalytics.com (877) 407-4VAI
+50 Citizens Way. Suite 202 Frederick, MD 21701
+Copyright0 May 2010 FW20, All rights resewed
+
+MedicalIHealth Care Services
+
+lnsurance Fraud
+
+The medical and health care industries are prime candidates
+for data analysis and visualization tools. There are a myriad
+of practical applications of such tools in these industries.
+
+lnsurance fraud costs the U.S. insurance industry over
+$50 billion each year.
+
+The ability to access and analyze data related to illness, injury
+and disease occurrence, frequency and prognosis allows for
+accurate tracking and cause resolution of outbreaks.
+Pattern analysis can also contribute to the medical
+community's ability to prepare for and respond to uncommon occurrences.
+Additionally, thorough data analysis can help uncover fraud,
+both by and through a medical practitioner. Data analysis
+exposes such fraudulent situations as, unbundling,
+upwding, pharmacy fraud and use of ghost patients.
+The Visual Analytics Solution
+VisuaLinksmis a state-of-the-art data analysis and visualization tool capable of managing, analyzing and visually
+presenting large volumes of data.
+
+The Visual Analytics solution allows you to:
++ Visualize Mass Data -work with thousands of data
+records with no size limitations.
++ Identify Relationships - expose interactionsand
+relationships between all types of data, including
+diagnoses, geographic areas, symptoms, etc.
++ Find Networks - visually display and analyze clusters
+of related data.
++ Summarize Data - produce statistical information on
+the fly.
+
+Depending on the type of insurance offered, people
+ranging from policy holders to doctors and lawyers have
+been involved in some form of insurance fraud.
+Professional criminal fraud rings target carriers and flood
+them with thousands of fraudulent claims each year.
+The task of investigating large numbers of questionable
+claims is formidable, slow and resource-intensive.
+Data management and analysis can eliminate much of
+the basic fraud. lnsurance carriers can also automate
+advanced warning of possible fraudulent behavior
+through thorough analysis and categorization of
+policyholders.
+The Visual Analytics Solution
+VisuaLinksmand Digital Information Gateway (DIG@) are
+ideal tools for quickly and easily identifying suspicious
+activity among recurring individuals and organizations
+Using the advanced information retrieval capabilities of
+DIG to extract information from multiple data sources
+simultaneously and the powerful data mining,
+visualization and analysis capabilities of VisuaLinks.
+
+The Visual Analytics solution allows you to:
++ Establish Connections - expose relationshipsthat
+exist between insurance customers.
++ Expose Indirect Relationships - visually show
+relationships that span across individuals and organizations perpetrating fraud.
++ ldentifjf Fraudulent Identifiers - perform name and
+value matching for unparalleled data exploration.
++ Track and Correlate - quickly identify new targets and
+expose patterns of activity in virtually any database.
+
+Visual Analytics Inc. www.visualanalytics.com (877) 4074VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright@ May 2010 FW20, All rights resewed
+
+Businesses
+Each year, fraud, waste and abuse cost private industry
+and government organizations billions of dollars.
+Virtually every company can benefit from tracking and
+analyzing Internet, Email, and phone traffic, facility access,
+purchase orders and other accounting and administrative
+activities.
+Every company - from large corporations to smaller
+business entities - must closely monitor transactions that
+lend themselves to fraud and embezzlement, such as,
+accounts payable activities and merchandise returns.
+Additionally, organizations need to proactively analyze
+business processes to ensure that the most efficient
+methods are in place and being utilized.
+
+The Visual Analytics Solution
+VisuaLinksa is a state-of-the-art data analysis and visualization tool that exposes costly activities that traditional
+audits do not reveal.
+The Visual Analytics solution allows you to:
++ Analyze Processes - expose systemic organizational or procedural issues.
++ Examine Statements - visually identify deposits or
+checks not included in a reconciliation.
++ Identify Collusive Fraud - expose questionable
+transactions, practices and systematic fraud in a variety of
+activities.
++ Inspect Sales Transactions- show commonalities
+among point-of-sale terminals and sales people for
+products that are used in fraudulent purchases.
++ Expose Excessive Voids or Credits - flag excessive
+voids where payments may be diverted for criminal gain.
+
+Examine Statements - visually identdy deposits
+or checks not included in a reconciliation.
+
+Increasing Investigative EfSiciency
+helping analysts identify patterns more efficiently and effectively
+Visual Analytics Inc. www.visualanalytics.com (877) 407-4VAI
+50 Citizens Way, Suite 202 Frederick, MD 21701
+Copyright@ May 2010 W 2 0 ,All rights reserved
+
+Visual Analyfics
+
+Capabilities...
+Data Visualization
+Network Mining
+Advanced Link Analysis
+
+Visual Analytics
+
+Solutions...
+
+Multiple Data Source Integration
+Combating Terrorism
+Collaborative Analyses
+Enabling Actionable Intelligence
+Information Sharing
+Supporting Law Enforcement
+Business Intelligence
+Uncovering Organized Crime
+Relative ScoringIRanking
+Examining Telephone Toils
+Data Cleansing and Consolidation
+Investigating NarcoticsIDrug Crimes
+Enterprise Web Deployment
+Facilitating Decision Making
+Detecting Medicalllnsurance Fraud
+Exposing Money Laundering Trends
+Analyzing Asset Management Risk
+Discovering Regulatory & Compliance Issues
+
+

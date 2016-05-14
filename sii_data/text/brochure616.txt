@@ -1,0 +1,560 @@
+Utimaco DRS™
+Paquete de retención de datos
+Retención de datos automatizada para proveedores
+de servicios de telecomunicaciones
+
+DRS – w orl dw i de
+
+2
+
+Utimaco DRS™
+
+Retención de datos
+La retención de datos se ha convertido en un término de
+moda en los intensos debates entre los defensores de los
+datos y los legisladores a lo largo de los últimos años. Se
+refiere al proceso de almacenar registros con los detalles de
+las llamadas y datos de los abonados de diversos servicios
+de telecomunicaciones durante periodos de varios meses
+o años. Los organismos de orden público y los servicios de
+inteligencia consideran el acceso a los datos de telecomunicaciones conservados como uno de los pilares de la investigación criminal y la prevención del terrorismo. El objetivo
+común es utilizar los datos para identificar y rastrear sospechosos, descubrir redes sociales entre terroristas o recopilar pruebas admisibles para los procedimientos judiciales.
+Muchos países de todo el mundo han aprobado leyes que
+estipulan la autoridad de la policía y las agencias de inteligencia y la responsabilidad de los proveedores de servicios.
+En Europa, por ejemplo, la directiva 2006/24/CE de la UE
+fue presentada en marzo de 2006 como una respuesta a
+los ataques terroristas coordinados de Madrid en 2004 y
+Londres en 2005. La directiva ha conducido a la armonización
+de las leyes en los Estados miembros de la UE, que obligan
+a los operadores de telecomunicaciones y proveedores de
+servicios de Internet a almacenar registros detallados de las
+llamadas y datos de los abonados durante un periodo de entre seis y veinticuatro meses, y a responder a las peticiones
+de los organismos de orden público sin demoras excesivas.
+
+Para los operadores de telecomunicaciones y los ISP, esto
+significa que deben realizar una inversión adicional en sistemas de soporte que les permita cumplir estas nuevas leyes.
+Está claro que no basta simplemente con ampliar el periodo de retención de los registros de facturación, ya que las
+leyes y regulaciones requieren el almacenamiento de datos
+adicionales, como las llamadas fallidas y los registros del
+correo electrónico. En función del tamaño y del tipo del operador, puede haber millones o miles de millones de registros que almacenar cada día, y los operadores deben estar
+preparados para responder a cientos o miles de solicitudes
+de información al día.
+Utimaco se enfrenta a estas nuevas necesidades y desafíos
+con la introducción de una solución específica para la
+retención de datos de telecomunicaciones: Utimaco DRS. El
+sistema está basado en la experiencia y tecnología de nuestro sistema líder mundial en interceptación legal, Utimaco
+LIMS, que se emplea en operadores de telecomunicaciones
+de más de sesenta países de todo el mundo.
+
+Retos para los operadores
+Almacenamiento de millones o miles de millones de registros de datos al día, generados por diversas
+fuentes de la red
+Gestión de cientos o miles de solicitudes de información al día por parte de los organismos de orden público
+Respuesta sin retrasos excesivos (casi en tiempo real)
+Mantenimiento de una alta seguridad para proteger los datos
+Estar preparado para los cambios en la oferta de servicios y en las infraestructuras de redes
+
+3
+
+Utimaco DRS™
+
+Utimaco DRS™
+Una solución de retención de datos para operadores
+operadores y administradores mediante una aplicación web
+segura. También proporciona interfaces electrónicas a los
+organismos de orden público, mediante fax, correo electrónico o interfaces de IP (ETSI RDHI). Los componentes internos de Utimaco DRS incluyen el servidor local DRS,
+uno o varios dispositivos de recopilación DRS y un potente
+sistema de almacenamiento de datos optimizado para
+la búsqueda rápida y el análisis masivo de datos. El servidor local DRS es el núcleo de todo el sistema, ya que
+implementa el sistema lógico empresarial englobado en un
+servidor muy protegido. Los dispositivos de recopilación
+DRS proporcionan interfaces específicas de servicio y
+del proveedor a los diversos nodos de red que generan
+registros CDR y que conservan los datos de los abonados
+y de localización.
+
+Utimaco DRS (del inglés Data Retention Suite, paquete
+de retención de datos) ha sido diseñado como un sistema
+para operadores que permite a los organismos autorizados acceder de forma rápida y segura a los datos almacenados. Permite a los operadores de red y proveedores
+de servicios de Internet cumplir fácilmente las recientes
+regulaciones de las telecomunicaciones concernientes a la
+retención de datos.
+
+Arquitectura del sistema
+El paquete de retención de datos consiste en un conjunto
+de módulos de software que se ejecutan en servidores X64
+de amplia disponibilidad con el sistema operativo Oracle
+Solaris. El componente de entrada, el servidor de gestión
+DRS, permite un acceso sencillo a todas las funciones de
+
+Operación
+y administración
+
+Organismo
+de orden público
+
+Paquete de retención de datos de Utimaco
+
+https
+
+Frontend
+
+Servidor de gestión de DRS
+Gestión de flujo de trabajo
+
+Interfaz ETSI
+
+Servidor web
+
+Interfaz de correo electrónico
+
+Monitor del sistema
+
+Interfaz de fax
+
+Servidor backend de DRS
+
+Almacenamiento
+de datos
+
+Orden judicial, usuario, nota,
+autoridad, gestión del sistema
+
+Backend
+
+Monitor del sistema
+
+Integración de datos
+Procesamiento
+de consultas
+
+Red de telecomunicaciones
+
+Dispositivos de recopilación DRS
+CD 1
+
+CD 2
+
+Sistema
+de mediación CDR
+
+Router
+
+Figura 1: Arquitectura del sistema Utimaco DRS
+
+4
+
+...
+
+CD x
+
+Switch
+
+Archivo de datos
+
+Servidor de
+localización
+System
+
+Base de
+datos de
+abonados
+
+HI-A
+
+HI-B
+
+Interfaz
+de transferencia
+
+Análisis de datos
+
+Utimaco DRS™
+
+Características principales
+• Recopila datos de comunicaciones (CDR, IPDR) y de
+abonados de cualquier red de telecomunicaciones.
+• Conserva grandes volúmenes de datos en un potente
+sistema de almacenamiento seguro de datos.
+• Permite la búsqueda y el análisis muy rápidos de miles
+de millones de registros de datos.
+• Automatiza el procesamiento de solicitudes y envía
+los datos a los organismos autorizados mediante fax,
+correo electrónico o interfaces de IP seguras.
+
+Utimaco DRS se ocupa de todos los aspectos de la
+retención de datos de telecomunicaciones y ha sido
+diseñado para proporcionar las siguientes ventajas a los
+operadores de redes, proveedores de servicios y organismos
+de orden público:
+
+Ventajas
+Rentabilidad
+Utimaco DRS minimiza los costes operativos
+mediante la automatización de la gestión de las
+órdenes judiciales y el envío electrónico de los
+resultados de búsqueda.
+Los servidores de amplia disponibilidad proporcionan una relación óptima precio/rendimiento a los
+operadores de telecomunicaciones de cualquier
+tamaño.
+La compatibilidad con la propiedad compartida
+reduce los gastos para redes de varios proveedores y países y permite modelos de negocio
+externalizados.
+La arquitectura de última generación del sistema de
+almacenamiento de datos comprime todos los datos
+conservados, minimizando los costes de almacenamiento y mejorando el rendimiento de búsqueda.
+Compra integrada: Utimaco proporciona una
+solución “llave en mano” con todo el hardware,
+el software y los servicios necesarios.
+Utimaco DRS ha sido diseñado para integrarse
+de forma fluida en redes ya existentes, utilizando
+los sistemas de mediación CDR y las bases de
+datos de clientes disponibles.
+
+Cumplimiento
+Utimaco DRS es una solución específica que reduce el riesgo de incumplimiento de las obligaciones relativas a la retención de datos.
+Los más altos estándares de seguridad garantizan
+la protección de los datos y evitan su uso indebido
+por parte de personas no autorizadas.
+Los flujos de trabajo automatizados ayudan a los
+operadores a mantener el equilibrio entre las leyes
+
+de protección de datos y la obligación de prestar
+apoyo a los organismos de orden público.
+Utimaco DRS permite a los operadores manejar
+miles de solicitudes al día y cumple plenamente los
+últimos estándares ETSI para datos conservados.
+
+Fiabilidad
+Utimaco DRS es una inversión a prueba de cambios futuros que se mejora continuamente de acuerdo con los requisitos reguladores más recientes.
+La arquitectura modular del sistema de software y
+hardware Utimaco DRS facilita los cambios tecnológicos de la red de telecomunicaciones a un coste
+previsible.
+Utimaco DRS permite la retención completa de
+datos de telefonía, correo electrónico, acceso por
+Internet y datos de abonados, y puede ampliarse
+para otros servicios de comunicación o para datos
+de otras fuentes como sistemas de transacciones
+financieras o sistemas de cuotas.
+La redundancia de servidores, el almacenamiento
+RAID y el control de los procesos son conceptos
+integrales para maximizar la disponibilidad de servicio y evitar la pérdida de datos.
+Utimaco DRS es escalable para volúmenes de datos
+desde algunos millones hasta miles de millones
+de registros de datos y los clientes pueden ampliar
+fácilmente su instalación en función del crecimiento
+de las necesidades de capacidad y rendimiento.
+Utimaco cuenta con más de 16 años de experiencia
+en la interceptación legal y ofrece probadas tecnologías que han sido desarrolladas para el sistema
+de gestión de interceptación legal Utimaco.
+
+5
+
+Utimaco DRS™
+
+Integración fluida en el sistema
+En lugar de sustituir el equipamiento existente, Utimaco
+DRS ha sido optimizado para una integración fluida en infraestructuras OSS/BSS existentes, reduciendo así el coste total
+para el propietario. La solución es compatible con diferentes
+métodos y formatos de datos para el acceso a datos de CDR
+y de abonados en diversas fuentes de la red.
+
+Importación al sistema
+de almacenamiento de datos
+Los CDR generados por nodos de redes diferentes pueden
+cargarse en el sistema de almacenamiento de datos interno de Utimaco DRS a una velocidad muy elevada (hasta
+100.000 registros por segundo y por servidor). El sistema es
+compatible simultáneamente con fuentes múltiples de CDR
+de telefonía, mensajería, correo electrónico y acceso por
+Internet. Es posible añadir otros servicios opcionalmente.
+Durante el proceso de captación de datos, todos los CDR
+son filtrados, integrados y normalizados con un formato
+uniforme de datos antes de ser almacenados en la base
+de datos encriptada. La organización de los datos en el
+sistema de almacenamiento de datos DRS difiere significativamente de las de las bases de datos relacionales
+comunes. DRS dispone los datos en columnas en lugar de
+en líneas, lo que en la práctica significa que todas las tablas
+se indexan automáticamente, pero sin la cabecera (almacenamiento, gestión y configuración) asociada al enfoque
+tradicional de indexado. El almacenamiento en columnas
+también implica algoritmos de compresión mucho más eficientes que pueden aplicarse a los datos, reduciendo aún
+
+más las necesidades de almacenamiento. Como resultado
+de estas y otras características, el rendimiento de las consultas mejora en promedio en varios órdenes de magnitud comparado con el caso de las soluciones de bases de
+datos basadas en filas.
+La organización de datos específica de Utimaco DRS elimina también la necesidad de un archivo de múltiples niveles con diferentes particiones para el acceso rápido y el
+almacenamiento a largo plazo. Con DRS todos los registros de datos pueden conservarse en un archivo, proporcionando tiempos de consulta medios de solo unos segundos, incluso para búsquedas complejas en miles de
+millones de registros.
+
+Acceso online a las bases de datos
+Cuando determinados datos por retener ya están disponibles en alguna base de datos o sistema de información del
+operador de la red, y puede accederse a ellos a través de
+interfaces de aplicación comunes, no es necesario copiar
+estos datos en el sistema de almacenamiento DRS. En su
+lugar, el sistema de almacenamiento puede configurarse
+para el acceso online en el momento de la consulta. Este
+enfoque evita el almacenamiento redundante de datos y
+reduce los costes.
+Los organismos de orden público pueden conectarse a los
+sistemas Utimaco DRS de varias formas, dependiendo de
+la capacidad y la configuración técnica y de las regulaciones
+nacionales.
+
+DRS – w orl dw i de
+
+6
+
+Utimaco DRS™
+
+Existen interfaces de transferencia para fax, correo electrónico y conexiones VPN, de acuerdo con la interfaz de transferencia de datos retenidos ETSI (ETSI RDHI).
+El sistema Utimaco DRS puede configurarse de forma
+flexible para diferentes opciones de instalación y modelos empresariales. Puede ser instalado y operado por
+un proveedor de servicios que ejecute las solicitudes
+
+Proveedor
+de servicios de telecomunicaciones
+
+de búsqueda en nombre de un organismo autorizado
+responsable del cumplimiento de la ley o, de forma alternativa, puede ser instalado por un tercero autorizado con
+conexiones IP directas a las fuentes de datos. Un sistema de gestión DRS puede gestionar y segregar muchas
+redes diferentes para permitir modelos de servicio administrados, la compatibilidad con MVNO y soluciones
+DR multinacionales.
+
+Paquete de retención de datos de Utimaco
+
+Organismo
+de orden público
+
+Orden
+judicial
+
+Función de
+recopilación
+de datos
+
+Función
+de gestión de
+almacenamiento
+de datos
+
+Interfaces
+internas
+
+Función
+de gestión
+de órdenes
+judiciales
+
+Informe
+
+Interfaz
+de transferencia
+Análisis
+de datos
+
+Nodos de red
+
+Recopilación y almacenamiento de datos
+
+Gestión de solicitudes
+e informes
+
+Figura 2: Modelo funcional de la retención de datos
+
+7
+
+Utimaco DRS™
+
+Optimización de los flujos de trabajo
+
+Figura 3:
+Captura de pantalla de la interfaz de usuario de DRS
+
+La automatización de los flujos de trabajo, desde la recepción de las solicitudes de datos de los organismos de orden
+público hasta el envío de informes, es un concepto integral
+de la solución Utimaco DRS. El sistema puede recibir solicitudes y documentos de órdenes judiciales tanto por fax,
+correo electrónico o ETSI RDHI (interfaz de transferencia
+de datos retenidos, por sus siglas en inglés). Las solicitudes
+recibidas se muestran como órdenes judiciales nuevas en el
+buzón de entrada de la pantalla del operador. Cuando sea
+posible, los detalles de la solicitud se importarán en el formulario de la orden judicial automáticamente. Tras una breve
+validación, la consulta en la base de datos puede comenzar simplemente haciendo clic con el ratón. Los resultados
+estarán disponibles en unos segundos, listos para el envío
+automático o manual.
+Si las órdenes judiciales se reciben en forma de carta o de
+fax, el operador dispondrá de formularios de informes predefinidos para ayudarle a convertir rápidamente la solicitud
+
+8
+
+en una consulta ejecutable de la base de datos. Los resultados pueden exportarse en diferentes formatos como
+archivos *.pdf o *.csv. El sistema de consultas e informes de
+Utimaco DRS puede ampliarse fácilmente para ser compatible con las demandas específicas de un país o un cliente.
+Todos los flujos de trabajo internos están protegidos por
+varias medidas de seguridad de última generación para garantizar el cumplimiento de la ley sobre privacidad mediante
+control del acceso, encriptación, verificación de la integridad
+y registros de auditorías completos. El sistema integrado de
+gestión de usuarios permite definir con precisión los permisos de acceso a las diversas funciones y fuentes de datos. Todos los datos del sistema, por ejemplo, CDR, datos
+de abonados, datos de configuración, archivos de registro,
+órdenes judiciales y detalles de las solicitudes, se guardan
+en bases de datos encriptadas. Además, el registro detallado de todos los eventos de usuarios y del sistema previene el uso indebido y permite las auditorías de seguridad.
+
+Utimaco DRS™
+
+Utimaco DRS™ – Specifications
+Características
+Recopila datos de comunicaciones (CDR, IPDR) y de
+abonados de cualquier red de telecomunicaciones.
+Retiene grandes volúmenes de datos en un potente
+sistema de almacenamiento seguro de datos.
+Permite la búsqueda y el análisis muy rápidos de miles
+de millones de registros de datos.
+Automatiza el procesamiento de solicitudes y envía
+los datos a los organismos autorizados mediante fax,
+correo electrónico o interfaces de IP seguras.
+
+Aspectos destacados
+Integración fluida
+Utimaco DRS ha sido diseñado para una integración
+fluida en redes existentes de varios proveedores y servicios. La solución puede personalizarse fácilmente
+para comunicarse con sistemas CDR/IPDR, archivos
+de registro, bases de datos de abonados y otros nodos
+de red.
+Propiedad compartida
+Un sistema Utimaco DRS puede ser utilizado para administrar órdenes judiciales y solicitudes de búsqueda
+para varios operadores de red y proveedores de servicio. El sistema granular de gestión de permisos de
+Utimaco DRS puede configurarse para segregar con
+seguridad redes, usuarios y autoridades, y además ser
+compatible con diversos modelos empresariales como
+modelos MVNO, servicios administrados o plataformas
+de servicio transfronterizas.
+Alto rendimiento y capacidad
+Utimaco DRS ha sido optimizado para la carga simultánea de volúmenes masivos de datos y el procesamiento rápido de consultas. El sistema puede recibir
+varios miles de millones de registros de datos al día, lo
+que le permite soportar las tasas de transacción generadas por grandes redes con millones de abonados. En
+promedio, los resultados de las consultas se presentan
+en segundos, no en minutos.
+Gran seguridad
+Las prestaciones integrales de seguridad como el control del acceso basado en roles, la encriptación y las
+verificaciones de integridad evitan el acceso no autorizado y la manipulación de datos sensibles durante el
+almacenamiento y la transferencia. Todos los eventos
+del sistema y de usuarios se someten a registros de
+auditorías completos para proporcionar una responsabilidad total sobre la calidad de las evidencias.
+Alta disponibilidad
+La redundancia de servidores, el sistema de duplicación de datos RAID-1/-5 y el control del sistema en
+tiempo real son conceptos integrales de Utimaco DRS
+
+para satisfacer las más altas exigencias de disponibilidad y de resistencia en caso de desastre.
+Rentabilidad
+Utimaco DRS se ejecuta en servidores X64 económicos y ampliamente disponibles y utiliza discos SAS/
+SATA estándar dispuestos en conjuntos RAID-5. Esto,
+junto con las excelentes tasas de compresión de datos,
+minimiza los gastos de hardware al máximo.
+Basado en estándares
+Utimaco DRS cumple completamente los más recientes requisitos ETSI según la Directiva europea sobre retención de datos 2006/24/CE.
+
+Especificaciones de hardware
+Servidores Oracle X64
+Diversas opciones de configuración, desde instalaciones
+con un servidor hasta clústeres de varios servidores
+Almacenamiento en disco integrado (hasta 12 TB)
+SAN externo de 6 TB a 1.000 TB (RAID-1/5)
+Sistema operativo Oracle Solaris 10
+Sistema de almacenamiento de datos Sybase IQ
+Marca CE, conforme con FCC, ROHS
+
+Servicios
+Telefonía PSTN
+Telefonía y datos por móvil (GSM, UMTS, CDMA)
+Mensajería móvil (SMS, MMS)
+Acceso a Internet (ADSL, cable, Wimax, WLAN)
+VoIP, Push-to-Talk
+Correo electrónico, webmail
+Otros servicios a petición
+
+Seguridad
+Gestión granular de derechos de usuarios
+Acceso remoto vía https (contraseña, certificado)
+Registros detallados de auditorías
+Almacenamiento y transferencia encriptados
+Sistema operativo reforzado
+
+Rendimiento
+Carga de hasta 100.000 registros por segundo
+(en un servidor)
+Tiempo de búsqueda promedio: 5 s por 1.000
+resultados de consultas
+
+Normas y estándares
+Directiva UE 2006/24/CE
+ETSI TS 102 656
+ETSI TS 102 657
+
+9
+
+Utimaco DRS™
+
+Acerca de Utimaco
+Desde hace más de 25 años, Utimaco es uno de los más
+importantes proveedores mundiales de soluciones de
+seguridad de datos. Desde el 1 de julio de 2009, Utimaco
+Safeware AG forma parte del Grupo Sophos, un líder
+mundial de seguridad de TI y protección de datos con
+sedes en Boston (EE. UU.) y Oxford (Reino Unido). Aunque
+los productos de seguridad de datos de Utimaco son
+distribuidos ahora por Sophos, las unidades de negocio
+“Interceptación legal y soluciones de supervisión” y “Módulo
+de seguridad de hardware” conforman la actividad empresarial operativa de Utimaco. En el presente, Utimaco cuenta
+con más de 150 empleados.
+Utimaco proporciona sistemas de interceptación legal para
+operadores de red móvil y fija y proveedores de servicios de
+Internet desde 1994. El paquete de retención de datos de
+Utimaco se lanzó en respuesta a la directiva 2006/24/CE de
+la UE y a la solicitud de los clientes de telecomunicaciones
+de soluciones integradas de interceptación legal y retención de datos. Con más de 160 instalaciones en 60 países,
+Utimaco es uno de los principales proveedores mundiales
+del mercado de interceptación legal y retención de datos.
+
+Un equipo fuerte
+Utimaco LIMS y Utimaco DRS han sido desarrollados por
+un equipo de profesionales de telecomunicaciones con
+más de 16 años de experiencia laboral en este campo. En
+Utimaco, más del 55% de nuestros profesionales se dedican
+exclusivamente al desarrollo de productos y a la atención al
+cliente. El equipo de Utimaco LIMS invierte constantemente
+en la investigación y el desarrollo de productos que proporcionen a todos nuestros clientes la mejor solución posible.
+
+10
+
+…y un socio fuerte
+Las relaciones que establecemos con nuestros socios
+comerciales van más allá de la típica relación entre vendedor y cliente y se basan en la confianza, la honestidad,
+la seriedad y la sinceridad. Proporcionamos productos,
+asistencia y formación que contribuyen significativamente
+a las tareas técnicas y la prosperidad empresarial de
+nuestros socios y clientes. Respondemos a las necesidades
+de nuestros clientes a través del diseño de nuestros productos, el soporte técnico y la atención al cliente. Proporcionamos un valor excepcional y un nivel de servicio personalizado que sientan un nuevo estándar en nuestro sector
+y con el que nuestros competidores tienen que medirse.
+Estas son las razones por las que muchos de los principales
+proveedores de infraestructuras de telecomunicaciones de
+todo el mundo confían en productos y soluciones desarrollados por Utimaco Safeware AG.
+
+DRS – w orl dw i de
+
+11
+
+www.utimaco.com/drs
+Utimaco Safeware AG
+Germanusstraße 4
+52080 Aquisgrán
+Alemania
+Phone +49 (0) 241-16 96-0
+li-contact@utimaco.com
+
+Socio de Utimaco Safeware:
+
+Información sobre copyright
+Copyright © 1994-2011 – Utimaco Safeware AG – miembro del Grupo Sophos, junio de 2011
+Utimaco DRS™
+Utimaco DRS es una marca de Utimaco Safeware AG. Todas las demás marcas mencionadas son del correspondiente titular del copyright.
+Especificaciones sujetas a cambio sin previo aviso.
+
+

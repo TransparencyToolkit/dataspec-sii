@@ -1,0 +1,435 @@
+Innovating Intelligence
+
+ALIS
+
+Lawful Interception
+“ALIS, the most ﬂexible Lawful
+Interception Management
+System on the market”
+
+Overview
+The AQSACOM Lawful Interception System, ALIS, is a convergent Lawful
+Interception solution for all voice and data networks (PSTN, GSM, GPRS, 3G,
+LTE, CDMA, WCDMA, VoIP, xDSL, Satellite, E-Mail, etc.) using a centralized
+management platform.
+
+The customer beneﬁts of ALIS include:
+> One point of contact for the LI management to ensure state-of-the art security and
+reliability.
+
+> Flexible interfaces with either Internal Interception Functions (vendor equipment
+internal interception functions – IIF) or External Interception Functions (Probes – EIF).
+
+> Solution scalability to ensure cost-eﬃciency for Communication Services Providers
+> Solution ﬂexibility to adapt to Law Enforcement requirements.
+> Clear pricing and technical strategies based on a transparent and constructive
+collaboration.
+
+PAGE 1
+
+ALIS’ seamless network integration, distributed architecture and centralized
+management allow Communication Services Providers freedom from
+dependence upon proprietary network equipment and solutions. At the
+same time, with ALIS, evolutions within the CSP’s network remain
+transparent to the LEA.
+The ALIS platform is easy to use and requires minimal operator training, which
+substantially reduces the direct cost of performing lawful interception tasks.
+Collectively, ALIS’ features optimize operational and recurring Operator costs.
+
+ALIS
+Functional Overview
+
+Communication Service Provider
+
+Law Enforcement Agency
+
+Internal Network Interface for LI Provisioning (standard or proprietary)
+
+Standard Handover Interface port 1 (for administrative information/LI Provisioning)
+
+Internal Network Interface for IRI (standard or proprietary)
+
+Standard Handover Interface port 2 (for Intercept Related Information / IRI)
+
+Internal Network Interface for CC (standard or proprietary)
+
+Standard Handover Interface port 3 (for Content of Communication / CC)
+
+PAGE 2
+
+ALIS Overview
+ALIS Core
+This is the hub of ALIS. From the Core System, the mediation process between
+the network entity and the LEA domain is managed. The functionality of the
+ALIS Core remains the same regardless of the network and technology (PSTN,
+GSM, GPRS, 3G, LTE, CDMA, WCDMA, VoIP, xDSL, Satellite, etc.).
+The Core contains the basic software components needed to set up the Lawful
+Interception System, including the Network Connectors, Technology
+Connectors, LEA Connectors for HI2 and HI3 delivery and optional HI1 LEA
+Connectors for provisioning. The Operator and Administrator Clients are also
+included in the ALIS Core.
+The Core can be upgraded to integrate any newly emerging demands for more
+comprehensive Security, Redundancy, Alarms and Statistics.
+
+ALIS Network Connector (NC)
+Network Connectors manage the provisioning workﬂow of the intercepted
+targets for a designated network. NCs are also referred to as Application
+Connectors. Examples include: PSTN, GSM, GPRS, 3G, LTE, CDMA, WCDMA,
+VoIP, xDSL, Satellite, etc. There is a 1:1 ratio between a NC and a network or
+application. Multiple NC’s can be managed by a single ALIS platform.
+
+ALIS Technology Connector (TC)
+Technology Connectors manage the dialogue between the ALIS platform and the
+Interception Function (IF) in the network. Interception Functions can be either
+internal to the vendor/network equipment (IIF) or external using probes (EIF).
+
+ALIS LEA Connector (LC)
+LEA Connectors manage the dialog and the intercepted data transmission
+between the ALIS platform and the LEA equipment that typically resides in a
+Monitoring Center. Depending upon the requirements, the interception data
+could be routed for use in other additional applications such as data storage
+and retention.
+
+PAGE 3
+
+ALIS Features
+Supported Networks
+Fixed Line Networks
+> IMS
+
+> T1/E1
+
+> ISDN
+
+> PSTN (Fixed Telephony)
+
+> SS7
+
+>…
+
+Mobile Networks (2G/3G/4G Packet Switch and Circuit Switch)
+> GSM
+
+> CDMA
+
+> NGN
+
+> GPRS
+
+> WCDMA
+
+> IMS
+
+> UMTS
+
+> LTE (various releases)
+
+> …
+
+> xDSL
+
+> WiFi
+
+> Cable
+
+> FTTH
+
+> WiMAX
+
+>…
+
+> H.323
+
+>…
+
+> E-Mail Address
+
+> IMAP User Name
+
+> Origination/Destination IP Addresses
+
+> POP3 User Name
+
+> Header Information
+
+>…
+
+> MMS
+
+> Chat
+
+> HTTP
+
+> Voicemail
+
+> P2P
+
+>…
+
+IP Networks
+
+Services & Protocols
+VoIP Services
+> SIP
+> RTP
+E-Mail Services
+
+Plus a variety of other Services, such as:
+
+> Push-To-Talk over Cellular
+
+PAGE 4
+
+Regulatory Conformance
+3GPP
+> TS 33.106
+
+> TS 33.107
+
+> TS 33.108
+
+ETSI
+> ETSI TS 102 232 – n series (IP family)
+
+> ETSI ES 201 671 for Mobile (CS/PS) & Fixed
+
+» ETSI TS 102 232-1 for generic IP
+» ETSI TS 102 232-2 for e-mail
+» ETSI TS 102 232-3 for RADIUS/DHCP
+» ETSI TS 102 232-4 for Layer 2
+» ETSI TS 102 232-5 for VoIP
+» ETSI TS 102 232-6 for PSTN/ISDN
+» ETSI TS 102 232-7 for Mobile
+ANSI/ATIS
+> J-STD-025-A/B: Voice/CDMA
+
+> T1.678: VoIP/Voice
+
+> T1.IAS/IP: Internet/IP
+
+Inter-Standard Mediation
+> J-STD-025 ↔ ETSI ES 201 671
+
+> ETSI ES 201 671 ↔ T1.678
+
+> T1.678 ↔ ETSI ES 201 671
+
+> ETSI ES 201 671 ↔ ETSI TS 102 232
+
+National Variants
+> Supports Multiple National Variants (i.e. Australia, Belgium, Brazil, France,
+Germany, India, Netherlands, New Zealand, Portugal, South Africa, Sweden, U.S.A., …)
+
+> LEA Web Portal
+>…
+
+Vendor Compatability
+> Acme-Packet
+
+> Ericsson
+
+> Nortel Networks
+
+> Alcatel Lucent
+
+> Huawei
+
+> Qualcomm
+
+> Broadsoft
+
+> Italtel
+
+> Redback
+
+> Cirpack
+
+> Juniper
+
+> Siemens
+
+> Cisco
+
+> Nokia Siemens Networks
+
+>…
+
+PAGE 5
+
+System Features
+Operating System
+> Linux Red Hat 64 Bit/ Windows 2008 64 Bit
+System Performance
+> Up to 75 IRI’s per second, 15000 Simultaneous Interceptions in database, 1000 Network Elements per
+single ALIS Server.
+> A single ALIS-d device mediates up to 32 E1’s for Voice Mediation.
+> A single ALIS-d device mediates up to 250 Mbps for IP Mediation.
+Scalability and Modularity
+> Scalable –ALIS oﬀers the possibility to extend the system capacity and throughput by using additional
+ALIS-m and ALIS-d servers.
+> Modular – ALIS oﬀers the ability to incorporate ALIS-m and ALIS-d functions in a single server or to have
+them operate in individual servers.
+IRI/CC Buﬀering
+> Extended buﬀering capacity for CC via internal or external secure storage solution.
+Multi-Target ID
+> In cases where diﬀerent identiﬁers (IMSI/IMEI/MSISDN) refer to the same subscriber, ALIS ensures delivery of IRI
+and CC from that targeted subscriber
+Multi-Administration
+> Allows delivery of interception products to multiple LEAs.
+Media Gateway
+> Allows transcoding from IP to TDM and TDM to IP.
+
+PAGE 6
+
+Security Features
+Consistency Checks
+> Prevents malicious human intervention, and human or technical errors.
+> Guarantees coherence between the data in the network internal interception functions and the interception speciﬁcations
+in ALIS’ database. Consistency checks can occur on a regular or random basis, manually or automatically.
+
+Secure and encrypted interfaces between the Network Components and the LEA monitoring facilities.
+Secure separation of warrant information from IRI and CC.
+
+Full Encryption Solution
+> Data traﬃc collected & delivered
+
+> Full encryption of ALIS HD partition
+
+> Database encrypted
+
+> Full encryption of traces/logs
+
+> Encrypted backup
+
+Secure Access
+> Password Management
+
+> Single Login
+
+> Virtual Keypad
+
+> Non-active Session Timeout
+
+>…
+
+Encryption
+> AES
+
+> TLS
+
+> IPSec
+
+> SSH
+
+>…
+
+Alarms System Supervision & Monitoring:
+> Hardware/Software/Link/Collection and Delivery Equipment
+> SNMP, Syslog, Nagios, …
+
+Reliability Features
+Load Balancing
+> Dynamic load balancing to distribute intercept data among multiple ALIS-d platforms.
+System Redundancy
+> High-Availability architecture to provide 99.999% availability.
+Disaster Recovery System
+> For worst case scenario remote location to reduce the risk of interruption of services.
+Automatic/Manual Back-up
+> Frequency per day/every 4 hours
+
+> Local and/or external
+
+PAGE 7
+
+Value Added Features
+> Electronic Provisioning
+> Statistics
+
+> Reports dedicated to the LEA
+
+> Third Party IMC (Interception
+
+(Historical data)
+
+Management Center)
+
+> Billing
+
+> Number Portability
+
+> Geographical Interception / Location
+
+> Addition of information in the IRI
+
+Based Monitoring
+
+> IP Traﬃc Filtering/Classiﬁcation:
+HTTP/CHAT/Email/VoIP…..
+> Logs
+
+> Console Mode
+
+>…
+
+EIF (Probe) Features
+> ALIS SS7 EIF
+
+> ALIS DHCP EIF
+
+> ALIS MMS EIF
+
+> ALIS VoIP EIF
+
+> ALIS IP EIF
+
+> ALIS GPRS EIF
+
+> ALIS RADIUS EIF
+
+> ALIS Email EIF
+
+> ...
+
+EUROPE
+
+MENA
+
+ASIA
+
+LATAM
+
+NORTH AMERICA
+
+AUSTRALASIA
+
+Paris, France
++ 33 1 69 29 84 00
+Florianópolis, Brazil
++55 48 3024 2902
+
+EUROPE
+
+Dubai,UAE
++ 971 4 399 0048
+New York, USA
++ 1 718 210 0340
+
+Hyderabad, India
++ 91 4067 330 100
+Melbourne, Australia
++61 3 9909 7280
+
+NORTH AMERICA
+
+MENA
+
+FOR MORE INFORMATION VISIT OUR WEB SITE
+ASIA
+
+WWW.AQSACOM.COM
+INFO@AQSACOM.COM
+
+LATAM
+AUSTRALASIA
+
+

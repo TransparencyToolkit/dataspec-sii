@@ -1,0 +1,67 @@
+L’intégration des technologies
+NetFlow and sFlow® à la plateforme Observer permet de fournir une solution complète d’analyse permettant aussi bien
+le suivi des performance des application que la mesure en temps réel de la voix sur IP ou encore l’obtention de
+statistiques sur les données NetFlow et sFlow.
+Observer reste la seule solution permettant aux professionnels de l’informatique d’avoir une visibilité complète de leur réseau et de
+vraies capacités de monitoring dans toute l’entreprise.
+
+NetFlow
+A propos de NetFlow
+NetFlow est un mécanisme de rapport de trafic, inspiré de Cisco, que les fabricants intègrent à leurs équipements (routeurs ou
+commutateurs principalement). NetFlow permet le suivi des statistiques de « flow » (flux) où le flow est défini comme un flux de
+trafic route entre 2 paires d’adresses sur un port donné. Ces données sont ensuite envoyées à un élément de collection tel une sonde
+experte de Network Instruments.
+Intégration de NetFlow à Observer
+Toutes nos sondes expertes peuvent être configurées pour agréger les flux des différents équipements NetFlow d’un site donné et
+envoyer les informations à une console centrale Observer. Les données NetFlow suivantes peuvent alors être visualisée à la console :
+•
+
+•
+
+Statistiques en temps réel
+o Stations les plus bavardes
+o Matrice de paires
+o Utilisation de la bande passante
+o Analyse VLAN
+o Suivi des applications
+Tendances à long terme
+
+ELEXO - 20 Rue de Billancourt - 92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00 - Télécopie : 33 (0) 1 41 22 10 01 - Courriel : info@elexo.fr
+
+Avantages de cette intégration
+L’intégration de la technologie NetFlow à l’environnement Observer présente de nombreux avantages :
+Obtenir de la visibilité sur le trafic routé pour chaque port peut être un investissement assez lourd s’il est réalisé uniquement grâce
+aux sondes, en particulier pour les réseaux utilisant les principes de load-balancing et de redondance. NetFlow, utilisé avec
+Observer, vous permet d’associer les deux technologies afin de bénéficier d’une visibilité maximale, à la fois économique et
+adaptable.
+NetFlow est efficace comme première ligne de diagnostic car il permet de détecter les anomalies du réseau dès qu’elles se
+produisent. Par exemple, si NetFlow détecte qu’un utilisateur utilise une quantité excessive de bande passante, vous pouvez alors
+utiliser l’analyse experte d’Observer pour définir son activité.
+La consommation de bande passante et la sécurité seront optimisées grâce aux sondes Expertes qui vont consolider plusieurs flux
+Netflow provenant de multiples équipements et l’encrypter avant de l’envoyer à la console Observer.
+La technologie NetFlow est couramment incluse dans l’infrastructure de l’entreprise, il n’y a donc pas d’investissement
+supplémentaire nécessaire.
+La performance des applications a un impact direct sur la productivité de l’entreprise. NetFlow permet d’identifier quelles
+applications sont actives sur le réseau et fournit des statistiques sur l’utilisation de ces applications. Observer permet ensuite de
+rentrer dans le détail et d’analyser la performance de l’application.
+« Suivre NetFlow en environnement Observer nous apporte de nombreux avantages. Les données NetFlow révèlent toute activité
+anormale sur le réseau, et Observer me permet de "remonter" jusqu’à l’anomalie détectée. Même si NetFlow affiche des données de
+diagnostic, j’utilise Observer pour résoudre les problèmes au niveau applicatif. Résultat, Observer me permet de collecter, mais
+également d’agir sur des données déjà en service dans notre réseau. »
+Stephen Joseph, LEK Securities (cabinet financier new-yorkais)
+
+sFlow
+A propos de sFlow
+sFlow est un mécanisme standard de rapport du trafic similaire à NetFlow, intégré aux commutateurs par les fabricants. sFlow
+permet de surveiller le trafic prélevé sur le fond de panier de commutation des commutateurs, puis d’envoyer les données à
+n'importe quelle sonde Experte de Network Instruments. De la même manière qu’Observer intègre NetFlow, Observer fournit alors
+des statistiques en temps réel et des rapports de tendances à long terme sur ces données.
+Pour plus d’information sur sFlow, visitez sFlow.org.
+La sonde experte collecte les informations NetFlow and sFlow, les traite et transfert les flux de données vers toute console Expert
+Observer ou Observer Suite situé sur le réseau.
+© 2008 Network Instruments, LLC. Tous droits réservés.
+ELEXO - 20 Rue de Billancourt - 92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00 - Télécopie : 33 (0) 1 41 22 10 01 - Courriel : info@elexo.fr
+
+

@@ -1,0 +1,366 @@
+Observer
+Un outil adapté à la VoIP
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Défis de la surveillance et de l’analyse de la VoIP
+z
+z
+z
+z
+z
+
+Des outils courants ont été conçus pour une utilisation en laboratoire
+Aucune méthode de détermination rapide du statut et de la santé
+Aucun mécanisme de compréhension de la qualité globale des appels
+Les dépendances de VoIP ne sont pas correctement implémentées
+Des outils séparés accroissent le temps d’apprentissage et réduisent le RsI
+
+Autres outils de VoIP
+
+Observer
+
+Analyse VoIP de l’Observer
+Avantages
+z
+z
+z
+z
+z
+
+Usage pour entreprise
+Vues agrégées
+Détail actionnable
+Diagnostics en profondeur
+Détaillé
+
+Sauts de d’appel
+
+Mise en place
+et durée de l’appel
+
+Fonctions
+z
+
+Note de qualité
+z
+
+z
+z
+
+Expert VoIP
+Call Detail Records
+z
+z
+
+z
+
+MOS, R-factor
+
+Mise en place, dégradation, etc.
+Station / téléphone
+
+Diagramme de sauts d’appels
+
+Toutes les caractéristiques et fonctionnalités d’analyse VoIP sont en
+standard dans l’Observer Expert, la Suite, et toutes les sondes
+
+MOS, R-factor, QoS
+
+Tableau résumé de la VoIP
+z
+
+Agrège les mesures pour les appels actifs, clos, totaux
+
+Tableau du CDR de la VoIP
+z
+
+Vues détaillées appel par appel (Call Detail Records)
+
+Termes de la VoIP
+z
+z
+z
+z
+z
+z
+z
+
+Gigue (jitter)
+R-Factor / MOS (Mean Opinion Score)
+QoS / TOS / Préséance (precedence)
+Salves (burstiness)
+Blanc (gap)
+Durée du blanc (gap duration)
+Techniques de compression (Codecs)
+
+Gigue (jitter)
+z
+
+Qu’est-ce que c’est ?
+z
+
+La gigue est la variation dans le temps entre les paquets transmis et reçus.
+z Par exemple, si un flux de paquets quitte un matériel avec 30 ms d’espacement entre
+paquets et arrive avec 50 ms d’espacement entre paquets, la gigue est de 20 ms.
+z L’ajustement de la gigue des mémoires tampon peut entraîner l’accroissement de la
+latence et par conséquent une coupure.
+z Le dépassement de la gigue de la mémoire tampon va introduire des pertes de paquets.
+z
+
+Pourquoi la mesurer ?
+z
+
+La compréhension de la gigue vous donne les éléments tangibles pour vous aider à
+améliorer la qualité des appels
+
+Mesure de la gigue par l’Observer
+en agrégé…
+
+et par appel…
+
+Note de qualité de l’appel
+z
+
+Qu’est-ce que c’est ?
+z
+
+R-factor
+Identifie la qualité de l’appel en utilisant une seule source de visibilité (appels réels en direct)
+z Basé sur le E-Model
+z Échelle : 1-100, le maximum théorique étant 93.2 après la dégradation typique
+z
+
+z
+
+MOS
+Détermine le niveau de satisfaction de l’utilisateur pour un appel
+z Tient compte de différents facteurs (qualité du combiné, bruit ambiant, performance du réseau)
+z Échelle : 1-5, avec 4.0 et plus considéré comme satisfaisant, 4.5 et plus comme extrêmement
+satisfaisant
+z En utilisant un appel simulé, le trafic peut être capturé à destination et comparé avec les données
+originales envoyées pour identifier la dégradation.
+z
+
+Note de qualité de l’appel
+z
+
+Pourquoi mesurer la note de qualité de l’appel ?
+z
+
+z
+
+Pour fournir des notes objectives et subjectives afin d’évaluer les conditions existantes et les
+comparer avec celles historiques.
+
+Comment l’Observer mesure-t-il la qualité de l ’appel ?
+z
+
+Il déduit un MOS simulé, car il ne génère pas d’appels simulés.
+
+Note de qualité de l’appel de l’Observer
+en agrégé…
+
+par appel…
+
+et Expert…
+
+Salves (bursts) et densité de blancs
+z
+
+Qu’est-ce que c’est ?
+Un burst (salve) est une période caractérisée par de forts taux de perte de paquets.
+z Burst Percentage est le % de temps d’apparition de salves.
+z Burst Density est le taux de paquets de données VoIP perdu pendant une période de
+burst.
+z
+
+z
+
+Pourquoi les mesurer ?
+De forts taux affectent la qualité de l’appel, spécialement quand ils sont associés à de
+longues périodes (average Burst Duration).
+z Les raisons possibles de pertes de paquets incluent la congestion du réseau, la
+défaillance du media et la défaillance du lien.
+z
+
+Densité de blanc et durée
+z
+
+Qu’est-ce que c’est ?
+
+Les bursts (salves) sont des périodes caractérisées par de forts taux de perte de paquets.
+Les blancs (gaps) sont les périodes entre les bursts.
+Un gap est une période caractérisée par de plus faibles niveaux de perte de paquets que
+celui des périodes de burst qui les relient.
+z La Gap Density est le pourcentage de paquets perdus pendant les gaps.
+z L’ Average Gap Duration est mesuré en temps.
+z
+z
+z
+
+z
+
+Pourquoi les mesurer ?
+z
+z
+
+La connaissance du gap aide à la définition du burst.
+Dans la plupart des cas, les paquets perdus durant les gaps sont rendus insignifiants par
+les techniques de dissimulation de perte de paquets intégrées dans l’infrastructure VoIP.
+
+Salve (burst) et densité de blanc de l’Observer
+en agrégé…
+
+Et par appel…
+
+QoS/préséance
+z
+z
+z
+
+Support de multiple définitions de Qualité de service (QoS)
+Aussi connu comme préséance
+Aussi connu comme Type de Service (TOS)
+
+z
+
+Qu’est ce que c’est?
+z
+
+z
+
+La QoS est le positionnement du bit utilisé par les routeurs et commutateurs pour gérer
+la priorité des paquets dans les flux.
+
+Pourquoi la mesurer ?
+z
+
+z
+
+Le positionnement incorrect de la QoS peut
+amener à la contention de la VoIP et
+d’autres données sur un réseau.
+La contention pourra amener des délais dans
+la délivrance des paquets et ainsi réduire la
+qualité de l’appel.
+
+Observer’s QoS/TOS/préséance
+/TOS/
+en agrégé…
+
+par appel…
+
+et décodage…
+
+Techniques de compression
+z
+
+Codec est l’abréviation de Coder/Decoder
+
+z
+
+Différentes techniques de compression (Codec)
+G.711: 64kbps (sans compression)
+z G.729: 8kbps
+z G.723: 6.3kbps, 5.3kbps
+z
+
+z
+
+Des compressions plus importantes réduisent le R-Factor et le MOS mais
+réduisent aussi la contention potentielle
+
+Affichage par l’Observer des Codec utilisés
+en agrégé…
+
+par appel…
+Et décodage…
+
+Analyse multipoints
+z
+z
+z
+z
+z
+z
+
+Suit jusqu’à 10 sauts de
+conversations ou transactions
+Pointe les goulets d'étranglement
+Isole les délais
+Identifie les pertes de paquets
+Vérifie les SLA des tierces parties
+Mesure le délai
+z
+z
+z
+
+Dans chaque sens
+En aller-retour
+Individuel
+
+Utilise l’analyse multi sauts sur les liens WAN, les connexions
+Ethernet, le trafic sans fil et les réseaux gigabit
+
+Analyse multipoints automatisée
+z
+
+Permet d’identifier des problèmes de transaction comme la
+Latence et la connexion intermittente causée par la congestion du
+réseau, la fragmentation, la perte de paquets, etc..
+
+z
+
+L’Analyse Multipoints permet de déterminer d’où vient la
+lenteur:… est-ce en périphérie, en coeur, ou mon fournisseur de
+services…?
+
+Interrompu par
+le fournisseur
+d’accès
+Temps
+Pointage du
+délai
+
+Reconstruction de flux/Enregistrement de la voix
+
+z
+
+Reconstruit le flux du média transportant la voix en un seul fichier au format wav pour pouvoir
+l’écouter
+
+Résoudre les Problèmes de VoIP
+z
+
+Offre VoIP élargie…
+z
+z
+z
+
+z
+
+En plus des standards SIP, SCCP (Cisco
+Skinny), H323, and MGCP
+Support d’Avaya CCMS et Nortel UNIStim
+“Call Detail Records” (CDRs) ajoutés au
+rapports réseau pour l’analyse long terme
+et rapports
+
+Avenir de la VoIP :
+z
+z
+
+32% des ingénieurs réseau n’ont pas la
+possibilité de surveiller la performance VoIP
+61% n’ont pas la possibilité de surveiller les
+applications
+
+Source: Surveys from 273 network engineers around the U.S. between April and December 2006
+
+

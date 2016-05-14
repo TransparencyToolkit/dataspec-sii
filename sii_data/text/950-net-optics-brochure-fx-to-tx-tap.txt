@@ -1,0 +1,142 @@
+FX to TX Tap
+Net Optics FX to TX Tap simplifies connecting GigaBit copper monitoring and security
+devices to FX fiber network links. Convert FX to TX and tap into the link with one
+device, reducing cost and complexity at the same time. FX to TX Taps support passive
+monitoring of links at speeds at 100 Mbps.
+The FX to TX Taps establish permanent passive access ports without introducing a
+point of failure or disturbing other network connections. Without an IP address,
+monitoring devices are isolated from the network, dramatically reducing their exposure
+to attacks. However, the monitoring device connected to the Tap still sees all
+full-duplex traffic, including Layer 1 and Layer 2 errors.
+
+Operating Specifications:
+
+Operating Temperature: 0ºC to 55ºC
+Storage Temperature: -10ºC to 70ºC
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Mechanical Specifications:
+Power Supply:
+
+Input: 100-240V, 0.5A, 47-63Hz, Output: 5V 3A
+Dimensions: 1.125” high x 6.5” deep x 6.0” wide
+
+Splitter Specifications:
+Fiber Type:
+
+For extra uptime protection, Net Optics FX to TX Taps offer redundant power
+connections. Should the primary power source fail, the Tap automatically switches to
+the backup power source. All network and monitoring cables necessary for
+plug-and-play deployment are included.
+
+Passive, Secure Technology
+
+• Provides passive access at speeds at 100 Mbps without data stream interference
+or introducing a point of failure
+• Access FX links with copper devices without a separate converter
+• Permanent in-line installation without affecting network performance
+• No IP address is needed for the Tap or monitoring device, enhancing monitoring
+security
+• Redundant power ensures monitoring uptime
+
+Ease of Use
+•
+•
+•
+•
+•
+
+LED indicators show redundant power and link status
+Front-mounted connectors make installation and operation quick and easy
+Silk-screened application diagram illustrates all connections for easy deployment
+Optional 19-inch rack frames hold up to 2 Taps
+Tested and compatible with all major manufacturers’ monitoring devices, including
+protocol analyzers, probes, and intrusion detection/prevention systems
+
+Certifications:
+
+• Fully RoHS compliant
+
+Corning Multimode 62.5/125µm, wavelength 1300nm
+Split Ratio
+Network Port
+Monitor Port
+Insertion Loss
+Insertion Loss
+80/20
+1.8 dB
+8.1 dB
+70/30
+2.4 dB
+6.3 dB
+60/40
+3.1 dB
+5.1 dB
+50/50
+4.5 dB
+4.5 dB
+Fiber Type:
+
+Corning Singlemode 8.5/125µm, wavelength 1310nm
+Split Ratio
+Network Port
+Monitor Port
+Insertion Loss
+Insertion Loss
+80/20
+1.3 dB
+8.0 dB
+70/30
+2.0 dB
+6.1 dB
+60/40
+2.8 dB
+4.8 dB
+50/50
+3.7 dB
+3.7 dB
+
+Cable Interface:
+Copper Cable Type:
+
+22-24 AWG unshielded twisted pair cable, CAT5/CAT5e
+Copper Link Length: 100 meters
+Fiber Link Length: 2km on 62.5m Multimode Fiber,
+5km on 8.5m Singlemode Fiber
+
+Connectors:
+
+Monitoring Ports: (2) RJ45, 8-pin connectors
+Network Ports: (2) Multimode Duplex SC connectors
+
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Part Number
+
+Description
+
+CVT-MMn*/CU
+CVT-SMn*/CU
+RK-2
+
+FX to TX Tap, Multimode
+FX to TX Tap, Singlemode
+Two-Slot Rackmount Frame
+
+*”n” represents split ratio: 5 is 50/50, 4 is 60/40, 3 is 70/30, and
+2 is 80/20. All products include a 1 year manufacturer’s warranty. An
+additional 1 or 2 year extended warranty may also be purchased.
+
+1130 Mountain View-Alviso Road • Sunnyvale, CA 94089
+Tel: +1 (408) 737-7777 • www.netoptics.com
+
+Net Optics® is a registered trademark of Net Optics, Inc. Copyright 1996-2006 Net Optics, Inc. All
+rights reserved. Additional company and product names may be trademarks or registered trademarks
+of the individual companies and are respectfully acknowledged. PUBTPCVTMMFXCUD Rev. 1, 06/06
+
+

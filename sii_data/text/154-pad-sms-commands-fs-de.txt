@@ -1,0 +1,605 @@
+Steuerung Voice-Funktionen über SMS
+(MEK-FS1 und FS1b ab V1.04.00)
+Mikrofone ein-/ausschalten
+Zurückgesendet wird eine Antwort-SMS (siehe 1.1.0).
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956M
+
+2
+
+1
+
+0, 1
+
+3
+
+1
+
+0, 1
+
+Bedeutung
+Kennung
+Mikrofon1: 0 =
+ausschalten,
+1=einschalten, X=
+k.Ä
+Mikrofon2: 0 =
+ausschalten,
+1=einschalten, X=
+k.Ä
+
+1.0.1 Lautstärke einstellen
+Zurückgesendet wird eine Antwort-SMS (siehe 1.1.0).
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956L
+
+2
+
+3
+
+000-255
+
+Bedeutung
+Kennung
+MikrofonLautstärke
+(Wavecom
+Microphone gain
+controler 2)*
+
+(*)
+0
+1
+2
+3
+...
+19
+20
+
+0 db
+0,5 db
+1 db
+1,5 db
+9,5 db
+10 db
+
+21 - 60
+61
+62
+...
+101
+102 -127
+
+30 db
+30,5 db
+31 db
+50,5 db
+51 db
+
+128 - 243
+244
+245
+246
+...
+255
+
+1.0.2 Relais stellen
+Zurückgesendet wird eine Antwort-SMS (siehe 1.1.0).
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956R
+
+Bedeutung
+Kennung
+
+-6,5 db
+-6 db
+-5,5 db
+-5 db
+-0,5 db
+
+12
+
+61
+
+V5958I
+0, 1
+
+Kennung
+Relais: 0 für
+=
+ausschalten,
+1=einschalten
+
+1.0.3 Service Center Adresse einstellen
+Zurückgesendet wird eine Antwort-SMS (siehe 1.1.0).
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956+
+
+2
+
+max. 19
+
+z.B.: 491722270000
+
+Bedeutung
+Kennung
+Service Center
+Adresse
+
+Einstellungen abfragen
+Diese Befehl ermöglicht es die aktuellen im Gerät gültigen Einstellungen
+abzufragen.
+Zurückgesendet wird eine Antwort-SMS (siehe 1.1.0).
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956I
+
+Bedeutung
+Kennung
+
+1.0.5 Einstellungen abspeichern
+Die aktuell gültigen Einstellungen für den Zustand der Mikrofone sowie die LautstärkeEinstellung werden im Gerät permanent gespeichert, d.h. bleiben auch nach dem Ausschalten des
+Gerätes erhalten, bzw. auch nach einem Neustart gültig.
+
+Zurückgesendet wird eine Antwort-SMS (siehe 1.1.0).
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956S
+
+Bedeutung
+Kennung
+
+1.1.0 Antwort SMS (Aktuelle Einstellungen)
+Damit das Gerät eine Antwort-SMS senden kann, muß im Gerät eine passende
+Service Center Adresse programmiert sein. (z.B. über 1.0.3).
+Diese SMS wird als Antwort auf die folgenden SMS zurückgesendet:
+Mikrofone einstellen (1.0.0); Lautstärke einstellen (1.0.1); Relais stellen
+(1.0.2);
+Service Center Adresse einstellen (1.0.3);
+Abfrage Einstellungen (1.0.4); Einstellungen abspeichern (1.0.5);
+Feld – Nr.
+
+Anzahl Zeichen
+
+Werte
+
+Bedeutung
+
+1
+
+6
+
+V5958I
+
+2
+
+3
+
+000-255
+
+3
+
+1
+
+0, 1
+
+4
+
+1
+
+0, 1
+
+5
+
+1
+
+0, 1
+
+6
+
+2
+
+00-31, 99
+
+7
+
+max. 24
+
+z.B.:
+262,01,580F,93F1,28
+
+8
+
+1
+
+;
+
+9
+
+10
+
+z.B.: V1.04.00
+
+1
+
+;
+
+Kennung für
+Antwort-SMS vom
+MEK-FS
+MikrofonLautstärke
+Zustand Mikrofon1:
+0 = AUS, 1=EIN
+Zustand Mikrofon2:
+0 = AUS, 1=EIN
+Zustand Relais: 0 =
+AUS, 1=EIN
+Feldstärke:
+0=-113dBm –
+31=-51dBm ;
+99=nicht
+ermittelbar
+Zelleninformation:
+maximal 5 durch
+Komma getrennte
+Felder: MCC,
+MNC, LAC, CI,
+BSIC (*)
+Feld-Begrenzung:
+Ende der
+Zelleninformation
+Versionsinformatio
+n
+Feld-Begrenzung:
+Ende der
+Versionsinformatio
+n
+
+Beispiel-SMS: V5958I05610018262,01,580F,93F1,28;V1.04.00;
+(*)
+
+MCC = Mobile Country Code
+MNC = Mobile Network Code
+LAC = Location Area Code ( hexedecimal)
+CI = Cell Identity (hexadecimal)
+BSIC = Base transceiver Station Identity Code
+2.0.0 Automatische Anwahl
+Befehl zum Aktivieren bzw. Deaktivieren der automatischen Anwahl.
+
+Zurückgesendet wird eine Antwort-SMS im gleichen Format (siehe 2.1.0).
+Feld – Nr.
+
+Anzahl Zeichen
+
+Werte
+
+Bedeutung
+
+1
+
+6
+
+V5956A
+
+2
+
+max.
+1 4
+
+0 –0,3000
+1
+
+3
+
+1
+
+0, 1
+
+4
+
+1
+
+0, 1
+
+5
+
+1
+
+0, 1
+
+6
+
+max. 19
+
+z.B. 01721234567
+
+Nachlaufzeit in
+Kennung
+Sekunden.
+0 =0 =
+auto. Anwahl:
+Keine
+Nachlaufzeit
+ausschalten,
+1=
+und
+kein auto.
+einschalten
+auto. Anwahl wenn
+Zündung: 0 = Nein,
+1 = Ja
+auto. Anwahl wenn
+Kontakt: 0 = Nein,
+1 = Ja
+auto. Anwahl wenn
+Bewegung: 0 =
+Nein, 1 = Ja
+Nummer, die
+angewählt wird
+
+2.0.1 Automatische Anwahl aussetzen
+Wird eine Verbindung manuell aufgelegt von der vom Gerät angerufenen Seite, so wird die
+Verbindung vom Gerät sofort wieder neu aufgebaut, sofern noch Anwahl-Signale aktiv sind. Wird
+die folgende Befehls-SMS an das Gerät geschickt, so erfolgt nach dem Trennen der Verbindung
+eine neue Anwahl erst dann, wenn ein weiteres Anwahl-Signal aktiv wird bzw. eines der beim
+Beenden der Verbindung noch aktiven Signale, nach einer inaktiven Phase, erneut aktiv wird. In
+einer Variante dieser Befehls, erfolgt zusätzlich auch eine sofortiges Auflegen durch das Gerät.
+
+Zurückgesendet wird eine Antwort-SMS vom Typ 2.1.1
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956A
+
+2
+
+1
+
+2, 5
+
+Bedeutung
+Kennung
+auto. Anwahl
+aussetzen
+5 = mit Auflegen
+(nur FS1b)
+
+2.0.2 Nachlaufzeit und automatisches Auflegen
+Mit dieser SMS kann eine Zeit programmiert werden, nach der eine Verbindung vom Gerät
+automatisch beendet wird, sobald keines der programmierten Anwahl-Signale mehr aktiv ist. Zu
+beachten ist, daß der Wert 0 bedeutet, daß KEIN automatisches Auflegen durch das Gerät erfolgt
+auch wenn kein Anwahl-Signal mehr aktiv ist.
+
+Zurückgesendet wird eine Antwort-SMS vom Typ 2.1.2
+Feld – Nr.
+1
+
+Anzahl Zeichen
+7
+
+Werte
+V5956AN
+
+Bedeutung
+Kennung
+
+2
+
+max. 4
+
+0 – 3000
+
+Nachlaufzeit in
+Sekunden. 0 =
+Keine Nachlaufzeit
+und kein auto.
+Auflegen.
+
+2.0.3 Abfrage Einstellungen auto. Anwahl
+Zurückgesendet wird eine Antwort-SMS vom Typ 2.1.0
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5956A
+
+Bedeutung
+Kennung
+
+2.0.4 Abfrage Nachlaufzeit
+Zurückgesendet wird eine Antwort-SMS vom Typ 2.1.2
+Feld – Nr.
+1
+
+Anzahl Zeichen
+7
+
+Werte
+V5956AN
+
+Bedeutung
+Kennung
+
+2.1.0 Anwort automatische Anwahl
+Antwort-SMS auf Einstellungen auto. Anwahl (2.0.0) und Abfrage auto. Anwahl
+(2.0.3)
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5958A
+
+2
+
+1
+
+0, 1
+
+3
+
+1
+
+0, 1
+
+4
+
+1
+
+0, 1
+
+5
+
+1
+
+0, 1
+
+6
+
+max. 19
+
+z.B. 01721234567
+
+Beispiel-SMS: V5958A110001721234567
+
+Bedeutung
+Kennung
+auto. Anwahl: 0 =
+ausgeschaltet, 1 =
+eingeschaltet
+auto. Anwahl wenn
+Zündung: 0 = Nein,
+1 = Ja
+auto. Anwahl wenn
+Kontakt: 0 = Nein,
+1 = Ja
+auto. Anwahl wenn
+Bewegung: 0 =
+Nein, 1 = Ja
+Nummer, die
+angewählt wird
+
+2.1.1 Antwort auto. Anwahl aussetzen
+Anwort-SMS auf auto. Anwahl aussetzen ( 2.0.1 ).
+Feld – Nr.
+1
+
+Anzahl Zeichen
+6
+
+Werte
+V5958A
+
+2
+
+1
+
+2
+
+Bedeutung
+Kennung
+auto. Anwahl wird
+ausgesetzt
+
+2.1.2 Antwort Nachlaufzeit
+Antwort-SMS auf Programmierung Nachlaufzeit (2.0.2)
+Feld – Nr.
+1
+2
+
+Anzahl Zeichen
+7
+max. 4
+
+Werte
+V5958AN
+0-3000
+
+Bedeutung
+Kennung
+Nachlaufzeit
+
+2.1.3 Abfrage IMEI-Nummer des GSM-Modul (Ab Version 1.04.02)
+Zurückgesendet wird eine Antwort-SMS vom Typ 2.1.4
+Feld – Nr.
+1
+
+Anzahl Zeichen
+7
+
+Werte
+V5956IM
+
+Bedeutung
+Kennung
+
+2.1.2 Antwort IMEI-Abfrage (Ab Version 1.04.02)
+Antwort-SMS auf Abfrage IMEI-Nummer des GSM-Modul (2.1.3)
+Feld – Nr.
+1
+
+Anzahl Zeichen
+7
+
+Werte
+V5958IM
+
+2
+
+22
+
+z.B.
+V5958IM500064110198410
+
+Bedeutung
+Kennung
+IMEI-Nummer =
+500064110198410
+
+PAD-Datentechnik GmbH
+DATE \@ "dd.MM.yy" 01.09.01
+PAGE \* MERGEFORMAT 5/ NUMPAGES \* MERGEFORMAT 5
+
+

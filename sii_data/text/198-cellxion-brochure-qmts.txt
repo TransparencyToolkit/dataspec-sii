@@ -1,0 +1,183 @@
+-
+
+n
+
+a
+
+'
+
+I.
+
+/
+
+QMTS
+Quad Modem Telemetry System
+
+I
+
+*_
+
+The quad modem telemetry system (QMTS) is a multi-role communications
+platform designed to simultaneously utilise the wireless data networks of
+up to 4 mobile network operators in a single geographic location. Data is
+shared between carrier networks and aggregated in a central secure server
+before being sent to any number of configured client machines. Sharing
+the data payload across multiple networks leads to higher throughput and
+greater resilience.
+The device has an integrated router that manages the packet queue
+internally, with all traffic carried over secure tunnels between the QMTS
+and the secure server. In addition t o providing secure, reliable IP transport
+at up to 4x a single modem solution, the QMTS has built-in GPS for
+accurate position reporting and tracking.
+
+KEY APPLICATIONS
+
+BENEFITS AND KEY FEATURES
+
+The QMTS has a wide variety of applications,
+including:
+
+The QMTS has a number of key benefits:
+
+D Backhaul of video and other surveillance
+traffic
+
+D Use as a high bandwidth wireless router
+Remote control of missions critical assets
+
+D Higher bandwidth than using a single
+operator
+D Resilience from using multiple networks
+D High security of data streams
+
+D Vehicle tracking and monitoring
+
+D System is designed to use low cost standard
+data SlMs
+
+D As a secure communications tool
+
+D Built in router, switch & GPS
+D Up to 64 GB of on board storage via micro
+SD card
+D Secure server can be located anywhere
+including user's own secure data centres
+
+D Secure server serves multiple QMTS devices
+D On-board processor able to run bespoke
+user applications.
+
+Cumrnrnial
+
+I ~ (I o r ~ l ~ d e
+rr i ~
+
+Far further infwmation please contact sales on UK +44 (0)20 31 37 1637
+
+US +l (704)248 6229 or email ~ l ~ ~ I l X i o n , n a
+
+QMTS SYSTEM ARCHITECTURE
+
+I
+
+Data from the the QMTS is split up and transmitted across
+separate mobile networks to the secure server. The secure
+server aggregates the data streams in the correct order.
+Traffic streams to and from the secure server are encrypted
+and within VPN tunnels. Remote devices such as cameras
+and surveillance are connected to the QMTS via the two
+Ethernet interfaces.
+
+Secure Server
+
+SPECIFICATION
+Communications
+
+B
+B
+B
+B
+B
+B
+W
+
+LTE (in development/Q4)
+700/800/1800/2600
+UMTS/HSPA
+850/900/1700/1900/2100 MHz
+850/900/1800/1900 MHz
+GSM/EDGE/GPRS
+28 Channel Receiver
+GPS
+Ethernet
+Ol1 O0
+WiFi dongle included
+1 X USB 2.0
+USB
+
+Radio Bearers (x4)
+
+8
+
+HSUPA
+UMTS
+B EDGE
+W GPRS
+Note ACtual be-
+
+2
+rates depend on a wide range of pararneten including distance from
+
+hase station, number of usen and network operator pol~cy.In practice the rates seen by
+wical mobile daa useffi are usually significantly less than the maximum bearer rates.
+
+Onboard Processing
+
+B Primary Processor
+
+RAM
+W ROM
+B Solid State Memory
+B OS
+
+Freescale i.MX537 800 MHz
+ARM Cortex-A8
+512 MB DDR2-667 SDRAM
+128 MB NAND Flash
+Micro SD up to 64GB
+Linux
+
+Physical dimensions
+
+W108.5mm X L104mm X H45mm
+B Weight
+W Power
+
+External Peripheral Control
+
+B Ix CANBUS for Automotive monitoring and control
+B 6x GP10 (3.34
+B I x Serial Port (RxTTx, No Flow Control)
+
+Secure Server Hardware Requirements
+
+B Processor
+
+Intel:2 X BX80614L5630-Xeon
+L5630 2.13GHz Quad Core 12MB
+Cache (or AMD equivalent)
+
+B RAM
+B Hard Disc
+
+12 GB
+500 GB
+
+Encryption
+
+B AES-128, AES-256, DES, 3DES, ARC4 and Blowfish with
+SHA-1 HMAC for Authentication
+
+mlOltm Praprihrihrtary&nfrdentj;rl. Not 1
+
+

@@ -1,0 +1,133 @@
+InveaTecH
+
+101211111
+
+1 - 100 Gbps Interception Probe
+
+OEM IP network traffic interception probe
+support for multiple 1GbE -100GbE
+Line-rate L2, L3 and LL4 paclRet processing
+Voice over IP and E-mail interception
+Easy integration with 3rd party systems
+Interception connguration via EIS, RESTful API
+HTIPS, SETP, EISI handover interfaces
+High-speed, standard and virtual models
+
+www.inveacom
+
+• INVEA-TECH a s
+U Voclarny 2965/2
+616 00 Brno, Czech Republic
+
++420 511 2 0 5 250
+inloainveacom
+www invea com
+
+INVEA-TECH 1 100 G s interception Probe
+
+It i s a c o m m o n practice i n communication n e t w o t s t h a t
+active n e t w o t devices can be used to collect data for specific
+n e t w o t applications. Typical examples are MSC elements o f
+mobile n e t w o t s or BRAS routers in ADSL architecture. Such
+approach is not always applicable as the active elements o f
+the networh are not built with the aim o f data collection and
+they very often lach features o r performance t o cover the
+needs of specific n e t w o t applications Ii1Re lawful interception.
+Therefore, it is beneficial to use dedicated interception probe
+especially in high-speed computer networhs.
+
+OEM IP network traffic interception probe
+Support for multiple 1/10/40/100GbE ports
+L2, L3, L4 header filters, DPI (email, voice, etc)
+Wire speed traffic processing guaranteed
+Non-intrusive installation into target network
+Easy integration with 3rd party systems
+
+Computer n e t w o t s v a r y i n technologies, s p e e d a n d
+architecture, therefore INVEA-TECH company offers a wide
+range o f interception probes processing multiple I Gbps to 100
+Gbps linds. Standard probes are built on commodity hardware,
+while high-speed models are based on hardware accelerators
+powered by FPGA technology. Hence they are capable of wirespeed pac1Ret processing without any pac1Ret loss. To support
+virtualized environment virtual appliances are available as well.
+
+Mobile operator starts a n e w service - A D S L intemet.
+According t o law, this operator has to implement lawful
+interception solution in this new IP network The operator
+already h a s GSM Lawful Interception system installed.
+This system includes mediation a n d monitoring center.
+INVEA-TECH probes are used on the 10 Gbps+ bac1Rbone
+IP n e t w o t a s t h e probes are easily integratable i n t o
+existing infrastructure.
+
+Configuration o f interception is done via standardized ETSI
+interface or RESTful API. Interception criteria are:
+
+USE CASE2: VOIP CALL QUALITY CHECK
+
+MAC address
+
+Radius username
+
+IP address
+
+TCP/UDP port
+
+IP range
+
+SIP URI
+
+VLAN
+
+Email address
+
+Intercepted pac1Rets are either saved locally, sent to mediation
+device, to SFIP server or directly to law enforcement agency
+via ETSI handover interface.
+
+Internet
+
+Customer service center needs t o chec1R the quality o f
+VolP calls, which requires recording content o f the calls.
+INVEA-TECH p r o b e s a r e d e p l o y e d a t t e n d i ff e r e n t
+geographical locations. These probes are configured from
+central point and data is stored in an SFTP server, where
+the calls are available to quality control team to perform
+deep analysis.
+
+INVEA-TECH
+probe
+
+EXAMPLES OF PROBE APPLICATIONS
+
+TAP
+
+Mediation
+device
+
+AeNe -
+
+Packet sniffing
+Lawful interception
+VoIP calls quality check
+
+Monitoring
+facility
+
+Network monitoring and troubleshooting
+
+Example of probe deployment
+Please contact INVEA-TECH for pricing and additional
+information about this product.
+
+Invea
+
+IN'VEA-TECH a. s.
+U Vodarny 2965/2
+616 00 Brno, Czech Republic
+
++420 511 205 250
+infoainveakom
+ww.invea.com
+
+

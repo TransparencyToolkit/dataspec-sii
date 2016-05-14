@@ -1,0 +1,2623 @@
+1 1 1 1
+CRFS
+
+SPECTRUM INTELLIGENCE SYSTEMS
+
+111
+CRFS
+
+t
+
+Continuous real-timaTSCM and cyber security
+for sensitive buildings and secure facilities
+
+Key features
+J Network of fully configurable RFeye Nodes
+
+J Integrated RFeye Site software for real-time
+
+security and surveillance
+
+J Fixed in-building installations for continuous
+
+monitoring
+J Portable systems for establishment of
+
+J Advanced network status monitoring
+J Real-time spectral displays in multiple
+
+formats
+
+Temporary SecureWorking Areas
+J Wideband 10 MHz to 6 GHz receiver with 20
+
+MHz RTBW
+J Frequency extension to 18GHz with Block
+
+Down Converter
+J Outstanding RF performance and sensitivity
+
+J Ceiling tile mounting kits and antennas for
+
+discreet in-building deployment
+J
+
+J
+
+Fully programmable synchronized sweeps
+and time captures
+
+J Fully programmable alarms and alerts
+
+J Advanced mapping including 3D building
+
+displays
+J Geolocation of transmitters using Power on
+
+Arrival measurements
+
+Proprietary SyncLincTMsystem for high
+
+J Data recording and playback
+
+accuracy network synchronization
+
+J Automatic signal recognition plug-in option
+
+J Easy low-cost installation
+
+Introduction
+RFeye Secure from CRFS is a continuous real-timeTSCM and cyber
+security system for sensitive buildings and secure facilities.
+Counter espionage and cyber security threats
+
+the RFeye is in a class of its own. All this means that it is an
+
+RFeye Secure is a fully integrated in-building monitoring
+
+extremely sensitive receiver and can reliably detect even very
+
+solution for sensitive or protected buildings or designated
+
+low power signals close to the noise floor. It is also very fast
+
+secure areas inside such buildings. It is designed to counter the
+
+and can intercept even the very short burst transmitters used by
+
+increasing security threats posed by the latest sophisticated
+
+sophisticated bugging devices.
+
+bugging devices or by the presence of unauthorized
+communications devices in secure areas. A wired distributed
+
+Network of intelligent, cooperative and synchronized sensors
+
+network of RFeye Nodes, together with state-of-the-artRFeye
+
+Each RFeye Node in the network is accurately synchronized
+
+Site software, gives uninterrupted 2417 surveillance and
+
+with all others to enable synchronous spectrum sweeps of
+
+awareness of the RF environment up to 18GHz. Easy to install
+
+the building or area. Each Node has its own in-built Linux
+
+and cost-effective, it provides an assured level of security for
+
+processor which performs local data processing and analysis
+
+the most sensitive areas, both commercial and non-civilian.
+
+and interacts intelligently with the other network Nodes.This
+
+The system can be discreetly deployed as a fixed installation
+
+makes the whole system fast and dynamic, as well as capable
+
+for continuous monitoring or as a portable installation for
+
+of continuing operation in the event of failure or compromise
+
+establishment ofTemporary Secure Working Areas.
+
+of the central server. Background spectrum usage is set as a
+
+Not all spectrum sensors are the same
+
+transmissions trigger alarms and automated geolocation of
+
+The RFeye Node makes other sensors in its class appear "deaf"
+
+the transmitter using the Power on Arrival technique which is
+
+by comparison. It has an outstanding noise figure, typically an
+
+ideally suited to in-building environments
+
+mask and any mask breakages by suspicious or unauthorized
+
+order of magnitude better than its peers across its frequency
+range. Similarly, for internal spurious and L 0 re-radiation,
+
+Deployments
+RFeye Secure is modular and scalable and can be deployed in networks
+ranging from a handful of Nodes for a single secure area, u p t o extensive
+networks for full coverage of very large facilities.
+CRFS can advise on the placement and density of Nodes
+
+each area. Any unusual features or events will be highlighted
+
+required for any given building or area. Standard deployments
+
+and can be investigated prior to determining the appropriate
+
+are for lOMHz to 6GHz frequencies and these are seamlessly
+
+mask levels. Once the mask has been set, any measured
+
+extendable to 18GHz with the use of the Block Down Converter
+
+power at any frequency that breaks the mask will trigger an
+
+(BDC). Ceiling tile mounting kits and discreet antennas are
+
+alarm in real-time to the RFeye Site software.The alarm can
+
+available for both standard and extended bandwidths.
+
+also be messaged by SMS to notify the relevant security
+personnel. Mask breakages can be set to automatically
+
+Installation
+The installation is simple and cost-effective.The RFeye Node,
+BDC and ceiling antennas are easy to mount to a standard
+
+Y
+
+1
+
+trigger a time capture of the event for subsequent playback
+and analysis.The criteria for mask breakage (levels, duration,
+frequency of occurrence) can be set and fine-tuned to
+
+ceiling tile using the custom mounting kit provided.The Nodes
+
+eliminate false positives and the mask can be periodically
+
+are networked using wired Ethernet which can provide both
+
+reset to reflect any spectrum use changes in the area.
+
+power and data connection. In addition, all Nodes are frequency
+locked and synchronized to a common reference using CRFS's
+
+Geolocation of unauthorized transmitters
+
+proprietary SyncLincTMsynchronization system.This is easily
+
+When a suspicious signal is detected, the nearest group of 3 or
+
+installed using dedicated cable runs in the ceiling voids.
+
+more Nodes to the signal seeks to radio-locate the source using
+
+SyncLinc gives better than 25ns synchronization and avoids any
+
+Power on Arrival (POA) amplitude comparison. POA measures
+
+of the performance degradation issues that result from using
+
+the relative power of the signal as it is received at each of the
+
+standard shared network switching hardware.
+
+Nodes and software algorithms calculate the probability of the
+location of the source.These probabilities are plotted on a plan
+
+Operation
+
+of the building or area and can be shown as 2D heat maps or
+
+Initially, the building or secure area is "swept" by the RFeye
+
+even in 3D spatial resolution.This mapping makes it easy for
+
+network and the measured spectrum is captured to create a
+
+security personnel to physically investigatethe designated
+
+mask which represents the background spectrum usage in
+
+areas for unauthorized transmitters.
+
+O Concoums B and C
+
++
+
+Software
+RFeye Site is a state-of-the-art Windows application for detecting and
+analysing suspicious signals and geolocating their source.
+RFeye Site has been developed and configured to support
+
+masks and trigger conditions, alerts from mask breakages,
+
+the requirements of continuous 241'7 in-building monitoring.
+
+performing advanced signal classification and geolocating
+
+It allows networks of RFeye Nodes to be managed and
+
+suspicious or unauthorized transmitters.
+
+controlled and multiple different tasks and missions to be
+performed with simple button and mouse control. It has latest
+
+Depending on the level of expertise of the user, the GUI
+
+.Net tools to provide a uniquely configurable and powerful
+
+can be provided as fully configurable by the user or pre-
+
+visual interface with full object-orientated command and
+
+configured with simple controls. RFeye Site also comes with
+
+control, real-time spectral displays in multiple formats and
+
+a user-friendly configuration tool to allow users to create their
+
+advanced mapping capabilities, including 3D displays.
+
+own custom configurations. With different access levels, it
+is designed to be easy to use and intuitive for operation by
+
+Each individual RFeye Node or all Nodes in the network can
+
+non-specialists whilst allowing full flexibility for set-up and
+
+be assigned tasks from a large configurable menu, allowing
+
+programming by expert users.
+
+the user to control all aspects of the system.This includes
+setting automated spectrum sweeps, creating RF background
+
+Key capabilities
+Network status monitoring
+
+Advanced mapping
+
+RFeye Nodes are organised into network groups within
+
+The location of all RFeye Nodes in the network together with
+
+RFeye Site enabling missions to be assigned according to
+
+their unit information is displayed in RFeye Site via a range
+
+building and room groups, or to single out individual zones
+
+of mapping interfaces from 2D maps and topographical
+
+for focussed missions. Nodes can be shared across network
+
+data including SRTM, to 3D rendered building models for
+
+groups for useful differential measurements, for example
+
+in-building RFeye Secure networks.The geolocation results
+
+I
+
+comparing signals received from in-building Nodes to external
+
+including POA andTDOA probability heat maps and real time
+
+or perimeter Nodes. Mission configurations can be quickly
+
+AOA vectors can be overlaid on the map interface to enable
+
+dragged and dropped between different network groups
+
+target localization. When combined with the 3D building
+
+for instant switching and sharing of the monitoring tasks in
+
+model display for RFeye Secure, this visualization of the
+
+different building areas.The interface for status monitoring
+
+geolocation results provides an unrivalled means of tracking
+
+and network control simplifies the management of extended
+
+signal location in real-time.
+
+RFeye Secure in-building networks.
+
+Individual elements of a more complex mission can be
+controlled and configured per-Node, for example after
+obtaining a POA geolocation result using a synchronised
+RFeye network, an individual Node can be selected based on
+proximity to the signal for targeted time captures and further
+detailed analysis.
+Signals analysis and recognition
+
+Power on Arrival is an amplitude comparison radiolocation
+technique that is effective over the short distances involved
+with in-building monitoring, due to the initial rapid dropoff in received signal power with distance from the target
+transmitters. It is well suited to the multitude of potential
+signal types that are sources of interference or indicators
+of covert activity, as the principle is independent of signal
+bandwidth or modulation type.The proprietary SyncLincTM
+system from CRFS avoids the need for (or vulnerability from)
+re-radiating GPS indoors for synchronization between RFeye
+Nodes, and instead offers a dedicated, purpose designed and
+robust synchronization technique that enables highly effective
+localization of detected transmitters.
+
+Extensive and powerful data processor modules and process
+chains in RFeye Site can be combined and customized to
+
+Sweeps and time captures
+
+provide in-depth signals analysis data that can in turn be fed
+into notifications, alarms and reports. Modules can filter and
+recognise signals including modulation type and channelized
+data, which is valuable for decision-making on spectrum
+events and policy in security critical environments.
+Masks, triggers and alarms
+13
+
+Data-Processors
+
+e .pa &kground-MaslraslrAIAflhi[Full-Spectrum-Sweep]
+E]
+
+E
+
+a
+
+Lwd-Tnggef-Mask-V [Background-Mask-AIARM]
+Local-Alert-WARNMG [Level-Trigger-Mask-v]
+@ Lwcl_TRK;GER-Cnticd [ B a c k g r o u n d - h l a s k ~ ~
+Local-Alert-Cnt~al[Leve-TWGGER-Cnbcal]
+a Ernail-Alert-Cnt~cal[Level-TRIGGER-Cnbcafl
+
+D
+
+RFeye Site can be configured to issue alarms via the local
+
+I
+The software can provide a familiar and simple spectrum
+analyser interface for each connected RFeye Node, with realtime frequency and time domain spectra with constellation
+diagrams and 2D or 3D waterfall displays. Each Node in the
+RFeye Secure network can be output to individual displays,
+or displays can be combined and overlaid for more powerful
+analysis options with selectable data processing modules.
+
+system, to log files, SMS and email from user defined triggers
+and spectrum masks. Simple mask break scenarios can be
+useful for triggering alarms when any signal exceeds an
+expected background spectrum of known signals, or more
+advanced modules allow notifications on events such as
+detection of certain modulation types and channel identification.
+
+RFeye Node technical specifications
+Receiver Performance
+
+Frequency reference
+Selection
+
+I Internal.
+
+External ref lnput
+
+I Via expansion port. 10 MHz
+
+Reference output
+
+I
+
+GPS or External
++_
+
+l kHz
+
+Via expansion port l 0 MHr
+
+Internal frequency reference
+
+input level
+
+1 t15dBm; 15 WC
+
+I
+
+Initial accuracy
+Stability
+Ageing
+
+I better than
+
+I
+
+h n w ttmn *l ppm (100~te WC)
+
+I better than d ppm per year
+
+GPS
+RFeye SynGLinc
+
+i2 ppm at 20°C
+
+35 ns RMS accuracy typical
+
+I
+
+10 as flMS accuracy typfcal
+
+Mechanical
+
+m h r a m k r a n g a
+
+1 80 W min.
+
+I
+
+170mmx60mmx125mm
+(6.7 in x 2.4 in X 4.9 in)
+
+Weight
+
+1.4 kg (3.1 Ib) [Node only]
+2 0 kg (4.4 Ib) [with environmental
+protectioncover]
+
+Environmental
+
+Sweep and triggering
+
+sweepspeed
+
+40 GHz/s (fast synhesbr)
+10 GHzls (high qualiy synthesizer)
+
+Sweep mode
+
+Fully programmable. Free run
+continuous, single, t~med,delay timed
+user trigger, adaptive bf-then-else)
+
+Trigger on event
+
+Fully programmable: userdefinable mask. userdefinable action when mask exceeded
+
+I
+
+B M H z maxrmum
+
+-30 to t55"C (-22 to 131°F)
+
+Operatingtemp.
+Storage temp.
+Envrn. protection
+
+I -40 to t70°C (-40 to 1589F)
+I 1P67 (with environmental cover fitted)
+
+Interfaces
+
+Signal a n a l p i s
+Real-timeanalys~sbandwidth
+
+Dimensions (Wh d)
+
+I
+
+RF input
+
+SMA (X 4)
+
+DC power
+
+10 - 48 VDC
+
+DC power input
+
+(
+
+l
+
+Direct to node or via Ethernet
+
+Power consumption
+
+12 - 18 W, radio operational
+6 W typical, radio idle
+
+GPS antenna
+
+SMA, passwe and acme (3 3 V
+nornmal DC) antennas supported
+
+Llnux OS verslon
+
+UMTSIHSPAmbden antenna
+
+W
+
+Pythmue&n
+
+Ethernet
+
+1 X 100 BaseT
+
+Equivalentresolution bandwidth
+
+20 kHz min. (max. analysis b/w)
+1R U I min Irorlawnrl xnalvric hlwl
+
+develoment environment ava~lable
+
+USB
+Expansion ports
+
+I 2xUSBA(1.1)
+2, congurable to provide:
+(a)trigger input
+(b)frequency reference input
+(C) external (peripheral)control
+(d) frequency reference output
+
+For more information
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.com.
+
+1 1 1 1
+CRFS
+
+1 1 1 1
+CRFS
+
+RFeye D( !ct
+Wide area dynamic spectrum and signal
+monitoring networks
+
+Key Tearures
+
+Introduction
+RFeye Detect is the state-of-the-art solution for wide area dynamic
+remote spectrum and signals monitoring. It sets a new standard in
+terms of performance, capability, versatility and cost effectiveness.
+Remote real-time distributed networks
+
+measurements, to the detection and alerting of spectrum
+
+CRFS pioneered the concept of remote real-time networks
+
+events, to advanced signal classification and real-time
+
+of spectrum sensors to meet the challenges of modern day
+
+geolocation of sources of interest. RFeye Site software allows
+
+spectrum usage and efficiency requirements and of managing
+
+authorized users anywhere in the world to access the network
+
+complex interference issues. RFeye Detect is based on networks
+
+of Nodes directly overTCPIIP (via wired or wireless connections
+
+of RFeye Nodes configured for specific site requirements
+
+to the Nodes). Multiple users can simultaneously interact with
+
+together with RFeye Site, the most advanced spectrum
+
+any or all of the Nodes. In addition, the on-board logger on each
+
+monitoring software on the market. Simple to deploy, operate
+
+Node continuously captures and logs data of interest to local
+
+and maintain. "Fit and forget:'
+
+memory with efficient offload of data to a central database as
+required.
+
+Not all spectrum sensors are the same
+The RFeye Node makes other sensors in its class appear "deaf"
+
+Geolocation of unauthorized transmitters
+
+by comparison. It has an outstanding noise figure, typically an
+
+When a suspicious signal is detected, the nearest group of 3 or
+
+order of magnitude better than its peers across its frequency
+
+more Nodes to the signal seeks to radiolocate the source using
+
+range. Similarly, for internal spurious and L 0 re-radiation,
+
+Time Difference of Arrival (TDOA) and also Power on Arrival
+
+the RFeye is in a class of its own. All this means that it is an
+
+(POA).These probabilities are plotted on a map of the area and
+
+extremely sensitive receiver and can reliably detect even very
+
+can be shown as 2D heat maps or even in 3D spatial resolution.
+
+low power signals close to the noise floor.
+
+This mapping makes it easy to physically investigate the source
+of the transmission, especially when RFeye Array systems are
+
+Multi-user, multi-mission capability
+
+additionally deployed in the RFeye Detect network to combine a
+
+Individual RFeye Nodes or all Nodes in the network can be
+
+line of bearing with the geolocation.
+
+assigned tasks from a large configurable menu, ranging
+from requests for basic spectrum sweeps and occupancy
+
+ysis and
+
+Deployments
+RFeye Detect is modular and scalable and can be deployed in networks
+ranging from a handful of Nodes for a single site to very large regional or
+national networks.
+RFeye Node
+
+and versatile than traditional Direction Finding. Measurements
+
+The RFeye Node has been designed for quick and easy
+
+can be overlaid onto a wide variety of 2 0 and 3 0 maps to
+
+deployment and maintenance-free use.The IP67-rated casing
+
+give a unique positional display showing source geolocation
+
+provides outstanding environmental protection even under
+
+probabilities, irrespective of signal power, bandwidth or
+
+harsh conditions.The operating temperature range of the unit
+
+frequency. Arrays are available for a wide range of frequencies
+
+is from -30°C to +55OC (-22OF to +131°F), making it suitable
+
+from 100MHz to 18GHz with a further Watson Watt module
+
+for most environments.The Node can be supplied with a
+
+down to 20MHz.
+
+complete pre-assembled mounting kit for easy attachment to
+wall, pole or mast.
+
+Power and Network Connections
+All RFeye systems are designed for low power consumption
+
+Block Down Converter
+
+and to accept flexible power inputs.The RFeye Node takes
+
+The BDC seamlessly extends the upper frequency range of the
+
+DC power from 10 to 48V and typically uses only 6 - 18
+
+RFeye Node from 6GHz to 18GHz.The BDC is CO-locatedwith
+
+W. Systems can be powered direct from mains power, via
+
+the Node using an extended mounting kit.
+
+Power on Ethernet or even from local sources such as solar
+
+Antennas
+
+fibre) or wireless (3G or 4G modem orWi-Fi).The cellular
+
+cells. Network connections can be wired (Ethernet or optical
+The Node and BDC can be used with any passive or active
+
+modem allows units to be deployed over very large distances
+
+antenna. CRFS provides a range of lightweight passive
+
+anywhere where there is cellular coverage.The RFeye is truly
+
+omnidirectional antennas that cover frequencies from 25MHz
+
+"plug and play" -simply mount, connect power and network
+
+to 18GHz. Mount options for these integrate with the Node
+
+and start monitoring.
+
+mounting kit for ease of deployment.The Node can support up
+to 4 antenna inputs as required.
+
+Onboard diagnostics
+The RFeye Node is designed to operate fully autonomously
+
+RFeye Arrays
+
+once it is deployed in the field. It has advanced BlST features
+
+For some critical large sites such as ranges and proving
+
+including its own built-in calibration oscillators to test and
+
+grounds, the network of Nodes can be usefully enhanced
+
+manage the RF performance over time and temperature
+
+with the addition of RFeye Arrays at key fixed locations and/
+
+changes.The on-board Watchdog checks for any core
+
+or on vehicles for geolocation of interfering or suspicious
+
+processes that are not running and can either soft restart the
+
+emitters.The Arrays contain advanced sinuous directional
+
+system or, if required, sequence the power supplies to hard
+
+antenna modules and augment the geolocation capabilities
+
+reset the internal systems.The built-in modem allows for
+
+of the Node network, providing a unique multi-layer approach
+
+interaction with the Node via SMS or IP connection in the
+
+including AOA,TDOA and POA, which is more sophisticated
+
+event that the main network is unavailable.
+
+Software
+RFeye Site is the latest state-of-the-art software package for managing
+complex spectrum operations.
+it allows networks of RFeye Nodes to be managed and
+
+Optional plug-in modules are available forTDOA, AOA and POA
+
+controlled and multiple different tasks and missions to be
+
+geolocation.These support multiple simultaneous geolocations
+
+performed with simple button and mouse control. It has latest
+
+on multiple target frequencies. Results are overlaid on 2D or 3D
+
+.Net tools to provide a uniquely configurable and powerful
+
+site maps and are displayed as heat map probabilities. Multiple
+
+visual interface with full object-orientated command and
+
+results can be overlaid onto the map for ease of visualization
+
+control, real-time spectral displays in multiple formats and
+
+and analysis.The mapping tools include full zoom facility and
+
+advanced mapping capabilities, including 3D displays.
+
+ability to display many simultaneous maps, with SRTM data
+overlay available to aid geolocation analysis.
+
+Each individual RFeye Node or all Nodes in the network
+can be assigned tasks from a large configurable menu,
+
+Depending on the level of expertise of the user, the GUI can be
+
+ranging from requests for basic spectrum sweeps and
+
+provided as fully configurable by the user or pre-configured
+
+occupancy measurements, to the detection and alerting of
+
+with simple controls. RFeye Site also comes with a user
+
+spectrum events, to advanced signal classification and real-
+
+friendly configuration tool to allow users to create their own
+
+time geolocation of sources of interest. Multiple users can
+
+custom configurations.
+
+simultaneously make multiple requests of all or any of the
+Nodes over wired or cellular networks.
+
+Key capabilities
+Network status monitoring
+
+Advanced mapping
+
+RFeye Nodes are organised into network groups within RFeye
+
+The location of all RFeye Nodes in the network togetherwith
+
+Site enabling missions to be assigned according to area and
+
+their unit information is displayed in RFeye Site via a range
+
+region groups, or to single out individual zones for focussed
+
+of mapping interfaces from 20 maps and topographical
+
+missions. Nodes can be shared across network groups for
+
+data including SRTM, to 3D rendered building models for
+
+useful differential measurements, for example comparing
+
+in-building RFeye Secure networks.The geokmtion results
+
+signals received across large areas or between perimeter
+
+including POA andTDOA probability heat maps and real time
+
+groups. Mission configurations can be quickly dragged
+
+AOA vectors can be overlaid on the map Snterfaoe to enable
+
+and dropped between different network groups for instant
+
+target localization.When combined with the 30 Mlding
+
+switching and sharing of the monitoring tasks in different
+
+model display for RFeye Sscure, this visuabatbn of the
+
+geographic areas.The interface for status monitoring and
+
+geolocation results provides an unrivaifed means d tracking
+
+network control simplifies the management of extended RFeye
+
+signal location in real-time.
+
+Detect wide area networks.
+
+controlled and configured per-Node, for example after
+
+Gedocation of transmitters
+,
+
+\
+
+obtaining aTDOA geolocation result using a GPS synchronised
+RFeye network, an individual Node can be selected based on
+proximity to the signal for targeted time captures and further
+
+..
+
+detailed analysis.
+Signals analysis and recognition
+l
+l
+
+t
+
+,'
+
+a
+
+--EL-1---
+
+l
+
+l
+
+There is a multitude of potential signal types that are the
+sources of interference, indicators of illegal activity or
+unauthorised spectrum use. Direction Finding and geolocation
+techniques are each effective only for a limited range of
+target signal types, which varies according to many factors
+including signal bandwidth, modulation, power, background
+noise, pulse duration and receiver speed.The most reliable
+and cost effective method to ensure detection and successful
+localization of the maximum range of target signal types is
+to combine and augment each technique in a single real-time
+overlay.This is the powerful and unique approach of RFeye
+Detect for transmitter detection and geolocation.
+
+Extensive and powerful data processor modules and process
+chains in RFeye Site can be combined and customized to
+
+Sweeps and time captures
+
+provide in-depth signals analysis data that can in turn be fed
+into notifications, alarms and reports. Modules can filter and
+recognise signals including modulation type and channelized
+data, which is valuable for decision-making on spectrum
+events and policy in security critical or congested spectrum
+environments.
+
+I
+
+Masks, triggers and alarms
+
+8-.a
+Data-Processors
+1
+
+i
+
+;
+
+@
+The software can provide a familiar and simple spectrum
+
+analyser interface for each connected RFeye Node, with realtime frequency and time domain spectra with constellation
+diagrams and 2D or 3D waterfall displays. Each Node in the
+RFeye Detect network can be output to individual displays,
+or displays can be combined and overlaid for more powerful
+analysis options with selectable data processing modules,
+Individual elements of a more complex mission can be
+
+Q-.-
+
+Background-Mask-ALARM [Full-Spectrum-Sweep]
+[Background-Mask-ALARM]
+i
+Local-Alert-W[Level-Trigger-Mask-v
+Q...& Level-Tm-Critical [Background~Maslr~ALARMl
+:
+~calJ\lert-Critical[Level-TRIGGER-Critical]
+
+.*
+
+6.
+.BLevel-Trigger-Mask-V
+
+'-
+
+nail-Alert-Critical [Level-TRIGGER-Critical]
+
+RFeye Site can be configured to issue alarms via the local
+system, to log files, SMS and email from user defined triggers
+
+and spectrum masks. Simple mask break scenarios can be
+useful for triggering alarms when any signal exceeds an
+expected background spectrum of known signals, or more
+advanced modules allow notifications on events such as
+detection of certain modulation types and channel identification.
+
+RFeye Node technical specifications
+Receiver Performance
+
+Frequency reference
+
+I
+
+8 dB typical (l0 MHz - 4 W
+Via expansion port, 10 MHz
+
+Reference output
+
+11 d B ~ c a l f 4 6 H z - B G M )
+
+Internalfrequency reference
+
+I
+
+430 dEkjJi2 a? ra kttn oset
+-trodecMzatmww
+typical, at 2 W (*law noise
+
+%Ntious free dynamic range
+
+better than i2 ppm at 20°C
+
+Stability
+
+better than k1 ppn 11OBCto %*Cl
+
+Ageing
+
+I
+
+better than t 2 ppm per year
+
+GPS
+
+35 ns RMS accuracy typical
+
+RFeye SyncLinc
+
+< 10ns HMS acwmcytyprcal
+
+Mechanical
+
+I
+
+I
+
+1 60 dB min.
+
+ln~t~al
+accuracy
+
+We~ght
+
+1 4 kg (3 1 Ib) [Node only]
+2 0 kg (4 4 Ib) [w~thenvironmental
+
+Environmental
+
+Sweep and triggering
+40 G W s (fast synthesizctr)
+10 GWs (high quality synthgsizsr)
+Sweep mode
+
+Fully programmable- Free run
+continuous, single. timed, delay umed
+Interfaces
+
+TGiggei on event
+definable action whwr
+
+Signal analysis
+Real-rime analysis bandwidth
+
+20 M& maximum
+
+Equivalent resolut~onbandw~dth
+
+20 kHz min (max analysts b/w)
+1R U r mm
+
+Linux OS version
+
+1
+
+I r n r l ~ m m r anolvrac
+l
+hhwl
+
+2.6
+
+Python version
+
+2.6
+
+Development environments
+
+Full SDK C and Python
+develooment environment available
+
+I
+
+(b) frequency reference input
+(C) external (peripheral)control
+(d)frequency reference output
+
+For more information
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.com.
+
+1 1 1 1
+CRFS
+
+Easy to deploy as fixed or portable/mobile units
+
+The Node is housed in a rugged, compact lightweight enclosure and has an environmental cover that provides IP67
+protection for hostile environments. It is low power and can be powered from multiple sources. It can be discreetly deployed
+in-building, easily mast mounted outdoors or deployed in various man-portable or mobile configurations. Data can accessed
+in real time via IP, stored locally, transmitted via the built-in modem or downloaded via Ethernet to a centralized database.
+
+Technical specifications
+Receiver performance
+
+Signal analysis
+
+Frequency range
+
+Real-timeanalysis
+bandwidth
+
+Frequency reference
+20 MHz maximum
+
+Selection
+
+noise@E&
+
+R&
+
+ref.input
+20 kHz min.
+18 M min.[
+bt'wl
+
+tion
+Input connector
+
+Four switchable signal inputs
+
+Referenceoutput
+
+Internal. GPS or Extemal
+ViambpohlOMnislkHz
+Via expansion port, 10 MHz
+
+Internalfrequency reference
+
+M&bm inputlevel
+Operating system and softwere development options
+
+3rd order intercept point
+(LP3
+
+t20 dBm typical (AGC active)
+
+1dB input comp~essiofi
+
++l0 d&R typical tAGC aotive)
+
+Linux OS versfon
+
+26
+
+Fythonversim
+
+2.6
+
+Level accuracy
+Development
+environments
+Antenna port isolation
+
+30 dB min. at 2 GHz
+-$DWHzat lal&cffet
+-I % W H z a t m W oset
+typteal. at 2 6M*pfwv noise
+syntbesiper)
+
+Syntbesiser switching
+time
+
+50 ps typical (fastsweep
+mode)
+
+Spurious free dyrramic
+
+B)
+
+BB min.
+
+[W
+60dB
+
+AGC range
+
+Fuil SDK Cand w o n
+development environmentavailable
+
+Initial accuracy
+
+better than Q ppm at 20°C
+
+Ageing
+
+better than L!ppm per year
+
+Timing reference
+GPS
+
+35 ns RMS accuracy typical
+
+Interfaces
+RF input
+
+SMA [X 4)
+
+Mechanical
+Dimensions (Wh d)
+DC power input
+
+Direct to node or via Ethernet
+
+Pawer consumption
+
+12 18W,
+
+-
+
+onal
+
+170 mm X 60 mm X 125 mm
+(6.7 in X 2.4 in X 4.9 in)
+1.4kg(3.lfQWanlyl
+
+a ~kg.(4~44$&th
+e
+GPS antenna
+
+I
+
+~rnsoveil
+
+SM4 passive and actlve (3.3
+nominal DC) antennas supported
+
+Sweep and triggering
+
+Emimnmental
+
+Sweep speed
+
+Operating temp.
+
+-30 to t55% (-22 to 131 OF)
+
+lX 100 BaseT
+
+StMaoe
+- temo..
+
+-4Otot70"eldOto158"f)
+
+Z % S B A (1.l)
+
+Envm. protection
+
+IP67 (with environmentalcover Wed)
+
+mode
+
+Trigger on event
+
+40 GHds (fastsynthes~zerj
+10 GHUs (h~ghquality synthesizer)
+
+Ethernet
+
+Fully pmgamm8ble: Fme mq
+
+Fully programmable: userdefinable
+masks, user-definable action when
+mask exceeded
+
+2, congurable to provide.
+(a)trigger input
+[b) frequency reference input
+(C) external (peripheral)control
+(d)frequency referenceoutput
+
+For more information
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.com.
+
+1 I I
+CRFS
+
+CRFS and RFeye are trademarks or reg~steredtrademarks of CRFS Limited. Copyright a2013 CRFS Limited. All rights reserved. No part of this document may be reproducedor distributed in any manner without the prior
+wtiuen consent of CRFS. The information and statements provided in this document are for informationalpurposes only and are subject to change without notice. Document Number CRFS-MDWOll-CM. January 2013
+
+I
+
+Architecture
+Block Down Converter uses same
+form factor as standard RFeye
+Node and extends RFeye Node
+frequency range to 18 GHz
+
+Directional Array
+6 GHz to 18 GHz
+Ae l
+
+Omnidirectional Antenna
+
+Standard RFeye
+Node sweeping
+10 MHz t o 6 GHz
+
+I
+7
+
+DirectionalAntenna
+600 MHz to 6 GHz
+Ae 3-5
+
+Ethernet Cable carrying
+data and 56 VDC
+CAT6 23AWG cores
+
+1
+'
+
+OmnidirectionalAntenna
+800 MHz to 6 GHz
+Ae 3-5
+
+Technical specifications
+Frequency
+
+Signal input
+
+Range
+
+6 GHz to 18 GHz
+
+IF Bandwidth
+
+3Gti
+
+IF Centre Frequency
+
+2.5 GHz and 3,5 GHz band dependent
+
+Gain
+
+15dB
+
+Phase Horse
+
+-IlOdk/&@l~ztvpml
+
+Preselection bands
+(standard1
+
+6-9GHz
+9-12GHz
+12-15GHz
+15 - 18 GHz
+
+Input connector
+
+i
+x
+' watchable SW inputs
+1X 6 GHz- 13.GHz
+IxlOMHz-18GHz
+~X$OM&-GGHZ
+
+Maximum input level
+
+t15dBm: 1 5 W
+
+Signal output
+Outputconnector
+
+angle SMA wtpa, \F to node
+
+Mechanical
+
+RF input
+
+5 switchable inputs (SW)
+
+DC power from exterml source
+
+10-48VOC
+
+Power msumpbmn
+
+l 0 W tgrpccal
+
+wei&t
+
+2.0 kg (4.4 lb}with enviromtai proteaioncover
+
+Environmental
+
+Sensitivity (equivalent noise figures at maximum sensitivity)
+6GHz-15Wz
+
+9dBtvpical
+
+For more information
+
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.com.
+
+1 1 1 1
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Llmlted Copyr~ghtO 2013 CRFS L~mltedAll rlghts reserved No part of t h ~ sdocument may be reproduced or d~strlbuted
+In any manner w~thoutthe prlor wrltten consent of CRFS The lnformat~onand statements provlded In thls document are for lnformat~onalpurposes only and are subject to change wlthout
+notlce Document Number CRFS-MD00014-COO, January 2013
+
+Architecture
+
+Rack mountable modules
+
+Technical specifications
+Frequency
+
+Signal Input
+
+input led
+
++15dBn:1 5 W
+
+Internal Frequency Reference
+Interfaces
+
+Stability
+
+b3tterthan~ltlppmatMOC
+
+Sweep and Triggering
+sweep speed
+
+l@ K& m 6 GHz: 40 GHz/s fast sweep mode
+400GHzls hyper sweep Mde
+
+sweep&
+
+Fully prcgmmbie.tree Nn,mitjnuous.
+SU~$S. limxl
+
+smwrevent
+
+(LSBF
+
+WWlnput
+
+lW
+
+Reference cl& IW
+
+10MHz. 0 . 5 V m
+
+Ethamot
+
+I x l m b T b a p b a o s l ~ ~ b a x
+
+USB
+
+1 X USRmini Ll.l).riaoptional bmm
+eonrracmrbox
+
+Signal Analysis
+
+m
+Mechanical
+
+mlwhd)
+
+Software Development Options
+
+Environmental
+Sensitivity(equivalent noise figures at maximum sensitivity)
+
+Ym&.4M
+
+8dEt~i~d
+
+For more information
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.com.
+
+l l l l
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Limited. Copyright Q 2013 CRFS Limited. All rights resented. No part of this document may be reproduced or distributed
+in any manner without the prior written consent of CRFS.The information and statements provided in this document are for informational purposes only and are subject to change without
+notice. Document Number CRFS-MDOOO24-Col. Feb 2013.
+
+Architecture
+
+Extended intetface
+
+Technical specifications
+Frequency
+
+Signal Input
+
+m-
+
+1m*sleiH;r
+Internal Fresuencv Reference
+
+%!=wx*
+
+Sweep and Triggering
+-P
+
+speed
+
+~ ~ W D G G
+~sM/shvoer2Mapmods
+
+M
+
+:
+
+~
+
+O
+
+~
+
+~ c-i,.....*......
+~. _.. R., .>...
+~.,z~ii.... ~ e : :. .;:a:;.:..:F,
+-7.:.:>3;3r.*::!3:8i
+;:.; :';.'::;!';:+:?y&;:-!;$$$:;,:
+
+..L..
+
+4W@dWb
+<T&~~$j~~~~$~$$gj,;;,y.
+.;;.: ,j;ii
+
+:,
+
+,
+
+,
+
+,,
+
+, , , ; i j ~ 3 x ~ x r , ,>.;:;~ ~,:;;, .,, ;:,,, :c;;
+
+lkimfon~
+
+Signal Analpis
+
+... .,.. .. , ..,. .,
+
+mmxt08~nur24&Ann
+
+Software Development6p0ns
+
+WoSrarJioRWaptOlI
+
+is-.
+
+,&S
+
+- ...k.;?g;
+:,=-.
+
+. .>:X.
+
+26
+Environmental
+Operatlnat
+ernmm
+
+Sansif~icy(equivalent noise figures at maximum semitirS(r)
+
+S-..: .
+
+:
+
+.:53$;i$&g~@g-;ps%:- 3;,
+
+-~;;~@L)i*sdB<.2f;~~$:
+- . . .. . . i. .. .
+
+For more information
+To find out more or discuss your specific application, please e-mail us at
+snquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources on our website at www.crfs.com.
+
+1 1 1 1
+CRFS
+
+CRFS and RFeye are trademarks of registered trademarks of CRFS Limited. Copyright 6 2013 CRFS Limited. All rights reserved. No part of th~sdocument may be reproduced or distributed fn any manner without the prior
+written consent of CRFS. The information and statements provided in this document are for informational purposes only and are subject to change without notice. Document Number CRFS...MDOM)?I-CM), January 2013.
+
+C,:;
+
+Modular and flexible deployments
+The RFeye Array 300 is fully self-contained within a robust IP65 rated radome designed for hostile conditions. Close coupling
+of the RFeye node and antenna modules reduces cable runs and cable losses and significantly improves RF performance.
+Various directional antenna options are available from 300MHz to 18GHz and an RFeyeWatson-Watt module is available for VHF
+transmissions down to 2OMHz.The system is modular and further channels can be added to improve probability of intercept.
+Powerful software
+Advanced GUI provides easy multi-mission control including 2417 continuous spectrum monitoring, programmable masks
+and alarms, signal analysis and optional signal classification capability.
+
+Technical specifications
+Receiver perfomnce
+
+Radome interface panel
+
+hequency range
+
+ltl MHz to 6 GHz, optiDnaltft0 18GWz
+
+Noise figure
+
+8dbmcal (10MHz-4GW
+11 db typical 14 GHz-6
+
+Mlii RF inputs
+
+2 X ~ t O . O -i 66Hd
+
+Mechanical& environmental
+Demodulation
+
+digital modulationtypas
+
+Finish
+
+Power on Am'vd (MA)
+
+Ordering information
+Description
+
+Product
+
+Order code
+
+Base system Mon~tonngand geolocaboncapabil~tyfrom 100 MM to 6 GHz OF from 5W MHz to 6 GHz
+
+RFeye Array 300
+
+SYS-DFAOOO1
+
+Microwave frequency sx$nder to 18 GHz for monitoringand geolocat~on
+
+RFeye Array 300 - SHF extender
+
+SYS-DFA0001S
+
+DF extender down to 300 MHz
+
+RFeye Array 300 -UHF extender
+
+SYS-DFA0001U
+
+VHF extender down to 20 MHr
+
+RFeye Away 300 VHF extender
+
+-
+
+For more information
+
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.com.
+
+SYS-OFAOOOlV
+
+I
+CRFS I
+1 1 1 1
+
+wrimen consent of CRFS. The information and statements provided in this document are for informational purposes only and are subject to change without notice. Document Number CRFS-MD00021-C02, February 2013
+
+Modular and flexible depioyments
+The RFeye Array 500 is fully self-contained within a robust IP65 rated radome designed for hostile conditions. Close coupling
+of the RFeye node and antenna modules reduces cable runs and cable losses and significantly improves RF performance.
+Various directional antenna options are available from 100MHz to 18GHz and an RFeyeWatson-Watt module is available forVHF
+transmissions down to 20MHz.The system is modular and further channels can be added to improve probability of intercept.
+Powerful software
+Advanced GUI provides easy multi-mission control including 2417 continuous spectrum monitoring, programmable masks
+and alarms, signal analysis and optional signal classification capability.
+
+Technical specifications
+Receiver pedormsnce
+
+Radome interface panel
+
+Frequency range
+
+10 MHz to 6 GHz, optionally to 18 GHz
+
+LAN
+
+scan speed
+8db typical (l0 MHz - 4 GM)
+11 db typical (4 GHz - 6 G M )
+
+Noise figure
+Real-time a
+
+2 X N-type (0.01 - 6GHz)
+
+Auxilialy RF inputs
+
+~
+
+i
+
+)
+
+a
+
+n
+
+Equivalent resolution bandwidth
+
+~ ifom
+
+External solar
+
+1 X 532VDC
+
+20 kHz min. (max. analysis blw)
+18 Hz min. (reducedanalysis b/w)
+
+Mechenical& environmental
+
+WomW i~iragaCrmca
+
+10-48 M C
+
+Power
+
+Demodulation
+Optional modulation ID software for identifieantionand
+clas~ficationof comprehensive range of analogue and
+digital mcdulationtypes
+
+-*aa t - l 8 to ~ Z W
+Storage temperahlre
+
+-40 to t70"C (-40 to 158'F)
+
+Ormens~ons
+
+~ J l 1 . 6 6 m/ 65A" 8.1.63 m/ 64.2" height
+
+Weight
+
+l~f3fA5ibs
+
+Directionfinding I geolocetion perfornance
+Directionfinding method
+
+&way swrtched dirsctronalarray (AOAI
+
+DF frequertcy~a
+
+tMMHz to 6 G&
+W
+o
+n Watt optio
+
+Coverage of azimuth
+
+tol8GHz
+20 M*
+
+360"
+
+Radome
+p
+-
+
+@rntWical
+
+p - -
+
+External Diameter
+
+1.66m / 65.4"
+
+Finish
+
+W stMe gel system in w h i (Smtt Bader C PA White)
+
+Crrcular
+Timedifferenceof Arrival (TDOA)
+
+100 MHz to 6 G&. O p I i o d 1OMHz
+~
+ta 186tlz
+
+Ordering information
+Description
+
+Product
+
+Base system Monrtorrng and DF / geolowon capabrllty from 100MHzto 6 GHz
+
+RFeye Array 5M)
+
+Older code
+
+m m-*-*muer
+VHF extender down to 20 MHz
+
+I
+
+RFeye Array 500 -VHF extander
+
+SYS-DFA0002V
+
+For more information
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources on our website at www.cr~s.com.
+
+CRFS
+
+CRFS and RFeye are uaaemarks or regrneredtrademarks of CRFS Limited.Copyright O 2013 CRFS Limited. All rights reserved. No part of this document may be reproducedor distributedin any manner without the prior
+written consent of CRFS. The informationand statements provided in this document are for informationalpurposesonly and are subjectto change without notice. Document Number CRFS-MD00022-CM, February 2013
+
+Screenshots
+*
+G
+:
+'
+.
+;
+
+;,:*
+
+..+;&"+..
+.--
+
+-- -,
+~ @ #<.Fa
+- . -#A
+-'* ~ -
+
+:;.,,>
+. -... -F:.:.;.:.;*?*a.&.
+-.
+
+&;;,
+v
+
+S*
+
+-.,
+
+;
+
+.!
+
+'+
+.F:
+.. . .*: -;
+r,<ts
+
+.
+
+,..=S.
+
+;.
+
+*.Q! c.
+
+P
+
+..
+
+Mean signal
+The mean signal screen displays
+
+Peak signal
+
+Bend dI'btion
+
+The peak signal screen displays the
+
+The band utilization screen displays the
+
+the average signal strength of all
+
+highest data point measurement of
+
+signal measured in a given geographic
+
+measurementstaken in a given
+
+signal strength in a given geographic
+
+area for a given frequency band
+
+geographic area for a given frequency
+
+area for a given frequency band. The
+
+expressed as a percentage utilization.
+
+band. The parameters of the geographic
+
+parameters of the geographic area and
+
+The parameters of the geographic area
+
+area and frequency band can be selected.
+
+frequency band can be selected.
+
+and frequency band can be selected.
+
+Spectrum
+The spectrum screen displays signal
+strength against frequency for a given
+
+Spectrum use report
+The spectrum use report screen
+displays percentage utilisation of
+
+geographic area and frequency band.
+The parameters of the geographic area
+
+a given frequency band in a given
+
+Spectrograrn
+The spectrogram screen displays
+spectrum usage over time as measured
+by a mobile RFeye as it travels through
+
+and frequency band can be selected.
+
+geographic area. The parameters of the
+
+an area. The spectrogram shows
+
+geographic area and frequency band
+
+temporal characteristics of signals and
+
+can be selected.
+
+allows the user to map a specific event to
+a geographic location at a point in time.
+
+Technical specifications
+Display Processing Options
+
+Databsa Platform
+
+FmMS
+
+Memory
+
+3 GB (recornme~ided)
+
+For more information
+For more information or discuss your specific application, please e-mail us
+at enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.cr~s.com.
+
+_
+
+1
+CRFS 1
+1111
+
+3 CRFS Limited. All rights reserved. No part of this document may be reproduced or distributed
+j and RFeye are trademarks or registered trademarks of CRFS Limited. Copy
+in any manner without the prior written consent of CRFS.The information and statements provided in this document are for informational purposes only and are subject to change without
+notice. Document Number CRFS-MD00018-COO, February 2013
+
+Flexible user-configurable GUI
+Depending on the level of expertise of the user, the GUI can be provided as fully configurable by the user or pre-configured
+with simple controls. RFeye Site also comes with a flexible configuration tool to allow users to create their own custom
+configurations,
+
+Screenshots
+
+Multi-window display showing AOA,
+TDOA and POA measurements
+
+Wizard configuration option or full
+control
+
+Wide areaTDOA zones on full GIS
+
+Automatic comparison of spectrum
+against PUB 7 spectral database
+
+Multiple chatting components showing
+historical spectral data
+
+Custom signals analysis scenarios here data demod and burst type ID
+
+maps
+
+Technical specifications
+Compatible RFeye Solutions. Systems & Hardware
+
+PC Requirements
+
+-W
+
+lntel Core 2 (or equivalent)ru~ingat l.4 GHz
+or greater
+AM0 )Q(orequivalentlrunning at l8 GHz w
+
+Solutions
+
+Weye Detect(widearea monitoring, including
+TDOA and AOA geolocationl
+RFeye Secure (in-building monitoring. including
+
+greater
+
+POA geolocation)
+@mtiWsySran
+
+WiiVm,Windows)(P.W~7&8
+
+Hard disk space
+
+100 MB for the appl~cation
+
+RANl
+
+2 GB*
+
+lntemetconnection
+
+Required
+
+reepmrnanBed
+
+For more information
+
+To find out more or discuss your specific application, please e-mail us at
+enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources on our website at www.cr~s.com.
+
+1 1 1 1
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Limited. Copyright O 2013 CRFS Limited. All rights resewad. No part of this document may be reproduced or distributed
+in any manner without the prior written consent of CRFS.The information and statements provided in this document are for informational purposes only and are subject to change without
+notice. Document Number CRFS-MD00023-COO, Januaw 2013
+
+Screenshots
+
+Sweep
+
+Audio
+
+Map
+
+The sweep screen displays a simple
+
+The audio screen allows the user to
+
+The map screen displays the current
+
+sweep with controls to startlstop
+
+tune into a particular frequency and
+
+location of the RFeye node as
+
+frequencies and select resolution
+
+output the decoded FM or AM signal.
+
+determined from the on-board
+
+GPS
+
+bandwidth. Multiple analysis options
+
+receiver. It also connects with the AOA
+
+including peak hold, multiple markers,
+
+screen and overlays angle of arrival data.
+
+masks, data recording and playback.
+
+AOA
+The angle of arrival screen displays angle
+of arrival of target signals of interest.
+Multiple sources can be analysed
+simultaneously and various functions
+applied to improve directional display.
+
+Monitor
+The monitor screen shows RFeye
+Node status information such as the
+Radio and Baseband temperatures and
+voltages and GPS information.
+
+Time
+The time screen displays a simple time
+capture with controls to set centre
+frequency, number of samples to
+capture and trigger mechanisms, plus
+options to save captured data to file.
+
+Technical specifications
+PC Requirements
+
+Displays
+Tradiial
+
+m display with m a h and
+
+aaeefunctiom
+
+Windows Xi! MOO.Vista, W~ndows7
+
+@ d n g %tern
+
+Xard O
+
+i
+
+~
+
+-inS--specBurnw1
+
+Network node property tres showing node
+properties and allowing node congurahon
+
+h r y
+
+tom
+l GB m
+m
+
+File Export
+Data File
+
+NCP (CRFS format)
+
+Aurlio
+
+\IVAVfam@
+
+For more information
+
+For more information or discuss your specific application, please e-mail us
+at enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.crfs.com.
+
+1
+CRFS I
+1 1 1 1
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Limited. Copyright O 2013 CRFS Limited. All rights reserved. No part of this document may be reproduced or distributed
+in any manner without the prior written consent of CRFS.The information and statements provided in this document are for informational purposes only and are subject to change without
+notice. Document Number CRFS-MD00017-COO, January 2013
+
+Screenshots
+
+Mean signal
+
+Peak signal
+
+Band utilization
+
+The mean signal screen displays
+
+The peak signal screen displays the
+
+The band utilization screen displays the
+
+the average signal strength of ail
+
+highest data point measurement of
+
+signal measured in a given geographic
+
+measurements taken in a given
+
+signal strength i n a given geographic
+
+area for a given frequency band
+
+geographic area for a given frequency
+
+area for a given frequency band. The
+
+expressed as a percentage utilization.
+
+band. The parameters of the geographic
+
+parameters of the geographic area and
+
+The parameters of the geographic area
+
+area and frequency band can be selected.
+
+frequency band can be selected.
+
+and frequency band can be selected.
+
+Spectrum
+
+Spectrum use report
+
+Spectrogram
+
+The spectrum screen displays signal
+
+The spectrum use report screen
+
+The spectrogram screen displays
+
+strength against frequency for a given
+
+displays percentage utilisation of
+a given frequency band i n a given
+
+spectrum usage over time as measured
+by a mobile RFeye as it travels through
+
+geographic area and frequency band.
+The parameters of the geographic area
+
+geographic area. The parameters of the
+
+an area. It shows temporal characteristics
+
+and frequency band can be selected.
+
+geographic area and frequency band
+
+of signals and allows the user to map a
+
+can be selected.
+
+specific event to a geographic location at
+a point in time.
+
+Technical specifications
+Display Processing Options
+
+Displays
+
+mm1
+
+W
+
+Peak, Average signal level
+Filtering
+
+hesuencv.T~nedDete.Area.~Wode
+
+PC Requirements
+
+Hard CM Space
+
+4 GB Imp C a b 1 c File Smwe
+
+For more information
+For more information or discuss your specific application, please e-mail us
+at enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.cr~s.com.
+
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Limited. Copyright C? 2013 CRFS Limited. All rights reserved. No part of this document may be reproduced or distributed
+in any manner without the prior written consent of CRFS.The information and statements provided in this document are for informational purposes only and are subject to change without
+notice. Document Number CRFS~MD00006~C00,
+February 2013
+
+I
+
+Exposed connectors for easy
+antenna and comms connections
+All ports for antennas, GPS, UMTS modem, Ethernet and
+USB are exposed to offer maximum flexibility for logging
+and analyzing spectrum without the need for a laptop. High
+capacity memory sticks or disk drives can be connected to the
+USB ports.The RFeye Stormcase is supplied with GPS and
+UMTS antennas, rapid charging system, mains power supply,
+vehicle power supply connector and spectrum data logger.
+
+Technical specifications
+Receiver petfonnance
+
+Signal analysis
+
+Frequency range
+
+10 MHz to 6 GHz
+
+Receivernoise tiiw
+
+8 S typical (ZOMI2 - 4 GHE)
+11 dBtypiasl(4GHz-6GNd
+
+Input connector
+
+Four switchable s~gnalInputs
+
+Maximum input level
+
++l5 dBm; l 5 VDC
+
+Interfaces
+
+Real-t~meanalys~s
+bandw~dth
+
+20 MHz max~mum
+
+DC power
+
+10 - 48 VDC external DC supply,
+~nternaland external cnnnectlons
+
+Equivalentres0lGoh
+bandwidth
+
+20 kHz min Imax, anal* b/w)
+18 Hz mln. (reducedanalysis
+blw)
+
+Ethernet
+
+1 x 100 BaseT
+
+USB
+
+2xUSBAll.l)
+
+RF input
+
+3 internal and 1 external, Type N
+
+GPS antenna
+
+Type N, passive and actlve (3 3 V
+nom~nalDCI antennas supported,
+Internal and external c
+
+UMTS/HSPA
+antenna
+
+fvoe N, internal
+(antenna supplied)
+
+Expansion ports
+
+1 x internal, configurable to provide:
+(a)trigger input
+(b) frequency reference input
+(c) external (peripheral)control
+(d)frequency reference output
+
+Internalfrequency reference
+3rd order intercept point
+(R)
+
+t20 dBm typical (AGC act~ve)
+Initial accuracy
+m typml (%C-l
+
+ldB m
+
+better than ff ppm at 20°C
+
+S
+
+Level accuracy
+
+k 2 5 dB typical
+
+Antenna L0 re-radiation
+
+-90 dBm typical
+
+Antenna port sola at ion
+
+30 dB min. at 2 GHz
+
+Operating system and software development options
+
+-90 dBc/Hz at 10 kHz aset
+-1lo~tarmiR991,t
+typical, at 2 GNre$*Wige
+synthesiser)
+
+Linux OS version
+
+Synthesiser switching
+time
+
+50 MS typical (fast sweep
+mode)
+
+Spur& free dynamic
+raRse
+
+60 dB min.
+
+AGC range
+
+60 dB
+
+Sweep mode
+
+2.6
+
+control sNitch&srsar~t%
+
+Python
+
+Development
+envlmnments
+
+Battery
+
+Full SDK Cand Python
+development environment ava~lable
+
+Mechanical
+Dimensions (W h d)
+
+487 mm x 386 mm x 185 mm
+(19.2 in X 15.2 in X 7.3 in)
+
+Weight
+
+13.7 kg (30Ib)
+
+Dry cell MIL S-901C(nowspillable)
+6 hr nominal capacity
+
+Environmental
+Charger
+
+40 GWs (fast synthesizer)
+10 GHUs (high quality synthesizer)
+
+Charge time
+
+6 hrs typical
+
+Fully pagamable:W
+W
+FI
+
+Power consumption
+
+12 - l8W, radio operational
+6 W iypid, rsdio idle
+
+&xlnbuW,s i ~ b . w2@Bed
+user l g e r , adaptive (iifhib-efh1
+Trigger on event
+
+better than ff ppm per yea1
+
+Power supplies
+
+Sweep and triggering
+Sweep speed
+
+Ageing
+
+Operatingtemp.
+
+-30 to t55'C (-22 to 131°F)
+
+Storage temp.
+
+-40 to t 5 5 I (-40 to 13191
+
+Fully programmable: userdefinable
+masks, user-definableaction when
+mask exceeded
+
+For more information
+For more information o r discuss your specific application, please e-mail us
+at enquiries@crfs.com o r call +44 (0) 1223 815 615.You can also find useful
+resources o n our website at www.cr~s.com.
+
+1 1 1 1
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Limited. Copyright O 2013 CRFS Limited. All rights reserved. No part of this document may be reproduced or distributed
+in any manner without the prior written consent of CRFS.The information and statements provided in this document are for informational purposes only and are subject to change without
+notice. Document Number CRFS_MD00016..COO, Feb 2013.
+
+I
+
+Technical specifications
+Frequency
+
+Interfaces
+
+m
+
+7OMHzIo6W
+
+AF inplt
+
+SMA (X 4)
+
+Sensitivity (equivalent noise figures et maximum sensitivity)
+
+Signal Input
+
+Internal Frequency Reference
+
+I
+
+n
+
+~
+
+w
+
+bms than &5 ppn at WC
+Mechanical
+
+178mxamxia5m
+Sweep and Triggering
+
+aw
+10GWs
+
+Environmental
+
+*whenmeek
+Signal Anal*
+Accessories
+
+Power S u ~ ~ l v
+
+l
+
+1
+
+For more information
+
+'
+
+at enquiries@crfs.com or call +44 (0) 1223 815 615.You can also find useful
+
+I
+
+resources o n our website at www.crfs.com.
+
+For more information or discuss your specific application, please e-mail us
+
+1 1 1 1
+CRFS
+
+CRFS and RFeye are trademarks or registered trademarks of CRFS Limited. Copyright O 2013 CRFS Limited. All rights reserved. No pan of this document may be reproduced or distributed
+in any manner without the prior wrinen consent of CRFS.The information and statements provided in this document are for informational purposes only and are subject to change without
+notice. Document Number CRFS-MD00003-COO, Jan 2013.
+
+CRFS Limited
+Building 7200, Cambridge Research Park
+Beach Drive, Cambridge, CB25 9TL. UK
+
+Y
+
+!
+
+Tel: +44 (0)1223 815 615 Fax: +44 (0)1223 280 351
+Email: enquiries@crfs.com
+
+CRFS Inc.
+34428 Yucaipa Boulevard, Suite E346
+Yucaipa, CA 92399, USA
+Tel: +l
+949 413 1024
+Ernail: enquiries@crfs.com
+
+

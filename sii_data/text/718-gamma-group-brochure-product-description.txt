@@ -1,0 +1,122 @@
+Cartera De Soluciones Tácticas De Intrusión De TI
+FINFIREWIRE
+
+Las unidades técnicas de vigilancia y los expertos forenses
+a menudo se encuentran con situaciones en las que tienen
+que acceder a un sistema informático en ejecución sin
+apagarlo, para así evitar la pérdida de datos o para ahorrar
+un tiempo vital para el éxito de la operación. En la mayoría
+de casos, el sistema objetivo estará protegido mediante un
+salvapantallas con contraseña o el usuario objetivo no
+habrá iniciado sesión y aparecerá la pantalla de inicio de
+sesión.
+FinFireWire permite que el operador se salte la pantalla
+protegida por contraseña de manera rápida y encubierta,
+y acceda al sistema objetivo sin dejar rastros ni dañar pruebas forenses que pueden ser esenciales.
+
+DE UN VISTAZO
+Uso:
+
+· Operaciones tácticas
+
+Capacidades:
+
+· Omite la contraseña de usuario
+· Accede al sistema de forma
+encubierta
+· Recupera contraseñas de RAM
+· Permite la realización de análisis forenses en tiempo real
+
+Contenido:
+
+· Hardware/Software
+
+Ejemplo De Uso 1: Operación Forense
+
+Ejemplo de uso 2: Recuperación de contraseñas
+
+Una unidad forense entró en el piso de un objetivo e intentó acceder al sistema informático. El ordenador estaba
+encendido, pero la pantalla estaba bloqueada. Dado
+que la unidad no estaba legalmente autorizada a utilizar
+una solución de Monitoreo remoto, se habrían perdido todos los datos apagando el sistema, ya que el disco duro
+estaba íntegramente cifrado. Se utilizó FinFireWire para
+desbloquear el sistema objetivo en ejecución, lo que
+permitió que un agente copiara todos los archivos antes
+de apagar el ordenador y llevar toda esta información a los
+cuarteles centrales de la agencia
+
+Combinando el producto con aplicaciones forenses
+tradicionales como Encase®, las unidades forenses utilizaron la función de volcado RAM para tomar una
+instantánea de la información de la RAM actual y recuperaron la contraseña de cifrado del disco duro para
+llevar a cabo un cifrado de todo el disco de TrueCrypt.
+
+Descripción General De Funciones
+·
+·
+·
+·
+
+Desbloquea el inicio de sesión para todas las cuentas de usuario.
+Desbloquea los salvapantallas protegidos con contraseña.
+Realiza un volcado de toda la RAM para llevar a cabo un análisis forense.
+Permite efectuar análisis forenses en tiempo real y sin tener que reiniciar el
+sistema objetivo.
+· La contraseña del usuario no se modifica.
+· Compatible con sistemas Windows, Mac y Linux.
+· Funciona con FireWire/1394, PCMCIA y Express Card.
+Encontrará la lista completa de funciones en las Especificaciones del producto.
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Cartera De Soluciones Tácticas De Intrusión De TI
+FINFIREWIRE
+
+Componentes Del Producto
+
+FinFireWire - Unidad táctica
+
+Interfaz de usuario interactiva
+
+· Sistema táctico completo
+
+· Interfaz de usuario fácil de utilizar
+
+Tarjetas adaptadoras de conexión
+
+Conjunto Universal De Cables Finwire
+
+· Adaptador PCMCIA y ExpressCard
+parasistemas objetivo sin puerto
+FireWire
+
+· De 4 pines a 4 pines
+· De 4 pines a 6 pines
+· De 6 pines a 6 pines
+
+Uso
+
+1. Dirigirse al sistema objetivo.
+
+4. Seleccionar un objetivo.
+
+2. Iniciar FinFireWire.
+5. Esperar a que el sistema
+se desbloquee.
+3. Conectar el cable y el adaptador
+FireWire.
+
+La información contenida en el presente
+documento es confidencial y puede sufrir
+cambios sin previo aviso. Gamma Group International no se responsabiliza de las omisiones o los errores técnicos o editoriales que
+pueda contener este documento.
+
+GAMMA INTERNATIONAL
+United Kingdom
+Tel: +44 - 1264 - 332 411
+Fax: +44 - 1264 - 332 422
+info@gammagroup.com
+
+

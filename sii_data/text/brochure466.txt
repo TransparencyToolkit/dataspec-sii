@@ -1,0 +1,1171 @@
+I
+
+Thor
+Digital Surveillance System
+
+I
+
+Cobham Tactical Commun~cationsand Surveillance
+f
+
+-
+
+,-The
+
+most Important thing we build is trust
+
+Thor Recelver and Thor Recelver w ~ t hThor Repeater F ~ l t e r
+p
+-
+
+The Thor System is a full-featured, easy to use, portable digital
+audio listeningand recordingsystem for use in surveillance
+operations.
+The audio signal is digitally encrypted t o prevent third-party
+interception.The range is typically over 500 meters Ione third
+of a mile, and can be increased with a high power repeater.
+The transmitters feature a low power, non-transmit "sleep"
+mode that is controlled by a key fob remote controller or by the
+receiver.
+
+Key features
+
+m
+
+Multi location surveillance solution
+- body worn Istationary Iconcealed transmitters
+Compact and small size transmitters - easy concealment
+Various repeater options - long range surveillance
+Encrypted communication - no third party interception
+High stereo audio quality - outstanding intelllglble speech
+Built-in remote control - hlgher operational security
+Built-in recorder - saving the evidence right away
+Stable RF Link -two antenna diversity reception
+Four selectable securlty levels - team protected surveillance
+Remote Start / Stop of transmitter recorder - saving memory
+and power
+Wireless firmware update - easy update of transmitters
+
+Thor
+
+Thor - in brief
+Flexible kit configuratia
+The basic components of the Thor System consists of a
+handheld receiver with built-in solid state recorder and four
+small digital stereo transmitters for easy set-up In a variety of
+mission critical applications.
+The Thor System includes everything required such as
+microphones, power supplies, batteries, antennas, and cables to
+deploy a stealthy, dependable surveillance solution.
+Simple to use
+The Thor System is very easy to use for both novice and
+advanced users. The intuitive control 1 keypad of the receiver
+allow a new user t o monitor and record stereo audio in high
+quality within seconds. For the advanced user. the wide
+range of options allow flexible and sophisticated system
+configuration.
+
+High audio quality
+The Thor System is characterized by its outstanding high audio
+quality and a stable RF link which is achieved by use of a two
+antenna diversity reception technique combined with error
+correction algorithms. The audio quality is designed for high
+intelligibility of speech and thus the audio samplingfrequency
+and audio frequency response is 2.5 times higher than in
+most digital voice tranmitters Irecorders. The built-in AGC
+(Automatic Gain Control) adapts the microphone amplification
+to the sound level, and thereby achieves a wide dynamic range
+even under the most extreme conditions.
+
+Various communication links
+For long distance monitoring, Thor prov~desvarious repeater
+links, such as RF, Ethernet and GSM. The repeater mode extends
+the operating range andlor allows decreasedtransmitter power
+and an extension of the battery life.
+
+. . .? audio signal is digitally encrypted to prevent third-party
+interception. Furthermore, the receiver, the transmitters and
+the RF repeater incorporate an adjustable RF output power to
+help reduce the possibility of detection. For officer safety, the
+Thor GM Key Fob remote control has a built-in panic button,
+which. when activated, will send a panic alert to all listening
+receivers. For higher operational security and performance, the
+receiver has a built-in remote control for controlling various
+transmitter settings and functions.
+
+Data collection and filing
+The built-in solid state recorder allows for 28 hours of
+uncompressed, stereo audio recordings without a monitoring
+team. and provides a backup document in case of transmission
+failure. Each recording is time stamped and a digital watermark
+is made of all the audio data. This means that all recordings
+have their own unique watermark and are tamper proof.
+
+Thor multi location operational set-up
+Thor multi location operational set-up
+Target location
+
+Thor body transmitter with SSR
+
+L
+11s 1230 volts
+
+Thor receiverwith
+built-in recorder
+
+Thor System
+The Thor System is a full-featured, portable digital audio listeningand recordingsolution for law
+enforcement agents, intelligence services and military forces. The system provides 10 RF channels
+and 2 RF repeater channels and is extremely suitable for multi-location surveillance operations.
+PC software
+RF frequency
+RF modulation
+Duplex protocol (remote control)
+RF channels
+Repeater RF channels
+Audio sample frequency
+Audio bandwidth. -3dB
+Dynamic range
+Audio channel encryption
+
+Windows XP and V~sta(32-bit only)
+406.1 to 420MHz
+GFSK
+T~meDivision Duplexing(TDD)
+10
+2 (Ch. 1-21
+19.5 kHz
+l00 to 8200 Hz
+min. 80 dB
+AES (1 28-bit), DES (56-bit)
+(Depending on international leg~slation)
+max. 500 ms
+16 Bit
+85 dB
+Oto45'C132'Fto 113'F
+- l o t 0 6 0 CI14Fto140"F
+max. 90%RH
+8
+2
+
+Audio delay (from TX to RX, non repeated)
+AID converter resolution
+Signal to Noise Ratio (SNR)
+Operatingtemperature range
+Storage temperature range
+Humidity
+Maximum number of transmittersoperated by one receiver
+Maximum number of transmitters in repeatersetup
+Range: Key fob to transmitter
+Range: Transmitter to receiver
+Range: Transmitter to receiver t o repeater
+
+-
+
+> l 0 meters
+>500 meters (tested up to 2000 meter), line of sight
+> l600 meters (tested up to 3500 meter). line of
+
+-,
+
+Thor
+Digital Surveillance S y s t e m
+Communincations and Surveillance
+
+C o b h a m Tactical
+
+Thor Receiver
+
+The Thor RX receives, records, and plays audio from Thor Transmitters. It controls transmitter
+functions and sett~ngsand the range is increased when used as a signal repeater and fitted
+with the repeater filter Basic functions are controlled by the keypad, and advanced settings
+are accessible through the control menu.
+External supply connector (DC)
+Antenna connectors
+Receiver sensitiv~ty(2 4%BER)
+Frequencystability
+RF output power for remote control (external supply)
+RF output power for remote control (2AA batteries)
+RF output power, repeater mode (@ RF B connector)
+RF output power level (typ.)
+
+RF outputpower level (typ.) - Repeater mode
+
+1mW
+3mW
+lOmW
+
+500mW
+1W
+500mW
+1W
+2W
+
+Spur~ous& harrnon~cs
+Internal batter~es
+Recommended~nterna!battery type
+Typical battery life. receive mode w~th~nternalbatter~es
+Typical battery life, repeater (2W) with alkaline D-Cell batteries
+External supply voltage
+Current comurnpt~on,
+recerve mode
+Current consumpt~on,receive mode
+Current consumpt~on.repeater (0.5 W)
+Current consumpt~on,repeater ( l W)
+Current consumpt~on,
+repeater (2 W)
+Mln recording time (no comprssion, stereo)
+Recorder memory
+Headphonec~nnector
+L~neout connector
+Audio bandwidth, -3dB (ref = 1 kHz)
+Audio sample frequency
+Dynam~crange
+File system
+Data format
+Compress~on
+USB connector
+USB transfer rate
+Dimensions
+We~ght
+
+LEMO 2 pole socket
+BNC socket
+-100 dBm typl-97 dBm min
+i l 0 ppm
+30 dBm (+I-2dB)
+24 dBm (+l-ZdB)
+33 dBm (+l-2dB)
+0.0 dBm
+4.8dEm
+10.0dBm
+
+27,O dBm
+30.0 dBm
+270dBm
+300dBm
+330dBm
+-53 dBc non-harmon~c,
+-53 dRc harmonic
+Zx AA (1 8 to 3.3V DC)
+Lithium Energ~zerL91
+7 hours
+12 hours
+8tol8VDC
+350 mA typical. 1250 mA peak @ 3 V DC
+1l 0 mA t\~pical.350 mA peak @ 12 V DC
+390 mA typtcal@ 12 V DC
+400 mA typical @ l 2 V DC
+420 mA typical C3 12 V DC
+28.4 hours
+8 GB
+3 5 mm stereo socket
+3 5 mm stereo socket
+300 to 8900 Hz
+19.5 kHz
+84 dB
+Microsoft FAT32
+Microsoft wave
+None IA-law
+Mini-B USB
+Up to 15 Mbytesls
+86xl74x283mml
+3 8 6 ~ 6 . 8 5 ~ 1 . 1inch
+1
+430 grams 1 15.17 ounce
+
+Repeater F
+RX band
+TX band
+Filter impedance,passband
+Filter rnband lnsertlon loss (max.)
+Filter stopband attenuation (min)
+D~mensions
+We~ght
+
+406.1 to 408 MHz
+418 to 420 MHz
+50 Dhm O/SWR<251)
+2.5 dB
+35 dB
+95~86~30.7
+mm I
+3.75x3.39x1.2 1 inch
+320 grams 1 17.29 ounce
+
+Thor Trammttten (Generic)
+The Thor Transmitters are designed for use in a variety of mission critical applications.
+All transmitters feature VOX mode, encrypted transmission, live and sleep modes,
+and remote control via the Thor GM Key Fob and via the Thor Receiver. In addition, the Thor
+Transmitter types with SSR has a built-in solid state recorder.
+RF f t ' e q u m z
+W channel raster
+RF rnodulat~on
+Frequency stahiii
+Buplex protocol (remote control)
+channels
+Spurious, non-harmonic (@RFout = +27dBm, VcdVO)
+Spurious. harmonic
+Remote sensitiigy
+Audio channels
+Microphone gain
+Fixedgain
+
+P
+
+p
+
+P
+
+P
+
+p
+
+p
+
+p
+
+p
+
+p
+
+P
+
+p
+
+p
+
+P
+
+p
+
+p
+
+p
+
+p
+
+P
+
+p
+
+p
+p
+
+p
+
+406.1 to 420 MHz
+2QO kHz
+GFSK
++ loppm
+%e Dlvi.sion ~upk.xing(7Dm
+10
+-4-7 dBc
+-55 dBc
+-95 dBm
+2 (Stereo)
+AGC or fixed
+0,+10.+20,+30,+40dBL
+
+p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+Thor
+Digital SurveillancecSy~tem
+Cobham Tactical
+
+~ommunineationsand Surveillan-ce
+
+Thor Flying Lead Transmitter
+The combination of small size, various power adapters and remote-controlled functions
+makes the transmitter perfect for installation into almost any location or concealment.
+External supply voltage range
+A n t ~ ~ ~ c o n ~ r
+RF output power
+RF output power level (€W.)
+
+lmW
+3mW
+lOmW
+30mW
+lOOmW
+2OOmW
+300mW
+500mW
+Current consumption, RF output:50O~M (@ Vbatt = 6.01V)
+Currentconsumption, RF output: 10 mW (@ Vbatt = 6.0 V)
+Current c~nsumption,sleep mode
+Typical battery lifetime, RF output: 500 mW (2 X CR1B A )
+Typical battery life time, RF output: 10 mW (2 X CR123A)
+Dimens~ons
+p
+
+Weight
+
+3.5 EO 15 VDC
+MMCX
+0 t o 27 dBm (+l-2dB)
+0.0 dBm
+4.8dBm
+10.0 dBm
+14.8 dBm
+20.0 dBm
+23.0 dBm
+24.8dBm
+27.0 dBm
+310 mA EMS typical
+100 mA RMS, t y p i d
+3 mA RMSmax.
+3 hours
+9.5 hours
+23.0 X 53.5 X 7.1 mm I
+0.906 X 2.1 1 X 0.28 inch
+24 grams 10.85 ounce
+p
+
+Thor flying Lead Transmitter with Solid State Recorder
+The combinat~onof small size, built-in solid state recorder, various power adapters and
+remote controlled functions makes the transmitter perfect for installation into almost any
+location or concealment.
+External supply voltage range
+Antenna socket
+RF output power
+RF output power tevel (typ3
+
+p
+
+p
+
+p
+
+p
+
+1mW
+3mW
+1OmW
+30mW
+1QOmW
+200mW
+300mW
+500mW
+Current consumption. RF output 500mW (@ Vbatt = 6.0 V)
+Current consumption, RF output: TO mW (@ Vbatt= 6.0 V)
+Typical battery life @ 500 mW RF output (2xCR123A)
+Typical batterv life @ 10 mW RF output (2xCR123A)
+Max. recordingtime (no compression. stereo)
+Recorder memo
+Audio bandwtdthy-3& ( ~= 1f kHz)
+Audlo sample frruency
+Dynamic range
+File system
+Dataformat
+Compressja
+USBconneaor
+USB transfer rate
+Dimensions
+p
+
+p
+
+P
+
+p
+
+Weight
+
+p
+
+P
+
+4 t o 15VDC
+MMCX socket
+0 to 27 dBm (+l-2dB)
+0.0 dBm
+4.8 dBm
+10.0 dBm
+14.8 dBm
+20.0 dBm
+23.0 dBm
+248dBm
+27.0dBm
+410 mA RMS, typlcal
+140 mA RMS, typical
+3 hours
+9.5 hours
+28.4 hours
+8 GB
+300 t o B300 Hz
+19.5 kHz
+96 dB
+MicrosoftFAT32
+MicrosoftWave
+None IA-law
+Mini-B USB
+Up t o 15 Mbytds
+96.0 X 24.0 X 8.0 mm I
+2.1 X 0.9 X 0.28 Inch
+37 grams l11.3 ounce
+
+1
+
+p
+
+Thor Body Trammltter
+The Body Transmitter is suitable for body worn operation as well as extended operation
+with an external power supply.
+Internal batteries
+Recommendedbatterytype
+Antenna connector
+RF output power
+RF output power level (typ.)-
+
+4xAAA Lithium
+Energizer L92
+MMCX socket
+O to 27 dBm (+l-2dB)
+0.0 dBm - 4.8dBm
+10.0 dBm
+-14.8dBm
+20.0 d 8 m 23.0 dBm
+24.8 dBm
+27.0dBm--310 mA RMS. typ~cal
+100 mA RMS, typical
+2.5 hours _
+8.5 hours
+300 to 8300 HZ
+4tolSVDC
+4to48V DC
+LEMO 4 pole so*
+52.75 X 76.70 X i 2 r
+n
+a
+2.08 X 3.02 X 0.47 in&
+47 grams 1 1.66 ounce
+
+1mW
+3mW
+lOmW
+30mW
+lOOmW
+2OOmW
+300mW
+500mW
+Current consumptton. RF output 500 mW (@ Vbatt=6.0 V)
+Current consumption. RF output 10 mW (@ Vbatt = 6.0 V)
+Typical battery life @ 500 rnW RF output (Energizer L92)
+Typical battery life @ 10 mW RF output (Energizer L92)
+Audio bandwidth, -3dB (ref =l kHz)
+Externalsupply voltage range (through bauery terminals)
+Externalsupply voltage range (throughTX power adaptor)
+E e m a l microphone connector
+Dimensions
+-
+
+-
+
+P
+
+P
+
+P
+
+-
+
+- =
+
+P
+
+-
+
+-
+
+P
+
+P
+
+-
+
+pp
+
+p
+
+-
+
+-
+
+P
+
+-
+
+-
+
+p
+
+P
+
+P
+
+P
+
+P
+
+P
+
+P
+
+,
+h
+
+Weight
+
+nor Body Transmitter wtth Solid State Recorder
+The Body Transmitter with Solid State Recorder is suitable for portable operation as well
+as extended operation with an external power supply. The built-in solid state recorder allows
+for audio recordingwithout a monitoringteam, and provides a backup document in case of
+transmission failure.
+Intemal batteries,
+Recommended battery t
+Antenna connector
+Foutput power
+
+-
+
+y - -~
+
+-
+
+- -
+
+-
+
+- _ --
+
+p
+
+p
+
+RE-wEplrtw~er
+!s&&
+- b)i
+
+ImW
+
+=
+
+lOOmW
+200mW
+
+--
+
+-
+
+- -
+
+- --
+
+4 X AAA Lithium
+Energizer L92
+MMCX socket
+to 27 dBm (+l-2dB)
+0.0d8m
+
+=
+
+p
+p
+-
+
+20.0 dBm
+23.0 dBm
+
+-
+
+P
+
+-
+
+-
+
+--
+
+p
+- p
+
+p
+
+p
+
+p
+
+p
+
+p
+
+=-
+
+p
+
+'
+
+500mW
+
+R
+~
+~
+Current consumgtion, RF output 10 mW (@ Vbatt = 6.0 V)
+Typical battery life @ 500 mW W output (EnerGzer L92)
+Typlcal battery life 8 10 mWRF output (Energizer L921
+External supply voltage range (through battery terminals)
+External suiply voltage range (through TX power adaptor) E m a l microphone connector
+Min. recordingtime (no compression. stereo)
+Recorder memory
+Audio bandwidth. -3dB (ref = 1 kHz)
+Audlo sample frequency
+- _
+_ _
+Dynamic range
+File system
+=
+Dataformat
+- Compression
+U5B connector
+p
+.
+Dimensions
+~
+~
+
+--
+
+-
+
+p
+
+=
+
+p
+
+-
+
+USB transfer rate
+Weight
+-
+
+p
+
+- -
+
+p
+
+p
+
+P
+
+p
+
+--
+
+a
+
+l
+
+P
+
+p
+P
+
+--
+
+-
+
+p
+p
+
+p
+
+p
+-
+
+P
+
+27.0 dBm
+i
+c
+140 mA RMS, typical
+2.5 hours
+8.5 hours _ ___
+4 to 15 V DC
+4to48VDC
+&EM0 4 pole socket
+28.4 hours
+8 GB
+300 to &$p
+Ha
+-1% k P k
+9@&
+'wIq&@WEAW
+r~&@~gre
+lA L E .
+M.n1-B
+
+P
+
+--
+
+p
+
+P
+
+m
+
+p
+
+@
+- 2 . m 3d§x1@.4Xks~b
+~
+__
+~upm
+&
+w
+&
+@
+l
+
+9YO:~an1st3.P7
+- -
+
+x
+
+Thor
+Digital Surveillance System
+Cobham Tactical Communincations and Surveiltance
+
+Thor GM Key Fob
+The key fob is an on I off remote control that can be used to switch all Thor Transmitters
+between live and sleep modes, and to send a "panic" alert t o all listeningreceivers.
+The key fob provides true feedback by vibrating in response to commands as they
+are received and executed by the transmitter.
+Output frequency,,wntrot
+Antenna
+Internalbattery
+Charging method
+~ctlvatlonswithfully chargdbattery
+Charge time
+Pairing
+~imensions(Lx W X H)
+p
+
+p
+
+p
+
+p
+
+Weight
+
+-
+
+p
+
+p
+
+p
+
+406.25 MHz
+lnternal antenna
+3.6 V rechargeable, lithiumcob cell
+Inductive
+Typical up to 300 transmissions
+6 hours
+Remotely from receiverto transmitter
+5 4 x 4 2 13.5
+~ mm1
+2.13 X 1.65x0.35 inch
+23 grams 10.8 1 ounce
+
+p
+
+Power supplies
+A variety of options and accessories for poweringthe Thor System Components.
+
+B w r t r r y v
+For use with the Thor Fly~ng
+Lead Transmitter and the Thor Flyfng Lead
+Transmitter with Solid State Recorder.
+
+2 X 3 V lithium (CR 123AJ
+
+AA-cell battery pad
+For use wtth the Thor Receiver, the Thor Body Transmitter and the Thor
+Body Transmitter with Solid State Recorder (requires a Thor TX Power
+Adapter)
+6 X 1.S V lithium M-cell batteries
+
+For use with the Thor Receiver, the n o r Repeater, theThor Body Transmitter and the Thor Body Transmitter with Solid State Recorder (requires a Thor
+TX Power Adaptoe)
+
+8 X 1.5 V alkaline D-cell batteries
+
+--
+
+-
+
+P
+
+P
+
+DoubleLEMO DC cable
+For use with a D-cell battery pack
+
+12 v DC power supply
+For use with the Thor Receiver. the Thor Repeater. Thor Body Transmitter
+and the Thor Body TransmitterwithSolid State Recorder (requires a Thor TX
+Power Adapter)
+
+For ust W I L ~the Thor Rece~ver,turs,)or Repeater, the Thor Bodytransmitter and theThor Body Transmitter with Solid State Recorder (requires a Thor
+TX Power Adapter)
+
+Thor
+Digital S u r v e i l l a n c e S y s t e m
+C o b h a m Tactical C o m m u n i n c a t i o n s
+
+and S u r v e i l l a n c e
+
+Power supplies - continued
+A variety of options and accessories for powering the Thor System Components.
+
+12vdgerarm~mmLEhAOBC&
+For use with the Thor Receiver,the Thor Repeater,the Thor Body Transm~tter and the Thor Body Transmitter wlth Soird State Recorder (requires a Thor
+TX Power Adapter)
+
+Thor RX Power Adaptor
+For use with the Thor Receiver and the Thor Repeater
+18to48VDC
+56.5 X 26.2 X 110.2 mm I
+2.22 X 1.03 X 4 34 inch
+186 grams 16.56 ounce
+
+Input voltage range
+Dimensions
+Weiht
+
+mTx.*m~
+For use with Thor Bod)
+
+~srnitterand the Thor Body Transm~tterw ~ t hSolid State Recorde~
+4 to48 V DC
+8V
+40 X 43.2 X 9.1 5 mm l
+1.57 X 1.7 X 0.36 inch
+25 grams 10.88 ounce
+
+Input voltage range
+Output voltage
+Dimensions
+Weight
+
+P
+-
+
+.
+
+MMM - 6 VD(
+Micro rnalns module tor long term suweillance installations by connection to 115 1230 VAC mains hnes.
+For use with the Thor Flying Lead Transmitter and the Thor Flying Lead Transmitterw ~ t hSol~dState Recorder
+Isolation test voltage
+Ma~nsinput
+Input current at max load (400 mA)
+lnputower at max. load (400 mA)
+lnput current without load
+Input power without load
+Regulated output voltage
+Output r~pplevoltage, tyg
+Output current
+Temperature range
+Length of mains wires
+Dimensions (HxWxD)
+
+p
+p
+
+500 VAC RMS
+85 VAC to 267 VAC. 50 160 Hz
+i210mARMS
+i4.1 W
+< 20 mA RM5
+< 450 mW
+6 VDC
+25 mVAC RMS
+> 400 mA
+-5 C t 0 5 5 ~ C I 2 3 ~ F t o 1 3 l ~ F
+50 cm 1 19 68 inches
+3 6 ~ 9 . 7 ~ 2mm
+0 l
+1.4x0.4x0.8 inch
+
+p
+-
+
+M~cromalns module for long term surveillance installations by connection to 115 1230 VAC mains lines.
+For use with the Thor Flying Lead Transm~tterand the Thor Flying Lead Transmitter w ~ t hSolid State Recorder
+Mains lnput - 115 V
+Mains input - 230 V
+Output current
+Temperature range
+Lengthmains wires
+Dimensions (HxWxD)
+
+85 VAC to 267 VAC, 50 160 Hz
+195 VAC to 267 VAC, 50 160 Hz
+
+Max. 250 mA
+-5"Cto55'C123'Fto131'F
+50 cm 1 19.68 inches
+20x42~29mm I
+0.8x1.6x1.1 inch
+
+Antennas
+Four types of antennas are included for different applications.
+All antennas are suitable for receive mode operation. I n repeater
+mode operation, the 112 wave type is recommended.
+When operating the receiver in repeater mode, the repeater filter
+must be used.
+The receiver antennas are also suitable for use with the two types of
+body transmitters. The MMCX to BNC antenna adapter is included for
+this purpose.
+
+MMCX to BNC
+antenna adapter
+
+1/4 wave covert
+mobile antenna
+
+1/4 wave
+mobile antenna
+
+1/4 wave whip
+
+antenna:
+
+%wavewhip
+antenna
+
+Thor
+Digital Surveillance System
+Ordering Information
+
+The most important thing we build is trust
+
+Cobham Tactical Communications and Surveillance in Grenaa,
+Denmark is a world leading provider of high-quality covert
+audio and video surveillance solutions. Our products are
+exclusively used by law enforcement, the intelligence
+community and military special operations forces world wide
+in their efforts t o combat terrorism and crime. Besides the
+headquarters in Grenaa, Cobham Tactical Communications and
+Surveillance has branches in Switzerland, Canada. Argentina
+and Braz~l
+It is our mission to deliver reliable products and solutions to
+those people who risk their lives in their efforts to make our
+everyday life more secure.
+
+Cobham Tactical Communications and Surveillance in Grenaa is
+one in eight companies in the strategic business unit Cobham
+Tactical Communications and Surveillance.The companies
+are specialists within audio- and video surveillance. tracking &
+locating, VIP Iforce protection, data Ivideo links and
+surveillance systems.
+We are part of the British Cobham Group that manufactures
+high-tech solutions for land, sea. air and space platforms.The
+Group has an annual turnover of more than EUR 2.2 billions.
+employs some 12,500 people on five continents, with
+customers and partners in over 100 countries. The partnership
+with Cobham means thatwe as a company can benefit from
+world class specialists and resources, whenever needed.
+
+-
+
+-.
+
+3
+
+:
+
+-
+
+5
+
+Thor Receiver
+Thor Flying Lead Transmitter
+Thor Flying Lead Transmitterwith Solid State Recorder
+Thor Body Transmitter
+Thor Body Transmitter with Solid State Recorder
+Thor GM Key Fob
+Thor Repeater Filter
+
+Order no. 9900 50 07
+Order no. 9900 50 08
+Order no. 9900 50 18
+Order no. 9900 SO 09
+Order no. 9900 50 10
+Order no. 9900 50 00
+Order no. 9990 08 04
+
+Thor Standard Kit
+Thor Repeater Kit
+Thor Repeater+ Kit
+Thor Complete Kit
+Thor Red Kit
+
+Order no. 9900 50 02
+Order no. 9900 50 04
+Order no. 9900 50 06
+Order no. 9900 50 15
+Order no. 9900 50 05
+
+For further information please contact:
+Cobham Tactical Communications
+and Surveillance
+Skindbjergvej 44, DK-8500 Grenaa, Denmark
+T +45 87 91 81 00
+F: +4587918181
+tcs.grenaa.sales@cobharn.com
+
+MMM - 6 VDC 1400 mA
+MMM - 1 15 VAC 1 12 VDC 1 250 rnA
+MMM - 230 VAC 1 12 VDC 1 250 mA
+Battery compartment 6V LEMO
+AA Cell battery pack
+D Cell battery pack
+Double LEMO DC cable
+12 VDC power supply
+l2 V cigarettelighter to LEMO DC cable
+LEMO to bare leads DC cable
+Thor RX Power Adapter
+Thor TX Power Adapter
+Universal GSM Module
+
+Order no. 991 5 04 03
+Order no. 9915 02 07
+Order no. 9915 02 04
+Order no. 9990 04 05
+Order no. 9990 04 03
+Order no. 9991)04 04
+Order no. 9990 02 01
+Order no. 9990 08 01
+Order no. 9990 02 02
+Order no. 9990 02 03
+Order no. 9990 08 02
+Order no 9990 08 03
+Order no. 9990 00 03
+
+

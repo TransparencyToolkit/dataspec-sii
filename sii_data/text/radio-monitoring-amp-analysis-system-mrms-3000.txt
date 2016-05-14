@@ -1,0 +1,163 @@
+Radio Monitoring &
+Analysis System MRMS 3000
+Flyer
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+Radio Monitoring & Analysis System - MRMS 3000
+
+The radio monitoring & analysis system MRMS 3000 has been developed for
+operational services. It has got a modular set-up and is used for swift radio
+monitoring within a frequency range from 25 MHz to 3 GHz.
+Rapid FFT analysis allows of high-speed search run of ca. 20 MHz/s. Downstream
+monitoring receivers enable listening-in and recording of up to four signals
+simultaneously. Minimum response time between start of search run and
+activation of monitoring receiver is ca. one second.
+By adding another search receiver, the frequency band can be extended to the 100
+kHz to 25 MHZ range. Within this range, the search run speed is only 45 steps/s
+(i.e. step size of 12.5 kHz at 562.5 search run speed).
+
+An easily operated software controls the system and assures the following
+functions:
+• frequency band monitoring in search mode (search mode)
+• analysis of radio signals
+• demodulation and decoding of more than 100 standardised protocols
+The system consists of:
+• one broadband and narrow band receiver each
+• up to 4 monitoring receivers
+• a software-based demodulator, decoder and analyser
+• a control processor
+• aerial units (corresponding to respective frequency range)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+System Overview
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Programm Window
+Menu Bar
+Spectrum
+Display
+
+Waterfall
+diagramm
+
+Receiver
+control
+Status Bar
+Settings
+Operating modes
+1. Search mode
+Frequency search run with two adjustable cut-off frequencies. Parameters are
+modifiable (step size, reception level). Found reception signals will be stored in a
+frequency table.
+
+2. Analysis of radio signals
+A special software decoder takes on the analysis and demodulation of radio
+signals.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+3. Demodulation and decoding
+Demodulation and decoding are carried out by means of a special software.
+Supported codecs are the following:
+Codecs & Protocols
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+Technical Data
+
+Search receiver
+Receiver type
+Sensitivity
+
+Search speed
+
+Monitoring receiver
+Receiver type
+Sensitivity
+
+Modulation modes
+Selectivity (@6dB):
+SSB/NAM
+AM/SFM
+WAM/NFM
+WFM
+
+Power supply
+Dimensions
+Weight
+
+2
+threefold frequency conversion with rapid FFT
+analysis
+AM:
+25- 225 MHz 0.6 μV (10 dB S/N)
+225-1700 MHz 0.8 μV
+NFM:
+25-1700 MHz 0.35 μV (12 dB SiNAD)
+1700-2700 MHz 0.6 μV
+2700-3000 MHz 1.5 μV
+WFM: 25-1700 MHz 2.0 μV (12 dB SiNAD)
+20 MHz/s
+
+max. 4
+PLL-controlled with threefold frequency conversion
+AM:
+30- 470 MHz 0.32 μV (10 dB S/N)
+NFM:
+30- 470 MHz 0.23 μV (12 dB SiNAD)
+470-1000 MHz 0.45 μV
+1000-1300 MHz 2.5 μV
+1300-2040 MHz 1.7 μV
+2040-3000 MHz 15 μV
+WFM: 30- 470 MHz 1.5 μV (12 dB SiNAD)
+WFM, NFM, SFM, WAM, AM, NAM, USB, LSB, CW
+3 kHz
+6 kHz
+12 kHz
+150 kHz (@3dB)
+
+12 VDC 4.0 A
+AC/DC adaptor 115 ... 230 V AC/50 ... 60 Hz, 300 W
+(included in scope of delivery)
+430 x 340 x 235 mm
+approx. 15 kg
+
+Scope of delivery:
+
+MRMS 3000
+Telescope aerial, user’s manual, PSU, transport box
+
+Optional:
+
+Frequency band enhancement from 100 kHz,
+additional aerials
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+7
+
+

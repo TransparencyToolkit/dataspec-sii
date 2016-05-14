@@ -1,0 +1,662 @@
+Data Monitoring Switch
+
+A
+2
+
+B
+
+A
+B
+
+1
+
+www.netoptics.com
+
+IDS
+
+Analyzer 1
+
+Analyzer 2
+
+Forensic
+
+RMON 1
+
+RMON 2
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Director
+
+Content
+Key Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Director Part Numbers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Director Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+USB port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Director Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Typical Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+In-line Monitoring of 10 Gigabit Links . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Director Front Panel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+Director Rear Panel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+Director
+
+Introduction
+Net Optics Director is a key component for building a comprehensive, consolidated monitoring infrastructure for both
+network management and security. It extends the range of visibility for data monitoring across converged data and
+digital voice networks, while eliminating monitoring port contention and minimizing the number of tools needed to
+optimally manage the network.
+$VLQJOH'LUHFWRUGHYLFHHQDEOHV\RXWRWDSLQWRPXOWLSOHQHWZRUNOLQNVDQGGLUHFWWKHLUWUDIÀFWRPXOWLSOHPRQLWRULQJ
+ports. It includes aggregation and regeneration functions, so the link-to-monitor-port mapping can be one-to-one,
+RQHWRPDQ\PDQ\WRRQHRUPDQ\WRPDQ\,QDGGLWLRQLWSURYLGHVÀOWHULQJ(DFK0RQLWRUSRUWFDQEHSURJUDPPHG
+WRUHFHLYHRQO\WUDIÀFPHHWLQJXVHUGHÀQHGÀOWHUFULWHULDEDVHGRQSURWRFROVRXUFHDQGGHVWLQDWLRQDGGUHVVHVDQG
+RWKHUFULWHULD7KLVÀOWHULQJFDSDELOLW\HQDEOHVVSHFLÀFW\SHVRIWUDIÀFVXFKDVYRLFHRYHU,39R,3WREHGLUHFWHGWR
+particular monitoring tools.
+Matrix switching, aggregation, and regeneration
+(DFK'LUHFWRUFKDVVLVVXSSRUWVXSWRLQOLQHQHWZRUNOLQNVRU6SDQSRUWV)RUPRQLWRULQJXSWRSRUWVDUH
+provided. Network and Span ports can be aggregated and regenerated to output ports in almost any combination.
+Modular design
+'LUHFWRULVPRGXODUWRSURYLGHFRQÀJXUDWLRQÁH[LELOLW\
+ 'LUHFWRU1HWZRUN0RGXOHV'10VVXSSRUW6;PXOWLPRGHDQG/;VLQJOHPRGHÀEHUOLQNVDQG
+Copper links.
+ (DFK'10SURYLGHVHLWKHULQOLQHQHWZRUNOLQNVRU6SDQSRUWV
+ The Director Chassis includes two DNM slots; they can be populated with the same or different DNM types.
+ Ten 1-Gigabit Monitor ports are SFP-based, accepting any mix of Copper, SX, and LX interface modules.
+ )RXU*LJDELWSRUWVDUH;)3EDVHGDFFHSWLQJ65/5DQG(5LQWHUIDFHPRGXOHV
+Flexible 10 Gigabit support
+)RXU*LJDELWSRUWVFDQEHFRQÀJXUHGDV1HWZRUN6SDQRU0RQLWRUSRUWV7KH\FDQEHFRQÀJXUHGIRUWKHVDPHRU
+GLIIHUHQWIXQFWLRQV7UDIÀFIURPPXOWLSOH*LJDELW1HWZRUNRU6SDQSRUWVFDQEHDJJUHJDWHGWRD*LJDELW0RQLWRU
+SRUW&RQYHUVHO\WUDIÀFIURPD*LJDELW1HWZRUNRU6SDQSRUWFDQEHGLVDJJUHJDWHGWRPXOWLSOH*LJDELW0RQLWRU
+SRUWVWKURXJKDSSURSULDWHÀOWHULQJ)RUH[DPSOHWUDIÀFIURPGLIIHUHQW,3DGGUHVVUDQJHVFRXOGEHGLUHFWHGWRVHSDUDWH
+Monitor ports.
+Expandable
+Two 10 Gigabit ports on the rear of the unit enable daisy-chaining up to ten Director chassis to expand the number of
+DYDLODEOHSRUWVIRUDWRWDORISRUWVLQDIXOO\H[SDQGHGV\VWHPZKHQDYDLODEOH
+0RQLWRUSRUWEDVHG¿OWHULQJ
+'LUHFWRUDYRLGVWKHFRQIXVLRQRISUHÀOWHULQJYHUVXVSRVWÀOWHULQJE\VWULFWO\W\LQJÀOWHULQJWRWKH0RQLWRUSRUWV(DFK
+0RQLWRUSRUWFDQEHFRQÀJXUHGWRKDYHWUDIÀFIURPDQ\QXPEHURI1HWZRUNRU6SDQSRUWVGLUHFWHGWRLWDQGHDFK0RQLWRU
+SRUWDSSOLHVXSWRSURWRFRODGGUHVVDQGXWLOL]DWLRQEDVHGÀOWHUVWRWKHWUDIÀF
+
+1
+
+Director
+
+.H\)HDWXUHV
+Ease of Use
+
+
+
+
+
+
+
+
+
+
+
+7DSDJJUHJDWLRQUHJHQHUDWLRQPDWUL[VZLWFKDQGÀOWHUIXQFWLRQVLQDVLQJOHGHYLFH
+19-inch rack frame, 1U high
+Front-mounted connectors for quick and easy installation
+/('LQGLFDWRUVVKRZ3RZHU/LQNDQG$FWLYLW\VWDWXV
+0RGXODUGHVLJQIRUFRQÀJXUDWLRQÁH[LELOLW\
+5021VWDWLVWLFVLQFOXGLQJQHWZRUNXWLOL]DWLRQÀOWHULQJGDWDFDQEHXVHGWRDVVHPEOH;0/EDVHGHQGXVHUUHSRUWV
+or it may be exported to a third party reporting tool such as a protocol analyzer
+7H[WEDVHGFRPPDQGOLQHLQWHUIDFH&/,DYDLODEOHWKURXJK56VHULDOSRUW
+CLI also available remotely over secure SSH connection
+Field-upgradeable software
+Compatible with all major manufacturers’ monitoring devices, including protocol analyzers, probes, and intrusion
+detection and prevention systems
+
+Monitor port Filtering
+
+
+
+
+
+
+
+
+
+
+ÀOWHUHOHPHQWVSHUDFKDVVLV
+([FOXVLYHGURSPDWFKHGSDFNHWVDQGLQFOXVLYHSDVVPDWFKHGSDFNHWVÀOWHUV
+Filters based on IP protocol, IP addresses, layer 4 ports, MAC addresses, and VLANs
+Source and destination MAC addresses, or ranges of addresses
+Source and destination IP addresses, or ranges of addresses
+Source and destination ports, or ranges of ports
+Supports IPv4 and IPv6 protocols
+VLAN
+3URWRFROVDOO,3SURWRFROVVXFKDV,&037&38'3DQG5'3
+
+Passive, Secure Technology
+
+
+
+
+
+
+
+
+Passive access at up to 10 Gbps
+In-line links do not interfere with the data stream or introduce a point of failure
+2SWLPL]HGDQGWHVWHGIRUDQG0ESVFRSSHUDQGDQG*SEVÀEHUQHWZRUNV
+Redundant power to maximize uptime
+In-line links default to open under a complete power-fail condition, ensuring network availability
+)&&&(9&&,&7LFNDQG:(((FHUWLÀHG
+Fully RoHS compliant
+
+Unsurpassed Support
+ Net Optics offers technical support throughout the lifetime of your purchase. Our technical support team is
+DYDLODEOHIURPWR3DFLÀF7LPH0RQGD\WKURXJK)ULGD\DWDQGYLDHPDLODW
+ts-support@netoptics.com. FAQs are also available on Net Optics Web site at www.netoptics.com.
+
+2
+
+Director
+
+Director Part Numbers
+Chassis Part Number Description
+DIR-3400
+DIR-7400
+DNM Part Number
+
+Director Main Chassis with 10 SFP monitor ports
+Director Main Chassis with 10 SFP monitor ports, 2 XFP 10GbE ports, 2 XFP uplink ports
+Description
+
+DNM-100
+
+6-Port 10/100/1000 Copper In-Line Module
+
+DNM-110
+
+12-Port 10/100/1000 Copper Span Module
+
+DNM-200
+
+6-Port Gigabit SX Fiber 62.5µm In-Line Module
+
+DNM-210
+
+12-Port Gigabit SX Fiber 62.5µm Span Module
+
+DNM-220
+
+6-Port Gigabit SX Fiber 50µm In-Line Module
+
+DNM-230
+
+12-Port Gigabit SX Fiber 50µm Span Module
+
+DNM-300
+
+6-Port Gigabit LX Fiber In-Line Module
+
+DNM-310
+
+12-Port Gigabit LX Fiber Span Module
+
+DNM-320
+
+6-Port Gigabit ZX Fiber In-Line Module
+
+DNM-330
+
+12-Port Gigabit ZX Fiber Span Module
+
+3
+
+Director
+
+Director Architecture
+The following diagram shows a schematic view of the architecture of the Director device shown as a Matrix Switch with
+ÀOWHULQJ7KHEODFNGRWVLQGLFDWHDJJUHJDWLQJ0DWUL[6ZLWFKFRQQHFWLRQVEHWZHHQ1HWZRUN3RUWVDQG0RQLWRU3RUWV
+
+DNM with
+6 in-line
+network ports
+
+n1.1
+
+n1.2
+
+n1.3
+
+n1.4
+
+n1.5
+
+n1.6
+
+n1.7
+
+n1.7
+
+n1.9
+
+n1.10
+
+n1.11
+
+n1.12
+
+n2.1
+n2.2
+n2.3
+n2.4
+DNM with
+12 Span or
+out-of-band
+network ports
+
+n2.5
+n2.6
+n2.7
+n2.8
+n2.9
+n2.10
+n2.11
+n2.12
+t1.1
+
+Four configurable
+10GbE XFP ports
+
+t1.2
+t2.1
+t2.2
+Filters
+t1.1
+
+t1.2 t2.1 t2.2 m.1 m.2 m.3 m.4 m.5 m.6 m.7 m.8 m.9 m.10
+
+Key:
+Network or Span port
+Monitor Port
+Aggregating switch conection
+Dim Alternate configurations for 10 GbE XFP ports
+
+10 SFP monitor ports
+
+Figure 1: Director internal architecture
+
+Director can be viewed as a matrix switch with up to 28 inputs, or Network ports, and 14 outputs, or Monitor ports.
+$Q\QXPEHURILQSXWVFDQEHGLUHFWHGWRHDFKRIWKHRXWSXWV'LUHFWRUDJJUHJDWHVWKHWUDIÀFIURPWKRVH1HWZRUNSRUWV
+DQGVHQGVWKHPWRWKH0RQLWRUSRUWV)RUH[DPSOHWKHGLDJUDPVKRZV
+ 7UDIÀFIURPWKHÀUVWLQOLQH1HWZRUNOLQNQQLVEHLQJGLUHFWHGWRWKHÀUVW6)30RQLWRUSRUWP
+ 7UDIÀFIURPWZRLQOLQH1HWZRUNOLQNVQQDQGQQSOXVWKUHH6SDQ1HWZRUNSRUWVQQ
+DQGQLVEHLQJDJJUHJDWHGDQGGLUHFWHGWRWKHVHFRQG6)30RQLWRUSRUWP
+ 7UDIÀFIURPRQHLQOLQH1HWZRUNOLQNQQLVEHLQJUHJHQHUDWHGWRWZR6)30RQLWRUSRUWVPDQGP
+7KHWUDIÀFIURPWKHLQOLQH1HWZRUNOLQNVWRWKH0RQLWRUSRUWVPD\LQFOXGHWKHWUDIÀFEHLQJUHFHLYHGDWWKHRGG
+QXPEHUHG1HWZRUNSRUWDWWKHOHIWVLGHRIWKHGLDJUDPDWWKHHYHQQXPEHUHG1HWZRUNSRUWDWWKHULJKWVLGHRIWKH
+GLDJUDPRUERWKWKHGLDJUDPGRHVQ
+WLQFOXGHWKLVOHYHORIGHWDLO
+,QDGGLWLRQÀOWHUVVKRZQDWWKHERWWRPRIWKHGLDJUDPDUHFRQÀJXUHGLQGHSHQGHQWO\IRUHDFK0RQLWRUSRUWRQHRU
+PRUHÀOWHUVSHUSRUWDQGDSSOLHGRQWKHDJJUHJDWHGWUDIÀFIRUWKDWSRUW)RUH[DPSOHWKHVHFRQG6)30RQLWRUSRUW
+FRXOGKDYHWZRÀOWHUVZKHUHRQHÀOWHUVHOHFWVWKH7&3WUDIÀFIURPWKHWZRLQOLQH1HWZRUNOLQNVDQGWKHVHFRQGÀOWHU
+VHOHFWVWKH8'3WUDIÀFIURPWKHWKUHH6SDQ1HWZRUNSRUWV
+
+4
+
+Director
+
+7KHLQSXWVDUHGLYLGHGLQWRWKUHHJURXSVWZR'10VSOXVWKH*E(SRUWV,QOLQH'10PRGHOVVXSSRUWLQOLQHOLQNV
+while Span DNM models support 12 Span ports. The diagram shows one in-line and one Span DNM. Both in-line and
+Span DNMs are available with either Copper or SX, LX, or ZX Fiber interfaces. Different DNM types can be mixed in
+the same chassis, for example, one in-line Copper DNM and one Span Fiber DNM. The modules are hot-pluggable
+for easy serviceability. One or both DNM slots can be populated. The DNM slots are numbered 1 for the slot on the left
+and 2 for the slot on the right. If only one slot is populated, it should be slot 1.
+7KHIRXUFRQÀJXUDEOH*LJDELW;)3SRUWVDUHVKRZQLQWKHÀUVWIRXUFROXPQVDQGODVWIRXUURZVRIWKHGLDJUDP7KH
+IRXUGDUNEODFNURZVLQGLFDWHWKDWDOOIRXUSRUWVDUHFRQÀJXUHGDV6SDQLQSXWV7KHIRXUGLPPHGFROXPQVLQGLFDWHWKDW
+WKHSRUWVFDQDOWHUQDWHO\EHFRQÀJXUHGDV0RQLWRUSRUWV7KHIRXUSRUWVPD\EHFRQÀJXUHGDV
+ Both Span
+ Both Monitor
+ One Span and one Monitor
+,QDGGLWLRQWKHWZR*LJDELWSRUWVRQWKHEDFNRIWKHFKDVVLVWWFDQEHXVHGDVXSOLQNSRUWVWRGDLV\FKDLQ
+chassis for expansion.
+
+86%SRUW
+A USB port located on the back is reserved for future functionality.
+
+Director Management
+'LUHFWRUFDQEHFRQÀJXUHGDQGPDQDJHGXVLQJDFRPPDQGOLQHLQWHUIDFH&/,WKDWZLOOEHIDPLOLDUWRPRVWQHWZRUN
+administrators. The CLI runs locally over an RS-232 serial port or remotely over a secure SSH connection.
+1HW2SWLFV*8,EDVHG,QGLJRPDQDJHPHQWWRROVZKLFKZLOOEHDYDLODEOHVRRQLQFOXGH
+ Web Manager³$:HEEURZVHUEDVHGWRROWRPDQDJHDVLQJOH'LUHFWRUDWDWLPHIURPDQ\ZKHUHLQWKHZRUOG
+ System Manager—An SNMP platform-based tool to mange all the Director and other Net Optics iTap-enabled
+devices on your network
+
+5
+
+Director
+
+Typical Application
+The following diagram shows a typical application using Director to implement a comprehensive, consolidated monitoring
+infrastructure.
+
+A
+2
+
+B
+
+A
+B
+
+1
+
+www.netoptics.com
+
+IDS
+
+Analyzer 1
+
+Analyzer 2
+
+Forensic
+
+RMON 1
+
+RMON 2
+
+Figure 2: Director-centric network monitoring infrastructure
+
+,QWKLVH[DPSOHHLJKWQHWZRUNOLQNVDUHPRQLWRUHGE\VL[PRQLWRULQJGHYLFHV 7KHFRPSDQ\
+VH[WHUQDODFFHVVLVSURWHFWHGE\DÀUHZDOOVKRZQLQWKHXSSHUOHIWRIWKHGLDJUDP7KHOLQNUXQVWKURXJKDURXWHUWKHQLQOLQHWKURXJK'LUHFWRU
+DQGWKHQWRDVZLWFKWKDWGLVWULEXWHVWUDIÀFWKURXJKRXWDGHSDUWPHQW
+Network Links
+7KHUHVWRIWKHGHSDUWPHQW
+VVZLWFKHVDUHVKRZQEXWRQO\WKHFRQQHFWLRQVWR'LUHFWRUDUHLOOXVWUDWHG 7KHIRXUGHSDUWment switches shown in the lower right are cross-connected for fault tolerance. All four of the cross-connected links
+DUHSDVVHGLQOLQHWKURXJK'LUHFWRUDVLQGLFDWHGE\WKHVODQWLQJSXUSOHOLQHVVRWKH\FDQEHWKRURXJKO\PRQLWRUHGIRU
+SHUIRUPDQFHWXQLQJVHFXULW\DQGWURXEOHVKRRWLQJ%HFDXVHVRPDQ\FULWLFDOOLQNVSDVVLQOLQHWKURXJK'LUHFWRULW
+V
+good to know that they are completely passive connections—Director does not slow down or interfere with the in-line
+WUDIÀFDQGWKHOLQNVVWD\RSHQWRSDVVWUDIÀFHYHQLIERWKRIWKH'LUHFWRUSRZHUVXSSOLHVDUHUHPRYHG:KHQSRZHU
+LVUHPRYHG&RSSHULQOLQHOLQNVPD\EHGURSSHGIRUDVKRUWSHULRGRIWLPH³OHVVWKDQVHFRQG³ZKLOH
+UHOD\VVZLWFKWRRSHQWKHOLQN6XEVHTXHQWO\WKHQHWZRUNUHHVWDEOLVKHVWKHOLQNVDQGWUDIÀFUHVXPHVÁRZLQJ
+Purple line
+indicates an
+in-line Tap
+
+Figure 3: Detail of in-line Taps shown in Figure 2
+
+In the middle of Figure 2, three other departmental switches are monitored through their Span ports. One of the
+VZLWFKHVKDQGOHV*E(WUDIÀFVRLWV6SDQSRUWJRHVWRRQHRIWKH'LUHFWRU*E(;)3SRUWV2QHRIWKHRWKHU
+VZLWFKHV
+*E(6SDQSRUWVFDUULHVWKUHHGLVWLQFWW\SHVRIWUDIÀF²HPDLO9R,3DQG:HESDJHV²DVLQGLFDWHGE\WKHWKUHH
+colored circles on the Span link.
+
+6
+
+Director
+
+In this installation, Director has ten additional Span ports and one in-line link that are available for expansion, when
+more links need to be monitored.
+Monitoring Tools
+Still referring to Figure 2, six monitoring tools are connected to Director. They include protocol and performance analyzers,
+5021SUREHVDQGDQLQWUXVLRQGHWHFWLRQV\VWHP,'6$Q\RIWKHPRQLWRULQJWRROVFDQEHXVHGWRREVHUYHDQ\RIWKH
+connected network links, and the connections can be switched easily, using the Director CLI, without ever moving a
+FDEOHRUWRXFKLQJWKHWRROV$VHWRISRVVLEOHGDWDÁRZVLVLQGLFDWHGE\WKHFRORUHGFLUFOHVRQWKHOLQNVLQWKHGLDJUDP
+One of the network monitoring tools is capable of handling more than 1 Gbps, so it is attached to a 10 Gigabit XFP
+SRUW7KURXJKWKLVSRUWWKHWRROFDQEHVHQWDJJUHJDWHGWUDIÀFXSWR*ESV)RUH[DPSOHWKHFRORUHGFLUFOHVLQWKH
+GLDJUDPLQGLFDWHWKDWWUDIÀFIURPIRXUOLQNVLVEHLQJDJJUHJDWHGDQGVHQWWRWKLVSRUW
+)RXUVWUHDPVRIWUDIÀFDUHDOVREHLQJDJJUHJDWHGWRWKHUHGPRQLWRULQJWRRORQWKHXSSHUOHIW6LQFHWKLVLVD*ESV0RQLWRU
+SRUWDJJUHJDWHGGDWDXSWR*ESVFDQEHVHQWWRWKHUHGWRRO,IWKHDJJUHJDWHGWUDIÀFH[FHHGV*ESVSDFNHWVZLOOEH
+GURSSHG7RDYRLGGURSSLQJSDFNHWVÀOWHUVVKRXOGEHFRQÀJXUHGWRUHGXFHWKHDJJUHJDWHGWUDIÀFORDGWR*ESVRUOHVV
+The two green RMON monitoring tools at the bottom are the same type of tool. Two identical tools provide the capability of monitoring a greater amount of data than a single tool can handle. Another reason to use identical monitoring
+WRROVLVWRSURYLGHUHGXQGDQF\LQFDVHRQHRIWKHWRROVIDLOV,QDGGLWLRQ'LUHFWRUFDQEHFRQÀJXUHGWRVHQGGLIIHUHQW
+W\SHVRIWUDIÀFWRHDFKWRROIRUH[DPSOHDOOWKH7&3WUDIÀFWRRQHWRRODQGWKH8'3WUDIÀFWRWKHRWKHU
+
+7
+
+Director
+
+,QOLQH0RQLWRULQJRI*LJDELW/LQNV
+To create an in-line link on a 10 Gigabit network segment, use an external network Tap.
+Figure 4 shows an LC Fiber Tap being used to send two half-duplex data streams to two 10-Gigabit Director ports. This
+FRQÀJXUDWLRQFUHDWHVDIXOO\SDVVLYHVHFXUHLQOLQH7DSIRUWKH*LJDELWQHWZRUNOLQN,WLVFDSDEOHRIWUDQVIHUULQJXS
+WR*ESVRIWRWDOWUDIÀFIURPWKHIXOOGXSOH[OLQNWR'LUHFWRU
+
+LC Fiber Tap
+
+10 Gbps
+
+Router
+
+10 Gbps
+
+Switch
+Director
+A
+
+B
+
+A
+
+2
+
+B
+1
+
+www.netoptics.com
+
+Monitoring tools
+Figure 4: 10 Gigabit in-line network connection using a network Tap
+
+)LJXUHVKRZVD*LJD%LW3RUW$JJUHJDWRU7DSEHLQJXVHGWRFRPELQHWKHWUDIÀFPRYLQJLQERWKGLUHFWLRQVRQD
+IXOOGXSOH[*LJDELWOLQNDQGVHQGWKHUHVXOWLQJWUDIÀFVWUHDPWRDVLQJOH*LJDELW'LUHFWRUSRUW 7KLV7DSLVDOVR
+IXOO\SDVVLYHDQGVHFXUH7KHDJJUHJDWHGWUDIÀFIURPERWKGLUHFWLRQVRQWKHOLQNVKRXOGEHOHVVWKDQ*ESVRWKHUZLVH
+LWZLOOH[FHHGWKHFDSDFLW\RIWKH3RUW$JJUHJDWRU
+VPRQLWRUSRUWDQGSDFNHWVPD\EHGURSSHG+RZHYHUWKLVVKRXOGQRW
+be a problem in most cases because network links typically operate at 30 percent or less capacity to prevent congestion.
+
+Port Aggregator Tap
+Router
+
+Switch
+< 10 Gbps total
+
+Director
+A
+
+B
+
+[[[RIXSTXMGWGSQ
+
+Monitoring tools
+
+Figure 5: 10 Gigabit in-line network connection using a Port Aggregator Tap
+
+8
+
+Director
+
+'LUHFWRU)URQW3DQHO
+The features of the Director front panel are shown in the following diagram.
+10 SFP
+Monitor
+Ports
+
+1
+
+Director ™
+
+2
+
+3
+
+4
+
+2 XFP
+Configurable
+10GbE Ports
+
+DNM with 10/100/1000
+Copper Network Ports
+(6 In-line or 12 Span Ports)
+
+DNM with SX Fiber
+Network Ports
+(6 In-line or 12 Span Ports)
+
+5
+
+A
+
+2
+
+B
+
+10 LINK
+100 ACT
+1000
+
+In-Line
+10/100/1000
+
+In-Line
+GigaBit
+
+A
+
+B
+
+A
+
+B
+
+A
+
+B
+
+A
+1
+
+www.netoptics.com
+
+B
+
+6
+
+Power LEDs
+
+7
+
+8
+
+9
+
+10
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+2 Director Network Module (DNM) Slots
+
+Monitor Ports
+
+Network Ports
+Figure 6: Director Front Panel
+
+Monitor Port LEDs
+(DFK0RQLWRUSRUWKDVWZROLJKWHPLWWLQJGLRGH/('LQGLFDWRUV7KH/LQN/('LVLOOXPLQDWHGZKHQDOLQNLVHVWDEOLVKHG7KH$FWLYLW\/('EOLQNVZKHQWUDIÀFLVSDVVLQJWKURXJKWKHSRUW7KH\DUHORFDWHGLQWKHPLGGOHEHWZHHQWKH
+two rows of SFPs.
+DNM / Network Port LEDs
+(DFK1HWZRUNRU6SDQSRUWKDVWZR/('V7KH/LQN/('LVLOOXPLQDWHGZKHQDOLQNLVHVWDEOLVKHG7KH
+$FWLYLW\/('EOLQNVZKHQWUDIÀFLVSDVVLQJWKURXJKWKHSRUW7KH/LQN/('DOVRLQGLFDWHVWKHOLQNVSHHGDPEHUIRU
+0ESV\HOORZIRU0ESVDQGJUHHQIRUD0ESV*ESV7KH\DUHLQWHJUDWHGLQWKH5-FRQQHFWRUV/LQN
+on the left and Activity on the right.
+(DFK*LJDELW)LEHU1HWZRUNRU6SDQSRUWKDVDVLQJOH/(',WLOOXPLQDWHVVROLGZKHQDOLQNLVHVWDEOLVKHGDQGLW
+ÁDVKHVZKHQWUDIÀFLVSDVVLQJWKURXJKWKHSRUW7KHVH/LQN/('VDUHORFDWHGEHORZWKH/&ÀEHUFRQQHFWRUV
+10 Gigabit Port LEDs
+(DFKFRQÀJXUDEOH*LJDELWSRUWKDVDVLQJOH/(',WLOOXPLQDWHVVROLGZKHQDOLQNLVHVWDEOLVKHGDQGLWÁDVKHVZKHQ
+WUDIÀFLVSDVVLQJWKURXJKWKHSRUW7KHVH/LQN/('VDUHORFDWHGWRWKHOHIWRIWKH;)3ÀEHUFRQQHFWRUV
+Power LEDs
+7ZR/('LQGLFDWRUVIRUSRZHURQHIRUHDFKRIWKHUHGXQGDQWSRZHUVXSSOLHV
+
+9
+
+Director
+
+Director Rear Panel
+The features of the Director rear panel are shown in the following diagram.
+
+Management
+Port
+USB Port
+
+RS232
+
+Management
+Port
+
+2 XFP
+Daisy-chain
+10GbE Ports
+
+INPUT
+
+Power Supply
+Module
+
+OUTPUT
+
+SERIAL
+NUMBER
+
+RS-232 Port
+
+Power Supply
+Module
+
+SR, LR, or ER
+Fiber XFP Modules
+
+XXXXXX
+
+Redundant Hot-swappable
+Power Supplies
+
+Figure 7: Director Rear Panel
+
+0DMRUIHDWXUHVRIWKHUHDUSDQHOLQFOXGH
+ USB Port—Reserved for future functionality
+ RS-232 Port—DB9 serial port for the CLI
+ Management Port³$QHWZRUNSRUWIRUWKHUHPRWHPDQDJHPHQWLQWHUIDFHVDQGVRIWZDUHXSGDWHV
+the CLI runs over an SSH connection through this port; Indigo management tools, when available, will connect
+through this port
+ XFP Daisy-chain 10GbE Ports³$FFHSWV65/5DQG(5;)3WUDQVFHLYHUPRGXOHVIRUGDLV\FKDLQLQJXSWR
+10 chassis
+ Power Supply Modules³8QLYHUVDOLQSXW9$&$PS+]KRWVZDSSDEOHSRZHUVXSSOLHV
+with integrated cooling fans; each supply can power the unit independently; dual supplies provide redundancy
+to maximize uptime; -48VDC models are also available
+
+10
+
+

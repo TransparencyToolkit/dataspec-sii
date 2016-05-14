@@ -1,0 +1,3238 @@
+•
+GAMMAGROUP
+
+3 G - G S M TA C T I C A L
+INTERCEPTION &
+TA R G E T L O C AT I O N
+
+r1(1'
+
+4101.ta4a,
+
+GAIVIIVIAGROUP
+
+INDEX
+
+3 G - G S M TA C T I C A L
+I N T E R C E P T I O N A N D TA R G E T L O C AT I O N
+
+3
+
+OVERVIEW
+SECTION 1 GSM TARGET IDENTIFICATION & LOCATING
+BACKGROUNDOVERVIEW
+5
+
+4
+
+ACTIVEOFF-AIRGSMPERMANENTVEHICLE
+VEHICULARSYSTEM
+1
+
+0
+
+VEHICULARINSTALLATIONSYSTEM
+1
+ACTIVEOFF-AIRGSMHIGHLYPORTABLEVERSION
+HIGHLYPORTABLESOLUTIONS
+1
+DEEQUIPMENT
+1
+HANDHELDDIRECTIONFINDER
+2
+VEHICLEDIRECTIONFINDER
+2
+SECTION 2 - 3G TARGET IDENTIFICATION & LOCATING
+BACKGROUNDOVERVIEW
+2
+ACTIVEOFF-AIR UMTS OVERVIEW
+2
+SPECTRUMSCANNER(SSI
+2
+3GDEEQUIPMENT
+2
+HAND - FIELD 30-OF
+2
+
+2
+1
+
+5
+6
+8
+0
+1
+2
+3
+
+2
+6
+
+7
+8
+9
+
+SECTION 3 - GSM VOICE & SMS INTERCEPTION
+3
+0
+BACKGROUNDOVERVIEW
+3
+1
+MASSINTERCEPT-WIDEBANDSOLUTION
+3
+4
+MASSINTERCEPT-NARROWBANDSOLUTIONS
+3
+6
+TARGETEDINTERCEPT SEMI ACTIVEPASSIVESYSTEM
+3
+8
+TARGETEDINTERCEPT - 30 OPTION
+3
+9
+41
+42
+
+SECTION 4 - A5.1 DECRYPTORS
+BACKGROUNDOVERVIEW
+NEXTGENERATIONA51DECRYPTORS
+
+43
+46
+43
+
+SECTION 5
+ADVANCEDMOBILELOCATIONTRACKING
+
+3G•GSM INTERCEPTION &TARGET LOCATION
+
+2
+
+Ve
+GAMMAGROUP
+OVERVIEW
+
+OVERVIEW
+
+Cellular networks have created a haven for criminals and terrorists
+Over GSM & 30 networks, criminals and terrorist can remain anonymous, able to continue illegal
+activities on a global scale without fear of action because:
+• N o Local Registration is required—criminals are able to use pre-paid SIM cards or foreign SIM
+cards without the need to supply any information
+• Post-Paid Subscription Fraud—criminals are easily able to reprogram phones with a fake identity
+or use stolen phones and SIM cards
+Although p o w e r f u l Strategic/Countrywide
+surveillance monitoring tools are atthe disposal of
+Law Enforcement Agencies, the ability to monitor
+specific criminals/targets critically requires
+having specific target identity data. In the case
+of cellular networks the fundamental information
+is the IMSI (unique identifier or serial number of
+the SIM) and the IMEI (unique identifier or serial
+number of the handset).
+The IMSI and IMEI is highly prized data, and
+to protect users it is not normally transmitted
+within cellular networks. However, if the data is
+obtained then Law Enforcement Agencies have
+all they need to monitor Target(s), The challenge
+is how to overcome the protective security
+messages within cellular networks protecting
+their subscribers and covertly elicit specific target
+user data.
+Fortunately, to assist Law Enforcement Agencies
+we are able to offer solutions which can overcome
+these challenges. Tactical off-air solutions are
+available which are able to emulate the cellular
+network in order to:
+
+2. Identify & Locate 36 Target(s) cell-phones
+
+Determine and locate the identity of aTarget(s) 30
+cell-phone by pretending to be the real network
+and tricking the phone to register accordingly.
+This process allows the unique identity of the
+phone (IMEI) and the SIM card IIMSI) to be
+covertly captured, and designated Targets to be
+precisely located.
+3. IntercepttheVoiceandSMSCommunication
+of Designated Targets
+
+The communication o f Target(s) under
+surveillance can b e captured without their
+knowledge, including:
+• a l l Voice calls & SMS either made or received
+byTarget(s)
+• spoof the identity of Target(s) to falsely send
+SMS orVoice calls
+• divert Calls/SMS so they are not received by
+theTarget(s)
+• t h e ability to edit all SMS before they are
+received by theTarget(s)
+
+1. Identify & Locate GSM Target(s) Cellphones
+
+Determine and locate the identity of a Target(s)
+GSM cell-phone by pretending to be the real
+network and tricking the phone to register
+accordingly This process allows the unique
+identity of the phone WEI) arid the SIM card
+(IMSI) to be covertly captured, and designated a
+Target to be precisely located.
+
+30
+
+3
+
+G A M MAGROUP
+
+G S M TA R G E T
+I D E N T I F I C AT I O N &
+L O C AT I N G
+
+GSM/3G NETWORK OVERVIEW
+
+5
+
+GSM IDENTITY CAPTURE
+
+6
+
+GSM TARGET LOCATING
+
+7
+
+TYPICAL OPERATIONALAPPLICATIONS
+
+8
+
+MODEL4019 PV ACTIVE OFF-AIR GSM PERMANENT VEHICLE
+
+9
+
+MAPPLICATION EVOLVE4 CONTROLSOFTWARE COMPONENT
+
+10
+
+COVERTVEHICLE ROOF BAR ANTENNA ANT 8000
+
+11
+
+VEHICLE INSTALLATION OVERVIEW
+
+12
+
+VEHICLE INSTALLATION EXAMPLE
+
+13
+
+ACTIVE OFF-AIR GSM HIGHLY PORTABLE VERSION
+
+15
+
+BODY-WORN IMSI CATCHER
+
+15
+
+RUGGEDISEDBRIEFCASE
+
+17
+
+DIRECTION FINDERS
+
+18
+
+HANDHELD DIRECTION FINDER
+
+20
+
+VEHICLE DIRECTION FINDER
+
+21
+
+GAIVIIVIAGROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+GSM/3GNETWORKOVERVIEW
+GSM is a cellular network, i.e., made up of many cells where each cell contains a Basestation through
+which subscribers access the Network.The basestation is the fundamental network component which
+routes all signaling and communications over the air between the cell-phone and Network.
+To ensure countrywide connectivity, many thousands of basestations are usecLTransmitting on a different
+frequency to ensure there is no interference, the cell-phone constantly monitors the signal strength
+of its surrounding basestations. As a subscriber moves, the cell-phone will join the most attractive
+basestation available to ensure optimum network connectivity,This is an automatic action happening in
+the background to the ignorance of the user,
+
+01
+
+Cell-pronestonstantly cornmumcate with
+Me Network BasesimMons around them
+
+GSM & 3G cellular networks use only 2 unique identifiers: the IMSI (cell-phone identity) and IMEI (SIM
+card identity) To protect a subscriber's identity the IMSI & IMEI are only transmitted over the air in certain
+cases: when cellphones are switched on or when crossing special cell boundaries between different LAC
+(Local Area Code). Networks use instead a 3
+to communicate with a cell-phone, a temporary identity which is continually changed throughout the day.
+
+3G
+
+5
+
+GANIMAGROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+GSMIDENTITYCAPTURE
+The ability to covertly monitor designated targets is virtually impossible without first knowing the identity
+of the Target(s) cellphone. The behavior of Targets who are constantly changing phones or SIM cards
+makes this much harder especially when there may only he limited engagement opportunities.
+Working off-air, solutions today take advantage of the requirement for the cell-phone to continually
+search for the strongest valid network cell. Emulating a valid network cell they will transmit a more
+attractive signal to attract cell-phones to join,The process of joining results in the cell-phone providing its
+unique IMSI & IMEI details.
+Now Law Enforcement Agencies can target specific cell-phones to covertly obtain their details. It is
+relatively straightforward within GSM networks to obtain the IMSI & IMEI providing the correct cell is
+emulated. A cell-phone only actively monitors the 6 strongest neighboring cells.To grabTarget(s) requires
+emulating one of these neighbor cells. Solutions today will aid users in this cell selection process.
+
+Off-air equipment emulate the
+network and transrdtt a afake cell
+which is more attractive than the real network
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+6
+
+GAMMAEROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+Although acquiring IMSI & IMEI is very fast, the real challenge lies in filtering out the Targeds) identity
+from unwanted collateral.
+For example, operating within busy or crowded areas will result in many thousands of identities being
+acquired, most of whom will not be of interest or unwanted collateral.
+The conventional operating procedure is to physically follow theTargeds), grab identities across multiple
+locations and look for common IMSI & IMEI.
+This can be time consuming and often not practical given the careful behavior of organized criminals &
+terrorists.
+It is much more efficient to operate as close as possible to theTargeds) at minimal transmission power.
+This will reduce the system footprint/area of coverage and hence unwanted collateral.
+
+A
+
+Allk•
+1
+
+ConventionalApproach
+
+ShortRange Benefit
+
+GSMTARGETLOCATING
+Once the IMSI & IMEI of a Target is known, a cellphone can be grabbed and forced to transmit.
+Commonly known as a 'Blind' or 'Silent' call, the
+cell-phone transmits without the knowledge of its
+target.
+This RF transmission, normally set to a quiet IV
+channel where there are no other transmissions,
+can then be precisely located to within a few
+metres using vehicular or body worn/handheld
+direction finding systems_
+
+30-GSM INTERCEPTION &TARGET LOCATION
+
+7
+
+GAMMAGROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+TYPICALOPERATIONALAPPLICATIONS
+There are a number of wider applications for which IMSI/IMEI systems can be used:
+• Large area coverage, for example, borders or particular areas of interest
+• A t immigration/customs points of entry, whether ports or airports log all visitors as they enter a
+country
+• Scanning of cargo from packages to large containers to identify the presence of GSM devices,
+whether cell phones or IED triggers
+• Detecting the illegal use of mobile phones within Prisons
+• Building protection 'known phone' policy enforcement systems for secure buildings, military bases
+and embassies
+• TSCM applications to detect GSM enabled listening devices
+
+Example 1: covert scanning of vehicles or containers
+
+Example 2: automatic point of entry detection system
+
+30-GSM INTERCEPTION &TARGET LOCATION
+
+8
+
+GAMMAGROUP
+MODEL
+4 0 1 9 PV
+
+A C T I V E OFF—AIR G S M P E R M A N E N T V E H I C L E
+
+ACTIVEOFF-AIRGSMPERMANENT
+VEHICLE
+GENERALOVERVIEW
+The family o f active interception solutions
+provides a tactical tool for Law Enforcement,
+Government and Military Agencies.
+Utilizing commercial base-station technology and
+operating independently of the GSM network
+providers, the family of vehicle and portable
+products provide the capability to clone and
+simultaneously transmit multiple fake GSM
+networks to interact with GSM cell phones.
+
+MAIN FEATURES
+• Covertly identifies the unique identity WSW
+IMO) of GSM cell phones
+• Locates known targets using their GSM
+mobiles in conjunction with the direction
+finding equipment
+• Takes control of target phones for the purpose
+of denying GSM services
+• Creates a bubble or exclusion zone to deny
+GSM network coverage without alerting cell
+phones
+• Intercepts outgoing calls and SMS messages
+sent by a target
+• Rugged form factor for in-vehicle use
+• Multiple BTS systems allowing up t o 4
+BCCHon 1 network or 4 BCCH on 4 different
+networks
+• HighTransmit of output power— up to 50 Watts
+per Band
+• Blind/Silent Call up to 7 target cell phones per
+BTS
+• Simultaneous intercept of up to 4 outgoing
+voice calls
+• Simple to use Graphical User Interface (GUI)
+
+-
+
+i • i t•11•11 Sri
+i
+
+•
+
+•
+
+4019PV
+
+KEYSPECIFICATIONS
+Channels
+4Channels
+2x900 + 2x1800 or 2x850 + 2x1900 or
+1x850 + 1x900 +1x1800+ 1)(1900 (Clued)
+Channel Range
+Euro: E-GSM, GSM, DCS
+US:850, PCS
+Quad: 850, E-GSM, GSM, DCS,PCS
+Output Power
+mW to 50W (max) per band
+OperatingTemperature
+-5°C to + 45°C (23°F to 113°F)
+Power Consumption (Max.)
+BOOVV
+Power Supply
+24VDC
+Size
+W500mm x H200mm x D580mm 28kg
+Interface Connections
+Antennas:
+Directional: 2x Low Band, 2 x l
+Omni: 2 x Combined
+Data/Audio: Interface via secure Ethernet
+Configurations:
+-4019 21(2-channel IMSI catcher)
+-4019 41(4-channel IMSI catcher)
+Options:
+-Blind ca II, Voice interception, SMS interception,
+private networking, Service denial
+-Option for 2-channel: 2x BTS Upgrade
+
+3G
+
+9
+
+GAIVIMAGROUP
+MAPPING
+SOFTWARE
+
+VEHICULAR SYSTEM
+
+MAPPLICATION EVOLVE4CONTROLSOFTWARECOMPONENT
+MAPPING OPTION
+Operating in unfamiliar areas can be challenging,
+especially when under time pressure.
+The new Mapplication software component
+introduces a mapping interface which can help
+operators to tackle this problem and run faster,
+more effective missions.
+Network structures can be difficult to analyze;
+Mapplication assists by plotting cell coverage
+graphically in the mapping interface.
+DF operations can b e improved b y using
+Mapplication to highlight the boundary of the
+target cell, reducing the search area.
+Transmit power requirements may be hard to
+judge at the first attempt. Using Mapplication's
+TX range feature gives the operator a graphical
+estimate of unit coverage area, allowing better
+adjustment of unit TX power.
+
+MAPPLICATION OPTION INCLUDES:
+
+MAIN FEATURES
+• Introduces a mapping interface to the new
+Evolve4 Control Software
+• Provides graphical display of GSM and
+WCOMA cell coverage
+• Improves OF operations by defining the
+boundary of the target cell, allowing the
+operator to reduce the size of the search area
+with confidence
+• Plots unit position on the map in real-time
+• T X trail feature shows the route the unit has
+taken whilst transmitting
+• Displays estimated unit TX range via RF
+propagation modeling
+• Sea-tags entries i n database with unit
+position at time of phone acquisition
+• Delivered with Navteg street map data for
+chosen country
+• Interoperates with our new Network Scanner
+which supplies GSMNVCDMA cell data
+
+• Free software upgrade to EvoIve4
+Ive4 Control
+Software
+• GPS with SiFiFstar
+FiFstar ill chipset
+• Vector street mapping to cover country of
+customer's choice
+• Network Scanner and accessories can be
+supplied as a separate option, if required
+• Mapplication may require an XPZ or 3GN
+hardware upgrade, dependent on unit version
+
+30
+
+10
+
+st
+GAIVIMAGROUP
+MODEL
+A N T 13000
+
+VEHICULAR SYSTEM
+
+COVERTVEHICLEROOFBARANTENNA ANT 8000
+VEHICLEINSTALLATION
+This document provides information regarding the process of making a permanent installation of the
+Unit PV variant in a vehicle.
+It presumes a basic familiarity with GSM networking and the Unit system.
+Key features of the proposed solution include:
+• Integrated 26 and 36 solution
+• Optional antenna strategies
+• Choice of recommended vehicle installations
+
+1
+
+Fook, FRG., AN7ENNA
+IT IT ,
+into
+GAM
+PO,
+CABLE
+POWER
+RATING
+
+EGGS. PEAK AVG
+LNEEAA .NONIZONTAL,
+NA PEL3,0
+NI Ed
+
+REAR MON A i t
+MEG
+
+I 'IT 4 0 9 WO
+
+110,"
+POL
+
+F I S
+L I
+am at "INNIS
+
+CAGLE
+POWER
+RATING
+
+KO IP
+
+REAR CENTRE w r r z w u
+IWO W O NINE
+1010
+GAW
+POI
+EAGLE
+
+9 Of PEAK AVG
+UNEA01 ,NONIZOIETALI
+AOlte
+
+POWER
+RAO.
+
+ALL CABLE LENGTHS MEASURED FROM E N G OF ROOF BAR
+ALL TERMINATED WITH NI MI CONNECTORS
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+11
+
+GAIMMAGROLIP
+MODEL
+V E H BODO
+
+V E H I C U L A R I N S TA L L AT I O N S Y S T E M
+
+VEHICLEINSTALLATION OVERVIEW
+INTRODUCTION
+
+INSTALLATION DESIGN PHILOSOPHY
+
+This document provides information regarding
+the process of making a permanent installation of
+the Unit PV variant in a vehicle.
+
+There are two broad design philosophies that
+may influence decisions taken during the vehicle
+installation process:
+
+It presumes a basic familiarity with GSM
+networking and the Unit system.
+
+• Covert, where it is of the utmost importance
+that a vehicle retains the outward appearance
+of a stook factory model
+• Optimum performance, where the main
+priority is to achieve maximal performance
+from the unit
+
+Key features of the proposed solution include:
+• Integrated 26 and 36 solution
+• Optional antenna strategies
+• Choice of recommended vehicle installations
+
+The requirements dictated by these design
+philosophies often run counter to one another, so
+it is important that consideration be undertaken
+ahead of the installation about where priorities
+lie.
+
+Omoteliteciimal
+anienna
+L
+
+Nemork
+Marilint
+
+arienna
+
+Diredional
+•nionna
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+12
+
+GAMMAGROUP
+MODEL
+V E H BODO
+
+V E H I C U L A R I N S TA L L AT I O N S Y S T E M
+
+VEHICLEINSTALLATION EXAMPLE
+VEHICLEINSTALLATION
+An example vehicle installation is described where the Unit and 3G systems were installed into a VW
+Touareg SUV
+
+6
+
+13
+
+GAMMAROUR
+MODEL
+V E H BODO
+
+V E H I C U L A R I N S TA L L AT I O N S Y S T E M
+
+ANTENNA CONFIGURATION
+
+For this installation, directional antennas were mounted on both sides of the vehicle under the large trim
+panel that forms the back bumper and part of the rear wings.
+
+The antennas were angled slightly upwards to optimize use of the beam pattern. Cables were fed back
+through access points in the vehicle paneling so thatwhen the reartrim panel was replaced, the antennas
+and cabling were completely concealed.
+
+An omnidirectional antenna was integrated into the vehicle's factoryfitted "sharks fin" antenna on the
+roof With the antenna cover replaced, a completely stock look was achieved.
+
+3G
+
+14
+
+GAIVIMAGROUP
+MODEL
+4 0 1 9 HP
+
+A C T I V E OFF—AIR G S M H I G H LY P O R T A B L E V E R S I O N
+
+ACTIVEOFF-AIR GSM HIGHLY
+PORTABLEVERSION
+GENERALOVERVIEW
+The family o f active interception solutions
+provides a tactical tool for Law Enforcement,
+Government and Military Agencies.
+Utilizing commercial base-station technology and
+operating independently of the GSM network
+providers, the family of vehicle and portable
+products provide the capability to clone and
+simultaneously transmit multiple fake GSM
+networks to interact with GSM cell phones.
+
+MAIN FEATURES
+• Covertly identifies the unique identity (IMSI/
+IMEI/TMS11 of GSM cell phones
+• Locates known targets using their GSM
+mobiles in conjunction with direction finding
+equipment
+• Takes control of target phones for the purpose
+of denying GSM service
+• Creates a bubble or exclusion zone to deny
+GSM network coverage without alerting cell
+phones
+• Intercepts SMS messages sent by a target
+• Small rugged highly portable design
+• Multiple BTS systems allowing up t o 2
+BCCHon 1 network or 2 BCCH on 2 different
+networks
+• Transmits output power - up to 500mW
+• Blind/Silent Call up to 7 target cell phones per
+BTS
+• Built-in VViFi or wired Ethernet connectivity to
+mini PC (supplied as standard)
+• Simple to use Graphical User Interface (GUI)
+
+KEYSPECIFICATIONS
+Channels
+2 Channels
+1x 900 +1 x 1800
+1x 850 +1 x 1900
+Channel Range
+Euro: E-GSM, GSM,DCS
+US:850, PCS
+Channel Frequency
+200KHz
+Output Power
+1mW to 25W (max) per channel
+Operating Temperature
+-5°C to + 45°C 123°F to 113°F)
+StorageTemperature
+-10°C to + 70°C (14°F to 158°F)
+Power Consumption (Max.)
+BOW
+Power Supply
+12VDC
+Size
+W280mm x H70mm x D290mm, 4.43kg
+Interface Connections
+Antenna Ports:
+1x CombinedIx, 1 x Combined Rx,1 xWiFi
+Data: Interface via secure Ethernet orVViFt
+
+3G GSM INTERCEPTION &TARGET LOCATION
+
+15
+
+GAMMAGROUP
+
+MODEL 4 0 9 2
+
+H I G H LY P O R T A B L E S O L U T I O N S
+
+BODY-WORN IMSI CATCHER
+GENERALOVERVIEW
+The new generation of GSM & 36 IMSI & IMEI acquisition technology, is designed for rapid Target(s)
+identity acquisition.
+Utilizing our exclusive PAF (Patent Applied For) technology the system is able to acquire identities without
+any set-up or network analysis required, regardless of the number of networks operating whether GSM
+or 3G.
+The unit is optimized for short range covert operation, designed to allow users to get close to Target(s)
+to maximize the chances of only catching the Target(s) identities and minimal unwanted collaterafThe
+solution can be used as a standalone device or integrated into wider data-gathering and geo-tracking
+systems.
+
+re
+FEATURES
+
+SPECIFICATIONS
+
+• System start-up time of >20 seconds, no
+network analysis required
+• Rapid capture of IMSI/IMEI. Speed of 1-90
+seconds from start to capture (average
+capture time of 45 seconds)
+• Works on any GSM based network, in any
+country
+Does not alter network selection if target
+device is roaming
+• Fully operational in a non-static environment
+(e.g. moving vehicle)
+• Self-contained, battery powered system for
+field flexibility
+• 6 0 degree directional antennas for precise
+targeting
+• Covert operation using wireless smart-phone
+or net-book based control system
+• Rugged, field-ready construction throughout
+• Simplified GUI o f ease of operation and
+minimized training time
+
+• Function: Rapid capture of IMSI / IMEI
+• Target device network range: 850, 900, 1800,
+1850, 36, 3.5G, UMTS, HSPDA,LTE
+• Operating range: 0—10 M
+• Capture time 1—90 seconds
+• Power: Internal battery or external 90-264VAC
+• Charging: External AC powers unit and
+charges internal battery (typical 2.5hrs to fully
+charge)
+• Battery operational time: Typical 2,2hrs fully
+charged
+• Temperature range for FlOrinal operation: 0-30
+degC
+• Dimensions: 40.6 x 33 x 18 cm (Pell 1450)
+• Weight: 6.5 kg
+
+36 GSM INTERCEPTION &TARGET LOCATION
+
+16
+
+GAIVIMAGROUP
+MODEL 4061
+
+H I G H LY P O R T A B L E S O L U T I O N S
+
+RUGGEDIZEDBRIEFCASE IMSI CATCHER
+GENERALOVERVIEW
+The new generation of GSM & 36 IMSI & IMEI acquisition technology, is designed for rapid Target(s)
+identity acquisition. Utilizing our exclusive PAF (Patent Applied For) technology the system is able to
+acquire identities without any set-up or network analysis required, regardless of the number of networks
+operating whether GSM or 3G.
+The unit is optimized for short range covert operation, designed to allow users to get close to Target(s)
+to maximize the chances of only catching the Target(s) identities and minimal unwanted collateral. The
+solution can be used as a standalone device or integrated into wider data-gathering and geo-tracking
+systems.
+
+FEATURES
+• System start-up time of >20 seconds, no
+network analysis required
+• Rapid capture of IMSI/IMEI. Speed of 1-90
+seconds from start to capture (average
+capture time of 45 seconds)
+• Works on any GSM based network, in any
+country
+• Does not alter network selection if target
+device is roaming
+• Fully operational in a non-static environment
+(e.g. moving vehicle)
+• Self-contained, battery powered system for
+field flexibility
+• 8 0 degree directional antennas for precise
+targeting
+• Covert operation using wireless smart-phone
+or net-book based control system
+• Rugged, field-ready construction throughout
+• Simplified GUI of ease of operation and
+minimized training time
+
+01234
+7
+
+012146678Q01234
+
+SPECIFICATIONS
+• Function; Rapid capture of )MSI / IMEI
+• Target device network range: 850, 900, 1800,
+1850,3G,3.5G, UMTS, HSPDA,LTE
+• Operating range: 0—10 M
+• Capture time 1—90 seconds
+• Power: internal battery or external 90-264VAC
+• Charging: External AC powers unit and
+charges internal battery (typical 2.5hrs to fully
+charge)
+• Battery operational time: Typical 2.2hrs fully
+charged
+• Temperature range for normal operation: 0-30
+degC
+• Dimensions! 40.6 x 33 x 18 cm (Peli 1450)
+• Weight: 6.5 kg
+
+iii="
+
+36
+
+17
+
+GAMMAGROUP
+
+MODEL 4 0 6 5
+
+OF EQUIPMENT
+
+DIRECTION FINDERS
+PURPOSE
+
+MODELGSM-DFB
+
+The direction finder (DE) is intended for searching
+and localizing handsets operating in GSM bands
+900, 1800 and 1900MHz. I t is the additional
+equipment for 45.1 stationary or portable active
+system. The main idea of the targets direction
+finding procedure is to register the required
+mobile phone in the internal BIS and switch ON
+its transmitter. The direction finder must be tuned
+to the sameARFCN channel as the BTS. From this
+moment the OF user will hear the detected sound
+signals ot TOMA sequence which is natural for
+GSM telephony.
+
+While operating the OF, it is necessary to connect
+it to the antenna connector of the corresponding
+range. Rotating the antenna right or left allows
+achieving the maximum in signal level reading
+on the control unit LED or the maximum volume
+level in the headphones. Depending on direction
+and distance from the object, the volume level in
+headphones will change. The maximum volume
+of the sound signal is correlated with the target's
+location. While the operator is approaching the
+object being searched, it may he necessary to
+change sensitivity of the device by switching on
+3-stepped attenuator 10, 20, 30 dB. Attenuation
+value is determined by experiment.
+
+Control unit
+
+Case variant antenna
+
+Headphones
+
+Body keeping antenna
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+18
+
+V 0
+GAMMAOROUP
+MODEL 4065
+
+OF E Q U I P M E N T
+
+FEATURES
+• Compact dimensions
+• Case and body variants
+• Thin radiation pattern
+• Included attenuator
+• Sound indication
+
+TECHNICAL SPECIFICATIONS:
+GSM/MS, PCS
+
+Operation band
+Attenuator
+
+10,20,30 dB 3-stepped
+10- 500 m
+
+Operation distance
+Distance correlation parameter
+
+SoundTOMA sequence
+
+RADIATION PATTERN FOR BASIC ANTENNAS
+
+Case va twit
+
+Body keeping
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+19
+
+GAMMAGROUP
+MODEL
+40'19 HOF
+
+H A N D H E L D DIRECTION FINDER
+
+HANDHELDDIRECTION FINDER
+GENERALOVERVIEW
+Model 4019 HDF is a lightweight, portable and
+state-of-the-art handheld direction finder (FIN)
+for tracking and Ivo-locating cell phones.
+The 4019 HOF is designed to work with any Active GSM manipulation system on the market
+today.
+The convenient size of the 4019 HOF allows it to
+be deployed in many covert applications normally considered unsuitable for GSM cell phone
+geo-locating.
+The 4019 HOE is field proven and is in current
+use by many of the leading Law Enforcement
+Agencies and Special Forces around the world.
+
+MAIN FEATURES
+• O F on anyAFIFCN
+• D E in Azimuth (or Elevation usingYagi antenna)
+• LCD display showing selected Band and
+ARFCN
+LED indication showing received signal
+strength
+• Audio indication of received signal strength
+• Squelch control for sensitivity adjustment
+• Covert mounting possibilities
+• Capability for wireless loop attachment to
+enable highly covert operation
+• O F targets to within a few meters
+• Lightweight and small in size
+• Requires standard 'AA size batteries
+• Various antennas available
+
+KEYSPECIFICATIONS
+Function
+Provides RF signal strength indication on a
+selectable RF channel
+
+Rx Sensitivity
+Typically 9 7 dPm
+HHIN Receiver
+W 65mm x H90mm x D 28mm
+Weight
+0.14kg
+Power
+3Vdc, 2 x AA Batteries
+Battery Life
+10 hours (typical usage)
+Antenna
+Directional Dual Band Patch Antenna
+(SMA Connector)
+Operating Temperature
+-5°C to +513°C132°F to 122°F)
+StorageTemperature
+-10°C to 4-75
+
+Frequency Range
+Euro: 900MHz Uplink (880-915 MHz)
+1800MHz Uplink (1710-1785MHz)
+US: 850MHz Uplink (824-849MHz)
+1900MHz Uplink (1850-1910MHz)
+
+Interfaces
+On/Off, volume control
+Mode/Channel selection
+RESensitivity adjustment
+
+30
+
+20
+
+GAMMAGROUP
+MODEL
+4 0 1 9 VCIF
+
+VEHICLE DIRECTION FINDER
+
+VEHICLE DIRECTION FINDER
+GENERALOVERVIEW
+The VDF is a lightweight, portable and state of
+the art digital direction finder for tracking and
+geo-locating GSM cell phones. It features the latest Super Resolution OF processing algorithms.
+The VDF is designed to be deployed quickly in
+any vehicle allowing maximum flexibility in vehicle choice, thus maintaining a covert deployment model,
+The VDF is a standalone system designed to
+work with any GSM manipulating system on the
+market today.
+
+MAIN FEATURES
+• Geo-locate targets to within a few meters
+• O F on anyARFCN
+• O F on a specific Timeslot in 'Slotted mode for
+increased accuracy when using the Unit
+• O F simultaneously in Azimuth and Elevation
+• Robust, low profile lightweight antenna unit
+• Antenna unit designed for covert internal or
+external mounting
+• Bearing Direction given in relation to North
+and vehicle heading
+• A dual band digital receiver featuring 8 selfcalibrating phase synchronous digital receiver
+branches
+• 8 element spatially diverse omni-directional
+antenna arrays for highly accurate target
+resolution
+• Integrated GPS and Electronic compass for
+non-moving Line of Bearing (LOB) resolution
+• Recording & Playback of LOBs and mission
+data
+• Highly stable Rubidium reference for longterm tracking of time slotted GSM signals
+• User-friendly Graphical User Interface (GUI)
+• Integrated GIS Mapping engine
+
+Direction Finding Axis
+Simultaneous in Azimuth and Elevation
+Resolution Better than 5'
+Accuracy Better than 5'
+Sensitivity
+Typically ?-120c113m
+OFAlgorithms
+Super Resolution OF with self-calibration
+VDF Receiver
+W 448mm x H135mm x D348mm 1.2kg
+VDFAntenna
+W 270mm x H60mm 1.3kg
+GPSDatum WGS-84
+Magnetic Compass
+2Axis tilt compensated digital compass
+Power Supply
+12Vdc, 7,5A,SOW(Rubidium reference cold)
+12Vdc, 4•5A, 54W (Rubidium reference warm)
+
+KEYSPECIFICATIONS
+Function
+Provides RF signal strength indication on a
+selectable RE channel
+
+Antenna (rooftop) Azimuth: 360' Elevation: 80'
+Antenna (in-vehicle)
+Azimuth: 360', Elevation: (as per vehicle aperture)
+
+Channel Range
+GSM900/1800ARFCN915-1023, 0-124, 512-885
+
+Mapping Formats MxD files supported
+
+30
+
+21
+
+.....:
+i
+GAMMAGROUP
+
+3 G TA R G E T
+I D E N T I F I C AT I O N &
+L O C AT I N G
+3GNETWORK OVERVIEW
+KEYCHALLENGES
+
+2
+
+3
+
+2
+
+4
+
+OPERATIONALPROCEDUREAND IMPLICATIONS
+ACTIVE OFF-AIR UMTS OVERVIEW
+
+2
+
+2
+
+SPECTRUM SCANNER
+
+2
+
+5
+6
+
+7
+
+3GDF EQUIPMENT
+
+2
+
+8
+
+HANDHELD 3G-DF
+
+2
+
+9
+
+g
+G A M MAGFROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+3GNETWORKOVERVIEW
+The demand for high speed communications and
+faster data th roughput has excceded the capability
+of GSM, a second generation communications
+network. The next or 3rd generation network
+is an evolution of GSM and uses CDMA (Code
+Division Multiple Access) instead of TDMA (Time
+Division Multiple Access) technology to achieve
+much greater performance. Also known as UMTS
+these networks are spreading rapidly with most
+of Europe, Middle East and Asia already covered.
+Current IMSI catching equipment, developed for
+GSM, will not work on 313 networks. 313 differs
+from GSM by using Scrambling Codes rather
+thau frequencies to separate communications.
+Apopular analogy to show the difference is in
+aroom full of people; in 313 they all speak at the
+same time whereas in GSM they take turns.The
+reason why they can communicate when talking
+at the same time is because they are speaking
+different languages.
+
+Each cell still contains a Basestation, now called
+Node B through which subscribers access the
+Network. Although the Node Bs transmit on the
+same frequency they use different scrambling
+codes to ensure there is no interference. Each
+scrambling code is unique and will not interact
+with another code. They appear 'noise like' yet
+can be recovered and transmission is easily
+reconstructed due to these properties.
+As per GSM, a cell-phone will monitor the Node
+Bs around its location and, if a stronger or more
+attractive signal is seen, will jump to this Node
+B. The approach of emulating a real cell and
+transmitting a Fake cell to attract a cell-phone is
+still valid, and as before, results in the cell-phone
+providing its IMSI &
+
+Calk transmit on same
+frequency but using ditfrend
+scramba c o d e s
+
+Same Principle of FAKE
+naivete* however paiametei
+selecteto is critical for succe5s
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+23
+
+GAMMAGROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+KEYCHALLENGES
+Although3G networks are much more efficientthey
+require very careful power control management
+to minimize the impact of interference. Although
+a cell transmits on a different Scrambling Code,
+essentially a noise-like signal, it is still transmitting
+on the same frequency as its neighboring cells.
+The net effect of each cell transmission is to
+introduce more noise into the 3G network.
+Management of the transmission power of each
+cell is absolutely critical to limit their ability to
+increase the noise. As noise levels increase
+within the network, the size of the cell will reduce,
+with the worst case cell-phones losing network
+connectivity. To handle this eventuality the 3G
+network use a back-up frequency to which they
+switch subscribers.
+
+A313ACTIVE system will emulate a real cell to
+attract cell-phones. It has to transmit on the
+same frequency as the real network albeit using
+a different Scrambling Code. This raises the
+possibility for the ACTIVE system to 'Jam the
+network as it is putting essentially more noise
+into the network. The process of covert identity
+acquisition requires rejecting cellphones back
+to the real network. it now, the ACTIVE system
+also affects the quality of the real network, cellphones will be reluctant to rejoin a poorer 313
+network and will either:
+• take longer to rejoin the 3G network, they
+will wait until the real network cell quality is
+accepts ble.
+• connect if they are allowed to the GSM
+network as cell quality has dropped to an
+unacceptable level.
+
+Low-power local
+
+High-power local
+
+network, high-power
+
+network, low-power
+
+ACTIVE system
+
+ACTIVE system
+
+Jamming zone
+
+Capture zone
+
+Potential Challenges for Oft-air ACTIVE solution
+
+36-GSM INTERCEPTION &TARGET LOCATION
+
+24
+
+g
+G A M M A G R O U P
+
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+OPERATIONALPROCEDUREAND IMPLICATIONS
+Systems will recommend the best cell to
+emulate in the neighbor list of the network
+cells, Note, if not done correctly then phones
+will not be caught, instead they will be pushed
+off the 30 network by the interference
+generated by theACTIVE system.
+
+Unlike GSM, it is critical to choose optimum
+transmission parameters for the ACTIVE system
+This requires a deep understanding of the real
+network and following the recommended protocol
+to ensure consistent success:
+• Gather network information from target
+area using suitable network monitoring
+tools whetherTest Phones or MMI Spectrum
+Scanner Key information requires capturing
+SI1111 messages t o identify optimum
+emulation cell.
+• Choose I MSI Catching Cell configuration
+including Scrambling code and frequency.
+
+• Choose IMSI Catching cell transmit power,
+taking network cell power levels into
+consideration. Note, the desired capture
+distance is also very important: the larger the
+fake cell created the greater the disruption.
+Note, cell-phones closest to the system will
+be jammed.
+
+Interfere:
+Zone
+
+Effective Capture
+Region
+
+CONCLUSIONS
+In comparison to GSM IMSI & IMEI acquisition,
+the brief summon/ above shows IMSI Catching in
+3G/UMIS is a much more complicated process.
+Users require a detailed understanding of how313
+networks function and the key parameters used
+by the network.
+The complexity of 3G makes i t v e r y easy
+to incorrectly use ACTIVE systems. The
+
+consequences are potentially disastrous, and in
+the worst case scenario can jam all 3G phones
+in the deployment area. It is crucial for users to:
+• Only use adequate technical solutions,
+including 30 network training
+• Acquire key cell parameters, such as Cell
+Power and Scrambling Codes
+• Transmit at minimum power levels
+
+3G
+
+25
+
+GAMMAGROLIP
+MODEL
+4 0 1 9 3 0
+
+A C T I V E OFF—AIR L I M T S O V E R V I E W
+
+ACTIVEOFF-AIR UMTS OVERVIEW
+
+vomaisa
+
+GENERALOVERVIEW
+The3G is a state-of-the-art multi-channel M I S
+(WCOMA) tactical active interception solution.
+The 36 is currently used in conjunction with the
+system range. Control is streamlined to a single
+interface where users can simultaneously acquire
+the identities of GSM and 36/UMIS phones.
+For geo-locating and tracking purposes the 3G/
+UMTS target phone is 'pushed onto the system
+cell and then placed into blind call mode.
+
+MAIN FEATURES
+• 3 6 Identify grabbing using protocol message
+exchanges rather than 'Jamming'
+• Advanced Node B configuration for emulation
+of any UMTS network
+• Fast UMTS cell configuration using optional
+36 Spectrum Scanner
+• Integrated 26/3G system operation when
+connected to a GSM-XPZ system
+• Single combined database for 26 & 36
+
+operation
+
+• Identification whether mobile phone is caught
+on2G or 3G
+• UMTS Band 1 (2100MHz) operation
+• Transmits 2x3GPP configured UMTS cells
+simultaneously to a maximum of 5W each
+• Adjustable Node B transmission power,
+ranging from lmW to a maximum of 20W on a
+single Node B
+Integrated Antenna Switch for up t o 3
+antennas
+• User friendly Graphical User Interface (GUI)
+• Powerful database search facility for quick
+target identification
+
+KEYSPECIFICATIONS:
+Function
+Simultaneously acquires the identity parameters
+(IMSI, IMF' &TMSI) of UMTS cell phones off-air
+from two different UMTS networks
+'Push' target cell phones to GSM in a controlled
+manner for get-locating
+
+Correctly interacts with non-target cell phones to
+preserve 3G network service in the operational
+zone
+Channels
+2Channels
+Channel Range
+UMTS Band 1(2110-2170MHz)
+Rf Output Power
+2 x 5W max or1 x 20VVmax
+RFOutput Connector
+3 x NType
+Size
+W 324mm x H130mm xD3B8mni
+Weight
+16.5kg (20kg including carry case)
+Operating Temperature
+-5°C to + 45°C (23°F to 113°F)
+StorageTemperature
+-10°C to + 70°C (14°F to 158°F)
+Power Supply
+12VDC—24V0C
+Power Consumption (Max(
+16A,400W maximum
+
+313
+
+26
+
+GAMMAGROUP
+MODEL 4024
+
+SPECTRUM SCANNER MS)
+
+SPECTRUMSCANNER
+GENERALOVERVIEW
+The Spectrum Scanner (SS) is a lightweight,
+portable and state-of-the-art 3 6 o r M I S
+
+spectrum Scanning Tool. Featuring the latest
+bespoke receiver technology, the unit i s a
+standalone system designed to work with any
+UMTS manipulation system on the market today.
+Using optimized scanning technology, the SS will
+fully decode all 313 or UMTS information required
+for the configuration of a 36 or UMTS IMSI
+grabber.
+The Spectrum Scanner provides the information
+in a simple, easy to understand format.
+
+MAIN FEATURES
+KEYSPECIFICATIONS:
+
+• Simple Graphical User Interface (GUI)
+reducing training time for new operators
+• Capability to scan all channels in a single
+frequency band
+• Fast scanning time, typically less than 120
+seconds
+• S I M card free operation
+• Detailed analysis o f nominated channels/
+UARFCNs
+• Display of total Received Signal Strength
+Indication (RSSI) per UARFSN
+• Display o f Received Signal Code Power
+(RSCP) per scrambling code
+• Read MIB and all broadcast SII3s transmitted
+on the P-CCPCH, for each detected cell
+
+SYSTEM MODES
+
+S
+
+M
+
+Function
+Scans all channels in specified frequency band
+for active UMTS
+Channel Range
+LIMIS Band 1 (2100MHz)
+Sensitivity
+3GPPTS25.101 compliant
+Supply Voltage
+I2Vdc or 24Vdc
+Power Consumption
+<BOW
+
+A
+
+Spectrum Overview
+Scans all channels within frequency band for
+UMTS channels in use
+Detailed Analysis
+Displays detailed network structure information
+of selected network operator/UARFCN
+Recommend Cell Emulation
+Takes the output of the scan and recommends in
+order the best cell to emulate
+
+Antenna Connector
+
+female
+
+Receiver Unit
+W 323mm x H178mm xD288mm 4.81 kg
+Operating Temperatu re
+- 5°C to +45'C (23'F to 113°F)
+Display Device
+Panasonic Toughbook CF 19
+Interfaces
+RJ45 Ethernet
+USB
+
+Network Monitor
+Takes the input of the scan and provides decoded
+neighbor list information for the requested cell
+
+3G
+
+27
+
+GANIMAGROLIP
+MODEL
+4019-3G-OF
+
+3 G DF E Q U I P M E N T
+
+3G DF EQUIPMENT
+GENERALOVERVIEW
+
+BLIND CALL FEATURES
+
+36 Blind Call is a new software feature for the
+36N UMTS system. It allows 36 phones to be
+locked to the 36N and placed in a UMTS blind/
+silent call for tracking purposes.
+This is the only way to establish blind calls to
+phones that are set in "36 only" mode, and it
+removes the reliance on passing the 36 phone
+to a GSM system for tracking—the target phone
+stays on 36 frequencies at all times.
+The313-DF can detect and track the signal from a
+36 phone in a blind call, allowing the DF operator
+to locate it.
+
+• N e w Acquisition mode for the 36 and DF
+target status for 36 phones makes operation
+simple
+• Multiple 36 blind calls can be supported by
+each 36N Node B
+• Automatic 36 power control ensures that
+Node B and phone TX power are continually
+adjusted to optimal levels to maintain the
+blind call
+• T h e 3GN can continue to take registration
+from other 36 phones whilst maintaining a
+blind call to the target phone
+
+3G-DF FEATURES
+• Provides indication of target RSCP (Received
+Signal Code Power) to enable operator to
+judge distance and bearing to target
+• Features graphical and audio feedback of
+current target RSCP level for ease of use in
+challenging operational scenarios
+• Quick and simple t o use with minimal
+configuration required
+
+3GDF Unit and laptop showing sample GUI
+
+The 3 0 captures the 3 0 phone and places it
+tnto a build cell_
+The „rjJ.nk and
+
+n
+
+t
+
+T X powers are auto
+
+rrrattcaiiy adjusted to optimise the connection
+raise phone
+
+mommilmollo•
+410.
+
+L
+
+—
+
+—•
+;*;
+
+. .
+
+The 30-OF locks on to Ihe uplin s i g n a l trom
+the phone. • l l o w I n g the OF operator to track
+the phone to us location
+
+36-GSM INTERCEPTION &TARGET LOCATION
+
+28
+
+GAIVIMAGROUP
+MODEL
+41019-3G-HDIF
+
+H A N D H E L D 3G—OF
+
+HANDHELD 3 G
+
+MAIN FEATURES
+
+GENERALOVERVIEW
+
+•
+
+The3G Handheld Direction Finder (3G-HHDE) is a
+lightweight, portable, state-of-the- art device for
+tracking and geo-locating cell phones,
+The3G-HHDF works with the 3GNS3G Blind Call
+feature to allow tracking of W-CDMA devices. It's
+also backwards compatible with GSM.
+The 3G-HHIN is controlled by a smart phone
+connected to the unit over a Bluetooth link This
+makes the unit easy to configure and use without
+attracting attention.
+
+The 313-HHDF features multiple feedback
+mechanisms to cater for a variety of mission
+scenarios. Choose from visual, audio or vibration
+feedback depending on the operational needs.
+requirement.
+
+Allows direction finding of W-CDMA and
+GSMdevices
+• Resolves target location to within a few
+metres
+• Direction Finding Unit (NU) is controlled by
+smart phone over Bluetooth (wireless) or USB
+(wired) link
+Choice of multiple feedback mechanisms
+• CanDE on BTSs and Node Bs, in addition to
+target mobile devices.
+Covert body-worn antenna pack included
+Compatible with multiple antennas f o r
+different scenarios
+• Audio and vibration feedback modes allow for
+highly covert operation
+• NU protocol and frequency configuration is
+software adjustable to user requirements
+
+KEYSPECIFICATIONS
+Function:
+Provides RE signal strength indication on a
+selectable UARFCN/ARPCN
+Frequency Range (MHz)
+GSM: 8 5 0 band, 900 band (inc. E-GSM),
+1800 band, 1900 band
+W-CDMA: 50 band, 900 band,1700 band,
+1800 band, 1900 band, 2100 band
+Size (atm)
+NU: 120(1) x 65(w) x 28(d)
+High band antenna:
+78(I) a 78(w) a 18(d)
+Low band antenna:
+120(1)x 120(w) x 17(d)
+Weight (grams)
+DPU:140
+High band antenna:
+230/400 (element/array)
+Low band antenna:
+550/1100 (element/array)
+Power
+2 x AA batteries
+
+Antenna:
+4x patch antennas in configurable array
+
+Battery Life (DM)
+Circa 4 hours (typical usage)
+
+Interfaces:
+On/Oft, Status LED, Smart phone interface
+
+30
+
+29
+
+V g
+GAMMAGROUP
+
+G S M VOICE &
+S M S INTERCEPTION
+
+OVERVIEW
+
+31
+
+0 PERATIO NALAPPLICATIO N
+
+32
+
+TARGETED INTERCEPT
+
+33
+
+WIDEBAND PASSIVE INTERCEPTION
+
+34
+
+GSM MONITORING FULLY PASSIVE
+SYSTEM WITH A5.1 REALTIME DECIPHER
+
+36
+
+SEMI ACTIVE PASSIVE SYSTEM
+
+38
+
+3GOPTION
+
+40
+
+GAMMAGROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+OVERVIEW
+The cellular structure of GSM means all traffic
+is communicated from the Network through a
+Basestation to subscribers.This last step involves
+transmitting over the air, the weakness, and,
+hence, attack point for interception solutions.
+To secure a Network, an Operator implements
+encryption on the Traffic communication. 45.1
+encryption is used to encrypt the Voice and SMS
+communications within Europe, and for export
+outside of Europe, 45.2 was developed,
+
+A5.1DECRYPTION CHALLENGES
+GSM uses the principle of a private and public key
+to encrypt communications where the private key
+is known only to the subscriber and Network. At
+the start of each call, the subscriber will undergo
+an Authentication process with the Network.
+Once passed, each communication session will
+be encrypted using a newly generated session
+key called the Kc.
+All 45.1 decryption solutions must derive the Ks
+to decrypt the communication session. Although
+attacks are openly published and well understood,
+the challenge is to be able to do this in real-time
+where real-time is defined as the time from when
+the call-set-up process first starts, to when the
+call is encrypted. This generally takes no more
+than 2 seconds and the call must be decoded by
+this point. The call will start frequency hopping,
+which means the signal will iump to different prearrangedARFCN (Absolute RF channel number)
+making it impossible to follow the call if the hop
+sequence is not known,
+
+Operators are now strengthening their Network
+security. Called Randomization and already being
+deployed in Europe, the available data required by
+any solution is significantly reduced which means
+most solutions will be seriously impacted.
+
+OFF-AIR CAPABILITY
+There are two fundamental approaches for the
+interception of GSM communications:
+• PASSIVE - completely covert, these solutions
+do not transmit or interfere with the real
+network. They monitor the cellular activity,
+receiving and decoding the signalization and
+communications over the air. This approach
+captures all communications and is suited for
+MASS Intercept, i.e. all calls within an area.
+• MAN-IN-THE-MIDDLE - based on theACTIVE
+solutions already described, these solutions
+transmit a fake network to take control of
+designated Targetls). Cloning their identity,
+any communication either made or received
+is decoded and monitored. This approach
+captures only Targeted communication and
+is suited for TARGETED Intercept, i.e. specific
+calls in an area.
+
+Outside Europe, there remains a security
+weakness utilizing t h e availability o f 45.2.
+Solutions were able to trick Target phones into
+dropping to the weaker 45.2 standard to encrypt
+the session, making it much easier to intercept.
+This loophole is now closed, easily demonstrated
+by trying to intercept the latest mobiles which
+no longer are supplied with A5,2 support. The
+complexity o f A5,1 means large amounts of
+processing power is required to explore a II the
+possible solutions to derive the (c. To further
+reduce the possibility of intercept, Network
+
+36
+
+31
+
+GAIVIIVIAGREILP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+OPERATIONALAPPLICATION
+The different Operational scenarios or methods of possible deployment are: catch all communications
+within an area (MASS Intercept) and catch only specific communications or (TARGETED Intercept).
+
+MASS INTERCEPT
+These solutions are optimized to capture all
+communications within an area. They comprise
+of a Receiver Front End and a Decryptor also
+known as a Black Box. The Receiver captures
+communications off-air, the Decryptor derives the
+Kc to allow the communication to be deciphered.
+
+Tohandle large traffic volumes ultra
+Decryptors are required where typical decryption
+speeds will exceed 4 KU&
+In busy or city/urban environments many cells will
+be used. Potentially to cover the 900 & 1800 GSM
+Band, the receiver will need to handle a total of
+512 RF channels. This means using Wideband
+
+Receiver technology, they have the capability to
+cover the complete RF band and are much more
+effective in capturing communications.
+Wideband Passive solutions are suitable for
+highly tactical deployment; they can be covertly
+used from vehicles or buildings very easily. If
+clients are operating under financial constraints
+then Narrowband Receiver, solutions which
+have reduced channel coverage, are potential
+alternatives although cell coverage will be
+reduced.
+
+•t•
+
+The Decryptor unit can be shared or used by multiple Receivers.This allows for cost effective deployment,
+for example a Decryptor could be stored in a secure area/control centre with a low bandwidth link to the
+Receiver(s).
+
+s
+
+,,...,,
+ots
+
+4
+
+I• •
+
+PILMOTI
+
+k
+
+w
+
+6 O n iabe t h e M e w . co
+6 6 1 6
+
+600,1660c c . B.
+a m e l 66616106
+0666,616
+1.-OCA1.1
+
+•
+
+36-GSM INTERCEPTION &TARGET LOCATION
+
+32
+
+IP
+GAIVIIVIAGROUP
+
+OVERV1EVV
+
+BACKGROUND OVERVIEW
+
+TARGETEDINTERCEPT
+These solutions are optimized t o capture
+communications from specific o r designated
+Taro et(s). They emulate t h e network and
+transmit a FAKE cell to lock the Target(s) taking
+designated subscribers off the real network and
+simultaneously cloning the Target(s) identity.
+-°
+
+Solutions are highly portable and can be covertly
+deployed from a vehicle or building.
+
+The key elements are an ACTIVE Front End and
+aDecryptor unit. The method of operation is
+similar to ACTIVE IMSI catcher solutions where
+awareness of the Network and correct cell
+selection is pa ramount. Cell-phones in the vicinity
+will be captured, however, only designated
+Target(s) are locked, the rest or 'unwanted
+collateral' are rejected back to the real Network.
+
+Targeted Operation
+
+'
+
+11
+
+During the process of lockingTarget(s) to the FAKE
+network, the Target(s) are cloned with only the
+cloned copy rejoining the real Network. The net
+result is both the Network and Target(s) believe
+they are still connected to each other, unaware
+of the man-in-the-middle. All communication
+routes through the system with the calls and
+SMS monitored once decrypted. Complete
+covert interception of all incoming and outgoing
+communications is possible with Target(s) under
+the control of the system.
+
+Cloning u n i t
+BTS
+
+new
+communication
+path
+TARGET
+
+noon
+.88,6
+0001R
+
+phone
+
+I N E W
+
+j
+
+30-G5M INTERCEPTION &TARGET LOCATION
+
+33
+
+GAMMAGROUP
+M O D E L 14070
+
+M A S S INTERCEPT—WIDEBAND SOLUTION
+
+WIDEBAND PASSIVE INTERCEPTION
+Wideband Passive interception: a passive interceptor based on a specific radio frontend that covers
+the whole GSM radio spectrum. It automatically decodes and analyzes the signals exchanged off-the-air
+on the GSM cells,The receiver is wideband, this means it can handle many more cells and simultaneous
+communications than narrowband receivers.
+The solution uses a Wideband receiver to perform Voice and SMS decoding in real-tirne.To reach this
+performance it cannot manage the whole band simultaneously, the GSM traffic needs to be intelligently
+filtered first, normally using Network Operator cells as the criteria.
+Compared with Narrowband solutions the key benefits are:
+• MASS interception regardless the number of cells
+• Real-time performance
+• Target priority management
+• Exhaustive interception of signalization and SMS
+
+• Portable solution
+
+THESYSTEM
+Theproduct is a passive wideband intercept system and, as described above, is a Tactical solution
+specifically designed to intercept multiple Voice calls and SMS within an area, Typically used from a
+vehicle, it can be easily transported to allow use within buildings, or sensitive locations, such as Borders
+or busy crowded areas.
+
+MODEL4070 IS DESIGNEDTO HANDLE 2 MAINTYPES OF MISSION:
+• Mass interception to listen and record all communicationsexchanged within the covered area
+• Target interception to specifically intercept the communications of a highly valuable targetThe target
+will have been previously identified by: I MSI, IMEI, phone number
+
+PORTABLE UNIT
+The system is available in a number of form factors to give clients flexibility, which include a rack mounted
+19" configuration or a suspended 1/2 19" case, which is embedded in a specific case for protection.
+
+2U 19" Rack mount configuration
+
+Suspended chassis configuration
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+34
+
+GAMMAGROUP
+M O D E L
+
+d a 0 7 0
+
+M A S S INTERCEPT—WICIEBAND SOLUTION
+
+THEKEYFEATURES OF THE SYSTEMARE:
+• Cannot be detected by the Network Operator orTargets
+• Multi-band coverage, covers the full DCS or PCS band
+• Captures all GSM signalization. Note, this is interesting to detect target presence in the controlled
+area even with no communication
+• Intercepts and records on the controlled cells, from 1 to 20 simultaneous Voice communications
+(uplink and downlink)
+• Allows user to make free interception of voice and SMS on the monitored cells with an advanced
+target and priorities management.
+• Full Handover management capability, meansTargets can be intercepted even if they are mobile
+• Intercepts all the exchanged SMS within an area, all latine and non latine characters handled
+• T h e system can be used in two kinds of operations: Infrastructure mode orTactical mode
+• Very easy to set up, simplified GUI to scan GSM cellular environment, choose the desired cells to
+intercept and monitor the intercepted SMS and voice calls
+• Highly portable, can be operated from AC , DC or with batteries
+
+TECHNICAL SPECIFICATIONS
+Physical
+Covered Bands
+
+GSM900,EGSM900,DCS1800,PCS1900
+
+- • OPTIONALGSM850
+
+Bandwidths
+
+35 MHz for 900 MHz
+75MHz for 1800 MHz and 1900 MHz
+
+GSM channels count
+
+1001100 uplink—100 downlink)
+
+Weight
+Size
+
+27Kg
+59cm x 37 cm x 44 cm
+11 3 2 V DC
+110—220VAC
+
+Alimentation
+Power Consumption
+
+300 W
+
+Temperature Range
+
+0' to 40 C
+
+Functions
+Campaign/mission management
+Max No of GSM channels processed
+Max No. of call recorded simultaneously
+Max No. of SMS recorded simultaneously
+
+OK
+t100 LIL/DL in groups of 5
+20
+Unlimited.
+
+Processing of GSM 850 and PCS1900 band O p t i o n a l GSM/PCS down converter
+Selection of base stations simultaneously and OK
+indifferently in GSM, EGSM,DCS bands
+Listening of "on the fly" calls
+
+O
+K
+Follow-upon identifiers IMSI, IMEI,TMSI, MS- OK
+ISDN, Ki
+OK
+Follow-up of target withTMSI re-allocation
+OK
+45/2 buffering
+A5/1 "ready' interface
+
+OK
+
+45/2 ''ready" interface
+
+OK
+30-GSM INTERCEPTION &TARGET LOCATION
+
+35
+
+GAMMAGROUP
+MODEL 4071
+
+M A S S INTERCEPT—N A R R O W BAND SOLUTIONS
+
+GSMMONITORING FULLYPASSIVE
+SYSTEMWITH A51 REALTIME DECIPHER
+Narrowband Passive Interception: A passive
+interceptor based on narrowband receivers,
+essentially small radio units. Each radio unit is
+dedicated to wait for a call departure on specific
+frequencies (specific operator cell). When a call
+(or SMS) starts, one of the radios is dedicated
+to do the interception of this call. Narrowband
+interceptors are typically 4, 8, 18 or 32 channel
+devices where a 16 channel system following
+4 cells simultaneously will have 4-channels
+locked on the cell's main frequency, leaving 12
+free channels to be allocated on any call start
+(or SMS). This means the more channels which
+are dedicated to specific cells then the less the
+capability to simultaneously intercept a call or
+SMS.
+
+- •• . , - • L
+'A
+ss
+: — . •.:.: i . 1
+..••04,,
+,';',. cc
+•i'''
+, r, Wit 7
+
+PURPOSE
+The system is intended for passive real-time GSM
+monitoring in the following bands:
+850, EGSMIDCS, PCS.
+The main idea of this system is to create a clone of
+the target's handset, catch its real radio traffic and
+discover information from the coded part of the
+session (coded by A5.2 orA5.1 GSM algorithm).
+
+A5.2 decipher is represented as special software
+in the operator's PC.
+45.1 decipher is implemented as a separate multiprocessor unit.
+Useful for operation with all GSM providers, who
+encrypt OTAdata by 45.2 and 45.1 ciphering.
+
+FEATURES
+• Fully passive control of forward and reverse
+ARFCNchannels
+• Real-time GSMA5.1 decryption
+• T h e system operates secretly on long
+distances
+• Random and selective operation modes
+• T h e system supports Frequency Hopping and
+all types of voice codecs: FR,EFR,HR,AMR
+• T h e system records voice sessions, SMS
+messages and call related information to HD
+
+• 8 full duplex channels in one clone box unit.
+Clone box multiplexing possibility
+• BRAND-NEW FEATURE: if you use our Passive
+system together with Active,VOLcan get the
+public numbers of the wanted IMSI/IMEI
+• Automatic speech recognition (voice
+identification) system
+• LAN and USB connection
+• High equipment reliability
+
+3G GSM INTERCEPTION &TARGET LOCATION
+
+36
+
+GAMMAGROUP
+MODEL A07
+
+M A S S INTERCEPT—N A R R O W BAND SOLUTIONS
+
+Target
+
+Downlink signal
+
+BIS
+(GSM Provider)
+
+Uplink Signal
+
+A5.1 decipher as
+the special software
+RX
+
+Clone box
+unit
+
+aerial L...
+••••
+
+A5.1
+decipher unit
+
+TECHNICAL SPECIFICATIONS:
+Frequency Range
+
+850,EGSM/DCS,PCS
+
+Possible channel quantity configuration (forward/
+reverse) in one clone box unit
+
+1..8/1..8
+
+Received level (RX_LEV) indication
+at -100 Ern
+
+Lower Limit -104 dB
+Upper Limit - 96 dB
+
+Received level(RX_LEV) indication
+at-45 dBm
+
+Lower Limit - 49 dB
+Upper Limit - 41 dB
+
+Channel spacing
+
+200KHz
+
+Modulation
+
+GMSK at BT = 0.3
+
+FiF sensitivity
+
+-110 dBm
+
+Possible operation Range
+Connection with PC
+
+50-20000 m
+
+Clone box unit power consumption
+
+LAN, Internet via VPN, USB
+20W (configuration depended)
+
+A5.1 deciphering unit power consumption
+
+1000W
+
+Clone box unit dimensions
+
+330x268x54mm
+
+A5.1 deciphering unit dimensions
+
+500x310x180mm
+
+Averagedeciphering time
+
+0.75 sec, 3sec,150sec
+
+Power supply
+Clone box unit
+Personal computer
+45.1 Deciphering unit
+
+• AC110-230 /24V
+- AC110-230 /12-16V
+AC110-230 V
+
+36-GSM INTERCEPTION &TARGET LOCATION
+
+31
+
+IP
+GAIVIMAGROLP
+MODEL 4072
+
+TA R G E T E D I N T E R C E P T S E M I - A C T I V E PA S S I V E S Y S T E M
+
+TECHNICAL SPECIFICATIONS
+Frequency Range
+Output power
+
+850, 900,1800, 1900 MHz
+(each BTS is separately packaged)
+0.1—4 Watts for case variant
+
+OperationRange
+from BIS unitto mobile phone
+
+—50 - 800 m
+
+Channel spacing
+
+—VPN connection depended
+200KHz
+
+Modulation
+
+GMSK at BT 0.3
+
+RFsensitivity
+
+-110 dBm
+
+Quantity of registered targets
+
+Unlimited (recommended 50)
+1-6 for 1Active Stations unit
+
+—from mobile phone to AS
+
+Quantity of parallel encrypted conversations
+Connection with PC and other units
+Incoming calls, SMS, etc.
+External battery
+
+LAN, Internet via VPN
+Yes
+capability to autonomous operation up to 10
+hours
+
+Dimensions:
+—BTS metal
+—BTS plastic portable
+—AS metal
+
+—330x268x80mm
+—290x260x75mm
+
+0 peratingTemperature Range
+
+—330x268x54 mat
+Cto +55'
+
+Power supply
+—Active Stations unit
+
+- AC 110-230 / 24V
+
+—Case variant BIS unit
+
+—
+AC 110-230 /12-16V
+
+—Personal Computer
+
+—AC 110-230 /12-16V
+
+30-GSM INTERCEPTION &TARGET LOCATION
+
+39
+
+V 6
+GAMMAGROUP
+MODEL
+4 0 7 2 3G
+
+TA R G E T E D I N T E R C E P T
+3 G OPTION
+
+3GOPTION
+To handle 36 networks there is a 30 option addon system which can be integrated with the GSM
+systern.This device will emulate a 30 network to
+attract 30 mobiles and, for designated Targets,
+selectively push them to GSM where they remain
+unless they are rebooted or pushed back to 30 by
+the GSM system.
+Non-target phones are not affected and remain
+in 30-mode.
+
+The key features of this option are:
+• Measures distance to all 30 phones with
+accuracy of less than 30 m
+• Selectively forces only designatedIargetts) to
+GSM
+• Selectively blocks communication of 36
+
+• Automatically scans and detects parameters
+of all 36 networks
+• Detects all 3G phones and collects all their
+identities (MASI, IMEI andIMS1)
+• Displays phone model, country of origin and
+name of network provider
+
+target's phones
+• 2100 MHZ capability only
+
+TECHNICAL SPECIFICATIONS
+Frequency Range
+
+UMTS bandi
+
+1920-1980MHz
+2110-2170 MHz
+Power supply
+- 30 Base Unit
+- Personal computer
+
+- 24V
+- 12-16V
+
+External battery
+
+capability of autonomous operation up to 10 hours
+
+Output power
+
+0.1 - 5 Watts
+
+Connection via LAN °OMAN
+
+Yes
+
+Operation Range
+
+50 - 1500m
+
+Portable 30 Unit Dimensions
+
+290 x 260 x 75 mm
+
+3G
+
+40
+
+V
+GAMMAGROUP
+
+A5.1 DECRYPTORS
+
+INTRODUCTION
+
+43
+
+PASSIVEA5.1 DECRYPTOR
+
+44
+
+ACTIVEA5.1DECRYPTOR
+
+45
+
+Decryptors are subject to export control and require an export license.
+
+GAIVIMAGROUP
+OVERVIEW
+
+BACKGROUND OVERVIEW
+
+The cellular structure of GSM means all traffic is communicated from the Network through a Basestation
+to Subscribers.This last step involves transmitting over the air, the weakness and, hence, attack point for
+interception solutions.
+Tosecure Networks, the Operator implements A5.1 encryption on the Traffic and encrypts each
+communicationsession using a newly generated session key called the Kc.The ability to derive the Kc in
+real-timeA5.1 is critical to decode each session, i.e. each Voice and SMS communication.
+Themostcommonlyused method by decryptor is based on the 'Brute ForceAttack where:
+• method is over 10 years old and a non-intelligent approach to derive Kc
+• attack relies on receiving specific signaling messages (Plaintext)
+• messages used are taken only from the Downlink
+• statistical approach means there is no absolute time it takes to derive Kc
+• signal strength or signal errors have a dramatic effect on system performance
+• any variation in network implementation means it is not possible to get Kc
+• requires lots of processing power making solutions large & power hungry
+Although the weaknesses within GSM networks are well known it is only now Network Operators
+are implementing the required security upgrades. The biggest change will be when Randomization, a
+software upgrade, which reduces the available predictable plaintext, is introduced at end 2011/early
+2012,Any changes in the Plaintext will have a catastrophic effect on the current generation of PASSIVE
+Decryptors.
+
+GSM
+Defence
+
+Likelihood
+of
+happening
+
+STEP 1 - FY2011
+
+STEP 2 - FY2012
+
+Basic network
+randomization
+
+Full network
+randomization
+
+• GSMA works
+on standardisation
+
+- U p g r a d e patches
+already available
+from Nokia &
+Ericsson
+
+• S e l e c t operators are
+
+• L e a d networks are
+
+testing proprietary
+Ideas now.
+
+already making the
+changes
+
+implementations are
+
+anticipated next year
+
+Decryptors are subject to export control and require an export license.
+
+36-GSM INTERCEPTION &TARGET LOCATION
+
+42
+
+GAMMAGROLIP
+DECRYPTOR
+OVERVIEW
+
+N E X T G E N E R AT I O N A5.1 D E C R Y P T O R S
+
+INTRODUCTION
+The forthcoming introduction of Randomization as part of a suite of Security upgrades by Network
+Operators in 2011 & 2012 will cause a major performance impact for the current generation decrypt
+systems and, therefore, off-air passive solution s.
+The only hope for Law Enforcement and Government Agencies is the emergence of next generation BB
+technology from lvigneri, designed to handle these changes:
+• state-of-the-art capability takes a new highly intelligent predictive approach
+• implements clever Cryptographic shortcuts which do not rely on receiving specific messages or
+plaintext
+• uses both the a n d 1XL
+• w e use the whole signahzation stream which significantly improves the real world performance
+especially when signals are of mixed quality
+• intelligent approach reduces the need for high power processing
+• o u r solutions derive multiple Kc simultaneously
+• solutions are extremely power efficient
+
+•
+
+analysed
+
+N o t considered
+
+handled
+at same
+time
+
+Cost
+
+Ivigneri's
+cryptographic
+
+E
+
+Ke
+handlad
+It nom
+time
+
+innovations
+
+Randomized
+Ste idard
+tsSM
+
+provide a much
+better cost-
+
+performance
+
+Cos
+Rai itioinized 6SM
+Stasicim d
+CAM
+
+tradeoff
+
+—.Coverage
+Al ruts mit solutions (OW Milt ate
+ott vety select messages anti
+exhibit an expense* st sling
+behavior
+Current B B s y s t e m s
+
+Coverage
+
+Including all ay/ALM-Iv ts ski
+entropy allos/s lyignet 1-povret est
+intel reptors to sustain itetwot
+upgi aties
+
+Ivigneri BB
+
+Decryptors are subject to export control and require an export license.
+
+3G-OSIM INTERCEPTION &TARG ET LOCATION
+
+43
+
+IP
+
+GAIVIMAEROLJP
+MODEL
+IVG 5 0 0
+
+N E X T G E N E R AT I O N A5_1 D E C R Y P T O R S
+
+PASSIVEA5.1 DECRYPTOR
+The IVIG-MASS i s a state-of-the-art highperformance 45/1 decryption system. Using the
+latest deep analysis decryption techniques the
+IVIG-MASS is designed to recover Kc even on
+networks where Randomization is implemented
+or where signal quality is poor.
+Optimized for integration with PASSIVE GSM
+interception equipment, IVIG-MASS provides
+government agencies with real-time A5/1 covert
+future proofed monitoring capability.
+
+FEATURES
+• Real-time deciphering of GSM 45/1 traffic
+• Supports all GSM networks that encrypt voice calls and text message
+• Deep analysis mode can calculate Kc where Networks have implemented Randomization
+• High throughput mode optimized for low to medium noise data and no Randomization
+• Optional A5/2 andThuraya decryption capability
+• Modular solution allows system to be easily increased in performance
+• Can be remotely operated
+
+SPECIFICATIONS
+Cryptographic
+Performance H i g h T h r o u g h p u t mode: 6Kcis @95% success
+DeepAnalysis Mode: 2Kc/s @99% success
+A5/1 S t a n d a r d
+A5/2
+
+O
+
+Thuraya
+
+p
+O
+
+Physical
+Weight
+Size
+
+t
+p
+
+i
+t
+
+o
+i
+
+1
+
+Data interface
+
+n
+o
+
+a
+
+n
+
+7
+T
+
+C
+p
+
+l
+
+Kg
+HE Server
+
+3
+
+Power consumption
+
+l
+
+a
+
+P
+
+e
+
+a
+
+OperatingTemperature Range
+
+5
+
+over Ethernet or SSG tunnel
+k
+
+350 W
+
+Environmental
+Humidity
+Shock Proof
+
+<
+N
+
+- 30°C
+70%
+
+o
+
+Decryptors are subject to export control and require an export license.
+
+36-GSM INTERCEPTION &TARGET LOCATION
+
+44
+
+GANIMAGROUP
+MODEL
+!VG 5 0 1
+
+N E X T G E N E R AT I O N A5.1 D E C R Y P T O R S
+
+ACTIVEA5.1DECRYPTOR
+The IVIG-TACT is a state-of-the-art ultra-portable
+high performance A511 decryption system.
+Using the latest decryption techniques the IVIGTACT has been optimized for integration with
+ACTIVE GSM interception equipment to provide
+Government Agencies with real-time 45/1 covert
+monitoring capability.
+
+FEATURES
+• Real-time deciphering of GSMA5/1 traffic
+• Supports all GSM networks that encrypt voice calls and text messages
+• Optional A5/2 decryption capability
+• Runs from a laptop
+• lightweight —less than 4Kg
+• L o w Power Consumption
+• Can be remotely operated
+
+SPECIFICATIONS
+Cryptographic
+Speed
+R
+Success Rate
+
+e
+
+a
+9
+
+l
+
+A5/1
+
+S
+
+t
+
+a
+
+n
+
+d
+
+a
+
+r
+
+d
+
+45/2
+
+O
+
+p
+
+t
+
+i
+
+o
+
+n
+
+a
+
+l
+
+a
+
+n
+
+d
+
+5
+a
+
+r
+
+kg (incl, analysis laptop)
+d
+Laptop
+
+Physical
+Weight
+Size
+S
+
+9
+
+3
+t
+
+Data interface
+
+T
+
+.
+T
+
+Power consumption
+
+i
+%
+
+C
+B
+
+m
+
+P
+O
+
+e
+
+(1 Kc / 2s)
+
+or Bluetooth
+
+W
+
+(2h battery backup included)
+
+Environmental
+Operating Temperature Range
+,Humidity
+Shock Proof
+
+Y
+
+0
+e
+
+- 35°C
+<90%
+s
+
+Decryptors are subject to export control and require an export license.
+
+3G
+
+45
+
+•
+
+.•
+V
+
+O
+
+GAMMAGROUP
+
+A D VA N C E D MOBILE
+L O C AT I O N T R A C K I N G
+
+ADVANCED LOCATIONTRACKING AND MOBILE
+INFORMATION & DECEPTION SYSTEM
+4
+
+7
+
+VA
+GAIVIMAGROUP
+A LTA M I D E S
+
+A D V A N C E D M O B I L E L O C AT I O N T R A C K I N G
+
+ADVANCED LOCATION TRACKING AND MOBILE INFORMATION &
+DECEPTIONSYSTEM ( ALTAMIDES )
+
+. „.....clacl.
+* S .
+M N
+cl..%
+
+1
+
+A m .
+
+.,„....1
+Ipso
+1
+SOUP AKAARAt4 4 • A . . ,
+.°10100
+10.00
+
+TECHNICAL DESCRIPTION
+Scope of the ALTAMIDES
+
+The purpose of this platform is to provide the CLIENT with a facility to locate and report the vicinity
+location of a GSM device 0.e. mobile phone).
+TheALTAMIDES facility enables suitably authorized users to designate "targets
+the location, and have the results reported both in text and overlaid on a digital map or photograph.
+The following sections summarize, in short, the functionality and capabilities of the standard ALTAMIDES
+platform.
+
+OVERVIEW OF ALTAMIDES (STANDARD CONFIGURATION)
+
+va
+1:1
+
+selverfiewel k ° c a t i o n I r
+m o t s . . I n c c l . r r - t . 1 0 . 1 111 a l k o . o p t c l o r l . 0 . 1 k a o r "
+
+111.cls L o c l e m t
+
+0.014 I.V1.001
+O W. /
+
+;.clie
+
+War
+wmpb
+
+, clft.
+
+%WWI.
+A d v. . . 0 4 6 . 0 . d
+
+V W * 00=01
+
+S a f f t
+
+Avo
+
+es. • o
+
+SWUM NWa
+
+•
+•
+
+WA . O .
+O.
+
+C0•0000
+W I %Oa,•
+
+# 1 .
+
+cql
+
+1
+
+A
+
+At ' A w e , ,,,,,,
+cl..,cltdcloot
+
+le000 I
+
+opl
+
+W A 110WW.
+0
+4. oamm.
+'•••
+AiLTA.WE41
+w0e
+lidwhost.1 0 . 1 0 9
+•anao.v.
+, 0 0 • • • • 11 . 0
+d i N i l a
+
+W
+
+A
+
+W
+
+A
+
+11.11•00 A0040
+OW01
+. . 0 .
+
+•clocl
+
+°Vit
+
+0
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+47
+
+GAMMAGROUP
+A LTA M I D E B
+
+A D V A N C E D M O B I L E L O C AT I O N T R A C K I N G
+
+The platform can be defined as having two distinct primary sub-systems, being:
+Location Unit
+This component comprises the platforms hardware and supporting software that enables the interface
+to the Signaling System No.7 (SS7).
+Location Suite
+This component comprises the application software and the management tools with multi-language
+support.
+The scope and capabilities of the standard platform are summarized briefly as follows:
+A) Location Unit (LU):
+• The basic Location Unit includes:
+• U p to 4 x SS7 Signaling links Time Slots) per unit
+• U p to 20 location queries per second
+• 10/100 Ethernet connectivity
+• Software Interface to Location Suite
+• A P I Interface for 3rd party applications
+• S S 7 interface for location requests and location information provisioning over SS]
+• White-list authorization feature for location queries
+• Basic location request and location status logging
+• Provisioning of raw location data (such as IMSI, MSC, LAC, Cell-ID, Subscriber Status, Location
+Age)
+• Integrated basic database functionality for information, such as Longitude/Latitude, MSC-/CellName etc
+B) Location Suite (IS):
+TheALTAMIDES Suite provides a role-based Single Sign-on mechanism, a method of access control that
+allows users to login once, and gain access to multiple resources of software modules within the full
+rangeALTAMIDES suite, dependent on the access rights (role) assigned by the respective ALTAMIDES
+Administrator, without the need to enter multiple passwords, therefore, reducing the user administration
+effort and reducing password fatigue.
+Furthermore, the Location Suite is multi-language enabled. CLIENT can implement a default language
+and each user of the system has the capability to configure their preferred language, if other languages
+are configured in the system.
+RapidTrax
+Location front-end Web-interface:
+• Graphical and textual display of current location for a single target
+• Single point graphical and textual display of historical location information for single target
+• Report display/download for historical location information
+• SingleTarget Location Administration for
+• Location Scheduling
+• Target Administration
+• Multipoint location area prediction for single target
+• White/Black/Red listing of mobile phone numbers
+• GSM configuration only
+• Worldwide reverse fixed-line phone number lookup capability
+• National fixed-line reverse lookup and graphical display capability
+• SMS-based location result forwarding to mobile devices
+
+3G-GSM INTERCEPTION &TARGET LOCATION
+
+48
+
+GAIVIIVIAGROUP
+
+A LTA M I D E S
+
+A D V A N C E D !MOBILE L O C AT I O N T R A C K I N G
+
+Location back-end Engine:
+• Location Scheduling Engine for single targets
+• Location Routing Engine
+• Location Result Processing Engine
+• Location GSM interface
+• ALTAMIDES iSMSC Network Fellover and Load Balancing (optional)
+OmniTrax
+Location front-end Web-interface:
+• Graphical and textual display of current location for multiple targets
+• Graphical and textual display of historical location information of multiple targets
+• Multiple-target movement visualization
+• Report display/download of historical location information
+• GIS Navigation Interface Engine
+• Target Location Administration for:
+• Location Scheduling
+• Target —User visibility
+• Target Administration
+• White/Black/Red listing of mobile phone numbers
+• Supports GSM and GPSTracking
+Location back-end Engine:
+• Location Scheduling Engine for multiple targets
+• Location Routing Engine
+• Location Result Processing Engine
+• Location GSM and GPS interface
+• ALTAMIDES iSMSC Network Fallover and Load Balancing (optional)
+ZoneTrax (requires OmniTrax)
+• GSM and BPS GeoFencing Administration Tool
+• Intelligent GSM GeoFencing across Cellular Networks
+• GSM GeoFencing Autoupdate (in case of cell data changes)
+• Cell Shape and Cell Direction Display
+• Multiple target movement visualization
+• Customizable GSM Geofencing with Cell Select and Deselect option
+• Display Pop-up, SMS and/or Email Alert capability
+• White/Black/Red listing of mobile phone numbers
+lipTrax (requires OmniTrax)
+• GSM District/City/Country Fencing Administration Tool
+• District/City/Country Fencing Autoupdate (in case of cell data changes)
+• Multiple target movement visualization
+• Orthogonal target functionality with ZoneTrax
+• Display Pop-up, SMS and/or Email Alert capability
+• White/Black/Red listing of mobile phone numbers
+
+36
+
+49
+
+I
+
+GAMMAGROUP
+A LTA M I D E S
+
+A D V A N C E D M O B I L E L O C AT I O N T R A C K I N G
+
+ProximiTrax (requires MapTrax)
+• Targets and Alarm Setup forTarget Monitoring (coming together and/or going apart)
+• Supports GSM and GPS targets
+• GSMTarget Monitoring based an Cell or MSC IDs
+• Multiple target movement visualization
+• Orthogonal target functionality with ZoneTrax
+• Display Pap-up, SMS and/or Email Alert capability
+• White/Black/Red listing of mobile phone numbers
+FieldTrax (requires RapidTrax)
+• SMS MO Engine far Location Requests from the field (i.e. location tracking via mobile phone)
+• White/Black/Red listing of mobile phone numbers
+• Mapping of Cell ID to textual location
+• Google Maps/Microsoft Bing Maps hyperlink target location display transmission to mobile devices
+• Field Location History Function
+• FieldTrax Administration Module with tracking history database
+DIS
+• SMS Broadcasting and Spoofing Interface:
+• SMS Broadcasting Interface
+• Spoofing capability (e.g. to impersonate someone via SMS)
+• Broadcast Scheduler
+• Destination MSISDN Database
+• Destination MSISDN Dataset Import Feature
+• S M S Delivery Status Reporting
+• SMS Receiving Feature
+• SMS Reply Reporting
+SMS Broadcasting and Spoofing Engine:
+• S M S Scheduling Engine
+• SMS Routing Engine
+• SMS Delivery Status and Reply Engine
+JamTrax
+Denial of Service Attack on target mobile device in order to disable most or all mobile device radio
+functions with:
+• Scheduling Engine
+• Jamming History Function
+• White/Black/Red listing of mobile phone numbers
+
+MapIrax
+Map Administration and Map Database:
+• M a p Administration/ImportTool
+• M a p Database
+
+3G
+
+50
+
+GAMMAGROUP
+A LTA M I D E S
+
+A D V A N C E D M O B I L E L O C AT I O N T R A C K I N G
+
+TelcoTrax
+• Cell/MSC/fixed-line PSTN Database with Graphical Administration:
+• Front-end Cell Database Administration Tool to create, edit and upload Cell and MSC Database
+• AuditTrail
+Trail Function for recording, archiving and Cell Data recovery
+• Cell DatabaseTime
+DatabaseTime Stamp and Version Capture
+• World-wide fixed-line PSTN Database
+• Fixed-line PSTN ImportTool
+AuditTrax
+• Real-Time Recording and Display of all system transactions and activities
+• HistoricalTransaction
+Transaction Records retrievable based on multiple search criteria
+• HistoricalTransaction
+Transaction Record Download in PDF, Excel and CSV format
+• Capability to be used as monitoring and control tool for ombudsman-like entities
+Target Management System
+• Real-Time Relational Database System supporting many millions of target data entries
+• Bulk Upload, Management and Analysis of target data sets
+• Target Data accessible/importable from various ALTAMIDES modules
+• Target Data Report and Download Functionality
+• SQL Interface for 3rd party relational and data mining tools
+System Administration and Monitoring
+• Graphical System and Application Monitoring and Administration Interface
+• Multiple Source Logging and Database Storing of system information and commands (e.g. for audit
+trails)
+• System configuration, monitoring and maintenance capability
+• Backup and Archiving capability (optional)
+Network Features:
+• Technical setup for SS] and iSMSC access. (SS7 links and IP connectivity as defined in "Connectivity
+with local GSM Service Provider" below)
+• Supports connections to multiple iSMSCs with different SS] connectivity for failover arid improved
+international coverage and roaming target tracking purposes
+• Browser-based application for easy control of security and access of remote users (e.g. via HTTPS
+and VPNs)
+Support Services
+• Technical Support
+• Email and Instant Messenger
+• 24-hours Operations Hotline Support
+• Remote System Maintenance and System Support (on Client request)
+Upcoming New Release Features (during 2011):
+• Number Range Management forTelcoTrax
+• Cell Density Visualization
+• FieldTrax Mobile Administration Extension
+• Real-time SubCellTracking
+• Mobile Cell Collector
+• GIS Interface
+
+36
+
+51
+
+GAIVIMAGROUP
+
+into@gammagroup.com
+
+1GAMMA
+GROUP
+wmv.gammagroup.com
+
+

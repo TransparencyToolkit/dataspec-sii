@@ -1,0 +1,58 @@
+gen Forensic Sllite
+
+J
+
+Afin de rkaliser cette tiche, il est nkcessaire d'avoir acces au systeme de
+fichiers du t6lCphone via I'utilitaire adb. Autrement dit, I'utilitaire adb doit a r e
+exkcutk sur I'appareil. Le telephone lui-mCme doit se trouver en mode <<USB
+debugging>>afin de pouvoir h r e connectk.
+
+L'exploit utilise certaines failles dans diffkrentes versions du Systeme
+dlExploitation Android. D'un point de vue technique, il s'agit de bugs pouvant
+h r e rbparks dans de nouvelles versions, ce qui signifie que I'exploit risque de
+ne pas fonctionner pour I'ensemble des modeles actuels et futurs. La faille du systeme peut
+en effet h r e corrigke, ou le t6lbphone peut tout simplement &re livrk avec un firmware
+modifiB Les fournisseurs ont I'habitude de reparer les bugs trouvhs dans les systemes
+pr6c6dents dans les nouvelles versions. Nous utilisons differentes mkthodes afin d'effectuer
+le rootage du bilephone, allant de simples mkthodes pour les anciennes versions des
+mkthodes tres sophistiquks pour les dernieres versions. Ces mkthodes tentent d'obtenir
+des droits d'acces root I'utilitaire adb.
+Les m6thodes utilisks pour le rootage des tklkphones Android tournant sur les
+Systemes d'Exploitation version 1.6 a 2.2 sont relativement simples et utilisent
+les failles de la protection mkmoire du processus adb. Ces mkthodes ne
+modifient pas le systeme de fichiers et ne communiquent avec aucun autre
+processus, leur memoire ou leurs donnees sauvegardkes. Seul le processus adb est
+concern6 et les donnks de I'utilisateur ne risquent pas d'8re modifikes. La plupart des
+appareils Android tournant sur les Systemes dlExploitation 1.6 a 2.2 peuvent subir un
+rwtage avec cette mkthode, I'exception de quelques firmwares hautement personnalids.
+Les smartphones Android tournant sur des Systemes d'Exploitation sup4rieurs
+2.1 sont prot6gks plus efficacement et nkessitent par condquent des
+m6thodes plus sophistiquks. Plusieurs variantes sont utilisCes pour traiter
+avec les versions du firmware 2.*, 3.0.* et 4.0.* et ont recours au gestionnaire
+de la carte memoire flash. II est vivement conseillC de remplacer la carte mkmoire originale
+par une carte vide, car il se peut que les donnees sauvegardkes sur la carte mkmoire soient
+perdues. De plus, la carte memoire peut Ctre dksassemblee aprks le rootage et il n'est d&s
+lors pas nkcessaire de I'assembler une nouvelle fois dans I'appareil. Plusieurs fichiers
+temporaires sont crees au cours du processus et sont ensuite supprimks la fin du rootage.
+
+a
+
+Un cas particulier est toutefois possible si la memoire flash est embarquk. Les
+sp4cialistes de I'analyse ne seront pas alors capable de la remplacer par une
+autre carte. I 1 leur reviendra alors de decider de prockder ou non au rootage.
+L'acchs illimitk 21 I'ensemble des fichiers offre toutefois des avantages inCgalQ
+pour I'analyse des smartphones Android.
+
+4g
+
+3
+
+:u
+
+Q
+
+Oxygen Forensics, Inc
+901 N. Pitt St Suite 320 Alexandria, VA 22314 USA
+htt~:llwww.oxvaen-forensic.com
+
+

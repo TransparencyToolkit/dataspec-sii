@@ -1,0 +1,773 @@
+Utimaco
+LIMS Access Points
+Realtime Network Monitoring for Lawful Interception and Data Retention
+
+utimaco®
+a member of the Sophos Group
+
+2
+
+- - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - Utimaco LIMS Access Points
+
+Realtime Monitoring
+with Passive Probes
+Realtime monitoring of network connections has been
+
+Telecom operators and Internet service providers some-
+
+used by telecom operators for years for various purposes, like
+
+times prefer network probes for similar reasons. That's why
+
+quality of services monitoring , performance analysis , fraud
+
+probes are an integral part of the Utimaco Lawful Interception
+
+detection , E911 location and billing . Specialized network
+
+Management System (Utimaco LIMS ™) and of the Utimaco
+
+probes are typically connected to the network by taps ,
+
+Data Retention Suite (Utimaco DRS ™).
+
+thus receiving a copy of the communications traffic. These
+probes analyze the traffic based on defined filter rules and
+can extract data of specific interest.
+
+Management by
+Utimaco LIMS
+
+Mediation by
+Utimaco LIMS
+
+Law enforcement and intelligence agencies make use of
+passive probes for non-intrusive surveillance of communication links . Compared to the common approach of active
+
+Output
+Interface
+
+monitoring , where network nodes, e.g. switches or routers ,
+acquire the required data , probes have a number of advantages with regard to :
+
++
+
+Performance, bandwidth support
+
++
+
+Capacity, number of simultaneous targets/filter rules
+
++
+
+Transparency
+
++
+
+Accuracy, level of details
+
+Network ~--­
+Link
+
+~---.
+
+Utimaco provides three types of probes:
+LIMS Access Points for IP services
+
+Cost-effective probes for single IP services like e-mail ,
+VoIP, AAA, SMS, MMS
+
+LIMS Access Points DPI
+
+Deep Packet Inspection Probes for 1Gb to 1OGb
+Ethernet networks
+
+LIMS Access Points TOM
+
+Probes for circuit-switched networks based on E1/T1 ,
+SDH/SONET (STM-1 to STM-4)
+
+LIMS Access Points are centrally controlled by the Utimaco
+LIMS and Utimaco DRS . All data intercepted by the probes
+are encrypted and protected from unauthorized access .
+Before data is handed over to law enforcement agencies it is
+mediated to comply with international LI standards.
+
+3
+
+Utimaco LIMS Access Points - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Deep Packet Inspection
+Deep Packet Inspection (DPI) is the name of a state-of-theart technology designed to meet some of the key challenges
+
+Supported services and protocols
+
+relating to the plethora of IP-based communication services .
+The ever-growing number of Internet applications and
+IP-based protocols make it hard for law enforcement agencies (LEAs) and communication service providers to identify
+'bad guys' or criminals on the net and to analyze their communications for the purpose of criminal investigations and
+prevention of terrorism .
+Utimaco LIMSAccess Points implement DPI technology not
+only to filter individual IP packets but also to decode and
+analyze complete communications flows of more than
+300 different Internet applications. The probes can either
+extract only the metadata (e.g . source ID, destination ID, IP
+
++ Networking protocols
+1Pv4, 1Pv6, TCP, UDP, Ethernet, EtherlP,
+FTP, HTTP
++ Tunneling protocols
+MPLS , GRE, L2TP, PPP, PPTP, GTP
++ AAA protocols
+RADIUS , DHCP
++ E-Mail
+POP3 , SMTP, IMAP, MAPI
++ Webmail
+
+addresses , port numbers, timestamps) or intercept entire
+
+Yahoo mail , Microsoft Hotmail , google mail ,
+
+communication sessions . Intercept targets can be identi-
+
+Maktoob, OWA
+
+fied by a range of application specific user IDs, device IDs,
+network addresses or by keywords .
+Utimaco offers a variety of carrier-grade probes for
+different networks and services. Customers can select
+from a range of LIMS Access Points according to their
+actual needs for performance , protocol support and
+scalability.
+
+4
+
++ VoIP
+SIP, RTP, H.323, SCCP
++ Signaling
+SIGTRAN , MTP, MAP, SCCP, RANAP
++ and many more Internet applications
+
+Utimaco LIMS Access Points
+
+Keeping Pace with New Types of Traffic
+LIMS Access Points are designed for non-intrusive monitor-
+
+Internet applications are constantly evolving . Regularly, new
+
+ing without alerting subscribers or disrupting the service.
+
+communications applications appear on the Internet and
+established application protocols are modified . So customers
+
+The probes can be seamlessly integrated into networks of
+various kinds , such as broadband access networks, IP core
+
+must be prepared to keep pace with this evolution . To this
+
+networks , or Internet exchange networks. Common network
+
+end , Utimaco provides support plans that give customers
+
+access techniques such as passive taps (splitters) or switch
+
+access to quarterly protocol updates and new protocol plug-
+
+span ports help ensure that there is no outgoing traffic from
+
+ins. Such plug-ins can also be customized according to
+
+the IP probe back to the network.
+
+individual customer needs.
+
+Broadband Access
+Network
+Core Network
+Exchange Network
+PSTN
+
+Mobile Access
+Network
+
+-·~~
+~,.
+·• .
+
+. ·,}
+
+.
+I
+-
+
+LIMS Access Points
+
+~;. "
+
+..
+6
+
+,,, ,
+
+5
+
+Utimaco LIMS Access Points - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LIMS Access Points DPI
+Realtime Monitoring of IP Networks
+Deep Packet Inspection
+
+Lawful Interception and Data Retention
+
+In contrast to many other network probes , Utimaco LIMS
+
+Utimaco LIMS Access Points are fully integrated in the Uti-
+
+Access Points do not just fi lter IP packet headers on well-
+
+maco LIMS (Lawful Interception Management System) and
+
+known ports but reassemble complete IP flows in order to
+
+Utimaco DRS (Data Retention Suite). Intercept targets can
+
+analyze the header fields and the content of more than 300
+
+be provisioned centrally in LIMS and will then be distributed
+
+IP-based protocols and Internet applications. By carrying out
+
+to all connected LIMS Access Points for interception. For
+
+semantic analysis , the LIMS Access Point can track control
+connections that induce dynamically negotiated connections
+
+data retention purposes the probes can generate IPDRs (IP
+
+on temporary ports such as passive FTP, VoIP or full multi-
+
+data records, or metadata) for all IP services or for those of
+specific interest. These IPDRs are sent to the Utimaco DRS
+
+media conferencing streams , gnutella or BitTorrent peer-to-
+
+for further processing and storage .
+
+peer traffic and instant messaging , and is able to automatically decode complex encapsulation tunnels.
+
+Models
+
+LIMS Access Point for IP services
+
+• 4x1 Gb Ethernet (copper)
+• up to 1OOkpps
+•
+
+E-Mail
+
+• AAA
+• VoIP
+• Mobile data
+
+LIMS Access Point DPI 1G
+__ ......
+
+·---·- -·
+
+• 4x1 Gb Ethernet (fiber or copper)
+•
+•
+
+up to 800kpps
+HW accelerated data aquisition
+
+•
+
+Multi-protocol support
+
+LI MS Access Point DPI 1OG
+
+•
+
+up to 4x1 OGb Ethernet (fiber or copper)
+
+•
+•
+
+up to 4,000kpps
+HW accelerated data aquisition
+
+• stackable
+•
+
+6
+
+Multi-protocol support
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Utimaco LIMS Access Points
+
+High-Speed Monitoring
+
+Interception of Ongoing Sessions
+
+Utimaco offers a range of probe models to meet customer
+
+LIMS Access Points keep track of all online users authenti-
+
+requirements in terms of performance , capacity, and price.
+
+cated via the DHCP, RADIUS , or GTP protocol. This feature
+
+There are small appliances with a 100/1000 Mbit interface and
+
+enables intercepts to start immediately, even if a target user
+
+single protocol support as well as blade-server systems with
+
+has been authenticated before the intercept is activated .
+
+multiple 10 Gbit interfaces and sufficient capacity to monitor
+many protocols and thousands of targets simultaneously. All
+
+Protocol Updates
+
+models are designed to provide line-speed performance with
+
+As new Internet applications emerge and communication
+
+zero packet loss. Blade systems can be expanded by means
+
+protocols change , network operators must be prepared for
+
+of additional line cards and processor cards to accommodate
+
+changes and updates. Utimaco offers support plans that
+include free updates for new versions of protocols at pre-
+
+growing network capacity.
+
+dictable costs .
+
+Flexible Target Identification
+LIMS Access Points can identify targets by various kind of
+
+Security & Availability
+
+triggers related to a certain protocol or service. A target ID
+
+Utimaco LIMS Access Points are designed to protect data
+
+can be an IP address, MAC address , user ID , device ID , SIPURL, TEL-URI , email address , URL, MSISDN , IMSI , IMEI ,
+
+delivery to the law enforcement agencies . Security features
+
+from unauthorized access and to provide timely, secure
+
+a keyword , or several other application-level IDs. A virtual
+
+include full audit trails , communication encryption , access
+
+ID manager correlates target IDs of different protocols and
+
+control , operating system hardening , automatic consistency
+
+applications in order to capture all relevant traffic associated
+with a certain intercept target. For instance, a MAC address
+
+checks and alarms. The probes are continuously monitored
+by the Utimaco LIMS or Utimaco DRS system and can sup-
+
+monitored in the DHCP traffic can be automatically corre-
+
+port redundancy concepts with hot-standby functionality.
+
+lated to the associated IP address to capture all IP traffic,
+a SIP-URI can be mapped to an IP address to capture all
+
+Compliance
+
+RTP traffic, or an instant messaging login can be mapped
+
+Utimaco LIMS mediates and delivers intercepted commu-
+
+to the IP address to intercept all IP traffic to and from such
+
+nications in compliance with ETSI standards , CALEA, and
+
+a target. For investigators, this feature represents a great
+
+other national lawful interception mandates. Utimaco DRS
+
+new tool for identifying the communications of a person
+
+retains the data generated by the LIMS Access Points and
+
+under surveillance even when the information available for
+identification is limited .
+
+provides controlled access to such data in accordance with
+national data protection and data retention laws .
+
+I
+I
+I
+I
+I
+
+I
+I
+I
+I
+
+I
+I
+I
+I
+
+I
+I
+I
+I
+I
+
+I
+L
+
+7
+
+Utimaco LIMS Access Points - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Monitoring Telephony Networks
+Circuit-switched connections are still widely deployed in
+
+of switching systems or replace the integrated interception
+
+modern telecom networks to carry telephone calls , fax or SMS
+
+functionality of switches entirely.
+
+messages. When monitoring a standard PSTN network or a
+2G or 3G cellular network for interception purposes, passive
+
+Utimaco LIMS Access Points can be deployed at various
+
+probes offer a worthwhile alternative to on-switch intercep-
+
+positions in a network for monitoring both signaling and
+media . The probes associate the signaling to the bearer
+
+tion . Probes can either enhance the interception capabilities
+
+traffic and then acquire the targeted call data and usage
+
+Benefits
+
+information . All intercepted data are mediated by the Utimaco LI MS before they are delivered to the law enforcement
+
+1
+
+agency over standardized interfaces.
+
++
+
++
+
+Highly scalable
+from one to thousands of circuits , up to 100,000
+
+Alternatively or in addition , the same LIMS Access Points
+
+simultaneous targets
+
+used for targeted interception can also generate call detail
+
+100% transparent
+no impact on existing network links
+
++
+
+records (CDR) for all communications session. The CDRs
+can be collected by the Utimaco DRS for long-term retention and further analysis.
+
+Mass intercept
+monitors all ca lls and messages and generates
+CD Rs
+
++
+
+Standards-compliant
+ETSI conform hand-over via ISDN or IP
+
+...•
+I
+
+8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Utimaco LIMS Access Points
+
+Law Enforcement Agency
+
+Utimaco LIMS
+LI MS Management Server
+Hl 1
+(target:
+MSISDN ,
+IMSI ,
+IMEI)
+
+X1
+(target: MSISDN , IMSI , IMEI )
+
+i
+
+LIMS
+Mediation
+Hl 2
+
+LIMS
+Access
+Point TOM
+
+(DF2 :1RI)
+
+Hl 3
+(DF3:CC)
+
+Monitoring Center
+
+BTS
+
+3G Radio
+Access Network
+
+2G Radio
+Access Network
+
+I
+
+/
+
+E
+
+G.
+I
+
+I
+Mobile
+Core
+Network
+
+~
+Y,
+
+/
+PSTN/ISDN
+
+G,
+
+"'
+Internet
+
+9
+
+Utimaco LIMS Access Points - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LIMS Access Points TOM
+Realtime Monitoring of Circuit-Switched Networks
+Communications Interception and Data Retention
+
+Protocol Support
+
+The LIMS Access Point TOM supports the interception of
+
+•
+
+signaling , content and location data of telephony calls , SMS
+
+•
+
+ISDN PRI , C5 , R2 , DTMF, fax/modem
+
+messages and faxes on a wide range of networks:
+
+•
+
+GSM/CDMA A-Interface , Abis-lnterface
+
+•
+
+PSTN
+
+•
+
+UMTS luCS, luPS , RANAP
+
+•
+
+GSM
+
+• ATM , HDLC, TCP/IP
+
+SS? ISUP/TUP (incl. country specific implementations)
+
+• UMTS
+• CDMAone , CDMA2000
+The probes are fully integrated in the Utimaco LIMS and DRS ,
+
+•
+
+SIGTRAN , SMPP
+
+where intercepted data is mediated and retained .
+
+•
+
+Scalable to monitor up to 16,000 TOM connections
+in realtime
+
+Target Identification
+
+•
+
+Supports up to 100,000 concurrent targets
+
+Performance Figures
+
+The LIMS Access Point is capable of correlating different identities of a single subscriber, even over multiple interfaces. Each
+
+Hardware Platforms
+
+probe tracks in realtime all occurrences of MSISDNs, IMSI ,
+MSRN , IMEI , and TMSI. This allows the probe to acquire all
+
+•
+
+Server:
+1U 19" rack mount
+• 110/230V AC power, redundant
+
+•
+
+Chassis :
+2U 19" rack mount w/ 3 cPCI slots or
+
+data related to a target by just defining one of its identities.
+
+• CE , FCC , UL compliant
+
+Content Analysis
+Realtime monitoring with the LI MS Access Point is not restricted to signaling only. The probe can also detect and extract
+
+5U 19" rack mount w/ 8x cPCI slots
+
+DTMF tones , CAS tones (C5 , R2 ), and fax/modem calls from
+
+• 110/230V AC power, -48V DC power, redundant
+
+bearer channels . The integrated CIC mapping technology
+assures accurate automatic correlation between signaling
+
+• CE , FCC , UL compliant
+•
+
+and bearer channels .
+
+Switch:
+1U 19" Ethernet switch 10/100/1000 Base-T
+• 110/230V AC power, FCC , CE compliant
+
+Interface Support
+•
+•
+
+E1/T1
+SDH/SONET (STM-1/0C3 , STM-4/0C-12)
+
+•
+
+1G Ethernet ( 1OOOBase-T)
+
+10
+
+Standards
+•
+•
+
+ETSI TS 101 671 (TOM delivery)
+ETSI TS 102 232-1 , TS 102 232-6 (IP delivery)
+
+Utimaco LIMS Access Points
+
+Models
+
+..."'
+
+·~: :: _""
+
+.
+
+.:
+.
+
+...
+
+LIMS Access Point TDM-S
+•
+
+up to 4x E1/T1 (duplex) integrated
+
+•
+
+2 x 1 Gb Ethernet (copper)
+
+•
+
+1U server
+
+LIMS Access Point TDM-M
+•
+
+up to 32 x E1/T1 (duplex) or
+
+•
+
+up to 2 x STM-1 (duplex)
+
++ 2x1 Gb Ethernet (copper)
+•
+
+1U server+ 2U cPCI chassis
+
+LIMS Access Point TDM-L
+
++ up to 64 x E1/T1 (duplex) or
++ up to 4 x STM-1 /STM-4 (duplex)
++ 2x1Gb Ethernet (copper)
+•
+
+1U server+ 2U cPCI chassis
+
+11
+
+utimaco®
+a member of the Sophos Group
+
+For more information on the Utimaco LIMS and Utimaco DRS , please visit:
+
+www.utimaco.com/lims
+Utimaco Safeware AG
+Germanusstral3.e 4
+52080 Aachen
+Germany
+Phone +49 (0) 241-16 96-0
+li-contact@utimaco.com
+
+[ Utimaco Safeware Partner·
+
+Copyright Information
+Copyright © 1994-2011 - Utimaco Safeware AG - a member of the Sophos group, September 2011
+Utimaco LIMS ™, Utimaco DRS ™
+Utimaco LIMS and Utimaco DRS are trademarks of Utimaco Safeware AG . All other named trademarks are tradema rks of the particular copyright holder.
+Specifications are subject to change without notice.
+
+

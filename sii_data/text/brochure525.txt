@@ -1,0 +1,985 @@
+. . . . . .b
+. . . . . .b
+
+1.
+
+.
+
+0.
+
+WIR VERSTEHEN DIE ZEICHEN DER ZElT
+
+Signal and Information Technology
+in Service of Homeland Security
+
+FUSION
+
+The implementation of Fusion Centres and Intelligence Sharing
+procedures are important initiatives to improve homeland security
+today. MEDAV offers a comprehensive spectrum of products and
+engineering services covering all needs to support military
+forces, security agencies, police forces and intelligence
+services with state of the art radio and communication
+reconnaissance and information technology.
+The collection, processing and analysis of information from
+different sources are integrated functions. The fusion of raw
+intelligence, the content processing and analysis are essential
+part of the systems, delivered from one hand.
+It's tough to make predictions, especially about the future.
+(Yogi Berra)
+The Dar>erfocuses on such solutions and svstems which are
+deliverable within short time.
+
+.,..
+
+2
+3
+3.1
+
+........-..................
+
+.3
+
+*................*
+
+htroduction
+
+,
+,
+,
+.
+
+Company Overview
+
+........................................ ,...................,..*.*..*.*..........,. .....*..........4
+.......... 6
+....... ........ 6
+
+Issues of Today .................................................................................
+Current Discussions in the Security Community
+,
+.
+
+.,.................
+
+3.2
+
+Consequence: No Operation W i o u t Information ! ..................................................... 6
+
+3.3
+
+Integrated Information Intelligence Fusion System (13FS) ........................................... 7
+
+4.1
+
+Radio Monitoring - OSIM, COMIM. SIGINT, HUMINT & MASINT................................ 8
+8
+Introduction..................................................................................................................
+
+4.2
+
+ARS-8000 -Automatic Reconnaissance..................................................................... 9
+
+4.3
+
+CRS-8000 - Compact Reconnaissance....................................................................
+
+4.4
+
+MlRA - Wideband Signal Monitoring & Analysis ...................................................... ll
+
+5.1
+
+IFS-8000 - Information and Intelligence Fusion ............................................................. 12
+Overview.................................................................................................................... 12
+
+5.2
+
+Modularity- Scalability - Flexibility & Data Bases .................................................... 13
+
+5.3
+
+Catalogue of Automated SlPAC Functions................................................................ 14
+
+4
+
+5
+
+Conclusion......................................................................................................................
+
+6
+
+MEDAV is member in the ITSMIG e.V, association.
+
+On May 14,2008, the registered association ITSMIG e.V. (IT Security made in Germany)
+was founded at the Federal Ministry of Economics and Technology. The founding
+members consist of renowned companies from the German IT security industry.
+
+r
+
+Under the patronage of:
+
+Bundesministerium
+fiir Wirtschaft
+und Technologie
+
+Bundesministerium
+Clh I des
+lnnern
+
+O by MEDAV GmbH 2011 -Specification subject to change - Page 2/16
+.
+
+.
+
+-
+
+Secur
+
+10
+
+15
+
+Obviously processes in law enforcement and government security agencies need to be
+supported by state of the art information technology systems which generate and provide
+the information needed for effective and efficient decisions and operations. The right
+information must be available at the right time, in the right place and translated into
+intelligence and knowledge, which is relevant to the job at hand.
+MEDAV is covering a broad range of needs in these scenarios with off-the-shelf products:
+Radio monitoring sensors, processing and analysis solutions of different
+complexity
+Information and Intelligence processing, analysis and production systems.
+COMINT and CommslESM Sensor and Acquisition Systems are dedicated for the search,
+identification,interception and localization of relevant radio emitters by means of innovative
+technical solutions. Additional information sources are relevant and of general interest.
+Analysis and work flow oriented Intelligence back office systems are completing the full
+set of capabilities needed in the scope of responsibilities for handling information and
+intelligence.
+Dr. HansJoachim Kolb, managing director and shareholder of the private owned company
+MEDAV GmbH, is \fJilliqg to st-rlgthen and deepen international cooperation and to
+improve the networking between users, partners and
+the company at the same time.
+
+'
+
+"During more than 25 years MEDAV had the
+opportunity of delivering solutions and systems in the
+field of intelligence and government projects. Starting
+point had been products for signal analysis,
+processing, demodulation and decoding. The
+automation of detection, identification and recognition
+processes of relevant signals has been realized
+successfuly by means of pattern recognition
+technology. Today we are supplying the complete
+chain of Information processing from the information
+s o u m to the intelligence back office, where the fusion
+of information and the reporting are the main tasks.
+
+Important issues of today are the need of flexibility, modularity and growth potential for the
+operational systems in order to create the capability of adapting and upgrading system
+features to meet current and future needs within short time. The consequent use of
+available COTS IT components helps to achieve the goals efficiently.
+Single software modules are integrated into dedicated solutions meeting the needs and
+requirements of today starting with the sensor and ending with the intelligence back office.
+The consequent application of the design guideline helps to reduce product costs, risk and
+delivery time and increase quality in particular through the strategic use of the principle of
+software defined functionality.
+We are cooperating with partners supplying special and dedicated technical sub systems
+especially for the interception of modern communication systems. We are also moperating
+with partners having experience in the organization of security organizations and their
+operational efficiency. In an open, transparent and target oriented partnership we are
+suppotting our customers not only with technical solutions but also with the consulting
+needed to develop efficient and effective organizations quickly.
+No system can ever be better than its user. This is why we make sure the operating and
+maintenance personnel receive comprehensive training, and we guarantee fast and
+efficient service. We are interested in a long-term relationship with our customers and
+guarantee continuous improvement to the system technology.
+We are offering the whole spectrum of products and services which are ne
+of modern IT based security organizations. Our focuses are information
+handling systems including the sensors for the collection of technical a
+signals and the interfaces for the acquisition of information from different sources,
+human intelligence (HUMINT), open sources (OSINT) and others."
+Please contact me directly if you have any questions, suggestions or if you are intereste
+in the direct contact: Hans.Kolb@medav.de, Phone: ++49-9131-583-0
+
+2
+
+C-vOyeu
+
+alcw~d
+GmbH
+
+- your Partt IG, in the Markets Guvm
+
+I II
+
+a 1
+
+I
+
+U IVIGaUUI
+
+=I IIGI
+
+MEDAV GmbH is a modem and efficient company specialized in the application of signal
+processing, pattern recognition and information technology. MEDAV supplies the whole
+range, from a single stand-alone product to a complete system solution from single source.
+We guarantee our customers innovative product solutions of high quality. Our goals are
+continued success and customer satisfaction. By working together in trusted, long-term
+relationships with our business partners we achieve the positive growth we seek. Today,
+we design, develop, produce and implement solutions and engineering worldwide.
+
+Centres of Competence
+RMS
+
+Radio Monitoring Solutions
+
+CSS
+
+Channel Sounding Solutions
+
+BIS
+
+Business & lntelligence Solutions
+
+IAS
+
+Industrial & Automotive Solutions
+
+ERD
+
+Engineering Research & Development
+
+More than 25 Years of Experience
+
+MEDAV Technology addresses customers worldwide who are on duty to protect their
+country, region and people from threats. Market leading solutions provide the technical
+support on the basis of innovative and proven technology.
+MEDAV has the human and technology resources as well as a network of partners and
+specialists to provide the customer at the best.
+Systems, Solutions and Devices are the keywords describing the structure and the size of
+products, services and projects we are providing.
+
+Systems
+
+high complexity
+including engineering
+delivery time 6 - 18 months
+
+Solutions
+
+dedicated to
+the workplace
+delivery time 3 - 6 months
+
+Devices
+
+ready to use modules
+for OEM customers
+off-the-shelf
+
+Diversetargetorbnted data
+bases
+GB. 12. speech and text tools
+IFS-8000 k a scalable, modular
+and high performance platform
+supporting all processes in the
+analysis and p r o d w n of
+intelliaence.
+
+Specification subject to change - Page 4/16
+
+Since 1982 MEDAV delivers worldwide tumkey solutions and systems for radio monitoring
+and surveillance applications from the antenna to the intelligence back office.
+Ground-Based COMINT - CommsJESM - COTS & Customer specific
+o
+
+Fixed Location HF l VUHF
+
+o
+
+Networks of distributed HF - DF Systems
+
+o
+
+Mobile solutions HF l VUHF
+
+Shipbome COMINT - CommsIESM - COTS & Customer specific
+o
+
+Submarine
+
+o
+
+Above Water Ship COMINT l CommslESM systems
+
+Airbome COMlM - Customer specific.
+Sensors like radio monitoring systems (COMINT) are producing raw intelligence by means
+of collecting signals, performing measurement procedures and classifying the information
+and the content. The collection of information and the localization of the emitters provide
+information which is directly relevant for improving the situation awareness of command
+and control units.
+MEDAV additionally supports the following steps in the C41 (command, control,
+communication, computer, intelligence) process by suitable IT-systems. Processing,
+content and relationship analysis of fused information from different sources, work flow
+support and reporting are major tasks of the integrated information and intelligence fusion
+system IFS-8000.
+
+Intelligence
+Requirements
+
+Intelligence
+Reports
+
+I
+
+From technical point of view MEDAV is following the prin
+intelligence architecture" which is a unique approach today.
+allows MEDAV today to speak about VAR-business. VAR (value added res
+are of growing importance as many of our customers and their home
+discussing the aspects offset and technology transfer. We are open for
+discussion and accept these requests as a reasonable concern.
+
+O by MEDAV GrnbH 2011 - Specification subject to change - Page 5/16
+
+"Intelligence, Surveillance, and Reconnaissance (ISR) systems are
+integral components of both national policymaking and military
+operations - including countertenorism operations, but they are costly
+and complicated and they must be linked in order to provide users with a
+comprehensive understanding of issues based on information from all
+Information, Knowledge and Intelligence are key factors in the successful
+planning and performing of operations. Sharing information can help
+prevent crime and terrorism before it occurs. Proactive law enforcement
+requires putting together many pieces of a puzzle. While there is no
+guarantee that information sharing will prevent all attacks or crimes,
+failure to do so will almost certainly guarantee future attacks and crime.
+'"In the wake of the September 1l , 2001 terror attacks there has been a call for more and
+better intelligence to preserve domestic security. Much of the focus has been on improving
+and expanding existing federal mechanisms for ensuring national security. Equally
+important, however, is the need for more and better intelligence for and by state, local, and
+tribal law enforcement agencies.
+The intelligence function can serve two broad purposes within law enforcement agencies:
+Prevention (Tactical Intelligence): This includes gaining or developing information
+related to threats of terrorism or crime and using this information to apprehend offenders,
+harden targets, and/or employ strategies that will eliminate or mitigate the threat.
+Planning and Resource Allocation (Strategic Intelligence): This includes generating
+information to decision-makers about the changing nature of threats, the characteristics
+and methodologies of threats, and emerging threat idiosyncrasies for the purpose of
+developing response strategies and reallocating resources, as necessary, to accomplish
+effective prevention.
+
+The tragedies of 9/11 do not change the fact that LE1 (law enforcement intelligence) has
+the capacity to support many functions within a police organization. In many communities,
+LE1 that supports local criminal investigations and improved management decision making
+may be as valuable as LE1 that supports matters of homeland security."
+
+p
+
+e
+
+r
+
+a
+
+t
+
+i
+
+a
+
+Beyond any dispute collection of information from different sources is recognized to be the
+basis for all following steps in the work flow of intelligence organizations observing their
+duty to support the deciders and the leadership.
+
+I
+
+I
+
+MEDAV supplies with the products ARS-8000, CRS-8000 and MlRA all kind of
+communication intelligence systems, especially radio monitoring solutions.
+Additional sensor systems are offered on request using a network of
+cooperation partners.
+
+The fusion of information is a necessary step to produce intelligence and knowledge which
+is reported to the leadership. Strategic and tactical scenarios are part of the daily tasks and
+determine the way how to handle the special intelligence requirements.
+MEDAV supplies the IFS-8000 system which is designed as a modular, flexible
+and scalable IT platform for the organization of work flows in the intelligence
+back office including many dedicated support, processing and analysis tools.
+13FS integrates sensors, signal processing and analysis with the following processing and
+analysis of intelligence.
+
+ublished by the Futures Working Group (FWG), collaboration between the FBI and the Society of
+lice Futurists International (PFI). Its purpose is to develop and encourage others to develop
+ts and strategies to ethically maximize the effectiveness of local, state, federal, and
+I law enforcement bodies as they strive to maintain peace and security in the 21st century.
+nf Law Enforcement Intelligence, Joseph A. Schafer & David L. Carter"
+
+4 201 1 - Specification subject to change - Page 6116
+
+13FS is MEDAV's answer to the current challenges in law enforcement and national
+security agencies worldwide. 13FS collects information from different sources and provides
+the agency with all tools to process and a n a l p information efficiently. The puzzle,
+consisting of single pieces of intelligence, is merged into the report and gives a complete
+picture supporting best situation awareness. The work flow is organized in a closed loop
+and allows tasking of the collection sensors.
+
+L
+
+IFS8000 is the modular IT platform which enables MEDAV and the end users to adapt the
+functionality of the 13FS system to the dedicated needs and requirements easily and target
+oriented. Diverse powerful analysis tools provide functionality in the field of relationship,
+geographic location, technical and speech signal analysis.
+MIRA, CRSSOOO and ARS-8000 are radio monitoring sensors allowing the collection of
+signals and their processing, analysis localization and content production. Special
+communication collection systems, dedicated for different communication services,
+complement the scope of sensors and the availability of acquisition and interception
+capabilities.
+The following areas of applications are covered by the product family:
+
+I
+
+Radio Monitoring and COMINT in strategic and tactical scenarios
+Radio Monitoring for civil regulationauthorities
+Equipment for mobile platforms with radio monitoring and COMINT
+solutions:
+o
+special emergency vehicles for police and special task forces
+o ships for the coast guard
+o
+airborne platforms.
+Signal and speech analysis labs and work places
+Support of strategic oriented security services and agencies under the leadership
+of the Minister of Defence or the Minister of Interior with Surveillance and
+Information Processing solutions
+Command - Control - Communication- Computer and Intelligence applicatiom
+
+(W
+
+I
+
+Compact solutions to su~Dort
+. . swcial task forces with dedicated IT solutions for,
+the &bile use.
+
+--I-
+
+3I
+
+4
+
+Rac
+
+I
+
+Monitorina
+
+Systems for radio monitoring can contribute significantly to the
+success of the work within law enforcement and intelligence
+agencies. The central idea is that the bad guys are using
+communication systems during their operation leaving their
+marks and electronic fingerprints in the air. The detection and
+identification of the electro magnetic emissions and signals
+indicate behaviour, deployment and movement of threatening
+task forces, terrorists or criminals. Those signals can be
+captured and analysed in different way by means of signal
+processing and analysis methods. Content is another
+important issue in analysing the intercepts.
+The process usually generates information and intelligence in
+several steps:
+Detection
+Identification
+Classification
+Localization
+Interception
+Content production and analysis
+OSINT, COMINT, SIGINT, HUMINT and MASINT.
+The complete set of collected transmissions are fused and
+analysed in order to give an enhanced picture of the current
+situation and situation awareness. Situation awareness, or SA,
+is the perception of environmental elements within a volume of
+time and space, the comprehension of their meaning, and the
+projection of their status in the near future.
+
+A Fully Automatic Acquisition and Production System
+Applicable in HF I VUHF Scenarios
+Scalable from 50 to more th*n 1000 ch*nnnls
+Application:
+
+Strategic, COMINT, mobile, fixed location, remote controlled
+
+Delivery time:
+
+for standard solutions: 8-10 weeks
+
+One operator controls 10-200 production channels
+modular
+scalable
+flexible
+
+ARS-8000 is an automatic reconnaissance system
+providing functionality to increase efficiency and
+throughput in the detection, acquisition, processing
+and analysis of radio emissions. The system design
+is modular, scalable and flexible and allows
+configurations from 20 to more than 1000 processing
+channels.
+The pressure of work for the operators is reduced by
+delegating routine processes to the machine and
+giving the human operators the possibility to focus
+their manpower on signals of special interest.
+
+ARS-8000 significantly increases efficiency, quality
+and saves cost in modem RF acquisition
+applications.
+Antenna
+Fild
+
+t +
+
+t l
+
+Search (L Production Heads (Units)
+Wde Band Technology
+
+Role
+Based
+Clients
+
+A.-
+
+1
+
+Difl,,nt
+
+Types of
+
+Q by MEDAV GmbH 2011 - S w c a t i o n subject to change - Page 9/16
+-
+
+A Compact Solution with full functionality
+Searching - Monitoring - Analysis
+
+- Interception -Warning
+
+Example: Version CRS On^^
+urauon
+
+-Mication:
+
+Tactical, COMINT, CommslESM, DF,mobile, fixed location
+-
+
+--a-
+
+1
+
+iwrs:10112weeks
+
+CRS-8010 is a compact COMINT - CommsIESM solution based on the CRS-8000 technology.
+All system components, especially the antenna, have been adapted to the needs and the
+conditions on an above water ship. Other mobile platforms as well as the operation at fixed
+locations are possible.
+COMINT & ESM solution for vessels based on the CRS-8000 design
+H F N U H F interferometric direction finding
+Radio emitter detection by automated classification and analysis
+Automated scan
+Narrow band production, demodulation, decoding
+Wideband and narrow band recording
+Radio emitter tracking (COMMS-ESM)
+Operator role concept -work flow oriented
+Compact system design, inclusive antennas
+Powerfultools for offline processing
+
+li
+
+A fully integrated solution
+•
+
+.
+
+Frequency range: HF IVHF IUHF - 100 kHz - 3 GHz
+Wide band technology
+Integrated antenna for DF and interception
+DF and signal detection
+Signal interception, demodulation, decoding, production
+Signal recording - comprehensive offline analysis
+
+Modular design and scalable functionality
+Different configurations according customers needs
+Dedicated solutions for special requirements
+Submarine version available
+Ruggediied versions for mobile operation
+
+-
+
+i2011- Specification subject to change Page 10116
+
+1
+
+RF Signal Surveillance System
+Signal Intercept, collection, identification, demodulation
+Technic-' Signal Anal-;=
+
+in the lab and in *h4 missior
+
+MlRA is a one channel flexible, modular and scalable signal
+analyzer for HF, VHF and UHF.
+MlRA enables the online monitoring of a 16 MHz-broad band signal
+(optionally 24 MHz) in the frequency range between 100 kHz and 3
+GHz.
+Wide band recording of an 8 MHz-band (optionally 16 MHz) is
+possible.
+
+--
+
+ComCat tuner technology
+Comprehensive monitoring capabilities
+Comprehensive signal analysis (offlinelonline)
+Client-server architecture
+Option: Additional analysls stations
+
+Online broadband monitoring of a 16 MHz-band (opt. 24 MHz) for HFNHFIUHF
+with a display of the bmadband specburn and panorama display (spectrograph)
+Fixed setting of the 16 MHz-band (opt. 24 MHz) and scan operation over the
+complete HFNHFIUHF-range
+Bmadband recording of an 8 MHz-broad band (opt. 16 MHz) in the HFNHFIUHFrange on the hard disk server, whereby the recording band lies within the
+monitoring band.
+N a m b a n d recording of complex and demodulated data.
+ComCat tuner for supporting two antennas with internal channel switch-over and
+raw data processing
+Innovative client-server-archiecture for network-orientedanalysis workstations
+Oftline-analysis of bmadband and namwband signals
+Automatic and interactive demodulation 8 decoding
+Use of standard modules for capturing (CGIO), recording (ReProS) and offline
+analysis (CCI-OfRine)
+Simple system extension for analysis through plug-ins, e.g. universal analyzer
+Oc-6040
+Example of an antenna configuration: Active monopole-antenna for extended HFband (0.1 - 50 MHz) and standarddiscone-antenna4130361201- for VHFIUHFbands (30 - 3.000 MHz)
+Robust device design of the capturing part, standard-P&, standard network
+components.
+
+O by MEDAV GmbH 2011 - Specification subject to change - Page 11/16
+P
+
+CC
+
+E
+
+h.
+FP-
+
+.
+
+i..
+
+opment
+Analysis, intelligeme W i
+
+kpplkation:
+
+M
+
+I
+
+I ne aggregation and analysis or lniormation for supporting decls~on
+makers and the
+management in the analysis and fusion centre is a central task. IFS-8000 is a flexible,
+modular and scalable family of IT solutions, based on an open architecture, to support and
+organize the work flow in modem and state of the art analysis centres of intelligence
+organizations:
+
+support of different sensor and acquisition systems
+online pre processing to reduce data early and efficiently
+suitable indexing of large, long-term oriented data bases
+Support of suitable retrieval of archived information
+automatic classification of raw messages
+diverse voice, text and image processing capabilities for
+the specific generation of added value (rneta data and content)
+support of relationship and network analysis
+included geographical information system (GIS)
+work flow and organizational support in the analysis centre
+Comprehensive use of commercial off-the-shelf modules including options for the
+adaptation by the administration of the operating agency.
+
+NO
+
+no
+
+N
+
+Request
+
+1t
+
+Report
+
+IFS-8000 is designed as a modular, scalable IT-platform to support all processes
+in the production of intelligence from different sources to be used in:
+tactical operation (Xworkplaces)
+strategic operation (xOO workplaces)
+Different acquisition systems and sensors are supported
+Processing and analysis procedures are based on modem and innovative:
+information technology
+signal processing technology
+pattem recognition technology
+IFS-8000 is an open framework
+
+- not a Black Box solution
+
+-
+
+ect to change Page 12/16
+
+IFS-8000 includes diverse scalable data bases storing and handling raw structured and
+unstructured information as well as finished intelligence based on Oracle technology:
+UC DB
+
+Unified Collection Data Base
+
+TR DB
+
+Training Data Base for the adaptation of trainable classifiers
+
+E DB
+
+Event Data Base for the handling of: Events - Entities - Relations
+
+IDB
+
+Intelligence Data Base for finished intelligence
+and document management
+
+Loc-DB
+
+Dedicated Local Data Bases at the work places.
+
+Analysis and reporting tools have well defined access to the data bases which enable the
+end user to adapt the analysis procedures to individual and dedicated needs. These tools
+are handling especially the structured information automatically by pre-defined and
+implemented analysis and reporting functions:
+ESRl
+
+Geographic Information System
+Analyst's Notebook via iBridge
+
+BlRT
+
+Business Intelligence Reporting Tool.
+
+The work flow in the organization is defined, monitored and controlled with a standard
+commercially available and supported tool:
+BPMS
+
+Intalio's Business Process Management System.
+
+The performance of the overall system is determined by the performance of the work place
+computers and the performance of the diverse integrated servers.
+
+Sensor
+
+iaOemal
+
+C3 by MEDAV GmbH 2011 -Specification subject to change - Page 13/16
+
+.
+
+,
+
+IFS-8000 is designed to handle raw intelligence and content not just by human processing
+and analysis but especially also by using automatic services based on state-of-the-art
+processing and pattern recognition technology. These services are an essential part of the
+SIPAC Server. SlPAC is handling non structured content information automatically by
+dedicated computer soffware.
+
+'\
+
+Increased
+
+quality of
+information
+
+D
+
+SlPAC is a server, offering processing, analysis
+and classification services which are implemented
+as automatic working modules. A SlPAC service
+can be understood as the automation of a
+complex procedure or process, traditionally
+performed by the human process operator, the
+linguist or the traffic analyst. SlPAC services
+are generating added value as the human
+operator does by analysing the content of
+information. SlPAC services are controlled by the
+BPMS system similar to services performed by
+the human staff in the intelligence back office.
+
+Also SlPAC is modular, flexible and scalable and can be updated with diverse services,
+replacing the work of the human operators easily in case the software solution offers
+sufficient performance. Step by step human activities can be replaced by automated
+SlPAC services, increasing efficiency, quality and reproducibility following the progress in
+proven information and pattern recognition R&D results.
+SlPAC can be used in a broad range of applications to improve the quality of services and
+efficiency of the whole intelligence production system. SlPAC also supports the process by
+offering such services which are not covered by the operators as a result of a lack of
+knowledge in special disciplines. Today the following services are covered.
+Audio S m c h Sianal Processina and Classification
+SSD
+
+Speech Signal Detection
+
+ENH
+
+Speech Signal Enhancement
+
+LID
+
+Language ldentification (scenario based, training)
+
+GID
+
+Gender ldentification
+
+SID
+
+Speaker ldentification (scenario based, training)
+
+TID
+
+Topic ldentification (scenario based, training)
+
+KWS
+
+Keyword Spotting (scenario based, training)
+
+TCR
+
+Transcription - Speech to text
+
+Technical Sianal Processing
+
+WBA
+
+Access on Wideband Signals
+
+DDT
+
+Digital data (Identification, Demodulation, Decoding)
+
+Text Processinq
+OCR
+
+Optical Character Recognition - Fax to text
+
+Trans
+
+Translation (different methods, different languages)
+
+TDiv
+
+Diverse Text Analysis (Language, Entity, Topic)
+
+!mane Processing
+STG
+
+Steganography Analysis.
+
+performance of the SlPAC system is determined by the performance of the algorithms
+erformance of the computer platform.
+
+2011 -Specification subject to change - Page 14/16
+
+6 Conclusion
+Today's world of law enforcement, investigations and intelligence services is focused on
+the identification and the prevention of threats.
+
+"igence Solution
+
+Warning
+
+I
+
+lata h r n different senscm and i'nformation sources
+
+Necessary requirements for success are well designed and implemented processes for
+handling information and the generation of relevant intelligence:
+generate relevant and appropriate reports
+answering the questions from the leadership
+in an efficient way
+at the right time
+speeding up the process
+increasing quality of information
+m
+
+reducing the cost
+on a high quality level
+using IT support and automation wherever possible.
+
+MEDAV 13FS solutions provide the tools, technologies, trainings and consulting needed to
+supply decision-makerswith the information they need at the right time and help them to
+control situations through global situation awareness at all levels.
+
+'1genuine expert can always foretell a thing that is 500 years away
+easier than he can a thing that's only 500 seconds off"
+(Mark Twain)
+
+O by MEDAV GmbH 2011 - Specification subject to change - Page 15/16
+
+Corporate Policy
+Technology
+... in the products, development and in the company management is state-ofthe-art and represents a top level.
+Quality
+... in all divisions of our company is considered as the indispensable
+prerequisite for a risk-free and successful cooperation with our customers and
+business partners.
+Position in the market
+... is affected by extensive experience gained from signal and information
+processing. We are prepared best to face competition.
+Product and engineering spectrum
+... are comprehensive, complete and tailored to meet all requirements.
+As a single source supplier of solutions, we offer standard devices, systems
+and services.
+
+L
+
+Content
+
+I.
+
+Employees
+... form the roots of the company and render the services necessary for
+maintaining and expanding the technical basis and a trustful and fair
+cooperation.
+Growth
+... on a stable technical and economical basis at home and abroad is our
+declared long-term goal.
+Trust and fairness
+... vis-his our business partners and within the company are the basis of our
+business.
+Compliance
+... with excessive sensibility and compliance with German and international
+export regulations we act on a worldwide basis.
+
+MEDAV GmbH
+
+GR~~FENBERGER
+STRASSE 32 - 34
+
+D-91080 UTTENREUTH
+
+HOMBURGER PLATZ 3
+D-98693 ILMENAU
+TELEFON: +49-9131-583-0
+F M : + 49-91 31-583-11
+E-MAIL: info@rnedav.de
+www.rnedav.de
+
+O by MEDAV GmbH 2011 - Specification subject to change - Page 16/16
+
+-\-.---
+
+..
+
+-
+
+

@@ -1,0 +1,103 @@
+SSL INSPECTOR
+TRANSPARENT
+SSL PROXY
+APPLIANCE
+
+Netronome's SSL lnspector Appliance provides existing
+security appliances used for intrusion detection and prevention (IDSIIPS), forensics, compliance and data loss with access
+to the decrypted plaintext of SSL flows. This equips network
+appliance manufacturers with a mechanism to provide their
+security applications with visibility into both SSL and non-SSL
+network traffic and increasetheir applications' performanceto
+avoid becoming the cause of reduced network throughput.
+This also allows end-users to add SSL inspection capabilitiesto
+their network security architecture immediately to close the
+security loophole that SSL creates.
+
+Features and Benefits
+The unique capabilities of the Netronome SSL lnspector remove risksarising from lackofvisibilityinto SSLtraffic while also
+increasingthe performance of security and networkappliances.
+
+;
+
+Line-rate Network Performance:
+
+- Non-SSL flows will be sent to the attached security
+
+1
+
+i
+l
+
+appliance(s1or cut-through in less than 40 microseconds,
+minimizing delay for applications, such asVolF!
+- Supports decryption of up to 2 Gbps of SSL traffic for a
+variety of SSL versions and cipher suites.
+Scalable Flow-basedProcessing: At up to 10 Gbps, the
+SSL lnspector supports the analysis of up to 3,000,000
+simultaneous TCP flows.
+High Connection RateIFlowCount:The SSL Inspector
+supports200,000 concurrently active SSLsessions that are
+being inspected.The setup and teardown rate of 5,000 SSL
+sessions per second is 1Ox higher than other solutions.
+NetworkTransparency:Deploying the SSL Inspector is
+transparent to end systems and to intermediatenetwork
+elements and does not require network reconfiguration,
+IP addressing or topology changes, or modification to client
+IP and Web browser configurations..
+W Application Preservation: Intercepted plaintext is delivered
+to security appliances as a generated TCP stream with
+the packet headers as they were received.This allows
+applications and appliances, such as IDS, IPS, forensics and
+data loss prevention, to expand their scope to provide
+benetitsfor SSL-encryptedtraffic.
+
+..
+L
+
+'InputAggregation:Allowsaggregationof traffic from
+multiple network taps onto a single passive-tap segment
+for inspection.
+Output Mirroring: Allows the SSL lnspector to feed
+traffic to up to two attached passive security appliances in
+addition to the primary
+appliance.
+Commandlinetools
+and remote management API in additionto Web user interface.
+High Availability: Integratedfail-to-wirelfail-to-open
+hardware and configurable link state monitoringand
+mirroring for guaranteed network availabilityand network
+security, including support for asymmetrically routed traffic
+FlPS 140-2 Level 2 Certification:Versions of the product
+that are certified to FlPS 140-2 Level 2 will be available.
+Flexibili: Supports both passive and active appliances.
+- In-lineand Tap modes of operation
+- lnboundand outbound SSL inspection
+SSL Policy Enforcement: Provides a single point to control
+of
+throughout the enterprise.
+Web-based Management:The SSL Inspector is configured
+and managed via an SSL-secured web-based graphical user
+interface, keeping administration simple.
+E-mail Alerting: Logs can be configuredto trigger alerts
+that can be forwarded via email immediately or at intervals
+to designated network administrators.
+SSL Session 1dentification:The session log providesdetails
+of all SSL flows, inspected or not, allowing suspicioustrends
+or patterns of SSL use to be detected.
+
+t
+
+2
+
+;r FloW.
+
+For more informationaboutother Netronomeproducts,
+pleasevisit netronomecom.
+
+I
+
+Performance
+IUC
+
+

@@ -1,0 +1,2215 @@
+Quotation: Infection Proxy Project 1
+
+Quoted for: Gamma International GmbH
+
+Dreamlab Technologies AG Monbijoustrasse 36 CH-3011 Berne
+T + 41 31 398 66 66 F + 41 31 398 66 69 contact@dreamlab.net http://dreamlab.net/
+
+Gamma International GmbH
+Mr. Thomas Fischer
+Baierbrunnerstr. 15
+D-81379 Munich
+
+Bern, December 13, 2010
+
+Quotation: Infection Proxy Project 1
+Quotation number: 3104351.2
+
+Dear Mr. Fischer
+Many thanks for your interest in our services.
+We are pleased to submit our offer for the Infection Proxy Project 1.
+This offer shows you in brief the individual steps of our planned procedure as well as the costs for the individual
+offer options. Please take note that this offer is heavily based on assumptions and preconditions as the network
+analysis has not yet yielded in the results necessary to be able to quote without assumptions. However this
+version reflects the feedback received in the last days thus leading to a final offer. Please take note that all
+servers in this offer are non-clustered standalone systems; however Dreamlab recommends that at least all
+network-relevant systems be run redundantly as a cluster.
+Please call us should you have questions or comments regarding this offer.
+We are glad to be able to support you with this project.
+Yours sincerely
+
+Nicolas Mayencourt
+CEO
+Dreamlab Technologies AG
+
+Table of Contents
+1. Basics................................................................................................................................................................... 5
+1.1 Starting position and Objectives....................................................................................................................5
+2. Qualifications of Dreamlab.................................................................................................................................... 6
+3. Project Workflow and Deliverables ......................................................................................................................7
+3.1 Network Analysis........................................................................................................................................... 7
+.......................................................................................................................................................................... 7
+3.2 Project Management..................................................................................................................................... 9
+3.3 Devices and Infrastructure.......................................................................................................................... 10
+3.3.1 Fixnet ................................................................................................................................................. 10
+3.3.2 Tmcell................................................................................................................................................. 10
+3.3.3 Management Server ..........................................................................................................................10
+3.4 Training....................................................................................................................................................... 11
+3.5 System Care............................................................................................................................................... 11
+3.5.1 On-site Maintenance in Turkmenistan................................................................................................11
+3.6 Co-ordination Meetings............................................................................................................................... 11
+4. Limitations and Preconditions.............................................................................................................................12
+5. Co-operation Duties ........................................................................................................................................... 14
+6. Costs................................................................................................................................................................... 15
+6.1 Services provided by Dreamlab Technologies ...........................................................................................15
+6.2 Fixnet.......................................................................................................................................................... 16
+6.2.1 General HW-Components..................................................................................................................16
+6.2.2 iproxy.................................................................................................................................................. 16
+6.2.3 Radiusprobe....................................................................................................................................... 17
+6.3 Tmcell.......................................................................................................................................................... 18
+6.3.1 General HW-Components..................................................................................................................18
+6.3.2 iproxy.................................................................................................................................................. 18
+6.3.3 Identification probe.............................................................................................................................19
+6.4 Management Infrastructure......................................................................................................................... 20
+6.4.1 General HW-Components..................................................................................................................20
+6.4.2 Management Infrastructure Server, PC, Monitors and Software........................................................20
+6.5 Monitoring and Alarming Option..................................................................................................................21
+6.6 System Maintenance (On-site).................................................................................................................... 22
+6.7 On-site Co-ordination Meetings..................................................................................................................22
+6.8 Software Maintenance................................................................................................................................ 23
+7. Order form quotation no. 3104351.2................................................................................................................... 24
+8. Conditions........................................................................................................................................................... 25
+8.1 Prices.......................................................................................................................................................... 25
+8.2 Expenses.................................................................................................................................................... 25
+8.3 Payment Conditions.................................................................................................................................... 25
+8.4 Dates........................................................................................................................................................... 25
+8.5 Validity of the offer...................................................................................................................................... 25
+8.6 Attachments................................................................................................................................................ 25
+9. Contact................................................................................................................................................................ 26
+9.1 Client........................................................................................................................................................... 26
+9.2 Service provider.......................................................................................................................................... 26
+10. Attachment........................................................................................................................................................ 28
+
+10.1 Devices and Infrastructure........................................................................................................................ 28
+10.1.1 HP DL 380 Generation 7 (G7) with 3x 146GB HDs, DVD, Red. PS. ILO.........................................28
+10.1.2 Silicom PEG2BPFi6-LX - Dual Port Fiber (SR) 1 Gigabit Ethernet PCI Express Server Adapter . .29
+10.1.3 Intel® Gigabit PT Quad Port Ethernet Adapter LP...........................................................................30
+10.1.4 Quad Port Copper 1 Gigabit Ethernet PCI Express bypass.............................................................31
+10.1.5 Dual Port Copper 1 Gigabit Ethernet PCI Express Bypass Server Adapter.....................................32
+10.1.6 Quad port Fiber (LX) Gigabit Ethernet PCI-Express Server Adapter Intel based............................33
+10.1.7 10/100/1000/10000 Fiber Tap..........................................................................................................34
+10.1.8 10/100/1000 Ethernet Tap, Datacomsystems..................................................................................35
+10.1.9 HP Z400 Business Workstation inclusive Keyboard and Mouse (Monitor see next section) .......36
+10.1.10 3 x 24''-TFT Monitors: HP LA2405w 24-inch Widescreen LCD Monitor .......................................38
+10.1.11 HP USV R/T3000...........................................................................................................................39
+10.1.12 HP 22“ Rack 22U............................................................................................................................40
+10.1.13 Cisco SGE2000 24 Port Managed Switch......................................................................................41
+10.2 Service and Security Level Agreement Reporting....................................................................................42
+10.3 Alerting and Monitoring Infrastructure.......................................................................................................44
+10.3.1 Nagios tactical Overview..................................................................................................................44
+10.3.2 Nagios Service Details.....................................................................................................................45
+10.3.3 Nagios Host Details..........................................................................................................................46
+10.3.4 Nagios Host Group Summary...........................................................................................................47
+10.3.5 Nagios Status Host Map...................................................................................................................48
+10.3.6 Nagios Extended Host Process Information.....................................................................................49
+10.3.7 Nagios Trend Host View...................................................................................................................50
+10.3.8 Nagios Trend Service View..............................................................................................................51
+10.3.9 Nagios Service Availability...............................................................................................................52
+10.3.10 Nagvis Overview.............................................................................................................................53
+10.3.11 Nagvis Overview ............................................................................................................................54
+10.3.12 Nagvis Map Overview.....................................................................................................................55
+10.3.13 Nagvis Rack Overview...................................................................................................................56
+10.3.14 Nagvis Site Overview.....................................................................................................................57
+10.3.15 Nagvis Overview.............................................................................................................................58
+10.3.16 Nagvis System Detail Overview.....................................................................................................59
+10.3.17 Munin Screen Overview.................................................................................................................60
+
+1. Basics
+This offer arose as a result of an inquiry by Gamma International and a subsequent collective visit in
+Turkmenistan, as well as in consequence of the results of the current and ongoing network analysis.
+Unfortunately the network analysis is not yet terminated, therefore this quotation is heavily based on assumptions
+and preconditions.
+Furthermore this offer is based on a request of Gamma International of Dec 13 th for a reduced offer with respect
+to Offer 3104351.1 “Infection Proxy Project” of October 11 th 2010 which contained an offer for the Fixed-, the
+TMCell and the MTS network of Turkmenistan.
+1.1 Starting position and Objectives
+After an inquiry by Gamma International, Dreamlab Technologies (Nicolas Mayencourt) and Gamma International
+(Thomas Fischer) travelled to Turkmenistan. Preliminary investigations were made there concerning a network
+analysis. This network analysis has in the meantime progressed a bit, and allows us, with assumptions and
+preconditions, to submit a project proposal.
+The original aim of the quotation was to cover all Turkmen networks with the infection proxy functionality, fixed
+and mobile networks alike. This offer here is reduced to the Turkmentel Networks (Fixed and TMCell Mobile) only.
+The LEA/LEMF will be able to operate and inspect this system through the Management Server as well as the
+Management Client, both of which will be established within the LEA.
+At the end of the project, the persons responsible should be trained in using the systems.
+After the conclusion of the project, Turkmenistan will possess an Infection Proxy Infrastructure and Solution
+applicable nationwide for all international traffic the Turkmentel and TMCell networks.
+In this offer, all servers are offered as standalone systems in accordance with the request of Gamma
+International. This does not comply with the best practices of Dreamlab Technologies, which envisage a
+redundant implementation as a cluster for at least all systems that are network-related and involved in the
+infection process.
+
+2. Qualifications of Dreamlab
+Since 1998, Dreamlab Technologies AG supports economical, governmental and educational institutions and
+organizations. Our main activities are strategical consulting and education as well as conception, realization,
+integration, operation and maintenance of IT Solutions based on Open Standards.
+Since 2003, Dreamlab officially represents the Institute for Security and Open Methodologies (ISECOM) in
+Switzerland, France and Germany. ISECOM is an international non-profit organization that develops Open
+Standards for IT Security and Business Integrity Testing. It is the editor of the Open Source Security Testing
+Methodology Manual (OSSTMM), the most widely spread standard for Information Security Testing. Nicolas
+Mayencourt, Dreamlab‘s CEO, is a member of the Board of Directors of ISECOM and presides its units Business
+Development and Academic Alliance.
+Dreamlab is the only education partner of ISECOM in Switzerland, France and Germany and it offers OSSTMM
+certification courses for Security Professionals in collaboration with ISECOM and an international network of
+partner organizations and universities. In cooperation with the University of Applied Science of Berne, Dreamlab
+launches Switzerland‘s first OSSTMM Certification Courses. Dreamlab also provides a Hacker Highschool to help
+young people to get aware of responsible handling of IT Technologies.
+Through close partnership with ISECOM and an active collaboration in setting new standards, Dreamlab is always
+up to date and even ahead of its time. Being a honorary member of the security section of the Swiss Informatics
+Society, a member of OpenTCPA Research Group and of the World Wide Web Consortium (W3C) means being
+part of the newest developments in IT Security. Within W3C, Dreamlab is responsible for the Xforms Standard
+and it is an active part of other working groups (e. g. HTML) to integrate security knowledge into processes of
+creation and maintenance of future Standards. Customers of Dreamlab profit directly from this body of knowledge,
+from the contact network and from the insight into developments and future marketplaces.
+Dreamlab‘s staff consists of skilled OSSTMM professionals who constantly observe the Security Branch and have
+access to the newest developments and trends. To be able to advise their customers the best, they exchange
+knowledge on the most important international IT Security Conferences and continually educate themselves.
+Since 2005 Dreamlab has developped a Software-Suite for Lawful Interception and Data retention and
+successfully implemented the solution at various customers in Switzerland and internationally. The Dreamalb LISW-Suite is unparalled with regards to security, performance, flexibility and price on the market. The softwarecomponents are under permanent development, are compliant with the common ETSI-standard and cover most
+of the interception requirements on all relevant technologies of IP-networks.
+
+3. Project Workflow and Deliverables
+3.1 Network Analysis
+At the beginning of the project is a detailed network analysis, which will provide the following information:
+Knowledge about the local provider topology
+Knowledge about target-identification possibilities
+Deeper knowledge about the protocol stacks employed
+Solution strategy for implementation
+Documentation about the OSS BSS-landscape
+At the present moment, the network analysis has already commenced, and the first results and solution proposals
+are available.
+
+Illustration 1: Visualised network topology with Infection Proxies
+
+Illustration 2: Infection Proxy at Tmcell
+
+3.2 Project Management
+Project management must be assigned for project planning, communication, and co-ordination; this will coordinate all tasks that arise, such as in particular co-ordination and communication within the teams, co-ordination
+of on-site work, collaboration with the parties involved, ordering and monitoring of duties to co-operate,
+guaranteeing of the provision of any existing dependencies, hardware assembly, factory testing, the provision of
+all project-related documentation such as system and instruction manuals.
+
+3.3 Devices and Infrastructure
+Before on-site installation, the hardware will be assembled at Dreamlab Technologies and equipped with all
+software components. Additionally, a detailed burn-in test will be undertaken before shipping. The systems will be
+delivered to the desired address in principle ready-to-use. Dreamlab will deliver the following hardware and
+software components for the project and it's three use cases:
+3.3.1 Fixnet
+Infection Proxy
+The infection proxy is the actual core-component of the system; through them the entire traffic of the target is
+conducted after the target identification. One non-accelerated infection proxy with 2 copper based dual port
+network adaptors with 1 Gbit/s and automatic bypass function will be used.
+Radius Probes
+The authentications of the targets are monitored through the radius probes, so that the infection proxy process
+can be initiated. One radius probe with two 4-port Gigabit copper network interfaces will be used to monitor and
+intercept the accesses from the fixnet, as well as two 1 Gigabit ethernet TAP devices.
+3.3.2 Tmcell
+Infection Proxy
+The infection proxy is the actual core-component of the system; through them the entire traffic of the target is
+conducted after the target identification. The TMCell network is basically divided in a Huawei and a NSN domain,
+therefore we will need to double the infrastructure involved to cover all parts of the mobile networks. One domain
+consists of a non-accelerated infection proxy with 2 singlemode fiber based dual port bypass network adaptors
+with 1 Gbit/s and the other domain consists of a non-accelerated infection proxy with 2 copper based dual port
+bypass network adaptors with 1 Gbit/s.
+Identification Probe
+The identification probe will monitor and report the correlation between IMSI, TIMSI, MSISDN and the assigned IP
+address in order to identify mobile users. One domain consists of an identification probe with two dual-port
+Gigabit singlemode fiber network interfaces as well as two 1 Gigabit Fiber TAP devices, the second domain
+consists of an identification probe with two dual-port Gigabit copper network interface as well as two 1 Gigabit
+ethernet TAP devices. Both will be used to monitor and intercept the accesses from the Tmcell network .
+3.3.3 Management Server
+A management infrastructure will be applied for managing the infection proxies; this consists of a standard server
+with management software and a client PC (Gamma-GUI) to administer the solution.
+
+3.4 Training
+Persons responsible will receive system training, including all necessary training documentation adapted for the
+client system and in English.
+3.5 System Care
+Support and maintenance covers all activities in support of the client during operation of the installed systems and
+in case servicing is needed.
+3.5.1 On-site Maintenance in Turkmenistan
+The SLA can be fulfilled without remote access and in the scope of an annual visit at the client’s location, during
+which updates and tests can be carried out, or open questions can be discussed with the customer. This can
+occur every year, every semester, or every quarter. Since this is very much a security-related and sensitive
+infrastructure, which is located in a public network, Dreamlab advises that the maintenance work be undertaken
+as frequently as possible (every quarter, if possible).
+3.6 Co-ordination Meetings
+1x per year, and in addition to the system maintenance, a co-ordination meeting with the client takes place onsite, during which the needs and requirements of the client can be discussed, and where relevant information,
+news, and current trends can be exchanged on a management level.
+
+4. Limitations and Preconditions
+This offer is made with the following limitations and preconditions. The following preconditions must be fulfilled by
+Gamma International GmbH (hereinafter the client).
+I.The client will forego all assertion of claims on account of any possible adverse effects and/or damages that may
+arise in connection with the assignment. Reserved are damages that arise through serious negligence or
+deliberate actions or omissions by the staff of Dreamlab Technologies.
+II.The current approach covers all mobile and fix network of the country of Turkmenistan. Because vital data is still
+not a 100% certain following possibly project and price relevant assumptions, limitations and preconditions apply
+to this offer.
+III.Turkmentel Fixnet
+We refer positioning to the layout NWGraph with the Cartesian coordinates and the two network traces
+(Turkmentel.pcap, Turkmentel2.pcap). We assume that the traffic sample Turkmentel.pcap has been taken on the
+links between 2950 (D6) and 2960 or NAT in (C/D 3).
+a)
+
+All NATed customer traffic flows through the links between 2950 (D6) and 2960 or NAT in (C/D 3)
+
+b)
+
+All non NATed customer internet traffic flows though the link 2950 (D6) and Satgate (A7).
+
+c)
+
+All dynamic IP's are solely provisioned via RADIUS.
+
+d)
+
+All RADIUS traffic flows through the link between 2950 (D6) and 2960 or NAT in (C/D 3)
+
+e)
+
+The only RADIUS dialog that is provisioning dynamic IP addresses is shown in the Turkmenistan.pcap
+
+in
+
+packet number 7 and 8. The property to set IP's is “FRAMED-IP-Address”. A sample for a failed
+Access-Request is documented in packet 5 and 6 in the same tracefile.
+
+f)
+
+If there are more RADIUS dialog variants they will be documented and outlined by the provider.
+
+g)
+
+We assume there is no other or more dynamic IP provisioning mechanisms in place.
+
+h)
+
+All fixed IP address traffic flows through the link 2950 (D6) and Satgate (A7).
+
+I)
+
+All links are based on copper medium and support 10/100/1000 mbs ethernet.
+
+We have found non internal source IP addresses in the Turkmentel.pcap sample and need an explanation
+how this is possible.
+Please do precisely document any additional information, differences, amendments or comments.
+
+IV.Turkmentel Cell
+The Turkmentel Cell network delivers mobile IP services and is splitted in a Huawei and a NSN domain. Both
+domains maintain one active and one passive link in between the SGSN and the GGSN
+Huawei domain:
+a) The Huawei domain's network is based on copper 10/100/1000 mbs ethernet media
+b) The dynamic IP's of targets are provisioned on the Gn interface. The traffic sample
+TMCell_Huawei_SGSN-Gn-1_active.pcap contains all provisioning mechanisms.
+c) The mechanism for provisioning is showed in file TMCell_Huawei_SGSN-Gn-1_active.pcap in packet
+
+1548
+
+and 1560. The unique target identifier can be the IMSI or the MSISDN (phone number). In this sample the mobile
+target receives the IP address 172.16.190.73.
+d) All subsequent mobile IP traffic from the target is as well flowing through the same Gn interface found in
+TMCell_Huawei_SGSN-Gn-1_active.pcap .
+e) The same mobile IP traffic flows through the Gi interface found in TMCell_Huawei_GGSN-Gi- 2_active.pcap
+without GTP encapsulation.
+f) All mobile IP traffic is flowing through the Gn and Gi interfaces on the active and upon failure the passive link.
+g) The TMCell_Huawei_SGSN-Gn-1_active.pcap traffic sample has been sniffed on the links between the SGSN
+and the GGSN
+h) The TMCell_Huawei_GGSN-Gi-2_active.pcap traffic sample has been sniffed on the links between the GGSN
+and nsnfw01 and nsnfw02.
+NSN domain:
+a)
+
+The NSN domain's network is based on fiber 1000 gbs ethernet media
+
+b)
+
+The dynamic IP's of targets are provisioned on the Gn interface. The traffic sample TMCell_NSN_0109Gn-1.pcap contains all provisioning mechanisms.
+
+c)
+
+The mechanism for provisioning is showed in file TMCell_NSN_01-09Gn-1.pcap in packet 532 and
+533. The unique target identifier can be the IMSI or the MSISDN (phone number). In this sample the
+mobile target receives the IP address 172.19.8.243.
+
+d)
+
+All subsequent mobile IP traffic from the target is as well flowing through the same Gn interface found
+in TMCell_NSN_01-09Gn-1.pcap.
+
+e)
+
+The same mobile IP traffic flows through the Gi interface found in TMCell_NSN_01-09Gi-1.pcap
+without GTP encapsulation.
+
+f)
+
+All mobile IP traffic is flowing through the Gn and Gi interfaces on the active and upon failure the
+passive link.
+
+g)
+
+The TMCell_NSN_01-09Gn-1.pcap traffic sample has been sniffed on the links between the SGSN and
+the GGSN
+
+h)
+
+The TMCell_NSN_01-09Gi-1.pcap traffic sample has been sniffed on the links between the GGSN and
+nsnfw01 and nsnfw02.
+
+5. Co-operation Duties
+We assume the following co-operation and project support on the part of Gamma International GmbH (hereinafter
+the client):
+I.The client will make available document templates and information necessary for the execution of the work.
+II.The client will inform parties involved in the project about the upcoming work.
+III.The client will organise all necessary information, accesses and entries that are required for the workflow of the
+project.
+IV.The client will organise meetings and establish contact with the parties involved.
+V.The client will make available the network connections and the network between the servers and the sites.
+VI.The client will make available sufficient network connections for the delivered components.
+VII.The client will make available housing space for the delivered turn key solutions (Racks).
+VIII.The client will organise the transport of staff and material.
+IX.The client will organise all additional test equipment for the FAT / E2E tests.
+
+6. Costs
+Quotation number: 3104351.2
+6.1 Services provided by Dreamlab Technologies
+Item
+001
+
+Description
+
+18 days
+
+32'400.00
+
+1'600.00
+
+30 days
+
+48'000.00
+
+1'440.00
+
+40 days
+
+57'600.00
+
+1'440.00
+
+30 days
+
+43'200.00
+
+1'800.00
+
+5 days
+
+9'000.00
+
+On site assembly in Turkmenistan
+All the equipment will be shipped to Turkmenistan. The
+assembled system will be thoroughly tested and
+handed over to the client.
+
+005
+
+1'800.00
+
+Installation of hardware and software
+The infection proxies, radius probes, and management
+infrastructure will be assembled, configured, and
+subjected to a detailed burn-in test at Dreamlab
+
+004
+
+Net Value
+CHF
+
+Project Management and Documentation
+Project Management for the co-ordination of all work
+that arises, production of all project-related
+documentation
+
+003
+
+Number
+
+Network analysis
+A detailed network analysis will be compiled, which
+shall provide the following information:
+•Knowledge about the local provider topology
+•Knowledge about the target-identification possibilities
+•In-depth knowledge about the protocol stacks
+employed
+•Solution strategy for implementation
+•Documentation about the OSS BSS landscape
+
+002
+
+Unit Price
+
+Training
+Persons responsible will receive system training,
+including all necessary documentation adapted for the
+client system and in English (3 days on site, 2 days
+preparation)
+
+Total
+Services provided by Dreamlab Technologies
+Prices do not include VAT and shipping and are in CHF.
+
+190'200.00
+
+6.2 Fixnet
+6.2.1 General HW-Components
+Item
+001
+
+Description
+SERVER RACK 22U
+HP Rack 10622 G2 22U
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+7'000.00
+
+1
+
+7'000.00
+
+1'520.00
+
+2
+
+3'040.00
+
+500.00
+
+8
+
+4'000.00
+
+HP UPS R/T3000
+3.5 x 17.5 x 25 inches / 8.9 x 44.5 x 63.5 cm
+Serial Ports Standard DB-9 and USB Ports
+Optional possible battery extension.
+
+3'700.00
+
+1
+
+3'700.00
+
+004
+
+1u keyboard mouse video
+
+3'885.00
+
+1
+
+3'885.00
+
+005
+
+Cables / additional Server Rack montage material
+
+500.00
+
+1
+
+500.00
+
+002
+
+003
+
+SWITCH
+Cisco SGE2000 4xSFP 1000/10/100 managed 24 Port
+SFP
+SFP (cooper and fibre) Module for the switch
+
+Total
+Fixnet
+Prices do not include VAT and shipping and are in CHF.
+
+22'125.00
+
+6.2.2 iproxy
+Item
+001
+
+Description
+
+Number
+
+Net Value
+CHF
+
+HP DL 380 Generation 7 (G7)
+With 3x 146GB SAS HDs, 6x2GB PC3-RAM, DVD,
+Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Unit Price
+
+15'355.00
+
+1
+
+15'355.00
+
+5'667.40
+
+2
+
+11'334.80
+
+Quad Port Copper 1 Gigabit Ethernet PCI Express
+Server Adapter with Bypass Function
+
+003
+
+Dreamlab Network Stack
+
+30'000.00
+
+1
+
+30'000.00
+
+004
+
+LIOS-ADMF Client
+
+15'000.00
+
+1
+
+15'000.00
+
+Total
+Fixnet
+Prices do not include VAT and shipping and are in CHF.
+
+71'689.80
+
+6.2.3 Radiusprobe
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+HP DL 380 Generation 7 (G7)
+With 3x 146GB SAS HDs, 6x2GB PC3-RAM, DVD,
+Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Intel Pro/1000 PT Quad Port LP Server Adapter
+
+003
+
+Datacomsystems TAP
+10/100/1000 Ethernet Tap
+Rack Mount 19”
+
+15'355.00
+
+1
+
+15'355.00
+
+606.25
+
+2
+
+1'212.50
+
+1'650.00
+136.25
+
+2
+2
+
+3'300.00
+272.50
+
+004
+
+Dreamlab Out-of-band Radius-Identification Probe
+
+25'000.00
+
+1
+
+25'000.00
+
+005
+
+LIOS-ADMF Client
+
+15'000.00
+
+1
+
+15'000.00
+
+Total
+Fixnet
+Prices do not include VAT and shipping and are in CHF.
+
+60'140.00
+
+6.3 Tmcell
+6.3.1 General HW-Components
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+SERVER RACK 22U
+HP Rack 10622 G2 22U
+
+7'000.00
+
+1
+
+7'000.00
+
+SWITCH
+Cisco SGE2000 4xSFP 1000/10/100 managed 24 Port
+SFP
+SFP (cooper and fibre) Module for the switch
+
+1'520.00
+500.00
+
+1
+4
+
+1'520.00
+2'000.00
+
+HP UPS R/T3000
+3.5 x 17.5 x 25 inches / 8.9 x 44.5 x 63.5 cm
+Serial Ports Standard DB-9 and USB Ports
+Optional possible battery extension
+
+3'700.00
+
+1
+
+3'700.00
+
+004
+
+1u keyboard mouse video
+
+3'885.00
+
+1
+
+3'885.00
+
+005
+
+Cables / additional Server Rack montage material
+
+500.00
+
+1
+
+500.00
+
+002
+
+003
+
+Total
+Tmcell
+Prices do not include VAT and shipping and are in CHF.
+
+18'605.00
+
+6.3.2 iproxy
+Item
+001
+
+Description
+
+Net Value
+CHF
+
+15'355.00
+
+2
+
+30'710.00
+
+3'100.00
+
+2
+
+6'200.00
+
+2'833.70
+
+2
+
+5'667.40
+
+Dual Port FIBER SM 1 Gigabit Ethernet PCI Express
+Server Adapter with Bypass Function
+
+003
+
+Number
+
+HP DL 380 Generation 7 (G7)
+With 3x 146GB SAS HDs, 6x2GB PC3-RAM, DVD,
+Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Unit Price
+
+Dual Port Copper 1 Gigabit Ethernet PCI Express
+Server Adapter with Bypass Function
+
+004
+
+Dreamlab Network Stack
+
+30'000.00
+
+2
+
+60'000.00
+
+005
+
+LIOS-ADMF Client
+
+15'000.00
+
+2
+
+30'000.00
+
+Total
+Tmcell
+Prices do not include VAT and shipping and are in CHF.
+
+132'577.40
+
+6.3.3 Identification probe
+Item
+001
+
+Description
+
+Number
+
+Net Value
+CHF
+
+HP DL 380 Generation 7 (G7)
+With 3x 146GB SAS HDs, 6x2GB PC3-RAM, DVD,
+Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Quad Port Fiber Gigabit SFP (LX)
+
+003
+
+Intel Pro/1000 PT Quad Port LP Server Adapter
+
+004
+
+Datacomsystems TAP
+10/100/1000 Ethernet Tap
+Rack Mount 19”
+
+005
+
+Unit Price
+
+15'355.00
+
+2
+
+30'710.00
+
+3'100.00
+
+2
+
+6'200.00
+
+606.25
+
+2
+
+1'212.50
+
+1'650.00
+136.25
+
+2
+2
+
+3'300.00
+272.50
+
+1'650.00
+136.25
+
+2
+2
+
+3'300.00
+272.50
+
+Datacomsystems TAP
+10/100/1000 FIBER Tap
+Rack Mount 19”
+
+006
+
+Dreamlab Mobile Out-of-band Identification Probe
+
+30'000.00
+
+2
+
+60'000.00
+
+007
+
+LIOS-ADMF Client
+
+15'000.00
+
+2
+
+30'000.00
+
+Total
+Tmcell
+Prices do not include VAT and shipping and are in CHF.
+
+135'267.50
+
+6.4 Management Infrastructure
+6.4.1 General HW-Components
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+SERVER RACK 22U
+HP Rack 10622 G2 22U
+
+7'000.00
+
+1
+
+7'000.00
+
+SWITCH
+Cisco SGE2000 4xSFP 1000/10/100 managed 24 Port
+SFP
+SFP (cooper and fibre) Module for the switch
+
+1'520.00
+500.00
+
+1
+4
+
+1'520.00
+2'000.00
+
+HP UPS R/T3000
+3.5 x 17.5 x 25 inches / 8.9 x 44.5 x 63.5 cm
+Serial Ports Standard DB-9 and USB Ports
+Optional possible battery extension
+
+3'700.00
+
+1
+
+3'700.00
+
+004
+
+1u keyboard mouse video
+
+3'885.00
+
+1
+
+3'885.00
+
+005
+
+Cables / additional Server Rack montage material
+
+500.00
+
+1
+
+500.00
+
+002
+
+003
+
+Total
+Management Infrastructure
+Prices do not include VAT and shipping and are in CHF.
+
+18'605.00
+
+6.4.2 Management Infrastructure Server, PC, Monitors and Software
+Item
+001
+
+Description
+
+15'355.00
+
+5'100.00
+
+1
+
+5'100.00
+
+n.a.
+
+1
+
+n.a.
+
+n.a.
+
+1
+
+n.a.
+
+n.a.
+
+1
+
+n.a.
+
+30'000.00
+
+1
+
+30'000.00
+
+24 TFT-monitor
+24“-TFT (included in position 002)
+
+006
+
+1
+
+24 TFT-monitor
+24“-TFT (included in position 002)
+
+005
+
+15'355.00
+
+24 TFT-monitor
+24“-TFT (included in position 002)
+
+004
+
+Net Value
+CHF
+
+HP Compaq Z400 Elite Business PC
+Xen six core 3,33 GHz, 2x 2GB RAM, 500GB HD,
+Keyboard, Mouse, including Prices for Pos 003-005
+(With guarantee extension for 5 years for the PC)
+
+003
+
+Number
+
+HP DL 380 Generation 7 (G7)
+With 3x 146GB SAS HDs, 6x2GB PC3-RAM, DVD,
+Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Unit Price
+
+LIOS-ADMF Server
+
+Total
+Management Infrastructure
+Prices do not include VAT and shipping and are in CHF.
+
+50'455.00
+
+6.5 Monitoring and Alarming Option
+Item
+001
+
+Description
+
+Number
+
+Net Value
+CHF
+
+HP DL 380 Generation 7 (G7)
+With 3x 146GB SAS HDs, 6x2GB PC3-RAM, DVD,
+Red. PS. ILO.Package
+(With guarantee extension for 5 years)
+
+002
+
+Unit Price
+
+15'355.00
+
+1
+
+15'355.00
+
+72'000.00
+
+1
+
+72'000.00
+
+Nagios Munin Installation Dreamlab monitoring
+centre
+Server Software Setup
+•Installation of Nagios platform
+•Installation of Munin platform
+•Installation of Nagvis visualisation platform
+•Webserver / Web interface configuration
+•Nagios Server configuration
+•Nagvis visualisation Server configuration
+•Munin Server configuration
+Client Agent Software Setup
+•Installation and configuration of the Nagios agents on
+to the client system
+•Installation and configuration of the Munin agents on
+to the Client system
+Customized Client Agent Checks
+•Writing customized Nagios Agent Checks
+•Writing customized Munin Agent Checks
+Alerting
+•Installation / configuration SMS / Mail Alerting
+Functionality
+Testing and Fine Tuning
+•Nagios Server Integration and functional Tests
+•Munin Server Integration and functional Tests
+Customizing for the client
+•Alerting and monitoring infrastructure adjusting to its
+clients wish
+
+003
+
+Gsm modem alarming path
+
+1'000.00
+
+2
+
+2'000.00
+
+004
+
+Customising of alerting rules
+
+1'800.00
+
+3
+
+5'400.00
+
+Total
+Monitoring and Alarming Option
+Prices do not include VAT and shipping and are in CHF.
+
+94'755.00
+
+6.6 System Maintenance (On-site)
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+On-site system maintenance
+Loading of updates, system tests, troubleshooting,
+depending on client’s wishes 1, 2, or 4 times per year
+(10 days per call-out)
+
+Total
+
+1'600.00
+
+10 days
+
+System Maintenance / per call-out (On-site variant)
+
+16'000.00
+16'000.00
+
+Prices do not include VAT and shipping and are in CHF.
+6.7 On-site Co-ordination Meetings
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+Co-ordination Meetings
+Annual co-ordination meeting with the client, including
+exchange of information at management level,
+depending on client’s wishes 1,2, or 4 times per year (3
+days per call-out)
+
+Total
+
+1'800.00
+
+3 days
+
+5'400.00
+
+Co-ordination meetings per call-out
+5'400.00
+
+Prices do not include VAT and shipping and are in CHF.
+
+6.8 Software Maintenance
+The software maintenance entitles the client to all bug fixes, updates and new releases for the software offered by
+Dreamlab; it is valid for one year at a time.
+Item
+001
+
+Description
+
+Unit Price
+
+Number
+
+Net Value
+CHF
+
+Dreamlab Network Stack
+Software maintenance, entitles the client to all updates.
+Price per licence and per year.
+
+002
+
+6'000.00
+
+3
+
+18'000.00
+
+3'000.00
+
+6
+
+18'000.00
+
+6'000.00
+
+1
+
+6'000.00
+
+5'000.00
+
+1
+
+5'000.00
+
+6'000.00
+
+2
+
+12'000.00
+
+LIOS-ADMF Client
+Software maintenance, entitles the client to all updates.
+Price per licence and per year.
+
+003
+
+LIOS-ADMF Server
+Software maintenance, entitles the client to all updates.
+Price per licence and per year.
+
+004
+
+Dreamlab Out-of-band Identification Probe
+Software maintenance, entitles the client to all updates.
+Price per licence and per year.
+
+005
+
+Dreamlab Mobile Out-of-band Identification Probe
+Software maintenance, entitles the client to all updates.
+Price per licence and per year.
+
+Total
+
+Software Maintenance
+
+Prices do not include VAT and shipping and are in CHF.
+
+59'000.00
+
+7. Order form quotation no. 3104351.2
+
+Details for the ordering of the service: „Infection Proxy Project 1“
+
+Description
+
+Net worth CHF
+
+Network analysis
+
+32'400.00
+
+Project Management and Documentation
+
+48'000.00
+
+Installation of hardware and software
+
+57'600.00
+
+On Site assembly in Turkmenistan
+
+43'200.00
+
+Training
+
+9'000.00
+
+Fixnet
+
+153'954.80
+
+Tmcell
+
+286449.90
+
+Management Infrastructure
+
+69'060.00
+
+Monitoring and Alarming Option
+
+94'755.00
+
+System Maintenance / per call-out (On-site variant)
+
+16'000.00
+
+Co-ordination meetings per call-out
+Software Maintenance
+
+5'400.00
+59'000.00
+
+Total
+
+874'819.70
+
+Please fill in as appropriate.
+
+Conditions
+Prices
+Prices do not include VAT and shipping costs and are in CHF.
+Expenses
+Travel expenses are not included in the offer.
+Payment Conditions
+30% down payment, 30% at time of delivery, 20% after installation, and 20% after the final acceptance of the end-user/customer, in accordance
+with the co-operation agreement.
+Deadlines
+The precise dates have yet to be defined.
+Validity of this quotation
+This offer has a validity of 8 weeks from the date of issuance.
+Acceptance of the General Terms and Conditions and Co-operation Duties
+
+Locality
+
+Date
+
+Person responsible Gamma International GmbH
+Name:
+
+Signature:
+Please fill in details in capital letters.
+
+8. Conditions
+8.1 Prices
+Prices do not include VAT and shipping costs and are in CHF.
+8.2 Expenses
+Travel expenses are not included in the offer.
+8.3 Payment Conditions
+30% down payment, 30% at time of delivery, 20% after installation, and 20% after the final acceptance of the enduser/customer, in accordance with the co-operation agreement.
+8.4 Dates
+The precise dates have yet to be defined.
+8.5 Validity of the offer
+This offer has a validity of 8 weeks from the date of issuance.
+8.6 Attachments
+General terms and conditions (GT&C) of business of Dreamlab Technologies AG.
+
+9. Contact
+9.1 Client
+Gamma International GmbH
+
+Address
+
+Baierbrunnerstr. 15
+
+Postal code and city
+
+D-81379 Munich
+
+Thomas
+
+Surname
+
+Fischer
+
+Phone
+
++49 89 242 0918-0
+
+Mobile
+
++49 172 266 1654
+
+E-Mail
+
+tf@gamma-international.de
+
+Address
+
+Monbijoustrasse 36
+
+Postal code and locality
+
+CH-3011 Bern
+
+Surname
+
+Mayencourt
+
+Contact person – commercial
+Forename
+Function
+
+9.2 Service provider
+Dreamlab Technologies AG
+
+Contact person – commercial
+Forename
+
+Nicolas
+
+Function
+
+CEO
+
+Phone
+
++41 (0)31 398 66 66
+
+E-Mail
+
+nicolas.mayencourt@dreamlab.net
+
+Mobile
+
+Contact person – technical
+Forename
+
+Felix
+
+Function
+
+Senior Consultant
+
+Phone
+
++41 (0)31 398 66 66
+
+Surname
+
+Merz
+
+Mobile
+
++41 79 223 71 75
+
+E-Mail
+
+Felix,merz@dreamlab.net
+
+10. Attachment
+10.1 Devices and Infrastructure
+10.1.1 HP DL 380 Generation 7 (G7) with 3x 146GB HDs, DVD, Red. PS. ILO.
+
+Processor
+
+2x Intel® Xeon® Processor X5650 (2.6 GHz, 8MB L3 Cache) Sixcore
+
+Cache Memory
+
+8MB (1 x 8MB) Level 3 cache
+
+Memory
+
+12 GB (6 x 2 GB) PC3-10600R (DDR3-1333) Registered DIMMs
+
+Network Controller
+
+Two BCM5709C with dual-port Gigabit Server Adapters
+
+Storage Controller
+
+HP Smart Array P410i/102MB with BBWC
+
+Drives
+
+HP Slim SATA DVD RW drive
+
+Controller
+
+Smart Array P410i Controller with Zero Memory (Raid 0/1/1+0)
+
+Internal Storage
+
+Standard: 8 SFF SAS/SATA HDD Bays
+Optional: 16 SFF SAS/SATA HDD Bays
+
+Optical Drive
+
+HP Slim SATA DVD RW drive
+
+Power Supply
+
+2x 750W Hot Plug Power Supplies
+
+Fans
+
+6x (N+1 redundancy standard)
+
+Form Factor
+
+Rack (2U), Height 3.38-inch (8.59 cm); Width: 17.25 (44.54 cm);
+Depth:
+27.25 inches (69.98 cm)
+
+Accessory
+
+Without upgrade elements and rack mount kit
+
+10.1.2 Silicom PEG2BPFi6-LX - Dual Port Fiber (SR) 1 Gigabit Ethernet PCI Express Server Adapter
+
+Interface Standard
+
+PCI-Express Base Specification Revision 2.0 (5 GT/s)
+
+Board Size
+
+Low profile add-in card: 167.65mm X 68.91mm (6.60”X 2.713”)
+
+PCI Express Card Type
+
+X8 Lane
+
+PCI Express Voltage
+
++12V ± 15%
+
+Controller
+
+Intel 82576EB
+
+Weight
+
+200g (7.055Oz)
+
+Power Consumption
+
+6.6 W, 0.55 A at 12V: Typical all ports operate at 1Gbit/s, (Normal
+Mode).
+6.12 W, 0.51 A at 12V: Typical Bypass Mode.
+6.36 W, 0.53 A at 12V: Typical No link at all ports
+
+Operating Temperature
+
+0°C – 50°C (32°F - 122°F)
+
+Storage
+
+-20°C–65°C (-4°F–149°F)
+
+Key Features
+
+Bypass / Disconnect:
+
+Connectors
+
+(2) LC
+
+10.1.3 Intel® Gigabit PT Quad Port Ethernet Adapter LP
+
+Brand Name:
+
+Intel Pro/1000 PT Quad Port LP Server Adapter
+
+Product Code:
+
+EXPI9404PTL/EXPI9404PTLBLK
+
+Ethernet Controller:
+
+Intel 82571GB
+
+Connector/Cable Medium:
+
+Connector/Cable Medium: RJ-45 Copper
+
+Cabling Type:
+
+Cat. 5 up to 1000m
+
+Slot Type/Maximum Bus
+Speed/Slot Width:
+
+PCI Express/ 2.5 GT, s Lane x 4 Lane
+
+Ports:
+
+Quad Ports
+
+Supported Slot Heights:
+
+Low Profile and Full Height
+
+10.1.4 Quad Port Copper 1 Gigabit Ethernet PCI Express bypass
+
+Brand Name:
+
+PEG4BPi6 - Quad Port Copper Gigabit Ethernet PCI Express
+Bypass Server Adapter Intel® based
+
+Product Code:
+
+PEG4BPi6
+
+Ethernet Controller
+
+Intel 82576EB
+
+Connector/Cable Medium:
+
+Connector/Cable Medium: RJ-45 Copper
+
+Cabling Type:
+
+Cat. 5 up to 1000m
+
+Slot Type/Maximum Bus
+Speed/Slot Width:
+
+PCI Express/ 8 x Lane
+
+Ports:
+
+Quad Ports
+
+Supported Slot Heights:
+
+Low Profile and Full Height
+
+10.1.5 Dual Port Copper 1 Gigabit Ethernet PCI Express Bypass Server Adapter
+
+Brand Name:
+
+Dual Port Copper 1 Gigabit Ethernet PCI Express Bypass Server
+Adapter
+
+Product Code:
+
+PEG2BPi6
+
+Ethernet Controller
+
+Intel 82576EB
+
+Connector/Cable Medium:
+
+Connector/Cable Medium: RJ-45 Copper
+
+Cabling Type:
+
+Cat. 5 up to 1000m
+
+Slot Type/Maximum Bus
+Speed/Slot Width:
+
+PCI Express/ 8 x Lane
+
+Ports:
+
+Dual Ports
+
+Supported Slot Heights:
+
+Low Profile and Full Height
+
+10.1.6 Quad port Fiber (LX) Gigabit Ethernet PCI-Express Server Adapter Intel based
+
+Brand Name:
+
+Intel Quad port Fiber (LX) Gigabit Ethernet Server Adapter
+
+Ethernet Controller:
+
+Intel 82571EB
+
+IEEE Standard
+topology:
+
+/
+
+Network Fiber Gigabit Ethernet, 1000Base-LX (1310nM)
+
+Data Transfer Rate
+
+2000Mbit/s in full duplex mode per port
+
+Cables and Operating distance Asingle-Mode:5000m at 9um Multimode fiber: 550m at 50 um
+550m at 62.5 um
+Optical Output Power
+
+Typical: -6 dBm Minimum: -10 dB dBm
+
+Optical Receive Sensitivity
+
+Typical: -25 dBm Maximum: -20 dBm
+
+10.1.7 10/100/1000/10000 Fiber Tap
+
+Model
+
+10/100/1000/10000 TAP
+
+Network Connections
+
+10/100/1000/10000 LC Connectors
+
+Additional Infos
+
+50% / 50% splitting
+850nm & 1300nm
+Damping <4dB
+
+10.1.8 10/100/1000 Ethernet Tap, Datacomsystems
+
+Model
+
+10/100/1000-TAP, Datacomsystems
+
+Network Connections
+
+10/100 or Gigabit Tap (RJ45)
+
+Monitoring Connections
+
+10/100 or Gigabit (RJ45)
+
+Power
+
+5 VDC, 200ma
+Redundant Power Supply
+
+Dimensions (H x W x D)
+
+1.07 X 5 X 5 in
+2.7 X 12.7 X 12.7 cm
+
+Weight
+
+12 oz.
+0.34 Kgs
+
+Operating Temperature
+
+0° to 40° C
+
+Storage Temperature
+
+-30° to 65° C
+
+Humidity
+
+Less than 95° C non-condensing
+
+Certifications
+
+EN 50082-1 61000-4 Series
+EN 55022 Class A
+Low Voltage Directive 72-23-EEC (1993)
+CFR 47 Part 15 Class A
+CE
+Fully RoHS Compliant
+
+Optional Rack Mount
+
+RMC-3
+
+10.1.9 HP Z400 Business Workstation inclusive Keyboard and Mouse (Monitor see next section)
+
+Type
+
+HP Z400 Business Workstation
+
+Chipset
+
+Intel® X58 Express
+
+Processors
+
+Intel® Xeon® Six-Core Processor W3680 (3.33 GHz, 12 MB
+cache, 1333 MHz memory)
+
+Memory support3
+
+GB unpuffered ECC DDR3-DIMMs with 1333 MHz
+
+Hard drive
+
+500GB
+
+Removable media
+
+HP SATA DVD-ROM-Drive, HP SATA DVD+/-RW-Drive, HP
+SATA Blu-Ray Writer
+
+Connectors
+
+Front: 2 USB 2.0, 1 microphone entry, 1 headset exit, optional 1
+IEEE 1394a Back: 6 USB 2.0, 1 audio entry, 1 audio exit, 1 micro
+entry, 2 PS/2, 1 RJ-45 to integrated Gigabit-LAN, optional 1 serial
+access internal: 4 USB 2.0
+
+Expansion bays
+
+External: One (1) 3.5-inch
+One (1) 5.25-inch
+Internal: One (1) 3.5-inch
+
+Expansion slots
+
+2 PCI Express Generation 2 x16, 1 PCI Express Generation 2 (x8
+mechanic, x4 electric), 1 PCI Express Generation 1 (x8 mechanic,
+x4 electric), 2 PCI
+
+Graphics
+
+Nvidia NVS450 QP Graphics
+
+Communications
+
+Integrated Broadcom 5764 10/100/1000 PCI-E LAN-Card,
+optional Broadcom NIC, optional Intel NIC
+
+Input devices
+
+IHP PS/2 or USB Standard Keyboard, Washable Keyboard,3
+SmartCard Keyboard,3
+
+HP PS/2 2-button optical scroll mouse or HP USB 2-button laser
+mouse or HP USB optical scroll mouse
+Power
+
+240W active PFC
+240W 89% efficient active PFC3
+
+Dimensions (h x w x d)
+
+16,79 x 45,53 x 45,02 cm
+
+Weight
+
+7.6 kg
+16.72 lb
+
+Definition
+
+Without upgrade elements
+
+10.1.10 3 x 24''-TFT Monitors: HP LA2405w 24-inch Widescreen LCD Monitor
+
+Type
+
+HP Compaq LA2405wg - LCD-Display - TFT - 61 cm ( 24" )
+
+Product Number
+
+NL773AT#ABQ
+
+Panel Type
+
+24-inch (61-cm) Wide-Aspect Active Matrix TFT
+
+Resolution
+
+1920 x 1200
+
+Self Powered USB 2.0 Hub
+
+One upstream, six downstream ports (cable included)
+
+Input Connectors
+
+1x DVI-D, 1x Displayport, 1x VGA, 1x USB-Uplink, 2x USBDownlink
+
+Dimensions (h x w x d)
+
+557 (B) x 381 (H) x 278 (T) mm (incl. Foot)
+
+Weight
+
+5.2 kg
+
+Warranty
+
+Three years parts, labor, and on-site service limited warranty.
+
+10.1.11 HP USV R/T3000
+
+Type
+
+HP R/T3000
+
+Unit Dimensions
+
+3.5 x 17.5 x 25 inches / 8.9 x 44.5 x 63.5 cm
+
+Unit Weight
+
+82 lbs/37 kg
+
+BTU Break Down
+
+BTU On Line 540
+BT/hr BTU On Battery 1138
+BTU/hr Battery Type 12 V, 5 AH, sealed, maintenance-free,
+rechargeable, valve regulated lead-acid batteries with a 3-5 year
+service life at 25C (77F).
+
+Electrical Input
+
+Voltage Range See Model Matrix for nominal and user selectable
+voltage settings
+Frequency 50/60 Hz
+Online Efficiency 95% REPO
+Remote Emergency Power-Off disables AC power to load
+Online Regulation -10% to +6% of nominal voltage
+
+Electrical Output
+
+On battery Regulation ±5% of nominal voltage
+Voltage Wave Form Sine wave
+Connections See Model Selection Matrix; divided into 2 Load
+Segments
+Output Protection Re-settable circuit protectors
+Type Maintenance-free, sealed, valve-regulated lead acid (VRLA)
+
+Battery
+
+Extended Batteries Up to two ERMs supported
+Backup Time See Backup Times Chart
+Recharge Time <3 hours to 80% usable capacity; <48 hours for
+complete recharge
+Serial Ports Standard DB-9 and USB ports (ships with
+communication cables)
+
+Communications
+
+Option Slot One
+Option Cards HP UPS Management Module
+LED Indicators LED and switch membrane integrated into the
+front panel
+Software HP Power Manager software included
+
+10.1.12 HP 22“ Rack 22U
+
+Product description
+
+HP Rack 10622 G2 Pallet - 22U
+
+Product type
+
+10622 G2
+
+Colour
+
+Carbon, Metallic Graphite
+
+Rack size
+
+48.3 cm ( 22" )
+
+Height (Rack-Units)
+
+22U
+
+Product material
+
+Metal
+
+Warranty
+
+3 years warranty
+
+10.1.13 Cisco SGE2000 24 Port Managed Switch
+
+Type
+
+Cisco SGE2000
+
+Connectors
+
+24x RJ-45
+4x SFP Ports shared
+
+Connection speed
+
+1000 / 100 / 10 Mbps
+
+Standards
+
+IEEE 802.3 10 Mbps Ethernet
+IEEE 802.3u 100 Mbps Ethernet
+IEEE 802.3ab Gigabit Ethernet
+IEEE 802.3z Gigabit Ethernet
+IEEE 802.3x Flow Control Full duplex
+IEEE 802.3 ad LACP
+IEEE 802.1d STP
+IEEE 802.1Q/p
+IEEE 802.1w Rapid STP
+IEEE 802.1s Multiple STP
+IEEE 802.1x Port Access Authentications
+
+Qos
+
+4 x hardware based
+
+Management
+
+Web based SNMP, RMON
+
+LEDs
+
+Power, Cooler, Activity, Speed, RPS, Master, Stack ID 1-8
+
+Montage
+
+Standalone
+Rack montage possible
+
+Power
+
+Power supplier build in
+
+Noise
+
+max. 55 dB
+
+Weight
+
+6,39 kg
+
+Measures
+
+440 (B) x 44 (H) x 375 (T) mm
+
+10.2 Service and Security Level Agreement Reporting
+In the course of the monitoring of utilisation, the degree of usage of various system services will be recorded and
+translated into graphs. Through these data records of usage, the effective burden of the system can be visualised
+graphically and it can be continually examined whether or not the system utilisation corresponds to the current
+needs. In practice it is additionally the case that malfunctions or security problems affect the system usage. Via
+monitoring such problems can thus be detected.
+
+Map 3: © by Dreamlab Technologies AG
+
+Map 4: © by Dreamlab Technologies AG
+
+In addition, Dreamlab Technologies continually monitors the service availability. Service availability can be
+calculated by means of the measurement data, as is shown by the following example:
+
+Map 5: © by Dreamlab Technologies AG
+By this monitoring of service availability, the availability of a system within a specific timeframe (usually a month)
+can be calculated.
+Both these types of report (availability and usage) will be made available to the client every month (electronically,
+as a PDF). Only that which is measurable can be steered and controlled. For this reason, already a large number
+of clients rely on the service and security level agreements with Dreamlab Technologies. The reports are ITIL-
+
+compliant and are therefore very well suited to the support of managed processes in a company.
+
+10.3 Alerting and Monitoring Infrastructure
+
+10.3.1 Nagios tactical Overview
+
+The tactical overview always shows all service and host checks that get performed and gives and overview of the
+health state of the whole system and its corresponding services. The monitoring platform is service aware and
+knows which services depend on what underlying systems. In case of outages or problems this screen directly
+indicates the elements that need treatment.
+
+10.3.2 Nagios Service Details
+
+The service overview pane dissects the rendered services in its components. Each component is actively
+monitored and in case of failure the operator knows exactly which element is causing issues. Of course a history
+of all events is being kept.
+
+10.3.3 Nagios Host Details
+
+The host details pane shows all hosts participating in the system and its health state. From this screen the
+operator can drill in the detailed checks and their corresponding history.
+
+10.3.4 Nagios Host Group Summary
+
+Modern services usually need more than one host to be rendered correctly. In the host group pane the operator is
+shown the logical function blocks including its real time monitored health state. This is a great tool for first line
+diagnosis of problems or anomalies.
+
+10.3.5 Nagios Status Host Map
+
+The host map shows the measured state in a topological manner.
+
+10.3.6 Nagios Extended Host Process Information
+
+This detailed screen shows the specific monitoring configuration on a per host basis.
+
+10.3.7 Nagios Trend Host View
+
+With the trending tool the overall availability and availability trends is being calculated in a format which is a
+perfect basis to calculate SLA aspects.
+
+10.3.8 Nagios Trend Service View
+
+This example shows service outages on a timeline. Perfect for reconstructing events or managing outages.
+
+10.3.9 Nagios Service Availability
+
+This feature of the monitoring platform calculates on a per host basis the detailed service availabilities in a defined
+timespan.
+
+10.3.10 Nagvis Overview
+
+With the Nagvis extension the whole monitoring infrastructure can be combined with informal layouts and graphs.
+This tool is of great value and help in visualising the very low level technical measurements on very informal and
+high level views enabling the operator to quickly identify potential problems.
+
+10.3.11 Nagvis Overview
+
+With the Nagvis extension the whole monitoring infrastructure can be combined with informal layouts and graphs.
+This tool is of great value and help in visualising the very low level technical measurements on very informal and
+high level views enabling the operator to quickly identify potential problems.
+
+10.3.12 Nagvis Map Overview
+
+There is no limitation to the way the operator wants the service checks to be correlated and represented. In this
+example a very high level country wide overview of a system is shown.
+
+10.3.13 Nagvis Rack Overview
+
+Combining multiple views and graphs lead to greatly reduced debugging times. From the very high level layouts
+the operator can drill in up to the rack view and see where problems need treatment on a physical layer.
+
+10.3.14 Nagvis Site Overview
+
+This is another example of a very high level and highly condensed system view. Bear in mind that the informal
+layouts get enhanced by the various real time checks which all get correlated and condensed leading to one
+working or not working statement per logical unit.
+
+10.3.15 Nagvis Overview
+
+With this monitoring platform even virtualised systems can be dissected and shown in informal graphs.
+
+10.3.16 Nagvis System Detail Overview
+
+This example shows all actual performance consumptions on all systems in one singly page.
+
+10.3.17 Munin Screen Overview
+
+With the additional performance graphs every detailed measurement is shown in time series plots. Operators
+therefore get a very detailed view of every single aspect of a service and host. With the help of the time series
+and the operational knowledge the operators get a very detailed insight on any impact from any service
+provisioning to the systems.
+
+In this example the network traffic incoming and outgoing is shown. This is a great tool to identify performance
+bottlenecks or as a great basis to enable forecasts.
+
+

@@ -1,0 +1,114 @@
+Link Aggregator
+
+(4) 10/100/1000 Links to
+(4) SFP Monitor Ports
+Net Optics In-Line 10/100/1000 or Triple-speed Link Aggregator provides a
+comprehensive platform for monitoring multiple network links.
+All available traffic from up to four full-duplex links (eight half-duplex streams) is
+combined and visible to 4 SFP based monitor ports, which leverages monitoring
+tool resources. A pool of monitoring tool resources with differing functionality
+enables you to consolidate network performance, threat management, and VoIP
+analysis tasks into one easy to use device.
+Installing monitoring tools on individual links decreases their reach and your ability
+to easily analyze traffic with differing tools sets. For this reason, the distribution of
+Link Aggregators across the organization ensures that both network and security IT
+staff can install the tools they need to do their jobs. The SFP based monitor ports
+allow you to use the copper or fiber based monitoring tools of your choice. This
+simple plug-and-play solution also addresses the fact that many monitoring tools
+only offer a single channel NIC, limiting full-duplex visibility. Simply connect the tool
+to the Aggregator when and where you need it most. At least one SFP Monitor Port
+Kit is required when purchasing the Link Aggregator.
+All network pairs feature fail-open technology that ensures transparent traffic
+continuity even in the event of power loss to the Aggregator. For additional
+reliability, redundant power supplies are a standard feature.
+
+Passive, Secure Technology
+
+• Supports full-duplex monitoring of four links, increasing monitoring efficiency
+• Provides complete full-duplex visibility at 10, 100 or 1000Mbps without
+datastream interference or introducing a point of failure
+• Passes all traffic (including errors) from all layers for comprehensive
+troubleshooting
+• Link Fault Detect prevents undetected link failures
+• No IP address needed for the Aggregator or monitoring tool, enhancing
+monitoring security
+• Redundant power ensures monitoring uptime
+
+Ease of Use
+
+• LED indicators show redundant power, speed, link, and activity status
+• Front-mounted connectors support easy installation and operation
+• Small form-facter pluggable (SFP) monitor port connectors leverages available
+monitoring tools
+• Compatible with all major manufacturers’ monitoring devices, including protocol
+analyzers, probes, and intrusion detection systems
+
+5303 Betsy Ross Drive • Santa Clara, CA 95054
+Tel: +1 (408) 737-7777 • www.netoptics.com
+
+Technical Specifications:
+Operating:
+
+Operating Temperature: 0ºC to 55ºC
+Storage Temperature: -10ºC to 70ºC
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Mechanical:
+Redundant Power Supplies:
+
+Input: 100-240VAC, 0.5A, 47-63Hz
+Dimensions: 1.75” high x 17” deep x 19” wide
+
+Cable Interface:
+Copper Cable Type:
+
+22-24 AWG unshielded twisted pair cable, CAT5/CAT5E
+Link Distance Supported: 100 meters
+
+Connectors:
+
+Monitoring Port: (4) SFP slots, SFPs ordered separately
+Network Ports: (8) RJ45, 8 pin connectors
+
+Certifications:
+
+Fully RoHS compliant
+Fully IEEE 802.3 compliant
+
+Part Number
+
+Description
+
+LA-IF4CU3/4SFP
+
+SFPKT-SX*
+SFPKT-50SX*
+SFPKT-LX*
+SFPKT-GCU*
+
+10/100/1000 to SFPLink
+Aggregator Tap, (4) 10/100/1000
+Network Links, (4) SFP Monitoring
+Ports
+GigaBit Fiber SX SFP with cable
+GigaBit Fiber SX SFP with cable 50um
+GigaBit Fiber LX SFP with cable
+GigaBit Copper SFP with cable
+
+*Order a minimum of one or up to four SFPs with each
+10/100/1000 Link Aggregator. All products include a 1 year
+manufacturer’s warranty. An additional 1 or 2 year extended
+warranty may also be purchased.
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+Net Optics® are trademarks or registered trademarks of Net Optics, Inc. Copyright 1996-2008
+Net Optics, Inc. All rights reserved. Additional company and product names may be trademarks or registered
+trademarks of the individual companies and are respectfully acknowledged. PUBLAIF4CU34SFPD Rev. 1, 10/08
+
+

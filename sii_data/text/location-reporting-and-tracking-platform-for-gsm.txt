@@ -1,0 +1,853 @@
+GSM
+Location Reporting & Tracking
+Platform
+(LRTP)
+
+Location Reporting & Tracking Platform
+
+CONFIDENTIAL ISSUED
+
+Table of Contents
+
+Important Notices
+
+2
+
+1.0 Introduction
+
+4
+
+2.0 Document Format
+
+4
+
+Technical Description
+3.0 Scope of Location Reporting & Tracking Platform
+
+5
+
+4.0 Overview of Location Reporting & Tracking Platform
+
+5
+
+4.1 Location / Cell Data
+
+10
+
+4.2 Single MSISDN Location Check (FastTrax)
+
+11
+
+4.2.1 FastTrax Scheduler
+
+14
+
+4.2.2 FastTrax History Function
+
+14
+
+4.2.3 FastTrax MO Feature
+
+16
+
+4.2.4 FastTrax MO Admin Application
+
+17
+
+4.3 Multiple Targets and Periodic Location Checks (FTrax)
+
+18
+
+4.4 Mapping
+
+19
+
+4.5 LRTP Suite Special Features
+
+20
+
+4.5.1 SMS Broadcast (MobileBroadcast)
+
+20
+
+4.5.2 SMS Spoofing
+
+22
+
+4.6 Connectivity with Local GSM Service Providers
+
+22
+
+4.7. Access to Location Data outside Client’s Country
+
+23
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+1.0
+
+Introduction
+The solution descibed is referred to as the Location Reporting & Tracking Platform, or
+LRTP. The facility to provide Location Interrogation of GSM mobile phones has already
+been successfully proven and utilized for some time. For the solution to be truly effective,
+sustaining and to provide a quality of service at critical times will require CLIENT to
+provide, or otherwise formally arrange, access to certain data and the ability to implement
+suitable hardware, software and services with 1 (one) local GSM operator. This proposal
+describes the primary components and services that are required to enable the solution.
+It is also important to note that the platform alone is not the sole element to deliver the
+quality results that are expected. It should be clear from earlier presentations and
+supporting introductory documents that this solution is not a “black-box” solution where
+the equipment alone needs to be procured or utilised. The platform will require the formal
+and legal access to enable the interrogation of each of the local GSM Service Providers. It
+is assumed that CLIENT has the authority and mandate to request such permanent
+access from both the primary Host Operator, in which the special equipment is installed
+or connected to, plus the other GSM Operators’ relevant corporate entities. In addition to
+the formal access, the complete and correct raw cell data is required to be available to
+which it shall be supplemented by additional information, standardized into a common
+format, and maintained by suitably qualified and experienced telecommunication
+engineers. Periodically, as the GSM networks continue to expand, it is imperative that the
+LRTP database is continuously updated and managed.
+The document describes therefore not just the hardware & software and implementation
+service, but also the recommended on-going services that will be required to ensure the
+system delivers both the return on investment and the quality of service expected.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+TECHNICAL DESCRIPTION
+2.0
+
+Scope of the Location Reporting & Tracking Platform
+The Location Reporting & Tracking Platform (LRTP) to be implemented is that covering the
+GSM networks in the area required. The purpose of this platform is to provide CLIENT
+with a facility to locate and report the vicinity location of a GSM device (i.e. mobile phone).
+The LRTP facility shall enable suitably authorized users to designate “targets”, to make
+queries as to the location of, and have the result reported both in text and overlaid on a
+digital map.
+The following sections summarize in short the functionality and capabilities of the
+complete LRTP platform. In the thereafter following Commercial section, 1rstWAP
+proposes the basic system and platform configuration to CLIENT.
+
+3.0
+
+Overview of Location Reporting & Tracking Platform
+The platform can be defined as having two distinct primary sub-systems being:
+Location Unit
+This component comprises the platform’s hardware and supporting software that enables
+the interface to the Signaling System No. 7(SS7).
+Location Suite
+This component comprises the application software & the management tools.
+The scope and capabilities of the proposed platform are summarized briefly as follows:
+A) Location Unit (LU) :
+o
+
+The basic Location Unit includes:
+
+
+Up to 4 x SS7 Signaling links (Time Slots) per unit
+
+
+
+Up to 20 location queries per second
+
+
+
+10/100 Ethernet connectivity
+
+
+
+Software Interface to Location Suite
+
+
+
+API Interface for 3rd party applications
+
+
+
+SS7 interface for location requests and location information provisioning
+over SS7
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+
+
+White-list authorization feature for location queries
+
+
+
+Basic location request and location status logging
+
+
+
+Provisioning of raw location data (such as IMSI, MSC, LAC, Cell-ID,
+Subscriber Status, Location Age)
+
+
+
+Integrated database functionality for information such as
+Longitude/Latitude, MSC-/Cell-Name etc
+
+B) Location Suite (LS):
+Web interface front-end for:
+Location Interface:
+• Graphical display of current location for single/multiple target(s)
+• Graphical display of historical location information
+• Report display/download for historical location information
+• Map Navigation interface engine
+• Alarm Information
+• Target Location Administration for:
+- Location Scheduling
+- Target – User visibility
+• User Account Administration
+• GSM and GPS configuration
+SMS Broadcasting Interface: (See MobileBroadcast below)
+• SMS Broadcasting Interface
+• Broadcasting Scheduler
+• Destination Phone Book
+• Destination Import From File
+• SMS Delivery Status Reporting
+• SMS Reply reporting
+On-Demand Location Requests
+• SMS MO Engine for Location Requests from the field
+• White/Black listing of querying mobile phones
+• Mapping from Cell ID to textual location
+Location Engine
+• Location Scheduling Engine
+• Location Routing Engine
+• Location Result and Alarms processing Engine
+• Location GPS interface
+• Location GSM interface
+SMS Broadcasting Engine
+• SMS Scheduling Engine
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+•
+•
+•
+
+SMS Routing Engine
+SMS Delivery Status and Reply Engine
+Spoofing capability (create your own “Sender” ID)
+
+
+
+
+
+
+
+Administrator Data
+User Data
+Service Data
+Operations Data
+Map Data
+
+
+
+
+
+Multiple source Logging and DB storing of information and commands
+System configuration, monitoring and maintenance capability
+Backup and Archiving capability
+
+Database:
+
+General
+
+•
+
+Network Features:
+o
+
+•
+
+Technical setup for SS7 and iSMSC access. (SS7 links and IP connectivity as
+defined in “Connectivity with local GSM Service Provider” below).
+
+Support Services
+o
+o
+o
+
+Technical Support
+Email and Instant Messenger-based User Help
+24 hours Operations Hotline Support
+(Remainder of page intentionally left blank)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+Schematic showing relationship between key system components and users
+
+(Remainder of page intentionally left blank)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+7
+
+Schematic of the physical networked Equipment
+
+Schematic of the logical network setup
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+8
+
+3.1
+
+Location / Cell Data
+
+The location data required by the LRTP includes LAC and Cell ID, sector and longitude
+and latitude data. This data is partially available from the GSM Service providers, such
+as the LAC and Cell ID, but will require supplementary addition of the global coordinates and readable names of locations.
+This comprehensive data is used by the platform to overlay location identification and
+animated tracking of time-based reports. The quality of the data is imperative to the
+successful operation of the platform and requires periodic maintenance as new
+BTS/Cell network infrastructure is progressively added and upgraded by GSM
+providers. This means that CLIENT has to make arrangements with the GSM Network
+providers in order to get updates as soon as the network planning concerning Cells
+has changed.
+In order to provide the full service functionality to delivery the desired output,
+1rstWAP requires the following minimum set of data for each GSM Cell. 1rstWAP
+action is to process, improve and implement these data sets in the LRTP:
+
+Component
+LAC
+CELL_ID
+Type
+Cell Diameter [m]
+Cell Centre [m]
+Azimuth
+Site Identifier
+Longitude
+
+Latitude
+Altitude
+LONG_SHAPE
+LAT_SHAPE
+Textual Name
+Comment
+
+Sample
+1000
+10111
+Sector
+212
+106
+0
+Wien
+16
+25
+15.59
+E
+48
+11
+9.27
+N
+16,42086
+48,18773
+<Text Description of the Cell
+<Additional Data>
+
+All coordinates have to be provided in WGS84 long/lat format without projection and
+rotation.
+(Remainder of page intentionally left blank)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+9
+
+3.2
+
+Single MSISDN Location Check (FastTrax)
+
+FastTrax is the name used by 1rstWAP to describe the single entry location query of a
+particular mobile phone or GSM SIM card enabled device. The FastTrax module is a
+simple to use, single entry facility that allows the operator to enter a single MSISDN
+and enact a single location check.These requests can be initiated directly from the
+FastTrax web-based application, from a registered (qualified) mobile phone (see
+FastTrax-MO below) or from the LRTP server console.
+
+(Entry Section)
+
+•
+•
+
+•
+
+The “target” mobile MSISDN (hand phone number) is entered in the relevant field.
+Options exist for the selection of the query type; ATI (Any Time Interrogation) or
+PSI (Provide Subscriber Information). ATI is the default setting. PSI involves
+“forcing” a paging (via type zero SMS) to the hand phone which will result in an
+update of the HLR.
+The result of the query will provide the detailed screen such as that shown on the
+next page
+(Remainder of page intentionally left blank)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+10
+
+(Target Interrogation Result Page)
+
+•
+
+The “target” MSISDN is described in 3 data sets;
+¾ ENTRY – This shows the entry data used to make the query and the result
+category. (Target Interrogation Successful is the best result). Alternate
+information is returned that can include suggestions to the user to try a PSI
+query, if ATI does not delivery the complete results. The information will assist
+the user understand the result quality of the query.
+¾ Location Address Data – “Target located in the vicinity of….”. This includes the
+name defined in the database of the geographical location to which
+BTS/Cell(center) the target is currently (or previously attached). The result
+denotes the TIME of the result and the PHONE STATUS, both of which
+provide positive indications to the current or historic status. Phone status can
+be IDLE (turned on and not used), IN USE (turned on and being used) or
+ABSENT (The phone is not logged onto any network, as per the data in the
+HLR).
+¾ Map Links – Currently two map links are provided to enable a user with
+internet access to link the query. These are provided with the standard
+implementation but with very simple customisation, links to the CLIENT’s own
+mapping application can be achieved. Such map application could be Mapinfo.
+The current Google links provide a positive proof of concept. See example on
+the next page:
+(Remainder of page intentionally left blank)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+11
+
+(Google Earth© Interface)
+
+¾
+¾
+
+Longitude and Latitude are provided in the result and is the source for mapping
+interface. The values are digital co-ordinates.
+Telco Data includes the Home Network of the target, the Roaming (or currently
+active) Network, the MSC global title obtained from the query and the MSC
+global title name obtained from the LRTP database, the Cell Reference which
+provides a unique identifier which is mapped to the Cell Data in the LRTP
+database and provides the co-ordinate and address values, Azimuth and Radius
+Sector radius will be used when operator provides this cell information to
+CLIENT.
+(Remainder of page intentionally left blank)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+12
+
+3.2.1
+
+FastTrax Scheduler
+
+Selecting the Tab “Schedule” for the Scheduling functions, operators have the option to
+set the start and end date, the interval of location checkings, the days or the hours.
+
+(FastTrax Scheduler)
+
+4.2.2
+
+FastTrax History Function
+
+The FastTrax “History” Tab provides an easy way to find previous location queries. The
+ten last interrogated mobile numbers are listed already in the “Locate” Tab. However, the
+detailed search possibility of the History function allows to find particular previous
+interrogations based on criteria such as date, MISIDN or alias name.
+
+(History Page)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+13
+
+(Result from searching certain MSISDN)
+
+(The details of the search result)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+14
+
+4.2.3
+
+FastTrax-MO Feature
+
+FastTrax-MO is the name used by 1rstWAP to describe the ability of a registered (whitelisted, duly authorized) user to request the single entry location query of a particular
+MSISDN from his/her mobile GSM device. The system receives and logs the requests
+initiated directly from the FastTrax application (via Internet/Intranet) and the FastTrax-MO
+(via SMS) from a registered (qualified) mobile in the same way. The reports of all queries
+are available in the FastTrax MO Admin application. The creation and configuration of a
+new user for either FastTrax or FastTrax-MO is through the FastTrax MO Admin
+application.
+
+(Example of received location information on a mobile device)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+15
+
+4.2.4
+
+FastTrax MO Admin Application
+
+The FastTrax MO Admin application provides a web-based interface to administrate
+platform users and user authorizations, incl. white listing of mobile GSM devices for
+MO location queries, i.e. location tracking of targets via the mobile device of CLIENT’s
+operators/field personnel. Furthermore, it allows to blacklist certain MSIDNS so that
+these blacklisted MSIDNS cannot be tracked/located by the users of the systems (e.g.
+to protect the privacy of certain individuals). Another important monitoring and
+supervision feature is the Location Request History, with which an Administrator can
+monitor the location checking activities of his operators.
+
+(Location Request Page)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+16
+
+(Location Request Detail Page)
+
+4.3
+
+Multiple Targets and Periodic Location Checks (FTrax)
+Unlike FastTrax (single number, current location), the FTrax application allows for
+a complete management of multiple targets (GSM and GPS based) and ability to
+perform and report user-defined, automated periodic location checks. This allows
+the operator to define a target and define the time interval that the system will
+automatically perform a location check. Each check will be logged in a report
+available to be viewed on screen or downloaded for later data mining, archiving,
+integration with other data, resorting, etc. Further advanced system features such
+as vicinity alert (2 targets are in close proximity to each other) are currently in
+development.
+The Reports generated and all user Location Requests are also logged in the
+system audit logs which provide a means of applying controls on system usage
+and system generated reports.
+The basic process is as follows:
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+17
+
+•
+•
+•
+•
+
+•
+•
+•
+
+The “target” must be registered in the system as a “traceable entity” object.
+The object is marked as “Locate” and the current location data is retrieved from
+the GSM network either; (1) One-off, meaning current location or (2) marked for
+tracking for set length of time where periodic queries run for a defined period.
+The system receives and processes the data. This variable information is merged
+with fixed infrastructure locations.
+The web application displays the “target”, respectively its GSM Cell (or GPS)
+location on suitable digital maps. (see Fig 1) Besides the “graphical” display, the
+option to view textual detail also exists. The operator can drill-down to lower level
+maps as far as available and whenever appropriate. (see Fig 2)
+The authorized officer will manage the target and the information distribution.
+The maps and supporting detailed information, including history through animation,
+can be viewed via encrypted IP connection.
+Updates can be further distributed to (authorized) staff via SMS, which can display
+the textual data. This can be updated at periodic intervals as defined.
+
+Fig. 1
+
+Fig. 2
+
+Naturally the process described can be expanded to various permutations based on
+requirements. The basic concept is that a TARGET, respectively its GSM Cell location
+is defined and overlayed as spatial data on a digital map plus available in text detail.
+The database can maintain historic records of periodic updates and replay these as
+required and also to provide detailed audit logs. Update locations can be automatically
+dispatched externally from the platform, as required, to limited (authorized)
+distribution list by various media, primarily as SMS. Equally, an incoming SMS query
+from a “white-listed” hand-phone can also trigger a target interrogation, plus
+response, supported by activity audit trail.
+
+4.4
+
+Mapping
+
+The platform has a method to implement various map formats, with digital maps
+being the most ideal although not mandatory. The database contains various maps (as
+needed by the user) to overlay the target location. Maps can be “photo” type such as
+Google Earth, other satellite or aerial images; they may be “street-directory” style
+displaying street names and other landmarks. The platform is capable to utilise any
+map, which acts as the under-lay to provide graphical identification suitable to the
+user. CLIENT must provide maps with at least 2 GPS reference points for further
+processing and implementation in the platform.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+18
+
+Depending on the zoom level maps with different scales are displayed. During system
+planning it has to be agreed which and how many different scales and maps shall be
+used (See also Pricing Notes in the Commercial section). Maps have to be provided
+by CLIENT prior to LRTP installation. Optional a map administration tool with map
+administration training can be provided.
+For each level of map:
+•
+
+All Maps in level must have longitude and latitude coordinates annotated
+clearly around the edges of the maps (minimum longitude and latitude for top
+left and bottom right positions. These coordinates will be used in the
+calibration of the system)
+
+•
+
+Either 1 file containing a map with the whole of that level OR
+
+•
+
+Multiple files containing map parts for a level
+
+•
+
+Map format should be in jpeg format (or similar format that can be converted
+into jpeg format using Photoshop©, freehand or similar product)
+
+•
+
+If map is not in jpeg format, or a format which can be imported into
+Photoshop, the name of the system used to create the map should be
+provided, and if possible an installable copy of the software (plus license
+details) should be included with the map delivery
+
+Maps can be delivered to 1rstWAP electronically - email, FTP, CDRom, Flash Drive or by courier.
+The supply of maps is the responsibility of CLIENT. 1rstWAP shall undertake the
+calibration and installment into the LRTP based on the offering.
+
+4.5
+
+LRTP Suite Special Features
+4.5.1
+
+SMS Broadcast (MobileBroadcast)
+
+The platform has the capability to be enabled (as an option) as a carrier-grade
+SMSC. This will naturally be dependant on CLIENT’s agreement with Host
+Operator allowing such capability, but the platform can enable the CLIENT to send
+high volume and priority SMS to its permitted community. This powerful tool will
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+19
+
+enable CLIENT’s organisation to send SMS to a large number of people extremely
+quickly. (System configured with 4 x E1 Timeslots, with each link capable of up to
+10 sms/sec, resulting in up to 2,400 SMS per min or up to 144,000 SMS sending
+per hour). We call this facility MobileBroadcast.
+What is MobileBroadcast:
+This facility provides a 2-way inter-active SMS messaging facility that utilizes SMS as the
+means of communication. It is, in short, a carrier-grade SMS - Send and Receive facility.
+The primary benefits to CLIENT of this module is that it requires very little training, is very
+simple and intuitive to use. This powerful communication tool with high throughput
+performance empowers CLIENT to reach 10’s of thousands of people in a matter of
+minutes.
+Primary Features;
+•
+•
+
+•
+•
+
+•
+•
+•
+•
+
+Send a single message (SMS) to a single number or broadcast a message to
+thousands of people
+You have options of manually entering the destination number(s), selecting from your
+stored numbers in the application’s Phone Book or importing a list of numbers from
+an offline database. (csv file import)
+You have options of sender identification; either a name, e.g. “ CLIENT-ABC ”, or a
+long “virtual” number to which people can reply or send to.
+All replies or messages sent to your “Virtual Number Range” can be viewed from the
+web application, they can be received in massively high volume with no congestion,
+no “memory full”, always available. (see “What are Virtual Numbers” below)
+Virtual Number replies can be subsequently downloaded for further sorting or
+reprocessing.
+Provides detailed Delivery reports for all messages sent so you can identify clearly if
+your message was received or not (and specifically, why not!)
+You can send messages “immediately” or schedule them for a specific time in the
+future.
+Your messages can be “personalized” with recipients name in the same batched
+broadcast.
+
+What are Virtual Numbers and how do they benefit CLIENT?
+The LRTP iSMSC will be configured with a Global Title (GT) and National
+Pointcode (NPC). Additionally, it is suggested that CLIENT requests the Host
+Operator to allocate a number block (assigned to virtual HLR in the 1rstWAP
+Messaging Node). This will take the form of a number range to which the LRTP
+can utilize as Virtual Numbers. The system can SEND messages from these
+numbers and replies or SMS-MO can be RECEIVED and processed by the
+system. The iSMSC is therefore a “supper sender and receiver” of SMS. Virtual
+Numbers can be used by the CLIENT for several purposes but primarily as
+MSISDN that are terminated in the system rather than into a SIM card. SMS
+received to Virtual Numbers can be configured such that they can be;
+•
+•
+
+•
+
+Redirected into the MobileBroadcast application and become “machine
+terminated” and read through the application and later stored;
+Automatically replied to with some custom applications (not included in
+standard LRTP offering) such that senders can be provided with SMS
+feedback. Presume this to be similar to “fax-back” services except where
+SMS is the communication medium.
+Allocated to various application that can be created for CLIENT (not included
+in standard LRTP offering) such as “hiding“ the sender but allowing bidirectional messaging.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+20
+
+•
+
+Provides anonymous sender capability most suitable CLIENT staff, who do
+not want to give up a personal number but hide their identity. Staff of the
+CLIENT could be allocated a “Virtual Number”, which is mapped to his active
+number. This virtual number can remain static whilst the active number could
+be interchangeable. All SMS received could be redirect to the staff. The
+facility could allow CLIENT staff to also send SMS from his active phone and
+it will appear to come from his virtual number on the receivers phone.
+
+4.5.2
+
+SMS Spoofing – Pretend to be Someone Else
+
+The platform has the capability to “spoof” a sender ID on SMS. This means that
+CLIENT will have the ability to “pretend” to be another party. Such SMS sender
+spoofing techniques have been already successfully used to trap, mislead, or to
+confuse targets. As a tool in anti terrorism, the LRTP can enable CLIENT to send
+SMS to target to whom it seeks to manipulate their communication by assuming
+the identity of another to whom they may trust. An example of this might be to
+send a message to one or more targets using the actual phone number of another
+in their group. This information may be to fool the recipient to go somewhere or
+do some action to which allows CLIENT to capture, identify, extract information
+from targets or similar. In summary, it provides the capability of impersonating
+another person through SMS.
+
+4.6
+
+Connectivity with Local GSM Service Providers
+The platform requires a SS7 connection with at least one GSM Service Provider that
+has inter-working relationship with other relevant GSM Service Providers in the area
+to be covered. The platform requires the interrogation of the target entity’s HLR, VRL
+& MSC. The platform requires constant availability to make such interrogation.
+The platform interrogates the GSM Network provider(s) network infrastructure based
+on standard GSM (ESTI) implementations of HLR, VLR and MSC. If a GSM Network
+provider has non-standard GSM (ETSI) implementations of the above mentioned
+network components installed in his network, CLIENT has to provide the respective
+information to 1rstWAP prior to system installation and 1rstWAP will investigate
+whether and how such a non-standard implementation can be accommodated.
+Dependent on the required effort, such a specific development can be subject to
+additional costs (See also Pricing Notes in the Commercial section).
+It is assumed that CLIENT has the authority and mandate to request such permanent
+access from the primary Host Operator, to which the special equipment is
+connected, and the rights to interrogate the other GSM Operators’ mobile devices.
+The LRTP will be located in a secure environment within the CLIENT’s Site Location.
+CLIENT need to ensure that 1rstWAP can install and as far as required and agreed
+remotely maintain the LRTP. All the GSM Service Providers also need to include the
+global title (GT) of the platform’s iSMSC into their SMSC white-list to permit legal and
+controlled HLR interrogations. (ITU standards – IR.21 document)
+See also Pricing Notes in the Commercial section: CLIENT remains responsible for
+any charges imposed from any of the GSM Operators in connection with SS7 and IP
+connectivity, cell data provisioning and SMS traffic consumed by CLIENT. The
+assumption is that CLIENT has an existing agreement with operator(s) for the
+purpose of GSM interrogation. The iSMSC is therefore provisioned under contract
+between the Host Operator and CLIENT and hence, 1rstWAP is the nominated
+“Operational Service Facility” on behalf of CLIENT.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+21
+
+Schematic showing relationship between SS7 system components
+
+4.7
+
+Access to Location Data outside Client’s Country
+The LRTP will enable CLIENT to interrogate the SS7 network location information of
+any MSISDN of the Host Operator or ANY operator with whom the Host Operator
+has an SMS interworking agreement with (basically, any network where a subscriber
+of the Host Operator can send an SMS) and that has not blocked the Host Operator
+in regard to PSI and/or ATI interrogations. As such, a location query could be effected
+on a MSISDN of a target outside the home country of CLIENT and Host Operator. It
+can be assumed that a result could provide a specific MSC but not the “physical
+location”. It could be that this information is required by CLIENT and is not available
+through information supplied from the Host Operator, and CLIENT does not wish to
+make it known to the Host Operator of such query. 1rstWAP risk mitigation can be an
+optionally procured service used to define the problem through relationship
+networking. Specifically, 1rstWAP can apply discretion and stealth to try to obtain
+information directly from specific GSM operators that is normally NOT provided to
+3rd parties, even though it is not actually commercially or technically sensitive. Also,
+1rstWAP have the potential to obtain the information via a query using our own
+commercial nodes and other commercial Location Based Solution (LBS) business.
+Thus, we can seek the answer from various sources which may not be available to
+CLIENT who have the limitation of a single (LRTP) node. Currently, 1rstWAP
+maintains a MSC database of ca. 16.000 MSCs in ca. 158 countries of which ca.
+4.000 MSC locations are known to 1rstWAP through its commercial activities. The
+MSC database entries are continuously improved and enlarged. Assumptions are
+made on the coverage area of a MSC based on usual MSC coverage ranges.
+1rstWAP does not guarantee location information of remote area MSCs and MSCs
+still unknown to 1rstWAP. Furthermore, 1rstWAP’s commercial activities enable it to
+maintain and enlarge its own Cell Data database in several countries. A list of
+countries with MSC data availability can be provided on request.
+CONFIDENTIAL – Subject to change without prior notice!
+
+22
+
+Such “service” can also be applied to other Telco Related Anomalies (primarily
+outside the sovereign country):
+Situations may exist where it becomes necessary for CLIENT to understand whether
+an operator outside the sovereign country has already implemented ATI, and where
+they have, whether they have implemented “white-listing” (allowing specific SMSCs)
+or “black-listing (preventing specific SMSCs) which prevent the expected result from
+being made available. 1rstWAP risk mitigation can be the service to used to define
+the problem through relationship networking. Specifically, and as mentioned above,
+1rstWAP can obtain information from many GSM operators through personal /
+professional relationship links, discretion and stealth.
+In countries where number portability exists, and the desired result is not provided,
+CLIENT will may need to least contact CLIENT’s peer organization to determine
+definitive location. The primary variable will be “which operator” to contact. (1rstWAP
+risk mitigation can be the service used to define the problem through relationship
+networking. It may be possible though 1rstWAP’s own nodes to determine an
+answer and if required, to make requests through social channels to define the carrier
+to which the MSISDN currently belongs and subsequently define the location).
+Specifically, and as mentioned above, 1rstWAP can obtain information from many
+GSM operators through personal / professional relationship links, discretion and
+stealth.
+The incidence where CLIENT is able, due to favourable circumstances, to make direct
+contact with an operator, the problem will be to determine the most direct path to
+the relevant engineering manager to contact at the relevant operator.
+1rstWAP can provide a risk mitigation service which can be the service used to assist
+CLIENT to define mobile operator problems through relationship networking.
+Additionally, information such as location data that 1rstWAP owns in its own
+database (NOT related to any other LRTP client) can be made available to CLIENT to
+supplement their database. As each client will have varying needs and capabilities,
+this sensitive issue can never be distinctly defined in this proposal and can be
+included after detailed discussions with CLIENT at the appropriate time.
+
+(Remainder of page intentionally left blank)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+23
+
+

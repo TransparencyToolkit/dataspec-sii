@@ -1,0 +1,1114 @@
+1
+
+FINFISHER: FinFly ISP 2.0
+Infrastructure Product Training
+
+Table of content
+
+2
+
+1. Introduction
+2. The infrastructure
+- ADMF Client and Infection GUI
+- Administration: ADMF
+- iProxy: NDP01/02
+- Radius Probe: RP01/02
+- Communication
+3. Use Case Infection
+4. System handling
+5. Technical details
+6. Incident handling
+
+Vielen Dank für die Aufmerksamkeit
+
+3
+
+1. Introduction
+Who we are
+
+Introduction
+
+4
+
+Delegates:
+Consultin
+g Nicolas
+
+Audit
+
+Mayencourt
+Head of Dreamlab Technologies AG
+Member of the Board of Directors, ISECOM
+Security
+Member OWASP
+
+Solutions
+Richard Sademach
+/
+Head
+of Operations Dreamlab Technologies AG
+Operation
+Education
+
+Vielen Dank für die Aufmerksamkeit
+
+5
+
+2. The infrastructure
+Overview & components
+
+Infrastructure overview: components
+
+6
+
+3
+1. ADMF-Client &
+Infection GUI
+2. ADMF
+3. iProxy NDP01/02
+4. Radius Probe RP01/02
+
+4
+1
+
+2
+
+1. ADMF Client and Infection GUI
+
+
+
+
+
+ADMF Client
+Graphical User Interface for
+managing Infections
+
+
+
+Configuring Infections
+
+
+
+Selection of Infection method
+
+
+
+Realtime status information
+
+
+
+Management of all components
+
+7
+
+1. ADMF Client → Infection GUI
+Separate Training
+
+8
+
+1. ADMF Client and Infection GUI
+
+9
+
+Hardware:
+HP Compaq 8000 Elite Business PC
+•
+1 x Copper 10/100/1000
+•
+
+Software:
+•
+•
+•
+
+FinFly ISP GUI
+XMPP Client
+Windows 7 Ultimate
+
+2. ADMF - Central Administration Function
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+10
+
+Core component of the FinFly ISP infrastructure
+Realtime communication with all components
+→ NDP, RP, FinFly Gui
+Configuration and initiation of infections
+on the ADMF
+Provisioning of the ADMF Client , iProxy and RP
+Realtime exchange of information and states
+→ Targets coming online, being infected, etc
+RFC XMPP protocol used for secure and
+encrypted communication (TLS based)
+
+2. ADMF - Central Administration Function
+
+11
+
+Hardware:
+HP DL380 G6
+•
+2x Intel(R) Xeon(R) CPU X5550 @ 2.67GHz
+•
+Memory: 12 GB
+•
+3 x 146 GB SAS 2,5'' (Raid 5)
+•
+4 x Copper 10/100/1000
+•
+1 x ILO (Integrated Lights Out)
+•
+OS:Linux GNU (Debian 5.0), hardened
+by Dreamlab best practices
+•
+
+Software:
+ADMF → Adminstration function
+•
+Ejabberd (XMPP server)
+•
+
+ADMF Configuration
+
+12
+
+ADMF Configuration
+Name: instance.conf
+Path:
+/home/iproxy/service/admf/etc/
+
+3. NDP01 / NDP02 → iProxy
+
+13
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Network data processing component
+Infections remotely activated/deactivated via the
+ADMF/ADMF GUI
+Provisioning of the actual target IP-Address from
+the RP via the ADMF
+Each NDP bridge is equipped with a carrier grade
+10GB/s fiber bypass module
+In case of hardware or logical failures this module
+switches automatically to bypass-mode.
+Thus traffic will never be interrupted.
+Attention this is a highly dynamic bridge / fw environment:
+DO NOT change any configuration manually
+
+The NDP has been specifically configured for this network. Any
+configuration change of the network i.e. protocolstacks, media, failover
+features etc must be tightly coordinated with Dreamlab. Not doing so most
+probably will lead to an unusable system.
+
+3. NDP01 / NDP02 → iProxy
+
+14
+
+Hardware:
+HP DL380 G7
+2x Intel(R) Xeon(R) CPU X5650 @ 2.67GHz
+•
+Memory: 12 GB
+•
+3 x 146 GB SAS 2,5'' (Raid 5)
+•
+4 x Copper 10/100/1000
+•
+1 x Fiber Multimode Bypass NIC
+•
+1 x ILO (Integrated Lights Out)
+•
+OS:Linux GNU (Debian 5.0), hardened
+by Dreamlab best practices
+•
+
+Software:
+NDP → Network Data Processor
+•
+IProxy → infection Proxy
+•
+ADMF Client
+•
+
+NDP Configuration
+
+15
+
+NDP Configuration
+Name: instance.conf
+Path:
+/home/iproxy/service/ndp0[12]/etc/
+
+4. RP01 / RP02 → Radius probe
+
+•
+
+•
+
+16
+
+Realtime monitoring of the AAA processes:
+Targets coming online, receiving IP addresses,
+changing IP addresses, going offline
+Recording of the RADIUS authentications and
+accounting dialogues
+
+•
+
+Being always up-to-date of the target IP address
+
+•
+
+RP sends information to the ADMF
+
+•
+
+The ADMF provisions the NDP's
+
+•
+
+For statically configured IP addresses this is not needed
+
+The target identification has been specifically configured for the local
+setup. Any configuration changes of the AAA / Radius setup must be tightly
+coordinated with Dreamlab. Failure to do so will most probably lead to an
+unusable system.
+
+4. RP01 / RP02 → Radius probe
+
+17
+
+Hardware:
+HP DL380 G6
+•
+2x Intel(R) Xeon(R) CPU X5550 @ 2.67GHz
+•
+Memory: 12 GB
+•
+3 x 146 GB SAS 2,5'' (Raid 5)
+•
+4 x Copper 10/100/1000
+•
+1 x Intel quad port 1G copper
+•
+1 x ILO (Integrated Lights Out)
+•
+OS:Linux GNU (Debian 5.0), hardened
+by Dreamlab best practices
+•
+
+Software:
+RP → Radius Probe
+•
+ADMF Client
+•
+
+RP Configuration
+
+18
+
+RP Configuration
+Name: instance.conf
+Path:
+/home/iproxy/service/rp0[12]/etc/
+
+Communication visualized
+
+19
+
+NIC
+NDP
+
+Infection
+SW
+
+Radius Probe
+
+NIC
+The communication of all
+components always is
+initiated towards the ADMF:
+RP
+NDP
+Inf.SW
+ADMF-Client
+
+ADMF
+ADMF
+NDP
+ADMF
+
+ADMF
+
+ADMF
+
+ADMF-Client
+Infection GUI
+
+Once the communication is
+established the information
+flow is bidirectional (red arrows).
+
+Communication: Traffic matrix
+
+20
+
+from / to
+
+ADMF
+
+ADMFGUI
+
+NDP
+
+RP
+
+ADMF
+
+none
+
+none
+
+TCP 62200
+
+TCP 62200
+
+ADMF-GUI
+
+TCP 62200 / TCP
+17990 / TCP 443 /
+TCP 5222
+TCP 23
+
+none
+
+TCP
+TCP
+TCP
+TCP
+
+TCP
+TCP
+TCP
+TCP
+
+NDP
+
+TCP 62200 / TCP
+5222
+
+none
+
+none
+
+TCP 62200
+
+RP
+
+TCP 62200 / TCP
+5222
+
+none
+
+TCP 62200
+
+none
+
+62200 /
+17990 /
+443
+23
+
+62200 /
+17990 /
+443
+23
+
+Vielen Dank für die Aufmerksamkeit
+
+21
+
+3. Use Case
+Infection
+
+Use Case → Infection
+
+22
+
+Step
+
+Direction
+
+Action content
+
+Details
+
+1
+
+GUI -> ADMF
+
+Infect a target
+
+Send infection
+information
+Target information /
+infection mode
+
+2
+
+ADMF -> Radius probe
+
+Start monitoring and set a trap
+on this target
+
+Actual IP address of
+target is known
+
+3
+
+Radius -> ADMF -> NDP /
+iProxy
+
+Handover actual IP address
+
+IP address
+
+4
+
+iProxy -> NDP
+
+Iproxy requests NDP to
+Target IP address
+analyse the datastream on IP
+address and „interesting“ traffic
+
+5
+
+NDP -> iProxy
+
+Handover traffic matching the
+request
+
+6
+
+iProxy
+
+changes the traffic and
+modifies the data by adding
+the infection parts
+
+Stream is redirected
+to iProxy
+
+Use Case → Infection
+
+23
+
+Step
+
+Direction
+
+Action content
+
+6
+
+iProxy
+
+changes the traffic and
+modifies the data by adding
+the infection parts
+
+7
+
+iProxy -> NDP
+
+iProxy sends the modifed
+traffic back to NDP
+
+8
+
+NDP Reinject
+
+NDP recalculates checksums,
+resequences TCP/IP packets
+and reinjects the traffic into the
+stream
+
+9
+
+Target infection done
+
+Data successfully sent to
+target
+
+Details
+
+Use Case → Infection
+
+24
+
+10. Infection succeeded → Start operating the target
+Seperate training
+
+Vielen Dank für die Aufmerksamkeit
+
+25
+
+3. System handling
+Management network
+ILO access
+
+Management network
+
+26
+
+Management network access
+
+27
+
+The iProxy components can either be accessed via SSH or ILO.
+These interfaces are solely made available on the management network.
+•
+
+SSH :
+Secure shell is being used to directly access the iProxy components
+for all configuration changes, operation and debugging on system-level
+
+•
+
+ILO :
+Integrated lights out management is the dedicated access being used
+to manage system HW-components. i.e.: stop/start of the system
+hardware, hardware-monitoring, remote system console, etc
+
+SSH access
+
+SSH : secure shell maintenance access on system level
+
+28
+
+ILO access
+
+29
+
+ILO access
+
+30
+
+ILO access
+
+31
+
+ILO Power: button press for “power on/power off”
+Attention: It really works !
+
+ILO access
+
+32
+
+ILO access
+
+33
+
+ILO access
+
+34
+
+ILO access
+
+Log information from low level hardware components
+
+35
+
+ILO access
+
+36
+
+ILO System remote console information: choose the remote console
+
+ILO access
+
+ILO: access the OS via the ILO remote console
+
+37
+
+Vielen Dank für die Aufmerksamkeit
+
+38
+
+6. Technical Details
+Commonly used SW components
+System and Bios Hardening
+
+Commonly used SW components
+
+•
+
+Daemontools:
+•
+
+•
+
+Being used for synchronizing the time on the iProxy components
+
+Syslog-ng:
+•
+•
+
+•
+
+Remote secure command-line access to the iProxy components for management purposes
+
+Ntp:
+•
+
+•
+
+Used to provide a high level of availability for the installed core SW components
+
+Ssh:
+•
+
+•
+
+39
+
+Used for collecting all system and application events
+Possibility to send a copy of the events to a defined e-mail address
+
+Shorewall (Except the NDP-Component):
+•
+
+High level configuration user-land frontend for the onboard firewalls
+
+System and Bios Hardening
+
+•
+
+System:
+•
+•
+•
+•
+•
+•
+
+•
+
+Firewall configured deny all, allow specifically
+Removed unnecessary services
+Disabled Ipv6
+No direct root login allowed
+Minimal software stack
+Security optimized configuration for all services
+
+Bios:
+•
+•
+•
+
+Boot order and media
+Bios password
+In case of power failure: Auto power on
+
+40
+
+Vielen Dank für die Aufmerksamkeit
+
+41
+
+7. Incident Handling
+Hands on / System Training
+
+SSH access
+
+42
+
+Secure shell / SSH is used for accessing the iProxy-components:
+Command:
+
+ssh host –l user –p 62200
+
+Parameters:
+
+host: hostname
+-l username
+-p portnumber
+
+User Identification
+
+The command `id` is used for identifying the active user:
+Command:
+Parameters:
+Output:
+
+id
+n.a.
+uid (user-id), gid (group-id), groups (groups the
+user belongs to)
+
+43
+
+Using root-privileges
+
+44
+
+The command `su` is used to gain root-privileges:
+Command:
+Parameters:
+Output:
+
+su - (to start the root-shell from home-path)
+n.a.
+
+Attention: You are working on live systems, you may break things!
+
+Kernel debug messages
+
+45
+
+The command `dmesg` is used for displaying kernel debug messages:
+Command:
+Parameters:
+Output:
+
+dmesg
+n.a.
+see above
+
+Dir containing all system logs
+
+The command `ls` lists the directory containing all system log files:
+Command:
+Parameters:
+Path:
+Important Log Files:
+
+ls
+i.e: -lah
+/var/log
+daemon.log, messages, kern.log, auth.log,
+dmesg, syslog
+
+46
+
+List log directory by date
+
+47
+
+List the log directory by date:
+Command:
+
+ls -laht
+
+Parameters:
+
+-l = list
+-a= all
+-h= human
+readable
+-t = sort by date
+
+Output:
+
+all files sorted
+by date
+
+Messages log
+
+48
+
+The messages file contains all important system logs:
+Command:
+Parameters:
+Output:
+
+cat
+/var/log/messages
+see above
+
+ADMF Log
+
+49
+
+The ADMF log file contains all messages from the admf service:
+Log File Path:
+Command:
+Parameter:
+Output:
+
+/home/iproxy/service/admf/service/log/logfiles/current
+less
+/home/iproxy/service/admf/service/log/logfiles/current
+see above
+
+NDP Log
+
+50
+
+The NDP log file contains all messages from the ndp service:
+Log File Path:
+Command:
+Parameter:
+Output:
+
+/home/iproxy/service/ndp/service/log/logfiles/current
+less
+/home/iproxy/service/ndp/service/log/logfiles/current
+see above
+
+RP Log
+
+51
+
+The RP log file contains all messages from the rp service:
+Log File Path:
+Command:
+Parameter:
+Output:
+
+/home/iproxy/service/rp/service/log/logfiles/current
+less
+/home/iproxy/service/rp/service/log/logfiles/current
+see above
+
+List all running processes
+
+The command `ps` lists processes running on the system:
+Command:
+Parameters:
+Output:
+
+ps -aux
+-a = all processes, -u = list by user-id, -x = list by tty
+all running processes, see above
+
+52
+
+Realtime system performance statistics
+
+53
+
+The command `top` lists in realtime all processes running on the system:
+Command:
+Parameters:
+Output:
+
+top –d1
+-d = delay in seconds (here = 1 second)
+see above
+
+Secure filecopy over SSH
+
+54
+
+The command `scp` is used for copying files from one server to another
+via ssh:
+Command:
+Parameters:
+
+Output:
+
+scp –P 62200 files user@host:/directory
+-P 62200 (Portnumber to be used),
+files = the filename to be copied,
+user@host = user who logs into the target system,
+/directory: where to copy the file
+see above
+
+List active network interface configurations
+
+The command `ifconfig` is used for listing active nic configurations:
+Command:
+Parameters:
+Output:
+
+ifconfig
+n.a.
+see above
+
+55
+
+Network interface configuration
+
+The network configuration is stored in configuratin files on the
+systems. The file is on /etc/network/interfaces
+
+56
+
+List active routing configuration
+
+The command `route` is used for listing the active routes:
+Command:
+Parameters:
+Output:
+
+route
+-n = do not resolve IP addresses
+routing table
+
+57
+
+Show network statistics
+
+58
+
+The command `netstat` is used for listing network statistics:
+Command:
+Parameters:
+Output:
+
+netstat
+-t = tcp-connection, -u = udp, -l = list, -p = program,
+e= extended output, -n = do not resolve IP address
+Network statistics
+
+Analyze network packets
+
+59
+
+The command `tcpdump` is used to analyze network packets:
+Command:
+Parameters:
+Output:
+
+tcpdump
+-n= do not resolve IP address, -i = interface name to dump
+see above
+
+Analyze contents of packets on a network
+
+60
+
+The command `tcpdump` is used to analyze network packets:
+Command:
+Parameters:
+Output:
+
+tcpdump
+-n= do not resolve IP address, -i = interface name to dump,
+host = hostaddress to filter on
+see above
+
+Analyze contents of packets on a network
+
+61
+
+The command `tcpdump` is used to analyze network packets:
+Command:
+Parameters:
+Output:
+
+tcpdump
+-n= do not resolve IP address, -i = interface name to dump,
+port = port to filter on
+see above
+
+Analyze contents of packets on a network
+
+62
+
+The command `tcpdump` is used to analyze network packets:
+Command:
+tcpdump –ni eth0 port 53 and proto UDP
+Parameters:
+-n= do not resolve IP address, -i = interface name to dump,
+port = Port to filter on, proto = Protocol to filter on,
+Output:
+see above
+
+Daemon Tools Usage
+
+63
+
+Daemon Tools is used for starting / stopping the iProxy services
+a Daemon Tools File structure is needed:
+/home/iproxy/service/admf
+/data/
+/etc/instance.conf
+/service
+/log/
+/run
+/supervise/
+→ To activate the service admf, the /home/iproxy/service/admf/service
+directory has to be linked in to the /etc/service folder
+
+Daemon Tools Usage
+
+64
+
+Daemon Tools is used for starting / stopping the iproxy services
+Once the service is linked and activated it constantly restarts itself
+when having problems
+The activated service can be controlled via the “svc” command:
+svc -t /etc/service/admf: sends a TERM Signal, and automatically restarts
+the daemon after it dies
+ svc -d /etc/service/admf: sends a TERM Signal, and leaves the service
+down
+ svc -u /etc/service/admf: brings the service back up
+ svc -o /etc/service/admf: runs the service once
+
+
+Hands on experience on demand
+What would you like to explore in greater detail ?
+
+
+Collecting network traces
+
+
+
+Collecting logs
+
+
+
+Collecting evidence
+
+
+
+More system training
+
+
+
+Tell us
+
+65
+
+Incident handling
+
+Basically the systems just work. In case something does not work
+or you are not sure:
+1) Collect data, evidences, log files
+2) Contact our helpdesk
+3) More details (including contact) in the system manual
+4) We fix things together
+
+66
+
+Vielen Dank für die Aufmerksamkeit
+
+Questions ?
+Thank you for your attention !
+
+67
+
+

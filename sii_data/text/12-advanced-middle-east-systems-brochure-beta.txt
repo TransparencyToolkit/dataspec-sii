@@ -1,0 +1,118 @@
+The BETA2 unit is a high performance FPGA based GSM Deciphering Unit (AS/1 and AS/2), it can be
+used for any off the air interception front end units, for passive and active solutions.
+The connection to those front ends is through a simple Ethernet connection, the unit needs a few
+bursts for each communication from the front end equipment, allowing the use of low data rate
+connection if necessary. Then the BETA2 GSM will send back the Kc to the front end for real time
+decryption.
+The small size and the low consumption of the equipment allow the BETA2 GSM to be mounted in a
+car or armored vehicle for example.
+
+~~--
+
+..
+
+.
+
+--
+
+-
+
+-
+
+'llliii:!' __
+
+.
+.
+
+-
+
+Beta• - Deciphering Unit
+
+Off the air GSM
+Interception System
+
+Wireless Data Channel
+
+Drawing 1: Multiple possible connectivities between frontend and Beta1
+
+ADVANCED
+MI OOLE
+
+E A ST
+
+SYSTEMS
+
+Several front end can use the BETA2 GSM as it is accessible through any ethernet network, the performance of the equipment is 6Kc/s for the first solution up to 20Kc/s for the high end one.
+This deciphering unit can also be cascadable (modulo 20Kc/s) in order to achieve a high number of Keis
+for a centralized solution for example.
+The equipment is composed of a 1U chassis for the FPGA part of the solution and a 2U chassis for the
+storage part.
+
+Drawing 2: Possible to cascade several Beta1 units to connect multiple frontends
+
+CHARACTERISTICS
+AS/1 and AS/2 deciphering unit for off the air GSM interception front end
+Performance: up to 20Kc/s for A5.1 and almost real time for A5.2
+Probability of success: more than 95% with normal BER on the communication
+
+Expansibility
+Cascadable up to 5 units to achieve 1OOKc/s
+First version at 6Kc/s can be up graded to a 20Kc/s in the same chassis, (factory return)
+
+Control and Test
+Local and remote control available
+Self BIT embedded in the solution
+
+PHYSICAL/ ELECTRICAL SPECIFICATIONS
+Connection
+
+: Ethernet (RJ45)
+
+AC Power
+
+: 115/230 Vac ± 15 % 47-63 Hz
+
+Consumption
+
+: < 900W @20°C
+
+Size (H x L x P)
+
+: 135 (3U) x 485 (191') x 550 mm
+
+Weight
+
+: < 12Kg
+
+Operating temperature
+
+: 0°c to +50°c
+
+Storage temperature
+
+: -40°C to + 70°C
+
+Cooling
+
+: Forced air from front to rear panel
+
+International compliance
+
+: CE compliant
+
+ADVANCED
+MIDDLE
+
+E A
+
+ST
+
+SYSTEMS
+P.O. BOX: 500439
+Internet City
+Duba"i · U.A.E.
+Mobile: +971 56 72 44 190
+Email: contact@advancedsystems.ae
+All rnt'lt.rifir-::t.tiru'\c- nror-cnton in thic n1·v·11mont =iro c11hiort tn m1·vlifir::.tinnc \.uithn11t nntiro ;\nr4 ~ro nnt rnntr~rht;:tl
+
+

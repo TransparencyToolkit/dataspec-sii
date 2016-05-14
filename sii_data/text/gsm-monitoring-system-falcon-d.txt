@@ -1,0 +1,147 @@
+GSM Monitoring System:
+Falcon D+
+Model 580
+
+CONFIDENTIAL
+– Subject –toSubject
+changeto
+without
+notice!
+CONFIDENTIAL
+changeprior
+without
+prior notice!
+
+1
+
+GSM Monitoring System: FALCON D+
+Description
+The Falcon D+ system is designed for surveillance tasks and monitoring of telephone
+conversations within the GSM 900/1800 networks. The system provides the option of
+both stationary and mobile operation.
+
+• The system ensures monitoring of audio and data traffic within standard GSM
+900/1800 networks:
+• Without application of encryption algorithms
+• Application of encryption algorithm A5/2 [real-time] (decoding time: 0.01 sec.)
+• Application of encryption algorithm A5/1 [real-time] when Ki is known
+• Default configuration of the system - 8 reception channels
+• The system ensures registration of radio-electronic circumstances within the radio
+cells to be monitored (frequency and characteristics of BCCH-channels)
+• Channels which are to be monitored are, according to the task, manually selected by
+the user.
+• The system contains a database (up to 100,000 calling partners), operating in realtime, which can be accessed corresponding to the selected search criteria and parameters.
+• Calling partners are identified according to the IMEISV, IMSI, TMSI, ISDN number
+(local and international number)
+• Assessment of presence of calling partners to be monitored and identification of
+specific parameters (TMSI) occurs automatically by means of a mobile phone with
+special software. The special software is contained in the scope of delivery.
+• Registration and storage of telephone conversations occur on the system’s hard
+disk.
+• The system ensures registration and storage as audio codec - types FR, EFR, HR.
+• Playback of recordings may be carried out by the system itself (CoolEdit-Software).
+• Identification of SMS and DTMF data.
+• Systems’s coverage:
+• Down-Link - up to 10 km
+• Up-Link - up to 500m in city
+• Assessment of coverage between calling partner and base station; accuracy of up to
+550m
+The system has a TCP/IP interface which ensures that several devices can be
+remote controlled in the same network (LAN, DSL, etc.)
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Technical data
+GSM 900
+
+Reception channels
+Target numbers
+Identification
+Frequency range of Downlink
+(BTS → MS)
+Frequency range of Uplink
+(MS → BTS)
+Channel spacing
+Number of channel
+Frequency deviation
+Frequency stability
+Receiver type
+Receiver sensitivity
+Antenna impedance
+Time of frequency change in
+Hopping mode
+Dynamics range
+Volume range
+Demodulator
+Decoder
+Speech codex
+Channel structure
+System software
+Audio format
+Power supply
+
+GSM 1800
+8 (Full Duplex)
+up to 100.000
+through IMSI, TMSI, IMEI, Class mark, Telephone
+number, Distance
+935 ... 960 MHz
+1805 ... 1880 MHz
+890 ... 915 MHz
+200 kHz
+124
+45 MHz
+
+375
+95 MHz
+
+± 0,03 ppm
+wide range receiver
+-105 dbm
+50
+< 500 μs
+
+> 75 dB
+25 dB
+GMSK, asynchrony
+for Protocol A5-2
+RPE/LTP: HR, FR, EFR, AMR
+TDMA/FDMA
+Windows XP
+standard Wave-format
+220 VAC, 50 Hz; 110 VAC, 60 Hz
+or external 12 V DC
++ 5 °C ... 40 °C
+
+Operating temperature range
+
+Scope of delivery:
+
+1710 ... 1785 MHz
+
+•
+•
+•
+•
+•
+•
+•
+
+FALCON D+ (main unit)
+Control unit (Notebook)
+network connecting cable
+Power supply cable 230VAC
+Dual band antenna (magnetic mount)
+User manual
+Transport case
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+

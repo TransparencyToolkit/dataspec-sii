@@ -1,0 +1,223 @@
+G A M
+
+MIER
+
+Nodose I Monitoring Centre
+Klarios''
+
+A System Architecture
+The Klarlosr" Monitoring Centre comprises:
+• Front-end—connects with handover interfaces
+of service provider networks; a wide range of
+handover standards are supported
+• Core system—storing, managing and processing
+intercepted communication
+• •-
+
+• Back-end—clients for i) evaluating intercepted
+and processed content: and ii) administration of the
+Monitoring Centre
+Awide range of functional options complete the tool-set
+available to law enforcement and intelligence agencies in
+order to increase productivity and optimise the results of
+their investigative efforts.
+All systems are delivered rack-mounted with monitoring/
+configuration consoles and are equipped with UPS units
+to protect the Monitoring Centre against power failure.
+B Front-end
+Characteristics:
+1111Collection of intercepted communication from ISP,
+PSTN / ISDN. 36, Next Generation and VolP networks
+• Conversion/mediation of differing delivery formats
+into a uniform format
+Modular and scalable
+The Klarios"' MC front-end family includes the following
+modules:
+MCMX/MCMN
+Front-end for legacy circuit-switched telephony.
+Receives communication content via El links, decodes
+the signalling protocols. classifies calls and forwards
+the content over (internal) IP networks (LAN / WAN) to
+storage servers. Available in a basic version with 2 El
+interfaces (MCMX) or in a modular chassis version
+(MCMN) for up to 16 El interfaces.
+CARHandle(
+Conversion of all intercept-related information (IRI)
+received by the Monitoring Centre into the standard
+used in Klarios databases.
+
+Standards
+,
+I International
+
+nalysis of Intercepted Communication
+
+APIX
+
+Klarios® 2.0
+
+The latest member of the ATIS front-end family is used
+for collecting all communication content delivered in IP
+format (VolP, e-mail. internet, etc.)
+C Core System
+
+CDBS
+At the heart of the Klarios MC, the Central Database
+Server (CDBS) controls and manages mission-critical
+system information/data, including references to all
+communication recorded (objects) as well as user
+access rights and logs.
+Main functions of the CDBS:
+• Storing all references to content intercepted and
+providing search and navigation capabilities to users
+• Managing roles and access rights for system users
+and administrators
+• Auditing, logging and reporting all system activities
+• Managing and monitoring all modules of the Klario0
+Monitoring Centre
+To meet the highest requirements in terms of system
+availability, resilience and scalability, various database
+cluster configurations are available (optional).
+F3S
+rr r
+
+=
+=
+_=
+
+=
+
+z=_
+
+,z=
+
+•
+
+E
+
+Large data volumes require:
+• sophisticated storage systems and content ageing
+solutions;
+• optimised use of available storage capacity; and
+
+_
+
+• minimised total cost of ownership (capital and
+operational expenditure) per unit of storage.
+F3S (Flexible Scalable Storage Solution) is:
+• able to support virtually all storage platforms:
+• independent of specific vendors; and
+• independent of the rapid pace of change in the
+underlying storage technology market (storage
+media).
+
+AT I S
+
+INNER
+Technical Details
+
+Monitoring Centre
+DEC
+The Internet Decoding (IDEC) is a state-of-the-art
+solution for demodulating and decoding a wide range
+of data communication protocols. Our objective is to
+reconstruct intercepted internet sessions as seen by the
+intercepted subscriber.
+Supported protocols include fax. SMS and commonly
+used modem and Internet (application) protocols:
+
+EFunctional Options
+Several evaluation and analysis tools can be added to
+the Klarios'" Monitoring Centre. Possible options include
+SCP—Signal alio uolitent Proues ic,1 is a flexible and
+scalable platform used for the purpose of filtering and
+analysing signals collected by the Monitoring Centre.
+Characteristics and features:
+
+• Web (HTTP. webmail)
+• %UP
+
+• Library of software-based processing modules
+running on a number of processing instances
+(servers)
+I I Facilitates the automated analysis of a broad range
+of voice and data signals
+
+• Chat (IRC, ICO. Yahoo Messenger, MSN. AIM)
+• News
+
+• Speaker and language recognition, phonetic word
+indexing and protocol analysis
+
+Decoding
+• E-mail (SMTP, POP3, IMAP)
+
+• FTP
+P2P
+AOL
+Demodulation
+PSTN (supports most of the analogue modem
+standards)
+• ISDN (including Multilink
+link PPP)
+• Fax (analogue and FRITZICard: mixed analogue-ISDN)
+• EMS. MMS. ring tones
+• SMS over PSTN / ISDN
+Other protocols can be developed upon request.
+0 Back-end
+The graphical user interface of the Klarios" Monitoring
+Centre is tailored to meet the requirements of law
+enforcement and intelligence agencies. For this purpose,
+a rich set of user-friendly features is available to
+investigating officers. including:
+1111rapid searching in intercepted communication
+content and IRI;
+• setting content processing priorities (allocating
+resources for certain targets):
+• defining alarms triggered by certain activities of
+user-defined targets:
+• easy and intuitive navigation within the content of
+intercepted sessions; and
+• access to comprehensive summarising statistics of
+intercepted sessions (e.g. which applications were
+used by the intercepted target).
+
+Formore detailed information, please do not hesitate to contact MIS.
+
+IDA - Intell'qent Data Aral ,• platform provides the law
+enforcement and intelligence agencies with advanced
+functions for conceptual search and information retrieval
+within the data collected. Available features:
+• Keyword search
+• Linguistic processing
+• Automatic data / content clustering
+• Classification based on predefined or automatically
+generated taxonomies
+GIS—Georimohical Information System
+Klarlos GIS allows geographic surveillance of targets
+in mobile networks. The GIS user interface shows the
+locations of the mobile subscribers being monitored and
+their movements between different locations on digitised
+maps.
+ADRI—ATIS Retained Data Investigator
+Klarioe ADRI supports direct connection to the retained
+data repositories and:
+• supports ETSI standardised handover or proprietary
+interfaces:
+• provides a wide range of data analysis. mining.
+correlation. mapping and presentation tools;
+• enables deep evaluation of query response data
+delivered by data retention systems: and
+• represents a full end-to-end data retention solution
+based on state-of-the-art modular storage and
+indexing platforms.
+AIMS—ATIS Interception Management System
+is a software module which enables law enforcement
+and intelligence agencies to manage complex network
+topologies in multi-vendor and multi-service-provider
+environments. AIMS offers a centralised provisioning
+interface to enable and disable target interception directly
+from the Monitoring Centre's system administrator client
+position.
+
+

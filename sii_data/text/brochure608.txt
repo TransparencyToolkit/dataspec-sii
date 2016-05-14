@@ -1,0 +1,121 @@
+MA-308 Handheld DF Antenna
+The MA-308 Handheld DF Antenna is a compact, lightweight direction
+finding (DF) antenna used for search near-in field (SNIF) manpack
+missions.
+The antenna is used in conjunction with either the MD-403A or MD-405A
+SIGINT Receiver/Processors. The operator steers the antenna in azimuth to
+sweep an amplitude null across the signal of interest (SOI). A tone generator
+contained in the receiver/processor changes frequency in proportion to the
+signal’s strength. As the antenna is swept across the SOI, the tone heard in the
+headset goes from high, to low, to high again. This allows the operator to
+localize the direction of arrival of the signal.
+The null depth of the MA-308 is typically 20 dB. Since a signal’s dynamic
+range can easily exceed the typical null depth, a trigger switch is placed in the
+handgrip of the MA-308. This trigger is used to change the receiver/processors
+from DF to monitor mode. A “double click” of this switch causes the
+receiver/processors to re-normalize the tone generator so that the antenna null
+depth can track the receiver’s full dynamic range. When used with the
+receiver/processor’s step attenuator, the MA-308 can get within a few
+feet of a medium power transmitter without overload.
+In the MD-405A receiver/processor a voice synthesizer can be
+enabled in the System Setup Display to provide frequency
+and detector information via the headset whenever the
+operator presses the thumb switch mounted on the back of
+the MA-308.
+
+MA-308 HANDHELD DF
+ANTENNA AS PART OF
+MANPACK MISSION
+EQUIPMENT
+
+MA-308 Handheld DF Antenna
+
+MA-308 Handheld DF Antenna Features
+Performance Characteristics
+Frequency Coverage
+
+2–500 Mhz
+
+Azimuth Coverage
+
+360°
+
+Polarization
+Sensitivity 1
+
+Vertical
+Typical:
+2 MHz: 300 µV/m
+4 MHz: 175 µV/m
+10 MHz: 40 µV/m
+100 MHz: 20 µV/m
+
+Output Impedance
+
+50 Ohms unbalanced
+
+Connectors
+
+BNC, AMP 22 pin JT series
+
+Physical and Environmental Characteristics
+Size
+
+362 x 134 x 22 mm (14.25 x 5.25 x 0.88 in.)
+
+Cable, Captive
+
+2.44 m (8 ft)
+
+Weight
+
+1.3 kg (2.9 lbs.)
+
+Power
+
+2–50 MHz: 10–15 Volts, 50 mA maximum
+50–500 MHz: 5.5–9 Volts, 10 mA maximum
+
+Temperature
+
+`
+
+Operating: –20° to +60° C
+Storage: –40° to +70° C
+
+Humidity
+
+0 to 100% Condensing
+
+110 dB S/N, receiver with 10 dB NF, 10 kHz BW.
+Note: All specifications subject to change without notice
+
+Part Number
+
+Description
+
+Includes
+
+02-102930-01
+
+MA-308 Antenna
+
+Antenna, Manuals
+
+05-103068-01
+
+Cable Assembly RF/Control
+
+Cable
+
+Cleared by Do D/OSR for public release under
+OSR Case Number 08 -S-0645 on March 1 8, 2008
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078032005
+
+

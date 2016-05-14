@@ -1,0 +1,143 @@
+Product Sheet - Objectivity and Palantir
+
+Exabyte Enable Your Palantir
+
+The Palantir-Objectivity lntegration
+Objectivity, lnc. has partnered with Palantir Technologies to provide a Helper Application that
+provides groundbreaking scalability in link analysis systems built on Objectivity's distributed data
+and processing platform , Objectivity/DB.
+Llnk Analysis Application
+Service roer
+
+.
+
+Objectivity/DB
+
+Elastic Search Agent Clood
+(Private Amazoo EC2)
+
+°'
+
+Cloud Based Storege
+(e.g Amazon EBS)
+
+8
+8
+8
+8
+
+...
+
+.... '
+
+' ~' , "
+
+Client Applications
+
+This diagram
+illustrates a
+sample cloudbased
+architecture for a
+link hunting
+application using
+Objectivity/DB
+and Pa/antir.
+
+Load Based
+Cloud Provisioning
+
+Cloud Services API
+
+The companies are working to seamlessly integrate their products , empowering users to search
+for distant connections among hundreds of millions of paths calculated with sub-second
+response time, all from directly within the Palantir user interface. This integration further extends
+Palantir's capabilities to additional degrees of separation on increasingly massive data sets .
+The companies recently worked
+together to demonstrate a link
+analysis application that can
+analyze millions of relationships
+within seconds on a standard
+laptop and can scale to hundreds
+of millions of relationships with
+minimal hardware.
+By
+leveraging
+Palantir's
+extensibility
+and
+seamless
+interface with
+Objectivity/DB's
+flexible architecture, developers
+can build custom applications that
+can process massive amounts of
+data and scale as the need grows.
+
+www.objectivity.com
+
+-This screenshot shows how users will be able ta leverage
+bath Palantir and Objectivity/DB ta find, track and analyze
+paths between millions of data points.
+
+Product Sheet - Objectivity and Palantir
+
+Exabyte Enable Your Palantir
+Enabling Setter Security and Intelligence
+ln today's security landscape, government agencies have more complex data to analyze from more
+sources than ever before. Objectivity/DB is already at work in applications that are central to government
+agencies involved in security and intelligence initiatives, including :
+•
+•
+•
+
+•
+•
+•
+
+Security analysis & cryptanalysis
+Social network analysis
+Knowledge and case management
+
+Mapping terrorist networks
+Geospatial data fusion
+COMINT, ELINT, HUMINT and SIGINT
+
+Why you need Objectivity/DB
+Data management challenges are more complicated than ever before, and today's software innovators are
+increasingly looking for industrial-strength products that allow them to bu ild systems to manage massive
+volumes of complex data .
+From the world 's larges! databases and real-time , distributed , multi-source data challenges to complex
+inter-related data fusion systems with demanding performance challenges , Objectivity/DB is becoming
+the standard for building data fusion applications in Government and Complex Manufacturing .
+Systems based on Objectivity/DB meet and exceed high performance specifications that require systems
+to ingest, fuse , store, correlate and navigate immense volumes of data at extremely high ingest rates .
+
+The Technology
+Objectivity/DB is an object-oriented data platform that is compatible across multiple hardware platforms,
+operating systems, and languages. Current language support includes Java , C++, C#, Python , and SmallTalk. Write abjects with Java and read with C++ . Modify using C++ and read again using Python . Modify
+with Python and read again with Java.
+
+No Database Server:
+Objectivity/DB does not rely on a database server like many relational databases. lnstead , it has a small
+application library linked into the application , a lock-server process and a page-server process. These are
+light-weight applications that manage locks and data pages for all of the Objectivity/DB applications
+accessing a federated database.
+Object Relationships: Objectivity/DB relationships alleviate the need to perform joins to access-related
+data by allowing the creation of persisted "pointers" between objects that applications can then follow to
+retrieve related objects. This capability is considerably faster than using SQL joins.
+Fully Distributed: Objectivity/DB supports many data models. Organizations can distribute applications
+and leave data on a centralized server, or distribute data across hundreds or thousands of computers and
+support centralized applications, or distribute the applications and the data . Developers can also use
+replication to move
+copies of data closer to
+their point-of-use.
+~~~~~~~~~~~~~~~~~~~~
+
+Objectivity, lnc.
+Phone: +1 .408.992.7100
+
+www .objectivity .corn
+
+www.objectivity.com
+
+

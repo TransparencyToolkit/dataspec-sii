@@ -1,0 +1,463 @@
+Automated Network
+Survey and Interception of
+Leased Line Services
+ISS World Washington
+October 2011
+NetQuest
+Corporation
+Mount Laurel, New Jersey
+
+Agenda
+
+•
+•
+•
+•
+•
+
+NetQuest Introduction
+The Problem
+The Costs
+The Solution
+The Savings
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Company Background
+•
+•
+•
+•
+•
+
+Founded in 1987; Privately-held New Jersey, USA Corporation
+Technology and Solutions for Access & Monitoring solutions for legacy & IPbased networks
+Focus on wire-speed, broadband IP communications applications
+Global customer-base; many longer than 10 years
+Business models for:
+– System Level Network Appliance Products
+– COTS Network Interface Card adapters NIC’s
+– OEM & Strategic Alliance
+
+•
+
+“Unique Problem Solving Technology” include:
+• Automatic Network Discovering Interceptor
+• POS to GigE & POS to 10GigE Wire-speed Translation Systems
+• ATM, TDM POS and Ethernet NIC Adapters
+
+•
+•
+
+Broad expertise in ultra high-speed hardware and software design
+Responsive customer-first philosophy for over 20 years
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Target Markets
+
+• Law Enforcement Agencies
+• National Intelligence/Security Agencies
+• Agencies
+• Civilian Government Agencies
+• Communications Service Providers
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Interception Market Dynamics
+• Public and National Security are a priority everywhere.
+• Surveillance or Monitoring of network traffic continues to be
+complicated by multi-protocol high speed networks.
+• TDM Networks (SONET/SDH) remain primary transport …even for IP
+– Deeply Channelized interfaces and documentation regarding bandwidth
+allocation are spotty
+– Recent advances enable Ethernet transport on existing networks.
+
+• Legacy Protocols like ATM, Frame and SS7 will remain in the network
+for many years.
+• Desire to make interception investments in IP centric solutions are
+understandable…yet not practical.
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+What NetQuest Provides
+• Access to optical and copper broadband networks
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Our Mission…
+
+To empower our customers
+with the ability to correlate
+converged network traffic into
+service, customer or target
+oriented flows without
+distortion.
+“It all depends on how we look at things, and not how they are in themselves.”
+Carl Gustav Jung
+.
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Interceptor Value Proposition
+
+Reduce
+CAPEX
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Enable
+&
+Optimize
+Surveillance
+Monitoring
+
+Intercepting Leased Line
+Services Overview
+The NetQuest
+
+NetQuest
+Corporation
+Mount Laurel, New Jersey
+
+What are Leased Line Services
+• Typically point-to-point and Point-to-multipoint
+circuits.
+
+– Often referred to as International Private Line Circuits
+(IPLC)
+
+• Bandwidth Pipes
+–
+–
+–
+–
+
+T1/E1 and Fractional services
+T3/E3
+SONET and SDH
+Ethernet
+
+• Support for any protocol
+• Considered by many as the most secure
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+The Problem
+
+• Private Line Services remain a service mainstay
+• Dynamic multi-protocol transport over SONET/SDH
+• Agencies are limited in where they can get access to
+circuits.
+• Circuit access comes without bandwidth allocation
+documentation.
+• End to End bandwidth allocation can change
+• Customer Premise Equipment can be re-configured
+without notification.
+• Additional protocol support can be changed at CPE
+level
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Traditional Solutions
+• A collection of equipment is
+required to gain access to the
+multitude of services being
+carried.
+–
+–
+–
+–
+–
+
+TAP’s
+ADM’s
+Routers
+ATM Multiplexers
+L1/2 Test Equipment
+
+• Configurations that may need
+adjustment if end users
+change their provisioning.
+• Platforms are underutilized
+since they are being used in
+Half Duplex applications
+A better solution is needed!!!
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Historically
+Access is
+Complicated
+and Expensive
+
+The Capital Equipment Costs
+
+Equipment
+
+Estimated
+Cost
+
+Taps
+
+Qty.
+
+Ext. Cost
+
+Notes
+
+$1,200
+
+2
+
+Add Drop Mux
+
+$25,000
+
+2
+
+$50,000 With GFP/VCAT
+
+ATM Mux
+
+$20,000
+
+2
+
+$40,000 Could be blades
+
+Router
+
+$15,000
+
+2
+
+$30,000
+
+Layer1 tester
+
+$20,000
+
+1
+
+$20,000 Test 1 link at a time
+
+Layer 2/3/4
+
+$75,000
+
+1
+
+$75,000 Protocol discovery
+
+Estimated Total CAPEX
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+$2,000
+
+$217,000
+
+The Operational Costs
+Line Item
+
+Estimated
+Cost
+
+Rack Space
+
+$Varies
+
+Service
+Agreements
+
+18% of
+cost
+
+Technician
+
+$100,000
+
+Qty.
+1
+
+Ext. Cost
+
+Notes
+
+$2,000 2 RU’s vs. 2
+Racks
+$39,000 18% of $217,000
+
+.5
+
+$50,000 Interval
+dependent
+
+Estimate Total Annual OPEX
+Year 1 $91,000
+Year 2 $91,000
+Year 3 $91,000
+Plus the Equipment Acquisition Cost of $217,000
+The 3 Year Cost for 1 FDX Circuit $490,000
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+The Ultimate Cost
+• Missed Surveillance is Pricele$$
+– Many solutions do not notify agencies of
+circuit provisioning changes
+– Manual scans (survey) are subject to error
+– Un-Filtered data can over-run probes and
+storage solutions
+– Budgets are Budgets
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+The Solution
+• Consolidate multiple
+network elements in a
+purpose built platform.
+• Automatically discover
+Layer 1/2/3 allocation
+and protocol content
+• Provide unified IP
+access to intercept
+system
+• Scalable ports and
+bandwidth
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+The Auto Discovery Process
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Unified IP Access
+• If everything was IP we could:
+– Sit on top of the stack and monitor everything
+– Eliminate test and multiplexing gear
+– Forget the legacy protocols
+– Make investments in where we are going
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+The Interceptor Portfolio
+
+Interceptor Type
+Interceptor Function
+SONET/SDH Inputs with Optional
+APS
+
+2 x OC192/STM-64 or
+4+4 or 8 x OC48/STM-16
+
+1 x OC48/STM-16 or
+4 x OC3/12 or STM-1/4
+
+Auto-Discovery and Filtering
+Bandwidth
+
+20 Gbps
+
+2.5 Gbps
+
+Ethernet Output
+
+4 x 10GigE
+
+4 x GigE
+
+TDM Streams
+Auto-Discovery
+
+From OC192/STM-64 to VC4/VC3,
+PDH,
+GFP/VCAT/LCAS
+
+From OC48/STM-16 to VC4/VC3,
+PDH from VC4/VC3 to VC12/VC11 and
+DS0,
+GFP/VCAT/LCAS
+
+Framed Streams
+Auto-Discovery and Filtering
+
+POS, ATM*
+128 streams
+
+POS, ATM, HDLC
+500 streams
+
+Protocol Streams
+Auto-discovery and Filtering
+
+PPP, cHDLC, MPLS
+
+PPP, cHDLC, MPLS, Frame Relay, SS7,
+MLPPP
+
+Higher Level Stream
+Auto-Discovery and Filtering
+
+N/A
+
+Virtual Connections, Tunnels,
+IP Streams
+Application Streams
+
+* Denotes Auto discovery support only
+
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Portfolio Deployment details
+• The products can be deployed
+as stand alone devices with
+direct connections to probes.
+• They may also be used in
+conjunction with each other the
+solve deeply channelized high
+speed circuits.
+– Higher speed containers of IP are
+directed to probes on 10GigE of I4400/8800 platforms
+– Lower speed containers and PDH
+are cascaded to I-2400 platforms
+for deep channel processing
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Summary
+• Automatic SDH/SONET L1/L2 discovery and
+monitoring
+• Eliminate multiple network elements and rack
+space they occupy
+• Protocol translation (Unified IP Access!!!)
+• Preserve Probe processing capacity for high
+value functions.
+• Ensures target data is continually monitored.
+• Dramatically reduce CAPEX and OPEX while
+increasing the surveillance effectiveness. .
+NetQuest
+Confidential and Proprietary Information of NetQuest Corporation
+
+Thank you
+Jesse Price
+jprice@netquestcorp.com
+NetQuest
+Corporation
+Mount Laurel, New Jersey
+
+

@@ -1,0 +1,1055 @@
+Contact Information
+Blue Coat Systems Inc.
+420 North Mary Ave
+Sunnyvale, CA 94085-4121
+http://www.bluecoat.com/support/contact.html
+bcs.info@bluecoat.com
+http://www.bluecoat.com
+For concerns or feedback about the documentation: documentation@bluecoat.com
+
+Copyright© 1999-2007 Blue Coat Systems, Inc. All rights reserved worldwide. No part of this
+document may be reproduced by any means nor modified, decompiled, disassembled,
+published or distributed, in whole or in part, or translated to any electronic medium or other
+means without the written consent of Blue Coat Systems, Inc. All right, title and interest in and
+to the Software and documentation are and shall remain the exclusive property of Blue Coat
+Systems, Inc. and its licensors. ProxyAV™, CacheOS™, SGOS™, SG™, Spyware Interceptor™,
+Scope™, RA Connector™, RA Manager™, Remote Access™ are trademarks of Blue Coat
+Systems, Inc. and CacheFlow®, Blue Coat®, Accelerating The Internet®, ProxySG®,
+WinProxy®, AccessNow®, Ositis®, Powering Internet Management®, The Ultimate Internet
+Sharing Solution®, Permeo®, Permeo Technologies, Inc.®, and the Permeo logo are registered
+trademarks of Blue Coat Systems, Inc. All other trademarks contained in this document and in
+the Software are the property of their respective owners.
+BLUE COAT SYSTEMS, INC. DISCLAIMS ALL WARRANTIES, CONDITIONS OR OTHER
+TERMS, EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, ON SOFTWARE AND
+DOCUMENTATION FURNISHED HEREUNDER INCLUDING WITHOUT LIMITATION THE
+WARRANTIES OF DESIGN, MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL BLUE COAT SYSTEMS, INC.,
+ITS SUPPLIERS OR ITS LICENSORS BE LIABLE FOR ANY DAMAGES, WHETHER ARISING
+IN TORT, CONTRACT OR ANY OTHER LEGAL THEORY EVEN IF BLUE COAT SYSTEMS,
+INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Document Number: 231-02909
+Document Revision: SSL Proxy Deployment Guide—SGOS 5.1.4
+
+ii
+
+Table of Contents
+
+Introduction to the Blue Coat SSL Proxy
+What the SSL Proxy Does
+Increasing Control
+
+5
+
+6
+
+SSL Proxy Overview
+Understanding SSL
+
+7
+
+Using an SSL Proxy for Privacy, Authentication, and Data Integrity
+SSL Proxy Versus HTTPS Reverse Proxy
+
+8
+
+9
+
+Best Practices and Deployment: An FAQ
+Question: What Do I Need to Know Before Deploying the SSL Proxy?
+Question: How Do I Fix Server Certificate Errors?
+
+11
+
+12
+
+Question: How Do I Selectively Intercept SSL Traffic?
+
+14
+
+Question: Can the SG Appliance Help in Distributing Issuer Certificates to
+Client Desktops? 16
+Question: In addition to the warnings from individual browsers, I want to use
+a Webpage to more explicitly warn users of invalid certificates and
+allow them the choice of ignoring the error and continuing to the
+content. Can I do this with SSL Proxy? 19
+Question: How Do I Protect End-User Privacy and Avoid Accidental
+Exposure of Sensitive Information When Intercepting SSL
+Traffic? 22
+Question: How do I set up SSL Proxy in Explicit Mode?
+
+24
+
+Question: How Do I Deploy SSL Proxy in Transparent Mode?
+
+25
+
+Question: How Do I Deploy the SSL Proxy in a Proxy Chain?
+
+26
+
+Question: I am Using a Transparent Proxy Deployment. How Do I Allow NonSSL Traffic on Port 443 to Certain Servers While Still Enabling the
+SSL Proxy for the Rest of the Port 443 Traffic? 28
+Question: Windows Updates Fail When I Use the SSL Proxy to Intercept all
+SSL Connections. 29
+
+iii
+
+Table of Contents
+
+Question: I have CA Hierarchy in Place in My Enterprise. Can I Use it for
+Certificate Emulation? 29
+Question: How Does the HTTP Proxy Securely Process the CONNECT
+Method? 30
+
+Troubleshooting Tips
+Problem: Can’t Reach an HTTPS Site
+
+33
+
+Upgrading and Using SSL Client Certificates with Internet Explorer
+Logging
+Microsoft
+SKYPE
+
+34
+
+34
+35
+36
+
+iv
+
+Introduction to the Blue Coat SSL Proxy
+
+HTTPS traffic poses a major security risk to enterprises. Because SSL (Secure
+Socket Layer) content is encrypted, it can’t be intercepted by normal means.
+Users can bring in viruses, access forbidden sites, and leak business
+confidential information over an HTTPS connection, which uses port 443.
+Because IT organizations have no visibility into SSL sessions, they are blind
+to any potential security threats sent over HTTPS.
+In addition to the security threat, encrypted traffic makes it difficult for IT to
+assess bandwidth usage and apply intelligent content control policies to
+ensure maximum user productivity.
+Prior to the SSL Proxy, the only solution for managing HTTPS traffic was to
+deny HTTPS altogether or severely limit its usage.
+
+What the SSL Proxy Does
+HTTPS traffic is the
+same as HTTP traffic
+except that it is
+encapsulated so that
+the content is hidden.
+
+The SSL Proxy can be used to tunnel or intercept HTTPS traffic. The SSL
+Proxy tunnels all HTTPS traffic by default unless there is an exception, such
+as a certificate error or a policy denial. In such cases the SSL Proxy intercepts
+the SSL connection and sends an error page to the user. The SSL Proxy
+allows interception of HTTPS traffic even when there are no errors. Such
+interception enables the application of various security policies to HTTPS
+content.
+Some HTTPS traffic, such as financial information, should not be
+intercepted. The SSL proxy can do the following operations while tunneling
+HTTPS traffic.
+❐
+
+Validate server certificates, including revocation checks using Certificate
+Revocation Lists (CRLs).
+
+❐
+
+Check various SSL parameters such as cipher and version.
+
+❐
+
+Log useful information about the HTTPS connection.
+
+When the SSL Proxy is used to intercept HTTPS traffic, it can also:
+❐
+
+Cache HTTPS content.
+
+❐
+
+Apply HTTP-based authentication mechanism.
+
+5
+
+Introduction to the Blue Coat SSL Proxy
+❐
+
+Do virus scanning and URL filtering.
+
+❐
+
+Apply granular policy (such as validating mime type and filename
+extension).
+
+The Blue Coat SSL proxy allows you to:
+❐
+
+Determine what HTTPS traffic to intercept through existing policy
+conditions, such as destination IP address and port number. You can also
+use the hostname in the server certificate to make the intercept versus
+tunnel decision.
+
+❐
+
+Validate the server certificate to confirm the identity of the server, and
+check Certificate Revocation Lists (CRLs) to be sure the server certificate
+has not been revoked.
+
+❐
+
+Apply caching, virus scanning and URL filtering policies to intercepted
+HTTPS traffic.
+
+Increasing Control
+The SSL proxy allows you to increase control by:
+❐
+
+Distinguishing between SSL and non-SSL traffic on the same port.
+
+❐
+
+Distinguishing HTTPS from other protocols over SSL.
+
+❐
+
+Categorizing sites by their SSL server certificate hostname.
+
+❐
+
+Security is increased through:
+•
+
+Server certificate validation, including checking CRLs.
+
+•
+
+Virus scanning and URL filtering of HTTPS content.
+
+Visibility and improved system performance is due to SSL logs and caching
+(which is enabled by default when using the SSL proxy).
+
+6
+
+SSL Proxy Overview
+
+SSL and tunneling protocols are closely tied together. To understand SSL,
+you must first understand how tunneling applications work.
+This chapter discusses:
+❐
+
+“Understanding SSL” on page 7
+
+❐
+
+“Using an SSL Proxy for Privacy, Authentication, and Data Integrity” on
+page 8
+
+❐
+
+“SSL Proxy Versus HTTPS Reverse Proxy” on page 9
+
+Understanding SSL
+At the lowest level, SSL is layered on top of TCP/IP. SSL uses the SSL
+Handshake Protocol to allow the server and client to authenticate each other
+and to negotiate the encryption cipher before the application protocol
+transmits or receives its first byte of data.
+SSL has emerged as the de facto standard protocol for establishing a secure,
+encrypted link between a remote application server and the client Web
+browser on the local user’s desktop.
+SSL is a proven technology with strong appeal to IT organizations because
+each secure session link is automatically established “on demand” using
+standards-based protocols, encryption techniques, and certificate exchange –
+all without the need for any IT administration.
+The process of setting up the private connection is automatically initiated by
+the server communicating directly with the browser. The result is a private,
+encrypted tunnel used to move information between the server and client
+desktop. When the session is over, the connection is automatically
+terminated.
+However, SSL sessions are rapidly becoming a conduit for a variety of
+enterprise security threats – including spyware, viruses, worms, phishing,
+and other malware.
+
+7
+
+SSL Proxy Overview
+
+Using an SSL Proxy for Privacy, Authentication,
+and Data Integrity
+The SSL proxy can manage the SSL sessions in such a way as to prevent
+enterprise security threats while at the same time allowing you to determine
+the level of control.
+If the HTTPS traffic contains financial information, you probably do not want
+to intercept that traffic.
+However, many other kinds of traffic should and can be intercepted by the
+SSL proxy.
+
+Determining What HTTPS Traffic to Intercept
+The default mode of operation for the SSL Proxy is to intercept HTTPS traffic
+only if there is an exception, such as a certificate error. It tunnels all HTTPS
+traffic otherwise..
+To intercept HTTPS traffic for reasons other than error reporting many
+existing policy conditions, such as destination IP address and port number,
+can be used.
+Additionally, the SSL proxy allows the hostname in the server certificate to
+be used to make the decision to intercept or tunnel the traffic. The server
+certificate hostname can be used as is to make intercept decisions for
+individual sites, or it can be categorized using any of the various URL
+databases supported by Blue Coat. Categorization of server certificate
+hostnames can help place the intercept decision for various sites into a single
+policy rule.
+Recommendations for intercepting traffic include:
+❐
+
+Intercept Intranet traffic.
+
+❐
+
+Intercept suspicious Internet sites, particularly those that are categorized
+as none in the server certificate.
+
+❐
+
+Intercept sites that provide secure web based e-mail, such as Gmail over
+HTTPS.
+
+Managing Decrypted Traffic
+After the HTTPS connection is intercepted, you can do:
+❐
+
+Anti-virus scanning over ICAP.
+
+❐
+
+URL filtering (on box and off-box). Blue Coat recommends on box URL/
+Content filtering if you use transparent proxy. When the URL is sent offbox for filtering, only the hostname or IP address of the URL (not the full
+path) is sent for security reasons.
+
+8
+
+SSL Proxy Deployment Guide
+❐
+
+Filtering based on the server certificate hostname.
+
+❐
+
+Caching.
+
+HTTPS applications that require browsers to present client certificates to
+secure Web servers do not work if you are intercepting traffic. Such
+applications should not be intercepted by creating a policy rule.
+If you intercept HTTPS traffic, be aware that local privacy laws might require
+you to notify the user about interception or obtain consent prior to
+interception. You can use the HTML Notify User object to notify users after
+anticipation. You can use consent certificates to obtain consent prior to
+interception. The HTML Notify User is easier; however, note that the SG
+appliance has to decrypt the first request from the user before it can issue an
+HTML notification page.
+
+Digital Certificates and Certificate Authorities
+Server certificates are used to authenticate the identity of a server. A
+certificate is an electronic confirmation that the owner of a public key is who
+he or she really claims to be and thus holds the private key corresponding to
+the public key in the certificate. The certificate contains other information,
+such as its expiration date.
+The association between a public key and a particular server is done by
+generating a certificate signing request using the server's public key. A
+certificate signing authority verifies the identity of the server and generates a
+signed certificate. The resulting certificate can then be offered by the server to
+clients who can recognize the CA's signature and trust that the server is who
+it claims to be. Such use of certificates issued by CAs has become the primary
+infrastructure for authentication of communications over the Internet.
+SG appliances come with many popular CA certificates already installed.
+You can review these certificates using the Management Console or the CLI.
+You can also add certificates for your own internal certificate authorities.
+SG appliances trust all root CA certificates trusted by Internet Explorer and
+Firefox. The list is updated periodically to be in sync with the latest versions
+of IE and Firefox.
+CA certificates installed on the SG appliance are used to verify the certificates
+presented by HTTPS servers and the client certificates presented by browsers
+(when browsers are configured to do so).
+Certificate Revocation Lists (CRLs) allow checking server certificates against
+lists provided and maintained by CAs that show certificates that have been
+revoked.
+
+9
+
+SSL Proxy Overview
+
+SSL Proxy Versus HTTPS Reverse Proxy
+Depending on your needs, you can use the SG appliance as either an SSL
+proxy or an HTTPS reverse proxy. SSL proxy functionality enables the SG
+appliance to act as forward proxy for HTTPS requests.
+
+This deployment guide
+discusses the HTTPS
+forward proxy. To
+configure the SG
+appliance as an HTTPS
+reverse proxy, refer to the
+Blue Coat ProxySG
+Configuration and
+Management Guide
+documentation suite.
+
+❐
+
+An SSL proxy is a client-side proxy typically used for applying security
+and performance features such as authentication, URL filtering, and
+caching.
+
+❐
+
+An HTTPS reverse proxy is a server-side proxy typically used to offload
+SSL processing from server to the proxy. Reverse proxies are deployed in
+proximity to the server. The communication between the HTTPS reverse
+proxy and server might or might not use SSL. The SG appliance can be
+used as an HTTPS reverse proxy with the help of the existing HTTPS
+Reverse Proxy service. Performance is usually the only objective.
+
+10
+
+Best Practices and Deployment: An FAQ
+
+Question: What Do I Need to Know Before Deploying the
+SSL Proxy?
+A: With SGOS 4.2.2, the default mode of operation for the SSL proxy is
+"intercept on exception, tunnel otherwise". Common examples of exceptions
+for which the SSL Proxy intercepts traffic in this default mode are certificate
+errors and policy based denials. To intercept HTTPS traffic for purposes
+other than error reporting (such as antivirus scanning or caching), you must
+create additional policy.
+The SSL proxy can detect the following certificate errors for both intercepted
+and tunneled traffic:
+❐
+
+The certificate has expired (or is valid at a future date)
+
+❐
+
+The certificate issuer is untrusted; that is, the SG appliance does not
+recognize or trust the issuer of the certificate.
+
+❐
+
+The certificate has been revoked. The SG appliance does a revocation
+check using Certificate Revocation Lists (CRLs) to determine if the
+issuer of the certificate has revoked the certificate.
+
+Recommendation: Do an audit of all internal HTTPS servers and verify
+that they use valid certificates before upgrading the SG appliance to SGOS
+5.x. This ensures that internal HTTPS sites accessed through the SG
+appliance do not break after enabling the SSL Proxy.
+
+A: After the SSL proxy starts intercepting traffic, it also verifies that the
+common-name (CN) in the certificate matches with the request URL, and
+denies data exchange between client and server when a mismatch is
+detected.
+
+11
+
+Best Practices and Deployment: An FAQ
+
+A: In case of server certificate errors, the SSL proxy intercepts the
+connection in default mode and sends an exception page to the browser with
+the cause of the error. In addition, from the SSL access logs, you can monitor
+the following fields to know which servers present certificates with errors
+and what the SG appliance is doing:
+❐
+
+x-rs-certificate-observed-errors: Shows all the actual error(s)
+
+detected with the certificate except hostname-mismatch error. Detected
+errors include untrusted-issuer, expired, and revoked.
+❐
+
+x-rs-certificate-validate-status: Shows the certificate validation
+
+status after following policy rules. If policy ignores a specific certificate
+validation error, this field shows the status as CERT_VALID although the
+certificate presented by a server has the error.
+
+Recommendation: Leave the SSL proxy in its default mode. In this
+mode, the SSL proxy intercepts the connection in case of errors and reports
+an exception to the browser. If no errors are found, traffic is tunneled. This
+allows you to get a better understanding of the SSL traffic in your network
+and helps you write suitable interception policy.
+
+Question: How Do I Fix Server Certificate Errors?
+A: The following certificate errors can be detected by SSL Proxy:
+❐
+
+untrusted-issuer
+
+❐
+
+expired
+
+❐
+
+revoked
+
+❐
+
+hostname mismatch (intercepted connections only)
+
+The most secure way to fix any of these errors is to get a new certificate that
+does not have the detected error. Many times, however, the sites presenting a
+bad certificate are not in administrative control. In this case, the SSL proxy
+provides a way to ignore certificate errors for certain sites through policy.
+
+Recommendation: If you have internal HTTPS servers that use
+certificates issued by an internal Certificate Authority (CA), the SSL proxy
+flags such certificates with the "untrusted-issuer" error. To avoid such errors,
+import the internal CA certificate onto the SG appliance as a trusted
+certificate. Do not ignore untrusted-issuer errors through policy, because an
+untrusted-issuer error means that nothing from the certificate can be trusted.
+Do not disable certificate validation globally. Make the determination of
+ignorable certificate errors on a case-by-case basis, as discussed below.
+
+12
+
+Best Practices and Deployment: An FAQ
+❐
+
+Install the Certificate Not Valid Policy.
+See “Certificate Not Valid Policy” on page 21.
+
+Certificate Not Valid Exception
+This exception needs to be placed in your local policy.
+(exception.ssl_domain_invalid
+(contact)
+(details "Your request contacted a host which presented a
+certificate with a Common Name that did not match the domain
+requested.")
+(format <<--eof-Your request contacted a host which presented a certificate
+with a Common Name that did not match the domain requested.
+<br>
+<br>
+<form method="post" action="$(url)">
+<input type="submit" style="width:400;height:24;"
+value="Click here if you have a legitimate reason to access
+this site"></form>
+<br>
+--eof-)
+(help "This is typically caused by a Web Site presenting an
+incorrect or invalid certificate, but could be because of a
+configuration error.")
+(summary "Network Error")
+(http
+(code "409")
+(contact)
+(details)
+(format)
+(help)
+(summary)
+)
+)
+(exception.ssl_server_cert_expired
+(contact)
+(details "Your request contacted a host which presented an
+expired or Invalid certificate")
+(format <<--eof-Your request contacted a host which presented an expired or
+Invalid certificate.
+<br>
+<br>
+<form method="post" action="$(url)">
+<input type="submit" style="width:400;height:24;"
+value="Click here if you have a legitimate reason to access
+this site"></form>
+<br>
+--eof-)
+(help "This is typically caused by a Web Site presenting an
+incorrect or invalid certificate, but could be because of a
+configuration error. ")
+
+20
+
+SSL Proxy Deployment Guide
+(summary "Network Error")
+(http
+(code "503")
+(contact)
+(details)
+(format)
+(help)
+(summary)
+)
+)
+(exception.ssl_server_cert_untrusted_issuer
+(contact)
+(details "Your request contacted a host which presented a
+certificate signed by an untrusted issuer.")
+(format <<--eof-Your request contacted a host which presented a certificate
+signed by an untrusted issuer.
+<br>
+<br>
+<form method="post" action="$(url)">
+<input type="submit" style="width:400;height:24;"
+value="Click here if you have a legitimate reason to access
+this site"></form>
+<br>
+--eof-)
+(help "This is typically caused by a Web Site presenting an
+incorrect or invalid certificate, but could be because of a
+configuration error.")
+(summary "Network Error")
+(http
+(code "503")
+(contact)
+(details)
+(format)
+(help)
+(summary)
+)
+)
+
+Certificate Not Valid Policy
+<exception> condition=sslexception
+action.mycookie(yes)
+<proxy>
+condition=sslallow request.header.cookie="sslallow"
+action.rewtohttps(yes)
+request.header.cookie="sslallow" action.red(yes)
+<ssl>
+condition=sslallow server.certificate.validate(no)
+
+21
+
+Best Practices and Deployment: An FAQ
+<proxy>
+define action mycookie
+set(exception.response.header.set-cookie,"sslallow")
+end
+define action rewtohttps
+rewrite(url,"^https://(.*)\/xyzallow","https://$(1)")
+end
+define action red
+redirect(302,"https://(.*)","https://$(1)/xyzallow")
+end
+define condition sslallow
+url.regex="\/xyzallow$"
+url.regex="\/xyzallow/$"
+end
+define condition sslexception
+exception.id=ssl_server_cert_untrusted_issuer
+exception.id=ssl_server_cert_expired
+exception.id=ssl_domain_invalid
+end
+
+Notes:
+❐
+
+For an invalid certificate, the xyzallow value is appended to the URL
+after user clicks on Accept. This is expected behavior.
+
+Question: How Do I Protect End-User Privacy and Avoid
+Accidental Exposure of Sensitive Information
+When Intercepting SSL Traffic?
+A: For intercepted SSL traffic, potentially sensitive information is available
+in cleartext in the following locations:
+❐
+
+If ICAP scanning is enabled for intercepted HTTPS traffic, such data is
+sent without encryption to the ICAP server.
+
+❐
+
+You can log request and response headers containing sensitive
+information to the access log and event log.
+
+❐
+
+If you use an off-box URL filtering solution, part of the URL may be sent
+in cleartext to the URL database service point. Note that such a service
+point can be located on the internet.
+
+❐
+
+Intercepted HTTPS content that is cacheable is also available on the disk
+in the clear.
+
+Recommendation: Take the following measures to avoid accidental
+exposure of sensitive information:
+•
+
+Use care in determining which sites to intercept. Avoid intercepting
+well-known banking and financial sites. On-box URL databases and
+server certificate categories can be used in determining which sites
+to intercept.
+
+22
+
+Best Practices and Deployment: An FAQ
+
+h. Select HTTPS from the drop-down list in the top field; make sure ALL
+HTTPS is selected from the drop-down list in the lower field.
+i.
+
+Click OK.
+
+3.
+
+Click OK.
+
+4.
+
+Apply the policy by clicking Install Policy in the upper-right-hand corner.
+
+Question: How do I set up SSL Proxy in Explicit Mode?
+A: The SSL Proxy can be used in explicit mode in collaboration with the
+HTTP Proxy or SOCKS Proxy. You must create an HTTP Proxy service or
+SOCKS Proxy service and use it as the explicit proxy from desktop browsers.
+When requests for HTTPS content are sent to either a SOCKS proxy or an
+HTTP proxy, the proxies can detect the use of the SSL protocol on such
+connections and enable SSL Proxy functionality. Note that SSL protocol
+detection should be enabled for the proxy service in use (HTTP or SOCKS).
+To create an explicit SSL proxy, complete the following steps:
+❐
+
+Configure the browser on the desktop to use a proxy or point to a PAC
+file that points to the proxy.
+
+❐
+
+Coordinate with other devices, such as a firewall, to prevent users from
+accessing the internet without a proxy.
+
+❐
+
+Confirm that an HTTP proxy or SOCKS proxy service is present on
+desired port and that protocol detection is enabled for that service.
+
+❐
+
+Create or import an issuer keyring or use the defaults.
+
+❐
+
+Configure SSL proxy rules through VPM.
+
+24
+
+Best Practices and Deployment: An FAQ
+
+Question: I am Using a Transparent Proxy Deployment.
+How Do I Allow Non-SSL Traffic on Port 443 to
+Certain Servers While Still Enabling the SSL
+Proxy for the Rest of the Port 443 Traffic?
+A: Some legitimate applications, such as the SOCKS-based VPN clients
+from Aventail and Permeo, use port 443 to communicate to the VPN
+gateway. However, the protocol they use is not SSL. An SSL service created
+on port 443 that transparently terminates such TCP connections breaks these
+applications. That is because the SSL service enforces the use of the SSL
+protocol.
+Administrators would want to allow such SOCKS-based VPN tunnels to a
+few trusted partner sites.
+Procedure: To enable non-SSL protocols on port 443 for certain
+applications
+For information on
+creating TCP-tunnel
+services, refer toVolume 3
+of the Blue Coat SG
+Appliance Configuration
+and Management
+documentation suite.
+
+1.
+
+Create a transparent TCP-tunnel service on port 443. Do not create an
+SSL service on port 443.
+
+2.
+
+Specify the list of servers that can use port 443 for non-SSL protocols in
+policy:
+define condition Trusted_non_ssl_servers
+url.address=1.1.1.1
+url.address=2.2.2.2
+end condition Trusted_non_ssl_servers
+
+3.
+
+Write a <proxy> layer that forces all other traffic on port 443 to use the
+SSL protocol:
+<proxy>
+proxy.port=443 condition =! Trusted_non_ssl_servers
+force_protocol(ssl)
+
+These rules ensures that port 443 connections to the list of trusted servers are
+tunneled without intervention while all other port 443 connections use the
+SSL protocol.
+
+28
+
+SSL Proxy Deployment Guide
+
+Question: Windows Updates Fail When I Use the SSL
+Proxy to Intercept all SSL Connections.
+A: SSL connections for Windows updates should always be tunneled.
+<ssl-intercept>
+server.certificate.hostname=update.microsoft.com \
+ssl.forward_proxy(no)
+ssl.forward_proxy(https)
+
+The same policy can be created in VPM using the SSL Intercept Layer, the
+Server Certificate Object, and the SSL Forward Proxy object.
+Note that you only need to do this if the policy intercepts everything. If you
+do selective interception, as recommended, this issue does not arise.
+
+Question: I have CA Hierarchy in Place in My Enterprise.
+Can I Use it for Certificate Emulation?
+A: Some enterprises have a well-defined CA Certificate hierarchy (chain) in
+place. For example, Clothing-Max, a retail clothing outlet with 150 stores in
+the U.S. and Canada, has the following:
+The Clothing-Max Root CA Certificate is at the top of the hierarchy and has
+issued a CA certificate for the Clothing-Max IT department. In turn, the IT
+department issues a CA certificate for the IT security team.
+If the security team wants to deploy the SSL proxy using its CA certificate as
+the issuer for emulated certificates, the team will import this certificate and
+its private key on the SG appliance. Note that the intermediate CA must be
+imported in two places on the SG appliance.
+❐
+
+It must be imported under the "Keyrings" panel where both the private
+key and the certificate are stored.
+
+❐
+
+It must be imported under " CA Certificates" panel on SG appliance. This
+second step ensures that the SSL Proxy chains the intermediate CA
+certificate along with the emulated certificate.
+
+The SG appliance now signs the emulated certificates using the private key
+of the Clothing-Max IT Security Team CA Certificate. The certificate chain for
+an emulated certificate for a Clothing-Max server will be:
+
+Root CA
+
+Clothing-Max
+
+Intermediate CAs
+
+Emulated Certificate
+
+Clothing-Max IT
+Clothing-Max IT Security
+Team
+
+Clothing-Max Server
+
+In this case the browser does not show a security pop-up if it is able to verify
+all certificates in the certificate hierarchy.
+
+29
+
+Best Practices and Deployment: An FAQ
+
+32
+
+Troubleshooting Tips
+
+I
+
+If a site is rejected by the
+SG appliance, it does not
+necessarily mean the
+certificate is self-signed
+or not valid.
+Certificates not signed by
+a commercial signing
+authority, such as those
+signed by the United
+States Department of
+Defense, are rejected
+until the CA is added to
+the SG appliance’s store.
+
+Problem: Can’t Reach an HTTPS Site
+Description: A request to an HTTPS site results in a failure to reach the site
+and the browser displays an HTML error page that describes a certificate
+error . In the SG appliance event log, one of the following is displayed:
+"Server certificate validation failed for support.bluecoat.com
+at depth 0, reason Untrusted Issuer" 0 310000:1 ../ssl_proxy/
+sslproxy_worker.cpp:1157
+"Server certificate validation failed for www.etrade.com at
+depth 0, reason Certificate expired or not valid yet" 0
+310000:1 ../ssl_proxy/sslproxy_worker.cpp:1157
+
+Solutions:
+Option 1 (Most Secure):
+❐
+
+For untrusted issuer errors:
+Get the CA certificate from the server administrator and import it to the
+SG appliance. This is secure only if you can trust the CA's policies when
+they issue server certificates. When validating the new server certificate,
+make sure that a new browser instance is used.
+
+❐
+
+For expired certificate errors:
+•
+
+First check the clock on your proxy. Since the expiration check
+compares the dates in the certificate against the proxy's clock, make
+sure that the correct date and time is set.
+
+•
+
+If you still get certificate expired errors, the most secure solution is
+to get a new certificate with valid dates. This may not possible if you
+do not control the server.
+
+Option 2 (Less Secure):
+Create and install policy to ignore specific errors.
+❐
+
+To ignore untrusted issuer errors
+<ssl>
+server_url.host="intranet.company.com" \
+server.certificate.validate.ignore.untrusted_issuer(yes)
+
+33
+
+Troubleshooting Tips
+❐
+
+To ignore certificate expiration errors:
+<ssl>
+server_url.host=”intranet.company.com” \
+server.certificate.validate.ignore_expiration(yes)
+
+Upgrading and Using SSL Client Certificates with
+Internet Explorer
+After upgrade to SGOS 4.2.x, client certificate authentication can stop
+working with Internet Explorer if the HTTPS reverse proxy service in
+question is not using a CA-Certificate List (CCL). This is because IE cannot
+handle the long list of CAs presented by SG in he handshake messages.
+Problem: Client Certificates do not Work with Internet Explorer
+
+This problem only affects
+Internet Explorer. Other
+browsers do not have this
+issue.
+
+Description: When the SG appliance requests a client certificate from the
+browser, it includes the list of CAs it trusts in the "Certificate Request"
+message. The default list of CA certificates configured on the SG appliance
+has grown and now spans multiple SSL records. Internet Explorer cannot
+handle SSL handshake messages than span multiple SSL records.
+Solutions:
+❐
+
+For the SSL Proxy, this issue means that the client consent certificate
+feature that allows the SG appliance to notify users in advance of HTTPS
+interception does not work with Internet Explorer. No workaround
+exists.
+
+❐
+
+For the HTTPS Reverse Proxy, you can create a CCL, which reduces the
+number of CAs trusted by a service to the point where Internet Explorer
+can handle it.
+
+Problem: Want to Use Client Certificates to Communicate with Server
+using the SSL Proxy
+Description: When the SSL Proxy is intercepting HTTPS traffic, request to a
+HTTPS site results in a failure if the server requires a client certificate.
+Solution: You can use client certificates to communicate with the server as
+long as the SSL proxy is used in tunnel mode. You cannot use client
+certificates to communicate with the server when the SSL proxy is
+intercepting traffic.
+
+Logging
+Problem: Want to Include other Information in the SSL Access Log
+Description: The default access log fields for the SSL log do not contain any
+sensitive information. Only information that can be seen in the clear on the
+wire is included in the SSL access log.
+
+34
+
+SSL Proxy Deployment Guide
+
+Solution: The SSL access log is customizable, meaning that you can add fields
+that containing sensitive information. For more information on configuring
+access logs, refer to Chapter 21 in the Blue Coat ProxySG Configuration and
+Management Guide.
+Problem: SSL Access Log Contains No Data
+Description: When your are intercepting all traffic and logging it, the log
+remains empty.
+Solution: You might be logging all https-forward-proxy connections (that is,
+intercepted connections) to the main facility instead of the SSL facility.
+
+Microsoft
+Problem: Windows Update
+Description: The Windows update does not work when the SSL Proxy
+intercepts windows updates connections. This is because the Windows
+update client does not trust the emulated certificate presented by the SSL
+Proxy.
+Solution: SSL connections for Windows updates should always be tunneled.
+<ssl-intercept>
+server.certificate.hostname=update.microsoft.com \
+ssl.forward_proxy(no)
+ssl.forward_proxy(https)
+
+Problem: login through HTTP with MSN IM Client Fails
+Description: Logging in to the MSN IM client fails if the SSL Proxy is
+intercepting HTTP traffic, and the proxy does not display a certificate popup. This is because the IM client does not trust the emulated certificate
+presented by the SSL Proxy.
+Solution: Write policy to disable SSL interception for login.passport.com,
+such as:
+ssl-intercept>
+condition=!DoNotInterceptList ssl.forward_proxy(https)
+; Definitions
+define condition DoNotInterceptList
+server.certificate.hostname=login.live.com
+server.certificate.hostname=loginnet.passport.com
+end
+
+Solution: Import The Blue Coat appliance’s issuer certificate as trusted in the
+browser.
+
+35
+
+Troubleshooting Tips
+
+SKYPE
+Problem: Want to Allow Skype for a Specific User
+Description: While Skype uses HTTP and SSL as transport protocol, the
+application content is proprietary to Skype and does not adhere to HTTP
+standards.
+Solution: To allow Skype for a specific user:
+❐
+
+Create a firewall policy that denies clients from going directly to the
+Internet.
+
+❐
+
+Allow only the SG appliance to connect to the Internet for HTTP, HTTPS
+and FTP services.
+
+❐
+
+Install SGOS 4.2.2 or higher with a valid SSL proxy license.
+
+❐
+
+Ensure that the SG appliance is has SSL detection enabled for HTTP
+CONNECT, SOCKS, and TCP Tunnel under Configuration > Services >
+SSL Proxy.
+
+❐
+
+Verify the policy as described in Verifying Skype Request Blocking in the
+following TechBrief:
+http://www.bluecoat.com/downloads/support/tb_skype.pdf
+
+36
+
+

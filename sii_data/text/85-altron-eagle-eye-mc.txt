@@ -1,0 +1,236 @@
+1. Introduction
+Worldwide explosion of communication technologies
+creates a significant challenge for law enforcement
+agencies, national security organizations and
+enterprise security responsible for battling various
+forms of crime and terrorism.
+
+EAGLE EYE
+MC
+
+The Eagle Eye Monitoring Center is a next
+generation product designed for Law Enforcement
+Agencies to carry out lawful surveillance activities. The
+Monitoring Center makes it possible to manage audio,
+video and data interception in a unified manner as well
+as telephone Call Detail Records and IP Detail Records.
+The Monitoring Center is an integrated solution that
+makes it possible to handle various interception data
+coming from various networks including PSTN, ISDN,
+GSM, GPRS, UMTS, IP, Wi-Fi, etc. This assures data
+security, integrity and cost reduction because there is
+no necessity to create new monitoring centres in case
+when any new protocol has been developed.
+The Eagle Eye Monitoring Center does not affect or
+create any indication to the subscriber or the network
+that the interception is taking place. Additionally, the
+monitoring center is completely protected from any
+unauthorized access to the system, either from external
+or internal sources. An integrated Operation Support
+System (OSS) allows the system administrator to
+receive system alarms and health status automatically.
+
+1
+
+The Eagle Eye Monitoring Center modularity makes it possible to deploy Law Enforcement
+Monitoring Facilities (with capability to build a small monitoring centre on one server up to
+building fully functional data centre) according to customers' requirements and
+communication infrastructure.
+2. Architecture
+The Eagle Eye Monitoring Center consists of the following main components:
+Mediation Front End.
+Data Center for collecting and managing intercepted information.
+Operator's Workstation for processing and carrying out comprehensive
+analysis of intercepted information.
+Administrator's Workstation for management and administration.
+GSM/UMTS
+
+Wireless
+
+ISP
+
+International
+Exchange
+
+PSTN
+
+Mediation
+Font End
+Eagle Eye-WiFi
+
+Eagle Eye-IP tap
+
+Data Center
+
+WAN
+
+2
+Local Operator Terminal
+
+Remote Operator Terminal
+
+Mediation Front End.
+The Mediation Front End is an equipment that consists of various interface modules
+ensuring communication with various telecommunication networks for receiving the
+intercepted traffic.
+The Front End complies with the latest Lawful Interception standards to allow target
+assignment, data capturing, buffering, delivery, and distribution of information to different
+destinations. Supported networks and services include different wireless and wire line
+implementations such as GSM, UMTS, CDMA, WiMAX, VoIP, PSTN, NGN, etc.
+Data Center.
+The Data Center is the heart of the monitoring center that receives content of audio, video,
+data communication, the Interception Related Information from the Front-Ends and stores
+them in the centralized DB. The Eagle Eye Monitoring Center is designed for intercepting,
+mediating, storing and analyzing traditional and next generation communications. This
+capability is enabled by use of state-of-the-art computer technology and software
+architecture based on the latest standards.
+Operator's Workstation.
+The Operator's workstation provides a unified graphic interface for different types of data:
+To view lists of communications (Voice, Fax, Internet, etc.) of each target.
+To playback and analyze telephone calls in real time mode and off line mode (fixed
+mobile and UMTS video calls).
+To view Internet communications in real time mode and off-line mode.
+To analyze CDR and IPDR files.
+To carry out link analysis: to create connectivity diagrams, timeline charts, etc.
+
+3
+
+Main View of the Operator's Workstation
+
+4
+
+3. Features and Benefits
+Features
+
+Benefits
+
+Supported networks
+
+PSTN/2G/3G, IP
+networks, NGN
+
+Unified solution for capturing and
+analysing information irrespective of technologies applied in
+communication networks
+
+Supported interfaces
+
+E1/T1, STM, 1-10Gb
+Ethernet
+
+Integration of various information collection interfaces
+within one ÌÑ
+
+Supported external
+component
+
+Eagle Eye - Wi-Fi
+Eagle Eye - IP tap
+
+Integration of external components for centralized processing
+of information
+
+Surveillance of
+telephony services
+
+PSTN/2G/3G, IP
+networks, NGN
+
+Availability of a set of software
+handlers for processing both of
+up-to date and rarely used
+signaling protocols
+
+Surveillance of the IP
+services and
+application
+
+VoIP, E-mail, Webmail, Chat,FTP, Web
+brow-sing, Peer-toPeer, Telnet, Radius,
+Key-words searching
+
+Multiple monitoring tools and
+techniques that can help to
+intercept almost any Wired, Wi-Fi
+or Hybryd Internet Network
+
+Interception of VoIP
+signaling protocols
+
+SIP,H.323, MGCP,
+Megaco, SIGTRAN
+
+Passive deep packet probing
+solution that can be tailored to
+any challenging field configuration such as E1s, STM1-416-64s, ATM, 1-10 Gbps Ethernet
+carried over multi protocol
+switching mechanism
+
+5
+
+Features
+
+6
+
+Benefits
+
+Information delivery
+
+Up to 20 agencies
+
+Supported
+interception standards
+
+ETSI TS 201671
+Compliance with international
+standards and regional regu(Voice), TS 101 331,
+lations
+ES 201158, TS
+102232-1 to 102232-6
+(IP, E-mail, VoIP)
+
+Processing
+
+Fax decoding
+Fax OCR
+
+Analysis toolbox
+
+Connectivity diagrams Possibility to perform search of
+Timeline Charts
+hidden relations
+
+Location Tracking
+
+Location-based queries Use of location data for enhanBehavior profiles
+cing intelligence picture
+
+Security
+
+Role-based permission
+Control, Transparent
+separation of multiple
+agencies, Audit trails
+of all system events
+and user actions,
+IPsec/SSL secure
+remote access
+
+Secure and independent utilization of the system by each
+agency
+
+Automatic detection and demodulation of fax transmissions with
+further optical text recognition
+and search of key words the
+recognized text
+
+Possibility of flexible configuration to meet any organizational security needs, standards and regulations
+
+EAGLE EYE - MC
+6, Kostomarovskaya str.
+61002 Kharkov, Ukraine
+Tel./Fax: +38 (057) 766-13-63
+e-mail:post@altron.ua
+http://www.altron.ua
+
+

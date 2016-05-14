@@ -1,0 +1,1354 @@
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+GPRSpack
+Bedienungsanleitung
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 1 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+Einleitung
+Vielen Dank, dass Sie sich für das GPRSpack entschieden haben.
+Das GPRSpack ist eine Entwicklung des BLKA – Sachgebiet 642: "von Anwendern für Anwender" entwickelt".
+Es zeichnet sich durch
+! einfache Bedienbarkeit,
+! hohe Zuverlässigkeit,
+! Fehlertoleranz, so dass Bedienfehler nicht zwangsläufig zu Fehlfunktionen führen,
+! maximierte Laufzeit bei minimierter Baugröße,
+! hohe Empfindlichkeit und Genauigkeit des GPS-Empfängers, auch im Reflexionsbetrieb,
+aus.
+Zum Betrieb des GPRSpack benötigen Sie
+! eine PIN - lose SIM – Karte (3 Volt)
+o aus programmtechnischen Gründen zurzeit nur: D1, T-Mobile,
+o mit Freischaltung des Services für GPRS - Verbindungen,
+o mit Freischaltung der Sprach- und Daten-Funktionen (Multinumbering1),
+! ein PC oder Notebook
+o mit Internetverbindung und/oder (GSM-)Modem,
+o ein spezielles Programm, das sog. Client-Programm, zur Einstellung der Parameter und
+zur Visualisierung der Positionsdaten,
+! drei Batterien vom Typ "Electrochem BCX 85 C".
+Bitte lesen Sie diese Anleitung sorgfältig durch und beachten Sie unbedingt die Sicherheits- und Warnhinweise.
+Viel Erfolg mit Ihrem GPRSpack.
+
+1
+
+Multinumbering ist eine Option zur Auswahl verschiedener Funktionen eines Endgerätes. Das heißt,
+dass für Sprach-, Daten- und Fax-Anrufe verschiedene Rufnummern verwendet werden (Anmerkung: die
+Fax-Funktion wird hier nicht unterstützt!).
+SIM-Karten mit Multinumbering sind für das GPRSpack unbedingt notwendig!
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+Seite 2 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+1 Inhaltsverzeichnis
+1 Inhaltsverzeichnis ...................................................................................................................................... 3
+2 Beschreibung des GPRSpack................................................................................................................... 3
+2.1 Gerätevarianten .................................................................................................................................. 4
+2.1.1 GPRSpack – Grundmodul V2.6 mit Stromversorgungsmodul V2.6 ............................................ 5
+2.1.2 GPRSpack – Stromversorgungsmodul V2.6................................................................................ 6
+2.1.3 GPRSpack - maxi V2.6 ................................................................................................................ 7
+3 Inbetriebnahme des GPRSpack................................................................................................................ 9
+3.1 Vorbereitung des GPRSpack.............................................................................................................. 9
+3.1.1 Einsetzen und Wechsel der SIM – Karte ..................................................................................... 9
+3.1.2 Stromversorgung des GPRSpack .............................................................................................. 10
+3.1.3 Einlegen der Batterien................................................................................................................ 10
+4 Ad-hoc-Einsatz und "Einfixen"................................................................................................................. 12
+5 Vergleich der GPRS- und CSD-Datenverbindung .................................................................................. 12
+6 Hinweise zur Anbringung des GPRSpack an Zielfahrzeugen................................................................. 12
+7 (GPRS-)Server ........................................................................................................................................ 13
+8 Client-Software ........................................................................................................................................ 13
+9 Betriebsmodi und Programmierung (Kurzreferenz) ................................................................................ 14
+9.1 GPRS-Modus/Live-Ortung................................................................................................................ 14
+9.2 GSM-Standby-Modus/Spuraufzeichnung ......................................................................................... 15
+9.3 CSD-Verbindung (Daten-Verbindung) .............................................................................................. 15
+10 Technische Daten.................................................................................................................................. 17
+10.1 Betriebstemperatur ......................................................................................................................... 17
+10.2 Batteriebetrieb................................................................................................................................. 17
+10.2.1 Spannungsversorgung ............................................................................................................. 17
+10.2.2 Stromaufnahme........................................................................................................................ 17
+10.3 Betrieb mit externer Spannungsversorgung (nur GPRSpack – maxi und / – mini) ........................ 18
+10.3.1 Spannungsversorgung ............................................................................................................. 18
+10.3.2 Stromaufnahme........................................................................................................................ 18
+10.4 Schaltleistung des externen Kontakts (nur GPRSpack – maxi und / – mini).................................. 18
+11 Hinweise, Dies & Das, Tipps, FAQs...................................................................................................... 19
+12 Sicherheits- und Warnhinweise............................................................................................................. 20
+13 Support/Kontakt..................................................................................................................................... 21
+14 Anhang .................................................................................................................................................. 22
+14.1 Informationen im Internet und per Email ........................................................................................ 22
+14.2 MAP&GUIDE-Runtime-Lizenz ........................................................................................................ 22
+14.3 Rücksendeformular......................................................................................................................... 26
+14.4 Notizen............................................................................................................................................ 27
+
+2 Beschreibung des GPRSpack
+!
+!
+!
+!
+!
+
+!
+
+Das GPRSpack dient zur Observierung und Objektverfolgung.
+Im GPRSpack sind ein GSM-Modul (Mobilfunk-Modul) und ein GPS-Empfänger zu einer batteriebetriebenen Einheit kombiniert.
+Die GSM-Antenne ist als kleine Stummelantenne ausgeführt und die GPS-Antenne dank eines
+zusätzlichen Haltemagnetes am Gehäuse fixiert. Das GPRSpack besteht daher nur aus einer
+kompakten Einheit.
+Die GPS-Antenne muss nicht mit Himmelssicht ausgerichtet werden.
+Der GPS-Empfänger ermittelt die Geräte- und damit die Objektposition, die entweder über eine
+GPRS-Verbindung des GSM-Moduls an einen (Internet-)Server und weiter zu einem PC (Client)
+übertragen wird oder über eine bestehende CSD-Verbindung (sog. "leitungsvermittelte Datenverbindung") direkt zu dem Client-PC übertragen werden.
+Die Visualisierung der Position des GPRSpack bzw. des Objektes erfolgt einfach und komfortabel
+mit Programmen wie PathFinder, MuGKarte, GPS-Tracker oder vergleichbaren UKSP-fähigen
+Software (Standard-UKSP).
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 3 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+!
+GPRSpack "
+
+!
+
+GPRS # Server "
+Verbindung
+
+Internet Verbindung
+
+#
+
+PC (Client) mit PathFinder,
+MuGKarte, GPS-Tracker o.ä.
+Alternativ zu diesem "GPRS-Modus" können die Positionsdaten auch per CSD2-Datenverbindung
+vom GPRSpack abgerufen werden.
+Hinweis:
+Der Betrieb des GPRSpack, bzw. die Übertragung der Positionsdaten, kann nicht gleichzeitig über GPRS und CSD erfolgen. Es ist immer nur ein Betriebsmodus zurzeit, GPRS oder CSD,
+möglich!
+
+2.1 Gerätevarianten
+Die GPRSpack - Familie umfasst derzeit vier Gerätetypen:
+GPRSpack
+Komplett
+
+Elektronik und Batterien in einem Gehäuse.
+
+GPRSpack
+maxi
+Komplett
+
+Elektronik und Batterien in getrennten
+Gehäusen. Schneller Batteriewechsel
+durch Austausch des Batteriemoduls.
+
+GPRSpack
+mini
+Komplett
+
+Elektronik-Modul zur Fremdspannungsversorgung.
+
+GPRSpack
+Grundmodul
+
+Elektronik-Baugruppe zum Selbsteinbau;
+mit und ohne Spannungsversorgung für
+Batterie und Fremdspannungsversorgung.
+
+2
+
+Unter CSD-Datenverbindung ("Circuit Switched Data") wird hier die Datenüberragung per Modem über
+das GSM-Netz zu dem im GPRSpack integrierten GSM-Modem verstanden.
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+Seite 4 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+2.1.1 GPRSpack – Grundmodul V2.6 mit Stromversorgungsmodul V2.6
+
+Anschlussbelegung siehe auch unter Beschreibung Stromversorgungsmodul (2.1.2 GPRSpack – Stromversorgungsmodul V2.6, Seite 6).
+Leiterpaar
+rot – schwarz
+rot – blau
+weiß – grün
+
+Anschluss
+Batteriespannung 3,0 VDC bis 3,9 VDC
+externe Spannungsversorgung 8 VDC bis 30 VDC
+Schaltkontakt
+
+rot: PLUS; schwarz: MINUS
+rot: PLUS; blau: MINUS
+Anschluss: beliebig für DC und AC
+
+In dieser Ausführungsvariante ist das Grundmodul über Steckverbinder elektrisch mit dem Stromversorgungsmodul verbunden. Die Montage erfolgt über 6-Kantbolzen mit M2 Gewinde.
+Mit dem Stromversorgungsmodul kann das Grundmodul des GPRSpack V2.6 ( GM ) neben der Batteriespannung (3,0 bis 3,9 VDC) auch mit einer externen Spannungsversorgung (8 bis 30 VDC) betrieben werden. Die Umschaltung erfolgt automatisch bei Anlegen der externen Spannungsversorgung.
+Die Stromaufnahme beträgt bei einer angelegten Spannung von ca. 12 V:
+o bei einer GPRS- Verbindung und eingeschaltetem GPS-Empfänger: ca. 85mA
+o bei einer CDS- Verbindung ( Daten-Ruf ) eingeschaltetem GPS-Empfänger: ca. 90mA
+o Standby, d.h. GSM-Engine (MC55) eingeschaltet und eingebucht und eingeschaltetem GPSEmpfänger : ca. 45mA
+Die Stromaufnahme ist unter u. a. von der GSM-Empfangsqualität abhängig. Bei geringer Empfangsqualität (schwaches Eingangssignal) steigt die Stromaufnahme.
+Zusätzlich besteht die Möglichkeit über Software (GPS-Tracker) einen externen Schaltkontakt zu aktivieren.
+Mit diesem Schaltkontakt lassen sich während der Ortung Schaltaufgaben realisieren,
+z.B. das Ein- und Abschalten bestimmter Funktionseinheiten.
+Schaltleistung :1A, 30 VAC und VDC
+Zur Vermeidung von Störstrahlungen ist unbedingt darauf zu achten, dass das Modul in ein metallisch geschirmtes Gehäuse verbaut wird.
+Masse: 56 mm x 33 mm x 24 mm (Länge x Breite x Höhe).
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 5 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+2.1.2 GPRSpack – Stromversorgungsmodul V2.6
+
+Anschlussbelegung:
+1: Steuerkontakt für Schaltrelais
+2: Ausgangsspannung zum GM
+3: Umschaltsignal externe/interne VDC
+4: Batteriespannung zum GM
+5: Batteriespannung 3,0 bis 3,9 VDC
+6: Anschluss Schaltkontakt
+7: Externe Spannung 8 bis 30 VDC
+
+Grundmodul und Stromversorgungsmodul sind in Sandwich- Bauweise miteinander verbunden
+(Stifte und Buchsen) oder können frei verdrahtet werden.
+Bei einer Verdrahtung sind die Anschlusspunkte 1 bis 5 der Stromversorgung mit den gleichen
+Anschlusspunkten des Grundmoduls zu verbinden. Anschluss 6 und 7 werden nur an der
+Stromversorgung angeschlossen.
+Die Leitungsquerschnitte bei der Freiverdrahtung :
+1
+2
+3
+4
+5
+6
+7
+
+Anschluss
+Steuerkontakt für Schaltrelais
+Ausgangsspannung zum GM
+Umschaltsignal externe/interne VDC
+Batteriespannung zum GM
+
+Batteriespannung (3,0 bis 3,9 VDC)
+Anschluss Schaltkontakt
+
+externe Spannungsversorgung (8 bis 30 VDC)
+
+Mindest-Leiterquerschnitt
+
+0,50 mm²
+0,50 mm²
+0,25 mm²
+0,50 mm²
+0,50 mm²
+0,25 mm²
+0,25 mm²
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 6 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+2.1.3 GPRSpack - maxi V2.6
+Die Grundfunktionen des GPRSpack- maxi V2.6 (Artikel 901103) entsprechen denen des GPRSpack
+V2.6 Komplettgerätes (Artikel 901100) mit der zusätzlichen Ausstattung eines externen Spannungsanschlusses und eines Schaltkontaktes, der über eine Sonderfunktion der Software GPS-Tracker angesteuert werden kann.
+Es besteht die Möglichkeit, das Batteriemodul vom Elektronikmodul zu trennen. Dadurch kann das Elektronikmodul auch mit einer externen Spannung allein betrieben werden, z.B. für den Festeinbau.
+Die externe Anschlussspannung darf 8 bis 30 VDC betragen.
+Beim gleichzeitigen Betrieb des Gerätes mit Batterien und externer Spannung hat die externe Spannung
+Vorrang, d.h. die Batteriespannung wird durch die interne Stromversorgung abgeschaltet. Wird die externe Spannung abgesteckt, übernehmen die Batterien wieder die Spannungsversorgung.
+Die Anschlussbelegung des 4-poligen Kabels ist im Deckel des Elektronikmoduls dokumentiert.
+
+Rot
+Schwarz
+Braun
+Orange
+
+Flanschstecker am
+GPRSpack
+
+Kabeldose
+
+Binder, M8
+
+Binder, Typ 712 (M8),
+IP67
+
+Pin 4
+Pin 3
+Pin 2
+Pin 1
+
+Pluspol
+Minuspol
+Schaltkontakt
+Schaltkontakt
+
+Anschlussbelegung
+Anschluss
+Pin 1
+Pin 2
+Pin 3
+Pin 4
+
+Belegung
+Schaltkontakt
+Schaltkontakt
+externe Spannungsversorgung:
+MINUS
+externe Spannungsversorgung:
+PLUS (8 V bis 30 V)
+
+Die Verbindung der beiden Module erfolgt über einen stabilen Bajonettverschluss mit Kugelrasterung und
+Hochstromkontakten.
+Zum Zusammenstecken der Module setzen Sie das Elektronikmodul im 45° Winkel an das Batteriemodul
+an, schieben es bis zum Anschlag ein und drehen Sie es im Uhrzeigersinn.
+Der Bajonettverschluss ist zur Abdichtung mit einem O-Ring ausgestattet, der von Zeit zu Zeit mit Vaseline gefettet werden soll.
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 7 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+Alle hier sichtbaren Befestigungselemente (Schrauben, Anschlüsse, Antennen) sind schwarz eingefärbt.
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 8 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+3 Inbetriebnahme des GPRSpack
+Mit dem Einlegen der Batterien wird das GPRSpack eingeschaltet. Das GSM-Modul „bucht sich ein“ und
+eine GPRS-Verbindung wird aufgebaut. Unmittelbar daraufhin wird auch der GPS-Empfänger aktiviert, so
+dass dann die Positionsdaten über den Server an die verbundenen Clients übertragen werden können.
+Erhält das GPRSpack innerhalb von ca. 7 Minuten kein spezielles „Wachhaltekommando“ durch die
+Client-Software, so wird die GPRS-Verbindung beendet und das GSM-Modul in "standby" betrieben.
+Nach weiteren 7 Minuten wird auch der GPS-Empfänger ausgeschaltet.
+Zur Re-Aktivierung des GPRS-Betrieb muss das GPRSpack mit einem Sprachanruf über ein Mobil- oder
+Festnetztelefon (2 bis 3-maliges Läuten) wieder „aufgeweckt“ werden.
+Werden die Positionsdaten per (CSD-)Datenverbindung abgerufen, so ist das vorherige "Wecken" nicht
+notwendig!.
+Nach Beendigung der (CSD-)Datenverbindung wird der GPS-Empfänger ebenfalls nach ca. 7 Minuten
+abgeschaltet.
+
+3.1 Vorbereitung des GPRSpack
+3.1.1 Einsetzen und Wechsel der SIM – Karte
+ACHTUNG: Das GPRSpack enthält hochempfindliche Komponenten!
+Beachten Sie unbedingt die Bestimmungen für Arbeiten an ESD-gefährdeten Geräten!
+Vermeiden Sie unbedingt elektrostatische Ladungen und entladen Sie sich ggf. durch
+vorheriges Berühren eines entsprechenden Erdungskontakts.
+
+1. Lösen Sie die äußeren
+2. Heben Sie nun vorsichtig die
+Schrauben des Elektronikfaches. Bodenplatte senkrecht nach oben. Die Elektronikbaugruppe
+befindet sich direkt darunter.
+
+3. Lösen Sie die zwei Schrauben
+am GSM-Modul (Aufschrift:
+"SIEMENS"). Der SIM - Kartenhalter befindet sich direkt darunter.
+
+4. Entriegeln Sie den SIM - Kartenhalter, indem Sie den oberen
+Teil leicht um ca. 2 Millimeter
+nach rechts schieben.
+
+6. Klappen Sie den Deckel wieder zurück. Achten Sie nochmals
+auf die richtige Lage der abgeschrägten Ecke der SIM - Karte.
+
+5. Setzen Sie die SIM - Karte mit
+den Kontakten nach unten in den
+Deckel des Halters ein. Die abgeschrägte Ecke muss herausstehen!
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 9 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+7. Schieben Sie nun den Deckel 7.1 RICHTIG !
+7.2 FALSCH !
+zurück in die Verriegelung.
+8. Setzen Sie das GSM-Modul wieder auf und verschrauben Sie es. Verwenden Sie bitte Wellscheiben
+oder Sicherungslack um ein Lösen zu vermeiden.
+9. Setzen Sie die Elektronik-Baugruppe wieder vorsichtig in das Elektronikfach.
+! Beachten Sie die Lage der Leitungen, insbesondere der Antennenleitungen. Sie dürfen in keinem Fall geknickt werden und müssen in großen Radien verlegt werden!
+! Achten Sie auch auf den einwandfreien Sitz der Steckverbinder der Antennenleitungen.
+! Sollte das Elektronikfach nicht mit einem O-Ring gegen eindringende Feuchtigkeit geschützt
+sein, so benetzen Sie den Gehäuserand mit einer ausreichenden Schicht Vaseline oder anderen geeigneten Dichtungsmitteln!
+10. Verschrauben Sie nun das Elektronikfach mit den Schrauben am Gehäuserand.
+
+3.1.2 Stromversorgung des GPRSpack
+Zum Betrieb des GPRSpack werden drei 3 V-Hochstrom-Rundzellen der Bauform C (Babyzelle) benötigt.
+Es wird dringend empfohlen, ausschließlich folgende Zellen zu verwenden, diese wurden erfolgreich mit
+dem GPRSpack getestet!
+Electrochem BCX85 C
+Typ:
+C (Babyzelle)
+Bauform:
+Wilson Greatbatch Technologies
+Hersteller:
+100 Energy Drive; Canton MA 02021; U.S.A.
+www.greatbatch.com
+Hersteller-Artikel-Nr.: P/N: 3B70
+Beim Austausch der Batterien ist zu beachten, dass immer nur Batterien des gleichen Typs, mit annähernd gleicher (Rest-)Kapazität verwendet werden dürfen!
+Es empfiehlt sich daher, jeweils drei Batterien immer zusammen – als ein Batteriepack – zu verwenden! Die Verwendung von Batterien unterschiedlicher (Rest-)Kapazität kann zu Beschädigungen und Fehlfunktionen führen!
+Prüfen Sie ggf. die Zellspannung mit einem Messgerät.
+
+3.1.3 Einlegen der Batterien
+!
+!
+
+Beachten Sie die Batteriepolung!
+Alle Zellen müssen in dieselbe Richtung zeigen!
+Legen Sie die Batterien in folgender Reihenfolge ein (nur bei GPRSpack Komplettgerät):
+1. Batterie auf der Seite der Antennenbuchsen:
+Batterie seitlich in die Kontakte schieben! Nicht von oben, über die Antennenbuchsen
+hinweg, einlegen! Bei Nichtbeachtung können die Buchsen beschädigt werden!
+2. Batterie auf der den Antennenbuchsen gegenüberliegenden Seite:
+Vorsicht beim Einlegen der Batterie. Der Deckel der angrenzenden Elektronikeinheit überlappt ein wenig; die Isolierung der Batterie darf beim Einsetzen nicht beschädigt werden!
+3. Batterie in der Mitte einlegen.
+
+Die Batterien dürfen nicht mit einem Schraubendreher oder ähnlichem herausgehebelt werden!
+Die Batterien können durch leichtes Klopfen des Gehäuses in die offene Hand entnommen werden!
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 10 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+Batterielaufzeiten mit drei Zellen "Electrochem BCX 85 C":
+GPRS-Betrieb1) CSD-Datenverbindung Standby-Betrieb
+ca. 90 Stunden
+ca. 60 Stunden
+i.d.R. über 3 Monate
+Laufzeit2) mit BCX85C:
+(getestet)
+(berechnet)
+(getestet)
+Angaben sind ungefähre Werte und können in der Praxis abweichen!
+1)
+Übertragung der Daten in einem Intervall von ca. 3 Sekunden.
+2)
+Laufzeiten ohne Spuraufzeichnung
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 11 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+4 Ad-hoc-Einsatz und "Einfixen"
+Vor einem Ad-hoc-Einsatz muss das GPRSpack einige Minuten bei optimaler Ausrichtung der GPSAntenne (zum Himmel) betrieben werden! Erst danach sollte es am Zielobjekt angebracht werden, um
+auch beim "Reflexions-Empfang" akzeptable Daten zu erhalten.
+Sollte dieses „Einfixen“ nicht möglich sein, kann es wesentlich mehr Zeit beanspruchen, bis die erste
+gültige Position berechnet und übertragen wird.
+Bitte beachten Sie,
+! dass die (erste) Wartezeit – die "Einfixzeit" – von 15 Minuten erst ab dem Empfang der ersten Satellitendaten beginnt (z.B. mit dem Programm PathFinder kann dies leicht durch die Angabe 'sichtbarer' Satelliten überprüft werden);
+! dass eine GPRS- oder (CSD-)Datenverbindung bestehen muss, da sonst nach ca. 7 Minuten der
+GPS-Empfänger deaktiviert wird;
+! dass es bei Re-Aktivierung des GPS-Empfängers bzw. nach längerer Ruhepause (Standby-Betrieb)
+zu Beginn fälschlicherweise zu einer Geschwindigkeitsanzeige – auch bei Nichtbewegung des Zielobjektes – kommen kann. Dieser „Effekt“ dauert jedoch nur wenige Minuten.
+
+5 Vergleich der GPRS- und CSD-Datenverbindung
+Gerätebedarf: o
+o
+Vorteile:
+
+o
+o
+
+Nachteile:
+
+o
+
+Empfehlung: o
+
+GPRS-Verbindung
+PC oder Notebook;
+Internetverbindung (ggf. auch
+über GSM)
+kostengünstig durch Volumentarife;
+längere Batterielaufzeit des
+GPRSpack
+u. U. keine Roaming - Unterstützung
+Einsatz bei observationsunterstützenden Betrieb
+
+o
+o
+
+CSD-Datenverbindung
+PC oder Notebook;
+(GSM-)Modem
+
+o
+
+"stand alone" - Anwendung; kein InternetServer und kein -Client notwendig;
+in fast allen GSM-Netzen möglich
+
+o
+
+teuer(er)
+
+o
+
+Einsatz in besonders sensiblen Situationen, z.B.
+o unmittelbar vor einem Zugriff,
+o Übergabe der Observation an eine andere
+Einheit
+
+6 Hinweise zur Anbringung des GPRSpack an Zielfahrzeugen
+Dank des hochwertigen Aluminiumgehäuses mit integriertem Batteriefach und starken Haltemagneten
+kann das GPRSpack leicht, schnell und ohne Werkzeug an ferromagnetischen Flächen angebracht werden (die Anbringungsfläche sollte mindestens der Gerätegrundfläche entsprechen). Der im GPRSpack
+verwendete GPS-Empfänger liefert auch bei reflektierten Satellitensignalen sehr gute Positionsdaten.
+Beachten Sie, dass das Anbringen des GPRSpack an Fahrzeugseiten nur eine "180-Grad-Sicht" ermöglicht, die Anbringung an einer Fahrzeugecke aber eine "270-Grad-Sicht" ergibt.
+$ 180° %
+$ 270°
+&
+& '
+Demzufolge eignen sich Ecken von Plastikstoßstangen hervorragend zur GPS-Ortung.
+Die Positionsbestimmung wird erschwert, wenn die GPS-Antenne an ihrer Leitung nach unten „baumelt“
+und nicht mit dem Magneten befestigt ist. Deshalb ist immer auf die korrekte Anbringung der GPS- Antenne zu achten.
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 12 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+7 (GPRS-)Server
+Der "GPRS-Server" dient zur Übertragung der Daten vom GPRSpack an den Client. Hierzu kann ein
+(professioneller) Rack-Server oder ein "normaler" PC, Desktop oder Notebook mit fester IP-Adresse verwendet werden (siehe z.B. www.tal.de; z. Z. werden feste IP-Adressen ab ca. 10,00 EUR zusätzlich zum
+DSL-Anschluss angeboten). Die Anbindung an bestehende Serversysteme in den IUK-Zentren ist ebenfalls denkbar.
+Auf Anfrage ist die Server-Software beim Kauf des GPRSpack bei der Firma EBS (s. u.) erhältlich.
+
+8 Client-Software
+Das GPRSpack unterstützt diverse Client-Programme zur Visualisierung der Positionsdaten.
+Programm:
+MUG-Karte
+GPS-Tracker
+PathFinder
+1)
+Leo Kohmann
+Alois Rausch
+Kontaktperson:
+SEK-Baden Württemberg
+BPOLZSIUK
+BLKA
+Dienststelle:
+1)
+07161 / 616-1871
+02254 / 38-235
+Telefon:
+1)
+alois.rausch@polizei.bund.de
+E-Mail:
+leo.kohmann@sek.bwl.de
+Heininger Str. 100
+Gabrielweg 5
+Anschrift:
+1)
+73037 Göppingen
+53913 Swisttal
+1)
+Das Programm "PathFinder" ist für das GPRSpack bei der Firma EBS-Electronic GmbH erhältlich.
+Zur mobilen Anwendung der Client-Software (z.B. in einem Fahrzeug mit einem Notebook) wird zusätzlich ein GPRS-Modem (z.B. SIEMENS MC39i-Terminal oder MC Technologies MC55T) benötigt.
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 13 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+9 Betriebsmodi und Programmierung (Kurzreferenz)
+9.1 GPRS-Modus/Live-Ortung
+Im GPRS-Modus stellt das GPRSpack über das GSM-Netz eine (GPRS-)Verbindung
+zum Server her und sendet alle 3 oder 12 Sekunden die aktuelle GPS-Position und
+die Bewegungserkennung.
+Diese Daten werden dann vom Client-Programm3 vom Server abgerufen.
+Aufruf des GPRS- Der GPRS-Modus wird unmittelbar
+Modus:
+! nach dem Einlegen der Batterie,
+! Anlegen einer Versorgungsspannung,
+! einen eingehenden Sprachanruf4
+oder
+! durch eine Anweisung – zum Beispiel aus dem Programm "GPS-Tracker" –
+aktiviert.
+Sprachanrufe werden vom GPRSpack nach zwei oder drei Rufzeichen abgewiesen.
+Der Anrufer hört die Ansage "Der Teilnehmer ist zurzeit nicht erreichbar". Es folgt der
+Aufbau der GPRS-Verbindung, der bis zu 1 Minute dauern kann.
+Ende des GPRS- Der GPRS-Modus wird durch
+Modus:
+! einen Befehl vom Client-Programm,
+! einen eingehenden Daten-Anruf
+oder
+! wenn für ca. 7 Minuten kein "Aufwachkommando" empfangen wurde
+beendet und der GSM-Standby-Modus aktiviert.
+Hinweis: Im Programm "PathFinder" wird beim deaktiviertem "beobachten" (kein
+Häkchen) zyklisch ein Kommando gesendet, so dass die Verbindung gehalten wird.
+Die Bedienung hängt vom Client-Programm ab. PathFinder bietet zum Beispiel folBedienung im
+gende Möglichkeiten:
+GPRS-Modus:
+Position:
+Das GPRSpack sendet alle 3 bzw. 12 Sekunden die aktuellen
+GPS-Positionsdaten und den Bewegungsstatus.
+Bewegungsmelder: Der GPS-Empfänger wird ausgeschaltet und neue Positionsdaten erst dann gesendet, wenn das GPRSpack wieder bewegt wird.
+Bereitschaft:
+Der GPS-Empfänger wird ausgeschaltet und das GPRSpack
+wartet auf neue Befehle.
+Schlafmodus:
+Das GPRSpack beendet die GPRS-Verbindung und wechselt
+in den Modus "GSM-Standby".
+Einstellmöglichkeiten:
+Intervall der Daten- 3
+Die Positionsdaten werden alle 3 Sekunden gesendet.
+übertragung:
+12
+Die Positionsdaten werden alle 12 Sekunden gesendet.
+Spuraufzeichnung:
+ein Einschalten der Spuraufzeichnung
+aus Ausschalten der Spuraufzeichnung
+Ist keine Spuraufzeichnung aktiviert, so wird der GPS-Empfänger zu Beginn des
+Hinweise:
+GPRS-Modus eingeschaltet. Abhängig von den Empfangsbedingungen kann die erste Positionsbestimmung (sog. Fixing) einige Minuten dauern.
+Sollte keine GPRS-Verbindung möglich sein (z.B. wenn kein GSM-Netz verfügbar
+ist), so wird nach 3 Fehlversuchen der Modus "GSM-Standby" aktiviert.
+(Nur bei ausgeschalteter Spuraufzeichnung:) Sollte die GSM- bzw. GPRSVerbindung abbrechen, so wird der GPS-Empfänger erst nach 7 Minuten ausgeschaltet. Hierdurch wird bei erneuter Verbindung die Positionsbestimmung (sog. Fixing)
+erleichtert.
+Befindet sich das GPRSpack in einer Daten-Verbindung, so kann kein weiterer Anruf
+entgegengenommen werden. Der Anrufer erhält ein Besetztzeichen.
+Beschreibung:
+
+3
+
+Client-Programme: z.B. PathFinder oder GPS-Tracker
+Sprach-Anrufe sind Anrufe auf der Sprachrufnummer der verwendeten SIM-Karte. Falls Sie für die SIM-Karte nur eine Rufnummer
+für Sprach-, Fax- und Daten-Verbindungen erhalten haben, so werden die Verbindungen vom GSM-Netzwerk automatisch erkannt,
+sobald Sie für den Sprach-Anruf ein Mobil- oder Festnetztelefon verwenden.
+4
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 14 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+9.2 GSM-Standby-Modus/Spuraufzeichnung
+Beschreibung:
+
+Aufruf des GSMStandby-Modus:
+Ende des GSMStandby-Modus:
+Spuraufzeichnung
+
+Im GSM-Standby-Modus ist der GPS-Empfänger ausgeschaltet. Sofern ein
+GSM-Netz zur Verfügung steht ist das GPRSpack eingebucht, es besteht aber
+keine Daten- oder GPRS-Verbindung.
+In diesem Modus hat das GPRSpack den geringsten Stromverbrauch und damit
+die längste Betriebslaufzeit.
+Hinweis:
+Das GPRSpack kann nicht ausgeschaltet werden! Zum vollständigen Ausschalten müssen die Batterien entfernt bzw. alle Spannungsversorgungen abgeklemmt werden.
+Das GPRSpack aktiviert selbstständig den GSM-Standby-Modus nach einer
+GPRS- oder CSD-Verbindung.
+Mit einem Sprach-Anruf zum Aufruf des GPRS-Modus oder Daten-Anruf zum
+Aufruf der CSD-Verbindung wird der GSM-Standby-Modus beendet.
+Die Spuraufzeichnung ist eine Zusatzfunktion während des GSM-StandbyModus. Der GPS-Receiver wird bei Bewegungserkennung aktiviert und die
+Positionsdaten in Intervallen gespeichert.
+Erfolgt für ca. 3 Minuten keine Bewegungserkennung, so wird die Spuraufzeichnung gestoppt, der GPS-Receiver ausgeschaltet und erst nach erneuter
+Bewegungserkennung fortgesetzt.
+Im GPRS- und CSD-Modus, also während einer Live-Ortung, ist die Spuraufzeichnung, unabhängig von der Bewegungserkennung, immer aktiv.
+
+9.3 CSD-Verbindung (Daten-Verbindung)
+Befindet sich das GPRSpack im GSM-Standby-Modus, so kann es z.B. mit dem Programm GPS-Tracker
+über eine CSD- bzw. Daten-Verbindung angewählt und hierüber Einstellungen vorgenommen, sowie die
+Spuraufzeichnung und der Energiezähler ausgelesen werden.
+
+Rekorder
+
+Einstellungen
+
+Kennung
+
+Die Einstellungen (Konfiguration) umfasst folgende Parameter:
+UKSP-Kenner
+Geben Sie hier unbedingt den UKSP-Kenner Ihres GPRSpack ein, diese wird
+u. a. auch in den Daten der Spuraufzeichnung gespeichert und sollte daher
+eindeutig Ihrem GPRSpack zugehörig sein!
+Server-IP
+IP-Adresse des von Ihnen verwendeten Servers. Sollten Sie keinen Server
+verwenden, so geben Sie bitte eine ungültige IP-Adresse (z.B.
+255.255.255.255) ein.
+Portnummer
+Port-Adresse auf Ihrem Server (siehe Server-IP).
+ACHTUNG:
+Die Port-Adresse muss über 1000 liegen! Pro GPRSpack werden 10 PortAdressen genutzt. Es können somit mehrere GPRSpack über einen Server
+betrieben werden (sofern sich die Port-Adressen unterscheiden).
+Gebräuchlich ist beim GPRSpack folgende Konvention:
+Port-Adresse = 10000 + (10 * UKSP-Empfängernummer).
+Z.B.: UKSP = 11.12.13.14 ( Port-Adresse = 10000 + (10 * 14) = 10140
+Sendeintervall der Sendeintervall während einer GPRS-Live-Ortung (Betriebsmodus: GPRSPositionsdaten
+Mode).
+Das Standard-Intervall von 3 Sekunden sollte nicht verändert werde!
+Alarmzone (Geobe- ACHTUNG:
+reich)
+Der Null-Meridian darf nicht durch die Geozone führen!
+Spuraufzeichnung ) Spuraufzeichnung EIN; * Spuraufzeichnung AUS
+Intelligente Spurauf- ) intelligente Spuraufzeichnung; die Speicherintervalle sind geschwindigkeitszeichnung
+abhängig:
+geringe Geschwindigkeit ( kurze Intervalle (mind. 4 Sekunden), da Richtungsänderungen kurzfristig möglich sind;
+( längere Intervalle, da abrupte Richtungsändehohe Geschwindigkeit
+rungen nicht zu erwarten sind.
+Hinweis: Für die "Intelligente Spuraufzeichnung" muss die o. g. Funktion "Spuraufzeichnung" ebenfalls eingeschaltet sein!
+* Spuraufzeichnung in konstanten Zeitintervallen
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 15 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+Unterspannung
+Aufwachen des
+Packs
+Speicher voll
+
+Alarme
+
+Geozone: Eintritt
+Geozone: Austritt
+Geozone: Eintritt/Austritt
+SMSTelefonnummer
+
+Strom
+
+Energiezähler
+
+Sonstiges
+
+Aufruf des GPRSMode
+Aufruf des UpdateMode
+
+) Alarmierung per SMS-Nachricht bei Unterschreiten der Batteriespannung
+unter ca. 2,3 V.
+) Alarmierung per SMS-Nachricht bei Beginn der Spuraufzeichnung (d.h.,
+sobald sich das GPRSpack bzw. das Objekt in Bewegung setzt).
+) Alarmierung per SMS-Nachricht bei Erreichen von 3500 gespeicherten
+Spurpunkten zum baldigen Auslesen der Spuraufzeichnung.
+) Alarmierung per SMS-Nachricht beim Eintritt in die eingestellte Geozone
+(Alarmzone).
+) Alarmierung per SMS-Nachricht beim Austritt/Verlassen der eingestellten
+Geozone (Alarmzone).
+) Alarmierung per SMS-Nachricht beim Eintritt in die eingestellte Geozone
+(Alarmzone), sowie beim Austritt/Verlassen der Geozone.
+Rufnummer, an die die SMS-Nachrichten gesendet werden.
+! Geben Sie nur gültige Rufnummern, komplett mit der internationalen
+Vorwahl, ein. Z.B. "+49171…"!
+! Verwenden Sie keine Formatierungszeichen (z.B.: -,(,),/ oder Leerzeichen; also nur die Ziffern 0, 1, 2, …, 9 und immer das '+' als erstes Zeichen!
+Bei Übertragungsfehlern werden SMS-Nachrichten bis zu drei Mal im Abstand
+von ca. zwei Minuten gesendet; danach erfolgt kein weiterer Sendeversuch!
+Der Energiezähler dient als Richtwert zur Ermittlung des verbrauchten Energiebedarfs seit dem letzten Rücksetzen.
+! Der Wert des Energiezählers wird nicht gemessen, sondern aus der
+Betriebslaufzeit des GSM-Moduls und des GPS-Receivers bei Verwendung von drei Batterien des Typs "BCX 85" errechnet.
+! Sonderfunktionen wie z.B. ein Schaltkontakt sind nicht berücksichtigt.
+! Temperaturschwankungen, insbesondere unter 0 °C können die Berechnung verfälschen.
+! Wird das GPRSpack durch eine Fremdspannung (teilweise) versorgt,
+so geht auch dieser Strom in die Berechnung mit ein und lässt einen
+Rückschluss auf die noch vorhandene Batteriekapazität nur schwer zu.
+! Wird der Energiezähler nach einem Batteriewechsel nicht zurückgesetzt, so entspricht der angegebene Wert nicht der voraussichtlichen
+Energieentnahme des aktuellen Batteriesatzes!
+! Es wird empfohlen einen Batteriesatz zu entleeren um einen Richtwert
+zu ermitteln der den Standardbedingungen entspricht.
+Pack aufwecken (Pack sendet Daten über GPRS)
+Pack in den Update-Modus versetzen
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 16 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+10 Technische Daten
+10.1 Betriebstemperatur
+Die Elektronik des GPRSpack ist für den Industriebereich von – 40 °C bis + 85 °C ausgelegt. Es enthält
+aber Komponenten, die aufgrund ihres Temperaturbereiches gegenüber extremen Temperaturen sehr
+empfindlich sind und dadurch den Anwendungsbereich bestimmen.
+Temperaturbereich
+Bemerkung
+min.
+max.
+GSM-Engine:
+normaler Betrieb:
+-20 °C
++ 55 °C Der Betrieb innerhalb dieses Bereiches wird vom Hersteller garantiert.
+-25 °C
+-20 °C eingeschränkter Betrieb:
+Abhängig von weiteren Kriterien (Betriebsmodus) kann es zum Ausschalten kommen. Der Betrieb ist wahrscheinlich, wird aber nicht
+Und
+garantiert.
++55 °C
++70 °C
+Batterie:
+
+-55 °C
+-20 °C
+-60 °C
+
++85 °C
++93 °C
++85 °C
+
+SIM-Karte:
+
++0 °C
+
++50 °C
+Bis
+
+-25 °C
+
++ 85 °C
+
+Electrochem BCX85 (P/N: 3B75)
+Electrochem CSC93 (P/N: 3B35)
+Saft LSH20
+Der Temperaturbereich von SIM-Karten ist i.d.R. deutlich gegenüber
+den o.g. eingeschränkt.
+Erkundigen Sie sich bei Ihrem Mobilfunkbetreiber nach dem Temperaturbereich der Ihnen zur Verfügung gestellten SIM-Karte und ggf.
+nach SIM-Karten mit erweitertem Temperaturbereich.
+
+10.2 Batteriebetrieb
+10.2.1 Spannungsversorgung
+min.
+typ.
+max
+Einheit
+Batteriespannung, VBAT
+2,7 1)
+3,3
+3,8
+V
+1)
+deutlich niedrigere Eingangsspannung sind in der Praxis möglich, können aber nicht über den gesamten Temperaturbereich garantiert werden.
+
+10.2.2 Stromaufnahme
+StromaufGPSBatteriespannahme
+Empfännung
+Bemerkung
+IBAT,typ/[mA]
+ger
+VBAT/[V]
+GPRS-Modus
+≈ 200
+EIN
+≈ 3,3
+Normaler Betrieb
+Standby, ohne Spuraufzeichnung
+≤7
+AUS
+≈ 3,3
+Standby, mit Spuraufzeichnung
+120..140
+EIN
+≈ 3,3
+Nachfolgende Messergebnisse zeigen die Stromaufnahme bei abnehmender Batteriespannung, bis zur
+automatischen Reduzierung der Stromaufnahme auf ein Minimum von (hier) ca. 50 µA.
+Diese Werte liegen außerhalb des garantierten Bereiches!
+StromaufGPSBatteriespanBetriebs-Modus
+Bemerkung
+nahme
+Empfännung
+IBAT,typ/[mA]
+ger
+VBAT/[V]
+Standby, mit Spuraufzeichnung
+≈ 180
+EIN
+≈ 2,2
+"noch" normaler Betrieb
+Standby, mit Spuraufzeichnung
+190 .. 205
+EIN
+≈ 2,0
+Standby, mit Spuraufzeichnung
+≈ 210
+EIN
+≈ 1,9
+?
+≈ 50
+AUS
+≈ 1,8
+"grenzwertig"
+"automatische Stromreduzie?
+≤ 0,05
+AUS
+≤ ca. 1,7
+rung"
+(50 µA)
+Die angegebenen Werte sind Messergebnisse einer typischen Anwendung. Die Stromaufnahme kann in der
+Praxis abweichen, abhängig u. a. von der Betriebstemperatur, den GSM-Empfangsqualitäten, Bauteiletoleranzen (insbesondere der verwendeten Schutzdioden) und der verwendeten Spannungsversorgung!
+Betriebs-Modus
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 17 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+10.3 Betrieb mit externer Spannungsversorgung (nur
+GPRSpack – maxi und / – mini)
+10.3.1 Spannungsversorgung
+min.
+typ.
+max
+Einheit
+externe Spannungsversorgung, VEXT
+8 1)
+12
+30
+V
+1)
+Niedrigere Eingangsspannung sind in der Praxis möglich, können aber nicht über den gesamten Temperaturbereich garantiert werden.
+
+10.3.2 Stromaufnahme
+Stromaufexterne SpanGPSnahme
+nung
+Betriebs-Modus
+EmpfänBemerkung
+IEXT, typ
+VEXT
+ger
+[mA]
+[V]
+GPRS-Modus
+≈ 80
+EIN
+≈ 12,0
+≈ 50
+EIN
+≈ 24,0
+Standby, ohne Spuraufzeichnung
+≤ 10
+AUS
+≈ 12,0
+Normaler Betrieb
+≈ 5
+AUS
+≈ 24,0
+Standby, mit Spuraufzeichnung
+≈ 40
+EIN
+≈ 12,0
+≈ 30
+EIN
+≈ 24,0
+Die angegebenen Werte sind Messergebnisse einer typischen Anwendung. Die Stromaufnahme kann in der
+Praxis abweichen, abhängig u. a. von der Betriebstemperatur, den GSM-Empfangsqualitäten, Bauteiletoleranzen (insbesondere der verwendeten Schutzdioden) und der verwendeten Spannungsversorgung!
+Hinweis:
+Wird das GPRSpack mit einer externen Spannungsversorgung betrieben, sollte der Verbrauchs- bzw.
+Stromzähler deaktiviert werden. Der Verbrauchszähler basiert auf Algorithmen zur Abschätzung des
+Strombedarfs beim Batteriebetrieb und liefert hier ungenaue und ggf. irreführende Angaben.
+
+10.4 Schaltleistung des externen Kontakts (nur GPRSpack
+– maxi und / – mini)
+Der externe Kontakt wird durch ein PhotoMos-Relais geschaltet. PhotoMos-Relais zeichnen sich durch
+verlustarme Steuerung, Geräuschlosigkeit (kein "Klick") und hohe Zuverlässigkeit aus. Der Schaltausgang ist ein (bidirektionaler) MOS-Transistor, der galvanisch von der Schaltung getrennt ist. Eine Polung
+ist nicht zu beachten.
+Der Schaltausgang ist für rein-ohmsche Lasten ausgelegt. Bei nicht-ohmschen Lasten (z.B.
+Schaltrelais) müssen entsprechende Schutzmassnahmen getroffen werden (z.B. Freilaufdioden,
+Varistoren)!
+Parameter
+Schaltspannung
+Dauerstrom
+Stossstrom (100 ms)
+Verlustleistung
+Durchgangswiderstand
+Leckstrom
+
+typ.
+USW
+ISW
+ÎSW
+PV
+RSW
+ISW, off
+
+0,25
+1
+
+max.
+30
+1000
+3000
+500
+0,5
+1000
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Einheit
+V
+mA
+A
+mW
+Ω
+nA
+
+Bedingung
+
+-40°C bis +85°C
+
+Seite 18 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+11 Hinweise, Dies & Das, Tipps, FAQs
+Hier möchten wir in Zukunft Ihre Erfahrungen aus der Praxis auch anderen Anwendern mitteilen. Bitte
+senden Sie Ihre Anregungen per Email an info@ibbuetow.de. Vielen Dank.
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 19 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+12 Sicherheits- und Warnhinweise
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+!
+
+Das Gerät darf nicht in Krankenhäusern bzw. in der Nähe von medizinischen Geräten wie Herzschrittmachern oder Hörhilfen betrieben werden.
+Das Gerät darf nicht in der Nähe von explosionsgefährdeten Bereichen wie Tankstellen, Kraftstoffdepots, Chemiewerken, Sprengarbeiten und brennbaren Gase, Dämpfe, Stäube betrieben werden.
+Entfernen Sie unbedingt die Batterien, bevor Sie das Gerät in Flugzeugen transportieren bzw. versenden oder der
+Transport per Flugzeug nicht ausgeschlossen ist!
+Die SIM-Karte kann entnommen werden. Vorsicht! Kleinkinder könnten diese verschlucken.
+Setzen Sie das Gerät keinen starken Vibrationen oder Stößen aus.
+Decken Sie das Gerät nicht ab! Schlitze dürfen nicht verklebt werden. Achten Sie bei Einbauten auf gute Entlüftung des Montageplatzes!
+In das Gerät dürfen keine Fremdkörper oder Flüssigkeiten eindringen! Sollte einmal Wasser, Cola, Kaffee o. ä. in
+oder über das Gerät geflossen sein, so geben Sie es zur Kontrolle an Ihren Händler!
+Sollte sich das Gerät mehr als handwarm erwärmen, so schalten Sie es sofort aus!
+Verwenden Sie nur Netzteile und Zubehör, die für den Betrieb mit dem Gerät zugelassen sind!
+Verwenden Sie keine Außenantennen, lassen Sie die Antenne nicht außerhalb geschützter Gebäude ragen (Gefahr von Blitzschlag!)!
+Schalten Sie das Gerät bei Gewitter aus und sichern Sie die Antenne vor Blitzschlag!
+Die Antenne sollte möglichst weit vom Körper, insbesondere vom Kopf, gehalten werden.
+Das GSM-/GPRS-Modem kann in der Nähe von Fernsehgeräten, Radios, PCs Störungen verursachen.
+Die Inanspruchnahme der GSM-Dienste (Sprachverbindungen, SMS- und FAX-Nachrichten, Datenübertragungen,
+GPRS usw.) ist kostenpflichtig!
+Für diese Kosten müssen Sie - als Anwender - aufkommen!
+Um unnötige Kosten zu vermeiden, achten Sie unbedingt beim Betrieb auf die GSM-Verbindung und unterbrechen Sie unnötige oder fehlerhafte Verbindungen.
+Der Hersteller, seine Lieferanten und Wiederverkäufer lehnen jegliche Verantwortung für den Betrieb ab. Für etwaige Schäden und Kosten ist ausschließlich der Anwender verantwortlich!
+Der Betrieb des Gerätes kann bestehende gesetzliche Bestimmungen verletzten. Der Anwender hat sich über die
+jeweilige gültige Rechtslage zu informieren und ist für den Betrieb selbst verantwortlich.
+Das Gerät darf in keinem Fall geöffnet werden. Jede Änderung am Gerät ist unzulässig und führt zum Verlust der
+Betriebserlaubnis.
+Unsachgemäßer Gebrauch, Anschluss, Bedienung und Nichtbeachtung der Bedienungsanleitung schließt jegliche Gewährleistung aus!
+Überprüfen Sie die Kabel und Leitungen auf Beschädigungen. Beschädigte Kabel und Leitungen sind unverzüglich zu ersetzen.
+Kabel- und Leitungsverbindungen, Austausch der SIM-Karte dürfen nur im spannungslosen Zustand erfolgen!
+Reparaturen dürfen nur durch vom Hersteller autorisierte Fachkräfte erfolgen!
+Dieses Dokument gilt als Teil des Gerätes. Falls Sie das Gerät weitergeben, so geben Sie auch sämtliche Unterlagen weiter.
+Zusätzlich zu den genannten Sicherheitshinweisen müssen u. U. weitere Vorschriften beim Betrieb des Gerätes
+beachtet werden. Diese hängen vom Anwendungsfall und den gesetzlichen Vorschriften der Länder ab, in denen
+das Gerät erworben und betrieben wird. Bitte erkundigen Sie sich unbedingt nach den für Ihren Anwendungsfall
+geltenden Vorschriften!
+Die Produktentwicklung der GPRSpack erfolgte durch das BLKA München.
+Die EBS-Electronic GmbH übernimmt ausschließlich die Garantie nur für die ordnungsgemäße Verarbeitung der
+Geräte.
+
+URHEBERRECHT
+Alle Rechte dieser Dokumente, einschließlich Übersetzung, Nachdruck, Vervielfältigung etc., vorbehalten. Verarbeitung, Vervielfältigung oder Verbreitung jeder Art nur mit schriftlicher Genehmigung.
+© Copyright by EBS ELECTRONIC GMBH, Gröbenzell/GERMANY
+WARENZEICHEN
+Gebrauchs-, Handels- und Warennamen (Warenzeichen) werden ohne besondere Kennzeichnung verwendet. I. d. R. handelt es sich
+bei den meisten um eingetragene und geschützte Namen bzw. Zeichen, deren Nutzung den gesetzlichen Bestimmungen unterliegt.
+HAFTUNG
+Alle angegebenen Daten, Darstellungen u. ä. dienen allein der Produktbeschreibung und sind nicht als zugesicherte Eigenschaften
+im Rechtssinne aufzufassen. Etwaige Schadensersatzansprüche - gleich aus welchem Rechtsgrund - sind ausgeschlossen, soweit
+weder Vorsatz noch grobe Fahrlässigkeit vorliegt.
+Es kann keine Gewähr übernommen werden, dass die angegebenen Schaltungen oder Verfahren (auch teilweise) frei von Schutzrechten Dritter sind.
+AKTIVITÄTEN, DIE MIT HOHEM RISIKO VERBUNDEN SIND
+Das Gerät ist nicht fehlertolerant und wurde nicht entwickelt oder hergestellt, um als Online-Steuerungsausrüstung in gefährlichen
+Umgebungen benutzt oder weiterverkauft zu werden, die fehlerfreie Leistung erfordern, wie z.B. beim Betrieb in Nukleareinrichtungen, Flugsteuerung, Kommunikationssysteme, Flugverkehr-Steuerung, direkte Lebensunterstützungsgeräte oder Waffensysteme,
+bei welchen Fehlfunktionen direkt zu Tod, Personenverletzung oder schweren körperlichen Verletzungen führen könnte ("High Risk
+Activities"). Der Hersteller und seine Zulieferer weisen jedwede ausdrückliche oder indirekte Gewährleistung für die Tauglichkeit bei
+High Risk Activities ab.
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 20 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+EXTERNE LINKS
+Die im Rahmen dieses Dokumentes und unserer Internetseiten (Webseiten) weiter verweisenden externen Links zu Angeboten
+Dritter führen zu Inhalten der jeweiligen Anbieter und sind nicht die der Verantwortlichen des Herstellers und Autors. Diese entsprechenden Verweise sind als solche aus dem Zusammenhang erkennbar oder gesondert gekennzeichnet. Wir haben keinerlei Einfluss
+auf die dort bereitgehaltenen Inhalte und machen uns diese durch die Verweise nicht zueigen. Insbesondere distanzieren wir uns
+ausdrücklich von den dort abrufbaren Äußerungen.
+Wir haben die fremden Inhalte auf mögliche Rechtsverletzungen in einem uns zumutbaren Umfang überprüft. Verletzungen von
+Urheber-, Marken- oder Persönlichkeitsrechten oder Verstöße gegen das Wettbewerbsrecht auf den Webseiten der Drittanbieter
+waren nicht augenscheinlich und sind uns ebenso wenig bekannt wie eine dortige Erfüllung von Straftatbeständen.
+HINWEISE FÜR HÄNDLER, IMPORTEURE, WIEDERVERKÄUFER
+Das Gerät darf nur durch autorisierte Händler und Importeure vertrieben werden!
+Der Händler ist verpflichtet, den Kunden bzw. Anwender des Gerätes auf die Bestimmungen zum Betrieb des Gerätes hinzuweisen.
+Diese Informationspflicht schließt einen Haftungsausschluss durch den Hersteller ein.
+Sinngemäß die gleichen Verpflichtungen gelten für Firmen, die das Gerät innerhalb eines Bundles, einer Geräteintegration o. ä.
+vertreiben!
+Änderungen und Irrtümer vorbehalten.
+
+13 Support/Kontakt
+Für Bestellung und Lieferzeiten wenden Sie sich bitte an:
+EBS-Electronic GmbH
+Industriestrasse 33a
+82194 Gröbenzell / GERMANY
+Dipl.-Ing. Bernhard Spichtinger
+Telefon: +49 (0)8142 51098
+Telefax: +49 (0)8142 54317
+info@ebs-electronic.com
+E-Mail:
+Internet: www.ebs-electronic.com
+Support-Fragen richten Sie bitte an:
+Ingenieurbüro Bütow
+Dipl.-Ing. Stefan Bütow
+Industriestrasse 35
+82194 Gröbenzell / GERMANY
+Telefon: +49 (0)8142 57 02 07
+Telefax: +49 (0)8142 57 02 08
+E-Mail:
+info@ibbuetow.de
+Internet: www.ibbuetow.de
+Neue Anschrift ab 01.08.2006:
+Richard-Strauss-Strasse 2
+82194 Gröbenzell / Germany
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 21 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+14 Anhang
+14.1 Informationen im Internet und per Email
+Die BPOLZSIUK betreibt einen SFTP-Download-Server, u. a. mit aktuellen Versionen der Firmware des
+GPRSpack.
+Nähere Informationen erhalten Sie unter Angabe der vollständigen Dienststellendaten, Erreichbarkeit
+(Telefon und Email-Adresse) sowie der Benennung eines Ansprechpartners bei Herrn Rausch (Bundespolizei, BPOLZSIUK, Email: alois.rausch@polizei.bund.de).
+Ein via SSL Zugang gesichertes GPS-Forum (nur für eine geschlossene Benutzergruppe) zum Informationsaustausch und zum Download der Firmware, wird auf einem FirstClass© Server der ZPD NRW betrieben.
+Das Forum wird moderiert von der TEG des LKA NRW (Herrn Manns).
+Nähere Informationen erhalten Sie direkt von Herrn Manns unter Angabe der vollständigen Dienststellendaten, Namen und Erreichbarkeit (Telefon und Email-Adresse) unter der Email-Adresse
+Bernd.Manns@fc.polizei.nrw.de bzw. Bernd.Manns@lka.polizei.nrw.de.
+Das BLKA, die Firmen EBS Electronic GmbH und das Ingenieurbüro Dipl.-Ing. Stefan Bütow betreiben
+keine öffentliche Internetpräsenz zum GPRSpack!
+
+14.2 MAP&GUIDE-Runtime-Lizenz
+Für Anwender des Programms "PathFinder", die bereits das Programm GPS-Tracker verwenden, besteht
+die Möglichkeit, Runtime - Lizenzen für das Programm "map&guide mapserver" zu günstigen Konditionen
+zu erwerben.
+Wenden Sie sich bitte mit dem nachfolgenden Bestellformular (1 Seite) direkt an die Firma "MAP&GUIDE
+GmbH" (Stand: Januar 2006).
+
+GPRSpack-V2_BedAnl_060607.doc – CONFIDENTIAL – Preliminary
+
+Seite 22 von 27
+
+Bestellformular für map&guide mapserver-Runtime-Lizenzen
+
+Anschrift der Dienststelle:
+
+An die
+MAP&GUIDE GmbH
+Andrea Boos
+Tel. 0721/7816-222
+Fax 0721/7816-599
+e-Mail: mapserver@mapandguide.de
+http://www.mapandguide.de
+Für die Bundespolizei BPOLZSIUK-Geo-Anwendung benötigen wir MapServer-Lizenzen.
+Wir bitten um ein Angebot
+Wir bestellen folgende Lizenzen
+Wir bestellen für folgende Lizenzen einen Updatevertrag für 30% der Erstlizenzkosten
+
+Anzahl
+
+Bezeichnung
+
+Preis (€) ohne
+MWSt.
+
+map&guide mapserver Lizenz für Basisfunktionen mit Kartenwerk
+Deutschland City als Erstlizenz
+map&guide Zusatzmodul Rasterkarten-Layer zur Darstellung von topographischem Geogrid-Kartenmaterial der Vermessungsämter als Erstlizenz
+Update-Lizenz von map&guide mapserver mit Kartenwerk
+Deutschland City Version 9 auf map&guide Deutschland City Version 12
+„Schnittstellenlizenz“ für die gleichzeitige Benutzung der BPOLZSIUKAnwendung neben einer anderen mapserver-Anwendung (beispielsweise BPOLZSIUK + BLKA)
+
+200,00
+
+„Schnittstellenlizenz“ für die gleichzeitige Benutzung der BPOLZSIUKAnwendung neben zwei anderen mapserver-Anwendungen (beispielsweise BPOLZSIUK + BLKA + BW)
+
+400,00
+
+BPOLZSIUK Zentralstelle für Information und Kommunikation
+
+Bestellformular für map&guide mapserver-Runtime-Lizenzen
+Fragen und Antworten zum Bestellformular
+F: Was ist eine map&guide mapserver Anwendung ?
+A: Eine map&guide mapserver-Anwendung ist ein Programm für eine bestimmte Aufgabe, welches
+Softwaremodule sowie Kartenmaterial der Firma MAP&GUIDE benutzt. Hierfür fallen Lizenzgebühren
+an, welche an die Firma MAP&GUIDE zu entrichten sind. Bekannte map&guide mapserverAnwendungen aus dem polizeilichen Bereich sind verfügbar beim BLKA, SEK BW sowie der
+BPOLZSIUK. Bekannte map&guide mapserver-Anwendungen aus dem kommerziellen Bereich sind
+verfügbar bei PAD, Fugon, NAVCOS etc.
+F: Ich möchte die BPOLZSIUK-Geo-Anwendung als einzige map&guide mapserver Anwendung auf einigen Rechnern betreiben. Welche Lizenzen benötige ich ?
+A: Sie benötigen für jeden Rechner eine map&guide mapserver Lizenz für Basisfunktionen mit dem
+Kartenwerk Ihrer Wahl als Erstlizenz
+F: Ich möchte auch topographische Karten der Landesvermessungsämter und des BKG darstellen können. Welche Lizenzen benötige ich ?
+A: Sie benötigen für jeden Rechner ein map&guide Zusatzmodul Rasterkarten-Layer
+F: Ich betreibe auf meinem Rechner bereits eine oder mehrere map&guide mapserverAnwendungen. Welche Lizenzen benötige ich ?
+A: Sie benötigen eine Schnittstellenlizenz für jede zusätzliche map&guide mapserver-Anwendung.
+Benutzen Sie also beispielsweise gleichzeitig die Programme des BLKA sowie der BPOLZSIUK und
+verfügen Sie über eine Erstlizenz für eines der Programme, dann benötigen sie genau eine Schnittstellenlizenz.
+Wollen Sie eine weitere map&guide mapserver-Anwendung benutzen, dann benötigen Sie eine weitere Schnittstellenlizenz.
+F: Ich benutze veraltetes Kartenmaterial und möchte das aktuelle Kartenmaterial nutzen. Welche Lizenzen benötige ich ?
+A: Sie benötigen eine Update-Lizenz von Ihrer derzeitigen Version auf die neueste Version. Der Preis
+für den Update beträgt 50 % der Erstlizenzkosten, wenn die alte Version nicht älter als zwei Jahre ist.
+Ansonsten fällt der Preis für eine Erstlizenz an.
+F: Wo erhalte ich die BPOLZSIUK-Geo-Anwendung ?
+A: Direkt bei der BPOLZSIUK (Tel. 02254 / 38269 oder 38232) oder per Download über den BPOLZSIUK-FTP-Server.
+F: Wo erhalte ich das Kartenmaterial zur BPOLZSIUK-Geo-Anwendung ?
+A: Direkt bei der BPOLZSIUK (Tel. 02254 / 38269 oder 38232) auf DVD. Hierzu bitte eine Anforderung sowie eine Kopie der Update-Lizenz an die FAX-Nr. 02254 / 38248 senden.
+
+BPOLZSIUK Zentralstelle für Information und Kommunikation
+
+Bestellformular für map&guide mapserver-Runtime-Lizenzen
+
+Preisliste Stand Dezember 2005
+Bitte beachten: Alle Preise zuzüglich der gesetzlichen Mehrwertsteuer !
+
+Bezeichnung
+
+Preis (€) ohne MWSt.
+
+map&guide mapserver Lizenz für Basisfunktionen mit Kartenwerk für ein
+Land (beispielsweise Deutschland City) als Erstlizenz
+map&guide mapserver Lizenz für Basisfunktionen mit Kartenwerk Europa
+City als Erstlizenz
+
+500,00
+1.500,00
+
+map&guide mapserver Lizenz für Basisfunktionen mit Kartenwerk Mitteleuropa City als Erstlizenz
+
+650,00
+
+map&guide Zusatzmodul Rasterkarten-Layer zur Darstellung von topographischem Geogrid-Kartenmaterial der Vermessungsämter als Erstlizenz
+
+50,00
+
+Update-Lizenz von map&guide mapserver mit Kartenwerk eines Landes
+auf map&guide der aktuellen Version.
+Voraussetzung: Vorhandene Lizenz nicht älter als 2 Jahre !
+
+50% Erstlizenzpreis
+
+„Schnittstellenlizenz“ für die gleichzeitige Benutzung der BPOLZSIUKAnwendung neben einer anderen mapserver-Anwendung (beispielsweise
+BPOLZSIUK + BLKA)
+
+200,00
+
+„Schnittstellenlizenz“ für die gleichzeitige Benutzung der BPOLZSIUKAnwendung neben zwei anderen mapserver-Anwendungen (beispielsweise BPOLZSIUK + BLKA + BW)
+
+400,00
+
+BPOLZSIUK Zentralstelle für Information und Kommunikation
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+14.3 Rücksendeformular
+Sollten Sie das GPRSpack einmal an uns zurücksenden müssen, so füllen Sie bitte beiliegendes Formular aus und legen Sie es der Sendung bei oder teilen Sie uns die Angaben im Anschreiben mit:
+Absender:
+Dienststelle:
+Anschrift:
+Name:
+Zentrale:
+Durchwahl:
+Mobil:
+Fax:
+Email-Adresse:
+Rücksendeanschrift:
+Dienststelle:
+Telefon:
+
+Anschrift:
+Name:
+Gerätedaten:
+EBS-Kundennummer:
+Seriennummer:
+Kaufdatum:
+Einstellungen:
+UKSP: ___.___.___.___
+Server: IP-Adresse: ____.____.____.____
+Port:
+Administrator:
+Name:
+Telefon:
+SIM-Karte: Sprach-Nr.:
+Daten-Nr.:
+Fehlerbeschreibung:
+
+GPRSpack-V2_BedAnl_060607.doc
+
+Seite 26 von 27
+
+ENTWICKLUNG, HERSTELLUNG UND VERTRIEB
+ELEKTRONISCHER BAUGRUPPEN UND GERÄTE
+
+14.4 Notizen
+
+GPRSpack-V2_BedAnl_060607.doc
+
+Seite 27 von 27
+
+

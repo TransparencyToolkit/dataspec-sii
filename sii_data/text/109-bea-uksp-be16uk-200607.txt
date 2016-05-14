@@ -1,0 +1,117 @@
+UKSP protocol configuration on BE16UK
+BE16UK remote units are all able to work with both protocol standards BEA or UKSP.
+The Protocol set by default in all remote units is the BEA one.
+Actually the remote unit is not able to switch authomatically from one protocol to the other.
+To modify the protocol setting it is necessary to connect the beacon to a PC by a serial cable.
+To interact with the beacon: in the PC must be installed a software emulating the terminal
+HYPER TERMINAL (native with Win95/98/ME/NT/2000), CRT (www.vandyke.com)…
+Open the terminal session with following parameters:
+( serial protocol)
+Baud Rate
+Data Bits
+Parity
+Stop Bits
+Flow control
+
+38400
+8
+None
+1
+RTS/CTS ( Xon / Xoff)
+
+Instructions to configure UKSP protocol
+1. Check protocol setting:
+After connecting serial cable to PC , power supply the BE16.
+If terminal prints:
+BE16K m001 Sw5.1 Hw3.0
+It means that BE16UK serial number 001, is using BEA protocol.
+On the other end if the message printed on terminal switching on is:
+BE16K m001 Sw5.1 Hw3.0
+UKSP Enable
+It means that in this case UKSP protocol is enabled.
+PLS NOTE:
+BE16K mXXX print appears just during the beacon boot stage.
+
+2. Set protocol:
+Check if beacon connection is correct pressing ENTER button;
+beacon’s answer is
+>
+To set UKSP protocol press:
+10091 and ENTER
+The beacon doesn’t confirm, it just sends >.
+To check the setting made repeat the procedure 1.
+If BEA protocol must be set digit:
+10090 and ENTER
+The beacon doesn’t confirm, it just sends >.
+To check the setting made repeat the procedure 1.
+3. Configure UKSP protocol:
+Enable UKSP protocol then customize it.
+To check UKSP settings digit:
+1730 and ENTER
+Beacon’s answer is:
+UKSP Info
+Cnt 15
+Dis 31
+Org 63
+RxN 63
+Customize
+2 m Set Country m(BD)=cid
+3 m Set Distict m(BD)=cid
+4 m Set Org m(BD)=cid
+5 m Set RxNumb. m(BD)=cid
+>
+UKSP Info shows parameters set:
+Cnt shows the Country set, here is 15.
+Dis shows the District set, here is 31.
+Org indicates the Organization set, here is 63.
+RxN indicates the GPS Receiver Number, here is 63.
+
+UKSP Customize shows the programming mode of Country, District, Organization and
+GPS Receiver Number parameters.
+To set one or more of the above mentioned parameters digit on the same line the following
+command followed by ENTER:
+173 (fixed, is always present) 2 (if you set the COUNTRY) and then Country value 11:
+so 173211 and ENTER
+beacon answers
+Set Country-> 11
+Examples about how to set parameters:
+COUNTRY: (values 0 - 15)
+If you want to enter Country at a 13 level , press:
+173213 and ENTER
+beacon answers:
+Set Country-> 13
+To set the value Country to 06, press:
+17326 and ENTER
+beacon answers:
+Set Country-> 6
+DISTRICT: (values 0 - 31)
+To set the District value to 23, press:
+173323 and ENTER
+answer:
+Set District-> 23
+To set the District value to 08, press
+17338 and ENTER
+answer:
+Set District-> 8
+
+ORGANISATION: (values 0 - 63)
+To set the Organisation value to 55, press
+173455 and ENTER
+answer:
+Set Organization-> 55
+To set the Organisation value to 12, press
+173412 and ENTER
+answer:
+Set Organization-> 12
+GPS RX NUMBER: (values 0 - 63)
+To set the GPS Rx Number value on 62, press
+173562 and ENTER
+answer:
+Set Rx Num-> 62
+To set the GPS Rx Number value on 17, press :
+173517 and ENTER
+answer:
+Set Rx Num-> 17
+To check the settings just entered repeat point 3 from the beginning.
+
+

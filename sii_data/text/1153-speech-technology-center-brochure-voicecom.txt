@@ -1,0 +1,99 @@
+VOICECOM
+TI eXpressDSP compliant algorithm
+Features
+
+TI eXpressDSP (XDAIS) Compliance Benefits
+
+VoiceCom offers to the developers of DSP
+applications a possibility to enable their products with
+voice interface, which is a natural and convenient way
+to control any device.
+u Voice command (single-word/phrase) recognition
+technology. Provides speaker-dependent
+recognition (user trains each command before use)
+and speaker-independent recognition for a limited
+set of commands (user can use a set of commands
+without previous training) which is done by
+collecting a voice database for this set in advance.
+u Low resource consumption. Even resource-limited
+DSP-based devices (mobile equipment, PDAs,
+etc) now can have powerful voice interface.
+u Language-independence. The technology can be
+used for any language, while most competitors'
+technologies are limited to a few languages.
+u Noise robustness. VoiceCom technology includes
+low resource consuming noise cancellation. For
+applications in a noisy environment, VoiceCom can
+be combined with Denoiser Clear Voice, a powerful
+noise cancellation technology.
+And the most important feature of VoiceCom is the
+simplicity of development. Any product can be quickly
+and efficiently enabled with such an advanced option
+as Voice Interface.
+
+u
+
+Applications
+
+u
+
+Possible Applications :
+u Consumer electronics - Use Voice commands
+rather than IR remote controls.
+u Industrial Equipment - Many industrial
+applications where operators need to have their
+hands free for other tasks.
+u Hands-free sets - drive and speak on your mobile
+safely, because all you need to dial a number or to
+search the phonebook is your own voice.
+u PDAs - If it is not possible to design a portable
+device with a keyboard, just make it controlled by
+voice - it's easy.
+In general, VoiceCom allows to control by voice
+almost anything and makes life easier.
+
+u
+
+u
+u
+u
+u
+u
+
+VoiceCom is fully TI eXpressDSP compliant
+algorithm and this guarantees time and money
+saving in building in any DSP solution.
+This algorithm follows the run-time conventions
+imposed by TI's implementation of the C prog
+language.
+This algorithm is re-entrant within a preemptive
+environment (including time-sliced preemption).
+All algorithm data references are fully
+relocatable.
+All algorithm code is fully relocatable.
+This algorithm does not directly access any
+peripheral device.
+This algorithm does not include definitions
+specific to a debug variant.
+
+Functional Overview
+u
+
+Platform -TMS320C54xx
+
+Metrics
+u
+
+Memory requirements
+- Code 20 KW
+- Data 10 KW
+Processor requirements 2.5 MIPS
+
+Engineering Services
+By request, the support of other platforms may be
+developed by experienced and professional DSP
+engineers of Speech Technology Center,
+customization is possible according to the
+customer’s needs.
+
+

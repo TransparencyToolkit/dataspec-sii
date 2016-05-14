@@ -1,0 +1,164 @@
+MELANIE
+Intelligence Environment
+Speech Detection
+Language Identification
+Speaker Identification
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+MELANIE - Intelligence Environment
+
+Why Speech Classification?
+The increasing quantity of speech
+signals needs an effective and high
+quality means for the analysis of
+audio data.
+Obtaining support from an automated software tool is highly
+appreciated by operators working
+with the analysis of speech files.
+MELANIE can help support the
+operator with:
+• Automated analysis of incoming
+speech signals
+• A means for analysis of incoming
+speech signals using the results of
+the MELANIE classifiers.
+
+What Can Be Analysed?
+MELANIE provides a software library for the classification of incoming speech
+signals referring to
+• Speech Detection:
+The parts of audio signals containing speech are marked. For storing the incoming
+signals, only those parts containing speech may be stored.
+
+• Language Identification:
+All incoming audio signals are classified according to the speech prevailing in the
+audio files. All languages of the world can be identified as soon as training material
+is available.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+• Speaker Identification:
+Speakers in incoming audio signals
+can be identified. The algorithm is
+independent of the spoken language,
+thus a speaker can be found also
+when communicating in another
+language.
+Training material for the speaker to be
+analysed is necessary, a rejection of
+unknown speakers is made.
+
+Product Description
+For these classifiers, training, testing, and automatic production can be performed.
+For each application, libraries of software functions are available, together with a
+standardized and open interface (CORBA).
+• Training environment: Classifiers can be trained optimally for the domain of the
+user. In a simple script-based training, the user can build the classifiers according
+to his domain and data material.
+• ELAMAN offers trained models for some applications, the user does not have to
+train the classifier’s parameters.
+• Production environment: This environment automatically classifies all incoming
+audio signals using the available classifiers. A simple standardized interface is
+given for the automatic production 24/24h. The production environment is available
+as PC license or as site license.
+The classifiers can be used via the CORBA interface. They can be integrated into
+PC-based OEM applications.
+Classifiers are available for the following applications:
+SQ Speech
+MP Language
+GMM Speaker
+
+Detection and Language Identification
+Identification
+Identification
+
+Technical Data
+Input format
+
+Real signal comprising
+• Sample Rate:
+• Data Type:
+
+8, 16 kHz
+PCM, A-law, μ-law
+
+Also available as options, routines for processing other data
+formats.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Output
+
+The classification result can be accessed from the output
+interface. The output is provided as:
+• Classification results in equidistant configurable time
+segments, e.g. for generating a label track (maximum score,
+individual score for all classes)
+• Classification results for the entire signal up to the signal end
+(maximum score, individual score for all classes)
+
+Interfaces
+
+Standard interface CORBA enables the access to all results of
+MELANIE.
+
+Performance
+
+The classifiers show reliable classification accuracy combined
+with a high processing speed. Realtime factor: Depending on
+the type of classifier and the amount of classes (such as
+languages, speakers), ranging from 1/7 to 1/20 with e.g.:
+• Hardware: P4; 3 GHz; 1GB RAM
+• Different Classes: 10
+
+Company Principles and Policy
+Technology
+… in development and company management is state-of-the-art,
+and represents only the best.
+Quality
+… in all areas of our company is regarded as the almost requirement
+for risk-free and successful cooperation with our customers,
+and business partners.
+Market Position
+… we are the specialists in the field of signal and data processing
+as well as pattern recognition, and we are glad to face competition.
+Colleagues
+… form the roots of our company, and give the performance required
+for maintaining and building the technical base, and close
+personal cooperation we have with our clientele.
+Growth
+… we strive toward a healthy, stable foundation at home and
+abroad.
+Services
+… are comprehensive and complete. As a full-system company
+we offer standard equipment, systems, and services.
+Trust
+… in the relationships to our business partners, and within our
+own company forms the basis of our business.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+Consequently, this means that a recording with a signal length of 20
+minutes can be fully classified in one minute.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+

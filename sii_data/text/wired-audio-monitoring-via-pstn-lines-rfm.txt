@@ -1,0 +1,249 @@
+Wired Audio Monitoring
+via PSTN Lines
+(RFM / TSE 4006)
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+Wired Audio Monitoring via PSTN Lines
+(RFM / TSE 4006)
+
+System Introduction
+The room and telephone monitoring system TSE 4006 is developed by GAMMA to allow the audio monitoring of room and telephone conversation via standard PSTN telephone lines. The TSE 4006 is designed to operate without interfering with the normal
+functions of the telephone system and to provide the very high speech quality requirements of surveillance operatives. Transmitters use current when operating and
+this normally creates a voltage drop in the PSTN line being used. The TSE 4006 receiver is equipped with a special circuit which replaces the current used so that there
+is no voltage drop in the telephone line. This makes the TSE 4006 difficult to detect by
+automatic central exchange loop current detector systems.
+
+Description
+The TSE 4006 is specifically designed for covert audio surveillance operations. The
+TSE 4006 has the ability to monitor a room and its telephone line by utilizing the existing telephone system. All room and telephone conversations can be monitored and
+recorded from a remote location. TSE 4006 utilizes techniques which have not been
+previously used in PSTN line monitoring and consists of two units: a front end transmitter module TSE 4006-TX and an FM receiver combined with a line intercept amplifier TSE 4006RX.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Transmitter
+The TSE 4006 transmitter module incorporates a highly sensitive microphone coupled
+to a pre-amplifier with a wide dynamic range, fast acting AGC (Automatic Gain Control), and FM-modulator. It is protected against high voltage spikes and calling signals
+on the line. The TSE 4006 is available in a variety of forms including a scrambled version TSE 4006-TXS-S or TSE 4006-TXR-S.
+Receiver
+The TSE 4006-RX receiver is built into a strong aluminum housing containing the FM
+receiver, Mixer circuitry and a line intercept amplifier with a high impedance differential input and very high common mode rejection. This assures that the highest possible signal to noise ratio is achieved. The built-in mixer circuitry allows the operative to
+listen to either the room conversation or the telephone conversation - or both at the
+same time. The receiver TSE 4006-RX is equipped with a de-scrambler module, which
+is capable of de-scrambling the signals from TSE 4006-TXS-S and TSE 4006TXR-S.
+Outputs are provided for Headphones, Tape/aux., VOX switch and a 600 ohm balanced output for re-transmission on a standard PSTN dial up line or CCITT M1020 line
+(leased line).
+Applications
+A hard wired audio surveillance system is more difficult to detect than a conventional
+radio transmission system and is capable of giving better speech quality. There is no
+“drop out” of signal, a common problem with radio transmission systems. The TSE
+4006 system incorporates some unique features, and is specifically designed for covert operations. The transmitter is to be installed via parallel connection with the target line and can be concealed inside the telephone, behind the wall socket or anywhere with direct access to the telephone line.
+The TSE 4006 system is designed to work with PSTN slave lines without amplifiers
+and filters.
+Typical methods of deployment:
+-
+
+During new construction work
+Exchanging the telephone
+Hard wiring into the telephone line during covert entry
+Simulated repair of the PSTN communication network
+
+Audio Level/Line Voltage Meter
+The TSE 4006-RX is fitted with an analog meter, which enables the line DC voltage or
+the audio dBm level to be measured by switching between the two modes.
+Smart Vox with Noise Cancellation
+VOX sensitivity can be set on the front panel. The newly developed intelligent VOX
+circuitry is equipped with two LEDs for easy setting, and has the capability to distinguish a voice from ambient background noise, increasing the VOX reliability in noisy
+environments.
+Dual Output
+The TSE 4006-RX is fitted with 2 audio outputs; an RCA jack socket with line level
+output for tape recorder and a standard 600 ohm balanced telephone line output for
+re-transmission of the monitored audio via the PSTN network.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Telephone based operational set up
+
+Technical Features
+Fitted with CRS System
+All transmitters use current when operating. A major problem for most PSTN line parasitic transmitters is the current drawn from the PSTN line that enables the transmitter to function.
+If the transmitter draws more than approx. 6 mA, the line status changes from onhook to off-hook. This change in current consumption, even when less than 6 mA, is
+easily detectable by counter surveillance methods and indicates an abnormality in the
+line. Gamma has developed a Current Re-injection System (CRS) to overcome these
+problems. The CRS system re-inserts the current used by the TSE 4006-TX unit which
+avoids a voltage drop across the target telephone line. This ensures that the targeted
+PSTN line is unaffected by the presence of the TSE 4006-TX unit and makes the system difficult to detect by conventional counter surveillance methods.
+Operational Features
+Adjustable Off-Hook Threshold Level
+The TSE 4006-RX unit is equipped with on-hook/off-hook threshold level adjustment at
+the rear of the receiver, which can be set between 10 and 40 Volts.
+Parametric Equalizer
+In order to optimize the audio quality, the monitored signal is passed through a parametric equalizer with variable boost or cut in the 100 Hz to 10 kHz frequency range
+and variable Q.
+Activity Indicator
+For ease of operation the receiver unit TSE 4006-RX is fully equipped with LED status
+indicators.
+Options
+Standard Transmitter Module
+The TSE 4006-TXS is our standard miniature transmitter with built-in microphone.
+Extended Microphone Version
+On the TSE 4006-TXR transmitter the microphone is mounted on 2 metres of cable,
+separate from the transmitter board. This allows the microphone to be placed in the
+target room and the electronics package to be in an adjacent room - a technique that
+makes it very difficult to locate the transmitter by conventional counter surveillance
+methods.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+British Telecom Outlet Versions
+Integrated wall outlet TSE 4006-TXBT-I and External wall outlet TSE 4006-TXBT-W.
+Scrambled Versions TSE 4006-TXS-S and TSE 4006-TXR-R
+The TSE 4006-TXS-S transmitter uses a Gamma developed, analogue-speech protection system, which ensures the highest possible quality of retrieved speech. A descrambler module in the TSE 4006-RX receiver is able to decode the signals from the
+TSE 4006-TXS-S or TSE 4006-TXR-R.
+Capacitor Housing Version TSE 4006-TXC
+The TSE 4006-TXC transmitter is built into a capacitor housing. which allows the unit
+to be deployed inside existing electronic equipment.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+Technical Specifications
+RECEIVER/INTERCEPT AMPLIFIER TSE 4006-RX
+Carrier to be specified by customer or standard
+Sensitivity (fmod. = 1kHz, deviation + - 3kHz)
+Sensitivity (fmod. = 1 kHz, deviation + - 3kHz)
+Selectivity - 30 dB
+Common mode rejection
+AM rejection (Vin = - 20 dBm, AMmod = 30 %)
+Distortion (Vin = - 20 dBm, deviation = + - 3 kHz)
+Input impedance (140 kHz)
+Audio frequency response - 3dB (line out)
+Over voltage spikes and ring protection circuit
+
+1.1.
+140 kHz +/- 500 Hz
+- 82 dBm at 20 dB S/N
+- 48 dBm at 50 dB S/N
++/- 20.65 kHz
+70 dB
+40 dB
+0.55 %, 1kHz
+> 1kOhm
+300 Hz to 5 kHz
+> 180 V
+
+AUDIO SECTION
+Differential input impedance AC
+Differential input impedance DC
+Gain (input to line out)
+Frequency response (input to line out)
+Common mode rejection (0 dBm input)
+Signal to noise ratio (0 dBm input)
+Harmonic distortion (0 dBm output, 1kHz)
+Off hook level adjustment range
+
+1.2.
+> 25 kOhm
+> 3 mOhm
+0 dB (1kHz)
+290 Hz - 8.3 kHz - 3dB
+> 70 dB
+> 60 dB
+< 0.2 %
+10 to 40 VDC
+
+MIXER AUDIO SECTION
+Output voltage line out (deviation = +/- 3 kHz)
+Output voltage telephone out (deviation = +/3kHz)
+Output impedance telephone out
+Output impedance line out
+Output impedance headphones out
+Parametric equalizer frequency adjustment
+range
+Parametric equalizer Q adjustment range
+Parametric equalizer gain adjustment range
+Meter range RF level
+Meter range DC level
+Output line current for transmitter
+Max. output voltage for transmitter
+Max. noise masking voltage for transmitter
+Power supply
+Dimensions
+Weight
+TRANSMITTER TSE 4006-TX
+Carrier frequency
+Output impedance
+Output voltage (140 kHz square wave)
+Max. modulation
+Frequency response
+Current consumption
+Over voltage spikes and ring protection circuit
+Audio amplifier AGC range
+Microphone vibration sensitivity
+Dimensions TSE 4006-TXS
+Dimensions TSE 4006-TXR
+Dimensions TSE 4006-TXC
+Dimensions TSE 4006-TXS-S
+
+700 mV (no load)
+230 mV (600 ohm load)
+600 ohm
+1 kOhm
+47 ohm
+100 Hz to 10 kHz
+0.4 to 4
++/- 15 dB
+- 80 to -20 dBm
+0 to 60 VDC
+3 mA DC
+72 VDC
+0.3 V RMS
+115/230 VAC (50 - 60 Hz)
+265x260x82 mm
+10.4x10.2x3.2 inches
+2.8 kg / 6.17 lbs
+1.3.
+140 kHz +/- 500 Hz
+47 ohm
+500 mV RMS
++/- 5kHz
+150 Hz to 3.5 kHz - 3 dB
+3 mA DC
+> 180 V
+50 dB
+< 66 dB
+38x10x10 mm
+1.5x0.4x0.4 inches
+38x10x10 & 10x7x5 mm
+1.5x0.4x0.4 & 0.4x0.3x0.2 inches
+30x10x21 mm
+1.2x0.4x0.8 inches
+38x10x14 mm
+1.5x0.4x0.6 inches
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+7
+
+

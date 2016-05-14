@@ -1,0 +1,581 @@
+SAS" Public Security Solutions
+omer Success Stories
+
+PUBLIC SECURITY
+
+0
+
+Law Enforcement
+
+a
+0
+
+Fusion Centre
+
+@ National Security @ Border Management
+
+CUSTOMER SUC
+
+Table of contents
+.........................................................................................
+. .
+
+Introduction
+
+.
+
+..............................................,......,,......................................,.p...,..
+~
+
+.
+
+.
+
+-
+
+SAS@Success stories Examples
+..
+,
+
+National Security
+
+'
+
+,
+
+.......................................................
+Arab Fusion Centre
+A Large Government Department
+
+Law Enforcement
+UK Police Force
+
+Gloucestershire Constabulary
+
+mwafz&wh
+British Transport Police
+The Pennsylvania State Police
+Florida Department of Corrections
+
+-
+
+London Metropolitan Police Service
+South African Justice
+Washington DC Court Service
+
+Border Management
+
+................... ......................7...............,...,.
+i
+
+.
+
+.
+
+Odyssey
+Border Control including use of Biometrics
+Korea Customs Service
+China Customs
+International Law Enforcement Agency
+
+Fusion Centres and Information Sharing
+Michigan Intelligence Operations Centre
+
+Introduction
+.....................................................................................
+SAS' Public Security solutions address the needs of four principal areas:
+National Security
+Law Enforcement
+Border Management
+Fusion Centre and Information Sharing
+For each of these sectors, SAS@solutions support the collection, processing, analysis and
+dissemination of intelligence in ways that enhances the efficiency of the agencies' operations,
+while reducing the threat to public security.
+SAS has considerable experience of deploying large-scale, mission critical applications on
+time and on budget. As 'large-scale' can mean many different things, for instance: large data
+volumes; large number of users; large implementation; we have provided in this paper a
+number of relevant examples that highlight each of these aspects.
+For such large-scale implementations SAS has often 'primed' the implementation (i.e. been the
+lead contractor) using its own resources which are some several thousand strong. However, for
+many of our clients SAS solutions form a central part of a wider project. We are, therefore, also
+experienced in working with a Systems Integrator or Business Process Outsourcer.
+
+SAS@Success Stories - Examples
+SAS is used by many governments and agencies around the world to support the delivery of
+their policies regarding security and stability, fighting crime, protecting society and ensuring the
+safety of visitors. SAS is used to reinforce internal and external security, control crime, terrorism
+and drug smuggling. SAS is able to assimilate data from a huge variety of sources, and provides
+a common data format used to exchange security information, fuse data sources together
+and deliver intelligence and insight, based on SAS' Advanced Analytics and Reporting. On the
+following pages are some examples of projects from larger installations around the world.
+
+CUSTOMER SUC
+
+National Security
+system is used
+deconfliction
+assessment, and
+provides the foundation for
+an Intelligence-led Policing
+(ILP) approach.
+
+Producing and exploiting actionable intelligence without compromising
+security
+Arab Fusion Cell
+The requirement was for a national security and intelligence solution. This involved migrating
+several national systems into the centralised SAS intelligence solution.
+The data includes: immigration data - 25 million records per year; policing - 9 million records
+per year; traffic, driver and vehicle details - 20 million records per year; hotel reservations - 3
+million records per year.
+
+A large Government Department
+The challenge for this agency was the ever-growing volumes of cyber-security data that must
+be captured and analysed. This data encompasses millions of alerts each day and several
+terabytes of data in both structured and unstructured (text) format.
+
+I
+
+Besides CAD and RMS,
+SAS also integrates data
+from disparate sources,
+such as case and gangs
+manaaement, Sus~iciou:
+Activity Reporting (SAR),
+and confidential informant
+management.
+
+C
+
+l
+
+The SAS solution integrates, stores and analyses large volumes of data with the primary
+objective of correlating and prioritisingsecurity events that occur within the network in an
+automated fashion, thus allowing analysts the ability to focus on the areas of greatest threats.
+Administrators and organisational leadership are also kept abreast of pertinent data through
+customised information delivery interfaces.
+
+I
+3I
+
+Improvised explosive
+devices are a major threat
+to security and stability in
+certain parts
+of the world. By identifying
+networks that finance and
+deploy explosive devices*=
+SAS can uncover and
+
+F
+
+@$$fa
+,-S
+
+*
+
+CUSTOMER SUCCESS STORIES
+
+Law Enforcement
+.....................................................................................
+Providing a Complete End-To-End Law Enforcement Solution, and Supporting
+Data Management, Intelligence, and Analytical and Reporting Needs
+UK Police Force
+One of the UK's largest police forces deploys a SASa intelligence platform across the entire
+enterprise.
+The system is used by 40,000+ officers and civilians in daily use. Providing real time
+intelligence 24/7/52. They have been a customer since 1994 and been through numerous
+technology refreshes, showing their dedication to robust, effective intelligence management on
+a massive scale.
+The solution contains over 12 million documents and 9 million structured records. The system
+is mission critical with twin resilient sites. It serves 40 devolved management units. The system
+also has 15 firewalled subsystems providing integration with confidential, highly specialised,
+highly secure protected units. Other Government agencies have secure access to the system.
+
+Gloucestershire Constabulary
+In 2002 Gloucestershire Constabulary began its Vision 5 programme to "promote effective and
+efficient services". Along with Freedom of lnformation requirements, this was the key catalyst
+to invest in improved data quality, remove inaccuracies, provide new levels of insight to support
+improved law enforcement, and to continue providing performance information and intelligence
+while adapting to new requirements and priorities.
+Gloucestershire Constabulary used SAS to help them drive more intelligence-led and targeted
+policing, supporting overall management and performance improvements as well as providing
+new insights and supporting national initiatives including the IMPACT programme, Management
+of Police lnformation and the PND (Police National Database).
+
+South Wales Police
+South Wales Police needed to migrate millions of records dating back to 1994 from legacy
+systems into a new policing records management system. It was important to retain access
+to data stored in decommissioned systems and to free users across the business from
+data preparation tasks so that they could focus on value-added analytics to better support
+management.
+SASa Data Integration Studio was the key tool used for the migration, and the only tool for
+backup and conversion elements. With the migration successful, 15 years' accumulated crime
+data, covering a million crimes plus everything linked to those crimes, including photographs
+was easily accessible in a single location.
+
+..
+
+CUSTOMER S
+
+The benefits have included efficiency gains, improved accuracy and consistency; enabling
+analysts to focus on value-added activity (helping the force 'do more with less' and ensure
+public safety); meeting internal reporting needslmonthly crime statistics for management and
+performance activity, plus statutory reporting including Home Office returns.
+
+British Transport Police (BTP)
+The BTP is the national police force for the railways, providing a policing service to rail
+operators, their staff and passengers throughout England, Wales and Scotland. The Force is
+also responsible for policing the London Underground system, the Docklands Light Railway, the
+Midland Metro Tram System and Croydon Tramlink.
+l
+
+Through data sharing development by SAS, BTP are now able to access local police force
+intelligence data more efficiently and therefore better able to investigate crime.
+In addition to a force-wide Intelligence Management system, the BTP procured an analytics
+application to take on the role of the BTP's Intelligence Data Warehouse. This application
+enables the BTP to share intelligence data with other forces including Thames Valley, West
+Mercia, Essex, Nottinghamshire and West Midlands Police. BTP have ambitions to extend this
+partnership approach in the future.
+A BTP spokesman commented: "Our analysts can now use sophisticated and powerful
+searching methods to analyse a whole range of data, including that of partners, quickly
+and easily. It is probably the most powerful tool we have. Using software systems like
+the one provided by SAS will mean offenders being identified more quickly, benefiting
+victims and potentially preventing further crimes being committed. The experience of BTP
+clearly demonstrates how partner agencies can come together to maximise the benefits of
+intelligence-led policing."
+
+The Pennsylvania State Police
+Using the latest in SAS technology, police in the country's sixth most populous state are
+providing their frontline troopers with instant access to all available criminal intelligence
+information through computer alerts, instant messaging and a 2417 Criminal Intelligence Centre.
+SAS is also instrumental in daily intelligence briefs and long-term strategic planning in the fight
+against terrorist organisations.
+The solution puts the latest criminal intelligence at the fingertips of troopers in the field. Using
+the latest mobile SAS technology, patrol officers can instantly get analysis and alerts before they
+move into action -- and possibly danger. "That's the whole idea of intelligence," said a State
+Police spokesman. "Using it to take pro-active measures rather than simply reacting to crime."
+
+A further advantage is that the technology breaks down barriers between vast amounts of
+
+institutional intelligence that exist in a police officer's head and in the force's files. SAS provides
+intelligence information to the officer on the streets who needs it.
+SAS' advanced technology really begins to shine when an officer starts off virtually blind
+
+and is forced to do a general search. The underpinning of the system is a free-text database
+system providing rapid access, analysis and exploration of all information, both structured and
+unstructured.
+The key message from one of the solutions sponsors at the PSP: "Make the investment in
+intelligence because the investment pays dividends. It's more than an obligation. We cannot
+simply defer to our federal counterparts and consider our job done. Our analysts using SAS are
+harnessing all these databases. We're the go-to people - when you need an answer, that's us,
+and the information is good. We've turned into a huge resource that didn't exist before."
+
+Florida Department of Corrections
+Florida law enforcement agencies rely on the Department of Corrections for ad hoc assistance
+in narrowing suspect lists for serial crimes. Using SAS to access historical corrections data
+and analyse it for known criminal patterns and traits, the department can compile reports in a
+matter of hours and export them to local police and sheriff departments to assist in the search
+and apprehension of suspects.
+SAS also makes it easy to track activities involving individual inmates, such as transfers,
+
+disciplinary actions and positive drug tests. This information can be used to match random drug
+testing results with demographic data, for example, so corrections officials can determine the
+characteristics of drug users within the system and implement new policies to reduce drug use
+in a prison facility.
+With help from SAS, the Florida Department of Corrections has witnessed the importance
+of combining, analysing and interpreting data from throughout the criminal justice system
+- benefits that ultimately range from detecting and preventing crime to optimising state
+
+resources.
+
+iSTORIES
+
+-
+
+Law Enforcement and Crime Control Data Sharing
+
+SAS" is used to provide
+credible information to
+protect the public and
+administer justice. @
+G
+*.&!
+
+London - Metropolitan Police Service
+The team had a clear vision of what was needed and has ensured that the project works
+towards the delivery of benefits for operational policing, such as officer safety, policing
+effectiveness and public protection."
+. ..
+.
+.
+
+The project currently focuses on information recorded in key policing systems. Work is
+:
+
+.
+
+.
+
+directed to data identified by stakeholders and users as most valuable to their job. Three main
+approaches are employed to improve quality:
+
+.
+.
+
+.
+
+.
+
+Enhanced data entry validation to help police officers to get it right first time.
+Data quality reports sent directly to boroughs for review and action (see box).
+Identificationand dissemination of data quality best practice.
+Over the past year the Data Quality project has brought remarkable improvements to the quality
+of MPS data. The project provides each MPS borough with a view of its data quality. There are
+several reports, of differing levels of granularity, to support different types of user, but at the
+highest level, data quality performance is represented by a Red, Amber and Green (RAG) status.
+At the original baseline, only one borough demonstrated "Excellent" data quality. Now (as of
+December 2008), almost all boroughs have "Good" or "Excellent" data quality.
+.
+
+Data quality is measured against standards based on business rules and processes. Where
+
+,
+
+appropriate, the IMPACT data quality standards have been applied. At present, around two
+hundred business rules across three major MPS applications (Crime, Custody, Stops) are
+monitored. Missing and invalid data, as well as inconsistencies such as dates that do not align
+with other information in a record, raise exceptions, which are reported upon.
+The benefits to the MPS include improving the ability to find and link information on offenders.
+This increases public and officer safety and contributes to greater efficiency. It enhances
+
+j
+
+confidence in the data, increasing the likelihood that it will be used and trusted by MPS staff
+
+:
+
+and partner agencies.
+
+Criminal Justice
+
+..
+. .
+
+.
+
+South African Justice
+The Department of Justice and Constitutional Development in South Africa (DoJ) is using
+SAS for planning in order to promote better service delivery and management of its budget.
+Decisions have to be made and problems addressed quickly in order to meet the requirements
+of the court system, therefore a flexible and timely implementation, with further development
+being driven by user requirements, was a critical success factor of this project.
+
+,
+
+.
+
+0
+
+l
+
+'ISTOMER SUCC'""
+South Africa is sub-divided into provinces and magisterial districts within the courts have a 3
+tier structure, namely district, regional and high court. As part of this project, crime levels and
+court statistics were mapped to magisterial districts in order to determine the effectiveness of
+the criminal courts and to establish if each court has enough resources to deal with its volume
+of criminal cases.
+The SAS solution gives each district the responsibility for the on-going monitoring and
+management of resources within the department in order to ensure that justice at a local level
+is dispensed effectively and efficiently. It facilitates the allocations of resources to the courts
+across the country according to the needs in that area, as well as effectively catering for future
+requirements based on factual assessments and financial modelling.
+To optimise the service delivery of the justice system the DoJ investigated the demand on and
+supply of services. Police station-level reported crime statistics, economic data, incarcerated
+people by location, offence type, sentence, etc. and demographic information was used to
+predict demand. Human resources which impact justice service delivery, the number of cases
+by type and spend time on cases were used to forecast supply.
+The solution also involved the development of a Geographical Information System (GIS) for
+spatial analysis and visual representation of both demand and supply related data. Using the
+matrices and the crime data in SAS, the crime levels per magisterial district could be calculated
+and imported into the GIS, relationally joined with the spatial data and mapped per magisterial
+district.
+
+Washington DC Court Services
+The Court Services and Offender SupervisionAgency (CSOSA) is the federal executive branch
+agency responsible for supervising 15,000 parolees, probationers and supervised releases in
+the District of Columbia. CSOSA uses SAS@Analytics to manage staff workload more efficiently,
+study recidivism patterns and keep district residents safe.
+SAS provides multiple solutions that help the agency gather data from numerous sources,
+analyse it and make it available to all staff members from parole and probation officers to the
+director, to aid in making smart choices. Using SAS, CSOSA has created SMART-STAT, which
+helps the agency work smarter.
+
+CUSTOMEh SUCCESS STORIESBorder Management - Maintaining Secure, Efficient
+Borders
+-
+
+.....................................................................................
+Illegitimate Travel and Trade - Customs
+Odyssey - The Strategic Pan-European Ballistics Intelligence PlatForm for
+Combating Organised Crime and Terrorism
+This platform has the objective of developing a secure interoperable platform for automated
+information analysis to combat organised crime and terrorism. It has the ability to search
+for information obtained using advanced semantic knowledge extraction and data mining
+techniques to facilitate fast and responsible decision making across the EU. SAS was chosen as
+part of a consortium of specialists including military, police, research and academic institutions.
+
+Border Control including the use of Biometrics
+SAS is used by one of the world's largest border control agencies which has very high rates
+of crossings. It is using SAS and other advanced electronic technologies to provide a way of
+collecting and analysing information on everyone who travels to or from the country in question.
+Information is gathered on all travellers, passengers and crew entering or leaving the country by
+air, sea or rail.
+It allows the agency to identify passengers who are potential risks and alert the relevant
+
+authorities. Other technologies such as biometrics will ensure people are identified securely and
+effectively.
+
+Korea Customs Service improves Detection of Illegal Cargo
+The Korea Customs Service (KCS) is a government agency established to secure national
+revenues by controlling imports and exports for the economic development of South Korea
+and to protect domestic industry through contraband control. It is responsible for the customs
+clearance of imported goods as well as tax collection at the customs border.
+The agency is also concerned with areas such as social security, health care, environmental
+protection, and overall control of foreign transactions covering false indication of origin,
+infringement of intellectual property rights, illegal foreign exchange transactions and money
+laundering.
+Over the last decade, Korea's imported goods more than doubled as the size of the KCS work
+force remained the same. This forced the agency to find an effective way of detecting illegal
+cargo using existing resources and without being able to inspect all imported goods. KCS tried
+to promote greater efficiency and the use of selective inspections, but the results fell short of
+expectations.
+
+Charged with screening
+enormous amounts of data
+from bills of lading, ship
+manifests and passenger
+travel lists, a large defence
+agency uses SAS to
+efficiently flag suspicious
+data and reduce data errors
+resulting in heightened
+threat awareness and
+terrorism prevention.
+
+r
+
+CUSTO
+
+UCCESS
+STORIE
+-*
+rd-s*-x
+3
+S
+m
+&
+;.
+
+*S
+
+I
+I
+
+In the previous risk management system, the subjects of inspection were selected based on the
+importers, items or foreign providers of illegal cargo detected in the past.
+So when illegal importers changed the names, items or foreign providers, KCS was at
+a disadvantage. Moreover, as the patterns of illegal imports changed, computer experts
+targeted different kinds of cargo for inspection without taking into account the experience and
+know-how of customs agents in the field. Consequently, there have been continuous complaints
+against the customs inspection by the customs staff and the general public.
+KCS decided to implement an advanced risk management strategy to deal with these
+complaints. It specified three areas for innovation -the system for targeting illegal cargo,
+the actual method of inspection and the expertise of inspection personnel - to achieve total
+improvement of the inspection process. The new system enabled scientific and rational
+customs services. Currently, more than 400 staff members in the field are using the advanced
+risk management system. Upon a request for customs service, the personnel in charge of
+import inspection can immediately decide whether to inspect the cargo. Now they can detect
+potentially illegal attempts for customs clearance on the spot through KCS' know-how and data
+mining techniques.
+The SAS solution enabled more specific and accurate targeting of illegal cargo. For instance, the
+number of potentially illegal factors increased from 77 to 163. As a result, the detection rate for
+important items, as well as the total rate, increased by more than 20 per cent.
+
+China Customs
+China turned to SAS to modernise duty collection, reduce smuggling across borders and
+improve trade processing and customs logistics. After implementing and using the SAS solution
+for less than two years, hidden administrative risks have been detected, $20 million in duty has
+been retrieved and the solution has been distributed to 37 regional customs districts.
+
+International Law Enforcement Agency
+An international law enforcement agency fights terrorism, human trafficking, cyber-crime
+and transnational crime using SAS. Using an automated and centralised information platform,
+analysts have experienced a 20 per cent time saving and can now easily access and manage
+criminal data from any source without manual coding.
+By collecting and analysing data on all travellers and passengers entering or leaving the country
+by air, sea or rail, the agency can identify passengers who are potential risks and then alert the
+relevant authorities.
+
+Fusion Centres and lnformation Sharing
+.....................................................................................
+Sharing Information across Disparate Agencies
+Michigan Intelligence Operations Centre
+The State of Michigan deploys a SAS solution to deploy the state's primary criminal intelligence
+platform, which provides access to more than 600 law enforcement agencies, more than
+21,000 certified police officers as well as numerous state and federal departments.
+
+That platform, known as the Michigan Criminal Intelligence System (MCIS), is run by the
+Michigan State Police and is used in the Michigan Intelligence Operations Centre for Homeland
+Security (MIOC), the state's fusion centre.
+The MIOC use the SAS intelligence system to gather, collate, track, analyse and disseminate
+terrorism intelligence information. Additionally, the system is used to counteract conventional
+criminal activity, including street gangs, organised crime and high-volume crimes. Just as
+important is the SAS product's capability to assist the Michigan State Police in compliance with
+State and Federal laws pertaining to the protection of citizens' privacy rights. "The State of
+Michigan deployment will be the largest in the U.S." said Neil Schlisserman, of SAS Americas.
+"Law enforcement in Michigan will benefit greatly from a common intelligence platform for
+information sharing as well as SAS' engaging approach to commercial off-the-shelf (COTS)
+software deployment and customer service."
+The SAS intelligence system is used for deconfliction and threat assessment, and provides
+the foundation for an Intelligence-led Policing (ILP) approach. Besides CAD and RMS, SAS also
+integrates data from disparate sources, such as case and gangs management, Suspicious
+Activity Reporting (SAR), and confidential informant management.
+
+Abl-
+
+_
+
+SAS
+
+_.
+
+SAS is the leader in business analytics software and services, and the largest independent
+vendor in the business intelligence market. Through innovative solutions delivered within an
+integrated framework, SAS helps customers at more than 65,000 sites improve performance
+and deliver value by making better decisions faster. Since 1976 SAS has been giving customers
+around the world THE POWER TO KNOWm.
+
+PUBLIC SECURITY
+
+0
+
+Law Enforcement
+
+a
+0
+
+Fusion Centre
+
+m
+0
+
+National Security
+
+@ Border Management
+
+For more information, please email gbrpsbumarketingOsas.com
+SAS and all other SAS lnstltute Inc. product or mice names are registered trademarks or trademarks of SAS
+lnstltute Inc. In the USA and other countnes @ lndfcates USA reglstratlon Other brand and product names are
+trademarks of thew respectwe companies Copyright O 2013, SAS lnst~tuteInc. All nghts reserved.
+
+

@@ -1,0 +1,115 @@
+DATAsheet
+
+V3021
+Dual Channel 10 Gigabit Ethernet FPGA AMC
+
+Benefits
+
+Overview
+
+Provides 10 Gigabit Ethernet line-rate processing via its high
+performance architecture
+
+Available in single-width AdvancedMC form factor, this high
+performance packet processing module features dual 10
+Gigabit Ethernet SFP+ optical ports and is available in a range
+of Xilinx Virtex-5 FPGA options providing scalable processing
+performance. Its memory architecture is based on multiple
+independent high-speed SDRAM and SRAM memory interfaces
+that enable advanced 10 Gigabit Ethernet network traffic
+processing. The V3021 supports PCI Express or XAUI fat
+pipes for data exchange. It comes standard with expressXG
+Development Framework, an advanced FPGA development
+infrastructure that gives programmers the advantage to develop
+their own high bandwidth applications rapidly and efficiently.
+
+Improves overall system performance by providing additional
+processing capabilities
+Ideal for high bandwidth applications that require real time digital
+signal processing
+
+Features
+Single-width mid-size or full-size AdvancedMC
+Available in a range of user-programmable Xilinx Virtex-5 FPGA
+options
+High performance SDRAM and SRAM memory architecture
+Two 10 Gigabit Ethernet SFP+ optical ports
+10/100/1000BASE-T RJ-45 port
+Fat pipe fabric for data exchange
+Pigeon Point controller for maximum interoperability
+Software in-system programming for field upgrades
+Thermal sensors for monitoring card temperature
+RS-232 utility for fast application debugging
+
+advanced network intelligence
+
+www.advancedio.com Toll free 1.877.331.7755
+
+DATAsheet
+
+V3021
+Dual Channel 10 Gigabit Ethernet FPGA AMC
+
+Technical Specifications
+network interface	
+
+Two 10GBASE-SR or 10GBSASE-LR SFP+ optical ports
+10/100/1000BASE-T RJ-45 port
+fpga device	
+Xilinx Virtex-5 LX110T, LX220T, LX330T or SX240T
+Memory	
+2 banks of 0.5GB or 1GB 64-bit 266MHz DDR2 SDRAM
+2 banks of 36Mb or 72Mb 233MHz DDR2 SRAM
+Flash	
+
+2 64Mb or 128Mb memory for storing a default configuration
+image and a recovery image
+> V3021 Dual Channel 10GbE FPGA AMC Module
+Architecture
+
+fat pipe interface
+
+PCI Express or XAUI on ports 4-7 and 8-11
+Gigabit Ethernet on ports 0 and 1
+external interface
+
+RS-232 serial interface over mini-B type connector
+thermal sensors
+
+2 digital temperature sensors
+Compliance	
+
+PICMG AMC.0 Specification R2.0
+PICMG AMC.1 R1.0 Specification
+PICMG MTCA.0 for MicroTCA R1.0
+Pigeon Point IPMI
+IEEE 802.3ae 2002 10GBASE LAN
+FCC 47 CFR Part 15, Subpart B (USA)
+EN 60950-1 (Europe)
+RoHS Directive 2002/95EC
+Dimensions	
+
+181.5 mm x 73.5 mm single-width, mid-size or full-size
+power requirements
+
+Maximum 25W
+Temperature	
+
+Operating: 0 to 50° C
+Storage: -40° C to 85° C
+
+For more information on our products:
+www.advancedio.com
+contactus@advancedio.com
+Suite 601-3292 Production Way
+Burnaby, BC V5A 4R4
+Canada
+
+Phone 604.331.1600
+Fax 604.331.1800
+Toll Free 1.877.331.7755
+
+AdvancedIO reserves the right to modify any product without prior notice. All trademarks are the property of their respective owners.
+AdvancedIO, udpXG and expressXG are trademarks of AdvancedIO Systems. Copyright © 2012 AdvancedIO Systems. All rights reserved. Revision: April 2012.
+
+

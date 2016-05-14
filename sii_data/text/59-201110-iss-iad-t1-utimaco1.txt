@@ -1,0 +1,523 @@
+Utimaco Safeware –
+LI in Clouds
+
+12th October 2011 – ISS World Americas
+Rudolf Winschuh
+p
+LIMS
+Business Development
+
+Confidential Information
+This presentation contains confidential information related to
+Utimaco Safeware AG
+AG, Utimaco products and services
+services. It may not
+be disclosed to others without prior acknowledgement by Utimaco.
+
+Contents
+ About Utimaco
+ Cloud
+Cl d Computing
+C
+ti
+ LEAs need for LI
+ Challenges for LI in Clouds
+ Possible Solutions
+
+© Utimaco Safeware AG
+
+2
+
+Utimaco Safeware AG
+A member of the Sophos Group
+Sophos Group
+Utimaco Safeware AG
+ Lawful Interception
+ Data Retention
+
+ Strong Encryption and
+
+
+Digital Signatures
+Hardware Securityy
+
+Sophos PLC
+ Endpoint Protection
+ Information Security
+ IT Governance and
+Compliance
+
+© Utimaco Safeware AG
+
+3
+
+Sophos Group
+Company Facts
+Uti
+Utimaco
+Safeware
+S f
+AG
+ Headquarters in Oberursel and Aachen, Germany
+ 163 employees
+ € 37.7 million revenues (fiscal year 10/11)
+
+S h PLC
+Sophos
+ Headquarters in Oxford, UK and
+
+
+
+Burlington, MA, USA
+1,800 employees
+$ 340 million revenues (fiscal year 10/11)
+
+Sophos is a world leader
+in IT security and control
+
+© Utimaco Safeware AG
+
+4
+
+Utimaco LIMS
+Competence in Lawful Interception
+ Utimaco has been providing LI solutions since 1994
+ Market leader in Germany
+ Worldwide operations: more than 180 installations in 60 countries
+ Lawful Interception and Data Retention Systems
+
+for 10 thousands to millions of subscribers
+ Strong partnerships with leading telecom infrastructure vendors
+ Compliant to international LI standards of ETSI, 3GPP, ANSI/ATIS,
+
+CableLabs and active member of ETSI TC LI
+ Conform to numerous national telecommunication laws
+
+© Utimaco Safeware AG
+
+5
+
+Cloud Computing
+Definitions
+ Wikipedia:
+“… the provision of computational resources on
+demand via a computer network.”
+
+ NIST:
+“Cloud
+“Cl d computing
+ti iis a model
+d l ffor enabling
+bli convenient,
+i t
+on-demand network access to a shared pool of
+configurable computing resources (e.g., networks,
+servers,, storage,
+g , applications,
+pp
+, and services)) that can
+be rapidly provisioned and released with minimal
+management effort or service provider interaction.”
+
+ Sun Microsystems
+„the network is the computer“ (late 1980s)
+
+© Utimaco Safeware AG
+
+6
+
+Cloud Computing
+Types
+ Public Clouds
+Exclusive Cloud
+
+
+Partners with established relationships only
+p Cloud
+Open
+
+
+For all possible customers
+
+ Private Clouds
+Internal company/department use only
+ Hybrid Clouds
+Mixture
+Mi
+t re of public
+p blic & pri
+private
+ate clo
+clouds
+ds depending
+on service
+
+© Utimaco Safeware AG
+
+7
+
+Cloud Computing
+Characteristics
+ Services are offered transparently to users
+ Comparable
+C
+bl tto other
+th services
+i
+lik
+like power, gas, water
+t
+ Abstract from IT-infrastructure
+ IT
+IT-infrastructure
+infrastructure is task of cloud provider
+ Subscribers can use services as needed without having to install a
+
+
+
+
+
+(only partially used) infrastructure
+(Distributed) datacenters
+Up-date infrastructure
+Hi h
+High-availability
+il bilit & di
+disaster
+t revocery
+Security still discussed
+
+© Utimaco Safeware AG
+
+8
+
+Cloud Computing
+Service Levels
+-
+
+ IaaS
+Infrastructure only cloud
+Infrastructure-only
+ PaaS
+Platform cloud
+Only application from software/service customer
+ SaaS
+Software
+
+© Utimaco Safeware AG
+
++
+
+Complete offering to end-user
+
+Abstra
+action L
+Level
+
+Middleware & applications from software/service provider
+
+9
+
+Cloud Computing
+Some Providers of Cloud-based
+Cloud based Services
+
+© Utimaco Safeware AG
+
+10
+
+Cloud Computing
+Pros & Cons
+ Significant cost savings possible
+
+ Customer looses control over data
+
+ Pay for need only, not for
+
+ Network connections critical
+
+
+
+
+
+
+
+
+
+infrastructure
+Possibly better reliabilty
+Possibly better security
+Location independent
+Device independent
+Up-to-date services (e.g. patching
+done by provider)
+Scales very well
+Easier maintenance
+
+© Utimaco Safeware AG
+
+
+
+
+
+
+
+
+
+(is this really a risk nowadays???)
+Security
+Legal
+SLAs,
+S
+s, QoS (co
+(complex
+p e co
+contracts)
+t acts)
+Compliance often unclear
+(laws not made for clouds)
+Provider lock
+lock-in
+in
+APIs typically not standardized (yet)
+What happens if cloud service is
+terminated?
+11
+
+Cloud Computing
+Legal Issues
+ Location of storage, servers etc. might not be known
+Might even not be known by the service provider himself
+Location might change during usage
+ But: Many large service providers have regional/local datacenters serving
+
+customers in this region
+ Which laws do apply?
+The country where the customer is located?
+The country of the service provider?
+The country where the infrastructure is located?
+One of the above depending on situation?
+Situation might change even during one session
+Compliance requirements (e.g. auditing, reporting)
+Laws might even contradict each other
+
+© Utimaco Safeware AG
+
+12
+
+Cloud Computing
+Regional Distribution
+
+© Utimaco Safeware AG
+
+13
+
+Cloud Computing
+Legal Issues – Theoretical example
+ Service provider located in US
+F the
+th service
+i provider,
+id US
+l
+l
+For
+US-laws
+apply
+ Customer located in EU (Germany)
+For the customer relation, German laws apply (probably)
+ Data Centers located in Ireland, Norway and Switzerland
+For DC in Ireland EU-laws apply, but not for DCs Norway and Switzerland
+Data is possibly stored in all DCs above and/or moved automatically
+between them
+
+© Utimaco Safeware AG
+
+14
+
+Cloud Computing
+Security Challenges
+ System complexity
+ (Shared) Multi-Tenant
+Multi Tenant environment
+ Internet-facing services (remote administration mandatory)
+ Data protection
+Data must be segregated for each customer
+Logs/auditing/monitoring must include
+even privileged users
+Encryption of stored data preferrable
+Data Leakage Prevention?
+Authentication/Identity Management
+Physical security of datacenters
+Availability/Reliability/Business Continuity/Disaster Recovery
+Application
+pp
+security
+y ((incl. application-level
+pp
+firewall))
+
+© Utimaco Safeware AG
+
+15
+
+Cloud Computing
+Security Advantages
+ Staff specialization at cloud provider
+ Platform strenght
+more homogenous environment
+easier to secure, patch & audit
+mostly an advantage
+advantage, but might be endangered by one specific threat
+ Resource availability due to scalability
+ Backup & Recovery
+Especially if data is stored in diverse locations
+ Mobile endpoints
+No/minimal need to store sensitive data on mobile devices
+
+© Utimaco Safeware AG
+
+16
+
+Cloud Computing
+Lawful Interception – LEAs Interest
+ Bad guys use cloud services, too
+ Communication
+e.g. Google mail
+ Stored data
+e.g.
+e g Dropbox
+ Service usage
+e.g. Google Maps
+
+bli ti
+ P
+Publications
+e.g. Facebook
+Anders Breivik
+More and more information is handled by the cloud
+- one reason is exploding mobile access (iPhone, Android)
+
+© Utimaco Safeware AG
+
+17
+
+Cloud Computing
+Lawful Interception – Fundamental Aspects
+ In „classic“ LI, telecommunication services are intercepted (data in
+
+motion)
+Which cloud computing services are telecommunications?
+
+
+
+Google Mail: yes
+Dropbox: ?
+
+ Data stored in the cloud (data at rest)
+Which laws allow LEAs to access the data in the cloud?
+Which data of which subscribers are covered by these laws?
+Access to stored data typically not in real-time
+How to access the data?
+
+© Utimaco Safeware AG
+
+18
+
+Cloud Computing
+Lawful Interception in Clouds – Challenges 1/2
+ Targets might use cloud services via access paths not intercepted
+
+E dt
+d encrypted
+t d cloud
+l d services
+i
+ End-to-end
+IRI might be obtainable
+CC only interceptable on the end-points
+end points (CPE or cloud provider)
+End-to-end encryption increasingly offered by cloud providers
+Security enhancements (e.g. two-factor authentication by Facebook)
+ Legal situation often very unclear
+Easy for US-based LEAs
+Diffi lt ffor non-US-based
+Difficult
+US b
+d LEA
+LEAs
+Cloud providers often face contradicting laws
+
+© Utimaco Safeware AG
+
+19
+
+Cloud Computing
+Lawful Interception in Clouds – Challenges 2/2
+ Infrastructure of many clouds is technically quite autonomous
+Virtualized servers
+
+
+actual computing instance might change on the fly
+Redundant storage
+
+
+data typically stored in different locations, locations might change
+on the fly
+
+ Dynamics above are a fundamental aspect of clouds
+At the same time, basics for some of the cloud advantages
+
+p
+and legal
+g framework
+ Conflicts between these technical aspects
+
+© Utimaco Safeware AG
+
+20
+
+Cloud Computing
+Lawful Interception – Recent Developments
+ LEAs can mostly access the data stored in clouds
+But legal framework often unclear
+Different/contradicting laws in different countries
+No standardized access (yet)
+Requests in US and Europe for easier access of LEAs to data
+ Extensive privacy discussions in Europe
+G
+l St
+t i
+Google
+Streetview
+Interception of WiFi traffic by Google Streetview cars
+Facebook handling of user data
+ Work item for a Technical Report for LI in Clouds in ETSI TC LI
+
+© Utimaco Safeware AG
+
+21
+
+Cloud Computing
+A Final Word
+
+“The only problem with the cloud is
+that at some point it will rain.”
+Reinhard Posch, CIO for the Austrian Federal Government at EIC
+
+© Utimaco Safeware AG
+
+22
+
+please visit us at booth # 102
+Rudolf Winschuh
+Business Development LIMS
+Phone: +49 241 1696-248
+Rudolf Winschuh@aachen utimaco de
+Rudolf.Winschuh@aachen.utimaco.de
+http://lims.utimaco.com
+© Utimaco Safeware AG
+
+23
+
+

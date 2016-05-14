@@ -1,0 +1,249 @@
+IP Tr@pper
+ISS Dubai 2007
+jean-philippe.lelievre@fr.thalesgroup.com
+
+LAND & JOINT SYSTEMS
+
+Operational Requirements
+ Autonomous facility for IP Monitoring :
+
+
+Traffic Analysis
+
+
+
+
+
+
+(Intranet)
+for Internet (Internet access point)
+among mail servers
+for dedicated line as “Internet Cafés”
+for Wireless connection as WIFI
+
+ Proposed Interfaces
+
+
+
+
+
+
+2
+
+LAN : Ethernet 10/100/1G
+ADSL
+WIFI
+ATM
+(WiMax)
+
+LAND & JOINT SYSTEMS
+
+IP Monitoring Access point
+
+POP
+IP Router
+
+ATM
+ATM
+
+POP
+Edge
+ATM Switch
+
+Colocation
+DSLAM
+
+Wide Band
+
+ATM
+
+Internet
+ISP
+Service
+Provider
+
+Narrow Band
+LAN Interface
+WiFi Interface
+Interface ADSL
+
+E1/T1 Interface
+Ethernet Interface
+
+Internet
+
+3
+
+LAND & JOINT SYSTEMS
+
+Functions
+
+Optional
+
+IP TR@PPER
+
+capture
+
+4
+
+LAND & JOINT SYSTEMS
+
+Front filter
+
+ Passive monitoring through
+Tap equipment
+ Real Time Filtering on port
+Nb, protocols, IP @ range
+ Possibility to import IP traffic
+
+Int / ext
+storage
+
+ Secured Stockage of all
+monitored Data
+
+processing
+
+ Automatic detection and
+decoding : web, mail, VoIP, data
+
+exploitation
+
+ Local or remote operation
+ Operation filtering
+
+Optional
+Toolkit
+
+ Text mining
+ Link analysis
+ Encryption detection &
+information
+
+Traffic Analysis and Acquisition Control
+
+Control Panel
+
+Data Stream Display
+5
+
+LAND & JOINT SYSTEMS
+
+Protocol used
+
+Front Filtering
+
+Set of Filters
+Selection/Rejection
+
+Addition/Deletion
+
+6
+
+LAND & JOINT SYSTEMS
+
+IP Acquisition list : IP Application Summary
+File Selection
+Automatic
+Application
+Display
+ Automatic Processing
+ Automatic display of Identified
+Data as : web, mail, VoIP, chat, ftp
+ Front filtering
+ Back filtering
+ Remote control
+ Data importation or exportation
+available (pcap format…)
+7
+
+LAND & JOINT SYSTEMS
+
+Operation : e-mail
+
+Set of Filter
+
+E-mail List
+
+8
+
+LAND & JOINT SYSTEMS
+
+Operation : e-mail
+
+Mail Filtering Result
+
+Attached File
+
+Operation
+Filter
+
+Mail Content
+Mail Display
+
+9
+
+LAND & JOINT SYSTEMS
+
+IP Operating Tools : Mail Reports
+
+SMTP Report
+
+10
+
+LAND & JOINT SYSTEMS
+
+POP 3 Report
+
+IP Operation Tools : Web
+Main Pages List
+
+Filtering
+Result
+
+11
+
+LAND & JOINT SYSTEMS
+
+Main Pages Display
+
+IP Operating Tools : Chat
+
+IRC Report
+
+12
+
+LAND & JOINT SYSTEMS
+
+IP Operating Tools : File Transfer
+
+FTP Report
+
+13
+
+LAND & JOINT SYSTEMS
+
+IP Operating Tools : Remote Access
+Telnet Report
+
+14
+
+LAND & JOINT SYSTEMS
+
+Data Export/Import
+
+File Exportation
+
+File Importation
+
+15
+
+LAND & JOINT SYSTEMS
+
+ Questions?
+
+16
+
+LAND & JOINT SYSTEMS
+
+

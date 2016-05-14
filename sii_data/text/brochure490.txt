@@ -1,0 +1,234 @@
+Unattended Ground Sensors
+Zimiti C-IDS
+
+I
+Digital Barriers;
+
+Covert intrusion detection system
+
+The Zimiti C-IDS is a ground sensor based covert surveillance system for
+detecting human/vehicle intrusion in a secure area or along a border line.
+Its compact form factor, ease of deployment and self-healing low-power
+wireless networking make C-IDS ideal for use in harsh and remote locations.
+Keeping an ear to the ground in any conditions
+The Zimiti C-IDS system is a next-generation unattended
+ground sensor (UGS) system for covert monitoring of
+perimeters, borders and distributed high-value assets e.g.
+pipeline infrastructure. The system consists of buried
+seismic sensors, connected wirelessly using RF. The nodes
+create a robust radio network, communicating with a
+gateway that uses SATCOM or GPRS t o provide remote
+monitoring of the nodes from anywhere in the world.
+Its low-power wireless networking and resilient form
+factor ensures rapid deployment and a long-service life,
+making it ideally suited for long-term deployment into
+remote areas and harsh environments. Nodes are quick to
+deploy, easy to camouflage, and have long battery life,
+providing the low probability of detection, continuity of
+service and negligible in-field service required of a covert
+solution. The units are tuned to detect people, digging
+and vehicle movements, with unit variants also available
+for detecting animal and aircraft movement.
+
+Key features
+Discreet form factor (only top is visible when buried),
+making it easy to camouflage to avoid detection
+Small and lightweight system consisting of sensor
+nodes and gateway - easily carried by a single person
+Rapidly deployable based on simple insertion of each
+node into a small hole in the ground (tool supplied)
+Simple configuration - radio network configures itself
+and identifies most robust comms path t o gateway
+Very cost-effective system, opening up applications
+for which military-style UGS systems are too costly
+Highly reliable alerting based on low false alarm rates
+that are minimised by advanced detection algorithms
+Robust wireless networking, utilising frequency agility
+and a self-healing network from nodes to gateway
+
+Operational domains and installed base
+
+Both the sensor and network technology contribute to the
+operational performance of C-IDS. Advanced detection
+algorithms in the the sensor nodes minimise false alarms.
+Further false alarm filtering is performed at the gateway
+by analysing responses from groups of sensors. The RF
+wireless network is self-forming, self-healing and very
+power efficient, providing reliable ongoing networking.
+
+The C-IDS is specifically designed for organisations with a
+requirement for a ruggedised IP67 UGS to withstand harsh
+environmental conditions. Its robust design is ideal for:
+Covert surveillance (seismic vibration sensors)
+Remote location with no supporting infrastructure
+Tactical surveillance for forward operations
+
+With its lightweight form factor (less than 0.5kg per node),
+minimal components (nodes and gateway units) and a
+self-forming network configuration, it is easy to deploy a
+multi-node C-IDS solution. A small hole is made in the
+ground, into which each node is inserted. Across nodes,
+the network immediately identifies the most robust
+communications path to the gateway. The long battery life
+(up to 6 months) and physical and electronic robustness
+of the units means that ongoing maintenance is minimal.
+
+Product codes
+Zim-CIDS-N
+
+Z~mitiunattendedground sensor node
+
+Zim-CIDS-GW Zimiti network gateway
+
+Pre-productionversion -form factor
+is illustrative of producfion version
+
+O 2011 Digital Barriers plc. All rights reserved.
+
+L
+
+Technical Specifications
+
+GIDS-S
+Function:
+
+Detection, classification and remote alert communications of human and vehicle movement
+
+Number of Sensors in Network:
+
+Typically 10 t o 1,000 depending on configuration
+
+Secured Area - 100 nodes:
+(perimeter deployment)
+
+Human detection approx. 500,000m2
+Vehicle detection approx. 2,000,000m2
+
+Secured Border - 100 nodes:
+(linear deployment)
+
+Human detection approx. 2,500m
+Vehicle detection approx. 5,000m
+
+Alarms:
+
+Human and vehicle intrusion, loss of communication t o node, tamper alert
+
+C-IMSenrors
+Detection Range:
+
+15m to 30m
+
+Deployment Life:
+
+Up to 6 months
+
+Power Source:
+
+Replaceable lithium batteries
+
+Operating Temperature:
+
+-20°C t o +70°C
+
+Maximum Sensor Weight:
+
+500g
+
+B m o r Network CDmmunicatiom
+
+C-IMGaeway
+SATCOMS or GPRS
+
+Wide Area Network:
+
+Radio Frequency:
+
+Europe: 863 - 870MHz
+North America: 902 - 928MHz
+
+Deployment life:
+
+Up to 6 months
+
+Power source:
+
+Replaceable lithium
+batteries
+
+Standards Compliance:
+
+ETSI: EN300 220 and EN 301 489
+FCC: 47CFR part 15
+
+Operating temperature:
+
+-20°C to +70°C
+
+Network Characteristic:
+
+Self-configuring, self-healing
+
+Maximum gateway weight:
+
+2kg
+
+Interference Mitigation:
+
+Frequency agility
+
+System llludation
+Zimiti C-IDS can be used in a perimeter deployment or linear deployment for monitoring of ground
+around facilities, along a border or along a distributed high-value infrastructure, such as a pipeline.
+
+satellite
+
+I
+
+-
+
+X--....------',
+
+----m----
+
+-
+
+Control
+Room
+----------m-,
+
+I
+I
+
+I
+I
+I
+
+.
+W O E Speclficahons subject
+to change without notlce
+-
+
+--
+
+deploy
+self-heal~ngmesh
+
+Detection
+~etection
+15-30rn
+
+4
+4
+
+Remote
+Remote
+Pipeline
+Pipeline
+
+Dlg~talBarners ( Unlt 18, Avenue Buslness Park, Elsworth, Carnbr~dgesh~re
+CB1 ZLA, United Klngdorn
+t +44 (0) 1954 268 930 1 f +44 (0) 1954 267 729 1 www digltalbarr~erscorn
+-
+
+

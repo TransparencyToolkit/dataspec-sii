@@ -1,0 +1,194 @@
+hi c:::Ic:::Ic:z,..,
+..I""
+
+~c:z-=h,..,c=1 c=cg'::l
+
+'::1..1"" t. Cl: rn..l"" i,....., t. CI:,... ,.....,ctt. ic=,.....,ctl
+
+CP2 Features Sheet
+CP2
+
+vs
+
+New Features in Version S
+
+This document discloses subject matter for which Hidden Technology Systems
+International Limited ( HTSI ) has proprietary rights. Neither the furnishing
+nor possession thereof confers or transfers any right to reproduce or disclose
+the document, any part thereof, any information contained therein, or any
+physical article or device, or practice any method or process referred to
+therein except by written permission from or written agreement with, HTSI.
+
+Hidden Technology Systems International Ltd.
+www.hiddentec.com
+Tel: +44 (0) 1708 631333
+Fax: +44 (0) 1708 631444
+email: info@hiddentec.com
+
+CP2 Features Sheet v.l.O
+
+Document Ref: 06080101
+Copyright HTSI 2006
+
+With the release of the new CP2 v 5 Hidden Technology also releases the CP2
+Server v. 1. 03 and the CP2 Viewer v.1.01.
+Many of the new features in this latest version of CP2 are related to the release of
+the CP2 Server and will only be usable if CP2 is connected to a CP2 Server!
+
+Content
+
+1. CP2 versions ............................................................................... 4
+2. Modem support ............................................................................ 5
+~. ~JnteI77~1 (7fJ~ ................................................................................ 5
+4. (7fJR~........................................................................................... 5
+jJ. ~M~ '~i~e"tl"~~)(............................................................................ 5
+6. A~tion Requil"ed............................................................................ 5
+7. Downlo~d log- short ~ut ................................................................ 5
+8. ~yn~hI"onize log file ....................................................................... 5
+9. Cl'2 SeNel" ................................................................................... 6
+1O. (7~M Toolbox.............................................................................. 6
+11. ~yn~hl"onize Obje~t d~t~b~se with CfJ2 SeNel"................................ 6
+12. fJosition I"equest ~i~ mobile telephone ........................................... 6
+1~. New h~I"dw~I"e ............................................................................ 6
+
+CP2 Features Sheet v.l.O
+
+Document Ref: 06080101
+Copyright HTSI 2006
+
+1.
+
+CP2 versions
+
+CP2 is now available in these different versions:
+
+CP2 Stand Alone Systems:
+• CP2 Professional with either 2,10 or unlimited object license
+CP2 Client (connected to CP2 server):
+• CP2 Professional Client with either 2,10 or unlimited object license
+• CP2 Light Client with either 2,10 or unlimited object license (only supports
+M2P - and T1's)
+CP2 Viewer (connected to CP2 Server):
+• CP2 Viewer with either 2,10 or unlimited object license (reduced functionality)
+(See 1.2 CP2 versions in the CP2 Manual)
+The CP2 Server Solution makes it possible for multiple CP2 Clients and Viewers to
+share and monitor live operations simultaneously world wide. The secure connection
+using unique HTSI protocols and passwords ensures a complete safe information
+exchange. Via the CP2 Server objects can be monitored and tracked either via GPRS
+and/or SMS and Data. (Please note that not all HTSI hardware supports GPRS).
+The Server Administrator has full control over accessibility and visibility of objects
+shared with CP2 Clients- and Viewers. These rights can be changed instantly from
+the CP2 Server if needed.
+Advanced synchronization features ensures that CP2 Clients and Viewers are kept
+up-to-date with positions and information's from the Server. This feature is especially
+handy if a CP2 Client has been disconnected from the Server for a period of time.
+E.g. due to traveling. By accessing the Sync option for an object the Client will
+receive all information from the Server since last logon.
+Via the network "chat" option both the CP2 Server, CP2 clients and Viewers can
+share information directly in a secure chat room during live operations.
+In short, the CP2 Server Solution expands the possibilities for an efficient monitoring
+and tracking of objects on a local and global scale.
+Note:
+In order to use multiple CP2 Clients and/or CP2 Viewers an extended CP2 Server user
+license is required. The following options are available:
+a) 2-5 user license (allow the use of up to 5 CP2-viewers and/or clients to be
+connected to the CP2 server)
+b) 5 Plus user license. CP2 Client/Viewer access licensed on a per Client/Viewer
+basis.
+
+CP2 Features Sheet v.l.O
+
+Document Ref: 06080101
+Copyright HTSI 2006
+
+2. Modem support
+It's now possible to use 2 x USB modems with CP2 (See 2.5 Modem installation in
+the CP2 manual)
+
+3. External GPS
+CP2 supports the use of a MagnaTik mk3 connected via cable acting as an external
+GPS receive. (See 2.5.3 External GPSin the CP2 manual)
+
+4. GPRS
+When a CP2 Client/ CP2 Viewer is logged on to the CP2 Server all objects connected
+to the Server via GPRS will appear in the object list in bold. Objects not connected
+via GPRS will remain in normal font.
+Position request of objects connected via GPRS only takes 3-5 sec to retrieve!
+(See 4.0.1 GPRS connection in CP2 Manual)
+
+5. SMS "Iive"track
+This feature has been removed from the control panel due to customer feedback. If
+"live" track via SMS is required please configure the periodic timer in the hardware to
+report to CP2 e.g. every 2minutes.
+
+6. Action Required
+When an alarm with priority set to 1 is received or when a M2P has logged on the
+Action Required Window will pop up (configurable). The window will not disappear
+until the alarm has been confirmed.
+(See 4.1.1 Action Requiredand 4.4.10.1 Global settings in the CP2 manual)
+
+7. Download log- short cut
+It's now possible via an icon on the control panel to link direct to the hardware
+down load-log tab sheet
+(See 4.1.6 Download log in the CP2 manual)
+
+8. Synchronize log file
+If a CP2 client is connected to the CP2 server this shortcut will synchronize positions
+from objects received by the server either since last connect or on a specific date.
+E.g. a CP2 client on a laptop has been switched off due to travel. Next time the client
+connects to the server all missed position from one particular object or from all
+objects on one particular day can be downloaded. The synchronized log will
+automatically be added to the Objects log file or saved under date to the log files
+CP2 Features Sheet v.l.O
+
+Document Ref: 06080101
+Copyright HTSI 2006
+
+and can be viewed under the playback (See 4.1.7 Synchronize log file in the CP2
+manual)
+
+9. CP2 server
+The capability to connect to a CP2 Server either via LAN, WAN (dialup, cable,
+wireless and GPRS). Using the CP2 Server multiple CP2 (Clients/Viewers) can monitor
+the same objects simultaneously. Connected to the CP2 Server the CP2 is also able
+to use the chat feature. The Chat allows direct contact between CP2 clients/Viewers
+and CP2 server. Via the Team option it's possible to only communicate with a
+selection of the "online" CP2 clients/Viewers
+(See 4.1.8 CP2 Server status in the CP2 manual)
+
+10. GSM Toolbox
+With the GSM toolbox it's possible to control the roaming of the SIM card used in
+both the CP2 modem and the modem in the hardware when used abroad. This will
+optimize the communication speed between CP2 and hardware plus minimize the risk
+of lost contact
+(See 4.4.10.2 GSM Toolboxin the CP2 manual)
+
+11. Synchronize Object database with CP2 server
+Enables synchronization of the Object Database between CP2 (Client) and CP2
+Server.
+(See 4.4.10.3 Object DBin the CP2 Manual)
+
+12. Position request via mobile telephone
+When a new mobile telephone is setup in the Object database the mobile telephone
+can be classified to request a position of an object via CP2.
+Any Classified mobile telephone in the object database can request a position of an
+object via SMS to the modem of CP2. When the position is received CP2 will reply to
+the requesting mobile telephone with the position, speed and heading of the object.
+If CP2 supports Gazetteer the message will also contain address and postal code
+information of the position.
+(See 5.1.1 Position request via mobile telephone in the CP2 manual)
+
+13. New hardware
+CP2 supports the following hardware
+• Modular 2
+• Modular 2 Low Power
+• M2P (GPRS)
+• T1RG (GPRS)
+(See the specific hardware product sheets and manuals for more hardware info.)
+
+CP2 Features Sheet v.l.O
+
+Document Ref: 06080101
+Copyright HTSI 2006
+
+

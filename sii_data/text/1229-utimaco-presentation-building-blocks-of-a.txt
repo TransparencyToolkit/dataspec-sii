@@ -1,0 +1,564 @@
+Utimaco Safeware AG
+Martin Stange
+Building Blocks of a Carrier Grade Data Retention Solution
+ISS Prague, 3. June 09
+
+Utimaco Safeware
+Celebrating 25 Years in the IT security business
+
+! Founded in 1983
+! Listed on the German Stock
+Exchange
+! !59.2 million (fiscal year 07/08)
+
+© Utimaco Safeware AG 2009
+
+! 300+ employees
+in offices worldwide
+! Headquarters in Germany
+! 12 subsidiaries and established
+distributor and partner network
+around
+
+Offices
+Reseller/Distributors
+
+! Since Sept 2009 part of the Sophos Group
+2
+
+!"#$%&'()*+,Competence in Lawful Interception
+
+! Utimaco has been providing LI solutions since 1994
+! Worldwide operations: more than 140 installations in 60
+countries
+! LI systems for 10 thousand to 50 million subscribers,
+from 100 to 10,000 targets
+
+© Utimaco Safeware AG 2009
+
+! Strong partnerships with many of the leading telecom
+infrastructure vendors
+
+! Compliant to international LI standards of ETSI, 3GPP,
+ANSI/ATIS, CableLabs
+! Conform to numerous national telecommunication laws
+
+3
+
+Utimaco DRS
+Data Retention vs. Lawful Interception
+
+Past
+
+Data Retention
+
+Future
+
+Lawful Interception
+
+Call Detail Records
+Call Detail Records
+© Utimaco Safeware AG 2009
+
+Subscriber Data
+
+Call Content
+
+! Complementary means to assist law enforcement and antiterrorism
+! Technically many similarities
+4
+
+Telecom Data Retention
+a quick recap
+What?
+! Storage of subscriber traffic related data (CDRs) and subscriber data for 6-24 months,
+depending on country regulation
+! Data that is generated or processed in connection with the provisioning of telecom services
+! For telephony (fixed, mobil, VoIP), messaging, e-mail, Internet access
+! However no content of communication
+! Delivery of data upon lawful authorization without undue delay
+
+© Utimaco Safeware AG 2009
+
+Why?
+! Support LEAs in investigations and prosecutions related to serious crime.
+Objectives:
+w Trace (locate)
+w Identify (links, social networks)
+w Evidence
+References
+! National laws and regulations
+! EU Directive 2006/24/EC
+! ETSI standards
+w TS 102 656 (LEA requirements)
+w TS 102 657 (Retained data handover interface)
+5
+
+DR Reference Model
+by ETSI
+
+© Utimaco Safeware AG 2009
+
+Handover
+Interface
+
+LEA Functions:
+" Administrative
+function
+" Analysis function
+Source: ETSI TS 102 657
+
+CSP = Communications Service Provider
+HI = Handover Interface
+6
+
+./%"(01'$23('425%"'51(6'(7
+to fulfill the DR obligations
+! Extend their CDR data warehouse (BI system)
+w To cover new data
+w To handle LEA requests
+Fraud
+Detection
+
+Customer
+Care
+
+Network
+Operations
+
+LEA
+Support
+
+© Utimaco Safeware AG 2009
+
+BI Portal
+Data Warehouse
+
+CDR
+
+IPDR
+
+CRM
+
+ERP
+7
+
+© Utimaco Safeware AG 2009
+
+./%"("/212('425%"'51(8%&2(7
+
+! Missing data
+w e.g. e-mail, IP data, location information, incoming calls,
+unsuccessful calls, ,
+! High investments
+w Customized software adaptations
+w More storage
+w More servers
+! High operational costs
+w More personnel due to little automation for request processing
+! Security threads
+w No segregation between data for different purposes
+w Insufficient protection against misuse
+w Penalties and bad publicity
+
+8
+
+./%"('425%"'51(1/'9:6(&';1#625(7(
+
+© Utimaco Safeware AG 2009
+
+! Use of a purpose-built system
+w Secure access and strong misuse protection
+w Automated and assisted handling of LEA requests
+w Smooth integration into existing network
+w Inexpensive
+w Charging capabilities
+! Outsourcing opportunities
+w Operation of a DR system
+w Handling LEA requests (incl. billing)
+
+9
+
+Utimaco DRS
+a carrier grade data retention solution
+! Purpose-built system for compliance with the EU DR Directive (and
+national implementations of it)
+Key Features
+! Collects communications data (CDR, IPDR) and subscriber data
+from any telecommunications network
+! Retains large amounts of data in a powerful and secure data
+warehouse
+© Utimaco Safeware AG 2009
+
+! Provides very fast search and analytics in billions of data records
+
+!
+
+Automates request processing and delivers data to authorized
+agencies by fax, e-mail, or secure IP interfaces
+
+10
+
+Utimaco DRS
+functional model
+
+Telecom Service
+Provider
+
+Law Enforcement
+Agency
+
+Utimaco Data Retention Suite
+
+Data
+Collection
+Function
+
+Data Storage
+Management
+Function
+
+Warrant
+Management
+Function
+
+Warrant
+
+LEA
+Administration
+Report
+
+© Utimaco Safeware AG 2009
+
+Network Nodes
+
+Handover
+Interface
+
+Internal
+Interfaces
+
+Data Collection
+&
+Storage
+
+Request Management
+&
+Reporting
+
+11
+
+Data Analysis
+
+Utimaco DRS
+system architecture
+Operation
+& Administration
+
+Law Enforcement
+Agency
+
+Utimaco Data Retention Suite
+
+https
+
+Frontend
+
+DRS Management Server
+Workflow Management
+
+ETSI Interface
+
+Web Server
+
+Email Interface
+
+System Monitor
+
+Fax Interface
+
+HI-B
+
+DRS Backend Server
+Warrant, User, Node, Authoritiy,
+System Management
+
+Data
+Warehouse
+
+Data Analysis
+
+Backend
+
+Data Integration
+
+CD 1
+
+Telecomm
+Network
+
+Handover
+Interface
+
+System Monitor
+
+DRS Collection Devices
+© Utimaco Safeware AG 2009
+
+HI-A
+
+CD 2
+
+, CD x
+
+Router
+
+CDR
+Mediation
+System
+
+Switch
+
+Query
+Processing
+Data
+Archive
+
+Location
+Server Subscriber
+database
+
+12
+
+Utimaco DRS
+
+© Utimaco Safeware AG 2009
+
+backend components
+! DRS Collection Devices
+w import and mediate data from various sources at Gbit speed
+w easily customizable (interfaces, protocols, data formats)
+w scale horizontally by adding servers
+w integrated error detection, buffering
+w optional redundancy
+! DRS backend Server
+w Encapsulates the core business logic of DRS
+- Warrant management & Reporting
+- User management
+- Authority management
+- Node management
+- Logging
+- System administration and alarm monitoring
+w High-availability (redundancy concepts)
+w Highly protected 8OS hardening, encryption, ACL, ,>
+13
+
+Utimaco DRS
+
+© Utimaco Safeware AG 2009
+
+backend components
+! DRS Collection Devices
+w import and mediate data from various sources at Gbit speed
+w reduce data to what is needed by law
+w easily customizable (interfaces, protocols, data formats)
+w scale horizontally by adding servers
+w integrated error detection, buffering
+w optional redundancy
+! DRS backend Server
+w Encapsulates the core business logic of DRS
+- Warrant management & Reporting
+- User management
+- Authority management
+- Node management
+- Logging
+- System administration and alarm monitoring
+w High-availability (redundancy concepts)
+w Highly protected 8OS hardening, encryption, ACL, ,>
+14
+
+Utimaco DRS
+data warehouse
+! Optimized for fast search and analytics (not for transactions)
+! Columnar storage
+
+w One data field = one column = one data type
+w typical compression rate between 40% - 80%
+(depending on cardinality and data type)
+w specialized indixes per data type (per column)
+
+! Results in less disk I/O for queries
+! provides much faster search times than traditional databases
+© Utimaco Safeware AG 2009
+
+! Designed for 1TB to hundreds of TB
+! low-cost disks with RAID-5 storage
+! 3 Gb/s SAS IO modules
+
+15
+
+Utimaco DRS
+front end components
+
+© Utimaco Safeware AG 2009
+
+! DRS Management Server
+w Web user interface
+w Predefined and customizable workflows and reports
+w Multi-user system with granular rights management
+w Secure access via https
+w Customizable handover interfaces and report formats
+w Electronic handover interfaces:
+- Fax server integration
+- E-mail server
+- ETSI RDHI
+
+16
+
+Utimaco DRS
+Highlights
+! Seamless integration into existing network infrastructures
+w Multi-service, multi-vendor data import
+w Online database access
+w Easily customizable and extensible at predictable costs
+
+! Multi-tenancy
+w Supports various business models, from single operator, MVNO, hosted
+service models, and others
+
+© Utimaco Safeware AG 2009
+
+w Granular rights management to segregate between users, CSPs,
+authorities
+! High performance and capacity
+
+w Simultaneous load of massive data (>1 billion records per day)
+w Average query response within seconds (<5 sec for 37 billion records)
+w Scalable from 1 TB to 1000TB storage capacity
+
+17
+
+Utimaco DRS
+Highlights
+! Automated request processing
+w Electronic interfaces for receive&send
+w Warrant archive
+w Predefined queries & reports
+
+! High-availability
+w Clustered server architecture
+w Hardware redundancy
+w RAID-5
+
+© Utimaco Safeware AG 2009
+
+w Real-time system monitor
+! Strong Security
+
+w Granular user rights management
+w Encrypted storage and handover
+w Data integrity protection
+w Full audit trails
+18
+
+Utimaco DRS
+Highlights
+! Cost-efficient
+w Standard X64 hardware
+w Low-costs disk storage (SATA)
+w High data compression rates (40-80%)
+! Standards based
+w Supports EU Directive 2006/EC/24
+
+© Utimaco Safeware AG 2009
+
+w Complies with ETSI TS 102 656, TS 102 657
+
+19
+
+Outsourcing
+DR as managed service
+! Utimaco DRS operated by a service provider
+w Secure retention of data
+w Request handling (communication with LEA)
+w Charging to LEA
+w Combination with LI possible (lawful interception)
+
+© Utimaco Safeware AG 2009
+
+! Service Partners
+w Nokia Siemens Networks (Germany)
+w Quante Networks (Germany)
+w Other (on request)
+
+20
+
+Utimaco DRS < a carrier grade data retention solution
+
+© Utimaco Safeware AG 2009
+
+summary
+
+! integrates seamlessly with existing network
+infrastructure
+
+Benefits
+
+! integrates with business processes
+
+confident compliance
+
+! respects and supports security policies
+
+secure
+
+! automates request processing
+
+scalable
+
+! automates data collection
+
+future-proof
+
+! is highly resilient against common failures by
+redundancy
+
+highly available
+
+! scales from millions to billions of records per day
+
+predictable CAPEX
+minimized OPEX
+
+! is extensible at predictable costs
+! is cost-efficient
+21
+
+Demo please!
+
+© Utimaco Safeware AG 2009
+
+! If you want to learn more about carrier grade Data Retention solutions,
+please visit us at booth 19 (Thursday to Friday)
+
+22
+
+thank you!
+
+!
+6=>9?#@
+gracias!
+AB@
+merci!
+tacka dig!
+grazie!
+CDE(FGHDIJCKLMNF@
+danke!
+
+© Utimaco Safeware AG 2009
+
+www.utimaco.com
+
+23
+
+

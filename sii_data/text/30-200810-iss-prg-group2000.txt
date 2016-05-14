@@ -1,0 +1,691 @@
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA Lawful Interception
+Lawful Interception in the evolving world of telecom
+
+globalsafe)ynee,sglobalreliabili)y
+
+Contents
+
+Introduction to Group 2000
+Challenges in Lawful Interception
+Needs for Lawful Interception
+LIMA
+Examples
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 2
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Group 2000 at a glance
+Founded in 1978
+Privately owned company
+Global focus
+Headquarter in the Netherlands
+60+ employees
+Regional Sales offices in Norway
+and Switzerland
+
+In-house development
+In-house Customer Care
+Independent LI vendor
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 3
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Challenges in Lawful Interception
+Lawful Interception in the evolving world of telecom
+
+globalsafe)ynee,sglobalreliabili)y
+
+Evolving world of telecom
+New technologies
+Network migrations
+2G, 2.5G and 3G networks
+TDM, VoIP
+Radius, DHCP
+
+User bandwidth increase
+Legacy networks
+Parts of )Old- infrastructure
+Mix of different network element vendors
+Networks adopted during company migrations
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 5
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Challenges for LI
+Country specific addendums to standards
+ETSI 102 232 (IP delivery)
+ETSI 201 671 (Telecommunications traffic)
+
+New networks require new LI approach
+Different infrastructure
+Migration period from previous to new network topology
+Different interface per network element
+
+New LI equipment
+High OPEX
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 6
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Needs for LI equipment
+Lawful Interception in the evolving world of telecom
+
+globalsafe)ynee,sglobalreliabili)y
+
+General Needs for LI
+
+Solution that allows:
+Upgrading
+Capacity increase
+Support for new functionality
+
+Customization
+Single method to serve all networks/equipment
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 8
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Needs for Management
+Interception and network management
+!"#$%&''()$&'$*
+Manage all networks deployed
+Manage all intercepts
+Investigate all irregularities
+
+User and role management
+Audit logging
+Easy to use
+Secure communication
+
+Automated interception management
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 9
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Needs for Mediation
+Lawful Interception Mediation equipment
+Architecture that allows
+Merging information
+Duplication of information
+Allow country specific implementations
+Central and de-central topology
+Scalability
+Stability
+
+Secure communication
+Maintainability
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 10
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Needs for Monitoring
+Architecture that allows
+Monitoring specific protocols
+Keeping track of protocol states
+Provide all information available in the protocol
+Central and de-central topology
+Stable handling of clusters
+Scalability
+Stability
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 11
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Lawful Interception Mediation Architecture
+(LIMA)
+Lawful Interception in the evolving world of telecom
+
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA Lawful Interception
+Management
+Monitoring
+
+Mediation
+
+ETSI reference model
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 13
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA platform architecture
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 14
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA Tap Distribution System
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 15
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA Mediator
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 16
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA Monitor
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 17
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Examples
+Lawful Interception in the evolving world of telecom
+
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA Tap Distribution System
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 19
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Example (simplified)
+LEA
+IRI
+Interception
+point
+
+Proprietary
+
+Provisioning
+module
+
+network
+TCP/IP
+
+LIMA MS
+OMMI
+INI-2
+OMMI
+
+CC
+Interception
+point
+INI-3
+LIMA Mediator
+
+HI-2
+HI-3
+
+LEMF
+
+Provisioning
+
+Intercepted traffic
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 20
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Example (IP interception)
+LEA
+
+Wire tap
+
+DHCP / Radius
+Server
+
+IP-network
+TCP/IP
+
+LIMA MS
+
+Monitor
+
+SNMPv3
+
+HI-2
+
++,-.)/
+Customer
+Premises
+
+HI-3
+
+LIMA Mediator
+
+HI-2
+HI-3
+
+LEMF
+
+Static provisioning
+Dynamic provisioning
+Intercepted traffic
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 21
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Conclusions
+Lawful Interception in the evolving world of telecom
+
+globalsafe)ynee,sglobalreliabili)y
+
+Conclusions
+Group 2000 is market leader for Lawful Interception in The
+Netherlands, solution deployed in more than 14 EU countries
+Proven powerful modular and scalable lawful interception
+platform
+Generic platform for multiple Lawful Interception services
+Flexible expansion possibilities (functionality)
+Turn-key solution, suited for all Telco-s, ISP-s and Cable 
+companies
+Suited to reduce operational costs
+Global support and customer care
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 23
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+LIMA
+Example Architectures
+
+globalsafe)ynee,sglobalreliabili)y
+
+xDSL interception 0 integrated solution
+xDSL network
+
+LEA
+Authentication
+server
+
+IP-network
+LIMA MS
+
+TCP/IP
+HI-2
+
+xDSL
+
+Routers
+HI-3
+
+LIMA Mediator
+
+1.23,)/
+
+HI-2
+HI-3
+
+LEMF
+
+Static provisioning
+Dynamic provisioning
+Intercepted traffic
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 25
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Cable internet interception 0 partly
+integrated
+LEA
+
+Cable network
+Wire tap
+
+DHCP Server
+
+IP-network
+TCP/IP
+
+LIMA MS
+
+Probe
+
+dynamic
+provisioning
+
+HI-2
+
++,-.)/
+Customer
+Premises
+
+HI-3
+
+LIMA Mediator
+
+HI-2
+HI-3
+
+LEMF
+
+Static provisioning
+Dynamic provisioning
+Intercepted traffic
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 26
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+IP interception 0 monitoring solution
+IP network
+Wire tap
+
+LEA
+
+DHCP
+Server
+
+IP-network
+Wire tap
+
+LIMA MS
+
+Probe
+
+Probe
+HI-2
+Backbone
+routers
+
+HI-3
+LIMA Mediator
+
+HI-2
+HI-3
+
+LEMF
+
+Static provisioning
+Dynamic provisioning
+Intercepted traffic
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 27
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+GRPS/UMTS PS interception 0 Nokia
+example
+LEA
+Nokia based GPRS/UMTS network
+UMTS
+GSM
+network
+
+SGSN
+Nokia OCLM telnet
+provisioning
+LIC
+LIMA MS
+
+3G
+GPRS backbone
+
+LIB
+HI-2
+456)/
+HI-3
+LIMA Mediator
+
+HI-2
+HI-3
+
+GGSN
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 28
+
+LEMF
+
+Static provisioning
+Intercepted traffic
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+UMTS CS interception 0 Nokia example
+LEA
+
+LIMA MS
+Nokia OCLM telnet
+provisioning
+3G
+UMTS CS
+backbone
+
+HI-2
+
+LIMA Mediator
+
+HI-2
+LEMF
+
+HI-3
+
+HI-3
+
+MSC
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 29
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Fixed telephony 0 Lucent example
+LEA
+
+LIMA MS
+Lucent
+Provision
+
+Fixed
+Telephony
+
+HI-2
+
+LIMA Mediator
+
+HI-2
+
+LEMF
+HI-3
+
+HI-3
+
+Lucent 5ESS
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 30
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+GSM interception 0 Ericsson example
+LEA
+
+LIMA MS
+
+Ericsson
+LI-IMS CORBA
+
+Fixed
+Telephony
+
+Ericsson
+LI-IMS
+
+HI-2
+
+LIMA Mediator
+
+HI-2
+
+LEMF
+HI-3
+
+HI-3
+
+Ericsson MSC
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 31
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Fixed telephony 0 monitoring example
+LEA
+
+Class 5
+Switch
+
+LIMA MS
+
+PSTN
+backbone
+
+HI-2
+LIMA Mediator
+
+LEMF
+HI-3
+
+HI-2
+
+Class 5
+Switch
+
+HI-3
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 32
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+VoIP interception 0 Siemens example
+LEA
+
+Siemens hiQ Softswitch
+
+LIMA
+INI
+1 (OMMI)
+MS
+
+SS7
+LIMA
+Mediator
+
+HI2
+
+HI2
+LEMF
+HI3
+
+HI3
+SIP
+HI3
+
+PSTN
+SII
+MGCP
+
+SS7
+
+RTP
+
+IP
+network
+
+CMTS
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 33
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Fixed telephony 0 IN based
+interception
+SCP
+
+LIMA MS
+
+LEA
+
+Log
+records
+
+PSTN
+LIMA Mediator
+
+HI-2
+
+LEMF
+
+HI-3
+
+HI-3
+
+Switch
+
+LI Switch
+
+LIMA | Lawful Interception in the evolving world of telecom | October 2008 | Slide 34
+
+we develop telecom solutions
+
+globalsafe)ynee,sglobalreliabili)y
+
+Questions ?
+Lawful Interception in the evolving world of telecom
+
+

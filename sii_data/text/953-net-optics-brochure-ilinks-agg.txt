@@ -1,0 +1,136 @@
+iLink Agg
+(16) 10/100/1000/Gig Network Ports to
+(8) 10/100/1000/Gig Monitor Ports
+Fully Configurable Port Mapping
+With 24 ports in a 1U form-factor, Net Optics iLink Agg is the industry’s highest port density
+1 Gigabit link aggregator designed for monitoring applications. It enables a pool of
+monitoring tools to be applied to as many as 8 network links (using integrated in-line Taps)
+or 16 Span ports, with fully configurable port mapping. Aggregate traffic from some ports.
+Regenerate monitor streams to multiple ports. Switch links to tools in a 1-to-1 mapping. The
+Link Agg supports any configuration—monitor ports can also be used as additional network
+ports, and Span network ports can be used as additional monitor ports. You can even split a
+cable and use the RX fiber for a network connection and the TX fiber for a monitor
+connection, increasing the potential number of ports to 24 network plus 24 monitor.
+The iLink Agg Span model has 24 SFP ports that enable mixing fiber and copper
+transceivers to match any links, Span ports, and tools. In-line models are available
+supporting singlemode and multimode fiber as well as copper media on the network side,
+and SFP ports to support any interface on monitoring tools. When required, data rate
+conversion between network ports and monitor ports is automatic.
+Manage the iLink Agg locally or remotely. Management features include simple port
+mapping, SSH security, role-based access, RADIUS and TACACS+ authentication and
+authorization, RMON traffic statistics, and remote software upgrades.
+
+Technical Specifications:
+Operating:
+Operating Temperature: 0ºC to 40ºC
+Storage Temperature: -10ºC to 70ºC
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Mechanical:
+Dimensions: 1.75” high x 19” wide x 23.5” deep (24” slide)
+Weight: 8.2 lbs (3.7 kg)
+Hot-Swappable Redundant Power Supplies:
+
+AC Input: 100-240V, 0.7A, 47-63Hz
+DC Input: -48VDC nominal, -36 to -72VDC, 1.8A
+
+Cable Interface:
+Fiber Cable Type: Depends on SFP modules
+
+Connectors:
+Monitoring Port: (8) SFP slots
+Network Ports: (16) SFP slots, (16) RJ45, (16) LC fiber
+
+(depending on model)
+Management Ports: (1) RJ45 RS232 and (1) RJ45 10/100/1000
+
+Performance:
+
+All of the integrated copper and fiber Taps in the iLink Agg in-line models are fully passive,
+keeping traffic flowing even when the device is not powered. For additional reliability, the
+iLink Agg features hot-swappable redundant power supplies.
+
+No packets are dropped when the aggregated traffic to any monitor
+port does not exceed the monitor port bandwidth
+
+Passive, Secure Technology
+
+CLI local or SSH remote, RADIUS, TACACS+, RMON
+
+• Increases monitoring efficiency by enabling tools to view the traffic on as many as eight
+network links (inline models) or 16 Span ports or external Taps (Span model) simultaneously
+• Eliminates resource contention by enabling as many as eight devices to monitor identical
+traffic at the same time
+• Improves monitoring flexibility with fully configurable port mappings (any number of
+links to any number of tools)
+• Provides complete visibility at 1 Gbps without interfering with the data stream and
+without introducing a point of failure
+• Supports media type conversion with SFP transceiver modules on the monitor ports (all
+models) and the network ports (Span model only)
+• Enhances monitoring security because no IP address is needed
+
+Ease of Use
+•
+•
+•
+•
+•
+•
+
+Pre-loaded with common port mapping configurations
+LEDs indicate Link, Activity, and Power status
+Front-mounted connectors ease installation and operation
+High density 1U rack enclosure with slide rails
+Compatible with all Net Optics Taps and Bypass Switches
+Compatible with all major manufacturers' monitoring devices, including protocol
+analyzers, probes, firewalls, and intrusion detection/prevention systems
+
+Management:
+Certifications:
+Safety: UL, CE EMC: FCC, VCCI, C-Tick
+Environmental: RoHS, WEEE, Fully IEEE 802.3 compliant
+Part Number
+
+LA-2400 *
+LA-2405 *
+LA-2410 *
+LA-2415 *
+LA-2420 *
+SFPKT-SX
+SFPKT-50SX
+SFPKT-LX
+SFPKT-GCU
+SFPKT-CU3
+
+Description
+
+iLink Agg, 1G, 24 SFP Ports, Span
+iLink Agg, (16) 10/100/1G IL to (8) SFP, Copper
+iLink Agg, (16) SX IL to (8) SFP, 62.5μm, 50/50, LC
+iLink Agg, (16) SX IL to (8) SFP, 50μm, 50/50, LC
+iLink Agg, (16) LX IL to (8) SFP, 8.5μm, 50/50, LC
+GigaBit Fiber SX SFP with cable
+GigaBit Fiber SX SFP with cable 50μm
+GigaBit Fiber LX SFP with cable
+GigaBit Copper SFP with cable
+10/100/1000 Copper SFP with cable
+
+All products include a 1 year manufacturer’s warranty. A service plan with
+up to 7 years coverage and an advanced replacement option is available.
+* Add -DC to the part number for the -48V model
+
+ELEXO
+Net Optics Inc., 5303 Betsy Ross Drive, Santa Clara, CA 95054, USA
+Tel: +1 (408) 737-7777 • www.netoptics.com
+Net Optics® is a registered trademark of Net Optics, Inc. Copyright 1996-2009 Net Optics, Inc. All rights
+reserved. Additional company and product names may be trademarks or registered trademarks of the
+individual companies and are respectfully acknowledged. 800-0130-001 PUBLA2400D Rev. 1, 10/09
+
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+

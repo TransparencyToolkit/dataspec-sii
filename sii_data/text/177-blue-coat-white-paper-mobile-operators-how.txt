@@ -1,0 +1,133 @@
+BlueBCoat'
+
+Solution Brief: Mobile Operators - How to control Skype
+
+ 
+
+ 
+
+ 
+
+
+
+
+'1
+
+
+ 
+
+Skype Voice over IP threat to
+Mobile Operators
+
+Skype has been installed by over 250.000.000 users
+worldwide, mainly on their PCs to allow them to engage
+in free telephone calls, file transfers, conference
+calling. voice-mail and video calling functionality. There
+are additional services offered by Skype that allow users
+to Skype-out [call to the standard PSTN services] and
+Skype-in [call from PSTN to Skype-enabled devices] at
+local rates.
+
+Many mobile telephones now run Windows derivatives
+and Skype can be installed on those devices. The user
+can then utilize the mobile operators network to use
+Skype functionality.
+
+This is a major threat to the calling revenue of
+mobile operators.
+
+Blue Coat's ProxySG family of appliances can recognize
+Skype traffic being sent across the network and [working
+together with firewalls] the ProxySG appliances can block
+Skype, ensuring the mobile operators call revenue is not
+negatively impacted.
+
+Some mobile operators may choose to offer a premium-
+rate value-added service where authorized users pay
+
+an additional amount each month to allow them to use
+Skype. As the ProxySG appliances can integrate with both
+the operators LDAP and RADIUS directories, the operator
+can deploy Blue Coat appliances to block Skype for most
+users and allow it for users who sign up for the premium-
+rate service.
+
+Operators can provide a web- based interface where users
+self-select the Skype-enabled premium-rate service.
+
+Technical Overview
+
+If the operator uses the port- blocking capabilities of
+firewalls to block the standard IP ports used by Skype.
+then the Skype application will try to transmit its data
+over TCP port 80 or TCP port 443, commonly used for web
+browsing and SSL traffic respectively.
+
+
+
+-)
+
+
+
+-)
+
+
+
+
+
+
+
+As the traffic over port 80 is not valid HTTP traffic, the
+ProxySG can recognize this and block the Skype traffic.
+Skype then tries to use port 443, the standard port for
+traffic. The ProxySG can be configured to block
+all traffic over port 443 that does not contain a valid
+SSL certificate.
+
+In this way, Skype is blocked effectively from the mobile
+operator's network.
+
+See our Skype White Paper and Skype Tech Brief for more
+detailed explanation of the solution.
+
+Blocking Skype:
+
+Skype is a service that offers free calls worldwide
+between Skype-enabled devices.
+
+Most devices enabled to use Skype are PCs, however
+mobile 'phones are becoming Skype-enabled at a
+growing rate.
+
+There are now more than 250million Skype
+
+users worldwide
+
+Skype is a major threat to the revenue stream of
+mobile operators
+
+As more mobile phones becomes Internet-ready, the
+threat keeps increasing
+
+Blue Coat can block Skype within Mobile
+Operator networks
+
+Operators may choose to embrace Skype and offer a
+value-added service that includes Skype
+
+Blue Coat can integrate with LDAP and RADIUS
+directories simultaneously to enable the operator to offer
+this premium service
+
+Users can be offered a web- based self-select service to
+sign up for a contract that allows Skype traffic to pass
+across the network.
+
+Blue Coat Systems. Inc. 1.866.30.BCOAT 408.220.2200 Direct 408.220.2250 Fax// 
+
+Copyright 0 2007 Blue Coat Systems, Inc. All rights reserved worldwide. No part of this document may be reproduced by however. Blue Coat Systems, Inc. assumes no responsibility for its use, Blue Coat is reg'stered trademark
+any means nor translated to any electronic medium without the written consent of Blue Coat Systems, Inc. Specifications of Blue Coat Systems. Inc. in the US. and worldwide.All other trademarks mentioned in this document are
+are subject to change without notice. Information contained in this document is believed to be accurate and reliable, the property of their respective owners. 
+
+ 
+

@@ -1,0 +1,2673 @@
+Blue Coat® Systems
+ProxySG™
+
+SGOS 4.x Upgrade Guide
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Contact Information
+Blue Coat Systems Inc.
+650 Almanor Avenue
+Sunnyvale, California 94085
+North America (USA) Toll Free: 1.866.362.2628 (866.36.BCOAT)
+North America Direct (USA): 1.408.220.2270
+Asia Pacific Rim (Japan): 81.3.5425.8492
+Europe, Middle East, and Africa (United Kingdom): +44 (0) 1276 854 101
+bcs.info@bluecoat.com
+support@bluecoat.com
+www.bluecoat.com
+Copyright© 1999-2005 Blue Coat Systems, Inc. All rights reserved worldwide. No part of this document may be
+reproduced by any means nor modified, decompiled, disassembled, published or distributed, in whole or in part,
+or translated to any electronic medium or other means without the written consent of Blue Coat Systems, Inc.
+The Software may not be modified, reproduced (except to the extent specifically allowed by local law), removed
+from the product on which it was installed, reverse engineered, decompiled, disassembled, or have its source
+code extracted. In addition to the above restrictions, the Software, or any part thereof, may not be (i) published,
+distributed, rented, leased, sold, sublicensed, assigned or otherwise transferred, (ii) used for competitive analysis
+or used to create derivative works thereof,(iii) used for application development, or translated (iv) used to
+publish or distribute the results of any benchmark tests run on the Software without the express written
+permission of Blue Coat Systems, Inc., or (v) removed or obscured of any Blue Coat Systems, Inc. or licensor
+copyrights, trademarks or other proprietary notices or legends from any portion of the Software or any associated
+documentation. All right, title and interest in and to the Software and documentation are and shall remain the
+exclusive property of Blue Coat Systems, Inc. and its licensors. Blue Coat Systems, Inc. specifications and
+documentation are subject to change without notice. Information contained in this document is believed to be
+accurate and reliable, however, Blue Coat Systems, Inc. assumes no responsibility for its use. ProxySG™,
+ProxyAV™, CacheOS™, SGOS™, Spyware Interceptor™, Scope™ are trademarks of Blue Coat Systems, Inc. and
+CacheFlow®, Blue Coat®, Accelerating The Internet®, WinProxy®, AccessNow®, Ositis®, Powering Internet
+Management®, and The Ultimate Internet Sharing Solution® are registered trademarks of Blue Coat Systems,
+Inc. All other trademarks contained in this document and in the Software are the property of their respective
+owners.
+
+BLUE COAT SYSTEMS, INC. DISCLAIMS ALL WARRANTIES, CONDITIONS OR OTHER TERMS,
+EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, ON SOFTWARE AND DOCUMENTATION
+FURNISHED HEREUNDER INCLUDING WITHOUT LIMITATION THE WARRANTIES OF
+DESIGN, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL BLUE COAT SYSTEMS, INC., ITS SUPPLIERS OR
+ITS LICENSORS BE LIABLE FOR ANY DAMAGES, WHETHER ARISING IN TORT, CONTRACT OR
+ANY OTHER LEGAL THEORY EVEN IF BLUE COAT SYSTEMS, INC. HAS BEEN ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGES. The Software and all related technical information,
+documents and materials are subject to export controls under the U.S. Export Administration
+Regulations and the export regulations of other countries.
+Document Number: 231-02781
+Document Revision: SGOS 4.1—6/09/05
+
+ii
+
+Contents
+Contact Information
+Chapter 1: Upgrading—Overview
+Changes Between SGOS 3.x and SGOS 4.x......................................................................................................5
+About the Document Organization ..................................................................................................................5
+Related Blue Coat Documentation....................................................................................................................5
+Document Conventions......................................................................................................................................6
+Chapter 2: Upgrade Behavior, General
+Upgrading ............................................................................................................................................................7
+Restoring to Previous Versions .........................................................................................................................8
+Changing Between SGOS 4.x Versions ............................................................................................................9
+Licensing.............................................................................................................................................................10
+Hardware Supported ........................................................................................................................................12
+Documentation References ..............................................................................................................................12
+Chapter 3: Feature-Specific Upgrade Behavior
+Access Logging ..................................................................................................................................................13
+Authentication ...................................................................................................................................................17
+Bandwidth Management..................................................................................................................................17
+Compression ......................................................................................................................................................18
+Content Filtering................................................................................................................................................19
+CPU Monitoring ...............................................................................................................................................19
+Endpoint Mapper and SOCKS Compression................................................................................................20
+ICAP Patience Page...........................................................................................................................................20
+Policy ...................................................................................................................................................................21
+Securing the Serial Port ....................................................................................................................................30
+SmartFilter Version 4 ........................................................................................................................................30
+SSL Key Management.......................................................................................................................................30
+Index
+
+iii
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+iv
+
+Chapter 1:
+
+Upgrading—Overview
+
+Blue Coat® strongly recommends that you read this document before attempting to upgrade to SGOS
+4.x from previous ProxySG operating systems.
+Existing features and policies might not perform as with previous versions, and upgrading to this
+version might require some additional configuration tuning. This SGOS version provides high
+security for the network, so when downgrading to previous versions, not all configurations and
+policies are retained.
+
+Changes Between SGOS 3.x and SGOS 4.x
+Unlike SGOS 3.x, SGOS 4.x does not permit upgrades from SGOS 2.x or CacheOS 4.x. All systems
+must be upgraded to SGOS 3.2.4 before being upgraded to SGOS 4.x. For information on the correct
+upgrade path, see Table 2.1, “Upgrade Paths” on page 7.
+If you attempt to download the next major release and you receive an error message saying that the
+download failed due to policy deprecations, your policy uses constructs that are no longer supported
+in SGOS 4.x. You must correct any policy syntax problems before upgrading.For information on
+checking on policy deprecation, see "Policy Deprecation" on page 22.
+If the upgrade path is followed, most of the current settings on the ProxySG are maintained after the
+upgrade. New or transformed settings in SGOS 4.x are taken from the original settings wherever
+possible.
+
+About the Document Organization
+This document is organized for easy reference, and is divided into the following sections and chapters:
+Table 1.1: Document Organization
+Chapter Title
+
+Description
+
+Chapter 1 – Introducing the Upgrade/Downgrade
+Guide
+
+Upgrade differences between SGOS 3.2.x and SGOS 4.x. Blue
+Coat documentation and documentation conventions are
+also discussed.
+
+Chapter 2 – Upgrade Behavior, General
+
+This chapter discusses general upgrade issues, including the
+required upgrade path and licensing.
+
+Chapter 3 – Upgrade Behavior, Specifics
+
+This chapter identifies new features in SGOS 4.x and
+discusses any upgrade/downgrade issues.
+
+Related Blue Coat Documentation
+•
+
+Blue Coat 6000 and 7000 Installation Guide
+
+•
+
+Blue Coat 400 Series Installation Guide
+
+•
+
+Blue Coat 800 Series Installation Guide
+
+•
+
+Blue Coat 8000 Series Installation Guide
+
+5
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+•
+
+Blue Coat ProxySG Configuration and Management Guide
+
+•
+
+Blue Coat ProxySG Content Policy Language Guide
+
+•
+
+Blue Coat ProxySG Command Line Interface Reference
+
+Document Conventions
+The following section lists the typographical and Command Line Interface (CLI) syntax conventions
+used in this manual.
+Table 1.2: Typographic Conventions
+Conventions
+
+6
+
+Definition
+
+Italics
+
+The first use of a new or Blue Coat-proprietary term.
+
+Courier font
+
+Command line text that appears on your administrator
+workstation.
+
+Courier Italics
+
+A command line variable that is to be substituted with a literal
+name or value pertaining to the appropriate facet of your network
+system.
+
+Courier Boldface
+
+A ProxySG literal to be entered as shown.
+
+{ }
+
+One of the parameters enclosed within the braces must be
+supplied
+
+[ ]
+
+An optional parameter or parameters.
+
+|
+
+Either the parameter before or after the pipe character can or must
+be selected, but not both.
+
+Chapter 2:
+
+Upgrade Behavior, General
+
+Upgrading
+When upgrading to SGOS 4.x from SGOS 3.2.4 or higher, the ProxySG saves a copy of the original
+configurations. These configurations remain unaffected when configuring features going forward. If
+you downgrade to the previous SGOS version, the saved configuration is used and the ProxySG is
+restored to that state.
+Following the upgrade path provided maintains most of the current settings, the exceptions being
+those features that were substantially enhanced in SGOS 4.x.
+The only supported direct upgrade is from SGOS 3.2.4 and later. CacheOS 4.x and SGOS 2.x systems
+must first be upgraded to the SGOS 3.2.4 release. The following table provides the upgrade paths for
+these earlier version.
+Table 2.1: Upgrade Paths
+Current OS
+
+Direct Upgrade
+to SGOS 3.2.4?
+
+Next OS version Comments
+required
+
+CA 1.0.00-CA3.1.15
+
+No
+
+CA 3.1.16
+
+CA 3.1.16
+
+No
+
+CA 4.1.10
+
+CA 3.5.00-CA3.5.07
+
+No
+
+CA 3.5.08
+
+CA 3.5.08
+
+No
+
+CA 4.1.10
+
+CA 4.0.00-CA4.1.09
+
+No
+
+CA 4.1.10
+
+CA 4.1.10 or greater
+
+No
+
+SG 2.1.07
+
+CA 4.2.00
+
+No
+
+CA 4.2.01
+
+CA 4.2.01 or greater
+
+Yes
+
+None
+
+SA 1.0.00-SA2.0.x
+
+No
+
+SA 2.0.x
+
+SA 2.0.x
+
+No
+
+SA 4.1.10
+
+SA 4.0.00-SA4.1.09
+
+No
+
+SA 4.1.10
+
+SA 4.1.10 or greater
+
+Yes
+
+None
+
+SG 2.0.00-SG 2.1.06
+
+No
+
+SG 2.1.07
+
+SG 2.1.07 or greater
+
+Yes
+
+None
+
+Can directly upgrade to SGOS 3.2.4
+
+Can directly upgrade to SGOS 3.2.4.
+
+Can directly upgrade to SGOS 3.2.4.
+
+In SGOS 3.2.4 or greater, deprecation warnings are issued for CPL syntax that is abandoned in SGOS
+4.x. Use of abandoned syntax causes CPL compiler errors, the policy will fail to install and the
+ProxySG will use the default policy of ALLOW or DENY for all traffic. Following the recommended
+upgrade process ensures that policy integrity and therefore network security, are maintained.
+
+7
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Summary of Changes to the Upgrade Process
+•
+
+The upgrade path must include a system that shows all possible deprecation warnings, so that
+these can be corrected in advance of the upgrade, to avoid policy compilation failures after
+upgrading. Migrating through SGOS 3.2.4 or greater satisfies this requirement.
+
+•
+
+If the currently installed policy issued deprecation warnings when compiled, downloads of
+systems in which that syntax has been abandoned will fail with the error " ". Which error
+message you see depends on whether you were using the Management Console or the CLI.
+From the Management Console:
+Policy deprecation warnings exist. Please resolve them prior to upgrading to the next major release of
+system software
+
+From the CLI:
+WARNING: The installed policy contains deprecation warnings. Please fix these
+warnings prior to upgrading to the next major release, or use load upgrade
+ignore-warnings at your own risk. Upgrading to the next major release with
+deprecation warnings will cause the policy compilation to fail on boot.
+
+This means that you cannot download major version upgrades while policy contains deprecated
+syntax.
+Generally, the deprecation warnings indicate the appropriate corrective action. See "Policy
+Deprecation" on page 22 for instructions on how to view the deprecation warnings that indicate
+the syntax to be corrected.
+Note:
+
+The Visual Policy Manager (VPM) automatically generates up-to-date CPL syntax. If the
+deprecations warnings are issued from the VPM policy file, you should start VPM and
+reload the policy to get the latest version of the generated CPL.
+
+You can force an upgrade while deprecation warnings are present using the CLI command load
+upgrade ignore-warnings; however, policy compilation will fail after the upgrade and the
+ProxySG reverts to the default policy of ALLOW or DENY. Corrective action is required to restore
+normal operation.
+
+Restoring to Previous Versions
+When upgrading from the SGOS 3.2.4 or higher release, a copy of the settings is saved prior to any
+transformations by SGOS 4.x so that the original settings are available if the ProxySG is downgraded
+to SGOS 3.2.4.
+Keep in mind that changes made after upgrade are not preserved on a downgrade. After an upgrade
+and a downgrade, the state is exactly what it was before the upgrade.
+
+Redoing an Upgrade from SGOS 3.2.4
+When the initial SGOS 4.x upgrade occurs, any compatible configurations are converted. This only
+happens the first time you upgrade; if you later downgrade to a pre-SGOS 4.x version by selecting an
+earlier image on your system, make configuration changes, and re-install SGOS 4.x, the new SGOS
+3.2.4 changes are not propagated to SGOS 4.x.
+
+8
+
+Chapter 2: Upgrade Behavior, General
+
+To force the new system's configuration to be regenerated after changes are made to the older system's
+configuration, you will need to force the upgrade conversion to occur again. Use the
+restore-sgos3-config command, which converts the current SGOS 3.x configuration to the SGOS
+4.x configuration.
+Note:
+
+Previous force commands, restore-sgos2-config and restore-cacheos4-config, are not
+available in SGOS 4.x; they can only be run from earlier versions.
+
+The restore-sgos3-config command first checks if there are saved SGOS 3.2.4 settings on the
+ProxySG. If not, the CLI command warns the administrator and exits.
+If saved SGOS 3 settings exist, the restore-sgos3-config command warns the administrator that all
+the current SGOS 4.x settings will be lost and that a restart will be initiated, waiting for positive
+confirmation before clearing all the current SGOS 4.x settings, and then initiating a restart. The restart
+(similar to a restart regular) triggers the upgrade process, which copies over the SGOS 3 settings
+and transforms them to the SGOS 4.x settings.
+
+Redoing an Upgrade from SGOS 2.x or CacheOS 4.x
+To downgrade to capture changes to the older version’s configuration, you must first launch the SGOS
+3.x image, then select the SGOS 2.x or CacheOS 4.x version to launch. After you make the desired
+changes, you must follow the upgrade path back to SGOS 3.2.4, using the restore-sgos2-config or
+restore-cacheos4-config commands. (See Table 2.1 on page 7 for information on upgrade paths.)
+The restore-sgos2-config or restore-cacheos4-config command first checks if there are saved
+SGOS 2.x or CacheOS 4.x settings on the ProxySG. If not, the CLI command warns the administrator
+and exits.
+Important: Check for deprecation warnings after upgrading to 3.2.4 and before proceeding to SGOS
+4.x.
+If saved settings exist, the command warns the administrator that all the current next version settings
+will be lost and that a restart will be initiated, waiting for positive confirmation before clearing all the
+current next version settings, and then initiates a restart. The restart (similar to a restart regular)
+triggers the upgrade process, which copies over the settings and transform them to the next version
+settings.
+
+Changing Between SGOS 4.x Versions
+When moving from one SGOS 4.x release to another SGOS 4.x release, the system maintains all
+settings. Changes made after an upgrade continue to be available after a subsequent downgrade as
+long as the setting is relevant to the downgraded release.
+Note:
+
+When upgrading or downgrading between versions of SGOS 4.x, copies of version-specific
+configurations are not retained. Instead, all configurations created in an upgrade are retained
+if the configuration is relevant to the downgrade version.
+
+9
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Care should be taken when using policy features introduced in a minor release. These cause
+compilation errors if you fall back to a previous version of the same major release in which those
+features were unsupported.
+To prevent accidental fallbacks, you should remove unused system images (using the
+installed_systems delete number, from the (config installed-systems) prompt).
+
+Licensing
+In SGOS 4.x, a base license is issued for SGOS 4.x functionality, regardless of whether those features
+existed before SGOS 4.x or are new in SGOS 4.x.
+If you upgrade from SGOS 3.x with a valid SGOS 4.x component license, the ProxySG lists the licensed
+components with their expiry dates; those components that are not licensed enter a 60-day trial
+period.
+If you upgrade from SGOS 3.x without a valid SGOS 4.x component license, all licensable components
+enter a trial period; the ProxySG attempts to download a license from the Blue Coat license download
+site once a day for the duration of the SGOS 4.x trial period.
+There are three types of licensable components:
+•
+
+Required—The SGOS base.
+
+•
+
+Included—Additional features provided by Blue Coat.
+
+•
+
+Optional— If applicable, any additional purchased features.
+
+When the license key file is created, it consists of all three components. The SGOS base is a required
+component of the license key file. The following table lists the ProxySG licensable components,
+categorized by type.
+Table 2.2: Licensable Components
+Type
+
+10
+
+Component
+
+Description
+
+Required
+
+SGOS 4 Base
+
+The ProxySG operating system, plus base features: HTTP, FTP, TCP-Tunnel,
+SOCKS, and DNS proxy. The following additional features are also included
+in the base license:
+
+Included
+
+3rd Party Onbox
+Content Filtering
+
+Allows use with third-party vendor databases: Intersafe, Optenet, Proventia,
+SmartFilter, SurfControl, Websense, and Webwasher.
+
+Included
+
+Websense
+Offbox Content
+Filtering
+
+For Websense off-box support only.
+
+Included
+
+ICAP Services
+
+External virus and content scanning with ICAP servers.
+
+Included
+
+Bandwidth
+Management
+
+Allows you to classify, control, and, if required, limit the amount of
+bandwidth used by different classes of network traffic flowing into or out of
+the ProxySG.
+
+Included
+
+Windows Media
+Standard
+
+MMS proxy; no caching or splitting; content pass-through. Full policy control
+over MMS.
+
+Chapter 2: Upgrade Behavior, General
+
+Table 2.2: Licensable Components (Continued)
+Type
+
+Component
+
+Description
+
+Included
+
+Real Media
+Standard
+
+RTSP proxy; no caching or splitting; content pass-through. Full policy control
+over RTSP.
+
+Included
+
+Apple QuickTime
+Basic
+
+RTSP proxy; no caching or splitting; content pass-through. Full policy control
+over RTSP.
+
+Included
+
+Netegrity
+SiteMinder
+
+Allows realm initialization and user authentication to SiteMinder servers.
+
+Included
+
+Oblix COREid
+
+Allows realm initialization and user authentication to COREid servers.
+
+Included
+
+Peer-to-Peer
+
+Allows you to recognize and manage peer-to-peer P2P activity relating to P2P
+file sharing applications.
+
+Included
+
+Compression
+
+Allows reduction to file sizes without losing any data.
+
+Optional
+
+SSL
+
+SSL Termination; includes an SSL termination card to be installed on the
+appliance.
+
+Optional
+
+IM
+
+• AOL Instant Messaging: AIM proxy with policy support for AOL Instant
+Messenger.
+• MSN Instant Messaging: MSN proxy with policy support for MSN Instant
+Messenger.
+• Yahoo Instant Messaging: Yahoo proxy with policy support for Yahoo
+Instant Messenger.
+
+Optional
+
+Windows Media
+Premium
+
+• MMS proxy; content caching and splitting.
+• Full policy control over MMS.
+• When the maximum concurrent streams is reached, all further streams are
+denied and the client receives a message.
+
+Optional
+
+Real Media
+Premium
+
+• RTSP proxy; content caching and splitting.
+• Full policy control over RTSP.
+• When the maximum concurrent streams is reached, all further streams are
+denied and the client receives a message.
+
+11
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Hardware Supported
+With SGOS v4.x, support for the ProxySG Series 600 and 700 systems has been dropped. Users with
+these systems must either upgrade their hardware or stay with SGOS v3.x. Blue Coat supports the
+following hardware:
+•
+
+ProxySG Series 200
+
+•
+
+ProxySG Series 400
+
+•
+
+ProxySG Series 800
+
+•
+
+ProxySG Series 6000
+
+•
+
+ProxySG Series 7000
+
+•
+
+ProxySG Series 8000
+
+Documentation References
+
+12
+
+•
+
+Chapter 2, “Licensing,” in the Blue Coat ProxySG Configuration and Management Guide
+
+•
+
+To do an upgrade for the ProxySG through the Management Console, refer to Chapter 21,
+“Maintenance,” Blue Coat ProxySG Configuration and Management Guide.
+
+•
+
+Blue Coat ProxySG Command Line Reference
+
+Chapter 3:
+
+Feature-Specific Upgrade Behavior
+
+This chapter provides critical information concerning how specific features are affected by upgrading
+to SGOS 4.x (and if relevant downgrading from) and provides actions administrators must or are
+recommended to take as a result of upgrading.
+This chapter contains the following sections:.
+•
+
+"Access Logging"—Discusses the new global enable/disable switch, the Peer-to-Peer (P2P) format
+and log, and the new substitutions.
+
+•
+
+"Authentication"—Discusses Policy Substitution, Oblix COREid, and RADIUS realms.
+
+•
+
+"Bandwidth Management"—Discusses bandwidth management features.
+
+•
+
+"Compression" —Discusses ProxySG behavior when using HTTP compression.
+
+•
+
+"Content Filtering"—Discusses downgrade behavior for new third-party vendors.
+
+•
+
+"CPU Monitoring"—Allows you to see the percentage of CPU being used by specific functional
+groups.
+
+•
+
+"Endpoint Mapper and SOCKS Compression"—Discusses Endpoint Mapper proxy and SOCKS
+compression.
+
+•
+
+"ICAP Patience Page"—Discusses new and changed commands for Patience Page settings.
+
+•
+
+"Policy"—Lists new VPM objects and CPL syntax, abandoned substitutions, new exception pages,
+and new object naming and UTF-8 encoding in VPM.
+
+•
+
+"Securing the Serial Port"—Describes the upgrade/downgrade behavior if you secure the serial
+port.
+
+•
+
+"SmartFilter Version 4"—The SmartFilter license key is now required if you use SmartFilter,
+version 4.
+
+•
+
+"SSL Key Management"—Discusses new non-interactive commands to enhance SSL key
+management available through Director.
+Note:
+
+If a topic is not discussed, it means no upgrade or downgrade issues exist for that feature:
+for example, event logging has no changed functionality from previous versions and will
+not be discussed in this document.
+
+Access Logging
+Access Logging has added new features in SGOS 4.x:
+•
+
+A global enable/disable switch: See below.
+
+•
+
+A P2P format and log: See "Peer-to-Peer" on page 15.
+
+•
+
+New substitutions: See "New Access Logging Substitutions" on page 15. (For a list of deprecated
+substitutions, see Table 3.11, “Abandoned Substitution Tokens” on page 25.)
+
+13
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Global Enable/Disable Switch
+In SGOS 4.x, you can enable or disable access logging on a global basis, both through the Management
+Console (Access Logging>General>Global Settings) and the CLI.
+When logging is disabled, that setting overrides both policy and logging configuration. When access
+logging is enabled, policy settings override the access logging configuration.
+Note:
+
+Access-log uploads are not affected by the global enable/disable switch; disabling access
+logging does not disable the ability to upload existing log files.
+
+On new systems, by default, access logging is disabled, but certain protocols are configured to use
+specific logs. When access logging is enabled, logging begins immediately for all configured
+protocols.
+If you are upgrading your system, your existing protocol configurations are preserved and access
+logging is enabled by default so that logging will continue as previously configured. Protocols new in
+SGOS 4.x are set to have a default log of none in this case.
+Note:
+
+If you do not have a license for bandwidth management, access log uploads will not be
+bandwidth limited, even if they were bandwidth-limited in SGOS 3.x.
+
+Certain protocols now have logs assigned to them by default. The defaults can be changed.
+Note:
+
+Protocols are not associated with a log by default upon an upgrade. They are only associated
+with a default on new SGOS 4.x systems.:
+
+Table 3.1: Default Logs and Protocols
+Protocol
+
+Log
+
+Endpoint Mapper
+
+main
+
+FTP
+
+main
+
+HTTP/HTTPS
+
+main
+
+ICP
+
+none
+
+Instant Messaging
+
+im
+
+Peer to Peer
+
+p2p
+
+Real Media/QuickTime
+
+streaming
+
+SOCKS
+
+none
+
+TCP Tunneling
+
+main
+
+Telnet
+
+none
+
+Windows Media
+
+streaming
+
+New CLI Commands
+SGOS#(config access-log) enable
+SGOS#(config access-log) disable
+
+Document References
+Chapter 20, “Access Logging,” in the Blue Coat ProxySG Configuration and Management Guide
+
+14
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Peer-to-Peer
+The ProxySG recognizes peer-to-peer (P2P) activity relating to P2P file sharing applications. By
+constructing policy, you can control, block, and log P2P activity and limit the bandwidth consumed by
+P2P traffic.
+
+Upgrade Behavior
+•
+
+A new default format and a log called p2p is created.
+
+•
+
+The default p2p format is associated with the p2p log.
+
+•
+
+If a format called p2p already exists, the format is renamed to p2p_user. Any log referencing the old
+p2p format will, after the upgrade, start referencing p2p_user. If both p2p and p2p_user exist prior to
+the upgrade, then format p2p is renamed to p2p_user1 so the new default format p2p can be
+created.
+
+•
+
+If a log called p2p already exists, a new log is not created.
+
+CLI Compatibility Issues
+None.
+
+Documentation References
+•
+
+Chapter 15, “Advanced Policy,” in the Blue Coat ProxySG Configuration and Management Guide
+
+•
+
+Chapter 14, “VPM,” in the Blue Coat ProxySG Configuration and Management Guide
+
+•
+
+The Blue Coat Content Policy Language Guide
+
+New Access Logging Substitutions
+The following substitutions can be used in access logging and policy:
+Note:
+
+The access log ignores any ELFF or custom format fields it doesn’t understand. In a
+downgrade, the format still contains all the fields used in the upgraded version, but only the
+valid fields for the downgraded version display any information.
+
+Table 3.2: New Substitutions
+ELFF
+
+CPL
+
+Description
+
+x-exception-category
+-review-url
+
+$(exception.category_
+review_url)
+
+Used for categorization review for certain
+Content Filtering vendors. The substitution
+contains only the categorization review URL
+which is composed of the originally requested
+URL and the standard prefix. The values are
+empty if the selected content filter provider
+does not support review messages, or if the
+provider was not consulted for categorization,
+or if the categorization process failed due to an
+error.
+
+15
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Table 3.2: New Substitutions (Continued)
+ELFF
+
+CPL
+
+Description
+
+x-exception-category
+-review-message
+
+$(exception.category_
+review_message)
+
+An HTML-formatted message suitable for
+inclusion in an exception page. The values are
+empty if the selected content filter provider
+does not support review messages, or if the
+provider was not consulted for categorization,
+or if the categorization process failed due to an
+error.
+
+x-p2p-client-type
+
+$(p2p.client)
+
+The name of the P2P network the client
+application is connected to. In case of non-P2P
+traffic, this substitution variable does not have
+a value.
+
+x-cs-netbioscomputer-name
+
+$(netbios.computername)
+
+The NetBIOS name of the computer. This is an
+empty string if the query fails or the name is
+not reported.
+
+x-cs-netbioscomputer-domain
+
+$(netbios.computerdomain)
+
+The name of the domain to which the
+computer belongs. This is an empty string if
+the query fails or the name is not reported.
+
+x-cs-netbiosmessenger-username
+
+$(netbios.messengerusername)
+
+The name of the logged-in user. This is an
+empty string if the query fails or the name is
+not reported. It is also empty if there is more
+than one logged-in user.
+
+x-cs-netbiosmessenger-usernames
+
+$(netbios.messengerusernames)
+
+A comma-separated list of the all the
+messenger usernames reported by the target
+computer. This is an empty string if the query
+fails, or no names are reported.
+
+x-cs-sockscompression
+
+Compresses data on the client connection.
+
+x-sr-sockscompression
+
+Compresses data on the server connection.
+
+x-virus-details
+
+$(icap_virus_details)
+
+Details of a virus if one was detected.
+
+x-icap-error-code
+
+$(icap_error_code)
+
+ICAP error code.
+
+x-icap-error-details
+
+$(icap_error_details)
+
+ICAP error details.
+
+cs(Content-Encoding)
+
+$(request.header.
+Content-Encoding)
+
+Client Response header: Content-Encoding.
+This substitution allows you to monitor the
+effect of the new HTTP compression features.
+
+rs(Accept-Encoding)
+
+$(response.header.
+Accept-Encoding)
+
+Server Request header: Accept-Encoding
+This substitution allows you to monitor the
+effect of the new HTTP compression features.
+
+A new substitution modifier—label(N)—has been added. It is used in conjunction with the
+client.host substitution variable in defining Policy Substitution Realms. For example,
+$(client.host:label(2)) could be used in the definition of a Policy Substitution Realm to set the
+user name from the results of a reverse DNS Lookup. For more information on the :label( )
+modifier, refer to Appendix D “Substitutions,” in the Blue Coat Content Policy Language Guide.
+
+16
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Authentication
+Two new realms—policy substitution and Oblix COREid—have been added in SGOS 4.x.
+•
+
+COREid Realm—The ProxySG can be configured to consult an Oblix COREid (formerly known as
+Oblix NetPoint) Access Server for authentication and session management decisions. This
+requires that a COREid realm be configured on the ProxySG and policy written to use that realm
+for authentication.
+
+•
+
+Policy Substitution Realm—A Policy Substitution realm provides a mechanism for identifying and
+authorizing users based on information in the request. The realm uses information in the request
+and about the client to identify the user. The realm is configured to construct user identity
+information by using policy substitutions. See Table 3.2 on page 15 for useful substitutions added
+in support of this feature.
+
+In addition, RADIUS realms now support one-time passwords, and Netegrity realms now allow you
+to enable or disable client IP validation.
+
+Upgrade Behavior
+COREid and Policy Substitution realms: These new realms have no upgrade issues. On a downgrade,
+the realms will not be recognized and could cause policy compilation to fail if they are referenced by
+policy.
+Netegrity: On an upgrade, the new realm option for client IP validation is added to existing realms
+with the default value of enabled so that the behavior remains as it was. On a downgrade, the value
+is ignored and all SiteMinder realms do client IP validation.
+
+Administrator Actions
+You must upgrade to the latest version of the Blue Coat Authorization and Authentication Agent
+(BCAAA) before you can use the new COREid realm.
+
+Documentation References
+•
+
+Chapter 9, “Using Authentication Services,” in the Blue Coat ProxySG Configuration and
+Management Guide
+
+Bandwidth Management
+Bandwidth management allows you to classify, control, and, if required, limit the amount of
+bandwidth used by different classes of network traffic flowing into or out of the ProxySG. Network
+resource sharing (or link sharing) is done using a bandwidth-management hierarchy where multiple
+traffic classes share available bandwidth in a controlled manner.
+Bandwidth management provides the following features:
+•
+
+Guarantees that certain traffic classes receive a specified minimum amount of available
+bandwidth.
+
+•
+
+Limits certain traffic classes to a specified maximum amount of bandwidth.
+
+•
+
+Prioritizes certain traffic classes to determine which classes have priority over available
+bandwidth.
+
+17
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Upgrade Behavior
+As BWM is a new feature, upgrade issues are restricted to previously existing bandwidth
+configuration that will now be subsumed into the BWM configuration.
+BWM does not replace the older bandwidth limiting features currently available in Streaming (max
+streaming, max Real and max MMS). It complements it.
+BWM replaces the bandwidth-limiting configuration in Access Logging. Related BWM classes are
+automatically created based on the older Access Log bandwidth configuration and placed under the
+class "access-log-logname,” where logname is the name of the log.
+
+Downgrade Behavior
+If downgraded, the access log behaves as previously configured.
+
+Documentation References
+Chapter 10, “Bandwidth Management,” in the Blue Coat ProxySG Configuration and Management Guide.
+
+Compression
+In SGOS 4.x, Blue Coat offers both HTTP compression and SOCKS compress.
+•
+
+HTTP Compression is an algorithm that reduces a file size but does not lose any data. When you
+use compression depends upon three resources: server-side bandwidth, client-side bandwidth,
+and ProxySG CPU. If server-side bandwidth is more expensive in your environment than CPU,
+then you should always request compressed content from the origin content server (OCS).
+However, if CPU is comparatively expensive, the ProxySG should instead be configured to ask the
+OCS for the same HTTP compressions that the client asked for and to forward whatever the server
+returns.
+The default configuration assumes that CPU is costlier than bandwidth. If this is not the case, you
+can change the ProxySG behavior.
+
+•
+
+SOCKS compression is supported for TCP/IP tunnels, which can compress the data transferred
+between the branch (downstream proxy) and main office (upstream proxy), reducing bandwidth
+consumption and improving latency.
+When SOCKS compression is used in conjunction with the new Blue Coat Endpoint Mapper
+(EPMapper) proxy, the Endpoint Mapper proxy accelerates Microsoft RPC traffic (applications
+that use dynamic port numbers) between branch and main offices, automatically creating TCP
+tunnels to ports where RPC services are running.
+
+Upgrade Behavior
+Prior to SGOS 4.x, the HTTP proxy did not cache objects if the server sent compressed content. With
+HTTP compression and variant object support, objects are now cached regardless of its encoding (if all
+other conditions allows caching).
+With variant object support, multiple copies of the same object (variants) might exist in the cache, and
+that might affect object carrying capacity of the disk.
+On-box compression and decompression can significantly affect CPU and RAM usage. This will
+directly affect the capacity of the box.
+
+18
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+On an upgrade, cached HTTP objects are usable. On a downgrade, cached HTTP objects fetched after
+the upgrade are re-fetched.
+
+Documentation References
+•
+
+Chapter 6, “Configuring Proxies,” in the Blue Coat ProxySG Configuration and Management Guide
+
+•
+
+The Blue Coat Content Policy Language Guide
+
+Content Filtering
+•
+
+Cerberian content filtering has changed its name to Blue Coat Web Filter (BCWF). No upgrade
+issues exist. On a downgrade, the vendor none is selected instead of any unsupported choice.
+Note:
+
+During the 60-day SGOS trial period, no username or password is required to use Blue
+Coat Web Filter. For more information, refer to “Configuring Blue Coat Web Filter” in
+Chapter 18 of the Blue Coat ProxySG Configuration and Management Guide.
+
+•
+
+Three new content filtering third-party vendors —InterSafe, Optenet, and Webwasher—have been
+added in SGOS 4.x. These new vendors cause no upgrade issues. On a downgrade, the vendor
+none is selected instead of any unsupported choice.
+
+•
+
+The Websense log protocol changed from version 1 to version 3 in SGOS 3.2.x.
+
+Documentation References
+Chapter 18, “Content Filtering,” in the Blue Coat ProxySG Configuration and Management Guide
+
+CPU Monitoring
+You can enable CPU monitoring whenever you want to see the percentage of CPU being used by
+specific functional groups. CPU monitoring is disabled by default.
+You can also view CPU monitoring statistics through Statistics>Advanced>Diagnostics.
+
+CLI Commands
+The following commands allow you to enable and manage CPU monitoring:
+Table 3.3: New CLI Commands for CPU Monitor
+Command
+
+Description
+
+SGOS#(config diagnostics) cpu-monitor
+{enable | disable}
+
+Enables or disables the CPU monitor.
+
+SGOS#(config diagnostics) cpu-monitor
+interval seconds
+
+Sets the interval between CPU monitoring.
+
+SGOS#(config diagnostics) view cpu-monitor
+
+View CPU monitor statistics.
+
+Documentation References
+Appendix E, “Diagnostics,” in the Blue Coat ProxySG Configuration and Management Guide.
+
+19
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Endpoint Mapper and SOCKS Compression
+The Endpoint Mapper proxy accelerates Microsoft RPC traffic between branch and main offices,
+automatically creating TCP tunnels to ports where RPC services are running. The Endpoint Mapper
+proxy can be used in both explicit and transparent mode.
+Using SOCKS compression for TCP/IP tunnels reduces bandwidth consumption and improves
+latency.
+No configuration is required on the main office ProxySG to support SOCKS compression. However,
+configuration is required on the branch ProxySG to forward data through the SOCKS gateway. You
+can use policy or the socks-gateway CLI options to enable SOCKS compression globally. Using
+policy, you can enable or disable compression on a per-connection basis on either the client side or the
+server side.
+You must also configure the branch ProxySG for the Endpoint Mapper proxy.
+
+Upgrade/Downgrade Behavior
+•
+
+On new or upgraded systems, compression on the SOCKS proxy is enabled by default. SOCKS
+compression is disabled by default on the SOCKS forwarding host.
+
+•
+
+On new or upgraded systems, the Endpoint Mapper proxy service is created, but not enabled, on
+port 135.
+
+•
+
+If you downgrade the main office ProxySG but not the branch ProxySG, the branch office might
+still attempt compression, but compression will fail.
+
+•
+
+On an upgraded system, the SOCKS proxy settings and policy is unchanged from the
+downgraded version.
+
+Documentation References
+•
+
+Chapter 5, “Managing Port Services,” in the Blue Coat ProxySG Configuration and Management
+Guide
+
+•
+
+Chapter 6, “Configuring Proxies,” in the Blue Coat ProxySG Configuration and Management Guide
+
+ICAP Patience Page
+Patience pages display regardless of any pop-up blocking policy that is in effect.
+
+CLI Changes and Additions
+The following CLI commands have been modified:
+Table 3.4: Changed CLI Syntax
+Abandoned Syntax
+
+Current Syntax
+
+inline http icap-patience-details eof
+
+inline http icap-patience details eof
+
+inline http icap-patience-header eof
+
+inline http icap-patience header eof
+
+inline http icap-patience-help eof
+
+inline http icap-patience help eof
+
+inline http icap-patience-summary eof
+
+inline http icap-patience summary eof
+
+New commands created to view Patience Page settings are:
+
+20
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+•
+
+SGOS#(config external-services) view http icap-patience details
+
+•
+
+SGOS#(config external-services) view http icap-patience header
+
+•
+
+SGOS#(config external-services) view http icap-patience help
+
+•
+
+SGOS#(config external-services) view http icap-patience summary
+
+Documentation References
+Chapter 11, “External Services,” in the Blue Coat ProxySG Configuration and Management Guide
+
+Policy
+In SGOS 4.x, the following properties and objects have been added:
+•
+
+•
+
+•
+
+Actions and Properties (Action objects)
+❐
+
+category.dynamic.mode (used with dynamic categorization in VPM)
+
+❐
+
+detect_protocol (not available in VPM)
+
+❐
+
+force_protocol (not available in VPM)
+
+❐
+
+http.allow_compression (used with client compression in VPM)
+
+❐
+
+http.allow_decompression (used with client compression in VPM)
+
+❐
+
+http.client.allow_encoding (not available in VPM)
+
+❐
+
+http.server.accept_encoding (used with server compression in VPM)
+
+❐
+
+http.server.accept_encoding.allow_unknown (used with server compression in VPM)
+
+❐
+
+limit_bandwidth (used with bandwidth management in VPM)
+
+❐
+
+Notify User object (not available in CPL)
+
+❐
+
+SOCKS.allow_compression (Used with SOCKS compression in VPM)
+
+❐
+
+SOCKS.gateway.request_compression (Used with SOCKS compression in VPM)
+
+Conditions (Source objects)
+❐
+
+http.connect (not available in VPM)
+
+❐
+
+p2p.client (used with P2P client object in VPM)
+
+Properties (Service objects)
+❐
+
+icap_error_code (used with ICAP in VPM)
+
+❐
+
+virus_detected (used with ICAP in VPM)
+
+In addition, the following conditions can now be used in the <Forward> layer:
+•
+
+attribute.<name>=
+
+•
+
+authenticated=
+
+•
+
+group=
+
+•
+
+realm=
+
+21
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+•
+
+user=
+
+•
+
+user.domain=
+
+•
+
+user.x509.issuer=
+
+•
+
+user.x509.serialNumber=
+
+•
+
+user.x509.subject=
+
+The authenticated= condition can be used to test whether or not the user information is available.
+Forward layer rules containing the other new authentication conditions will fail to match if there is no
+associated user, regardless of the value specified in the test.
+Two new named definitions have been added—define policy and define strong. (A named definition
+is one that is explicitly referenced by policy.) Since a copy of the files of the original operating system
+version has been saved, later-version changes, such as new named definitions, are not available in the
+downgrade.
+
+Policy Deprecation
+Syntax that was deprecated in SGOS 3.2.4 has been abandoned in SGOS 4.x, and this syntax must be
+corrected before an upgrade can be successfully completed. For information on replacement syntax,
+see "CPL", below.
+To check for policy deprecation warnings:
+•
+
+In the Management Console:
+Configuration > Policy > Policy Files
+From the View File:dropdown list, select Results of Policy Load, and press View.
+
+-orStatistics>Advanced>Policy>Results of policy load
+
+•
+
+From a browser:
+https://ProxySG_IP:port /policy_import_listing.html
+
+•
+
+At the CLI command prompt:
+SGOS >show policy listing
+
+To check for deprecation warnings in exception pages:
+•
+
+In the Management Console:
+Configuration > Policy > Exceptions
+
+From the View File:dropdown list, select Results of Exceptions Load, and press View
+-orStatistics>Advanced>Exceptions>View last installation status
+
+•
+
+From a browser:
+https://ProxySG_IP:port/exceptions_listing.html
+Note:
+
+You cannot check for warnings in exception pages through the CLI.
+
+Documentation References
+
+22
+
+•
+
+Chapter 14, “VPM,” in the Blue Coat ProxySG Configuration and Management Guide
+
+•
+
+The Blue Coat Content Policy Language Guide
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+CPL
+Syntax that was deprecated in SGOS 3.x has been abandoned in SGOS 4.x. Policy that includes
+abandoned syntax should be corrected before you attempt to upgrade the system. The standard
+upgrade path and process are designed to ensure the integrity of policy and the security of your
+network. Blue Coat strongly recommends that you follow the approved upgrade path and correct any
+policy deprecation warnings prior to upgrading to SGOS 4.x.
+Policy that has been abandoned is listed in the tables below.
+Table 3.5: Abandoned Definition Syntax
+Abandoned Syntax
+
+Replacement Syntax
+
+define acl
+
+define subnet
+
+define_actions
+
+None. Actions can be defined anywhere in the policy .
+
+domain (as a condition definition type) url.domain
+prefix (as a condition definition type)
+
+url
+
+caseless
+
+None. All response-side URL rewrites are now case
+insensitive by default.
+
+subst_embedded
+(in a url_rewrite transform definition)
+
+rewrite_url_substring
+
+subst_prefix
+(in a url_rewrite transform definition)
+
+rewrite_url_prefix
+
+Table 3.6: Abandoned Section Syntax
+Abandoned Syntax
+
+Replacement Syntax
+
+[Domain] section heading
+
+[url.domain]
+
+[Domain-Suffix] section heading
+
+[url.domain]
+
+[Prefix] section heading
+
+[url]
+
+[Regex] section heading
+
+[url.regex]
+
+[Regular-expression] section heading
+
+[url.regex]
+
+Table 3.7: Abandoned Substitution Syntax
+Abandoned Syntax
+
+Replacement Syntax
+
+'(1)
+
+$(1)
+
+'1
+
+$(1)
+
+$1
+
+$(1)
+
+Table 3.8: Abandoned Policy Conditions
+Abandoned Syntax
+
+Replacement Syntax
+
+acl=
+
+client.address=
+
+category.unavailable=
+
+category=unavailable
+
+client_address=
+
+client.address=
+
+client_protocol=
+
+client.protocol=
+
+method= (in <admin> layers)
+
+admin.access=READ|WRITE
+
+method=
+
+See Method Tests
+
+23
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Table 3.8: Abandoned Policy Conditions (Continued) (Continued)
+protocol=
+
+url.scheme=
+
+proxy_address=
+
+proxy.address
+
+proxy_card=
+
+proxy.card
+
+proxy_port=
+
+proxy.port
+
+release_id=
+
+release.id=
+
+release_version=
+
+release.version=
+
+request_header.<name>=
+
+request.header.<name>=
+
+request_header_address.<name>=
+
+request.header.<name>.address=
+
+request_x_header.<name>=
+
+request.x_header.<name>=
+
+request_x_header_address.<name>=
+
+request.x_header.<name>.address=
+
+response_header.<name>=
+
+response.header.<name>=
+
+response_x_header.<name>=
+
+response.x_header.<name>=
+
+url_address=
+
+url.address=
+
+url_domain=
+
+url.domain=
+
+url_extension=
+
+url.extension=
+
+url_host=
+
+url.host=
+
+url_host_is_numeric=
+
+url.host.is_numeric=
+
+url_host_no_name=
+
+url.host.no_name=
+
+url_host_regex=
+
+url.host.regex=
+
+url_host_suffix=
+
+url.host.suffix=
+
+url_path=
+
+url.path=
+
+url_path_regex=
+
+url.path.regex=
+
+url_port=
+
+url.port=
+
+url_prefix=
+
+url=
+
+url_query_regex=
+
+url.query.regex=
+
+url_regex=
+
+url.regex=
+
+url_scheme=
+
+url.scheme=
+
+user_domain=
+
+user.domain=
+
+virus_pattern_update_url=
+
+None. All supported ICAP versions provide automatic
+notification of pattern file updates.
+
+Table 3.9: Abandoned Policy Properties
+
+24
+
+Abandoned Syntax
+
+Replacement Syntax
+
+property=value syntax
+
+property(value)
+
+authenticate() (in cache layer)
+
+Move to proxy layer
+
+authenticate([,display_realm])
+
+the optional “display_realm” property value is abandoned
+in favor of specification in the realm configuration.
+
+block_category()
+
+category= in conjunction with exception()
+
+content_filter_override()
+
+request.filter_service()
+
+label()
+
+action()
+
+max_bitrate(0)
+
+max_bitrate(no)
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Table 3.9: Abandoned Policy Properties (Continued)
+prefetch()
+
+pipeline()
+
+proxy_authentication()
+
+authenticate()
+
+reflect_vip()
+
+reflect_ip()
+
+service()
+
+allow or deny
+
+trace_destination()
+
+trace.destination()
+
+trace_level()
+
+trace.level()
+
+trace_request()
+
+trace.request()
+
+trace_rules()
+
+trace.rules()
+
+Table 3.10: Abandoned Policy Actions
+Abandoned Syntax
+
+Replacement Syntax
+
+replace()
+
+rewrite()
+
+virus_check()
+
+response.icap_service() (a property)
+
+Table 3.11: Abandoned Substitution Tokens
+Abandoned CPL
+
+Current CPL
+
+appliance_name
+
+appliance.name
+
+appliance_primary_address
+
+appliance.primary_address
+
+client_address
+
+client.address
+
+client_protocol
+
+client.protocol
+
+proxy_address
+
+proxy.address
+
+proxy_card
+
+proxy.card
+
+proxy_name
+
+proxy.name
+
+proxy_port
+
+proxy.port
+
+proxy_primary_address
+
+proxy.primary_address
+
+proxy_via_http_version
+
+proxy.via_http_version
+
+release_id
+
+release.id
+
+request_header.Accept
+
+request.header.Accept
+
+request_header.Accept-Charset
+
+request.header.Accept-Charset
+
+request_header.Accept-Encoding
+
+request.header.Accept-Encoding
+
+request_header.Accept-Language
+
+request.header.Accept-Language
+
+request_header.Accept-Ranges
+
+request.header.Accept-Ranges
+
+request_header.Age
+
+request.header.Age
+
+request_header.Allow
+
+request.header.Allow
+
+request_header.Authentication-Info
+
+request.header.Authentication-Info
+
+request_header.Authorization
+
+request.header.Authorization
+
+request_header.Cache-Control
+
+request.header.Cache-Control
+
+request_header.Client-IP
+
+request.header.Client-IP
+
+request_header.Connection
+
+request.header.Connection
+
+request_header.Content-Encoding
+
+request.header.Content-Encoding
+
+25
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Table 3.11: Abandoned Substitution Tokens (Continued)
+
+26
+
+Abandoned CPL
+
+Current CPL
+
+request_header.Content-Language
+
+request.header.Content-Language
+
+request_header.Content-Length
+
+request.header.Content-Length
+
+request_header.Content-Location
+
+request.header.Content-Location
+
+request_header.Content-MD5
+
+request.header.Content-MD5
+
+request_header.Content-Range
+
+request.header.Content-Range
+
+request_header.Content-Type
+
+request.header.Content-Type
+
+request_header.Cookie
+
+request.header.Cookie
+
+request_header.Cookie2
+
+request.header.Cookie2
+
+request_header.Date
+
+request.header.Date
+
+request_header.Etag
+
+request.header.Etag
+
+request_header.Expect
+
+request.header.Expect
+
+request_header.Expires
+
+request.header.Expires
+
+request_header.From
+
+request.header.From
+
+request_header.Front-End-HTTPS
+
+request.header.Front-End-HTTPS
+
+request_header.Host
+
+request.header.Host
+
+request_header.If-Match
+
+request.header.If-Match
+
+request_header.If-Modified-Since
+
+request.header.If-Modified-Since
+
+request_header.If-None-Match
+
+request.header.If-None-Match
+
+request_header.If-Range
+
+request.header.If-Range
+
+request_header.If-Unmodified-Since
+
+request.header.If-Unmodified-Since
+
+request_header.Last-Modified
+
+request.header.Last-Modified
+
+request_header.Location
+
+request.header.Location
+
+request_header.Max-Forwards
+
+request.header.Max-Forwards
+
+request_header.Meter
+
+request.header.Meter
+
+request_header.P3P
+
+request.header.P3P
+
+request_header.Pragma
+
+request.header.Pragma
+
+request_header.Proxy-Authenticate
+
+request.header.Proxy-Authenticate
+
+request_header.Proxy-Authorization
+
+request.header.Proxy-Authorization
+
+request_header.Proxy-Connection
+
+request.header.Proxy-Connection
+
+request_header.Range
+
+request.header.Range
+
+request_header.Referer
+
+request.header.Referer
+
+request_header.Refresh
+
+request.header.Refresh
+
+request_header.Retry-After
+
+request.header.Retry-After
+
+request_header.Server
+
+request.header.Server
+
+request_header.Set-Cookie
+
+request.header.Set-Cookie
+
+request_header.Set-Cookie2
+
+request.header.Set-Cookie2
+
+request_header.TE
+
+request.header.TE
+
+request_header.Trailer
+
+request.header.Trailer
+
+request_header.Transfer-Encoding
+
+request.header.Transfer-Encoding
+
+request_header.Upgrade
+
+request.header.Upgrade
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Table 3.11: Abandoned Substitution Tokens (Continued)
+Abandoned CPL
+
+Current CPL
+
+request_header.User-Agent
+
+request.header.User-Agent
+
+request_header.Vary
+
+request.header.Vary
+
+request_header.Via
+
+request.header.Via
+
+request_header.WWW-Authenticate
+
+request.header.WWW-Authenticate
+
+request_header.Warning
+
+request.header.Warning
+
+request_header.X-BlueCoat-Error
+
+request.header.X-BlueCoat-Error
+
+request_header.X-BlueCoat-MC-Client-Ip
+
+request.header.X-BlueCoat-MC-Client-Ip
+
+request_header.X-BlueCoat-Via
+
+request.header.X-BlueCoat-Via
+
+request_header.X-Forwarded-For
+
+request.header.X-Forwarded-For
+
+response_header.Accept
+
+response.header.Accept
+
+response_header.Accept-Charset
+
+response.header.Accept-Charset
+
+response_header.Accept-Encoding
+
+response.header.Accept-Encoding
+
+response_header.Accept-Language
+
+response.header.Accept-Language
+
+response_header.Accept-Ranges
+
+response.header.Accept-Ranges
+
+response_header.Age
+
+response.header.Age
+
+response_header.Allow
+
+response.header.Allow
+
+response_header.Authentication-Info
+
+response.header.Authentication-Info
+
+response_header.Authorization
+
+response.header.Authorization
+
+response_header.Cache-Control
+
+response.header.Cache-Control
+
+response_header.Client-IP
+
+response.header.Client-IP
+
+response_header.Connection
+
+response.header.Connection
+
+response_header.Content-Encoding
+
+response.header.Content-Encoding
+
+response_header.Content-Language
+
+response.header.Content-Language
+
+response_header.Content-Length
+
+response.header.Content-Length
+
+response_header.Content-Location
+
+response.header.Content-Location
+
+response_header.Content-MD5
+
+response.header.Content-MD5
+
+response_header.Content-Range
+
+response.header.Content-Range
+
+response_header.Content-Type
+
+response.header.Content-Type
+
+response_header.Cookie
+
+response.header.Cookie
+
+response_header.Cookie2
+
+response.header.Cookie2
+
+response_header.If-Modified-Since
+
+response.header.If-Modified-Since
+
+response_header.If-None-Match
+
+response.header.If-None-Match
+
+response_header.If-Range
+
+response.header.If-Range
+
+response_header.If-Unmodified-Since
+
+response.header.If-Unmodified-Since
+
+response_header.Last-Modified
+
+response.header.Last-Modified
+
+response_header.Location
+
+response.header.Location
+
+response_header.Max-Forwards
+
+response.header.Max-Forwards
+
+response_header.Meter
+
+response.header.Meter
+
+response_header.P3P
+
+response.header.P3P
+
+response_header.Pragma
+
+response.header.Pragma
+
+27
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+Table 3.11: Abandoned Substitution Tokens (Continued)
+Abandoned CPL
+
+Current CPL
+
+response_header.Proxy-Authenticate
+
+response.header.Proxy-Authenticate
+
+response_header.Proxy-Authorization
+
+response.header.Proxy-Authorization
+
+response_header.Proxy-Connection
+
+response.header.Proxy-Connection
+
+response_header.Range
+
+response.header.Range
+
+response_header.Referer
+
+response.header.Referer
+
+response_header.Refresh
+
+response.header.Refresh
+
+response_header.Retry-After
+
+response.header.Retry-After
+
+response_header.Server
+
+response.header.Server
+
+response_header.Set-Cookie
+
+response.header.Set-Cookie
+
+response_header.Set-Cookie2
+
+response.header.Set-Cookie2
+
+response_header.TE
+
+response.header.TE
+
+response_header.Trailer
+
+response.header.Trailer
+
+response_header.Transfer-Encoding
+
+response.header.Transfer-Encoding
+
+response_header.Upgrade
+
+response.header.Upgrade
+
+response_header.User-Agent
+
+response.header.User-Agent
+
+response_header.Vary
+
+response.header.Vary
+
+response_header.Via
+
+response.header.Via
+
+response_header.WWW-Authenticate
+
+response.header.WWW-Authenticate
+
+response_header.Warning
+
+response.header.Warning
+
+response_header.X-BlueCoat-Error
+
+response.header.X-BlueCoat-Error
+
+response_header.X-BlueCoat-MC-Client-Ip
+
+response.header.X-BlueCoat-MC-Client-Ip
+
+response_header.X-BlueCoat-Via
+
+response.header.X-BlueCoat-Via
+
+response_header.X-Forwarded-For
+
+response.header.X-Forwarded-For
+
+transaction_id
+
+transaction.id
+
+url_address
+
+url.address
+
+url_extension
+
+url.extension
+
+url_host
+
+url.host
+
+url_host_name
+
+url.hostname
+
+url_path
+
+url.pathquery
+
+url_port
+
+url.port
+
+url_query
+
+url.query
+
+url_scheme
+
+url.scheme
+
+Documentation References
+Appendix D, “Substitutions,” in the Blue Coat Content Policy Language Guide
+
+Exception Pages
+A number of built-in exception pages have been added to SGOS 4.x to send information back to the
+user under operational contexts that are known to occur. New exception pages include:
+
+28
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+•
+
+•
+
+•
+
+HTML Notification
+❐
+
+notify
+
+❐
+
+notify_missing_cookie
+
+Compression
+❐
+
+transformation_error
+
+❐
+
+unsupported_encoding
+
+❐
+
+invalid_response
+
+ICAP
+❐
+
+icap_error (should be used in place of the existing icap_communications_error exception
+page)
+
+On a downgrade to SGOS 3.2.4, the ProxySG reverts to using the SGOS 3.x policy that was in use the
+last time that SGOS 3.x was running.
+
+Documentation References
+•
+
+Chapter 15, “Advanced Policy,” in the Blue Coat ProxySG Configuration and Management Guide
+
+•
+
+The Blue Coat Content Policy Language Guide
+
+VPM
+In SGOS 4.x, VPM now uses UTF-8 encoding format for fetching and installing policy.
+
+UTF-8 Encoding
+As of SGOS 4.x, VPM policy (XML) stored in the ProxySG is read using the UTF-8 encoding format.
+Any international characters present in this policy must be encoded using UTF-8. Policy (XML)
+created through VPM prior to SGOS 4.x does not contain international characters and so it should
+continue to load correctly after the upgrade.
+If you created or edited the policy (XML) file outside VPM and loaded it into the ProxySG prior to
+upgrading, it might contain international characters. If these characters are not encoded in UTF-8
+format, VPM is unable to load the policy. In this case, it begins with an empty policy after displaying
+an error message.
+
+Object Naming
+Objects that can be named by the user no longer start with "_" (underscore character). The underscore
+character is now used internally to prevent name collisions between objects that can be named by the
+user and internally generated names.
+If obsoleted objects are upgraded, such as File/MIME Types in SGOS 2.x that get translated into
+combined condition objects, these objects are prefixed with __Upgraded_. Policy compiles correctly
+even if the underscore character is not removed. However, if you want to edit these objects, you must
+remove any underscore characters from the beginning of the object name before the object setting can
+be saved successfully.
+
+29
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+On an upgrade, objects that cannot be named by the user are automatically updated to have the
+underscore character prefix the object name.
+
+Documentation Reference
+Chapter 14, “VPM,” in the Blue Coat ProxySG Configuration and Management Guide
+
+Securing the Serial Port
+When the secure serial port is enabled (recommended):
+Once the secure serial port is enabled:
+•
+
+The Setup Console password is required to access the Setup Console.
+
+•
+
+An authentication challenge (username and password) is issued to access the CLI through the
+serial port.
+
+Upgrade/Downgrade Behavior
+•
+
+If you are upgrading, the secure serial port functionality is unchanged by default. If you never
+secured the serial port, the secure serial port functionality is disabled. If you subsequently use the
+Setup Console, you are asked if you want to enable secure the serial port at that time.
+
+•
+
+On new installations, you are asked if you want to enable the secure serial port.
+
+•
+
+Downgrades ignore the secure serial port setting. If older systems are present on the machine, it
+might be possible for an attacker to force the downgrade and then access the serial port. For
+maximum security, older systems should be deleted.
+
+SmartFilter Version 4
+SGOS 4.1 uses a new database download system for SmartFilter, version 4. A license key, which was
+sent to you by Secure Computing when you ordered the database, is required to download the new
+version.
+The new license key looks something like the following:
+SFxx-xxxx-xxxx-xxxx
+
+Note:
+
+If you use SmartFilter, version 3, the user name/password assigned to you is still valid
+(for version 3 only).
+
+Documentation Reference
+Chapter 18, “Content Filtering,” in the Blue Coat ProxySG Configuration and Management Guide.
+
+SSL Key Management
+SSL key management, in SGOS 4.x, has been modified to allow Director to better manage ProxySG
+appliances.
+
+30
+
+Chapter 3: Feature-Specific Upgrade Behavior
+
+Abandoned Syntax
+The following syntax is abandoned as of SGOS 4.x, replaced by the equivalent inline commands.
+SGOS#(config
+SGOS#(config
+SGOS#(config
+SGOS#(config
+SGOS#(config
+
+ssl)import
+ssl)import
+ssl)import
+ssl)import
+ssl)import
+
+keyring show|no-show keyring_id
+certificate keyring_id
+signing-request keyring_id
+ca-certificate keyring_id
+external-certificate keyring_id
+
+Documentation References
+Chapter 7, “Using Secure Services,” in the Blue Coat ProxySG Configuration and Management Guide
+Chapter 21, “Maintenance,” in the Blue Coat ProxySG Configuration and Management Guide
+Appendix F, “Using Director to Manage Appliances,” in the Blue Coat ProxySG Configuration and
+Management Guide.
+
+31
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+32
+
+Index
+
+A
+
+D
+
+access logging
+default logs, protocols 14
+global enable/disable switch, CLI commands 14
+global enable/disable switch, overview 14
+new features in 13
+P2P log, format 15
+P2P upgrade behavior 15
+substitutions, new 15
+authentication
+BCAAA, installing 17
+COREid realm, added 17
+Policy Substitution realm, added 17
+upgrade behavior 17
+
+definition syntax, abandoned 23
+document conventions 6
+downgrading
+CacheOS 4.x 9
+SGOS 2.x 9
+to SGOS 3.2.3 8
+
+B
+
+ICAP Patience Page
+CLI commands changed, added 20
+
+bandwidth management
+overview 17
+upgrade/downgrade behavior 18
+BCAAA, new realms, using with 17
+
+C
+CacheOS 4.x, downgrading to 9
+compression
+overview 18
+upgrade behavior 18
+conditions, abandoned 23
+COREid realm
+added 17
+BCAAA required 17
+upgrade behavior 17
+CPL
+actions, abandoned 25
+conditions, abandoned 23
+definition syntax, abandoned 23
+policy warnings 23
+properties, abandoned 24
+section syntax, abandoned 23
+substitutions, abandoned 25
+CPU monitoring
+CLI commands 19
+overview 19
+
+E
+exception pages, new 28
+
+F
+forward layer, conditions added 21
+
+I
+
+L
+licensing
+overview 10
+
+N
+Netegrity realm, upgrade/downgrade behavior 17
+
+P
+P2P
+access logging log, format 15
+upgrade behavior 15
+Patience Page
+CLI commands changed, added 20
+policy
+conditions added to forward layer 21
+new properties, conditions, VPM objects 21
+Policy Substitution realm, added 17
+Policy Substitution realm, upgrade behavior 17
+
+S
+section syntax, abandoned 23
+SGOS 2.x, downgrading to 9
+SGOS 3.2.3, upgrade changes 5
+SGOS 3.2.3, upgrading from 8
+SmartFilter, license key required 30
+
+33
+
+Blue Coat SGOS 4.x Upgrade Guide
+
+substitutions
+abandoned 25
+additional 15
+substitution syntax, abandoned 23
+
+U
+upgrading
+changes between SGOS 3.2.3 and SGOS 4.x 5
+paths, required 7
+restore-cacheos4-config command, upgrading 9
+restore-sgos2-config command, using 9
+restore-sgos3-config command, using 9
+
+V
+VPM
+object naming 29
+UTF-8 encoding 29
+
+34
+
+

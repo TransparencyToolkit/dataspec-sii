@@ -1,0 +1,311 @@
+Complex Identification Decision
+Based on Several Independent
+Speaker Recognition Methods
+Ilya Oparin
+Speech Technology Center
+
+Corporate Overview
+
+Global provider of voice biometric solutions
+
+Company name: Speech Technology Center, Ltd
+Core expertise:
+Voice identification and verification
+
+Professional audio recording
+
+Audio forensics
+
+Noise cancelation
+
+Location:
+Russia
+Germany
+Mexico
+USA (office in 2009)
+
+The year of foundation: 1990
+Staff: 250 including 25 world-class PhD
+
+Global Customer Base in More than 60 Countries
+
+Law enforcement
+Government
+
+Corporate clients
+Integrators &
+developers
+
+Strong R&D Capabilities
+
+Ambitious and experienced team:
+One of the leading R&D teams (voice sector) in the world: over 100 technical
+specialists, scientists and software developers (including 25 PhDs), 5 certified audio
+forensic experts.
+Strong management and sales teams
+
+STC R&D facility, Saint-Petersburg
+
+Why Speech?
+
+Speech is a key
+communication tool in
+all fields of the human
+activity
+
+Voice can not be
+lost or stolen
+
+Speech
+Using speech we can
+identify the person
+without any direct
+contact with him
+
+Samples taking
+procedure does not
+require any
+additional hardware
+
+Audio Forensics
+
+Global leader in audio forensics
+Over 15 years of experience
+Forensic speaker identification.
+Authenticity analysis of analog or digital
+audio recordings.
+Audio equipment for forensic
+examination and identification.
+
+Speech enhancement and audio
+restoration.
+Text transcription of low quality
+recordings.
+
+Audio Forensics
+
+Automatic algorithms for real-time noise suppression and speech
+enhancement.
+Sound Cleaner Premium ! the first and the second prize in audio
+enhancement contest by AES
+(Audio Engineering Society), Denver, 2008
+
+Efficient suppression of all types of
+noises and distortions
+Adaptive algorithms of filtering
+
+Filters can be combined to process the
+record simultaneously
+
+Main Challenges
+
+State-of-the-art voice-ID systems face four basic challenges:
+
+Ensuring robustness to noise (real life audio)
+Ensuring robust performance across different sound recording channels and levels of
+speaker stress
+Effective processing of large-scale (nation-wide) databases
+Language and context independent identification
+
+Speaker Identification Methods
+
+Spectral-formant method
+Spectral-forman( me(+o, -S/M1 is base, on (+e uni6ue s+a7e of eac+ 7erson9s vocal 
+tract which is reflected in the visible speech of different people.
+
+An e=am7le of forman( re7resen(a(ion of (+e 7+rase >/orensic au,io? 7ronounce, by (Ao 
+different persons is shown in the picture (The horizontal axis is time in seconds. The
+vertical axis is frequency in Hertz. Energy level is depicted by the darkness of the trace).
+
+Speaker Identification Methods
+
+Pitch statistics method
+
+Pitch statistics method (PSM) engages 16 different pitch parameters, including
+average pitch value, maximum, minimum, median, percent of areas with rising pitch,
+pitch logarithm variation, pitch logarithm asymmetry, pitch logarithm excess and 8
+parameters more.
+
+An e=am7le of au(oma(e, 7i(c+ e=(rac(ion in (+e 7+rase >/orensic au,io? 7ronounce, by 
+two different persons is shown in the picture
+
+Speaker Identification Methods
+
+GMM/SVM method
+In the GMM/SVM approach Gaussian mixtures are used to approximate statistical
+distributions of MFCC (Mel frequency cepstral coefficients) parameters extracted
+from speech of different speakers.
+Support Vector Machines are a robust classifier in multi-dimensional space.
+
+Peculiarities of Different Methods
+
+Dependence on speech signal characteristics
+Method
+
+Signal duration
+
+Signal quality
+
+Emotional
+state
+
+SpectralFormant
+
++
+
+++
+
++++
+
+Pitch
+Statistics
+
+++
+
++++
+
++
+
+GMM/SVM
+
+++
+
++
+
+++
+
+Fusion (STC)
+
+++
+
++++
+
++++
+
+Fusion Solution
+
+Ability to work with signals from various communication channels
+Both microphone and telephone (landline, GSM)
+Robust to noise
+Low-quality signal processing (SNR down to 10 dB)
+Processing of short speech signals
+Speaker identification by a few seconds of speech
+
+Performance of Different Methods
+
+Database
+NIST SRE 2004
+Spectral-Formant method
+EER=13%
+
+Pitch statistics
+EER=15.9%
+GMM/SVM
+EER=7.5%
+Fusion
+EER=4.7%
+
+Adaptation
+
+Customization - ability to adapt the system to the key parameters of search
+
+Adaptation of parameters ! taking
+features of a specific speech
+database into account
+
+Speech Database
+
+Identification results
+
+Voice Identification for Experts
+
+TrawlLab - Facilitating voice ID analysis while carrying out multi-target
+forensic investigation by eliminating imposters and ranging the top-in-the-list
+speakers according to likelihood probability.
+
+VoiceNet.ID
+VoiceNet.ID is designed for:
+Reliable identification on a nation-wide voice database of speakers.
+VoiceNet.ID highlights
+Storage and real-time processing of large volume of voiceprints
+Client-server architecture
+Web-client
+Ben(raliCe, s7eakers9 7rofiles re7osi(ory 
+Multi-user system
+
+Secure storage and access
+Remote access to the database
+Additional information storage (video, photo, text)
+
+VoiceNet.ID
+Architecture
+
+Record
+
+Web operator
+
+Record
+
+LAN operator
+
+Records
+
+Import operator
+
+Application
+server
+
+Database
+server
+
+Calculation cluster
+
+VoiceNet.ID
+Speaker's profile card 0SPC3
+Automatically extracts biometric traits of voice and speech from the attached sound
+records. Speaker card can contain wealth additional information about the person
+(text, photo, video etc).
+
+VoiceNet.ID
+
+Database management
+SPCs in the database can be organized into unlimited number of sections and subsections to facilitate further search.
+
+VoiceNet.ID
+
+Identification results
+The results of 4VoiceNet.ID; search presented in the form of a list with indication of
+likelihood probability (LR) of each record containing the speech of a target speaker.
+
+VoiceNet.ID
+
+Technical specs:
+DBMS - Oracle 11g, PostgreSQL, ready to be adapted for others
+OS ! UNIX (Solaris 10, Linux), Windows Server 2003 or later
+
+Web Service based architecture
+Application Server (GlassFish V3, Tomcat 6, ready to be adapted for others )
+Cluster calculations JPPF 1.8
+Performance & scalability:
+
+Size !
+
+Database is scalable up to 10`000`000 cards
+
+Speed ! Performance directly linked to the computing power of a server (parallel
+calculation support)
+Tasks !
+
+The system can be adopted to any voice ID challenge (search for unknown
+speakers in the database or search for known speakers in the stream of
+audio files)
+
+Contacts
+
+!"#$%&'()&*(+&'()+&#,,-$,.($/
+WWW.SPEECHPRO.COM
+
+tel.: +7 812 331-0665
+fax: +7 812 327-9297
+
+

@@ -1,0 +1,198 @@
+Product Purpose
+
+RADIUS
+
+The Product is designed for searching,
+intercepting, registering and analyzing of
+communication sessions as well as service
+information circulating in cellular GSM networks
+without encryption or with A5/1 and A5/2
+encryption.
+The System can be operated both in stationary
+and in mobile conditions as an independent
+radio monitoring post or as a radio
+interception network node. It can be organized
+on the basis of vehicles. Data transfer and
+remote control can be achieved using wired or
+wireless connection.
+
+Brief brochure
+
+Key Features and Advantages
+The product is a professional solution designed
+on the basis of high technologies. It has the
+following functional peculiarities:
+Possibility of operating in a distributed
+configuration that makes it possible to
+build branched radio monitoring
+networks covering large territory.
+High sensitivity and a wide dynamic
+range of the radio reception device.
+Capability of operating both in the realtime mode and in the delayed (offline)
+mode with recording all the data received
+onto a disc and next session deciphering
+and reconstructing.
+
+1
+
+Several radio reception systems can use the same A5/1 deciphering unit located
+remotely. They can be connected with a deciphering unit by means of wired or
+wireless communication channels.
+Possibility of supplying the system without a deciphering unit.
+Possibility of operating in the recording mode without a deciphering unit (visiting a
+place where a target is located with the minimal hardware set).
+Software package includes wide capabilities for processing and analyzing of
+intercepted data.
+Configuration of the Product
+The Product includes the following components:
+One or several Signal Reception and Processing
+Units (SRPU).
+Quad-band magnet-mount rod antenna, 3dB or
+7dB, 850/900/1800/1900 MHZ.
+Quad-band directional antenna, 12dB,
+850/900/1800/1900 MHz.
+A5/1 deciphering unit.
+Control computer.
+GSM-modem.
+NetMonitor Phone.
+Power Invertor.
+
+2
+
+Power inverter 12V–220V.
+Software Package.
+Connection cables.
+Description manual and operation manual.
+Ruggedized case.
+A5/1 Deciphering Unit
+The System can be supplied with the A5/1 deciphering unit. The deciphering unit is a
+special-purpose high-performance computer intended for calculating an encryption key
+(Kc) of a GSM session encrypted with an A5/1 algorithm. The deciphering unit has the
+following characteristics:
+High efficiency, a short time for key calculation.
+Certification as per the MIL-STD for military use and use in aircraft and vehicles.
+Low power consumption, low noise level.
+Possibility to link several units into a cluster for enhancing performance.
+External interface – Ethernet.
+Extended range of operating temperatures.
+Technical parameters of the deciphering unit:
+Time for key calculation: 440 ms average (1.8 s worst).
+Probability of success: 98% per call, 95% per keystream.
+Power supply: AC input – 90..260V, 45..65Hz.
+DC Input – 12V (with external power converter).
+Power consumption: 195 W during calculating, 60 W idle.
+Weight: rack-mount – 15 kg; ruggedized – 9 kg.
+Dimensions (LxWxH): 19 4U rack-mount – 56.3 x 48.3 x 17.6 cm.
+ruggedized – 48.7 x 38.6 x 22.9 cm, Pelican carry-on luggage.
+Operating temperature: 0..+55?C.
+Storage temperature: -10..+70?C.
+Certification: MIL-STD-202G, methods 204/214A/213B.
+
+3
+
+Engineering Data of Signal Reception and Processing Unit
+Quantity of duplex channels in real-time mode: 18, 36 or 54.
+Working frequency bands: GSM 850, R-GSM 900, DSC 1800, PCS 1900.
+Quantity of receiving antenna inputs in SRPU: 2 (uplink and downlink combined or
+separately).
+Input resistance of RF path: 50 ohm.
+Frequency channel step: 200 kHz.
+Reception path sensitivity, not worse: -105 dBm.
+Spurious response, not lower than: 66 dB.
+Frequency setting accuracy, not worse: 1 kHz.
+SRPU external interface: Ethernet 10/100 Mbit/s.
+Power supply: 220V ± 10%, 50 Hz.
+Power consumption: 150 W for 54-channel SRPU.
+SRPU overall dimension, not exceeding: 335 mm õ 310 mm õ 190 mm.
+Weight: 12 kg (for 54-channel SRPU).
+The Product is operated by one operator.
+The Product is intended for operation in continuous automatic mode without
+operator's intervention.
+Functional Capabilities
+Search and identification of BTS control channel numbers of communication
+networks in full working frequency range with possibility to use all reception
+channels for acceleration of bands scanning.
+Collection and displaying of technical and statistical information about
+communication networks with detailed indication of parameters for each BTS.
+Displaying of radio frequency environment in the point of current location with
+possibility to select the displayed channels based on their belonging to a network.
+Assignment of tasks for all the reception channels in automated mode or for each
+channel in manual mode.
+Operation of each reception channel in mode with search or at a fixed frequency
+during network data collection.
+
+4
+
+Access to system functional capabilities is possible only after user authorization.
+System's software includes a separate shell that is intended for working with
+databases and that is capable to function independently of the Product hardware.
+Software of the Product runs in the Windows XP/Windows Server 2003/Windows
+Vista/Windows 7 environment.
+Operational measuring of received signal strength and quality at all the receiving
+channels.
+Displaying of messages passing through control channels of BTSs and mobile
+stations.
+Saving and fast loading of all the system configuration parameters including
+assigned tasks for each reception channel, while number of configurations is only
+limited by availability of free space at the control computer disk drive.
+Intercepting of direct and reverse (under sufficient signal strength) traffic channels.
+Support of a signaling protocol for SDCCH/8 and SDCCH/4 channel formats.
+Support of HR, FR, EFR, AMR-FR, AMR-HR speech codecs.
+Support of Hopping mode.
+Processing of handover of traffic channels between BTSs.
+Recording of voice information with compression on the computer hard disk.
+Playback of speech in real time with possibility of automatic or manual switching to
+any of the assigned traffic channel.
+Displaying of DTMF symbols being dialed during the call.
+Match making between a subscriber number and a system identifier used by a
+network by active search of targets (Hush SMS or Silent call).
+Selection of targets using both constant (IMSI, IMEI, IMEISV) and temporary
+(TMSI) identifiers.
+Selection of targets by Classmark.
+Selection of targets by the specified range of distances from BTS.
+Support of reception channels priority and targets priorities.
+Maintenance of data bases for all the information accumulated during system
+operation (voice messages, SMS, data on registered numbers and service
+messages).
+
+5
+
+Software Configuration
+Software includes the following programming modules:
+Radius – Server.
+Radius – Monitor.
+Radius – A5/2 Decryptor.
+Radius – Base.
+Radius – Auditor.
+The Radius-Server is started automatically during OS loading, it operates in background
+mode and has no user interface.
+The Radius-Monitor is the main operator's program and it is intended for controlling of all
+the Product operating modes and displaying of the Product operation results.
+The Radius-A5/2 Decryptor is intended for determination of ciphering keys and data
+decryption by À5/2 algorithm applicable in GSM networks. The program is started
+automatically during OS starting. It has a user interface for check of operation.
+The Radius-Base is a program for management of databases generated during the
+Product operation. It is intended for processing and analysis of the collected data. The
+program can be run independently of other components. It does not require any Product
+hardware.
+Radius-Auditor is the tool of a security administrator; it is intended to control a logging
+function and view of log files storing records about operation of programs and operations
+performed by operators.
+SRPU(s) and all the programming modules are connected between each other by wired or
+wireless connection. Such principle of interaction enables:
+To build branched radio monitoring networks covering large territory.
+To expand quantity of channels quickly by connecting the additional SRPUs.
+To flexibly manage assignment of tasks for the Product channels.
+To create centers for data processing with required number of processing
+operators' working places.
+
+6
+
+RADIUS
+6, Kostomarovskaya str.
+61002 Kharkov, Ukraine
+Tel./Fax: +38 (057) 766-13-63
+e-mail: post@altron.ua
+http://www.altron.ua
+
+

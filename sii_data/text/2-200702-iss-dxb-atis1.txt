@@ -1,0 +1,598 @@
+ATIS systems GmbH
+National LI Systems
+_____ ________ _______
+Dubai, February 2007
+___ ______ ____
+
+09.08.2007
+
+ATIS systems GmbH
+
+1
+
+History – Stating the Obvious
+_____ ______
+
+09.08.2007
+
+ATIS systems GmbH
+
+2
+
+History
+
+BAD
+GUY
+
+BAD
+GUY
+
+09.08.2007
+
+ATIS systems GmbH
+
+3
+
+Wiretapping – the good old way...
+
+BAD
+GUY
+
+09.08.2007
+
+ATIS systems GmbH
+
+4
+
+GSM!!!
+LI
+LI
+
+INI1 INI2 INI3
+
+AIMS
+
+HI1 HI2 HI3
+BAD
+GUY
+
+BAD
+GUY
+
+09.08.2007
+
+MF, DF, LI-IMS
+
+ATIS systems GmbH
+
+5
+
+The
+Challenge
+______
+
+09.08.2007
+
+ATIS systems GmbH
+
+6
+
+The Challenge
+INI (X) Interfaces
+IMC
+
+LI-IMS
+
+LI-IMS
+
+IP-IMS
+09.08.2007
+
+ATIS systems GmbH
+
+HI interfaces
+
+?!
+
+7
+
+The
+Solution
+Where to go from here?
+
+____
+___ ___ _
+
+09.08.2007
+
+ATIS systems GmbH
+
+8
+
+National Solution
+INI (X) Interfaces
+IMC
+
+Voice
+Traffic
+
+E1
+
+LI-IMS
+
+MCMN
+
+Control
+AIMS
+
+IP Traffic
+
+IP
+
+IP-IMS
+IP
+
+09.08.2007
+
+APIX
+
+HI interfaces
+
+ATIS systems GmbH
+
+9
+
+Our Scope
+
+IMC
+
+LI-IMS
+
+MCMN
+
+AIMS
+
+IP
+IP-IMS
+APIX
+09.08.2007
+
+ATIS systems GmbH
+
+10
+
+A Closer Look
+____ ____
+
+Monitoring Centre
+
+IMC
+
+LI-IMS
+
+MCMN
+
+AIMS
+
+IP-IMS
+APIX
+09.08.2007
+
+ATIS systems GmbH
+
+12
+
+A simplified monitoring workflow...
+
+g
+n
+yi
+
+g
+g
+g
+n
+i
+n
+n
+i
+s
+i
+f
+g
+v
+i
+v
+y
+d
+i
+i
+n
+l
+s
+i
+e
+o
+a
+h
+r
+s
+c
+c
+c
+n
+a
+o
+A
+Re
+Cl
+De
+St
+Ar
+ing
+
+Provisioning
+09.08.2007
+
+ATIS systems GmbH
+
+13
+
+KLARIOS main components
+ing
+v
+i
+ce
+Re
+
+ing
+y
+f
+i
+ss
+a
+l
+C
+
+Voice
+
+IP
+
+Front-End
+09.08.2007
+
+ing
+d
+co
+De
+
+Sto
+
+g
+rin
+
+g
+
+sin
+y
+l
+a
+
+An
+
+ing
+v
+i
+ch
+Ar
+
+Data Base
+
+Storage
+
+Core
+ATIS systems GmbH
+
+Back-End
+
+Archiving
+14
+
+AIMS
+
+IMC
+
+LI-IMS
+
+MCMN
+
+AIMS
+
+IP-IMS
+APIX
+09.08.2007
+
+ATIS systems GmbH
+
+15
+
+AIMS main components
+PCM
+
+IP
+
+HI3 CS
+MCMN
+
+AIMS
+Controller
+HI1/ HI2
+HI1 / HI2 / HI3
+
+HI3 IP
+APIX
+
+Front-End
+09.08.2007
+
+Core
+ATIS systems GmbH
+
+Back-End
+16
+
+ISP LI
+
+IMC
+
+LI-IMS
+
+MCMN
+
+AIMS
+
+IP
+IP-IMS
+APIX
+09.08.2007
+
+ATIS systems GmbH
+
+17
+
+ISP LI
+
+Core
+AAA
+RADIUS
+
+Aggregation
+
+Access
+
+Home Sweet Home
+
+BAD
+GUY
+
+09.08.2007
+
+ATIS systems GmbH
+
+18
+
+AIMS-IP Target Monitoring
+
+ADMF server (HI1)
+
+Tap
+
+LI
+
+ISP
+09.08.2007
+
+Mediation and
+Distribution
+HI2/ HI3
+
+Probe
+
+LI
+ATIS systems GmbH
+
+19
+
+ISP LI
+
+Core
+
+Aggregation
+
+Access
+
+BAD
+GUY
+
+09.08.2007
+
+ATIS systems GmbH
+
+20
+
+AIMS-IP Application Monitoring
+
+ADMF server (HI1)
+
+Tap
+Proxy
+
+Mediation and
+Distribution
+HI2/ HI3
+
+Probe
+
+ISP
+09.08.2007
+
+LI
+ATIS systems GmbH
+
+21
+
+ISP LI
+
+Core
+
+Aggregation
+
+Access
+
+BAD
+GUY
+
+09.08.2007
+
+ATIS systems GmbH
+
+22
+
+AIMS IP – Backbone Monitoring
+
+ADMF server (HI1)
+
+Tap
+Mediation and
+Distribution
+HI2/ HI3
+
+Probe
+
+ISP
+09.08.2007
+
+LI
+ATIS systems GmbH
+
+23
+
+KLARIOS IDEC components
+
+Raw
+Content
+
+DDS
+
+ITS
+
+Arc
+
+Decoded
+Data
+
+Storage
+09.08.2007
+
+Decoder
+
+Evaluation
+
+ATIS systems GmbH
+
+Back-End
+24
+
+IP MC Content Presentation
+HTTP/1.1 200 OK
+...
+Content-Type: text/html
+<HTML><HEAD><TITLE>Google</TITLE>
+...
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+...
+alt=Google src="Google-Dateien/logo.gif"
+...
+
+HTTP/1.1 200 OK
+...
+Content-Type: image/gif
+logo.gif
+
+09.08.2007
+
+ATIS systems GmbH
+
+25
+
+Klarios Internet Session Viewer
+Search /
+navigate
+Display
+–secure and
+chronological
+
+Classify
+
+Comment
+09.08.2007
+
+ATIS systems GmbH
+
+26
+
+Add-Ons
+One Step Further
+
+AIMS CDBS Cluster
+
+Core
+09.08.2007
+
+Back-End
+ATIS systems GmbH
+
+28
+
+CARGIS in MC-Application
+
+09.08.2007
+
+ATIS systems GmbH
+
+29
+
+LBS-Effect on Positioning
+
+8º41’13’’, 50º 7’1’’
+
+09.08.2007
+
+ATIS systems GmbH
+
+30
+
+AIMS: Other Analysis Tools
+Intelligent Data Analysis (IDA)
+Signaling and Content Processing (SCP)
+
+Customised Add-ons
+
+09.08.2007
+
+ATIS systems GmbH
+
+31
+
+Questions ?
+Questions ?
+BAD
+GUY
+
+09.08.2007
+
+ATIS systems GmbH
+
+32
+
+

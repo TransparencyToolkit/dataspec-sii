@@ -1,0 +1,172 @@
+Argos
+Thuraya Interception L-Band System
+
+Introduction
+In a world of crisis and conflict, and as part of measures to
+fight crime and terrorism, the interception and analysis of
+satellite communication has a significant role to play. Thanks
+to the analysis of communication content and networks and
+the identification of relevant interrelations, military forces and
+intelligence services are able to recognise dangers early and
+take appropriate action to combat such dangers and fight
+criminal activity.
+
+The introduction of satellite communication–which enables
+telephone calls to be made and data to be exchanged from
+anywhere in the world–has led to a worldwide communication
+revolution. The resulting communication channels are used
+intensively by persons and organisations that are of interest
+to intelligence services, armed forces and police authorities.
+Consequently, such channels must be subject to analysis
+using modern detection systems.
+The possible applications and the rapid increase in users of
+the Thuraya satellite communication system have made the
+procurement of suitable reconnaissance equipment essential.
+The increase in the coverage area as a result of additional
+Thuraya satellites has made this need even greater.
+
+About Rheinmetall Defence
+Rheinmetall Defence is the international leader in the field
+of Thuraya and Inmarsat satellite intelligence and a longstanding partner of military organisation and intelligence
+services.
+Rheinmetall Defence has been developing and delivering
+systems for the reconnaissance of satellite communication
+connections since the beginning of 1990. At present, over
+40 tactical and more than 10 strategic intelligence systems
+are in use by our customers around the world.
+Rheinmetall Defence is part of the Rheinmetall Group and,
+with approx. 6,800 employees, has a worldwide turnover of
+€1.4 billion.
+
+2
+
+System Architecture
+The Thuraya Interception L-Band System ARGOS consists of
+the following subsystems:
+Antenna Subsystem:
+RF signal acquisition and down conversion
+Sensor Subsystem:
+IF signal digitisation, data demodulation and decoding
+Data Processing and Storage Subsystem
+
+Technical Data (Basic Configuration)
+Antenna Subsystem
+L-Band antenna
+– Flat Panel 90 cm x 90 cm
+– Lightning protection
+Digital down converter (L-Band)
+– 34 MHz Bandwidth
+(max. 1088 Thuraya frequency channels)
+– Automatic Level Control
+Time reference
+– GPS antenna (with lightning protection)
+– NTP Server
+Sensor Subsystem
+Programmable Multi-Channel Receiver
+– Digitisation of all L-Band frequency channels
+Signal Processing Unit
+– Demodulation and decoding of 102 L-Band
+frequency channels
+Data processing and Storage Subsystem
+Server for data processing and intermediate storage
+Interfaces
+Link to the strategic Thuraya Interception System ARES
+Power Supply
+115 – 230 V AC
+50 – 60 Hz
+Approx. 1.5 kW
+
+Dimensions
+19“ rack
+Height 0.8 m
+Options
+Ruggedised version
+– Shock and vibration proof
+– Air-conditioned
+Multi-level filter to reduce the amount
+of data acquired by the system
+– For use of network connections with
+limited bandwidth
+– To reduce the number of sessions to analyse
+Increase of the L-Band channel in steps
+of 136 frequency channels per upgrade
+– To monitor additional Thuraya frequency channels
+
+Time reference
+Downconverter L-Band
+Broadband Frontend
+102 L-Band traffic channels
+Data/Storage Server
+Uninterruptable Power Supply
+
+3
+
+ARGOS – Maritime
+
+ARES – Strategic System
+
+ARGOS – Shelter
+
+ARGOS – Vehicle Based
+
+4
+
+Key Features
+The modern interception system, ARGOS intercepts calls from
+Thuraya L-Band downlink channels in selected, usually remote
+spots, thus increasing the coverage area of the stationary
+ARES interception system. Depending on the position of the
+L-Band antenna, up to six adjacent spots in addition to the
+centre spot, as well as any further spots, can be intercepted.
+ARGOS can be used both in combination with the strategic
+ARES system or in a standalone mode. On connection to
+ARES, information is compressed and forwarded to the stationary system via a WAN link (e.g. VSAT) and compiled into
+a complete session with the C-Band data in order, for instance,
+to acquire and evaluate an entire duplex telephone conversation. Should the data link be disconnected, the acquired
+data is temporarily stored in the integrated storage system and
+then automatically forwarded to the strategic system once the
+link has been re-established. Multi-level filters can be used
+to reduce the amount of data forwarded to the strategic
+system. ARGOS can operate in standalone mode without
+supervision. The system does not require its own decryption
+unit.
+To extend ARGOS into an independent interception system,
+a decryption unit and PC workstation can be easily added to
+the system, thus allowing the reproduction and evaluation of
+the acquired information on site. The software configuration is
+modular and ranges from the reproduction of speech, fax
+and data calls, to link analysis, OCR and speech recognition.
+
+Thanks to the system’s modular design, several ARGOS spot
+beam sensors can be connected to the strategic system ARES.
+ARGOS can be sized to the amount of Thuraya traffic expected
+in the targeted areas. The basic configuration allows 102
+frequency channels to be monitored with potentially more
+than 600 simultaneous telephone conversations. The channel
+capacity can be increased in steps of 136 frequency channels
+in each case. The use of state-of-the-art DSP and FPGA
+technology allows ARGOS to be housed in a spacesaving
+portable 19“ rack. The compact and modular design offers
+major advantages in terms of life-cycle-cost, weight, required
+space and electricity and climatisation, etc..
+Depending on the scenario, ARGOS may be installed as
+either a stationary or mobile system (vehicle, container or
+vessel). Optionally, the system can be equipped with an additional L-Band receiving unit to monitor the satellite uplink
+(mobile to satellite). Then, the equipment can be used as a
+mobile tactical L/L-Band system for the interception and
+localisation of Thuraya terminals in the area of operations
+(ARTEMIS system).
+RDE has a proven competence of providing complete turnkey systems including all the corresponding infrastructure,
+installation, commissioning and training. Existing components, such as customer-specific analysis software, can be
+easily integrated into the system. RDE offers maintenance
+and support contracts, tailored to customer requirements,
+during the utilisation phase.
+
+5
+
+B006e08.07©Rheinmetall
+
+Rheinmetall Defence Electronics GmbH · Brüggeweg 54 · D-28309 Bremen
+Tel. +49 421 457-01 · Fax +49 421 457-2900 · www.rheinmetall-defence.com
+
+

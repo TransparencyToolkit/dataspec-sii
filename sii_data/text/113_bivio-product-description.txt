@@ -1,0 +1,1339 @@
+i
+
+'i
+I
+
+Bivio NCCS
+Network Content Control System
+
+--
+
+----
+
+-I
+
+A Cyber-Security Solution to Monitor, Control,
+and Block UnwantedTraffic
+Bivio's Network Content Control System (NCCS) is the industry's leading
+integrated policy-based monitoring, content control and traffic enforcement solution. Until now, network and security administrators needed
+to deploy disparate single function devices to solve specific content
+enforcement problems such as URL filtering or traffic enforcement.
+Bivio NCCS has revolutionizedthe networking industry by delivering
+monitoring and control of all forms of IP traffic in one multi-function
+networking system.
+The Bivio NCCS is a carrier-grade networking platform that utilizes
+advanced deep packet inspection (DPI) technology to deliver comprehensive network content control. Purpose-built for high-performance
+networks, the NCCS includes a rich set of functionality to identify,
+manage and control network traffic based on content, services, applications, protocols and users. Customers can easily deploy the Bivio NCCS
+to provide highly programmable traffic enforcement and web content
+control functionality to immediately protect and optimize their fixed
+and mobile network communications infrastructure.
+
+I
+
+/
+
+I
+
+www.bivio.net
+
+Bivio Network Content Control System
+j
+
+Business Enterprise
+
+A
+
+i
+!
+
+Ulond
+PT*
+
+*
+4.
+
+Ran*ted
+
+lPTni6c
+
+Fixed Subscriber Access
+
+j
+
+..................................................
+
+j MobileSubscriber Access [
+
+GGSNI
+
+PDSN
+
+7heBivioNreS does nor requireany netwwk infrmrraure madificationfwWorm&h
+nerwwk Depoyedin-line, thetheCSis nompomta the nerwork and m- that is, naP
+addre35 isoddresmbk m the IPdatopanh, with noperibnnoneedegra&im to the m.
+
+M
+
+Network-Based Web Content Control
+and Traffic Enforcement
+
+FlowlnspectmDPI Engine - The Foundationfor
+IP Traffic Monitoring & Control
+
+Managing today's complex network infrastructure presents many
+challenges to network and security administrators.First, they must
+effectively manage the continued growth in bandwidth-consumingIP
+communications (such as general InterneWebsite traffic, Peer-to-Peer
+(PZP) file transfers, Skyper Instant Messaging (IM), VolP, and YouTube)
+traversing their networks. Furthermore, they must ensure that IP
+traffic moving across the network complies with various regulatory or
+organization-approved network communication policies. Finally, since
+this same traffic often contains policy-prohibitedcontent as well as
+malicious data (such as viruses, worms, phishing and other malware),
+network administrators must minimizethe impact of cyber security
+threats.
+
+At the core of the Bivio NCCS is a powerful and innovative deep packet
+inspection (DPI) engine, which leverages Bivio's long and successful
+history of combining complex processing at very high networking
+speeds with unlimited flexibility. These technologies enable full
+protocol and user awareness, along with fine-grained application
+and content differentiation.In addition, the DPI engine is used to
+provide auto-discovery of user-authentication protocols, eliminating
+the need to make external calls to provisioningservers, thereby
+greatly simplifying the deployment and management of the system.
+The result is a unique and powerful system that can be deployed
+inline to perform packet inspection, web content control and traffic
+enforcement on a completely standalone basis.
+
+If left unchecked, overall network performance is reduced, content
+management and control is diminished and there is increased
+vulnerability to cyber security attacks.
+Responding to these challenges, the Bivio NCCS is the industry's
+leading integrated policy-based monitoring, content control and traffic
+enforcement solution. The NCCS is a standalone networking system
+that enables customers to provide granular web filtering and traffic
+enforcement on a per-protocol, per-flow, and per-user basis, all without
+requiring interaction with external devices.
+
+Web Content Control with True HTlP Filtering
+The Bivio NCCS provides an advanced lnternet filtering solution that
+not only includes traditional URL filtering but also protects the network
+communications infrastructurefrom malware and other emerging
+threats. NCCS includes mechanisms to control access to improper
+content, peer-to-peer (P2P) and chat usage, and other Web-centric
+applications.
+
+A significant shortcoming of traditional proxy-based URLfiltering systems
+is that only the traffic routed to the proxy servers can be filtered (ports 80,
+8080,443, etc.). The Bivio NCCS uses Bivio's advanced Flowlnspect DPI
+Engine to filter HTTP traffic regardless of the port used by the service.
+The Bivio NCCS web content control technology is based on a stateof-the-art URL categorization and content rating engine, supporting
+controlled access to any combination of over 80 website content
+categories, including many categories specific to sites optimized
+for viewing on wireless/mobile devices. With over 350 million URLs
+classified in over 20 languages, the Bivio NCCS provides coverage
+for the smallest regional to largest global deployments. Network
+administrators may also import custom whitelist and blacklist sites
+for specific enforcement concerns for comprehensive content control
+with fine-tuned precision.
+Advanced features of NCCS include the ability to enforce policy based
+on the specific destination IP address, as well as supporting HTTP
+keyword matching and URI wildcards.
+
+Transparent DNS Overriding
+The Bivio NCCS incorporates a DNS overriding technology that can
+be used to block access to common tunneling/proxying techniques
+that may be employed by illicit hackers to circumvent network policy.
+In fact, the DNS overriding capability further permits transparent and
+accurate enforcement of site accessibility without modifying the general DNS server infrastructureconfiguration. This allows customers to
+easily conform with local government regulatory requirements while
+substituting an altered DNS response to the network user that does
+not identify the enforcement policy.
+
+VolP Identification, Control and Blocking
+Another characteristic of the Bivio NCCS traffic enforcement
+functionality is the ability to classify, identify and control VolP traffic
+flows, enabling administrators to apply flexible and granular policies
+in full compliance with their network control, cyber security and
+regulatory goals.The NCCS combines different key technologies
+to enforce VolP traffic policy:
+Flow marking based on the 5-tuple of IP addresses, protocol and
+port numbers, with flow-state information maintained in memory;
+Heuristic mapping to control/block identified traffic based on
+Super-Node (SN) knowledge.
+Analysis, identification, reporting and control of users VolP services
+provides valuable user statistics and information that enable
+compliance with internally developed or regulatory mandated policies.
+This unique approach makes the Bivio NCCS the ideal solution to
+detect, block and provide maximum accuracy in managing Skype
+and other P2P VolP traffic.
+
+Mobile-Ready Content Control for Carriers
+Today's mobile user introduces new complexity for carriers who are
+enforcing web content policy. User IP addresses can change from device
+to device or location to location, making it difficult to identify and maintain user policy.The Bivio NCCS is mobile-ready, with built-in support for
+mobile broadband networks. Key highlights for NCCS mobile deployments include:
+Identificationof actual user/lP source for WAP requests, coming frorri
+the WAP Gateway
+
+Traffic Enforcementfor Today and the Future
+
+Filtering rules follow the user on different devices
+
+With the rapid expansion of broadband applications, network
+providers are acutely aware that a significant amount of their network's
+bandwidth is consumed by traffic such as P2P, VolP, YouTube, and
+more. Besides consuming a huge amount of bandwidth,this traffic may
+often contain malicious or restricted content, such as security threats
+or confidential data. In some cases, administrators may find that some
+services are overwhelming the network infrastructurea t particular
+times of the day and causing dissatisfaction among network users.
+
+Supports mobile data description languages
+
+The Bivio NCCS, powered by Bivio's advanced Flowlnspect DPI Engine,
+provides full visibility and control of all users accessing the network, the
+types of traffic they can transmit and services they can access. Network
+administrators can use the NCCS to accurately identify and manage
+traffic flows based on specific applications, protocols and users.
+As networking is very dynamic, one of the major challenges of network
+traffic enforcement is the ever-changing applicationand protocol
+signatures that are used to identify an application within a specific
+traffic flow. Bivio has overcome this challenge with a unique capability
+of the Bivio NCCS that addresses frequently changing protocol versions
+and enhancements. As new protocols and applications emerge, dynamic libraries on the NCCS are updated so that analysis and identification
+continues uninterrupted. Unclassified traffic flows are also managed to
+eliminate potential network threats.
+
+Built-in load balancing features ensure scalability even in distributed
+mobile networks
+
+Bivio's Network Content Control System - The Best
+Solution for Wireline and Mobile Network Awareness
+and Control
+The Bivio NCCS delivers web content control and traffic enforcement
+functionality for customers to protect and optimize their fixed and mobile
+network communications infrastructure. Completely self-contained and
+capable of operating transparently inline, the NCCS can be deployed at
+any location,such as the data center, lnternet gateway, or point of presence (POP).
+
+The BMo NCCS Is o corrierwade wtmd d g n d to creote, manage, cmtrol and
+enforceumgepdiciestbr~van'e&o~htemt~m'ces,
+prcsentond~tw,
+on a or-wer
+h i s . Operating transparently i n l k theNCCS can be rcuM to wppopf 10 Gbps
+
+n m r k throughput and h W .
+
+Bivio Network Content Control System
+
+Specifications
+Bivio NCCS Models
+Network Edition (NCCS-NE) - Universal, network-widepolicy enforcement
+Subscriber Edition (NCCS-SE) - Granular, per-user policy enforcement
+
+System Performance
+NCC7512: Up to 2 Gbps
+NCC7562: Up t o 6 Gbps
+Integrated system scaling support up to 10 Gbps
+
+Advanced System Features
+Transparent inline mode
+
+Web Content Control
+Over 350 million URLs classified in over 20 languages
+80 database categories
+Database updates in 24 hour intervals
+Support for over 20 languages
+00,000 H'TTP reqs/sec
+Performance: >l
+Concurrent sessions: >8,000,000 unidirectional
+
+Traffic Enforcement
+Support for standard lnternet Applications/ProtocoIs including HTTP,
+FTP, SMTP, POP3, Telnet
+
+Passive sniffing mode when used with TAP or SPAN port
+
+Example P2P protocols include eDonkey/eMule, Gnutella, Kazaa,
+Bittorrent (encrypted/unencrypted)
+
+High-performance scaling technology for application & network
+processing scaling
+
+Example VolP protocols include H.323, SIP, Skype, GoogleTalk, MSN,
+IAX/IAX2, MGCP, H.248/Megaco
+
+High Availability
+Optional Aaive/Active and Active/Standby configuration<
+lnline (LAN bypass) failopen
+Failure-adaptive load balancing
+Dual redundant hard drives with RAID-l support
+Dual redundant hot swap power supplies
+
+Operating System
+Linux 2.6
+BiviOS" and APls for system interface
+
+Traffic Management and DPI
+Classificationand load balancing on a per-flow basis
+802.1q VLAN support
+Multi-level MPLS support
+Jumbo packets to 9KB
+Flowlnspect" DPI Engine
+
+Tunneling and Obfuscation:TOR, Proxify, OpenVPN, PPTP, VTun, SSW
+TLS, IPSec
+Ethernet Wrapping: Ethernet, MPLS, VLAN, QnQ, L2TP
+
+Network Interface Modules (Up to 2 per chassis)
+2-port and +port 10 Gigabit Ethernet (1OGBASE-SR or 10GBASE-LR)
+&port Gigabit Ethernet (10/100/1000BASE-T)
+6-port Gigabit Ethernet ( l 000BASE-SX or 1000BASE-LX)
+
+Regulatory & Environmental
+FCC Part 15 Class A, TUV, CE, VCCI, BSMI, CISPR, ICES, CTick, MIC, GS
+RoHS Directive 2002/95/EC (EU)
+
+Electrical
+Dual redundant AC power supply (100-240V, 50-60Hz)
+Dual redundant DC power supply (-36 to -72 VDC) [optional]
+
+Physical
+Weight: 45 Ibs
+Dimensions: 3.5" (9cm) H X 17" (43cm) W X 24" (61cm) D [2U rack height,
+standard 19" rack-mountable]
+
+Operating Conditions
+Power: 600W nominal
+Operating Temperature: 0-40C (32-104F)
+* Relative Humidity: 10%-90% non-condensing
+
+About Bivio Networks
+BIVIONetworks IS a leadlng provlder of network systems for securing, monltorlng and controlling c r l t ~ c anetwork
+l
+~nfrastructureBIVIO'S global customer base Includes worldwide government agencles and servlce providers Its product
+sulte enables ~tscustomers and partners, whlch Include appllcatlon developers and systems Integrators,to develop and
+deploy lead~ngsolut~onsto secure monltor and control customer networks BIVIO IS privately held and headquartered In
+the San Franc~scoBay area wlth offlce locat~onsworldwide More lnformatlon 1s ava~lableat www b~vlonet
+a, 2010 R I V I ~Nrtwo~k\,Inc All r~ghrsrrsrrved Tile Blv~ologo, RIVIOS, Hivlo 1000 Serfes, Blvlo 7100. Blvlo 7500. DPI Appl~cat~on
+Pldtiurm a ~ i d
+l lowlncpect are trademarks or
+req15tciedtradem,lrk, of UIVIONctworks, lnc All otht~rcompany and product !lames may be lrddelllarks of thr~rr ~ 5 p r c t l v eowners. Blvlo N ~ t w o r k s
+may (make changes to
+~ f i ~ d l l t r rdrld
+ic
+
+r)rc>tluct desci~prlonsat any tlme, w ~ l l ~ onallce
+ut
+P/N GAO91O 62000 00022 Rev 1
+
+{
+
+bivio
+
+@
+a:-':
+
+, %h,
+
+-
+
+,
+
+I, ,
+
+S.
+
+'
+
+'
+
+'
+
+-': N e T W O r K S
+'
+
+I
+
+,
+
+.,-
+
+,
+
+-
+
+'
+
+Bivio Networks,
+4157 W I I I O W~ o , t dSu~te200
+l'lt.,tca~iton.CA 94588
+Trl. 4 l 925.924.8600
+tax. 4 1 925.074 R650
+www b~v~o.ncr
+
+\
+
+l
+
+l
+
+c
+
+Real time actionable intelligence
+
+The Bivio Data Retention System (DRS) is a high-performancedata
+collection and retention system that allows network operators and government agencies to strengthen cyber security operations across fixed
+and mobile network infrastructures.The system correlates network flow
+records with online and offline data sources to provide contextualized
+information intelligence which cyber analysts can use to detect and
+respond to complex security threats.
+Bivio DRS provides a key piece of a comprehensive cyber investigative
+strategy, enabling investigators to rapidly detect, analyze and react to
+complex security threats originating from or traversing the cyber realm.
+Through the integration of extremely efficient multi-domain record
+correlation technology, Bivio DRS delivers actionable intelligence that
+far exceeds the capabilities of existing data recording and packet
+capture systems.
+
+I
+
+Scalable Architecture
+
+Bivio DRS uses a distributed scalable architectureto
+manage high volume data collection.The system
+
+consists of five different functional elements:
+Multi-domain network probe with DPI-based data
+extraction engine
+Secure, high-performanceData Collection and
+Correlation (DCC) engine
+Performance-optimized Record Database and
+StorageWriter (RDSW) module
+Synchronized Session Presence and Tracking (SPT)
+engine
+Secure Management and Reporting (SMR) interface
+Bivio DRS integrates directly with industry-leading
+network storage systems to maximize deployment
+. .
+options.
+
+Bivio DRS Features
+Real-time multi-source record correlation
+10 Gbps DPI-based network probing enabling
+application and user context extraction
+
+Mobile-specific protocol support (WiMax, 3G. 4Gl
+LTE) for wireless network integration
+High-performance record database
+External interfaces for custom data mining and
+event triggering
+
+MULE-SOURCE
+Unt DB
+
+GLo-
+
+Cyber Analyst
+
+www.bivio.net
+
+Bivio DRS Architecture
+
+Record Database and StorageWriter (RDSW)
+The multr-drmenslonal datasets created by the DCC are collected and
+securely stored by the Record Database and StorageWriter (RDSW)
+module using high-capacity data storage algorrthms that are optimized
+for fast search and retrieval.This module is personalized to integrate
+drrectly with rndustly-leading network storage systems to offer flexible
+deployment options.
+
+Existing cyber investigative data retention solutions focus primarily
+on collecting data from a specific source, for example call data records
+(CDRs), IP data records (IPDRs) or server activrty logs. Through their inherently linear nature, these existing solut~onslrmit the ability of network
+analysts to develop a complete view of activity and potential threats
+Data retentron solutions that are designed to record or collect as
+much networkdata as possible result in storlng enormous amounts
+of unrelated, sequential flow data This leaves network analysts with
+t h e task of sorting through rec~rdsto
+find relevant or related communication streams, a process which can consume weeks of intense
+investigative effort.
+
+Session Presence and Tracking (SPT)
+The Bivio DRS Sesslon Presence and Tracking (SPT) engine provides
+overall synchronizat~onof the communrcation sessrons and informatron
+datasets The SPT engrne allows admrnistrators to implement retention
+archivrng, protection and deletion policies for overall system and storage
+management.
+
+In contrast to the existing solutions, Bivio DRS is able to correlate and
+store structured data. Bivio's rnnovative technology lrnks related pieces
+of data t o form a single record that represents the full context of the
+collected information.This information enables rich data mining for
+powerful cyber rnvestigative operatrons.
+
+Secure Management and Reporting (SMR)
+Brvio DRS IS managed through the Secure Management and Reporting
+(SMR) interface. This function provides access to Bivio DRS data and
+reports based on user and group level privileges, rncluding system-level
+authorizatron and auditing capabilrties.
+
+Multi-domain network probe
+A core component of Bivio DRS is a 10 Gbps network probe that utilizes
+a hlgh-performance layer 7 engrne to extract key flow information including speclfic user, protocol and application information. Bivio network
+probes can be drstributed across multiple domains, supporting both
+wired and mobrle (WiMax, 3G, 4G/LTE) protocols, to broaden the scope
+of investigatrve actrvity.
+
+Dynamic Triggering
+In addition to providing historical analysis of retained usage data, Bivio
+DRS includes innovative dynamic triggering technology that can initiate real-time actions throughout the collection, storage and retrieval
+process. This powerful capability is easily customized using an open
+scrrpting mechanrsm, and can immediately alert analysts or enable
+instant threat mltigatron action based upon the real-time front-end
+data collectron process.
+
+Data Collection and Correlation (DCC)
+The Data Collection and Correlation (DCC) engine performs several critical functions In the Blvro DRS lncludlng aggregating flow records from
+multrple data sources and creating context-based data relationships
+of the user activity streams.The formation of these datasets provrdes
+information-rich intelligence that optimrzes the retention and analysis
+functrons of the system
+
+F
+
+-=.>-
+
+>
+
+- - - A
+
+The Bivio Data Retention System empowers cyber analysts to leverage
+contextualized information faster than ever before through real time
+data collection and correlation.This ability enables government authorities such as law enforcement (LEA) and public safety agencies to rapidly
+detect, analyze and react to cyber security threats.
+
+-.-
+
+.
+
+About Bivio Networks
+
+Bivio DRS Delivers Actionable Intelligence
+
+.
+
+-
+
+. .
+
+.
+
+.
+
+-- -"ll-f-:.:g
+
+*
+
+S
+
+z
+
+P
+
+Brvio Networks is a leading provrder of network systems for securing, monltorrng and controlling crrt~calnetwork
+infrastructure.Bivro's global customer base includes worldwide government agencies and service provrders. Its product
+suite enables rts customers and partners, whrch Include applrcation developers and systems Integrators, to develop and
+deploy leadrng solutions to secure monrtor and control customer networks. Blvro IS pr~vatelyheld and headquartered in the
+San Francisco Bay area with office locations worldwide. More rnformat~onis available at www.blvro.net. - .
+s er-& l * L
+
+L
+
+r
+
+0 2010 Bivlo Network, Inc All nghts reserved The Wvlo logo, EIVIOS,81v1o
+7WO. BIVIO7100. and Blvto 7500 are trademarksor
+
+All other company and product names may be trademark of the~rrespectweowners BIVIONetworksmay make changes to speclficat~onsand product descr~pt~ons
+at any
+nme, without nouce PM GA101062MXKXX)26Rev 1
+
+Bivio Networks, Inc.
+4457 Wilow Road, Sulte 200
+Pleasanton,CA 94588
+Tel +l 925.924 8600
+Fax +l 925.9248650
+www blno.net
+
+BlVlO APPLICATION LIBRARY
+
+6bivio
+NeTWOrKS
+
+Network Security Solution
+Today's Network IT and Security Managers want to deploy world-class network
+security solutions that leverage SNORT" IDS and other open source network
+security applications.
+This, however, is not always an easy task. Between having to implement multiple applications and dealing with the constraints of existing server platforms,
+implementing a comprehensive network security open source solution on high
+performance, 10 Gbps platforms have been a challenge for Network IT and
+Security Managers.
+Biv~oNetworks has significantly reduced the time, effort and resources required
+t o identify and leverage a complete open source network security solution.
+Through a rigorous certification program, Bivio has bundled a compelling package
+of open-source network security applications - Snort: YAF, Barnyard, SILK, and
+Arpwatch -to provide a superior network security solution without compromising performance or flexibility. By executing this package of applications, Network
+lTand Security Managers can use Snort" to identify intrusions and Barnyard to
+unify the Snort" alerts. In parallel, they can deploy YAF in conjunction with SILK
+to provide a full-featured flow record generator. Finally, Arpwatch provides a
+powerful low level method of detecting Ethernethp addressing anomalies.
+
+Features and Benefits
+A Complete Solution
+A pre-packaged bundle of open source network
+security applications delivering IDS, alert processing, packet flow formatting, packet flow analysis,
+and monitoring: SNORT: YAF, Barnyard, SILK,
+Arpwatch
+Bivio 7000 Series Certified
+Tested and certified on the Bivio Networks
+10 Gbps DPI Application Platform.
+Easy Access
+Applications are downloadable from Bivio's Application Library found at www.bivio.net or can be
+Bivio factory installed onto the Bivio 7000 at time
+of shipment. Contact sales@bivio.net.
+Easy Installation & Start-Up
+Applications ship in a complete package that
+includes all the software files, documents and
+configuration files native to the open source
+software. In addition, Bivio includes initialization
+scripts to simpliQ and ease implementation.
+
+Bivio Networks is shattering the belief that 10 Gbps performance and open-source
+packet processing applications are incompatible. By certifying this security application suite on our Bivio 7000 Series DPI Application Platform, Bivio Networks
+bridges open source applications and 10 Gbps networking with no compromise
+in performance.
+LIBRARY
+Bivio's open source solutions can be easily downloaded from Bivio's Application
+Library found at www.bivio.net - or can be factory installed onto our Bivio 7000
+a t time of shipment.
+
+www. bivio.net
+
+Open Source Network Security Solution
+The Network Security Solution consists of five complementary open-source
+applications: Snort:YAF, Barnyard, SILK, and Arpwatch. These applications may
+be used individually, or they may be used in conjunction with each other to create
+a compelling suite of security services.
+
+Benefits
+True Wire-Speed, 10 Gbps Performance
+A state-of-the-art high-performance aichitecture
+ensures that all deep packet handling services on
+all interfaces are processed and forwarded at line
+rate for all packet sizes.
+Standard Linux Environment
+The network appliance platform is shipped
+with a pre-ported, standard Linux distribution
+with full Linux API compatibility to ensure rapid
+development.
+
+Flow Analysis Sensor
+IPFlX data generator
+
+The installation package that Bivio ships includes all of the software files, documents and configuration files native to the open source software. In addition, Bivio
+includes initialization scripts t o simplify and ease implementation. The scripts allow
+the open source application t o seamlessly integrate into the operating environment
+on the Bivio platform (named BiviOS). BiviOS provides additional control over the
+application, enabling users to optimize the runtime configurations on the system.
+Additionally, BiviOS provides mechanisms to ensure that the applications are always
+running even when a failure occurs.
+
+High Availability
+Bivio 7000 Series Platforms support redundant
+system configurationsto deliver non-stop
+mission-critical services.
+Network Connectivity with Hardware Bypass
+A selection of industry-standard network
+interfaces provide programmable fail-open
+support for copper or fiber cabling.
+Scalable Processing & Performance
+Multiple platforms may be stacked to deliver
+unprecedented application performance
+and throughput.
+
+The Hardware
+The Bivio 7000 Series of DPI Application Platforms is a family of compact, extremely
+high-performance,and fully programmable network appliances that combine a
+unique packet processing hardware architecture with a software platform that
+includes a standard Linux-based execution environment and a comprehensive set
+of networking features. Bivio's DPI Application Platforms deliver uncompromising
+performance and unmatched flexibility.
+
+About Bivio Networks
+Bivio Networks is a leading prov~derot network systems tor securing, monitoring and controlling critical network
+infrastructure. Bivio's global customer base includes worldwide government agencies and service providers. Its product
+suite enables its customers and partners, which include application developers and systems integrators,to develop and
+deploy leading solutions to secure, monitor and control customer networks. Bivio is privately held and headquartered in
+the San Francisco Bay area with office locations worldwide. More information is available at www.bivio.net.
+0 201 1 Bivio Networks, Inc. All rights rese~ed.
+The Bivio logo, BiviOS. Bivio 7000, Bivio 7100, and Bivio 7500 are trademarks or registeredtrademark of Bivio Networks. Inc.
+
+Snort is a registeredtrademark of Sourceflre,Inc. All other company and product names may be trademarksof their respective owners. Bivio Network, may make changes to
+specifications and product descriptionsat any time, without notice. PIN: GAOl11-62000-00015 Rev 1
+
+6bivio
+NeTWOrKS
+Bivio Networks, Inc.
+4457 Wlllow Road. Sulte 200
+Pleasanton, CA 94588
+Tel: + l 925.924.8600
+Fax: +l 925.924.8650
+
+www.bivio.net
+
+BlVlO APPLICATION LIBRARY
+
+@ bivio
+NeTWOrKS
+
+~cp~Ol~ngprlormon
+Ullmulchrdlkxlblllly
+ce
+
+m
+
+Today's Network IT and Security Managers want to implement world-class
+third-party and open source applications for network security, network flow
+analysis, and other mission critical monitoring and control solution. Applications
+such as SNORr YAF, SiLK, Barnyard and Bro are excellent open source applications
+available for global network deployment. In addition to typically free distribution,
+the leading open source applications are readily supported by a community of
+experienced users.
+Bivio Networks has significantly reduced the time, effort and resources required to
+identify and leverage a complete open source solution.Through a rigorous certification program, Bivio has certified a number of leading open source applications
+as well as pre-packaged a set of applications specifically to help lTand Security
+Managers deploy network security and network flow analysis solutions without
+compromising performance or flexibility.
+Open source applications and bundled solutions can be easily downloaded from
+Bivio's Application Library found at www.bivio.net - or can be factory installed
+onto the Bivio 7000 at time of shipment.
+The RPM packages that Bivio ships include all of the software files, documents and
+configuration files native to the open source software. In addition, Bivio includes
+application profiles and initialization scripts to simplify and ease implementation.
+Bivio Networks is shattering the belief that 10 Gbps performance and open-source
+packet processing applications are incompatible.By certifying this application suite
+on our Bivio 7000 Series DPI Application Platform, Bivio Networks bridges open
+source applications and 10 Gbps networking with no compromise in performance.
+
+Features and Benefits
+The Leading Open Source Applications
+Open source network security and network
+flow analysis applications delivering IDS, alert
+processing, packet flow formatting, packet flow
+analysis, and monitoring: SNORTYAF, Barnyard,
+SiLK, Arpwatch, Bro, nProbe, nTop, SANCP,
+Squid, TCPdump, Argus
+Bivio 7000 Series Certified
+Tested and certified on the Bivio Networks
+10 Gbps DPI Application Platform.
+Easy Access, Implementation & Start-Up
+Applications are downloadable from Bivio's
+Application Library found at www.bivio.net or can
+be Bivio factory installed onto the Bivio 7000 at
+time of shipment. Contact sales@bivio.net
+
+Open Source Applications
+
+Benefits
+
+-
+
+Active lnline Prevention
+
+Connection Profiler
+
+auditing, historical analysis, and network activity
+
+Alen Processor for Snort"
+database alerts.
+
+YAF
+
+Flow Analysis Sensor
+
+Processes packet flows into IPFlX format for later
+analysis
+
+Arpwatch
+
+ARP monitoringtool
+
+Alerting on modificationsto ARP tables
+
+Argus
+
+System& NetworkMonitoring
+
+System and network monitoringapplication with
+flexible alening and easy-to-useweb interface
+
+The Hardware
+The Bivio 7000 Series o f DPI Application Platforms is a family of compact, extremely
+high-performance, and fully programmable network appliances that combine a
+
+True Wire-Speed, 10 Gbps Performance
+A state-of-the-an high-performance architecture
+ensures that all deep packet handling services on
+all interfaces are processed and forwarded at line
+rate for all packet sizes.
+Standard Linux Environment
+The network appliance platform is shipped
+with a pre-ported, standard Linux distribution
+with full Linux API compatibility to ensure rapid
+development.
+High Availability
+Bivio 7000 Series Platforms support redundant
+system configurationsto deliver non-stop
+mission-critical services.
+Network Connectivity with Hardware Bypass
+A selection of industry-standard network
+interfaces provide programmable fail-open
+support for copper or fiber cabling.
+Scalable Processing 81Performance
+Multiple platforms may be stacked to deliver
+unprecedented application performance and
+throughput.
+
+unique packet processing hardware architecture with a software platform that
+includes a standard Linux-based execution environment and a comprehensive set
+o f networking features. Bivio's DPI Application Platforms deliver uncompromising
+performance and unmatched flexibility.
+
+About Bivio Networks
+Bivio Networks is dedicated to providing leading networking systems for deep packet inspection (DPI) networking
+applications and services. The company's products support a wide range of customer solutions, including network security,
+monitoring and surveillance, traffic management,content-based processing, value-added Web 2.0 applications and services,
+and many other DPI-based networkingapplications. Bivio's global customer base includes worldwide government agencies,
+service providers, leading DPI-based application developers, and systems integrators. Bivio is privately-held and is headquartered in the San Francisco Bay Area with office locations worldwide. More information is available at www.bivio.net.
+
+&bivio
+NeTworKs
+Bivio Networks, 11%
+4457 W~llowRoad,
+
+~ W
+Tekl
+
+0 2010 Bivio Networks, Inc All rights reserved.The Bivio logo. BiviOS, Bivio 7000, Bivio 71W, and Bivio 7500 are trademarks or registered trademarks of Bivio Networks. Inc.
+
+Fa+l
+
+Snort is a registered trademark of Sourcefire, Inc. All other companyand product names may be trademarks of their respective owners. Bivio Networks may make changes to
+specficat~ons
+and product dexnpt~onsat any nme, w~thoutnonce. P/N.GA080962000MM14 RevO
+
+~
+
+R
+
+~
+
+B
+
+W
+
+$&@&m
+~
+
+o
+
+m
+
+1
+
+I
+
+bivio
+
+Bivio 7000 SeriesDPI Application Platform
+
+Featuresand Benefits
+True Wire-Speed, 10 Gbps Performance
+
+State-of-the-art high-performance architecture
+ensures all deep packet handling services on all
+interfaces are processed and forwarded at line
+rate for all packet sizes.
+Standard Linux Environment
+
+Network appl~anceIS sh~ppedw~tha pre-ported,
+standard Linux distribution with full Linux API
+compatibility to ensure rap~ddevelopment.
+High Availability
+Biv~o7000 Series platforms support redundant
+
+system configurations to deliver non-stop
+mission-criticalservices.
+Network Connectivity with Hardware Bypass
+A selection of industry-standard network
+
+interfaces provide programmable fail-open
+support for copper or fiber cabling.
+Scalable Processing & Performance
+
+Multiple platforms may be stacked to deliver
+unprecedentedapplication performanceand
+throughput.
+
+NeTWOrKS
+
+10 Gigabit Deep Packet Processing
+Bivio's DPI Application Platforms, the Bivio 7000 Series, are a family of compact,
+extremely high-performance, and fully programmable network appliances that
+combine a unique packet processing hardware architecture with a software
+platform that includes a standard Linux-based execution environment and a
+comprehensive set of networking features. Designed specifically to provide wire
+speed deep packet processing,the Bivio 7000 Series architecture fuses Network
+Processing components with Application ProcessingCPUs to deliver uncompromising performance and unmatched flexibility.The platform family includes
+two main product groups that provide performance optimized features to deliver
+true line rate packet processing from 4 Gbps to more than 10 Gbps throughput
+using seamless scaling technology.
+The Bivio 7000Series platforms are fully programmable systems that allow any
+Linux-based networking application to run on the appliance with little or no
+porting effort. By basing the platforms on a standard, pre-ported Linux distribution
+with full API compatibility, software developers can quickly and easily run applications within hours of unpacking the device. A rich set of software infrastructure
+components further allow developers to quickly realize advanced capabilities of the
+platform including robust traffic management, load distribution across the multiple
+Application Processor CPUs, high availability and system management integration.
+Deploying solutions on Bivio 7000 Series platforms allow customers t o achieve
+disruptive improvements in deep packet inspection and processing performance
+systems cost, reliability, and scalability for their open source, commercial and
+custom developed solutions. Bivio platforms are ideal for a wide range of
+applications such as cybersecurity, content management, policy enforcement,
+and network intelligence.
+
+System Architecture
+The Bivlo 7000 Serles platform family includes two main product groups,
+the Bivio 7100 and Bivio 7500. All platforms employ a common system
+archltecture that IS optimized by model for a range of performance tiers.
+The major hardware features include a multi-threaded network processor,
+multlple dual-core application processors, high-capacity Network Interface Modules (NIMs), and a high-performance commun~cationfabric
+that accommodates full wire-speed data rates between processors
+The separation of applicat~on-levelprocessrng from network layer
+processing is fundamental to the Bivlo system archltecture. All platform
+models Include a high-performance Network Processor Card (NPC)
+featuring a multi-core, XLR" Processor that provides hardware packet
+manipulation at llne rate for all packet sizes A standard Linux execution
+environment allows applications to easily leverage performanceenhancing functions of the Network Processor such as fast path
+acceleration, or blocking of packets at the network layer. In addition,
+the NPC implements system management functronallty through a
+dedicated processor that communicates to all processors on a private
+control network.
+Application Processors (APs) In the platform archltecture are fully
+parallellzed CPU subsystems that host Linux networking applicatlon(s)
+Each AP subsystem employs dual-core processor technology deslgned
+so that each processor core includes independent memory and offload
+acceleration slots. Two dual-core APs are Included on the NPC board,
+and Bivio 7500 models allow performance scaling by addlng Application
+Processor Cards (APCs) to provide an additional four APs per APC to
+the platform through the high-performance fabric interconnect.
+Bivio 7000 Series platforms support dual redundant hot-swap power
+supplles and dual hard drlves that can be configured In RAID-1 redundancy.
+The system chassis is a carrier-grade 2U rack mount appliance wlth
+optimized airflow and thermal management
+
+Bivio 7000 Network
+Processor Card
+
+BIVIO7000 Series NlMs are designed with software-programmable bypass
+circuits so that i n the event of a power failure or other system fault, the
+bypass ports will fall "open", allowing network traffic to pass uninterrupted
+through the NIM The failopen occurs between paired ports on the same
+NIM This feature allows the network appliance to be placed directly in-line
+in the networktopology without adding additional switches or routers
+when used in a transparent mode deployment.
+
+Scalable Processing & Performance
+The BIVIO7500archltecture Includes the capability to stack multiple
+platforms using unique scaling technology that dellvers unprecedented
+application performance and throughput for multiple 10 Gbps linksall managed as a single logical system. Chassis may be stacked wlth
+additional APCs to provlde additional application performance, NPCs
+for greater system throughput on multi 1OG links, or a combination of
+both NPCs and APCs. NPC scallng also provides greater I/O capacity t o
+the system if required.
+
+High Availability (HA)
+The B~vio7000 Ser~esNetwork Appliance Platforms provide numerous
+HA system features that eliminate any slngle points of failure to deliver
+non-stop misslon-critical services. Standard system HA features include
+dual redundant hot-swap power supplles, dual redundant hard drlves
+with RAID-l, internal redundancy of Appllcation Processors wlth fallureadapt~veload balancing, and software- and hardware-basedfallopen
+(bypass) network rnterfaces. Additional HA capabilities are also supported
+including external system redundancy configuratlons,and an independent management processor wlth an Isolated control network and
+management port. The Bivio architecture ensures sufflclent resources
+for each application even at full llne rate processing.
+
+BiviOSTM
+Software
+At the foundation of the BIVIOplatform 1s a standard Llnux execution
+environment that allows any Linux-based networking application to run
+on the appliance with little porting effort.The BIVIO software environment
+IS called BlviOS" and includes a comprehensive set of networking and
+management features in additlon to the Linux kernel and common APls.
+By baslng the Bivio network appliance on a standard, pre-ported Lrnux
+distr~butionwith full API compatibility, software developers can quickly
+and easily run appllcatlons wlthin hours of unpacking the device. BiviOS"
+is transparent to the programmer but immediately allows applications to
+take full advantage of the performance, flexibility, and scalability Inherent
+in the Blvio 7000 Series platforms.
+
+Network Connectivity with ProgrammableBypass
+Network Interface Modules (NIMs) simplify the connection of the Bivio
+7000 Serles Network Appliance Platforms to a variety of industry standard
+network interfaces The platform includes two NIM slots that are populated with the appropriate type and number of interfaces required for
+each installation without impacting the appliance system archltecture.
+Many network topologies require fallsafe protection from devlces that
+are installed as "in-line" elements on the network. This requirement
+guarantees that an equipment failure will not cause a network outage
+or loss of connectivity.This requirement may be met by deploying
+systems in redundant failover configuratlons or by providing hardware
+bypass circuits on the network interface ports.
+
+BiviOS" also supports a rlch set of software infrastructure components
+that allow developers to quickly realize advanced capabilities of the
+Bivio network appliance.These components provide a varlety of critical
+servlces including robust traffic management and load distribution across
+the multiple Application Processor CPUs. Bivio Appllcation Programming
+Interfaces (APls) enable further customization and optimizatron of the
+Bivio architectureto the specific application requirements.
+
+Traffic Modes
+All Bivio 7000 Serles platforms can be configured to support either of
+two traffic modes: transparent mode or mixed mode. Transparent mode
+supports traditronal inline or "sniff" behavior, as all network interfaces are
+configured with no IP address and the platform appears invisible, or like
+a wire, to the networkdevices on either side. Mixed mode allows configurations to be used where some interfaces are In transparent mode, and
+some (or even all) interfaces are in gateway or "routed" mode. In gatewav
+
+/
+
+BivK)Sm Sdtware Environment
+.
+.
+
+-
+
+Customer h~pliutions
+
+-
+
+L
+l
+
+'
+
+---
+
+-
+
+Bivio Networks Apl
+
+mode packets must be routed through the platform as if ~twas a router,
+and each interface is on a different subnet, has a unique IP address, and
+is independentlyaddressable from outside the appliance.
+
+Policy-Based Load Distribution
+Traffic distribution in the Bivio network appliance is based on innovative
+load balancing algorithms that are managed by Configurable lnspection
+Groups (CIG).CIG is the foundation for expanding the platform into multiple virtual systems and consolidating complimentary applications on
+a single network appliance. The basic function of CIG is to bind specific
+interfaces to classification policies and distribute incom~ngtraffic to the
+assigned computational resources according to the classif~cation.
+In the
+example diagram, IP traffic 1s classified into two groups whrch are then
+load balanced among a dedicated Inspection Group, or group of Application Processors. Different applications or configurations can be run
+on different Inspection Groups, allowing complete flexibility in applying
+the platform's resourcesto different tasks.
+,,--Trallic Sets
+
+\
+
+InspectionGroup l
+
+-,
+
+Parallel-Processing with Packet Copy: Sometimes,different applications need to inspect the same packet, but would normally experience
+resource contention when running on the same processor or shared
+memory.The Bivio platform avoids these resource contentions by
+copying packets in hardware to parallel applications without sacrificing
+throughput or latency. The scalable processing architecture ensures
+sufficient resources for each application even at full line rate processing.
+Network-LayerCPU-Offload: In this mode the Application decides
+which flows to process at the Application Layer and which ones to offload to the programmable Network Layer. This functionality significantly
+increases the effective capacity of the devlce. For latency sensitive traffic
+like VolP and multimedia, applications can tap into control flows whlle
+data flows get forwarded on an accelerated inline path through the network layer, thereby keeping data path latencies at an absolute minimum.
+
+Bivio APls
+BIVIO APls enable system developers to utilize several advanced capabilities
+of the Bivio architecture as well as offer unique value-added capabilities for
+custom product differentiation. Bivio APls include advanced capabilities for
+traffic modes, system scaling, management and high availability functions
+on the Bivio network appliance.
+
+Management
+The Bivio platform supports a command line interface (CLI) as well as
+a web-based graphical user interface (GUI).The Biv~oCL1 provides autocompletion, tab completion, command history and context-sensitivehelp.
+
+Advanced Modes
+The default operation of the Bivio network appliance is to load balance
+all traffic from the network interfaces across all Application Processors.
+Although this configuration is sufficient for many Inline and transparent
+network applications, the Bivio platform can be easily configured to
+support advanced network operations in multiple traffic modes.
+
+lnline Tap Mode: In this mode, the platform operates as a transparent
+inline devlce while packets are belng copled from the "wire" to the
+application. Therefore, packets can be sniffed at wire speed and
+without the need for mirror-portson a switch.
+
+Managing the Blvio platform through a web GUI is accomplished by
+using the Bivio Systems Management Center (SMC). Bivio SMC is a
+comprehensive centralized management system that simplifies the
+deployment and maintenance of Bivio platforms and cyber security
+solutions. Fully-integratedas a hardened, rack mount appliance, the Bivio
+SMC provides complete Fault, Configuration,Accounting, Performance
+and Security (FCAPS) functionality for network administrators to easily
+manage and maintain any number of Bivio systems using a highly scalable
+client/server architecture.
+
+Bivio 7000 Series DPI Application Platforms
+
+Specifications
+
+I
+
+I
+
+XLR732 (81
+
+I
+
+I # A~olication~racessorcotes
+
+I
+
+4
+
+I
+
+I Scalable Process~nqCapability
+
+I
+
+No
+
+I
+
+Yes
+
+1 StorageTechnology
+
+I
+
+SATA
+
+I
+
+SAS or SATA
+
+I1
+
+twork Processor Tvoe (# cores)
+
+Operating System and Networking Features
+Linux 2.6, hardened
+Bivio API system interfaces
+802.1q VLAN support
+Multi-level MPLS support
+Jumbo packets to 9KB
+IPv6 support
+
+XLR732 8)
+
+I
+
+4
+
+12
+
+I
+
+Network Interface Modules
+Up to 2 NlMs per chassis
+All NlMs Include programmable hardware bypass
+- 2-port and 4-port 10 Gigablt Ethernet (1OGBASE-SR or 1OGBASE-LR)
+- &port Gigabit Ethernet (10/100/1000BASE-T)
+- 6-port Gigabit Ethernet (1000BASE-SX or 1000BASE-LX)
+- &port OC-3c/STM-l c, OC-l2dSTM-4c Packet-over-SONET/SDH
+- 2-port OC-48c/STM-16c Packet-over-SONET/SDH
+- l-port OC-192dSTM-64c Packet-over-SONET/SDH
+
+Network Management Features
+In-band or Out-of-band CL1 with telnet SSH or console support
+XML and EJB extensibility
+SNMPvZc, SNMPv3
+Alarm detection and reporting
+Real time statistics reporting and logging
+Software versioning and upgrade infrastructure
+Complete MIB support
+GUI-based centralized monitoring & management via Systems
+Management Center (Bivio SMC)
+
+Bivio Accelerator Modules (Optional)
+Cavium CN1615: SSL, IPsec, RSA, Diffie-Hellman, DES/3DES, AES, AESGCM, Kasumi, ARC4 MD5, SHA-1, SHA-2, HMAC-MD5, HMAC-SHA-1
+Regulatory & Environmental Compliance
+FCC Part 15 Class A, TUV, CE, VCCI, BSMI, CISPR, ICES, CTick, MIC, GS
+RoHS Directive 2002/95/EC (EU)
+China RoHS
+
+High Availability Features
+1:N system redundancy
+Active/Active and Active/Standby with non-stop system operation
+Inline (LAN bypass) failopen
+Failure-adaptive load balancing
+Dual redundant hard drives wlth RAID-1 support
+Dual redundant hot swap power supplies
+
+Environmental (Operating)
+Temperature: 0 to 40C (32 to 104F)
+Relative Humidity: 10 to 90% non-condensing
+Dimensions
+3 5" (9cm) H X 17" (43cm) W X 24" (61cm) D (2U height)
+Standard 19" rack-mountable
+45 Ibs
+
+bivio
+
+About Biyio Networks
+Bivio Networks is a leading provide
+toring and controlling critlcal network
+infrastructure. B~vio'sglobal customer base includes worldwide government agencies and service providers. Its produ
+suite enables its customers and partners, which include application developers and systems integrators,to develop and
+deploy leadlng solutions to secure, monitor and control customer networks Blvio IS privately held and headquartered in
+the San Franc~scoBay area wlth office locat~onsworldwide. More lnformatron is ava~lableat www.bivio net.
+
+NeTWOrKS
+Bivio Networks, Inc.
+
+4457 WIIIOW Road. Su~te200
+Pleasanton CA 94588
+Tel + l 925 924 8600
+Fax + l 925 924 8650
+
+0 201 1 BIVIO Networks,Inc All r~ghts
+reserved The BIVIO logo, BwlOS. BIVIO 7000 Ser~es,BIVIO 7100, BIVIO 7500, DPI Appl~cat~on
+Platform and Flowlnspectare trademarks or
+reg~stered
+trademarks of BIVIO Networks, Inc All other company and product names may be trademarks of the~rrespective owners BIVIO Networks may make changes to
+
+1
+
+spec~ficat~ons
+and product descr~pt~ons
+at any tlme, w~thoutnotlce P/N GAOl11-62000.00012Rev 9
+
+,711
+
+1 1
+)I-,:,b:~!+,,~~~~l,,~
+
+I
+
+I"
+
+,l AIL,^^!!
+
+it,,
+
+,
+
+11 ,
+
+I,
+
+11
+
+,
+
+)lk ,l
+
+S
+
+A
+
+,
+
+", l,, -
+
+11,
+
+11
+
+\ l,,,
+
+l
+
+www blv~onet
+
+. l,,
+
+,~,:I,,,L!ll~~lt
+
+:ii:
+
+'
+
+~ ~,;I~L
+i [,,!I~
+!G ~8,1!
+
+, l
+
+J
+
+11 , ,
+
+,!:,,I
+
+*
+
+I
+l,
+
+;,t
+
+, ., 1 ,,
+
+*X "3-
+
+ss
+
+%
+
+,L! I ~ ,n,i~,u,-a
+L
+
+11
+
+Istt4
+
+,,,,,L
+
+I
+
+

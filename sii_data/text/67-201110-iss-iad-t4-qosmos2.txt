@@ -1,0 +1,417 @@
+Dealing with an ever changing
+sea of application protocols
+
+Kurt Neumann
+October 2011
+
+Agenda
+The problem
+Challenge #1: continuous updates
+Challenge #2: specialized expertise
+Challenge #3: performance & scalability
+
+Benefits of partnering with Qosmos
+
+Page 2
+
+Key Reasons To Develop DPI Capabilities Externally
+Answers to the survey question: “Please rate the importance of the following
+reasons to develop DPI capacities externally”
+Faster time to market
+Access to continuous protocol and
+application updates
+Focus internal resources on core
+solutions business instead of DPI
+Leveraging specialized expertise, such
+as reverse engineering protocols
+Product scability to high network
+speeds (n x 10 Gbit/s)
+2.50
+
+3.00
+
+3.50
+
+4.00
+
+4.50
+
+5.00
+
+Importance on a 1-5 scale where 5 is "critical" and 1 is "not
+important at all"
+
+N = 258
+Respondents who already outsource
+
+All respondents
+
+Source: Embedded DPI: An Industry Survey by Heavy Reading,
+Graham Finnie, Chief Analyst, September 2011
+Page 3
+
+Agenda
+The problem
+Challenge #1: continuous updates
+Challenge #2: specialized expertise
+Challenge #3: performance & scalability
+
+Benefits of partnering with Qosmos
+
+Page 4
+
+The REAL Challenge
+
+Page 5
+
+More protocols, changing faster….
+SMTP
+V1
+
+V1
+
+V2
+
+V3
+
+V2
+
+Protocols change continuously
+(e.g. MSN messenger changed
+3 times during a 12 month
+period)
+
+V4
+
+V3
+
+Proliferation of new
+applications (e.g. video, social
+networking, P2P)
+
+Need to handle regional
+protocols
+
+Page 6
+
+Developing & Maintaining DPI and NI Capabilities Internally
+Takes Time & Energy
+Non standard protocols & applications
+Growing number + constant evolution!
+
+Is it your core business to keep
+up with constantly evolving
+protocols and applications??
+
+Develop
+Advanced Solutions
+DPI
+Engine
+Protocol &
+application evolution
+ Regional
+protocols
+
+Metadata are Becoming “Must Have”
+ The Requirements are Moving Beyond Deep Packet Inspection
+Use case
+
+Classification
+
+Metadata
+
+Content
+
+Basic traffic
+shaping
+
+Must have
+
+Not relevant
+
+Not relevant
+
+Traffic policy
+enforcement
+
+Must have
+
+Must have
+
+Not relevant
+
+QoS/QoE
+
+Must have
+
+Must have
+
+Not relevant
+
+Web analytics
+
+Must have
+
+Must have
+
+Must have
+
+Lawful
+Interception
+
+Must have
+
+Must have
+
+Must have
+
+Network
+forensics
+
+Must have
+
+Must have
+
+Must have
+
+Page 8
+
+Protocol signature life cycle
+Update signature
+
+Get traffic
+trace
+
+Reverse
+Engineer
+Trace
+
+Develop
+Signature
+
+Test
+
+Deploy
+
+Detect
+Change
+
+Support this process in the long term
+For very large number of protocols and applications
+With minimum latency
+And maximum quality
+
+Requires specific
+Skills (find & keep the right talent)
+Organization
+Automation tools and procedures for developers
+Features in the DPI engine to support fast updates
+
+Page 9
+
+Agenda
+The problem
+Challenge #1: continuous updates
+Challenge #2: specialized expertise
+Challenge #3: performance & scalability
+
+Benefits of partnering with Qosmos
+
+Page 10
+
+Traditional Product Development Methods Do Not Apply
+Different organizations are required
+Classic Method
+Networking
+Specific Method
+•
+•
+•
+•
+•
+
+Changes without notice
+Time constraints (SLA)
+Unknown specs
+Bulk addition (e.g.
+iphone apps)
+Never-ending devt.
+
+HTTP, L2TP,
+ICMP, …
+
+Streaming
+
+•
+•
+•
+•
+
+Roadmaps
+Feature requests
+Priorities
+Go / No Go
+
+Messaging
+
+DPI Engine
+
+email
+
+…
+Social Net.
+
+Weekly releases
+
+Releases every 6 to 9 months
+
+Page 11
+
+Challenges for an Organization
+Get the expertise on existing protocols and applications (today)
+find the specific skills
+Experts in protocol reverse engineering
+Experts in many-core processors development
+Experts in protocol testing
+
+Keep talents in the organization
+Frequent workload peaks
+Project without an end (constant updates)
+Need to maintain a high level of productivity and quality
+
+Develop an ecosystem
+To get traffic trace from all parts of the world
+To have access to protocol specifications
+
+Page 12
+
+Agenda
+The problem
+Challenge #1: continuous updates
+Challenge #2: specialized expertise
+Challenge #3: performance & scalability
+
+Benefits of partnering with Qosmos
+
+Page 13
+
+DPI Software Must Cope with Increasing Throughputs
+Recommending optimal solution
+architecture to focus DPI only on
+relevant flows: video off-load, smart
+packet processing, NICs, etc.
+Leveraging many-core processor
+technology: Intel, NUMA, DPDK,
+Tilera Gx100, etc.
+Optimizing DPI software code to
+take advantage of hardware
+capabilities
+
+DPI is CPU-intensive
+
+100 Gbps
+40 Gbps
+10 Gbps
+
+1 Gbps
+
+Page 14
+
+Agenda
+The problem
+Challenge #1: continuous updates
+Challenge #2: specialized expertise
+Challenge #3: performance & scalability
+
+Benefits of partnering with Qosmos
+
+Page 15
+
+Architecture
+• Updated plugins
+• New plugins
+
+Networking
+
+Your Application
+Program
+
+Streaming
+
+Messaging
+email
+
+…
+
+Dynamic Updates
+
+GTP, L2TP,
+ICMP, …
+
+Application ID
+Metadata
+Content
+
+Qosmos Labs
+Protocol watch
+Productivity tools
+Procedures
+
+• Feedback from live traffic
+• Protocol change
+• Unknow protocols
+
+DPI / Network Intelligence Engine
+Flow classification + correlation
+Metadata extraction
+
+Social NW
+Packets
+Streams
+
+Page 16
+
+Qosmos Labs: World-Class Center of Excellence in DPI
+Recognized expertise
+Large team of DPI specialists
+100 man-years years of experience
+and knowledge
+Specific development processes
+Specific validation processes and tools
+
+Continuous protocol and
+application watch
+Protocol change detection, based on
+difference in statistics on real life traffic
+and alerts from Qosmos partners
+Protocol change reports
+
+International network of Qosmos
+Expert Developers (QED)
+
+Page 17
+
+Key Points to Remember About Qosmos
+1. Largest pure-play vendor of embedded DPI /Network Intelligence,
+perfectly aligned for strategic partnership with solution vendors
+2. Market leaders choose Qosmos: the #1 supplier of mobile
+infrastructure, the #1 networking vendor + others
+3. Extensive protocol coverage and metadata extraction for use in all
+segments: enterprise, telecoms, government
+4. The only traffic parsing and decoding engine to support ALL
+leading processor architectures (Intel, NetLogic, Cavium, Tilera)
+ keeps strategic options open for Qosmos users
+
+Page 18
+
+Thank you
+
+Qosmos, Qosmos ixEngine, Qosmos ixMachine and Qosmos Sessionizer are trademarks or registered trademarks in France and other countries.
+Other company and products name mentioned herein are the trademarks or registered trademarks of their respective owners. Copyright Qosmos 2010
+Non contractual information. Products and services and their specifications are subject to change without prior notice
+
+© Qosmos 2010
+
+Enabling True Network Intelligence Everywhere
+
+

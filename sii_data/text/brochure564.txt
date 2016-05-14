@@ -1,0 +1,237 @@
+Innovation. Performance. Security
+
+intelligent
+Inmarsat Monitoring System
+
+Satellite Monitoring solutions that go further
+
+L-3 TRL Technology Inmarsat Monitoring System
+
+The Inmarsat challenge
+In today’s challenging security environment,
+governments need to monitor conversations and
+other communications transmitted across satellite
+networks. While most satellite communications are
+perfectly legitimate, the extensive geographical areas
+they cover makes them a favourite tool for subversive
+and criminal groups – providing access to the
+international communications network.
+
+L-3 TRL is recognised as a world-leading supplier
+of satellite monitoring products and systems.
+Our solutions allow government agencies to
+passively monitor communications without
+network interference, so threats can be tackled
+early and effectively.
+L-3 TRL is part of the leading US defence supplier
+group L3 Communications. We specialise in marketleading surveillance, force protection and information
+security solutions, to protect people worldwide from
+the threat of terrorism.
+
+Originally intended for maritime
+communications, the Inmarsat system
+of geostationary satellites has evolved
+to provide worldwide communications for
+marine and land-based, fixed and mobile
+users. While the majority of users are
+legitimate, Inmarsat’s global nature and
+the convenience of its small mobile terminals
+means the network is frequently used for
+terrorist and other illegal purposes.
+
+Inmarsat allows mobile terminal users to
+connect to the terrestrial network, using any
+Inmarsat earth station operator, via any Land
+Earth Station (LES) in a satellite’s footprint.
+(The LES is the main interface between the
+terminals Mobile Earth Stations or MES, and
+the terrestrial network). The call can be routed
+via a LES outside the country of origin, and
+even if the user is within their country borders,
+local authorities cannot intercept the call.
+This is a common tactic used by those who
+don’t want their call to be intercepted at
+the local switch – often because they are
+conducting illegal operations. The L-3 TRL
+Inmarsat Monitoring System counters this
+threat with passive, non-intrusive interception.
+
+monitor
+INSARMAT Coverage Key
+
+	
+
+	
+
+	
+
+1-4 satellite F1
+
+1-4 satellite F2
+
+	
+
+1-4 satellite F3
+
+Mini-M
+(Handset)
+
+L-3 TRL Technology Inmarsat Monitoring System
+
+Our response
+the L-3 TRL Inmarsat
+Monitoring System
+The L-3 TRL Inmarsat Monitoring System (IMS) monitors Inmarsat
+worldwide voice, fax and data traffic. It recovers both sides of telephone
+conversations, with the targets completely unaware they are being
+intercepted. The information can be monitored live and/or recorded
+for off-line processing.
+There are two distinct aspects to intercepting and monitoring calls
+over the Inmarsat network. The first is where the intercept authorities
+don’t know the unique identification that the mobile terminal uses
+to identify itself to the Inmarsat network. The second is where the
+identity of the terminal is known. You can configure the L-3 TRL IMS
+so the target varies from ‘any user of a given Inmarsat service type’
+to a single terminal (MES) ID.
+
+monitor
+
+Monitoring process
+The L-3 TRL IMS mimics the LES and the
+MES, monitoring and processing signals in
+the same way as the equipment located at
+both ends of the satellite communications
+link. It can receive all signals routed between
+the mobile and fixed terminals, via any LES in
+the footprint of the satellite being monitored.
+The monitoring site does not need to be
+portable, and can be located anywhere
+between the mobile and fixed terminals, as
+long as it’s well within the satellite footprint.
+
+Screen Shot
+
+What does a typical
+strategic Inmarsat
+Monitoring System provide?
+The L-3 TRL IMS comprises the antennas,
+RF equipment, baseband demodulator
+equipment and IMS Operating System
+running on PC terminals.
+Demodulator cards in the baseband
+equipment racks are allocated permanently
+to the satellite’s LES and MES calling channels.
+System operators can assign any unallocated
+demodulator cards to receive calls from
+specific targets that have been entered
+into the system.
+A typical system with 24 channel cards
+is capable of monitoring up to nine duplex
+calls. More demodulator cards may be added
+for additional monitoring – there’s no limit
+to the number of demodulators in a system,
+the only criteria being budget, space and
+staff availability.
+
+Extended L-Band monitoring
+Inmarsat uses the C-band to communicate
+with the LES and the L-band to communicate
+with the satellite phone. The L-3 TRL IMS
+monitors both the C- and L-Bands,
+intercepting both sides of the call.
+The Inmarsat system subdivides its L-band
+downlinks into spotbeams. Our IMS can
+monitor the spotbeam where it is located,
+and the adjacent beams. L-3 TRL has also
+developed an L-band outstation, to extend
+monitoring to spotbeams outside this area.
+The L-band side of the call can then be
+paired with the C-band side captured
+by the strategic system, to provide
+the complete call.
+
+L-3 TRL Technology Inmarsat Monitoring System
+
+How it works
+IMS monitors signalling channels during call initiation,
+then assigns demodulator cards to intercept the
+communications.
+The system can be configured to listen to:
+• calls made by any satellite phone
+• calls to and from a known target satellite phone
+• calls made by satellite phones to particular phone
+numbers – either land lines or other mobiles
+• particular call types i.e. voice, fax,
+data or high speed data.
+Inmarsat is increasingly used for data traffic, using a
+wide range of formats. The L-3 TRL IMS is supplied with
+the Magpie data analysis application, which decodes
+most common protocols.
+
+The L-3 TRL Marlin tactical
+monitoring system
+Marlin is ideal for situations where there is
+no strategic IMS available or the operational
+requirement is to capture terminal (MES)
+information from known suspects. It can
+be located physically close to the MES, and
+users can be associated with their terminal
+equipment.
+With very compact antennas and receiving
+equipment, Marlin offers the portability
+needed for direct interception of the L-band
+uplink signal from the MES. It can intercept
+both the forward and return paths at L-band,
+whether in line of sight or obscured by
+buildings, as long as there is sufficient
+uplink signal strength.
+
+Marlin
+
+Marlin’s full monitoring capability captures
+call details and content, and stores the
+information in databases for later analysis
+or export. The system is effective against
+these Inmarsat services:
+
+• B-Service
+• M-Service
+• Mini M-Service
+• GAN
+• Fleet
+The L-3 TRL Marlin system can provide support
+for strategic IMS operations by capturing
+terminal Ids, or operate as a standalone
+system in any location. It’s available in a
+variety of configurations and can be installed
+in vehicles, aircraft or vessels.
+
+Antenna
+
+The next step
+This brochure gives you
+an outline view of the L-3
+TRL Inmarsat Monitoring
+System. For more details
+and advice on how we can
+supply and configure an
+IMS system to your exact
+needs, please contact us.
+
+Innovation. Performance. Security
+
+For more information
+on L-3 TRL Satellite Monitoring solutions,
+please contact us at:
+Sigma Close, Shannon Way,
+Tewkesbury, Gloucestershire
+GL20 8ND, UK
+Telephone 	 +44 (0)	1684 	278700
+Fax	
++44 (0)	1684 	850406
+Email	
+info.trl@L-3Com.com
+
+www.L-3Com.com/TRL
+
+

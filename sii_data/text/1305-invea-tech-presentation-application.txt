@@ -1,0 +1,506 @@
+Application-interception in 100G
+networks
+ISS Dubai, March 3rd, 2014
+
+_ Invea
+Petr Kastovsky
+kastovsky@inveascom
+
+invea
+
+• HQ: Brno, Czech Republic
+• Established in 2007
+
+vmware
+
+• 4 0 employees, 3 M revenue
+
+Gartner
+
+• Key locus
+
+PARTNER
+TECHNOLOGY
+ALLIANCE
+
+C I S C O
+DEVELOPER
+e t t i l i t t s 1
+
+Registered
+
+Research
+ID Number G00208388
+
+Deioitte
+Tc
+kievco
+
+• Lawful Interception and Data Retention
+Hardware acceleration and FPGA Solutions
+Flow Monitoring and Network Behavior Analysis
+
+• Products deployed at 500+ customers worldwide
+
+Invea
+
+upc A AVG
+
+• •Mobile•
+
+Beinet
+
+▪Ostrava Air- port
+
+CnI221ZEMMILIOLZIE
+
+OnliczKed
+
+(a ()% erlinient
+of Mast cysts Itcpsbbs
+
+T • •Corn•
+
+UNIOA
+
+0
+
+CZECH
+STATISTICAL
+E M S CNC /Ct
+
+Allianz
+
+l i l t ACADEMY
+o r SCIENCES
+o r THE CZECH
+
+KONICA MINOLTA
+
+TELECOM
+Breiagne
+
+%EGON e o n ir S I E M E N S
+
+VEOLIA
+
+las
+
+d i n , K m v N t Energie " M a t a d o r
+' t o . ' 7 4 1 . 1 1
+
+a
+
+r
+
+bichhs,e car ItszcsA)sses
+
+eustream
+
+L
+
+zerat i e k t r o
+
+s
+
+pitcom
+
+MCOMptiters
+
+mats Naas asps
+
+4teuvA Net
+I
+
+k
+
+t
+
+2
+
+Z
+
+1
+
+2
+
+M
+
+a
+
+r
+
+i
+
+u
+
+s
+
+t e , z
+
+Pedersen
+tIMANA I
+
+•CASAIII-ANCA
+
+CO-Telemotika
+
+gr
+
+C=1T
+
+1
+GEANT2
+
+SVo ITCH
+
+CARNet
+
+a
+M U M ! NEMOCNICE
+OLOMOUC
+
+Tomas Baia Unmerssty
+
+1St
+
+%AM
+
+ULAKBIN
+
+tts"
+
+IMIVERSIN OF MINCE.
+
+!SS Dubai 2014 © INVEA-TECH
+
+Olomoudct krai
+
+Kroj vysocina
+
+o ern threats
+eurostatill ewsrelease
+ACAD/Medre.A 10000's of AutoCAD files
+leaked in suspected industrial espionage
+
+21/2011 - 7 February 2
+
+8 February 2011: Safer Internet Day
+
+Nearly one third of Internet users in the EU27
+caught a computer virus
+
+BY RICHARD ZWIENENBERG POSTED 21 JUN 2012 AT 0 4 6 8 A M
+RUSES REVEALED"
+
+84% of Internet users use IT security software for protection
+
+News and reviews about gadgets. gear. apps and t h e web
+
+Apps & Web N e w s R e v i e w s & Features
+
+AUTO CAD
+
+The malware news today is all about new targeted, high-tech, military grade malicious code such as
+Stuxnet, Duclu and Flamer that have grabbed headlines. So imagine our surprise when an AutoCAD
+worm, written in AutoLISP, the scripting language that AutoCAD uses, suddenly showed a big spike in
+
+TIME Techland
+Home G a d g e t s
+
+TAGS
+
+compa
+
+one country on ESET's LiveGrid® two months ago, and this country is Peru.
+
+SECURITY
+
+DNSChanger: FBI Warns Infected
+Computers Will Lose Web, Email
+Access in July
+By MATT PECKHAM (evinattpeckhani A p r i l 23, 2012
+
+IT Security & Network Security News
+Japan's Largest Defense Contractor Hit by C y b e r Attackers
+Linkedin L I Twitter
+
+5
+
+Facebook
+
+3
+
+1
+
+0
+
+L
+
+3
+
+Share
+
+8
+
+By: F a h m i d a Y. R a s h i d
+2 0 11 - 0 9 - 1 9
+
+29 August 2011! 13-27
+
+Article R a t i n g : t i t f t n * / 0
+
+Worm spreads via Windows Remote Desktop
+Anti-virus software vendor F-Secure is warning of a piece of malware by the
+name of Marto, which spreads using Windovits1Remote Desktop Server
+(PDF' server). It does not exploit a Windows security vulnerability, instead, it
+scans IP address ranges for RDP port 3389 and then tries to log in as an
+administrator to any computers which respond using a list of common
+passwords.
+ISS Dubai 2014 © INVEAJECH
+
+'It's a complete attack tool kit
+designed for general cyberespionage purposes.'
+Alexander Gostev, analyst, Kaspersky Lab
+
+Challenges
+
+Invea
+
+• Typical deployment in core network
+high bandwidth and line utilization
+• N e w link layer technologies (10G, LIOG, 100G)
+
+• Growing number of end users and devices
+• Growing number of services
+• A lot of different network protocols
+• Predicted growth of network traffic variability
+• Limited computational resources
+
+La invea
+• 40G Ethernet
+Shortest packet 64B, IPG 20B, max rate 59,5 Mpps
+New packet in every 16,8ns
+5GB/s (DVD), 300GB/min, 18TB/h, 4321B/day
+INj 100 000 DVDs a day
+
+• 100G Ethernet
+Shortest packet 64B, IPG 20B, max rate 148,8 Mpps
+New packet in every 6,7ns
+12,5GB/s (r%'3 DVDs), 750GB/min, 45TB/h, 1080TB/day
+r%j 250 000 DVDs a day 3 0 0 m tall column
+
+1-= invea
+• Thousands of applications and services
+iTunes
+/ Facebook
+
+cct
+Ne
+
+H T T P
+
+Other
+
+Ct
+
+oeplA dilH
+2 0 cY0
+
+1
+
+9 Q/0 1 2 'A ) 8 % 6 %
+
+2
+
+5 Yo
+
+• Heavy-tail traffic distribution
+Well-known apps and services representing up to 80%
+Typical interest in the last 20% (or less)
+
+Specifically e-mail and VolP interception
+!SS Dubai 2014 © INVEAJECH
+
+VoIP interception
+• SIP, H323, etc. signalling protocols
+• Decode L2, L3, L4
+• Decode application protocol
+• Extract necessary fields (URI)
+• Lookup identifier match
+Set up interception of call content stream
+
+• Requires many steps, impossible when new
+packet arrives every 6,7ns
+
+'SS Dubai 2014 © INVEA-TECH
+
+• Various protocols (SMTP, POP3, IMAP)
+Inspection of L2,L3, L4
+Decode application protocol
+Extract e-mail addresses
+Lookup matching addresses
+
+• Requires many steps, impossible when new
+packet arrives every 6,7ns
+
+!SS Dubai 2014 0 INVEA-TECH
+
+Next generation monitoring
+
+• Novel approach of software defined monitoring
+Analogy to software defined networking
+Abstraction of monitoring functions
+• Flexible application protocol analysis
+• Intelligent, configurable level of detail
+
+ISS Dubai 2014 0 INVEAJECH
+
+Invea
+
+• Hardware provides various methods of packet
+preprocessing
+The Muscles
+
+• Software controls the usage of preprocessing on flow
+basis
+The Controller
+
+• User applications request the HW acceleration and
+perform advanced monitoring tasks
+The Intelligence
+
+Applications can adjust acceleration of traffic
+processing according to their actual needs
+ISS Dubai 2014 © INIVEAJECH
+
+Hardware Part
+
+Invea
+
+• Driven by instructions from „intelligent" software
+Hardware as fast as possible
+
+• Well-defined set of operations:
+Forward (cut) packet to a receive queue
+Send unified headers to a receive queue
+Update flow cache entry
+create/ remove, reset, export
+
+Drop packet
+
+• Configurable, flow aware distribution of traffic
+Into receive queues
+!SS Dubai 2014 © INVEAJECH
+
+• Monitoring applications in SW
+process traffic from receive queues
+determine the traffic of interest
+instruct SW controller
+
+• SW controller configures HW so that monitoring
+applications
+• always get what they asked for
+get the least undesired traffic
+
+• Application parsers for selected protocols
+\MIR SKIT, DNS etc.
+!SS Dubai 2014 CD INVEAJECH
+
+If-A/ea
+• Dedicated hardware
+High I/O performance
+Expensive, limited flexibility
+
+• Commodity hardware
+Cheap and flexible
+Limited I/O performance
+
+• Commodity hardware + Hardware acceleration
+Multi-core CPUs + FPGA network interface card
+High I/O performance
+• Reasonable price
+• Flexible
+ISS Dubai 2014 © INVEA-TECH
+
+Invea
+• X i l i n x Virtex 7 — XC7VX60901• D u a l port 40G card, 2x OSP+ cage
+• P C I Express Gen 3 x8 host interface
+• 4 x 10G to 40G fanout modules for 8x 10G setup
+• CIDRII+ SRAM, RLDRAM III, DDR3 memory
+• Embedded management CPU
+• PPS sync connector
+
+• Xilinx Virtex 7 — XC7V1-1580-1
+• Single CFP2 port for 100G Ethernet
+100GBASE-LR4 / ER4 / SR4
+
+• PCI Express Gen 3 x16 host interface
+• CIDR-Ille SRAM memory, DDR3 DRAM memory
+• parallel NOR flash for configuration
+• Embedded management CPU
+• PPS sync connector
+
+Architecture
+Firmware part
+Flow Record
+A
+A U H
+
+UH
+Flow
+Generator Cache
+
+Classifier
+
+Software part'
+Flow
+1
+Exporter IPFIX
+User
+Specific
+App
+App 2
+
+Metadata
+HFE
+SDM Controller
+
+Packets
+ETH Link
+
+!SS Dubai 2014 ED INVEAJECH
+
+1-27- invea
+
+• Fully software controlled hardware accelerator
+• Network IP traffic monitoring at 100+ Gbps
+• Easy deployment of new tasks without HW
+modifications
+• Accelerated application level processing
+• Special focus on interceptions
+• Easy integration into existing solutions
+• Delivered as an adapter and software packages
+
+'SS Dubai 2014 © INVEAJECH
+
+exhibition room
+
+invea
+
+Invea
+
+High-Speed Networking Technology Partner
+
+Petr Kastovsky
+kastovsky@invea.com
++420 774 799 726
+
+INVEA-TECH a.s.
+U Voclarny 2965/2
+616 00 Brno, Czech Republic
+wwwsinvea.com
+
+ISS Dubai 2014 © INVEA-TECH
+
+

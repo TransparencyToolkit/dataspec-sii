@@ -1,0 +1,305 @@
+Lawful Interception in Virtual
+Environment
+Ran Nahmias
+Director, Virtualization and Cloud Solutions
+Net Optics, Inc.
+
+Intelligent Access and Monitoring
+Architecture
+Net Optics Confidential and Proprietary
+
+Goal
+Review how the growing adoption of Virtualization
+and Cloud Services challenges Lawful Interception
+compliance in converged (physical & virtual) or
+homogeneous virtual environments.
+
+Net Optics Confidential and Proprietary
+
+2
+
+Virtualization In The DC: More Than a Trend
+Virtualization deployment increasing year
+over year in data centers.
+Gartner: over 30% of x86 architecture
+servers workloads running on VMs
+Double digit annual growth
+Virtualization
+–  Great CAPEX improvements, no visibility.
+–  Passive monitoring of Inter-Virtual Machine Traffic
+is nonexistent.
+
+Net Optics Confidential and Proprietary
+
+3
+
+Hypervisor Virtual Network Monitoring Challenge
+ESX Virtual Stack
+vm1
+
+Virtualization Creates
+Security, Monitoring and
+Compliance Risks
+• 
+
+No visibility into inter-VM traffic,
+vulnerabilities or threats
+
+• 
+
+Lacks auditing of data passing
+between virtual servers
+
+• 
+
+Inability to pinpoint resource
+utilization issues
+
+vm2
+
+vm3
+
+Physical Network
+Security &
+Monitoring
+
+Virtual Switch
+
+LI
+
+Infosec
+
+Physical Host Server
+
+Net Optics Confidential and Proprietary
+
+What Customers Want
+
+Virtual
+Machines
+Virtual
+Machines
+
+Data Center
+Data Center
+Virtual
+Machines
+Virtual
+Machines
+
+Data Center
+Data Center
+
+Net Optics Confidential and Proprietary
+
+What Customers Want
+Meet Lawful interception challenges in virtual networks
+Virtual
+Machines
+Virtual
+Machines
+
+Data Center
+Data Center
+Virtual
+Machines
+Virtual
+Machines
+
+Data Center
+Data Center
+
+Net Optics Confidential and Proprietary
+
+Net Optics Confidential and Proprietary
+
+Phantom Virtual Tap Solution
+ESX Virtual Stack with
+Phantom Installed
+
+ü 
+Enables Security,
+Performance Monitoring and
+Compliance
+• 
+
+100% visibility of inter-VM traffic
+
+• 
+
+Kernel implementation—
+no need for SPAN Ports on Virtual
+Switch / Promiscuous Mode
+
+• 
+
+Phantom
+Controller
+(VM)
+
+vm1
+
+vm2
+
+vm3
+
+Physical Network
+Security &
+Monitoring
+
+Phantom Virtual Tap
+
+Analyzer
+Virtual Switch
+IDS
+
+Bridges virtual traffic to physical
+monitoring tools
+Physical Host Server
+
+Net Optics Confidential and Proprietary
+
+Support for vMotion Migration
+ESX 1
+vm1
+
+ESX 2
+vm2
+
+vm3
+
+vm5
+
+vm6
+
+Phantom
+Monitor™
+
+Phantom
+Monitor™
+
+Hypervisor
+
+Hypervisor
+
+LAN/WAN
+Phantom
+Manager™
+
+Net Optics Confidential and Proprietary
+
+Net Optics Converged Network Solution
+ESX
+
+ü 
+
+Physical and Virtual
+Monitoring Access
+• 
+
+Hypervisor-specific Tap
+
+• 
+
+Purpose-built for virtualization
+
+• 
+
+Monitor through Live-Migration
+(vMotion)
+
+• 
+
+TAP for each VM instance
+(by VM ID)
+
+• 
+
+Tight Integration with VMware
+vCenter
+
+• 
+
+Fault-Tolerant and Non disruptive
+Architecture
+
+vm1
+
+vm2
+
+vm3
+
+Phantom
+Controller
+(VM)
+
+Physical Server
+Analyzer
+Phantom
+Monitor™
+
+IDS
+
+Hypervisor
+
+Physical Server
+Physical Server
+
+Encapsulated
+Tunnel
+
+Director™
+
+Phantom Manager™
+
+LAN/
+WAN
+
+Net Optics Confidential and Proprietary
+
+Indigo Pro™
+
+Example: Extending Wire Capabilities for VM
+ESX Virtual Stack
+
+Enable Security,
+Performance Monitoring and
+Compliance Auditing
+
+þ
+
+vm1
+
+vm2
+
+vm3
+
+Physical
+Network
+Security &
+Monitoring
+
+100% visibility of
+Inter-VM traffic
+
+Virtual Switch
+
+Analyzer
+IDS
+
+Physical
+Host Server
+
+•  Lack of visibility blocker for certain deployments
+•  The virtual network traffic must be exposed
+Net Optics Confidential and Proprietary
+
+11
+
+Thank You
+www.netoptics.com
+Visit our booth
+
+Net Optics Confidential and Proprietary
+
+

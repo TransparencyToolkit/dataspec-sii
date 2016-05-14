@@ -1,0 +1,243 @@
+#
+
+PACKET FORENSICS
+
+VOLUME I1
+
+NO. I
+
+2010
+
+DEVELOPMENTS
+
+THE NEWSLETTER FROM PACKET FORENSICS COVERING INDUSTRY AND PRODUCT EVOLUTION
+
+Private VoIP Exchanges & the IAX Dilemma
+Explosive Growth of I A X Protocol and International E I P Tmnking Leaves Industry Unprepared
+In June of 2009, Packet Forensics undertook a
+comprehensive research effort with the help of one
+of our partners, a global telecommunications service
+provider. Their network represents a large crosssection of the greater North American IP backbone
+because they are a tier1 Internet service provider, or
+to what people commonly refer as a carrier's carrier.
+Amongst a larger agenda, we sought to unearth
+quantitative details related to actual VoIP protocol
+usage-what are people using to transport VoIP
+traffic and are they trunking to several large carriers
+or is there a preponderance of peertopeer traffic or
+interconnectivitybetween PBXs and providers.
+What we found not only surprised us, but warranted
+immediate action on our part to fill gaps in our
+product portfolio and to inform our current
+customers who rely upon us for passive VoIP
+monitoring and interception.
+In order to preserve subscriber privacy, deep
+packet inspection (DPI) was used only to positively
+identify protocols and because of privacy sensitivity,
+we did not determine if calls were being executed
+independently or trunked. Trafficflow records were
+analyzed to identify statistically significant networks
+of call origination and termination and to get a
+sense of which protocols were being used in which
+telephony situations.
+The high level results of the analysis provided
+unexpected answers and insight. First, MGCP is still
+used across the public Internet, not only within
+enterprises. Second, H.323 remains the heavy-lifter
+for teleconferencing. Finally InterAsterisk
+Exchange (IAX) protocol now comprises a doubledigit percentage of VoIl? This is particularly
+interesting when you consider IAX traffic
+occupies only one stream for potentially
+dozens of calls when trunking. Consider
+also that although IAX is an open
+standard, the vast majority of telephony
+platforms implementing IAX are non-
+
+r
+
+MGCP
+
+North American Backbone VoIP Protocol Distribution,June 2009
+
+commercial, public domain applications that don't
+include facilities for active interception capability
+This means L4X ttafficmust be ca~turedbassivel~and
+doing so requires systems like ours. The speed of
+IAX adoption is nothing short of amazing. IAX is
+very different from most VoIP protocols, but its
+unique characteristics likely drove its adoption.
+First, it's a binary protocol as opposed to text-based.
+Second, it doesn't use RTP to carry call content.
+Instead, it offers a novel approach that aggregates
+into one stream making
+both content and si@g
+it NATfiendl~ and
+more efficientthan RTP
+with two thirds less overhead per packet.
+Suffice it to say, much of our engineering time
+late last year was spent in support of
+VIGCP and IAX development and we're
+proud to say that we're now the first and
+only passive capture solution for IAX. We
+even support IAX's optional trunking
+coniigurations. It's been a busy quarter around
+here and a productive one for our customers.
+
+-
+
+PAGE I
+
+& PACKET FORENSICS
+
+VOLUME I1
+
+NO. I
+
+2010
+
+Calling Card Operators
+
+Many international streams
+occur between non-facilities-based
+VoIP wholesalers who appear to
+oDerate calling card services.
+
+NEW IAX CAPABILITIES
+
+Technical Details
+IAX VolP Support
+IAX IIAX2 (RFC 5456)
+audio and dialed digits
+I In-band
+In-band trunk meta packets
+Direct audio playback support
+
+Monitoringand Interception
+
+packet ~~~~~~i~~
+devices now
+fully-support
+the
+IAX
+protocol
+OTHER OBSERVATIONS
+including its trunking capabilities.
+Targeting IAX calls for
+Enterprises Using lnternet VolP
+works
+~
+h of enterprises
+~
+are ~ interception
+~
+~ the same
+d as
+~
+0
+"
+SIP
+implementation
+where
+using their Internet connections
+users can specify telephone
+to transmit VoIP to other
+and
+direction as well
+enterprises and to third-party
+termination providers. Instead of as addresses, UR1s and
+our other advanced
+criteria.
+using
+their Internet provider's
+.
+telephony products exclusively,
+Data Availability and Formats
+they utilize specializedVoIP
+Users can capture signalirig,
+service providers for termination
+content
+or both to satisfy their
+and potentially origination. These
+needs as well as extract dialed
+service providers may be located
+digits and other meta-data.
+in other countries and generally
+support SIP andlor IAX protocols. Other Capabilities
+Very few (less than one percent) of
+Our pen-style reporting has
+the providers we tested support
+been updated to provide textual
+encryption of signaling or content. details about IAX sessions.
+Termination and Origination
+
+Some origination and
+termination accounts can be
+purchased in retail locations for
+cash without requiring verifiable
+identification for activation. Most
+service providers can provision
+telephone numbers in hundreds of
+locales within seconds through online web management interfaces.
+Most honor clienesupplied caller
+id information which means their
+customers can make calls appear
+to originate from any telephone
+number. Calling-name (CNAM)
+service makes this particularly
+convincing by adding the name
+portion to the callerid based upon
+telephone number lookup only
+
+The Packet Forensics direct
+audio (RTP) player application has
+been enhanced to include IAX
+audio mixing, selection and
+playback, making it even more
+flexible and useful for VoIP
+troubleshooting and monitoring.
+
+All Packet Forensics targeting and policy
+capabilities can be used t o target calls
+and perform other tasks
+
+operational Configurations
+In-line with hardware bypass Ifailsafe
+Tap IMirror ISPAN
+
+Availability
+Available in firmware releases after
+January20 10 for all platforms
+
+,
+
+Available under customization program
+
+Contacts
+Offices in
+Virginia and
+Arizona, USA
+
+I
+Headquarters
+
+420 S Smith Rd
+
+Tempe,AZ 8528 1
+United States of America
+Telephone & E-mail
+
+Domestic US + l (800) 807 6 140
+International + l (757) 320 2002
+salesteam@packetforensics.com
+
+I
+l
+
+L
+
+PACKET FORENSICS
+-
+
+PAGE 2
+
+

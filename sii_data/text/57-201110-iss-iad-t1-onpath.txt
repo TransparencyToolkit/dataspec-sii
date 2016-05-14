@@ -1,0 +1,445 @@
+Lawful Intercept
+From Copper to Fiber and Back
+O.J. Johnston, Dir. Government Solutions
+
+Agenda
+• Lawful Intercept: From the Past to the Present
+• Challenges for Lawful Intercept and Network Monitoring
+• Existing Implementation of Lawful Intercept and Network
+Monitoring
+• Issues with Existing and Newer Implementations
+• Evolution of a Comprehensive Solution
+•
+
+•
+•
+
+Conserve Time
+Increase Resource Utilization
+Save Money
+
+2
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Lawful Intercept: From the Past to the Present
+• 25 years ago…
+
+So what does this have to do with Lawful Intercept?
+
+3
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Lawful Intercept from the Past to the Present,
+cont.
+• Although most communications still start and end with a
+copper wire, gone are the days of a simple wire tap
+• With the Internet’s relentless growth, trying to isolate
+“traffic of interest” is like playing with Russian Dolls…
+•
+
+It’s Cartman! No it’s Kyle! No it’s Stan! It has to be Kenny!
+Wait…no, it actually came from Mr. Hankey the Christmas Poo!
+
+4
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Challenges for Lawful Intercept and Monitoring
+• Sheer volume of data to sort through is mind-boggling
+•
+
+How do I efficiently sort through it to find what I need without
+causing issues on the network?
+–
+–
+
+When possible, use high-density, physical layer switches to share expensive
+resources (monitoring, aggregation, and filtering equipment)
+Passively offload traffic from the network using copper/fiber taps
+»
+
+»
+
+•
+
+How do I distribute the “traffic of interest” when and where it is
+needed?
+–
+–
+
+•
+
+Better than SPAN ports or designated Lawful Intercept interfaces of L2/3 equipment
+Undetectable to target
+
+Isolate traffic from the production network using physical layer, simplex
+switching
+Distribute the traffic to the appropriate aggregation, filtering, and switching
+equipment
+
+As the Internet continues to grow, how do I scale the network?
+
+5
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Requirements of a Complete Solution
+ Unified Management
+ OEO Switching
+
+
+
+
+
+Non-blocking
+SM/MM support
+Copper/Fiber support
+Multicast fanout
+
+ OOO Switching
+
+
+
+
+Non-blocking
+Any protocol
+Any data-rate
+
+ TDM Circuit Switching, Aggregation, &
+ Filtering
+
+
+
+
+
+Grooming from T1/E1 and up
+OC-192/STM-64 and below
+POS and EOS with both Low and High Order GFP VCAT
+encapsulation
+
+ L2-4 Packet Switching, Aggregation, & Filtering
+
+
+6
+
+
+
+VLAN QnQ/Switching/Stripping
+Packet filtering based on TOS
+Packet Slicing
+
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Existing Implementation of LI & Monitoring Apps
+
+To/From
+Country
+
+Taps
+
+Terrestrial Net
+
+Submarine Net
+
+Hundreds/Thousands
+Of Connections
+
+US Landing Site
+
+Telecom
+Operator
+
+Country 1
+Country 2
+
+Agency 1
+
+Agency 2
+
+Country 3
+
+Agency 3
+
+Dedicated Routers, ADMs, OADMs
+For Each Agency/Telecom Operator=$$$
+7
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Issues with Existing Implementations
+
+• Isolation from
+production network
+risky
+• Costly, duplication of
+resources
+• Difficult to manage
+and track
+• Lacks scalability
+
+8
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Issues with Newer Implementations
+
+• Dedicated physical layer
+switching for OEO & OOO
+•
+•
+
+OEO for multicast fanout
+OOO for DWDM
+
+• Difficult to manage
+•
+•
+
+•
+•
+
+4-box solution
+Network management
+integration
+Fiber management
+Size, Weight, and Power
+
+9
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Solution Status with Current Implementations
+
+Control Software
+
+API
+
+API
+
+API
+
+API
+
+Vendor EMS/CLI
+
+Vendor EMS/CLI
+
+Vendor EMS/CLI
+
+Vendor EMS/CLI
+
+OEO Switching
+
+OOO Switching
+
+Packet
+Switching,
+Filtering, and
+Aggregation
+
+Circuit
+Switching,
+Filtering, and
+Aggregation
+
+10
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Evolution of Newer Implementations
+
+• One box provides…
+•
+•
+•
+•
+•
+
+Physical layer switching
+Multicast fanout
+Support for SM/MM fiber
+and copper interfaces
+Scalability from 1 Mbps to
+100+Gbps
+Simplified network
+managment
+
+11
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Solution Status with Newer Implementations
+
+Control Software
+
+API
+
+API
+
+UCS Horizon
+S-Blade
+
+12
+©2011 ONPATH Technologies CONFIDENTIAL
+
+O-Blade
+
+API
+
+Vendor EMS/CLI
+
+Vendor EMS/CLI
+
+Packet
+Switching,
+Filtering, and
+Aggregation
+
+Circuit
+Switching,
+Filtering, and
+Aggregation
+
+Evolution of Future Implementations
+
+OEO & OOO
+Switching
+Packet Filtering,
+Aggregation, &
+Switching
+Circuit Filtering,
+Aggregation, &
+Switching
+
+Combined this functionality enables…
+•
+•
+•
+•
+•
+
+Simplified network management
+Unmatched scalability
+Reduced equipment costs
+Better resource utilization
+Increased visibility
+
+13
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Solution Status with Future Implementations
+
+Control Software
+
+API
+
+UCS Horizon
+S-Blade
+
+14
+©2011 ONPATH Technologies CONFIDENTIAL
+
+O-Blade
+
+Packet
+Switching,
+Filtering, and
+Aggregation
+
+Circuit
+Switching,
+Filtering, and
+Aggregation
+
+Comprehensive LI and Monitoring Solution
+
+To/From
+Country
+
+Taps
+
+Terrestrial Net
+
+Submarine Net
+
+Hundreds/Thousands
+Of Connections
+
+US Landing Site
+
+Telecom
+Operator
+
+Country 1
+
+Agency 1
+
+Agency 2
+
+Agency 3
+
+15
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Country 2
+
+Country 3
+
+ONPATH’s Solution
+ Unified Management
+ OEO Switching
+
+
+
+
+
+Non-blocking
+SM/MM support
+Copper/Fiber support
+Multicast fanout
+
+ OOO Switching
+
+
+
+
+Non-blocking
+Any protocol
+Any data-rate
+
+ TDM Circuit Switching, Aggregation, &
+ Filtering
+
+
+
+
+
+Grooming from T1/E1 and up
+OC-192/STM-64 and below
+POS and EOS with both Low and High Order GFP VCAT
+encapsulation
+
+ L2-4 Packet Switching, Aggregation, & Filtering
+
+
+16
+
+
+
+VLAN QnQ/Switching/Stripping
+Packet filtering based on TOS
+Packet Slicing
+
+©2011 ONPATH Technologies CONFIDENTIAL
+
+Summary
+• Lawful Intercept and Network Monitoring have become
+increasingly complex due to explosive Internet growth
+• Current solutions do not adequately address the problem
+• ONPATH is the only company bringing together the
+discrete pieces to offer a comprehensive and unified
+solution
+•
+
+ONPATH’s solution will CONSERVE TIME, increase resource
+UTILIZATION, and save MONEY!
+
+• Please come by and visit us at booth ???
+
+17
+©2011 ONPATH Technologies CONFIDENTIAL
+
+

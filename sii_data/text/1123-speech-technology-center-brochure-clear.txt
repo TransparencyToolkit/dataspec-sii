@@ -1,0 +1,183 @@
+CLEAR VOICE SDK
+Set of 3 Software Developer Kits (SDK)
+for Automatic Speech Enhancement & Noise Filtration
+
+u
+u
+U
+
+Denoiser - Automatic speech enhancement and
+noise filtration
+Denoiser-by-Reference - Automatic noise
+filtration of stable noise
+Declicker - Automatic pulse like noise filtration
+
+Advantages
+Adaptive filters of Clear Voice Package dramatically
+improve communication quality in telephone, satellite
+and radio channels, and can be used to increase the
+accuracy of speech recognition systems.
+u
+u
+u
+u
+u
+u
+
+Continuous and adaptive removal of background
+noise from speech
+Improves voice quality and intelligibility
+Decreases subscribers' listening fatigue
+Reduces time of communication due to
+eliminating of double-checking
+Increases voice compression systems quality
+Improves performance of automatic speech
+recognition systems
+
+SDK Package
+32 bit DLL (dynamic link library) for MS
+Windows XP/2000/9x/ME/XP;
+User’s manuals;
+Sample demo software with sources in
+Visual C++.
+SDK for other OS and ANSI C source codes
+are available by special order. Prices will be
+quoted upon request.
+Free demo is available at the web site.
+
+Applications
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+
+Improvement in communication quality in Telephone,
+satellite and radio channels.
+Enhancement for Radio transmitting and Audio
+Data
+Superior compression on VoIP and PC telephony;
+Call Centers;
+Improving poor quality recordings of
+music/speech
+Sound networks;
+Large scale IC for communication applications;
+Voice recognition systems;
+Sound recorders;
+Dictation devices;
+Voice logging systems;
+Audio products;
+
+This is a Denoiser sample software screenshot. In
+the waveform field (lower left) there is a waveform of
+the source signal (lighter), the processed darker one
+(lower right). The difference being, is the filtering of
+the background noise level, is clearly seen.
+
+Functional Overview
+Clear Voice processes sound signals in digital PCM 16
+bit format and removes automatically additive noise
+from transmitted (live) or pre-recorded signals with
+minimal reduction in signal quality.
+u
+u
+u
+u
+u
+u
+u
+u
+
+Uses only single input, for example, hands-free car
+microphone
+Automatically separates useful signal (like
+speech) from background slow varying noise
+Programmable noise reduction parameters
+Up to 30 dB signal-to-noise improvement
+Single tone reduction > 50 dB
+White noise reduction > 15-20 dB
+Hiss and rumble additional filters, frequency
+response forming filter
+The procedure is self-adjusting but the controls of the
+Clear Voice give to the advanced user an opportunity
+to choose the best degree of noise reduction and to
+tune the method for a specific task.
+
+u
+
+Denoiser is designed specifically to cancel slow
+varying in amplitude and frequency broadband noise
+such as, for example, office noise, street noise, car
+noise, hiss and colored white noise in sum with
+narrow band tones such as hum in
+communication channels, noise of home
+and industrial equipment, slow music etc.
+
+u
+
+Declicker removes from the input signal
+pulse-like interferences such as pikes,
+clicks, cracks, etc. It gives very good
+results from the removal of clicks from old
+vinyl records and digital clicks or static
+discharge cracks from DAT masters. It
+can even mask long duration tape dropouts.
+
+u
+
+Denoiser-by-Reference enables the
+user to reduce an arbitrary broadband
+stable noise in audio signals (tape hiss,
+surface noise of vinyl records, concert hall
+acoustic noise, etc.). It is developed
+mainly for the purpose of audio signal
+quality improvement in audio archives
+processing and CD mastering.
+
+STC is a leading speech and signal technology
+developer. It has an extensive portfolio of proprietary
+know-how and a number of ready-made products in
+the field of modern speech technology, especially for
+speech enhancement and voice extraction. Contact
+us and we will try to solve any problem in the speech
+or signaling area.
+u
+
+u
+u
+
+u
+
+u
+
+The algorithms can be incorporated into any PC
+16/32 bit Windows 95/98/NT application which
+processes or uses voice or any sound signal.
+STC can license the right to manufacture, use and
+sell products incorporating Clear Voice algorithms.
+Clear Voice may be licensed for use in software,
+hardware or integrated circuits (ICs) for
+communication applications. The form of the
+transfer may include software for PC or DSP, DLL,
+source code, hardware, devices, etc.
+PC Windows version demands 17% on 133MHz
+Pentium and 100 KB internal RAM. May be easily
+imported to fixed point or floating point DSPs.
+Also available
+- Noise Cancellation DSP board
+- Denoiser TI eXpress DSP compliant algorithm
+- Denoiser ActiveX control
+
+Declicker sample software screenshot. Each SDK
+has two kinds of settings - universal (degrees of
+noise cancellation - hard ....soft) and advanced (fine
+tuning of all algorithm parameters).
+
+

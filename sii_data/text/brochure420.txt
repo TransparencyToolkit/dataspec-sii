@@ -1,0 +1,387 @@
+P R O D U C T BROCHURE'
+
+'
+
+r
+
+-
+
+q m -l&-
+
+em
+-+.,;L
+
+;-
+
+AUTOMATE THE DISCOVERY1
+SURVEY OF PRIVATE LINE ClRC
+UTILIZATION
+
+I
+
+INTRODUCTION
+
+-
+
+PROVIDE LOSSLESS INTERCEPTlOh
+OF MULTI-PROTOCOL DATA
+
+-
+
+12
+
+.i(
+
+REDUCE CAPEX, FOOTPRINT,
+A N D POWER REQUIREMENTS FOR
+MONITORING & SURVEILLANCE
+
+m
+
+.,d.---1
+
+1
+
+*,H.
+
+*#
+
+4
+
+ACCELERATE INTERCEPT A N D
+SIGINT APPLICATIONS BY PREPROCESSING A N D FILTERING
+
+-
+
+PROVIDE U N l t l t u Ir A c c t b b
+FOR PROBES, INDEPENDENT 0
+
+Gathering intelligence through real-time network monitoring i s a key
+priority for communications service providers, as law enforcement agencies
+and other intelligence gathering institutions the world over demand
+selective access as a condition for offering service.
+The technology and solutions for accurate, real-time traffic capture,
+processing, and analysis are becoming increasingly complex as additional
+network protocols and tunnels are added t o support network convergence.
+For intercept applications t o continue t o be effective and remain in
+compliance with regulatory demands, the monitoring access infrastructure
+must also evolve t o meet a dynamic converged global network. This access
+infrastructure has traditionally been composed of a collection of standard
+network elements such as routers, switches, and muxes that are forced
+into performing specialized monitoring tasks they were not designed for.
+NetQuest's lnterceptor offers a new solution.
+
+INTERCEPTOR A P P R O A C H
+ENABLE SELECTIVE. REAL-TIME
+ACCESS TO DATA OF INTEREST--
+
+-.--
+
+,
+
+-
+
+r
+
+'
+8
+
+--
+
+8
+
+-#"-
+
+.
+
+-4
+
+REDUCE OPEX ASSOCIATED W I T H ,
+NETWORK RE-PR@VISIONING
+
+7
+,
+
+NetQuest's OptiCop lnterceptor is a purpose-built, comprehensive access
+solution for intercept applications. It offers selective access t o data traffic
+on a variety of packet or TDM service networks ranging from high speed
+SONETISDHlEthernet t o low speed T1IE1 and DSO. Using Interceptor,
+Ethernet based tools can gain and maintain real-time WAN network
+access regardless of the WAN interface's data stream speed or i t s framing
+attributes, tributary hierarchy, or protocol transport.
+
+Full IP Access
+Traffic Routing
+Meta-Data T r a n s l a t i o n
+Protocol Translation
+Traffic FilteringAuto-DiscoveryNetwork Access-
+
+0Traditional Solutions
+
+*
+
+\
+NetQuest lnterceptor
+
+While conventional methods of monitoring access perform some of the functions required for full IP data access, only the
+lnterceptor stands on top of the pyramid, where selective access t o any IP or non-IP data at any speed on any transport
+technology is possible without prior knowledge of the network provisioning.
+
+1
+
+T R A D I T I O N A L ACCESS VERSUS INTERCEPTOR ACCESS
+BEFORE I N T E R C E P T O R
+
+Figure 1 depicts a traditional monitoring access
+configuration where a collection of network elements
+and diagnostic equipment from multiple vendors is
+assembled t o access a range of services. Managing
+these disparate tools quickly becomes a tedious
+task. Moreover, configuring and maintaining this
+infrastructure is a time-consuming, manual process
+due t o sheer number of possible physical and logical
+connections on a SONETISDH line. Any one line may
+carry one or more high speed and many low speed
+tributaries. Each of these traffic streams may be
+framed and transported by a number of possible
+framing formats and protocols. The information
+about the specific stream provisioning is difficult t o
+obtain and is often outdated or wrong due t o the
+frequent changes in network provisioning and enduser configurations.
+Figure 1. Traditional Access: A Collection of Standard Network Elements
+
+AFTER INTERCEPTOR
+
+The lnterceptor is specifically designed for selective
+monitoring access. It consolidates the conventional
+access functions with advanced auto-discovery and
+filtering functions in a single, highly integrated
+platform shown in Figure 2. Its ability t o discover and
+automatically adjust t o any standard stream speed
+and format makes i t s access functions independent
+from network re-provisioning. This, in turn, greatly
+simplifies the management of the overall system,
+specifically if it is integrated with the intercept
+application. Further, it can both translate WAN input
+traffic t o standard Ethernet output and off-load the
+intercept probe's CPU processing requirements by
+filtering and pre-processing traffic. These functions
+preserve valuable probe resources and enable it t o be
+more efficient by processing only the data of interest.
+
+Figure 2. lnterceptor Access: A Single, Comprehensive Monitoring
+Access Solution Regardless of Network Technology or Speed
+
+COST SAVINGS REALIZED
+The lnterceptor costs significantly less than the sum of the various conventional access products it replaces. Besides
+i t s lower acquisition cost and automated discovery process, the lnterceptor delivers the following long term cost of
+ownership benefits:
+Reduced management costs
+Simpler t o install and less cabling
+Less rack space and power required
+Lower long term maintenance costs
+
+AUTO-DISCOVERY PROCESS
+The heart of NetQuest's lnterceptor is i t s ground-breaking Auto-Discovery process. In applications where private line
+or virtual private line services are being delivered, bandwidth allocation and protocol usage can vary greatly because
+they are determined by the end-user's specific termination equipment. This issue is further complicated by the dynamic
+nature of network provisioning, which can change on a daily or even hourly basis. Auto-Discovery eliminates the need
+for the test equipment used t o analyze circuit utilization, the ongoing manpower needed t o operate this equipment,
+and the subsequent task of re-provisioning traditional solutions.
+
+Framing &
+Pointer Inspection
+
+1
+
+1
+
+Data Ftaming
+verifilatian
+
+lnterceptor detects, qualifies, and reports all physical and transmission protocol parameters of all identifiable traffic
+streams on SONETISDHIPDH lines. It achieves this by automatically analyzing the clear channel or channelized TDM
+digital signal hierarchy of each stream t o determine the signal speed, framing format, and channelization structure. It
+also discovers which tributary containers are in use, which tributary streams are aggregated into virtual groups, and
+the aggregation scheme (GFPI VCATILCAS and IMA). lnterceptor then determines the data framing protocol being
+utilized as, for example, POS, ATM, or HDLC. By further analyzing the framed messages, it also determines the type of
+IP transport protocol such as PPP, Frame Relay, MPLS, cHDLC, PPPoE, etc. In the final step of Auto-Discovery, lnterceptor
+publishes the results t o be utilized by the intercept application or network operator. The entire process runs continually
+in the background t o ensure any changes in usage or service interruptions are detected and critical surveillance is
+maintained.
+
+0-0-..3-1
+
+El
+
+NIA
+
+NIA
+
+0...4-0
+
+D50
+
+HDLC
+
+FR
+
+0-1-4 ...
+
+OC3c
+
+GFP
+
+MAC
+
+1
+
+F
+
+3
+2
+
+The Auto-Discovery process is shown in the diagram above, along with an example of the table of SONETISDHIPDH
+attributes acquired and reported by the Interceptor.
+
+D A T A TARGETING
+Using the results of the Auto Discovery process, intercept applications can target specific data of interest for further
+processing and in doing so, preserve their own processing resources for higher level tasks. Selected IP streams are
+extracted, translated into Ethernet frames, and forwarded t o the intercept application. lnterceptor also effectively
+handles non-IP traffic by first attempting t o identify the contents and then publishing the results. Traffic that could not
+be processed or identified can be efficiently groomed and redirected t o clear channel or TDM bypass outputs for further
+investigation by external systems, ensuring no potentially threatening data is lost.
+
+MANAGEMENT AND CONTROL
+The NetQuest lnterceptor can be managed locally or remotely using menu-driven screens via Telnet or a serial crafts
+person port. Both methods provide secure access through SSH and a multi-level password protection system that
+leverages Radius or TACACS+. The lnterceptor has an integral SNMP V1-V3 agent that supports TRAP functionality for
+alarming purposes.
+For applications where a tight integration between the lnterceptor and the intercept application system is required,
+NetQuest has developed a machine-to-machine interface called GSCP, a proprietary UDP-based control protocol.
+Integrating GSCP with the intercept application system enables solution providers t o present a unified solution at every
+level.
+
+TECHNICAL SPECIFICATIONS
+MODEL
+1-1200
+System Bandwidth
+Input Interface Speed
+Optional Automatic Protection
+Switching (APS)
+# TDM Bypass Outputs
+
+TDM Bypass Interface Speed
+
+1-2400
+
+1.25Gbps
+
+2.5Gbps
+
+OC3lSTM-l, OC12lSTM-4
+
+OC3lSTM-l,OC12lSTM-4, OC481
+STM-16*
+
+Yes (2)
+
+Yes (4)
+
+2 SONETISDH
+
+4 SONETISDH
+
+OC3lSTM-1, OC121STM-4
+
+OC3lSTM-l, OC121STM-4
+
+2 SONETISDH
+
+4 SONETISDH
+
+CelllPacket Bypass Interface
+Speed
+
+OC3lSTM-l,OC121STM-4
+
+OC3lSTM-l, OC121STM-4
+
+# Output Interfaces (Target
+Data)
+
+2 X GigE (optionally
+expandable t o 4 X GigE)
+
+CelllPacket Data Bypass**
+
+4 X GigE (optionally expandable
+
+t o 8 X GigE)
+
+2U rack mount or table top chassis:
+3.5"H X 19"W X 17.25"D
+(8.9cm H X 48.3cm W X 43.8cm D)
+
+Size
+
+Weight
+
+16 pounds (7.27kg)
+
+Power
+
+140 W (1101220 VAC or 48 VDC)
+
+I Operatins Temp
+I Humiditv
+1 Comoliance
+Management
+
+ABOUT UETQUEST
+
+Includes any-to-any VC-3 level (Broadband) switching, optional
+any-to-any VC-11/12, and optional 64 Kbps timeslot switching
+
+Bypass Grooming Level
+
+I
+I
+I
+
+I
+I
+I
+
+32" - 122" F ( 0" - 50" C)
+10-90% non-condensinq
+FCC, UL. CE, RoHS
+Telnet, EIA232 Craft, SNMP Vl-V3
+
+NetQuest Corporation 523 Fellowship Road Mount Laurel, NJ 08054 USA +1.856.866.0505
+Fax: +l
+.856.866.2859 Email: info@NetQuestCorp.com
+
+Rev 1.2
+
+1
+
+I
+
+NetQuest corporation designs,
+manufacturers, and markets innovative
+monitoring access products for
+applications in telecommunications
+service provider, government, and
+enterprise networks. Founded in 1987
+and based in Mount Laurel, New Jersey,
+NetQuest is privately held and operates
+under the original management team.
+With more than a 20 year track record of
+providing cutting edge monitoring access
+-solutions, NetQuest has developed a
+global customer base, marketing directly
+and through a network of value added
+resellers and representatives.
+
+

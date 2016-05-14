@@ -1,0 +1,287 @@
+CP2 -Control Platform Tracking and Monitoring Software
+aJ
+I..
+
+RI
+iii'
+),
+....::
+
+....0
+
+~
+
+e
+
+Cl
+
+c
+
+'i:
+
+E :!:::c
+0
+
+~
+
+a.
+0
+
+0
+~
+
+~
+Cl
+
+.b c
+
+s:: :.i2
+
+8
+
+•
+•
+
+U)
+
+""'~"
+~
+
+The CP2 vS Control Platform software is a Stand •
+Alone or Server based, secure, self contained
+tracking and monitoring software application capable •
+of tracking up to 2,000 objects .
+
+u
+
+RI
+I..
+
+I-
+
+Key Functionality
+
+The system is a completely secure, self contained
+GPS/GSM tracking and monitoring system. It is •
+capable of tracking persons, objects, vehicles, in
+fact any mobile asset, "anywhere" in the world, •
+within GSM coverage .
+The CP2 system communicates with a deployed •
+object via the GSM network either via GPRS, GSM
+data or SMS (Text Message). The system can ask •
+where that object is and automatically place it on
+a map within a few meters accuracy.
+CP2 provides the ability to configure the deployed •
+object to carry out functions remotely, whether
+that is periodically reporting position or to report •
+when movement has commenced or stopped.
+
+MS Windows based
+User friendly layout
+Continuous live data tracking facility
+Constantly being improved with new
+features and new product
+compatibility
+Password protected user access levels
+Supports SMS , GPRS and GSM Data
+tracking
+Multiple modem support with
+simultaneous use
+Configuration of hardware inputs/
+outputs, settings and phone numbers
+can be sent via SMS or Data
+Geo-fence support
+Street level mapping available for
+United States, Europe and many
+other countries
+
+Map Engine
+
+The mapping application, HT-Viewer, is a
+engine specifically engineered for
+applications. This enables the use of
+data from multiple sources in multiple
+furthering the flexibility of the system.
+
+true GIS
+tracking
+mapping
+formats,
+
+The viewer provides two windows: a street level
+tracking window, and an overview window. This is
+essential for operations requiring monitoring of
+more than one object. The overview window
+provides an international (or national) view of all
+active objects. By selecting a region of interest on
+the overview, the user can zoom in to street level
+detail in the sister window without relinquishing
+overview information for all active objects.
+
+July 2006 Vl.O
+
+Specification subject to change
+
+aJ
+I..
+
+iii'
+),
+
+RI
+
+::
+
+........0
+
+~
+
+e
+
+U)
+
+Cl
+
+""'~"
+
+c
+
+'i:
+
+E :!:::c
+0
+
+~
+~
+
+a.
+0
+
+0
+~
+
+~
+Cl
+
+.b c
+s:: :.i2
+
+8
+
+u
+
+RI
+I..
+
+I-
+
+Additionally, the use of map data (instead of closed •
+mapping applications), provides for an international
+theatre of operations, as current street level data is
+available off the shelf for most countries. Since the
+engine was designed for tracking operations, it •
+efficiently processes large amounts of data providing
+for fluid movement of the maps and objects. This
+level of efficiency allows for the operation of the system in the field on laptops.
+•
+Multiple file/data formats can be integrated into one
+data set, providing for their concurrent use. For
+example, street level data and geo-referenced aerial
+photography can be combined for use or customer •
+specific or custom maps can be added.
+
+•
+
+Geo-Fencing
+
+Geo-Fencing is enabled by electronically establishing
+boundaries (a fence) around an area or an object.
+This area can be as small as a house or as large as a •
+country. The software can be configured to alert
+upon entry and/or exit of the boundary by an •
+enabled object. Our objects have the capability to
+maintain multiple geo-fenced areas, allowing for •
+route deviation monitoring etc.
+Message Forwarding
+
+The CP2 has the ability to forward messages to •
+another set of software or via SMS to a mobile
+phone. This will provide position, status and certain
+alarm information to users without "actively" •
+monitoring the software. Utilising SMS the CP2 can
+also receive requests from authorised mobiles and
+reply with the location and status of the selected •
+object as a text message.
+
+•
+Software Versions
+CP2 vS software is available is the following •
+config u rations:
+•
+CP2 Professional Stand Alone- Secure self
+contained tracking and monitoring application •
+for full covert surveillance operations
+•
+CP2 Server-Supports GPRS communications
+•
+and distributes location data to multiple CP2
+Client software installations.
+•
+CP2 Professional Client - Remote access
+•
+CP2 Client providing multi user access to CP2
+Server with full covert surveillance operations
+support
+CP2 Light / CP2 Light Client- Secure track•
+ing and monitoring application, single user
+stand alone or multiple user via CP2 Server
+supporting Tl and M2P products.
+CP2
+Viewer- Monitoring only CP2 application
+•
+with simple viewing of tracked objects
+functionality
+
+July 2006 V 1.0
+
+Playback feature searchable by
+date and database entry to replay
+selected days or objects
+Message forwarding for remote
+notification of incoming alarm
+messages to your own mobile
+phone
+User defined input definitions for
+each object which will be
+automatically displayed on alarm
+activation
+View multiple maps simultaneously
+Map lock facility for dedicated
+monitoring of a specific object
+without interruption from other
+alarms
+Intelligent self-saving database
+Separate note field for each object
+easily accessible from map
+Inbox allows overview of received
+messages to ensure no messages
+are missed
+Priority message feature for more
+prominent display and activation
+of extended features
+Sound association for incoming
+and outgoing messages
+Trails feature to leave trail on
+map of old locations
+GPS self location input
+RS48S input for direct cable
+connection to hardware
+SMS text message facility
+Object Location requests via
+authorised GSM phones using SMS.
+EU & World overview maps in
+various levels available
+
+All Specifications Subject to Change
+
+

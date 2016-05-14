@@ -1,0 +1,224 @@
+GSM-Monitoring System Semi
+Active
+Falcon E+
+
+CONFIDENTIAL
+– Subject
+to change
+withoutwithout
+prior notice!
+CONFIDENTIAL
+– Subject
+to change
+prior notice!
+
+1
+
+GSM-Monitoring System Semi Active – Falcon E+
+
+Description
+The Falcon E+ system is designed and developed as a Semi Active OFF-THE-AIRGSM-Monitoring system. The system provides the option of both stationary and
+mobile operation
+The Falcon E+ system deciphers A5.1 and A5.2 ciphering algorithms online. The
+system does not require the service providers SIM for operation because uses
+cloning of the targets phone in real time. Therefore, all the calls made by the target
+are billed into its account
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Main Features
+•
+
+The system ensures monitoring of audio and data traffic within standard GSM
+900/1800 networks (800/1900 on request) and deciphers A5.1 and A5.2 algorithms
+online
+
+•
+
+Default configuration of the system – 8 or 12 reception channels (4 or 6 duplex
+channels, monitoring of both forward and reverse conversation channels)
+
+•
+
+The system ensures registration of radio-electronic-conditions within the radio cells
+to be monitored (frequency and characteristics of BCCH-channels)
+
+•
+
+The operator can select the required targets based on their IMSI or IMEI. Upon
+selecting the targets the system acts as a virtual base station (BTS) for these
+targets.
+
+•
+
+When one of the targets initiates a call, the FALCON E+ system automatically
+calculates the ciphering key ant authentications parameters. These parameters are
+then cloned onto another mobile phone attached to the system (up to 4). The
+targets calls are now routed through the cloned mobile phone, maintaining the
+same encryption and target identity.
+
+•
+
+The system contains a database (up to 1000 calling partners), operating in real-time,
+which can be accessed corresponding to the selected search criteria and
+parameters.
+
+•
+
+Calling partners are identified according to the IMEISV, IMSI, TMSI, ISDN number
+(local and international number)
+
+•
+
+Retrieving of target IMEI/IMSI for using targets mobile number and silent call
+
+•
+
+Registration and storage of telephone conversations, call related information,
+network information and Short Message Service (SMS) to the system`s hard disk.
+
+•
+
+The system ensures registration and storage as audio codec – types FR, EFR, HR.
+
+•
+
+Playback of recordings may be carried out by the system itself
+
+•
+
+Identification of SMS and DTMF data.
+
+Scope of Delivery
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Main unit FALCON E+
+Control unit (Notebook)
+Virtual base station 900MHz and/or 1800MHz
+Duplexer 900MHz and/or 1800MHz
+GSM antenna (omni-directional)
+GSM antenna (directional 9dBi gain)
+Network-connecting cables
+Power supply cable 230VAC
+Power supply cable 12VDC
+User manual
+Transport case (2 pcs.)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Technical data
+Reception Channel
+Target Numbers
+Data entries
+Identification
+Monitoring
+Recording
+Playback
+Frequency Range of Down
+Link BTS->MS
+Frequency Range of Up-Link
+MS->BTS
+Channel Spacing
+Number of Channels
+Frequency Deviation
+Frequency Stability
+Receiver Type
+Receiver Sensitivity
+Output power
+Operation Range
+Assessment of coverage
+Accuracy
+
+GSM900
+GSM1800
+8 or 12 (4 or 6 Duplex channels
+Up to 1000
+Up to 100000
+Through IMSI, TIMSI, IMEI, Class mark,
+Telephone Number, Distance
+Voice (A5.0, A5.1, A5.2),SMS, DTMF
+Audio codec type FR, EFR, HR
+Player software
+935…..960
+1805…..1880
+MHZ
+MHZ
+890….915
+1710….1785
+MHZ
+MHz
+200 kHz
+124
+375
+45 MHz
+95MHz
+
+±0.03 ppm
+Wide Range Receiver
+- 105 dBm
+10mW – 6W. (20W or 50W optional)
+up to 500 m in city
+up to 550m
+50 Ω
+
+Antenna Impedance
+Time of frequency Change
+In Hopping mode
+Dynamics Range
+Volume Range
+Demodulator
+Decoder
+Speech Codex
+Channel structure
+System Software
+Audio Format
+Interface
+Remote Control
+Power supply
+Operating Temperature
+Dimensions/Weight:
+Box-900:
+Box-1800:
+Clone-Box
+
+< 500 µS
+>75 dB
+25 dB
+GMSK, asynchrony
+For Protocol A5.2
+RPE/LTP:FR, EFR
+TDMA/FDMA
+Windows XP
+Standard Wave-Form
+TCP/IP
+via LAN, ADSL
+220 VAC, 50Hz
+110 VAC, 60Hz
++ 5° C….40° C
+29x26x12,5 cm / 4,25 kg
+29x26x12,5 cm / 3,7 kg
+29x26x 8 cm / 1,75 kg
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+

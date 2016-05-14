@@ -1,0 +1,148 @@
+Inmarsat Monitoring System
+
+CONFIDENTIAL
+
+1
+
+Inmarsat Monitoring System
+1- INTRODUCTION
+1.1- General
+This Proposal describes a basic Inmarsat monitoring system that provides automated
+interception and recording of selected Inmarsat calls within a single Ocean Region. The system
+is designed to be expanded very easily, or tailored to specific customer requirements as
+desired.
+The Proposal should be read in conjunction with any attached TRL Technology Ltd (TRL)
+Commercial Letter.
+
+1.2 Principles of IMS Operation
+The Inmarsat series of satellites provide world-wide communications capability through a
+number of geostationary satellites, strategically located to provide overlapping coverage of the
+earth’s surface to latitudes in excess of 80° North and South of the equator.
+Communication between the satellite and Mobile Earth Stations (MES) is effected using
+frequencies around 1.6 GHz and 1.5 GHz for the uplink and downlink frequencies respectively.
+The fixed Land Earth Stations (LES) that provide connections to the terrestrial communications
+network communicate with the satellite using frequencies around 6.4 GHz and 3.6 GHz for the
+uplink and downlink frequencies. Additional channels are used for command and
+control/monitoring purposes.
+Satellites currently providing the service are of the Inmarsat 3 generation. The older Inmarsat 2
+series satellites used single, shaped beam antennas to optimise coverage over their designated
+areas. The current Inmarsat 3 satellites use a number of spot beams for communication with
+the MES which can be combined and reconfigured from the ground for optimum performance
+against changing operational needs. The IMS has been optimised to cater for spot beam
+operations, whilst retaining the flexibility required to revert to Inmarsat 2 standards if necessary.
+Provided that the monitoring system is located within the coverage region of the satellite, the
+downlink to any MES can be monitored in the 1.5 GHz band. However, it is extremely unlikely
+that the corresponding uplink channel can be monitored directly, unless the MES is physically
+close to the monitoring system. MES uplink channels are therefore monitored by using the
+corresponding LES downlink channel around 3.6 GHz. This downlink channel may be Right or
+Left hand circularly polarised according to Inmarsat operational requirements.
+
+CONFIDENTIAL
+
+2
+
+INMARSAT
+
+6.4GHz
+UP
+
+1.6GHz
+UP
+
+1.5GHz
+DOWN
+
+3.6GHz
+DOWN
+3.6GHz
+DOWN
+
+LAND EARTH STATION
+(LES)
+
+1.5GHz
+DOWN
+
+INMARSAT MONITORING SYSTEM
+(IMS)
+
+MOBILE EARTH STATION
+(MES)
+
+Figure 0-1 Principle of IMS operation
+The Inmarsat system provides world-wide communications via a number of LES, several of
+which access the same satellite concurrently. A Network Control Station (NCS) co-ordinates the
+various LES to ensure that communications channels are allocated between the LES without
+conflict. The control channels between the NCS and LES also pass through the satellite, and are
+utilised by the IMS.
+
+1.3- Call Intercept System Overview
+The TRL Inmarsat Monitoring System (IMS) is designed to intercept and record voice, facsimile
+and data calls to and from selected terminals using the Inmarsat communications system. The
+IMS can be extensively configured to select terminals whose full identity is not known, or to log
+and/or record particular types of call, or to record calls made to particular parts of the world or to
+specific telephone numbers.
+Voice calls may be monitored in real-time, or recovered and played back from the system
+database. Facsimile and data calls may generally be displayed with the simple viewer
+incorporated in the system, or exported for analysis or manipulation by other systems or with
+user-specific software. The intercept system configuration and analysis capabilities are
+discussed in greater depth in Section Fehler! Verweisquelle konnte nicht gefunden
+werden..
+The generic system is capable of monitoring and recording Inmarsat A, B, C, D, M and mini-M
+signals, including High Speed Data (HSD) signals used by B and M4 (GAN) terminals.
+
+CONFIDENTIAL
+
+3
+
+2- TECHNICAL REQUIREMENT
+The flexibility of the IMS is such that it can be difficult for a Customer to decide on the system
+configuration that best satisfies his operational needs, until he has operated the system in his
+own environment. The IMS is designed to be expanded and modified by the addition of extra
+hardware and software as a Customer’s requirements change and new services become
+available.
+This technical proposal describes a basic, balanced Inmarsat monitoring system that can form
+the basis for more complex systems tailored to a Customer’s specific requirements.
+
+2.1- Intercept functionality
+The baseline system is capable of receiving Inmarsat B, C, M, and mini-M transmissions from a
+single satellite, and for a single Ocean Region. This includes high speed data traffic from
+Inmarsat B and M4 terminals. Inmarsat A reception is also possible with this system, although
+decoding of A facsimiles requires an additional, and optional, software add-on.
+The basic system is to capture and record up to ten simultaneous duplex communications with
+Inmarsat terminals against criteria selected by the users (IMS).
+The basic system provides three workstations for signal analysis of recorded traffic, and for
+monitoring voice traffic “live”.
+
+2.2- Location of equipment
+It is assumed that all the equipment will be located together at a single site.
+A set of RF equipment, comprising antennas and other necessary hardware, must be located
+such that the length of cable between the antennas and the system rack does not exceed 80
+metres, and the Ethernet cabling between the racks and computers does not exceed 100
+metres.
+
+2.3- Implementation
+The offer is for the provision of a turnkey baseline system to be installed by TRL personnel at
+the Customer’s nominated site, complete with all necessary training, handbooks and support to
+enable the end users to operate and maintain the equipment. TRL will provide all the electronic
+equipment and antenna facilities required for the system.
+The Customer must provide a suitable site with accommodation and furniture for the
+equipment, and suitable power supplies to operate the equipment and antennas.
+It is assumed that access to Customer’s sites is restricted. TRL will co-operate with the
+Customer to utilise cleared/approved sub-contractors to perform the antenna civil works tasks.
+The antennas and equipment rack will be installed by TRL technicians and subcontractors. All
+necessary security passes and clearances shall be provided by the Customer.
+
+CONFIDENTIAL
+
+4
+
+CONFIDENTIAL
+
+5
+
+CONFIDENTIAL
+
+6
+
+

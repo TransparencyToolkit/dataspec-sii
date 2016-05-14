@@ -1,0 +1,9277 @@
+Blue Coat® Systems
+ProxySG® Appliance
+
+Configuration and Management Suite
+Volume 8: Access Logging
+
+Version SGOS 5.3.x
+
+Volume 8: Access Logging
+
+Contact Information
+Blue Coat Systems Inc.
+420 North Mary Ave
+Sunnyvale, CA 94085-4121
+http://www.bluecoat.com/support/contactsupport
+http://www.bluecoat.com
+For concerns or feedback about the documentation: documentation@bluecoat.com
+
+Copyright© 1999-2008 Blue Coat Systems, Inc. All rights reserved worldwide. No part of this document may be reproduced by any means
+nor modified, decompiled, disassembled, published or distributed, in whole or in part, or translated to any electronic medium or other
+means without the written consent of Blue Coat Systems, Inc. All right, title and interest in and to the Software and documentation are
+and shall remain the exclusive property of Blue Coat Systems, Inc. and its licensors. ProxyAV™, CacheOS™, SGOS™, SG™, Spyware
+Interceptor™, Scope™, ProxyRA Connector™, ProxyRA Manager™, Remote Access™ and MACH5™ are trademarks of Blue Coat
+Systems, Inc. and CacheFlow®, Blue Coat®, Accelerating The Internet®, ProxySG®, WinProxy®, AccessNow®, Ositis®, Powering
+Internet Management®, The Ultimate Internet Sharing Solution®, Cerberian®, Permeo®, Permeo Technologies, Inc.®, and the Cerberian
+and Permeo logos are registered trademarks of Blue Coat Systems, Inc. All other trademarks contained in this document and in the
+Software are the property of their respective owners.
+BLUE COAT SYSTEMS, INC. DISCLAIMS ALL WARRANTIES, CONDITIONS OR OTHER TERMS, EXPRESS OR IMPLIED,
+STATUTORY OR OTHERWISE, ON SOFTWARE AND DOCUMENTATION FURNISHED HEREUNDER INCLUDING WITHOUT
+LIMITATION THE WARRANTIES OF DESIGN, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL BLUE COAT SYSTEMS, INC., ITS SUPPLIERS OR ITS LICENSORS BE LIABLE FOR
+ANY DAMAGES, WHETHER ARISING IN TORT, CONTRACT OR ANY OTHER LEGAL THEORY EVEN IF BLUE COAT SYSTEMS,
+INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Document Number: 231-03017
+Document Revision: SGOS 5.3.1 08/2008
+
+ii
+
+Contents
+Contact Information
+
+Chapter 1: About Access Logging
+
+Overview.............................................................................................................................................. 5
+Understanding Facilities .................................................................................................................... 6
+Understanding Protocols and Formats............................................................................................ 6
+Enabling or Disabling Access Logging ............................................................................................ 7
+Document Conventions ..................................................................................................................... 8
+Notes and Warnings ........................................................................................................................... 9
+About Procedures ............................................................................................................................... 9
+Illustrations .......................................................................................................................................... 9
+Chapter 2: Creating Custom Access Log Formats
+
+Default Access Log Formats ............................................................................................................ 11
+Creating a Custom or ELFF Log Format ....................................................................................... 13
+Chapter 3: Creating and Editing An Access Log Facility
+
+Creating a Log Facility ..................................................................................................................... 17
+Editing an Existing Log Facility...................................................................................................... 19
+Deleting a Log Facility ..................................................................................................................... 20
+Associating a Log Facility with a Protocol .................................................................................... 21
+Disabling Access Logging for a Particular Protocol .................................................................... 23
+Configuring Global Settings............................................................................................................ 23
+Chapter 4: Configuring the Upload Client
+
+Encrypting the Access Log .............................................................................................................. 26
+Importing an External Certificate ................................................................................................... 26
+Deleting an External Certificate ............................................................................................... 27
+Digitally Signing Access Logs ......................................................................................................... 27
+Disabling Log Uploads..................................................................................................................... 30
+Decrypting an Encrypted Access Log............................................................................................ 31
+Verifying a Digital Signature .......................................................................................................... 31
+Editing Upload Clients..................................................................................................................... 31
+Editing the FTP Client ............................................................................................................... 31
+Editing the HTTP Client ............................................................................................................ 33
+Editing the Custom Client......................................................................................................... 35
+Editing the Custom SurfControl Client................................................................................... 36
+
+iii
+
+Volume 8: Access Logging
+
+Editing the Websense Client..................................................................................................... 36
+Troubleshooting................................................................................................................................ 37
+Chapter 5: Configuring the Upload Schedule
+
+Configuring a Log for Uploading .................................................................................................. 39
+Testing Access Log Uploading ....................................................................................................... 42
+Viewing Access-Log Statistics ........................................................................................................ 42
+Viewing the Access Log Tail .................................................................................................... 43
+Viewing the Log File Size.......................................................................................................... 43
+Viewing Access Logging Status ............................................................................................... 44
+Viewing Access-Log Statistics .................................................................................................. 45
+Example: Using VPM to Prevent Logging of Entries Matching a Source IP ........................... 47
+Appendix A: Access Log Formats
+
+Custom or W3C ELFF Format ........................................................................................................ 49
+Example Access Log Formats................................................................................................... 52
+SQUID-Compatible Format............................................................................................................. 52
+Action Field Values.................................................................................................................... 52
+NCSA Common Access Log Format.............................................................................................. 54
+Access Log Filename Formats .................................................................................................. 54
+Fields Available for Creating Access Log Formats...................................................................... 56
+Glossary
+Index
+
+iv
+
+Chapter 1: About Access Logging
+
+Access logging allows you to track Web usage for the entire network or specific
+information on user or department usage patterns. These logs and reports can
+be made available in real-time or on a scheduled basis.
+Note: Event logging is not the same as access logging. Event logging allows you
+to specify the types of system events logged, the size of the event log, and to
+configure Syslog monitoring.
+
+Topics in this Chapter
+This chapter includes information about the following topics:
+❐
+
+"Overview" on page 5
+
+❐
+
+"Understanding Facilities" on page 6
+
+❐
+
+"Understanding Protocols and Formats" on page 6
+
+❐
+
+"Enabling or Disabling Access Logging" on page 7
+
+❐
+
+"Document Conventions" on page 8
+
+❐
+
+"Notes and Warnings" on page 9
+
+❐
+
+"About Procedures" on page 9
+
+❐
+
+"Illustrations" on page 9
+
+Overview
+SGOS can create access logs for the traffic flowing through the system; in fact,
+each protocol can create an access log record at the end of each transaction for
+that protocol (such as for each HTTP request).
+Note: The only data that can be logged in an access log on the ProxySG are the
+access-log fields and the CPL fields (found in Appendix A: "Access Log
+Formats").
+
+These log records can be directed to one or more log facilities, which associates
+the logs with their configured log formats, upload schedules, and other
+customizable components. In addition, access logs can be encrypted and
+digitally signed prior to upload.
+Data stored in log facilities can be automatically uploaded to a remote location
+for analysis and archive purposes. The uploads can take placing using HTTP,
+FTP, or one of several proprietary protocols. After they are uploaded, reporting
+
+5
+
+Volume 8: Access Logging
+
+tools such as Blue Coat Reporter can be used to analyze the log files. For
+information on using Blue Coat Reporter, refer to the Blue Coat Reporter
+Configuration and Management Guide.
+
+Understanding Facilities
+A log facility is a separate log that contains a single logical file and supports a
+single log format. The facility contains the file’s configuration and upload
+schedule information as well as other configurable information such as how often
+to rotate (switch to a new log) the logs at the destination, any passwords needed,
+and the point at which the facility can be uploaded.
+Multiple access log facilities are supported, although each access log supports a
+single log format. You can log a single transaction to multiple log facilities
+through a global configuration setting for the protocol that can be modified on a
+per-transaction basis through policy.
+
+Understanding Protocols and Formats
+The following protocols support configurable access logging:
+
+6
+
+❐
+
+CIFS
+
+❐
+
+Endpoint Mapper
+
+❐
+
+FTP
+
+Chapter 1: About Access Logging
+
+❐
+
+HTTP
+
+❐
+
+HTTPS Forward Proxy
+
+❐
+
+HTTPS Reverse Proxy
+
+❐
+
+ICP
+
+❐
+
+Instant Messaging
+
+❐
+
+Peer-to-peer (P2P)
+
+❐
+
+RealMedia/QuickTime
+
+❐
+
+SOCKS
+
+❐
+
+SSL
+
+❐
+
+TCP Tunnel
+
+❐
+
+Telnet
+
+❐
+
+Windows Media
+
+SGOS can create access logs with any one of a number of log formats, and you can
+create additional types using custom or ELFF format strings. The log types
+supported are:
+❐
+
+NCSA common log format
+
+❐
+
+SQUID-compatible format
+
+❐
+
+ELFF (W3C Extended Log File Format)
+
+❐
+
+Custom, using the strings you enter
+
+❐
+
+SmartReporter, an ELFF log format compatible with the SmartFilter Reporter
+tool
+
+❐
+
+SurfControl, a log format compatible with the SurfControl Reporter tool
+
+❐
+
+Websense, a log format compatible with the Websense Reporter tool
+
+The log facilities, each containing a single logical file and supporting a single log
+format, are managed by policy (created through the Visual Policy Manager (VPM)
+or Content Policy Language (CPL)), which specifies the destination log format
+and log file.
+
+Enabling or Disabling Access Logging
+You can globally enable or disable access logging. If access logging is disabled,
+logging is turned off for all log objects, even if logging policy exists or logging
+configurations are set.
+After globally enabled, connection information is sent to the default log facility
+for the service. For example, HTTP traffic is logged to the main file.
+By default, access logging is disabled on all new systems, but certain protocols are
+configured to use specific logs by default. When access logging is enabled,
+logging begins immediately for all configured protocols.
+
+7
+
+Chapter 1: About Access Logging
+Table 1–1 Document Conventions (Continued)
+{ }
+
+One of the parameters enclosed within the braces must be
+supplied
+
+[ ]
+
+An optional parameter or parameters.
+
+|
+
+Either the parameter before or after the pipe character can or
+must be selected, but not both.
+
+Notes and Warnings
+The following is provided for your information and to caution you against actions
+that can result in data loss or personal injury:
+Note: Information to which you should pay attention.
+
+Important:
+
+Critical information that is not related to equipment damage or
+personal injury (for example, data loss).
+
+WARNING! Used only to inform you of danger of personal injury or physical
+damage to equipment. An example is a warning against electrostatic discharge
+(ESD) when installing equipment.
+
+About Procedures
+Many of the procedures in this volume begin:
+❐
+
+Select Configuration > TabName,
+
+if you are working in the Management Console,
+
+or
+❐
+
+From the (config) prompt, if you are working in the command line interface (CLI).
+
+Blue Coat assumes that you are logged into the first page of the Management
+Console or entered into configuration mode in the CLI.
+
+Illustrations
+To save space, screen shots illustrating a procedure often have the bottom portion
+removed, along with the blank space.
+
+9
+
+Volume 8: Access Logging
+
+Figure 1–1
+
+Preview:
+
+❐
+
+Click this button to view the configuration changes before applying
+the configuration to the ProxySG. To modify your changes, click Close and
+return to the the tab whose settings you want to modify.
+
+❐
+
+Apply:
+
+❐
+
+Revert:
+
+❐
+
+Help: Click this button to view conceptual and procedural documentation
+about the tab’s topic.
+
+Click this button to apply unsaved configuration changes to the
+ProxySG.
+Click this button to revert any unapplied changes to the ProxySG
+configuration. Changes that previously have been applied to the ProxySG are
+not affected.
+
+Figure 1–2
+
+10
+
+Configuration > General Tab with Bottom Buttons
+
+Configuration > General Tab with Bottom Buttons Removed
+
+Chapter 2: Creating Custom Access Log Formats
+
+This chapter describes the default access log formats and describes how to
+create customized access log formats.
+
+Topics in this Chapter:
+This chapter includes information about the following topics:
+❐
+
+"Default Access Log Formats" on page 11
+
+❐
+
+"Creating a Custom or ELFF Log Format" on page 13
+
+Default Access Log Formats
+Several log formats ship with the SGOS software, and they might be sufficient
+for your needs. If the formats that exist do not meet your needs, you can create
+a custom or ELFF format and specify the string and other qualifiers used, as
+described in "Creating a Custom or ELFF Log Format" on page 13.
+For a description of each value in the log, see Appendix A: "Access Log
+Formats" on page 49.
+❐
+
+cifs:
+
+This is an ELFF format with the custom strings of
+
+date time c-ip r-ip r-port x-cifs-method x-cifs-server x-cifs-share
+x-cifs-path x-cifs-orig-path x-cifs-client-bytes-read x-cifs-serverbytes-read x-cifs-bytes-written s-action cs-username cs-auth-group
+s-ip
+❐
+
+mapi:
+
+This is an ELFF format with the custom strings of
+
+date time c-ip c-port r-ip r-port x-mapi-user x-mapi-method cs-bytes
+sr-bytes rs-bytes sc-bytes x-mapi-cs-rpc-count x-mapi-sr-rpc-count
+x-mapi-rs-rpc-count x-mapi-sc-rpc-count s-action cs-username csauth-group s-ip
+❐
+
+im (Instant
+
+Messaging): This is an ELFF format with the custom strings of:
+
+date time c-ip cs-username cs-auth-group cs-protocol x-im-method xim-user-id x-im-user-name x-im-user-state x-im-client-info x-imbuddy-id x-im-buddy-name x-im-buddy-state x-im-chat-room-id x-imchat-room-type x-im-chat-room-members x-im-message-text x-immessage-size x-im-message-route x-im-message-type x-im-file-path xim-file-size s-action
+❐
+
+main:
+
+This is an ELFF format with custom strings of:
+
+date time time-taken c-ip sc-status s-action sc-bytes cs-bytes csmethod cs-uri-scheme cs-host cs-uri-port cs-uri-path cs-uri-query
+cs-username cs-auth-group s-hierarchy s-supplier-name rs(ContentType) cs(User-Agent) sc-filter-result cs-category x-virus-id s-ip ssitename
+❐
+
+ncsa: This is a reserved format that cannot be edited. The NCSA/Common
+format contains the following strings:
+
+11
+
+Volume 8: Access Logging
+
+remotehost rfc931 authuser [date] “request” status bytes
+
+The ELFF/custom access log format strings that represent the strings above
+are:
+$(c-ip) - $(cs-username) $(localtime) $(cs-request-line) $(sc-status)
+$(sc-bytes)
+❐
+
+p2p:
+
+This is an ELFF format with custom strings of:
+
+date time c-ip c-dns cs-username cs-auth-group cs-protocol x-p2pclient-type x-p2p-client-info x-p2p-client-bytes x-p2p-peer-bytes
+duration s-action
+❐
+
+smartreporter:
+
+This is a reserved format that cannot be edited. It contains the
+following string:
+
+localtime s-computername c-ip c-uri sc-filter-result cs-categories csuser sc-bytes
+❐
+
+squid:
+
+This is a reserved format that cannot be edited. You can create a new
+SQUID log format using custom strings. The default SQUID format is SQUID1.1 and SQUID-2 compatible.
+SQUID uses several definitions for its field formats:
+
+SQUID-1:time elapsed remotehost code/status/peerstatus bytes method
+URL
+SQUID-1.1: time elapsed remotehost code/status bytes method URL rfc931
+peerstatus/peerhost type
+
+SQUID-2 has the same fields as SQUID-1.1, although some of the field values
+have changed.
+❐
+
+ssl:
+
+This is an ELFF format with custom strings of:
+
+date time time-taken c-ip s-action x-rs-certificate-validate-status xrs-certificate-observed-errors x-cs-ocsp-error x-rs-ocsp-error cs-host
+s-hierarchy s-supplier-name x-rs-connection-negotiated-ssl-version xrs-connection-negotiated-cipher x-rs-connection-negotiated-cipher-size
+x-rs-certificate-hostname x-rs-certificate-hostname-category x-csconnection-negotiated-ssl-version x-cs-connection-negotiated-cipher xcs-connection-negotiated-cipher-size x-cs-certificate-subject s-ip ssitename
+❐
+
+streaming:
+
+This is an ELFF format with custom strings of:
+
+c-ip date time c-dns cs-uri-scheme cs-host cs-uri-port cs-uri-path csuri-query c-starttime x-duration c-rate c-status c-playerid cplayerversion c-playerlanguage cs(User-Agent) cs(Referer) c-hostexe chostexever c-os c-osversion c-cpu filelength filesize avgbandwidth
+protocol transport audiocodec videocodec channelURL sc-bytes c-bytes
+s-pkts-sent c-pkts-received c-pkts-lost-client c-pkts-lost-net c-pktslost-cont-net c-resendreqs c-pkts-recovered-ECC c-pkts-recoveredresent c-buffercount c-totalbuffertime c-quality s-ip s-dns stotalclients s-cpu-util x-cache-user s-session-id x-cache-info xclient-address
+❐
+
+surfcontrol, surfcontrolv5,
+
+and smartfilter: These are reserved formats that cannot
+
+be edited.
+❐
+
+12
+
+websense:
+
+This is a reserved format that cannot be edited.
+
+Chapter 2: Creating Custom Access Log Formats
+
+❐
+
+bcreportermain_v1:
+
+This is a reserved format that cannot be edited:
+
+date time time-taken c-ip cs-username cs-auth-group x-exception-id scfilter-result cs-categories cs(Referer) sc-status s-action cs-method
+rs(Content-Type) cs-uri-scheme cs-host cs-uri-port cs-uri-path cs-uriquery cs-uri-extension cs(User-Agent) s-ip sc-bytes cs-bytes x-virusid
+❐
+
+bcreporterssl_v1:
+date time time-taken c-ip cs-username cs-auth-group x-exception-id scfilter-result cs-categories sc-status s-action cs-method rs(ContentType) s-uri-scheme cs-host cs-uri-port cs-uri-extension cs(User-Agent)
+s-ip sc-bytes cs-bytes x-virus-id x-rs-certificate-observed-errors xcs-ocsp-error x-rs-ocsp-error x-rs-connection-negotiated-cipherstrength x-rs-certificate-hostname x-rs-certificate-hostname-category
+
+❐
+
+bcreportermain_v1
+
+format:
+
+date time time-taken c-ip cs-username cs-auth-group x-exception-id scfilter-result cs-categories sc-status s-action cs-method rs(ContentType) cs-uri-scheme cs-host cs-uri-port cs-uri-extension cs(UserAgent) s-ip sc-bytes cs-bytes x-virus-id x-rs-certificate-observederrors x-rs-connection-negotiated-cipher-strength x-rs-certificatehostname x-rs-certificate-hostname-category
+❐
+
+bcreportercifs_v1:
+
+This is a reserved format that cannot be edited:
+
+date time c-ip c-port r-ip r-port x-cifs-uid x-cifs-tid x-cifs-fid xcifs-method x-cifs-server x-cifs-share x-cifs-path x-cifs-orig-path xcifs-client-bytes-read x-cifs-server-bytes-read x-cifs-bytes-written
+x-client-connection-bytes x-server-connection-bytes x-server-adnconnection-bytes x-cifs-client-read-operations x-cifs-client-writeoperations x-cifs-client-other-operations x-cifs-server-operations saction x-cifs-error-code cs-username cs-auth-group s-ip
+
+Note: If you had previously created formats with the name smartreporter or
+surfcontrolv5 and you upgrade the device, those formats are changed to
+smartreporter_user or surfcontrolv5_user. If you already have a log format named
+smartreporter_user or surfcontrolv5_user, then the names become smartreporter_user1
+or surfcontrolv5_user1. This naming protocol continues (_user2, _user3...) as
+
+necessary. The logs associated with these formats are automatically associated
+with the new format name.
+
+Creating a Custom or ELFF Log Format
+First, decide what protocols and log formats to use, and determine the logging
+policy and the upload schedule. Then perform the following:
+❐
+
+Associate a log format with the log facility.
+
+❐
+
+Associate a log facility with a protocol and/or create policies for protocol
+association and to manage the access logs and generate entries in them (if you
+do both, policy takes precedence).
+
+❐
+
+Determine the upload parameters for the log facility.
+
+Complete the following steps to create a custom or ELFF log format.
+
+13
+
+Chapter 2: Creating Custom Access Log Formats
+
+Note: To double-check the format-string syntax, see "Creating a Custom
+
+or ELFF Log Format" on page 13.
+e. From the Multiple-valued header policy drop-down list, select a header to
+log: Log last header, log first header, log all headers. This allows you to
+determine what happens with HTTP-headers that have multiple
+headers.
+f.
+
+Click OK.
+
+4. Click Apply.
+
+Related CLI Syntax to Manage Access Logging
+❐
+
+To enter configuration mode:
+SGOS#(config) access-log
+
+The following subcommands are available:
+SGOS#(config access-log) create log log_name
+SGOS#(config access-log) create format format_name
+SGOS#(config access-log) cancel-upload all
+SGOS#(config access-log) cancel-upload log log_name
+SGOS#(config access-log) default-logging {cifs | epmapper | ftp | http
+| https-forward-proxy | https-reverse-proxy | icp | im | mapi | mms |
+p2p | rtsp | socks | ssl | tcp-tunnel | telnet} log_name
+SGOS#(config access-log) delete log log_name
+SGOS#(config access-log) delete format format_name
+SGOS#(config access-log) disable
+SGOS#(config access-log) early-upload megabytes
+SGOS#(config access-log) edit log log_name—changes the prompt to
+SGOS#(config edit log log_name)
+SGOS#(config access-log) edit format format_name—changes the prompt to
+SGOS#(config edit format format_name)
+SGOS#(config access-log) enable
+SGOS#(config access-log) exit
+SGOS#(config access-log) max-log-size megabytes
+SGOS#(config access-log) no default-logging {cifs | epmapper | ftp |
+http | https-forward-proxy | https-reverse-proxy | icp | im | mapi |
+mms | p2p | rtsp | socks | ssl | tcp-tunnel | telnet}
+SGOS#(config access-log) overflow-policy delete
+SGOS#(config access-log) overflow-policy stop
+SGOS#(config access-log) upload all
+SGOS#(config access-log) upload log log_name
+SGOS#(config access-log) view
+SGOS#(config access-log) view [log [brief | log_name]]
+SGOS#(config access-log) view [format [brief | format_name]]
+SGOS#(config access-log) view [statistics [log_name]]
+SGOS#(config access-log) view [default-logging]
+
+15
+
+Volume 8: Access Logging
+
+16
+
+Chapter 3: Creating and Editing An Access Log Facility
+
+This chapter describes how to modify existing log facilities for your needs. You
+can also create new log facilities for special circumstances, such as associating
+the SurfControl log format with a log facility.
+
+Topics in this Chapter:
+The following topics in this chapter include:
+❐
+
+"Creating a Log Facility" on page 17
+
+❐
+
+"Editing an Existing Log Facility" on page 19
+
+❐
+
+"Deleting a Log Facility" on page 20
+
+❐
+
+"Disabling Access Logging for a Particular Protocol" on page 23
+
+❐
+
+"Configuring Global Settings" on page 23
+
+Creating a Log Facility
+To create new log facilities, continue with the next section. To edit an existing
+log facility, skip to "Configuring Global Settings" on page 23.
+Note: Several log facilities have already been created. Before creating a new
+one, check the existing ones to see if they fit your needs. If you want to use a
+custom log format with the new log facility, you must create the log format
+before associating it with a log (see Chapter 2: "Creating Custom Access Log
+Formats" on page 11).
+To create a log facility:
+
+1. Select Configuration > Access Logging > Logs > Logs.
+2. The log facilities already created are displayed in the Logs tab. To create a
+new log, click New.
+
+17
+
+Chapter 3: Creating and Editing An Access Log Facility
+
+Editing an Existing Log Facility
+Several facilities exist, each associated with a log format. For a description of the
+format, see “Chapter 3: Creating and Editing An Access Log Facility” .
+❐
+
+im (Instant
+
+❐
+
+main:
+
+❐
+
+p2p
+
+❐
+
+ssl: Associated
+
+❐
+
+streaming:
+
+Messaging): Associated with the im format.
+
+Associated with the main format.
+
+(Peer-to-Peer): Associated with the p2p format.
+with the SSL format.
+
+Associated with the streaming format.
+
+Use the following procedures to edit log facilities you have created.
+Note: If you change the log format of a log, remember that ELFF formats require
+an ELFF header in the log (the list of fields being logged are mentioned in the
+header) and that non-ELFF formats do not require this header.
+
+The format of data written to the log changes as soon as the format change is
+applied; for best practices, do a log upload before the format change and
+immediately after (to minimize the number of log lines in a file with mixed log
+formats).
+Upload the log facility before you switch the format.
+To edit an existing log facility:
+
+1. Select Configuration > Access Logging > Logs > General Settings.
+
+19
+
+Volume 8: Access Logging
+
+Note: If you have a policy that defines protocol and log association, that policy
+overrides any settings you make here.
+
+The following list shows the protocols supported and the default log facilities
+assigned to them, if any:
+Table 3–1 Default Log Facility Assignments
+
+Protocol
+
+Assigned Default Log Facility
+
+Endpoint Mapper
+
+main
+
+FTP
+
+main
+
+HTTP
+
+main
+
+HTTPS-Reverse-Proxy
+
+main (Set to the same log facility that HTTP is using
+upon upgrade.)
+
+HTTPS-Forward-Proxy
+
+ssl (If the facility for HTTP, TCP, or SOCKS is set
+before upgrade.)
+
+ICP
+
+none
+
+Instant Messaging
+
+im
+
+MAPI
+
+mapi
+
+Peer to Peer
+
+p2p
+
+RealMedia/QuickTime
+
+streaming
+
+SOCKS
+
+none
+
+SSL
+
+ssl (If the facility for HTTP, TCP or SOCKS is set before
+upgrade.)
+
+TCP Tunnel
+
+main
+
+Telnet
+
+main
+
+Windows Media
+
+streaming
+
+Note: To disable access logging for a particular protocol, you must either disable
+
+the default logging policy for that protocol (see "Disabling Access Logging for a
+Particular Protocol" on page 23) or modify the access logging policy in VPM (refer
+to Volume 6: The Visual Policy Manager and Advanced Policy Tasks).
+To associate a log facility with a protocol:
+
+1. Select Configuration > Access Logging > General > Default Logging.
+2. Highlight the protocol you want to associate with a log facility and click Edit.
+3. Select a log facility from the Default Log drop-down list.
+
+22
+
+Chapter 3: Creating and Editing An Access Log Facility
+
+Note: To disable access logging for that protocol, select none.
+
+4. Click OK to close the dialog.
+5. Click Apply.
+
+Disabling Access Logging for a Particular Protocol
+To disable access logging for a particular protocol:
+
+1. Select Configuration > Access Logging > General > Default Logging.
+2. Highlight the protocol to disable access logging and click Edit.
+3. Select none from the drop-down menu.
+4. Click OK.
+5. Click Apply.
+
+Configuring Global Settings
+You can set global limits for log size and early upload times. These settings can be
+overridden by individual log facilities.
+To set global log facility limits:
+
+1. Select Configuration > Access Logging > General > Global Settings.
+
+23
+
+Chapter 4: Configuring the Upload Client
+
+Blue Coat supports four types of upload client:
+❐
+
+FTP client, the default
+
+❐
+
+HTTP client
+
+❐
+
+Custom client
+
+❐
+
+Websense client
+
+Blue Coat also supports secure FTP, HTTP, and Custom client.
+The Custom client can be used for special circumstances, such as working with
+SurfControl Reporter. Custom client is based on plain sockets.
+Note: You must have a socket server to use the Custom client.
+
+Topics in this Chapter:
+This chapter includes information about the following topics:
+❐
+
+"Encrypting the Access Log" on page 26
+
+❐
+
+"Importing an External Certificate" on page 26
+
+❐
+
+"Digitally Signing Access Logs" on page 27
+
+❐
+
+"Disabling Log Uploads" on page 30
+
+❐
+
+"Decrypting an Encrypted Access Log" on page 31
+
+❐
+
+"Verifying a Digital Signature" on page 31
+
+❐
+
+"Editing Upload Clients" on page 31
+
+The general options you enter in the Upload Client tab affect all clients. Specific
+options that affect individual clients are discussed in the FTP client, HTTP
+client, Custom client, or Websense client panes or the access-log ftp-client,
+https-client, custom-client, or websense-client CLI commands.
+Only one client can be used at any one time. All four can be configured, but
+only the selected client is used.
+The SGOS software provides access logging with two types of uploads to a
+remote server:
+❐
+
+Continuous uploading, where the device continuously streams new access
+log entries from the device memory to a remote server.
+
+❐
+
+Scheduled (periodic) uploading, where the device transmits log entries on a
+scheduled basis. See Chapter 5: "Configuring the Upload Schedule" for
+more information.
+
+25
+
+Volume 8: Access Logging
+
+The SGOS software allows you to upload either compressed access logs or plaintext access logs. The device uses the gzip format to compress access logs. Gzipcompressed files allow more log entries to be stored in the device. Advantages of
+using file compression include:
+❐
+
+Reduces the time and resources used to produce a log file because fewer disk
+writes are required for each megabyte of log-entry text.
+
+❐
+
+Uses less bandwidth when the device sends access logs to an upload server.
+
+❐
+
+Requires less disk space.
+
+Compressed log files have the extension .log.gz. Text log files have the
+extension .log.
+Note: You cannot upload gzip access-log files for the Websense client.
+
+For greater security, you can configure the SGOS software to:
+❐
+
+Encrypt the access log
+
+❐
+
+Sign the access log
+
+Encrypting the Access Log
+To encrypt access log files, you must first place an external certificate on the
+ProxySG (see "Importing an External Certificate" on page 26). The device derives
+a session key from the public key in the external certificate and uses it to encrypt
+the log. When an access log is encrypted, two access log files are produced: an
+ENC file (extension .enc), which is the encrypted access log file, and a DER file
+(extension .der), which contains the ProxySG session key and other information.
+You need four things to decrypt an encrypted access log:
+❐
+
+The ENC file
+
+❐
+
+The DER file
+
+❐
+
+The external (public key) certificate
+
+❐
+
+The corresponding private key
+
+For information about decrypting a log, see "Decrypting an Encrypted Access
+Log" on page 31.
+Note: The encryption feature is not available for custom or Websense clients.
+
+Importing an External Certificate
+You can import an X.509 certificate into the ProxySG to use for encrypting data.
+To Import an external certificate:
+
+1. Copy the certificate onto the clipboard.
+2. Select Configuration > SSL > External Certificates.
+3. Click Import.
+
+26
+
+Chapter 4: Configuring the Upload Client
+
+4. Enter the name of the external certificate into the External Cert Name field and
+paste the certificate into the External Certificate field. Be sure to include the ---BEGIN CERTIFICATE---- and -----END CERTIFICATE---- statements.
+5. Click OK.
+6. Click Apply to commit the changes to the ProxySG.
+
+Deleting an External Certificate
+To delete an external certificate:
+
+1. Select Configuration > SSL > External Certificates.
+2. Highlight the name of the external certificate to be deleted.
+3. Click Delete.
+4. Click OK in the Confirm Delete dialog that displays.
+5. Click Apply.
+
+Digitally Signing Access Logs
+You can digitally sign access logs to certify that a particular ProxySG wrote and
+uploaded this log file. Signing is supported for both content types— text and
+gzip—and for both upload types—continuous and periodic. Each log file has a
+signature file associated with it that contains the certificate and the digital
+
+27
+
+Volume 8: Access Logging
+
+signature for verifying the log file. The signature file has the same name as the
+access log file but with a .sig extension; that is, filename.log.sig, if the access
+log is a text file, or filename.log.gzip.sig, if the access log is a gzip file.
+Note: Signing is disabled by default.
+
+You can digitally sign your access log files with or without encryption. If the log is
+both signed and encrypted, the signing operation is done first, meaning that the
+signature is calculated on the unencrypted version of the file. You must decrypt
+the log file before verifying the file. Attempting to verify an encrypted file fails.
+When you create a signing keyring (which must be done before you enable digital
+signing), keep in mind the following:
+❐
+
+The keyring must include an external certificate. (An external certificate is one
+for which the ProxySG does not have the private key.).
+
+❐
+
+The certificate purpose must be set for smime signing. If the certificate purpose
+is set to anything else, you cannot use the certificate for signing.
+
+❐
+
+Add the %c parameter in the filenames format string to identify the keyring
+used for signing. If encryption is enabled along with signing, the %c parameter
+expands to keyringName_Certname.
+
+Note: The signing feature is not available for custom or Websense clients.
+
+For information about verifying a log, see "Verifying a Digital Signature" on page
+31.
+To configure the upload client:
+
+1. Select Configuration > Access Logging > Logs > Upload Client.
+
+28
+
+Volume 8: Access Logging
+
+Note: If you are configuring a SurfControl Custom client, select the text file
+
+radio button.
+If you select text file, you can change the Send partial buffer after n seconds
+field to the time you need (30 seconds is the default).
+This field configures the maximum time between text log packets,
+meaning that it forces a text upload after the specified length of time even
+if the internal log buffer is not full. If the buffer fills up before the time
+specified in this setting, the text uploads right away, and is not affected by
+this maximum setting.
+Note: If you selected gzip file, the Send partial buffer after n seconds field is not
+
+configurable. Also, this setting is only valid for continuous uploading (see
+Chapter 5: "Configuring the Upload Schedule" for information about
+continuous uploading).
+d. (Optional) To manage the bandwidth for this log facility, select a
+bandwidth class from the Bandwidth Class drop-down list.
+The default setting is none, which means that bandwidth management is
+disabled for this log facility by default.
+Note: Before you can manage the bandwidth for this log facility, you must
+
+first create a bandwidth-management class. It is the log facility that is
+bandwidth-managed—the upload client type does not affect this setting.
+Refer to Volume 5: Advanced Networking for information about enabling
+bandwidth management and creating and configuring the bandwidth class.
+Less bandwidth slows down the upload, while more could flood the network.
+5. Click Apply.
+
+Disabling Log Uploads
+To disable log uploads, set the upload client-type to none.
+To disable an upload:
+
+1. Select Configuration > Access Logging > Logs > Upload Client.
+2. Select the log facility for which you want to disable an upload from the Log
+drop-down menu.
+3. Select NONE from the Client type drop-down menu.
+4. Click Apply.
+
+30
+
+Chapter 4: Configuring the Upload Client
+
+Decrypting an Encrypted Access Log
+To decrypt an encrypted access log, you must concatenate the DER and ENC files
+(with the DER file in front of the ENC file) and use a program such as OpenSSL
+for decryption. For example, use the following UNIX command and a tool such as
+OpenSSL to concatenate the DER and ENC files and decrypt the resulting file:
+cat path/filename_of_DER_file path/filename_of_ENC_file | openssl
+smime -decrypt -inform DER -binary -inkey path/filename_of_private_key
+-recip path/filename_of_external_certificate -out path/
+filename_for_decrypted_log_file
+
+You can also download a script based on the OpenSSL tool for decryption. Go to
+https://download.bluecoat.com/release/SG4/files/accesslog_decrypt.zip.
+
+Verifying a Digital Signature
+If the file whose digital signature you want to verify is also encrypted, you must
+decrypt the file prior to verifying the signature. (See "Decrypting an Encrypted
+Access Log" on page 31 above for more information.)
+You can use a program such as OpenSSL to verify the signature. For example, use
+the following command in OpenSSL:
+openssl smime -CAfile cacrt -verify -in filename.sig -content
+filename.log -inform DER -out logFile
+
+where
+cacrt
+
+The CA certificate used to issue the certificate in the signature
+file.
+
+filename.sig
+
+The file containing the digital signature of the log file.
+
+filename.log
+
+The log file generated after decryption. If the access log is a gzip
+file, it contains a .gz extension.
+
+logFile
+
+The filename that is generated after signature verification.
+
+Editing Upload Clients
+Four upload clients are supported by Blue Coat: FTP, HTTP, Custom, and
+Websense. Each of these clients are described below. You can also create a
+SurfControl or SmartFilter upload client.
+Multiple upload clients can be configured per log facility, but only one can be
+enabled and used per upload.
+
+Editing the FTP Client
+To edit the FTP client:
+
+1. Select Configuration > Access Logging > Logs > Upload Client.
+See Chapter 4: "Configuring the Upload Client" for configuration
+information.
+2. Select FTP Client from the Client type drop-down list. Click the Settings button.
+
+31
+
+Chapter 4: Configuring the Upload Client
+
+Note: Be cautious if you change the Filename field. If an ongoing series of
+
+access logs files are produced and you do not have time-specifiers in this field,
+each access log file produced overwrites the old file. Also, if you use more
+than one external certificate to encrypt logs, include the %c specifier in the
+Filename field to keep track of which external certificate was used to encrypt
+the uploaded log file.
+6. Secure Connections: If you use FTPS, select the Use secure connections (SSL)
+checkbox. The remote FTP server must support FTPS.
+7. Local Time: If you want the upload to reflect the local time it was uploaded
+instead of Universal Time Coordinates (UTC), select Local Time.
+8. Use PASV: With Use PASV selected (the default), the ProxySG connects to the
+FTP server. With Use PASV de-selected, the FTP server uses the PORT
+command to connect to the ProxySG.
+9. Click OK.
+10. Click Apply.
+
+Editing the HTTP Client
+Access log uploads done through an HTTP/HTTPS client use the HTTP PUT
+method. The destination HTTP server (where the access logs are being uploaded)
+must support this method. Microsoft's IIS allows the server to be directly
+configured for write (PUT/DELETE) access. Other servers, such as Apache,
+require installing a new module for the PUT method for access log client uploads.
+You can create either an HTTP or an HTTPS upload client through the HTTP
+Client dialog. (Create an HTTPS client by selecting Use secure connections (SSL).)
+Note: To create an HTTPS client, you must also import the appropriate CA
+
+Certificate. For information, refer to Volume 2: Proxies and Proxy Services.
+To edit the HTTP client:
+
+1. Select Configuration > Access Logging > Logs > Upload Client.
+See Chapter 4: "Configuring the Upload Client" on page 25 for configuration
+information.
+2. Select HTTP Client from the Client type drop-down list. Click Settings.
+
+33
+
+Volume 8: Access Logging
+
+Editing the Custom SurfControl Client
+Use the Custom Client to create an upload client that uploads information to
+SurfControl Reporter. Before you begin, verify that:
+❐
+
+You have created a log (see Chapter 3: "Creating and Editing An Access Log
+Facility").
+
+❐
+
+You have associated the SurfControl log format with the log you created (see
+Chapter 3: "Creating and Editing An Access Log Facility").
+
+To edit the SurfControl client:
+
+1. Select Configuration > Access Logging > Logs > Upload Client.
+See Chapter 4: "Configuring the Upload Client" for configuration
+information.
+2. From the Log drop-down list, select the SurfControl log that you associated
+with the SurfControl log format.
+3. Verify the Save the log file as radio button is set to text file, not gzip file.
+4. Select Custom Client from the Client type drop-down list.
+Note: For specific information on managing upload clients, see "Editing the
+Custom Client" on page 35.
+
+5. Click the Settings button for that client.
+6. Customize the upload client for SurfControl Reporter.
+a. Enter the hostname, path, and username, if necessary, for the
+SurfControl Reporter server.
+b. Ensure the filename extension is .tmp and not .gzip or .log.
+SurfControl only recognizes files with a .tmp extension.
+c. If your SurfControl server supports SSL, select the Use secure
+connections (SSL) checkbox.
+7. Click OK.
+8. Click Apply.
+
+Editing the Websense Client
+Before you begin, verify you have created a Websense log using the Websense log
+format and configured the log to your environment. See Chapter 3: "Creating
+and Editing An Access Log Facility".
+Note: You cannot upload gzip access log files with the Websense client.
+
+36
+
+Chapter 4: Configuring the Upload Client
+To edit the Websense client:
+
+1. Select Configuration > Access Logging > Logs > Upload Client.
+2. Select the Websense Client from the Client type drop-down list. Click Settings.
+
+3. From the Settings for drop-down list, select the primary or alternate server you
+want to configure.
+4. Fill in the fields as appropriate:
+a. Host: Enter the hostname of the primary Websense Server.
+b. Port: The default is 55805, but you can change it if the Websense Server
+is using a different port.
+5. Repeat for the Alternate Websense Server.
+6. Click OK.
+7. Click Apply.
+
+Troubleshooting
+❐
+
+Problem: The ProxySG is uploading logs more frequently than expected.
+Description: If access logging is enabled, logs can accrue on the ProxySG’s
+hard drive even if the upload client is not configured for specific protocols
+(often the case if you configured streaming, IM, or P2P). Eventually the size of
+these combined logs, triggers the global Start an Early upload threshold
+(Configuration > Access Logging > General > Global Settings. The ProxySG attempts
+to upload all configured logs more often than expected. For example, a main
+log that is configured for upload every 24 hours starts to upload small
+portions of the main log every 10 minutes.
+Solution: To prevent the access logs that do not have an upload client
+configured from triggering the Start an Early upload threshold, edit the default
+logs for each protocol that you do not need uploaded. Set them to <None> from
+the Configuration > Access Logging > Logs > Upload Client tab.
+
+37
+
+Volume 8: Access Logging
+
+38
+
+Chapter 5: Configuring the Upload Schedule
+
+This chapter describes the Upload Schedule, which allows you to configure the
+frequency of the access logging upload to a remote server, the time between
+connection attempts, the time between keep-alive packets, the time at which
+the access log is uploaded, and the protocol that is used.
+
+Topics in this Chapter:
+The following topics are included in this chapter:
+❐
+
+"Configuring a Log for Uploading" on page 39
+
+❐
+
+"Testing Access Log Uploading" on page 42
+
+❐
+
+"Viewing Access-Log Statistics" on page 42
+
+❐
+
+"Example: Using VPM to Prevent Logging of Entries Matching a Source IP"
+on page 47
+
+Configuring a Log for Uploading
+You can specify either periodic uploading or continuous uploading. Both periodic
+and continuous uploading can send log information from an SG appliance farm
+to a single log analysis tool. This allows you to treat multiple appliances as a
+single entity and to review combined information from a single log file or series
+of related log files.
+With periodic uploading, the SGOS software transmits log entries on a
+scheduled basis (for example, once daily or at specified intervals) as entries are
+batched, saved to disk, and uploaded to a remote server.
+Note: When you configure a log for continuous uploading, it continues to
+
+upload until you stop it. To stop continuous uploading, switch to periodic
+uploading temporarily. This is sometimes required for gzip or encrypted files,
+which must stop uploading before you can view them.
+With continuous uploading, the ProxySG continuously streams new access log
+entries from the device memory to a remote server. Here, streaming refers to the
+real-time transmission of access log information. The SGOS software transmits
+access log entries using the specified client, such as FTP client. A keep-alive is
+sent to keep the data connection open.
+Continuous uploading allows you to view the latest logging information
+almost immediately, send log information to a log analysis tool for real-time
+processing and reporting, maintain the ProxySG performance by sending log
+information to a remote server (avoiding disk writes), and save device disk
+space by saving log information on the remote server.
+
+39
+
+Volume 8: Access Logging
+
+If the remote server is unavailable to receive continuous upload log entries, the
+SGOS software saves the log information on the device disk. When the remote
+server is available again, the appliance resumes continuous uploading.
+Note: If you do not need to analyze the upload entries in real time, use periodic
+uploading because it is more reliable than continuous uploading.
+
+If there is a problem configuring continuous uploading to Microsoft Internet
+Information Server (IIS), use periodic uploading instead.
+To configure the upload schedule:
+
+1. Select Configuration > Access Logging > Logs > Upload Schedule.
+
+40
+
+Volume 8: Access Logging
+
+•
+
+Periodic Upload: You can upload the access logs now or you can cancel
+any access-log upload currently in progress (if you are doing periodic
+uploads). You can rotate the access logs now (if you are doing continuous
+uploads). These actions do not affect the next scheduled upload time.
+
+•
+
+Cancel upload (for periodic uploads) allows you to stop repeated upload
+attempts if the Web server becomes unreachable while an upload is in
+progress. Clicking this sets log uploading back to idle if the log is waiting
+to retry the upload. If the log file is in the process of uploading, it takes
+time for it to take effect.
+
+6. Click Apply.
+
+Testing Access Log Uploading
+For the duration of the test, configure the event log to use the verbose event level
+(refer to Volume 9: Managing the Blue Coat ProxySG). This logs more complete log
+information. After you test uploading, you can check the event log for the test
+upload event and determine whether any errors occurred (go to Statistics > Event
+Logging). You cannot check the event log.
+To test access log uploading:
+
+You can do a test access log upload. Before you begin, make sure you have
+configured the upload client completely.
+1. Select Configuration > Access Logging > Logs > Upload Client.
+2. Click Test Upload.
+3. Click OK in the Test upload dialog.
+4. Check the event log for upload results: go to Statistics > Event Logging.
+
+Viewing Access-Log Statistics
+View access-log statistics from the Management Console or the CLI. Not all
+statistics you can view in the Management Console are available in the CLI.
+You can also view some access log statistics by navigating to Statistics > Advanced
+and clicking Access Log. Statistics you can view from Statistics > Advanced include:
+❐
+
+Show list of all logs:
+
+The access log manages multiple log objects internally.
+These are put together as one logical access log file when the file is uploaded.
+The show list shows the available internal log objects for easy access. To
+download part of the access log instead of the whole log file, click on the
+individual log object shown in the list. The latest log object can be identified
+by its timestamp.
+
+Note: If you have multiple access logs, each access log has its own list of
+objects.
+❐
+
+42
+
+Show access log statistics:
+
+The statistics of an individual access log is shown.
+
+Chapter 5: Configuring the Upload Schedule
+
+Show statistics of all logs:
+
+❐
+
+The statistics of all the access logs on the system are
+displayed in a single list.
+
+❐
+
+Show last N bytes in the log:
+
+❐
+
+Show last part of log every time it changes:
+
+❐
+
+The last N bytes in the log are shown.
+
+A stream of the latest log entries is
+shown on the page as they are written in the system.
+
+Show access log tail with optional refresh time: A refresh from the browser displays
+
+the latest log entries.
+❐
+
+Show access log objects:
+
+The statistics of individual access log objects are
+
+displayed.
+❐
+
+Show all access log objects: The statistics of all access log object are displayed in
+
+a single list.
+
+Viewing the Access Log Tail
+This option is not available through the CLI.
+To display the access log tail:
+
+1. Select Statistics > Access Logging > Log Tail.
+
+2. From the Log drop-down list, select the log to view.
+3. Click Start Tail to display the access log tail.
+The ProxySG displays a maximum of 500 lines. Entries that pre-date these 500
+lines are not displayed.
+4. Click Stop Tail to stop the display or Clear Tail to clear the display.
+
+Viewing the Log File Size
+The Log Size tab displays current log statistics:
+❐
+
+Whether the log is being uploaded (Table 5–1, " Log Writing Status
+Description" describes upload statuses)
+
+43
+
+Volume 8: Access Logging
+
+❐
+
+The current size of all access log objects
+
+❐
+
+Disk space usage
+
+❐
+
+Last modified time
+
+❐
+
+Estimated size of the access log file, once uploaded
+
+Table 5–1
+
+Log Writing Status Description
+
+Status
+
+Description
+
+active
+
+Log writing is active.
+
+active - early upload
+
+The early upload threshold has been reached.
+
+disabled
+
+An administrator has disabled logging.
+
+idle
+
+Log writing is idle.
+
+initializing
+
+The system is initializing.
+
+shutdown
+
+The system is shutting down.
+
+stopped
+
+The access log is full. The maximum log size has
+been reached.
+
+unknown
+
+A system error has occurred.
+
+Estimated compressed size of the uploaded access log and ProxySG access log
+size might differ during uploading. This occurs because new entries are created
+during the log upload.
+To view the access log size statistic:
+
+1. Select Statistics > Access Logging > Log Size.
+
+2. From the Log drop-down list, select a log to view.
+
+Viewing Access Logging Status
+The SGOS software displays the current access logging status on the Management
+Console. This includes separate status information about:
+
+44
+
+❐
+
+The writing of access log information to disk
+
+❐
+
+The client the ProxySG uses to upload access log information to the remote
+server
+
+Chapter 5: Configuring the Upload Schedule
+To view access logging upload status:
+
+1. Select Statistics > Access Logging > Upload Status.
+
+2. Under Status of Last Upload, check the appropriate status information displayed
+in the Upload client field.
+3. Check the other status information. For information about the status, see the
+table below.
+Table 5–2 Upload Status Information
+
+Status
+
+Description
+
+Connect time
+
+The last time a client connection was made or attempted.
+
+Remote filename
+
+The most recent upload filename. If an access log was
+encrypted, only the encrypted access log file (the ENC file)
+displays.
+
+Remote size
+
+The current size of the upload file. If an access log was
+encrypted, only the encrypted access log file size (the ENC
+file) displays. The private key file (the DER file) varies, but
+is usually about 1 Kb.
+
+Maximum bandwidth
+
+The maximum bandwidth used in the current or last
+connection.
+
+Current bandwidth
+
+The bandwidth used in the last second (available only if
+currently connected).
+
+Final result
+
+The result of the last upload attempt (success or failure).
+This is available only if not connected.
+
+Viewing Access-Log Statistics
+In the CLI, you can view all access log statistics at once, or you can view the
+statistics of a specific access log. For details of the meaning of these statistics, see
+"Viewing the Log File Size" on page 43 and "Viewing Access Logging Status" on
+page 44.
+To view access logging statistics:
+
+1. To view the statistics for all access logs at once, enter the following command:
+
+45
+
+Volume 8: Access Logging
+
+SGOS# show access-log statistics
+
+2. To view the statistics for a specific access log, enter the following command:
+SGOS# show access-log statistics log_name
+
+The statistics for the access log Main are displayed below as an example:
+SGOS#(config) show access-log statistics main
+Statistics:
+Access Log (main) Statistics:
+Log Manager Version 3
+Log entry lifetime counter:
+0
+System Status:
+Log manager:
+enabled and running
+Upload client:
+disabled
+Log writer:
+idle
+Log reader:
+idle
+Log Information:
+Current log size:
+0 bytes
+Early upload threshold:
+1736 MB
+Maximum log size:
+2170 MB
+Max size policy:
+stop logging
+Bytes in write buffer :
+0
+Tail sockets in use :
+0
+Modified time:
+2004-08-26 22:10:49+00:00UTC
+Next Upload:
+Client type:
+ftp
+Next attempt:
+uploading disabled
+Connect type:
+daily upload
+Connect reason:
+regular upload
+Estimated upload size:
+compressed:
+nothing to upload
+uncompressed:
+nothing to upload
+Upload format:
+gzip
+Last Upload Attempt:
+Time:
+never uploaded
+Maximum bandwidth:
+0.00 KB/sec
+Result:
+failure
+Current/Last Upload File:
+Remote filename:
+Never rotated
+Remote size:
+0 bytes
+Using Access Logging with Policy Rules
+
+After configuration is complete, you must create rules to manage the access logs
+you set up. You can create rules through the Visual Policy Manager module of the
+Management Console, or you can use Content Policy Language (CPL) directly
+(refer to Volume 10: Content Policy Language Guide).
+Actions you can do to manage access logging:
+
+46
+
+❐
+
+Reset logging to its default
+
+❐
+
+Disable all logging
+
+❐
+
+Add logging to a log file
+
+❐
+
+Disable logging to a log file
+
+❐
+
+Override specific access-log fields
+
+Chapter 5: Configuring the Upload Schedule
+
+You can also set the list of logs to be used, but you must use CPL to create this
+action. It is not available through the VPM.
+The first two actions—reset logging to its default and disable all logging—are
+referred to as constant actions, just like the allow/deny actions. Select only one
+per rule.
+All of the actions are allowed in all layers. If you use the VPM, the access-logging
+actions display in the VPM policy; if you use CPL, you can put the actions into
+any file, but Blue Coat recommends you use the Local file.
+
+Example: Using VPM to Prevent Logging of Entries Matching a Source IP
+Complete the following steps to prevent a source IP address from being logged.
+To prevent a source IP address from being logged:
+
+1. Create a Web Access Layer:
+a. Select Configuration > Policy > Visual Policy Manager; click Launch.
+
+b. In the VPM, select Policy > Add Web Access Layer.
+c. Enter a layer name into the dialog that appears and click OK.
+
+47
+
+Appendix A: Access Log Formats
+
+This chapter describes the access log formats that are created by ProxySG:
+❐
+
+"Custom or W3C ELFF Format"
+
+❐
+
+"SQUID-Compatible Format" on page 52
+
+❐
+
+"NCSA Common Access Log Format" on page 54
+
+ELFF is a log format defined by the W3C that contains information about
+Windows Media and RealProxy logs.
+The ProxySG can create access logs with any one of six formats. Four of the six
+are reserved formats and cannot be configured. However, you can create
+additional logs using custom or ELFF format strings.
+When using an ELFF or custom format, a blank field is represented by a dash
+character. When using the SQUID or NCSA log format, a blank field is
+represented according to the standard of the format.
+
+Custom or W3C ELFF Format
+The W3C Extended Log File Format (ELFF) is a subset of the Blue Coat Systems
+format. The ELFF format is specified as a series of space delimited fields. Each
+field is described using a text string. The types of fields are described in
+Table A–1.
+Table A–1 Field Types
+
+Field Type
+
+Description
+
+Identifier
+
+A type unrelated to a specific party, such as date and
+time.
+
+prefix-identifier
+
+Describes information related to a party or a transfer, such
+as c-ip (client’s IP) or sc-bytes (how many bytes were
+sent from the server to the client)
+
+prefix (header)
+
+Describes a header data field. The valid prefixes are:
+c = Client
+s = Server
+r = Remote
+sr = Server to Remote
+
+cs = Client to Server
+sc = Server to Client
+rs = Remote to Server
+
+ELFF formats are created by selecting a corresponding custom log format using
+the table below. Unlike the Blue Coat custom format, ELFF does not support
+character strings and require a space between fields.
+Selecting the ELFF format does the following:
+❐
+
+Puts one or more W3C headers into the log file. Each header contains the
+following lines:
+
+49
+
+Volume 8: Access Logging
+
+#Software: SGOS x.x.x
+#Version: 1.0
+#Date: 2002-06-06 12:12:34
+#Fields: date time cs-ip…
+❐
+
+Changes all spaces within fields to + or %20. The ELFF standard requires that
+spaces only be present between fields.
+
+ELFF formats are described in Table A–2.
+Table A–2 Blue Coat Custom Format and Extended Log File Format
+
+50
+
+Blue Coat
+Custom Format
+
+Extended Log
+File Format
+
+Description
+
+space character
+
+N/A
+
+Multiple consecutive spaces are compressed to
+a single space.
+
+%
+
+-
+
+Denotes an expansion field.
+
+%%
+
+-
+
+Denotes '%' character.
+
+%a
+
+c-ip
+
+IP address of the client
+
+%b
+
+sc-bytes
+
+Number of bytes sent from appliance to client
+
+%c
+
+rs(ContentType)
+
+Response header: Content-Type
+
+%d
+
+s-suppliername
+
+Hostname of the upstream host (not available
+for a cache hit)
+
+%e
+
+time-taken
+
+Time taken (in milliseconds) to process the
+request
+
+%f
+
+sc-filtercategory
+
+Content filtering category of the request URL
+
+%g
+
+timestamp
+
+Unix type timestamp
+
+%h
+
+c-dns
+
+Hostname of the client (uses the client's IP
+address to avoid reverse DNS)
+
+%i
+
+cs-uri
+
+The 'log' URL.
+
+%j
+
+-
+
+[Not used.]
+
+%k
+
+-
+
+[Not used.]
+
+%l
+
+x-bluecoatspecial-empty
+
+Resolves to an empty string
+
+%m
+
+cs-method
+
+Request method used from client to appliance
+
+%n
+
+-
+
+[Not used.]
+
+%o
+
+-
+
+[Not used.]
+
+%p
+
+r-port
+
+Port from the outbound server URL
+
+%q
+
+-
+
+[Not used.]
+
+%r
+
+cs-requestline
+
+First line of the client's request
+
+%s
+
+sc-status
+
+Protocol status code from appliance to client
+
+%t
+
+gmttime
+
+GMT date and time of the user request in
+format: [DD/MM/YYYY:hh:mm:ss GMT]
+
+Appendix A: Access Log Formats
+
+Table A–2 Blue Coat Custom Format and Extended Log File Format (Continued)
+
+Blue Coat
+Custom Format
+
+Extended Log
+File Format
+
+Description
+
+%u
+
+cs-user
+
+Qualified username for NTLM. Relative
+username for other protocols
+
+%v
+
+cs-host
+
+Hostname from the client's request URL. If URL
+rewrite policies are used, this field's value is
+derived from the 'log' URL
+
+%w
+
+s-action
+
+What type of action did the Appliance take to
+process this request.
+
+%x
+
+date
+
+GMT Date in YYYY-MM-DD format
+
+%y
+
+time
+
+GMT time in HH:MM:SS format
+
+%z
+
+s-icap-status
+
+ICAP response status
+
+%A
+
+cs(User-Agent)
+
+Request header: User-Agent
+
+%B
+
+cs-bytes
+
+Number of bytes sent from client to appliance
+
+%C
+
+cs(Cookie)
+
+Request header: Cookie
+
+%D
+
+s-supplier-ip
+
+IP address used to contact the upstream host
+(not available for a cache hit)
+
+%E
+
+-
+
+[Not used.]
+
+%F
+
+-
+
+[Not used.]
+
+%G
+
+-
+
+[Not used.]
+
+%H
+
+s-hierarchy
+
+How and where the object was retrieved in the
+cache hierarchy.
+
+%I
+
+s-ip
+
+IP address of the appliance on which the client
+established its connection
+
+%J
+
+-
+
+[Not used.]
+
+%K
+
+-
+
+[Not used.]
+
+%L
+
+localtime
+
+Local date and time of the user request in
+format: [DD/MMM/YYYY:hh:mm:ss +nnnn]
+
+%M
+
+-
+
+[Not used.]
+
+%N
+
+s-computername
+
+Configured name of the appliance
+
+%O
+
+-
+
+[Not used.]
+
+%P
+
+s-port
+
+Port of the appliance on which the client
+established its connection
+
+%Q
+
+cs-uri-query
+
+Query from the 'log' URL.
+
+%R
+
+cs(Referer)
+
+Request header: Referer
+
+%S
+
+s-sitename
+
+The service type used to process the transaction
+
+%T
+
+duration
+
+Time taken (in seconds) to process the request
+
+%U
+
+cs-uri-path
+
+Path from the 'log' URL. Does not include
+query.
+
+%V
+
+cs-version
+
+Protocol and version from the client's request,
+e.g. HTTP/1.1
+
+51
+
+Volume 8: Access Logging
+
+Table A–2 Blue Coat Custom Format and Extended Log File Format (Continued)
+
+Blue Coat
+Custom Format
+
+Extended Log
+File Format
+
+Description
+
+%W
+
+sc-filterresult
+
+Content filtering result: Denied, Proxied or
+Observed
+
+%X
+
+cs(XForwarded-For)
+
+Request header: X-Forwarded-For
+
+%Y
+
+-
+
+[Not used.]
+
+%Z
+
+s-icap-info
+
+ICAP response information
+
+Example Access Log Formats
+Squid log format: %g %e %a %w/%s %b %m %i %u %H/%d %c
+NCSA common log format: %h %l %u %t “%r” %s %b
+NCSA extended log format: %h %l %u %L "%r" %s %b "%R" "%A"
+Microsoft IIS format: %a, -, %x, %y, %S, %N, %I, %e, %b, %B, %s, 0, %m,
+%U, -
+
+The Blue Coat custom format allows any combination of characters and format
+fields. Multiple spaces are compressed to a single space in the actual access log.
+You can also enter a string, such as My default is %d. The ProxySG goes through
+such strings and finds the relevant information. In this case, that information is %d.
+
+SQUID-Compatible Format
+The SQUID-compatible format contains one line for each request. For SQUID-1.1,
+the format is:
+time elapsed remotehost code/status bytes method URL rfc931
+peerstatus/peerhost type
+
+For SQUID-2, the columns stay the same, though the content within might change
+a little.
+
+Action Field Values
+Table A–3 describes the possible values for the action field.
+Table A–3 Action Field Values
+
+52
+
+Value
+
+Description
+
+ACCELERATED
+
+(SOCKS only) The request was handed to the appropriate
+protocol agent for handling.
+
+ALLOWED
+
+An FTP method (other than the data transfer method) is
+successful.
+
+DENIED
+
+Policy denies a method.
+
+FAILED
+
+An error or failure occurred.
+
+LICENSE_EXPIRED
+
+(SOCKS only) The request could not be handled because the
+associated license has expired.
+
+Appendix A: Access Log Formats
+Table A–3 Action Field Values (Continued)
+
+Value
+
+Description
+
+TUNNELED
+
+Successful data transfer operation.
+
+TCP_
+
+Refers to requests on the HTTP port.
+
+TCP_AUTH_HIT
+
+The requested object requires upstream authentication, and was
+served from the cache.
+
+TCP_AUTH_MISS
+
+The requested object requires upstream authentication, and was
+not served from the cache. This is part of CAD (Cached
+Authenticated Data).
+
+TCP_AUTH_REDIREC
+T
+
+The client was redirected to another URL for authentication.
+
+TCP_CLIENT_REFRE
+SH
+
+The client forces a revalidation with the origin server with a
+Pragma: no-cache. If the server returns 304 Not Modified,
+this appears in the Statistics:Efficiency file as In
+Cache, verified Fresh.
+
+TCP_DENIED
+
+Access to the requested object was denied by a filter.
+
+TCP_ERR_MISS
+
+An error occurred while retrieving the object from the origin
+server.
+
+TCP_HIT
+
+A valid copy of the requested object was in the cache.
+
+TCP_LOOP
+
+The current connection is dropped because the upstream
+connection would result in a looped connection.
+
+TCP_MEM_HIT
+
+The requested object was, in its entirety, in RAM.
+
+TCP_MISS
+
+The requested object was not in the cache.
+
+TCP_NC_MISS
+
+The object returned from the origin server was non-cacheable.
+
+TCP_PARTIAL_MISS
+
+The object is in the cache, but retrieval from the origin server is
+in progress.
+
+TCP_POLICY_REDIR
+ECT
+
+The client was redirected to another URL due to policy.
+
+TCP_REFRESH_HIT
+
+A GIMS request to the server was forced and the response was
+304 Not Modified, this appears in the
+Statistics:Efficiency file as In Cache, verified Fresh.
+
+TCP_REFRESH_MISS
+
+A GIMS request to the server was forced and new content was
+returned.
+
+TCP_RESCAN_HIT
+
+The requested object was found in the cache but was rescanned
+because the virus-scanner-tag-id in the object was different
+from the current scanner tag.
+
+TCP_SPLASHED
+
+The user was redirected to a splash page.
+
+TCP_SWAPFAIL
+
+The object was believed to be in the cache, but could not be
+accessed.
+
+53
+
+Volume 8: Access Logging
+Table A–3 Action Field Values (Continued)
+
+Value
+
+Description
+
+TCP_TUNNELED
+
+The CONNECT method was used to tunnel this request
+(generally proxied HTTPS).
+
+UDP_
+
+Refers to requests on the ICP port (3130).
+
+UDP_DENIED
+
+Access was denied for this request.
+
+UDP_HIT
+
+A valid copy of the requested object was in the cache. This value
+is also used with ICP queries.
+
+UDP_INVALID
+
+The ICP request was corrupt, short, or otherwise unintelligible.
+
+UDP_MISS
+
+The requested object was not in the cache. This value is also
+used with ICP queries.
+
+UDP_MISS_NOFETCH
+
+An ICP request was made to this cache for an object not in the
+cache. The requestor was informed that it could not use this
+cache as a parent to retrieve the object. (This is not supported at
+this time.)
+
+UDP_OBJ
+
+An ICP request was made to this cache for an object that was in
+cache, and the object was returned through UDP. (This is not
+supported at this time. This functionality is deprecated in the
+current ICP specification.)
+
+NCSA Common Access Log Format
+The common log format contains one line for each request. The format of each log
+entry is shown below:
+remotehost rfc931 authuser [date] “request” status bytes
+
+Each field is described in Table A–4.
+Table A–4 Log Entry Fields
+
+Field Name
+
+Description
+
+remotehost
+
+DNS hostname or IP address of remote server.
+
+rfc931
+
+The remote log name of the user. This field is always —.
+
+authuser
+
+The username as which the user has authenticated himself.
+
+[date]
+
+Date and time of the request.
+
+“request”
+
+The request line exactly as it came from the client.
+
+status
+
+The HTTP status code returned to the client.
+
+bytes
+
+The content length of the document transferred.
+
+Access Log Filename Formats
+Table A–5 details the specifiers for the access log upload filenames.
+
+54
+
+Appendix A: Access Log Formats
+
+Table A–5 Specifiers for Access Log Upload Filenames
+
+Specifier
+
+Description
+
+%%
+
+Percent sign.
+
+%a
+
+Abbreviated weekday name.
+
+%A
+
+Full weekday name.
+
+%b
+
+Abbreviated month name.
+
+%B
+
+Full month name.
+
+%c
+
+The certificate name used for encrypting the log file (expands to nothing in
+non-encrypted case).
+
+%C
+
+The ProxySG name.
+
+%d
+
+Day of month as decimal number (01 – 31).
+
+%f
+
+The log name.
+
+%H
+
+Hour in 24-hour format (00 – 23).
+
+%i
+
+First IP address of the ProxySG, displayed in x_x_x_x format, with leading
+zeros removed.
+
+%I
+
+Hour in 12-hour format (01 – 12).
+
+%j
+
+Day of year as decimal number (001 – 366).
+
+%l
+
+The fourth part of the ProxySG IP address, using three digits
+(001.002.003.004)
+
+%m
+
+Month as decimal number (01 – 12).
+
+%M
+
+Minute as decimal number (00 – 59).
+
+%p
+
+Current locale’s A.M./P.M. indicator for 12-hour clock.
+
+%S
+
+Second as decimal number (00 – 59).
+
+%U
+
+Week of year as decimal number, with Sunday as first day of week (00 –
+53).
+
+%w
+
+Weekday as decimal number (0 – 6; Sunday is 0).
+
+%W
+
+Week of year as decimal number, with Monday as first day of week (00 –
+53).
+
+%y
+
+Year without century, as decimal number (00 – 99).
+
+%Y
+
+Year with century, as decimal number.
+
+%z, %Z
+
+Time-zone name or abbreviation; no characters if time zone is unknown.
+
+55
+
+Volume 8: Access Logging
+
+Fields Available for Creating Access Log Formats
+The following table lists all fields available for creating access log formats. When
+creating an ELFF format, you must use the values from the ELFF column. When
+creating a custom format, you can use values from the ELFF, CPL, or custom
+column.
+Table A–6 Access Log Formats
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+Category: bytes
+csbodylength
+cs-bytes
+
+Number of bytes in the body
+(excludes header) sent from
+client to appliance
+%B
+
+Number of bytes sent from client
+to appliance
+
+csheaderlength
+
+Number of bytes in the header
+sent from client to appliance
+
+rsbodylength
+
+Number of bytes in the body
+(excludes header) sent from
+upstream host to appliance
+
+rs-bytes
+
+Number of bytes sent from
+upstream host to appliance
+
+rsheaderlength
+
+Number of bytes in the header
+sent from upstream host to
+appliance
+
+scbodylength
+
+Number of bytes in the body
+(excludes header) sent from
+appliance to client
+
+sc-bytes
+
+%b
+
+Number of bytes sent from
+appliance to client
+
+scheaderlength
+
+Number of bytes in the header
+sent from appliance to client
+
+srbodylength
+
+Number of bytes in the body
+(excludes header) sent from
+appliance to upstream host
+
+sr-bytes
+srheaderlength
+
+Number of bytes sent from
+appliance to upstream host
+Number of bytes in the header
+sent from appliance to upstream
+host
+
+Category: cifs
+
+56
+
+x-cifsbytes-written
+
+Total number of bytes written to
+the associated resource
+
+x-cifsclient-bytesread
+
+Total number of bytes read by
+CIFS client from the associated
+resource
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-cifsclient-readoperations
+
+Total number of read operations
+issued by the CIFS client for the
+associated resource
+
+x-cifsclient-otheroperations
+
+Total number of non read/write
+operations issued by the CIFS
+client for the associated resource
+
+x-cifsclient-writeoperations
+
+Total number of write operations
+issued by the CIFS client for the
+associated resource
+
+x-cifs-doserror-class
+
+DOS error class generated by
+server, in hexadecimal
+
+x-cifs-doserror-code
+
+DOS error code generated by
+server, in hexadecimal
+
+x-cifserror-code
+
+Error code generated by server
+
+x-cifs-fid
+
+ID representing a CIFS resource
+
+x-cifs-filesize
+
+Size in bytes of CIFS resource
+
+x-cifs-filetype
+
+Type of CIFS resource
+
+x-cifsmethod
+
+The method associated with the
+CIFS request
+
+x-cifs-nterror-code
+
+NT error code generated by
+server, in hexadecimal
+
+x-cifs-origpath
+
+Original path name of resource
+to be renamed
+
+x-cifs-origunc-path
+
+UNC path of original path name
+of resource to be renamed
+
+x-cifs-path
+
+CIFS resource name as specified
+in the UNC path
+
+x-cifsserver
+
+CIFS server as specified in the
+UNC path
+
+x-cifsserver-bytesread
+
+Total number of bytes read by
+CIFS server from the associated
+resource
+
+x-cifsserveroperations
+
+Total number of operations
+issued to the CIFS server for the
+associated resource
+
+x-cifs-share
+
+CIFS share name as specified in
+the UNC path
+
+x-cifs-tid
+
+ID representing instance of an
+authenticated connection to
+server resource
+
+57
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+x-cifs-uid
+
+Description
+ID representing an authenticated
+user instance
+
+x-cifs-uncpath
+
+CIFS path of form
+\\\\server\\share\\path
+
+where path may be empty
+Category: connection
+cs-ip
+
+proxy.address
+
+IP address of the destination of
+the client's connection
+
+c-connecttype
+
+The type of connection made by
+the client to the appliance -'Transparent' or 'Explicit'
+
+c-dns
+
+%h
+
+x-cs-dns
+
+client.host
+
+c-ip
+
+client.address
+
+c-port
+
+58
+
+Hostname of the client (uses the
+client's IP address to avoid
+reverse DNS)
+The hostname of the client
+obtained through reverse DNS.
+
+%a
+
+IP address of the client
+Source port used by the client
+
+x-csnetbioscomputer-name
+
+netbios.computername
+
+The NetBIOS name of the
+computer. This is an empty
+string if the query fails or the
+name is not reported. When
+using the $(netbios.*)
+substitutions to generate the
+username, the client machines
+must react to a NetBIOS over
+TCP/IP node status query.
+
+x-csnetbioscomputerdomain
+
+netbios.computerdomain
+
+The name of the domain to
+which the computer belongs.
+This is an empty string if the
+query fails or the name is not
+reported. When using the
+$(netbios.*) substitutions to
+generate the username, the client
+machines must react to a
+NetBIOS over TCP/IP node
+status query.
+
+x-csnetbiosmessengerusername
+
+netbios.messengerusername
+
+The name of the logged-in user.
+This is an empty string if the
+query fails or the name is not
+reported. It is also empty there is
+more than one logged-in user.
+When using the $(netbios.*)
+substitutions to generate the
+username, the client machines
+must react to a NetBIOS over
+TCP/IP node status query.
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-csnetbiosmessengerusernames
+
+CPL
+
+Custom
+
+netbios.messengerusernames
+
+Description
+A comma-separated list of the all
+the messenger usernames
+reported by the target computer.
+This is an empty string if the
+query fails, or no names are
+reported. When using the
+$(netbios.*) substitutions to
+generate the username, the client
+machines must react to a
+NetBIOS over TCP/IP node
+status query.
+
+x-cssessionusername
+
+session.username
+
+The username associated with
+this session as reported by
+RADIUS accounting. This is an
+empty string if no session is
+known.
+
+x-cs-identusername
+
+ident.username
+
+The username associated with
+this session as returned from an
+ident query. This is an empty
+string if no session is known.
+
+x-csconnectionnegotiatedcipher
+
+client.connection
+.
+negotiated_cipher
+
+OpenSSL cipher suite negotiated
+for the client connection
+
+x-csconnectionnegotiatedcipherstrength
+
+client.connection
+.
+negotiated_cipher.
+strength
+
+Strength of the OpenSSL cipher
+suite negotiated for the client
+connection
+
+x-csconnectionnegotiatedcipher-size
+x-csconnectionnegotiatedssl-version
+
+Ciphersize of the OpenSSL
+cipher suite negotiated for the
+client connection
+client.connection
+.
+negotiated_ssl_ver
+sion
+
+Version of the SSL protocol
+negotiated for the client
+connection
+
+r-dns
+
+Hostname from the outbound
+server URL
+
+r-ip
+
+IP address from the outbound
+server URL
+
+r-port
+
+%p
+
+Port from the outbound server
+URL
+
+r-supplierdns
+
+Hostname of the upstream host
+(not available for a cache hit)
+
+r-supplierip
+
+IP address used to contact the
+upstream host (not available for
+a cache hit)
+
+59
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+r-supplierport
+sc-adapter
+
+Port used to contact the
+upstream host (not available for
+a cache hit)
+proxy.card
+
+Adapter number of the client's
+connection to the Appliance
+
+scconnection
+x-bluecoatserverconnectionsocket-errno
+scomputername
+
+Unique identifier of the client's
+connection (i.e. SOCKET)
+server_connection
+.socket_errno
+
+proxy.name
+
+Error message associated with a
+failed attempt to connect to an
+upstream host
+%N
+
+s-connecttype
+
+Hostname of the appliance (uses
+the primary IP address to avoid
+reverse DNS)
+
+s-ip
+
+proxy.port
+
+s-sitename
+
+60
+
+Configured name of the
+appliance
+Upstream connection type
+(Direct, SOCKS gateway, etc.)
+
+s-dns
+
+s-port
+
+Description
+
+%I
+
+IP address of the appliance on
+which the client established its
+connection
+
+%P
+
+Port of the appliance on which
+the client established its
+connection
+
+%S
+
+The service type used to process
+the transaction
+
+x-servicegroup
+
+service.group
+
+x-servicename
+
+service.name
+
+The name of the service that
+handled the transaction
+
+x-modulename
+
+module_name
+
+The SGOS module that is
+handling the transaction
+
+The name of the service group
+that handled the transaction
+
+s-supplierip
+
+%D
+
+IP address used to contact the
+upstream host (not available for
+a cache hit)
+
+s-suppliername
+
+%d
+
+Hostname of the upstream host
+(not available for a cache hit)
+
+x-bluecoattransactionid
+
+transaction.id
+
+Unique per-request identifier
+generated by the appliance (note:
+this value is not unique across
+multiple appliances)
+
+x-bluecoatappliancename
+
+appliance.name
+
+Configured name of the
+appliance
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-bluecoatapplianceprimaryaddress
+
+appliance.primary
+_address
+
+Primary IP address of the
+appliance
+
+x-bluecoatproxyprimaryaddress
+
+proxy.primary_add
+ress
+
+Primary IP address of the
+appliance
+
+x-bluecoatapplianceidentifier
+
+appliance.identif
+ier
+
+Compact identifier of the
+appliance
+
+x-applianceserial-number
+
+appliance.serial_
+number
+
+The serial number of the
+appliance
+
+x-appliancemccertificatefingerprint
+
+appliance.mc_cert
+ificate_
+fingerprint
+
+The fingerprint of the
+management console certificate
+
+x-applianceproduct-name
+
+appliance.product
+_name
+
+The product name of the
+appliance; for example: Blue
+Coat SG4xx
+
+x-applianceproduct-tag
+
+appliance.product
+_tag
+
+The product tag of the appliance;
+for example: SG4xx
+
+x-applianceseries-name
+
+appliance.series_n
+ame
+
+The series name of the appliance;
+for example: 400
+
+x-appliancefull-version
+
+appliance.full_ve
+rsion
+
+The full version of the SGOS
+software
+
+x-appliancefirst-macaddress
+
+appliance.first_m
+ac_
+address
+
+The MAC address of the first
+installed adapter
+
+x-clientaddress
+
+IP address of the client
+
+x-clientconnectionbytes
+
+Total number of bytes send to
+and received from the client
+
+x-client-ip
+
+IP address of the client
+
+x-serverconnectionbytes
+
+Total number of bytes send to
+and received from the server
+
+x-serveradnconnectionbytes
+
+Total number of compressed
+ADN bytes send to and received
+from the server
+
+x-rsconnectionnegotiatedcipher
+
+server.connection
+.negotiated_cipher
+
+OpenSSL cipher suite negotiated
+for the client connection
+
+61
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-rsconnectionnegotiatedcipherstrength
+
+CPL
+server.connection
+.negotiated_cipher
+.strength
+
+x-rsconnectionnegotiatedcipher-size
+
+Custom
+
+Description
+Strength of the OpenSSL cipher
+suite negotiated for the server
+connection
+
+Ciphersize of the OpenSSL
+cipher suite negotiated for the
+server connection
+
+x-rsconnectionnegotiatedssl-version
+
+server.connection
+.negotiated_ssl_ve
+rsion
+
+Version of the SSL protocol
+negotiated for the server
+connection
+
+x-csconnectiondscp
+
+client.connection
+.dscp
+
+DSCP client inbound value
+
+x-rsconnectiondscp
+
+server.connection
+.dscp
+
+DSCP server inbound value
+
+x-scconnectiondscp-decision
+
+DSCP client outbound value
+
+x-srconnectiondscp-decision
+
+DSCP server outbound value
+
+Category: dns
+x-dns-cstransport
+
+dns.client_transp
+ort
+
+The transport protocol used by
+the client connection in a DNS
+query
+
+x-dns-csaddress
+
+dns.request.addre
+ss
+
+The address queried in a reverse
+DNS lookup
+
+x-dns-cs-dns
+x-dns-csopcode
+
+The hostname queried in a
+forward DNS lookup
+
+dns.request.opcod
+
+The DNS OPCODE used in the
+DNS query
+
+e
+
+x-dns-csqtype
+
+dns.request.type
+
+The DNS QTYPE used in the
+DNS query
+
+x-dns-csqclass
+
+dns.request.class
+
+The DNS QCLASS used in the
+DNS query
+
+x-dns-rsrcode
+
+dns.response.code
+
+The DNS RCODE in the
+response from upstream
+
+x-dns-rs-arecords
+
+dns.response.a
+
+The DNS A RRs in the response
+from upstream
+
+dns.response.cnam
+
+The DNS CNAME RRs in the
+response from upstream
+
+x-dns-rscname-records
+
+62
+
+dns.request.name
+
+e
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-dns-rsptr-records
+
+CPL
+dns.response.ptr
+
+Custom
+
+Description
+The DNS PTR RRs in the
+response from upstream
+
+Category: im
+x-im-buddyid
+
+Instant messaging buddy ID
+
+x-im-buddyname
+
+Instant messaging buddy
+display name
+
+x-im-buddystate
+
+Instant messaging buddy state
+
+x-im-chatroom-id
+
+Instant messaging identifier of
+the chat room in use
+
+x-im-chatroom-members
+
+The list of chat room member Ids
+
+x-im-chatroom-type
+
+The chat room type, one of
+'public' or 'public', and possibly
+'invite_only', 'voice' and/or
+'conference'
+
+x-im-clientinfo
+
+The instant messaging client
+information
+
+x-im-useragent
+
+im.user_agent
+
+The instant messaging user
+agent string
+
+x-im-filepath
+
+Path of the file associated with
+an instant message
+
+x-im-filesize
+
+Size of the file associated with an
+instant message
+
+x-im-httpgateway
+
+The upstream HTTP gateway
+used for IM (if any)
+
+x-immessageopcode
+x-immessagereflected
+
+im.message.opcode
+
+im.message.reflec
+ted
+
+The opcode utilized in the
+instant message
+Indicates whether or not the IM
+message was reflected.
+
+x-immessage-route
+
+The route of the instance
+message
+
+x-immessage-size
+
+Length of the instant message
+
+x-immessage-text
+
+Text of the instant message
+
+x-immessage-type
+
+The type of the instant message
+
+x-im-method
+
+The method associated with the
+instant message
+
+63
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+x-im-user-id
+
+Custom
+
+Description
+Instant messaging user identifer
+
+x-im-username
+
+Display name of the client
+
+x-im-userstate
+
+Instant messaging user state
+
+Category: mapi
+x-mapimethod
+
+The method associated with the
+MAPI request
+
+x-mapi-userdn
+
+The distinguished name of the
+user negotiated by MAPI
+
+x-mapi-user
+
+The name of the user negotiated
+by MAPI. See x-mapi-user-dn for
+the fully distinguished name.
+
+x-mapi-csrpc-count
+
+The count of RPC messages
+received from the client
+
+x-mapi-srrpc-count
+
+The count of RPC messages sent
+to the server
+
+x-mapi-rsrpc-count
+
+The count of RPC messages
+received from the server
+
+x-mapi-scrpc-count
+
+The count RPC messages sent to
+the client
+
+x-mapiendpoint-rpccount
+
+Total number of RPC messages
+sent to the end point
+
+x-mapi-peerrpc-count
+
+Total number of RPC messages
+sent to the peer
+
+Category: p2p
+x-p2pclient-bytes
+
+Number of bytes from client
+
+x-p2pclient-info
+
+The peer-to-peer client
+information
+
+x-p2pclient-type
+x-p2p-peerbytes
+
+Category: packets
+
+64
+
+p2p.client
+
+The peer-to-peer client type
+Number of bytes from peer
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+c-pkts-lostclient
+
+Number of packets lost during
+transmission from server to
+client and not recovered at the
+client layer via error correction
+or at the network layer via UDP
+resends.
+
+c-pkts-lostcont-net
+
+Maximum number of
+continuously lost packets on the
+network layer during
+transmission from server to
+client
+
+c-pkts-lostnet
+
+Number of packets lost on the
+network layer
+
+c-pktsreceived
+
+Number of packets from the
+server (s-pkts-sent) that are
+received correctly by the client
+on the first try
+
+c-pktsrecovered-ECC
+
+Number of packets repaired and
+recovered on the client layer
+
+c-pktsrecoveredresent
+
+Number of packets recovered
+because they were resent via
+UDP.
+
+c-quality
+
+The percentage of packets that
+were received by the client,
+indicating the quality of the
+stream
+
+c-resendreqs
+
+Number of client requests to
+receive new packets
+
+s-pkts-sent
+
+Number of packets from the
+server
+
+Category: req_rsp_line
+cs-method
+x-cs-httpmethod
+cs-protocol
+cs-requestline
+x-cs-rawheaders-count
+
+method
+
+%m
+
+Request method used from client
+to appliance
+
+http.method
+
+HTTP request method used from
+client to appliance. Empty for
+non-HTTP transactions
+
+client.protocol
+
+Protocol used in the client's
+request
+
+http.request_line
+request.raw_heade
+rs.count
+
+%r
+
+First line of the client's request
+Total number of 'raw' headers in
+the request
+
+65
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-cs-rawheaderslength
+cs-version
+
+CPL
+
+Custom
+
+request.raw_heade
+rs.
+length
+request.version
+
+Total length of 'raw' headers in
+the request
+%V
+
+Protocol and version from the
+client's request, e.g. HTTP/1.1
+
+x-bluecoatproxy-viahttp-version
+
+proxy.via_http_ve
+rsion
+
+Default HTTP protocol version
+of the appliance without
+protocol decoration (e.g. 1.1 for
+HTTP/1.1)
+
+x-bluecoatredirectlocation
+
+redirect.location
+
+Redirect location URL specified
+by a redirect CPL action
+
+rs-responseline
+
+First line (a.k.a. status line) of the
+response from an upstream host
+to the appliance
+
+rs-status
+
+response.code
+
+Protocol status code of the
+response from an upstream host
+to the appliance
+
+rs-version
+
+response.version
+
+Protocol and version of the
+response from an upstream host
+to the appliance, e.g. HTTP/1.1
+
+sc-status
+
+%s
+ssl_failure_reaso
+
+Protocol status code from
+appliance to client
+
+x-bluecoatssl-failurereason
+
+n
+
+x-cs-httpversion
+
+http.request.vers
+ion
+
+HTTP protocol version of
+request from the client. Does not
+include protocol qualifier (e.g.
+1.1 for HTTP/1.1)
+
+x-cs-socksip
+
+socks.destination
+_address
+
+Destination IP address of a
+proxied SOCKS request
+
+x-cs-socksport
+
+socks.destination
+_port
+
+Destination port of a proxied
+SOCKS request
+
+Upstream SSL negotiation
+failure reason
+
+x-cs-socksmethod
+
+socks.method
+
+Method of a proxied SOCKS
+request
+
+x-cs-socksversion
+
+socks.version
+
+Version of a proxied SOCKS
+request.
+
+x-cs-sockscompression
+
+Used compression in SOCKS
+client side connection.
+
+x-sr-sockscompression
+
+Used compression in SOCKS
+server side connection.
+
+x-sc-httpstatus
+
+66
+
+Description
+
+http.response.code
+
+HTTP response code sent from
+appliance to client
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-rs-httpversion
+
+CPL
+
+Custom
+
+http.response.ver
+sion
+
+Description
+HTTP protocol version of
+response from the upstream
+host. Does not include protocol
+qualifier (e.g. 1.1 for HTTP/1.1)
+
+x-sc-httpversion
+
+HTTP protocol version of
+response to client. Does not
+include protocol qualifier (e.g.
+1.1 for HTTP/1.1)
+
+x-sr-httpversion
+
+HTTP protocol version of
+request to the upstream host.
+Does not include protocol
+qualifier (for example, 1.1 for
+HTTP/1.1)
+
+sc(ContentEncoding)
+
+Client Response header:
+Content-Encoding
+
+sr(AcceptEncoding)
+
+Server Request header: AcceptEncoding
+
+Category: special_token
+x-bluecoatspecial-amp
+
+amp
+
+The ampersand character
+
+x-bluecoatspecial-apos
+
+apos
+
+The apostrophe character (a.k.a.
+single quote)
+
+x-bluecoatspecial-cr
+
+cr
+
+Resolves to the carriage return
+character
+
+x-bluecoatspecial-crlf
+
+crlf
+
+Resolves to a carriage return/
+line feed sequence
+
+x-bluecoatspecial-empty
+
+empty
+
+x-bluecoatspecial-esc
+
+esc
+
+Resolves to the escape character
+(ASCII HEX 1B)
+
+x-bluecoatspecial-gt
+
+gt
+
+The greater-than character
+
+x-bluecoatspecial-lf
+
+lf
+
+The line feed character
+
+x-bluecoatspecial-lt
+
+lt
+
+The less-than character
+
+x-bluecoatspecial-quot
+
+quot
+
+The double quote character
+
+x-bluecoatspecial-slash
+
+slash
+
+The forward slash character
+
+%l
+
+Resolves to an empty string
+
+Category: ssl
+
+67
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-rscertificatehostname
+
+server.certificat
+e.hostname
+
+Custom
+
+Description
+Hostname from the server's SSL
+certificate
+
+x-rscertificatehostnamecategories
+
+All content categories of the
+server's SSL certificate's
+hostname
+
+x-rscertificatehostnamecategoriespolicy
+
+All content categories of the
+server's SSL certificate's
+hostname that are defined by
+CPL.
+
+x-rscertificatehostnamecategorieslocal
+
+All content categories of the
+server's SSL certificate's
+hostname that are defined by a
+Local database.
+
+x-rscertificatehostnamecategoriesbluecoat
+
+All content categories of the
+server's SSL certificate's
+hostname that are defined by
+Blue Coat Web Filter.
+
+x-rscertificatehostnamecategoriesprovider
+
+All content categories of the
+server's SSL certificate's
+hostname that are defined by the
+current 3rd-party provider.
+
+x-rscertificatehostnamecategoriesqualified
+
+All content categories of the
+server's SSL certificate's
+hostname, qualified by the
+provider of the category.
+
+x-rscertificatehostnamecategory
+
+68
+
+CPL
+
+server.certificat
+e.hostname.
+category
+
+Single content category of the
+server's SSL certificate's
+hostname
+
+x-rscertificatevalid-from
+
+Date from which the certificate
+presented by the server is valid
+
+x-rscertificatevalid-to
+
+Date until which the certificate
+presented by the server is valid
+
+x-rscertificateserial-number
+
+Serial number of the certificate
+presented by the server
+
+x-rscertificateissuer
+
+Issuer of the certificate presented
+by the server
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-rscertificatesignaturealgorithm
+
+Signature algorithm in the
+certificate presented by the
+server
+
+x-rscertificatepubkeyalgorithm
+
+Public key algorithm in the
+certificate presented by the
+server
+
+x-rscertificateversion
+
+Version of the certificate
+presented by the server
+
+x-rscertificatesubject
+
+server.certificat
+e.subject
+
+Subject of the certificate
+presented by the server
+
+x-cscertificatecommon-name
+
+client.certificat
+e.common_
+name
+
+Common name in the client
+certificate
+
+x-cscertificatevalid-from
+
+Date from which the certificate
+presented by the client is valid
+
+x-cscertificatevalid-to
+
+Date until which the certificate
+presented by the client is valid
+
+x-cscertificateserial-number
+
+Serial number of the certificate
+presented by the client
+
+x-cscertificateissuer
+
+Issuer of the certificate presented
+by the client
+
+x-cscertificatesignaturealgorithm
+
+Signature algorithm in the
+certificate presented by the client
+
+x-cscertificatepubkeyalgorithm
+
+Public key algorithm in the
+certificate presented by the client
+
+x-cscertificateversion
+
+Version of the certificate
+presented by the client
+
+x-cscertificatesubject
+
+client.certificat
+e.subject
+
+Subject of the certificate
+presented by the client
+
+x-cscertificatesubject
+
+client.certificat
+e.subject
+
+Subject of the certificate
+presented by the client
+
+x-cs-ocsperror
+
+Errors observed during OCSP
+check of client certificate
+
+69
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-rscertificateobservederrors
+
+Errors observed in the server
+certificate
+
+x-rs-ocsperror
+
+Errors observed during OCSP
+check of server certificate
+
+Category: status
+x-bluecoatrelease-id
+
+release.id
+
+The release ID of the ProxySG
+operating system
+
+x-bluecoatreleaseversion
+
+release.version
+
+The release version of the
+ProxySG operating system
+
+cscategories
+
+All content categories of the
+request URL
+
+cscategoriesexternal
+
+All content categories of the
+request URL that are defined by
+an external service.
+
+cscategoriespolicy
+
+All content categories of the
+request URL that are defined by
+CPL.
+
+cscategorieslocal
+
+All content categories of the
+request URL that are defined by
+a Local database.
+
+cscategoriesbluecoat
+
+All content categories of the
+request URL that are defined by
+Blue Coat Web Filter.
+
+cscategoriesprovider
+
+All content categories of the
+request URL that are defined by
+the current 3rd-party provider.
+
+cscategoriesqualified
+
+All content categories of the
+request URL, qualified by the
+provider of the category.
+
+cs-category
+
+70
+
+Single content category of the
+request URL (a.k.a. sc-filtercategory)
+
+cs-uricategories
+
+All content categories of the
+request URL
+
+cs-uricategoriesexternal
+
+All content categories of the
+request URL that are defined by
+an external service.
+
+cs-uricategoriespolicy
+
+All content categories of the
+request URL that are defined by
+CPL.
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+cs-uricategorieslocal
+
+All content categories of the
+request URL that are defined by
+a Local database.
+
+cs-uricategoriesbluecoat
+
+All content categories of the
+request URL that are defined by
+Blue Coat Web Filter.
+
+cs-uricategoriesprovider
+
+All content categories of the
+request URL that are defined by
+the current 3rd-party provider.
+
+cs-uricategoriesqualified
+
+All content categories of the
+request URL, qualified by the
+provider of the category.
+
+cs-uricategory
+
+Single content category of the
+request URL (a.k.a. sc-filtercategory)
+
+xcs(Referer)uricategories
+
+All content categories of the
+Referer header URL
+
+xcs(Referer)uricategoriespolicy
+
+All content categories of the
+Referer header URL that are
+defined by CPL.
+
+xcs(Referer)uricategorieslocal
+
+All content categories of the
+Referer header URL that are
+defined by a Local database.
+
+xcs(Referer)uricategoriesbluecoat
+
+All content categories of the
+Referer header URL that are
+defined by Blue Coat Web Filter.
+
+xcs(Referer)uricategoriesprovider
+
+All content categories of the
+Referer header URL that are
+defined by the current 3rd-party
+provider.
+
+xcs(Referer)uricategoriesqualified
+
+All content categories of the
+Referer header URL, qualified by
+the provider of the category.
+
+xcs(Referer)uri-category
+
+Single content category of the
+Referer header URL (a.k.a. scfilter-category)
+
+r-hierarchy
+
+How and where the object was
+retrieved in the cache hierarchy.
+
+71
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+sc-filtercategory
+
+CPL
+category
+
+Custom
+%f
+
+Content filtering category of the
+request URL
+
+sc-filterresult
+
+%W
+
+Deprecated content filtering
+result: Denied, Proxied or
+Observed
+
+s-action
+
+%w
+
+What type of action did the
+Appliance take to process this
+request; possible values include
+ALLOWED, DENIED, FAILED,
+SERVER_ERROR
+
+s-cpu-util
+
+Average load on the proxy's
+processor (0%-100%)
+
+s-hierarchy
+
+%H
+
+How and where the object was
+retrieved in the cache hierarchy.
+
+s-icap-info
+
+%Z
+
+ICAP response information
+
+%z
+
+ICAP response status
+
+s-icapstatus
+
+72
+
+Description
+
+x-bluecoatsurfcontrolcategory-id
+
+The SurfControl specific content
+category ID.
+
+x-bluecoatsurfcontrolis-denied
+
+'1' if the transaction was denied,
+else '0'
+
+x-bluecoatsurfcontrolis-proxied
+
+'0' if transaction is explicitly
+proxied, '1' if transaction is
+transparently proxied
+
+x-bluecoatsurfcontrolreporter-id
+
+Specialized value for
+SurfControl reporter
+
+x-bluecoatsurfcontrolreporter-v4
+
+The SurfControl Reporter v4
+format
+
+x-bluecoatsurfcontrolreporter-v5
+
+The SurfControl Reporter v5
+format
+
+x-bluecoatwebsensecategory-id
+
+The Websense specific content
+category ID
+
+x-bluecoatwebsensekeyword
+
+The Websense specific keyword
+
+x-bluecoatwebsensereporter-id
+
+The Websense specific reporter
+category ID
+
+x-bluecoatwebsensestatus
+
+The Websense specific numeric
+status
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-bluecoatwebsense-user
+
+The Websense form of the
+username
+
+x-bluecoatwebsensereporterprotocol-3
+
+The Websense reporter format
+protocol version 3
+
+x-exceptioncompany-name
+
+exception.company
+_name
+
+The company name configured
+under exceptions
+
+x-exceptioncontact
+
+exception.contact
+
+Describes who to contact when
+certain classes of exceptions
+occur, configured under
+exceptions (empty if the
+transaction has not been
+terminated)
+
+x-exceptiondetails
+
+exception.details
+
+The configurable details of a
+selected policy-aware response
+page (empty if the transaction
+has not been terminated)
+
+x-exceptionheader
+
+exception.header
+
+The header to be associated with
+an exception response (empty if
+the transaction has not been
+terminated)
+
+x-exceptionhelp
+
+exception.help
+
+Help text that accompanies the
+exception resolved (empty if the
+transaction has not been
+terminated)
+
+x-exceptionid
+
+exception.id
+
+Identifier of the exception
+resolved (empty if the
+transaction has not been
+terminated)
+
+x-exceptionlast-error
+
+exception.last_er
+ror
+
+x-exceptionreason
+
+exception.reason
+
+x-exceptionsourcefile
+
+exception.sourcef
+ile
+
+The last error recorded for the
+current transaction. This can
+provide insight when
+unexpected problems are
+occurring (empty if the
+transaction has not been
+terminated)
+Indicates the reason why a
+particular request was
+terminated (empty if the
+transaction has not been
+terminated)
+Source filename from which the
+exception was generated (empty
+if the transaction has not been
+terminated)
+
+73
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-exceptionsourceline
+
+exception.sourcel
+ine
+
+x-exceptionsummary
+
+exception.summary
+
+x-exceptioncategoryreviewmessage
+
+exception.categor
+y_review_message
+
+Exception page message that
+includes a link allowing content
+categorization to be reviewed
+and/or disputed.
+
+x-exceptioncategoryreview-url
+
+exception.categor
+y_review_url
+
+URL where content
+categorizations can be reviewed
+and/or disputed.
+
+x-patiencejavascript
+
+patience_javascri
+pt
+
+Javascript required to allow
+patience responses
+
+x-patienceprogress
+
+patience_progress
+
+The progress of the patience
+request
+
+x-patiencetime
+
+patience_time
+
+The elapsed time of the patience
+request
+
+x-patienceurl
+
+patience_url
+
+The url to be requested for more
+patience information
+
+x-virus-id
+
+icap_virus_id
+
+Identifier of a virus if one was
+detected
+
+icap_virus_detail
+
+Details of a virus if one was
+detected
+
+x-virusdetails
+
+s
+
+x-icaperror-code
+x-icaperror-details
+
+Source file line number from
+which the exception was
+generated (empty if the
+transaction has not been
+terminated)
+Summary of the exception
+resolved (empty if the
+transaction has not been
+terminated)
+
+icap_error_code
+
+ICAP error code
+
+icap_error_detail
+
+ICAP error details
+
+s
+
+Category: streaming
+audiocodec
+
+Audio codec used in stream.
+
+avgbandwidth
+
+Average bandwidth (in bits per
+second) at which the client was
+connected to the server.
+
+channelURL
+
+URL to the .nsc file
+
+cbuffercount
+
+74
+
+Number of times the client
+buffered while playing the
+stream.
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+c-bytes
+
+An MMS-only value of the total
+number of bytes delivered to the
+client.
+
+c-cpu
+
+Client computer CPU type.
+
+c-hostexe
+
+Host application
+
+c-hostexever
+
+Host application version number
+
+c-os
+
+Client computer operating
+system
+
+c-osversion
+
+Client computer operating
+system version number
+
+c-playerid
+
+Globally unique identifier
+(GUID) of the player
+
+cplayerlanguag
+e
+
+Client language-country code
+
+cplayerversion
+
+Version number of the player
+
+c-rate
+
+Mode of Windows Media Player
+when the last command event
+was sent
+
+c-starttime
+
+Timestamp (in seconds) of the
+stream when an entry is
+generated in the log file.
+
+c-status
+
+Codes that describe client status
+
+ctotalbufferti
+me
+
+Time (in seconds) the client used
+to buffer the stream
+
+filelength
+
+Length of the file (in seconds).
+
+filesize
+
+Size of the file (in bytes).
+
+protocol
+
+Protocol used to access the
+stream: mms, http, or asfm.
+
+s-sessionid
+
+Session ID for the streaming
+session
+
+stotalclients
+
+Clients connected to the server
+(but not necessarily receiving
+streams).
+
+transport
+
+Transport protocol used (UDP,
+TCP, multicast, etc.)
+
+videocodec
+
+Video codec used to encode the
+stream.
+
+75
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-cache-info
+
+Values: UNKNOWN,
+DEMAND_PASSTHRU,
+DEMAND_MISS,
+DEMAND_HIT,
+LIVE_PASSTHRU, LIVE_SPLIT
+
+x-duration
+
+Length of time a client played
+content prior to a client event
+(FF, REW, Pause, Stop, or jump
+to marker).
+
+x-wm-c-dns
+
+Hostname of the client
+determined from the Windows
+Media protocol
+
+x-wm-c-ip
+
+The client IP address determined
+from the Windows Media
+protocol
+
+x-csstreamingclient
+
+streaming.client
+
+Type of streaming client in use
+(windows_media, real_media, or
+quicktime).
+
+x-rsstreamingcontent
+
+streaming.content
+
+Type of streaming content
+served. (e.g. windows_media,
+quicktime)
+
+x-streamingbitrate
+
+bitrate
+
+The reported client-side bitrate
+for the stream
+
+Category: time
+connect-time
+date
+
+Total ms required to connect to
+the origin server
+date.utc
+
+%x
+
+dnslookuptime
+
+76
+
+GMT Date in YYYY-MM-DD
+format
+Total ms cache required to
+perform the DNS lookup
+
+duration
+
+%T
+
+Time taken (in seconds) to
+process the request
+
+gmttime
+
+%t
+
+GMT date and time of the user
+request in format: [DD/MM/
+YYYY:hh:mm:ss GMT]
+
+x-bluecoatday-utc
+
+day.utc
+
+GMT/UTC day (as a number)
+formatted to take up two spaces
+(e.g. 07 for the 7th of the month)
+
+x-bluecoathour-utc
+
+hour.utc
+
+GMT/UTC hour formatted to
+always take up two spaces (e.g.
+01 for 1AM)
+
+x-bluecoatminute-utc
+
+minute.utc
+
+GMT/UTC minute formatted to
+always take up two spaces (e.g.
+01 for 1 minute past)
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+x-bluecoatmonth-utc
+
+month.utc
+
+GMT/UTC month (as a number)
+formatted to take up two spaces
+(e.g. 01 for January)
+
+x-bluecoatmonthname-utc
+
+monthname.utc
+
+GMT/UTC month in the shortform string representation (e.g.
+Jan for January)
+
+x-bluecoatsecond-utc
+
+second.utc
+
+GMT/UTC second formatted to
+always take up two spaces (e.g.
+01 for 1 second past)
+
+x-bluecoatweekday-utc
+
+weekday.utc
+
+GMT/UTC weekday in the
+short-form string representation
+(e.g. Mon for Monday)
+
+x-bluecoatyear-utc
+
+year.utc
+
+GMT/UTC year formatted to
+always take up four spaces
+
+localtime
+
+%L
+
+Local date and time of the user
+request in format: [DD/MMM/
+YYYY:hh:mm:ss +nnnn]
+
+x-bluecoatday
+
+day
+
+Localtime day (as a number)
+formatted to take up two spaces
+(e.g. 07 for the 7th of the month)
+
+x-bluecoathour
+
+hour
+
+Localtime hour formatted to
+always take up two spaces (e.g.
+01 for 1AM)
+
+x-bluecoatminute
+
+minute
+
+Localtime minute formatted to
+always take up two spaces (e.g.
+01 for 1 minute past)
+
+x-bluecoatmonth
+
+month
+
+Localtime month (as a number)
+formatted to take up two spaces
+(e.g. 01 for January)
+
+x-bluecoatmonthname
+
+monthname
+
+Localtime month in the shortform string representation (e.g.
+Jan for January)
+
+x-bluecoatsecond
+
+second
+
+Localtime second formatted to
+always take up two spaces (e.g.
+01 for 1 second past)
+
+x-bluecoatweekday
+
+weekday
+
+Localtime weekday in the shortform string representation (e.g.
+Mon for Monday)
+
+x-bluecoatyear
+
+year
+
+Localtime year formatted to
+always take up four spaces
+
+time
+
+time.utc
+
+%y
+
+GMT time in HH:MM:SS format
+
+timestamp
+
+%g
+
+Unix type timestamp
+
+time-taken
+
+%e
+
+Time taken (in milliseconds) to
+process the request
+
+77
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+rs-timetaken
+
+Total time taken (in
+milliseconds) to send the request
+and receive the response from
+the origin server
+
+x-bluecoatend-time-wft
+
+End local time of the transaction
+represented as a windows file
+time
+
+x-bluecoatstart-timewft
+
+Start local time of the transaction
+represented as a windows file
+time
+
+x-bluecoatend-timemssql
+
+End local time of the transaction
+represented as a serial date time
+
+x-bluecoatstart-timemssql
+
+Start local time of the transaction
+represented as a serial date time
+
+x-cookiedate
+x-http-date
+
+cookie_date
+
+Current date in Cookie time
+format
+
+http_date
+
+Current date in HTTP time
+format
+
+x-timestampunix
+
+Seconds since UNIX epoch (Jan
+1, 1970) (local time)
+
+x-timestampunix-utc
+
+Seconds since UNIX epoch (Jan
+1, 1970) (GMT/UTC)
+
+cscategorizatio
+n-timedynamic
+
+Time taken (in milliseconds) to
+dynamically categorize the
+request URL
+
+Category: url
+cs-host
+
+cs-uri
+
+Hostname from the client's
+request URL. If URL rewrite
+policies are used, this field's
+value is derived from the 'log'
+URL
+
+%i
+
+The 'log' URL.
+
+cs-uriaddress
+
+log_url.address
+
+IP address from the 'log' URL.
+DNS is used if URL uses a
+hostname.
+
+cs-uriextension
+
+log_url.extension
+
+Document extension from the
+'log' URL.
+
+log_url.host
+
+Hostname from the 'log' URL.
+
+log_url.hostname
+
+Hostname from the 'log' URL.
+RDNS is used if the URL uses an
+IP address.
+
+cs-uri-host
+cs-urihostname
+
+78
+
+log_url
+
+%v
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+cs-uri-path
+
+CPL
+log_url.path
+
+cs-uripathquery
+
+Custom
+%U
+
+Description
+Path from the 'log' URL. Does
+not include query.
+
+log_url.pathquery
+
+Path and query from the 'log'
+URL.
+
+cs-uri-port
+
+log_url.port
+
+Port from the 'log' URL.
+
+cs-uri-query
+
+log_url.query
+
+cs-urischeme
+
+log_url.scheme
+
+cs-uri-stem
+
+%Q
+
+Query from the 'log' URL.
+Scheme from the 'log' URL.
+Stem from the 'log' URL. The
+stem includes everything up to
+the end of path, but does not
+include the query.
+
+c-uri
+
+url
+
+The original URL requested.
+
+c-uriaddress
+
+url.address
+
+IP address from the original URL
+requested. DNS is used if the
+URL is expressed as a hostname.
+
+c-uricookie-domain
+
+url.cookie_domain
+
+The cookie domain of the
+original URL requested
+
+c-uriextension
+
+url.extension
+
+Document extension from the
+original URL requested
+
+url.host
+
+Hostname from the original URL
+requested
+
+url.hostname
+
+Hostname from the original URL
+requested. RDNS is used if the
+URL is expressed as an IP
+address
+
+url.path
+
+Path of the original URL
+requested without query.
+
+url.pathquery
+
+Path and query of the original
+URL requested
+
+c-uri-port
+
+url.port
+
+Port from the original URL
+requested
+
+c-uri-query
+
+url.query
+
+Query from the original URL
+requested
+
+c-uri-scheme
+
+url.scheme
+
+Scheme of the original URL
+requested
+
+c-uri-host
+c-urihostname
+
+c-uri-path
+c-uripathquery
+
+c-uri-stem
+
+Stem of the original URL
+requested
+
+sr-uri
+sr-uriaddress
+
+URL of the upstream request
+
+server_url.addres
+
+IP address from the URL used in
+the upstream request. DNS is
+used if the URL is expressed as a
+hostname.
+
+s
+
+server_url
+
+79
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+sr-uriextension
+sr-uri-host
+sr-urihostname
+
+sr-uri-path
+sr-uripathquery
+
+CPL
+server_url.extens
+ion
+server_url.host
+server_url.hostna
+me
+
+server_url.path
+server_url.pathqu
+ery
+
+Description
+Document extension from the
+URL used in the upstream
+request
+Hostname from the URL used in
+the upstream request
+Hostname from the URL used in
+the upstream request. RDNS is
+used if the URL is expressed as
+an IP address.
+Path from the upstream request
+URL
+Path and query from the
+upstream request URL
+
+sr-uri-port
+
+server_url.port
+
+Port from the URL used in the
+upstream request.
+
+sr-uri-query
+
+server_url.query
+
+Query from the upstream
+request URL
+
+server_url.scheme
+
+Scheme from the URL used in
+the upstream request
+
+sr-urischeme
+sr-uri-stem
+
+Path from the upstream request
+URL
+
+s-uri
+
+cache_url
+
+The URL used for cache access
+
+cache_url.address
+
+IP address from the URL used
+for cache access. DNS is used if
+the URL is expressed as a
+hostname
+
+s-uriaddress
+
+s-uriextension
+s-uri-host
+s-urihostname
+s-uri-path
+s-uripathquery
+
+80
+
+Custom
+
+cache_url.extensi
+on
+
+Document extension from the
+URL used for cache access
+
+cache_url.host
+
+Hostname from the URL used
+for cache access
+
+cache_url.hostnam
+
+Hostname from the URL used
+for cache access. RDNS is used if
+the URL uses an IP address
+
+e
+cache_url.path
+cache_url.pathque
+ry
+
+Path of the URL used for cache
+access
+Path and query of the URL used
+for cache access
+
+s-uri-port
+
+cache_url.port
+
+Port from the URL used for
+cache access
+
+s-uri-query
+
+cache_url.query
+
+Query string of the URL used for
+cache access
+
+s-uri-scheme
+
+cache_url.scheme
+
+Scheme from the URL used for
+cache access
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+s-uri-stem
+
+Custom
+
+Description
+Stem of the URL used for cache
+access
+
+xcs(Referer)uri
+
+request.header.Re
+ferer.url
+
+The URL from the Referer
+header.
+
+xcs(Referer)uri-address
+
+request.header.Re
+ferer.url.address
+
+IP address from the 'Referer'
+URL. DNS is used if URL uses a
+hostname.
+
+xcs(Referer)uri-extension
+
+request.header.Re
+ferer.url.
+extension
+
+Document extension from the
+'Referer' URL.
+
+xcs(Referer)uri-host
+
+request.header.Re
+ferer.url.host
+
+Hostname from the 'Referer'
+URL.
+
+xcs(Referer)uri-hostname
+
+request.header.Re
+ferer.url.hostname
+
+Hostname from the 'Referer'
+URL. RDNS is used if the URL
+uses an IP address.
+
+xcs(Referer)uri-path
+
+request.header.Re
+ferer.url.path
+
+Path from the 'Referer' URL.
+Does not include query.
+
+xcs(Referer)uri-pathquery
+
+request.header.Re
+ferer.url.pathquer
+y
+
+Path and query from the 'Referer'
+URL.
+
+xcs(Referer)uri-port
+
+request.header.Re
+ferer.url.port
+
+Port from the 'Referer' URL.
+
+xcs(Referer)uri-query
+
+request.header.Re
+ferer.url.query
+
+Query from the 'Referer' URL.
+
+xcs(Referer)uri-scheme
+
+request.header.Re
+ferer.url.
+scheme
+
+Scheme from the 'Referer' URL.
+
+xcs(Referer)uri-stem
+x-cs-raw-uri
+
+Stem from the 'Referer' URL. The
+stem includes everything up to
+the end of path, but does not
+include the query.
+raw_url
+
+The 'raw' request URL.
+
+x-cs-rawuri-host
+
+raw_url.host
+
+Hostname from the 'raw' URL.
+
+x-cs-rawuri-port
+
+raw_url.port
+
+Port string from the 'raw' URL.
+
+x-cs-rawuri-scheme
+
+raw_url.scheme
+
+Scheme string from the 'raw'
+URL.
+
+x-cs-rawuri-path
+
+raw_url.path
+
+Path from the 'raw' request URL.
+Does not include query.
+
+x-cs-rawuri-pathquery
+
+raw_url.pathquery
+
+Path and query from the 'raw'
+request URL.
+
+81
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-cs-rawuri-query
+
+CPL
+
+Custom
+
+raw_url.query
+
+Description
+Query from the 'raw' request
+URL.
+
+x-cs-rawuri-stem
+
+Stem from the 'raw' request URL.
+The stem includes everything up
+to the end of path, but does not
+include the query.
+
+Category: user
+cs-authgroup
+
+group
+
+One group that an authenticated
+user belongs to. If a user belongs
+to multiple groups, the group
+logged is determined by the
+Group Log Order configuration
+specified in VPM. If Group Log
+Order is not specified, an
+arbitrary group is logged. Note
+that only groups referenced by
+policy are considered.
+
+cs-authgroups
+
+groups
+
+List of groups that an
+authenticated user belongs to.
+Note that only groups referenced
+by policy are included.
+
+cs-auth-type
+cs-realm
+
+Client-side: authentication type
+(basic, ntlm, etc.)
+realm
+
+cs-user
+
+cs-userdn
+
+%u
+
+user
+
+Qualified username for NTLM.
+Relative username for other
+protocols
+Full username of a client
+authenticated to the proxy (fully
+distinguished)
+
+x-cs-userauthorization
+-name
+
+user.authorizatio
+n_name
+
+Username used to authorize a
+client authenticated to the proxy
+
+x-cs-usercredentialname
+
+user.credential_n
+ame
+
+Username entered by the user to
+authenticate to the proxy.
+
+cs-username
+
+82
+
+Authentication realm that the
+user was challenged in.
+
+user.name
+
+Relative username of a client
+authenticated to the proxy (i.e.
+not fully distinguished)
+
+sc-authstatus
+
+Client-side: Authorization status
+
+x-agent-ssocookie
+
+The authentication agent single
+signon cookie
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+x-cache-user
+
+x-cs-authdomain
+
+Custom
+
+Description
+Relative username of a client
+authenticated to the proxy (i.e.
+not fully distinguished) (same as
+cs-username)
+
+user.domain
+
+The domain of the authenticated
+user.
+
+x-scauthenticatio
+n-error
+
+The user authentication error.
+
+x-scauthorization
+-error
+
+The user authorization error.
+
+x-cs-usertype
+
+The type of authenticated user.
+
+x-cs-authform-actionurl
+
+The URL to submit the
+authentication form to.
+
+x-cs-authform-domainfield
+
+The authentication form input
+field for the user's domain.
+
+x-cs-authform-emptydomain-field
+
+The empty authentication form
+input field for the user’s domain.
+
+x-cs-authrequest-id
+
+The bas64 encoded string
+containing the original request
+information during forms based
+authentication
+
+x-csusername-orip
+
+Used to identify the user using
+either their authenticated proxy
+username or, if that is
+unavailable, their IP address.
+
+x-radiussplashsession-id
+
+Session ID made available
+through RADIUS when
+configured for session
+management
+
+x-radiussplashusername
+
+Username made available
+through RADIUS when
+configured for session
+management
+
+x-user-x509issuer
+
+user.x509.issuer
+
+If the user was authenticated via
+an X.509 certificate, this is the
+issuer of the certificate as an
+RFC2253 DN
+
+x-user-x509serial-number
+
+user.x509.serialN
+umber
+
+If the user was authenticated via
+an X.509 certificate, this is the
+serial number from the certificate
+as a hexadecimal number.
+
+83
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+x-user-x509subject
+
+CPL
+user.x509.subject
+
+Custom
+
+Description
+If the user was authenticated via
+an X.509 certificate, this is the
+subject of the certificate as an
+RFC2253 DN
+
+x-authchallengestring
+
+The authentication challenge to
+display to the user.
+
+x-authprivatechallengestate
+
+The private state required to
+manage an authentication
+challenge
+
+x-cs-userlogin-time
+
+user.login.time
+
+The number of seconds the user
+had been logged in.
+
+x-cs-userlogin-count
+
+user.login.count
+
+The number of workstations the
+user is currently logged in at.
+
+client.address.lo
+gin.count
+
+The number of users currently
+logged in at the client ip address.
+
+x-cs-clientaddresslogin-count
+x-cs-userlogin-address
+
+user.login.addres
+s
+
+The ip address that the user was
+authenticated in.
+
+Category: ci_request_header
+
+84
+
+cs(Accept)
+
+request.header.Ac
+cept
+
+Request header: Accept
+
+cs(Accept)length
+
+request.header.Ac
+cept.
+length
+
+Length of HTTP request header:
+Accept
+
+cs(Accept)count
+
+request.header.Ac
+cept.
+count
+
+Number of HTTP request
+header: Accept
+
+cs(AcceptCharset)
+
+request.header.Ac
+cept-Charset
+
+Request header: Accept-Charset
+
+cs(AcceptCharset)length
+
+request.header.Ac
+ceptCharset.length
+
+Length of HTTP request header:
+Accept-Charset
+
+cs(AcceptCharset)count
+
+request.header.Ac
+cept-Charset.count
+
+Number of HTTP request
+header: Accept-Charset
+
+cs(AcceptEncoding)
+
+request.header.Ac
+cept-Encoding
+
+Request header: AcceptEncoding
+
+cs(AcceptEncoding)length
+
+request.header.Ac
+ceptEncoding.length
+
+Length of HTTP request header:
+Accept-Encoding
+
+cs(AcceptEncoding)count
+
+request.header.Ac
+ceptEncoding.count
+
+Number of HTTP request
+header: Accept-Encoding
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+cs(AcceptLanguage)
+
+request.header.Ac
+cept-Language
+
+Request header: AcceptLanguage
+
+cs(AcceptLanguage)length
+
+request.header.Ac
+ceptLanguage.length
+
+Length of HTTP request header:
+Accept-Language
+
+cs(AcceptLanguage)count
+
+request.header.Ac
+ceptLanguage.count
+
+Number of HTTP request
+header: Accept-Language
+
+cs(AcceptRanges)
+
+request.header.Ac
+cept-Ranges
+
+Request header: Accept-Ranges
+
+cs(AcceptRanges)length
+
+request.header.Ac
+cept-Ranges.length
+
+Length of HTTP request header:
+Accept-Ranges
+
+cs(AcceptRanges)-count
+
+request.header.Ac
+cept-Ranges.count
+
+Number of HTTP request
+header: Accept-Ranges
+
+cs(Age)
+
+request.header.Ag
+e
+
+Request header: Age
+
+cs(Age)length
+
+request.header.Ag
+e.length
+
+Length of HTTP request header:
+Age
+
+cs(Age)count
+
+request.header.Ag
+e.count
+
+Number of HTTP request
+header: Age
+
+cs(Allow)
+
+request.header.Al
+low
+
+Request header: Allow
+
+cs(Allow)length
+
+request.header.Al
+low.
+length
+
+Length of HTTP request header:
+Allow
+
+cs(Allow)count
+
+request.header.Al
+low.count
+
+Number of HTTP request
+header: Allow
+
+cs(Authentic
+ation-Info)
+
+request.header.
+AuthenticationInfo
+
+Request header: AuthenticationInfo
+
+cs(Authentic
+ation-Info)length
+
+request.header.
+AuthenticationInfo.length
+
+Length of HTTP request header:
+Authentication-Info
+
+cs(Authentic
+ation-Info)count
+
+request.header.
+AuthenticationInfo.count
+
+Number of HTTP request
+header: Authentication-Info
+
+cs(Authoriza
+tion)
+
+request.header.
+Authorization
+
+Request header: Authorization
+
+cs(Authoriza
+tion)-length
+
+request.header.
+Authorization.leng
+th
+
+Length of HTTP request header:
+Authorization
+
+cs(Authoriza
+tion)-count
+
+request.header.
+Authorization.coun
+t
+
+Number of HTTP request
+header: Authorization
+
+cs(CacheControl)
+
+request.header.Ca
+che-Control
+
+Request header: Cache-Control
+
+85
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+86
+
+CPL
+
+Custom
+
+Description
+
+cs(CacheControl)length
+
+request.header.Ca
+che-Control.length
+
+Length of HTTP request header:
+Cache-Control
+
+cs(CacheControl)count
+
+request.header.Ca
+che-Control.count
+
+Number of HTTP request
+header: Cache-Control
+
+cs(ClientIP)
+
+request.header.Cl
+ient-IP
+
+Request header: Client-IP
+
+cs(ClientIP)-length
+
+request.header.Cl
+ient-IP.length
+
+Length of HTTP request header:
+Client-IP
+
+cs(ClientIP)-count
+
+request.header.Cl
+ient-IP.count
+
+Number of HTTP request
+header: Client-IP
+
+cs(Connectio
+n)
+
+request.header.Co
+nnection
+
+Request header: Connection
+
+cs(Connectio
+n)-length
+
+request.header.Co
+nnection.
+length
+
+Length of HTTP request header:
+Connection
+
+cs(Connectio
+n)-count
+
+request.header.Co
+nnection.
+count
+
+Number of HTTP request
+header: Connection
+
+cs(ContentDisposition)
+
+request.header.Co
+ntent-Disposition
+
+Request header: ContentDisposition
+
+cs(ContentDisposition)length
+
+request.header.Co
+ntentDisposition.length
+
+Length of HTTP request header:
+Content-Disposition
+
+cs(ContentDisposition)count
+
+request.header.Co
+ntentDisposition.count
+
+Number of HTTP request
+header: Content-Disposition
+
+cs(ContentEncoding)
+
+request.header.Co
+ntent-Encoding
+
+Request header: ContentEncoding
+
+cs(ContentEncoding)length
+
+request.header.Co
+ntentEncoding.length
+
+Length of HTTP request header:
+Content-Encoding
+
+cs(ContentEncoding)count
+
+request.header.Co
+ntentEncoding.count
+
+Number of HTTP request
+header: Content-Encoding
+
+cs(ContentLanguage)
+
+request.header.Co
+ntent-Language
+
+Request header: ContentLanguage
+
+cs(ContentLanguage)length
+
+request.header.Co
+ntentLanguage.length
+
+Length of HTTP request header:
+Content-Language
+
+cs(ContentLanguage)count
+
+request.header.Co
+ntentLanguage.count
+
+Number of HTTP request
+header: Content-Language
+
+cs(ContentLength)
+
+request.header.Co
+ntent-Length
+
+Request header: Content-Length
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+cs(ContentLength)length
+
+request.header.Co
+ntentLength.length
+
+Length of HTTP request header:
+Content-Length
+
+cs(ContentLength)-count
+
+request.header.Co
+ntent-Length.count
+
+Number of HTTP request
+header: Content-Length
+
+cs(ContentLocation)
+
+request.header.Co
+ntent-Location
+
+Request header: ContentLocation
+
+cs(ContentLocation)length
+
+request.header.Co
+ntentLocation.length
+
+Length of HTTP request header:
+Content-Location
+
+cs(ContentLocation)count
+
+request.header.Co
+ntentLocation.count
+
+Number of HTTP request
+header: Content-Location
+
+cs(ContentMD5)
+
+request.header.Co
+ntent-MD5
+
+Request header: Content-MD5
+
+cs(ContentMD5)-length
+
+request.header.Co
+ntent-MD5.length
+
+Length of HTTP request header:
+Content-MD5
+
+cs(ContentMD5)-count
+
+request.header.Co
+ntent-MD5.count
+
+Number of HTTP request
+header: Content-MD5
+
+cs(ContentRange)
+
+request.header.Co
+ntent-Range
+
+Request header: Content-Range
+
+cs(ContentRange)-length
+
+request.header.Co
+ntent-Range.length
+
+Length of HTTP request header:
+Content-Range
+
+cs(ContentRange)-count
+
+request.header.Co
+ntent-Range.count
+
+Number of HTTP request
+header: Content-Range
+
+cs(ContentType)
+
+request.header.Co
+ntent-Type
+
+Request header: Content-Type
+
+cs(ContentType)-length
+
+request.header.Co
+ntent-Type.length
+
+Length of HTTP request header:
+Content-Type
+
+cs(ContentType)-count
+
+request.header.Co
+ntent-Type.count
+
+Number of HTTP request
+header: Content-Type
+
+cs(Cookie)
+
+request.header.Co
+okie
+
+cs(Cookie)length
+
+request.header.Co
+okie.
+length
+
+Length of HTTP request header:
+Cookie
+
+cs(Cookie)count
+
+request.header.Co
+okie.
+count
+
+Number of HTTP request
+header: Cookie
+
+cs(Cookie2)
+
+request.header.Co
+okie2
+
+Request header: Cookie2
+
+cs(Cookie2)length
+
+request.header.Co
+okie2.
+length
+
+Length of HTTP request header:
+Cookie2
+
+%C
+
+Request header: Cookie
+
+87
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+cs(Cookie2)count
+
+88
+
+CPL
+
+Custom
+
+Description
+
+request.header.Co
+okie2.
+count
+
+Number of HTTP request
+header: Cookie2
+
+cs(Date)
+
+request.header.Da
+te
+
+Request header: Date
+
+cs(Date)length
+
+request.header.Da
+te.length
+
+Length of HTTP request header:
+Date
+
+cs(Date)count
+
+request.header.Da
+te.count
+
+Number of HTTP request
+header: Date
+
+cs(Etag)
+
+request.header.Et
+ag
+
+Request header: Etag
+
+cs(Etag)length
+
+request.header.Et
+ag.length
+
+Length of HTTP request header:
+Etag
+
+cs(Etag)count
+
+request.header.Et
+ag.count
+
+Number of HTTP request
+header: Etag
+
+cs(Expect)
+
+request.header.Ex
+pect
+
+Request header: Expect
+
+cs(Expect)length
+
+request.header.Ex
+pect.
+length
+
+Length of HTTP request header:
+Expect
+
+cs(Expect)count
+
+request.header.Ex
+pect.
+count
+
+Number of HTTP request
+header: Expect
+
+cs(Expires)
+
+request.header.Ex
+pires
+
+Request header: Expires
+
+cs(Expires)length
+
+request.header.Ex
+pires.
+length
+
+Length of HTTP request header:
+Expires
+
+cs(Expires)count
+
+request.header.Ex
+pires.
+count
+
+Number of HTTP request
+header: Expires
+
+cs(From)
+
+request.header.Fr
+om
+
+Request header: From
+
+cs(From)length
+
+request.header.Fr
+om.
+length
+
+Length of HTTP request header:
+From
+
+cs(From)count
+
+request.header.Fr
+om.count
+
+Number of HTTP request
+header: From
+
+cs(FrontEnd-HTTPS)
+
+request.header.Fr
+ont-End-HTTPS
+
+Request header: Front-EndHTTPS
+
+cs(FrontEnd-HTTPS)length
+
+request.header.Fr
+ont-EndHTTPS.length
+
+Length of HTTP request header:
+Front-End-HTTPS
+
+cs(FrontEnd-HTTPS)count
+
+request.header.Fr
+ont-EndHTTPS.count
+
+Number of HTTP request
+header: Front-End-HTTPS
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+cs(Host)
+
+request.header.Ho
+st
+
+Request header: Host
+
+cs(Host)length
+
+request.header.Ho
+st.length
+
+Length of HTTP request header:
+Host
+
+cs(Host)count
+
+request.header.Ho
+st.count
+
+Number of HTTP request
+header: Host
+
+cs(If-Match)
+
+request.header.If
+-Match
+
+Request header: If-Match
+
+cs(IfMatch)-length
+
+request.header.If
+-Match.length
+
+Length of HTTP request header:
+If-Match
+
+cs(IfMatch)-count
+
+request.header.If
+-Match.count
+
+Number of HTTP request
+header: If-Match
+
+cs(IfModifiedSince)
+
+request.header.If
+-Modified-Since
+
+Request header: If-ModifiedSince
+
+cs(IfModifiedSince)-length
+
+request.header.If
+-ModifiedSince.length
+
+Length of HTTP request header:
+If-Modified-Since
+
+cs(IfModifiedSince)-count
+
+request.header.If
+-ModifiedSince.count
+
+Number of HTTP request
+header: If-Modified-Since
+
+cs(If-NoneMatch)
+
+request.header.If
+-None-Match
+
+Request header: If-None-Match
+
+cs(If-NoneMatch)-length
+
+request.header.If
+-None-Match.length
+
+Length of HTTP request header:
+If-None-Match
+
+cs(If-NoneMatch)-count
+
+request.header.If
+-None-Match.count
+
+Number of HTTP request
+header: If-None-Match
+
+cs(If-Range)
+
+request.header.If
+-Range
+
+Request header: If-Range
+
+cs(IfRange)-length
+
+request.header.If
+-Range.length
+
+Length of HTTP request header:
+If-Range
+
+cs(IfRange)-count
+
+request.header.If
+-Range.count
+
+Number of HTTP request
+header: If-Range
+
+cs(IfUnmodifiedSince)
+
+request.header.If
+-Unmodified-Since
+
+Request header: If-UnmodifiedSince
+
+cs(IfUnmodifiedSince)-length
+
+request.header.If
+-UnmodifiedSince.length
+
+Length of HTTP request header:
+If-Unmodified-Since
+
+cs(IfUnmodifiedSince)-count
+
+request.header.If
+-UnmodifiedSince.count
+
+Number of HTTP request
+header: If-Unmodified-Since
+
+cs(LastModified)
+
+request.header.La
+st-Modified
+
+Request header: Last-Modified
+
+89
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+90
+
+CPL
+
+Custom
+
+Description
+
+cs(LastModified)length
+
+request.header.La
+st-Modified.length
+
+Length of HTTP request header:
+Last-Modified
+
+cs(LastModified)count
+
+request.header.La
+st-Modified.count
+
+Number of HTTP request
+header: Last-Modified
+
+cs(Location)
+
+request.header.Lo
+cation
+
+Request header: Location
+
+cs(Location)
+-length
+
+request.header.Lo
+cation.
+length
+
+Length of HTTP request header:
+Location
+
+cs(Location)
+-count
+
+request.header.Lo
+cation.
+count
+
+Number of HTTP request
+header: Location
+
+cs(MaxForwards)
+
+request.header.Ma
+x-Forwards
+
+Request header: Max-Forwards
+
+cs(MaxForwards)length
+
+request.header.Ma
+x-Forwards.length
+
+Length of HTTP request header:
+Max-Forwards
+
+cs(MaxForwards)count
+
+request.header.Ma
+x-Forwards.count
+
+Number of HTTP request
+header: Max-Forwards
+
+cs(Meter)
+
+request.header.Me
+ter
+
+Request header: Meter
+
+cs(Meter)length
+
+request.header.Me
+ter.
+length
+
+Length of HTTP request header:
+Meter
+
+cs(Meter)count
+
+request.header.Me
+ter.count
+
+Number of HTTP request
+header: Meter
+
+cs(P3P)
+
+request.header.P3
+P
+
+Request header: P3P
+
+cs(P3P)length
+
+request.header.P3
+P.length
+
+Length of HTTP request header:
+P3P
+
+cs(P3P)count
+
+request.header.P3
+P.count
+
+Number of HTTP request
+header: P3P
+
+cs(Pragma)
+
+request.header.Pr
+agma
+
+Request header: Pragma
+
+cs(Pragma)length
+
+request.header.Pr
+agma.
+length
+
+Length of HTTP request header:
+Pragma
+
+cs(Pragma)count
+
+request.header.Pr
+agma.
+count
+
+Number of HTTP request
+header: Pragma
+
+cs(ProxyAuthenticate)
+
+request.header.Pr
+oxy-Authenticate
+
+Request header: ProxyAuthenticate
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+cs(ProxyAuthenticate)
+-length
+
+request.header.Pr
+oxyAuthenticate.lengt
+h
+
+Length of HTTP request header:
+Proxy-Authenticate
+
+cs(ProxyAuthenticate)
+-count
+
+request.header.Pr
+oxyAuthenticate.count
+
+Number of HTTP request
+header: Proxy-Authenticate
+
+cs(ProxyAuthorization
+)
+
+request.header.Pr
+oxy-Authorization
+
+Request header: ProxyAuthorization
+
+cs(ProxyAuthorization
+)-length
+
+request.header.Pr
+oxyAuthorization.leng
+th
+
+Length of HTTP request header:
+Proxy-Authorization
+
+cs(ProxyAuthorization
+)-count
+
+request.header.Pr
+oxyAuthorization.coun
+t
+
+Number of HTTP request
+header: Proxy-Authorization
+
+cs(ProxyConnection)
+
+request.header.Pr
+oxy-Connection
+
+Request header: ProxyConnection
+
+cs(ProxyConnection)length
+
+request.header.Pr
+oxyConnection.length
+
+Length of HTTP request header:
+Proxy-Connection
+
+cs(ProxyConnection)count
+
+request.header.Pr
+oxyConnection.count
+
+Number of HTTP request
+header: Proxy-Connection
+
+cs(Range)
+
+request.header.Ra
+nge
+
+Request header: Range
+
+cs(Range)length
+
+request.header.Ra
+nge.
+length
+
+Length of HTTP request header:
+Range
+
+cs(Range)count
+
+request.header.Ra
+nge.
+count
+
+Number of HTTP request
+header: Range
+
+cs(Referer)
+
+request.header.Re
+ferer
+
+%R
+
+cs(Referer)length
+
+request.header.Re
+ferer.
+length
+
+Length of HTTP request header:
+Referer
+
+cs(Referer)count
+
+request.header.Re
+ferer.
+count
+
+Number of HTTP request
+header: Referer
+
+cs(Refresh)
+
+request.header.Re
+fresh
+
+Request header: Refresh
+
+cs(Refresh)length
+
+request.header.Re
+fresh.
+length
+
+Length of HTTP request header:
+Refresh
+
+Request header: Referer
+
+91
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+Custom
+
+Description
+
+cs(Refresh)count
+
+request.header.Re
+fresh.
+count
+
+Number of HTTP request
+header: Refresh
+
+cs(RetryAfter)
+
+request.header.Re
+try-After
+
+Request header: Retry-After
+
+cs(RetryAfter)-length
+
+request.header.Re
+try-After.length
+
+Length of HTTP request header:
+Retry-After
+
+cs(RetryAfter)-count
+
+request.header.Re
+try-After.count
+
+Number of HTTP request
+header: Retry-After
+
+cs(Server)
+
+request.header.Se
+rver
+
+Request header: Server
+
+cs(Server)length
+
+request.header.Se
+rver.
+length
+
+Length of HTTP request header:
+Server
+
+cs(Server)count
+
+request.header.Se
+rver.
+count
+
+Number of HTTP request
+header: Server
+
+cs(SetCookie)
+
+request.header.Se
+t-Cookie
+
+Request header: Set-Cookie
+
+cs(SetCookie)length
+
+request.header.Se
+t-Cookie.length
+
+Length of HTTP request header:
+Set-Cookie
+
+cs(SetCookie)-count
+
+request.header.Se
+t-Cookie.count
+
+Number of HTTP request
+header: Set-Cookie
+
+cs(SetCookie2)
+
+request.header.Se
+t-Cookie2
+
+Request header: Set-Cookie2
+
+cs(SetCookie2)length
+
+request.header.Se
+t-Cookie2.length
+
+Length of HTTP request header:
+Set-Cookie2
+
+cs(SetCookie2)count
+
+request.header.Se
+t-Cookie2.count
+
+Number of HTTP request
+header: Set-Cookie2
+
+cs(TE)
+cs(TE)length
+
+92
+
+CPL
+
+request.header.TE
+
+Request header: TE
+
+request.header.TE
+.length
+
+Length of HTTP request header:
+TE
+
+cs(TE)-count
+
+request.header.TE
+.count
+
+Number of HTTP request
+header: TE
+
+cs(Trailer)
+
+request.header.Tr
+ailer
+
+Request header: Trailer
+
+cs(Trailer)length
+
+request.header.Tr
+ailer.
+length
+
+Length of HTTP request header:
+Trailer
+
+cs(Trailer)count
+
+request.header.Tr
+ailer.
+count
+
+Number of HTTP request
+header: Trailer
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+cs(TransferEncoding)
+
+request.header.Tr
+ansfer-Encoding
+
+Request header: TransferEncoding
+
+cs(TransferEncoding)length
+
+request.header.Tr
+ansferEncoding.length
+
+Length of HTTP request header:
+Transfer-Encoding
+
+cs(TransferEncoding)count
+
+request.header.Tr
+ansferEncoding.count
+
+Number of HTTP request
+header: Transfer-Encoding
+
+cs(Upgrade)
+
+request.header.Up
+grade
+
+Request header: Upgrade
+
+cs(Upgrade)length
+
+request.header.Up
+grade.
+length
+
+Length of HTTP request header:
+Upgrade
+
+cs(Upgrade)count
+
+request.header.Up
+grade.
+count
+
+Number of HTTP request
+header: Upgrade
+
+cs(UserAgent)
+
+request.header.Us
+er-Agent
+
+cs(UserAgent)-length
+
+request.header.Us
+er-Agent.length
+
+Length of HTTP request header:
+User-Agent
+
+cs(UserAgent)-count
+
+request.header.Us
+er-Agent.count
+
+Number of HTTP request
+header: User-Agent
+
+cs(Vary)
+
+request.header.Va
+ry
+
+Request header: Vary
+
+cs(Vary)length
+
+request.header.Va
+ry.length
+
+Length of HTTP request header:
+Vary
+
+cs(Vary)count
+
+request.header.Va
+ry.count
+
+Number of HTTP request
+header: Vary
+
+cs(Via)
+
+request.header.Vi
+a
+
+Request header: Via
+
+cs(Via)length
+
+request.header.Vi
+a.length
+
+Length of HTTP request header:
+Via
+
+cs(Via)count
+
+request.header.Vi
+a.count
+
+Number of HTTP request
+header: Via
+
+cs(WWWAuthenticate)
+
+request.header.WW
+W-Authenticate
+
+Request header: WWWAuthenticate
+
+cs(WWWAuthenticate)
+-length
+
+request.header.WW
+WAuthenticate.lengt
+h
+
+Length of HTTP request header:
+WWW-Authenticate
+
+cs(WWWAuthenticate)
+-count
+
+request.header.WW
+WAuthenticate.count
+
+Number of HTTP request
+header: WWW-Authenticate
+
+cs(Warning)
+
+request.header.Wa
+rning
+
+Request header: Warning
+
+%A
+
+Request header: User-Agent
+
+93
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+cs(Warning)length
+
+request.header.Wa
+rning.
+length
+
+Length of HTTP request header:
+Warning
+
+cs(Warning)count
+
+request.header.Wa
+rning.
+count
+
+Number of HTTP request
+header: Warning
+
+cs(XBlueCoatError)
+
+request.header.XBlueCoat-Error
+
+Request header: X-BlueCoatError
+
+cs(XBlueCoatError)-length
+
+request.header.XBlueCoatError.length
+
+Length of HTTP request header:
+X-BlueCoat-Error
+
+cs(XBlueCoatError)-count
+
+request.header.XBlueCoatError.count
+
+Number of HTTP request
+header: X-BlueCoat-Error
+
+cs(XBlueCoat-MCClient-Ip)
+
+request.header.XBlueCoat-MCClient-Ip
+
+Request header: X-BlueCoatMC-Client-Ip
+
+cs(XBlueCoat-MCClient-Ip)length
+
+request.header.XBlueCoat-MCClient-Ip.length
+
+Length of HTTP request header:
+X-BlueCoat-MC-Client-Ip
+
+cs(XBlueCoat-MCClient-Ip)count
+
+request.header.XBlueCoat-MCClient-Ip.count
+
+Number of HTTP request
+header: X-BlueCoat-MC-ClientIp
+
+cs(XBlueCoat-Via)
+
+request.header.XBlueCoat-Via
+
+Request header: X-BlueCoat-Via
+
+cs(XBlueCoatVia)-length
+
+request.header.XBlueCoatVia.length
+
+Length of HTTP request header:
+X-BlueCoat-Via
+
+cs(XBlueCoatVia)-count
+
+request.header.XBlueCoat-Via.count
+
+Number of HTTP request
+header: X-BlueCoat-Via
+
+cs(XForwardedFor)
+
+request.header.XForwarded-For
+
+cs(XForwardedFor)-length
+
+request.header.XForwardedFor.length
+
+Length of HTTP request header:
+X-Forwarded-For
+
+cs(XForwardedFor)-count
+
+request.header.XForwardedFor.count
+
+Number of HTTP request
+header: X-Forwarded-For
+
+%X
+
+Request header: X-ForwardedFor
+
+Category: si_response_header
+rs(Accept)
+
+94
+
+response.header.A
+ccept
+
+Response header: Accept
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+Custom
+
+Description
+
+rs(AcceptCharset)
+
+response.header.A
+ccept-Charset
+
+Response header: AcceptCharset
+
+rs(AcceptEncoding)
+
+response.header.A
+ccept-Encoding
+
+Response header: AcceptEncoding
+
+rs(AcceptLanguage)
+
+response.header.A
+ccept-Language
+
+Response header: AcceptLanguage
+
+rs(AcceptRanges)
+
+response.header.A
+ccept-Ranges
+
+Response header: Accept-Ranges
+
+rs(Age)
+
+response.header.A
+ge
+
+Response header: Age
+
+rs(Allow)
+
+response.header.A
+llow
+
+Response header: Allow
+
+rs(Authentic
+ation-Info)
+
+response.header.
+AuthenticationInfo
+
+Response header:
+Authentication-Info
+
+rs(Authoriza
+tion)
+
+response.header.
+Authorization
+
+Response header: Authorization
+
+rs(CacheControl)
+
+response.header.C
+ache-Control
+
+Response header: Cache-Control
+
+rs(ClientIP)
+
+response.header.C
+lient-IP
+
+Response header: Client-IP
+
+rs(Connectio
+n)
+
+response.header.
+Connection
+
+Response header: Connection
+
+rs(ContentDisposition)
+
+response.header.C
+ontent-Disposition
+
+Response header: ContentDisposition
+
+rs(ContentEncoding)
+
+response.header.C
+ontent-Encoding
+
+Response header: ContentEncoding
+
+rs(ContentLanguage)
+
+response.header.C
+ontent-Language
+
+Response header: ContentLanguage
+
+rs(ContentLength)
+
+response.header.C
+ontent-Length
+
+Response header: ContentLength
+
+rs(ContentLocation)
+
+response.header.C
+ontent-Location
+
+Response header: ContentLocation
+
+rs(ContentMD5)
+
+response.header.C
+ontent-MD5
+
+Response header: Content-MD5
+
+rs(ContentRange)
+
+response.header.C
+ontent-Range
+
+Response header: Content-Range
+
+rs(ContentType)
+
+response.header.C
+ontent-Type
+
+rs(Cookie)
+
+response.header.C
+ookie
+
+Response header: Cookie
+
+rs(Cookie2)
+
+response.header.C
+ookie2
+
+Response header: Cookie2
+
+rs(Date)
+
+response.header.D
+ate
+
+Response header: Date
+
+%c
+
+Response header: Content-Type
+
+95
+
+Volume 8: Access Logging
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+rs(Etag)
+
+response.header.E
+tag
+
+Response header: Etag
+
+rs(Expect)
+
+response.header.E
+xpect
+
+Response header: Expect
+
+rs(Expires)
+
+response.header.E
+xpires
+
+Response header: Expires
+
+rs(From)
+
+response.header.F
+rom
+
+Response header: From
+
+rs(FrontEnd-HTTPS)
+
+response.header.F
+ront-End-HTTPS
+
+Response header: Front-EndHTTPS
+
+rs(Host)
+
+response.header.H
+ost
+
+Response header: Host
+
+rs(If-Match)
+
+response.header.I
+f-Match
+
+Response header: If-Match
+
+rs(IfModifiedSince)
+
+response.header.I
+f-Modified-Since
+
+Response header: If-ModifiedSince
+
+rs(If-NoneMatch)
+
+response.header.I
+f-None-Match
+
+Response header: If-None-Match
+
+response.header.I
+f-Range
+
+Response header: If-Range
+
+rs(IfUnmodifiedSince)
+
+response.header.I
+f-Unmodified-Since
+
+Response header: IfUnmodified-Since
+
+rs(LastModified)
+
+response.header.L
+ast-Modified
+
+Response header: Last-Modified
+
+response.header.L
+ocation
+
+Response header: Location
+
+response.header.M
+ax-Forwards
+
+Response header: Max-Forwards
+
+rs(Meter)
+
+response.header.M
+eter
+
+Response header: Meter
+
+rs(P3P)
+
+response.header.P
+3P
+
+Response header: P3P
+
+rs(Pragma)
+
+response.header.P
+ragma
+
+Response header: Pragma
+
+rs(ProxyAuthenticate)
+
+response.header.P
+roxy-Authenticate
+
+Response header: ProxyAuthenticate
+
+rs(ProxyAuthorization
+)
+
+response.header.P
+roxy-Authorization
+
+Response header: ProxyAuthorization
+
+rs(ProxyConnection)
+
+response.header.P
+roxy-Connection
+
+Response header: ProxyConnection
+
+rs(Range)
+
+response.header.R
+ange
+
+Response header: Range
+
+rs(If-Range)
+
+rs(Location)
+rs(MaxForwards)
+
+96
+
+Custom
+
+Description
+
+Appendix A: Access Log Formats
+Table A–6 Access Log Formats (Continued)
+
+ELFF
+
+CPL
+
+rs(Referer)
+
+response.header.R
+eferer
+
+Response header: Referer
+
+rs(Refresh)
+
+response.header.R
+efresh
+
+Response header: Refresh
+
+response.header.R
+etry-After
+
+Response header: Retry-After
+
+response.header.S
+erver
+
+Response header: Server
+
+rs(SetCookie)
+
+response.header.S
+et-Cookie
+
+Response header: Set-Cookie
+
+rs(SetCookie2)
+
+response.header.S
+et-Cookie2
+
+Response header: Set-Cookie2
+
+rs(TE)
+
+response.header.T
+E
+
+Response header: TE
+
+rs(Trailer)
+
+response.header.T
+railer
+
+Response header: Trailer
+
+rs(TransferEncoding)
+
+response.header.T
+ransfer-Encoding
+
+Response header: TransferEncoding
+
+rs(Upgrade)
+
+response.header.U
+pgrade
+
+Response header: Upgrade
+
+rs(UserAgent)
+
+response.header.U
+ser-Agent
+
+Response header: User-Agent
+
+rs(Vary)
+
+response.header.V
+ary
+
+Response header: Vary
+
+rs(Via)
+
+response.header.V
+ia
+
+Response header: Via
+
+rs(WWWAuthenticate)
+
+response.header.W
+WW-Authenticate
+
+Response header: WWWAuthenticate
+
+rs(Warning)
+
+response.header.W
+arning
+
+Response header: Warning
+
+rs(XBlueCoatError)
+
+response.header.X
+-BlueCoat-Error
+
+Response header: X-BlueCoatError
+
+rs(XBlueCoat-MCClient-Ip)
+
+response.header.X
+-BlueCoat-MCClient-Ip
+
+Response header: X-BlueCoatMC-Client-Ip
+
+rs(XBlueCoat-Via)
+
+response.header.X
+-BlueCoat-Via
+
+Response header: X-BlueCoatVia
+
+rs(XForwardedFor)
+
+response.header.X
+-Forwarded-For
+
+Response header: X-ForwardedFor
+
+rs(RetryAfter)
+rs(Server)
+
+Custom
+
+Description
+
+97
+
+Volume 8: Access Logging
+
+98
+
+Glossary
+
+A
+access control list—Allows
+
+or denies specific IP addresses access to a server.
+
+access log—A list of all the requests sent to a ProxySG. You can read an access
+log using any of the popular log-reporting programs. When a client uses HTTP
+streaming, the streaming entry goes to the same access log.
+account—A
+
+named entity that has purchased the ProxySG or the Entitlements
+from Blue Coat.
+activation code—A
+
+string of approximately 10 characters that is generated and
+mailed to customers when they purchase the ProxySG.
+
+active content stripping—Provides a way to identify potentially dangerous mobile
+
+or active content and scripts, and strip them out of a response.
+active content types—Used in the Visual Policy Manager. Referring to Web
+Access policies, you can create and name lists of active content types to be
+stripped from Web pages. You have the additional option of specifying a
+customized message to be displayed to the user
+administration access policy—A
+
+policy layer that determines who can access the
+ProxySG to perform administrative tasks.
+
+administration authentication policy—A
+
+policy layer that determines how
+administrators accessing the ProxySG must authenticate.
+AJAX—Acronym
+
+for Asynchronous JavaScript and XML, the technology used
+for live updating of Web objects without having to reload the entire page.
+
+Application Delivery Network (ADN)—A
+
+WAN that has been optimized for
+acceleration and compression by Blue Coat. This network can also be secured
+through the use of appliance certificates. An ADN network is composed of an
+ADN manager and backup ADN manager, ADN nodes, and a network
+configuration that matches the environment.
+ADN backup manager—Takes over for the ADN manager in the event it becomes
+unavailable. See ADN manager.
+ADN manager—Responsible for publishing the routing table to SG Clients (and
+to other ProxySG appliances).
+ADN optimize attribute—Controls whether to optimize bandwidth usage when
+connecting upstream using an ADN tunnel.
+A record—The central records of DNS, which
+
+link a domain or subdomain to an
+IP address. An A record can correspond to a single IP address or many IP
+addresses.
+
+asx rewrite—Allows you to rewrite URLs and then direct a client's subsequent
+request to the new URL. One of the main applications of ASX file rewrites is to
+provide explicit proxy-like support for Windows Media Player 6.4, which
+cannot set explicit proxy mode for protocols other than HTTP.
+
+99
+
+Volume 8: Access Logging
+
+audit—A
+
+log that provides a record of who accessed what and how.
+
+authenticate-401 attribute—All transparent and explicit requests received on the port
+always use transparent authentication (cookie or IP, depending on the
+configuration). This is especially useful to force transparent proxy authentication
+in some proxy-chaining scenarios
+authenticated content—Cached content that requires authentication at the origin
+content server (OCS). Supported authentication types for cached data include
+basic authentication and IWA (or NTLM).
+authentication—Allows you to verify the identity of a user. In its simplest form, this
+
+is done through usernames and passwords. Much more stringent authentication
+can be employed using digital certificates that have been issued and verified by a
+Certificate Authority. See also basic authentication, proxy authentication, and SSL
+authentication.
+authentication realm—Authenticates
+
+and authorizes users to access SG services
+using either explicit proxy or transparent proxy mode. These realms integrate
+third-party vendors, such as LDAP, Windows, and Novell, with the Blue Coat
+operating system.
+
+authorization—The
+
+permissions given to an authenticated user.
+
+B
+bandwidth—The
+
+amount of data you can send through a network or modem
+connection, usually measured in bits per second (bps).
+
+bandwidth class—A defined
+
+unit of bandwidth allocation.
+
+bandwidth class hierarchy—A gouping of bandwidth classes into a tree structure
+that specifies the relationship among different classes. You create a hierarchy by
+creating at least one parent class and assigning other classes as its children.
+bandwidth gain—Bandwidth
+
+gain is a calculation of the savings that occur when
+bandwidth is not consumed as a result of some form of optimization.
+For example, bandwidth gain for active sessions is calculated by subtracting the
+number of client bytes from the number of server bytes and dividing the result by
+the number of server bytes.
+(Client Bytes - Server Bytes) / Server Bytes
+
+bandwidth management—Classify,
+
+control, and, if needed, limit the amount of
+bandwidth used by network traffic flowing in or out of a ProxySG.
+
+basic authentication—The
+
+standard authentication for communicating with the
+target as identified in the URL.
+
+BCAAA—Blue Coat Authentication and Authorization Agent. Allows SGOS 5.x to
+manage authentication and authorization for IWA, CA eTrust SiteMinder realms,
+Oracle COREid, Novell, and Windows realms. The agent is installed and
+configured separately from SGOS 5.x and is available from the Blue Coat Web site.
+BCLP—Blue
+
+Coat Licensing Portal.
+
+byte-range support—The
+
+ability of the ProxySG to respond to byte-range requests
+(requests with a Range: HTTP header).
+
+100
+
+C
+cache—An
+
+"object store," either hardware or software, that stores information
+(objects) for later retrieval. The first time the object is requested, it is stored,
+making subsequent requests for the same information much faster.
+
+A cache helps reduce the response time and network bandwidth consumption on
+future, equivalent requests. The ProxySG serves as a cache by storing content
+from many users to minimize response time and prevent extraneous network
+traffic.
+cache control—Allows
+
+you to configure which content the ProxySG stores.
+
+cache efficiency—A tab found on the Statistics pages of the Management Console
+that shows the percent of objects served from cache, the percent loaded from the
+network, and the percent that were non-cacheable.
+cache hit—Occurs when the ProxySG receives a request for an object and can serve
+
+the request from the cache without a trip to the origin server.
+cache miss—Occurs
+
+when the ProxySG receives a request for an object that is not
+in the cache. The ProxySG must then fetch the requested object from the origin
+server.
+
+cache object—Cache contents includes all objects currently stored by the ProxySG.
+Cache objects are not cleared when the ProxySG is powered off.
+Certificate Authority (CA)—A
+
+trusted, third-party organization or company that
+issues digital certificates used to create digital signatures and public key/private
+key pairs. The role of the CA is to guarantee that the individuals or company
+representatives who are granted a unique certificate are who they claim to be.
+
+child class (bandwidth gain)—The child of a parent class is dependent on that parent
+class for available bandwidth (they share the bandwidth in proportion to their
+minimum/maximum bandwidth values and priority levels). A child class with
+siblings (classes with the same parent class) shares bandwidth with those siblings
+in the same manner.
+cipher suite—Specifies the algorithms used to secure an SSL connection. When a
+client makes an SSL connection to a server, it sends a list of the cipher suites that it
+supports.
+client consent certificates—A certificate that indicates acceptance or denial of
+consent to decrypt an end user's HTTPS request.
+client-side transparency—A
+
+way of replacing the ProxySG IP address with the Web
+server IP address for all port 80 traffic destined to go to the client. This effectively
+conceals the ProxySG address from the client and conceals the identity of the
+client from the Web server.
+
+concentrator—A
+
+ProxySG, usually located in a data center, that provides access to
+data center resources, such as file servers.
+content filtering—A way of controlling which content is delivered to certain users.
+ProxySG appliances can filter content based on content categories (such as
+gambling, games, and so on), type (such as http, ftp, streaming, and mime type),
+identity (user, group, network), or network conditions. You can filter content
+using vendor-based filtering or by allowing or denying access to URLs.
+
+101
+
+Volume 8: Access Logging
+
+D
+default boot system—The system that was successfully started last time. If a system
+fails to boot, the next most recent system that booted successfully becomes the
+default boot system.
+default proxy listener—See
+
+proxy service (default).
+
+denial of service (DoS)—A
+
+method that hackers use to prevent or deny legitimate
+users access to a computer, such as a Web server. DoS attacks typically send many
+request packets to a targeted Internet server, flooding the server's resources and
+making the system unusable. Any system connected to the Internet and equipped
+with TCP-based network services is vulnerable to a DoS attack.
+The ProxySG resists DoS attacks launched by many common DoS tools. With a
+hardened TCP/IP stack, the ProxySG resists common network attacks, including
+traffic flooding.
+
+destination objects—Used
+
+in Visual Policy Manager. These are the objects that
+define the target location of an entry type.
+
+detect protocol attribute—Detects the protocol being used. Protocols that can be
+detected include: HTTP, P2P (eDonkey, BitTorrent, FastTrack, Gnutella), SSL, and
+Endpoint Mapper.
+diagnostic reporting—Found in the Statistics pane, the Diagnostics tab allows you to
+
+control whether Daily Heartbeats and/or Blue Coat Monitoring are enabled or
+disabled.
+directives—Commands used in installable lists to configure forwarding and
+SOCKS gateway.
+DNS access—A
+
+policy layer that determines how the ProxySG processes DNS
+
+requests.
+domain name system (DNS)—An
+
+Internet service that translates domain names into
+
+IP addresses.
+dynamic bypass—Provides a maintenance-free method for improving performance
+of the ProxySG by automatically compiling a list of requested URLs that return
+various kinds of errors.
+dynamic real-time rating (DRTR)—Used
+
+in conjunction with the Blue Coat Web Filter
+(BCWF), DRTR (also known as dynamic categorization) provides real-time analysis
+and content categorization of requested Web pages to solve the problem of new
+and previously unknown uncategorized URLs—those not in the database.
+When a user requests a URL that has not already been categorized by the BCWF
+database (for example, a brand new Web site), the ProxySG dynamic
+categorization service analyzes elements of the requested content and assigns a
+category or categories. The dynamic service is consulted only when the installed
+BCWF database does not contain category information for an object.
+
+E
+early intercept attribute—Controls
+
+whether the proxy responds to client TCP
+connection requests before connecting to the upstream server. When early
+intercept is disabled, the proxy delays responding to the client until after it has
+attempted to contact the server.
+
+102
+
+ELFF-compatible format—A
+
+log type defined by the W3C that is general enough to
+be used with any protocol.
+emulated certificates—Certificates
+
+that are presented to the user by the ProxySG
+when intercepting HTTPS requests. Blue Coat emulates the certificate from the
+server and signs it, copying the subjectName and expiration. The original
+certificate is used between the ProxySG and the server.
+
+encrypted log—A
+
+log is encrypted using an external certificate associated with a
+private key. Encrypted logs can only be decrypted by someone with access to the
+private key. The private key is not accessible to the ProxySG.
+
+EULA—End
+
+user license agreement.
+
+event logging—Allows you to specify the types of system events logged, the size of
+
+the event log, and to configure Syslog monitoring. The ProxySG can also notify
+you by email if an event is logged. See also access logging.
+explicit proxy—A configuration in which the browser is explicitly configured to
+communicate with the proxy server for access to content. This is the default for
+the ProxySG and requires configuration for both the browser and the interface
+card.
+extended log file format (ELFF)—A variant of the common log file format, which has
+two additional fields at the end of the line—the referer and the user agent fields.
+
+F
+fail open/closed—Failing
+
+open or closed applies to forwarding hosts and groups
+and SOCKS gateways. Fail open or closed applies when health checks are
+showing sick for each forwarding or SOCKS gateway target in the applicable failover sequence. If no systems are healthy, the ProxySG fails open or closed,
+depending on the configuration. If closed, the connection attempt simply fails.
+If open, an attempt is made to connect without using any forwarding target (or
+SOCKS gateway). Fail open is usually a security risk; fail closed is the default if no
+setting is specified.
+
+filtering—See
+
+content filtering.
+
+forward proxy—A
+
+proxy server deployed close to the clients and used to access
+many servers. A forward proxy can be explicit or transparent.
+
+FTP—See
+
+Native FTP and Web FTP.
+
+G
+gateway—A
+
+device that serves as entrance and exit into a communications
+
+network.
+
+H
+hardware serial number—A string that uniquely identifies the ProxySG; it is assigned
+
+to each unit in manufacturing.
+health check tests—The method of determining network connectivity, target
+responsiveness, and basic functionality. The following tests are supported:
+
+103
+
+Volume 8: Access Logging
+
+•
+
+ICMP
+
+•
+
+TCP
+
+•
+
+SSL
+
+•
+
+HTTP
+
+•
+
+HTTPS
+
+•
+
+Group
+
+•
+
+Composite and reference to a composite result
+
+•
+
+ICAP
+
+•
+
+Websense
+
+•
+
+DRTR rating service
+
+health check type—The kind of device or service the specific health check tests. The
+following types are supported:
+
+•
+
+Forwarding host and forwarding group
+
+•
+
+SOCKS gateway and SOCKS gateway group
+
+•
+
+CAP service and ICAP service group
+
+•
+
+Websense off-box service and Websense off-box service group
+
+•
+
+DRTR rating service
+
+•
+
+User-defined host and a user-defined composite
+
+heartbeat—Messages
+
+sent once every 24 hours that contain the statistical and
+configuration data for the ProxySG, indicating its health. Heartbeats are
+commonly sent to system administrators and to Blue Coat. Heartbeats contain no
+private information, only aggregate statistics useful for pre-emptively diagnosing
+support issues.
+The ProxySG sends emergency heartbeats whenever it is rebooted. Emergency
+heartbeats contain core dump and restart flags in addition to daily heartbeat
+information.
+
+host affinity—The
+
+attempt to direct multiple connections by a single user to the
+same group member. Host affinity is closely tied to load balancing behavior; both
+should be configured if load balancing is important.
+
+host affinity timeout—The host affinity timeout determines how long a user remains
+
+idle before the connection is closed. The timeout value checks the user's IP
+address, SSL ID, or cookie in the host affinity table.
+
+I
+inbound traffic (bandwidth gain)—Network
+
+packets flowing into the ProxySG.
+Inbound traffic mainly consists of the following:
+•
+
+104
+
+Server inbound: Packets originating at the origin content server (OCS) and
+sent to the ProxySG to load a Web object.
+
+•
+
+Client inbound: Packets originating at the client and sent to the ProxySG
+for Web requests.
+
+installable list—A
+
+list of configuration parameters that can be created using a text
+editor (either Blue Coat or another text editor) or through the CLI inline
+commands. The list can then be downloaded to the ProxySG from an HTTP server
+or locally from your PC. Configurations that can be created and installed this way
+include the SG Client, archiving, forwarding hosts, SOCKS gateways, ICP, policy
+files, and exceptions.
+integrated host timeout—An
+
+integrated host is an origin content server (OCS) that
+has been added to the health check list. The host, added through the
+integrate_new_hosts property, ages out of the integrated host table after
+being idle for the specified time. The default is 60 minutes.
+
+intervals—Time
+
+period from the completion of one health check to the start of the
+next health check.
+
+IP reflection—Determines how the client IP address is presented to the origin server
+
+for explicitly proxied requests. All proxy services contain a reflect-ip attribute,
+which enables or disables sending of client's IP address instead of the IP address
+of the ProxySG.
+issuer keyring—The keyring used by the ProxySG to sign emulated certificates. The
+
+keyring is configured on the appliance and managed through policy.
+
+L
+licensable component (LC)—(Software)
+
+A subcomponent of a license; it is an option
+that enables or disables a specific feature.
+
+LCAMS—License
+
+Configuration and Management System.
+
+license—Provides
+
+both the right and the ability to use certain software functions
+within a ProxyAV (or ProxySG) appliance. The license key defines and controls
+the license, which is owned by an account.
+
+listener—The service that is listening on a specific port. A listener can be identified
+
+by any destination IP/subnet and port range. Multiple listeners can be added to
+each service.
+live content—Also
+
+called live broadcast. Used in streaming, it indicates that the
+content is being delivered fresh.
+
+LKF—License
+
+key file.
+
+load balancing—A
+
+way to share traffic requests among multiple upstream systems
+or multiple IP addresses on a single host.
+
+local bypass list—A
+
+list you create and maintain on your network. You can use a
+local bypass list alone or in conjunction with a central bypass list.
+
+local policy file—Written by enterprises (as opposed to the central policy file written
+
+by Blue Coat); used to create company- and department-specific advanced
+policies written in the Blue Coat Policy Language (CPL).
+
+105
+
+Volume 8: Access Logging
+
+log facility—A
+
+separate log that contains a single logical file and supports a single
+log format. It also contains the file’s configuration and upload schedule
+information as well as other configurable information such as how often to rotate
+(switch to a new log) the logs at the destination, any passwords needed, and the
+point at which the facility can be uploaded.
+
+log format—The type of log that is used: NCSA/Common, SQUID, ELFF,
+SurfControl, or Websense.
+
+The proprietary log types each have a corresponding pre-defined log format that
+has been set up to produce exactly that type of log (these logs cannot be edited). In
+addition, a number of other ELFF type log formats are also pre-defined (im, main,
+p2p, ssl, streaming). These can be edited, but they start out with a useful set of log
+fields for logging particular protocols understood by the ProxySG. It is also
+possible to create new log formats of type ELFF or Custom which can contain any
+desired combination of log fields.
+log tail—The access log tail shows the log entries as they get logged. With high
+traffic on the ProxySG, not all access log entries are necessarily displayed.
+However, you can view all access log information after uploading the log.
+
+M
+MACH5—SGOS
+
+5 MACH5 Edition.
+
+Management Console—A
+
+graphical Web interface that lets you to manage,
+configure, monitor, and upgrade the ProxySG from any location. The
+Management Console consists of a set of Web pages and Java applets stored on
+the ProxySG. The appliance acts as a Web server on the management port to serve
+these pages and applets.
+
+management information base (MIB)—Defines
+
+the statistics that management systems
+can collect. A managed device (gateway) has one or more MIBs as well as one or
+more SNMP agents, which implements the information and management
+functionality defined by a specific MIB.
+
+maximum object size—The
+
+maximum object size stored in the ProxySG. All objects
+retrieved that are greater than the maximum size are delivered to the client but are
+not stored in the ProxySG.
+
+Media Access Control (MAC) address—A
+
+unique value associated with a network
+adapter; also known as hardware address or physical address. For the ProxySG, it
+is a hardware address that is stored in each network card (such as an SSL
+accelerator card or a Quad GigE Fiber LX card) on the ProxySG. The MAC
+address uniquely identifies an adapter on a LAN and is a 12-digit hexadecimal
+number (48 bits in length).
+MIME/FILE type filtering—Allows
+
+organizations to implement Internet policies for
+both uploaded and downloaded content by MIME or FILE type.
+multi-bit rate—The capability of a single stream to deliver multiple bit rates to
+clients requesting content from ProxySG appliances from within varying levels of
+network conditions (such as different connecting bandwidths and traffic).
+multicast—Used
+
+in streaming; the ability for hundreds or thousands of users to
+play a single stream.
+
+106
+
+multicast aliases—Used
+
+in streaming; a streaming command that specifies an alias
+for a multicast URL to receive an .nsc file. The .nsc files allows the multicast
+session to obtain the information in the control channel
+multicast station—Used in streaming; a defined location on the proxy where the
+Windows Media player can retrieve streams. A multicast station enables multicast
+transmission of Windows Media content from the cache. The source of the
+multicast-delivered content can be a unicast-live source, a multicast (live) source,
+and simulated live (video-on-demand content converted to scheduled live
+content).
+multimedia content services—Used
+
+in streaming; multimedia support includes Real
+Networks, Microsoft Windows Media, Apple QuickTime, MP3, and Flash.
+
+N
+name inputing—Allows a ProxySG to resolve host names based on a partial name
+specification. When a host name is submitted to the DNS server, the DNS server
+resolves the name to an IP address. If the host name cannot be resolved, Blue Coat
+adds the first entry in the name-inputing list to the end of the host name and
+resubmits it to the DNS server
+native FTP—Native
+
+FTP involves the client connecting (either explicitly or
+transparently) using the FTP protocol; the ProxySG then connects upstream
+through FTP (if necessary).
+
+NCSA common log format—Blue
+
+Coat products are compatible with this log type,
+which contains only basic HTTP access information.
+
+network address translation (NAT)—The process of translating private network (such
+as intranet) IP addresses to Internet IP addresses and vice versa. This
+methodology makes it possible to match private IP addresses to Internet IP
+addresses even when the number of private addresses outnumbers the pool of
+available Internet addresses.
+non-cacheable objects—A number of objects are not cached by the ProxySG because
+they are considered non-cacheable. You can add or delete the kinds of objects that
+the appliance considers non-cacheable. Some of the non-cacheable request types
+are:
+
+•
+
+Pragma no-cache, requests that specify non-cached objects, such as when
+you click refresh in the Web browser.
+
+•
+
+Password provided, requests that include a client password.
+
+•
+
+Data in request that include additional client data.
+
+•
+
+Not a GET request.
+
+.nsc file—Created
+
+from the multicast station definition and saved through the
+browser as a text file encoded in a Microsoft proprietary format. Without an .nsc
+file, the multicast station definition does not work.
+
+107
+
+Volume 8: Access Logging
+
+NTP—To
+
+manage objects in an appliance, a ProxySG must know the current
+Universal Time Coordinates (UTC) time. By default, the ProxySG attempts to
+connect to a Network Time Protocol (NTP) server to acquire the UTC time. The
+ProxySG includes a list of NTP servers available on the Internet, and attempts to
+connect to them in the order they appear in the NTP server list on the NTP tab.
+
+O
+object (used in caching)—An
+
+object is the item that is stored in an appliance. These
+objects can be frequently accessed content, content that has been placed there by
+content publishers, or Web pages, among other things.
+
+object (used in Visual Policy Manager)—An
+
+object (sometimes referred to as a
+condition) is any collection or combination of entry types you can create
+individually (user, group, IP address/subnet, and attribute). To be included in an
+object, an item must already be created as an individual entry.
+
+object pipelining—This
+
+patented algorithm opens as many simultaneous TCP
+connections as the origin server will allow and retrieves objects in parallel. The
+objects are then delivered from the appliance straight to the user's desktop as fast
+as the browser can request them.
+
+Online Certificate Status Protocol (OCSP)— An Internet protocol used for obtaining the
+
+revocation status of an X.509 digital certificate. OCSP was created as an
+alternative to certificate revocation lists (CRL), specifically addressing certain
+problems associated with using CRLs in a public key infrastructure (PKI). OCSP
+servers are called OCSP responders due to the request/response nature of these
+messages.
+origin content server (OCS)—Also
+
+called origin server. This is the original source of
+the content that is being requested. An appliance needs the OCS to acquire data
+the first time, to check that the content being served is still fresh, and to
+authenticate users.
+
+outbound traffic (bandwidth gain)—Network packets flowing out of the ProxySG.
+Outbound traffic mainly consists of the following:
+
+•
+
+Client outbound: Packets sent to the client in response to a Web request.
+
+•
+
+Server outbound: Packets sent to an OCS or upstream proxy to request a
+service.
+
+P
+PAC (Proxy AutoConfiguration) scripts—Originally created by Netscape, PACs are a
+way to avoid requiring proxy hosts and port numbers to be entered for every
+protocol. You need only enter the URL. A PAC can be created with the needed
+information and the local browser can be directed to the PAC for information
+about proxy hosts and port numbers.
+packet capture (PCAP)—Allows
+
+filtering on various attributes of the Ethernet frame
+to limit the amount of data collected. You can capture packets of Ethernet frames
+going into or leaving a ProxySG.
+
+108
+
+parent class (bandwidth gain)—A
+
+class with at least one child. The parent class must
+share its bandwidth with its child classes in proportion to the minimum/
+maximum bandwidth values or priority levels.
+
+passive mode data connections (PASV)—Data connections initiated by an FTP client to
+
+an FTP server.
+pipelining—See
+
+object pipelining.
+
+policies—Groups
+
+of rules that let you manage Web access specific to the needs of
+an enterprise. Policies enhance ProxySG feature areas such as authentication and
+virus scanning, and let you control end-user Web access in your existing
+infrastructure.
+
+policy-based bypass list—Used in policy. Allows a bypass based on the properties of
+the client, unlike static and dynamic bypass lists, which allow traffic to bypass the
+appliance based on destination IP address. See also dynamic bypass.
+policy layer—A
+
+collection of rules created using Blue Coat CPL or with the VPM.
+
+pragma: no cache (PNC)—A
+
+metatag in the header of a request that requires the
+appliance to forward a request to the origin server. This allows clients to always
+obtain a fresh copy.
+
+proxy—Caches
+
+content, filters traffic, monitors Internet and intranet resource
+usage, blocks specific Internet and intranet resources for individuals or groups,
+and enhances the quality of Internet or intranet user experiences.
+A proxy can also serve as an intermediary between a Web client and a Web server
+and can require authentication to allow identity-based policy and logging for the
+client.
+The rules used to authenticate a client are based on the policies you create on the
+ProxySG, which can reference an existing security infrastructure—LDAP,
+RADIUS, IWA, and the like.
+
+Proxy Edition—SGOS
+
+5 Proxy Edition.
+
+proxy service—The proxy service defines the ports, as well as other attributes. that
+are used by the proxies associated with the service.
+proxy service (default)—The default proxy service is a service that intercepts all
+traffic not otherwise intercepted by other listeners. It only has one listener whose
+action can be set to bypass or intercept. No new listeners can be added to the
+default proxy service, and the default listener and service cannot be deleted.
+Service attributes can be changed.
+ProxySG—A
+
+Blue Coat security and cache box that can help manage security and
+content on a network.
+
+public key certificate—An
+
+electronic document that encapsulates the public key of
+the certificate sender, identifies this sender, and aids the certificate receiver to
+verify the identity of the certificate sender. A certificate is often considered valid if
+it has been digitally signed by a well-known entity, which is called a Certificate
+Authority (such as VeriSign).
+
+public virtual IP (VIP)—Maps multiple servers to one IP address and then propagates
+that information to the public DNS servers. Typically, there is a public VIP known
+to the public Internet that routes the packets internally to the private VIP. This
+enables you to “hide” your servers from the Internet.
+
+109
+
+Volume 8: Access Logging
+
+R
+real-time streaming protocol (RTSP)—A
+
+standard method of transferring audio and
+video and other time-based media over Internet-technology based networks. The
+protocol is used to stream clips to any RTP-based client.
+
+reflect client IP attribute—Enables the sending of the client's IP address instead of the
+SG's IP address to the upstream server. If you are using an application delivery
+network (ADN), this setting is enforced on the concentrator proxy through the
+Configuration > App. Delivery Network > Tunneling tab.
+registration—An
+
+event that binds the appliance to an account, that is, it creates the
+Serial#, Account association.
+
+remote authentication dial-in user service (RADIUS)—Authenticates
+
+user identity via
+
+passwords for network access.
+Return to Sender (RTS)—A way of allowing outgoing TCP packets to use the same
+network interface on which the corresponding incoming TCP packets arrived.
+The destination Media Acess Control (MAC) address for the outgoing packets is
+the same as the source MAC address of the incoming packets. See also Media
+Access Control (MAC) address.
+reverse proxy—A proxy that acts as a front end to a small number of predefined
+servers, typically to improve performance. Many clients can use it to access the
+small number of predefined servers.
+routing information protocol (RIP)—Designed
+
+to select the fastest route to a
+destination. RIP support is built into ProxySG appliances.
+
+router hops—The
+RTS—See
+
+number of jumps a packet takes when traversing the Internet.
+
+Return to Sender.
+
+S
+secure shell (SSH)—Also
+
+known as Secure Socket Shell. SSH is an interface and
+protocol that provides strong authentication and enables you to securely access a
+remote computer. Three utilities—login, ssh, and scp—comprise SSH. Security via
+SSH is accomplished using a digital certificate and password encryption.
+Remember that the Blue Coat ProxySG requires SSH1. A ProxySG supports a
+combined maximum of 16 Telnet and SSH sessions.
+
+serial console—A
+
+third-party device that can be connected to one or more Blue
+Coat appliances. Once connected, you can access and configure the appliance
+through the serial console, even when you cannot access the appliance directly.
+server certificate categories—The hostname in a server certificate can be categorized
+
+by BCWF or another content filtering vendor to fit into categories such as
+banking, finance, sports.
+server portals—Doorways
+
+that provide controlled access to a Web server or a
+collection of Web servers. You can configure Blue Coat appliances to be server
+portals by mapping a set of external URLs onto a set of internal URLs.
+
+110
+
+server-side transparency—The ability for the server to see client IP addresses, which
+
+enables accurate client-access records to be kept. When server-side transparency
+is enabled, the appliance retains client IP addresses for all port 80 traffic to and
+from the ProxySG. In this scheme, the client IP address is always revealed to the
+server.
+service attributes—Define the parameters, such as explicit or transparent, cipher
+suite, and certificate verification, that the ProxySG uses for a particular service.
+sibling class (bandwidth gain)—A
+
+bandwidth class with the same parent class as
+
+another class.
+signed system image—Cryptographically
+
+signed with a key known only to Blue
+Coat, and the signature is verified when the image is downloaded to the system.
+
+simple network management protocol (SNMP)—The standard operations and
+maintenance protocol for the Internet. It consists of a set of standards for network
+management, including an application layer protocol, a database schema, and a
+set of data objects. In SNMP, the available information is defined by management
+information bases (MIBs), which describe the structure of the management data.
+simulated live—Used
+
+in streaming. Defines playback of one or more video-ondemand files as a scheduled live event, which begins at a specified time. The
+content can be looped multiple times, or scheduled to start at multiple start times
+throughout the day.
+
+SmartReporter log type—A
+
+proprietary ELFF log type that is compatible with the
+SmartFilter SmartReporter tool.
+
+SOCKS—A
+
+proxy protocol for TCP/IP-based networking applications that allows
+users transparent access across the firewall. If you are using a SOCKS server for
+the primary or alternate forwarding gateway, you must specify the appliance’s ID
+for the identification protocol used by the SOCKS gateway. The machine ID
+should be configured to be the same as the appliance’s name.
+
+SOCKS proxy—A generic way to proxy TCP and UDP protocols. The ProxySG
+supports both SOCKSv4/4a and SOCKSv5; however, because of increased
+username and password authentication capabilities and compression support,
+Blue Coat recommends that you use SOCKS v5.
+splash page—The custom message page that displays the first time you start the
+client browser.
+split proxy—Employs
+
+co-operative processing at the branch and the core to
+implement functionality that is not possible in a standalone proxy. Examples of
+split proxies include:
+•
+
+Mapi Proxy
+
+•
+
+SSL Proxy
+
+SQUID-compatible format—A
+
+log type that was designed for cache statistics and is
+compatible with Blue Coat products.
+squid-native log format—The
+
+Squid-compatible format contains one line for each
+
+request.
+SSL authentication—Ensures
+
+that communication is with “trusted” sites only.
+Requires a certificate issued by a trusted third party (Certificate Authority).
+
+111
+
+Volume 8: Access Logging
+
+SSL client—See
+
+SSL device profile.
+
+SSL device profile—Used to determine various SSL parameters for outgoing HTTPS
+connections. Specifically, its role is to:
+
+•
+
+Identify the SSL protocol version that the ProxySG uses in negotiations
+with origin servers.
+
+•
+
+Identify the cipher suites used.
+
+•
+
+Determine which certificate can be presented to origin servers by
+associating a keyring with the profile.
+
+SSL interception—Decrypting
+
+SSL connections.
+
+SSL proxy—A proxy that can be used for any SSL traffic (HTTPS or not), in either
+forward or reverse proxy mode.
+static route—A manually-configured route that specifies the transmission path a
+packet must follow, based on the packet’s destination address. A static route
+specifies a transmission path to another network.
+statistics—Every
+
+Blue Coat appliance keeps statistics of the appliance hardware
+and the objects it stores. You can review the general summary, the volume,
+resources allocated, cache efficiency, cached contents, and custom URLs generated
+by the appliance for various kinds of logs. You can also check the event viewer for
+every event that occurred since the appliance booted.
+
+stream—A flow of a single type of data, measured in kilobits per second (Kbps). A
+stream could be the sound track to a music video, for example.
+SurfControl log type—A proprietary log type that is compatible with the SurfControl
+reporter tool. The SurfControl log format includes fully-qualified usernames
+when an NTLM realm provides authentication. The simple name is used for all
+other realm types.
+syslog—An
+
+event-monitoring scheme that is especially popular in Unix
+environments. Most clients using Syslog have multiple devices sending messages
+to a single Syslog daemon. This allows viewing a single chronological event log of
+all of the devices assigned to the Syslog daemon. The Syslog format is: “Date Time
+Hostname Event.”
+system cache—The software cache on the appliance. When you clear the cache, all
+objects in the cache are set to expired. The objects are not immediately removed
+from memory or disk, but a subsequent request for any object requested is
+retrieved from the origin content server before it is served.
+
+T
+TCP window size—The number of bytes that can be buffered before the sending host
+
+must wait for an acknowledgement from the receiving host.
+time-to-live (TTL) value—Used
+
+in any situation where an expiration time is needed.
+For example, you do not want authentication to last beyond the current session
+and also want a failed command to time out instead of hanging the box forever.
+traffic flow (bandwidth gain)—Also
+
+referred to as flow. A set of packets belonging to
+the same TCP/UDP connection that terminate at, originate at, or flow through the
+ProxySG. A single request from a client involves two separate connections. One of
+
+112
+
+them is from the client to the ProxySG, and the other is from the ProxySG to the
+OCS. Within each of these connections, traffic flows in two directions—in one
+direction, packets flow out of the ProxySG (outbound traffic), and in the other
+direction, packets flow into the ProxySG (inbound traffic). Connections can come
+from the client or the server. Thus, traffic can be classified into one of four types:
+•
+
+Server inbound
+
+•
+
+Server outbound
+
+•
+
+Client inbound
+
+•
+
+Client outbound
+
+These four traffic flows represent each of the four combinations described above.
+Each flow represents a single direction from a single connection.
+transmission control protocol (TCP)—TCP, when used in conjunction with IP (Internet
+
+Protocol) enables users to send data, in the form of message units called packets,
+between computers over the Internet. TCP is responsible for tracking and
+handling, and reassembly of the packets; IP is responsible for packet delivery.
+transparent proxy—A configuration in which traffic is redirected to the ProxySG
+without the knowledge of the client browser. No configuration is required on the
+browser, but network configuration, such as an L4 switch or a WCCP-compliant
+router, is required.
+trial period—Starting
+
+with the first boot, the trial period provides 60 days of free
+operation. All features are enabled during this time.
+
+U
+unicast alias—Defines
+
+an name on the appliance for a streaming URL. When a
+client requests the alias content on the appliance, the appliance uses the URL
+specified in the unicast-alias command to request the content from the origin
+streaming server.
+universal time coordinates (UTC)—A ProxySG must know the current UTC time. By
+default, the appliance attempts to connect to a Network Time Protocol (NTP)
+server to acquire the UTC time. If the ProxySG cannot access any NTP servers,
+you must manually set the UTC time.
+URL filtering—See
+
+content filtering.
+
+URL rewrite rules—Rewrite
+
+the URLs of client requests to acquire the streaming
+content using the new URL. For example, when a client tries to access content on
+www.mycompany.com, the ProxySG is actually receiving the content from the
+server on 10.253.123.123. The client is unaware that mycompany.com is not
+serving the content; however, the ProxySG access logs indicate the actual server
+that provides the content.
+
+W
+WCCP—Web Cache Communication Protocol. Allows you to establish redirection
+of the traffic that flows through routers.
+
+113
+
+Volume 8: Access Logging
+
+Web FTP—Web
+
+FTP is used when a client connects in explicit mode using HTTP
+and accesses an ftp:// URL. The ProxySG translates the HTTP request into an
+FTP request for the OCS (if the content is not already cached), and then translates
+the FTP response with the file contents into an HTTP response for the client.
+Websense log type—A
+
+Blue Coat proprietary log type that is compatible with the
+Websense reporter tool.
+
+X
+XML responder—HTTP
+XML requestor—XML
+
+114
+
+XML service that runs on an external server.
+
+realm.
+
+Index
+
+A
+access logging
+adding to log file 46
+bandwidth management, setting 30
+continuous uploading 25
+creating/editing log formats 11
+custom
+format, creating/editing 13
+log formats 49
+custom client
+configuring 35
+port number 35
+disabling 22
+ELFF
+format, creating/editing 13
+log formats 49
+file compression, discussed 26
+filename formats 54
+FTP upload client
+editing 31
+port number 32
+global settings 23
+HTTP upload client
+configuring 33
+port number 34
+instant messaging format 11
+log file
+creating 17
+editing 19
+log size, viewing statistics 43
+log tail, viewing 43
+maximum log size, setting 24
+NCSA/common format 11
+NCSA/common log format
+described 54
+overriding 46
+P2P format 12
+PASV, configuring for FTP client 33
+policy, using with 46
+protocols, using with 21
+remote max file size 18
+
+resetting 46
+scheduled uploading 25
+show list of all logs 42
+SQUID format 12
+SQUID-compatible format 52
+statistics
+viewing 42, 45
+status statistics, viewing 44
+streaming format 12
+SurfControl client, editing 36
+tail options 43
+testing upload 42
+troubleshooting
+troubleshooting
+access logging 37
+upload 37
+upload behavior 24
+upload client
+configuring 25
+upload compression 29
+upload filename, configuring 32
+upload schedule
+configuring overview 39
+Websense client
+port number 37
+Websense client, editing 36
+access logs
+digital signing
+overview 27
+verifying 31
+
+B
+bandwidth management
+access logging, setting for 30
+
+C
+common access log format 54
+custom client
+configuring for access logging 35
+custom format, creating/editing 13
+
+115
+
+Document Title
+
+D
+
+P
+
+digital signing
+overview 27
+verifying 31
+document, conventions 8
+
+P2P, access log format 12
+
+E
+
+R
+
+ELFF
+access log formats 49
+creating/editing 13
+Extended Log File Format, see ELFF 49
+external certificates, using with digital signing
+28
+
+RealMedia, access logging, using with 21
+
+Q
+QuickTime, access logging, using with 21
+
+S
+
+H
+
+SQUID access log format 12, 52
+SSL, log format 12
+statistics
+access logging log size 43
+access logging, status 44
+access logging, viewing 42, 45
+show list of all logs 42
+streaming media, access log format 12
+SurfControl, configuring for access logging 36
+
+HTTP upload client, configuring 33
+HTTP, access logging, using with 21
+
+T
+
+F
+filename formats, access logging 54
+FTP upload client, editing 31
+
+I
+instant messaging, access log format 11
+
+L
+log file
+creating 17
+editing 19
+log format, SSL 12
+
+N
+NCSA, common access log format 11, 54
+
+116
+
+troubleshooting
+show list of all logs 42
+
+W
+W3C Extended Log File Format, see ELFF 49
+Websense
+upload client, editing 36
+Windows Media
+access logging, using with 21
+
+

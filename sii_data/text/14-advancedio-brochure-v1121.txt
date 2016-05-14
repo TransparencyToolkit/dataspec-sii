@@ -1,0 +1,131 @@
+DATAsheet
+
+V1121
+Dual Channel 10 Gigabit Ethernet XMC
+
+Benefits
+
+Overview
+
+Provides high bandwidth 10 Gigabit Ethernet communications
+for next generation radar and signal intelligence systems
+
+The V1121 is the industry’s leading XMC solution that is designed
+to provide a real time high-bandwidth network interface for next
+generation radar and signal intellience systems. The V1121
+features two 10 Gigabit Ethernet SFP+ optical interfaces and
+supports the UDP, ARP and ICMP communication protocols. Its
+advanced architecture and built-in Ethernet offload capabilities
+provide data transfer at sustained rates exceeding 9.2Gbps.
+
+Supports real time data streaming directly from sensors
+Adapts with evolving application requirements providing a
+technology contingency plan
+A COTS solution reduces system size, power footprint and cost
+
+Features
+Two 10 Gigabit Ethernet SFP+ optical ports
+Built-in UDP offload engine for real time communication
+Supports PCI Express and XAUI host interfaces
+Available with streaming front-end FPGA core for quick sensor
+integration
+Available with advanced APIs that support multi-core and multiprocessor architectures
+Thermal sensors for monitoring card temperature
+Available in air and conduction-cooled XMC form factor
+
+advanced network intelligence
+
+Unique in its ability to directly transfer data between 10 Gigabit
+Ethernet networks and FPGA devices, the V1121 minimizes
+the size and power footprint of systems by obviating the
+need to introduce additional processors solely to run Ethernet
+communications. A Streaming Front End (SFE), which is a small
+core that resides on the FPGA device, provides an independent
+interface to each 10 Gigabit Ethernet channel on the V1121.
+The FPGA device communicates with the V1121 over XAUI
+running across the Pn5 connector, as per VITA 42.6 standard.
+In addition, the V1121 is uniquely suited to system architectures
+involving multiple processing cards on a common switched
+data plane. Specifically, the V1121 supports shared access
+from multiple host processors, enabling it to function as a costeffective, high-performance 10 Gigabit Ethernet gateway. This
+feature enables a single high-speed pipe to carry multiple virtual
+channels in systems that need to spread or load balance sensor
+data across processor farms. When used as a gateway, the V1121
+supports PCI Express over the Pn5 connector for processor
+communication and comes with high level APIs for control and
+data transfer resulting in a simplified programming model.
+
+www.advancedio.com Toll free 1.877.331.7755
+
+DATAsheet
+
+V1121
+Dual Channel 10 Gigabit Ethernet XMC
+
+Technical Specifications
+network interface	
+Two 10GBASE-SR or 10GBSASE-LR SFP+ optical ports
+ethernet protocols
+
+UDP, ARP, ICMP, Multicast, Broadcast
+fpga device
+
+Xilinx Virtex-5 LX110T or LX155T
+Memory	
+Two banks of 0.5GB or 1GB 64-bit 266MHz DDR2 SDRAM
+flash
+
+Two 32Mb memory for storing a default configuration image and
+a recovery image
+Host Interface	
+
+PCI Express x8 or XAUI over Pn5
+external Interface	
+
+42 user I/O on Pn4 (8 single-ended plus 17 differential pairs)
+> V1121 Dual Channel 10GE XMC Block Diagram
+
+thermal sensors	
+
+2 digital temperature sensors
+Compliance	
+
+Our Commitment
+AdvancedIO is committed to providing the latest innovations in
+technology, architectures, and techniques to keep our customers
+one step ahead of the rest. Our products, complete with
+expressXG Development Framework, are intended to offer our
+customers an entirely unique out-of-the-box experience.
+
+VITA 42.3
+VITA 42.6
+IEEE 802.3ae 2002 LAN
+Dimensions	
+
+74 mm (width) x 149 mm (length)
+power requirements
+
+Maximum 20W
+Temperature	
+
+Operating: -10˚ C to 70˚ C
+Storage: -40˚ C to 85˚ C
+mtbf	
+
+175,000 Hours MIL-HDBK-217F
+
+For more information on our products:
+www.advancedio.com
+contactus@advancedio.com
+Suite 601-3292 Production Way
+Burnaby, BC V5A 4R4
+Canada
+
+Phone 604.331.1600
+Fax 604.331.1800
+Toll Free 1.877.331.7755
+
+AdvancedIO reserves the right to modify any product without prior notice. All trademarks are the property of their respective owners.
+AdvancedIO and udpXG are trademarks of AdvancedIO Systems. Copyright © 2012 AdvancedIO Systems. All rights reserved. Revision: May 7, 2012.
+
+

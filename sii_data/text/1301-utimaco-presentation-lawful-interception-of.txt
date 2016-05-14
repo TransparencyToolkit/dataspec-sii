@@ -1,0 +1,603 @@
+• •
+
+,
+
+t a o l
+
+a
+
+C a C a Jr2
+
+g
+
+X
+u
+
+_2. 1e raa " f' t 1E> _ r a c e s - s o
+I
+t
+
+•
+
+•
+
+1 k
+
+Lawful Interception of LTE, VoLTE, RCS
+ISS World Dubai
+March 2014
+Rene Nitzinger, Product Management LIMS
+
+utimaco®
+
+4
+
+'
+
+-
+
+t
+
+S T E
+
+a
+t
+
+t
+
+a
+.
+
+t
+•
+
+•
+
+utimaco®
+
+Utimaco LIMS
+Competence in Lawful Interception
+Utimaco has been providing LI solutions since 1994
+• Worldwide operations: around 250 installations
+in over 80 countries
+• Lawful interception and Data Retention Systems
+scalable from 10 thousands to millions of subscribers
+It Strong partnerships with leading telecom infrastructure
+vendors
+• Compliant to international LI standards of ETS_ill
+ANSUATIS, CableLabs and avtive member of ETSI TO LI
+Conform to numerous national telecommunication laws
+
+ISS World Dubai • 4 March 2014
+
+Page 2
+
+•
+
+utimaco®
+LTE, LTE Advanced
+• 4th generation mobile wireless
+• 3GPP standard (Rel. 8 — Rel. 11)
+E-UTRAN : evolved radio access
+SAE: system architecture evolution
+EPC: evolved packed core
+
+SAE I EPC is the evolution of the GPRS Core Network
+all IF network
+simplified architecture
+support for higher throughput and lower latency radio access networks (RANs)
+support for multiple, heterogeneous RANs, including legacy systems as GPRS, but
+also non-3GPP systems (e.g. WiMAX, WLAN)
+- mobility between heterogeneous RANs
+
+Page 3
+ISS World Dubai • 4 March 2014
+
+utimaco®
+
+LTE Network Layout
+
+User Entities (UE)
+Internet
+J't
+SG-I
+55
+
+S8
+
+other IP
+networks
+
+Si•MME
+
+eNS
+6a
+
+LTE Radio Access Network
+(E-UTRAN)
+
+----S
+
+GERAN/
+UTRAN
+
+LTE Evolved Packet Core
+
+Page 4
+ISS World Dubai • 4 March 2014
+
+utimaco®
+
+Lawful interception of LTE
+Utimaco LIMS
+
+Law Enforcement Agency
+
+LIMS Management Server
+a
+
+n
+
+a
+(target: MSISDN, IMSI. MEP)
+
+LIMS Mediation Device ---
+
+HI2
+(D62: No
+(0F2I CC)
+
+X1
+(target. MSISDN, OAS', IME6
+
+tt
+
+X2 H I 3
+ORO (Cc)
+
+II
+
+Monitoring Center
+
+ETSI I S 133 106-108
+3 G P P TS 33.106-108
+Internet
+
+other IP
+networks
+eNB
+6a
+
+LTE Radio Access Network
+(E-LITRAN)
+
+GERAN/
+LJTRAN
+
+LTE Evolved Packet Core
+ISS World Dubai • 4 March 2014
+
+Page 5
+
+utimaco®
+
+Lawful interception of LIE
+!Aimee° LIMS
+LIMS Management Server
+a s t a
+
+II
+
+Law Enforcement Agency
+
+TS'
+1-111
+(target: MSISDN, MASI. IMEI)
+
+.F1
+702I
+
+MI2
+(0F2: RI)
+
+LIMS Mediation Device - - - H I S
+
+'
+
+( a CC)
+xl
+(target MSISDN. IMSI, !MEI)
+t
+
+lag
+Monitoring Center
+
+t
+
+II
+
+X2 H I S
+(R)) (CC)
+1 I
+
+Internet
+
+:
+
+1
+
+7
+
+S
+
+1
+
+other IP
+networks
+
+SI•MME
+
+Sa
+
+LIE Radio Access Network
+(E-UTRAN)
+
+GE RANI
+UTRAN
+
+LIE Evolved Packet Core
+ISS World Dubai • 4 March 2014
+
+Page 6
+
+•
+utimaco®
+
+Voice over LIE
+• Tw o deployment options for mobile network operators:
+CSFB (Circuit-Switched Fallback)
+
+• L I E for data only
+• Voice-calls and SMS fall back to the circuit-switched domain (2G13G)
+
+VoLTE (Voice over LTE)
+• Based on IF Multimedia Subsystem (IMS)
+• Uses VolP (SIP + RIP)
+
+'SS World Dubai • 4 March 2014
+
+P
+
+a
+
+g
+
+e
+
+7
+
+•
+utimaco®
+Lawful interception of CSFIE3
+Utimaco LIMS
+
+Law Enforcement Agency
+
+EMS Management Server
+-
+
+h
+
+1
+i
+
+l
+
+l
+(target: MSISDN, IMSI, MEI)
+
+*4-
+
+El:
+
+HI2 t a 4
+
+(OF2:
+
+LIMS Mediation Device ---- HI3
+3
+
+)(1
+(target: MSISDN, IMSI. MED
+
+I
+
+A
+
+M
+
+I
+
+S
+
+I
+
+L
+
+(LW CC)
+
+Monitoring Center
+
+t
+
+t
+X2 1-113
+(IRO (cc)
+I
+
+I
+
+2G/3G Voice Core
+
+PSTN/ISDN
+
+User Entity (UE) G S M I U T M T S Radio Access
+r - N e t w o r k (GERAN, UTRAN)
+Internet
+
+other IP
+networks
+
+LTE Radio Access Network
+(E-UTRAN)
+ISS World Dubai • 4 March 2014
+
+LTE Evolved Packet Core
+
+Page 8
+
+utimaco®
+Lawful interception of VoLTE
+'Aimee° LIMS
+
+Law Enforcement Agency
+e t ME
+
+LIMS Management Server
+
+HI
+(target: Tel-LIRL. SIP-URI)
+
+HI2
+(DF2: filo
+LIMS Mediation Device - - - H I 3
+F
+a
+(0 3: CC)
+
+Monitoring Center
+
+1 . 1 2 . 1 1 n
+t
+I
+Xi
+(target: Tel-IIRL. SIP-URI)
+Xi
+(target: Tel-LIRL.
+
+t
+
+X2 x 3
+(RI) ( C C )
+
+ET& TS 102 232-5
+
+I
+
+at I
+2G/3G Packet Core
+
+Internet
+
+PSTN/ISDN
+LTE Evolved Packet Core
+
+ISS World Dubai • 4 March 2014
+
+MM Core
+
+Page 9
+
+utimaco®
+
+RCS
+E RCS is an initiative of the GSM Association
+• Aka
+• R C S offers a suite of applications and services
+• Enhanced phonebook
+• Enhanced messaging
+• Enriched calls
+
+• enables features such as
+- Sharing of pictures or videos during a call
+File transfer
+Instant text messages between two or more users
+• Automatic discovery of user's location
+
+Page 10
+ISS World Dubai • 4 March 2014
+
+utimaco®
+
+Rich Communication Suite
+• R C S services are provided by
+various application servers
+using an IMS:
+
+MS Core
+
+Internet
+RCS
+User Terminal
+
+BGF
+
+BGF
+
+H r
+
+Broadband Access Network
+
+CSCF
+
+Roaming
+
+SIP
+RTP
+•••••••••••••••••......1BGF
+
+• Instant Messaging Server RCS
+
+H
+
+T
+
+T
+
+Networks
+
+MSRP Applicafion
+Layer
+
+User Terminal
+
+✓ Message handling
+Radio Access Network
+
+RCS
+
+Presence Server
+
+Application Servers
+
+• Keeps track of the user's status information
+
+Service Provider Core Network
+
+Conference Server
+Sharing videos and pictures
+
+ISS World Dubai • 4 March 2014
+
+P
+
+a
+
+g
+
+e
+
+11
+
+utimaco®
+
+Lawful interception of RCS
+Utimaco LIMS
+
+—
+
+Law Enforcement Agency
+
+LIMS Management Server
+Hil
+
+INSISISEttp
+
+(target: TokURL, SIP-URI)
+
+(DFH2121RI:
+L I M S M e d i a t i o n D e v i c e - - - (133:
+HF1 .3M -
+
+Monitoring Center
+
+t
+(target: Tel-URL,
+
+X
+
+I
+
+X
+
+2
+
+X 3
+
+(target Tet-URL, SIP-URI) ( I R O ( c c )
+
+N H
+
+LIMS Aeneaa
+Point DPI
+
+RCS
+
+Broadband Access Network
+
+GF
+
+BGF/P-CSCF
+
+Internet
+
+CSCF
+IMS
+
+MG1
+
+Radio Access Network
+
+ISS World Dubai • 4 March 2014
+
+PSTN/ISDN
+
+Service Provider Core Network
+
+12
+
+Page 12
+
+111
+
+utimaco®
+
+Summary and Recommendations
+Lawful interception of LTE and VoLl-E is well standardized and
+commonly supported by the network nodes
+LI for RCS is not standardized yet, but can mostly be covered by
+existing standards and tools
+Implementation of LI in the networks can be complex and requires
+Proper analysis of the detailed requirements
+Tight integration with network elements of various vendors
+Optional use of LI probes
+High-capacity, high-performance mediation devices
+Optional integration with other LI systems (e.g. 2G13G, fixedbroadband)
+
+ISS World Dubai • 4 March 2014
+
+Page 13
+
+Thank you for your attention!
+Utimaco Safeware AG
+GermanusstraBe 4
+52080 Aachen, Germany
+Phone +49 241 1696-0
+Web wwwutimacacom
+E-Mail li-contactutimaco.com
+Copyright © 2014 — Utimaco Safeware AG
+All trademarks are trademarks of the particular
+copyright holder. Specifications are subject to
+change without notice.
+
+

@@ -1,0 +1,152 @@
+GOVER N MEN TAL
+
+SE CUR ITY
+
+SOL UTIO NS
+
+Product Information
+
+Digital Audio Transmission System
+DAS-4005RC 120 200 0053
+
+Miniature Transceiver Systems - Audio – 120
+
+Digital Audio Transmission System – DAS-4005RC
+General
+
+The DAS 4005RC, based on SMD technology, is a small audio transmission system designed
+for the UHF-BOS-band. A remote-controlled audio transmitter and an audio receiver with
+integrated remote control transmitter constitute the system. Transmission of digital data
+occurs on the basis of the transceiver principle. Range of audio data transmission is equal to
+the range of the remote control.
+Within the transmitter audio signals are digitalized through a 10bit A/D converter and,
+afterwards, encrypted with a 56 bit code through the data protection system DES.
+Transmission of digital audio data and reception of remote-controlled commands occurs via
+same antenna. Uninterrupted transmission of audio data packages enables, at the same time,
+reception of remote-controlled commands. All settings can be remote-controlled (On/Off,
+output power (PWR), power save (PS), internal/external microphone, VOX, channel, address).
+
+Technical data
+System parameters
+Data rate
+Sampling frequency
+Audio resolution
+PS = Off
+PS = On
+Audio band width
+Audio compression
+PS = Off
+PS = On
+Delay of audio signal
+PS = Off
+PS = On
+Encryption
+Addressing of remote control
+
+76.8 kbit/s
+8.26 kHz
+10 bit
+8 bit (logarithmic conversion 9 to 8 bit)
+0.1 kHz – 3.8 kHz
+DPCM 5:4
+DPCM 2:1
+180 ms
+270 ms
+single DES, 56 bit code
+16 bit address, 4 bit switch able from receiver
+
+CONFIDENTIAL
+
+2
+
+Power supply
+Power consumption
+PWR = High, PS = Off
+PWR = Low, PS = Off
+PWR = High, PS = On
+PWR = Low, PS = On
+Tx Off, Vox Off
+Tx Off, Vox On
+Output power
+PWR = High
+PWR = Low
+Frequency range
+Receiver sensitivity
+Remote control frequency
+Audio input
+Emergency call
+Vox
+Response time
+Follow-up time
+Antenna
+Dimensions
+
+3.6 V – 9 V DC
+140 mA
+65 mA
+75 mA
+45 mA
+235 µA
+1 mA
+150 mW
+50 mW
+10 channels, 441 – 450 MHz
+-100 dBm (BER = 103)
+444.9756 MHz
+internal or external microphone, switch able
+external button, 10 s alarm signal
+1s
+10 s
+Wire antenna
+27 x 8 x 35 mm
+
+Digital audio receiver DAS-RX 4005 RC (Model No: 120 200 0055)
+Power supply
+Power consumption
+Reception
+Transmission
+Output power
+Remote control frequency
+Receiver sensitivity
+Frequency range
+Audio output
+Antenna
+Dimensions
+Scope of delivery:
+
+3.6 V – 12 V DC
+42 mA
+140 mA
+150 mW
+444.9756 MHz
+-100 dBm (BER = 103)
+10 channels, 441 – 450 MHz
+line out, headphones
+SMA
+80 x 32 x 115 mm
+
+DAS-TX 4305 RC, power supply cable,
+DAS-RX 4005 RC, antenna, headphones, 2x 9 V battery block, transport
+box, user’s manual
+
+CONFIDENTIAL
+
+3
+
+S OL UT I O N S
+S ECU RITY
+GOVE RNM E NTA L
+
+If you would like further Information about ELAMAN,
+or would like to discuss a specific requirement or project, please contact us at:
+Elaman GmbH
+German Security Solutions
+Seitzstr. 23
+80538 Munich
+Germany
+Tel: +49-89-24 20 91 80
+Fax: +49-89-24 20 91 81
+info@elaman.de
+www.elaman.de
+
+

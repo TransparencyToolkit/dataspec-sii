@@ -1,0 +1,832 @@
+Accelerating Your Mission.
+
+REVEALING LINKS:
+The Power of Social Network Analysis
+ISSUE 1
+MAY 2010
+
+REVEALING LINKS : The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+REVEALING LINKS: The Power of Social Network Analysis
+An i2 White Paper
+Drawing on insights of the intelligence experts at i2, this paper provides an overview of Social
+Network Analysis; how it can be used to enhance traditional analysis techniques and maximise the
+value of data; and its potential for use by a wide range of organisations to analyse and visualise a
+variety of network data.
+
+Traditionally, intelligence analysts have employed link analysis to map associations among people , places
+and commodities , usually working backwards from a crime or terrorist attack to identify the perpetrators
+and the ir modus operand i. Today, however, the intelligence community faces a new kind of enemy - the
+asymmetric threat - that requires new approaches. When it is hard to understand where a threat may be
+coming from or in what form it will appear, analysts must take a much more proactive approach toward the
+information they collect, augmenting existing traditional qualitative-based link analysis methodologies with
+alternative , more quantitative analysis methods.
+Social Network Analysis (SNA) is one of these alternative methods . Despite its title, SNA is not social
+networki ng like Facebook or Bebo (although the SNA methodology could be used to analyse that sort of
+information ). lnstead , SNA is a useful way for intelligence teams to analyse and understand complex
+networks of entities, such as individuals or organisations, by measuring or weighting the interactions
+between them .
+
+Functions and Benefits of Social Network Analysis
+Social Network Analysis provides bath visual and mathematical analyses of complex human systems . This
+analytic approach has practical importance, because SNA tools combine data extraction , manipulation , and
+analytic and visualisation tools to distil massive databases into a visual representation of unusual linkages.
+SNA methods provide some useful tools for addressing one of the most important (but also one of the most
+complex and difficult) aspects of social structure : the sources and distribution of power. lt tells us who
+knows whom and who does business with whom.
+By monitoring the communication patterns between network nodes, the network's structure can be
+established , wh ich then enables identification of critical nodes and their relationships .
+This mapping can help give an analyst insights into the performance of a network as a whole and its ability
+to achieve its key goals; characteristics of a network that may not be immediately obvious , such as the
+existence of smaller sub-networks operating within a larger network; the relationships between prominent
+people of interest who may wield the greatest influence over the rest of the network; and how directly and
+quickly information flows between people in different parts of the network. SNA also can help analysts
+predict a network's likely course of action or its intention in certain situations.
+lt is important to note , however, that SNA is nota silver bullet. lt is one of the many tools in the intelligence
+toolbox that intelligence teams can use on their data. Wherever possible , users should corroborate their
+SNA findings with other relevant information .
+
+www.i2group.com
+2
+
+gl
+Accelerating Your Mission.
+
+REVEALING LINKS: The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+Social Network Analysis in the Intelligence Community
+Combining organisational theory with mathematical models , the Social Network Analysis methodology
+emerged from the academic field of social sciences. ln social science research , SNA is generally applied
+against complete data sets, as social science researchers are usually very specific about the kind of data
+their research will capture and who the subjects are that they will collect information from.
+The opposite is true for intelligence gathering organisations, as the data they usually work with is less
+complete. Often , operational teams are onl y able to hazard a guess about the sort of data or information
+that they will collect, and cannot predict its quality or completeness .
+But SNA is being adopted by the intelligence community because it can help maximise the value of the
+information that operational teams are able to collect. On its own , traditional link analysis does not go far
+enough to definitively show why a network is shaped or operated in a specific way. SNA gives intelligence
+teams the capability to look beyond a network's collective links to focus on the links themselves - to
+determine why the links are links in the first place.
+SNA is gaining adopters because it also helps overcome challenges that are part and parcel of the
+analyst's daily work:
+
+• Overcoming data de/uge. Tao often , analysts are faced with data overload , a massive ball of string
+from which they must extract the most pertinent entities and connections; this is particularly
+challenging when it occurs during a live operation where dissemination requirements are very tight.
+SNA can help to unravel the ball by presenting key information in a clear format.
+• Working with limited resources. Target networks are often dynamic. Analysts need tools that can help
+them quickly identify potential key individuals or groups so that resources can be more effectively
+focused on key players instead of on trying to target the entire network.
+• Uncovering hidden connections. Analysts often need to look beyond the structure of a network into
+its dynamics - to identify characteristics that are not immediately apparent - and also to analyse how a
+network changes over time.
+• Finding it difficult to understand connections. ln social networks, not ail connections are of equal
+importance or impact. Analysts need methods such as weighting relationships between entities to
+take account of how such links may affect a network.
+SNA techniques can help overcome these and other issues by providing analysts with a higher level of
+understanding of the data that they are able to collect. With this understanding, they then can better
+evaluate future courses of action against target networks , such as how to best and most efficiently disrupt
+and destabilise them .
+
+www.i2group.com
+3
+
+gl
+Acceleracing Your Mission.
+
+REVEALING LINKS: The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+The Time Factor
+Analysts can use Social Network Analysis to examine the activity of a communications network and its
+command and contrai elements across a broad time spectrum . For example, an intelligence team may
+want to examine the dynamics of the communications network leading up to, du ring and after an event.
+Analysts may then be able to use these findings to help predict what may happen in similar events.
+One useful approach is to look at how a target network changes and grows over time. Which individuals
+are growing in importance and which are losing impact? Which parts of the network are driving decisions?
+Are key figures moving a round the network? What happens if a key figure drops out of the network?
+SNA can help point to the answers to these and many other questions, making it possible to identify the
+network's up-and-coming leaders and how their goals for the network may be shifting.
+
+The Scope and Future of SNA
+Social Network Analysis is proving useful in many different industries and situations, and is being used
+to analyse diverse types of networks . For example, military forces use it internally to identify and better
+understand communications hubs - not the formai one laid down in standard operating procedures, but the
+"real" communication network, the one that actually exists on the ground. Similarly, corporations and
+commercial enterprises employ SNA to look beyond the official organisational structure to uncover the real
+structure of their organisations: who serves as the font of all knowledge , who is the person that most
+others go to for information , etc.
+SNA is also being used in the cyberworld to examine other types of networks, such as networked IP
+addresses that connect to form a hacker network. Other organisations are using SNA to monitor the
+movement of cattle to better understand the spread of foot-and-mouth disease. Previously, this type of
+monitoring may have been performed by laboriously drawing a visual representation of the network.
+SNA provides analysts with deep understanding of data , a powerful graphical map, and fast, easily updated
+mathematical scoring . lt holds enormous potential for any type of network analysis.
+
+www.i2group.com
+4
+
+gl
+Accelerating Your Mission.
+
+REVEALING LINKS: The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+Appendix: Key Measurements of SNA
+Centrality
+Centrality is a key concept in Social Network Analysis. A highly centralised network is dominated by one
+person who contrais information flow and may become a single point of communication failure . A less
+centralised network has no single point of failure , so people can still pass on information, even if some
+communication channels are blocked .
+With SNA, an analyst can calculate several centrality measures - betweenness, closeness, degree and
+eigenvector (including hub and authority) - that offer different perspectives on the social relationships within
+a network. lt is also possible to further refine centrality measures by taking into account the direction of
+links and the weightings applied to them .
+Betweenness
+
+Betweenness centrality measures the number of paths that pass through each entity. This measurement
+can help identify gatekeeper entities who have the ability to contrai information flow between different
+parts of the network. Gatekeepers may have many paths running through them , allowing them to channel
+information to most of the others in the network. Alternatively, they may have few paths running through
+them , but still play a powerful communication role , if they exist between different network clusters.
+ln the network represented in Figure 1, Linda BRIGHTMAN is the person with the highest betweenness
+score, as she is the link between two distinct parts of the network.
+
+Figure 1
+
+1
+
+~ctieleRAlP~
+
+® ~ """'",._
+'"'T'" -z__®
+~I
+,.
+
+/""
+
+--~
+
+1
+
+,/(.c;;'---
+
+-r . . .
+
+m
+
+1
+
+/
+
+-
+
+Associate
+
+Assoda te
+
+('il\
+
+rene
+
+~
+
+1
+
+.
+
+~
+
+Samil1tha
+
+1
+
+~
+
+~
+
+Assodate-~
+/
+
+~
+
+_,.,/'
+
+Esry DUKE
+
+Associate
+
+JARVIS ~
+
+~
+-
+
+As soda te
+
+BAKERksoclate
+
+1
+
+,.
+
+1
+
+Rt.p8ft WARD
+
+_,.,/'
+
+Associate
+_/
+
+Assodate -
+
+Lirda BRIGHTMl\N
+
+BrothB' ri
+
+Assodate
+
+~(.~)"/
+CalibDUKE
+
+Link Betweenness
+
+Link betweenness centrality measures the number of paths that pass through each link. This can help to
+identify key connections of influence within the network. A link through which many paths pass may be a
+significant route for information exchange between entities .
+
+www.i2group.com
+5
+
+gl
+AcceleratingYour Mission.
+
+REVEALING LINKS: The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+ln Figure 2, the key connection of influence is Linda BRIGHTMAN. If this link were broken , a key channel
+for information exchange may no longer operate, and the network could be separated into two distinct parts.
+Figure 2
+
+,-. /red
+
+Michele RALPH~
+
+/
+ta
+
+Associa~
+
+1
+
+- - -Assodate-+--·""
+
+Da.Jghœr of
+
+Ja::kDAVDSCN " "
+
+Datjlte~
+
+1
+
+,-.
+
+- - - - -1
+
+1
+
+/
+
+Roi:Ert HOLŒ R ~
+
+/sociate
+
+Associa~
+
+1
+
+-
+
+®f-=•-1
+
+-.œ
+lrB18 BAl<ER 'Associate
+
+/
+1
+
+•- Sama1tha
+
+~
+
+/sociate
+
+1
+,-.
+
+~
+
+. /
+
+Lirda BRIGHT"""-N
+
+/ s o c1ate
+
+,-.
+-
+
+RLP8!t WAflD
+
+Asscxiate Barbara FABIAN
+
+'-"'
+
+1 - -.Asscxiate- - ---+-·
+
+Associate
+
+JARVIS ~
+
+1
+
+Assodate
+
+~
+
+,-. /
+
+/
+
+Esry DUKE
+
+Brct!-er of
+
+CalibDUKE
+
+Closeness
+
+Closeness centrality measures the proximity of an entity to the other entities in a social network. An entity
+with a high measure of closeness centrality has the shortest path to other entities , allowing them to pass
+on and receive communications more qu ickly than anyone else in the organisation .
+An entity on the edge of a network that is attached to few other entities will have a lower measure of
+closeness centrality, as information must travel much further to and from this network member.
+Closeness centrality measures both direct and indirect closeness:
+• Direct c/oseness means that two entities are connected by a direct link.
+• Indirect closeness exists when information can only pass from one entity to another via a path that
+runs through one or more entities.
+ln Figure 3, Esry DUKE and Robert HOLDER have the highest closeness scores because they have the
+best access to the majority of other members in the network.
+
+www.i2group.com
+6
+
+gl
+Accelerating Your Mission.
+
+REVEALING LINKS : The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+Figure 3
+/
+Marriedto
+('"
+
+/
+
+MidieUe
+
+RAIPH~sodate
+
+~
+
+1
+
+Assoclate-- + - - - - - -
+
+~
+
+DaJl;jhlter of
+
+Ja::kDAVDSO'>I
+
+Da;ghte~
+
+1
+
+_,,,/
+
+~
+
+Assodat e
+
+/sodate
+
+~
+
+Assoclate
+
+/
+
+~r0'18 BAKE;Assodate~
+
+~
+
+1
+
+RlPS'tWARD
+
+Assodate Lirda BRIGHTMAN
+
+.
+Assooate
+
+Barbara FABIAN
+
+/
+
+Assodate- -
+
+1
+
+Associate
+
+Sama1tha JARVIS~
+
+/
+
+Assodate
+
+~
+
+1
+
+Brothe- of
+
+EsryDUKE
+
+/
+
+CalibDUKE
+
+Degree
+
+Degree centrality measures how well connected an entity is by counting the number of direct links each
+entity has to others in the network. This can reveal how much activity is going on and who are its most
+active members .
+Degree centrality can be subdivided into in-degree and out-degree. ln-degree centrality looks at who has
+the most incoming links (e.g ., the most people contacting them ); out-degree looks at who contacts the most
+other people. Nades with high in-degree are highly sought after and have prestige . They may be subject
+matter experts , final approvers, advisors or have similar high-knowledge raies .
+Nades with high out-degree have visibility in networks as they reach out frequently. They may be new to
+the organisation , lack necessary knowledge , or be specifically tasked to spread information .
+ln Figure 4, Irene BAKER is the most central persan in the network because she has the highest number
+of connections to other people in the network.
+
+Figure 4
+/
+
+Mlehene
+
+/"~ to
+•-
+
+RALP~
+
+Associa~
+
+1
+
+- -Assodat'Da.Jr,Jhter of- - - - - - <
+
+"'"ï~"'z
+
+1
+
+/~r:'"'Tœ<"":..,,.~
+
+Assoclat e
+
+1
+
+5am"1tha
+
+Assodate
+
+/
+'Assooate
+~ssodate
+-.............
+-.............
+,,,Ir01e BAl<ER
+1- - - - - - - 1 - - -.Assodate- -
+
+JARVIS~
+
+Assooa
+l . te
+
+Assodate
+
+~
+
+/
+
+1
+
+,,.
+~
+
+/
+
+Assoda~
+
+- -AssodateBRIGHTMAN
+
+-
+
+--Assodate -RLP81'tWARO
+
+Barbara FABIAN
+
+/
+
+Esry DUKE
+
+Brotha- of
+
+,. /
+
+www.i2group.com
+7
+
+gl
+Accelerating Your Mission.
+
+Issue 1, May 2010
+
+REVEALING LINKS: The Power of Social Network Analysis
+
+Eigenvector
+Eigenvector centrality measures how well connected a particular network member is and how much direct
+influence the member may have over the most active entities in the network. This measure is determined
+by looking at the centrality scores of the entities the network member is connected ta .
+For example , a persan with high eigenvector centrality is likely to be at the centre of a cluster of key entities
+that also have high centrality. That persan can communicate much more directly with those key entities than
+a persan with a low eigenvector score on the periphery of the network.
+Hubs and authorities are the terms used to describe the two eigenvector centrality scores calculated in
+networks containing directed links (see "Link Direction" below). Hubs refer ta the scores for outbound links,
+and authorities refer to the scores for inbound links. There is a reciprocal relationship between the two; a
+high-scoring hub has many outbound links to high-scoring authorities , and a high-scoring authority has
+many inbound links from high-scoring hubs.
+ln Figure 5, Valerie Green has the highest measure of eigenvector centrality because she is connected to
+entities that are the most active in the network. Her position at the heart of the central cluster in the network
+means that she has more direct links to key entities than any other entity. She may exercise influence over
+them more quickly than anyone else.
+Figure 5
+
+<E--AssodateSAUNAS, Juan
+GULIZIA, Cecilia
+
+/
+
+1
+
+/
+l
+
+Associate
+
+PEREA, Maria
+
+CHICA, Rafael
+
+Assodate
+
+RUIZ, Juan
+
+~ /
+
+RAMIREZ, Alejandro
+
+BEL TRAN, Cristina
+
+www.i2group.com
+8
+
+gl
+Accelerating Your Mission.
+
+REVEALING LINKS: The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+Link Direction
+Using link direction on a chart is often helping in assessing how information and commodities flow through a
+network. A link with arrows added to it represents the directed flow of information between entities, either in
+a single direction or in bath directions. This may have an important bearing on how quickly information is
+passed from one part of the network to another.
+For example, a persan may receive information from many others in the network but only send information
+to a select few. The centrality measures for an entity through which information is channelled in bath
+directions will be higher than the measures for an entity through which information is channelled one way.
+Directed links can be included in the calculation of centrality measures against network charts.
+ln Figure 6, the arrows illustrate that while Linda BRIGHTMAN appears to be capable of receiving
+information from others, she is not passing it on to other parts of the network.
+
+Figure 6
+/
+/rried ta
+
+MicheHe
+
+RALP~
+
+Associa~
+
+1
+
+- - -Assodate-+-·- - - - - - 1
+'-...._
+Da.lghter of
+/
+::::-----..
+Ja:k OAVII)50\I "'-...
+1
+/
+Rotert HOLCER Associate
+1
+
+Oax;hte~
+
+Associate
+
+1
+
+/ s o date
+
+~
+
+~I
+
+.f'l"'
+
+!!!/
+
+SamJltha JARVIS ~
+Assodate
+
+Associate
+1
+
+~
+
+~
+
+~Associate-
+
+Assodate
+
+BAl<E'Associate
+rB'lE! 1
+R
+~
+
+/sodate
+
+1
+
+Assodate/
+/
+
+1
+
+Rcpert W/>KJ
+
+/
+
+/ soclate
+
+i }- A ssodateBarbara FABIAN
+
+Lirda BRIGHTMAN
+
+("
+Esry DUKE
+
+Brotha" r:i
+
+("' /
+
+CaibOUKE
+
+Link Weightings
+Social Network Analysis can also be enhanced by the use of link weightings to indicate the strength of
+different relationships (links), which have an effect on a target network. This kind of analysis helps to deliver
+a more real-world indication of the dynamics and structure of a given target network.
+As mentioned earlier, not all relationships in a network are equal. For example, qualitatively, the link
+between two people connected through a family relationship may be stronger than a link between two
+business associates. These links can be weighted so that they represent real-world strengths when carrying
+out Social Network Analysis. By weighting key paths, an analyst may also inter that the entities using them
+to channel information play important raies in the network. For this reason, centrality measure results are
+affected by link weightings .
+
+www.i2group.com
+9
+
+gl
+Acceleracing Your Mission.
+
+REVEALING LINKS : The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+Figure 7
+
+-Associate -
+
+- A ssociate Rt.pertWARD
+
+Bar bara FABIAN
+
+Sami11tha JARVIS~
+
+CalibDU<E
+
+i2 and Social Network Analysis
+i2 has implemented Sociai Network Analysis capabilities within Analyst's Notebook 8, part of the i2
+Intelligence-Led Operations Platform . The SNA measures can be used alongside existing Analyst's
+Notebook functionality to examine and analyse group structures and communication flows within networks,
+enabling users to better understand relationships between entities in Ana/yst's Notebook charts . Analyst's
+Notebook 8 delivers powerful new assisted analysis and visualisation capabilities that increase analyst
+productivity and reduce the time required to deliver high value intelligence within quickly growing data sets .
+Ana/yst's Notebook 8 is a major new product version that benefits from new functional requirements driven
+by the analytical community.
+For more information , visit www.i2group.com.
+About i2
+i2 is the leading provider of intelligence and investigation solutions for defence , national security, law
+enforcement and commercial security. More than 4500 organisations in over 150 countries rely on the
+i2 Intelligence-Led Operations Platform to proactively deter, prevent, predict and disrupt the world's most
+sophisticated criminal and terrorist threats . i2 started the intelligence revolution in 1990 and continues to
+lead the industry in innovation with products like Analyst's Notebook® and COPLINK®. These solutions help
+public safety officers, analysts, managers , detectives and investigators uncover hidden connections faster,
+enabling collaboration and delivering critical information to the point of need .
+
+www.i2group.com
+10
+
+gl
+Accelerating Your Mission.
+
+REVEALING LINKS: The Power of Social Network Analysis
+
+Issue 1, May 2010
+
+Copyright
+Ali rights reserved . No part of this document may be reproduced or transmitted by any means (electronic,
+mechanical , photocopying , recording , or otherwise) without prior written permission from i2 Limited . i2
+considers this software product information to be accurate, and reserves the right to modify it without notice.
+The software product described in this document is licensed for use under a software licence agreement.
+Trademarks
+i2 , the i2 logo, COPLINK and Analyst's Notebook are registered trademarks of i2 Limited .
+i2 Limited 201 O. Ali Rights Reserved .
+Microsoft, Excel , PowerPoint and Windows are either registered trademarks or trademarks of Microsoft
+Corporation in the United States and/or other countries .
+Other products and services may be registered trademarks or trademarks of their respective companies
+and appear in this document for reference , and such reference is not intended to affect the authenticity of
+any trademark or service mark.
+Warning and disclaimer
+i2 provides this document "as is" , without representation or warranty of any kind , express or implied ,
+including without limitation any warranty concerning the accuracy, adequacy, or completeness of such
+information contained herein . i2 does not assume responsibility for the use or inability to use the software
+product as a result of providing this information . The data presented in this document is fictitious and for
+illustration purposes only with no connection to , without limitation , past or present persans, organisations,
+identifying numbers , or circumstances , except by coincidence
+
+www.i2group.com
+11
+
+gl
+Accelerating Your Mission.
+
+For more information on Analyst's Notebook see:
+
+www.ilgroup.com
+
+gl
+WP_S NA TL_UK_190S2010_ High
+
+Acceleradng Your Mission.
+
+www.ilgroup.com
+
+i2. the i2 logo. COPLINK and Analyst's Notebook are registered trademarks
+of i2 Umited. Copyright© i2 Umited 20 10. All rights reserved.
+
+

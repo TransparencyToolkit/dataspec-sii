@@ -1,0 +1,293 @@
+AQSACOM
+Lawful Interception Is Our Business
+Lawful Interception is AQSACOM’s core business. With 10 years of experience in
+developing and deploying lawful interception systems for Communication Service
+Providers and government law enforcement agencies in over 30 countries,
+AQSACOM has established a solid and reliable worldwide reputation for its lawful
+interception turn-key systems.
+AQSACOM Lawful Interception Solutions
+Wireline and wireless voice and data networks
+! CALEA, ETSI, and local law compliance
+! Compatibility with all major switch vendors
+! Now used by telco operators and ISPs
+IP Interception
+! Deployed world’s first lawful interception system to accommodate networks of massive
+scale
+Wireless roaming and tracking
+! Track presence and usage of on-net and off-net roaming subscribers
+
+Reference Clients
+!
+!
+
+Major public-switched telecom, wireless, and Internet operators throughout Europe and Asia.
+Local and national-level law enforcement agencies.
+
+Scalable, Flexible, and Responsive systems for Lawful Interception
+!
+!
+!
+
+AQSACOM’s modular, standards-based approach supports scaling and service modifications.
+Single-platform lawful interception over a diversity of services and technologies
+All hardware derived from off-the-shelf equipment " easy service, replacement, cost reduction.
+
+AQSACOM and Standards
+AQSACOM actively particpates in the ETSI and 3GPP LI Groups to promote systematic and
+consistent approaches to lawful interception in telecom and IP networks worldwide standardsbased approaches ensure operator conformance to established and emerging LI regulations
+worldwide.
+Switched Voice Network
+Wireless Cellular Network (2G to 3G)
+Email, Instant Messaging
+Voice over IP
+other
+
+AQSACOM
+SURVEILLANCE
+TRACKING
+INTERCEPTION
+
+Law
+Enforcement
+Agencies
+
+AQSACOM brings to a single platform the lawful interception requirements of a network operator’s
+diverse service and technology mix
+
+. . . Our Customers speak for us
+
+www.aqsacom.com
+AQSACOM Americas
+Washington DC
+Tel: +1 202 487 6836
+
+email: sales@aqsacom.com
+AQSACOM Europe
+Paris
+Tel: +33 1 6929 8400
+
+AQSACOM Asia
+Sydney
+Tel: +61 419 628 818
+
+AQSACOM
+Lawful Interception Is Our Business
+AQSACOM and Standards
+Not only do our solutions conform to international lawful interception standards,
+we have helped to develop these standards.
+Architecture for Lawful Interception of Voice and IP Traffic
+
+Communication Service Provider
+
+LEA domain
+
+Net Operator
+Administration
+Function
+intercept related
+information (IRI)
+
+Network
+
+IRI Mediation
+Function
+
+Internal
+Functions
+
+HI1
+
+(Provisioning)
+
+HI2
+
+(CDC)
+
+content of
+Communication
+(CC)
+
+CC Mediation
+Function
+
+Network
+Entities
+Voice / IP Network
+
+HI3
+
+(CCC)
+
+Interception
+Entity
+
+Law Enforcement
+Collection &
+Administration
+
+Lawful interception system comprises a) extraction of call information and content from
+the network entities (voice or IP network equipment) and b) management of the data for
+effective delivery to the law enforcement agencies. AQSACOM offers comprehensive
+solutions to complete lawful interception in conformance to standards such as CALEA JSTD-025, ETSI ES-201-671, ETSI DTS 102.232/234, 3GPP 33.107 and regional lawful
+interception standards and requirements.
+
+. . . Shaping Lawful Interception
+
+www.aqsacom.com
+AQSACOM Americas
+Washington DC
+Tel: +1 202 487 6836
+
+email: sales@aqsacom.com
+AQSACOM Europe
+Paris
+Tel: +33 1 6929 8400
+
+AQSACOM Asia
+Sydney
+Tel: +61 419 628 818
+
+AQSACOM
+Lawful Interception Is Our Business
+IP Lawful Interception Solutions
+AQSACOM offers the world’s first comprehensive lawful interception solution for massive-scale public IP
+networks. Our IP interception systems are built upon AQSACOM’s time and field-proven approach to
+lawful interception architecture, with:
+! Applicability to ADSL, dial-up, cable modem, satellite, 802.11, fixed, and other access technologies.
+! A highly modular design that can be readily integrated with AQSACOM voice interception solutions.
+! Easy-to-use human interface requiring minimal training.
+! Operation over off-the-shelf hardware for easy serviceability and low-cost parts replacement.
+! Interoperability with all major IP networking equipment vendors.
+! Conformance to emerging standards, such as ETSI DTS 102.232/234, and local law enforcement
+requirements to effectively deliver interception data to law enforcement agencies.
+A typical AQSACOM IP Lawful Interception Solution
+
+Access Interception
+
+Access Servers
+LAN/WAN
+
+IMS-m
+
+Operator
+
+(RADIUS)
+
+Administrator
+
+IMS-d
+
+VPN
+
+LAN/WAN
+
+Points of Interception
+(Router)
+
+Agency
+
+ALIS, the AQSACOM Interception Management System, comprises two components: IMS-m for target
+provisioning and IMS-d for data interception management. IMS-m operates in conjunction with the service
+provider’s network access switching and servers (e.g., RADIUS) to determine the target’s originating IP
+address (static or dynamic). Once this address is known, IMS-d routes a secure replication of all
+incoming/outgoing target IP traffic to the law enforcement agency for analysis.
+
+AQSACOM develops and markets real time Lawful Interception, Mobility Tracking and
+Surveillance solutions. With its core business focused on lawful interception and related
+applications for over ten years, AQSACOM provides end-to-end turnkey solutions for
+fulfilling lawful interception requirements anywhere in the world, especially over highly
+heterogeneous networking and services environments. AQSACOM’s diversified customer
+portfolio includes clients from more than 30 countries, covering geographical areas as
+diverse as Central and Eastern Europe, Asia-Pacific, Africa and the Middle-East.
+
+www.aqsacom.com
+AQSACOM Americas
+Washington DC
+Tel: +1 202 487 6836
+
+email: sales@aqsacom.com
+AQSACOM Europe
+Paris
+Tel: +33 1 6929 8400
+
+AQSACOM Asia
+Sydney
+Tel: +61 419 628 818
+
+AQSACOM
+Lawful Interception Is Our Business
+Voice Lawful Interception Solutions
+Ten years of successful experience in the lawful interception industry has enabled AQSACOM to earn its
+reputation as a solid and reliable provider of lawful interception solutions to network operators and law
+enforcement agencies worldwide. Our systems are built upon AQSACOM’s time and field-proven approach
+to lawful interception architecture, with:
+! A highly modular design that can be readily integrated with other AQSACOM products, including
+our massive-scale IP interception solutions.
+! Conformance to current and emerging standards (e.g. CALEA J-STD-025, ETSI ES-201-671,
+3GPP 33.107) as well as to local law enforcement regulations.
+! Operation over off-the-shelf hardware for easy serviceability and spare parts management.
+! Interoperability with all major telecom networking equipment vendors.
+! Easy-to-use human interface requiring minimal training.
+A typical AQSACOM Lawful Interception Solution for Public Voice Telephony
+
+Points of
+Interception
+
+Telco
+Switch 1
+
+Telco
+Switch 2
+
+Telco
+Switch n
+
+LAN/WAN
+
+IMS-m
+
+Operator
+
+Administrator
+
+IMS-d
+
+Provisioning
+CDC
+
+CCC
+
+VPN
+CDC: call data channel
+CCC: call content channel
+IMS: Interception Management System
+
+AGENCY
+
+ALIS, the AQSACOM Interception Management System, comprises two components: IMS-m for target
+provisioning and IMS-d for data interception management. IMS-m operates in conjunction with the
+communication provider’s network access switching for provisioning and CDC delivery. IMS-d establishes a
+secure CCC to the law enforcement agency for analysis.
+AQSACOM develops and markets real time Lawful Interception, Mobility Tracking and
+Surveillance solutions. With its core business focused on lawful interception and related
+applications for over ten years, AQSACOM provides end-to-end turnkey solutions for fulfilling
+lawful interception requirements anywhere in the world, especially over highly heterogeneous
+networking and services environments. AQSACOM’s diversified customer portfolio includes
+clients from more than 30 countries, covering geographical areas as diverse as Central and
+Eastern Europe, Asia-Pacific, Africa and the Middle-East.
+
+www.aqsacom.com
+AQSACOM Americas
+Washington DC
+Tel: +1 202 487 6836
+
+email: sales@aqsacom.com
+AQSACOM Europe
+Paris
+Tel: +33 1 6929 8400
+
+AQSACOM Asia
+Sydney
+Tel: +61 419 628 818
+
+

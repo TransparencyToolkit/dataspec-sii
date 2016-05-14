@@ -1,0 +1,167 @@
+1
+
+l
+
+Hirayr M. Kudyan PhD
+
+Bvs Senior RF Designer
+
+C(,
+
+Derrick Kerley
+Bvs E M 3 Sales Manager
+
+How Does One Find Them?
+
+PUS DECT 6.0 Iifil+rat1
+
+Introduction
+Use of DECT 6.0 phones in Europe by U.S. expatriates has been noticed to cause significant interference in the up-link bands of the European UMTS licensed services. This paper discusses the problem
+and proposes a detection-based strategy for preventing such use of
+DECT 6.0 phones. The proposed approach consists of monitoring and
+locating such phones, thereby helping network operators minimize
+incremental operating costs due to interference. The technologies for
+realizing this are relatively simple and in existence today. Monitoring
+records of Base Transceiver Stations (BTS) already compile lists of
+such sources within each cell that can be traced to neighborhoods or
+city blocks. The technology for the actual location of DECT 6.0 phones
+(as well as cell phones) is also in existence. A family of such devices
+is produced by Berkeley Varitronics Systems in Metuchen, New Jersey, consisting of, among others, a scanning narrow-band receiver
+equipped with a multi-band high-gain directional antenna capable
+of guiding the user to within an arm's reach of the culprit phone(s).
+
+Discussion of the Problem
+The Digital Enhanced Cordless Telecommunicationsstandard, better
+known as DECT, was developed by ETSl in Europe. It is used for creating cordless phone systems primarily for homes and small offices.
+DECT phones have been developed and marketed in Europe, Australia, South America and North America. The introduction of the DECT
+standard to North America was delayed because U.S. FCC regulations required a slightly different frequency allocation. This resulted
+in the development of the DECT 6.0 standard for North America which
+assigned the 1920-1930 MHz band to cordless phone voice channels
+only. As a result, DECT 6.0 phones are highly immune to interference
+from other wireless applications (e.g., baby monitors, wireless networks, etc.). The frequency allocations for DECT, DECT 6.0 and UMTS
+up link bands in the E.U. and North America are listed in Table 1:
+Table 1. DECT, DECT 6.0 and UMTS Up-link Frequency Allocations for
+Europe and North America
+
+The careful frequency allocation of DECT and DECT 6.0 phones in
+the E.U. and North America assures that these phones will neither
+cause nor be susceptible to Electromagnetic Interference (EMI)
+with respect to other licensed wireless services, as long as the
+phones are deployed in their respective geographic region(@ for
+which they were designed for. However, when DECT 6.0 phone systems are deployed in the E.U., their RF signals can interfere with
+some of the up-link channels of European UMTS services because
+the two bands overlap (see Table 1). DECT 6.0 systems are particularly potent EM1 sources for several reasons:
+1. The system uses the same frequency band (1920-1930MHz) for
+both of its uplink and downlink channels.
+
+2. All handsets and base unit will contribute to the cumulative level
+of EM1 simultaneously.
+3. Except for the few "green" versions, most DECT systems keep
+the RF signal always on.
+4. Unlike cell phones, the RF output level from cordless phones and
+base is fixed.
+
+According to some European network operators, a signal level of
+only -97 dBm or higher in the UMTS uplink band is considered as
+interference. If the UMTS phone(s) are located within the confines
+of the same city block, transmission(s) from a DECT 6.0 phone can
+very easily exceed this threshold. This may be demonstrated by
+considering the estimated free-space path loss for electromagnetic
+
+waves, as a function of distance d
+
+6.0 phones purchased cheaply on-line. According to some wireless
+operators in the U.K., sites where this kind of interference is occurring right now is readily identified from BTS records for each cell.
+
+where do and dl represent the transmit and receive antenna positions
+respectively in the same units of length. Thus, signals originating
+from a DECT phone located 1 meter from a point of reference to a
+point 1 Kilometer from the same point of reference would attenuate
+by 60dB. If the RF power level near the antenna was -10dBm (this is
+a conservative output level for a typical cordless phone) the DECT 6.0
+uplink signal level has the potential to exceed the -97dBm threshold
+over an area equivalent to a small city block or over an apartment
+complex with hundreds of residents only after allowing for propagation loss as well as attenuation caused by typical obstacles (walls,
+doors, trees, etc) between the DECT phone and the point of observation. Other wireless devices do not present the same type of challenge as a result of their inherent operating schemes (see Table 2).
+
+ProposedSolution
+
+Table 2. Relative Likelihood of Interference from Different Devices
+
+I
+
+i
+Device
+i
+'
+
+Cell Phones
+
+WiFi Access Point
+
+1
+r-
+
+The risk of interference from cell phones t
+UMTS services is insignificant. The cell phon
+flrmware must first passively detect the local
+cell BTS and recognize it as a "valid" host.
+Then it will attempt to register over a channel
+assigned by the BTS. Cell phone RF power output levels are purposefully kept to a bare minimum by l e BTS in order to maximize freque
+re-use over ea~4.cell.
+~ a ~ t connectsd
+o ~ s to local WiFi hot spots in the
+E.U. or elsewhere pose no risk of interference
+because the up-link frequencies for them are
+defined and c&lled
+by the local hot spot(s).
+
+I
+
+Network operators in the U.K. routinely identify lists of sites where
+DECT 6.0 and other cordless phones have been causing interference to licensed UMTS services over the 900MHz up-link (880915MHz) and 1900MHz uplink (1920-1980MHz) frequency bands.
+There is a clear need for routinely locating these sources of interference after they have been identified from the BTS monitoring
+records down to the last few hundred feet. The technology for locating undesirable DECT or cell phones is already in existence. One
+such family of devices has been developed by Berkeley Varitronics
+Systems of Metuchen, New Jersey. The --- --- undTM-P-- product is a hand-held lightweight instrument consisting of a scanning
+narrow-band receiver equipped with a high-gain directional broadband antenna capable of guiding the user to the culprit sources; be
+they cellphones or cordless phones (including DECT and DECT 6.0).
+- V product
+~
+is a wall-mounted networked version
+equipped with a multi-band omni-directional antenna which can be
+networked over a wired LAN to upload chronological data in realtime for round-the-clock monitoring of same.
+Wolfhound-PROcell 0h0ne detector with DF Direction Findina antenna
+
+I
+
+I
+
+Cordless Phones DECT 6.0 and other cordless phones brought
+(DECT 6.0 & other) from the U.& for personal use in Europe pose
+a serious risk of interference in GSMlUMTS services on the 900' and 1900 MHz up link bands.
+Aggravatlng faem: same frequency band used
+for up and down link channels, RF signal level
+fbred, handset(s) and base contribute to EM1simultaneously.
+
+The interference problem discussed here has amply been observed
+and documented in the U.K.. The problem could proliferate if in addition to U.S. expatriates, growing numbers of locals start to use DECT
+Contad our European soles office for more information:
+Derrick Kerley
+BVS EMEA Sales Manager
+Phone: +41 71 278 1311
+Mobile: +41 79 600 4546
+dkerley@bvsystems.eu
+
+-
+
+WatchHound cell phone monitor is networked via LAN & wall-mountable
+
+I
+
+orify
+
+Prondir;p u,~reiesssolui~onsbr ovsr 37years
+1 Some non-OECT 6.0 cordless phones made for the U.S. use channels in the 900 MHz band which are also allocated to European GSMIUMTS services' up-link channels (880-915 MHz).
+
+

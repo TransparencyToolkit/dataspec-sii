@@ -1,0 +1,166 @@
+Audio Processing Laboratory
+Model 6604
+
+CONFIDENTIAL
+– Subject
+to change
+withoutwithout
+prior notice!
+CONFIDENTIAL
+– Subject
+to change
+prior notice!
+
+1
+
+Audio Processing Laboratory
+
+Model 6604
+
+TSE 6604 takes forensic audio processing and analysis to the next level. Fully integrating
+the capabilities of both hardware and software, TSE 6604 seamlessly handles forensic
+analysis and processing of all analog and digital media, including file based digital media.
+TSE 6604 represents productivity enhancement through a seamlessly integrated audio
+workstation environment, capable of blending the merits of superb audio filtering with
+comprehensive speech and signal processing.
+
+Key Features:
+• Multi-tasking: Productivity-enhancing features such as asynchronous “batchmode”
+processing will allow multiple jobs to be handled simultaneously
+• Power, Power, Power: The powerful AccelCoreÔ external processor hardware, based on
+the Analog Devices TigerSHARCÒ floating-point DSP, provides all audio I/O and performs
+lightning fast regardless of workload
+• Handles All Media: Common analog and digital media formats, including filebased media,
+can be handled directly
+• Seamless Integration: Both Direct-X and VST plug-ins will be supported within the AudioLab environment. AudioLab replaces the Master Control Panel found on previous products and allows software-based tools to be mixed and matched with others that are AccelCore-based. Further, the entire setup can be preserved in a single file for easy recall
+and repeatability at a later date
+• Advanced Visualization: Advanced real-time visualization tools such as Precision Spectrogram, Cepstral Voice Pitch Analyzer, 3D Waterfall Spectral Analyzer, and DTMF/Caller ID
+Visualizer will be included
+• Additional Software Tools: “Relative” speaker identification, transient reduction, automatic noise/effect analysis, multi-track alignment, and conversion to common lawenforcement audio formats will also be provided
+Key Benefits:
+• Intuitive design
+• Seamless integration
+• Powerful digital filters
+• Spectrum analysis
+• Virtual patching capability
+• Maximum flexibility
+• File & tape media handling
+• ASCLD reporting
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Additional Consideration
+• Maximum Efficiency: All real-time filters and visualization tools support multiple instances
+up to the maximum resource limitations of the PC, the IEEE-1394 “Firewire” interface,
+and the AccelCoreÔ
+• Building on Experience: Includes all filtering operations of the current-generation TSE
+6601 and MCAP products, plus many new real-time filters such as Clipped-Peak Restoration, Multi-band Downward Expander Noise Reduction, Precision Tracking Comb Filter,
+and Enhanced 1CH Adaptive and Reference Canceller filters. Simply amazing
+• Sophisticated Timeline Management: Tool allows different processing to be applied to
+different portions of the recording while maintaining evidence integrity
+• Flexible and Intuitive Interface: The redesigned graphical user interface is easy to navigate, allowing for quick filter setup and changes
+• More Science - Better Results: Gamma's proven methodology and built-in scientific approach help produce results that win cases and survive legal challenges
+
+Specifications
+
+ASIO Driver:
+
+• To allow third-party software products to directly utilize the
+AccelCore for their audio I/O
+
+Power:
+
+•Built-in universal AC power supply
+
+Software:
+
+•Interfaces via IEEE-1394a Firewire Audio lab control software
+runs in Windows 2000/XP or higher, (dual displays recommended)
+
+Audio I/O:
+
+• 8 channels of balanced analog I/O, AES/EBU digital I/O, dual
+TOSLINK optical digital I/O, dual S/PDIF coaxial digital I/O,
+ADAT 8-channel optical I/O, dual monitor outputs for connecting amplified speakers, and dual front panel stereo
+headphone jacks
+Supports all industry standard rates up to 192 kHz
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Digital Processing
+
+Control Microprocessor
+
+DSP Farm
+
+Other Processing
+
+Digital Filters
+
+Digital Analysis
+
+• One Wavefront Semiconductor DICE II, with ARM
+core operating at 50 MIPS, ASIC-based digital audio
+routing, and Firewire audio interface supporting up to
+96 channels of audio streaming between the TSE 6604
+and host PC
+• Includes Windows ASIO driver for intercommunication of digital audio data between TSE 6604 and thirdparty software
+• Nine Analog Devices ADSP-TS201S TigerSHARC™
+processors, each with 24Mbits of internal RAM and
+491.52MHz clock speed
+• Total processing throughput of 106K MIPS, or
+26.5GFLOPS
+•Texas Instruments TMS320VC5410A front-panel controller processor, with 128kB of internal RAM and
+100MIPS throughput
+•Xilinx Spartan-3 XC3S50 FPGA, configured as a DSP
+audio router
+• Highpass, lowpass, bandpass, bandstop, comb,
+notch, and slot canonical filters
+• LMS 1CH, and Reference Canceller (2CH) adaptive
+filters
+• Automatic Spectral Inverse, Spectral Subtraction, and
+NoiseEQ broadband noise reduction filters
+• Graphic Equalizers, AGC
+• Other special tools, including real-time clipped-peak
+restoration, multiband downward expander denoiser,
+and “de-clicker” modules
+• Real-time spectrum analyzer, single- or dual-trace,
+920-line resolution
+•Adaptive filter coefficient display
+
+Construction
+Packaging
+Power
+
+Host Computer
+
+Streaming Interface
+
+• 5.25" H x 17.0" W x 12.0" D, 10 lbs. Rugged aluminum enclosure with black powder-coat finish and multi-color panel overlays.
+• 85 - 264 VAC, 47-63 Hz universal with IEC320 inlet,
+100VA maximum
+• Recommended Intel Pentium IV 2.0 GHz (or higher)
+desktop or laptop PC with mouse, 1024x768 SVGA
+monitor (dual monitors recommended), 1GB RAM, CDROM, 80 GB HD, Windows XP SP2, and at least one
+free IEEE-1394a “Firewire” interface port available.
+Active matrix LCD display recommended if notebook
+used.
+• Standard “ASIO” audio driver interface, supporting
+up to 16 channels of playback and record simultaneously. Provides capability to process WAV or other
+file-based data through the TSE 6604 hardware via the
+Firewire connection. Compatible with Adobe Audition
+2.0 and Sound Forge 8.0 software.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+

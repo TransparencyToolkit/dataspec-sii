@@ -1,0 +1,521 @@
+MIRA Wideband Analyzer
+for HF/VHF/UHF
+Reconnaissance, Recording, Analysis
+
+CONFIDENTIAL
+– Subject –toSubject
+changeto
+without
+notice!
+CONFIDENTIAL
+changeprior
+without
+prior notice!
+
+1
+
+ 
+Inhalt
+MIRA Wideband Analyzer for HF/VHF/UHF
+
+3
+
+Overview of MIRA
+
+3
+
+MIRA – Modular configuration from standard components
+
+4
+
+Online-acquisition, recording & analysis in MIRA with CC-IO
+
+5
+
+Offline analysis in MIRA uses CC-Offline
+
+8
+
+Offline analysis, classification, demodulation
+
+10
+
+ComCat-Tuner
+
+11
+
+ComCat™- Tuner
+
+12
+
+Recording server ReProS
+
+12
+
+Incorporating of own software modules
+
+13
+
+Antennas: Sample configuration
+
+14
+
+MIRA – Technical Data (excerpt) (can be delivered partly optionally)
+
+15
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+MIRA Wideband Analyzer for HF/VHF/UHF
+Overview of MIRA
+MIRA is a scalable signal analyzer for HF, VHF and UHF. MIRA enables the online
+monitoring of a 16 MHz-broad band (optionally 24 MHz) in the freely selectable frequency range between 100 kHz and 3 GHz as well as the recording of a 4 MHz-band
+lying in the monitoring range (optionally 8 MHz). This wideband monitoring and recording is made possible by the use of a ComCat-Tuner and other standard modules. MIRA offers a server-supported wideband recording and data storage. The stored data
+are analyzed by means of different offline functions. MIRA is implemented as a clientserver-system. In this way, the number of workstations can be configured flexibly,
+and it is simple to add additional analysis stations later. Given below is an overview of
+the special features of MIRA:
+• Online wideband monitoring of a 16 MHz-band (opt. 24 MHz) for HF/VHF/UHF with
+a display of the spectrum and sonogram (panorama display)
+• Fixed setting of the 16 MHz-band (opt. 24 MHz) and scan operation over the complete HF/VHF/UHF-range
+• Wideband recording of a 4 MHz band (opt. 8 MHz) in the HF/VHF/UHF-range on
+the hard disk server, whereby the recording band lies within the monitoring band
+• Narrow-band recording of complex and demodulated data
+• ComCat-Tuner for supporting two antennas with internal channel switch-over and
+raw data processing
+• Innovative client-server-architecture fur network-oriented analysis workstations
+• Offline-analysis of wideband and narrow-band signals
+• Automatic and interactive demodulation & decoding
+• Use of standard modules for acquisition (CC-IO), recording (ReProS) and offline
+analysis (CCOffline)
+• Simple system extension for analysis through plug-ins, e.g. universal analyzer OC6040
+• Example of an antenna configuration: Active monopole-antenna for extended HFband (0.1 – 50
+• MHz) and standard-discone-antenna-S13036/201- for VHF/UHF-bands (30 – 3.000
+MHz)
+• Robust device design of the acquisition part, standard-PCs, standard network
+components
+• MIRA has already been launched successfully in the market.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+MIRA – Modular configuration from standard components
+
+The ComCat-Tuner acquires the antenna signals. Thereby, depending upon the parameter settings of the tuner, an internal antenna switching is done automatically, in order to monitor the frequency range set in the HF/VHF/UHF-band. The tuner calculates
+the short-time spectrum for a freely selectable 16 MHz-interval (opt. 24 MHz) for online display and analysis in CC-IO. At a second output channel the ComCat-Tuner delivers the complex basic wideband signal of a 4 MHz-broad (opt. 8 MHz) signal for recording on the data server ReProS, which calculates the navigation data. CCOffline
+uses the navigation data for selecting the signal segments and enables comprehensive analyses. CC-IO and CC-Offline are clients and need one PC each.
+Tuner, server and clients are connected
+to a LAN (Local Area Network).The data
+already pre-processed by the tuner are
+stored on the recording server ReProS.
+Thereby, ReProS calculates the navigation data, in order to enable a fast offline
+access to data. CC-IO enables the online
+monitoring and analysis. For a deeper offline analysis, CCOffline offers numerous
+possibilities in the standard scope as
+well as also through optional plug-ins.
+CC-IO and CC-Offline are usually independent workstations. Number of
+workstations is scalable.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+Workstations
+
+Exemplary workstation configuration comprising of PC, two TFT-displays and an active
+loudspeaker box.
+Two workstations are suitable for using the offline and online functions simultaneously. Alternatively, one can select between the online and the offline mode. While the
+online monitoring and analysis is performed on one workstation-PC, the second
+workstation is used for navigating in the wideband signal and for an offline analysis.
+For enhancing the clarity, it is recommended to equip the workstation PCs with two
+TFTdisplays. Thereby, one TFTdisplay is used for visualizing the signals and the results and the other is used for the parameter settings or for the plug-ins. Loudspeakers are necessary for the audio output.
+Online-acquisition, recording & analysis in MIRA with CC-IO
+CC-IO is a software module in the MEDAV’s own ComCat system concept, which is
+implemented by using the “Virtual Devices”. CC-IO supports the wideband and the
+narrow-band signal acquisition and the visualization of short-time spectra and spectrograms (panorama-displays).
+CC-IO represents the operating panel for the ComCat-Tuner and the parameter setting
+of the recording.
+The narrow-band analysis for the analog modulated signals including their demodulation, softwaredriven message extraction as well as the audio output of the demodulated signal are the essential processing possibilities of CC-IO. The performance
+scope of CC-IO can be extended extensively through additional virtual devices and
+plug-ins.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+Display of the short-time spectrum and spectrogram (panorama display) with the parameter panel for the online acquisition and recording.
+The online displays of the shorttime spectrum as well as the spectrogram (panorama
+display) provide an insight in the signal. The frequency range for the recording is determined with cursors or through keyboard input and is stored in gray in the image.
+The left portion of the image shows a signal segment with the centre frequency of
+425 MHz and a bandwidth of 16 MHz. The parameter setting of the tuner and of the
+recording is done in the corresponding panel.
+
+Parameter panel for the demodulation analog modulated signals, storage and audio
+output
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+The analog modulated signals can be demodulated
+online and listened to via
+the audio output. The analog modulation methods
+AM, AM_LSB, AM_USB,
+CW,
+FM,
+SSB_LSB,
+SSB_USB and WideFM are
+supported.
+Narrow-band signals are
+stored either individually or
+parallel in the IF- or AFband. For the AGC (Automatic Gain Control) different control parameters can
+be selected.
+
+On the left the short-time spectrum and the spectrogram are displayed, on the right the parameter
+panels for tuner, recording server and scan operation. The acquisition bandwidth can be changed during the running acquisition.
+
+In the recording band, the
+user makes use of the
+graphical zoom functions of
+CC-IO, in order to make the
+signal details visible. At the
+upper margins of the
+graphs, our graphical tools
+for setting the recording
+range are given (see the
+red ellipses; the recording
+range is shown in gray).
+“By mouse click” on the
+desired panel, the settings
+are made. The figure on
+the left shows an 8 MHz
+wide frequency band with
+a centre frequency of 12
+MHz. In this, a 500 kHz
+wide band is highlighted,
+which is used for the recording. This band is displayed magnified by zoom.
+The figure on the left clearly
+shows the details in the
+range of 12 MHz.
+
+Alternatively, the specifications of the mean frequency and the band width can also
+be entered via the keyboard. The same settings function also exists for the analog
+demodulator. By means of the cursor, signal amplitudes and field strengths can be
+measured.
+The possibility of scanning over the entire RF-frequency range of 100 kHz to 3 GHz
+with the full bandwidth of 16 MHz (opt. 24 MHz) must be given special mention here.
+For this, the frequency range and the step width are specified. For each step width a
+short-time spectrum is calculated and placed adjacent to one another. A zoom function that can be activated optionally changes the scan parameter in case of graphical
+zoom.
+The ComCat-Tuner operates its internal antenna switch automatically. The blue cursor
+in the spectrum is for setting the frequency of the analog modulator.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+7
+
+Offline analysis in MIRA uses CC-Offline
+CC-Offline is a software component from MEDAV’s own ComCat system concept.
+CC-Offline supports the user during navigation in the recorded wideband data, signal
+segmentation and during the analysis.
+The interactive transmission type and signal analysis have a special significance. The
+deep analysis is performed on the basis of our transmission type and signal analyzer
+OC-6040, which supports a lot of modulation types and has further useful functions.
+Further plug-ins are available for special tasks or modulation types.
+
+Panorama display with the possibility of segmenting the relevant signal sections
+
+Parameter panel for the audio output
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+8
+
+The signal to be analyzed is stored on
+the recording server ReProS. ReProS
+calculates the navigation data for this.
+CC-Offline enables a fast access to the
+signal by using the navigation data and
+visualizes these. The panorama display
+is suitable for this.
+The fast access is possible because
+of the reduced data quantity (navigation data), which must be transmitted
+for visualization. The following analysis
+is based on the corresponding original
+signal segment. In the panorama display, only one or several signal segments are highlighted, listened and
+stored as files. Meta data are assigned
+to the signal data, for instance, timestamp, signal duration, comment.
+Deeper analysis can then be based on
+these signal files. The panorama display (figure on the left) displays an FMsignal in the frequency range of 422.7
+to 423.2 MHz over a duration of 97
+seconds. In this, a signal section is
+highlighted at 422.9 MHz with 61
+seconds (within the red rectangle).
+This segment is saved later on.
+The segmented signals are present as
+files with meta information on the
+ReProS-Server. The user can select
+files by specifying the search criteria,
+which are also based on the meta
+information, and visualize these in
+CCOffline. Here too, the signal segments can be highlighted, stored, and
+are ready for further analysis. The
+figure on the left shows a 500 kHzband at 12 MHz. This contains a relevant signal portion, which is to be
+studied in more detail. The figure on the left shows again the panorama-display of the
+above example of 500kHz-band. In this now a signal segment has been marked (with
+a red rectangle) and transferred through drag&drop to the analyzer OC- 6040. This
+method can also be applied to frequency hopper signals. In OC-6040 the averaged
+shorttime spectrum and the spectrogram of this signal segment are shown. OC-6040
+is a versatile analyzer, which offers the following functions:
+► Interactive modulation type analysis
+► Automated modulation type classification
+► Demodulation & decoding of digitally modulated signals
+► Bit-stream analysis
+► Signal generator
+► OFDM-signals (recognition, demodulation, generation)
+► Special modems: Pactor-, Codan- variants
+► Speech-signal recognition
+► Speech-signal enhancement
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+9
+
+Offline analysis, classification, demodulation
+MIRA contains numerous methods for offline analysis of wideband and narrow-band
+signals, whereby the OC-6040 incorporated is an essential module. Added to this are
+various optional possibilities for extending the analysis functions by means of plug-ins.
+MIRA supports the fast access to the stored signals, surfing in these data, segmenting as well as interactive or automatic analysis, classifier, demodulator and decoder
+functionality.
+
+Displays for determining the modulation types of narrow-band signals
+In addition to the spectrum and color spectrogram, various properties of narrow-band
+signals, which are important for the analysis of digitally modulated signals, can be displayed:
+► Instantaneous magnitude
+► Instantaneous frequency
+► Instantaneous phase
+► Constellation diagram (eye diagram)
+The analysis and the display of the instantaneous values over time is a tested method
+for an exact determination of carrier frequency and modulation rate. With suitable experience and corresponding effort, the analyses can be conducted so finely, that even
+the information in the sense of fingerprinting can be derived.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+10
+
+Hopper signals are recognized automatically according to the search guidelines and
+marked. The list of hits can be extended or modified manually e.g. through mouse.
+MIRA optionally also supports the recognition and re-extraction of narrow- band signals of frequency-agile transmitters (frequency hopper). The signals, which can jump
+over a few hundred kHz in the RF-Band, are recognized and converted in the original
+signal only a few kHz wide. In the first step in the hopper processing the automated
+hopper recognition is done by means of matched-filter. Thereby, a search is made for
+suitable patterns in the time and the frequency range. The result is present in a recognition list with the detected hoppers.
+Each visually detected transmission can be segmented interactively and extracted for
+further processing. The result then contains the narrow-band signals, which are suitable for further analysis.
+ComCat-Tuner
+The ComCat-Tuner is a hardware module in MEDAV’s ComCat system concept. The
+ComCat- Tuner is suitable to be used for HF/VHF/UHF. It is characterized by a gapless real-time capability, large signal dynamics and internal signal processing possibilities.
+The ComCat-Tuner is a standard product at
+MEDAV, which can be used for the entire
+RF-range till 3 GHz.
+The ComCat-Tuner is not a common wideband tuner with a digital down converter,
+but instead it is also equipped with a high
+computing power for data pre-processing.
+The ComCat-Tuner is configured and parameterized via software.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+11
+
+ComCat™- Tuner
+
+The antenna configuration in MIRA requires the HFantenna at the input 1 and the
+V/UHF-antenna at the input 2. Other configurations can be supported.
+The tuner incorporates two input and four output channels. The operator can connect
+two antennas in parallel. An internal switching unit selects the necessary antenna signal. For each output channel the desired signal type can be selected:
+CBB: complex base band (IF-broadband signal)
+CFFT: complex FFT
+PSD: power spectral density
+The “Sync”-signal is needed while synchronizing different tuners, e.g. as necessary in
+direction finding applications.
+Recording server ReProS
+The recording server ReProS is a standard module of the ComCat system. ReProS is
+suitable for recording the IF wideband signals. In addition, the navigation data are calculated and stored.
+In this way, a desired signal section in the wideband signal can be located quickly via
+CC-Offline and marked for an analysis. ReProS requires the use of the ComCat tuner
+(other tuners upon request).
+ReProS is suitable for handling
+large data quantities, for online
+acquisition and for using the offline analysis clients.
+The available memory capacities can be implemented specific to the customer. Typically, 1 TB. The storage is done on High Speed RAID (Redundant Array of Independent Discs) hard disks.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+12
+
+Incorporating of own software modules
+
+Own developed demodulators and decoders can be incorporated via the VD (Virtual
+Device)- interface. A detailed interface specification for DCE (Digital Content Extraction) is available upon request. A special advantage is that the operator panel and the
+parameterization for the new modules flows optimized in the device concept: Despite
+individual software the entire system appears homogeneous.
+Another comfortable option for integration of your own software is provided by our
+MATLABinterface. MATLAB is very popular and is known as a powerful tool for algorithm development. The MATLAB-interface in MIRA supports the algorithm development as well as the use of the finished MATLAB-application by the analysts. At the
+time of developing the algorithm, the MATLAB-interface uses CC-Offline for accessing the signal archive (ReProS). While developing, the user makes use of the powerful
+MATLAB-tools for visualizing. After completing the development, the MATLABruntime code is integrated as a plug-in in CC-Offline. Results are written by MATLAB
+as XML-files. These can be imported from CC-Offline and are available for further
+processing and for visualization.
+
+The MATLAB-interface for CC-Offline represents a powerful and flexible tool for the
+development and application of algorithms in MIRA. The bi-directional exchange of
+data and results between CC-Offline and MATLAB-runtime code makes MIRA an
+open system, which supports a fast and comfortable extension of the analysis possibilities. The development-oriented use of the MATLAB-interface requires MATLAB®
+R2007A and the toolbox “MATLAB® builder for JAVA®”.
+CONFIDENTIAL – Subject to change without prior notice!
+
+13
+
+Antennas: Sample configuration
+Technically, MIRA is not linked to specific antennas. There are interface requirements
+for the Com- Cat-Tuner, which must be considered. Two antenna inputs are available
+at the ComCat-Tuner. An internal switch in the tuner supports the automatic signal
+acquisition over the frequency range of the individual antennas. Two antennas are
+listed below, which can be used for the HF / VHF / UHF-range.
+Electrical characteristics:
+► Frequency Range: 0.01 – 50 MHz
+► Gain in free space: approx. 7 dBi
+► Polarization: linear vertical
+► Input Impedance: 50 Ohm
+► VSWR: < 1.4: 1 typ.
+► Equivalent noise field strength: 10 kHz:
+80 [nV/m*SQR(Hz)] 20 kHz: 42
+[nV/m*SQR(Hz)] 30 kHz: 21
+[nV/m*SQR(Hz)] 200 kHz: 16
+[nV/m*SQR(Hz)] 0.4 - 50 MHz: 10
+[nV/m*SQR(Hz)]
+► IP3: min.+63 dBm
+► IP2: min. +46 dBm
+► 1 dB compr. point: min. 46 V/m (0.0130MHz) min. 23 V/m (30-50 MHz)
+► Power supply: 24 V through inner conductor of coaxial cable
+Mechanical characteristics:
+► RF – Connector: N-type
+► Dimensions: lengths: 1293 mm diameter: 55 mm
+► Weight: approx. 1.03 kg
+
+HF-Active Monopole-Antenna
+
+Environmental requirements:
+► Temperature range: -32°C to +50°C
+Electrical characteristics:
+► Frequency Range: 30 MHz – 3000 MHz
+► Antenna Gain: approx. 0 - 5 dBi
+► Polarization: vertical
+► Antenna-pattern: omni-directional
+► Output Impedance: 50 Ohm
+► VSWR: < 2.0 : 1 type; < 3.0 :1 max
+Mechanical characteristics:
+► RF – Connector: N socket
+► Dimensions: sloping radials: 1143 mm
+horizontal radials: 491 mm
+► Weight: approx. 18 kg
+Environmental requirements:
+► Temperature range: -20°C to +55°C (operation)
+► Max. wind strength: 108 km/h
+
+Broadband Discone S13036/201
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+14
+
+MIRA – Technical Data (excerpt) (can be delivered partly optionally)
+• Signal capturing (by means of ComCat-Tuner)
+Channels: 1
+ADC: 120 M samples / sec
+Dynamic range: 85 dB (SFDR)
+Gain Control: Automatic / manual
+Impedance: 50 Ω Plug : N-type - female
+• Spectral analysis (CC-IO)
+Frequency range: 100 kHz – 3 GHz
+Frequency zoom
+Analysis bandwidth: 16 MHz (24 MHz optional)
+Frequency resolution: 4.8 kHz @ 16 MHz
+(7.3 kHz @ 24 MHz optional)
+Adjustable mean frequency
+Display types: Color spectrogram, spectrum
+Averaging: Smoothing function
+Operating modes: online / offline
+• Audio monitoring (listening)
+Demodulation: AM / USB / LSB / FM / CW with selectable BFO
+Sender selection: per mouse click, marker, input
+Loudness: manual, AGC
+• Signal recording and -archiving (ReProS)
+Mode: online parallel (gap-less)
+Stored signals: from one antenna
+Bandwidth: 4 MHz (CBB) (8 MHz optional)
+Memory capacity (ReProS): 1 TByte (max 400 minutes @ 4 MHz on HD-array
+Long-term archiving: 10 min @ 4 MHz on Blu Ray Disc
+• Spectral analysis (CC-Offline) Frequency range: 100 kHz – 3 GHz
+Navigation: in the time and frequency window Interactive segmentation
+Plug-ins: Listening-in function, OC-6040
+Display types: Color spectrogram
+Mode type: offline
+• Hopper detection and de-hopping (Plug-in CC-Offline)
+Frequency range: 100 kHz – 3 GHz
+Input bandwidth of the non-linear signal: 4 MHz (8 MHz optional)
+Mode type: interactive offline
+• Narrow-band analysis of the modulation type
+Frequency range: 100 kHz – 3 GHz
+Frequency zoom Analysis bandwidth:
+any
+FFT length: 64 - 2048 610 Hz
+User-defined centre frequency
+Window functions: Rectangle, Hamming, Hanning, Blackmann, Taylor
+Display types:
+Color spectrogram / spectrum
+Instantaneous magnitude / frequency / phase
+Constellation diagram (phase star)
+Calculation operations: Exponentiation (2 / 4 / 8)
+Mode type: offline (narrow-band)
+• Automatic signal classification
+Frequency range: DC – 30 kHz
+Supported signals: ASK2, MSK, FSK2, PSK2 A/B, PSK4 A/B, PSK8 A/B, 2ASK/8PSK,
+4ASK/8PSK, QAM16
+Result output: list on screen or file
+Mode type: offline (narrow-band)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+15
+
+• Demodulation of digitally modulated signals
+Demodulator bandwidth: max. 30 kHz
+Types: ASK2, MSK, FSK matched filter, FSK discr., PSK2 A/B, PSK4 A/B, PSK8 A/B,
+2ASK/8PSK, 4ASK/8PSK, QAM16, twinplex (F7B)
+Demodulation: absolute, differential, CCITT
+Number of channels: 1 - 64 Sum baud rate: 1 - 4800 Bd
+Display types: Status, eye-diagram, constellation diagram
+Mode type: offline (narrow band)
+• Cursors for data import through drag&drop
+Number: two line cursors for each axis in the display window Type: line and harmonic
+cursor
+• Miscellaneous
+Multi-channel demodulation and decoding
+HF-Channel-Simulator (Doppler, multi-path propagation)
+Free analysis and viewer configuration
+Wideband panorama display
+Open for incorporation of own developed demodulator and decoder software
+• PC requirements for the workstation
+Recommended minimum equipment: Core2Duo, 2 GB RAM, 250 GB hard disk, network card (10/100/1000 MBit Ethernet), USB 2.0, DVD-ROM, Windows XP or LINUX
+(in the VM-mode)
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+16
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+17
+
+

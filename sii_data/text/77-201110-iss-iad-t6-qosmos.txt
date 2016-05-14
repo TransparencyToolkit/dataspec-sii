@@ -1,0 +1,853 @@
+Boosting Monitoring Centers
+with IP Metadata
+
+Jerome Tollet
+October 2011
+
+What is Network Intelligence Technology?
+ Feeding Detailed Traffic Visibility to Applications
+Applications using
+metadata and content
+feeds
+
+Cyber
+Security
+
+Lawful
+Interception
+
+Data
+Retention
+
+Other
+
+Metadata and
+content feeds
+Network Intelligence
+Technology =
+DPI + metadata extraction
++ content extraction
+
+IP traffic flows
+
+Delivering
+data
+Extracting traffic
+metadata and content
+
+Beyond DPI!
+
+Decoding
+protocols
+
+Page 2
+
+Network Intelligence:
+An Enabling Technology for Interception Systems
+Network Intelligence
+Technology =
+DPI + metadata extraction +
+content extraction
+
+Functions
+User interface
+Rendering of
+communications
+Storage
+
+Monitoring
+center
+
+Intercepted
+traffic
+
+Network
+Intelligence
+Technology
+
+Correlation
+Alerts
+
+Functions
+Advanced protocol decoding
+Supports new/evolving protocols
+
+Traffic classification
+Extracts traffic metadata + content
+Support for Gbps+ throughput
+Page 3
+
+Network Intelligence Implementation Options
+
+Network Intelligence Technology for Monitoring Centers
+
+Software
+Development Kit
+
+ixMOS for
+Monitoring Center
+
+Developer tool
+to embed Qosmos
+into a system
+
+Extracts and delivers
+metadata + content
+in real time
+
+Page 4
+
+Challenges for Monitoring Centers
+
+Fact
+
+Challenge for MC vendors / LEA
+
+1) Exponential growth in HI3 traffic
+
+Difficult to scale
+
+2) Decoding software can be
+targeted by cyber attacks and
+intercepted traffic can be unclean
+
+Need decoding software with built-in
+“Triple R” capabilities and ability to
+handle unclean traffic
+
+3) Diversity and complexity of
+communication applications and
+protocols
+
+Wide protocol support with continuous
+updates
+
+4) Increase in of number of targets
+and communication services
+
+Go beyond rendering of communications
+and add support for investigations based
+on automatic pattern analysis
+
+Page 5
+
+Exponential growth in Intercepted Traffic:
+Use HI3 Load Balancer Based on NI to Scale
+Intercepted traffic
+
+Monolithic MC
+1 Gbps
+10 Gbps
+interface
+
+ Not scalable
+Decoding
+Rendering
+
+ Overloaded by
+irrelevant traffic
+
+ Scalable
+Network Intelligence
+Intercepted
+traffic
+
+ Optimized
+
+Load balancer +
+Filter
+By application
+By IP@
+
+MC1
+IP@
+
+MC2
+
+Centralized
+Rendering
+System
+
+…
+Irrelevant traffic (IPTV, etc)
+Page 6
+
+Implementation: Scalability Enabled
+
+Operator 1
+Gbps
+interface
+
+HI3
+CC
+
+Qosmos-based
+HI3 Load balancer
+
+ HI3 format
+ Application LB
+
+Email
+CC
+
+Email
+MC
+
+VoIP
+CC
+
+VoIP
+MC
+
+…
+
+Service
+MC
+
+Gbps
+interface
+
+HI3
+CC
+
+Mon.
+Center
+Server
+
+Email
+CC
+
+ Tunneled traffic
+
+Operator 2
+
+LEA
+Agent
+
+ IP-address LB
+ Smart LB on traffic
+metadata
+
+ Gbps interface
+
+Storage
+
+IPTV
+
+Page 7
+
+Benefits
+Enables monitoring center to scale from Mbps to Gbps
+Reduce by 90% the data volume managed by the monitoring center
+Flexible: adapts to the MC vendor’s and LEA deployment
+requirements
+Load balancing by application
+Load balancing by IP address
+Load balancing using any traffic metadata
+
+Page 8
+
+Challenges for Monitoring Centers
+
+Fact
+
+Challenge for MC vendors / LEA
+
+1) Exponential growth in HI3 traffic
+
+Difficult to scale
+
+2) Decoding software can be
+targeted by cyber attacks and
+intercepted traffic can be unclean
+
+Need decoding software with built-in
+“Triple R” capabilities and ability to
+handle unclean traffic
+
+3) Diversity and complexity of
+communication applications and
+protocols
+
+Wide protocol support with continuous
+updates
+
+4) Increase in of number of targets
+and communication services
+
+Go beyond rendering of communications
+and add support for investigations based
+on automatic pattern analysis
+
+Page 9
+
+Challenge:
+DPI Software Must Work Even Under Difficult Conditions
+Unclean traffic
+
+Fragmented
+Partial
+
+Cyber Attacks
+
+Malicious forging
+Obfuscation
+DDOS
+
+Example: Need to decode unidirectional traffic
+
+Must
+continue
+to work!
+
+Example: Need to handle packet-by-packet
+Normal SMTP
+behavior
+
+Client
+
+Satellite Operator
+Infrastructure
+
+Server
+
+H
+
+Packet by
+Packet SMTP
+Data
+Canal
+
+HELO
+
+E
+Client
+
+Server
+L
+O
+
+Monitoring
+center
+
+RTC
+
+Page 10
+
+Tripe R: Accurate and Battle-Proof DPI/NI Technology
+Tripe R = Resilience + Robustness + Reliability
+ixEngine has been designed with Triple R in mind
+
+Resilience
+Functioning even under adverse external conditions
+(e.g. maliciously forged packets or flows)
+
+Robustness
+Performing well during difficult situations (e.g.
+incomplete traffic, SYN flood attacks)
+
+Reliability
+Adequately decoding traffic even under unusual
+circumstances (e.g. tunnels, obfuscated traffic, nonstandard protocol behavior)
+
+Field-proven Technology
+Based on continuous
+feedback from Qosmos
+users in all markets
+(telecoms, enterprise,
+government) and all regions
+of the world
+
+Page 11
+
+Benefits
+Battle-proof: Built-in Tripe R = Resilience + Robustness + Reliability
+Accuracy: Advanced protocol parsing drastically limits the risk of
+missing a target
+Field proven: Protocol parsing technology continuously facing reallife intercepted IP traffic:
+Wired networks / Mobile networks
+EMEA, Americas, Asia
+
+Continuously updated technology
+Adapted to new traffic characteristics
+New protocols and applications
+
+Page 12
+
+Challenges for Monitoring Centers
+
+Fact
+
+Challenge for MC vendors / LEA
+
+1) Exponential growth in HI3 traffic
+
+Difficult to scale
+
+2) Decoding software can be
+targeted by cyber attacks and
+intercepted traffic can be unclean
+
+Need decoding software with built-in
+“Triple R” capabilities and ability to
+handle unclean traffic
+
+3) Diversity and complexity of
+communication applications and
+protocols
+
+Wide protocol support with continuous
+updates
+
+4) Increase in of number of targets
+and communication services
+
+Go beyond rendering of communications
+and add support for investigations based
+on automatic pattern analysis
+
+Page 13
+
+Use NI Technology to Outsource Diversity and Complexity of
+Communication Protocols and Applications
+Standardized protocols
+Few evolutions
+Smtp, pop, sip, rtp…
+
+Non standard protocols & applications
+Growing number + constant evolution!
+
+Is it your core business to keep
+up with constantly evolving
+protocols and applications??
+Monitoring
+Center
+Core business
+Enable fast investigation
+ Analyze networks of
+communication
+ Display information
+Role of
+Network Intelligence
+ Support protocol &
+application evolution
+ Support of regional
+protocols
+
+Page 14
+
+Benefits of Embedding Network Intelligence Technology into
+Monitoring Solutions
+
+Focus on your core business: designing
+solution for efficient investigation
+Benefit from continuously updated protocol and
+application parsing engine
+Easy to integrate in your monitoring centers
+
+Page 15
+
+Challenges for Monitoring Centers
+
+Fact
+
+Challenge for MC vendors / LEA
+
+1) Exponential growth in HI3 traffic
+
+Difficult to scale
+
+2) Decoding software can be
+targeted by cyber attacks and
+intercepted traffic can be unclean
+
+Need decoding software with built-in
+“Triple R” capabilities and ability to
+handle unclean traffic
+
+3) Diversity and complexity of
+communication applications and
+protocols
+
+Wide protocol support with continuous
+updates
+
+4) Increase in of number of targets
+and communication services
+
+Go beyond rendering of communications
+and add support for investigations based
+on automatic pattern analysis
+
+Page 16
+
+Exponential Growth in the Number of Targets and
+Communication Services
+
+“Rendering” conversations is
+no longer enough: need to
+also analyze patterns of
+communication
+Limited number of LEA
+agents: need to automate
+investigation tasks
+
+Page 17
+
+Leverage Metadata!
+Login
+password
+
+60 online
+
+Can analyze this
+automatically!
+
+Subject
+
+Explaining what is traffic metadata
+
+Sender
+Receiver
+
+Text
+
+Attached document name, type
+file
+
+Metadata
+
+Value
+
+Login
+
+John@yahoo.com
+
+Password
+
+Qosmos
+
+Subject
+
+Explaining what is
+traffic metadata
+
+Text
+
+Networks are the
+common source of
+data – and sometimes
+…
+
+Sender
+
+paul@email.com
+
+Receiver
+
+john@yahoo.com
+
+Contact list
+
+Roger, john, louise …
+
+Contact
+name
+
+Roger Smith
+
+Contact
+address
+
+Roger.smith@aol.com
+
+List of contacts with name,
+login, email@
+Page 18
+
+Network Intelligence Enables Automation of Investigation
+Process
+Login
+password
+
+60 online
+
+Metadata can feed a database with:
+
+Subject
+
+Explaining what is traffic metadata
+
+Events
+Contacts
+Text messages
+Dates
+Any data contained in protocols
+
+Sender
+Receiver
+
+Text
+Attached document name, type
+f ile
+
+Rich metadata enables automated
+process with
+
+List of contacts with name,
+login, email@
+Metadata
+
+Value
+
+Login
+
+John@yahoo.com
+
+Password
+
+Qosmos
+
+Subject
+
+Explaining what is
+traf f ic metadata
+
+Text
+
+Networks are the
+common source of
+data – and
+sometimes …
+
+Sender
+
+paul@email.com
+
+Receiver
+
+john@yahoo.com
+
+Contact list
+
+Roger, john, louise …
+
+Contact
+name
+
+Roger Smith
+
+Contact
+adrress
+
+Roger.smith@aol.co
+m
+
+Data
+processing
+CEP
+
+Complex event processing
+Data processing
+…
+
+Track more events with the same
+number of agents
+
+Page 19
+
+Analyze Communication Patterns
+
+Login
+Password
+Email address
+Content
+
+Presence
+
+Contact List
+
+60 online
+
+Login
+Password
+Email address
+Content
+
+Login
+Password
+Email address
+Content
+
+Login
+Password
+Email address
+Content
+
+Page 20
+
+Increasing Number of Targets and Communications:
+Use Metadata to Manage the Huge Amounts
+3) Relevant metadata only
+Sender, receiver, date
+Subject, text
+
+Limited volume
+
+Metadata feeds database
+Easy to index
+Easy to search / find
+Easy to correlate, analyze
+
+2) Relevant traffic only
+e.g. Webmail
+
+Metadata as an additional
+layer to index
+communication content
+
+1) Entire traffic of an
+Intercepted IP address
+
+Metadata can even replace
+communication content
+
+IPTV
+Webmail
+
+Major storage savings!
+Massive volume
+Page 21
+
+1 : 150 ratio!
+
+Major storage savings!
+Read an email from a
+webmail page = 2.27
+
+Read an email with
+
+MB
+
+Message36: Metadata enables major storage savings
+
+Qosmos Network Intelligence Technology extracts metadata at all layers, from the network layer
+to the application layer (layer 7), in order to provide a comprehensive understanding of network
+flows at protocol, application and user levels.
+
+metadata = 15
+
+Ad
+
+KB
+
+Metadata
+
+Value
+
+Sender
+
+john@email.com
+
+Receiver
+
+peter@yahoo.com
+
+Date
+
+2011/02/09
+
+Subject
+
+Metadata enables major
+storage savings
+
+Message
+
+Qosmos Network Intelligence
+Technology extracts metadata
+at all layers, from the network
+layer to the application layer
+(layer 7), in order to provide a
+comprehensive understanding
+of network flows at protocol,
+application and user levels.
+
+…
+
+…
+
+Page 22
+
+Benefits
+Metadata enables automated investigation
+To handle the exploding volume of events to track
+Without huge increases in the number of agents
+
+Metadata means more agile investigation
+Investigate relationships between targets
+Use data/text mining tools based on metadata
+
+Storage savings using metadata instead of full packet payloads
+
+Network Intelligence supports
+the strategic evolution of monitoring centers
+
+Page 23
+
+Thank You!
+
+Qosmos, Qosmos ixEngine, Qosmos ixMachine and Qosmos Sessionizer are trademarks or registered trademarks in France and other countries.
+Other company and products name mentioned herein are the trademarks or registered trademarks of their respective owners. Copyright Qosmos 2010
+Non contractual information. Products and services and their specifications are subject to change without prior notice
+
+© Qosmos 2010
+Page 24
+
+Benefits of embedding Qosmos Network Intelligence
+Technology & DPI
+Challenge
+
+Benefits of embedding Qosmos
+
+Huge development effort to
+implement DPI that is
+-Accurate
+-Robust
+-Scalable
+
+ Ready to use, easy and fast to integrate
+ Hundreds of network protocols &
+application variants, and 4500+
+metadata recognized
+ Field proven technology up to core
+network speeds (n x 10 Gbps)
+
+Technology needs to be
+constantly updated
+
+ Continuously updated protocols
+ SLA on updates when protocols evolve
+ In-house productivity tools to accelerate
+protocol plugin development
+
+Don’t worry about new protocols or applications
+Embed DPI and Network Intelligence from Qosmos in your MC solutions
+
+Page 25
+
+Checklist When Choosing a DPI/NI Technology Partner
+Is the company well-established, with a stable customer base and
+investors?
+
+Is the business model aligned for strategic partnership?
+Is the technology able to handle a large number of protocols,
+applications and metadata?
+Does the decoding engine support for all leading processor
+architectures (Intel, NetLogic, Cavium, Tilera, etc.)?
+Is the company able to provide development assistance and
+worldwide technical support?
+
+Page 26
+
+

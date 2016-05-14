@@ -1,0 +1,2265 @@
+Paul Hoffmann
+CEO DATAKOM/GTEN
+
+State of the Art Solutions for Interception
++ Clean Bandwidth = Clean Services
+ISS World Dubai 25th – 28th February 2007
+
+© 2007 GTEN
+
+DATAKOM
+(Mother Company of GTEN)
+
+www.datakom.de
+
+Innovative Test-, Analyzing and
+Performance Management-Systems
+for Voice – and Data Networks
++ Training and Consulting Services
+
+© 2007 GTEN
+
+2
+
+History DATAKOM/ GTEN
+2000/2001 Founding of GTEN AG
+• Take over of Technology, Patent, rights and
+obligation contracts
+• Contract with large Carrier in Germany for LI
+Service
+1999
+
+Contract with Mannesmann
+ARCOR, Deutsche Telekom
+und o.tel.o
+
+1997
+
+Development of the
+G10-LI - Technology
+Mediation between Carriers,
+Ministries, BNetzA and LEAs
+
+1986 founding of
+DATAKOM
+© 2007 GTEN
+
+20 years of experience in the
+Protocol- / PerformanceAnalysis of Data- / VoiceNetworks
+3
+
+Life Cycle of Companies inside IT- Industry
+
+•
+
+Usually, only some very large Companies do exist for very
+long Time
+
+•
+
+Small and Medium Size Companies Appear and Disappear
+
+•
+
+But there are some exceptions.
+
+Why ?
+
+© 2007 GTEN
+
+4
+
+Old Dutch Saying
+
+• During „Stormy“ (Windy) Times
+•
+
+(and over the last 20 years we had such times inside IT
+Market)
+
+some are building:
+
+© 2007 GTEN
+
+5
+
+Protection Houses
+
+© 2007 GTEN
+
+6
+
+• And others:
+• Like DATAKOM
+
+© 2007 GTEN
+
+7
+
+Windmills
+
+© 2007 GTEN
+
+8
+
+DATAKOM History
+
+1986
+
+Founding of DATAKOM GmbH
+by Paul Hoffmann und Lydia Krowka
+
+1988
+
+Start of DATAKOM-Academy
+
+2000
+
+Start of GTEN AG with patented Technology for Lawful Interception
+
+Until today
+more than 10 000 Installation from
+
+© 2007 GTEN
+
+DATAKOM and GTEN
+
+9
+
+GTEN - Division History
+1986
+
+1997
+
+•Foundation
+of DATAKOM
+GmbH
+•Extensive
+experience in
+the protocol/
+performance
+analysis of
+data/voice
+networks
+
+•Basic
+development
+of GTEN
+technology
+
+2002
+•Contract with
+Telefonica
+•GTEN becomes
+full voting
+member of
+ETSI
+•GTEN New
+solution
+approved
+according to
+BNetzA and
+Dutch TIIT
+
+•Mediation
+between
+carriers,
+ministries,
+BNetzA and
+LEAs
+
+2003
+• Two large IP
+monitoring
+systems
+deployed in
+North Africa
+and Middle East
+• VoIP LI solution
+certified by
+RegTP
+
+1999
+•Contract with
+Mannesmann,
+ARCOR,
+Deutsche
+Telekom and
+o.tel.o
+•Initial
+certification of
+LI solution by
+BMWi
+
+2004
+•Introduction
+of ATM
+Interceptor
+•Start of
+development of
+email solution
+
+2000
+•Foundation
+of GTEN AG
+•Contract with
+Viag Interkom
+(later on
+BTIgnite)
+•Investment
+backer was
+obtained in
+the form of
+Wellington
+Partners
+
+2001
+•Transfer of
+technology,
+patent rights
+and customer
+contracts
+•Enhancement
+of existing
+GTEN solution
+towards IP
+applications
+
+2005/6
+•Email solution
+certified by RegTP
+•Contracts with
+Easynet, KEVAG
+and DIG
+•Enhancements with
+existing
+Customer
+•Development
+new Product
+Strategy
+•Cleaning up
+Partner Selection
+
+© 2007 GTEN
+
+•Clean Bandwith
+Concept
+10
+
+What is happening in the market today?
+The opportunity lies in the transformation of services.
+Transformation of
+Legacy Networks to Next Generation
+
+IP Data
+Services
+
+Data
+
+Video
+
+Voice
+
+3G
+
+Data
+
+Video
+
+Voice
+
+Wireless
+
+Applications
+Applications
+IMS
+IMS
+
+IP Services & Control
+IP
+IP Switching
+Switching &
+& Routing
+Routing
+Access
+Access Layer
+Layer
+
+Independent Stove Pipes
+
+Converged Network Infrastructure
+
+Money is being spent to maintain the functionality,
+usability and security of the customer offerings.
+© 2007 GTEN
+
+11
+
+Bandwidth Pressure from Next Generation
+Applications
+
+Source: Cisco 2005
+© 2007 GTEN
+
+12
+
+Migration to IP is Critical for Participation in the IP
+Economy, but also Transparency
+The pace of convergence to a common IP infrastructure is accelerating
+• New-age IP service providers have distinct advantages over incumbents
+! e.g. personalized services
+! faster service development cycles
+! More granular, bounded service levels
+Current Method of Operations
+
+Target Method of Operations
+
+Voice Services
+Voice
+Applications
+
+Enterprise Data
+Data
+Services
+
+Consumer Data
+Internet
+Access
+
+OSS/BSS
+Integration
+
+OSS/BSS
+Integration
+
+OSS/BSS
+Integration
+
+PSTN
+
+Packet
+
+Broadband
+/ Wireless
+
+NGSP
+Apps
+
+ASP
+Apps
+
+Content
+Apps
+
+Common Services
+Infrastructure
+
+Intelligent IP
+Transport
+
+OA&M
+
+OA&M
+
+Costly
+Slow to Market
+Closed
+One-size-fits-all
+© 2007 GTEN
+
+OA&M
+
+OA&M
+
+Focus of
+differentiation
+
+Efficient
+Rapid Response
+Open
+Personalized
+13
+
+Market Conditions
+Networking Focused Increasingly on the Content
+Worms, Content (for LI)
+
+User Conversations
+MAC Header
+
+IP Header
+
+TCP
+
+Payload
+
+MAC Header
+
+IP Header
+
+TCP
+
+Payload
+
+MAC Header
+
+IP Header
+
+TCP
+
+Payload
+
+MAC Header
+
+IP Header
+
+TCP
+
+Payload
+
+20 Bytes
+
+48 - 8,192 Bytes
+
+Switch
+
+Router
+
+Firewalls
+
+PCs & Servers 14 Bytes
+Solution
+
+Complete Visibility; Network Appliance Speeds; Configurable Logic
+MAC Header
+
+© 2007 GTEN
+
+20 Bytes
+
+IP Header
+
+TCP
+
+Payload
+14
+
+Market Conditions
+Technology Challenges
+
+• There is no good solution available to enable real-time network services &
+content control incl. Interception
+! Routers/switches are content-blind, closed systems
+- Header, not payload
+- Pass traffic, don!t analyze
+- functionality is fixed
+
+! Appliances are point solutions, often ASIC-based and
+not extensible
+! Servers (Sun, Dell, …) are low speed and add latency
+
+• The rate of increase for network transmission speeds and volumes is
+compounding the problem
+
+© 2007 GTEN
+
+15
+
+Market Conditions Driving 10GbE Deployments
+
+•
+
+Broadband data is exploding
+! “At the end of March 2006, 42 percent of Americans had high-speed at
+home, up from 30 percent in March 2005, or a 40 percent increase.” Pew
+Internet Survey, May 29, 2006
+-
+
+•
+
+Next generation of IP services are bandwidth hogs!
+! VoD estimated at 1-18Mbps downstream (HDTV 6-18Mbps)
+! Gaming: 2-20Mbps downstream (64Kbps-20Mbps upstream)
+
+© 2007 GTEN
+
+•
+
+10GbE switch port pricing dropped to below $1,000 per port
+
+•
+
+Dell!Oro predicts that over the next five years 23 million 10GbE ports
+will ship, worth $14bn
+
+16
+
+Situation regarding Lawful Interception
+
+© 2007 GTEN
+
+•
+
+Technology today based on old Network Design
+
+•
+
+Handshake Interfaces between Network Provider and
+Law Enforcement Agencies are designed for old Telephone
+Networks where Content and Signaling where using different
+Routes
+
+•
+
+Transport of Terrabytes Data towards LEAs very often useless
+and expensive
+
+•
+
+New Generation Networks „Crying“ for new LI - Technology
+
+17
+
+Calea, ETSI, Sorm …….
+Many (to many) standards don!t make things better
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+
+*
+TC LI (Technical Comitee LI)
+*
+DTR/LI-00014 Lawful Interception of WLAN Internet Access
+Beschreibt die Interception Domain und die Ausleitung von Wireless Internet. Wird voraussichtlich in 2006 herausgebracht.
+*
+DTR/LI-00020 Data Handover Architecture
+Beschreibt die Architektur für die Ausleitung von Daten (EU Data Retention Act). Wird voraussichtlich in 2006 herausgebraucht.
+*
+DTS/LI-00024 Lawful Interception;
+Service specific details for IP Multimedia Services Spezifikation für das Handover von Voice und sonstigen multimedialen Diensten in
+paketvermittelten Netzen (mit und ohne IMS). Wird voraussichtlich in 2006 herausgebraucht.
+*
+DTR/LI-00025 Lawful Interception;
+Architecture for IP Networks within a Communincation Service Provider's domain Beschreibt die Architektur für für LI in paketvermittelteten
+Netzen. Wird voraussichtlich in 2006 herausgebraucht.
+*
+DTS/LI-00030 Lawful Interception;
+Service specific details for PSTN Emulation Services (PES) Spezifiziert die Ausleitung von Daten aus multimedialen Netzen, die PSTN
+Emulation System Eigenschaften besitzen (legacy TDM). Wird voraussichtlich in 2006 herausgebraucht.
+*
+TISPAN LI
+(Technical Committee - The harmonisation of IP Network Architectures)
+*
+DTS/07013
+Telecoms & Internet converged Services & Protocols
+for Advanced Networks (TISPAN);
+
+•
+•
+•
+
+NGN Lawful Interception;
+Lawful Interception functional entities, information flow
+and reference points
+
+•
+
+Spezifiziert wird der sog. Point of Interception für NGN Netze. Für das Handover wird auf die Dokumente TS 102 232 und 133.108 verwiesen.
+Wird voraussichtlich ende 2006 herausgebraucht.
+
+•
+•
+•
+
+*
+Bereits veröffentliche Standards, die erweitert werden (Work Items)
+Standards, die bereits herausgebracht und von europäischen Staaten adaptiert sind.
+*
+TS 101 671
+
+•
+•
+•
+•
+•
+•
+
+© 2007 GTEN
+
+18
+
+List continued
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Lawful Interception; Handover specification for IP delivery
+Das Handover Interface für IP. Wird in Verbindung mit TS 102 233, 102 234, 102 815 und LI-00024 verwendet. Wegen der unterschiedlichen
+Einsatzgebiete gibt es noch Anpassungsbedarf. Diese Spezifikation wird schon europaweit von Regulierungsbehörden adaptiert.
+*
+TS 102 234 Lawful Interception;
+service specific details for internet access services
+*
+Wird u.a. für xDSL Layer 3 Ausleitung in Verbindung mit TS 102 232 verwendet. Erweiterungen und Verbesserungen sind geplant.
+Diese Spezifikation wird schon europaweit von Regulierungsbehörden adaptiert.
+*
+TS 101 909-20 Part I
+Digital Broadband Cable Access to the Public Telecommunications Network; IP Multimedia Time Critical Services; Part 20: Lawful
+Interception; Sub-part 1: CMS based Voice Telephony Services
+*
+TS 101 909-20 Part II
+Digital Broadband Cable Access to the Public Telecommunications Network; IP Multimedia Time Critical Services; Part 20: Lawful
+Interception; Sub-part 2: Streamed multimedia services
+
+•
+
+LI in Breitband Kabelfernsehen Hybrid Fibre/Coaxial (HFC) Datennetzen. Die Spezifikationen beschreiben die Ausleitung von Telefonie und
+Daten. Diese Spezifikation wird schon europaweit von Regulierungsbehörden adaptiert.
+
+•
+•
+•
+
+*
+TS 101 331 Telecommunications security;
+Lawful Interception; Requirements of Law Enforcement Agencies Die Anforderungen für die Behörden. Das Dokument wird regelmäßig an
+die zu berücksichtigenden Gegebenheiten angepaßt. Diese Spezifikation wird schon europaweit von Regulierungsbehörden adaptiert.
+*
+3GPP
+*
+133.108 UMTS 3G Security;
+
+•
+•
+•
+•
+
+© 2007 GTEN
+
+Handover interface for the lawful interception of telecommunications traffic Erweiterungen für PES und PSS sind in Arbeit. Wird
+verraussichtlich in 2006 fertig. Diese Spezifikation wird schon europaweit von Regulierungsbehörden adaptiert.
+*
+TS 102 232
+
+•
+•
+•
+
+Handover Interface for Lawful Interception
+Spezifiziert wird das Handover Interface für UMTS mit IP Multimedia Subsystemen. Diese Spezifikation wird schon europaweit von
+Regulierungsbehörden adaptiert.
+*
+133.107 UMTS 3G Security;
+Architecture for Lawful Interception
+
+•
+•
+
+Spezifiziert wird das Intercept Domain.
+Diese Spezifikation wird schon europaweit von Regulierungsbehörden adaptiert.
+
+•
+
+*
+19
+
+Old LI – Technical Design
+
+•
+
+GTEN has, like other LI – Vendors, developed many LI- Solutions
+“dictated” by National Standards
+
+•
+
+Result of many existing Standards for Network Provider:
+Buying LI- Only – Products very often means creating Cost only
+and no ROI (Return on Investment)
+
+•
+
+Now we/you have the big chance to change this to:
+
+•
+
+Network Provider buying the right Technology will see
+better Performance plus good Portion of ROI and will get
+Lawful Interception Solution for very low Cost or no Cost
+
+© 2007 GTEN
+
+20
+
+Modular Concept = Excellent Solution
+but based on old “Legacy Network” Design
+
+© 2007 GTEN
+
+LI Data
+Processing
+
+Filter
+Filter
+
+Data
+Collection
+Data
+Collection
+
+X.25
+
+LEA 1
+
+X.25
+
+ISDN
+
+LEMF 2
+
+ISDN
+
+LEMF 1
+
+NIC
+
+Monitor
+Server
+Filter
+
+LIM
+LIM
+
+Tap
+
+Data
+Collection
+
+LIM
+LIM
+
+Flow
+Mirror
+
+LIM
+
+Network
+
+LIM
+
+Tap
+
+LEA 2
+
+Administration
+
+DCFU
+
+LEA n
+Internet
+
+LEMF n
+
+21
+
+Hand Shake Interfaces, designed many years ago for voice application
+
+Level
+
+Functional Units
+
+GTEN Unit(s)
+
+Operator
+HI 1
+
+Interface
+
+Management
+
+HI 2
+
+Provisioning
+HI 3
+
+Delivery
+Probe
+Tap
+Network
+© 2007 GTEN
+
+IP
+
+22
+
+LI - Product Environment as Result of Old “Standards”
+PSTN
+Public
+Internet
+
+Radius
+Server
+
+VoIP
+Gateway
+
+ISDN
+
+Mail
+Server
+
+Front-end
+
+DCFD
+(TCP/IP Filter)
+
+Monitored
+Provider
+
+AMADO
+(ATM Filter)
+
+GEMINI
+(VoIP)
+
+LI GATEWAY
+
+Encryption
+
+Back-end
+
+GUI, Provisioning &
+Management
+
+© 2007 GTEN
+
+POSEIDON
+
+LEA
+
+MONITORING CENTER
+
+Mediation
+
+Decryption
+
+Internet
+
+Interfaces
+
+DAVIATH
+
+ISDN
+
+23
+
+Reasons for taking a new direction:
+
+© 2007 GTEN
+
+•
+
+If you want to create a innovative solution,
+you have to study current solutions and theyr limits
+
+•
+
+Together with a friend (Dr. Kornel Terplan) í have written a book last year
+describing LI – Technology and Methods plus Solutions from all over the world
+
+•
+
+As a result of the gained Knowledge our new LI – Technology Concept was born
+
+24
+
+© 2007 GTEN
+
+25
+
+Advice for innovative IP Network Provider
+in Near - and – Middle East/Africa:
+
+© 2007 GTEN
+
+•
+
+Dont implement old Standards which are made for old
+Networks
+
+•
+
+This is easy for those who dont have to implement standards
+like CALEA, ETSI etc.
+
+•
+
+And even more easy for new IP – Network Provider
+
+26
+
+Today"s Network Infrastructure inadequate for
+Service Control Needs
+•
+
+Devices optimized for OSI Layers 2-4 processing
+
+•
+
+Router performance suffers as intelligence functionality is added &
+turned on
+
+•
+
+Pace of feature enhancements too long to support needed roll-out and
+competitive response timetables
+
+•
+
+Provisioning fixed-function appliances for required network intelligence
+is cost prohibitive and risky
+
+NGSP
+Apps
+
+ASP
+Apps
+
+Content
+Apps
+
+Policy
+Enforcement?
+
+Common Services
+Infrastructure
+
+Intelligent IP
+Transport
+
+Policy
+Enforcement incl..
+Law Ful Interception
+
+?
+
+OA&M
+
+© 2007 GTEN
+
+27
+
+Market Conditions Summary:
+Responding to End-User Expressed Issues
+•
+
+© 2007 GTEN
+
+Application layer attacks and service
+protocols demand deeper packet
+inspection & analysis & LI - Function
+
+•
+
+General purpose computing solutions
+have hit a performance ceiling
+
+•
+
+The fixed-function appliances model
+does not scale
+
+•
+
+Network infrastructure equipment
+features are slow to evolve and limit
+customer!s ability to build competitive
+advantages for their business
+
+MAC
+
+IP Header
+
+TCP
+
+Payload
+
+Partial SQL Slammer
+Worm Packet
+
+28
+
+© 2007 GTEN
+
+Managed DDoS Security
+Services
+
+High-Speed Integrated
+Sensor
+
+Multi-Level Security Guard
+
+Intercept
+& Control
+
+DNS Protection
+
+VoIP Services Assessment
+
+QoS Policy Enforcement
+
+Content Control
+
+Law Ful Intercept Services
+
+Infrastructure Protection
+
+SNORT Rules Interpreter
+
+URL Filtering / Parental
+Controls
+
+(e.g. BitTorrent, Kazaa, etc.)
+
+P2P Control
+
+IP Network - Solution Domains with LI as Part of the Job
+Security & DDoS
+Protection
+
+Content Control Engine
+Monitoring
+Flow Identification
+
+Anti-virus Signature Engine
+VoIP SIP Protection
+Signature-based IDS
+
+VoIP and other LI
+Anti-virus Sig. Engine
+
+29
+
+Market Conditions
+
+Packet Processing Capacity
+
+An Underserved Market Segment Revealed
+
+10 Gb
+
+GTEN
+and new Technology
+
+??
+
+5 Gb
+
+like CS 2000/GS 4000
+and Poseidon
+
+1 Gb
+
+Appliances
+
+Servers &
+Server-based
+Appliances
+
+<1Gb
+
+Single-Function
+Fixed-Function
+
+© 2007 GTEN
+
+Flexible
+Multi-Function
+
+30
+
+IP Services Control
+GTEN taking care for old and new demands
+
+Security
+•
+•
+•
+•
+
+State & flow tracking
+In-line filtering/blocking
+Signature detection
+Protocol anomaly
+detection
+• Traffic anomaly
+• Combined functions
+
+Service Control
+• L2-L7 analysis
+• P2P Control
+• Tiered Services
+
+Transport
+• Aggregation
+• Routing
+• Switching
+© 2007 GTEN
+
+31
+
+Carrier/LEA Re-Thinking Appliance Strategies
+Fixed-function
+Appliances
+
+IP Services
+Delivery Requirements
+
+Adaptable, Scalable
+Processing Resources
+
+• Interception as
+part of Service
+Delivery
+• Peer-2-Peer Ctrl
+• VoIP Control
+• Content Filter
+• Traffic Analysis
+• Access Control
+• Security Apps
+“Applying
+“Applying the
+the development
+development approach
+approach from
+from IT
+IT software
+software industry
+industry to
+to telecoms”
+telecoms”
+
+© 2007 GTEN
+
+32
+
+The right LI – System partner helps Carrier to make money
+
+•
+
+© 2007 GTEN
+
+LI – System not longer an „iland“ without Return on Investment
+
+33
+
+Value Proposition
+
+Improve Average Revenue Per User
+•
+Offer content based value added services
+•
+Per user features, control and SLAs
+•
+Security Services – DDoS, VoIP, AV
+•
+VoIP/IMS Services – Peering, Personalized
+•
+Traffic Management – QoS, Optimization
+Reduced Capital Expenses
+•
+Multiple Services Per Device
+•
+Lower CAPEX Cost Per Megabit of Service
+•
+Longer Deployment Life in Network
+•
+Support More Users with Existing Network
+Reduce Operational Expenses
+•
+Manage peering & transit costs
+•
+Reduce cost per service per megabit
+•
+Reduce cost to deploy new services
+•
+Improve efficiency of network resources
+
+© 2007 GTEN
+
+Market IMS Value Proposition
+
+34
+
+Managed Services Infrastructure:
+Value Added Services Scenario
+Network Provider may offer Clean Bandwidth Service for Customer. Example:
+
+• Revenue opportunity
+directly linked with pace
+and number of services
+rolled-out
+• Capex breakeven in
+under 12 months for
+each service
+• Differentiate your
+business via:
+! Services mix
+! Ease of
+deployment
+
+© 2007 GTEN
+
+35
+
+LI - Product Environment from yesterday
+PSTN
+Public
+Internet
+
+Radius
+Server
+
+VoIP
+Gateway
+
+ISDN
+
+Mail
+Server
+
+Front-end
+
+DCFD
+(TCP/IP Filter)
+
+Monitored
+Provider
+
+AMADO
+(ATM Filter)
+
+GEMINI
+(VoIP)
+
+LI GATEWAY
+
+Encryption
+
+Back-end
+
+GUI, Provisioning &
+Management
+
+© 2007 GTEN
+
+POSEIDON
+
+LEA
+
+MONITORING CENTER
+
+Mediation
+
+Decryption
+
+Internet
+
+Interfaces
+
+DAVIATH
+
+ISDN
+
+36
+
+LI - Monitoring of a complete Country
+based on modern IP – Network Requirements
+BAS 1
+
+leased lines
+
+BAS 2
+
+4x GE
+
+2x GE
+
+2x GE
+
+4x Rx
+BAS1
+
+2x Tx
+BAS2
+
+2x GE
+
+2x GE
+2x Rx
+BAS2
+
+4x Tx
+BAS1
+
+Dial-up
+
+2x TX
+BAS2
+
+2x 6-Station GE-Fiber TAPs
+2x Rx
+BAS2
+
+4x LL
+
+4x dial
+
+7x Aggregator GigE
+
+1x Aggregator FE
+
+3x GS-4000
+Filtering & Target Detection
+
+All Emails
+
+3x POSEIDON
+GE-Fiber Recording
+11TB Storage
+
+Switch
+
+LTO-2 Archiving
+Changer
+
+© 2007 GTEN
+
+Archiving-Server
+
+ISP location
+IMC location
+
+GS-4000
+Target / Filter
+Administration
+
+Storage-Server
+
+1x exisiting
+POSEIDON FE
+
+10 x Analysis Workstations
+
+2-10x POSEIDON Analysis
+(exisiting FE POSEIDONs)
+
+37
+
+Part of the Solution:
+
+Reconstruction of Intercepted Data
+(only available for LEA,s)
+
+• Philosophy:
+
+• Transport of data only when necessary
+
+© 2007 GTEN
+
+38
+
+Login Screen
+
+© 2007 GTEN
+
+39
+
+Start page - Administrator
+
+© 2007 GTEN
+
+40
+
+POSEIDON Applications
+•
+
+Non-intrusive network security monitoring system
+! With alerting functions on user-defined events
+! With WEB-GUI (Administrator and User View)
+
+•
+
+Collects, records and analyses IP-traffic transported through
+different networks like
+! Ethernet (as well Fast and Gigabit Ethernet)
+! ATM
+! POS
+! E1/T1, E3/T3
+
+•
+
+© 2007 GTEN
+
+Collects, records and analyzes VoIP calls
+
+41
+
+POSEIDON Architecture
+
+PC Browser
+
+GUI Server (Administrator /
+Searchant)
+Query Processor
+Data base
+
+Statistics Generator
+Recorder
+Kernel
+
+POSEIDON
+
+Apache WEB-Server
+
+(Free BSD 4.2)
+
+Interface Modules (only receiving)
+
+© 2007 GTEN
+
+42
+
+Reconstruction of IP-data
+¬ Protocols
+Frame Relay, HDLC, Cisco HDLC, PPP, BayPPP, MLPPP, VLAN (ISL & IEEE
+802.1q), Ethernet (IEEE 802.3), IP, ATM & IP, PoS & IP, WCP and STAC
+
+Compression (MPLS & IPv6 optional)
+
+¬ Complete Analysis on all protocol layers
+! PPP (PAP, IPCP, LCP)
+
+! Ethernet
+•
+•
+•
+•
+
+IP
+UDP
+ICMP
+TCP
+
+- FTP
+-
+
+HTTP
+SMTP
+POP3
+IMAP4
+TELNET
+CHAT / IRC
+VoIP (optional)
+
+¬ Email reconstruction incl. all attachments
+¬ VoIP reconstruction
+© 2007 GTEN
+
+[H.323v4 – H.225, H.245,Q.931, RTP, RTCP, SCCP,
+SIP, MGCP(IPDC, SGCP)]
+43
+
+List of all sessions – Applications
+
+© 2007 GTEN
+
+44
+
+List of emails – Application view
+
+© 2007 GTEN
+
+45
+
+Reconstructed email – Application
+
+© 2007 GTEN
+
+46
+
+Reconstructed email – Application
+
+© 2007 GTEN
+
+47
+
+Reconstructed email – ASCII
+
+© 2007 GTEN
+
+48
+
+Reconstructed WEB-site – Application
+
+© 2007 GTEN
+
+49
+
+Voice over IP session list
+
+© 2007 GTEN
+
+50
+
+VoIP Playback of Voice & Video
+
+Audio / Video
+Playback Buttons
+
+© 2007 GTEN
+
+51
+
+LI - Monitoring of a complete Country
+Based on modern IP – Network Requirements
+BAS 1
+
+leased lines
+
+BAS 2
+
+4x GE
+
+2x GE
+
+2x GE
+
+4x Rx
+BAS1
+
+2x Tx
+BAS2
+
+2x GE
+
+2x GE
+2x Rx
+BAS2
+
+4x Tx
+BAS1
+
+Dial-up
+
+2x TX
+BAS2
+
+2x 6-Station GE-Fiber TAPs
+2x Rx
+BAS2
+
+4x LL
+
+4x dial
+
+7x Aggregator GigE
+
+1x Aggregator FE
+
+3x GS-4000
+Filtering & Target Detection
+
+All Emails
+
+3x POSEIDON
+GE-Fiber Recording
+11TB Storage
+
+Switch
+
+LTO-2 Archiving
+Changer
+
+© 2007 GTEN
+
+Archiving-Server
+
+ISP location
+IMC location
+
+GS-4000
+Target / Filter
+Administration
+
+Storage-Server
+
+1x exisiting
+POSEIDON FE
+
+10 x Analysis Workstations
+
+2-10x POSEIDON Analysis
+(exisiting FE POSEIDONs)
+
+52
+
+New Services Offerings Requiring up to 10GbE Deployment in
+Aggregation Points. LI can be build inside same “Service Points”
+
+Access Network
+Aggregation Network
+
+S
+e
+r
+v
+I
+c
+e
+s
+
+• 10GbE rolling out in the
+aggregation network
+• Optimal location for Service
+Control
+Core & Policy
+Enforcement + Interception
+
+10GbE
+
+App
+Server
+App
+Server
+App
+Server
+
+Internet
+• Requiring 10Gbps of:
+! Inspection;
+! Classification; and
+! Control
+
+CIR
+CIR is
+is forecasting
+forecasting the
+the market
+market for
+for 10-Gbps
+10-Gbps ports
+ports on
+on telecommunications
+telecommunications
+and
+data
+communications
+equipment
+will
+grow
+from
+221,000
+and data communications equipment will grow from 221,000 ports
+ports in
+in 2006
+2006
+to
+1.2
+million
+by
+2010;
+Light
+Reading,
+Nov
+2005.
+to 1.2 million by 2010; Light Reading, Nov 2005.
+
+© 2007 GTEN
+
+53
+
+Functional Architecture of modern Aggregation Units
+Service
+Authentication
+
+3rd Party
+Svc Modules &
+Applications
+
+Policy Management
+
+DoS
+Mitigation
+
+APIs
+(Soap, HTTPS, RMON, ODBC, ?)
+
+Northbound
+APIs
+
+Service
+Modules
+
+MLS
+Guard
+
+Svc #1
+
+Svc #2
+
+Svc #3
+
+System APIs
+
+System APIs
+
+Built-in Security
+
+System Security
+
+Svc #4
+
+UTM
+
+…
+
+Content
+& RegEx
+Engines
+
+Stream
+Protocol
+Processing
+Accelerators
+Accelerator
+
+IDS
+…
+
+Linux-based OS
+RAVE Virtual Machine
+Line Rate
+Execution
+Resources &
+Controls
+
+VoIP
+Intercept
+
+Standards-based
+Service Dev. Environment
+Silicon
+Database
+
+GS-4000 Service Control Platform
+© 2007 GTEN
+
+54
+
+•
+
+© 2007 GTEN
+
+A Few Application Example out of many possible ones for the
+new -All in One Plattform-:
+
+55
+
+Traffic Mirroring / Intercept
+Selective Interception, Replication, Session Hijacking
+GS-4000 Traffic Monitoring:
+•
+
+Controlled IP Network
+Selective Monitoring
+Through Application
+Layer Route Manipulation
+•
+
+Multiple Deployment Methods
+- Passive Tap Deployment with Intercept &
+Arrival Rate
+- Span Port with Inject Path for Session
+Controls
+- Active In-line for Selective Session Controls
+- HW Raw, MAC or GRE Distribution
+- SW Custom Delivery (iSCSI, FC/IP)
+
+Multiple Targeting Mechanisms
+- Flow Targeting (Webmail Sessions)
+- Content (Any Packets w/BOMB)
+- Content Flow (Bad Conversations)
+- Non-Port Protocol (SIP, Skype)
+- Circuit / 5-Tuple (MPLS, VLAN, etc.)
+
+•
+
+Traditional IP
+Traffic Mirroring
+and Monitoring
+
+Algorithm Based Reporting
+- Packet Accurate Netflow, IPFix
+- Host Fingerprinting
+- Custom Traffic Profiling
+
+GTEN has significant Government &
+Carrier Experience with numerous
+GTEN & Partner Solutions in
+"Traffic Mirroring"
+© 2007 GTEN
+
+56
+
+Solution Example: Managed Multi-User Firewalls
+Carrier Network Deployment & Provisioning
+Service Provider Firewall Hallmarks:
+•
+
+Multiple Independent Rule Sets
+- Per Subscriber Rule Sets
+- Mobility (Rule Sets Move As Needed)
+- Secure Separation of Rule Space
+
+Internet
+OSS Provisioning
+
+Aggregation
+Routers
+
+•
+
+Service Provider Subscriber Definition
+- IP Blocks
+- MPLS
+- VLAN (Virtual WAN/LAN Interfaces)
+
+•
+
+Scalability & Capacity Planning
+- Multi-Gigabit Performance
+- Customer Flow Capacity Control
+- Customer Policy Capacity Controls
+- No Flow/Policy Degradation
+
+GS-4000 Multi-User Firewalls
+
+Multi-User Firewalls Are Different:
+CPE Routers
+
+Attack Target
+
+© 2007 GTEN
+
+•
+
+7-Tuple Customer Policy Definitions
+
+•
+•
+•
+•
+•
+•
+•
+
+Policies Provisioned Per Customer
+OSS Policy Provisioning (SOAP)
+Dynamic Policy Migration
+Dynamic Customer Detection (DHCP)
+Transparent & Transparent NAT/PAT
+Asymmetric State Synchronization
+IPv6, Encapsulation, Multi-L2/2.5
+
+- SIP, DIP, SP, DP, Proto, VLAN, MPLS
+
+57
+
+Solution Example: Malware Mitigation
+In the network content inspection & control
+Content Control Characteristics:
+•
+
+Malware Mitigation
+- Web Anti-Virus (Kaspersky, etc.)
+- Web Protection and IPS
+- Adware, Spyware, Bots
+- Email, Webmail, FTP
+
+•
+
+Service Provider Characteristics
+- Stealth Network Deployment
+- Fault Tolerant Deployments
+- Multiple Gigabit, Any Rule Quantity
+- Hitless Active Rule Provisioning
+
+•
+
+Other GS-4000 Differentiators
+- Stream Re-Assembly with Asymmetric
+Route Recovery
+- Selective Subscriber Deployment
+
+© 2007 GTEN
+
+58
+
+Solution Example: DDoS Mitigation
+Multi-Function, Multi-Customer DDoS Mitigation Solution
+Market Leading Mitigation:
+•
+
+Supports Multiple Analysis Vendors
+
+•
+
+Scalable Deployments
+
+- Arbor Networks plus Open API
+ISP A
+AS 150
+
+Attack
+ISP C
+Traffic
+AS
+250
+
+ISP E
+AS 350
+
+PeakFlow SP / MSM
+Border
+Routers
+
+- BGP Peered & Clusters
+- Multiple Gigabits Per Blade
+- Shared Mitigator Deployment
+
+•
+
+Flexibility
+- Extensible Mitigation Techniques
+- Netflow Generation
+- Content Based Scrubbing
+- Additional Services Capabilities
+
+Broadest Built-in Attack Filters:
+
+Backbone
+Routers
+
+Cleaned Traffic
+
+GS-4000 Mitigation Servers
+
+CE Routers
+
+NetFlow
+NetFlowData
+Data
+Filter
+Instructions
+Filter Instructions
+
+Sampled
+SampledTraffic
+Traffic
+iBGP
+iBGPRoute
+RouteUpdate
+Update
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+SYN & ACK Floods (Fastest Proxies)
+Invalid TCP (SYN-FIN, FIN, SYN-RST and TCP-Null)
+DNS Floods (Patented)
+Fragmentations (UDP, TCP, ICMP)
+ICMP Floods
+Zombie Attacks
+Worms
+Bogon/ Private IP Space
+Block Large Frames (>1500, >9000)
+TCP with Empty Payload
+Layer 7 Attacks (Patented)
+
+Attack Target
+
+© 2007 GTEN
+
+59
+
+Benefits:
+
+© 2007 GTEN
+
+•
+
+Plattform allows to run many standard jobs beside LI simultan
+
+•
+
+Plattform allows to implement individual customer solutions
+
+•
+
+Plattform will not loose a single „bit“
+
+•
+
+Plattform internal delay very small
+
+60
+
+CS-2000/GS-4000 Processing Pipeline
+
+Linux Management Server
+Management
+Visualization
+Collaboration
+
+Data APIs
+(Reporting / Provisioning)
+DPPM
+SILICON
+Pattern Protocol
+DATABASE Matching Engines
+RAVE Application Logic
+PKT
+PKT
+PKT
+© 2007 GTEN
+
+PKT
+
+PKT
+
+PKT
+
+PKT
+
+PKT
+
+PKT
+PKT
+
+61
+
+Migration to IP is Critical for Participation in the IP
+Economy, but also Transparency
+The pace of convergence to a common IP infrastructure is accelerating
+• New-age IP service providers have distinct advantages over incumbents
+! e.g. personalized services
+! faster service development cycles
+! More granular, bounded service levels
+Current Method of Operations
+
+Target Method of Operations
+
+Voice Services
+Voice
+Applications
+
+Enterprise Data
+Data
+Services
+
+Consumer Data
+Internet
+Access
+
+OSS/BSS
+Integration
+
+OSS/BSS
+Integration
+
+OSS/BSS
+Integration
+
+PSTN
+
+Packet
+
+Broadband
+/ Wireless
+
+NGSP
+Apps
+
+ASP
+Apps
+
+Content
+Apps
+
+Common Services
+Infrastructure
+
+Intelligent IP
+Transport
+
+OA&M
+
+OA&M
+
+Costly
+Slow to Market
+Closed
+One-size-fits-all
+© 2007 GTEN
+
+OA&M
+
+OA&M
+
+Focus of
+differentiation
+
+Efficient
+Rapid Response
+Open
+Personalized
+62
+
+LI - Monitoring of a complete Country
+based on modern IP – Network Requirements
+BAS 1
+
+leased lines
+
+BAS 2
+
+4x GE
+
+2x GE
+
+2x GE
+
+4x Rx
+BAS1
+
+2x Tx
+BAS2
+
+2x GE
+
+2x GE
+2x Rx
+BAS2
+
+4x Tx
+BAS1
+
+Dial-up
+
+2x TX
+BAS2
+
+2x 6-Station GE-Fiber TAPs
+2x Rx
+BAS2
+
+4x LL
+
+4x dial
+
+7x Aggregator GigE
+
+1x Aggregator FE
+
+3x GS-4000
+Filtering & Target Detection
+
+All Emails
+
+3x POSEIDON
+GE-Fiber Recording
+11TB Storage
+
+Switch
+
+LTO-2 Archiving
+Changer
+
+© 2007 GTEN
+
+Archiving-Server
+
+ISP location
+IMC location
+
+GS-4000
+Target / Filter
+Administration
+
+Storage-Server
+
+1x exisiting
+POSEIDON FE
+
+10 x Analysis Workstations
+
+2-10x POSEIDON Analysis
+(exisiting FE POSEIDONs)
+
+63
+
+Question?
+
+© 2007
+© 2007
+GTEN
+GTEN
+
+64
+
+Thank you very
+much for your
+interest
+© 2007
+© 2007
+GTEN
+GTEN
+
+65
+
+

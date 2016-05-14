@@ -1,0 +1,301 @@
+Jammer
+Principle of Operation
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+Jammer – Principle of Operation
+Generally, there are the following kinds of jammer known:
+• Spot jammer
+• Sweep jammer
+• Barrage jammer
+• Sequential jammer (broad)
+• Band jammer
+• Pulse jammer
+All of them are useful in a special application. For our purpose, spot-, barrage-, sequential and pulse Jammers are not sufficient because they will always leave gaps
+in frequency or timing for a typical signal which is used by remote controlled explosive activator.
+So basically, the decision has to be made between sweep and broad band Jammers. We are handling both modes of operation since many years, so a lot of experience and know how is with the company.
+The advantage of broad band Jammers is that a very wide frequency spectrum can
+be covered at the same time without any timing-gaps. This kind of system, however, will provide a very little power output per frequency channel. The result is a
+very bad coverage of distance from the place of operation. The best way to use
+such a jammer is relatively close to the endangered place, only in this case it will
+work sufficient. For the mobile use, e.g. in convoys, a longer distance has to be
+covered for security reasons.
+Here we will never know where the explosive receiver is actually located.
+For this reason the sweep jammer is in any case the best solution.
+Comparison between a broad band (white noise) jammer and the 3260S double
+digital sweep jammer:
+Broad band noise jammers often have the following characteristics:
+Broadband signal:
+300 Watt, 10 to 550 MHz
+This means: The power to be measured is present in this total band at the same
+time! Mostly the power measurements are done by a thermal wattmeter or something similar. These equipments “collect” the power within their frequency bandrange. If we look now to the power spectrum in a little bit more detailed, we can
+state: 300 Watts are distributed over a bandwidth of 540 MHz (550 MHz – 10
+MHz). A broadband, or noise signal is present at every frequency, this is the physical characteristic of “noise”.
+Following this, we can see that the given 300 watts total power is spread over the
+band the same time (which looks very good for the first view). If we ask, however,
+how many watts are devoted to 1 MHz in this band, for example between 20 to 21
+MHz things change dramatically: 300 W/ 540 MHz = 0,55 Watt per Megahertz! Or
+even worse, for 100 KHz: 300 W/(5400*100KHz) = 0,055 Watt per 100 KHz
+All other calculations are irrelevant; you will never have more peak power! If, as
+other technical data tries to insist, there would be 300 watts at each moment at
+each frequency, we can trust calculate simply for the same 1 MHz bandwidth: 300
+Watt/MHz *540 MHz = 162,000 Watt = 162 KW This is, as everyone can understand, simply not possible.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+As an additional difficulty, often these Jammers have just one output, so only one
+antenna can be connected for the whole band! The wavelength, to be covered by
+this antenna, is between 30 meters (10 MHz) to 54 centimetres (550 MHz). Everyone who has a certain knowledge about antennas will clearly realize that there is
+no antenna available on today’s world market that could cover this total range
+without producing immense losses! So, in the end, there will be not as much useful signal as indicated in the datasheets.
+Effective Jammers, like the 3260S work with a different mode, the so called
+sweep mode. A real radio signal is produced first, which can be calculated by
+measurement exactly, for example a 10 watts peak carrier. This signal will show
+with a wattmeter and also with a spectrum analyzer, its 10 watts and can be handled according to the requirements of a proper RF design. (with a noise signal this
+is almost impossible, because noise is a random phenomenon.)
+The second step with this kind of jammer is to find or design an antenna that can
+really work in a certain band, to this allowed band the Jammers band has to be adjusted. For example, if the antenna is able to cover the band from 30 to 100 MHz it
+is not logical to make the Jammers frequency band greater than this. Therefore,
+the 3260S modulated carrier will be moved with high speed just between the 30
+to 100 MHz and will always have a real existing power input of 10 Watt. The output power varies with the power stage amplifiers used for a specific frequency
+range (HF &V/UHF power stage amps are running at 150 and 100 Watt!)
+This means: More than at least 180 times the resulting power than with a noise
+jammer! The speed is high enough to the single frequency to interrupt the coding
+of the signal in a remote radio controlled explosive system.
+Summary
+If we compare a 10 watts noise jammer to a 10 watts sweep jammer, both will
+show the same output power to a power meter. The effective power is, however,
+actually very different between these two systems:
+A. The noise jammer produces a maximum peak power of + 20 dBm and most of
+signal is below that, around + 10 dBm. In other words, the power to be transmitted is between 10 mW and a maximum of 100 mW but never 10 watts!
+B. The sweep jammer really produces a 10 watts peak level signal. This can be
+measured by a power meter and spectrum analyzer! This real signal is moving
+fast over the band to be covered, and provided the RF design is properly done,
+it will also have its value over the entire band.
+So, using the 120 watts (in the basic 3250 model) of output power, the system
+provides real 10 watts at the antenna – a broadband noise jammer typical 10 to
+100 mW!
+Double digital sweep principle – is it fast enough for our scenario?
+The technology within the 3250 / 3260S systems based upon a double digital
+sweep principle, which transmit each frequency separately within a very fast time
+period (interval) of around 1 millisecond! Therefore each single frequency within
+the Jammers range is transmitted every millisecond giving total spectrum coverage at any time period. Using this advanced method of frequency transmission,
+the PSD (power spectral density) at any point in the Jammers frequency range is
+very high as each centre frequency is receiving. The full output of the amplifier unlike with a noise barrage system, where the output from the amplifier disturb
+evenly across the frequency range, resulting in a very low PSD and hence a limited
+protection zone.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+In a practical scenario, the first and the last cars in a VIP convoy are equipped with
+3260S Jammers each equipped with directional antennas, covering an ahead distance of approx. 300 meters. (please refer to following graphic) This convoy is driving at a speed of 200km/h, which means:
+200 km/h equal to 55.55 meter/sec
+
+(55.55 m/sec = 0.055 m/msec, equal
+to sweep rate)
+
+Sweep rate = 1 msec: in 1 millisecond the convoy moves 5.55 centimetres! (driving speed 200 km/h)
+As you can see, the protection for the VIP is at high end, there’s no point to worry,
+the sweep jammer will destroy each frequency of the target, quick enough, even
+driving at higher speeds than 200 km/h – the bomb will explode far away from you,
+always approx. 300 meter aheadLike bullet proofed vests, armoured cars, or even simple things like safety belts,
+airbags, ABS and side impact protection for almost every driver of today’s modern
+cars, the 3260S offer additional safety and high security that often go unrecognized.
+Reports available on frequencies used by criminals?
+Analysis reports are available by Interpol. There were attacks at 27 MHz, 287 MHz,
+40 MHz, 80 MHz, 120 MHz and 430 MHz and also one famous one in the cellular
+phone band (GSM900). Anyhow, terrorist prefer equipment which they can buy
+without showing any ID card, etc., typical equipment is: electronic from remote
+controlled toys, amateur handheld radios (2m/70 cm) available in electronic shops,
+etc.
+When does a jammer explore bombs on his own?
+The above question often arises when talking about Jammers. There is not a simple answer that could describe a certain output power of a certain distance from
+the bomb’s receiver that a jammer must be to cause a bomb to explore. Things are
+a little bit more detailed in this matter.
+Some basic technical details:
+A jammer has an output power of 10 watts. A normal radio remote control equipment is used for this calculation. Transmitter 100 mW output power, receiver sensitivity 5uVolts/m.distance TX<->RX = 100 m, frequency 70 MHz. First we convert
+all dimensions to dBm to have easier calculation:
+10 watts = +40 dBm
+5 uV
+= - 93 dBm
+100 mW = + 20 dBm
+Free space attenuation for 100 meters = 49.34 dB
+The first very important value is the receiver’s sensitivity of -93dBm. This means,
+that a very small signal is enough for reaction of the receiver. At the antenna input,
+the receivers signal should be at least 0.5 picowatt -93 dBm.
+The transmitter:
+It transmits 100 mW, or + 20 dBm, and this power is attenuated roughly 50 dB
+over a distance of 100 meter. So +20 dB = -30 dBm at the receiver. That means
+63 dB more than the receiver. That means 63 dB more than the receiver needs as
+a minimum for operation (to detonate). In the given case, the transmitter and the
+receiver are always ‘’connected’’ by a radio signal; the transmitter is always ON,
+when the receiver is ON, too. This is a normal mode of working with every remote
+control to be bought. The transmitter holds the receivers output stage, to prevent
+undefined reaction.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+Typical VIP convoy with sweep jammer:
+Escort car 1 and 2 are equipped with 3260S Jammer, effective directional protection area 300 meters ahead. For a powerful counter measure, the following conditions have to be considered:
+1. Jammer power at the place of bomb receiver has to be stronger than a
+transmitter power of 2 watts in a distance of 100 meters.
+2. The remote frequency is unknown and the jammer signal has to present
+on all known bands.
+3. The response time of a remote control can be very short (down to 3
+msec), so there will be no time to receive and analyze a terrorists transmitter signal and to switch a selective jammer to his frequency.
+3260S: Sweep rate = 1 millisecond
+Convoy driving at a speed of 200 km/h is
+Moving only 5.55 centimetres per millisecond!!!
+Please note
+We will recognize, however, the different reactions of the explosive radio receivers: Some are coded in a way that they will not react when disturbed by the jammers signal. They simply ‘close’ their decoding. Others will go down in sensitivity
+of their first stage of receiver amplifier. Both effects come out the same: the receiver will simply not be able to work anymore, so the terrorist cannot ignite his
+bomb.
+Different from these operating modes is another one which allows the system to
+be easily interfered. These will start to ‘flicker’ as soon as another signal is
+present. In this case, we don’t exactly know the receivers reaction. It is possible
+that one of these ‘flicker-pulses’ is enough to ignite the bomb, this is not a malfunction of the jammer, it is normal for this kind of receiver.
+This will occur, however, far away from the jammer source, so that a car equipped
+with a 3260S will ignite the bomb itself, early and far away enough that the blast
+will not hit it’s real goal.
+As an additional difficult, often these kinds of Jammers have just one output, so
+just one antenna can be connected for the whole band!
+The wavelength, to be covered by this antenna, is between 30 meters (10 MHz)
+and 54 centimetres (550MHz).
+Everyone, who has a certain knowledge about antennas, will clearly realize that
+there is no one antenna available on today’s world market that could cover this total range without producing immense losses!
+So, in the end, there will not be as much useful signal, as indicated by the paper.
+Effective Jammers, like the HP 3260, work through another mode: A real radio
+signal is produced first; which can be calculated and measured exactly, for
+example a 10 watts peak carrier. This signal will show with a wattmeter, and also
+with a spectrum analyzer, it’s 10 watts and can be handled according to the needs
+of a proper RF design. (With a noise – signal, this is almost impossible, because
+noise is random phenomenon.) The second step with this kind of Jammer is to
+find or design an antenna that can really work in a certain band. To this allowed
+band, the jammer band has to be adjusted.
+For example, if the antenna is able to cover the band from 30 to 100 MHz, it
+makes no sense at all to make the jammers band greater than this. Therefore, the
+HP 3260’s modulated carrier will be moved with a high speed just between also
+the 30 and 100 MHz, and will always have a real existing power of 10 watts when
+crossing the single frequency.
+(That means, more than at least 180 times the resulting power than with a noise –
+jammer!)
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+The speed is high enough to return to the single frequency to interrupt the coding
+of a signal in a remote system, (adjustable between 0.1 t 1 msec for the whole
+band).
+A Jammer can interfere now in different ways:
+1. The jamming signal becomes, as the jammer gets closer to the receiver, bigger than the original TX signal and simply “overwrites” the original signal. Now
+the receiver can react just by a chance; its output will start to flicker, and the
+contact relais or something similar will blow of the bomb. This, however start
+as soon as the jammer signal has the same strength at the receivers antenna
+input, as the original transmitters signal.
+In our example this means, the 10 watts (+40 dBm) jammer signal also has to
+be attenuated to around -30 dBm, and this will occur at a distance of approx.
+300 meters from the receiver (free space attenuation 70 MHz on 340 meters
+is exactly 59,97 dB.
+From this point on, we don’t know exactly how the receiver will react 300 meters are, however, enough to make an advanced explosion without serious
+damage to jammer car and the VIP behind.
+2. With better receives, the reaction is different. We can refer to some figures as
+before, but the receiver will have an automatic gain control (AGC) for received
+field strength. This means, if it receives a stronger signal, the sensitivity goes
+down, prevent distortion in the coding signal. If it is equipment like this, and
+the jammer is coming closer, so that again both signal will have the same value at receives antenna, the automatic gain control will now start to close the
+receiver’s sensitivity down. The effect is that the original TX cannot get to the
+receiver any more, no reaction to the bomb – blowing signal will not take
+place.
+So summing up the receivers reaction, both modes of operation will give safety to the jammer protected car. With the first case, an explosion will take place
+before the convoy is close enough to be destroyed by the bomb, in the second
+case an explosion will be suppressed.
+The sweep jammer family – short overview
+3250
+HF
+VHF
+UHF
+SHF1
+SHF2
+
+20 to 80 MHz
+80 to 200 MHz
+200 to 500 MHz
+500 to 1000 MHz
+1000 to 2400 MHz
+
+3260S (high power)
+10 Watt
+150 Watt
+10 Watt
+125 Watt
+10 Watt
+100 Watt
+10 Watt
+10 Watt
+
+Antennas
+HF
+VHF
+UHF
+SHF2
+
+complex arrangement of 4 monopoles
+binomial antenna, monopole
+logarithmic periodic dipole (same for SHF1 band)
+broad band patch antenna
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+COMPARISION between a white noise jammer and HP 3250/60 system
+Basically:
+Noise jammers often have the following characteristics:
+Broadband signal, 300 watts, 10 to 550 MHz.
+This means, the power to be measured is present in this total band at the same
+time. Mostly the power to be measurements is done by a thermal wattmeter or
+something similar. This equipment are “collect” the power in their band-range.
+If we look now at the power spectrum in a little bit more detailed, we can state:
+300 watts are distributed over a bandwidth of 540 MHz. (550 – 10)
+A broadband, or noise, signal is present every time every frequency; this is the
+physical characteristic of “noise”.
+Following this, we can state that the given 300 watts total power is spread over
+the ban between 10 to 550 MHz the same time,(which looks very good at the first
+view). If we ask, however, how many watts are devoted to 1 MHz in this band, for
+example, between 20 to 21 MHz, things change dramatically.
+We have to divide the total power by the number of MHz, in this case:
+300 / 540 = 0,55 per MHz !
+Or, even worse, for 100 KHz
+300 / 5400 = 0,055 watts per 100 KHz
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+7
+
+All other calculations are nonsense; you will never have more peak power!
+If, as other technical data tries to insist, there would be 300 watts at each moment
+at each
+frequency, we can just calculate simply for the same 1 MHz bandwidth:
+300 x 540 = 162,000 watts!
+This is, as everyone will understand, simply not possible!
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+8
+
+

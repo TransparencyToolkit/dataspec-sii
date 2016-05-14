@@ -1,0 +1,124 @@
+MA-715A
+HF/VHF/UHF Monitor Antenna
+The MA-715A HF/VHF/UHF Monitor Antenna is used to intercept communications signals over a frequency range of 2 to 2,000 MHz.
+The antenna provides intercepted RF to the monitor receivers of Linkabit’s
+MD-405A Signal Intelligence (SIGINT) Receiver/Processor in the AN/PRD13(V)2 SIGINT Manpack System configuration.
+There are four separate pieces to the MA-715A antenna:
+• Antenna base
+• HF/low-VHF blade element
+• VHF/UHF monopole element
+• Flexible gooseneck
+
+MD-405
+
+The antenna is normally mounted on the handle of the MD-405A, but may be
+placed in any convenient location. A 3-foot RF coaxial cable is used to connect
+the MA-715A to the MD-405A. However, if the antenna needs to be placed in
+another location away from the MD-405A, a longer RF cable can be used.
+The MA-715A uses two antenna elements that are combined into a single feed
+line. The longer, flexible HF/low-VHF blade element covers the frequency range
+up to 175 MHz. The second rubber–duck-type monopole element is used to cover
+the 175 to 2,000 MHz frequency range. The flexible gooseneck can be used
+between the base and HF/low-VHF blade element to provide a full 90-degree
+bend over a 360-degree arc. The blade element can then be positioned without
+bending the element itself.
+
+L3OF
+
+MA-715A
+
+HF/VHF/UHF Monitor Antenna
+
+MA-715A HF/VHF/UHF Monitor Antenna
+Performance Characteristics
+Frequency Coverage
+
+2–2,000 Mhz
+
+Azimuth Coverage
+
+360°
+
+Elevation Coverage
+
+0° to 60°
+
+Sensitivity 1
+
+Typical
+2–175 MHz: 2 µV/m
+175–2,000 MHz: 35 µV/m
+
+Polarization
+
+Vertical
+
+Output Impedance
+
+50 Ohms unbalanced
+
+Connectors
+
+BNC
+
+Physical and Environmental Characteristics
+Base Dimensions
+
+48 x 132 x 102 mm (1.9 x 5.2 x 4.0 in.)
+
+Gooseneck Height
+
+216 mm (8.5 in.)
+
+Element Height
+
+715 mm (28 in.)
+
+Weight
+
+0.68 kg (1.5 lbs.) (base, gooseneck, element)
+
+Power
+
+10–16 Volts, 40 mA
+
+Temperature
+
+Operating: –20° to +50° C
+Storage: –40° to 70° C
+
+Humidity
+
+0 to 100% Condensing
+
+1 Field strength required for a 10 dB S/N in a 10 kHz bandwidth with a receiver NF of 10 dB.
+Note: All specifications subject to change without notice
+
+Part Number
+02-105675-01
+
+Description
+MA-715A
+
+05-103072-01
+
+Coax Cable Assembly
+
+Includes
+Base, HF/VME blade,
+UHF monopole,
+gooseneck, manuals
+Coax cable,
+BNC connectors
+
+Cleared by DoD/OFOISR for public release under
+OFOISR Case Number 06-S-1607 on June 22, 2006.
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078030003
+
+

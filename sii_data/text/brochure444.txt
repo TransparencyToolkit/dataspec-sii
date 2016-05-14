@@ -1,0 +1,428 @@
+U
+
+Executive summary
+Morpho Face Investigate Pilot (MFIP) is a user friendly face recognition
+system. It implements the fundamental functional capabilities o f 2D
+frontal face image recognition.
+MFIP has been developed mainly t o evaluate operationally the benefit
+of face recognition solutions.
+
+Its main features are
+Load and manage a database of up to 350,000 portraits, with an option for
+an extension to 2,000,000 portraits
+Search one or more images against the portrait database using the Morpho
+face recognition technology
+Acquire face images from files, or using a camera or a scanner
+Extract face images from video files and search them against the database
+Extract faces from images showing multiple people
+Check the result of face recognition searches and report on the decision
+made
+Manage subsets of the portrait database - called watch lists - to enable
+search scope restriction
+This document is intended for potential users of MFIP; it introduces the
+concepts of face recognition and describes how MFIP can be deployed and
+used with minimal effort even for users with no or very limited knowledge
+of face recognition.
+
+Face recognition concepts
+Face recognition is a recent although reliable technology
+to compare frontal face images, when the face images are
+sharp and not too small (at least 40 pixels between the eyes,
+preferably more). Morpho face recognition can search any kind
+of face images; even poor quality images, however searches are
+more reliable with good quality data.
+The main steps of face recognition are listed below for one-tomany comparisons:
+F-1-WImage acquisition can be done from live or file
+sources (e.g. from a camera or a .JPG file), still
+or video images.
+During face acquls~t~on,
+a unique identifier of
+the acqu~redimage must be allocated .
+
+This step aims at finding where the face (or faces)
+is located in the image, and pinpointing the eye
+centres.
+Template Extraction
+
+A template is a representation of the image that
+is suitable for image comparison. A template
+may represent either visible features of a portrait
+(e.g. nose or eyebrows location), or purely
+mathematical data such as the results of applying
+one or more filters to all or part of the image.
+
+Quality Control
+As the image is analysed and the template
+com~uted,it is possible to determine whether the
+template is reliable or not, and whether the image
+is of high or low quality.
+A low quality score may require that an operator
+manually confirm the location of some feature on
+the image: this enhances the overall accuracy of
+the system.
+
+Furthermore, in case a face image is not properly
+oriented (not fully frontal), a tool is provided to
+generate a frontal view of the person from the
+existing image data.
+Matching
+Matching a face template against a collection
+of face templates. Each comparison produces a
+score: the higher the score, the more likely the two
+compared faces are similar.
+
+-
+
+Match results review
+
+mhemk ~
+
+~
+
+3
+
+The matching system returns a (possibly empty)
+candidate list, sorted in decreasing scores. If the
+%
+candidate list is not empty, and if an operator has
+specified the request for a visual comparison of
+candidates, the face images matching those of the
+candidates are retrieved from the database.
+Following review, other actions can take place such
+as, for Instance, inserting the portrait that was just
+processed along with its template In the database
+or printing a matching report.
+
+MFlP architecture and technical
+characteristics
+MFlP relies on client-server architecture
+The server includes database and matching services
+The clients are running miscellaneous applications to enable the end users
+to perform face recognition tasks. MFlP can support up to eight clients, with
+deployment restrictions.
+
+YFlP client
+
+I
+
+Figure 1: MFlP log~calarchitecture.
+
+The applications have the following purpose
+The Database Creation application reads face images from a directory,
+extracts the corresponding templates, and stores both images an templates
+within the database
+The Quality Control application presents the face images requiring quality
+control to operators, so that they can review the eyes location as necessary
+The verification application is the main application for operational face
+recognition. It includes face image acquisition, one-to-one or one-to-many
+search requests against the database with review of matching results, and
+video analysis
+The Face DB Administration application includes database content display,
+import and export capability, and other administration capabilities
+The Watchlist Administration application takes care of watchlist creation,
+updates and deletion
+The Multiportrait application crops face sub images from a picture showing
+multiple people. It does not directly integrate with the server: it only
+generates sub images.
+
+Technically, MFlP requires the following environment
+Platform:
+
+- For 350,000 faces or less: client, server or standalone configurations are
+based on 32 bits PC running Windows XP professional SP2
+
+- For more than 350,000 and up to 2,000,000
+
+faces, it is required to have
+a server based on 64 bit PC running Windows Server 2003 R2 SP2 standard
+64 bits; clients are 32 bit PC running Windows XP professional SP2
+
+Database management: SQL server for workgroup. For very small
+configurations of 5000 faces or less, it is possible to use SQL server express
+Compatible image format: jpeg, jpeg 2000, Tiff and bmp
+Compatible video file format: .avi files with mpeg4 or mjpeg codec
+Scanner: Fujistu FI-60 or Epson V700
+Camera: Canon Reflex EOS 450D or Canon Reflex EOS 1000D or Canon
+Powershot 5x1 10 IS.
+
+Loading the database
+Because most users of MFlP already have an existing collection of
+faces images, it is required before MFlP can be used to load all these
+images into the system.
+Loading means:
+Inserting the images into MFIP database
+Extracting a template from each image
+Storing the template into MFIP database and MFIP rnatcher
+
+The Database Creation application achieves all these tasks.
+It works as follows:
+
+1 A user opens the Database Creation application from the desktop
+
+2 He or
+
+she selects one or more directories where the face images to be
+inserted into MFlP are stored
+
+3 He or she starts the loading process
+4 The loading process reads the selected image files one by one, extracts the
+associated templates, and creates into the database and into the matcher
+the corresponding entries. Each portrait in the database is identified with
+the original name of the image file (without its extension)
+
+S A report is generated
+
+A
+
+During the operation, a progress bar shows that the application is active
+and how many images have already been processed.
+
+-*-
+
+0
+1
+.
+1
+1
+
+Figure 2:
+the Database Creation
+application interface,
+showing progress during
+loading.
+
+gure 3: Quality Control application,
+jt of all images with a quality score
+
+elow 200.
+
+It may happen that some of the images loaded into the database could be
+of low quality and that the face could not be easily located in the image. To
+overcome this potential issue, it is necessary to have an operator review the
+face location on low quality images. The "Quality Control" application is
+available to perform this task.
+The Quality Control application reads the database to find the low quality
+images, using a quality score computed during template extraction (for
+instance within the Database Creation application). It displays the list of all
+images with a quality score below a certain level.
+From this list, the operator can select and review any face image, and change
+as necessary the points showing the eyes location. If some image does not
+include any face or if it is not suitable for face recognition (e.g. profile view)
+then the operator can remove it from the database.
+
+Searching face images
+The main puqmw af MFlP is to acquire face images and search them
+against the already existing collection of faces. Once searching b
+done, it is possible to review the pmpased candidate imags, me55
+whether they really come from the same person a the search image,
+and insert them hto the database.
+All these tasks are performed using the Verification application that can be
+started from the user desktop.
+
+Figure4 Verifmtion
+application, start xreen.
+
+>
+
+There are mainly 2 kinds of 2D image searching: 1:l searches (also known as authentication)
+and 1:n searches (also known as ~dentification).The verification application can handle both:
+1:I searches are handled from the rrghtmost buttons of the top tool bar, and l:n searches are
+handled from the leftmost buttons of the top tool bar.
+To acquire face images, three means are proposed by MHP:
+Acquisition from a scannec depending on a configuration parameter, MFlP can scan
+a picture and look for a face in the scanned image
+Acquisition from a camera: in case of live acquisition, dedicated face acquisrtion software
+is avarlable. It helps the users getting hrgh quality portraits, cropped as recommended in the
+ICAO standard, and it displays compliancy status of the acquired and cropped image for all
+/CA0 cr~teria
+Acquisition from files. This acquisition mode is the only one that is compatible with
+batch operations. the user can select multiple face images (up to 100) to be compared to
+the database
+
+1
+.
+
+1
+l
+
+;
+
+Whatever acquisition means IS used, the
+acqurred images are analysed automatically,
+a template is extracted, and a quality mark
+is given. If quality is not high enough,
+the acquired images must be reviewed to
+perform a qual~tycheck.
+
+Figure 5:Acquisition from files: defining the quality check
+and matching parameters.
+
+1
+
+1I
+
+Quality checking includes:
+The ability to change eyes location (called
+2DQCl
+The ability to "turn the face" using a 3 D
+model, in order to reconstruct a frontal
+view of the searchedperson (called 3D QC)
+Once the images are corrected, the
+searches are done automatically.
+
+Fi ure 6: Qualitycontrol within the verification application.
+--
+
+In case on an authentication, the end users
+can check the result using the following
+screen:
+
+Figure 7: Authentication verification screen within the
+Verification application.
+
+Figure 8: Identification verification screen within the
+Verification application.
+
+Figure 9: Multi Portrait application.
+
+In case of identification, the user can check
+the candidates using the following screen.
+In both cases, tools are provided to make
+image comparison easier:
+Change the magnification rate
+Adjust image size so that faces are seen at
+the same scale
+Convert to grey scale
+Create an horizontal or vertical merge of
+the search and candidate images
+Make a hit no hit decision
+Following a search, a matching report can
+be printed, and the searched image can be
+inserted into the database.
+
+In some cases, a single image includes many
+portraits: the Multi Portrait application can
+be used to find and extract conveniently
+portraits from such images, individually or
+by batch.
+The Multi Portrait application is started
+from the user's desktop. It asks the user
+to select one or more images, and extracts
+all individual portraits it can find on these - images. Whileextraction Brunning, a progre25~
+. .
+bar is displayed.
+-The face images extracted can be displayed
+for review, and are saved in a directory.
+Once they have been extracted, they can be
+selected from the Verification application
+for further processing.
+
+Searching face images extracted from
+video files
+Because sometimes fare images could be found in video faotage,
+MFIP includes a video analyser capability. This capabiJQ is available
+inside the Verification application, at the same level as the static file
+searching capability. Video analysis includes extracting and tracking
+face i m a g barn
+~
+a video file, and matching the extraded images
+against the database.
+To trigger the analysis of a video, the user first needs t o select a video file from
+a directory. A short wizard enables the operator t o define the face extraction
+and matching parameters.
+Then the video file is analysed, and displayed at the same speed. The face
+images extracted from the video are displayed t o the user on the right size
+of the screen.
+
+Once the analysis is completed,
+the operator can display any subsequence of the video, forward
+and backward, accessed either
+sequentially or directly from any
+extracted face image (access to
+the first frame in which the person
+can be seen, or to the last image
+on which a person can be seen).
+
+Figure 10: Multi Portrait application.
+
+It n also possible to select any of the
+extracted face ~mages,and check
+the corresponding search results
+for
+The search result d~splayn s~m~lar
+faces extracted from vldeos and for
+statlc face ~mages.Thesamedecls~on
+and tools are available
+
+Managing MFlP
+Because it is necessary to manage the face image database and look
+at its content, MFlP includes the Face DB Administration application.
+It offers:
+Database management functions
+Slmple databasesearchesand display
+of result~ngface images
+Face record deletion and edition
+(associatecomments to face records)
+Export selected portrait identifiers
+in a file
+Export portra~trecords fimage and
+template)
+
+Semier management
+Reload the matcher database from
+the SQL server database to ensure
+synchronicity
+
+Figure 11: Face DB administration application.
+
+Reports generatton
+Quality control statistics
+Database face records list
+
+I
+
+Statisticson quality and size of face
+images
+
+Backup and restore operation are performed using the SQL server interface
+directly.
+The Watch list management application manages sets of portraits that can be
+used to restrict search scope. It includes the following capabilities:
+Create a watch list
+Delete a watch list
+Insert into a watch list all faces specified by identifier in a file
+
+-
+
+MFlP also includes miscellaneous capabilities such as automatic import from a
+directory, and a limited set of web services, mainly des~gnedfor demonstratron
+purpose.
+
+Sample project description
+Because MFlP has been specifically designed for technology trials, its
+implementation is extremely simple.
+
+The first step is to make a simple project description:
+Purpose of the trial
+Size of the portrait database
+Number of workstations required
+Morpho will help the potential MFlP user to define the project as necessary.
+When the scope of the project is defined, Morpho defines a suitable hardware
+configuration and it is agreed between Morpho and the potential customer
+who will provide the hardware and SOL server. Of course Morpho always
+supplies the face recognition system itself and its associated services.
+Upon contract signature, a delivery date is agreed. As MFlP is not customizable,
+it can be delivered very shortly after contract signature, as soon as the
+necessary hardware is available and installed. Because MFlP is so user friendly,
+training can be completed in 2 or a maximum of 3 days after installation, if
+the potential customer wants help with the loading of the initial database.
+It is recommended to include in the contract a maintenance option, whereby
+telephone support will be provided during working hours, and fix will be
+delivered to the customer in the unlikely event of failure.
+
+9 SAFRAN
+U
+
+I
+
+

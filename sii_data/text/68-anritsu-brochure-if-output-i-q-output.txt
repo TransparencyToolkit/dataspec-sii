@@ -1,0 +1,74 @@
+Handheld IF Output
+IF Output for Spectrum Master MS2723B/4B
+IF Output Option
+The IF Output option allows a signal to be
+processed in the IF rather than using the standard
+processing provided in the instrument.
+Option 89 provides an IF signal at a center
+frequency of 37.8 MHz out of a BNC female
+connector when the instrument span is set to
+zero.
+The user can select the three fixed IF bandwidths shown below in addition to some extra
+narrower bandwidths that are selected by using the RBW selection process. We expect
+that most users will be interested in the widest bandwidth and will use the narrower
+bandwidths infrequently, if at all. The output level of the IF signal is approximately
+-25 dBm for a full-scale signal on the spectrum analyzer's display.
+
+........
+
+-
+
+_,__..,..,,.....
+
+____,
+..... --·
+7 MHz IF Bandwidth
+-~
+
+16 MHz IF Bandwidth
+
+10 MHz IF Bandwidth
+
+www.anritsu.com
+
+.IInri tsu
+
+Discover What's Possible'"
+
+Handheld 1/Q Capture
+Capture non-standard waveforms on BTS and
+Spectrum Master handhelds
+l/Q Waveform Capture
+• Up to 32 MHz instantaneous bandw idth for
+
+wideband signal capture
+• Up to 43 GHz input signal frequency
+• Up to 800 ms signal capture length
+• Externally
+
+triggered
+
+capture
+
+with
+
+programmable delay
+• 25 kHz to 40 MHz sample rate
+• Output data compatible with MATLAB and
+other analysis software
+
+Applications Include
+• Capture of non-supported signal standard waveforms for post-analysis
+• Capture and post-analysis of signals with advanced modulation schemes
+• Capture of supported signal standard waveforms for analysis beyond our measurement
+suite offering
+• Remote capture of intermittent signals
+• Technical surveillance countermeasures
+
+IQ Waveform Capture menu
+
+Sample Rate and Bandwidth Selection
+
+www.anritsu.com
+
+

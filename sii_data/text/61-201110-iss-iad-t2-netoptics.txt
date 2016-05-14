@@ -1,0 +1,519 @@
+Identifying The Needle In The
+10/40/100G Haystack
+Sharon Besser, VP of Technology
+Net Optics, Inc.
+
+Intelligent Access and Monitoring Architecture
+
+Goal
+
+Present a methodology and solution of leveraging
+to overcome current and future
+Lawful Interception challenges
+
+2
+
+Introduction to Net Optics
+Customers
+
+Fortune 500 Customers
+
+•  85% of the Fortune 100
+•  52% of the Fortune 500
+•  7,500 Global Deployments
+
+Highlights
+•  Founded in 1996, Private, Self-Funded
+•  60 Quarters of Growth & Profitability
+•  Strong Management Team
+•  Sales Offices in New York, Atlanta, Germany,
+China
+
+Fortune 100 Customers
+
+15%
+48%
+
+52%
+85%
+
+Go to Market Strategy
+•  30% Direct Sales
+•  25% OEM/Partner Relationship
+•  45% Global Channel
+
+Technology
+•  Four new inventions each year
+•  20+ patents and patent pending applications
+
+3
+
+Cause and Effect
+Lawful Interception solutions have changed over time
+
+Industry/
+Networking
+
+Data Center
+
+Lawful
+Interception
+
+4
+
+Networking Industry Trends and Pain Points
+Network must be designed for
+scalability & agility
+New Applications
+•  VoIP
+•  4G/LTE
+•  Video
+
+Compliance
+Internal/External Intrusions
+Lawful Interception
+Cybercrime
+
+No visibility into the virtualized
+network
+Explosive Growth
+CAPEX Improvements
+
+Network
+Complexity
+
+Virtualization
+
+Security
+
+Network
+Speeds
+
+Security must be architected in,
+not a point solution
+
+Link Saturation
+Oversubscription
+10G 40G 100G
+
+Tools & instruments can’t keep up
+
+5
+
+Trends Affecting Lawful Interception
+Triple Play Networks, Increased bandwidth, advanced services
+driving new Lawful Interception design requirements
+Public Network
+
+Network Operator’s
+Administration
+Function (AF)
+
+IRI Mediation
+Function (MF)
+
+Internal Intercept
+Function (IIF)
+IRI
+CC
+
+LEA Network
+
+LI Hand-over
+Interfaces (HI)
+HI1
+
+HI2
+HI3
+
+CC Mediation
+Function (MF)
+
+Internal Network
+Interfaces (INI)
+
+Source: ETSI ES 201 158
+6
+
+Unique Operational Challenges With 10G
+Common Lawful Interception deployment challenges:
+Lack of Tools
+• Availability of 10G
+monitoring tools and
+10G security tools
+
+Quality
+• Content classification
+as an example: It’s
+hard enough on 1G…
+
+• Tools ability to operate
+at line rate with low
+latency
+
+Cost
+• New 10G tools (not
+the 10G network
+interface cards)
+• Leveraging existing
+investments of 1G
+tools
+• Cost of knowledge,
+migration, operations
+= TCO
+
+Source: Net Optics Customer Advisory Board 7/2010
+
+7
+
+Other Technical Challenges
+Jitter, Oversubscription and Blocking are more severe with 10G
+networks:
+Switching
+Oversubscription
+• If the queue exceeds the
+size of the physical
+hardware buffer, packets
+are dropped
+
+Latency and Jitter
+• At any time, only one
+packet can be
+transmitted from each
+physical output port of a
+switch
+• Resource contention
+might happen when two
+packets arrive from
+separate input ports to
+the same output port
+(e.g. uplink) at about the
+same time
+
+8
+
+Microburst
+
+Bandwidth
+Utilization
+
+Even at low traffic, when average traffic is low, head of line blocking
+phenomenon (“oversubscription” ) causes queuing à short periods
+where the instantaneous bandwidth can reach maximum utilization
+
+100%
+0%
+1 2 3 4 5 6 7 8 9 10
+
+Bandwidth
+Utilization
+
+Milliseconds
+100%
+0%
+1 2 3 4 5 6 7 8 9 10
+
+Bandwidth
+Utilization
+
+Milliseconds
+100%
+0%
+1 2 3 4 5 6 7 8 9 10
+Milliseconds
+
+9
+
+Oversubscription
+
+Source: Cisco
+10
+
+Total Visibility Across Your Entire Network
+Data Center
+
+Core Network
+
+Remote Branches
+
+11
+
+The Visibility Challenge In The Hybrid Data Center
+ESX Virtual Stack
+vm1
+
+Virtualization Creates
+Security, Monitoring and
+Compliance Risks
+• 
+• 
+• 
+
+No visibility into traffic,
+vulnerabilities and threats
+Data passing between servers not
+captured for auditing
+Resource utilization can pinpoint
+source of issues
+
+vm2
+
+vm3
+
+Physical Network
+Security &
+Monitoring
+
+Virtual Switch
+
+Analyzer
+
+IDS
+
+Physical Host Server
+
+12
+
+Goal: Increasing Visibility, Extending Wire Capabilities
+ESX Virtual Stack with
+Phantom Installed
+
+ü 
+Enables Security,
+Performance Monitoring and
+Compliance
+
+Phantom
+Controller
+(VM)
+
+vm1
+
+vm2
+
+vm3
+
+Physical Network
+Security &
+Monitoring
+
+Phantom Virtual Tap
+
+•  100% visibility of inter-VM traffic
+
+•  Bridge virtual traffic to physical
+tools
+•  Eliminate barriers to virtualization
+•  Achieve security and compliance
+standards in a virtualized
+environment
+
+Analyzer
+Virtual Switch
+IDS
+
+Physical Host Server
+
+13
+
+What Customers Want
+
+Meet Lawful interception challenges in high capacity networks
+
+But how?
+
+14
+
+The LI Foundation: Reliable Copy
+End user 1
+
+End user 2
+
+Application
+
+Application
+
+Transport
+
+Interception Node
+
+Transport
+
+Network
+
+Network
+
+Network
+
+Link +
+Physical
+
+Link +
+Physical
+
+Link +
+Physical
+
+Copy
+
+To do it right,
+you need:
+–  Reliability
+–  Accuracy
+–  100% of the Data
+
+LEA Site
+Application
+
+LEMF
+Application
+
+Transport
+
+Transport
+
+Network
+
+Network
+
+Link +
+Physical
+
+Link +
+Physical
+
+Source: ETSI TR 101 943 Concepts of Interception in a Generic Network Architecture
+15
+
+Current Approach Is Not Scalable
+Invest in new systems capable to handle 10G/40G/100G
+–  Packet duplication add burden on the network
+AAA
+HI1
+
+Config
+IR I-IAP
+
+IRI
+
+RADIUS
+
+LI Admin
+
+HI2
+
+Mediation Device
+
+HI3
+
+SNMP
+v3
+
+Gn
+
+LEA
+
+CC
+
+Supervisor (CC-IAP)
+Or SIP-400 (CC-IAP)
+Line Card
+
+Gi
+
+GGSN Service Mod
+GGSN Service Mod
+Cisco 7600
+
+Source: Cisco systems 2010: Lawful Interception for 3GPP: Cisco Service Independent Intercept in the GGSN
+
+16
+
+The Solution: Leveraging Access Switching
+Leveraging Access Switching
+–  Packet duplication does not burden on the network
+AAA
+HI1
+LI Admin
+
+HI2
+
+Mediation Device
+
+HI3
+
+Config
+
+SGSN
+
+IRI
+
+IRI(SGSN)
+RADIUS
+STP-C
+
+SNMP
+v3
+
+LEA
+
+CC
+
+RANAP
+Gi
+
+Gn
+
+RNC
+
+Internet/
+Corporate
+
+GGSN
+
+Source: Cisco systems 2010: Lawful Interception for 3GPP: Cisco Service Independent Intercept in the GGSN
+
+17
+
+Access Switching: Do More With Less
+10/40/100 Load Balancing
+– 
+– 
+– 
+– 
+
+Share the load between multiple tools
+Centralized intelligence for more endpoint
+Leverage existing / cheap / 1G tools
+Plan for growth
+
+Pre-filter with DPI to detect desired traffic on any port
+–  Pre-filtering is a mature technology
+–  DPI allows to identify data of interest and forward to the monitoring/
+recording tool
+
+GRE tunneling
+–  Distribute the collection infrastructure
+
+Cloud Monitoring
+–  Inter-VM and cloud based monitoring
+
+Any type of media
+–  Fiber, copper or both
+18
+
+Summary
+
+Modern and advanced Access switching technology
+provides the scalable solution to meet Lawful Interception
+challenges in high capacity networks by focusing on
+improving collection infrastructure.
+
+19
+
+Thank You
+Net Optics, Inc.
+www.netoptics.com
+408.737.7777
+
+

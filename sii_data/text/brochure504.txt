@@ -1,0 +1,199 @@
+telesof t
+TECHNOLOGIES
+
+The HINTON Abis Probe is a passive monitoring probe that can
+be connected to any cellular network to give service providers
+the location-related signaling information that enables them
+to derive cellular location and provide subscribers with
+sophisticated, geographically targeted applications.
+
+HINTON
+
+Abis Probe
+
+Provides radio measurement data to derive
+cellular location
+Location API can filter by location area,
+Cell 14 cellular number etc
+
+,
+1
+
+Supports all current cellular networks
+(GSM, UMTS, CDMAone, CDMA2000)
+Non-intrusive, passive solution avoids
+loading carrier network components
+
+The geograph~callocat~onof cellular subscr~bershas become an Important topic for a wide
+range of appl~cat~ons.
+From lawful Interception and lntell~genceappl~cat~ons
+to commercial
+ocat~on-basedservlces (LBS), they all depend on the acqursltlon of the subscriber's current
+geograph~callocation to the greatest preclslon poss~bleThe HINTON Abis Probe enables
+Ih~rd-partyappl~cat~on
+developers to prov~deservlces such as locat~on-targetedadvertlslng,
+E911 servlces, alert servlces and nav~gat~on
+a~ds- using network lnforrnat~ononly. Thls avo~ds
+the need for spec~alhandset capab~l~ty
+and allows location-based servlces to be offered to all
+subscr~bers,even those wlth the most bas~ccellular handsets.
+
+Easily connects to Abis, A and luB, luCS,
+]UPS interfaces
+
+The HINTON Abls Probe achieves thls by monltorlng the Interfaces of a cellular network's rad~o
+access network (Abis, luB, A-Interface, luCS and others). As a cellular subscr~bermoves,
+the~rcellular handset monltors the base station w ~ t hthe strongest s~gnal,but ~talso keeps
+jn eye on other nearby base stat~onsthat mlght offer better reception and communicates
+h ~ slnformat~onto the BSc Thls ~ n - b u ~network
+lt
+funct~onal~ty
+allows the HINTON locator
+o capture the s~gnallnglnformat~onthat can be used to triangulate a geographical pos~tlon.
+
+Does not require special handset capability
+e.g. GPS, or software
+
+ocation accuracy depends on many factors, including the density of base stations and
+nterference from tall buildings, but typical results in an urban area derive location data
+o 100-5QOm vla triangulation of three or more base stat~onsfrom a handset.
+
+Able to combine multiple network types
+No dependency on network infrastructure
+Supports in excess of 100,000 concurrent
+complex filters/targets
+
+I
+
+location-based
+se~ces
+e.g. gwfencing
+
+Allows location-based services including
+targeted advertising, alert services
+and navigation
+
+Cellular network (GSM/CDMA/UMTS)
+
+Enables high accuracy geolocation
+applications
+
+Commercial location-based services
+Homelandsecurity and intelligence
+E911 emergency services
+
+Navigation-based services
+
+I
+
+t
+
+Measurement
+
+Rad~omeasurements
+
+HIWON
+
+Abis Probe
+
+Cell ID
+ti sector
+
+I b I- U K / KNL
+
+----
+
+-
+
+-
+
+m
+
+- - - -I .
+
+,C/5b M S C
+
+: Ttelesoft
+ECHNOLOGIES
+
+HINTON
+
+Abis Probe
+
+The HINTON Abis Probe passively monitors signaling l~nks(GSM: Abis,
+A UMTS: luB, IuCS, luPS CDMA: Abls, A) and extracts radlo measurements
+of cellular handsets In the network. Aggregatlon may be done locally
+at each monltorlng slte or centrally as network topology d~ctates.
+Th~rd-partygeolocat~onappl~catlonsturn t h ~ sinformation into X/Y
+CO-ordinates that are used In cellular appllcatlons uslng techn~ques
+such as mult~laterat~on
+or f~ngerprrntlng
+
+Location information
+The handset-based data that the HINTON Abls Pr
+appl~catrons~ncludes:
+
+Cell ID
+GSM timing advance or UMTS round-trip delay from serving cell
+
+Received signal strength from serving and adjacent cells
+Location area information
+
+Monitoring data using a separate overlay system avoids network
+
+interference and allows enhancement and upgrade independent
+of the main network.
+
+Exam~leof cellular location usina multilateration
+
+Trianaulated
+location
+
+RX = Recelved signal strength
+TA = Timing advance
+
+Headquarters:
+Telesoft Technologies Ltd
+Observatory House
+Blandford Dorset
+
+Americas:
+Telesoft Technologies Inc
+
+DTll 9LQ UK
+
+Suite 601
+4340 Georgetown Square
+Atlanta GA 30338 USA
+
+T. +44 (0)1258 480880
+F. +44 (0)1258 486598
+E. sales@telesoft-technologies.com
+
+T. +l 770 454 6001
+F. +l
+770 452 0130
+E. salesusa@telesoft-technologies.com
+
+India:
+Telesoft Technologies Ltd
+Building FC-24 Sector 16A
+Noida 201301
+Uttar Pradesh India
+T. +91 120 466 0300
+F. +91 120 466 0301
+
+E. salesindia@telesoft-technologies.com
+
+Telesoft Technolog~es,the Telesoft Techmlog~eslogo
+des~anand HINTON are trademark or rea~stered
+
+tradhark, of Telesoft Technologies Ltd ~ t subs~d~ar~es.
+s
+All other brand and product names may be trademark
+
+of the~rrespectwe companies Copyr~ght02010 by
+~elesoft~echnolog~es
+~ t dAIIrlghts r e ~ ~ e d
+
+

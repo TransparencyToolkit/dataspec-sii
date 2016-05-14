@@ -1,0 +1,146 @@
+GPON Monitor™
+Centralized Passive GPON Performance Monitor
+
+GPO N Monitor™ O verview
+GP O N Monitor ™ is a unique centralized performance analyzer and monitor for GP O N
+networks, designed for telecom operators and service providers engaged in the deployment of
+GP O N networks. GP O N Monitor ™ introduces a new concept for central testing solutions of
+GP O N networks by combining the functionalities of a performance monitoring tool with those of
+a troubleshooting tool.
+The innovative GP O N Monitor ™ constantly monitors the performance of GP O N networks,
+collects statistics and provides detailed reports of system and link efficiency, connections and
+disconnections, Q uality of Service ( Q oS) and Q uality of Experience ( Q oE) as well as potential
+problems in the network. In case a problem is identified, it allows manual override for analysis
+and troubleshooting of the problem.
+GP O N Monitor ™ is typically installed in a central office location and can connect to multiple
+O LTs and monitor a large number of GP O N networks. It performs quantitative measurements of
+various network parameters which indicate the network's performance and utilization for the
+whole network as well as for every user-port. In addition, it can provide customer support
+groups (Tier-1 and above) with clear indications of symptoms, along with easy-to-follow
+instructions for resolving them.
+Following the overwhelming industry acceptance and tremendous success of the company’s field
+proven systems, DSL Xpert ™ , VDSL Xpert ™ and GP O N Xpert ™ analyzers, GP O N Monitor ™
+defines a new category which constantly monitors the GPO N network and provides complete
+and accurate analysis of GP O N network performance, utilization and stability.
+GP O N Monitor ™ 's testing concept is based on passive monitoring and testing of the network.
+W ith its unique multi-layer probing capability, GP O N Monitor ™ provides comprehensive
+analysis of data from the physical layer up to the IP layer, with the ability to drill down and up
+through the layers as well as to export data for further analysis. GP O N Monitor ™
+simultaneously analyzes downstream and upstream data and the connection between the data
+transmitted by the O LT and O N Ts/ O N Us. A user-friendly software-based tool, GP O N
+Monitor ™ has a feature-rich G UI which presents multi-layer information in convenient displays,
+graphs and tables. Furthermore, its SNMP northbound interface allows its easy integration with
+the customer's O perations Support Systems ( O SS).
+Cutting significant time from GP O N network monitoring and troubleshooting, GP O N Monitor ™
+is a powerful tool which accelerates time to market and return on investment for telecom
+operators and service providers deploying GP O N networks.
+
+GPO N Monitor™ OLT Site Typical Layout
+
+GPO N Monitor™ User-Friendly GUI
+
+Real Time Performance Monitoring
+
+Real-Time Triggers and Events
+
+Performance Graphs
+
+Sessions History
+
+Customer Support Test Results
+
+Customer Support Scenario Editor
+
+M ain A p plic ations
+C onstant monitoring of the GPO N network for:
+System / Link Efficiency
+C onnections / Disconnections
+Q oS / Q oE
+Potential problems
+Manual override allows failure analysis, troubleshooting and diagnostics
+
+Fe atures and Benefits
+Features
+
+Benefits
+
+Integrative Solution
+
+C ombines the functionalities of Performance
+Monitoring and Troubleshooting
+
+C ost Effective
+
+A single test system covers multiple O LTs and
+thousands of subscribers
+
+Data / Statistics C ollection
+
+C ollects data and statistics about network
+performance, utilization, efficiency and stability
+
+Troubleshooting
+
+Provides complete and accurate indications for quick
+remote troubleshooting
+
+O bjective and Independent
+
+Runs tests independently without relying on indications
+from the tested equipment itself
+
+Proactive Fault Fixing
+
+Identifies problems before noticed by the end-user
+
+Standard Interfaces
+
+Interface to O perations Support Systems ( O SS) and
+export of data to external tools
+
+Fairness in N etwork
+Resource Allocation
+
+Verifies that customer SLAs are met and assures
+fairness to different ISPs and communications providers
+
+Increased N etwork Reliability
+
+Improved customer satisfaction
+
+Sp e cific ations
+GP O N ITU Standards
+Compatibility (Troubleshooting
+Mode)
+
+G.984.2 – GPO N PMD
+G.984.3 – GPO N MA C
+G.984.4, G.988 – GP O N O N T Management and C ontrol
+Interface ( O MCI)
+BBF TR-156
+
+Power Requirements
+
+Input Voltage: -40.5 to -72 VD C
+or 100 to 240 VA C, 50/60 Hz
+
+Safety Standard
+
+CE
+
+C ertifications
+
+FC C part 15
+
+O perating Environment
+
+Temperature: 0°- 40°C (32°-104°F)
+Humidity: 10% to 90% non-condensing
+
+C onta ct Inform ation
+E-mail: info @ tracespan.com
+W eb: www.tracespan.com
+
+C opyright © 2011 TraceSpan ™ C ommunications Ltd. All rights reserved. Product design and specifications are subject to change without notice
+
+

@@ -1,0 +1,753 @@
+
+
+
+
+
+GPRSpack V2
+Kurzbeschreibung mit Preisliste
+
+EBS- Electronic GmbH
+Industriestr. 33a
+82184 Gröbenzell
+
+Sitz Gröbenzell, HRB 70338
+Amtsgericht München
+Geschäftsführer:
+Dipl.-Ing. Bernhard Spichtinger
+
+Tel. (08142) 51098 Fax (08142) 54317
+E-Mail: info@ ebs-electronic.com
+Internet: www.ebs-electronic.com
+www.kalkschutzgeraete.com
+
+Bankverbindungen:
+Postgiro München
+BLZ: 700 100 80
+Konto: 308 620 808
+
+HypoVereinsbank Mch
+BLZ: 700 202 70
+Konto: 50 423 000
+
+
+
+Kurzbeschreibung des GPRSpack V2.6*)
+Das GPRSpack wurde zur Observierung und Objektverfolgung entwickelt. Die Konzeption erfolgte
+entsprechend den Bedürfnissen der behördlichen Anwender, so dass die Geräte nicht nur von
+Technikspezialisten, sondern auch von sonstigen eingewiesenen Beamten, z.B. einer
+Observationseinheit, eingesetzt werden können.
+Die Geräte bestehen aus hochwertigen Aluminiumgehäusen, schwarz eloxiert, mit integriertem
+oder ansteckbarem Batteriefach ( Siehe Beschreibung Preisliste).
+An der Unterseite sind starke Haltemagnete angebracht, die auch bei großer Erschütterung das
+Gerät in seiner Position halten, sofern die Anbringungsfläche Ferromagnetisch ist und mindestens
+so groß wie das Gerät selbst ist.
+Standardmäßig werden eine GSM-Stummelantenne und eine Miniatur-GPS-Antenne verwendet,
+die am Aluminiumgehäuse angebracht werden. Das Gerät besteht daher nur aus einer Einheit
+ohne abgesetzte Antennen und ist dementsprechend leicht zu verbauen. Die GPS-Antenne muss
+nicht mit Himmelssicht ausgerichtet werden. Die Ortungsdaten werden über GPRS oder
+wahlweise über GSM (UKSP) übertragen. Die GPRS - Übertragung ist aufgrund des ca. 10-fach
+niedrigeren Kostenfaktors und der wesentlich längeren Laufzeit die prädestinierte Betriebsart des
+Gerätes.
+Die getestete Laufzeit beträgt mit drei internen BCX85C-Lithium-Batterien (Babyzelle der Fa.
+Electrochem) bei Positionsmitteilung von konstant jeweils drei Sekunden bei "Live-Ortung" ca. 90
+Stunden. Die Standby - Zeit beläuft sich auf ca. 3,2 Monate. Das Gerät ist im Standby immer im
+GSM-Netz eingebucht und somit jederzeit erreichbar.
+
+Erforderliche Ausstattung zum Betrieb des GPRSpack
+1. GPRSpack Grundgerät mit SIM-Karte von T-Mobile ohne PIN mit freigeschaltetem
+GPRS-Tarif. Der Betrieb wird mit BCX85- Lithiumbatterien, Größe C, der Fa. Electrochem,
+empfohlen.
+2. GPRS-Server: Es kann ein professioneller Rack-Server oder „normaler“ PC, Desktop oder
+Notebook, verwendet werden. Eine Anbindung an bestehende Serversysteme in den
+IUK- Zentren ist ebenfalls denkbar.
+Voraussetzung ist das Betriebssystems Windows2000/XP. Die notwendige Server-Software
+wird beim Kauf eines GPRSpack kostenlos mitgeliefert.
+3. Internetanschluss mit fester IP- Adresse für GPRS-Server - Feste IPs werden je nach
+Anbieter (z.B. www.tal.de) bereits ab 10,00 Euro zusätzlich zum normalen DSL-Anschluss
+angeboten. Ausreichend ist ein DSL-Volumentarif, da nur geringe Datenmengen übertragen
+werden.
+4. „Client- PC“ (vorzugsweise Notebook) mit installierter Client- Software zur mobilen
+Visualisierung der Positionsdaten - Zusätzlich wird ein GPRS- Modem, empfohlen wird das
+MC-35i-Terminal der Siemens AG (ca. 155,- €), benötigt. Darüber hinaus kann jeder beliebige
+Internetanschluss zur Ortung verwendet werden. Als Client- Software wird die Basissoftware
+Pathfinder bei Bedarf mitgeliefert, die die Grundfunktionen der Ortung des GPRSpack
+beherrscht. Für umfangreichere Lösungen, sollte eine der nachfolgenden kostenfreien
+*)
+
+Änderungen der Version 2.0 in 2.1:
+Änderungen in Version 2.2
+Änderungen in Version 2.3
+Änderungen in Version 2.4
+Änderungen in Version 2.5
+Änderungen in Version 2.6
+
+GSM-Modul-MC 55 mit Softwarestand 2.06
+Batterieplatine mit Schutzdioden ausgerüstet u. versiegelt
+Interne Schaltungsverbesserung
+GPS Receiver JP10-SiRFstarIII Chipsatz – schnelleres Fixing
+Bessere Abdichtung des Gehäuses, 6 Magnete zusätzlich
+Verstärkte Magnethaltekraft durch integrierte Schirmplatte
+Alle Elemente schwarz; Softwarestand 2.33
+2
+
+
+Programme verwendet werden:
+Bezugsquellen Client- Software:
+
+MUG-Karte:
+
+GPS-Tracker:
+
+Leo Kohmann
+Tel. 07161 / 616-1871
+leo.kohmann@sek.bwl.de
+SEK-Baden Württemberg
+Technische Einsatzgruppe
+Heininger Str. 100
+73037 Göppingen
+
+Alois Rausch
+Tel. 02254 / 38-235
+alois.rausch@polizei.bund.de
+BGS-ZSIUK
+Gabrielweg 5
+53913 Swisttal
+
+Die Produktentwicklung der GPRSpack V2... erfolgte durch das BLKA München.
+Es kann keine Gewähr übernommen werden, dass die angewendeten Schaltungen und Verfahren
+(auch teilweise) frei von Schutzrechten Dritter sind. Änderungen und Irrtümer vorbehalten.
+Alle angegebenen Daten und Darstellungen u. ä. dienen allein der Produktbeschreibung und sind
+nicht als zugesicherte Eigenschaft im Rechtssinne aufzufassen. Etwaige Schadenersatzansprüche
+– gleich aus welchem Rechtssinne – sind ausgeschlossen, soweit weder Vorsatz noch grobe
+Fahrlässigkeit vorliegt.
+Der Betrieb des GPRSpack kann bestehende gesetzliche Bestimmungen verletzen. Der
+Anwender hat sich über die jeweilige gültige Rechtslage zu informieren und ist für den Betrieb
+selbst verantwortlich.
+Die EBS-Electronic GmbH übernimmt ausschließlich die Garantie nur für die ordnungsgemäße
+Verarbeitung der Geräte.
+
+Bezugquelle für das GPRSpack V2.6 und Zubehör : EBS-Electronic GMBH
+EBS-Electronic GmbH, Industriestr. 33a, 82194 Gröbenzell
+Ansprechpartner für Lieferung und Verkauf:
+Dipl.-Ing. Bernhard Spichtinger
+Telefon: 08142 / 51 0 98
+Fax:
+08142 / 54 3 17
+E-Mail: info@ebs-electronic.com
+Ansprechpartner für technische Fragen und Support: Dipl.-Ing. Stefan Bütow
+Telefon: 08142 / 57 02 07
+Fax:
+08142 / 57 02 08
+E-Mail: i info@ibbuetow.de
+
+Bereitzustellende Daten und Materialien beim Bezug eines GPRSpack´s
+•
+•
+•
+•
+
+SIM-Karte
+T-Mobil
+(D1)
+ohne
+sowie Spach- und Datennummer
+UKSP-Nummer
+IP-Adresse des Servers
+GPRSpack-Nummer
+
+Pin
+
+mit
+
+freigeschaltetem
+
+GPRS-Tarif,
+
+Im Zuge der weiteren Produktentwicklung wurde die Software mit einer Spurspeicherung
+ausgestattet. Die Nutzung der Spurspeicherung ist z.Zt. nur mit der Software GPS-Tracker
+möglich. Bei ausgelieferte Geräte kann ein Update neuerer Software über GSM erfolgen.
+
+3
+
+
+Stand 10.11.2006
+
+Preisinformationen
+Produktbezeichnung
+
+Bestell- Nr.
+
+Preis in
+€/St
+
+GPRSpack-Produktfamilie
+GPRSpack V2.6 komplett
+
+901100
+
+1.220,00€
+
+Das GPRSpack V2.6 komplett besteht aus einem Aluminiumgehäuse mit
+Elektronik- und Batteriefach und 24 Haftmagneten an der Unterseite.
+Das Gehäuse ist schwarz eloxiert, alle Befestigungselemente und Antennen
+sind schwarz eingefärbt.
+Das Batteriefach kann 3 Lithium-Batterien Größe C aufnehmen.
+Empfohlen BCX85C ( Babyzelle der Fa. Electrochem )
+Die Magnethaltekraft beträgt ca. 590N (60 kg) - gemessen an einer planen
+Stahlplatte
+Masse: B62xL138xH32 mm ( ohne Antennen)
+Incl. Zubehör:
+GSM-Stummelantenne
+Miniatur- GPS-Antenne Magnetantenne – Leitungslänge 0,13 Meter. Andere
+Längen bei der Bestellung angeben. ( 0,5M ; 1,0M; 3,0M)
+Elektronikfach wasserdicht IP65 – Batteriefach wassergeschützt IP54
+Batterien sind nicht im Lieferumfang enthalten
+GPRSpack – maxi V2.6
+Batterie-Modul
+
+901103
+
+1.650,00€
+
+Elektronik-Modul
+Das GPRSpack maxi V2.6 besteht aus einem Aluminiumgehäuse mit
+getrenntem Elektronik- und Batterie-Modul.
+Das Gehäuse ist schwarz eloxiert, alle Befestigungselemente und
+Antennen schwarz eingefärbt.
+Das Batteriefach kann 3 Lithium-Batterien Größe C aufnehmen.
+Empfohlen BCX85C ( Babyzelle der Fa. Electrochem )
+Die Magnethaltekraft beträgt ca. 685N (78 kg) - gemessen an einer
+planen Stahlplatte
+Masse: B62xL142xH32 mm ( ohne Antennenanschlüsse)
+Steckanschluss für externe Spannungsversorgung (Binder 711-4pol)
+(8V DC bis 30V DC)
+Elektronik-Modul und Batterie-Modul sind in Schutzart IP65 ausgeführt.
+Incl. Zubehör:
+GSM-Stummelantenne,
+Miniatur- GPS-Magnetantenne – Leitungslänge 0,13Meter. Andere Längen
+bei der Bestellung angeben. ( 0,5M ; 1,0M; 3,0M)
+Verschlusskappe für ext. Anschluss ( Binder Stecker Serie 711/712)
+Weiteres Zubehör muss gesondert bestellt werden:
+Anschlusskabel für externe Spannungsversorgung - ( 901107 )
+Verschlusskappe für Bajonettverschluss - ( 190029 )
+Anschraubplatte für Festeinbau - (190025 )
+Batterien sind nicht im Lieferumfang enthalten
+
+Kurzbeschreibung
+Das Gerät entspricht in den Leistungsdaten dem des GPRSpack V2.6 komplett ( 901100 )mit der zusätzlichen
+Ausstattung einer externen Spannungsversorgung und einer zusätzlichen Schaltkontaktfunktion.
+Das Gerät kann sowohl mit der Batteriespannung, als auch über Leitung mit einer externen Spannung betrieben werden
+( 8V - 30 V DC ). Beim Anschluss der externen Spannung wird die Batteriespannung elektronisch abgeschaltet.
+Wird die externe Spannung wieder abgesteckt, übernehmen die Batterien die Spannungsversorgung ohne
+Unterbrechung.
+Beide Module werden über einen stabilen Bajonettverschluss mit Kugelrasterung miteinander verbunden.
+Bei Verwendung eines 2. Batteriefaches kann während der Observation ein sehr schneller Batterietausch realisiert
+werden.
+Das Elektronikmodul kann mit einer externer Spannungsversorgung auch selbständig betrieben werden. Bei
+Verwendung einer Montageplatte ( 190024 )kann das Modul als Festeinbau verwendet werden.
+Zusätzlich besteht die Möglichkeit über Software einem externen Schaltkontakt zu aktivieren. Mit diesem Schaltkontakt
+lassen sich während der Ortung Schaltaufgaben realisieren, z.B. das Ein- und Abschalten bestimmter
+Funktionseinheiten. Schaltleistung 1A –30V- AC-DC
+
+4
+
+
+Produktbezeichnung
+
+Bestell- Nr.
+
+Batteriemodul zum GPRSpack - maxi V2.6
+
+Preis in
+€/St
+
+901106
+
+250,00€
+
+Zusatzmodul mit Bajonettverschlusshülse für GPRSpack- maxi V2.6
+Gehen während der Observierung die Batterien zur Neige, so kann
+durch einen Schnellwechsel des Batteriemoduls ein fast ununterbrochener
+Betrieb erfolgen.
+Das Batteriefach kann 3 Lithium-Batterie Größe C aufnehmen.
+Empfohlen BCX85C (Babyzelle der Fa. Electrochem)
+Die Magnethaltekraft beträgt ca. 490N (50 kg) - gemessen an einer
+planen Stahlplatte
+.
+
+GPRSpack- mini V2.6 komplett
+
+901104
+
+1050,00€
+
+Bestehend aus schwarz eloxiertem Aluminiumgehäuse in Schutzart IP-65
+Gehäuse zum Festeinbau ohne Batteriefach mit externer Spannungsversorgung
+sowie Schaltkontaktfunktion.
+Die Magnethaltekraft beträgt ca. 195N (20 kg) - gemessen an einer
+planen Stahlplatte
+Gehäusemaße: B62xL44xH32mm ( Maße ohne Antennenanschlüsse )
+Steckanschluss für externe Spannungsversorgung (8V DC bis 30V DC )
+GSM- SMA-F Antennenausgang (auf Wunsch mit FME-M),
+GPS - SMA-F Antennenausgang
+Incl. Zubehör:
+GSM-Stummelantenne, Miniatur-GPS-Antenne – Leitungslänge 0,13Meter. Andere Längen bei der Bestellung angeben.
+( 0,5M ; 1,0M; 3,0M)
+Verschlusskappe für ext. Anschluss ( Binder Stecker Serie 711/712)
+Weiteres Zubehör muss gesondert bestellt werden:
+Anschlusskabel 2,5 Meter ( 901107)
+Anschraubplatte zum Verschrauben des Moduls (190025)
+
+GPRSpack V2.6 Grundmodul
+
+901101
+
+610,00€
+
+Das Grundmodul ist für Anwender gedacht, die das GPRSpack in ein eigenes
+Gehäuse einbauen möchten.
+Bestehend aus Grundplatine mit GSM-Modul MC55 und GPS-Modul JP10
+Spannungsanschluss: 2,5V DC – 3,8 VDC stabilisiert
+Im Lieferumfang befinden sich 2 Antennenleitungen 20 cm
+(alternativ 8; 10; 15 cm),GSM-Stummelantenne,
+Miniatur-GPS-Antenne – Leitungslänge bis 3 Meter. Länge bei der Bestellung
+angeben.
+Masse: Breite 33m; Länge 55mm; Höhe 12mm
+Zur Vermeidung von Störstrahlungen ist unbedingt darauf zu beachten,
+das Modul in ein metallisch abgeschirmtes Gehäuse zu verbauen.
+Auch mit Stromversorgung lieferbar - Artikel 901102
+
+5
+
+
+Produktbezeichnung
+
+Bestell- Nr.
+
+Externe Stromversorgung zum GPRSpack V2.6 Grundmodul
+
+901102
+
+Preis in
+€/St
+95,00€
+
+Die Stromversorgung besteht aus einer Platine in der gleichen Größe, wie das
+Grundmodul und kann unter das Grundmodul montiert werden.
+Spannungsversorgung:
+8V DC bis 30V DC ( externe Spannung).
+Wird das Grundmodul über Steckverbinder mit der Stromversorgung verbunden,
+kann die Batteriespannung 3V-3,9V ebenfalls an die Stromversorgung
+angeschlossen werden.
+Beim Anschluss der externen Spannung wird die Batteriespannung automatisch
+abgeschaltet ( sofern angeschlossen).
+Wird die externe Spannung abgeschaltet, übernehmen die Batterien wieder die
+Spannungsversorgung
+Zusätzlich besteht die Möglichkeit über Software einem externen Schaltkontakt
+zu aktivieren. Mit diesem Schaltkontakt lassen sich währen der Ortung
+Schaltaufgaben realisieren, z.B. das Ein- und Abschalten bestimmter
+Funktionseinheiten.
+Schaltleistung 1A –30V- AC oder DC
+Masse: Breite 33m; Länge 55mm; Höhe 7,5mm
+GPRSpack V2.6 Grundmodul mit Stromversorgung
+
+901105
+
+720,00€
+
+Das Grundmodul 901101 mit Stromversorgung 901102
+einbaufertig montiert.
+Leistungsdaten siehe unter 901101 und 901102
+Masse: Breite 33m; Länge 55mm; Höhe 21,5mm
+Zur Vermeidung von Störstrahlungen ist unbedingt zu
+beachten, dass das Modul in ein metallisch abgeschirmtes
+Gehäuse eingebaut werden muss.
+
+Zubehör zum GPRSpack maxi V2.6:
+Anschlusskabel für GPRSpack- maxi bzw. –mini
+
+901107
+
+15,00€
+
+Vieradriges Anschlusskabel 0,2 qmm schwarz für externe
+Spannungsversorgung und Schaltkontaktanschluss mit
+Binder -Kabeldose Serie 712.
+Länge 2, 5 Meter ( andere Längen lieferbar)
+
+Batterieadapter für GPRSpack- maxi
+
+901109
+
+80,00€
+
+Diese Batterieadapter ist geeignet zum Anschluss von Batteriemodulen
+jeglicher Größe an das Elektronikmodul des GPRSpack maxi
+Die Speisespannung darf 3,6 – 3,9 V DC ( Lithiumzellen ) nicht
+übersteigen
+Der Adapter besteht aus einem zweiadriges Kabel 0,75qmm schwarz
+mit verriegelbarer Spreizhülse und offenem Ende.
+Länge 0,5 Meter (andere Längen lieferbar)
+
+6
+
+
+Produktbezeichnung
+
+Bestell- Nr.
+
+Kabeladapter für GPRSpack- maxi
+
+901110
+
+Preis in
+€/St
+165,00€
+
+Dieser Kabeladapter ist geeignet, um das Elektronik-Modul des
+GPRSpack maxi und das dazugehörige Batterie-Modul getrennt zu
+verbauen.
+Der Adapter besteht aus einem zweiadriges Kabel 0,75qmm schwarz mit
+verriegelbarer Spreizhülse und Bajonettverschluss.
+Länge 0,5 Meter (andere Längen lieferbar)
+
+Y-Kabeladapter für GPRSpack- maxi
+
+901111
+
+250,00€
+
+Dieser Kabeladapter ist geeignet, um das Elektronik-Modul des
+GPRSpack maxi sowie zwei dazugehörige Batterie-Module getrennt zu
+verbauen. Dadurch wird eine doppelte Laufzeit erreicht.
+Der Adapter besteht aus einem zweiadriges Kabel 0,75qmm schwarz mit
+verriegelbarer Spreizhülse und zwei Bajonettverschlüssen.
+Länge 0,5 Meter (andere Längen lieferbar)
+
+Verschlusskappe für Binder Stiftanschluss Serie 711 / 712
+
+190024
+
+2,50€
+
+Schutzkappe für den externen Spannungsanschluss,
+wenn dieser nicht benötigt wird
+
+Verschlusskappe für Bajonettverschluss
+
+190029
+
+15,00€
+
+Wird das GPRSpack - maxi Elektronik-Modul allein ohne
+Batterie-Modul betrieben, wird der Bajonettverschluss
+mit einer Schutzkappe versehen, um das Eindringen
+von Schmutz und Feuchtigkeit zu verhindern.
+
+Anschraubplatte für GPRSpack- maxi bzw.- mini V2.6
+
+190025
+
+Zum Festeinbau des GPRSpack- Elektronik- Moduls
+Masse: B82xL44xH3mm Alu schwarz eloxiert.
+4 Befestigungsschrauben M2x10mm A2
+Anschraubbohrungen 4 mm
+
+7
+
+22,00€
+
+
+Produktbezeichnung
+
+Bestell- Nr.
+
+Preis in
+€/St
+
+Weiteres Zubehör zur GPRSpack-Familie
+Mobile Steuereinheit
+
+147007
+
+Tagespreis
+
+Zum Beispiel Dell Notebook Serien Precision M20 / M70
+Ausstattung und Leistungsumfang nach Kundenwunsch
+
+KFZ Adapter für mobile Auswerteinheit ( Netzteil zu 147007)
+
+147008
+
+98,00€
+
+Kfz-Halterung
+
+190023
+
+193,00€
+
+Für mobile Auswerteinheit Modell CSB zum
+Festeinbau in PKW
+
+Siemens Modem MC35i Terminal ( Grundgerät ohne Zubehör )
+
+147002
+
+155,00€
+
+Mit Highspeed mobil im Web über GPRS –Technologie ständiger Online-Kontakt,
+schneller Datenzugriff
+hohe Übertragungsrate
+Dual EGSM 900 und GSM 1800
+GPRS multi-slot class 8
+Anschluss für Steckernetzteil und KFZ -Adapter
+Antennenanschluss FME -Stift
+
+MC Modem MC45 Terminal ( Grundgerät ohne Zubehör )
+
+147005
+
+165,00€
+
+Das MC45 Terminal ist eine Tr i- Band GPRS/GSM Datenmodul der GPRS
+Klasse 10
+ständiger Online-Kontakt, schneller Datenzugriff
+hohe Übertragungsrate
+GPRS multi-slot class 10
+Anschluss für Steckernetzteil und KFZ-Adapter
+Antennenanschluss FME-Stift
+
+8
+
+
+Produktbezeichnung
+
+Bestell- Nr.
+
+GPS- Maus HOLUX GR-213
+
+147004
+
+Preis in
+€/St
+105,00€
+
+Die Holux GR-213 gehört zu den modernsten und genauesten GPS-Mäusen mit
+SIRF 3 Technik
+20 parallele Satellitenverfolgungskanäle sorgen für eine sehr große Genauigkeit
+Hochgeschwindigkeits-Signalerfassung
+1920 Zeit/Frequenz-Suchkanäle
+PS2 Anschluss und USB-Adapter
+
+Miniatur-GPS-Antenne – Leitungslänge 0,13 Meter, SMA-Stecker
+
+189023
+
+30,00€
+
+Miniatur-GPS-Antenne – Leitungslänge 0,5 Meter, SMA-Stecker
+
+189025
+
+31,00€
+
+Miniatur-GPS-Antenne – Leitungslänge 1,0 Meter, SMA-Stecker
+
+189026
+
+31,00€
+
+Miniatur-GPS-Antenne – Leitungslänge
+
+189024
+
+31,00€
+
+3,0Meter, SMA-Stecker
+
+Die MK-76 Mini GPS Antenne ist eine hochempfindliche Antenne für den
+militärischen Einsatz und andere sensible Bereiche.
+Das Gehäuse besteht aus einem schwarzen Kunststoff, an der Unterseite ist ein
+Magnet in die Grundplatte aus Aluguss integriert, sowie 2 Anschraubgewinde für
+den Festeinbau.
+Leitung RG174U – Anschluss SMA-Stecker mit rechtwinkligem Anschluss.
+Der Anschluss zwischen Kabel und SMA-Stecker ist mit einem Klebstoff gefüllten
+Schrumpfschlauch gegen das Eindringen von Feuchtigkeit geschützt.
+Andere Längen und andere Anschluss-Stecker auf Anfrage lieferbar.
+
+GSM- Stummelantenne SMA-Stift
+
+189022
+
+15,00€
+
+Minimag- GSM- Magnetfußantenne – Leitungslänge 2,5 Meter
+
+189027
+
+17,00€
+
+Minimag- GSM- Magnetfußantenne – Leitungslänge 2,5 Meter
+
+189028
+
+17,00€
+
+189034
+
+23,90€
+
+Hochempfindliche Miniatur GSM-Antenne mit
+SMA-Stiftanschluss für GPRSpack
+
+189027:
+900/1800 MHZ; 0 db, RG 174 FME- BU
+(andere Länge bitte bei der Bestellung angeben)
+189028:
+900/1800 MHZ; 0 db, RG 174 SMA –Stecker
+(andere Länge bitte bei der Bestellung angeben )
+Portable Antenne 900/1800 MHz 2 db – FME- Bu
+
+geeignet für Siemens Modem MC35i Terminal
+und
+MC Modem MC45 Terminal
+
+9
+
+
+Produktbezeichnung
+
+Bestell- Nr.
+
+D-E-Netz Mini-Antenne ODB FME-Bu für MC35i Terminal
+
+Preis in
+€/St
+
+189033
+
+13,10€
+
+89032
+
+95,00€
+
+geeignet für Siemens Modem MC35i Terminal
+und
+MC Modem MC45 Terminal
+
+Dualband – Stossfängerantenne GSM 900 / 1800 Hirschmann
+
+Geeignet für GPRSpack Festeinbau
+
+GPS-und GSM-Antennenkabel 8 cm SMA- Einbaubuchse – UF.L
+GPS-und GSM-Antennenkabel 10 cm SMA- Einbaubuchse – UF.L
+GPS-und GSM-Antennenkabel 15 cm SMA- Einbaubuchse – UF.L
+GPS-und GSM-Antennenkabel 20 cm SMA- Einbaubuchse – UF.L
+
+188040
+188035
+188044
+188033
+
+17,50€
+17,50€
+17,50€
+17,50€
+
+189037
+
+2,25€
+
+Für den Selbstaufbau in Verbindung mit dem
+GPRSpack Grundmodul
+
+Antennen-Adapter SMA-Stift - FME- Stift
+
+Der Antennenadapter wird verwendet, wenn an die GSM-SMA Buchse des
+GPRSpack eine FME- Buchsenantenne angeschlossen werden soll
+Zum Beispiel Artikel 189027
+
+Netzteil für Modem MC35i incl. Anschlussleitung / Western Plug
+Netzteil für Modem MC45 incl. Anschlussleitung / Western Plug
+
+147003
+147006
+
+22,60€
+22,60€
+
+KfZ Adapter für Modem 12/24V 1 Meter, - Western Plug
+
+189029
+
+15,90€
+
+Geeignet für:
+Siemens Modem MC35i Terminal
+MC Modem MC45 Terminal
+
+10
+
+
+Produktbezeichnung
+
+Bestell- Nr.
+
+Stromkabel offenes Ende für Modem – Western Plug, 1,5 Meter
+
+Preis in
+€/St
+
+189030
+
+5,00€
+
+Geeignet für:
+Siemens Modem MC35i Terminal
+MC Modem MC45 Terminal
+
+Datenkabel 1 Meter 9 pol. Stecker – 9 pol. Buchse
+
+189031
+
+3,60€
+
+Verbindungsleitung zwischen Modem und der
+mobilen Steuereinheit
+andere Längen lieferbar
+
+2- fach Verteiler für Zigarettenanzünderbuchse
+
+147009
+
+16,80€
+
+102015
+
+85,00€
+
+Zum Anschluss mehrerer Verbraucher m KFZ
+Z.B. Datenmodem und mobile Steuereinheit
+
+Koffer Peli Case 1200 mit Schaumstoffeinlage
+
+Für den sicheren Transport des GPRSpack und
+Unterbringung von Ersatzbatterien und Zubehör.
+
+Software Path-Finder mit Grundlizenz Map&Guide für 1 Land
+
+03001
+
+550,00€
+
+Alle angegebenen Preise sind Nettopreise zuzüglich ges. Mehrwertsteuer plus Porto.
+Ab einem Bestellwert von 1000,00€ liefern wir innerhalb Deutschlands versandkostenfrei
+Zahlungsbedingungen: 30 Tage ohne Abzug
+Es gelten die allgemeinen Lieferbedingungen für Erzeugnisse und Leistungen der Elektroindustrie in der jeweiligen Fassung.
+Änderungen und Irrtümer vorbehalten – alle früheren Preislisten verlieren hiermit Ihre Gültigkeit –
+
+11
+
+

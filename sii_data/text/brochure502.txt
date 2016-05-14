@@ -1,0 +1,216 @@
+220 high Dynamics GP5 Receiver ~ o d u l 7
+e
+W'--
+
+i
+
+High dynamics GPS tracking and positioning for
+Test and Evaluation / Range Safety applications
+or guidance of missiles and smart munitions
+The QinetiQ Q20 HD GPS receiver is a
+high performance, ultra-compact GPS unit
+providing state of the art high dynamics
+acquisition and tracking capability.
+The Q20 HD GPS combines the latest
+QinetiQGPS processor and a specially
+designed RF front end, offering
+excellent interference rejection and low
+noise operation. The Q20 HD's novel
+architecture has an unprecedented
+number of simultaneous time /frequency
+search windows, therefore the Q20 HD
+can provide an extremely fast Time to First
+Fix (TFF) under very high dynamics.
+The Q20 HD can be used on it's own, in
+navigation mode, where it gives full GPS
+functionality and can acquire and track
+signals while being exposed to dynamic
+manoeuvres of up to 25g acceleration. It
+can also be used as part of a full hybrid
+GPS system when combined with the
+QinetiQ Ground Segment Processor (GSP).
+In hybrid mode, code measurements
+are made in the mobile receiver and
+transmitted to the ground segment where
+they are incorporated in the navigation
+solution update. In this mode the Q20 HD
+can obtain fixes in typically less than 3.0
+seconds from cold and support acquisition
+and tracking throughout dynamics of up
+to 50g.
+The QinetiQ Q20 HD module provides
+multiple interfaces and supports the
+Range Commanders Council Missile
+Application Condensed Message (MACM)
+format, to aid integration into a wide
+range of applications.
+
+The Q20 HD GPS is available in a variety of
+form factors for shells and mortars and a
+general purpose rectangular 22 X 26 mm
+reflow solder module for host platform
+integration.
+The Q20 HD has been designed to
+support the latest military test, evaluation
+and range safety applications, and
+has demonstrated that it meets the
+requirements of the U.S. Department
+of Defense Joint Advanced Missile
+Integration (JAMI) program.
+The Q20 HD also offers an ultra-compact
+C/A code GPS solution for smart
+munitions where it can provide guidance
+and tracking in low cost / high volume
+applications.
+The Q20 HD has been used on a wide
+range of air launched missiles. It has
+been successfully fired on board shells
+and mortars, surviving launch setbacks in
+excess of 20,000g.
+
+,. -
+
+Key features
+
+Jlslnon and tracking unde
+nlgn velocity and acceleration
+
+=zLy1
+
+Fast time to fi
+
+Performancetested and
+proven in a range of missiles
+and munitions
+- .-:+a4
+-
+
+&&i,;~ne*?Z--*n..
+
+Q20 High Dynamics GPS Receiver Module Specification
+Receiver Type
+
+12 parallel channel
+
+CIA L 1(1575.42 MHz)
+
+Performance
+
+RF Reception Sensitivity
+
+-160dBW
+
+Signal Acquisition
+
+4 satellites
+
+<3 sec
+
+All satellites in view (90%)
+
+<7 sec
+
+Hot
+
+< l sec
+
+Warm
+
+<38 sec
+
+Cold
+
+<45 sec
+
+Reacquisition
+
+<0.5 sec
+
+Hybrid
+
+<3 sec
+
+Module dimensions
+
+22.0mm (D) X 26.5mm (W) X 3.3mm (H)
+Custom options available inc. 43mm
+diameter
+
+Supply voltage
+
+3.15V to 3.45V
+
+Operating / Storage Temp
+
+-40°C to + 85°C / -55°C to +85"C
+
+Max Velocity / Altitude
+
+Currently set to 1,500ms-l& 30,000m
+
+Time to First Fix
+
+Physical
+
+(for higher velocity / altitude
+requirements please ask).
+Supply of modules subject to export
+controls.
+Max Acceleration /Jerk
+
+Navigation acquisition 25g / 500gs-1
+Hybrid acquisition 50g / 500gs-1
+
+Real Time Accuracy
+
+Position:
+
+Navigation <5m Hybrid <8m typical
+
+Velocity
+
+<0.5ms-1
+
+P
+-
+
+Power
+Interfaces
+
+P
+
+P
+
+<750mW
+Serial
+
+3 UART ports 230 kBaud
+
+Protocols
+
+Navigation: PVTM, MACM, Proprietary
+ASCll
+Hybrid: Proprietary Binary and ASCll with
+MACM and PVTM available from the GSP.
+
+Update Rate
+
+15.625 Hz (64mS) inc. raw data (code
+and carrier)
+
+This specification is subject to change without notice. In certain countries licence and export limitations may apply.
+
+Customer Contact
+QinetiQ
+Cody Technology Park
+lvely Road, Farnborough
+Hampshire, GU14 OLX
+United Kingdom
+Tel: +44 (0)8700 100 942
+www.QinetiQ.com
+Copyright O QinetiQ 09/11
+QinetiQ/TS/GPS/DSllO1258
+
+QinetiQ
+
+

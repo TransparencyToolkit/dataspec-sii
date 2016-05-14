@@ -1,0 +1,899 @@
+High performance signaling
+in
+gathering intelligence
+from
+Mobile Networks
+Derek Mitchell
+
+Abstract
+! Key intelligence from the network is not only the
+conversation exchanged between the parties but gathering
+the and characterizing the attributes of the conversation.
+Location, Handset and called and called identity. This
+presentation will examine the roles of signaling and the
+performance characteristics needed in modern mobile
+networks
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+2
+www.dialogic.com
+
+Slide 2
+
+Agenda
+!
+!
+!
+!
+
+Changing world
+Behaviour monitoring
+SMS monitoring & Performance
+Prepaid monitoring & Performance
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+3
+www.dialogic.com
+
+Slide 3
+
+Different Worlds
+! Size Zero banned in Milan & Madrid fashion shows
+– Allowed in London Fashion week
+
+! Hormones in meat banned in EU
+– Allowed in US
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+4
+www.dialogic.com
+
+Slide 4
+
+Different Worlds
+!
+!
+!
+!
+
+Wiretap evidence admissable in NL since 1970's
+Not admissable in UK (2006)
+EIR 100% in South Africa in 1997
+EIR 100% in UK in 2002…
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+5
+www.dialogic.com
+
+Slide 5
+
+Same World
+! Differentiation of services increases
+! Wireless market penetration increases
+! Individual usage increases
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+6
+www.dialogic.com
+
+Slide 6
+
+Same World
+! More Laws
+! More Data to analyse
+! More Anonymity
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+7
+www.dialogic.com
+
+Slide 7
+
+The World went Mobile Prepaid
+90%
+80%
+70%
+60%
+Prepaid
+Contract
+
+50%
+40%
+30%
+20%
+
+Informa
+
+10%
+0%
+2003
+
+2004
+
+2005
+
+2006
+
+2007
+
+2008
+
+2009
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+8
+www.dialogic.com
+
+Slide 8
+
+2010
+
+Rise of Identification by Behaviour
+! Behaviour became a key to identity
+– Called numbers
+– Phone swapping (IMEI changes)
+– Location patterns
+
+! Just as mobile services became more complex
+– Service usage patterns
+
+! Where can we can we find this "Complex Behaviour"
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+9
+www.dialogic.com
+
+Slide 9
+
+Usage Behaviour Complexity
+
+User
+
+Where is it realised ?
+Where is exposed?
+
+Service
+Application
+Control
+Media
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+10
+www.dialogic.com
+
+Slide 10
+
+Control Plane
+! Behavioural attributes exposed
+! Large volumes of information
+! Dynamic environment
+– Changes in Service topology
+– Changes in Technology
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+11
+www.dialogic.com
+
+Slide 11
+
+Control Plane
+Example
+SMS
+
+SMS What's Happening?
+2500
+
+2000
+
+1500
+
+1000
+
+SMS Billions
+
+Gartner
+500
+
+0
+2005
+
+2006
+
+2007
+
+2008
+
+2009
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+13
+www.dialogic.com
+
+Slide 13
+
+2010
+
+Service Topology in Flux
+
+Profile:
+4-8 million users
+6-10 SMS each per day
+Growth 10%-30%
+
+GMSC
+
+MSC
+D
+E
+
+Content
+
+SMSC
+
+C
+
+HLR
+
+Store & forward
+Key functions: Disk I/O
+& Signaling
+
+ROI 5-7 days
+Company Confidential •
+
+Must buy extra
+Copyright Dialogic Corporation 2006-2007. Dialogic
+capacity
+reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+At least 1 each year
+
+14
+www.dialogic.com
+
+Slide 14
+
+SMS router Architecture
+GMSC
+
+MSC
+Existing SMSC Store &
+forward for 20%-40%
+of Messages
+
+Content
+SMS
+Store
+
+IM
+Gateway
+Extra:
+Router copies
+each SMS for
+Security
+
+E
+
+SMS
+Router
+
+SMS
+Logging
+
+C
+
+Voting
+App
+
+Router Direct Delivery
+Without store and forward
+
+D
+
+HLR
+Typical: 1000
+MDA/Sec
+$1M to $1.5M
+
+Direct
+Premium
+Content
+
+Extra Margin:
+High volume direct
+- e.g. World cup ,
+Olympics
+
+Extra Margin:
+Big Brother 1800
+MDA/sec
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+15
+www.dialogic.com
+
+Slide 15
+
+Demands on Signaling Monitoring
+! Parallel the demand on the SMS vendors
+! Classic SMSC Vendor
+– Improve performance and lower 3rd party costs
+– Cheaper Platforms, Disk IO & Signaling, SIGTRAN
+– Adopt SMS routing
+! SMS Router Vendor
+– Very high performance demands:
+• 1000 to 20000 MDA/sec solution price below $1000 per MDA/sec
+• 2 Mbps to 10 Mbps of Signaling over IP or TDM (64 to 640 links)
+• Signaling below $200 MDA/sec
+
+– Maintain price performance over Classic SMSC
+! Price per unit Performance is Key
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+16
+www.dialogic.com
+
+Slide 16
+
+Dialogic Components for SMS Monitoring
+
+! Full high performance software range from MAP & CAMEL to M3UA
+! Prices in the $10's per MDA/second
+! High density card solutions
+
+– ~upto 2000 MDA/second per card on Card (i.e. MAP on the
+board)
+! Hi-Z on most products
+! SIGTRAN monitoring in 2007
+! ATM monitoring in 2007
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+17
+www.dialogic.com
+
+Slide 17
+
+Control Plane Example
+Mobile Prepaid
+
+Behaviour Scenario
+Mean while…
+in Hongkong
+
+Please
+Hold
+
+Verizon
+Warning
+Low
+Balance:
+
+Hi! its
+Ping in
+HK
+
+Welcome to
+Man
+U scores
+Miami
+
+are suspended
+
+In Sunny
+Florida
+Out of Credit
+1
+2
+3
+
+Top up from Visa
+Top up direct debit
+Charge to Dialogic
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+19
+www.dialogic.com
+
+Slide 19
+
+Topology to monitor
+Announcements system
+Media server
+E.g. Dialogic
+
+Home network
+Vodafone UK
+
+Signaling
+server
+
+Prepaid billing
+CAMEL
+
+MAP
+
+HLR
+“Please Hold”
+
+Prepaid
+system
+
+Signaling
+server
+
+CAMEL “Out of credit”
+
+CAMEL, MAP
+
+MAP
+
+MAP
+
+MSC
+
+MSC
+
+“How’s Florida ?”
+
+VLR
+A friend on
+SMARTONE
+Hongkong
+Company Confidential •
+
+On Holiday in
+Florida Verizon
+USA
+Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+20
+www.dialogic.com
+
+Slide 20
+
+Prepaid Systems Characteristics
+
+! 7 million users 0.5 - 2 Busy Hour Call Attempts per user
+(BHCA) = 3.5M to 14M BHCA and increasing
+– Signaling high as $0.20 but typically $0.05 to $0.10 per
+BHCA (call models etc vary this)
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+21
+www.dialogic.com
+
+Slide 21
+
+Demands on Signaling Monitoring
+! All New Services to available on Prepaid Immediately
+! Delivering evermore complex user interaction via Voice,
+SMS, Video, Web = more BHCA
+! Higher monitoring performance - Systems in 10's Million
+BHCA+
+
+! Better Price performance
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+22
+www.dialogic.com
+
+Slide 22
+
+Dialogic Components for Prepaid Monitoring
+
+! Complete software available CAP,ISUP,BICC…
+! Low Price - High Performance
+–
+–
+–
+–
+
+From 800,000 to 14 Million BHCA
+A few cents to a few 1/10 cents per BHCA
+Software, Server, Card solutions
+Hi Z
+
+! SIGTRAN Monitoring in 2007
+! ATM Monitoring in 2007
+! CAMEL IV & Diameter to follow
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+23
+www.dialogic.com
+
+Slide 23
+
+TUP
+ISDN
+MTP2
+MTP3
+ISUP
+BICC
+SCCP
+TCAP
+MAP
+CAMEL III
+INAP
+IS41
+M2PA
+M3UA
+SUA
+CAMEL IV
+Diameter
+SIP
+
+S
+
+Li
+nu
+x,
+So
+la
+ri
+s,
+
+W
+in
+S
+do
+S
+7
+S
+H
+w
+7
+D
+S
+s
+P
+S
+P
+C
+S
+C
+I
+7
+I
+A
+C
+&
+M
+ar
+cP
+1
+d
+A
+C
+TC
+I
+ca
+A
+rd
+A
+M
+C
+C
+P
+ar
+C
+d
+IEx
+S
+S
+pr
+7
+es
+G
+2
+S
+s
+X
+S
+7
+S
+G
+er
+2
+ve
+X
+G
+r
+at
+ew
+S
+S
+ay
+7
+G
+2
+X
+D
+S
+C
+
+Software platform Portfolio Breadth
+
+19 Software products
+12 different platforms
+
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+24
+www.dialogic.com
+
+Slide 24
+
+Dialogic High End Performance
+
+PCI
+
+4
+
+N
+
+4
+
+4096
+
+0.8
+
+High Density Card
+
+PCI
+
+64
+
+2Y
+
+4
+
+32768 32768
+
+17.5
+
+2245 24900
+
+High Density
+Compact PCI
+Card
+AMC Card
+
+cPCI
+
+128
+
+4Y
+
+1 6 32768 32768
+
+17.5
+
+2245 24900
+
+AMC
+
+1 2 4 Later
+
+4Y
+
+4
+
+TBA
+
+TBA
+
+TBA
+
+PCI-Express
+Future
+
+PCI-e
+
+124
+
+4Y
+
+4
+
+TBA
+
+TBA
+
+TBA
+
+SS7G2X Server
+
+RMS
+
+128
+
+6
+
+1 2 6 5 5 3 6 6 5 5 3 6 16.56
+
+SS7G2X Gateway
+
+RMS
+
+128
+
+6
+
+12
+
+SS7G2X DSC
+
+RMS
+
+128
+
+utes
+A Ro
+M3U
+
+Low Density Card
+
+nks
+A Li
+M2P
+
+136
+
+/sec
+MSU
+
+c
+/Se
+MDA
+
+4096
+
+A
+BHC
+s)
+lion
+(mil
+
+uits
+Circ
+
+rent
+ncur
+Con ctions
+sa
+Tran
+
+T1
+E1/
+
+HI-Z
+
+s
+Link
+HSL
+3
+Q70
+s
+Link
+HSL
+A
+/IM
+ATM
+
+s
+Link
+SS7
+
+at
+Form
+
+Platforms
+
+629
+
+in Development
+
+500 MDA/sec
+2M BHCA
+1800 MDA/sec
+
+4
+
+12
+
+128
+
+512
+
+12640
+
+128
+
+512
+
+12000
+(est)
+
+= 1M SMS users
+= 1M prepaid users
+= Big Brother televoting SMS peak
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+25
+www.dialogic.com
+
+3500 18700
+
+Slide 25
+
+128
+
+Summary
+
+! SMS & Prepaid
+– Undergoing change
+– Higher performance for both Applications needed
+– Improvements in price per unit performance
+needed
+
+! Dialogic
+– High end performance signaling
+– Winning Price performance
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+26
+www.dialogic.com
+
+Slide 26
+
+Dialogic, Eicon, Eicon Networks, Diva and Diva Server are either registered trademarks or trademarks of Dialogic Corporation or its subsidiaries.
+The names of actual companies and products mentioned herein are the trademarks of their respective owners. Dialogic encourages all users of
+its products to procure all necessary intellectual property licenses required to implement their concepts or applications, which licenses may vary
+from country to country.
+01/07
+Company Confidential • Copyright Dialogic Corporation 2006-2007. Dialogic reserves the right to change product plans o
+dates at any time without notice. All rights reserved .
+
+27
+www.dialogic.com
+
+Slide 27
+
+

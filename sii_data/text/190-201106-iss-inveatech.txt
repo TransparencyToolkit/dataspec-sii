@@ -1,0 +1,181 @@
+     
+
+ 
+
+ 
+
+ 
+
+           
+
+ 
+
+ 
+
+Conform to lawful interception standards 
+
+ 
+
+No impact on monitored network performance
+
+ 
+
+Seamless integration into lSP?s infrastructure
+
+ 
+
+Wire-speed, zero loss input traffic processing
+
+ 
+
+ Dynamic target identification DHCP, RADIUS
+
+ 
+
+Uni?ed management for all system components
+
+ 
+
+Up to 1000 PM and active targets
+
+ 
+
+Hardware accelerated probes for 
+
+ 
+
+Support for several independent LEAs
+
+ 
+
+"Continuous enhancements and support
+
+ads. I  4420513 255 250
+
+Vodarny 2%5/2 . +420 602 547 681;
+6163 00 Brno, Czech Republic
+
+ 
+
+   
+   
+
+Widespread information technologies provrde fast and
+
+dynamic communication media even for criminals and
+terrorists. To be able to guarantee pubiic safety, raw
+enforcement agencies {tEAsl need to'identify, intercept
+and analyze the content of the mailcrous communication.
+provides law enforcement and government
+agencies with the state of the art technology to solve the hey
+part of the investigation process. Ll System
+is the ideai instrument for coiiect-ing evidence from
+
+wired lP?based networhs,
+
+ 
+
+Architecture and implementation of the Ll System foiiows
+international standards closely while heeping high flexibility
+of the whole system. Therefore it can be depioyed in
+different countries over the world and also easily modified
+to meet national regisiative,
+
+Li system of two main components - interception
+probes and mediation device - which are deployed at iSP?s
+site InterConne'ction of the components and schematic
+instaliation are shown in the picture. Whole system is
+managed through easy-to?use web interface compatible
+ali most?used web browsers.
+
+The interception probes are located at input part of the
+processing chain. Traffic interception is based on the
+provisioned targets and their dynamic identification by
+analysis of (RADIUS, DIAMETER) or host control
+(DHCP) systems. Their non?intrusive instailation and passive
+operation mode guarantee invisibility in the networh.
+Handover of the intercepted data is performed
+by mediation device. Mediation device encapsulates data
+stream into standardized format and forwards it to LEA
+for further processing. I
+
+    
+ 
+ 
+  
+ 
+    
+
+ 
+
+MEDIATION DEVICE
+
+ 
+
+RADIUS, DHCP
+
+ 
+
+INTERCEPTION PROBES
+
+   
+
+tide" (once, RADEUS)
+fr?uspeed probes
+
+       
+    
+ 
+
+irritate-system
+its - - erf-ai independentILEAs
+
+I active targets
+
+I II: tint-cation. andapthentication
+
+
+
+ 
+
+ 
+
+ 
+
+Interception probe is the essential element of the system.-
+It is processing networh traffic and searching for the traffic
+yof interest. All intercepted traffic is forwarded to mediation
+device for convarsion to handover format.
+
+ Full-duplexlo monitoring .
+
+ LR, 51} ?ber optics supported
+
+Data export over dedicated I interface.
+Support for 1.2 protocois (MPLS. VLAN, QinQ)
+
+Standard rack-mountable form factor
+
+ 
+
+Mediation devrce is the central part of the lawful intercep?
+
+tion system. it is scalable and allows to increase volume
+
+of intercepted traffic as wet! as number of controlled
+- interception probes.
+
+for standardized handover interfaces
+Handles multiple interception probes
+User friendly management interface
+
+Standard rack-mountabie form factor
+
+ 
+
+Please contact for pricing and additional
+
+information about "this product.
+
+ 
+

@@ -1,0 +1,820 @@
+VTS
+
+Vehicle Tracking Systems
+
+TSU INDEX
+Vehicle Tracking Systems
+Ref
+
+Number
+
+Description
+
+1
+
+7301
+
+Vehicle Tracking System with Magnet Base
+
+2
+
+7302
+
+GPS Vehicle Tracking System
+
+3
+
+7303
+
+Vehicle Tracking Management Software
+
+4
+
+7304
+
+Container Tracking System
+
+5
+
+7305
+
+Tracking via SMS Finder
+
+6
+
+7306
+
+BTS Cell Site Information Software
+
+7
+
+7307
+
+Covert RF/GPS Vehicle Tracking System
+
+8
+
+7308
+
+Covert RF/GSM/GPRS/GPS Vehicle Tracking System
+
+VEHICLE TRACKING SYSTEM
+WITH MAGNET BASE
+
+Model 7301
+
+Model 7301 is a professional GPS location system for monitoring and tracking of uncooperative
+target vehicles.
+The development of the Model 7301 was the result of a cooperative effort between Elaman
+and members of the intelligence community. Utilizing tracking system design and
+manufacturing experience, Elaman developed the Model 7301 based on requirements from real
+world intelligence professionals, for a system with a rapid deployment capability. The result
+was a complete, highly flexible system with a wide range of options for the collection,
+transmission and electronic map display of geographic position data that can be installed quickly
+and covertly.
+The system consists of:
+• The Model 7301 remote unit is a self-contained tagging
+device. It has a magnetic mount for fast and easy
+installation. The internal and not rechargeable high
+capacity battery, combined with the low power
+consumption of the remote unit, supports extended
+deployments without operator intervention. The Model
+7301 remote unit can store up to 300,000 positions
+between downloads.
+• The 7301 Management Software interface provides control of the following Model 7301
+remote unit functions:
+• Localization - real-time reporting or historical log download of geographic position via GSM
+or GPRS
+• SMS transmission - time schedule, time intervals or alarm activation for reporting of the
+geographic position via SMS to a mobile phone or a PC with a GSM wireless modem card
+enabled for SMS
+• Low Power Consumption – Motion Sensor
+The 7301 Management Software stores the information sent from the Model 7301 remote unit
+and manages the display of data seamlessly on raster, MaPoint maps or Google Earth.
+
+FEATURES:
+• separate power supply for GSM and GPS modules: the remote unit can get points
+according to parameters chosen by the user and keeps the GSM module off, thus
+prolonging battery life
+• alarm loss GPS position: in case of lack of GPS position after a certain chosen time, the
+device sends an alarm SMS with the last fixed position
+• sends GSM position: in case of lack of GPS signal and with a movement the device sends
+an SMS with the information regarding the primary GSM cell to which it is registered
+• SMS sending to two different SIM numbers: the information can be sent to two preset
+GSM numbers
+• forced wake up: it is possible to keep the unit in a dormant status to conserve the battery
+and it is possible to set a forced wake up cyclically or one shot
+• geo fence: it is possible to manage two independent rectangular areas. Entering or exiting
+from an area generates an SMS to the preset GSM numbers
+
+1
+
+VEHICLE TRACKING SYSTEM
+WITH MAGNET BASE
+
+Model 7301
+
+MODEL 7301 REMOTE UNIT WITH NON-RECHARGEABLE BATTERY
+GPS receiver with memory and digital data transmission through GSM modem 900/1800,
+850/1900 or GPRS
+power supply
+
+3.6 V dc
+5 V – 36 V with Model 7301
+Interface
+
+memory
+
+300.000 points
+
+acquisition modes
+
+time or space
+
+GPS received channels
+
+16
+
+high capacity battery (not
+rechargeable)
+
+SAFT LSH 20 13.0 Ah
+
+weight (g) without magnetic base
+and battery
+
+140
+
+dimensions (mm)
+
+85 x 38 x 47
+
+(Li-SOCI2) D Size cell
+
+MODEL 7301 INTERFACE FOR DOWNLOADING TO A PC AND CONNECTION FOR
+AN EXTERNAL POWER SUPPLY
+power supply
+
+4.75÷35 V d
+
+output
+
+USB
+
+dimensions (mm)
+
+85 x 38 x 11
+
+MANAGEMENT SOFTWARE
+Compatible with Windows 2000/XP
+•
+•
+•
+•
+•
+
+developed for Windows 2000/XP
+management of all models of Elaman's remote units
+management of a remote unit book, with different settings for each remote unit
+total control of remote unit functions
+usage of different communication channels (serial cable, GSM-data)
+Model 7301 Software
+license - dongle for
+serial port
+
+Model 7301 Software
+license - dongle for
+USB port
+
+2
+
+GPS VEHICLE TRACKING SYSTEM
+
+Model 7302
+
+The Model 7302 is a covert real-time tracking, locating and monitoring system for uncooperative
+mobile targets. The Model 7302 is the newest revolutionary advancement in the well
+established line of Elaman Tracking Systems. The Model 7302 is the result of a cooperative
+effort utilizing the extensive design and manufacturing experience of Elaman and the real world
+knowledge of intelligence professionals. It is a complete, extremely flexible system with a wide
+range of options for the collection, transmission and electronic map display of geographic
+position data.
+The system consists of:
+
+•
+
+The Model 7302 remote unit, which is concealed
+on or inside the target vehicle. The Model 7302
+includes a connection for two remotely selectable
+microphones for audio monitoring that can be
+hidden in different areas inside the vehicle. It
+communicates with the monitoring station over the
+cellular network (GSM/GPRS or CDMA). The Model
+7302 built-in memory stores up to 300,000
+positions, which provide a downloadable historical
+tracking record in situations when real-time
+communication is not possible.
+The 7302 Management Software interface can set the following Model 7302 remote unit
+operating options via the cellular link:
+• Call type – select between the voice, data or GPRS communications modes
+• Audio monitoring – enable/disable and control audio monitoring of target vehicle
+• Localization – control the real-time or historical download of geographical position data via
+GSM/GPRS or CDMA communications link
+• Alarm activation – set movement, VOX, entrance/exit from a predefined area (geo-fence),
+digital commands, device operating conditions
+• SMS transmission – set a time schedule, timed interval cycle or alarm activation condition
+for reporting the geographical position to a mobile phone or to a PC with a GSM or CDMA
+wireless modem card enabled for SMS
+• Energy saving – utilization of special hibernation states, and programming the remote unit
+to turn on and off at specific times or for alarm events
+
+TECHNICAL FEATURES
+MODEL 7302 REMOTE UNIT
+GPS receiver, track memory and data transmission via the GSM 900/1800, GSM 850/1900,
+GPRS or a CDMA network, as specified at time of order
+power supply
+
+4.75÷35 V dc
+
+consumption
+
+fFrom 70 microA to 200mA @ 12V
+
+memory
+
+300.000 points
+
+acquisition period
+
+1 sec to 18 hours
+
+digital & analog input and output
+
+5
+
+GPS received channels
+
+16
+
+1
+
+GPS VEHICLE TRACKING SYSTEM
+audio microphones
+
+2 mono, remotely selectable
+
+Weight (gr). with magnetic base
+
+280
+
+Weight (gr). without magnetic base
+
+100
+
+dimensions (mm)
+
+135 x 50 x 14
+
+Model 7302
+
+MANAGEMENT SOFTWARE
+Compatible with Windows 2000/XP or higher
+•
+•
+•
+•
+•
+
+developed for Windows 2000/XP
+management of remote units
+management of a remote unit book
+total control of remote unit functions
+usage of different communication channels (serial cable, GSM–data, GSM-voice, GPRS,
+radio)
+• management of database recorded tracks, with time-base analysis
+
+Model 7302 Software
+license - dongle for
+serial port
+
+Model 7302 Software
+license - dongle for
+USB port
+
+COMPUTER NOTEBOOK
+Features
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Screen: 10.4” XGA (1024 x 768 Pixel)
+Intel Pentium M (753)
+CPU – 1100 MHz
+RAM: 512/ Max
+RAM: 1024 MB
+HDD: 40 GB
+DVD/CD-RW Combo
+Graphic Card: Intel 855 GM
+Graphics memory: Shared Memory
+Slot Extension: PC- Card Type I
+PCMCIA SM Modem
+Pre installing of client SW
+
+Accessories
+• MS02 – Magnetic mount for the 7302
+remote unit
+• PK01- Rechargeable external battery
+pack with magnetic mount
+• DP - Dual port PCMCIA adaptor for
+Notebook PC
+• PM GSM - PCMCIA GSM modem for
+Notebook PC
+
+2
+
+VEHICLE TRACKING
+MANAGEMENT SOFTWARE
+
+Model 7303
+
+MANAGEMENT SOFTWARE
+Compatible with Windows 2000/XP
+• Developed for Windows 2000/XP
+• Management of all models of Elaman's remote units
+• Management of a remote unit book, with different settings for each remote unit
+• Total control of remote unit functions
+• Usage of different communication channels (serial cable, GSM-data)
+• Management of database recorded tracks, with time base analysis
+• Compatible cartography: raster maps and vectorial Windows MapPoint based maps
+• Internal software able to georeference raster maps
+• Possibility to use Divitech maps
+• Possibility to load raster maps format GEOTIFF
+• Integration with Google Earth - it is possible to visualize the fix in real-time and the
+downloaded tracks on the maps of web tool Google Earth
+
+1
+
+CONTAINER TRACKING SYSTEM
+
+Model 7304
+
+Model 7304 is a professional GPS tracking system designed for covert deployment on a cargo
+shipping container. The physical appearance of the unit remote’s steel case resembles the
+undulations of a cargo container. The Model 7304 remote unit is designed to be welded onto
+the shipping container so that the container can be tracked during transport. The Model 7304
+remote is a stand alone unit that can be used to monitor the movement of goods transported in
+a shipping container by truck, rail or sea. The
+unit communicates with the monitoring station,
+via the GSM network, to provide both
+geographic position data and audio surveillance
+capability. If the container moves to an area
+without GSM coverage, the remote unit stores
+up to 300,000 geographic positions, which can
+be downloaded when communications are reestablished.
+The system consists of:
+
+• The Model 7304 remote unit composed of a sealed steel case with 4 individually selectable
+microphones – one on each side. The remote unit has a rechargeable battery and a
+magnetically activated power on/off switch
+
+• The Management Software interface provides control of the following Model 7304 remote
+unit functions:
+• Call – via the data channel of the GSM network
+• Localization - real-time reporting or historical log download of geographic position via GSM
+network
+• SMS transmission - time schedule, time intervals or alarm activation for reporting of the
+geographic position via SMS to a mobile phone or a PC with a GSM wireless modem card
+enabled for SMS
+• Energy saving – utilizing special hibernation states and programming the remote unit to
+turn on and off at specific times and events
+The Management Software stores the information sent from the Model 7304 remote unit and
+manages the display of data seamlessly on raster, MaPoint maps or Google Earth.
+The Management Software programs the functions of the remote unit, has the flexibility to
+handle the varied needs of different customers, and is password protected to prevent
+unauthorized use.
+
+1
+
+CONTAINER TRACKING SYSTEM
+
+Model 7304
+
+MODEL 7304 REMOTE UNIT
+GPS receiver with memory and digital data transmission using an internal GSM modem (either
+a 900/1800 MHz or 850/1900 MHz)
+power supply
+
+in-built battery
+
+consumption
+
+from 70 microA to 400mA @7.2 V
+
+memory
+
+300,000 points
+
+acquisition modes
+
+1 sec. to 18 hours
+
+GPS received channels
+
+16
+
+audio microphone
+
+4 mono, remotely selectable
+
+MANAGEMENT SOFTWARE
+Compatible with Windows 2000/XP
+• developed for Windows 2000/XP
+• management of all models of Elaman's remote units
+• management of a remote unit book, with different settings for each remote unit
+• total control of remote unit functions
+• usage of different communication channels (serial cable, GSM - data)
+• management of database recorded tracks, with time-base analysis
+• compatible cartography: Raster maps and vectorial windows MapPoint based maps
+• internal software able to georeference raster maps (settable by customer)
+• possibility of using topographic and professional aerial photos
+• possibility of using third party cartography software to receive GPS data
+Model
+7304
+Software
+license - dongle for serial
+port
+
+Model
+7304
+Software
+license - dongle for USB
+port
+
+2
+
+TRACKING VIA SMS FINDER
+
+Model 7305
+
+Elaman is proud to introduce a new generation of GSM tracking systems with the Model 7305,
+a versatile tool with a wide range of audio monitoring and tracking application possibilities:
+• it can easily be hidden virtually anywhere, or on anything,
+and can communicate its position via the GSM network to
+the monitoring station, which provides a display of its
+location on dedicated maps
+• it is equipped with a variable gain microphone for audio
+monitoring in situations where it is not possible to use
+conventional RF transmitters
+• Its operating configuration is programmed using SMS messages. There are many
+functions that can be programmed, including alerting the monitoring station when the unit
+has entered a predefined area and audio monitoring control
+• It also includes a micro switch, which when pressed, initiates a call to a previously
+designated phone number that can also be used as a duress alert.
+The device has been totally redesigned using the latest generation components to provide
+major performance enhancements:
+• Quadriband: The new GSM module allows Model 7305 to operate on 850, 900, 1800 and
+1900 MHz frequency bands, enlarging its use to several countries
+• Half dimensions: the already compact dimensions of the previous version of Model 7305
+have been reduced almost by half, enabling easier concealment
+• Reduced power consumption: the stand by power consumption has been reduced by a
+factor of 10 to provide a longer battery life
+
+1
+
+TRACKING VIA SMS FINDER
+
+Model 7305
+
+TECHNICAL FEATURES
+compatibility
+
+GSM 850/900/1800/1900
+
+power supply
+
+3,6÷4,5 V
+
+microphone
+
+one, with sensitivity adjustment
+
+stand-by consumption
+
+0,3 mA @ 3,6 V (with inside motion sensor)
+
+digital outputs actionable with SMS
+
+2
+
+external input
+
+1
+
+weight (gr)
+
+25
+
+dimensions (mm) without antenna and
+power supply cables
+
+45 x 35 x 8
+
+VISUALIZATION
+The information on the target location sent by the Model 7305 can be processed and reported
+on maps using SMS Machine software, which displays the area associated with the BTS(s),
+where the device is located (Time Advance location estimation).
+When no database of the BTS position is available, it is possible to create the GSM map of an
+area using the BTS cell information software, thus tracking targets without GPS availability.
+BTS cell information software is a useful tool for all customers who use the Model 7305 for the
+GSM tracking because it provides more precise target localization than Time Advance
+estimation alone can.
+The BTS cell information software system is composed of a collector unit, which acquires the
+GPS positions for an area and then correlates them to those of the BTS sites of the different
+provider, and by a software that
+manages the download of the
+collector
+unit,
+processes
+the
+recorded data and generates a
+database for display of the surveyed
+locations on the appropriate map.
+The information sent by the Model
+7305 is compared with data stored
+in the database and the most likely
+target positions are visualized on the
+mapping display.
+When the BTS location database is
+available from the service provider,
+the estimated target location area,
+based on Time Advance, is also
+displayed.
+
+2
+
+BTS CELL SITE INFORMATION SOFTWARE
+
+Model 7306
+
+The BTS cell site information software is a new system that allows the GSM map of an area to
+be created, thus tracking targets without a GPS localizer.
+The system is composed of:
+• The collector unit that acquires the GPS information of an area
+and correlates it to those of the BTS sites of the different local
+providers
+• The software, to manage the unit to download the recorded data
+and show it on the map.
+
+OPERATING MODE
+During the survey phase, the collector unit records a set of information about the main BTS to
+which it is registered and of its adjacent cells.
+The unit acquires one provider at a time, according to the SIM card installed.
+The recorded data is downloaded on the PC via a serial cable and managed by a flexible and
+reliable database (PostgreSQL extension GIS).
+The information sent by the SMS finder is compared with that stored in the database and the
+most likely target position is visualized on the mapping display.
+When the BTS location database is available from the service provider, the possible target
+location area based on Time Advance is also displayed.
+
+1
+
+COVERT RF & GPS
+VEHICLE TRACKING SYSTEM
+
+Model 7307
+
+The unit is an RF tracking and GPS location system built into one easy-to-use package. The
+equipment fits into one suitcase and can be deployed onto any tracking vehicle in less than 5
+minutes.
+
+FEATURES
+• Installed and ready to use in under five minutes
+• RF tracking signal and live GPS fix transmitted back to tracking vehicle
+• Maps on a Laptop PC display GPS fixes of both target and tracking vehicle
+• Automatic adjustment of averaging reduces the influence of multi-path bearing
+• Single page controller display shows all tracking information including beacon status
+• Audible tone varies according to range for ease of use
+• Audible alarms may be triggered by changes in beacon status
+• Built-in transmitter commands Elaman's beacons
+• Digital signal processing removes need for operator tuning and improves sensitivity
+The unique feature of the unit is the benefit of adding live GPS data to the tried and tested RF
+tracking capability of the previous generation.
+This provides the operator with the best of both worlds.
+
+DEPLOYMENT OF THE DIRECTION FINDING SYSTEM
+1. Place the beacon and GPS antenna on the target vehicle
+2. Connect the unit to the car's cigarette lighter
+3. Connect Laptop to the unit
+4. Place the antenna pod on the roof (arrow pointing towards the front of the car)
+5. Connect antenna pod to the unit and switch on
+
+Figure 1: Deployment of the Tracking System
+1
+
+COVERT RF & GPS
+VEHICLE TRACKING SYSTEM
+
+Model 7307
+
+SIMPLICITY FOR THE FIELD OPERATOR
+Once deployed, the field operator can use the hand-held controller to locate and follow the
+target. The direction to the target is displayed as a pointer. Simple icons display the status of
+the beacon (parked, stopped or moving, and the state of the sense input). The relative signal
+strength is shown as a bar graph. Both the direction and signal strength are displayed
+numerically. The audio tone increases in frequency as the unit gets closer to the target, giving a
+clear warning of a close encounter.
+Simultaneously, GPS fixes of both target and tracking vehicle can be displayed on a digital map
+on a laptop PC. The display also gives an indication every time there is a valid GPS fix. The live
+GPS signal from the target vehicle is transmitted back to the unit via the RF link (up to 3
+kilometres.
+For long-term operations the Elaman series of beacons can be commanded by the unit. This
+allows the beacon to be deployed on the target and then put to sleep and woken up, as the
+operation requires.
+
+SIMPLICITY FOR THE FIELD STATION CONTROLLER
+A field station controller may have many beacons at different frequencies and of differing types
+to control. The unit can be programmed with 26 channel frequencies, which can then be linked
+to specific beacons.
+Once this has been done, the unit need only be told to select, say beacon 1 and it will
+automatically configure and optimize itself to that beacon.
+
+THE MODEL 7307 SIMPLY ADDRESSES ALL TRACKING REQUIREMENTS
+Whether your requirement is for a single beacon, or numerous implant beacons deployed at any
+one time, the unit responds to your needs.
+
+2
+
+COVERT RF/GSM/GPRS/GPS
+VEHICLE TRACKING SYSTEM
+
+Model 7308
+
+This unit is a fully integrated tele-commandable GPS beacon with both RF transmitter and
+GSM/GPRS back-link facilities. Its features and functionality are optimized for use with Elaman’s
+RF/GPS tracking systems and takes GPS tracking to new levels of performance. Powerful
+behavior modes allow the operator to live track and command over RF, GSM and GPRS links.
+This combination offers the ultimate in flexibility and range allowing the operator to respond to
+operational threats and opportunities to maximize mission life and minimize the possibility of
+beacon compromise.
+
+FEATURES
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Real-time GPS tracking and command over RF, GSM Data, SMS and GPRS
+Full beacon functionality
+SMS alert functions
+Fast logged data download over RF or cellular back links
+Microphone input for audio over the GSM link
+Combined SMS tracking and audio transmission
+Combined RF and SMS tracking
+Trigger sensing input and output switch
+Zone dependent behavior linking the beacon’s behavior to its geographical location
+Mapping and beacon configuration application available for PC
+External power connection for user’s preferred power supply
+Compact size maximizing deployment possibilities
+
+TRACKING MODES
+The beacon can be programmed or commanded into any of the tracking modes. Furthermore,
+the beacon can be programmed to operate in different modes, according to its geographic
+location or level of threat.
+Tracking Mode:
+The unit pulses and GPS location is transmitted over same RF.
+GPRS Tracking Mode:
+GPS location transmitted over GPRS link.
+Town Mode:
+The beacon transmits GPS positions at distance intervals instead of time intervals with RF
+Pulses on.
+GPRS Town Mode:
+The beacon transmits GPS positions at distance intervals, instead of time intervals over the
+GPRS link.
+Highway Mode:
+For high-speed tracking where GPS data is transmitted at long distance intervals and at highway
+exits.
+GPRS Highway Mode:
+For high-speed tracking where GPS data is transmitted at long distance intervals and at highway
+exits.
+Transponding Mode:
+Only the unit pulses are transmitted, but GPS location can be requested by RF command.
+1
+
+COVERT RF/GSM/GPRS/GPS
+VEHICLE TRACKING SYSTEM
+
+Model 7308
+
+Roaming Mode:
+Only beacon status information is transmitted (ID number, motion status and logging status).
+Mute Mode:
+All RF output is switched off, but GPS location can be requested by RF command.
+GSM Ready Mode
+No GSM transmission, but GSM module is powered up ready to receive either an incoming
+CSD connection, or an incoming SMS command. This mode can be used during normal
+tracking.
+GPRS Ready Mode
+Whilst the beacon is awake, it will maintain a GPRS connection to the network. No tracking data
+will be transferred, to allow timely response to commands from the control point.
+
+TECHNICAL SPECIFICATIONS
+RF Transmitter
+Center Frequency Range:
+
+150 - 180 MHz or 390 - 420 MHz
+
+Power:
+
+0.3W ±1.5dB (normal power)/ 1W ±1.5dB (high power mode)
+
+Channels:
+
+16 users defined in 5MHz band
+
+Spurii:
+
+<-60dBc
+
+Stability:
+
+Stable up to SWR 1:7
+
+Output Impedance:
+
+50 Ω
+
+RF Antenna Connection:
+
+SMA
+
+Transmission Modes:
+
+6
+
+Data Rate:
+
+38400 Bits per sec nominal
+
+Receiver
+Frequency Range:
+
+150 - 180 MHz/390 - 420MHz
+
+Customer Retuneable Band: ±2.5MHz from chosen center frequency
+Channels:
+
+16 user defined in 5MHz band
+
+Type:
+
+4kHz FSK
+
+Sensitivity:
+
++5 to -120dBm
+
+IP3:
+
+-28dBm @ 25°C, -33dBm @ 60°C, -44dBm @ -30°C,
+
+Blocking:
+
+65dB @ 25°C, 59dB @ -10°C, 56dB @-30°C
+
+GPS Module
+TTFF:
+
+<60 seconds average from a cold start
+
+Antenna:
+
+3.3V SSMA connector
+
+Logging Modes:
+
+4
+
+Number of data points:
+
+532,480
+
+2
+
+

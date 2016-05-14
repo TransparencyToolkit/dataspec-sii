@@ -1,0 +1,216 @@
+,
+
+Ethernet ComProbe
+
+®
+
+A Non-Intrusive, Aggregating and Portable Ethernet Tap
+
+Power and Simplicity
+There is power in simplicity and Frontline delivers both in their newest Ethernet tap: the
+Ethernet ComProbe. Ethernet professionals know the potential headaches involved in troubleshooting network issues. Even just capturing packets, good and bad, across network
+devices can be a chore. The analysis devices themselves become part of the network and
+add complexity to the network analysis process.
+Frontline’s Ethernet Comprobe Ethernet tap comes to the rescue. It is completely invisible
+to the network, fully bi-directional, and all in a box the size of your palm!
+
+Ethernet Comprobe Features:
+l Captures and aggregates bi-directional
+Ethernet data: No need to install and set up
+multiple NIC cards or deal with separate capture files for each direction. All the data is in
+one source.
+lInvisible to the network: The Ethernet
+ComProbe is completely invisible to the network. Information is sent to the analysis machine via USB. Does not interfere with auto
+negotiation/speed or duplex settings.
+l Guarantees Network Connectivity: The
+“Permanent Network Link” feature ensures
+that your network connection will never be
+interrupted even if your analysis PC’s power
+fails or the USB port is disconnected.
+
+Invisibility and Bi-directional Captures
+The Ethernet ComProbe captures and aggregates bi-directional Ethernet data and sends it
+to the analysis PC via a single USB port. The Ethernet ComProbe is non-intrusive and
+completely invisible to the network. The Ethernet ComProbe and the analysis PC do not
+show up as a nodes on the network, but they see everything flowing in both directions
+across the wire.
+The Ethernet ComProbe tap captures both good and bad (or broken) Ethernet frames.
+Regular network interface cards (NIC) discard bad frames. Without Frontline’s Ethernet
+ComProbe you would not be able to see these broken frames.
+Frontline’s Ethernet ComProbe tap uses USB power during data capture and there is no
+need for an external power supply. The tap guarantees network connection even without
+USB port power. It delivers comprehensive, bi-directional, aggregated Ethernet data for
+ALL packets passing through the network.
+
+l PoE Compatible: Forwards PoE power
+to end devices.
+l NetDecoderTM and EthertestTM software
+compatible: You can fully leverage the
+power of Frontline’s software analysis tools
+using the Ethernet ComProbe
+l Compatible with Wireshark: Also compatible with the free, open-source Wireshark
+protocol analyzer.
+
+Debug Communications Faster!
+
+SM
+
+Ethernet ComProbe
+
+®
+
+A Non-Intrusive, Aggregating and Portable Ethernet Tap
+
+NetDecoderTM and EthertestTM
+Highlights:
+Frontline's NetDecoder and Ethertest analyzers monitor and provide detailed timing, data and messaging
+information for Ethernet networks. To aid network diagnostics this information is organized in various
+views and displays: Network View, Dashboard View,
+Frame Display, Event Display, and Network Statisitics.
+
+Using the Ethernet ComProbe is a Breeze
+To use Frontline’s Ethernet ComProbe, simply install Frontline’s NetDecoder or Ethertest on
+your analysis PC. The Frontline CD includes the drivers and the “Quick Start Guide” to
+help you get started. Follow the simple set up process and you will be ready to go in a few
+minutes.
+To start capturing Ethernet traffic unplug one end of the Ethernet cable and plug it into the
+Ethernet ComProbe. Use the supplied Ethernet cable to reconnect the Ethernet device to
+the network and you are done. Then with the analysis PC connected via USB port you
+can begin capturing live Ethernet data. It’s that simple.
+
+Specifications
+
+Network View
+l Traffic flow at all Nodes
+
+Performance
+
+l Packets/Bytes Transmitted & Received
+l Utilization/Broadcast Information
+l IP/MAC Addresses
+l Assign User Friendly Names for each Node
+
+l
+
+Supported Speeds: 10/100 Mbps Ethernet
+
+l
+
+Operating Systems: Windows XP, Vista, 7 (32-bit and 64-bit)
+
+l
+
+The performance of the monitoring depends upon the performance of the analysis PC
+and the number of USB devices attached to the analysis PC.
+
+l
+
+The Ethernet ComProbe is transparent, non intrusive in the network and can not cause
+any failure or mal-functioning.
+
+l
+
+Also without the USB port connected the network connectivity is guaranteed.
+
+Connectors
+l
+
+Two 10/100 RJ45 Ports (network ports)
+
+l
+
+One USB 2.0 port (monitoring captured data)
+
+l
+
+If the other equipments are not auto MDI/MDIX the device must be connected with a
+cross and a straight cable.
+
+l
+
+The USB cable must be a USB 2.0 certified cable. The cable should not exceed 5m.
+
+l
+
+CAT5e cable for the RJ45 ports
+
+LED Indicators
+Dashboard View
+l Network Utilization Histogram
+l Meters for Utilization, Bad Packets, Top
+
+Talker
+
+l Network Alarms for Unauthorized IP
+
+Addresses/Applications
+
+l Email Notification Option for Alarms
+
+l
+
+Front: Two for link/activity and Two for CRC error indications
+
+l
+
+Back: One for USB power
+
+Physical Specifications
+l
+
+Dimensions: 0.96 x 4.09 x 2.17 inches (24.5 x 104 x 55.2 mm)
+
+l
+
+Weight: 4.93 ounces (140 g)
+
+l
+
+Power Consumption: 250mA in USB 2.0 High Speed and 150mA in USB 1.0 Full
+Speed
+
+l
+
+Power Requirements: No External Power required; Powered by USB while capturing
+data
+
+Operating Conditions
+l
+
+Operating Temperature: 32°F to 131°F (0°C to 55 °C)
+
+l
+
+Storage Temperature: -4°F to 158°F (-20°C to 70 °C)
+
+l
+
+Humidity (non condensing): 10 to 90%
+
+Certifications
+l
+
+RoHS Compliant and CE certified
+
+PoE Compatibility
+l
+
+The tap forwards PoE power to the end devices
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Debug Communications Faster!
+
+SM
+
+© Copyright 2010. Frontline Test Equipment, Inc. All rights reserved. Debug Communications Faster! is a service mark, and Frontline is registered
+trademark of Frontline Test Equipment, Inc. The Bluetooth word mark and logos are registered trademarks owned by Bluetooth SIG, Inc. and any use of
+such marks by Frontline is under license. Other trademarks and trade names are those of their respective owners.
+
+

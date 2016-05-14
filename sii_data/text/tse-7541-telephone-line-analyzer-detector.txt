@@ -1,0 +1,146 @@
+Telephone Line
+Analyzer Detector
+
+CONFIDENTIAL––Subject
+Subjectto
+tochange
+changewithout
+withoutprior
+priornotice!
+notice!––FOR
+FORCIVIL
+CIVILUSE
+USEONLY
+ONLY
+CONFIDENTIAL
+
+1
+
+Telephone Line Analyzer Detector
+
+Features
+• Digital Demodulation to confirm that the
+telephone line is not passing audio (demodulation
+code is upgrade able for new phone systems,
+expected to cover 80% of world’s PBX/ACD
+phone systems)
+• Frequency Domain Reflectometer (FDR) similar
+to TDR to check for taps on the line
+• NLJD Line Trace Probe for verifying electronic
+taps and tracing wires to locate electronics
+• Audio Oscilloscope with active input (20Hz to
+20KHz)
+• High Gain Audio Amplifier (20Hz to 20KHz)
+• Digital Multimeter tests voltage, current,
+resistance & capacitance
+• Bias Generator +-80 VDC, direct digital control to
+use with Audio Amplifier, NLJD, and FDR.
+• Automatic Internal Pair Switching automatically
+performs tests on all pair combinations
+• RF Broadband Detector tests lines for RF up to
+8GHz
+• Multi-Test Database System performs multiple
+tests at once on all pair combinations, storing
+data in a database for comparison against other
+lines and historical comparison
+
+CONFIDENTIAL – Subject to change without prior notice! – FOR CIVIL USE ONLY
+
+2
+
+Technical Specifications
+Control System
+Primary Computer:
+Internal Memory:
+Digital I/O
+Network:
+USB:
+Analog I/O
+Headphone Output:
+Microphone Input:
+User Interface
+Hard Keys:
+Encoder:
+Test Inputs:
+
+32bit RISC processor, 520MHz
+64MB SDRAM (OS), 64MB Flash
+
+10/100 Ethernet Controller
+USB Host (B type) for connection to PC; USB Device (A
+type)
+3.5mm Stereo connector
+3.5mm Mono input
+
+12 Soft Menu Keys, 5 Button Quadrant Navigation
+High-Resolution Optical Encoder
+Dual MOD8: Supports 2, 4, 6, & 8 wire Modular Phone
+Jacks
+
+RF System
+Spectrum Analyzer:
+Broadband Detector:
+
+Dual Conversion, Super-Heterodyne Receiver 10-85mhz
+RF SMB Input: 100 kHz to 8GHz
+
+Digital Multimeter
+Range:
+AC/DC Volts:
+
+Quick Response Auto-Ranging, 500msec Sample Rate
+0 to 400VDC, 0 to 250VAC
+
+Bias Generator
+Optically Isolated, Dir: High voltage DAC
+Audio
+Optically Isolated:
+Bandwidth:
+
+Wideband Audio path optically isolates user from
+connection
+10MHz at nominal gain of 40dB
+
+Power System
+AC Input:
+Removable Battery:
+
+100-240V, 50-60Hz
+Rechargeable Lithium ion, 4-6 hours of run time
+
+Mechanical
+Dimensions:
+Weight with Battery:
+
+24.1cm x 30.5cm x 5.0cm
+2.7 kg
+
+CONFIDENTIAL – Subject to change without prior notice! – FOR CIVIL USE ONLY
+
+3
+
+Software
+
+Digital PBX Demodulation
+Includes Digital Decoding capabilities for
+approx 80% of all digital phone systems.
+Upgradeable downloads
+
+NLJD Line Trace Capability
+NLJD Line Tracer Probe not only traces lines,
+it also detects any electronic devices on the
+line-tape
+
+Frequency Domain Reflectometer
+Similar to traditional TDR, however, no blind
+spots and more consistent resolution
+
+CONFIDENTIAL – Subject to change without prior notice! – FOR CIVIL USE ONLY
+
+4
+
+CONFIDENTIAL – Subject to change without prior notice! – FOR CIVIL USE ONLY
+
+5
+
+

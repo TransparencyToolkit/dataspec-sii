@@ -1,0 +1,117 @@
+Telephone Line Monitoring 
+Zebra Optical Gateway 
+
+CONFIDENTIAL
+
+1
+
+Zebra optical gateway
+The Zebra optical gateway is designed to connect
+the Zebra monitoring centre system to
+SDH/SONET and E3/DS3 telephony networks. It
+provides a highly dense connectivity solution: 2
+bi-directional STM1/OC3 carriers can be
+intercepted in a single 1U 19” rack module. The
+unit supports 1 STM4/OC12 input. An expansion
+module (currently under development) provides
+connectivity for 12 E3/DS3 inputs. Used in
+conjunction with the Zebra monitoring centre
+system, the Zebra gateway provides a very
+powerful telecommunications monitoring solution.
+Unlike general purpose media gateways and
+protocol converters, the Zebra gateway is
+designed to support the requirements of
+communication monitoring. This allows the Zebra
+monitoring centre system to support features
+that were not possible with the previous
+generation of monitoring equipment, for example:
+• The Zebra gateway and Zebra monitoring centre system can process primary rate carriers
+containing only SS7 signaling timeslots (e.g.: 31 signaling timeslots on an E-1)
+• The Zebra gateway supports any combination of hyper channels (consecutive timeslots
+used together to provide one bigger n x 64 kbps channel) together with E0/D0 (64 kbps)
+channels on the same carrier
+• The Zebra gateway supports channelized E1/T1, E3/DS3 and STM1/OC3 (unframed
+streams used as bit streams)
+• E1/T1, E0/DS0 channels, hyper channels and channelized carriers can be mixed on the
+same gateway
+• The Zebra optical gateway can be used in conjunction with other Zebra gateways (for
+example: the Zebra E1/T1 gateway) in the same Zebra monitoring centre system
+• The Zebra monitoring centre system reads data from the Zebra gateway over Ethernet,
+allowing the processing of monitored streams to be farmed out to as many servers on the
+network as required for the connected capacity. This allows a Zebra system to be scaled
+up to an unprecedented capacity of over 150 000 monitored channels in a single system
+
+CONFIDENTIAL
+
+2
+
+Specifications
+
+Dimensions and
+weight
+
+Capacity
+
+Carrier type
+configuration
+Channel
+configuration
+Input signal
+strength
+Termination and
+connectivity
+LAN
+AC power input
+
+The Zebra optical gateway is a 1U 19” rack module
+8kg
+8 SDH inputs provide a capacity of 4 monitored SDH bearers, each
+with a protection switching input. The system supports automatic
+switchover to the backup bearer when protection switching is used.
+All the traffic offered on every connected STM-1 bearer, or one
+STM-4 bearer can be processed.
+4 × STM1/OC3 or 1 × STM4/OC12
+On expansion module: 12 × E3/DS3
+Any combination of signaling channels, bearer channels, hyper
+channels and channelized primary rate, E3/DS3 or STM1/OC3 may
+be configured.
+0 to – 40dB
+SFP connectors offer:
+Optical connectivity short and long-haul.
+Electrical connectivity for STM1/OC3.
+Coaxial 1.6/5.6 connectors support electrical connection of E3/DS3.
+3 × 1 Gbps Ethernet
+Copper or fibre
+110V to 240V AC
+Automatic switching
+
+Redundant power 110V to 240 VAC
+input
+Automatic switching
+Power
+consumption
+Multiplexing
+
+VoIP
+
+ATM
+
+100W
+All standard types of multiplexing are supported, including, E13,
+M13 and G.747.
+The Zebra gateway supports the interception of VoIP streams in
+hyper channels or channelized primary rate or higher multiplexed
+streams.
+Protocol processing is on open platforms.
+Interception of ATM carried over E1/T1 is supported.
+Protocol processing happens on open platforms.
+
+CONFIDENTIAL
+
+3
+
+CONFIDENTIAL
+
+4
+
+

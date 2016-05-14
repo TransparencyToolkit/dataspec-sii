@@ -1,0 +1,122 @@
+CRYPTOWALL MAIL PROTECT
+L’OUTIL INDISPENSABLE POUR PROTEGER VOS COURRIELS
+
+Le menu de configuration Mail-Protect
+
+Le gestionnaire des adresses privilégiées
+
+PRINCIPALES CARACTERISTIQUES
+
+RECEVEZ, ADRESSEZ ET
+SIGNEZ VOS COURRIERS
+ELECTRONIQUES EN TOUTE
+SECURITE
+
+
+
+CryptoWALL Mail-Protect est un
+filtre transparent qui s’adapte aux
+principaux logiciels de messagerie
+existants sous Windows. Il permet
+de
+sécuriser
+vos
+courriers
+électroniques en quelques clics de
+souris. Courriers, documents,
+photos et vidéos, adressés par email restent ainsi confidentiels.
+
+Cryptographie puissante
+Chiffrement AES 128, 192 ou
+256 bits
+Signature électronique RSA
+1024 ou 2048 bits
+
+
+
+Authentification forte
+Authentification par token USB
+et code PIN
+Clés de sécurité stockées sur
+token USB
+Mode d’arrêt d’urgence au retrait
+du token USB
+
+
+
+Filtre fonctionnant avec les
+principaux clients e-mails
+windows.
+(MS Outlook et Outlook express,
+Eudora, Mozilla Thunderbird,
+Pegasus, etc.)
+
+LE FILTRE CRYPTOWALL MAIL-PROTECT PROTEGE VOS COURRIELS
+Vous pouvez adresser en toute sécurité tous types de courriels. CryptoWALL Mail-Protect assure les
+trois niveaux de protection nécessaires pour sécuriser votre courrier électronique.
+• La confidentialité du message, en s’assurant que seul son destinataire puisse en lire le
+contenu.
+• Le contrôle d’intégrité du contenu, en détectant les modifications éventuelles durant le
+transfert du courrier.
+• L’authentification du correspondant, en identifiant de manière formelle l’émetteur du courriel.
+La confidentialité des courriers protégés par CryptoWALL Mail-Protect repose sur l’algorithme de
+chiffrement symétrique AES. A chaque envoi de courrier, une clé aléatoire de chiffrement est créée
+assurant ainsi une sécurité supplémentaire. Deux courriers mêmes identiques n’auront pas la même
+clé de chiffrement.
+
+UNE AUTHENTIFICATION FORTE GRACE A UN TOKEN (CLE USB) SECURISE
+
+L’accès à votre courriel protégé par CryptoWALL Mail-Protect repose sur l’utilisation d'un token (clé
+physique) connecté au port USB de votre machine. Celui-ci contient une carte à puce pour identifier
+l’utilisateur.
+Pour utiliser Mail-Protect, vous devez brancher votre token USB et taper votre code PIN. De la même
+façon, si vous souhaitez quitter l’application, il vous suffit simplement de retirer le token et le filtre
+s’arrêtera automatiquement.
+CryptoWALL Mail-Protect utilise la technique de signature numérique RSA pour authentifier
+l’émetteur d’un message, mais également pour détecter les modifications éventuelles du courrier
+durant le transfert. L’algorithme standard RSA, repose sur l’utilisation d’un couple de clés (clé
+publique et clé privée) et de certificats X509v3 (générés par une infrastructure à clé publique PKI)
+qui sont stockés sur la carte à puce insérée dans votre token USB (clé USB).
+
+UNE UTILISATION PRATIQUE ET TRANSPARENTE POUR L’UTILISATEUR
+
+Vous continuez à travailler dans un environnement qui vous est familier (Windows) avec votre client
+de messagerie favori (Microsoft Outlook, Outlook Express, Mozilla Thunderbird, Pegasus,
+Eudora….). Vous écrivez et recevez votre courrier normalement, CryptoWALL Mail-Protect s’occupe
+de chiffrer et déchiffrer.
+
+UN LOGICIEL INTUITIF
+Le choix des destinataires vers lesquels les courriers sont adressés en mode de protection
+s’accomplit aisément grâce à un assistant de gestion des adresses simple à utiliser. Cet assistant
+vous permet de définir une liste de destinataires privilégiés avec lesquels vous pourrez correspondre
+en toute confidentialité. Vous pouvez y ajouter ou supprimer des destinataires à votre guise, mette à
+jour votre base de correspondants et choisir le type de protection que vous souhaitez apporter à votre
+message pour chacun d’eux, par exemple « pour ce destinataire, je choisis de toujours chiffrer tous
+les courriers ».
+
+DETAILS TECHNIQUES
+Systèmes d’exploitation
+
+Autres détails
+
+Windows 2000, XP
+
+Adapté aux principaux clients mails Windows
+(POP3 et SMTP)
+Gestion des politiques de sécurité personnalisée
+Arrêt d’urgence du logiciel en cas de retrait du token
+USB
+Personnalisation du code PIN
+Token USB personnalisé
+Version française, anglaise
+
+Cryptographie
+
+Chiffrement AES 128, 192 ou 256 bits
+Signature RSA 1024 ou 2048 bits
+Authentification par token USB avec code PIN
+Clés de sécurité stockées sur token USB
+
+LES SPECIFICATIONS MENTIONNEES CI-DESSUS SONT SUSCEPTIBLES D’ETRE MODIFIEES SANS PREAVIS.
+
+

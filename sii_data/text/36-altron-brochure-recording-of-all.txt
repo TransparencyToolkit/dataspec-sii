@@ -1,0 +1,792 @@
+Recording
+of all communications
+from voice and data networks
+
+...
+
+~,
+
+J0.1'""·--~
+
+--;_.,.;:-;;:-.
+-::::=~==--=
+.. ~-
+
+--·
+-------...
+IP
+
+_.. ..
+
+.....
+
+.~ .,,
+
+--=---~,, _
+
+... _._.
+............
+,.,. 11,,....,, ••
+
+__.~ ~,...
+
+_.. "......
+----....-- "'""'"
+·--. . __.f'............
+.. .. ......... . . .......1'¥
+
+w
+
+\...,._
+
+..-i
+
+........... - - - - -
+
+,,.
+
+,
+
+~
+
+.,..._.__.... .......
+
+..
+
+-~---·
+-~_....,___
+
+.....
+
+1
+
+~fWll'•·""°'-.....--- ...
+:::;:-...!="-~ ~---
+
+____
+
+~-....__-----
+
+.....,..,...,...-.-.------........-----......,_............
+......-·__...,.
+
+.,,,...._------·----.......·
+
+~
+D
+
+~~.
+
+t
+
+!SECURITV SYSTEMS
+DEVElOPMENT AHOPROOUCTION
+
+''-'-'~•'-'Ul.lULlU..LLil1lDt.IIIJUCODOCLIOC10000000tJOOOt
+
+•
+
+•
+
+ABOUT THE COMPANY
+
+Altron CJSC is a hight-tech company that creates effective complex solutions for security
+management We provide our customers with the professional solutions designed on the basis
+of the modern methodology using the latest technologies in the field of security.
+At present we have carried out a lot of successful implementations in government institutions
+of Ukraine (the Ministry of Internal Affairs, the Air Forces, the Ministry of Emergency
+Measures), as well as in commercial enterprises. Our company contributes to the strengthening
+of the national security by means of development of the domestic technologies.
+
+AMUR systems make it possible to solve both local operative tasks on recording data from communication netwo~< and to worl< out large solutions for soMng global tasks.
+
+·'*' '·''·''·',,,,,
+
+• •tfflj!tj 11§3·''·i§fJ.)ij
+·E'h·'·*4Jlft llJ,,,,1;4 I,\(§ , j·@• ••,.
+• automatic registration of data from various signal resources;
+• next detailed analysis of these data;
+• long term storage.
+
+-
+
+Advantages of use:
+
+• large list of digital ATS (the information circulating in these lines is recorded);
+• flexible system of access rights;
+• API that allows easy integration \Nith software-hardware solutions of outside manufacturing;
+• the equipment is certified (UkrSEPRO);
+• good value for money.
+
+~
+
+i
+
+r-rl
+
+~cttnlt4
+~
+D
+
+t
+
+!SECURITV SYSTEMS
+DEVElOPMENT AHOPROOUCTION
+
+L
+
+JULJU..Lul1lDt.llIX...ICODOCLIOODDOODOotJOOOt
+
+11¢1·6\i1§3ifl@ljQi}f,,IJ®i•fD11ffiiiWIG' il.1§1t.t.tU1fitf I3J9;fij!tM
+
+•
+
+· Professionalism
+· Liability
+·Zeal
+· lnno.tation
+·Honesty
+· Readiness to share tile own experience and kno.vledge
+· Partnership with customers, suppliers and with each other
+·Kindness
+· Mutual support
+We believe that follooing our principles we are doing a considerable contribution to the common mission security of life and labour of our citizens.
+
+ensuring
+
+All products and decisions are covered by warranty seNice and technical support. The production of Altron CJSC is certified IJy' the national certification system UkrSEPRO.
+
+Customized designing.
+Equipment fitting for Customers problems sawing.
+Equipment mounting.
+· Equipment operation testing on the Custorne(s object
+· Training of users and technicians.
+· Post-warranty repair of equipment
+· Delivery of equipments across the territory of Ukraine and abroad.
+At present we have successfully carried out a number of implementations into gcwernment institutions of Ukraine (the
+Ministry of Internal Affairs, Security SeNice of Ukraine, the Air Forces, the Ministry of Emergency Situations, MTS) and
+into commercial organizations.
+
+_,
+
+[
+
+LL UU
+
+LEVEL NETWORI<
+FORMATION MONITORINCi
+Example
+
+Jl
+
+PBX
+
+PBX
+
+J"
+Subscriber
+
+l
+
+~------ifi.~.-
+
+;_::
+
+Workstation
+
+analog
+
+•
+
+I
+
+PBX
+
+PBX
+
+T
+
+AMUR-X AMUR-NET-BRI
+
+T
+
+•.,.
+
+-
+
+AMUR El
+
+PBX
+
+l
+
+AMUR-NET
+
+•
+
+AMUR-NET-BRI
+
+_________r_________ _'.__ ___ J_ _ _ _ _ _ ~
+L ,,Efu.:~
+( ~.~ 3
+\ !!1
+·:.
+
+Monitoring Centre
+
+r
+
+.
+
+~
+
+I
+I
+I
+
+I
+I
+I
+
+\
+
+WS (Workstation)
+
+'
+
+WS (Workstation) WS (Work Station) WS (Work Station) ,'
+
+' ----------------------------------------'
+
+/
+
+AMUR-X devices alow carrying out registration of the Information coming from analog lines and BRI digital lines with the further transfer of the
+data through Ethernet networks to the monitoring centre. AMUR-X is a special device on the basis of the single-board computer, and does not
+demand constant seNice and is intended for long work without external inteNention. The device includes internal data store.
+
+~
+D
+
+~~.
+
+!SECURITV SYSTEMS
+DEVElOPMENT AHOPROOUCTION
+
+•...:-JL.JL-'L.JL JULJLA.J<-Lil1lDt.IIIJUCODOD:..JOC10000
+
+•
+
+t
+
+•
+
+<IAMUR-X•- is a haldware-software mmplex intended f()(
+high-Q.Jality multichannel record. long-tem storage. reµoduction
+and processing of the information ci10Jlating from the analog and
+digital sources of signal.
+
+f;i.]ifi3fj·i( ji.l1f lfjl
+
+M y analog linear audio output (phone. microphone. radio station.
+dispatching board. tape recorder. telemetiy), any digital office
+automatic telephone exchange. primary access.
+
+from l to 2 PCI printed-circuit-board AMUR
+
+iMfill.i@lilh41
+<IAMUR-X• is an autonomous recorder that does not require a
+computer for recording and reproduction of the information. Unlike recorders designed on the basis of computer. <IAMUR-X• is
+rather compact and reiable.
+
+5 ecifications:
+- It is designed on the basis of a specialised platform tor the buit-in system;
+- The chassis is pelformed from metal. colour - black;
+- The sizes: 20 sm x 20smx15 sm;
+- 9ystem board mini-ITX based on the processor with ION level of pONer consumption (is characterized by high fault tolerance. compact
+dimensions. sufficient productivity);
+- In-built stereo- loudspeaker;
+- There is no necessity in active means of cooling (non-ventilatory system);
+- Adapter
+- OS: WindONSXP Embedded;
+- On the front panel there is a liquid-crystal display and 4 control buttons of record and reproduction allONing to mal<e adjustment of the
+recording system and to worl<with base of records;
+- Cost of the chassis without cost of AMUR PCl-printed-circuit-board does not exceed cost of the common personal computer.
+
+000tJ000t
+
+Wil''i·'·t1·'
+;
+Hardware-software complex tAMUR-PCl-8-3~ is a
+hard.Nare-software corrplex designed m the basis of
+uiwersal El pTited-dccuit-board that is rmunted to
+computer PCI slot It allows recording the speech information dlCulating in I up to 2 or 3 PRI 8 streams. at parallel
+connection to the monitored lines. Each mounted printeddrcuit-board prOllides recording and controlling of up to
+90 duplex channels.
+
+The structure of the recorder includes PCI printed-circuit-board 4AMUR BRlt with software (CO-ROM).
+
+OJartily of chamels:
+RecadOJ density of one timesbt v.ittoJt COIT(l'essim
+
+Type of siJiaing:
+lrµJt resistn:e
+
+LP to 90
+
+~ camels per one El fbv)
+
+<- S7.6M8/h
+OKO. OSSl \/52. R2 Rl.S. RI
+
+DC
+
+nct: less than
+
+100 MOlm
+
+AC
+
+nct: less than
+
+2.5 KOtM
+
+Canp ete gavaric isolation
+
+Specialize cootrol program
+
+Indication of the corrm.micatioo session at each channel
+Pa.'allel comecling to the commuricalion lines
+Maximum length of cable that is connected to the flON
+Length of cable v.1len one extender is connected
+
+El- 3metres
+El - 300 metres
+
+~
+D
+
+~~.
+
+t
+
+!SECURITV SYSTEMS
+DEVElOPMENT AHOPROOUCTION
+
+'"-'-''-''-''_.. JULJU..LLil1lDt.IIIJUCODOCLIOC10000 000tJOOOt
+
+•
+
+•
+Qllill.I. £4-1
+Hafd\Nare-software OJmPlex tAMUR-NET-BRl-6•
+is intended for a:innection to the digital
+telephone lines ISON BRI for the purpose of
+accumulation. transformation and transfer
+of the speech information to the external
+recorder by means of the Ethernet nework. Up to 12
+telephone channels are monitored.
+
+The structure of the recorder consists of external
+Ethernet device •NET-BRI ~ with software (COROM).
+
+S ecifications:
+Ot.Bntity of maintaina:I digital tElep'1one chamels
+Connection to tre Ethernet network 10/100 Mbit 'Nith autanatic deterrrin.3tion of tre care:tion speed
+lrdcation of tre nelwOfl< co 1 e:tb 1activation cm speed
+
+Upto6
+
+Connection to tre dtjtal IElel1n ie ine
+
+parallel
+
+DC irµJt resista"ce
+AC irµJt resistance
+
+not less than 1MGM
+not less thanD KOhM
+
+The lengtl1 of tre catAe for o:ma:ti"g to ttie dgital telej::i1c.fie lile
+
+4)1D'Om
+
+GalVcTiic isdatbn between irpJt. ouQ:ut and p::M'el' 5lWY
+The maximal tested voltage between inp..rt and outp..rt:
+The maximal tested voltage bebNeen inJXJt and Sl.pply:
+St..Wy voltage of tre eQ..Jipnent
+Consumption rurrent in ttle estcblished mode
+The maximal i:ower consumption
+
+630V
+direct S V 1.S A
+
+lKV
+
+Upto900MA
+
+BW
+
+J....._
+
+It is iltended fOf connectbn to anabgue telephone ines for
+the pupose of accUTitJation. processing and transfer of the
+speech information to the external device of registration tJy
+means of the Ethernet netvvOlk The complex is capable to
+register simultaneously up to 6 channels.
+There is a possibility to connect a module of voice com-
+
+pression for tile purpose of decreasing of volume of data
+transferring through the Ethernet netvvor1(
+
+&.1Ul14Ma-1
+The structure of the recorder consists of external Ethernet
+device ~MUR- NET-A-fa wi th software (CO-ROM).
+
+OJ.3ntity of mairtained digital tEiep'"lone chamels
+Connection to the Ethernet netwak 10/100 Milt 'I.1th aLtanatc determilation of the comection speed
+JrdcatiJn Of the nelwOfk CO I a:00n activatim cnJ speed
+Connection to the dlgital 1E1e1:tO ie ine
+DC irµJt resistarce
+AC irµJt resista'lce
+The lergth of the ccble for ccrnecting to the digital teiep-one lne
+Gawaiic isdatim between inp.Jt output and poNer suppy
+The maximal tested voltage between inp.Jt and output
+The maximal tested voltage between input and st.pply:
+SLiWY voltage of the eQ.Jipment
+Consurrptlon current in the estabished mode
+The maximal r:;ower consumption
+
+upto6
+
+pcralel
+
+net less than MOhM
+net less than 10 KOhM
+uptol000M
+
+lK\/
+630V
+direct 9VO.SA
+upto300MA
+
+'?NV
+
+~
+D
+
+~~.
+
+!SECURITV SYSTEMS
+DEVElOPMENT AHOPROOUCTION
+
+HardNare-sottware complex of digital registration of the audio information
+-.AMUR• is intended for automated dtjtaldata recad, their next detailed aralysis
+and long-term storage. The sources of signal can be telephone and any analog
+tines or sensof'S.. The corrplex can cajster up to 18 channels.
+•11.114,10~
+
+The recorder can be delwered independently or to be a part (as a subsystem) of
+the multichannel automatic audio recorder 4AMURI}.
+The structure of the registrar indudes PCI printed-circuit board with the software
+(CD-ROM). On request of the customer we choose the personal computer
+(PC) on which Ille few/multichannel recorder is established. The Data recording
+is made on a personal computer hard disk There is a ION profile variant of a PCI
+printed-circuit board with number of channels up to B. It is AMUR-PO-A-OB-LP
+(for installation into 2U and Slim cases)
+
+aa.14;u1;10.i.p1
+Quantity of chanrels on the printed-circuit board.
+
+2-18 chamels per one printed-circuit-board (The
+quantity of printed-circuit-bocrds in one system bbck
+is limited ~ the quantity of PCI
+
+Type of trurk
+
+PCI
+
+Re:ad chanrels h<Ne the LOWe'sal gatvar«: isolatioo betw=en that makes it pos-
+
+st)e to ccrnect Clf¥ SOLrCeS of si;rals with progam presettio;J.
+
+Re:orded an:! reproduced freQt.JEn:Y baro, Hz. at base dgitization fi'eq_ierdes.
+kHz:
+
+8000 1-lz---·---·-..ar 200 Hz AO 3400 Hz
+16000 Hz_______.QT 200 Hz AO 7600 ru
+32000 ru..._____QT 200ruAO14200 ru
+
+Qosstak ctteruatioo taween chamels. dB:
+
+not less than 80 dB
+
+C~te weQte:l signal-to-ncise ratio at the finecr outµJt dB:
+
+not less than ~dB
+
+Dyncrric frequercy bard of record-playback channel. dB:
+
+not less than~ dB (not less than 60 dB in thewtde
+dynanic frequercy bard with allo.Nance for the maximun ampifying for microphooes
+
+Harmaic factor in ope1c3ting frequency band:
+
+not more than 0,1%
+
+lnp.Jt circuit symmetrical gatvanically isolated universal inp.Jts Connecting to the
+control channels
+
+parallel
+
+DC inp.Jt resistance
+
+not less than l MohM
+
+Oi:eration threshold of parallel protection
+
+ZlOV ± 30V
+
+FuJ level of the input signals
+
+100-7000 MV (is changed with tihe help of the amplificatioo coefficient of the input arrplifier program)
+
+t
+
+Pur ose:
+Multichannel digital recorder oAMUR-P0-8Rl-6 is a
+harOAiare-software complex that provides recording on
+the hard disk of a personal computer. reproducing and
+processing of the audio information circulating in the
+digital exchange system. The complex is mounted into
+the computer. Up to six 28-10 08-10) lines are connected
+to one printed-circuit-board Up to 12 telephone channels
+are monitored. Information recording is made in a stereo
+mode (separately for each subscriber).
+
+It allONs to separate each subscriber for the purpose of
+carrying out person Identification, and also to carry out
+automatic leveling of signals of near and distant subscribers.
+
+The structure of the recorder includes PCI printed-circuitboard oAMUR 8RI• with software (CD-ROM).
+
+It is caTiected to ISON pacalet dgital two-wire telephone line
+Quantity of the two-wire lines connected to the recorder
+Quantity of channels of recording for ISDN 2810 two-wire communication lines
+Quantity of channels of recording for ISDN four-wire communication lines
+Full galvanic isolation with a digital telephone line
+Input resistance of telephone adapters (AC):
+Input resistance of telephone adapters (DC):
+There is a balance adjustment on each low-frequency analogue telephone channel
+There is an alarm system about presence of synchronization with ISDN digital channel
+There is an alarm system about communication session actrvation
+There is a circuit changer of the communication session activation in incoming
+and outgoing directions and on the 0-channel
+There is a network configuration for integrating of several AMUR-ISDN complexes
+
+6
+12
+6
+not less than 10 kOhm
+not less than l MOhm
+
+~
+D
+
+~~.
+
+t
+
+!SECURITV SYSTEMS
+DEVElOPMENT AHOPROOUCTION
+
+'"-'·''-''-''-" JULJU..LLil1JDt.llIJUCODOCLIOC10000 000tJOOOt
+
+ose:
+Notifying of the set quantity of Slbscribe<s with
+a confirmation of a message receipt Hig"I qualty
+recordng. long term storing, lstening and processing
+the information earring from analog sources of
+audo siglal. It pioJides the function of a standard
+answeing machine. It prc:wides the function of an
+actNe answering machine.
+
+. .1.11ti34J·lE l·i•fitjll
+Any analog linear audio output (phone. microphone,
+radio station. dispatching board, tape recorder, telemetry).
+From 2 to 132 channels per one system blocl<.
+
+•m;1r;41
+The multipurpose printed-circuit board allCM/S sotving
+of a great variety of problems: information registration,
+notification of subscribers, automatic recording of incoming calls. and filtration of mistaken incoming calls. Up to 12
+channels on one printed-circuit board.
+
+T~ of the tn.nlc
+
+PCI
+
+Quantity of da1nels oo ore pTit~cif'cuit-boan:I
+MaxifT1lrn QJaftity d prirta:l-cia.it-boads i1 ore system tnk
+
+11
+
+Tvr.es of dlamels:
+Type of correction:
+AOC type:
+ADC changecDle freQ.Jency of digitizatioo:
+AGCtype:
+Frequency band of the telephone ines ccx:xdination block:
+ADC frequency band is define:! by digitiz.ation frequency
+
+Input resistance of telephone adapters (DC):
+Input resistance of telephone adapters (AC):
+
+2.4. 6. 8.XJ.12
+
+Araog telepha'le. li1e:lr
+Parallel/ cooslstent
+With transformer galvarlc isolation
+16- digit
+8.16.32. 64 KHz
+
+Program
+D.27.GkHz
+8000 Hz from 200 Hz
+16000 Hz from 200 Hz
+32000 Hz OT 200 Hz
+more than 9 MOM
+more than 10 KOM
+
+to 3400 Hz
+to 7600 Hz
+r:.o l4200 Hz
+
+It is intended for a hgh quality reco<ding, stoling and reproducing of the aucio information. The souce of signals can be telephone or any other aialogue communication channels. The
+complex is capable to recon::1 simultaneously up to 6 channels.
+The recorder can be supplied autonomously or to be a part of
+multichannel digital recording system «AMUR».
+
+A.·•n;;i;;1(j-1
+
+;
+
+The structure of the recorder consists of external «AMUR
+USB»device with software (CD-ROM).
+
+Type of the trunk:
+Ouaitity of chamels on one printed-circuit-board:
+Types of chainels:
+Type of ccmection:
+With transfoonef ga.tari: isolation
+AOC type
+AC£ type:FreQ.JeflCY band of tte ~Ines CCJ(J(cination bbdc
+
+lrµt resistance of telej:h:)re adapters (DQ:
+lrµt resistance of telej:h:)re adapters (AQ:
+The device for inear voltage measurement on a tetepnne lire for program installation
+of an actuation level v.tien a !Elei:tiore recever is picked up:
+Telephone line adapter electronic prota::tion against excess voltage
+Current limiting supply protection +9/ and 12\1:
+
+USS
+2.4,6
+Anabg !Elephone. linear
+parallel
+6-dfjt
+Program 027,6 kHz
+OCOJ kHz from 200 kHz to 3400 kHz
+IDXl Hz fran 2CXl Hz to 7600 Hz
+32COJ Hz from 200 Hz to 14200 Hz
+
+More ttm 9 MOtM
+More ttm 10 KOhM
++
+
+Above270V
+SOOMA
+
+.
+
+.
+
+u: ~~
+
+.~
+
+USS-COM-
+
+~
+
+DEVElOPMENT AHOPROOUCTION
+
+•...:.JL.JL-'L.JL JULJLA.J<-Lil1lDt.IIIJUCODOD:..JOC10000
+
+•
+Aili!iJ.l·fr I
+
+CT
+
+USS (Universal SWltchboatd of siglals) is intended
+for S1Nitchilg of analogue and digital corrm..nication
+tines. Allows switching almost of arty quantity of input
+fines for I - 15 input channels. Expansion of input lines
+is achie.-ed due to connection of all ttle switchboards
+into ttle integrated switching field. The quantity of
+output lines cannot be more than 16.
+
+Quantity of inputs:
+Quantity of outputs:
+Type of switr:hed line
+Freq.JenCy band
+Switching current
+StNitched signal amplitude
+Transient resista"lce
+
+The unit cootrol
+hput sod<.els
+Output sa:kets
+
+32 (3168 when 99 blocks aie connected)
+f10m l up to 16
+
+Symmetric
+0-lSMHz
+
+lOOMA
+0-2SOV
+
+600iM
+distantly - RS232 RS485. Etrenet
+RJ45
+
+0825
+
+PoNe' suJ:Py
+
+100-240 8 50-60 Hz
+
+Lergth ot cooneding cctjes:
+
+lOM
+lOM
+19tlU
+steel
+
+lm;;Jth ot COfltrol cct>les:
+Size
+Case mataial
+
+Color
+lndicatioo of input ires connection
+
+t
+
+tjack
+
+At diiect component level of ctxNe ~
+
+•
+
+000tJ000t
+
+

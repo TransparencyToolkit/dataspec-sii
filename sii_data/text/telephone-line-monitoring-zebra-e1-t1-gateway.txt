@@ -1,0 +1,119 @@
+Telephone Line Monitoring 
+Zebra E1/T1 Gateway 
+
+CONFIDENTIAL
+
+1
+
+Telephone line Monitoring Zebra E1-T1 Gateway
+The Zebra E1/T1 gateway is designed to connect the Zebra monitoring centre system to E1/T1
+telephony networks. It provides a highly dense connectivity solution: 64 E1/T1 carriers can be
+intercepted in a single 1U 19” rack module. Used in conjunction with the Zebra monitoring
+centre system, the Zebra gateway provides a very powerful telecommunications monitoring
+solution.
+Unlike general purpose media gateways and protocol converters, the Zebra gateway is
+designed to support the requirements of communication monitoring. This allows the Zebra
+monitoring centre system to support features that were not possible with the previous
+generation of monitoring equipment, for example:
+• The Zebra gateway and Zebra monitoring centre system can intercept 31 SS7 signaling
+timeslots on every one of 64 E1 streams connected to the gateway. This is a total of 3
+968 input signaling timeslots connected in a single 1U 19” rack module
+• The Zebra gateway supports any combination of hyper channels (consecutive timeslots
+used together to provide one bigger n x 64 kbps channel) together with E0/D0 (64 kbps)
+channels on the same carrier
+• The Zebra gateway supports channelized E1/T1 streams (unframed streams used as
+primary rate bit streams)
+• E1/T1, E0/DS0 channels, hyper channels and channelized primary rate carriers can be
+mixed on the same gateway
+• The Zebra E1/T1 gateway can be used in conjunction with other Zebra gateways (for
+example: the Zebra STM1/OC3 gateway) in the same Zebra monitoring centre system
+• The Zebra monitoring centre system reads data from the Zebra gateway over Ethernet,
+allowing the processing of monitored streams to be farmed out to as many servers on the
+network as required for the connected capacity. This allows a Zebra system to be scaled
+up to an unprecedented capacity of thousands of E1/T1 carriers in a single system
+
+CONFIDENTIAL
+
+2
+
+Specifications
+Dimensions
+
+The Zebra E1/T1 gateway is a 1U 19” rack module.
+
+weight
+
+8kg
+
+Capacity
+
+128 inputs providing for the monitoring of 64 E1/T1 carriers per gateway.
+All the traffic offered on every connected E1/T1 carrier can be processed.
+
+Carrier type
+configuration
+
+Each input can be individually configured as E1 or T1.
+
+Channel
+configuration
+
+Any combination of signaling channels, bearer channels, hyper channels
+and channelized primary rate may be configured.
+
+Input signal
+strength
+
+0 to – 40dB
+
+Termination and
+connectivity
+
+Input: 75 Ω, 100 Ωand 120Ω.
+The Zebra E1/T1 gateway takes 16 input pairs on each of 8 DB44
+connectors on the gateway's backplane, for a total of 128 input pairs.
+We offer rack-mountable high-Z buffers with 8-pair Crone connection
+blocks for termination of passively monitored live carriers.
+Satellite and active inputs can be terminated directly in the Zebra
+gateway.
+
+LAN
+
+1 Gbps Ethernet
+Copper or fiber
+
+AC power input
+
+110V to 240V AC
+Automatic switching
+
+Redundant power
+input
+
+48V DC
+
+Power
+consumption
+
+100W
+
+VoIP
+
+The Zebra gateway supports the interception of VoIP streams in hyper
+channels or channelized primary rate.
+Protocol processing is on open platforms.
+
+ATM
+
+Interception of ATM carried over E1/T1 is supported.
+Protocol processing happens on open platforms.
+
+CONFIDENTIAL
+
+3
+
+CONFIDENTIAL
+
+4
+
+

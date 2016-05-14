@@ -1,0 +1,765 @@
+LI-IPS
+Solución IP de Interceptación Legal
+por Dreamlab Technologies AG
+
+LI-IPS
+
+Interceptación Legal de Vanguardia
+
+Dada la convergencia de las redes y servicios hacia
+Redes de Última Generación, la interceptación de
+servicios de conmutación de paquetes cada vez está
+cobrando más importancia.
+
+LI-IPS contains following three components:
+
+L I O p e r a tin g S y s te m
+L IO S
+
+En la interceptación de sus servicios, los Proveedores de
+Servicios de Internet tienen que cumplir con abundantes
+normas técnicas y administrativas y, al mismo tiempo, ser
+lo suficientemente flexibles para seguir el dinámico
+desarrollo técnico.
+
+L I M e d ia t io n F u n c t io n
+L IM F
+
+Con LI-IPS, Dreamlab ofrece una solución excepcional
+para la interceptación legal de servicios de datos y voz
+basados en direcciones IP. LI-IPS permite, tanto a
+grandes como a pequeños proveedores de servicios (ISPs
+y TISPs), implementar las obligaciones legales de modo
+eficiente, seguro y rentable.
+En la interceptación legal, se deben dominar los
+siguientes desafíos: Los requisitos para la Interceptación
+Legal difieren internacionalmente, dependiendo de las
+leyes nacionales correspondientes para que las
+autoridades puedan aplicar sanciones. Por lo general, las
+redes también consisten en una combinación de distintas
+tecnologías y las Soluciones de LI tienen que ser muy
+flexibles en ese sentido. LI-IPS domina este desafío y
+ofrece una protección de inversión orientada al pasado y
+al futuro. Las tecnologías existentes son, por lo demás,
+utilizables y, al mismo tiempo, se implementan ajustes
+poco a poco al desarrollo y a las tendencias de las
+tecnologías de comunicación.
+
+Compatible con las normas y tecnologías líderes
+Hoy en día, existe un exceso de normas relevantes para
+la exportación e intermediación de datos para las
+agencias policiales (LEA). Gracias a la arquitectura
+abierta y flexible, LI-IPS puede ajustar rápidamente
+grandes inversiones adicionales a las normas
+modificadas. Así, LI-IPS es a prueba de futuro y garantiza
+la adaptabilidad del desarrollo futuro.
+Arquitectura modular
+Los componentes LI-IPS se pueden utilizar de modo
+independiente o como todo un conjunto, y ofrece una
+solución escalable arbitraria gracias a la arquitectura
+modular. Dependiente del tamaño y de la organización del
+proveedor de telecomunicaciones, LI-IPS puede
+integrarse en una infraestructura OSS / BSS o ser
+utilizados de forma descentralizada como una unidad
+portátil
+si
+fuera
+necesario.
+LI-IPS contiene los siguientes tres componentes:
+
+In te r n a l In te r c e p tio n F u n c tio n
+IIF
+
+© por Dreamlab Technologies AG. Todos los derechos
+reservados.
+Figura 1 – Los tres componentes LI-IPS
+
+•
+
+•
+•
+
+El sistema operativo de LI (LIOS) es la
+plataforma de gestión LI-IPS. LIOS permite la
+coordinación central y la administración de los
+componentes LI-IPS y es responsable de la
+tarea de interceptación.
+La Función de Mediación de LI (LIMF) agrega
+los datos recogidos y los intercambia con las
+autoridades.
+La función de Interceptación Interna (IIF) realiza
+la captura de datos. Se ajusta a la posición
+adecuada en la red..
+
+Ganancia adicional
+La Interceptación legal significa un enorme esfuerzo para
+los proveedores de telecomunicaciones y es muy
+costosa. Con la solución LI-IPS, Dreamlab permite un
+eficiente cumplimiento de las exposiciones legales y crea
+una amplia gama de valor añadido. LI-IPS está
+actualmente lista para la implementación anticipada de
+retención de datos. La Retención de Datos dirige las
+demandas de los operadores de redes, proporcionando la
+información sobre el historial de tráfico y los datos sobre
+localización a las autoridades. Porque LI-IPS es idónea a
+las exigencias de seguridad más altas y ya contiene
+interfaces de comunicación con las autoridades, la
+Retención de Datos es fácilmente integrable. Como
+ganancia adicional, LI-IPS también permite un uso
+secundario como Sistema de Detección de Intrusos (IDS)
+y es una base excelente para una amplia interceptación
+de red (Monitoreo de Calidad, Servicio y Seguridad).
+
+LEA / LEM F
+
+C o m m u n ic a t io n
+
+T IS P s
+
+T a rg et
+
+D e d ic a t e d lin e / C E S / S S L - V P N
+H I1 F o r w a r d i n g o f th e i n te r c e p ti o n c h a r g e
+C o m p le tito n o f th e in te r c e p tio n c h a r g e
+H I1 C o n fi r m a t i o n o f t h e i n te r c e p t i o n c h a r g e
+
+Judge
+
+1
+U ser
+B R AS
+
+L I O p e r a t in g S y s t e m
+L IO S
+
+genda
+S L = S e c u r e S o c k e ts L a y e r
+E S = C a r r ie r E t h e r n e t S e r v ic e s
+P N = V ir t u a l P r iv a t e N e t w o r k
+
+D SLA M
+
+C o n tr o l IIF / M o n ito r in g
+
+CPE
+
+2
+
+1 23
+
+O S S /B S S In te g r a tio n :
+
+A
+S
+C
+V
+
+A cc ess/
+D is t rib u tio n
+S w it c h
+
+• C o m p le t e in t e g r a t io n o f
+L I I P S in e x is t in g n e t w o rk s
+a n d O S S /B S S s y s te m s
+• I n t e g ra t io n o f s e p e r a t e
+L IIP S c o m p o n e n ts
+• S im u lt a n e o u s a n d
+in d e p e n d e n t
+im p le m e n t a t io n o f L I I P S
+
+M PLS
+C o re
+
+I n t e r n a l I n t e r c e p t io n
+F u n c t io n IIF
+T a p lo c a ti o n s
+
+O SS / BSS
+I n t e g ra t io n
+
+In te rn e t
+SSL - VPN
+
+LEM F
+
+4
+H I2 F o r w a r d i n g C C ( C o n te n t o f C o m m u n i c a ti o n)
+
+3
+
+L I M e d i a t io n F u n c t i o n
+L IM F
+
+H I3 F o r w a r d i n g IR I ( In t e r c e p t R e l a te d I n f o r m a ti o n )
+
+1 T h e c o m m u n ic a tio n b e tw e e n th e L a w E n fo r c e m e n t A g e n c y
+( L E A ) a n d th e T IS P o c c u r s th r o u g h s ta n d a r d is e d in te r fa c e s –
+th e H a n d o v e r In te r fa c e s ( H I) . T h e L a w E n fo r c e m e n t A g e n c y
+s u p p lie s a n in te r c e p tio n a p p r o v a l fr o m a th e r e fo r e p r iv ile g e d
+a u th o r i ty a n d f o r w a r d s t h o s e o v e r t h e i n H1I d e f i n e d i n t e r f a c e s
+t o t h e c o r r e s p o n d i n g t e l e c o m m u n i c a t i o n p r o v i d e. r D e p e n d e n t o n
+t h e g r a d e o f a u t o m a t i s a t i o n, th e H I 1 c a n b e a l e t t e r, f a x o r a f i l e .
+
+2 T h e te le c o m m u n ic a ti o n p r o v id e r a c tiv a te s, i n te r c e p ts
+a n d c o m p le te s th e d a ta tr a n s fe r o v e r a u s e r fr ie n d ly
+w e b fr o n te n d i n th e L IO S ( L I O p e r a tin g S y s te m ) .
+3 T h e c o lle c te d d a ta fr o m th e In te r n a l In te r c e p tio n
+F u n c tio n ( IIIF ) g e t fo r w a r d e d to th e L E A v ia th e c e n tr a l
+L I M F . T h e d a t a t a p i s p o s s i b l y a n y w h e r e i n t h e n e t w o r k.
+
+4
+in te
+get
+L IM
+H I3
+exa
+in te
+
+T h e d a ta c o n te n t ( C o n te n t o f C o m m u n ic a tio n C C ) , a s w e l l a s a ll
+r c e p t i o n - r e l e v a n t i n f o r m a t i o n ( I n t e r c e p t R e l a t e d I n f o r m a t i o n I R I)
+c o l l e c t e d a n d p r o c e s s e d b y t h e L I M e d i a t i o n F u n c t i o n L I M .F
+F f o r w a r d s t h e c o l l e c t e d C C / I R I d a t a o v e r t h e i n t e r f a c e H 2I a n d
+to th e L a w E n fo r c e m e n t M o n i to r i n g F a c ili ty ( L E M F ) , th e d a ta
+m i n a t i o n c e n t e r o f t h e a u t h o r i t i e s. T h e L E A t e l l s t h e e n d o f t h e
+r c e p t i o n t a s k t o t h e o p e r a t o r s v i a H I1 .
+
+© por Dreamlab Technologies AG. Todos los derechos reservados.
+Figura 2 – Proceso de solicitud
+
+Flujos de trabajo automatizados
+Con una operación controlada y rutinaria sistemática, LIIPS permite implementar los lineamientos reguladores de
+LI. Con flujos de trabajo automatizados, LI-IPS reduce el
+tiempo de procesamiento de los procedimientos de LI y
+permite una interceptación ideal y el control de todos los
+flujos de trabajo sensibles. Aunque el grado de
+automatización es configurable y flexible, se ajusta
+perfectamente a las necesidades del cliente. Por lo tanto,
+el esfuerzo de las actividades de interceptación se reduce
+notablemente.
+Seguridad optimizada, estándares abiertos
+Como centro de seguridad IT y Competencia estándar,
+Dreamlab pone los asuntos de seguridad en primer plano.
+Con LIIPS, Dreamlab presenta una solución, que se basa
+en estándares abiertos y Mejores Prácticas. De esta
+manera, LI-IPS proporciona una estabilidad superior y
+robustez frente a crecientes peligros de Internet. Todos
+los componentes LI-IPS están especialmente protegidos
+en términos de seguridad y elaborados a prueba de fallas.
+Así, LI-IPS permite una transferencia de datos auténticos
+a las autoridades responsables en tiempo real, sin los
+inconvenientes de los asuntos cotidianos.
+
+Atractivos de LI-IPS
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Cumple con las normas pertinentes
+Compatible con todas las normas establecidas
+de LI
+Tiempo real o captura de datos asincrónica
+cuando sea necesario
+Interfaces flexibles
+Lista para las normas de LI futuras y desarrollo
+técnico
+Máxima protección de las inversiones
+Bajo costo de las operaciones gracias al grado
+de adaptabilidad de la automatización
+Refuerzo optimizado de seguridad
+Altamente escalable y disponible de excelente
+rendimiento
+A prueba de futuro gracias a la independencia
+de determinadas plataformas de red de
+productos y topología
+
+LIOS
+
+LI-IPS Management Plattform
+
+LEA / LEM F
+
+T arg et
+
+T IS P s
+
+O S S In te g r a tio n
+
+L I O p e r a tin g S y s te m
+L IO S
+H I1
+L IO S
+W ebG U I
+
+H I1
+
+LEMF
+
+IIF 2
+
+H I1
+
+A u d it T r a ils
+
+H I1
+O t h e rs
+
+IIF 1
+
+IIF 3
+IIF 4
+
+M o n it o r in g / A la r m in g / T ic k e t in g
+
+IIF n
+
+B S S In t e g r a t io n
+
+© por Dreamlab Technologies AG. Todos los derechos reservados.
+Figura 3 - Características y funcionalidad LIOS
+
+El sistema operativo de LI (LIOS) sirve como
+plataforma central de gestión LIIPS y permite una
+eficiente coordinación y administración de la solución
+LI-IPS. El procesamiento de pedidos, las mutaciones y
+el seguimiento de los componentes LI-IPS deben ser
+llevados a cabo por una interfaz de usuario Web
+intuitiva e utilizable.
+
+Integración OSS / BSS
+Gracias a las interfaces normalizadas, LIOS pueden
+integrarse perfectamente en las redes existentes y a los
+sistemas OSS / BSS. En correspondencia con las
+demandas de los clientes, LI-IPS puede usarse
+simultáneamente e independiente de los sistemas OSS /
+BSS.
+
+LIOS ofrece los siguientes atractivos:
+Interfaz de Usuario Web Cómodamente utilizable
+La Interfaz de Usuario Web está diseñada de modo bien
+organizado, se pueden utilizar de manera intuitiva y
+garantiza un procesamiento central de pedidos cómodo y
+la administración toda de la plataforma LI-IPS.
+Pistas de Auditoría
+Con la ayuda de pistas de auditoría, todos los
+procedimientos del sistema se documentan. Los accesos
+no autorizados, supresiones, cambios y manipulaciones
+son rastreables en cualquier momento.
+
+Monitoreo,
+alarma
+y
+sistema
+de
+ticketing
+LIOS permite una función integrada de monitoreo, alarma
+y sistema de ticketing. Todos los procesos, tráfico de
+datos y los estados del sistema están disponibles en los
+informes comerciales o SLA. Las funciones de alarma son
+libremente configurables y disponibles por correo
+electrónico, SMS, buscapersonas, IM o llamadas
+telefónicas. Las funciones de alarma se manejan
+cómodamente con un sistema de seguimiento de
+Incidencias como por ejemplo el Sistema Abierto de
+Solicitud de Tickets (OTRS).
+
+LIMF
+Adición y mediación de los datos de interceptación
+
+T a rg et
+
+T IS P s
+
+LEA / LEM F
+
+L I M e d ia tio n F u n c tio n
+L IM F
+C A LE A
+
+R AW
+
+N E 3
+
+p re E T S I
+
+?
+
+IN P U T
+
+S II
+
+N E 2
+
+TA P
+A n a ly z e r
+
+C A LE A
+M e d ia t io n
+
+P ro to c o l C o n v e rte r
+
+O th e rs
+
+B u ffe r
+
+S II
+
+O U TP U T
+
+N E 1
+
+R AW
+p re E T S I
+O th e rs
+
+LE M F 1
+LE M F 2
+LE M F 3
+LE M F 4
+LE M F n
+
+N E = N e t w o rk E le m e n t
+
+© por Dreamlab Technologies AG. Todos los derechos reservados.
+Figura 4 - LIMF y sus funciones
+
+La Función de Mediación de LI (LIMF) agrega y
+normaliza los datos recogidos y los transmite a la
+autoridad correspondiente. Los flujos de datos se
+almacenan en el búfer de LIMF. Así, LI-IPS garantiza la
+máxima estabilidad posible e integridad de los datos
+en caso de una interrupción en la red. LIMF también
+proporciona la más alta flexibilidad posible gracias a
+una arquitectura de módulo y plugin.
+LIMF ofrece los siguientes atractivos:
+Plugins
+flexibles
+de
+entrada
+y
+salida
+LIMF se construye de forma modular: Ofrece interfaces
+normalizadas para la integración dinámica de plugins
+personalizados
+de
+entrada
+y
+salida.
+Las
+personalizaciones para las nuevas necesidades y
+tecnologías son fácilmente realizables y rentables en
+cualquier momento.
+Mediación y Traducción de Protocolo
+LIMF consolida los datos capturados de varias tareas de
+interceptación y los transmite a LEMF de las agencias
+policiales. Gracias a la arquitectura del plugin, los flujos
+
+de datos se entregan y se envían luego en los formatos
+de datos de LI correspondientes. En una segunda fase,
+los formatos de datos se convierten cómodamente en las
+normas deseadas.
+La arquitectura LIMF hace una comunicación en formatos
+de datos arbitrarios entre los elementos de red y posible
+LEMF.
+Almacenamiento intermedio a prueba de fallos
+Todos los datos de LI se ubican en el búfer del
+almacenamiento permanente. La característica de
+recuperación de fallos asegura la integridad y
+consistencia de los datos capturados, incluso en caso de
+una interrupción en la red o avería.
+LI-IPS es compatible con los siguientes formatos de datos
+de LI:
+•
+ETSI
+•
+CALEA
+•
+RAW ATM, Ethernet, PPP
+•
+pcap
+•
+SII
+
+IIF
+Captura de datos incorporada o Analizador TAP
+LEA /LEM F
+
+T arg et
+
+T IS P s
+
+L IO S
+( E T S I -> A D M F )
+
+In te r n a l In te r c e p tio n F u n c tio n IIF
+B u i l t- I n / T a c t i c a l U n i t
+CPE
+
+IN P U T P L U G IN S
+- M o n it o rin g I n t e rf a c e
+- N e t w o r k in t e r f a c e
+
+D SLA M
+
+D a ta In te r c e p tio n w ith
+o p t i c a l /c o p p e r T A P
+T a rg e t F ilte r
+
+A cc e s s/
+D is t r ib u t io n
+S w it c h
+
+O U T P U T P L U G IN S
+- P r o v is io n in g I n t e r f a c e
+to w a rd s L E M F
+
+C ALEA
+S II
+
+L IM F
+(E T S I - > M F )
+
+R AW
+B u ffe r in g
+
+VPN
+
+LEMF
+
+p re E T S I
+P ro to c o l C o n v e r s io n
+
+1 23
+
+B R A S
+
+O th e rs
+
+D a ta E n c a p s u la tio n
+
+D a ta I n t e rc e p tio n
+
+© por Dreamlab Technologies AG. Todos los derechos reservados.
+Figura 5 - IIF y variantes de captura de datos
+
+Con la Función de Interceptación Interna (IIF),
+Dreamlab ofrece un componente, que se ha
+personalizado según las necesidades de los ISPs y
+TISps para la captura de datos. IIF admite todas las
+tecnologías líderes.
+Variante 1 – El Analizador de captura de datos TAP
+permite la captura de datos provenientes de elementos de
+red equipados con una tarjeta especial FPGA (Hardware
+analizador de redes aceleradas). Al utilizar los
+analizadores TAP pasivos, se elimina el riesgo de
+conectar directamente la unidad de escucha a la red. Por
+lo tanto, esta variante entrega una mayor seguridad y la
+fiabilidad en la red.
+
+Var.2
+
+O S S /B S S in d e p e n d e n t
+L IIP S p la t f o r m , D a t a t a p
+o n t h e n e t w o rk e le m e n t s
+
+O S S /B S S In t e g r a t io n
+o f t h e w h o le L IIP S
+p la t f o r m
+
+O S S /B S S
+in d e p e n d e n t L IIP S
+p la t f o r m , D a t a t a p
+w it h T A P A n a ly z e r s
+
+D a ta ta p
+
+Var. 1
+O S S /B S S In t e g r a t io n o f
+L IO S o n ly
+
+T a c t ic a l
+U n it
+Low
+
+H ig h
+O S S /B S S In t e g r a t io n
+
+© por Dreamlab Technologies AG. Todos los derechos reservados.
+
+Figura 6 – Integración OSS/BS
+
+Variant 2 - Built-In datatap
+Variante 2 – Captura de datos incorporada
+Cuando se utilizan capturas de datos incorporadas, los
+datos se recogen directamente en los elementos de red.
+LIOS se integra en la infraestructura y permite conmutar la
+interceptación directamente sobre los elementos de red
+de TISP.
+Los datos recogidos están disponibles en el formato de
+los elementos de red (Calea, SII) y se convierten en al
+formato deseado por LIMF en el segundo paso. La
+captura de datos integrada es la solución perfecta para
+operadores de redes, que valoran especialmente el
+rendimiento de la extensión de sus sistemas.
+Unidad Táctica
+Como unidad táctica móvil, la Unidad Táctica combina un
+componente integrado LIOS, LIMF e IIF. Con su práctico
+tamaño, la unidad táctica es el equipo perfecto para
+principiantes y la solución ideal para pequeños
+proveedores.
+LI-IPS es compatible con las siguientes tecnologías de
+red:
+•
+ATM STM1/OC3 (Modo individual, modo multi)
+•
+ATM STM4/OC12
+•
+Ethernet 100/1000 Mbit/s, cobre
+•
+Ethernet de fibra 1000 Mbit/s
+
+Datos y cifras
+Solución IP de Interceptación legal
+Services and products
+• LI-IPS offers state-of-the-art Lawful Interception for
+IP-based speech- and datacommunication (among
+other things MMS, eMail, VoIP, jabber, http, https,
+imap, webcal, irc, icq, msn, ssh video/TV streams)
+
+Rendimiento
+• Soporte de característica de recuperación de fallos
+activa-activa total
+• Apilable
+• Escalable y de alta disponibilidad
+
+Servicios y productos
+• LI-IPS ofrece intercepciones legales de vanguardia
+para comunicaciones de datos y habla basados en IP
+(Entre otras cosas, MMS, correo electrónico, VoIP,
+jabber, http, https, imap, webcal, irc, icq, msn, video
+ssh / flujos TV)
+
+Funciones avanzadas
+• El volumen de función de la plataforma LI-IPS es
+arbitrariamente escalable e interoperable con otras
+aplicaciones como por ejemplo el Manejo de Palabra
+Clave
+
+•
+•
+•
+•
+•
+
+Componentes de LI-IPS
+Sistema operativo de LI (LIOS)
+Función de Mediación de LI (LIMF)
+Función de Interceptación Interna (IIF)
+Captura de datos con analizadores TAP
+Captura de datos integrado
+Unidad Táctica: Solución todo en uno para pequeños
+proveedores
+
+Opciones de integración OSS / BSS
+• Integración de LI-IPS en redes existentes y sistemas
+OSS / BSS, gracias a interfaces estándar (Por
+ejemplo, la integración en sistemas de facturación)
+• Integración OSS / BSS de componentes por
+separado para toda la plataforma LI-IPS
+LI-IPS es también integrable de modo simultáneo e
+independiente de la plataforma OSS / BSS
+Formatos de datos de LI compatibles
+• ETSI
+• CALEA
+• SII
+• Raw, ATM, Ethernet, PPP, IP
+• pcap
+Tecnologías de red compatibles
+• ATM STM1/OC3
+• ATM STM4/OC12
+• Ethernet 100/1000 Mbit / s
+• Wi-Fi, televisión por cable, ...
+
+Valor Agregado
+• Los componentes LI-IPS IFF son extensibles para los
+sistemas de Detección de Intrusos o Monitoreo IP
+• LI-IPS apoya la conservación de datos
+Mantenimiento y Soporte
+• Con el servicio de mantenimiento y soporte de
+Dreamlab, la plataforma LI-IPS siempre permanece a
+la vanguardia y a largo plazo, y asegura una alta
+seguridad de red e información
+• Dreamlab ofrece paquetes personalizados que
+consisten en Acuerdos de Nivel de Servicio y
+servicios educativos
+Atractivos de LI-IPS
+• Compatible con las normas pertinentes
+• Compatible con todas las normas establecidas
+• Tiempo real o captura de datos asincrónico cuando
+sea necesario
+• Interfaces flexibles
+• Lista para futuras normas de LI y desarrollo técnico
+• Máxima protección de las inversiones
+• Bajos costo operacional gracias al alto grado
+personalizable de automatización
+• Refuerzo optimizado de seguridad
+• Altamente escalable y disponible de excelente
+rendimiento
+• Ahorro futuro gracias a la independencia de
+tecnologías específicas de redes y plataformas de
+productos
+
+Alarma, monitoreo y sistema de ticketing
+• Interfaz de Usuario Web
+• Informe PDF
+• Alarma personalizada vía correo electrónico, SMS,...
+• OTRS
+
+Dreamlab Technologies Ltda. es un proveedor de
+soluciones IT especializado en Seguridad de la
+Información e Ingeniería de Software. Desde su
+creación en 1997, Dreamlab proporciona consultoría IT
+de vanguardia y soluciones de última generación
+
+basadas en tecnologías de estándares abiertos
+inmejorables. Como miembro de ISECOM, Dreamlab
+trabaja en el Manual OSSTMM, la metodología más
+extendida en la actualidad para las auditorías de
+seguridad integral.
+
+Dreamlab cultiva alianzas estratégicas con proyectos de
+código abierto internacionales, universidades técnicas
+líderes e institutos de normalización innovadores muy
+renombrados tales como W3C. El objetivo de Dreamlab
+es dar a sus clientes y socios la posibilidad de
+beneficiarse de su base de conocimientos a través de
+soluciones y servicios personalizados.
+
+Dreamlab Technologies AG
+San Antonio 220. Oficina 706
+Santiago Centro
+contact.chile@dreamlab.net
+http://dreamlab.net
+
+Gracias a la colaboración estrecha con la economía y la
+educación, Dreamlab siempre trabaja según normas
+actuales de conocimientos y liderazgo en importantes
+innovaciones técnicas. Como solución de última
+generación, la plataforma de Interceptación Legal LI-IPS
+refleja esta extensa experiencia y ofrece interceptación
+IP de ahorro futuro. Estos días, LI-IPS tiene éxito en el
+uso
+productivo
+de
+proveedores
+líderes
+en
+telecomunicaciones y agencias policiales.
+
+

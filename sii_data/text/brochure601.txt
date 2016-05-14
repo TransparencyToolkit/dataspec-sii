@@ -1,0 +1,199 @@
+Ruggedized MPM-1000 IP Modem
+Provides Military and Commercial Customers with the
+Specialized IP SATCOM Necessary to Keep Highly Mobile,
+Dispersed and Remote Users Connected
+Linkabit’s Ruggedized MPM-1000 Modem IP (RMPM) with its Network Centric
+Waveform (NCW) reduces operational cost and supports the highest number of
+IP users by providing very efficient use of Satellite Bandwidth over any
+Military or Commercial transponded satellite. The RMPM is a conduction
+cooled unit that is environmentally sealed for optimal use in harsh environments. It has been tested and certified to meet all the requirements of the tactical
+environment. The RMPM is fully automated and once properly configured,
+requires no operator intervention if link conditions change, or if a different
+type terminal joins the network. It has been designed to utilize and optimize the
+full capabilities of the Wideband Global SATCOM (WGS) multi-beam, multiband satellite.
+The NCW is the U.S. Army’s Open Standard (Non-Proprietary) Waveform that
+provides optimal performance in any SATCOM architecture with any size
+aperture terminal. It provides a fully certified secure network that is self forming
+and self healing making it very easy to use and maintain. Satellite resources can
+be managed on the battlefield or remote area with no special hub hardware
+required. Any large aperture terminal can operate as the Network Controller
+and there are allowances for automatic or planned Network Control handover.
+With its rapid acquisition/reacquisition, hub assist functions and Doppler
+compensation, it provides outstanding support for COTM communications.
+
+• E FFICIENT U SE OF S ATELLITE
+R ESOURCES
+– A DVANCED MF-TDMA, DAMA
+S CHEDULER
+– A DAPTIVE C ODING AND
+M ODULATION
+– D IRECT S EQUENCE S PREADING
+ON A B URST- BY-B URST B ASIS
+– S UPPORTS M ESH , H UB -S POKE
+AND H YBRID N ETWORKS
+– S UPPORTS N ON -C ONTIGUOUS
+B ANDWIDTHS IN M ULTIPLE
+T RANSPONDERS
+• M EETS TACTICAL E NVIRONMENT
+– D ESIGNED TO M EET MIL-STD-810F
+AND MIL-STD-461
+• M AXIMUM T HROUGHPUT WITH A NY
+S IZE T ERMINAL IN A S INGLE N ETWORK
+– R ESPONSIVE L INK P OWER AND
+DATA R ATE C ONTROL
+– W IDE R ANGE OF DATA R ATES ,
+M ODULATIONS AND FEC C ODE R ATES
+– S IMULTANEOUS S UPPORT FOR
+S PREAD AND N ON -S PREAD U SERS
+• O PTIMIZED FOR U SE WITH THE
+WGS S ATELLITE
+– T UNEABLE OVER 1.2 GH Z
+– 500 MH Z I NSTANTANEOUS
+BANDWIDTH
+
+– M ULTI -B AND /M ULTI -B EAM
+O PERATION
+– M ULTI - BEAM FAN I N /FAN O UT
+C APABILITIES
+– G AIN S TATES FOR O PTIMAL
+A SSIGNMENT OF D ISADVANTAGED
+T ERMINALS
+
+Ruggedized MPM-1000 IP Modem
+Network Capabilities
+
+Optimized for Use with the WGS Satellite
+• Multi-Band/Multi-Beam Operation Allows for Ka-Band and
+X-Band Terminals in Different Satellite Footprints to Operate
+in the Same Network
+
+• Full Mesh, Hub-Spoke, and Hybrid Topologies Supported
+• Burst-to-Burst Dynamic Control of Power, Spread Factors,
+Data Rates, Channel Rates, Modulation and Code Rates
+
+• WGS Gain States Allows for Optimal Assignment of
+Disadvantaged Terminals to Highest Gain State Segments
+
+Excellent Support for On The Move (OTM)
+• Dynamic Spreading on a Burst-by-Burst Basis to Control Power
+Spectral Density
+• Rapid Acquisition/Reacquisition
+
+• Multi-Beam Fan-In and Fan-Out Channelization Allowing
+Control of a Network from a Single NC Along with Efficient
+Dissemination of Multi-Cast and Broadcast Traffic
+• Full WGS RF Coverage, 1.2 GHz IF with an Instantaneous
+500 MHz Bandwidth
+
+• Support of Doppler, Doppler-Rate, and Doppler Acceleration
+Requirements
+
+• Non-Contiguous Bandwidth Segments can be Assigned
+Within One Transponder or Across Multiple Transponders
+
+• Link-Layer Assured Delivery (ARQ)
+
+Ruggedized MPM-1000 IP Modem Technical Specifications
+MF-TDMA Network Centric Waveform
+
+Mechanical/Electrical
+
+Data Rate:
+
+32 kbps – 4.096 Mbps (Per Carrier)
+
+Turbo Coding:
+
+SCCC – Rates 1/2, 2/3 and 3/4
+
+Interleaver Block Length: 640, 1280, 2560, and 5120
+Modulation Formats:
+
+BPSK (Rate1/2 Coding)
+OQPSK (Rate1/2, 2/3 and 3/4
+Coding) 8 PSK (Rate 2/3
+Coding)
+
+Direct Sequence Spreading Gain:
+0 to 12 dB (Spread Factor 1, 2, 4, 6,
+8,12,16; up to 8.192 Mcps)
+Number of Carriers (MF-TDMA Operation):
+2 Tx
+4 Rx
+Encryption:
+
+Size:
+
+1U 19˝ Rack Mountable Chassis
+19˝ Wide x 1.75˝ High x 18.5˝ Deep
+Weight:
+19 lbs (excluding mounting slides)
+Input Power:
+90 VAC to 264 VAC, 47-63 Hz or
++24 VDC Vehicle Power (Optional)
+Power Consumption:
+< 170 Watts
+Frequency Reference: Internal or External (5 or 10 MHz)
+Intermediate Frequency: Tx L-Band (950-2150 MHz) w/10 MHz
+Reference and Externally Supplied
++18 to +48 VDC @ 3.0 Amps
+Rx L-Band (950-2150 MHz) w/10 MHz
+Reference and +18 VDC @ 450 mA
+
+Baseband Interfaces
+Monitor/Control:
+
+AES-256 CBC TRANSEC
+FIPS 140-2 Level 2 Certified
+
+Control:
+
+SNMP V3/L-3 Linkabit HCI
+
+Environmental
+Conduction Cooled and Environmentally Sealed
+Non-Operating Temp:
+
+-40˚C to +71˚C
+
+Operating Temp:
+
+0˚C to +50˚C
+
+Vibration/Shock:
+
+MIL-STD-810F
+
+EMI:
+
+MIL-STD-461
+
+NCW Data Port:
+FDMA Data Port:
+
+10/100/1000 Base-T
+(NCW and FDMA Control)
+RS-485 (FDMA Control)
+10/100/1000 Base-T
+MIL-STD-188-114/RS-422/RS-423
+
+MIL-STD-188-165A (FDMA) Compliant
+Type I:
+
+BPSK - 64 kbps to 6000 kbps
+QPSK/OQPSK - 64 kbps to 8472 kbps
+Convolutional Coding, RS Coding
+and Data Scrambling (IAW IESS308, 309, 310 and OM-73)
+
+Note: All specifications subject to change without notice
+
+C l e a r e d b y D o D / O S R f o r p u b l i c r e l e a s e u n d e r O S R C a s e N u m b e r 1 1 - S - 0 6 7 8 o n January 4, 2011.
+
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078068000
+
+

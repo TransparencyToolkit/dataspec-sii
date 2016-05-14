@@ -1,0 +1,262 @@
+DATA SHEET
+
+DPX NETWORK PROBE
+DPX Network Probe is a passive IP probe for lawful interception, mass interception and network monitoring. It uses
+ipoque's deep packet inspection (DPI) technology to identify and filter network flows according to their application
+protocol. Target triggers comprise protocol-specific filtering criteria including network addresses, user names, protocolspecific attributes and arbitrary content keywords. This unique combination of DPI and flexible target rules delivers high
+quality interception data while avoiding the capturing of a large volume of unnecessary network traffic. It significantly
+reduces the burden on subsequent processing and mediation systems.
+
+ADVANCED DPI ENGINE
+
+POWERFUL TARGET TRIGGERING
+
+DPX Network Probe uses PACE, ipoque's fieldproven deep packet inspection (DPI) engine t o
+enable target triggering and filtering based on
+communication protocol and application.
+
+DPX Network Probe features a powerful rules engine that combines traffic identification criteria
+with versatile actions specifying how matching
+traffic will be handled. The traffic identification
+criteria allow to match on specific targets and
+opplication flows and to filter out irrelevant data
+that would otherwise overlood the post-processing chain. The string search engine enables
+matching on arbitrary payload keywords ond
+virtual identities such as e-mail addresses, IM
+user names and SIP phone numbers.
+
+DPI technology combining layer-7 pattern
+matching, behavior'al, statistical and heuristic
+analysis
+Support for close to zoo protocols covering
+thousands of applications
+High classification accuracy with very low
+false negative rate and virtually no false
+positives
+Reliable detection of obfuscated and encrypted protocols such as Skype, BitTorrent,
+SSLand many VPN tunnels
+Support for asymmetric traffic identification
+Correlation of signaling &content data flows
+
+Generic Keyword Spotting
+String search across the entire content of an
+application data exchange
+Capitalization and single-character wildcards
+Multi-word expressions with full Boolean
+expression support
+
+HIGHLIGHTS
+
+and merit attrtbul~s
+AppUcation layer W a d l t a
+Raw pdtlcat and eontant s h a m
+
+Full tPMI and €OR
+
+fil'mqm&MF
+
+Support for up to 25,000 keywords
+Full TCP reassembly t o facilitate keyword
+search across packet boundaries
+On-the-fly application-layer decoding for
+Base64 e-mail attachments, HTTP chunked
+transfer encoding, HTTP gzip/deflate content
+compression and Base64-encodedHTTP
+data URls
+Generic stream search covering the full TCP or
+UDPflow
+Layer-7 Filters
+Layer-7 protocol or application
+Protocol- and application-specific keywords
+covering specific parts of a transmission
+HTTP hosts and URls
+- HTTP request header & body, response
+header & body
+- Web proxy URls
+E-mail (POP3, IMAP4, SMTP) sender,
+recipients including CC, BCC, subject, body
+VolP: SIP caller/callee
+
+-
+
+-
+
+Layer-2-4 Filters
+IP addresses, port numbers and ranges
+Black- and whitelists for IP, MAC and MPLS
+All trigger criteria listed above can be combined
+(e.g. layer-7 protocol AND IP address AND
+e-mail address). DPX Network Probe supports
+large rule sets with up to 25,000 concurrent
+rules per system or per blade.
+
+TRAFFIC PROCESSING BY RULE ACTIONS
+The action part of a rule defines how to act on
+a match by a trigger criterion, allowing to forward the Content of Communication (CC) and
+Intercept Related Information (IRI) OS required
+by ETSI.
+Content Data Forwarding (CC)
+Raw packet forwarding with MAC- or CREbased packet marking, or in Packetcable ESP
+I.j farmat
+
+lnternet
+
+Hardware
+
+'-a
+
+19' 1U appliance
+
+.
+
+' 'q-
+
+Scalability
+
+19' 9U appliance based on IBM
+Bladecenter H
+Load-balancing cluster of up to 13
+packet processingblades
+
+Monitoring interfaces
+
+2x 1000Base-TIlXIW to monitor one
+
+management
+
+Dedicated 1 000Base-T interface
+
+Dedicated management bhde
+
+Performance
+
+Full 1 Gbitls wire speed
+
+Full 10 Gbitls w~respeed
+
+G'gabit Ethernet link
+
+-
+
+2 Gbitls
+
+,' r S x ~ p . t q w Q " P ~ t
+
+.-.
+
+Up to 50,GbitlsLIP
+
+m 30 Gb~tlsfor string search
+
+8
+
+-S(packets
+C
+per:
+second)
+$Y
+l million
+
+1 million per blade
+
+5.5 million
+
+Concurrent flows
+
+20 XFP interfacesto monitor ten 10
+Gbitls links
+
+5.5 million per blade
+
+New flows per second
+
+400,000 per blade
+
+Concurrent target rules
+
+25,000 per blade
+
+Concurrent keywords
+
+25,O(DO per black
+
+Concurrent P addrassas
+
+.-
+
+All traffic processing actions for content data
+forwarding and metadata generation listed
+above can be combined (e.g. generate flow
+IPDRs AND intercept raw packets).
+
+Packet payload interception forwarding fully
+reassembled application-layer content data
+streams
+Integrated flow buffer for delivery of intercepted flows from the first t o the last packet
+
+SEAMLESS INTEGRATION 8 MANAGEMENT
+
+Metadata Generation (IRI)
+Application- and protocol-specific metadata,
+or IP Detail Record (IPDR), generation
+IPDR generation for either all flows or target
+flows only
+Flow IPDRs indicating trigger hit and end/
+timeout of a flow
+IPDR delivery using syslog
+Layer-7 IPDRs for RADIUS on all protocol
+events
+Layer-7 IPDR generation for e-mail (POP3,
+IMAP4, SMTP)
+Conditional filtering of RADIUS layer-7 IPDRs
+(AAA Probing)
+
+Flexible integration and handover interfaces
+Seamless integration in any LI infrastructure,
+e.g. CALEA, ETSl
+Web-based GUI for management of standalone systems
+SOAP Web service over HTTPS for integration
+with existing management and mediation
+systems
+Comprehensive system performance profiling
+information in real time
+SNMP support
+Current and historical throughput statistic
+(packets and bytes per direction, IPvqand
+IPv6,TCP and UDP, all supported layer-7
+protocols)
+
+Filtering rule provisioning
+System operotionr
+
+I
+
+Veb Service
+
++
+
+filtered traflc (CC)
+r-S
+
+Trigger!
+
+Actions
+
+Application
+content stream
+
+Metodota (/RI)
+
+-
+
+P
+
+ipoque CmbH, Neumarkt 29-33,04109 Leipzig, Germany
+Phone. +49 34159403 o Fax: t49 341 59403 019
+
+b
+
+o 2011 ipoque GmbH
+DPX-1101
+
+

@@ -1,0 +1,427 @@
+L T -
+
+C
+
+Technol*.
+catering for l a ~
+
+1
+
+SPECIFICATION
+
+The OPT3U21 is a three transceiver UMTS Base Station
+System for mobile identity acquisition on the UMTS
+2100 MHz band. The OPT3U platform is based on real
+COTS transceivers, performing acquisition in 3G mode,
+not jamming.
+
+H High Power Dedicated Embedded Controller PC
+H Up to three UMTS 2100 transceivers. The UMTS output
+power is checked against ETSl TS25.141 Test Model 1 for
+linearity and quality, measurements made on a R&S
+CMU300 cellular test set.
+H CPlCH Transmit Power Control in 2dB steps down to
+320mW
+H 3GPP R5 Compliance (Local Area Cell TS25.104N6.8.0)
+H Commercial Grade hardware
+H HCS Priority makes cell more attractive to UEs
+H Legitimate 3G identity acquisition without GSM mode
+H Firmware upgradable via OPTSCU
+Alternative Configurations
+H Can be supplied as 1,2 or 3 transceivers of any one band
+H Flexible, inexpensive upgrade path
+
+The OPT2G918 is a dual transceiver GSM Base
+Station System for mobile identity acquisition, control
+and monitoring on the GSM90011800 bands.
+
+H
+H
+H
+H
+H
+H
+H
+H
+
+Two 20W GSM transceivers
+Transmit Power Control in 2dB steps down to 130mW
+GSM05.05 Receiver Compliance
+"Feels Like" function makes cell more attractive to UEs
+Each transceiver independently configurable
+Busbar support for tidy power pass-through*
+Heat dependent fan assisted cooling'
+Compact 19" 2U enclosure, 9 kilograms'
+
+Alternative Configurations
+H Also available in 850/1900 MHz GSM
+H Compatible with various Direction Finding (DF) equipment
+for enhanced geo-location capability
+
+NEW UMTS 900
+
+The OPT3U90 is a three transceiver UMTS Base Station System
+for mobile identity acquisition on the UMTS 900 MHz band.
+The OPT3U platform is based on real COTS transceivers,
+performing acquisition in 3G mode, not jamming.
+
+Angle of Arrival (AoA)
+
+The AoA receiver is a powerful vehicle based geo-location
+tool designed for the detection of GSM uplink traffic
+channels. It is designed to work in conjunction with the
+cellxion stimulation tools to tune to a specific mobile phone
+transmission. Working together with the digital mapping
+capability of the GUI, it will enable early identification and
+location of a specified MS.
+
+H Up to three UMTS 900 transceivers. The UMTS output
+power is checked against ETSl TS25.141 Test Model 1 for
+linearity and quality, measurements made on a R&S
+CMU300 cellular test set.
+U CPlCH Transmit Power Control in 2dB steps down to
+320mW
+U 3GPP R5 Compliance (Local Area Cell TS25.104N6.8.0)
+U Commercial Grade hardware
+H HCS Priority makes cell more attractive to UEs
+U Legitimate 3G identity acquisition without GSM mode
+H Firmware upgradable via OPTSCU
+Alternative Configurations
+H Up to three UMTS 900 or three UMTSI900 transceivers
+H Can be supplied as 1,2 or 3 transceivers of any one band
+H Flexible, inexpensive upgrade path
+
+U State of the art timeslot driven solution for acquiring
+the direction of one or more stimulated GSM sources
+H Plug and Play architecture
+H ~ o m ~ l e tintegrated
+el~
+with UGX platform and GUI
+H Geo-location capability combined with OSM engine to
+give CEP with probability zones.
+H LOB indication with +
+2%
+laccuracy
+U Compact 2U module
+
+:Fpf-h&&
+M&~rnp,Mr'@3i&m:.
+
+~d-
+
+44 (6) 13 135 1637 1 ?@+ l (704) 248 6229
+-44 (0)20 3137 2637 I mjlsales@ceIIXion.net
+
+cellxion Ltd Head Quarters:
+
+Hallmark House, 2 Timber Hill Rwd, Caterham,
+Sumy CR3 610, United Kingdom
+
+UGX Series 330
+/
+
+Transportable Dual GSM/ Triple UMTS Firewall
+and Analysis Tool
+The cellxion range of GX & UGX Cellular Intercept, Firewall & Analysis
+products are designed t o provide Law Enforcement, Security Services and
+Military officers with a comprehensive set of tools t o combat the growing
+use of mobile communications technology in crime and terrorism.
+
+KEY FEATURES
+B Compact device integrated into custom 1550
+Pelicase, capable of operation in Vehicle or a
+static location.
+
+B The optional 'In Network Calling' allows
+calls to be made within the UGX system
+(GSM only).
+
+B Contains two fully functional commercial
+
+B cellxion 'Feels Like' function uses BCCH
+manipulation to give a virtual power effect
+of up to several thousand watts.
+
+grade GSM (90011800MHz or 850/1900,
+20W) BTS transceivers and any combination
+of up to three UMTS 2100MHz, 3.2W) Node
+B transceivers.
+
+B Built-in 'environment monitor' to assess
+the number of networks in an area, their
+respective configurations, and provide
+information to optimize user configuration of
+the ETS transceiver modules.
+Comprehensive identification of IMSI, IMEl
+and TMSl information with dynamic control
+capability including comprehensive denial
+of service.
+
+B Excellent RF performance in high multi-path
+environments.
+B Each transceiver is independently
+configurable for all network parameters,
+and can transmit between 130mW and it's
+maximum power in 2dB steps.
+B The unique cellxion software client and
+GUI (graphical user interface) is consistent
+across the entire range of cellxion GX & UGX
+cellular intercept products.
+
+B Simultaneous high speed acquisition of
+handsets (up to 1500 per minute), across up
+to five networks.
+
+Optional add-on
+UGX Series 400
+Slave unit with the capability of up to 3
+transceivers on two different UMTS channels
+(850,900,1900,2100MHz)
+
+Cornmercralin c~nfidence
+
+For further information please contact sales on UK +44 (0)20 3137 1637 i US +l (704)248 6229 or email sales@cellXion.net
+
+SPECIFICATION
+B Dimensions: W260mm X D300mm X H175mm
+
+B Legitimate 3G identity acquisition without GSM mode
+
+B Weight: 7Kg
+
+B Transmit Power Control in 2dB steps down to 130mW
+
+B Two 200mW GSM transceivers (900MHz/I800MHz) or
+(850/1900)
+
+B GSM05.05 Receiver Compliance
+
+B Three 32mW UMTS Node B transceivers of any
+combination of either 900 or 2100MHz
+
+B Optional Power amplifier for vehicle fitting to give 20W
+GSM and 3.2W CPlCH UMTS output power. The UMTS
+output power is checked against ETSl TS25.141 Test
+Model 1 for linearity and quality, measurements made on
+a R&S CMU300 cellular test set.
+B Power: 24-32V DC or mains via an AC adapter
+
+B 110V or 220V ac mains power supply included
+B Two 12Vdc batteries supplied
+B Optional power amplifier runs off 12-32Vdc (24v
+recommended) or mains ac supply
+B CPlCH Transmit Power Control in 2dB steps down to
+320mW
+B 3GPP R5 Compliance (Local Area Cell TS25.104N6.8.0)
+
+B 'Feels Like' function makes cell more attractive to UEs
+
+B Each transceiver independently configurable
+B Heat dependent fan assisted cooling
+
+B Integrated controller with embedded Linux 0 5
+B Controls up to ten transceivers (any combination;
+GSM/UMTS/CDMA)
+
+B lntegrated 802.1 1b/g Wireless Router
+B lnternet facing firewall for remote client operation
+and remote support
+B Web server provides software for Client PCs
+B Web interface supports software updates for all modules
+
+ALTERNATIVE CONFIGURATION
+
+B Commercial Grade hardware
+
+B Also available in 850/1900 MHz GSM and 850/900/1900
+MHz UMTS
+
+B HCS Priority makes cell more attractive to UEs
+
+B Compatible with various Direction Finding (DF) systems
+
+-
+
+n
+
+a
+
+'
+
+/
+
+QMTS
+Quad Modem Telemetry System
+
+I.
+I
+
+*_
+
+The quad modem telemetry system (QMTS) is a multi-role communications
+platform designed to simultaneously utilise the wireless data networks of
+up to 4 mobile network operators in a single geographic location. Data is
+shared between carrier networks and aggregated in a central secure server
+before being sent to any number of configured client machines. Sharing
+the data payload across multiple networks leads to higher throughput and
+greater resilience.
+The device has an integrated router that manages the packet queue
+internally, with all traffic carried over secure tunnels between the QMTS
+and the secure server. In addition t o providing secure, reliable IP transport
+at up to 4x a single modem solution, the QMTS has built-in GPS for
+accurate position reporting and tracking.
+
+KEY APPLICATIONS
+
+BENEFITS AND KEY FEATURES
+
+The QMTS has a wide variety of applications,
+including:
+
+The QMTS has a number of key benefits:
+
+D Backhaul of video and other surveillance
+traffic
+
+D Use as a high bandwidth wireless router
+Remote control of missions critical assets
+
+D Higher bandwidth than using a single
+operator
+D Resilience from using multiple networks
+D High security of data streams
+
+D Vehicle tracking and monitoring
+
+D System is designed to use low cost standard
+data SlMs
+
+D As a secure communications tool
+
+D Built in router, switch & GPS
+D Up to 64 GB of on board storage via micro
+SD card
+D Secure server can be located anywhere
+including user's own secure data centres
+
+D Secure server serves multiple QMTS devices
+D On-board processor able to run bespoke
+user applications.
+
+Cumrnrnial
+
+I ~ (I o r ~ l ~ d e
+rr i ~
+
+Far further infwmation please contact sales on UK +44 (0)20 31 37 1637
+
+US +l (704)248 6229 or email ~ l ~ ~ I l X i o n , n a
+
+1 c]e-J~]~-kri~
+-1
+n
+
+e
+
+t
+
+,
+
+I
+
+1
+
+CELLULAR INTELLIGENCE SOLUTIONS
+
+- -- -.---.--..
+
+!
+
+Professional Services
+& Financial options
+With over 50 years of combined experience in the cellular intelligence
+market, cellxion are pleased to offer a number of professional services
+t o compliment the product portfolio. With a clear understanding of
+the customer's requirements, cellxion can offer additional services
+ranging from training on cellular technology and infrastructure to
+analysis of the RF environment and installation services.
+Additionally, we also offer a number of different financial options for
+end users t o realise the operational budgets as well as pure capital
+purchases.
+Services including;
+
+H
+H
+H
+H
+H
+
+Training (cellular infrastructure and operational)
+Cellular consultancy
+RF environmental analysis
+Vehicle installation consultancy
+RF safety measurements
+Alternative financial options
+
+Commercial in confr&nee
+
+Far further information please contact sales on UK +44 (0)20 3137 1637 i
+
+US +l (704)248 6229 or m a i l sales@celMon.net
+
+e x p e r i e n c v n n l ! l OH
+3ining,PC a"
+ncial op
+
+3"
+
+lg compleme
+
+L
+
+t
+
+d
+
+FORMED IN 2004 BY A GROUP OF INDUSTRY
+LEADERS, CELLXION LTD ARE A PRIVATELY
+OWNED UK COMPANY SPECIALISING IN CELLULAR
+INTELLIGENCE AND GEO-LOCATION TOOLS FOR
+LAW ENFORCEMENT AND MILITARY USERS.
+AN INNOVATIVE AND CREATIVE COMPANY, OUR
+CELLULAR SOLUTIONS ARE MARKET LEADING IN
+TERMS OF PERFORMANCE AND CAPABILITY, WlTH
+MODULAR DESIGNS INCORPORATING MULTIPLE
+TECHNOLOGIES INCLUDING GSM, UMTS AND 4G.
+WlTH TWO SITES IN THE UK, A US SUBSIDIARY
+AND A N EXPANDING PORTFOLIO OF CELLULAR
+EQUIPMENT O N OFFER, CELLXION IS IDEALLY
+POSITIONED TO REACT QUICKLY AND DELIVER TO
+THE FAST CHANGING NEEDS OF THE SECURITY
+MARKET WHILST MAINTAINING THE EXEMPLARY
+CUSTOMER SUPPORT STANDARDS THAT HAVE
+BECOME EXPECTED OF THE COMPANY.
+
+.,,
+
+'WWW~CELLXION.,,
+
+pleea contact-.uston:
+
++44 (0)20 3137 1637
+
+U$ +l (704)248 6229
+Hallmark House
+
+2 Timber Hill Road
+Caterham, Surrey
+
+% +44(0.)203137 1 6 8
+-
+
++44 (0)20 3137 2637
+
+#E ssales@cellXion.net
+cellXion.nqt
+
+

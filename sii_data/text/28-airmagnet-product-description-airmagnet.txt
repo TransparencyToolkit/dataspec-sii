@@ -1,0 +1,273 @@
+AirMagnet Laptop Analyzer
+AN AIRMAGNET MOBILITY SOLUTION
+
+AirMagnet Laptop Analyzer is the industry’s most valuable and
+complete solution for managing enterprise Wi-Fi networks. At
+the heart of the Laptop Analyzer is the AirWISE® engine, which
+
+WIRELESS LAN ANALYSIS
+AND TROUBLESHOOTING
+Complete 802.11a/b/g/n monitoring
+
+automatically detects the root-cause of dozens of security and
+performance problems, explains alarms in plain English, and
+
+Wi-Fi Packet Analysis
+
+offers recommendations on how to solve or manage complex
+issues. Laptop Analyzer provides instant visibility into all
+wireless channels, devices, conversations, speeds, interference
+
+AirWISE ® GUI with Expert Advice
+
+Superior Security Threat Detection
+
+issues and the RF spectrum, making it the ideal product for
+pre-deployment and post-deployment of Wi-Fi Networks. The
+
+Superior Performance Monitoring
+
+Analyzer also diagnoses Wi-Fi interference arising from WiFi
+and non-WiFi sources leading to reduced performance. As
+
+Active Troubleshooting Tools
+
+always, AirMagnet delivers a solution that is user-friendly to IT
+Complete Wi-Fi Interference Analysis
+
+professionals, network managers, security and compliance
+officers, and wireless LAN experts.
+
+Compliance Auditing and Reporting
+
+Multiple Platform Support
+
+AirMagnet Laptop Analyzer
+AN AIRMAGNET MOBILITY SOLUTION
+
+The AirMagnet Laptop Analyzer software monitors all
+802.11a, 11b, 11g, 11n and 4.9 GHz US Public Safety
+(requires Laptop Analyzer PRO and an AirMagnet supported
+4.9GHz wireless adapter) channels for complete visibility of
+the entire Wi-Fi domain.
+AirMagnet is compatible with a variety of internal and external
+wireless adapters. Please visit the AirMagnet website for a
+complete list of supported adapters and their capabilities. With
+the Intel PRO/Wireless 3945 wireless adapter, users can
+monitor the Wi-Fi environment and be connected to the
+network at the same time.
+AirMagnet Laptop Analyzer can be installed on a variety of
+platforms including Windows-based Laptops, Tablet PCs,
+Apple® MacBook® Pro and Ultra Mobile PCs.
+
+AirWISE: Built-In Wireless Exper tise
+At the heart of the Laptop Analyzer is the AirWISE® engine, which automatically detects
+the root-cause of dozens of Wi-Fi issues across 802.11a, 11b, 11g, 11n and 4.9 GHz US
+Public Safety channels. AirWISE® eliminates the need for users to manually interpret
+complex packet decodes and wireless data by taking the proactive role of identifying and
+explaining more than hundreds ot threats and performance issues before they impact
+the network. The user-friendly AirWISE® interface explains alarms in straightforward
+details, provides access to additional diagnostic data, and offers advice on corrective
+actions.
+
+Alerts You of Rogue Devices and Intrusions
+AirMagnet’s Laptop Analyzer automatically detects and alerts you of dozens of wireless intrusions, penetration attempts and
+hacking strategies including Rogue Devices, Denial of Service attacks, Dictionary Attacks, Faked APs, RF Jamming, and
+many more. This includes the ability to detect and identify the use of various “stumbler” tools which may indicate an
+unauthorized user attempting to snoop on your network.
+
+Alerts You of Network Performance Issues
+Even the most secure network will fail to meet its objectives if it does not reliably meet the demands of network users.
+Furthermore, certain performance issues can escalate and open up the network to unknown risks. For this reason,
+AirMagnet has developed over 40 alerts to identify an entire range of performance issues including traffic patterns,
+bandwidth utilization and infrastructure or hardware failures or resets. Like all AirMagnet alerts, each comes with a detailed
+description of the problem, symptoms and causes, access to additional diagnostic data, advice on corrective action, and
+device tracking.
+
+Detects Subtle Network Weaknesses
+AirMagnet performs a continuous vulnerability assessment of the network to detect subtle weaknesses that are often
+overlooked, such as devices sending unencrypted data, tracking LEAP vulnerabilities, detecting pre-802.11n devices,
+identifying unconfigured clients automatically scanning for APs and a host of potentially damaging security configurations.
+These proactive measures enable IT to take corrective action before a problem ever occurs.
+
+Locks Down Security Policies
+In a wireless LAN, if even one AP or station fails to run the appropriate security measures, the entire network is put at risk.
+Furthermore, several different security strategies may be needed in order to secure the entire enterprise. AirMagnet allows IT
+to pick the ideal security measures for your WLANs and then monitor for 100% compliance.
+
+8 0 2 . 1 1 n M o n i t o r i n g & Tr o u b l e s h o o t i n g
+Laptop Analyzer identifies and classifies all 802.11n capable devices in the network
+(including differentiating between standards-compliant and pre-standard 802.11n
+devices). It supports monitoring for the 20 MHz and 40 MHz channels and classifies
+higher data rates used by the 802.11n devices. Using the Laptop Analyzer, users can
+also classify and decode Non-HT (legacy), HT mixed format and HT greenfield format
+traffic and identify backward compatibility issues with legacy 802.11a/b/g devices
+operating in the same environment. The Analyzer helps users physically locate
+802.11n rogue devices operating in the environment (which are often invisible to
+non-802.11n analyzers) and decodes new information elements and wireless frame
+types.
+
+Flexible Settings & Infrastructure Monitoring
+“Results-oriented” User Interface
+AirMagnet Laptop Analyzer’s “results-oriented” User Interface adapts in ways desired
+by the users. Users can filter and choose to only view information on the different
+screens based on channels, device type, SSID and alarm severity or take advantage
+of the advanced sorting capability to view the information.
+
+Infrastructure Vendor monitoring
+Infrastructure vendors provide multiple BSSIDs (MAC addresses) for a single AP to
+support multiple security configurations/applications on a single physical AP.
+AirMagnet Laptop Analyzer includes manual and automatic AP grouping capabilities
+to view such APs and recognize all the BSSIDs belonging to it. AirMagnet includes
+pre-defined grouping for the Cisco and Aruba Infrastructure.
+
+Complete Wi-Fi Interference detection & analysis
+Wi-Fi Interference occurs due to co-channel/adjacent channel interference from the
+corporate or neighbor’s WLAN, hidden nodes in the environment or sources outside
+of the 802.11 band. AirMagnet’s Interference status indicator lists the overall
+interference status for each Wi-Fi channel, calculated based on the Wi-Fi interference
+score for the devices contributing to the interference; a list of hidden nodes and non
+Wi-Fi devices (non Wi-Fi detection requires Laptop Analyzer PRO and AirMagnet
+Spectrum Analyzer) operating in the channel. This enables AirMagnet users to plan
+future Wi-Fi deployments or modify their existing to increase network performance.
+
+Packet Decode Page
+AirMagnet Laptop Analyzer also includes a real-time decode page for detailed network
+analysis. AirMagnet decodes the most popular protocols such as FTP, HTTP, SMTP,
+POP, and Telnet. Advanced filtering options allow you to focus on particular
+conversations based on IP address or port number.
+
+A c t i v e Tr o u b l e s h o o t i n g To o l s
+AirMagnet Laptop Analyzer provides a suite of more than 15 troubleshooting tools to pin-point and solve wireless network
+problems.
+
+Wireless Device Find Tool
+The Find Tool locks onto a particular AP or station and guides you to the physical
+location of non-complaint device or Rogue APs. The Find Tool can also be used to
+align signals between antennas to quickly optimize reception in line-of-sight bridging.
+
+Connection Troubleshooting
+Directly troubleshoot connectivity between any client and AP in the network by viewing the
+step-by-step progress of a connection to pinpoint where the process is breaking down. Also use
+traditional tools such as Ping, Traceroute, Whois, DHCP, and DNS Lookup.
+
+Multipath Detection
+With the Signal Distribution tool you can identify very rapid fluctuations in signal quality from
+any given access point to detect the presence of multipath interference at a particular location
+or even identify a malfunctioning access point.
+
+AirMagnet Laptop Analyzer PRO
+AirMagnet Laptop PRO is a separate version of the Laptop software containing all the functionality of the basic version plus
+an additional set of features tailored to the needs of the wireless expert. Additional features include:
+
+4.9 GHz US Public Safety Band
+
+Compliance Reports
+
+AirMagnet Laptop Analyzer users can monitor the band,
+detect security and performance issues and use a suite of
+troubleshooting tools to solve problems in the 4.9 GHz US
+Public Safety Band. Users need to use an AirMagnet
+supported 4.9 GHz wireless adapter for this feature.
+
+AirMagnet provides detailed compliance reports for a variety
+of regulatory standards including Sarbanes-Oxley, Basel II,
+EU-CRD (Cad 3), ISO 27001, FISMA, HIPAA, PCI-DSS, DoD
+8100.2, and GLBA. Reports provide a step-by-step pass/fail
+assessment of each section of the standard. As a result, IT
+staff can take the guess work out of compliance audits and
+complete their work in a fraction of the time.
+
+200+ 802.11a channel support
+AirMagnet Laptop allows the scanning of extended
+channels (up to 200) in the 5 Ghz spectrum. Since wireless
+hackers won’t necessarily restrict their efforts to the
+commonly used channels, the ability to scan a wider range
+of the spectrum is becoming increasingly necessary.
+
+Integrated Reporting
+AirMagnet's integrated reporter makes it easy to turn your
+Wi-Fi analysis sessions into professional customized
+reports. Choose from a library of pre-built reports or
+generate your own targeted reports by selecting specific
+items of interest from the user interface. Reports cover all
+areas of management including RF statistics, channel
+reports, device reports, security and performance issue
+reports.
+
+Spectrum Analyzer Integration
+Users that own the AirMagnet Spectrum Analyzer can view
+both Wi-Fi and Spectrum (layer 1 FFT spectrum plot) data
+during a single capture session giving them the most
+complete view of the wireless environment possible. Users
+will also be able view the list of detected non Wi-Fi interfering
+devices such as Bluetooth devices, cordless phones,
+microwave ovens, RF Jammers, etc. and monitor the
+channels affected, power capabilities & duty cycle of each
+interfering source.
+
+Peer to Peer
+AirMagnet enables technicians to share live sessions
+between two Laptop analyzers so both users can analyze
+and discuss the same data.
+
+Product
+
+Part Number
+
+Laptop Analyzer Standard
+
+A1152
+
+Laptop Analyzer PRO
+
+A1150
+
+Laptop Analyzer Standard to
+Laptop Analyzer PRO (upgrade model)
+
+A1153
+
+AirMagnet Spectrum Analyzer (optional)
+
+A4030
+
+Patents: U.S. Patent No. 7009957, 7236460,
+7292562, 7289465 and 7130289. Additional patents
+pending.
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Minimum System Requirements
+Microsoft® Windows VistaTM Business or Ultimate, 2000
+(SP 4) or XPTM Professional (SP 2) / Tablet PC Edition
+2005 (SP 2) or MAC OS X LeopardTM (Apple® MacBook®
+Pro running Windows XPTM PRO/SP2 using Boot Camp® )
+Intel® Pentium® III 1.26 GHz (Pentium® M 1.6Ghz or
+higher recommended)
+256 MB Memory (512 MB recommended) for Windows
+2000/XPTM PRO, 512 MB Memory (1 GB
+recommended) for Windows VistaTM
+An AirMagnet Spectrum Analyzer Adapter and license
+(Required for viewing spectrum data and classifying
+non-802.11 devices. Not supported on Ultra Mobile PC
+platform)
+100 MB of free disk space
+Cardbus, Expresscard or mini PCI slot
+For Ultra Mobile PC platform support: OQO model 02/e2:
+http://www.oqo.com/products/index.html (Better, best, and
+best with SSD models supported. Windows XPTM PRO
+only)
+Supported wireless adapter
+
+Copyright © 2008, AirMagnet, Inc. All rights reserved. 02/07/08 Laptop76DS v2
+
+P r o d u c t Fa c t s
+
+

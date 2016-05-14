@@ -1,0 +1,211 @@
+CS-2000 High End
+High Performance Network Platform
+
+CONFIDENTIAL
+– Subject to–change
+prior
+notice!prior notice!
+CONFIDENTIAL
+Subjectwithout
+to change
+without
+
+1
+
+CS-2000 High End, High Performance Network Platform
+
+CS-2000 is a modular platform for high-speed network applications and
+services
+Networking engineers are constrained by available applications platforms. Open
+conventional servers are unable to perform at the speeds of the network, and highspeed appliances are closed,
+inaccessible, and often fixedfunction systems.
+
+CS-2000 combines the best
+of
+these
+computing
+architectures resulting in a
+multi-purpose,
+high-speed
+programmable
+packet
+processing platform. With the
+CS-2000, ELAMAN removes
+the barriers to innovation and
+service development.
+The major innovation in the CS-2000 is the programmable Deep Packet processing
+Module, or DPPM. The DPPM provides a complete set of computing resources
+and instruction sets architected for, and dedicated to, packet processing in the
+data plane. The DPPM provides ASIC-based appliance performance in a general
+platform.
+Faster, More CPUs is Not the Answer
+CPUs, RAM, bus and disk drive technologies all benefit from continued
+performance improvements. However, the one area CPU-based computing
+platforms fall short is network performance. When heavy packet processing is
+required, CPU-based computing platforms can’t keep pace. The problem is not
+CPU speed, its architecture.
+ELAMAN has a new network applications platform – a general purpose deep
+packet processing platform combined with an open Linux server blade. Designed
+for applications focused on real-time network traffic processing, the CS-2000
+provides the application developer high-speed processing, high-speed RAM, a
+high-speed database, and a structured programming language for data planeresident packet operations. No more CPU interrupt latency, no more PCI bus
+bandwidth constraints, but the power to operate on every packet – every bit of
+every packet – on the wire in real-time. The CS-2000 also provides conventional
+Linux server resources for off-line analysis and non real-time application functions.
+The CS-2000 enables network operators and network applications developers to
+implement their ideas, build differentiating service features, deliver benefits to
+customers, and bring value to their companies.
+Modular System Delivers the Capacity You Need
+DPPM–500 Deep Packet Processing Module for high-performance packet
+processing applications on Gigabit Ethernet networks. Providing 2 gigabits per
+second (Gbps) packet processing performance, the DPPM-500, has 4 Gigabit
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Ethernet ports (Copper or Fiber) plus one 1000Base-T Gigabit Ethernet capture
+port on the front panel.
+DPPM–600 provides DPPM 500 features at full line rate for OC-48 / STM-16
+SONET/SDH links. The DPPM-600 supports two OC-48c/STM-16 PoS (Packet over
+SONET/SDH) interfaces and up to 2.5 Gbps of packet processing performance.
+Network interfaces are OC-3,12 / STM 1,4 capable. RAVE applications can be
+executed on either DPPM model without modification.
+A proper CS-2000 configuration today includes a single DPPM and a single Linuxbased Application Server Module (ASM). The ASM is a dual Pentium server
+with 1 GB of RAM and a 60 GB hard disk. The ASM, supports Linux and hosts the
+web-based system management server software and database, an SNMP Agent,
+and DPPM control APIs. Under normal load, these components utilize less than 20
+% of the available ASM resources. That leaves more than 80% of the Linux server
+resources for running non real-time application functions.
+The CS-2000 is really two computers to create one robust network computing
+platform. There is a high-performance packet processing computer for all real-time
+packet operations, and a standard Pentium-based server for less time-critical
+operations. No longer is fixed functionality a requirement for achieving high
+performance.
+
+CS-2000 Features
+Deep Packet Processing
+−
+−
+−
+−
+
+Up to 5 gigabits per second L2-7 inspection and analysis
+Detect and track Up to 1 million simultaneous flows
+Secure transparent network installation
+Native IPv4 and IPv6 support, can be taught others
+
+Management
+−
+−
+−
+−
+−
+−
+
+Web-based element management system
+Integrated scriptable command line interface (CLI)
+SNMP v1, v2c, v3 GET/TRAP support
+User access:
+Telnet (CLI), SSH (CLI), and HTTP / HTTP-S (web)
+Ethernet (all), COM port (CLI), KVM (CLI)
+
+Hardware Overview: GE PPM
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+Hardware Overview: System Level Port Distribution plus Out of Band
+Management Architecture (CS-2000 system with 2x DPPMs)
+
+Hardware Overview: Network Processing Pathways
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+Specifications:
+DPPM-600 – Packet over SONET
+−
+−
+–
+–
+−
+–
+–
+–
+−
+
+4 million frames / second; 2.5 Gbps data throughput
+SONET / SDH Interfaces
+2x OC-48c / STM-16 POS
+OC-12c / STM-4 & OC-3c / STM-1 ready
+optics and SFPs
+SR-1:
+1310 nm single mode
+IR-1:
+1310 nm single mode
+LR-2:
+1550 nm single mode
+Dedicated 1000 Base-T for packet capture/logging
+
+DPPM-510 – Gigabit Ethernet
+−
+−
+–
+−
+−
+–
+–
+−
+
+3 million packets / second; 2 Gbps data throughput
+Gigabit Ethernet Interfaces:
+–4x unidirectional, 2x bi-directional
+Copper - 10/100/1000 Base-T Ethernet, RJ-45
+Optics and SFPs
+SX:
+850 nm multi-mode
+LX:
+1310 nm single-mode
+Dedicated 1000 Base-T for packet capture/logging
+
+ASM – Application Server Modules
+−
+−
+−
+−
+−
+
+Dual Pentium, 1 GB RAM, 60 GB HD
+2x 10/100/1000 Base-T Ethernet RJ-45
+1x 10/100 Base-T Ethernet RJ-45
+1x RS-232 console port
+1x USB port
+
+Chassis19” rack-mount 2 HU
+−
+Dimensions (HxWxD) 87 x 482 x 600 mm
+−
+Weight:
+11 kg
+Power Requirements:
+DC power
+- DC input power 300 watts
+- DC input voltage - 40.5 to - 72 VDC
+- 6,25 Ampere at - 48 VDC
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+AC power
+- AC input power 300 watts
+- 90 – 240 VAC
+- 2,5 Ampere at 120 VRMS
+
+5
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+

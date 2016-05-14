@@ -1,0 +1,195 @@
+The ALPHA passive off the air GSM interception unit is able to intercept the communications between
+the handset and the BTS. It is a WIDE BAND (processing the whole GSM bands) and PASSIVE solution,
+meaning that absolutely nothing is sent to intercept. It makes this solution completely undetectable
+by the targets or the operators unlike active interception solutions in the markets.
+Thanks to its dense FPGA architecture, this solution is able to intercept up to 60000 communications
+per hour, which enables this solution to be suited for MASSIVE application (border control for example), the ALPHA PA is able to demodulate and decipher in REAL TIME up to 320 duplex communication.
+Two versions are available either in a 2U format for low cost application (up to 20 full duplex simultaneous communication) or in a 3U format to get the fu ll power of the systems.
+The front end can be connected to the deciphering box (Beta2) through Ethernet connection using
+either Vsat, 3G or cable links. In the case of a powerful deciphering box, multiple front ends can be
+connected.
+
+__...f
+Mob~ Hanclset
+
+Key txchan&e
+(Ethernet,
+Alpha . Off the air GSM
+Interception SvSlem
+
+GPRSor
+Satellite)
+
+Deciphering unit
+
+ADVANCED
+MIDDLE
+
+EAST
+
+SYSTEMS
+
+Once the intercepted communications are stored in the data base, the user friendly GUI proposes many
+filtering abilities (operators, services, target ...):
+Provider selection
+Cell selection: power & quality criteria
+Service selection: GSM, GPRS, SMS, In/Out call ...
+Target selection: TMSI, IMSI, IMEI, MS-ISDN
+
+............ ·-a• .. .......__ ..""'""'..., . ... _. ··
+-. .. ...
+.
+E·-.., .. .._ -·
+=
+
+-....... ---..
+'rv;;;;;-:•u.• "
+Oiii:i"'--\e"'
+~.,i:
+
+•
+
+....a)l) ll •
+
+:=::!:
+:=::~:
+_
+
+4 .. 1.o •
+
+--.':l>:11:•
+
+!e
+
+=-~
+
+l .....,. !
+
+w<
+
+~
+
+......
+
+"'"'
+
+~
+
+·~
+
+«11"""1
+~
+
+....:
+
+I q l• i m !• •
+
+•r
+
+!
+
+'
+
+Ill
+
+~-=i u
+
+__
+
+.._
+..
+,._
+,._
+..
+,._ !tl
+._ .
+~-~
+
+••
+
+! .,,ti ! , I ,,, f• !t;;;tl,,,h .. lpe-1
+
+MAIN FEATURES
+Passive off the air GSM interception front end
+Passive and wide band solution
+All GSM bands (GSM450, GSM850, EGSM900, DCS1800, PCS1900)
+Full band analysis: Simultaneous acquisition of all channels
+No limit on frequency hopping and real time handover management
+Up to 64 cells can be under surveillance
+Automatic cell detection
+Store telephone conversations on the hard drive. Ability to listen to conversations in real time
+Optional speaker identification thanks to biometric voiceprint technique
+Control and test
+Remote and local control
+Ethernet connection to the deciphering unit
+
+OPERATIONAL I PHYSICAL I ELECTRICAL SPECIFICATIONS
+2U version
+
+3U version
+
+Connection to deciphering unit
+
+Ethernet (RJ45)
+
+Ethernet (RJ45)
+
+Number of simultaneous calls
+
+20
+
+128, 256 or 320
+
+AC Power
+
+: 115/230 Vac ± 15 % 47-63 Hz
+
+115/230 Vac ± 15 % 47-63 Hz
+
+Consumption
+
+300VA
+
+400VA
+
+Size
+
+19"2U
+
+19"3U
+
+Weight
+
+< lOKg
+
+<27Kg
+
+Operating temperature
+
+0°c to +40°C
+
+0°( to +40°C
+
+Storage temperature
+
+-40°C to +70°c
+
+-40°( to +70°C
+
+ADVANCED
+M I OOLE
+
+E A
+
+ST
+
+SYSTEMS
+P.O. BOX : 500439
+Internet City
+Dubai' · U.A.E.
+Mobile: +971 S6 72 44 190
+Email: contact@advancedsystems.ae
+
+All specifications presented in this document are subject to modifications without notice and are not contractual.
+
+

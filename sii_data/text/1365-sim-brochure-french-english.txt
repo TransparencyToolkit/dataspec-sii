@@ -1,0 +1,202 @@
+MODREC - LPM
+
+Enregistreur numerique monovoie pour
+enregistrement
+a
+distance
+des
+communications a partir de lignes
+telephoniques analogiques.
+ModreoLP est destine a intercepter et enregistrer le
+contenu des conversations a partir de lignes
+t6lephoniques analogiques et a les envoyer par la
+suite au Centre de monitoring (p.ex. vers
+I'enregistreur COMPREC-Md). Cet envoi, selon la
+version de I'appareil, peut se faire par I'intermediaire
+d'une ligne tblephonique supplementaire ou par le
+reseau GSM. II est possible 6galement d'importer
+les fichiers directement au systeme COMPREC.
+ModreoLP permet d'intercepter aussi bien les
+conversations
+tblephoniques
+que
+les
+communications de t6l6copie analogiques (groupe
+G3).
+Grace au systeme intelligent de gestion de
+communication integrb (tentatives de connection
+multiples, liste de numeros d ' a d s , transmissioins
+avec confirmation) I'appareil devient independant
+des problemes de qualitb de lignes tblephoniques.
+ModreoLP est bquipe en memoire tampon flash
+(MMCISD) de 8 Go maximum qui permet
+de
+stocker dans I'appareil jusqu'a 270 heures
+d'enregistrement.
+-
+
+@
+
+-
+
+Criteres de declanchement
+d'enregistrement
+Off-Hook (decrochage);
+detection de sonnerie;
+VOX - augmentation de niveau de signal
+
+Criteres de fin d'enregistrement
+On-Hook (raccrochage);
+lntervalle suffisante depuis la derniere
+sonnerie sans dtkrochage;
+VOX - intervalle de silence
+
+Autres fonctions
+Interceptionde numero faisant appel pour
+les communications regues (FSK);
+Decodage de dlection par impulsions
+Transcodage de signalisation d'impulsions
+d6codee et de FSK en signalisation DTMF
+Possibilitb de copier les enregistrement par
+prise USB directement de I'appareil
+Configuration par PC (connection USB) ou
+a distance (par tblephone avec les codes
+DTMF)
+
+Interface
+
+L l W SOUS
+MONITORMO
+
+Connection a la ligne sous monitoring en
+s6rie ou en parallele
+Bande passante: 300-3400 Hz
+
+I
+
+Conne=tioo
+PSIW ou GSM
+
+COMPREC (MC)
+
+Alimentation
+1248VDC, USB (alimentation externe
+foumie 110-230vAC)
+Batterie inteme (charge par une ligne de
+service ou une alimentation), mode de
+veille max. 6 jours (sans chargement)
+Consommation: <200 mW
+
+Dimensions et poids
+Dimensions: 105x160x26 mm
+Poids: 3709 (sans alimentation, avec batterie)
+
+References:
+
+Modrec-LP.......................version standard (envoi d'enregistrements par la ligne PSTN)
+Modrec-LP-GSMSL.. ..........version avec porte GSM foumie (envoi d'enregistrements par GSM)
+
+Nos coordonnkes
+
+www.sim-recorders.corn
+
+1
+
+ul. F. 6tefczyka 34
+20-151 Lublin, Pologne
+tel. +48 81 718 78 00, fax+48 81 718 78 09
+e-mail: infom.sim.com. r>l
+
+1
+
+-
+
+MODREC LPM
+
+End of call criteria
+
+Remote single analogue telephone line
+monitoring,
+recording
+and
+retransmission unit.
+Modrec-LPM is used to monitor single analogue
+telephone line, intercept and retransmit contents of
+the calls to a Monitoring Centre (for example
+COMPREC recorder) using another analogue
+telephone line, GSM network or USB cable.
+The device can intercept standard voice calls and
+analogue fax transmissions (Group 3).
+Modrec-LP supports list of 8 alternate modemldial-in
+numbers to call, and supports user defined dial up
+redial procedures. Secure communication protocol
+is based on exchange of DTMF codes which are
+also used to transmit data pertinent to retransmitted
+call. Modrec-LP is equipped with 8 GB flash
+memory (SD card) that can store 270 hours of call
+contents.
+
+Additional features
+Caller's ID detection for incoming calls
+(FSK);
+PULSE dialling decoding;
+Transcoding of PULSE and FSK signaling
+to DTMF format;
+Direct access to recorded calls using USB
+connection;
+Headphones output
+Configuration and settings: local - using
+PC and USB connection or remote (using
+phone and DTMF or dedicated software)
+
+Target interface
+
+TARGET LINE
+
+@
+T
+
+On-Hook;
+Time lapse between last ring and absence
+of off-hook;
+VOX (signal level -silence -time lapse)
+
+Parallel (high impedance) or serial tapping
+Bandwidth: 300-3400 Hz
+DIAL-UP CONNECTION
+PSTN OR GSM
+
+Power supply
+12-48VDC, USB (external PS 110-230VAC
+included)
+Internal rechargeable battery (charged from
+service line), lasts for approx. 6 days (idle
+mode, no service line)
+Power consumption: 200mW
+
+COMPREC (MC)
+
+Interception triggers
+m
+
+Off-Hook;
+Ring detection;
+VOX (signal level - voice activity)
+
+Size and Weight
+Dimensions: 105~160x26mm
+Weight: 3709 (including internal battery)
+
+Ordering Information
+Modrec-LPM.. . ... ... ... ...........standard version (PSTN delivery of recorded calls)
+Modrec-LPM-GSMSL.. . .. ......version with GSM aatewav (GSM deliverv of recorded calls)
+
+How to contact us:
+SIM Ltd.
+ul. F. Stefczyka 34
+20-151 Lublin, POLAND
+tel. +48 81 718 78 00
+fax+4881 7187809
+e-mail: infot3sim.com.~I
+
+

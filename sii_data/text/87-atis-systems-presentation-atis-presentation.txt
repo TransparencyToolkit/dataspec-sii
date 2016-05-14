@@ -1,0 +1,326 @@
+A TIS Presentation
+
+2
+
+ATIS systems GmbH
+
+Hea
+
+uarter
+
+Juatus-von-Uebig..str. 5
+D 61352 Bad Homburg
+
+Germany
+
+3
+
+BALllC SEA
+
+NORTH SEA
+
+• Bremen
+
+JUSlU$-VOn-l.iQbl9-Str. 5
+D 6t3S2 BM1 Homburg
+
+Germany
+
+Hanover•
+
+• Dusseldorf
+· Cologne
+
+~-
+
+~Wies
+
+Koblenz•
+
+\ • Frankfurt
+~
+
+Mainz•
+MOS v
+~ • Heidelberg
+
+Baden-Saden
+
+•
+Stuttgart
+
+•• Freudenstadt
+,C
+
+BA1f 11
+
+·~
+
+oa~
+
+f'"U"S
+
+• Freiberg
+100 Ml
+100 ltllel
+
+4
+
+Who is ATIS?
+
+•
+
+Private company, founded in 1946 in Germany
+
+•
+
+Headquartered in Bad Homburg, Germany
+
+•
+
+Approx. 130 employees
+
+•
+
+Offices in Berlin, Switzerland, Abu Dhabi, USA, and Russia.
+
+5
+
+Business focus
+Interception and monitoring
+• ,,Turn key solutions from one company"
+
+• Adaptation of individual customer requests
+• Intensive customer support
+(pre-sales consultancy and technical services)
+Our mission :
+
+• Working as your long-term partner for integrated lawful
+interception, monitoring and analysis solutions for communication
+networks
+6
+
+Our products I Solutions
+Two main product suites:
+
+Klarios®
+• Integrated lawful interception and monitoring
+
+Voice Co/lee~
+• Voice and data recording
+
+7
+
+Klarios® - Market shares
+Currently there are more than 100 Klarios® monitoring centres
+and traditional voice) IN-OPERATION over the world
+Region
+
+Installed market share
+
+Europe
+
+15o/o (50% in Germany)
+
+Middle East
+
+50%
+
+Africa
+
+30°10
+
+Asia
+
+10°10
+
+(IP
+
+System Klarios delivered in Tunisia for the MOI in 1998 front of Alcatel MSC
+in Tunisia Telecom network.
+Voice collect systems deployed in MOI since 2005.
+8
+
+Voice Collecffi>
+Applications for:
+• Public safety
+• Fire brigades
+• Police stations
+• Air traffic control
+• Emergency centres
+• Railway
+
+9
+
+Klarios®
+Applications for:
+• Lawful Interception
+• Satellite Monitoring
+• Data Retention
+• Traffic monitoring
+
+10
+
+Klarios® - Our assets
+
+•
+
+Historically grown partnership confidence with end users
+
+•
+
+In-depth understanding of LEA requirements
+
+•
+
+In-depth understanding of CS and IP Networks
+
+•
+
+Experienced and reliable partner for planning, design and
+implementation
+
+•
+
+Qualified technology partner network as a base for state of the
+art solutions
+
+•
+
+Consultancy service over the entire project lifecycle
+11
+
+ATIS local representative
+Slaheddine Marzouki will be employed as ATIS staff detached in Tunisia to
+handle:
+• the local project management and
+• the local technical support
+
+12
+
+ATIS solution
+Technical proposal
+
+13
+
+Global overview
+
+Hl3cs
+Existing MC
+Dedicated for Voice part only
+
+/-.
+
+/
+
+II
+
+Proposed solution
+HI
+
+Utimaco
+IMS
+
+IP Monitoring Centre
+
+Analysts
+&
+
+Administrator
+
+Interfaces 3GPP 33 108
+ULIC V1
+NSN GGSN
+
+14
+
+Architecture description
+n+ 1 Architecture
+
+IP Front End
+
+Demodulation
+& Decoding
+
+Rendering &
+Presentation
+
+Index &
+Live Navigation
+
+II
+
+II
+Workgroup with Admin
+
+High Availability
+Server
+
+Storage
+
+15
+
+Architecture Description 1/3
+- IP Front-end (APIX)
+• Collect all CC delivered in IP format (VoIP, e-mail, internet traffic, etc.)
+• Connected to the central storage and the Demodulation & decoding units
+- Demodulation and decoding unit
+• Demodulation and decoding of received IP Data
+• CC Analysis of the incoming IP traffic,
+• Categorization and Classification of the traffic
+• Connected to the Storage unit to save the de
+Rendering and presentation unit
+• Processing of the decoded data to create :
+• previews,
+• listings and
+• additional presentation layers
+
+Architecture Description 213
+- Indexing and live navigation unit
+• Access to the stored decoded results and the previews and presentation
+layers
+• Indexation of all stored and processed data to create a live navigation
+view
+=>immediate display of decoded results
+=>easy navigation and analysis within a huge amount of data instantly
+
+- Storage unit
+• Storage of Raw Data and Decoded Data
+• Storage capacity of more than 40 Terabyte,
+• In operation expandable memory and bandwidth architecture
+• High availability and state of the art redundancy
+• Field proven hardware and software products from world class
+manufacturers
+17
+
+Architecture Description 3/3
+- Redundancy
+• Architecture based on high availability servers, capable to serve all
+functionalities
+• In case of system failure, minimizing of Data loss, recovery time and
+cost.
+• N+1 architecture mode : One server can replace in other server in case
+of failure
+
+18
+
+Merits of the proposed solution
+- A TIS is a private company with over 60 years of experience in recording
+systems
+- More than 20 years of experience in lawful interception business
+- Field-proven solution that allows the customer to work in the most efficient
+way
+- State-of-the-art analysis software using instant filtering mechanisms that allow
+the analyst to work in real time on the intercepted data.
+- The proposed solution is based on a modular, scalable architecture to keep
+investment as efficient as possible enabling the customer to expand the
+system according to his futures needs.
+- The proposed solution is ready to record VOiP communications (SIP calls)
+
+19
+
+Do you have any questions?
+
+20
+
+

@@ -1,0 +1,147 @@
+JINGLE TRACKER & MUSIC SPOTTING
+Real-Time Music Identification Technology
+Available Products
+
+Applications
+u
+
+u
+
+Jingle Tracker - Real-time software for identifying
+short musical fragments in a sound stream. It is
+intended to check number and time of a
+promotion jingle being played on a given
+broadcasting channel.
+
+u
+
+u
+u
+
+Music Spotting SDK - Dynamic library providing
+Windows 9x/2000/XP developers with possibility
+to create sophisticated and customized
+applications based on music spotting technology
+
+Technical Description
+u
+u
+u
+
+Advantages
+u
+u
+u
+u
+u
+u
+
+Real-time analysis provides instant identification
+in a live sound stream
+Low resource consumption - can be used on
+common personal computers (PC)
+Various accuracy and processing speeds can be
+adjusted to suit users need.
+Recognition stability - gives high detection
+accuracy with different kinds of music and jingles
+Numerous customized settings provides easy
+adaptation for different tasks
+Software able to process large amounts of sound
+data (live sound streams) automatically, without
+user intervention.
+
+Advertising Agencies - Checks the number &
+times advertising jingles are played in
+broadcasting channels.
+Music Copyright Owners - Checks the number &
+times music is played back in broadcasting
+channels.
+Broadcasting Companies- Capture and log music
+
+u
+
+Operating environment: Windows
+98/ME/2000/XP
+Templates: from 4sec. of original audio track
+(depends on compression used)
+Input data: Live Mic./Line input; pre-recorded
+streams as WAV files
+Speed of analysis: Pentium 4 1.5GHz system is
+capable to process about 1 500 pieces of 1minute templates
+
+Music Spotting SDK
+
+Jingle Tracker
+
+Dynamic library providing Windows 9x/2000/XP
+developers with possibility to create sophisticated and
+customized applications based on music spotting
+technology
+
+Real-time software for identifying short musical
+fragments in a sound stream. Jingle Tracker captures
+the number and time that jingles or music samples are
+played on a given broadcasting channel.
+
+u
+u
+u
+u
+
+u
+
+u
+
+Low resource consumption. Can be used on
+common personal computers (PC)
+Processing of sound stream in real time
+Analysis by processing a prerecorded stream as
+a WAV file
+Adjustable to any specific application. Depending
+on the application, recognition threshold can be
+set
+High accuracy for different kinds of music
+compositions and jingles. Adjustable speed &
+accuracy
+Tools for automated creation of templates
+database
+
+u
+
+u
+
+u
+u
+
+u
+
+Delivery Set
+u
+u
+u
+u
+
+32 bit DLL (dynamic link library) for MS Windows
+9x/ME/NT/2000/XP
+User Guide
+Sample demo software with sources in Visual
+C++
+Full technical support
+
+Music sample templates are entered into a
+database Jingle Tracker searches the inputted
+sound stream logging the occurrence of the
+same music samples
+Large amounts of sound data can be processed
+without the help of the operator e.g. a great
+number of sound channels can be searched online
+Low resource consumption. Can be used on
+common personal computers (PC)
+Adjustable to any specific application.
+Depending on the application, the false
+acceptance/false rejection balance can be
+adjusted
+High accuracy with different kinds of music and
+jingles. Adjustable speed & accuracy
+
+

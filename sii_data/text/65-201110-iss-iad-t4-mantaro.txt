@@ -1,0 +1,374 @@
+Scalable Extraction, Aggregation, and
+Response to Network Intelligence
+
+Agenda
+•  Explain the two major limitations of using Netflow
+for Network Monitoring – Scalability and Visibility
+•  How to resolve these issues through a
+combination of Deep Packet Inspection and
+IPFIX Mediation
+•  Applications of this approach to Cybersecurity
+and Network Monitoring
+•  Mantaro’s work in this area
+
+Netflow Introduction
+• 
+
+• 
+• 
+
+Netflow is a protocol that was introduced by Cisco and is used for flow
+reporting on network traffic
+Information is typically reported on a flow basis, rather than on a packet
+basis
+However it is possible to report on packets via sampling
+The two popular versions are Netflow v5 and Netflow v9
+
+• 
+
+Other equipment vendors have their own variants but they are similar
+
+• 
+
+Netflow
+IPFIX
+
+NetStream
+
+Jflow
+
+Rflow
+
+Cflowd
+
+Information Reported in Netflow v5
+•  Source and Destination IP
+addresses
+•  SNMP indices of input and output
+interface
+•  IP address of next hop
+•  Packets in the flow
+NETFLOW
+•  Total L3 bytes in flow
+•  Sysuptime of start and end of flow
+•  Source and Destination ports
+•  IP protocol, TOS, TCP flag info
+
+L7-Application
+L6-Presentation
+L5 - Session
+L4 -Transport
+L3- Network
+L2 – Data Link
+L1 -Physical
+
+OSI Model
+
+The difference between
+Netflow v5 and v9
+• 
+• 
+• 
+• 
+• 
+
+Netflow v9 added support for IPv6 addresses
+Concept of a template was introduced in Netflow v9
+A template is a packet that is used to describe the structure of subsequent Netflow
+packets of the same identifier
+It is like a recipe that tells the Collector the format of the information to follow
+The advantage of this scheme is that the data sets are purely an identifier and
+associated data. They do not have any other parsing information which makes
+transport more efficient
+
+Netflow v9
+
+Netflow v5
+Flow Header
+Flow Record
+
+Fixed Format
+
+Flow Header
+
+Flow Header
+
+Template
+
+Data Record
+
+Template
+
+Data Record
+
+Template
+
+Data Record
+
+Extensible Format
+
+Pros and Cons of Netflow
+Pro
+
+Con
+
+Gives flow level traffic visibility which
+enables numerous applications
+
+Adds processing load to routers and
+switches
+
+Reports on L3 and L4 information as well
+as flow timing
+
+Is often run in sampled mode to reduce
+strain on the router and misses fidelity on
+small flows
+
+Reports on flow length
+
+Higher layer visibility limited to IP protocol
+field
+
+Supported on many different networking
+devices natively
+
+Only reports L3 and L4
+metadata
+Collection Architecture
+Doesn’t Scale Well to 10Gbps
+rates
+
+How Do We Address These Issues?
+
+Problem 1 – More Visibility Needed
+•  We’d Like to See More Than L3 and L4
+Metadata for better Situational Awareness
+
+•  Combine Deep Packet Inspection with IPFIX!
+
+IPFIX Introduced in 2008
+•  IPFIX was standardized by the IETF in Jan 2008
+•  It uses the template based approach started in
+Netflow v9
+•  Added Two Very Important New Features:
+1.  An Enterprise specific field
+2.  Variable length fields
+It is space efficient and gives us flexibility to include
+Enterprise specific data!
+
+IPFIX Framework and Nomenclature
+
+Exporting
+Process
+
+Packet
+Headers
+
+IPFIX
+Collecting
+Process
+
+Metering
+Process
+Observation
+Point
+
+Collecting
+Process
+
+Exporting
+Process
+
+Exporter
+
+Collector
+
+Deep Packet Inspection for L4
+through L7 Visibility
+• 
+• 
+
+• 
+
+• 
+
+IPFIX has enterprise specific
+fields
+Mantaro has created one to
+encapsulate metadata
+extracted through Deep Packet
+Inspection
+What we do is report session
+level metadata using an IPFIX
+enterprise specific field
+The DPI engine can extract
+application layer metadata from
+different protocols (700
+protocols and about 4000
+metadata attributes)
+
+L7-Application
+L6-Presentation
+
+Mantaro
+IPFIX
+
+L5 - Session
+L4 -Transport
+L3- Network
+L2 – Data Link
+L1 -Physical
+
+Problem 2 – Scaling of Metadata
+Collection to Multi-Gigabit Speeds
+•  How can we architect the system to scale?
+
+•  Leverage Session Level Metadata
+and use IPFIX Mediation!
+
+Session Versus Packet Level
+Extraction
+•  To do a wide survey of the network, you cannot
+work at the packet level
+•  The session level is the only way to scale to
+multi-gigabit speeds and beyond.
+•  Ideally you’d like to do this without having to
+rely on sampling.
+•  By reporting at the session level, you
+perform an information reduction exercise
+which reduces metadata rates by 100 times.
+
+Packet Based Metadata Reporting
+
+Doesn’t Scale:
+DB can’t keep up
+MySQL Limit
+
+Flow Based Metadata Reporting
+
+Scales to below
+MySQL limit!
+
+Current Monitoring Paradigm
+Network
+Traffic
+
+Exporter 1
+Observation Point
+
+Network
+Traffic
+
+Exporter 2
+
+Netflow
+
+Collector
+
+Metadata
+
+Database
+
+Observation Point
+Network
+Traffic
+
+Exporter 3
+
+Collection Point
+
+Observation Point
+
+Does Not Scale – Metadata Overwhelms Database
+
+IPFIX Mediation
+•  IPFIX Mediation was proposed to provide
+–  Aggregation
+–  Correlation
+–  Filtering
+–  Data Record modification
+–  Preprocessing
+
+•  Reduces Load on Exporter
+•  Preprocesses IPFIX for the Collector
+
+IPFIX Mediation Architecture
+Mediator
+Exporter 1
+
+Collector 1
+Anonymization
+Aggregation
+
+Exporter 2
+
+Collector 2
+
+Conversion
+Correlation
+Selection
+
+Exporter N
+
+Collector N
+Mediator N
+
+Advantages of this solution
+•  Unparalleled visibility into application layer
+data
+•  Scales to higher network speeds
+•  Standards Based meaning no lock in to
+existing vendors
+•  Scales to multiple observation points
+•  Architecture enables new applications
+•  Flexibility with mediation capabilities
+•  Session based reporting reduces monitoring
+information
+
+Mantaro’s Work In This Area
+•  Created an IPFIX Exporter capable of
+reporting on 700 protocols and about 4000
+metadata attributes
+•  Created an IPFIX Collector that can log and
+store these attributes to a database
+•  Currently designing a standards compliant
+IPFIX Mediator
+•  Have created numerous applications to
+show the utility of the system
+
+Mantaro’s Approach Enables:
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+
+Network Performance Monitoring
+Traffic Profiling
+Network Asset Discovery
+Network Forensics
+IM and Email Investigation
+Network Profiling
+Application Intelligent Firewall
+
+Thank You!
+Please visit the Mantaro booth for a
+demonstration of our system
+•  For more information please contact us at
+info@mantaro.com
+
+References
+• 
+• 
+• 
+• 
+
+RFC 5470
+RFC 6183
+draft-ietf-ipfix-mediators-problem-statement-09
+draft-claise-ipfix-mediation-protocol-04
+
+

@@ -1,0 +1,98 @@
+4x1 GigaBit Copper In-Line
+Regeneration Tap
+Net Optics 4x1 GigaBit Copper Regeneration Taps solve the key physical layer
+challenges of multi-device monitoring for GigaBit fiber networks. For a better
+picture of network health, these Taps connect four different network management
+and security devices at any single GigaBit network location.
+Keep your intrusion detection and prevention systems, protocol analyzers, RMON
+probes, and other security devices productive with a single Regeneration Tap.
+Maximize resources and save on access points when multiple devices can monitor
+link traffic simultaneously through a single Regeneration Tap.
+Without an IP address, monitoring devices are isolated from the network,
+dramatically reducing their exposure to attacks. However, the monitoring device
+connected to the Tap still sees all full-duplex traffic as if it were in-line, including
+Layer 1 and Layer 2 errors.
+For extra uptime protection, Net Optics Taps offer redundant power connections.
+Should the primary power source fail, the Tap automatically switches to the backup
+power source. Power LEDs on the front of the Tap indicate the current power.
+
+Passive, Secure Technology
+
+• Enables real-time, simultaneous monitoring of a single GigaBit link with two
+monitoring devices
+• Provides complete full-duplex visibility at 1000 Mbps without data stream
+interference or introducing a point of failure
+• Passes all traffic (including errors) from all layers for comprehensive
+troubleshooting
+• No IP address is needed for the Tap or monitoring device, enhancing monitoring
+security
+• Redundant power ensures monitoring uptime
+
+Operating Specifications:
+
+Operating Temperature: 0ºC to 55ºC
+Storage Temperature: -10ºC to 70ºC
+Relative Humidity: 10% min, 95% max, non-condensing
+
+Mechanical Specifications:
+Redundant Power Supplies (2):
+
+Input: 100-240VAC, 0.5A, 47-63Hz
+Dimensions: 1.75” high x 10.5” deep x 17” wide
+
+Cable Interface:
+Copper Cable Type:
+
+22-24 AWG Unshielded twisted pair cable, CAT5E
+Link Distance Supported: 100 meters
+
+Connectors:
+
+Monitoring Ports: (8) RJ45, 8 pin connectors
+Network Ports: (2) RJ45, 8 pin connectors
+
+Certifications:
+
+Fully RoHS compliant
+Part Number
+
+Description
+
+RGN-GCU-IL4*
+
+4x1 GigaBit Copper In-Line Regeneration Tap
+
+*Also available in 2x1 and 8x1 models. All products include a 1 year
+manufacturer’s warranty. An additional 1 or 2 year extended warranty
+may also be purchased.
+
+Ease of Use
+•
+•
+•
+•
+
+LED indicators show redundant power, speed, link, and activity status
+Front-mounted connectors support easy installation and operation
+Silk-screened application diagram illustrates all connections for easy deployment
+Optional custom monitoring cables support easy full-duplex monitoring by
+sending each side of the signal to a separate monitoring device NIC
+• Tested and compatible with all major manufacturers’ monitoring devices,
+including protocol analyzers, probes, and intrusion detection/prevention systems
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+1130 Mountain View-Alviso Road • Sunnyvale, CA 94089
+Tel: +1 (408) 737-7777 • www.netoptics.com
+
+Net Optics® is a registered trademark of Net Optics, Inc. Copyright 1996-2006 Net Optics, Inc. All
+rights reserved. Additional company and product names may be trademarks or registered trademarks
+of the individual companies and are respectfully acknowledged. PUBRGNGCU-IL4D Rev.1, 06/06
+
+

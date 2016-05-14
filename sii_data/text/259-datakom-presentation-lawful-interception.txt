@@ -1,0 +1,1190 @@
+One is enough ...
+... combining
+Lawful Interception,
+Mediation
+&
+Data Retention
+in IP-networks
+
+ISS Prague June 03. – 05. 2009
+Thomas Fischer
+© 2009 DA TAKOM GmbH
+
+Company
+DATAKOM GmbH
+&
+GTEN Division
+
+© 2009 DATAKOM GmbH
+
+The Company
+Datakom was founded in 1986
+Business:
+!
+!
+!
+!
+!
+
+Network Monitoring
+Network Analysis, Measurement
+Pre-deployment and appliance testing
+QoS
+SLA
+
+GTEN Division started in the year 2000
+Business:
+!
+!
+!
+!
+!
+!
+!
+
+© 2009 DATAKOM GmbH
+
+Lawful Interception in IP networks
+Lawful Interception in Circuit Switched networks
+Data Retention
+Tactical LI Solutions (GSM, UTMS, WiFi)
+Network Security
+Subscriber / Application based network & traffic management
+Interception Center (ICC) for German Carriers / ISPs,
+certified by German Federal Network Agency
+
+Deep Packet
+Inspection & Processing
+DPP-Probes
+
+© 2009 DATAKOM GmbH
+
+Lawful Interception (LI)
+The challenges of LI (especially in IP networks) are:
+
+!
+
+increasing bandwidth, amount of data
+
+!
+
+increasing number of subscribers
+
+!
+
+increasing number of applications
+
+!
+
+how to identify a specific subscriber (a target) ?
+
+!
+
+how to identify specific applications ?
+
+!
+
+non intrusive and not detectable
+
+!
+
+data security
+
+!
+
+keep the pace with network development / applications
+
+!
+
+scalable, modular system
+
+!
+
+....
+... every bit and byte has to be analyzed ...
+Application / Content Awareness
+
+© 2009 DATAKOM GmbH
+
+The problem in IP
+IP--networks ...
+
+MAC Header
+
+IP-Header
+
+TCP
+
+Payload
+
+TOTAL visibility at network speed is a necessity !
+© 2009 DATAKOM GmbH
+
+Total Visibility needs Deep Packet Inspection / Processing
+
+"
+
+Header Analysis
+!
+
+"
+
+© 2009 DATAKOM GmbH
+
+Ports
+
+Signature Analysis
+!
+
+String Match
+
+!
+
+Numerical
+
+!
+
+Behavior / Heuristic
+
+!
+
+Encryption / Camouflage
+
+... the solution DPI/DPP
+DPI/DPP--Probes ...
+Probe
+„Blade“
+
+Probe
+„Server“
+
+several Deep Packet Processing Probes (various configurations)
+" 100% packet inspection at full line speed
+" full layer 2-7 packet inspection / processing (inspect, intercept, block, ...)
+" 1 to >10 Gbit/s total bi-directional processing capacity
+" scalable architecture
+" Interfaces:
+• Gigabit Ethernet (Copper/Fiber)
+• 10GE
+• GE Capturing/Forwarding Ports
+" over 100 Protocols / Applications are identified and can be filtered for
+" target based capturing
+© 2009 DATAKOM GmbH
+
+DPP--Probe Filter/Target Criteria
+DPP
+
+"
+
+Peer-to-Peer Protocols (P2P)
+•
+
+"
+
+VoIP incl. Skype
+•
+
+"
+
+28 Protocol types (5 variants)
+
+Tunneling Protocols
+•
+
+© 2009 DATAKOM GmbH
+
+27 Protocol types (58 variants)
+
+Streaming Protocols
+•
+
+"
+
+9 Protocol types (25 variants)
+
+Standard Protocols
+•
+
+"
+
+6 Protocol types (84 variants)
+
+Instant Messaging (IM)
+•
+
+"
+
+20 Protocol types (130 variants)
+
+11 Protocol types (5 variants)
+
+IP Monitoring System
+IPIS
+IP Interception System
+(Front-End)
+
+© 2009 DATAKOM GmbH
+
+IPIS Concept [ETSI]
+The Mediation System „converts“ the captured IP-data according to ETSI-Standards
+and delivers it to one or more LEMFs (Monitoring Center, Back-End).
+
+Internet
+
+Mediation
+Blade
+passive
+TAPs
+
+DPP-Probe
+
+Content
+
+passive TAPs
+
+Firew alls
+xDSL
+Dial-up
+Leased
+o ther POPs
+
+© 2009 DATAKOM GmbH
+
+Radius
+Switch
+
+Mail
+Switch
+
+VPN
+Router
+
+Internal
+Switch
+
+Transmission of
+captured IP-data to
+the LEMFs
+
+Example 1: Simple IPIS FrontFront-End
+Internet
+
+Tapping
+Points
+
+Sw itch
+
+Sw itch
+
+Radius
+Server
+BAS
+#1
+
+BAS
+#3
+
+BAS
+#2
+
+Radius Dialogue
+Sniffing
+
+Data Aggregation
+n* 1GE -> m* 1GE
+Data Filtering (DPP-Probe)
+Mediation System
+Management & LI-data traffic
+from/to
+IPMS Back-End
+System Management Data
+© 2009 DATAKOM GmbH
+
+Captured data of targets/applications
+
+Example 2: Complex IPIS Front
+Front--End
+lines to
+other nodes
+
+Internet
+
+leased lines
+Tapping
+Points
+
+Sw itch
+
+Dial-Up
+users
+
+Sw itch
+
+Radius
+Server
+BAS
+#1
+
+BAS
+#2
+
+BAS
+#3
+Radius Dialogue
+Sniffing
+
+Data Aggregation
+Data Filtering (DPP-Probe)
+with Mediation System Blades
+
+Management & LI-data traffic
+from/to
+IPMS Back-End
+System Management Data
+© 2009 DATAKOM GmbH
+
+Captured data of targets/applications
+
+IP Monitoring System
+Mediation System
+
+© 2009 DATAKOM GmbH
+
+IPMS Mediation System – General
+
+The Mediation System has to
+• receive the captured IP-data from the DPP-Probe(s)
+• correlate the data according to the warrants in the MC(s)
+• convert the data into required formats (ETSI)
+• distribute the data to one or more Monitoring Centers
+• provide warnings about the transmission links to the MCs
+• be administered together with the Probe(s)
+
+© 2009 DATAKOM GmbH
+
+IPMS Mediation System – Functions
+Mediation System (n)
+
+Mediation System (1)
+
+IP
+Filterunit
+(1)
+
+INI 3
+
+Capture
+
+INI 1
+
+Correlation
+
+Handover
+
+CC
+
+IP Delivery
+ETSI
+
+HI 3
+
+internal
+Management
+
+INI 1
+Network
+LEMF
+Filterunit
+
+Mediation
+
+Front-End
+Management System
+© 2009 DATAKOM GmbH
+
+Monitoring Center
+(Back-End)
+
+IP Monitoring System
+Data Retention
+
+© 2009 DATAKOM GmbH
+
+Data Retention challenges
+The Challenges for a (IP) Data Retention ...
+• International / national Technical, Privacy & Security regulations
+• Increase in traffic + storage period = pushing data size to the sky
+• IP-Data Retention is even more challenging (IPData Records = IPDRs)
+• Huge amount of data compared to traditional telephone CDRs
+• Telephony CDRs are standard and well defined; from their correctness
+depends the phone bill
+• IPDRs may range from IP-Packets to System Logs from different hardware
+
+© 2009 DATAKOM GmbH
+
+Data Retention System - Functional Groups
+Any
+Telecommunication
+Network
+
+Telco Network:
+Switches
+Routers
+Subscriber DB
+...
+
+Data Collection #1 - #n
+
+Database Server
+Data Warehouse
+
+request
+
+LEA
+© 2009 DATAKOM GmbH
+
+Management &
+Administration
+
+LI in an IP
+IP--network + Data Retention on top ...
+
+Internet
+
+Cisco
+
+Sw itch
+
+Huawei
+
+Collection #1
+BAS
+#1
+
+Sw itch
+
+Juniper
+
+Collection #3
+
+Huawei
+
+Collection #4
+
+HP
+
+Collection #5
+
+Juniper
+
+Collection #3
+
+Collection #2
+BAS
+#2
+
+Radius
+
+RADIUS
+Server ?
+BAS
+#3
+
+different Switch/Router vendors:
+
+Collection #6
+
+Netflow
+Netflow,, cFlow
+cFlow,
+, Netstream
+Netstream,, IPFIX
+Data Aggregation
+... not the same versions
+
+Data Filtering (DPP-Probe)
+with Mediation System Blades
+
+... not compatible
+... NO CONTENT AWARENESS
+System Management Data
+© 2009 DATAKOM GmbH
+
+Captured data of targets/applications
+
+Management & LI-data traffic
+from/to
+IPMS Back-End
+
+LI in an IP
+IP--network + INTEGRATED Data Retention ...
+
+Internet
+
+Sw itch
+
+Sw itch
+
+Radius
+Server
+BAS
+#1
+
+BAS
+#3
+
+BAS
+#2
+
+Data Aggregation
+
+Data Filtering (DPP-Probe)
+
++
+
++
+
+IPDR generation
+
+IPDR generation
+Management & LI-data traffic
+from/to
+IPMS Back-End
+
+System Management Data
+© 2009 DATAKOM GmbH
+
+Captured data of targets/applications
+
+Mediation System – Functions for IPDRs
+
+Mediation System (1)
+
+IP
+Filterunit
+(1)
+
+INI 3
+
+Capture
+
+INI 2
+
+Correlation
+
+CC
+Correlation
+
+IP Delivery
+ETSI
+
+HI 3
+HI 2
+
+IPDR
+
+INI 1
+
+internal
+Management
+
+INI 1
+
+Network
+LEMF
+
+Data Retention System
+Filterunit
+
+Mediation
+
+Front-End
+Management System
+© 2009 DATAKOM GmbH
+
+Handover
+
+Monitoring Center
+(Back-End)
+
+Combined IPMS & Data Retention System
+
+Data Retention System
+• IPDRs independent from network
+hardware
+
+IP-network(s)
+
+„classic“
+Telecommunication
+Networks
+
+• IPDRs not only based on Logfiles
+DPP-Probe
+
+• IPDRs for each session
+
+Mediation
+Blade
+
+• CDRs/xDRs from other networks
+(GSM , UM TS, PSTN ...)
+
+Captured IP-dat a
+to IPMS Back-End
+
+LEA
+LEA
+-- LI
+LI --
+
+© 2009 DATAKOM GmbH
+
+IPDRs to the
+Data Retention System
+
+LEA
+LEA
+-- DRS
+DRS --
+
+Data Retention integrated into IP Lawful Interception
+combining the Data Retention with the IP Monitoring System
+using the same IPIS Front-End to generate and transmit the
+IPDRs has significant advantages:
+"
+
+ONE DPP-Probe
+
+for both LI & DR
+
+"
+
+ONE Mediation System
+
+“
+
+"
+
+ONE Management
+
+“
+
+"
+
+ONE Partner
+
+“
+
+"
+
+DPP-Probes used to capture LI-targets AND generate IPDRs for
+Data Retention simultaneously
+
+"
+
+LI-Filtering PLUS independent IPDR-Filtering
+
+Saving Time, Equipment & Money
+... ONE is enough ...
+© 2009 DATAKOM GmbH
+
+Summary ...
+Datakom / GTEN Division provides Turn-Key LI-Solutions
+"
+
+Deep Packet Processing Probes (DPP-Probes)
+
+"
+
+providing a subscriber based Lawful Interception
+
+"
+
+providing Protocols & Applications based LI (WebMail, Email, FTP, ...)
+
+"
+
+creating IPDRs for Data Retention with the same LI-Probes
+
+"
+
+creating IPDRs for all traffic or selected by Protocols / Applications
+
+"
+
+Network / countrywide IP Front-Ends
+
+"
+
+Monitoring Center (for all telecommunication traffic)
+
+"
+
+Data Retention System (for all telecommunication CDRs, IPDRs)
+
+... and beyond that the DPP-Probes can provide additional benefits
+
+© 2009 DATAKOM GmbH
+
+"
+
+Identifying & Blocking of unwanted traffic with active DPP-Probes
+(Skype, URLs, VoIP ...)
+
+"
+
+generate Traffic Statistics for all Protocols / Applications
+(what’s going on in the network)
+
+Thank you very much for your
+interest in our solutions and services
+Have a save trip home ...
+© 2009 DATAKOM GmbH
+
+© 2009 GTEN
+
+Some extra Slides ... (1)
+Protocols & Application DDP-Probes
+are able to filter/capture
+
+© 2009 DATAKOM GmbH
+
+Total Visibility needs Deep Packet Inspection / Processing
+Example: P2P-Applications
+"
+
+Becoming more and more popular (BitTorrent, eDonkey, ...)
+
+"
+
+Tremendous amount of data
+
+"
+
+© 2009 DATAKOM GmbH
+
+-
+
+40% - 90% of the net traffic
+
+-
+
+negative impact on the net traffic
+
+-
+
+bandwidth consuming = decreasing performance
+
+-
+
+increasing communication costs
+
+Content is very often “dubious”
+-
+
+copyright infringement
+
+-
+
+illegal content
+
+"
+
+Security risks (spyware, viruses, ...)
+
+"
+
+Productivity decreases
+
+"
+
+Identification difficult and control even more
+
+Basics – Headers only
+
+The Header is sufficient to identify the „communication intent“
+but it contains no information about the Application used
+In case an Application initiates additional connections for the
+communication, Source & Destination Addresses are not
+sufficient any more to identify this behavior
+In addition this information is spread over several packets ...
+© 2009 DATAKOM GmbH
+
+Sophisticated – Signatures
+
+Signatures over
+several packets
+
+Signature = recipe for identification
+Signature Library to identify Applications / Protocols
+Implementation of a systematical identification process for Applications / Protocols
+Problem of False Positives / Negatives = Misinterpretation
+Application behaves different behind a Proxy / Firewall
+Challenge: „0“ False Positives / False Negatives
+© 2009 DATAKOM GmbH
+
+Methods of Signature Analysis 1
+"
+
+Port-Analysis
+only works when applications follow the rules (e.g. POP3 = 110)
+
+"
+
+String Match Analysis
+Search for combinations of characters and/or numerical values within
+the data packets – across packet boarders
+
+HTTP Pattern
+
+IP
+Header
+IP Payload
+
+© 2009 DATAKOM GmbH
+
+TCP Header
+(port 80)
+
+TCP Payload
+
+GET /xxxx.mp3 HTTP/1.1
+User-Agent: Kazaa
+
+Kazaa Pattern
+
+Methods of Signature Analysis 2
+"
+
+Numerical Analysis
+arithmetical / numerical characteristics within packets or session flows
+
+Client
+
+UDP Messages
+18 byte message
+11 byte message
+23 byte message
+either 18, 51 or 53 byte msg.
+
+Example: Skype before V 2.0
+© 2009 DATAKOM GmbH
+
+Server
+
+Methods of Signature Analysis 3
+"
+
+Behavior / heuristic Analysis
+Analysis using statistical data and typical patterns
+(Packet Length, Packet Timing, Flow Behavior)
+%PDF
+
+P2P
+
+100
+
+200
+
+HTTP
+
+300
+
+400
+
+Packet
+Length
+
+Heuristic is a method to handle complex problems, which can’t be solved completely by using
+simple rules and with the help of only few information and details.
+© 2009 DATAKOM GmbH
+
+Methods of Signature Analysis 4
+"
+
+Encryption / Camouflage
+
+Encryption:
+
+protect the application and the content
+
+Camouflage:
+
+hide the intent by unnecessary increase of complexity
+
+Encryption makes the content of communication unusable for DPI/DPP.
+However – the different methods of analysis still work pretty well to identify
+the different Applications and Protocols.
+
+Source: ipoque Internet Study 2007
+© 2009 DATAKOM GmbH
+
+Some extra Slides ... (2)
+Protocols & Application DDP-Probes
+are able to filter/capture
+
+© 2009 DATAKOM GmbH
+
+IPIS Filter/Target Criteria (1)
+Peer-to-Peer (P2P)
+OpenFT
+
+Thunder / Webthunder
+
+AppleJuice
+
+eDonkey (12)
+
+iMesh (3)
+
+Ares (2)
+
+Filetopia
+
+KaZaa / Fasttrack (6) OFF
+
+W inMX
+
+BitTorrent (51)
+
+Freenet
+
+Manolito (3)
+
+Pando
+
+W inny
+
+Direc tConnec t (21)
+
+Gnutella (26)
+
+Mute
+
+SoukSeek (2)
+
+X DCC (3)
+
+Voice over IP (VoIP) / Skype
+H.323 (4)
+
+SIP (7)
+
+IAX (10)
+
+Skinny
+
+MGCP
+
+Skype (73)
+
+Instant Messaging (IM)
+Gadu-Gadu
+
+QQ
+
+Osc ar (7)
+
+Paltalk
+
+IRC
+
+Jabber/Google Talk (6)
+
+MSN (6)
+
+Y ahoo (6)
+
+PoPo
+
+Standard Protocols
+
+© 2009 DATAKOM GmbH
+
+Citrix
+
+HTTP
+
+NFS
+
+PostgreSQL
+
+SSDP
+
+BGP
+
+ICMP
+
+NTP
+
+RDP
+
+Telnet
+
+DHCP
+
+IGMP
+
+OSPF
+
+SMB/CIFS
+
+Usenet
+
+DNS
+
+IMAP
+
+pcAnywhere
+
+SMTP
+
+V NC
+
+EGP
+
+My SQL
+
+POP3
+
+SNMP
+
+Direc t Download Link (58)
+
+FTP
+
+RADIUS
+
+IPIS Filter/Target Criteria (2)
+
+Streaming Protocols
+AV I
+
+Move
+
+Real Media Stream
+
+TVAnts
+
+Feidian
+
+MPEG
+
+RTP
+
+TV UPlayer
+
+Flash (5+)
+
+OGG
+
+RTSP
+
+UUSee
+
+Icec ast
+
+PPStream
+
+SCTP
+
+V CAST
+
+Joost
+
+QQLiveMedia
+
+SHOUTc ast
+
+VeohTV
+
+Kontiki
+
+QQLivePlayer
+
+Slingbox
+
+W indow s Media Stream
+
+MMS
+
+QuickTime
+
+SopCast
+
+Zattoo
+
+SSL (5)
+
+IPsec
+
+SSH
+
+V PN-X
+
+GRE
+
+OpenV PN
+
+Tor
+
+V Tun
+
+Hamac hiV PN
+
+SoftEthernet
+
+V PN
+
+Tunnel Protocols
+
+over 120 protocols / applications are
+
+© 2009 DATAKOM GmbH
+
+"
+
+detected
+
+"
+
+analyzed
+
+"
+
+filtered
+
+Some extra Slides ... (3)
+Functional Parts of an
+IP Monitoring System
+(IPMS)
+
+© 2009 DATAKOM GmbH
+
+The 3 (4) functional parts of an IPMS
+IP Interception System
+(IPIS – Front-End)
+IP-data filtering:
+- Targets
+- Applications
+
+Mediation System(s)
+= Tapping Po ints
+(Mo nitoring Sites)
+in the IP-Netw orks
+
+Secured Data Transmission
+& Management
+FE -> BE
+
+Any Monitoring Center
+(MC – Back-End)
+- recording
+- storing
+- archiving
+- decoding
+- evaluation
+© 2009 DATAKOM GmbH
+
+

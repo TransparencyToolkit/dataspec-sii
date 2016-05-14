@@ -1,0 +1,417 @@
+MCRTRACER
+MCRTRACER has been developed by AREA to satisfy the upcoming need of LEAs
+to track targets movements by means of GPS and GPRS Systems.
+MCR Tracer full integration in the MCR Voice & Data Monitoring- Center enables
+LEA operators to leverage the power of an unified interface for all the information
+(Voice, Data, Positioning) related t o the target.
+
+GEOGRAPHICAL TRACKING OF TARGETS:
+A TACTICAL TOOL
+The geographical localization of monitored
+targets is nowadays one of the most important
+tools in investigation activities.
+AREA has developed in house a solution
+to pinpoint someone's position down to 10
+meters using devices so small to fit in the palm
+of one hand. MCR Tracer is made up of:
+• The Tracking Device (TD) providing
+localization data
+
+1. MCR Player Interface (Area Monitoring Center)
+The full integration of Tracer with MCR Voice
+& Data Monitoring Center provides the best
+performances and efficiency, allowing LEA
+operators to use the same MCR Player
+interface for all kinds of monitoring activities:
+fixed and mobile telephony and IP data
+interceptions, localization tracking services,
+live audio and video. etc.
+
+The TDs are installed on vehicles or others
+
+2. MCR Tracer Anywhere (Web User-Interface)
+By means of a specific Web-based
+application, it is possible to render on maps
+of the geographical data belonging to the
+targets from any IF-enabled device (incl.
+Smartphones I iPhone) and without a complete
+monitoring center infrastructure.
+
+moving Objects, allowing Law Enforcement
+Agencies to acquire relevant data
+concerning vehicles movements: history
+and real-time monitoring, date and time of
+all movements, average speed, real-time
+localization on maps, etc.
+
+3, Integration with specific Customer applications
+AREA may provide the consulting support for
+the full integration with existing systems.
+Tracer is therefore highly scalable and
+flexible.
+
+• The Remote Control Management (RCM)
+which receives, manages, stores and
+displays geographical data and related
+targets information.
+
+MR
+VII.
+
+M E • 1 1 1 .
+.
+.
+.
+W
+
+l
+
+a
+
+cco TD
+Workstations
+
+Customer Systems
+
+I .
+
+111
+
+Anywhere
+
+I.
+TRACER ARCHITECTURE
+The data captured by MCR Tracer are sent to a
+MCR System for centralized storage, registration
+and authentication.
+The LEA operator can access these data using
+the following interfaces, even in parallel:
+
+LOCALISATION AND TRANSMISSION
+TECHNOLOGIES
+Tracer is based on a combined use of the
+two main localization network protocols
+(GPS and GSM) in order to grant the highest
+performances and reliability:
+• GPS system offers the fastest targets
+localization, higher precision and
+continuous update of date, time and other
+basic tracking parameters
+• GSM cell-based localization is less precise.
+but can exploit much wider network coverage
+and the network signal is not affected by
+weather or environmental factors.
+Two different transmission modes are supported:
+• GPRS
+• SMS
+Localization data are transmitted by default
+via GPRS. In case of missing GPRS signal,
+data are sent via SMS.
+To grant the best GSM coverage and system
+availability, two SIM cards from different
+operators can be installed on board.
+If both networks are unavailable.
+localization data are cached on the Tracer
+device and forwarded when the connection
+is re-established. Data are sent at
+configurable intervals.
+
+REMOTECONTROL
+Complete remote control of the device is
+possible via mobile phone, MCR Player or
+MCR Tracer Anywhere using SMS or GPRS
+connectivity.
+Remote firmware upgrade and configuration,
+with a wide range of customizable parameters.
+Separated Admin & User access and rules.
+HIGH RELIABILITY, AVAILABILITY
+AND SECURITY
+Each device is tested singularly under stress
+conditions (mechanical, temperature).
+• Double SIM
+• Optimized management of autonomy thanks
+to enhanced Hibernation and Auto-SwitchOn policies
+• Power supplied by means of battery pack or
+car battery
+High precision in geographical data rendering
+with Map and Guide software / - NavTech
+maps
+
+map&guide
+knowhow to s :
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+MCRTRACER +
+Anywhere +
+
+MCR Tracer Anywhere is a simple, complete
+and intuitive solution for managing target
+vehicles monitored through MCR Tracer.
+The system supports both the analysis of
+stored data and the live tracking of the moving
+targets.
+THE 'ANYWHERE' APPROACH
+Thanks to a dedicated web server within the
+MCR infrastructure, access to data collected
+by MCR Tracer is granted from any device
+connected to the Internet and equipped with
+a standard browser: PC/Notebook from the
+office, Smartphone/iPhone from the field or
+from a remote location, etc.
+A Virtual Private Network guarantees
+maximum flexibility and data access without
+compromises in terms of security.
+MAPS
+The integration between MCR Tracer Anywhere
+and the world's leading vendors of digital maps
+(Google, Microsoft) allows users to visualize
+the position of their targets in many differ ways,
+such as:
+• Google Maps with "Maps" view
+• Google Maps with "Satellite" view
+• Google Maps 'Street view'
+
+• Microsoft Virtual Earth
+• Microsoft Virtual Earth with satellite views
+• Microsoft Virtual Earth with aerial photography
+TARGETS VISUALIZATION
+The rendering of targets positions can be fully
+customized through different parameters and
+according to the most suitable investigation
+approach. For example, the operator can
+choose to visualize:
+•
+•
+•
+•
+
+Single, defined GPS positions
+Complete travels
+Time periods and related movements
+Journeys within selected points
+
+LIVE CHASING AND USE OF MULTIPLE TARGETS
+Chasing and pursuing targets is made easier
+thanks to the ability to track several targets at
+the same time.
+Several available options allow operators
+to assign defined targets to dedicated
+visualization modes, according to investigators
+needs and operations scenarios.
+Two maps can be open on the same screen,
+allowing the parallel view of separate targets.
+When targets are in the same geographical
+area, they will be shown on the same map,
+using different colors.
+
+The great variety
+of possible
+visualizations
+guarantees the
+highest precision
+in pinpointing
+and monitoring
+the target
+movements.
+
+CONFIGURATION
+Thanks to MCR Tracer Anywhere, the tracking
+devices (Tracer) can be easily configured from
+remote.
+Advanced features such as GSM users, alarm
+zones, real time chasing options, energy saving
+settings etc., can be activated or modified in a
+very easy and intuitive way.
+DATA VISUALIZATION
+MCR Tracer Anywhere data can be rendered in a
+large spectrum of configurable resolutions (from
+400x100 dpi up to 1400x1000 dpi), allowing
+LEAs to adopt different media to visualize
+targets, form the smallest, portable PocketPC to
+the widest flat screen.
+INTEGRATION
+MCR Tracer is completely integrated in the MCR
+Monitoring Center.
+Now, thanks to Tracer Anywhere, it can be used
+as a standalone solution for security activities.
+
+When targets
+are in the same
+a 4
+a
+444,4 •
+4 4 , 4 4
+, o
+
+.
+
+geographical area,
+they will be shown
+on the same map,
+using different
+colors.
+—
+
+MOM° Trac.r 40
+, TRACER V2
+0004i (SLAT)
+
+Dimenult,
+tramelm
+4 . 0
+
+OEM
+• . . 9 1 0 . 11 M S
+
+CM.
+OM(
+
+144111040111141
+
+.44
+
+P•ison IOW
+•••44•• • • • •
+
+•••64•••••
+
+2Elne M I N i S V i • A .
+,a4.4•64•4 a l W
+" 1i. 4 • • • • t e r
+5.••••••
+S
+
+1:7:3
+
+n23
+
+C
+
+•
+
+0•0
+0'
+
+t
+o
+t
+
+W
+
+.I . g o
+locomen.
+4
+a aut. • • • 4
+• 4 4 4 4 8 1 1 0 .
+4
+4
+.... '..4
+_
+1
+.
+. • 4,. 44 0 4 4 . 0 4 .
+4
+o
+▪ 4•41604•444n
+•
+r
+a
+r
+•4•4•••14440
+g
+o
+e
+m
+r
+b
+i
+i
+al"
+
+.
+
+_
+
+,-
+
+AREA
+
+l
+I
+.
+4
+.
+1
+4
+4
+.
+2
+_
+i
+
+.
+a
+•
+
+

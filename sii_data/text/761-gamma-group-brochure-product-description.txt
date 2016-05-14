@@ -1,0 +1,238 @@
+Controlo Remoto E Soluções De Infecção
+FINFLY ISP
+
+Em muitas operações da vida real, o acesso físico a sistemas alvo
+no país não pode ser obtido, e uma instalação remota dissimulada de uma solução de controlo remoto é requerida para monitorizar o alvo a partir da sede.
+O FinFly ISP é uma solução estratégica, aplicável a todo o
+país, e táctica (móvel), que pode ser integrada num acesso
+de ISP e/ou rede principal, para instalar remotamente a solução de controlo remoto em sistemas alvo seleccionados.
+As aplicações do FinFly ISP baseiam-se na tecnologia do servidor de grau da operadora, proporcionando o máximo de
+fiabilidade e escalabilidade para satisfazer todos os desafios
+relacionados com topologias de rede. Está disponível uma vasta
+gama de interfaces de rede – todas protegidas com funções
+de bypass – para a ligação de rede activa requerida.
+Vários métodos passivos e activos da identificação do alvo – a
+partir do controlo online através do toque passivo para comunicações interactivas, entre o FinFly ISP e os servidores
+AAA – asseguram que os alvos são identificados e o respectivo
+tráfego é fornecido para o processo de infecção.
+
+DE UN VISTAZO
+Usage:
+Uso:
+
+· Operaciones estratégicas
+
+Capacidades:
+
+· Implementa una solución de
+monitorización remota en el
+sistema objetivo a través de
+una red ISP
+
+Contenido:
+
+· Hardware/Software
+
+Exemplo de utilização: Agência de serviços secretos
+O FinFly ISP foi instalado nas redes do ISP principal do país, e
+utilizado activamente para instalar remotamente uma solução
+de controlo remota nos sistemas alvo. Como os alvos possuem
+contas ADSL de IP dinâmico, são identificados com o Nome de
+Início de Sessão de Raio.
+
+O FinFly ISP consegue infectar ficheiros que tenham sido
+descarregados pelo alvo directamente ou infecta o alvo enviando actualizações de software malicioso do software
+popular. A nova versão integra, agora, a poderosa aplicação de
+infecção remota Cobham FinFly Web para infectar alvos directamente, ao visitar qualquer site.
+
+Resumo das funcionalidades
+·
+·
+·
+·
+·
+·
+
+Pode ser instalado dentro de uma rede de um ISP
+Suporta todos os protocolos comuns
+Alvos seleccionados pelo endereço de IP ou nome de início de sessão de raio
+Oculta a solução de controlo remoto em Descarregamentos de alvos
+Injecta uma solução de controlo remoto como actualizações de software
+Instala, remotamente, a solução de controlo remoto através dos sites visitados pelo alvo
+
+Para uma lista completa de funcionalidades, consulte as especificações do produto
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Controlo Remoto E Soluções De Infecção
+FINFLY ISP
+
+Possibilidades De Localização Diferente
+O FinFly ISP pode ser utilizado como uma solução táctica ou
+estratégica em redes de ISP
+
+Uma solução táctica é móvel e o hardware é dedicado às tarefas
+de infecção dentro da rede de acesso próximo dos pontos de
+acesso do alvo. Esta pode ser instalada numa base de curto prazo, de acordo com os requisitos tácticos centralizados num alvo
+específico ou num número pequeno de alvos numa área.
+
+Uma solução estratégica consiste numa instalação permanente,
+de ISP e em todo o país do FinFly ISP, para seleccionar e infectar
+qualquer alvo a partir da sede remota, sem ser necessário o LEA
+estar no local.
+Claro que é possível combinar soluções tácticas e estratégicas
+para atingir um máximo de flexibilidade para as operações de
+infecção.
+
+Controlo Remoto E Soluções De Infecção
+FINFLY ISP
+
+Configuração da rede
+Disposição estratégica
+
+Disposição táctica
+
+Controlo Remoto E Soluções De Infecção
+FINFLY ISP
+
+Componentes Do Produto
+FinFly ISP Strategic
+Uma colocação estratégica de FinFly ISP que consiste,
+pelo menos, no seguinte:
+· Sistema de gestão em LEMF
+· Servidores de sonda de identificação alvo no sistema AAA
+da rede
+· Servidores de Proxy de infecção, por exemplo, em Gateways de Internet
+
+Servidores FinFly ISP
+Estação de trabalho
+HP ProLiant Série DL G7
+Estação de trabalho
+empresarial
+
+FinFly ISP
+HP Série Z
+
+FinFly ISP Táctica
+Un sistema FinFly ISP táctico consta de lo siguiente:
+· Servidor proxy portátil de identificación de objetivos e
+infección
+· Ordenador portátil del sistema de gestión
+
+FinFly ISP Táctica
+Gestão portátil
+Atlas A9 17” Portable
+
+FinFly ISP Táctica
+Lenovo Thinkpad
+Série T
+
+Rendimento
+
+> 20 Gbps
+
+Nº máx. de NIC:
+
+2-8 NIC
+
+Interfaces:
+
+1 GE Cobre / Fibra
+10 GE Cobre / Fibra
+SONET/SDH OC-3 / -192
+STM-1 / -64
+ATM AAL5
+
+Procesadores:
+
+Intel XEON 1x – 8x
+
+Núcleo
+
+2 – 8 núcleos / procesador
+
+RAM:
+
+12 GB – 1 TB
+
+Capacidade
+disco duro:
+
+SAS 146GB – 4.8TB de 3x
+
+Funcionalidades
+
+HP iLO 3
+Potência redundante
+Ventiladores redundantes
+Função de interruptor de bypass (se aplicável)
+
+Sistema operativo
+
+Linux GNU (Debian 5.0) reforçado
+
+Rendimento
+
+5 Gbps
+
+Nº máx. de NIC:
+
+3 NIC
+
+Interfaces:
+
+1GE Cobre / Fibra
+SONET/SDH OC-3 / -12
+STM-1 / -4
+ATM AAL5
+
+Procesadores:
+
+2 Intel Core i7
+
+Núcleo
+
+6 núcleos / procesador
+
+RAM:
+
+12 GB
+
+Capacidad
+duro:
+
+Os dados técnicos/especificações estão sujeitos a alterações sem aviso prévio.
+
+disco 2 SATA de 1 TB
+
+Unidad óptica
+
+DVD+/-RW SATA
+
+Monitor
+
+1 x 17” TFT
+
+Funcionalidades
+
+Função de interruptor de bypass para NICs
+
+Sistema operativo
+
+Linux GNU (Debian 5.0) reforçado
+
+GAMMA INTERNATIONAL
+United Kingdom
+As informações aqui contidas são confidenciais e estão
+sujeitas a alterações sem aviso prévio. A Gamma Group
+International não será responsável por omissões ou erros
+editoriais ou técnicos aqui contidos
+
+Tel: +44 - 1264 - 332 411
+Fax: +44 - 1264 - 332 422
+info@gammagroup.com
+
+

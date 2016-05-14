@@ -1,0 +1,94 @@
+PRK 040
+Special multi-channel receiver
+PRK 040 is rated for reception WFM radio signal in 416-421 MHz frequency band.
+Features:
+- Individual programming of each channel (frequency synthesizer);
+- Automatic Carrier Operated Recording;
+- Battery Low indicator.
+- Low power consumption;
+- External power supply (with ON indication) - 6-9 V.
+- Tough milled case.
+The receiver is designed in a milled metal case.
+The receiver is equipped with minimized quantity of controls - volume
+control combined with power ON/OFF switch, Channel selector, Carrier LED indicator, earphones
+output and the Recorder output combined with Recorder Remote Control function. The product is
+powered from built-in 4 x AAA cells.
+External power supply socket is located on the side panel of the product.
+Preliminary setting of frequency for each channel and squelch threshold adjustment is
+available with the use of program buttons located inside the case.
+3 main models of special receivers differing in type of audio decoder are manufactured on a
+regular base:
+1. PRK 040 - open channel (no encryption).
+2. PRK 040i - open channel + spectrum inversion decoder.
+3. PRK 040D - open channel + delta modulation decoder.
+Specifications:
+Frequency band
+Quantity of memory channels
+Modulation
+Sensitivity (@ signal / noise 10 dB)
+Adjacent-channel suppression at +/- 500 kHz receiver off-tune
+Mirror channel suppression
+Spurious channel suppression
+Current consumption at an average volume
+External power supply
+Internal power supply
+Step of tune
+Dimensions (without the antenna)
+
+416 - 421 MHz
+10
+WFM
+0.5 µV
+60 dB
+60 dB
+50 dB
+50 mA
+6V
+3 AAA x 1.5 V
+25 kHz
+130 x 67 x 20 mm
+
+CONTROLS
+Top Panel
+
+Tune indicator:
+- Red - presence of carrier frequency;
+- Green - no signal;
+- Flashing with a rate of about 1 second - replace batteries.
+
+Side Panel
+
+External power supply indicator lights up as soon as external power supply is connected.
+Interior Panel
+To preset parameters with the use of internal control buttons remove four screws from the
+rear lid and two screws from the top panel (located closer to the rear side).
+
+Four control buttons (photo) are installed on the receiver PCB:
+1. Tune Down.
+2. Tune Up.
+3. SQUELCH mode. Use this mode if you wish to record intelligence obtained with the use
+of phone line audio transmitters. Use "earphones" socket of the product for connection of your
+recorder. Activate VOX mode on the applied recorder.
+4. Memory.
+2
+
+TUNING
+1. Switch the transmitter On.
+2. Switch the receiver On.
+3. Select memory channel (top panel – memory channels) by pressing "+" or "-" button
+repeatedly.
+4. Holding button 1 or 2 tune the receiver in the transmitter frequency. For more accurate
+tuning push button 1 or 2. The end of tuning range is indicated by the yellow color of the LED.
+5. Space apart the transmitter and the receiver at a distance of 5 meters (approx.) or remove
+the receiver antenna and repeat step 4.
+Tuning quality is checked " by ear " when maximum signal level and minimum noise are
+obtained.
+6. Push button 3 to select SQUELCH mode. In this case no signal will be heard in the
+earphones until the carrier is present.
+Note: activated SQUELCH mode reduces sensitivity of the receiver.
+7. Push button 4 to store settings (steps 4-5) in the selected memory channel.
+Repeat tuning procedure for other memory channels.
+
+3
+
+

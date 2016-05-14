@@ -1,0 +1,436 @@
+Deploying Media Probes in
+Evolving VoIP Networks
+Dave Gladwin
+dave.gladwin@newport-networks.com
+
+Presentation Template V4.00 Nov-05
+
+Agenda
+! Convergence of Fixed and Mobile services are driving networks
+towards IMS based architectures in order to offer ubiquitous
+services.
+! This session looks at:
+! How networks are evolving to deliver new services.
+! The requirements placed on the networks to deliver LI
+! A brief overview of a typical VoIP LI architecture
+! Pulling it all together
+
+2
+
+Next Generation Networks - Observations
+! Tier 2s lead the way with tactical IMS deployments
+! Tier 1s generally playing catch up
+! Most VoIP plays are opportunistic/tactical today
+! NGN is more than VoIP
+! Consumer, Business and Enterprise focus
+! Many different forms of NGN
+! PSTN replacement – 21CN
+! New service overlay – PoC
+! Multimedia – Video services
+! Fixed Mobile Convergence
+! IPTV
+
+! All of this means network evolution and IMS
+
+3
+
+Why IMS?
+! PSTN -> IMS is a logical migration step to provide new services
+! PSTNs which have already migrated to NGNs may look at reducing
+further CAPEX by migrating to an IMS-like core
+! IMS provides the glue between services and networks
+! It aims to deliver any service to any device over any network
+! Designed to allow rapid prototyping and deployment of services
+! Mobile Service Providers:
+! IMS was created to fulfil need for ‘feature rich’ services
+! Converged service to business and residential
+
+! Wireline Service Providers:
+! Long term PSTN replacement programs
+! Must innovate to regenerate Wireline revenues
+! Add value to existing services
+! Move into new markets via convergence
+! Reduce Opex
+
+4
+
+The Evolution Path
+! Today VoIP is driving deployments
+! Often overlaid onto current IP data networks
+! All I need is a Softswitch?
+! Need to overcome some issues to achieve this
+! Connectivity
+! Quality
+! Security
+! Resilience
+
+5
+
+How have networks evolved?
+Softswitch
+
+Sig
+SBC
+
+nall
+
+ing
+
+Med
+
+Core IP Network
+
+ia
+
+SBC
+
+NAT Traversal
+Session
+Policing
+
+Peer IP Network
+
+Topology Hiding
+Security
+
+6
+
+How have SBCs evolved?
+Integrated
+SBC
+
+Distributed
+SBC
+
+Softswitch
+BC
+
+SBC
+
+Sig
+Core IP Network
+
+nal
+
+ling
+
+BG
+BG
+BG
+
+7
+
+Med
+
+ia
+
+Peer IP Network
+
+TISPAN Architecture
+
+Interconnect
+Signalling
+BC
+
+A-BGF
+
+Access SBC
+8
+
+Interconnect
+Media BG
+
+Integrated
+
+Integrated and Distributed SBC Architectures
+
+SIP Signalling
+
+SIP Signalling
+
+RTP media
+
+RTP m
+
+BC
+
+Distributed
+
+CA/SS/P-CSCF
+
+SBC
+
+SIP Signalling
+
+RT
+
+Pm
+
+edi
+
+a
+
+edia
+CA/SS/P-CSCF
+
+SIP Signalling
+
+H.248/Megaco
+
+H.248/Megaco
+
+SBC – Session Border Controller
+BC – Border Controller
+BG – Border Gateway
+
+9
+
+BG
+
+RTP media
+
+BGF
+
+VoIP Peering – The Traditional Interconnect
+Model
+Regionalised SBC for signalling and media
+Softswitch / Call Agent
+Single SBC per region
+
+National IP Backbone
+
+SBC
+Southern Region
+
+Carrier A
+10
+
+SBC
+Northern Region
+
+Carrier B
+
+•
+•
+•
+•
+
+In-region Policies
+Media Steering in-region by SBC
+Intelligence closer to the edge
+Network architecture for Softswitch
+or Call Agent Interworking and
+Integration
+
+SBC
+Western Region
+
+Carrier C
+
+VoIP Peering – The distributed Interconnect
+model
+With centralised SBC for Signalling and distributed Media
+Softswitch / Call Agent
+
+National IP Backbone
+BCF
+
+Centralised Border Controller
+• Single point of Policy
+• Media Steering in-region by BGF
+to optimise RTD and network
+utilisation
+• No replication of functionality
+• Simplified network architecture for
+Softswitch or Call Agent
+
+Southern Region
+
+Northern Region
+
+BGF
+
+BGF
+
+BGF
+
+Carrier B
+
+Carrier C
+
+Carrier A
+11
+
+Western Region
+
+Summary of LI landscape
+! Separate legal frameworks for most countries
+! Technical standards mostly relate to interfaces – with much
+common ground
+! But most have some common requirements
+! Legally sanctioned official access to private communications
+! Can only be enabled with a legal warrant
+! Required functionality in modern telecoms equipment
+! Must provide transparent interception of specified traffic only
+! Targeted user must not be aware of interception
+! Other users must not be affected during interception
+
+12
+
+Getting Access to Signalling and Media
+! Intercept model
+assumes
+communications
+nodes can access
+signalling and media
+! In VoIP Networks
+they are separated –
+often in different
+devices
+! Session control
+devices are already
+aware of signalling
+media relationships
+
+13
+
+Split between signalling and voice
+
+Traffic
+Data
+(Signalling)
+
+Communications
+Data
+(Media)
+
+NB – in VoIP networks the Media and Signalling can take different paths
+NB – Anti-tomboning may mean the media is not even in the same
+network as signalling
+14
+
+PacketCable™ Architecture Conceptual
+
+! PacketCable™ surveillance model - CALEA compliant
+! The same basic arrangements as ETSI
+15
+
+ETSI Architecture Conceptual
+
+! General Networks architecture for Intercept (ETSI)
+
+16
+
+LI Elements – Administration Function
+
+! The Network Operator implements interception warrants via the
+Administration Function
+! The Administration Function manages the Intercept Function in
+the network nodes and the Media Functions
+17
+
+LI Elements – Handover Interfaces
+
+! Three Handover Interfaces link the Public and LEA networks
+! HI1 – Administration input
+! HI2 – IRI delivery to Law Enforcement Monitoring Facility (LEMF)
+! HI3 – CC delivery to LEMF
+18
+
+LI Elements – Interception Function
+
+! Internal Intercept Functions (IIF) implemented in network nodes
+! Warrant may require IRI, CC or both
+19
+
+LI Elements – Mediation Function
+
+! Mediation Functions convert deliver Intercept Information to the
+LEMF over standard interfaces, HI2, and HI3
+! Delivery may be IRI, CC or both
+20
+
+Architecture - Physical
+! Intercept Functions
+present on both signalling
+(IRI) and media (CC)
+elements
+! Management Unit runs the
+Administration Function,
+performs provisioning and
+monitoring.
+! Handover Unit runs the
+Mediation Function,
+performs buffering,
+validation and countryspecific delivery.
+! Both units backed up by
+warm standbys with
+automatic replication of
+data between peers.
+
+21
+
+Central Softswitch and Distributed Gateways
+Softswitch
+
+BG
+
+BG
+BG
+
+Target Provisioning
+Signalling
+Media
+IRI (HI1)
+CC (HI2)
+
+22
+
+ADMF/
+MF
+
+LEMF
+
+Central Controller and Distributed Gateways
+Softswitch
+
+ADMF/
+MF
+
+BC
+BG
+
+BG
+BG
+
+Target Provisioning
+Signalling
+Media
+IRI (HI1)
+CC (HI2)
+
+23
+
+LEMF
+
+Conclusion
+! Networks will continue to evolve to support Multimedia services
+! Separated signalling and multiple media paths will become
+prevalent
+! Distributed (edge) elements – Gateways and Controllers are
+strategically located to facilitate target acquisition
+! A flexible approach is essential to allow natural network
+evolution whilst still meeting both commercial and regulatory
+needs
+
+24
+
+Thank You
+Questions
+
+Lawful Intercept White Paper:
+http://www.newport-networks.com/whitepapers
+
+Presentation Template V4.00 Nov-05
+
+

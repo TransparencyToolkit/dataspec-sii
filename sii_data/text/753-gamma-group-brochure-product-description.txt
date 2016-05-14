@@ -1,0 +1,100 @@
+Soluciones De Infección Y Monitoreo Remota
+FINFLY WEB
+
+Uno de los principales retos ligados al uso de una solución
+de monitorización remota es instalarla en el sistema objetivo, sobre todo cuando se dispone de muy poca información,
+como una simple dirección de correo electrónico, y cuando resulta imposible acceder físicamente al sistema.
+FinFly Web ha sido específicamente diseñado para permitir
+infectar un sistema objetivo de manera remota y encubierta utilizando gran variedad de ataques basados en
+la web.
+
+DE UN VISTAZO
+Uso:
+
+· Operaciones estratégicas
+
+Capacidades:
+
+· Implementa una solución de
+monitorización remota en el
+sistema objetivo a través de
+sitios Web
+
+Contenido:
+
+· Software
+
+FinFly Web proporciona una interfaz interactiva que permite que el agente cree fácilmente un código de infección a medida en función de los módulos seleccionados.
+Los sistemas objetivo que visiten un sitio Web preparado
+con el código infeccioso implementado se infectarán
+secretamente con el software configurado.
+
+Ejemplo De Uso 1: Unidad Técnica De Vigilancia
+
+Ejemplo De Uso 2: Agencia De Inteligencia
+
+Tras estudiar el perfil del objetivo, la unidad creó un sitio
+web de interés para esta persona y le envió el enlace por
+medio de un panel de discusión. Al abrir el enlace, se
+instaló una solución de Monitoreo remota en el sistema objetivo, que pudo monitorearse desde la sede central de
+la agencia.
+
+El cliente implementó FinFly ISP en los sistemas del principal proveedor de servicios de Internet del país. Esto
+se combinó con FinFly Web para infectar de forma remota a los objetivos que visitaban sitios Web contrarios al Gobierno introduciendo secretamente el código
+de FinFly Web en los sitios web en cuestión.
+
+Descripción General De Funciones
+· Módulos web totalmente personalizables.
+· Se pueden instalar secretamente en cualquier sitio web.
+· Total integración con FinFly LAN y FinFly ISP para implementarse incluso en los sitios Web más populares, como proveedores de correo Web, portales de vídeo, etc.
+· Instala soluciones de monitorización remota incluso si sólo se conoce la dirección de correo electrónico del objetivo.
+· Posibilidad de dirigir las actividades de monitorización a todos los visitantes de determinados sitios Web.
+Encontrará la lista completa de funciones en las Especificaciones del producto
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Soluciones De Infección Y Monitoreo Remota
+FINFLY WEB
+
+Componentes Del Producto
+
+FinFly Web
+· Software interactivo para crear
+sitios Web de infección a medida
+
+Infección Directa Con FinFly Web
+
+Total Integración Con FinFly LAN Y FinFly ISP
+
+Soluciones De Infección Y Monitoreo Remota
+FINFLY WEB
+
+Ejemplo: Applet Java (Internet Explorer, Firefox, Opera, Safari)
+El sitio web le pedirá al objetivo que acepte un complemento Java que puede ir firmado
+con el nombre de cualquier empresa fiable (p. ej. “Microsoft Corporation”)
+
+Ejemplo: Ausencia De Un Componente (Internet Explorer, Firefox, Opera, Safari)
+El sitio web simulará que el sistema objetivo no dispone de un complemento o códec determinado, y
+le pedirá al usuario que lo descargue y lo instale.
+
+Soluciones De Infección Y Monitoreo Remota
+FINFLY WEB
+
+Ejemplo: Ausencia de un archivo XPI (sólo Firefox, todas las plataformas)
+Este módulo le pedirá al objetivo que instale complementos adicionales para poder visualizar el sitio web
+
+La información contenida en el presente
+documento es confidencial y puede sufrir
+cambios sin previo aviso. Gamma Group International no se responsabiliza de las omisiones o los errores técnicos o editoriales que
+pueda contener este documento.
+
+GAMMA INTERNATIONAL
+United Kingdom
+Tel: +44 - 1264 - 332 411
+Fax: +44 - 1264 - 332 422
+info@gammagroup.com
+
+

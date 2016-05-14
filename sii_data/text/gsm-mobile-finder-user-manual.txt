@@ -1,0 +1,290 @@
+GSM Mobile Finder (MF)
+User Manual
+(Model No. 580 200 0008)
+
+CONFIDENTIAL
+
+1
+
+GSM Mobile Finder (GSM-MF)
+User’s Manual
+
+1. General Description
+In connection with the GSM mobile tracer & locator (GSM-MTL3), the GSM mobile
+finder (GSM-MF) enables pinpoint localization of mobile phones. The device
+provides 50 reception channels for selection of an unassigned frequency.
+The wide range of its reception dynamics (-100 dBm to +7 dBm) ensures
+localization of both adjacent and distant mobile phones.
+An especially designed aerial enables systematic direction detection and, thus, a
+rapid approach to the sought mobile phone.
+The compact design of the device ensures concealed operation.
+Absolute reception field strength of the respective channel is shown on a display
+(1 dB steps).
+Relative field strength is signaled through changing tone pitch or intermitted
+sound.
+
+CONFIDENTIAL
+
+2
+
+2. Getting started
+1. Secure power supply. Power supply occurs via a 9 V battery which has to be
+inserted into the battery case on the bottom side of the device.
+2. Connect a suitable direction finding aerial (900 MHz range) - (aerial connection
+[7])
+3. Connect headphones.
+Use the ON/OFF switch [9] to switch on the GSM-MF. After a short initialization
+phase, the device will be ready for operation on the basis of the latest settings
+saved
+
+3. Settings
+Default settings of the GSM-MF are realized via the menu system.
+Use the following keys:
+[M]
+[¿]
+[À]
+[S]
+
+Retrieve menu and submenus
+Select menu functions or menu
+values
+Save and close menu
+
+4. Direction finding
+Select a free traffic channel and put the mobile device into transmission mode (e.g.
+silent call). This can be realized by means of the GSM Mobile Tracer & Locator
+GSM-MTL 3 or any other suitable device.
+Adjust the selected traffic channel on the GSM-MF and localize the target through
+directing the aerial to the maximum signal level. Thereby the absolute reception
+field strength will be shown on the display. Relative field strength is signaled
+through changing tone pitch or intermitted sound (according to audio settings).
+4.1 Mode menu
+Manual mode (hand)
+In manual mode, a reception level, which has to be within the preset range of the
+measuring window, corresponds to the respective audio signal or intermitted
+sound. Thus, increase and decrease in reception field strength can be discerned.
+Automatic mode (auto)
+In automatic mode, the strongest audio signal or intermitted sound is constantly
+synchronized on the highest reception level measured. Audio signals or intermitted
+sound will decrease at lower reception levels. Therefore, optimum position of the
+aerial has to be controlled constantly.
+4.2 SET menu
+Change of audio signal or intermitted sound is realized for one adjustable
+measuring window each. If the reception level is above or below the sensitivity
+level set for the measuring window, further changes of the signal will not occur. To
+continue direction finding, adjust settings for the measuring window accordingly.
+Manual adjustment of measuring window (hand)
+Press the "S" key [12] to select either the medium audio signal (manual mode) or
+the maximum value (automatic mode). Instead of the “S” key [12], the remote
+control, which is included in the scope of delivery, may be equally used.
+CONFIDENTIAL
+
+3
+
+Automatic adjustment of measuring window (auto)
+In SET menu’s automatic mode, the medium audio signal (manual mode) or the
+maximum value (automatic mode) is selected automatically, when the lower or
+upper limit set for the measuring window is reached.
+
+4.3 Display
+
+1
+
+2
+
+3
+
+4
+
+5
+1
+2
+3
+4
+5
+
+traffic channel
+operating mode
+set limit for measuring window
+battery status
+absolute reception field strength
+
+5. Technical data
+Frequency
+Range
+
+GSM-Channel 1: 890.2 MHz
+…
+GSM-Channel 50: 900.0 MHz
+
+Sensitivity
+Power Supply
+
+approx. –100 dBm
+9 V battery block
+
+Scope of delivery:
+
+(Steps of 200kHz)
+
+GSM-MF, LogPer-antenna HyperLOG 7025, GSM Body
+worn DF antenna, headphones, remote control unit, 9 V
+battery block, user’s manual
+
+CONFIDENTIAL
+
+4
+
+6. Appendix
+
+6.1. Tools
+6
+
+7
+
+8
+
+15
+9
+
+10
+11
+14
+
+12
+
+13
+fig. 1: tools
+
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+remote control connection
+aerial connection
+headphones connection
+ON/OFF switch
+display
+volume control / menu select
+SET / close menu
+volume control / menu select
+open menu
+display lighting ON/OFF
+
+CONFIDENTIAL
+
+5
+
+6.2. Menu
+
+Menu
+
+Submenu
+
+Function
+
+1
+
+TCH
+
+select traffic channel
+
+2
+
+Audio
+
+Sound
+Pulse
+
+signal field strength through audio signals
+signal field strength through intermitted
+sound
+
+3
+
+Mode
+
+Hand
+
+reception level corresponds to respective
+signal
+set measuring window to maximum
+value automatically
+
+Auto
+4
+
+Short
+
+Range
+
+Large
+5
+
+window
+
+to
+
+approx.
+
+window
+
+to
+
+approx.
+
+Slow
+
+Speed
+
+Fast
+6
+
+set measuring
+15 dB
+set measuring
+30 dB
+
+Hand
+
+Set
+
+Auto
+
+change response speed of direction
+finding signal
+select medium audio signal (hand mode)
+or maximum value (auto mode) manually
+select medium audio signal (hand mode)
+or maximum value (auto mode)
+automatically, when reaching lower or
+upper limit set for the measuring window
+
+7
+
+Contrast
+
+display settings
+
+8
+
+Calibration
+
+reserved for default settings
+
+CONFIDENTIAL
+
+6
+
+CONFIDENTIAL
+
+7
+
+

@@ -1,0 +1,404 @@
+Network Forensics
+Concepts and fundamentals behind the new
+paradigm in network analysis
+
+ELEXO
+20 Rue de Billancourt
+92100 Boulogne-Billancourt
+Téléphone : 33 (0) 1 41 22 10 00
+Télécopie : 33 (0) 1 41 22 10 01
+Courriel : info@elexo.fr
+TVA : FR00722063534
+
+Summary
+z
+
+Understanding network forensics
+
+z
+
+Network forensics implications
+
+z
+
+Resolution methods
+z
+z
+z
+
+Example – Security
+Example – Compliancy
+Example – Troubleshooting
+
+What is network forensics?
+z
+
+Network forensics is the idea of being able to resolve network
+problems through captured network traffic
+
+z
+
+Previous methods focused on recreating the problem
+
+z
+
+New technologies eliminate the time-consuming task
+of having to recreate the issue
+
+z
+
+Allows IT professionals to go immediately to problem resolution
+mode
+
+Why Network Forensics?
+z
+
+Internal and governmentally mandated compliancy
+z
+z
+z
+
+z
+
+Security
+z
+z
+
+z
+
+Provides enforcement of acceptable use policies
+Helps fight industrial espionage
+Assists with Sarbanes Oxley compliance
+
+Provides pre-intrusion tracking and identification
+Helps deliver a post-intrusion “paper-trail”
+
+Network Troubleshooting
+z
+z
+
+Performs root-cause analysis
+Allows for historical problem identification
+
+Compliancy - Internal
+With internal compliancy, some of the most common issues are…
+z
+
+Acceptable Use
+z
+z
+
+z
+
+Internal organizational policy that applies to use of all
+company systems, including e-mail and Internet access
+Challenge – organizations cannot adequately enforce
+these policies
+
+Industrial espionage
+z
+z
+
+In today’s competitive world, espionage is a
+continuous threat
+Challenge – With the advent of e-mail and IM,
+perpetrating acts of espionage has become far
+easier than ever before.
+
+Compliancy - Governmental
+IT administrators can assist SOX (Sarbanes-Oxley)
+compliancy in a number of ways…
+z
+
+SOX requires documentation of information flowing to and
+from devices which store company information
+z Network forensics can be used to track all communication to
+and from any device or segment of interest
+(SOX ACT, section 302)
+
+z
+
+SOX references the COSO (Committee of Sponsoring
+Organizations of the Treadway Commission), and their
+framework which helps businesses to assess and align
+their IT governance policies with SOX
+z One frameworks focuses on network monitoring
+z Network forensics can ensure real-time and continued
+network monitoring
+
+Compliancy - Governmental
+Health Insurance Portability and Accountability Act HIPAA
+(Healthcare industry)
+z
+z
+z
+
+z
+
+Requires that patient data be protected from
+unauthorized access
+This means ensuring that the data is secure as it
+traverses the network
+Should a security breach happen, regulations provide for
+large fines of the organization UNLESS they can prove
+that no data was transferred
+Network forensics can record all transactions occurring
+over the wire and thus prove if data transfer took place
+
+Compliancy – Example
+The Situation:
+z
+
+At a large financial organization, an employee is being reviewed
+for possible termination by HR. Among the offenses the
+employee is accused of is browsing inappropriate
+websites on company equipment.
+
+z
+
+IT has been tasked with researching these possible offenses.
+However, providing only domain names or URLs is not
+acceptable according to the HR policy. The offense has
+to have been documented in some way that will reflect
+the activity the employee perpetrated.
+
+Compliancy - Example
+The Challenge
+z
+
+Traditional methods of tracking web user activity can provide domain
+names and URL but cannot show what exact content was being
+displayed at the time
+z If those sites suddenly cease to exist or update their content, providing
+adequate documentation is impossible
+The Solution
+z
+
+To record the traffic, in its entirety, and offer the ability to not only
+view the transactions, but also to reconstruct the original stream
+of data.
+
+Compliancy - Example
+
+Using the Network
+Instruments
+GigaStor control
+panel, the
+timeframe of
+suspected activity
+is selected, and
+statistics about the
+timeframe are
+displayed
+
+Statistics
+
+Time slice of suspected activity
+
+Compliancy - Example
+
+Next, users of
+interest are
+selected, and their
+traffic patterns
+graphed to display
+periods of
+excessive activity
+from the systems in
+question
+
+Selecting the
+right station
+
+Compliancy - Example
+Recreating captured
+Internet traffic using
+stream reconstruction
+
+Selecting the
+HTML file
+
+Displays the stored
+HTML page
+
+Security - Example
+z
+
+With so many security solutions, where does
+forensics fit in?
+z Why is there a need?
+z
+z
+z
+z
+
+Perimeter defenses can be penetrated
+Internal attacks can negate the sophisticated
+external security systems
+Many security deployments look for existing
+or known vulnerabilities, missing new threats.
+Even more advanced technology with the intent of detecting
+malicious behavior which doesn’t conform to known lists can be
+inaccurate.
+
+Security - Example
+z
+
+User’s home wireless network has been attacked,
+VPN profile has been pulled off the the user’s
+corporate laptop
+z User was unaware of attack for some period of time
+z Since the user had widespread access across the network, the
+loss of their VPN profile has made the entire network suspect
+z Existing security systems did not detect any
+security breaches
+
+Security - Example
+
+Identify abnormal traffic
+patterns based on
+network trends
+gathered prior to the
+breach.
+
+Security - Example
+
+Watch for
+deviation in
+normal usage
+times for key
+systems
+
+Security - Example
+
+Identify every file touched
+and every command
+initiated by the intruder on
+the network
+
+Intruder accessing the
+directory structure of a
+Window File Server
+
+Security - Example
+
+With proper analysis
+tools, you track the
+entire path the
+intruder took across
+the network,
+identifying all
+infrastructure
+systems which were
+potentially
+compromised
+
+Daily Troubleshooting - Example
+z
+
+Helpdesk received notice of poor call quality from a specific
+user’s VoIP phone.
+z All other phones are not experiencing issues, and aggregate statistics show
+that overall VoIP quality is high.
+z The user reported that the issue is sporadic.
+z
+
+A quick check of network stats shows that while some links
+have been periodically high, overall network usage appears
+within the norm.
+
+z
+
+Timeline:
+z
+z
+z
+
+8:45 – Helpdesk receives call of poor voice quality
+9:10 – After troubleshooting, Helpdesk escalates the call to Tier-3 support
+9:50 – Tier-3 investigates the issue, only to find that the problem has
+disappeared
+
+Troubleshooting - Example
+z
+
+Traditional Troubleshooting Methodology:
+z
+
+Ignore it, hope the problem goes away
+
+z
+
+Check a few network statistics, and then “pull cables” until it seems
+like the issue has been resolved
+
+z
+
+Reallocate analyzer resources to monitor the problem, and hope
+that it happens again so
+that you will have the information needed to troubleshoot. (If the
+problem does not
+reappear, see option a)
+
+Troubleshooting
+z
+
+The Network Forensics way:
+z
+z
+z
+
+Step 1) Isolate the timeframe of the issue
+Step 2) Select the User of Interest
+Step 3) Let the expert do the work…
+
+Troubleshooting - Example
+Isolate the time
+the problem
+took place
+
+Drill down to
+the correct
+user who
+reported the
+problem
+
+User Info
+
+Time slice
+
+Troubleshooting - Example
+
+The short period of
+time representing the
+user’s attempt to
+make a VoIP call is
+selected
+
+Troubleshooting - Example
+
+Expert Analysis Info
+
+In Summary
+z
+
+To perform network forensics you need a method of capturing
+everything that traverses your network links
+
+z
+
+This ability speeds troubleshooting in a number of ways
+z
+z
+z
+
+z
+
+Assist internal compliancy efforts
+Document acceptable use policies
+Maintain internal security
+
+Let an Expert system with time slice navigation
+do the heavy lifting
+
+

@@ -1,0 +1,146 @@
+GSM Monitoring System:
+Falcon C+
+Model 580
+
+CONFIDENTIAL
+– Subject –toSubject
+changeto
+without
+notice!
+CONFIDENTIAL
+changeprior
+without
+prior notice!
+
+1
+
+GSM Monitoring System: FALCON C+
+
+Description
+The Falcon Monitoring System is a mobile application monitoring system used for
+GSM networks and operates in the 900/1800MHz standard.
+The Falcon allows the complete monitoring of the entire GSM data traffic, including
+the monitoring of voice, SMS and fax traffic. All data will be automatically stored and
+can be recalled selectively from the various data banks for further use.
+
+The Falcon system fulfils the following main functions:
+• Fully passive (non-detectable) off air interception of GSM communication in different
+modes:
+- Interception of communication in A5.1 protocols (Ki is necessary)
+- Interception of communication in A5.2 protocols (real time A5.2 decoder is
+integrated)
+- Interception of communication in A5.0 protocols in real time
+• Control of the Downlink (base station to mobile phone channel) and of the Uplink
+(return channel from mobile phone to base station)
+• Automatic coordination of the system, automatic channel search of the Base Station
+Control Channels (BCCH) and registration of their parameters.
+• Automatic registration and decoding of telephone conversations based on pre defined adjustable filter criteria and respective storage of these conversations on the
+integrated 4 channel digital recorder.
+• Automatic creation of an archive for recorded telephone conversations with sorting
+to the subscribers monitored.
+• Automatic registration and storage of all available protocols in the GSM network of
+the monitored base station
+• Control of 8 receivers (4 duplex receivers) for the automatic monitoring and recording of max. 4 telephone conversations
+• Switching on and off for recording of conversations, text messages (SMS) as well as
+data transmission (fax messages). The fax messages are stored in a Hexadecimal
+protocol
+• Display of Operating Mode of the 4 Duplex receivers and the activated filter function on the display of the computer
+CONFIDENTIAL – Subject to change without prior notice!
+
+2
+
+Technical Data
+Reception channels
+Target numbers
+Identification
+Frequency range of Downlink
+(BTS→MS)
+Frequency range of Uplink
+(MS→BTS)
+Channel spacing
+Number of channel
+Frequency deviation
+Frequency stability
+Receiver type
+Receiver sensitivity
+Antenna impedance
+Time of frequency change in
+Hopping mode
+Dynamics range
+Volume range
+Demodulator
+Speech codex
+Channel structure
+System software
+Audio format
+Power supply
+
+GSM 900
+GSM 1800
+8 (4 Duplex channels)
+up to 1000
+through IMSI, TMSI, IMEI, Class mark, Telephone number, Distance
+935 ... 960 MHz
+1805 ... 1880 MHz
+890 ... 915 MHz
+200 kHz
+124
+45 MHz
+
+375
+95 MHz
+
+± 0,03 ppm
+double-super heterodyne, asynchrony
+-105 dbm
+50 Ω
+< 500 μs
+
+> 75 dB
+25 dB
+GMSK, asynchrony
+RPE/LTP: HR, FR, EFR, AMR
+TDMA/FDMA
+Windows 98/2000/XP
+standard Wave-format
+220 VAC, 50 Hz; 110 VAC, 60 Hz
+or external battery 12 V DC
++ 5 °C ... 40 °C
+-20 °C ... + 50 °C (without condensation)
+
+Operating temperature range
+
+Scope of delivery:
+
+1710 ... 1785 MHz
+
+-
+
+FALCON C+
+Control unit (Notebook)
+2 pcs. Dual-band antenna (magnetic mount)
+USB-connecting cable
+Power supply cable 230VAC
+Power supply cable 12 VDC
+User manual
+Suitcase
+
+-
+
+Mobile telephone with software “NETMON
+Dual band Yagi-antenna
+Dual band panel-antenna
+Module for remote control via LAN, PSTN, ISDN
+
+Optional:
+Hardware:
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+3
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+

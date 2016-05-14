@@ -1,0 +1,94 @@
+Controlo Remoto E Soluções De Infecção
+FINFLY LAN
+
+Alguns dos maiores desafios que as forças policiais enfrentam
+são os alvos móveis, onde não se consegue aceder fisicamente a um sistema informático e onde os alvos não abrem
+ficheiros infectados que tenham sido enviados por e-mail
+para as suas contas.
+Em particular, os alvos alertados para a segurança são quase impossíveis de infectar, porque mantêm os sistemas actualizados, e nenhuma instalação ou técnicas básicas de intrusão
+terão sucesso.
+
+DE UN VISTAZO
+Usage:
+Uso:
+
+· Operaciones tácticas
+
+Capacidades:
+
+· Implementa una solución de
+monitorización remota en un
+sistema objetivo conectado a
+una red LAN
+
+Contenido:
+
+· Software
+
+O FinFly LAN foi desenvolvido para dissimular uma solução de
+monitorização remota nos sistemas alvo em LAN (com e sem
+fios/802.11). É capaz de infectar ficheiros descarregados
+pelo alvo em tempo real, infectar o alvo enviando actualizações falsas do software mais popular ou infectar o alvo, injectando a carga nos sites visitados.
+Exemplo 1 de utilização: Unidade de vigilância técnica
+
+Exemplo 2 de utilização: Anticorrupção
+
+Uma unidade de vigilância técnica estava a seguir um alvo há
+semanas sem conseguir aceder fisicamente ao computador. Foi
+utilizado o FinFly LAN para instalar a solução de controlo remoto
+no computador alvo, quando este utilizava um ponto de acesso público num café.
+
+O FinFly LAN foi utilizado para instalar remotamente a solução
+de controlo remoto no computador de um alvo, enquanto este
+o utilizava no quarto do hotel. Os agentes estavam no outro
+quarto, efectuaram a ligação à mesma rede e manipularam
+os sites que o alvo estava a visitar para accionarem a instalação.
+
+Resumo das funcionalidades
+·
+·
+·
+·
+·
+·
+
+Descobre todos os sistemas ligados à LAN
+Funciona em redes com e sem fios (802.11)
+Pode ser combinado com o kit FinIntrusion para cobrir o acesso de rede
+Oculta a solução de controlo remoto em Descarregamentos de alvos
+Injecta a Solução de Controlo Remoto como actualizações de software
+Instala, remotamente, a solução de controlo remoto através dos sites visitados pelo alvo
+
+Para uma lista completa de funcionalidades, consulte as especificações do produto
+
+www.gammagroup.com
+
+FINFISHER™
+it intrusion
+
+Controlo Remoto E Soluções De Infecção
+FINFLY LAN
+
+Componentes Do Produto
+
+FinFly LAN
+· Software baseado em Linux com interface fácil de utilizar
+
+Infecção Através De LANs
+
+FinIntrusion Kit - Integração (opcional)
+· O FinFly LAN pode ser carregado como um módulo para o
+Kit FinIntrusion
+
+Controlo Remoto E Soluções De Infecção
+FINFLY LAN
+
+Interface de utilizador automatizada
+· Fácil de utilizar sin recibir mucha formación específica.
+· Simple to use without extensive training
+
+Suporte de carga e vários alvos
+· Podem ser adicionados diferentes executáveis para
+cada alvoDifferent Executables can be added for each Target
+
+

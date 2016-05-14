@@ -1,0 +1,551 @@
+Blue Coat SG510 Quick Start Guide
+This Blue Coat Quick Start Guide describes how to rack-mount the Blue Coat SG510 and explains the initial
+configuration methods.
+
+The Blue Coat SG510 is shipped with the following components:
+• Blue Coat SG510 appliance
+
+• Disk drive
+
+• AC power cord
+
+• Null-modem serial cable
+
+• Null-modem serial cable
+
+• Packet: Safety/Conformity
+
+• Packet: Software license sticker card and software license agreement
+For initial configuration, you must know the following. Use the back page of this document to record
+this information:
+• IP address, subnet mask,
+• Administration access names and passwords to be
+gateway and DNS to be assigned.
+assigned to this SG510.
+• (Optional, 5.1.x and later only) Application Delivery Network (ADN) goals and traffic
+intercept choices.
+
+The Blue Coat SG510 ships with the mounting brackets already attached to the appliance. Slide the
+appliance into the rack and secure each bracket ear to the front rack posts (two screws each side, not
+supplied).
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+1
+
+Blue Coat SG510 Quick Start Guide
+
+Attach cords:
+a. The two full-duplex, auto-sensing Ethernet network adapters supporting 10/100/1000 BaseT connections are labeled 0 and 1. Plug the network cable into adapter 0. (Optional)
+Interface 1 is used to connect to another proxy (for example, bridging configuration) or
+network device as determined by your deployment.
+b. (Optional) If you ordered an option card (supporting bridging or fiber channel), it arrived in a
+separate shipment. Follow the installation instructions enclosed with the card.
+c. (Optional) Attach a serial cable to connect the system to a PC, serial terminal, or stand-alone
+Serial Console box.
+d. Plug the enclosed power cord into the power cord receptacle and into a power source. This
+powers on the Blue Coat SG510 (there is no power switch).
+e. (Optional) Attach the cable management support bracket.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+3
+
+Blue Coat SG510 Quick Start Guide
+
+Verify that the Blue Coat SG510 has powered on successfully:
+a. The Power LED lights up amber and remains amber until initial configuration is complete.
+b. After a moment, the two Disk Drive LEDs (or how many you installed, starting with slot 1)
+corresponding to the disk drives installed light up green.
+c. The LAN LEDs indicate the SG510 is communicating with the network.
+d. The LCD displays Blue Coat.
+Note: See the Troubleshooting section on page 10 if lights are not the correct colors.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+4
+
+Blue Coat SG510 Quick Start Guide
+
+If this SG510 shipped with
+SGOS 4.2.x installed, you
+can use the front panel or a
+serial console to configure
+the initial network settings.
+You can also access a
+Web-based wizard from a
+PC residing on the same
+subnet.
+
+If this SG510 shipped with SGOS 5.1.x (or later) installed, you
+have two choices:
+•
+
+Use the front panel or serial console to assign the
+appliance IP, DNS, and gateway addresses, then access
+a Web-based wizard to set access credentials, configure
+Application Delivery Network (ADN) options, and select
+what traffic type(s) to intercept and the default allow/deny
+policy.
+
+•
+
+Continue with the front panel or serial console connection
+to set access credentials.
+
+Note: The back panel provides a table of settings. Use this to record configuration values.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+5
+
+Blue Coat SG510 Quick Start Guide
+
+1
+
+When the LCD displays IP address not configured, press the Enter button to enter Configure mode.
+The IP address parameter appears in the LCD, and the cursor appears as an underscore.
+
+2
+
+Press the Enter button again to enter Edit mode.
+The cursor changes to a blinking box.
+
+3
+
+Press the Left or Right arrow buttons to position the cursor over the characters you want to change; press
+the Up or Down arrow buttons to change them.
+
+4
+
+When you have the characters of the parameter entered correctly, press the Enter button to save the
+changes and return to Configure mode.
+
+5
+
+Press the Down arrow button to move to the next parameter; press the Enter button to enter Edit mode.
+
+6
+
+Repeat Steps 3 through 5 for the Subnet mask, Gateway address, DNS address parameters, console
+password, enable password.
+(SGOS 4.2.x only) During initial configuration, the Blue Coat SG510 generates and displays a complex
+admin password, which is not displayed again. Record this password. It can be changed after initial
+configuration is complete.
+(SGOS 5.1.x and later only) After the DNS address parameter, you are asked if you want to continue using
+the Web Setup Wizard.
+•
+
+Select No to continue to configure using the front panel.
+
+•
+
+7
+8
+
+Select Yes to finish using the wizard, which allows you to configure ADN and service options.
+Proceed to Step 6c.
+Optional: Secure the serial port. If you secure the serial port and lose the password, you must restore the
+appliance to its original factory defaults to access the CLI or Management Console.
+Initial configuration is now complete. Proceed to Installation Step 7, “Log on to the Blue Coat SG510” on
+page 9.
+For detailed, front-panel configuration instructions, refer to the Blue Coat SG510 Series Installation Guide.
+Note:
+
+By default, the LCD automatically dims after 30 seconds without activity. Press any
+control button once to relight the LCD. This behavior is configurable—for information,
+refer to the Blue Coat SG510 Series Installation Guide.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+6
+
+Blue Coat SG510 Quick Start Guide
+
+To access the serial console:
+1. Configure the terminal or PC terminal emulation software as follows:
+• Baud rate: 9600 bps
+
+• Data bits: 8
+
+• Parity: none
+
+• Stop bits: 1
+
+• Flow control: none
+
+• Smooth-scroll: disabled
+
+2. If your console was already configured before powering on the SG510, you should
+see the configuration alert. If not, power down the SG510 and power back up after
+configuring the terminal. The system prompts you with the following:
+********** SYSTEM STARTUP TEMPORARILY SUSPENDED **********
+Press "enter" three times to activate the serial console
+
+3. As instructed, press <Enter> three times to begin the initial configuration procedure.
+Enter basic network information as prompted.
+4. (SGOS 5.1.x and later only) After the DNS address parameter, you are asked if you
+want to continue using the Web-based wizard.
+a. Press N to continue to configure using the serial console. When you complete the
+procedure, proceed to Step 7.
+b. Press Y to finish using the wizard, which allows you to configure ADN and service
+options. Proceed to Step 6c.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+7
+
+Blue Coat SG510 Quick Start Guide
+
+Open a browser and enter the following URL:
+https://IP_address:8083
+
+where IP_address is the one you specified during the initial configuration in 6a or 6b.
+When the SG510 connects, the setup wizard appears. Each page is described and includes
+mouse-over help. Enter information on each screen, as prompted (the network settings you
+entered from the front panel or serial console are already filled in):
+• Console username and password
+
+• CLI (enable mode) password
+
+• Serial port password
+
+• Front panel PIN
+
+• ADN Manager addresses
+
+• Decision: Intercept traffic types
+
+• Default policy: allow/deny
+Note: The Web-based wizard is only available the first time the appliance is configured (or
+following a reset to factory defaults). Once Configure is clicked during the final step, the
+
+wizard is no longer available.
+When you complete the wizard, proceed to Step 7.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+8
+
+Blue Coat SG510 Quick Start Guide
+
+Important: To activate the SG510 license, you must register your hardware and install the license. To do
+this, you must have a Blue Coat WebPower account. If you do not yet have an account, go to:
+http://www.bluecoat.com/support/services/webpower_form.html
+To activate the SG510 license:
+1. Open a Web browser. Ensure that the pop-up blocker is disabled.
+2. Enter the IP address you assigned this appliance during initial setup: https://ip_address:8082
+3. Enter the access credentials, as specified during initial setup.
+4. Click Management Console. The license warning/registration screen appears. Enter your WebPower
+credentials and click Register Now; this automatically registers the hardware and displays the License
+Configuration and Management page.
+5. Enter using your WebPower credentials. Select the correct serial number; enter software serial number;
+click Apply.
+6. From the Management Console, navigate to the License page to begin the retrieval process:
+Maintenance>Licensing>Install.
+7. Click Retrieve. The Request License Key dialog displays. Enter your WebPower credentials and click
+Send Request.
+8. To verify license installation, click the View tab and click Refresh Data.
+If you require detailed procedures regarding registration, license retrieval, and installation, refer to the
+Licensing chapter in the Blue Coat ProxySG CMG Volume 2: Getting Started document, or click the Help
+button to view the contents of this chapter in HTML format.
+Blue Coat recommends attaching one of the software license stickers to the chassis and saving the other
+one for future reference. You can attach it to this document and file it, or attach it to another document as
+required in your enterprise.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+9
+
+Blue Coat SG510 Quick Start Guide
+
+Problem:
+One or more of my Disk Drive LEDs are not on, but drives are installed.
+Solution:
+The disk might not be set in securely. Open the front panel, press latch release for the problem drive, pull
+drive out a bit, re-insert and secure the latch closed. Check the front panel to see if the Disk Drive light is
+now on. If it is not, the drive might be bad and must be replaced.
+Problem:
+The Power and Disk Drive LEDs are green, but I apparently do not have a network connection.
+Solution:
+Check the network connections to verify they are not loose. Otherwise, the problem might be a bad network
+cable or possibly a problem with your router/switch.
+Problem:
+I cannot access the Web Setup Wizard from my browser.
+Solution:
+Attempt one or more of the following, as required:
+❐
+
+Attempt to access an external site, such as www.bluecoat.com, to verify Internet connectivity.
+
+❐
+
+Verify the browser is not proxied.
+
+❐
+
+Verify all SG510 hardware connections.
+
+❐
+
+Ping the SG510 or have the SG510 ping other devices on the network, such as its gateway.
+
+❐
+
+Once the appliance is configured, the Web Setup Wizard is not available. If you suspect this
+SG510 has already be configured, but you require the configurations to change, you can reset the
+appliance to its factory defaults. Refer to the Blue Coat SG510 Series Installation Guide.
+
+Use another method, such as the serial console.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+10
+
+Blue Coat SG510 Quick Start Guide
+
+❐
+
+How to Contact Support—When contacting Blue Coat Systems for technical phone support or to setup an RMA,
+be prepared to provide Blue Coat your serial number to verify entitlement.
+If you have purchased a Support Contract but have not received a Support Contract Certificate, send an e-mail to
+
+support.services@bluecoat.com, and provide your product model, serial number(s) and contact information.
+For the current list of regional customer support phone numbers, see:
+http://www.bluecoat.com/support/contact.html
+❐
+
+WebPower—Customers who have an active Blue Coat Support Contract will be provided access to WebPower, Blue
+Coat's online Case Management Tool. WebPower allows you to create new technical support cases, review open
+cases, and add comments to existing cases online at any time. Web Power also provides you with access to exclusive
+Blue Coat support materials, installation notes, and OS updates. To obtain a Web Power Login, navigate to:
+http://www.bluecoat.com/support/services/webpower_form.html, and provide your name, company name, email address, telephone number, product model and serial number.
+
+❐
+
+How to Purchase Support—When acquiring a Blue Coat product, the company recommends that you purchase a
+Blue Coat Support Contract which are available from any Blue Coat Reseller. Information about Blue Coat Support
+Services can be found at:
+http://www.bluecoat.com/support/services/index.html.
+For more information about purchasing a Support Contract, contact Blue Coat Sales:
+E-mail: sales@bluecoat.com or service.quotes@bluecoat.com.
+Telephone: Toll Free in North America at 1-866-982-2628 (1-866-38-BCOAT), or North America Direct at 1408-220-2299.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+11
+
+Blue Coat SG510 Quick Start Guide
+
+Contact Information
+Blue Coat Systems Inc.
+420 North Mary Ave
+Sunnyvale, CA 94085-4121
+http://www.bluecoat.com/support/index.html
+bcs.info@bluecoat.com
+support@bluecoat.com
+http://www.bluecoat.com
+For concerns or feedback about the documentation: documentation@bluecoat.com
+Copyright© 1999-2006 Blue Coat Systems, Inc. All rights reserved worldwide. No part of this document may be reproduced by any means
+nor modified, decompiled, disassembled, published or distributed, in whole or in part, or translated to any electronic medium or other
+means without the written consent of Blue Coat Systems, Inc. All right, title and interest in and to the Software and documentation are
+and shall remain the exclusive property of Blue Coat Systems, Inc. and its licensors. ProxySG™, ProxyAV™, CacheOS™, SGOS™,
+Spyware Interceptor™, Scope™, RA Connector™, RA Manager™, Remote Access™ are trademarks of Blue Coat Systems, Inc. and
+CacheFlow®, Blue Coat®, Accelerating The Internet®, WinProxy®, AccessNow®, Ositis®, Powering Internet Management®, The
+Ultimate Internet Sharing Solution®, Permeo®, Permeo Technologies, Inc.®, and the Permeo logo are registered trademarks of Blue Coat
+Systems, Inc. All other trademarks contained in this document and in the Software are the property of their respective owners.
+BLUE COAT SYSTEMS, INC. DISCLAIMS ALL WARRANTIES, CONDITIONS OR OTHER TERMS, EXPRESS OR IMPLIED,
+STATUTORY OR OTHERWISE, ON SOFTWARE AND DOCUMENTATION FURNISHED HEREUNDER INCLUDING WITHOUT
+LIMITATION THE WARRANTIES OF DESIGN, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL BLUE COAT SYSTEMS, INC., ITS SUPPLIERS OR ITS LICENSORS BE LIABLE FOR
+ANY DAMAGES, WHETHER ARISING IN TORT, CONTRACT OR ANY OTHER LEGAL THEORY EVEN IF BLUE COAT SYSTEMS,
+INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+12
+
+Blue Coat SG510 Quick Start Guide
+Installation Checklist
+You can photocopy this page and use it as you install Blue Coat appliances.
+Conventions:
+❐
+
+Bold—Required.
+
+❐
+
+Regular font—Recommended/optional.
+Task
+❏
+
+Unpack appliance package and check for all
+included parts.
+
+❏
+
+Review all safety notices.
+
+❏
+
+Connect the SG510 to your network (Interface 0).
+
+❏
+
+(Optional) Interface 1 is for connecting to another proxy
+or network device.
+
+❏
+
+(Optional) Connect a serial console or PC with terminal
+emulation software.
+
+❏
+
+Power on the appliance.
+
+❏
+
+Perform initial configuration:
+(4.2.x) Front panel, serial console, or Web-based
+wizard.
+
+Reference
+
+This Quick Start Guide and the Safety/
+Conformity document.
+
+CMG: Volume 2: Getting Started
+
+The Blue Coat SG510 Series Installation
+Guide.
+
+(5.1.x >) Front panel or serial console for initial IP
+information; complete with the wizard.
+❏
+
+License the appliance.
+
+CMG: Volume 2: Getting Started.
+
+❏
+
+Upgrade the OS to the latest version.
+
+CMG: Volume 10: Managing the ProxySG.
+
+❏
+
+Set the appliance name. Blue Coat recommends the
+following convention:
+
+CMG: Volume 2: Getting Started.
+
+customer_name-state/country_abbreviation-model.
+For example: BlueCoat-CA-Sunnyvale-510-1.
+❏
+
+Set the system time.
+
+❏
+
+Employ a filter list to restrict access to the SG510.
+
+❏
+
+Configure the appliance as transparent or explicit.
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+CMG: Volume 2: Getting Started.
+
+13
+
+Blue Coat SG510 Quick Start Guide
+Notes
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+14
+
+Blue Coat SG510 Quick Start Guide
+Notes
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+15
+
+Blue Coat SG510 Quick Start Guide
+Settings For This Appliance
+Use this table to record the network settings for this SG510. If you are unaware of what these settings are to be,
+contact your network manager. Use caution if you record passwords here. Store in a secure location.
+Parameter
+
+Setting
+
+Parameter
+
+IP address
+
+Subnet mask
+
+Gateway address
+
+DNS server
+
+Console username
+
+Console password
+
+Enable (CLI) password
+
+Serial port password
+
+Setting
+
+Front panel pin
+The following parameters are only configurable through the Web-based Wizard
+Primary ADN
+Manager IP address
+
+Backup ADN Manager
+IP address
+
+Server subnet 1
+
+Server subnet 2
+
+(IP/Mask)
+
+(IP/Mask)
+
+Server subnet 3
+
+Server subnet 4
+
+(IP/Mask)
+
+(IP/Mask)
+
+Intercept traffic? (5.1.x
+or later only)
+
+Circle: Yes / No
+
+Initial policy
+
+Circle: Allow / Deny
+
+Document Number: 231-02823 Revision: C.0—07/06
+
+Traffic to intercept (5.1.x
+or later only)
+
+Circle: CIFS / FTP / HTTP /
+IM / Exchange-Outlook /
+Streaming /
+Optimize other TCP traffic
+
+16
+
+

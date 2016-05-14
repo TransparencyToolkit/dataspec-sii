@@ -1,0 +1,533 @@
+nTAP™ Product Family
+
+Provides monitoring and security devices with complete visibility into full-duplex networks
+Network Instruments’ nTAPs let you monitor and analyze full-duplex links. nTAPs are critical components for network management because they provide
+complete and accurate access to live traffic streams. Without an nTAP, a monitoring device may be fed incomplete and misleading information: creating false
+alarms and missing problems that actually do exist.
+Network Instruments’ nTAPs ensure complete visibility into full-duplex network links without compromising network performance, filtering out physical
+layer errors, or risking costly downtime. Regardless of link type, device type, or analysis tool, there is an nTAP solution that fits your needs and budget.
+nTAPs are ideal for organizations using analysis tools such as:
+• Network analyzers
+• Forensic appliances
+• Remote monitoring appliances
+• Intrusion detection systems (IDS)
+• Security monitoring devices
+
+Analysis Device
+Intrusion Detection
+System
+
+Router
+Server Farm
+
+Aggregator nTAP
+Server
+Distribution
+
+Copper nTAP
+
+Core
+
+Optical nTAP
+
+Forensic Device
+
+Analysis Device
+
+Aggregator Copper nTAPs
+Aggregator nTAPs provide a copy of the data from full-duplex copper links integrated into a single stream to an analysis or security device with a
+standard (single-receive) capture interface.
+Aggregator nTAP
+
+• Contains a 256 or 512 MB buffer designed to cache network traffic spikes that exceed an
+analyzer’s capture capacity
+• Auto-negotiates to support 10 Mb, 100 Mb, or 1000 Mb network traffic
+• Optionally transfers 10 Mb or 100 Mb input from the network to an analyzer connected
+to a gigabit link, eliminating the chance of dropped packets from buffer saturation
+Aggregator Conversion nTAP
+
+• Contains a 256 or 512 MB buffer designed to cache network traffic spikes that exceed an
+analyzer’s capture capacity
+• Streams full-duplex traffic on a single TAP into two different optical or copper singlereceive devices
+• SFP-based outputs supports the use of an SX, LX, or ZX device
+
+Redundant Power Supply
+A redundant power supply is available for all copper nTAPs. By adding a second power supply, an nTAP will continue to send data to the analysis device
+if the primary power supply fails. If both power sources fail, network traffic will continue to pass through the nTAP.
+Supports Redundant Failover Links
+All copper nTAPs have the ability to support redundant failover links. If the link on one side of the nTAP goes down, the nTAP will automatically bring
+down the other link, allowing the corresponding device to switch over to a redundant link.
+
+AnalysisDevices
+Devices
+Analysis
+
+Example of an Aggregator nTAP deployment
+
+I
+opper
+0 Mb C
+
+ce
+nterfa
+
+/100
+
+10/100
+
+t
+
+der tes
+
+Link un
+
+Switch
+Switch
+Server
+Server
+
+Full-Duplex Copper nTAPs
+Full-duplex copper nTAPs provide a complete copy of data from full-duplex copper links at line rate for monitoring or security devices.
+10/100 Full-Duplex Copper nTAP
+
+• Transfers a copy of 10 Mb or 100 Mb traffic from a full-duplex copper link to a copper
+monitoring device
+• Connects to the full-duplex link under test and an analyzer equipped with a dual-receive
+capture card
+
+10/100/1000 Full-Duplex Copper nTAP
+
+• Transfers a copy of gigabit traffic from a full-duplex copper link to a copper monitoring
+device
+• Auto-negotiates to also support 10 Mb and 100 Mb networks
+• Connects to the full-duplex link under test and an analyzer equipped with a dual-receive
+capture card
+
+10/100/1000 Full-Duplex Copper to Optical Conversion nTAP
+
+• Supports the use of copper or optical monitoring devices
+• Connects to the full-duplex link under test, and a copper or optical analyzer equipped
+with a dual-receive capture card
+• SFP-based outputs supports the use of an SX, LX, or ZX device
+
+Redundant Power Supply
+A redundant power supply is available for all copper nTAPs. By adding a second power supply, an nTAP will continue to send data to the analysis device
+if the primary power supply fails. If both power sources fail, network traffic will continue to pass through the nTAP.
+Supports Redundant Failover Links
+All copper nTAPs have the ability to support redundant failover links. If the link on one side of the nTAP goes down, the nTAP will automatically bring
+down the other link, allowing the corresponding device to switch over to a redundant link.
+
+Example of a Copper to Optical Conversion nTAP deployment
+
+r
+
+A
+
+Link
+
+B A
+
+Copper
+
+B
+
+Analyze
+
+A
+
+Optical
+
+B
+
+face
+l Inter cables
+a
+ic
+t
+p
+l
+O
+optica
+al SFP
+Optiondard duplex
+an
+Two st
+<or>
+
+10
+100
+1000
+
+opper
+0 Mb C
+
+ce
+Interfa
+
+/100
+
+10/100
+
+Analysis Device
+
+t
+der tes
+
+Link un
+
+Switch
+Server
+
+Full-Duplex
+Full-DuplexOptical
+OpticalnTAPs
+nTAPs
+Full-duplex optical nTAPs provide a complete copy of data from full-duplex optical links at line rate for monitoring or security devices.
+One-Channel Optical nTAP
+
+Two-Channel Optical nTAP
+
+Three-Channel Optical nTAP
+
+1U nTAP Rack-Mount Configuration
+
+Configuration
+Optical nTAPs support gigabit single-mode and multimode, as well as 10 GbE traffic. Multiple split ratios are available to meet the needs of any network.
+Design
+Optical nTAPs are designed with LC connectors that are far more compact than the more common SC connectors. As a result, a single nTAP unit can
+support one, two, or three channels. Up to nine full-duplex links can be supported in a single 1U rack panel. nTAPs supporting different media types
+can be conveniently mixed and matched within a rack panel.
+Connection
+An optical nTAP connects to the full-duplex link(s) under test and an analyzer equipped with a dual-receive capture card. Analyzer cables are available
+to ensure this connection is made without error.
+
+Example of
+of an
+an Optical
+Optical nTAP
+nTAP deployment
+deployment
+Example
+
+ble
+zer ca
+Analy
+
+Analysis Device
+
+est
+nder t
+
+Link u
+
+Server
+
+Switch
+
+Different Methods to Access Network Traffic
+Ensuring complete visibility of network data is the first critical component of analysis. There are two common ways for a monitoring device to access network traffic: using a
+switch’s SPAN session (also known as port mirroring) or a network TAP (Test Access Port).
+SPAN Session
+A SPAN session functions best on lightly used, non-critical networks. In a SPAN session, the switch copies the TX (send) and RX (receive) data channels, reconstructing the
+integrated data stream. It then routes the integrated signal through the send channel of the SPAN port to a monitoring device. Because both channels are integrated into a
+single send channel, the SPAN port can only support a maximum of 50 percent of link utilization. Networks running business-critical or bandwidth-intense applications, like
+VoIP, are not appropriate environments for a SPAN port.
+A SPAN session also presents the following risks:
+• A switch filters out physical layer errors, which can hamper some types of analysis
+• There is an extra burden on a switch’s CPU to copy all data passing through the ports, potentially affecting timestamping accuracy
+• A SPAN port hides jitter from the monitoring device, critical to VoIP and other applications that rely on very precise packet timing analysis
+session
+SPANsession
+InInaaSPAN
+
+integrating
+signal,integrating
+full-duplexsignal,
+thefull-duplex
+copiesthe
+CPUcopies
+switch’sCPU
+theswitch’s
+the
+port.
+SPANport.
+theSPAN
+routedtotothe
+signal,routed
+TXsignal,
+oneTX
+intoone
+TXinto
+RX&&TX
+RX
+
+A Full-Duplex nTAP provides pass-through signals
+for network traffic, and separate copies of both
+TX and RX signals to a monitoring device.
+
+Server
+
+Server
+Switch
+
+Traffic Potential (Mbps):
+1000 (TX)
++1000 (RX)
+2000 (full-duplex)
+
+Analysis Device
+Maximum Analysis
+TX Bandwidth:
+1000 Mbps
+
+Analysis Device
+
+Dual-receive analyzer
+receives the full-duplex
+traffic (2000 Mbps) with no
+error filtering or packet loss.
+
+Switch
+
+Aggregator TAP
+An aggregator TAP makes a good compromise between the SPAN and full-duplex TAP options for low to moderate utilization links. The aggregator TAP provides access to data
+streams passing through a full-duplex network link, copying both sides of the link. Both sides of the link are then aggregated into a single stream. The integrated stream is
+then sent out a simplex port to an analysis devices with a single-receive capture interface.
+Its advantage over a SPAN is that the aggregator TAP buffers the analyzer output, which makes it less likely than a SPAN to drop packets during short spikes of high usage.
+However, under sustained high utilization (over 50%), an aggregation TAP will drop packets. The aggregator TAP will also forward layer 1 and 2 errors to the analysis device,
+which are essential for certain types of analysis.
+An aggregator TAP is ideally suited for:
+• A light to moderately used network that occasionally has utilization peaks above the capture capacity of the analyzer
+• Working with an analysis device with a standard (single-receive) capture interface, such as a laptop or standard system with an analysis device
+Full-Duplex TAP
+A TAP is a passive mechanism installed between “devices of interest” on the network. The TAP can be placed, for example, between a server and switch, or a router and
+firewall. Full-duplex TAPs transmit both the send and receive data streams simultaneously on separate dedicated channels, ensuring that all full-duplex data (up to 2000
+Mbps) arrives at the monitoring device in real time. For that reason, the monitoring device must be equipped with a dual-receive capture card capable of recombining the
+two data streams.
+Full-duplex TAPs are ideal for ensuring visibility of highly utilized full-duplex links because:
+• A full-duplex TAP never drops packets, regardless of speed or utilization
+• A full-duplex TAP does not filter out physical layer errors from the monitoring device
+• A full-duplex TAP is completely passive; it does not interfere with full-duplex networks
+
+nTAPs FAQs
+
+Optical nTAP Technical Specifications
+
+Q: Does an nTAP require power?
+A: The Optical nTAPs do not require power to operate. The
+full-duplex and Aggregator copper nTAPs require power to
+copy the data stream and send it to the monitoring device.
+However, the data stream continues to pass through the
+nTAP, even if power fails.
+Q: My copper analysis device has a single-receive port.
+Which nTAP would be the best to use?
+
+Dimensions
+Depth
+
+7.66 in / 19.46 cm
+
+Width (faceplate)
+
+5.85 in / 14.86 cm
+
+Width (box)
+
+4.55 in / 11.56 cm
+
+Height (faceplate)
+
+1.10 in / 2.79 cm
+
+Supported Media
+Fiber Type
+
+Multimode
+
+Single-mode
+
+A: The copper Aggregator nTAP is specifically designed for
+this purpose.
+
+Connector
+
+LC
+
+LC
+
+Fiber Diameter(s)
+
+50 μm or 62.5 μm
+
+9 μm Fiber
+
+Wavelengths Supported
+
+850 nm or 1300 nm
+
+1310 nm
+
+Q: Will nTAPs drop packets?
+
+Maximum Insertion Loss by Split Ratio (dB)
+
+A: It depends on the nTAP and the environment.
+Full-duplex nTAPs
+Full-duplex nTAPs will not drop packets. It is critical that
+they be connected to a specialized, full-duplex analyzer
+capable of receiving two separate streams of data and
+recombining the streams for analysis.
+Aggregator nTAPs
+It is possible for Aggregator nTAPs to drop packets. When
+network traffic coming into the Aggregator nTAP exceeds
+the capture capacity of the analyzer, the TAP will cache the
+data that the analyzer is unable to receive.
+Q: What split ratio do I need when deploying an
+optical nTAP?
+A: While we recommend that you always test the strength of
+your optical signal with a meter, if all devices between the
+connections are within 30 meters of the nTAP, a 50/50 split
+ratio is ideal. For longer hauls, it may be necessary to choose
+a split ratio that diverts more of the signal to the distant
+device.
+You should first determine the signal strength capabilities
+and requirements of your monitoring equipment, as well
+as the send power and receive sensitivity for the devices
+on either side of the link being monitored.
+
+Multimode 62.5 μm
+
+Multimode 50 μm
+
+Single-mode 9 μm
+
+1300 nm
+
+850 nm
+
+1300 nm
+
+850 nm
+
+1310 nm
+
+50/50
+
+3.9/3.9
+
+4.7/4.7
+
+4.5/4.5
+
+5.5/5.5
+
+3.6/3.6
+
+60/40
+
+3.0/5.0
+
+3.8/5.7
+
+3.7/5.6
+
+4.7/6.6
+
+2.8/4.8
+
+70/30
+
+2.3/6.3
+
+3.0/7.0
+
+2.9/7.0
+
+3.9/8.0
+
+2.0/6.1
+
+80/20
+
+1.7/8.3
+
+2.4/9.0
+
+2.3/9.0
+
+3.2/10.0
+
+1.3/8.0
+
+90/10
+
+1.2/12
+
+1.9/12.5
+
+1.8/12.8
+
+2.7/13.5
+
+.8/12.0
+
+Copper Full-Duplex and Aggregator nTAP Technical Specifications
+Dimensions
+Depth
+
+7.66 in / 19.46 cm
+
+Width (faceplate)
+
+5.85 in / 14.86 cm
+
+Width (box)
+
+4.55 in / 11.56 cm
+
+Height (faceplate)
+
+1.10 in / 2.79 cm
+
+Supported Media
+Copper Interface
+Link A / Link B (link under test)
+
+RJ45 Ethernet
+
+Copper Analyzer Interface
+
+RJ45 Ethernet
+
+SFP Interface (conversion nTAPs only)
+SX (850 nm)
+
+1000BaseSX, LC connector
+
+LX (1310 nm)
+
+1000Base, LC connector
+
+Regulatory Compliance (All Copper and Aggregator nTAPs)
+Emissions
+
+FCC Part 15 Class B
+
+CE Mark
+
+EN61000-3-2, EN55024, EN55022A
+
+About Network Instruments
+Network Instruments provides in-depth network intelligence and continuous network availability through innovative analysis solutions. Enterprise network professionals depend on Network
+Instruments’ Observer product line for unparalleled network visibility to efficiently solve network problems and manage deployments. By combining a powerful management console with
+high-performance analysis appliances, Observer simplifies problem resolution and optimizes network and application performance. The company continues to lead the industry in ROI with its
+advanced Distributed Network Analysis (NI-DNA™) architecture, which successfully integrates comprehensive analysis functionality across heterogeneous networks through a single monitoring
+interface. Network Instruments is headquartered in Minneapolis with sales offices worldwide and distributors in over 50 countries. For more
+information about the company, products, technology, NI-DNA, becoming a partner, and NI University please visit www.networkinstruments.com.
+
+© 2006 Network Instruments, LLC. All rights reserved. Network Instruments, nTAP, and all associated logos are trademarks or registered trademarks of Network Instruments, LLC. All other trademarks, registered or unregistered, are sole property of their respective owners.
+
+ELEXO - Téléphone : 01 41 22 10 00 - Fax : 01 41 22 10 01 - info@elexo.fr
+SA AU CAPITAL DE 381 123 EUROS – TVA : FR 00 722 063 534 - R.C.S. NANTERRE B 722 063 534 - SIRET 72206353400043 - CODE APE 516 J
+
+

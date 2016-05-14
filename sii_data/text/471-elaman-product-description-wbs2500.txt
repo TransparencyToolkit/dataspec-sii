@@ -1,0 +1,1946 @@
+Technical Description
+Wideband Jammer
+WBS2500
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+CONTENTS
+1.INTRODUCTION
+
+4
+
+2.HERITAGE
+
+5
+
+2.1
+2.2
+
+Overview of Product Range
+Product Range Continuity
+
+3.WBS2500 VEHICLE SYSTEM DESIGN
+3.1
+3.2
+3.3
+
+3.2.1
+3.2.2
+3.3.1
+3.3.2
+
+Overview
+Electrical design
+Power Supply Options
+Electrical Interconnect
+Mechanical Design
+Weight model
+Vehicle changes
+
+4.WBS2500 KEY SYSTEM COMPONENTS
+4.1
+4.2
+
+4.3
+
+4.4
+
+4.2.1
+4.2.2
+4.2.3
+4.2.4
+4.2.5
+4.2.6
+4.2.7
+4.2.8
+4.3.1
+4.3.2
+4.3.3
+4.4.1
+4.4.2
+
+Overview
+Detailed Technical Description
+Key Features
+Technical Specification
+Frequency Coverage
+RF Power and Effective Range
+RADHAZ
+Power Requirements
+Platform Integration
+Upgradeability
+Other Core Equipment
+Anti-Vibration Mounting Tray
+Omni-directional antenna
+Remote Control Unit
+Options
+12V DC Power Adapter
+Directional antennas
+
+5.FAMILY CHARACTERISTICS
+5.1
+5.2
+5.3
+5.4
+5.5
+5.6
+
+Man-Machine Interface
+Jamming Capabilities
+Interoperability
+Security & Integrity
+Programmability
+Built-In Test (BIT) Features
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+6
+
+7
+7
+8
+8
+9
+9
+9
+10
+
+10
+10
+13
+13
+14
+16
+16
+16
+17
+17
+17
+18
+18
+18
+19
+20
+20
+20
+
+24
+24
+25
+25
+25
+26
+26
+
+6.SYSTEM PROGRAMMING & OPERATION
+6.1
+6.2
+6.2.1
+6.2.2
+6.2.3
+6.3
+6.3.1
+
+Overview
+Concept of Operation
+Mission Creation
+Mission Programming
+Operation
+User Software
+Mission Editor
+
+27
+27
+27
+27
+28
+28
+28
+
+7.Training
+7.1
+7.2
+7.3
+7.4
+
+27
+
+29
+Training Ethos
+The Training Courses
+Product Training
+Specialist Training
+
+29
+29
+29
+29
+
+FIGURES
+Figure 2-1 : RCIED ECM Product Roadmap .............................................................................5
+Figure 3-1: Vehicle Installation External View ..........................................................................7
+Figure 3-2: WBS2500 Unit Vehicle Installation.........................................................................7
+Figure 3-3: System Block Diagram ...........................................................................................8
+Figure 4-1: WBS2500 Unit ....................................................................................................10
+Figure 4-2: Simplified Block Diagram of WBS2500 Unit .......................................................11
+Figure 4-3: WBS2500 Block Diagram ....................................................................................12
+Figure 4-4: Example Target Coverage of WBS2500 Unit ......................................................16
+Figure 4-5 : AV mounting tray ................................................................................................18
+Figure 4-6: Ultra-wideband 2G5-500 Antenna .......................................................................19
+Figure 4-7: Remote Control Unit ............................................................................................19
+Figure 4-8: 12V DC Power Adapter .......................................................................................20
+Figure 4-9: A0054 Antenna ...................................................................................................21
+Figure 4-10: A0067 Antenna .................................................................................................22
+Figure 4-11: 3m Mast............................................................................................................23
+Figure 5-1: WBS2500 Front Panel.........................................................................................24
+Figure 6-1: WBS2500 Basic Configuration and Operation Process........................................27
+Figure 6-2: Mission Editor GUI ..............................................................................................28
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+• 1 INTRODUCTION
+This document it provides an overview of the WBS2500 counter RCIED system. This is a modern,
+purpose built RCIED ECM product that represents an excellent solution for simple fitting and integration with SUV type platforms.
+The information in this proposal is grouped in the following sections:
+• 2. Heritage
+Describes the ECM product roadmap with a brief overview of each current product.
+•
+
+3. WBS2500 Vehicle System Design
+
+•
+
+Identifies the selected components for this requirement, the overall hardware configuration on
+the vehicle, top level capability and system attributes.
+
+•
+
+4. WBS2500 System Components
+
+Provides detailed technical descriptions of all constituent system components at a unit or component level.
+•
+
+5. Family Characteristics
+
+Details common system attributes such as the man-machine interface (MMI), programmability, BIT
+capability, etc.
+•
+
+6. System Programming & Operation
+
+Describes the system programming capability inclusive of origination of the mission fill that controls
+the system through loading of this into the system and the subsequent system operation.
+•
+
+7. Training
+
+Describes the EW Training capability and the proposed training package to be offered in support of
+this programme.
+•
+
+8. Installation
+
+Describes the vehicle installation capability to be used for this programme.
+•
+
+9. After Sales Service
+
+Details the proposed maintenance strategy for the equipment.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+4
+
+2.
+
+HERITAGE
+
+2.1.
+
+Overview of Product Range
+
+With the rapid rise in the need to counter RCIEDs, Elaman was able to immediately find effective
+solutions based on its existing EW product range but with optimised software fills. This gave
+Elaman excellent early exposure to this market allowing the definition of further products with increasingly refined and advanced characteristics. A brief history, the current key products and emerging products are all summarised in the ECM product roadmap below (Figure 2-1).
+
+KEY:
+MCS512
+Modular
+Manpack
+
+Core products
+New products
+
+Responsive option
+
+Under Development
+
+CES0512
+&
+CES0512EB
+Manpacks
+
+Planned
+
+25-512MHz &
+GSM Bands
+
+25-512MHz
+
+TMP &
+TMP-EB
+Lightweight
+Manpacks
+
+MCS2500
+Modular
+Manpack
+
+25-512MHz &
+GSM Bands
+
+Responsive option
+
+500-2500MHz
+
+TARAX &
+CES0174
+
+CES0512
+&
+CES0512
+CES0512EB
+
+30-88MHz
+27-174MHz
+25-512MHz &
+GSM Bands
+
+WBA0512
+Booster
+
+WBA-EB
+Booster
+
+25-512MHz
+
+GSM Bands
+
+MVS2000
+Vehicle
+System
+
+WBS & WBE
+Wideband
+Systems
+
+25-512MHz &
+GSM Bands
+
+25-2500MHz
+
+Responsive
+Systems
+
+Receiver
+Unit
+
+Ongoing R&D
+
+Figure 2-1 : RCIED ECM Product Roadmap
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+5
+
+The main features of current products are listed below:
+• CES0512 - A flexible, hand portable, battery powered EW equipment featuring receive, transmit and signal processing elements allowing the support of a wide range of ECM and ESM
+roles. It covers a frequency range of 25-512MHz at an output power of 10W.
+•
+
+CES0512EB - A companion unit to the CES0512 in the same mechanical package but providing
+alternative GSM-targeted frequency ranges of 880-960, 1710-1880 and 1850-1990MHz at an
+output power of 10W.
+
+•
+
+MVS2000 - The MVS2000 is a vehicular/fixed site based modular system using the CES0512
+and CES0512EB modules to cover the noted frequency ranges. It also incorporates the
+WBA0512 unit which boosts the level in the 25-512MHz range to 100W. A companion booster
+WBA-EB increases the CES0512EB level to 50W. Facilities such as remote control, central zeroization and GPS synchronisation are available.
+
+•
+
+CES0512/CES0512EB Man packs - These are CES0512/CES0512EB units repackaged for use
+in a man pack role. All the core equipment features are retained plus forced air cooling and easy
+to change battery pack allow for reliable and convenient use in a backpack configuration.
+
+•
+
+TMP0512/TMP0512EB Man packs - These products are second generation dedicated man
+pack units optimised for weight and size to enhance usability in tactical situations. The same
+frequency ranges are covered as the CES range at 10W output power but without a receive facility. A control panel optimised for RCIED applications is provided giving easy to use alarm and
+zeroize features. A high technology carbon fibre body provides excellent strength while meeting
+the low weight requirement.
+
+•
+
+WBS2500 - The WBS2500 was produced in response to the market requirement for a ‘one
+box’ solution for vehicle ECM, following on the success of the modular MVS2000 system. The
+WBS2500 builds on the technologies and techniques pioneered and proven in the CES and MVS
+families, and features an enhanced frequency coverage range of 25-2500MHz with no gaps and
+dual power amplifiers providing 100W low band and 30W high band coverage.
+
+2.2.
+
+Product Range Continuity
+
+Elaman has pursued an evolutionary approach to ECM product design where common successful
+elements are flowed through from one generation to the next. This facilitates a rapid design cycle
+while minimising risk and allowing new features to be introduced to a stable core, whether in terms
+of packaging or electronic capability.
+For example, in the new range of lightweight TMP man packs the transmit card is the same as the
+CES range but other electronics and the housing are all new creating a step in product performance
+but with a strong heritage.
+The same is true of the WBS2500 where signal processing and generation techniques are derived
+from the CES range but an all new housing and modular amplifiers allow the unit to satisfy the
+compact, one box requirement.
+Embedded firmware and GUI software follow a similar strategy of maximum re-use. This leverages
+the extensive testing and operational exposure of previous generations while allowing new products
+to be evolved in the shortest time and work concentrated on truly new features. It provides indirect
+user benefit in retaining the look and feel of operator interfaces particularly the GUI used to create
+the defining mission fills for the system. This is the Threat Management System.
+Elaman have an ongoing very active PV development programme for RCIED ECM equipment and
+users of current generation equipment can look forward to both continuing enhancements to existing equipment, e.g. useful accessories or appliqués, software feature updates, etc and the future
+availability of new, enhanced products which will have a familiar operating pattern.
+CONFIDENTIAL – Subject to change without prior notice!
+
+6
+
+3.
+
+WBS2500 VEHICLE SYSTEM DESIGN
+
+In this section the proposed vehicle system configuration is described. Information on the constituent components is provided to a greater level of detail in Section 4.
+
+3.1.
+
+Overview
+
+The selected RCIED countermeasure product is designed for vehicle fitting with minimum intrusion
+on the usable vehicle accommodation and for ease of operation. Figure 3-1 shows an external view
+of a Toyota Landcruiser with a WBS2500 system fitted. The only visible feature is the roof mounted
+ground plane and antenna.
+
+Figure 3-1: Vehicle Installation External View
+
+The WBS2500 unit is fully remotely controllable thus can be fitted where convenient, the remote
+control unit normally being located for access by personnel in the front seats. Figure 3-2 shows an
+example installation of the WBS2500 unit in the rear luggage area. The detail of the subject installation would be confirmed in consultation with the customer during a vehicle survey.
+
+Figure 3-2: WBS2500 Unit Vehicle Installation
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+7
+
+3.2.
+
+Electrical design
+
+The WBS2500 unit is a ‘single box’ solution for RCIED protection and this level of integration results
+in a simple external electrical design with minimised cabling and intrusion on the vehicle space. This
+is illustrated in the system block diagram of Figure 3-3 below.
+
+Figure 3-3: System Block Diagram
+
+3.2.1.
+
+Power Supply Options
+
+The WBS2500 unit has a power consumption of a maximum of 550W at full RF output power from
+a nominal 24V supply (the unit will tolerate supply voltages of 20 to 32V and is equipped with protection against the vehicle electrical environment).
+There are three options for power supply from the vehicle. The most appropriate will be determined
+in consultation with the customer following a vehicle survey to establish the vehicle capability as
+fitted.
+• 24V vehicle supply
+If the vehicle is inherently 24V, or is already equipped with an auxiliary 24V capability, and the
+supply is of adequate capacity (>550W) the WBS2500 system can be connected to this supply
+without additional measures.
+• High capacity 12V vehicle supply
+If the vehicle is 12V and is equipped with a high capacity alternator or dedicated auxiliary 12V alternator/battery system then the WBS2500 can be connected to this supply via a 12V DC Power Adaptor accessory (see Section 0). The 12V DC Power Adaptor has a minimum efficiency of 80% at 12V
+thus the 12V supply must have a minimum continuous capacity of approximately 700W requiring a
+current capacity of >57A at 12V.
+• Auxiliary 24V alternator/battery
+If the vehicle has a standard capacity 12V alternator then this capacity is sensibly reserved for standard vehicle functions and the addition of other fitted electrical items, e.g. communications equipment, accessories, etc. Subject to satisfactory vehicle survey, Elaman can fit an auxiliary 24V alternator and battery. The WBS2500 system is then connected to this supply.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+8
+
+3.2.2.
+
+Electrical Interconnect
+
+Electrical wiring required in the vehicle to accept the WBS2500 system is modest. The power
+supply is derived from the vehicle by one of the fitting options described above. The only other connections are a thin umbilical cable to the Remote Control Unit (RCU) and a pair of RF cables to the
+roof mounted wideband antenna.
+To programme the unit with an updated Mission Fill (see Section 6) a temporary connection is required to a laptop PC. This is made via a programming cable to the WBS2500 front panel. This only
+needs to be connected during the Mission Fill activity – the laptop PC is not part of the operational
+system, the WBS2500 operates independently once programmed.
+
+3.3.
+
+Mechanical Design
+
+A vehicle survey will confirm the exact location of system components in consultation with the customer to ensure best use of the vehicle internal space and to take account of any other equipment
+normally carried by the user in the vehicle, or other special equipment fitted. The small size of the
+WBS2500 system allows for flexibility in mounting location.
+A typical installation location for the SUV class of vehicle would be with the WBS2500 unit in the
+rear luggage space (Figure 3-2). The unit is mounted by locking into a complementary AV tray which
+provides protection against shock and vibration while allowing easy removal of the unit for servicing
+or transfer to another application.
+The only constraint on mounting is that the unit uses forced air cooling provided by integrated fans.
+The inlet and exhausts have to be kept clear to ensure the unit is adequately cooled. Consideration
+must therefore be given to airflow obstruction by bulkheads, luggage, etc.
+The RCU is a small box and is thus straightforward to position in the personnel area at a location
+convenient for operation and monitoring of the system.
+The wideband antenna has standard US 4-hole and NATO3/6-hole fixing. To avoid vehicle piercings
+the antenna is mounted to a ground plane assembly which in turn is mounted to the vehicle via the
+standard roof bar fixing system. This arrangement is visible in Figure 3-1.
+
+3.3.1.
+
+Weight model
+
+The weight model for the system is detailed in the table below. This identifies the total payload
+weight added to the vehicle by incorporation of the WBS2500 system. Some items are indicated as
+estimates as the final values will not be determined until the vehicle survey has finalised the mounting and power supply arrangements.
+WBS2500 System Weight Model
+
+Item
+
+Weight (kg)
+
+WBS2500 Unit
+
+16
+
+AV tray
+
+3.5
+
+RCU
+
+0.5
+
+2G5-500 Wideband Antenna
+
+5
+
+Roof Ground Plane Mount
+
+8 (est)
+
+Cable set
+
+3 (est)
+
+24V Auxiliary Alternator and Mount
+
+6 (est)
+
+24 V Auxiliary Battery and Case
+
+15 (est)
+
+TOTAL
+
+57kg
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+9
+
+3.3.2.
+
+Vehicle changes
+
+The WBS2500 system is designed for easy fitting to vehicles while minimising vehicle modifications. The following specific items are noted:
+• A 24V auxiliary alternator and battery may be required. The alternator can be fitted via a
+standard mounting kit. The battery would be fitted in a convenient location. If inside the vehicle a closed battery box vented to the outside would be used.
+•
+
+The WBS2500 unit is mounted via the AV tray. The latter is normally bolted directly to the
+vehicle floor or other substantial surface.
+
+•
+
+The RCU is a small box normally bolted to the vehicle in the forward personnel area.
+
+•
+
+The antenna is mounted via an integrated ground plane to the normal vehicle roof bar system fixings without modification
+
+A vehicle survey would be conducted to agree exact locations of the equipment in the subject vehicles. This survey will allow tailoring of various mounting kits for the installation.
+
+4.
+
+WBS2500 KEY SYSTEM COMPONENTS
+
+4.1.
+
+Overview
+
+The WBS2500 unit is the core component of the system (Figure 4-1). The unit is a versatile, compact, state-of-the-art multi-channel programmable active jammer operating over the 25-2500MHz
+range.
+
+Figure 4-1: WBS2500 Unit
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+10
+
+The basic architecture of the WBS2500 is shown in Figure 4-2 (see Figure 4-3 for a more comprehensive block diagram). The unit contains a Digital Signal Processor (DSP) that controls six Direct
+Digital Synthesizer (DDS) devices, each of which is capable of generating a wide variety of softwaredefinable jamming waveforms, from narrowband spot jamming signals through to broadband barrage and swept jamming techniques. Five of the DDS outputs pass through programmable frequency up-converters, allowing the jamming signal from the DDS to be steered to any part of the
+25-2500MHz range*, while the sixth DDS output is fixed at baseband to cover the 25-220MHz
+range.
+
+Figure 4-2: Simplified Block Diagram of WBS2500 Unit
+
+Each of the six RF jamming channels can be routed to one of two built-in wideband power amplifier
+modules – a low-band amplifier covering 25-500MHz at up to 100W or a high-band amplifier covering 500-2500MHz at up to 30W – or routed to an auxiliary output to drive an external amplifier. Each
+of the built in amplifiers outputs pass to a separate antenna connector, allowing the WBS2500 to be
+connected to an optimised pair of antennas or to a single dual-band antenna.
+The WBS2500 is fully field-programmable and can be rapidly reconfigured using a serial connection
+or USB from a laptop PC to change its jamming waveforms, target frequencies and operating parameters. These settings are stored in non-volatile memory to be activated automatically whenever
+the equipment is switched on. The internal operating software can also be upgraded easily to support new jamming techniques or other enhancements.
+The WBS2500 unit is designed to fit directly into an anti-vibration shock mounting tray for installation in a vehicle or can be fitted into a standard 19” chassis. The unit accepts an input supply range
+of 20-32V DC and is designed for a 24V vehicle environment; other supply options, including mains
+AC power and 12V DC vehicle supplies can be accommodated via external adapters.
+
+*
+
+Note that the 25-2500MHz tuning range is continuous, with no gaps, blind spots, or other such limitations.
+This ensures maximum versatility and adaptability to future threats and avoids the limitations of “banded”
+jamming equipments that are tied to only today’s specific threat bands.
+CONFIDENTIAL – Subject to change without prior notice!
+
+11
+
+Figure 4-3: WBS2500 Block Diagram
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+12
+
+DDS MANAGER
+(FPGA)
+
+EXT GPS
+ANTENNA
+(ACTIVE)
+
+SUPERCAP
+
+REAL-TIME
+CLOCK
+
+ANTITAMPER
+
+uP
+SUPERVISOR
+
+DSP
+
+COMMS
+PORT
+
+UARTs
+
+USB
+
+AUX COMMS
+PORT
+
+INTERFACES
+
+FPGA
+(GLUE LOGIC)
+
+UPCONVERTOR
+CONTROL
+
+25-2500MHz (150MHz B/W)
+
+UPCONVERTOR BLOCK
+
+25-2500MHz (150MHz B/W)
+
+UPCONVERTOR BLOCK
+
+25-2500MHz (150MHz B/W)
+
+UPCONVERTOR BLOCK
+
+25-2500MHz (150MHz B/W)
+
+UPCONVERTOR BLOCK
+
+25-2500MHz (150MHz B/W)
+
+UPCONVERTOR BLOCK
+
+25-220MHz
+
+UPCONVERTER BOARD
+
+RCU
+PORT
+
+ADCs
+
+BLANKING
+& TIMING
+SIGNALS
+
+PSUs
+
+COMBINER
+
+COMBINER
+
+EXPANSION
+PORT
+
+IrDA
+
+SWITCH
+CONTROL
+
+SWITCH
+
+AUXILIARY OUTPUTS (FOR EXTERNAL AMPLIFIERS)
+
+FRONT PANEL (MEMBRANE)
+
+FLASH
+MEMORY
+
+SYSTEM
+CLOCK
+
+DDS
+x2
+
+GPS
+ANTENNA
+
+GPS
+RECEIVER
+
+PROCESSOR
+BOARD
+
+DDS
+CONTROL
+
+DDS
+x2
+
+DDS
+x2
+
+DDS
+x2
+
+DDS
+x2
+
+DDS
+x2
+
+COMBINER
+COMBINER
+COMBINER
+COMBINER
+COMBINER
+COMBINER
+
+PSU BOARD
+
+FAN CONTROL
+& THERMAL
+MANAGEMENT
+
+FANS
+
+POWER
+AMPLIFIER
+(500-2500MHz)
+
+POWER AMPLIFIER
+HIGH BAND
+
+POWER
+AMPLIFIER
+(25-500MHz)
+
+POWER AMPLIFIER
+LOW BAND
+
+BATTERY
+INPUT
+
+CB
+
+DC POWER
+INPUT
+
+DC PROTECTION
+& EMC FILTERS
+
+PA PSU(s)
+
+RF/VSWR
+SENSORS
+
+RF/VSWR
+SENSORS
+
+RF MONITOR
+BOARD
+
+500-2500MHz
+
+ANTENNA PORT
+
+25-500MHz
+
+ANTENNA PORT
+
+4.2.
+
+4.2.1.
+
+Detailed Technical Description
+
+Key Features
+
+Key features of the WBS2500 unit are outlined below and described in more detail in subsequent
+sections:
+•
+
+Continuous coverage from 25-2500MHz.
+
+•
+
+Six programmable RF jamming channels: five channels with 150MHz bandwidth tunable
+from 25-2500MHz, and one with 195MHz bandwidth fixed at 25-220MHz.
+
+•
+
+Each channel may be routed to an integral power amplifier or re-directed to an auxiliary output to drive an external amplifier.
+
+•
+
+Dual power amplifiers and antenna ports (25-500MHz at 100W and 500-2500MHz at 30W) to
+allow the use of a single dual-band antenna or pair of optimized antennas.*
+
+•
+
+Each jamming channel has an independent DDS-based signal source capable of generating a
+wide range of software-configurable jamming signals.
+
+•
+
+Each DDS is a 2-channel device, i.e. each of the six output channels may contain up to two
+simultaneous jamming signals. (Multiple signals will have a reduced amplitude to ensure
+that the peak envelope power remains constant.)
+
+•
+
+Fully field-reprogrammable via RS232 serial and USB 2.0 (full speed – up to 12Mbps) interfaces.
+
+•
+
+Internal GPS receiver with integral antenna and also a connection for an external active antenna.
+
+•
+
+External timing and blanking inputs to synchronize operation to other equipment.
+
+•
+
+Comprehensive built-in test (BIT) and diagnostic features to monitor the unit’s health, detect
+fault or alarm conditions and alert the operator using an integral alarm sounder.
+
+•
+
+Remote Interface to allow the connection of a remote control unit (e.g. mounted in a driver’s
+cab)
+
+•
+
+Expansion port to support future add-on peripherals and accessories.
+
+•
+
+Powered from an external 20-32V DC source. Power consumption 550W maximum.
+
+•
+
+Local (and remote) zeroize function.
+
+•
+
+Periodic maintenance and re-calibration can be performed without removing covers and with
+the minimum of test equipment. No STTE or tools are needed.
+
+*
+
+Note that the maximum power (+50dBm) is only available for a single carrier. Multiple carriers will have a reduced amplitude to ensure that the peak envelope power remains constant (nominally two at +44dBm, three at +30dBm or four at
++28dBm).
+CONFIDENTIAL – Subject to change without prior notice!
+
+13
+
+4.2.2.
+
+Technical Specification
+
+Article I.
+
+WBS2500
+
+Article II.
+
+Key Parameters
+
+Article III.
+Outputs
+
+No of RF
+
+Article IV.
+
+Article V.
+Frequency Range
+
+Article VI.
+
+Article VII.
+Power
+
+Article VIII.
+Article IX.
+
+Output
+
+2
+25-2500MHz continuous
+Low Port:
+High Port:
+
+Up to 100W into 50 load
+Up to 30W into 50 load
+
+Article X.
+Frequency Stability with
+Temperature
+
+Article XI.
+< ±1ppm output frequency accuracy over operational temperature range
+
+Article XII.
+Frequency Stability over
+Time
+
+Article XIII.
+Internal TCXO and OCXO references can be recalibrated to compensate for ageing
+
+Article XIV.
+Sources
+
+Signal
+
+Article XV.
+Six independent software-programmable DDS RF
+signal generators, one fixed at 25-220MHz range and other five
+tuneable from 25-2500MHz. Each channel is capable of generating
+up to 2 simultaneous signals.
+
+Article XVI.
+Time
+
+Tuning
+
+Article XVII.
+Article XVIII.
+
+Up-converters:
+1ms (typical)
+DDSs: Instantaneous
+
+Article XIX.
+DDS
+Update Rate
+
+Article XX.
+Depends on operating mode and can be up to
+125MHz (8ns).
+Article XXI.
+All DDSs can be updated in parallel.
+
+Article XXII. Jamming Waveforms &
+Modulation
+
+Article XXIII. Fully programmable, software defined, including
+spot, swept, and TDM jamming techniques
+
+Article XXIV. Interfaces
+Article XXV.
+puts
+
+RF Out-
+
+Article XXVI. Two antenna ports, 50 nominal, short- and opencircuit protected.
+Article XXVII. Low Port
+25-500MHz
+Article XXVIII. High Port
+500-2500MHz
+
+Article XXIX. Power
+Inputs
+
+Article XXX.
+
+20-32V DC 550W maximum
+
+Article XXXI. Programming
+
+Article XXXII. Via multi-function Comms/Fill connector – new parameters can be loaded into the unit from a laptop PC via RS232 or
+USB
+
+Article XXXIII. Auxiliary
+
+Article XXXIV. Remote Control Unit interface
+Article XXXV. 1PPS input & output ports
+Article XXXVI. Receiver control input for responsive jamming
+Article XXXVII. Six remote RF channels
+Blanking input
+Article XXXVIII.
+Article XXXIX. Expansion connector for future accessories
+Article XL.
+Internal and external (active antenna, 3.3V @20mA)
+GPS
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+14
+
+Article I.
+
+WBS2500
+
+Article XLI.
+
+Physical & External
+
+Article XLII.
+sions
+
+Dimen-
+
+Article XLIII.
+
+380mm x 330mm x 190mm (W x D x H)
+
+Article XLIV.
+
+Mass
+
+Article XLV.
+
+16kg
+
+Article XLVI. Power
+Consumption
+
+Article XLVII. 550W maximum
+
+Article XLVIII. Construction
+
+Article XLIX.
+
+Cast and machined aluminium alloy chassis
+
+Article L.
+
+Article LI.
+
+642/P9001/3 Black powder coat
+
+Article LII.
+Temperature Range
+
+Article LIII.
+Article LIV.
+
+-40°C to +55°C operating
+-40°C to +85°C storage
+
+Article LV.
+ronmental
+
+Envi-
+
+Article LVI.
+Designed to withstand blowing rain, dust & sand.
+Ruggedised to meet shock, vibration & crash hazard. Designed to
+be compliant with the following MIL-STD 810F tests:
+Article LVII. Low Pressure Survival
+Article LVIII. Low Temperature Operation & Storage
+Article LIX. High Temperature Operation & Storage
+Article LX. High Humidity
+Article LXI. Blowing Rain
+Article LXII. Blowing Dust & Sand
+Article LXIII. Functional Shock*
+Article LXIV. Vibration (Operation)*
+Article LXV. Transit Drop & Crash Hazard (75g)*
+Article LXVI.
+Article LXVII. * - these tests conducted using the anti-vibration
+(AV) mounting tray.
+
+Article LXVIII. EMC
+
+Article LXIX. Designed to minimize conducted and radiated emissions and for minimal susceptibility to radiated and conducted
+sources. Designed to be compliant to MIL-STD 461E. Power
+supply designed to be compliant with the requirements of DEFSTAN 61-5 for vehicular systems.
+Conducted Susceptibility
+CS101,
+Article LXX.
+CS114, CS115, CS116
+Article LXXI.
+Conducted Emissions CE102, CE106
+Article LXXII.
+Radiated Emissions RE102
+Article LXXIII.
+Radiated Susceptibility
+RS103
+Article LXXIV.
+ESD Immunity BS EN61000-4-2
+Article LXXV.
+Transient Protection DEF STAN61-5
+(Part 6) 40V
+Article LXXVI.
+DEF STAN 59-41 (Part 3)/5
+Article LXXVII.
+DCS06 600V transient
+Article LXXVIII.
+Reverse Polarity
+TRL proprietary
+test
+
+Finish
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+15
+
+4.2.3.
+
+Frequency Coverage
+
+The WBS2500 unit covers the 25-2500MHz range, and can generate jamming signals at any point in
+this range – there are no blind spots or other frequency restrictions. This ensures that the WBS2500
+unit can address both current and future threats, wherever they appear within the 25-2500MHz
+spectrum, and avoids the limitations of “banded” jamming equipments that are tied to specific
+threat bands.
+The unit provides six independent jamming channels, five of which can be steered to any part of the
+25-2500MHz spectrum while the sixth is fixed at the baseband 25-220MHz range. Each of the six
+channels is equipped with an independent direct digital synthesizer (DDS), capable of a wide range
+of different software-defined jamming modes and techniques (see section 5.2).
+The six independent RF jamming channels allow a single WBS2500 unit to cover a broad range of
+targets. Figure 4-4 shows how the six channels might be employed. Channels 1 to 3 are grouped
+together to cover numerous targets in the 25-500MHz region, channel 4 covers the GSM900 band,
+channel 5 covers the GSM1800 band, and channel 6 covers the 2.4GHz band. Within each channel
+the DDS can be configured to generate appropriate jamming signals, using sweep and/or TDM
+techniques if necessary to address multiple targets or bands.
+
+Figure 4-4: Example Target Coverage of WBS2500 Unit
+
+4.2.4.
+
+RF Power and Effective Range
+
+The range capability of a system is extremely hard to quantitatively predict as it is affected by so
+many factors, e.g. RF output power, antenna efficiency and radiation pattern on the actual platform,
+local geography and any local building structures, the deployment of the target device and its antenna, the relative range and characteristics of the initiating transmitter, the jamming waveform
+used and any compromises associated with the number of simultaneous jamming waveforms deployed whether due to peak power or TDM limitations.
+Jamming performance can only be proved in a carefully controlled test situation where the system
+is deployed against known and calibrated targets to a specific test plan. Even then, experience has
+shown that results are to some extent statistical due to the variability of radio propagation, particularly at high frequencies where significant multipath effects are encountered. Results are typically
+presented as a range capability at which some high percentage success is achieved, e.g. 85%,
+based on a number of test runs.
+For these reasons Elaman are unable to provide a conclusive compliance statement on range performance but base their equipment offering on easily verifiable engineering units, e.g. RF output
+power.
+Elaman has capability allowing it to develop and provide recommended Mission Fills. As these are
+programmable they can be rapidly updated in response to changing threats or to suit customer preferences. The WBS2500 can hold up to four Mission Fills at one time, selectable from the front
+panel. Alternative fills may thus be held in the unit if required to cope with particular threat priorities
+relating to particular routes or operations.
+
+4.2.5.
+
+RADHAZ
+
+The WBS2500 generates up to 100W in the low band and up to 30W in the high band, both radiated
+from the ultra wideband antenna. Common to all high power RF equipment this gives rise to a potential RADHAZ. The areas of hazard are to occupants of the vehicle and personnel outside the vehicle.
+CONFIDENTIAL – Subject to change without prior notice!
+
+16
+
+In the UK, the National Radiological Protection Board (NRBP) has adopted the International Council
+on Non-ionising Radiation Protection (ICNIRP) standard for setting safe limits of radiation exposure.
+This standard is also widely used in other European countries and other countries of the world, and
+has similarities to other accepted standards, e.g. IEEE, ANSI, FCC.
+The WBS2500 has been tested in conjunction with the 2G5-500 antenna in a representative vehicle
+(Landrover type) against the Occupational limits of the ICNIRP 98 standard. The results showed that
+at all passenger locations within the vehicle the radiation level was within the limits and for personnel outside the vehicle the limit was only approached when in very close proximity to the antenna
+(<0.3m).
+These measurements indicate that there is little likelihood of a RADHAZ arising in practice following
+some basic training of personnel in operating procedure. Field strengths can vary with differing vehicle installations and it is recommended that the customer verifies closest distance of approach
+figures for the actual installation.
+
+4.2.6.
+
+Power Requirements
+
+The WBS2500 has been designed for vehicular operation from a nominal 24V vehicle electrical system. The unit has a tolerance of input supply voltage between 20 and 32V and includes filtering and
+transient protection for the vehicle electrical environment. Power consumption is a maximum of
+550W and will be lower than this if the full transmission power resource is not utilised.
+There are a number of power supply options depending on the vehicle capability. These are detailed
+in Section 3.2.1. The final option is normally determined in consultation with the customer following
+a vehicle survey.
+
+4.2.7.
+
+Platform Integration
+
+The WBS2500 Unit can fit directly into Elaman’s standard AV mounting tray (section 4.3.1.) or be
+installed in a 19” rack by the addition of a mounting kit. Hence it is ideal for either vehicle-mount or
+static base installations.
+
+4.2.8.
+
+Upgradeability
+
+The WBS2500 unit has been designed for future expansion in several directions.
+
+Upgradeable Operating Software
+In addition to being field-reprogrammable via mission configuration files to change its operational
+parameters, target frequencies, jamming modes, etc, the entire operating system firmware in the
+WBS2500 can also be field-upgraded via the Fill Gun function of the Mission Editor. This powerful
+capability allows entirely new jamming techniques and other enhancements and features to be introduced in response to future threats and changing requirements.
+
+External Amplifiers
+In addition to driving the wideband power amplifier modules within the WBS2500, each of the six
+RF channels can be re-routed to a port on the rear of the unit for connection to an external amplifier.
+This feature would, for example, allow optimised narrowband amplifier modules to be added to the
+system to cover well-established target bands while the versatile wideband amplifiers in the
+WBS2500 are focused on other areas.
+Internal Modularity
+Internally the WBS2500 uses modular construction based on functional blocks. Individual modules
+could be replaced in future to achieve different or enhanced functionality.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+17
+
+Expansion Interface
+The WBS2500 unit has an Expansion socket that carries a variety of flexible signal inputs and outputs that can be defined in software; this is designed to allow the unit to communicate with future
+peripherals and be interfaced to other external equipment.
+
+4.3.
+
+Other Core Equipment
+
+In addition to the WBS2500 unit, described in the previous section, a number of ancillary items will
+be provided for this proposal.
+
+4.3.1.
+
+Anti-Vibration Mounting Tray
+
+The WBS2500 Unit is designed to fit into Elaman’s standard AV mounting tray shown in Figure 4-5.
+This provides shock and vibration protection for the electronics package in a wheeled vehicular environment.
+
+p
+Figure 4-5 : AV mounting tray
+
+The equipment locates on rear spigots and is locked in place by front ratchet clamps. This provides
+a secure fixing while allowing easy demounting for service or replacement. The AV mounting tray
+has been proven in formal MIL-STD-810F Vibration, Shock and Crash Shock tests.
+
+4.3.2.
+
+Omni-directional antenna
+
+To minimise visual signature and for ease of use a single ultra-wideband antenna is proposed, covering the whole frequency band of operation (25-2500MHz). This is shown in Figure 4-6 below.
+The antenna is a dual-band design, featuring two independent elements within the same body: the
+larger diameter section near the top provides the high frequency performance while the main body
+provides the low frequency element. The two antenna bands are matched to the frequency ranges
+of the two antenna ports provided by the WBS2500 unit, allowing the antenna to be directly driven
+by the WBS2500 unit without any additional diplexer or other matching arrangements. The antenna
+has an omni-directional radiation pattern in azimuth. Optional directional antennas can be provided,
+described in Section 4.4.2.
+The antenna has a sprung mounted base to provide flexure in the case of overhead impact.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+18
+
+Figure 4-6: Ultra-wideband 2G5-500 Antenna
+
+The antenna’s characteristics are summarised in the table below:
+2G5-500 characteristics
+Antenna type
+
+Integrated vertically polarised whip
+
+Frequency range
+
+Low band : 25-500MHz
+High band : 500-2500MHz
+
+Impedance
+
+50 ohm nominal
+
+VSWR
+
+<3:1
+
+Colour
+
+Black
+
+Weight
+
+<5kg
+
+Height
+
+1.65m
+
+Mount
+
+Standard 4 hole NATO mount
+
+4.3.3.
+
+Remote Control Unit
+
+The Remote Control Unit is a small box, designed to be mounted in a vehicle cab or similar accessible location, which replicates the controls and indicators from the WBS2500 front panel. This allows
+the WBS2500 unit to be mounted remotely where convenient in the vehicle for best use of space.
+Figure 4-7 shows the WBS2500 RCU.
+
+Figure 4-7: Remote Control Unit
+
+Note : the remote control unit shown is designed for handheld use. For the subject vehicle installation a unit
+providing equivalent functionality with the same front panel layout would be used but housed in an aluminum
+alloy housing with mounting features.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+19
+
+4.4.
+
+4.4.1.
+
+Options
+
+12V DC Power Adapter
+
+The 12V DC Power Adapter translates a 12V vehicle electrical supply to nominally 28V to allow operation of the WBS2500 system in 12V vehicles. The unit is shown in Figure 4-8 below. It features
+electronic protection and input filtering for compliance with the vehicle electrical environment and
+can be mounted into the same design of AV tray as the WBS2500 to provide shock and vibration
+protection, and ease of fitting and removal.
+The unit has an output capacity of up to 800W and can also operate from a 24V input thus if the
+system is configured with this unit it may be operated interchangeably with 12 V and 24V vehicle
+supply inputs.
+If a direct 24V vehicle supply is available from original equipment or by fitting of a 24V alternator and
+battery as part of this installation, then the Power Adaptor is not required (see Section 3.2.1.).
+
+Figure 4-8: 12V DC Power Adapter
+
+The unit is constructed to form a sealed electronics compartment with a cold wall and heatsink cooling the system via integrated forced air cooling operating in the ambient environment. This approach to equipment partitioning has proved reliable in both formal Environmental testing under
+conditions of driving rain and sand/dust, and in field conditions.
+
+4.4.2.
+
+Directional antennas
+
+The primary antenna recommended for the WBS2500 is the vehicle mounted omni-directional antenna described in Section 4.3.2.
+Optionally, directional antennas can be supplied for use with the system. These can be vehicle
+mounted for mobile operation (but present a significantly higher visual profile than the omnidirectional antenna array) or fitted to a mast for static only operation. Low and high band directional
+antennas can be supplied with the characteristics described below.
+•
+
+Low band antenna A0054
+
+The A0054 low band antenna has a frequency range of 100-500MHz and supports coverage of 100500MHz when connected to the Low Band port of the WBS2500 system. The 25-100MHz frequency range is not supported when using the directional antenna option. Antennas to provide significant
+gain at these low frequencies are extremely large and only suited to static, mast mounted implementations.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+20
+
+Figure 4-9: A0054 Antenna
+
+The directional antenna provides enhanced gain in comparison with the standard omni-directional
+antenna but only over a limited horizontal and vertical field of view. The approximate beamwidths
+with respect to frequency are summarised in the table below.
+Frequency
+
+Horizontal 3dB beamwidth - Azimuth
+
+Vertical 3dB beamwidth - Elevation
+
+100 MHz
+
+64°
+
+111°
+
+224 MHz
+
+61°
+
+106°
+
+500 MHz
+
+57°
+
+96°
+
+The antenna’s key characteristics are summarised in the table below:
+A0054 characteristics
+
+•
+
+Frequency range
+
+100-500MHz
+
+Polarisation
+
+Nominally vertical
+
+Gain
+
+11dBi typical
+
+Impedance
+
+50 ohm nominal
+
+Power rating
+
+1000W RMS continuous
+
+VSWR
+
+<2.5:1
+
+Colour
+
+Sand
+
+Weight
+
+6kg (excluding mounting kit)
+
+Dimensions
+
+1.6 x 1.7 m (W x L)
+
+Mount
+
+Off-centre on 1.1m fibreglass isolation pole
+
+High band antenna A0067
+
+The A0067 high band antenna has a frequency range of 800-3000MHz and supports coverage of
+800-2500MHz when connected to the high Band port of the WBS2500 system. The 500-800MHz
+frequency range is not supported when using the directional antenna option.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+21
+
+Figure 4-10: A0067 Antenna
+
+The directional antenna provides enhanced gain in comparison with the standard omni-directional
+antenna but only over a limited horizontal and vertical field of view. The approximate beamwidths
+with respect to frequency are summarised in the table below.
+Frequency
+
+Horizontal 3dB beamwidth - Azimuth
+
+Vertical 3dB beamwidth - Elevation
+
+800 MHz
+
+50°
+
+60°
+
+1500MHz
+
+45°
+
+70°
+
+3000MHz
+
+35°
+
+80°
+
+The antenna’s key characteristics are summarised in the table below:
+A0067 characteristics
+
+•
+
+Frequency range
+
+800-3000MHz
+
+Polarisation
+
+Nominally vertical
+
+Gain
+
+11dBi minimum
+
+Impedance
+
+50 ohm nominal
+
+Power rating
+
+50W RMS continuous
+
+VSWR
+
+<2:1
+
+Colour
+
+Olive green
+
+Weight
+
+7kg (excluding mounting kit)
+
+Dimensions
+
+0.55 x 0.7 x 0.15 m
+
+Mount
+
+50mm rear clamps to vehicle mount kit or static
+mast.
+
+Mast
+
+The above directional antennas can be equipped with vehicle mounts though are obviously large for
+vehicular applications. Alternatively a mast can be supplied for static operation. Height options are
+available from 2m to 15m and the mast features a tripod construction to aid rapid deployment and
+quick set up operation under light wind conditions in temporary situations. For more demanding
+environments and the taller mast options the supplied guy kit should be used for stability.
+An example mast deployment is shown in Figure 4-11 with an A0054 antenna fitted.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+22
+
+Figure 4-11: 3m Mast
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+23
+
+5.
+
+FAMILY CHARACTERISTICS
+
+5.1.
+
+Man-Machine Interface
+
+The WBS2500 is equipped with a comprehensive control panel carrying 4 switches and 11 LEDs.
+The function of these is outlined below. Note that, to avoid accidental operation, most buttons
+need to be held down for 1-2 seconds to take effect.
+ZEROIZE
+PRESS & HOLD
+
+IRDA
+
+MISSION
+SELECT
+
+A
+
+VOLTS
+
+B
+
+ANT
+
+C
+
+TEMP
+
+D
+
+FAULT
+
+ALARM
+STATUS
+BEACON
+PRESS & HOLD
+
+STANDBY
+ANTENNA 1
+ACTIVE
+
+SYNC / GPS
+
+ANTENNA 2
+ACTIVE
+
+Figure 5-1: WBS2500 Front Panel
+
+•
+
+The green Power button turns the WBS2500 unit on and off. The green LED adjacent to
+this button is lit when the unit is powered on.
+
+•
+
+The orange Standby button toggles the unit between standby and operational modes.
+When in Standby the unit is not jamming and can be reconfigured with a new mission file.
+When Operational, the unit is transmitting using the selected mission file.
+
+•
+
+The blue Mission Select button toggles between up to four mission files stored in memory.
+The four LEDs adjacent to the button indicate which mission file is in use (A, B, C or D).
+
+•
+
+A red Alarm LED lights in the event of a problem. When an alarm is active, pressing the
+Alarm Status button causes one of the A/B/C/D LEDs to light to indicate the nature of the
+alarm:
+VOLTS
+
+= low battery or supply voltage
+
+ANT
+
+= antenna or VSWR problem
+
+TEMP
+
+= over temperature
+
+FAULT
+
+= other serious problem, e.g. internal PSU or RF failure
+
+•
+
+The Sync/GPS LED indicates when a valid GPS and/or 1PPS timing signal is present (e.g. for
+timing protocol purposes). Note: This is only applicable for units equipped with a GPS antenna and operating in a synchronised system.
+
+•
+
+The Antenna Active LEDs indicate when RF power is emerging from the antenna ports;
+these indicate that jamming is taking place.
+
+•
+
+Pressing and holding down the Mission Select and Alarm Status buttons together for
+three seconds will cause the unit to zeroize .
+
+A subset of these controls and indicators are provided on the Remote Control Unit (section 4.3.3.).
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+24
+
+5.2.
+
+Jamming Capabilities
+
+Each of the six RF jamming channels is equipped with an independent direct digital synthesizer
+(DDS) capable of generating a wide range of software-defined jamming signals. Jamming modes
+include:
+• Spot Jamming – a basic narrowband signal, either CW or with suitable modulation, designed to target a specific frequency channel.
+•
+
+TDM Techniques – a spot jamming signal that hops around a list of target frequencies.
+
+•
+
+Sweep Jamming – a carrier signal that sweeps repeatedly across one or more bands of
+frequencies.
+
+Each of these modes has a number of user-defined parameters to allow it to be tailored for optimum impact on a given target signal. Additional modes and techniques can readily be introduced in
+the future via software upgrades to take advantage of new algorithms and techniques.
+
+5.3.
+
+Interoperability
+
+The unit is equipped with a number of features to allow it to interoperate in the vicinity of other
+ECM, ESM, and communication equipment.
+
+Protected Frequencies
+The Mission Editor software provides the ability to define and apply protected frequencies: lists of
+frequency channels and/or bands that are not to be jammed by the system. During mission creation
+any attempt to encroach on these frequencies will be blocked by the software.
+
+Timing Protocol Support
+The equipment provides full support for timing protocols; if a GPS antenna is fitted and this feature
+is enabled the unit will automatically mute or blank its RF outputs at software-defined intervals to
+allow other monitoring or receiving equipment in the vicinity to operate.
+The timing protocol is synchronised to a GPS-derived 1pps timing signal. This signal may either be
+obtained from the equipment’s own built-in GPS receiver or from external GPS equipment.
+
+Blanking Input
+An external Blanking Input allows the unit’s RF outputs to be blanked at any time under the control
+of external equipment.
+
+5.4.
+
+Security & Integrity
+
+The system is equipped with a number of features to provide security and integrity for itself and for
+sensitive data stored within it.
+
+Zeroize
+All mission data and other sensitive information in the unit can be erased via the front panel controls
+or equivalently from the Remote Control Unit.
+To minimise the possibility of accidental operation, two buttons on the front panel must be pressed
+and held for greater than four seconds to trigger the zeroize operation. Once commenced the operation is irrevocable. The unit can be restored to operation by reloading of the firmware and a mission fill using the Fill Gun function of the Mission Editor.
+
+Mission Configuration File Security
+Mission configuration files (mission fills) are encrypted using the AES encryption algorithm to render
+their contents unreadable. The file is only decrypted once it is loaded into the unit.
+The mission configuration file also incorporates a CRC code, hidden beneath the AES encryption
+that allows the equipment to validate its contents. If the CRC code is incorrect – due to a file error
+or unauthorised tampering with the file – it will be rejected by the system and an appropriate warning displayed by the Fill Gun function.
+CONFIDENTIAL – Subject to change without prior notice!
+
+25
+
+5.5.
+
+Programmability
+
+Force Protection equipment is programmed via Mission Configuration Files loaded into the unit from
+a laptop PC running the Mission Editor application. The Mission Configuration Files define the operational frequencies, jamming modes, and related parameters and are created using the Mission Editor software. The programming methodology and software are described in more detail in Section
+6.
+
+5.6.
+
+Built-In Test (BIT) Features
+
+The WBS2500 unit contains comprehensive built-in test (BIT) facilities that are used to check the
+unit’s health before operation (during the power-on self-test) and to continue to monitor its status
+during operation.
+Sensors within the equipment allow a variety of key parameters to be measured and monitored,
+including:
+•
+
+External DC Supply Voltage
+
+•
+
+Internal DC Rail Voltages
+
+•
+
+Output RF Levels (forward power and reverse power)
+
+•
+
+Temperatures (internal air temperature and heatsink temperature)
+
+•
+
+Fan Status
+
+In the event of a problem, a red Alarm LED lights on the WBS2500 front panel and Remote Control
+Unit. The unit also contains an audible alarm buzzer (which can be disabled in software). During an
+alarm, four multi-function LEDs on the front panel of the WBS2500 unit provide a more specific indication of the nature of the problem.
+The BIT facilities and sensors can also be accessed from a laptop during maintenance and troubleshooting via special test commands and menus to help diagnose problems.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+26
+
+6.
+
+SYSTEM PROGRAMMING & OPERATION
+
+6.1.
+
+Overview
+
+The WBS2500 unit is designed to be field-programmable, easily reconfigured with new operational
+parameters, target frequencies and jamming waveforms to meet changing threats and scenarios.
+All the operating parameters are contained in an encrypted Mission Configuration File that is
+loaded into the equipment from a laptop PC acting as a Fill Gun via a serial or USB programming
+port. Once a fill has been loaded, the WBS2500 will simply perform the pre-programmed jamming
+mission whenever it is switched on, allowing it to be operated by relatively unskilled front-line personnel.
+
+6.2.
+
+Concept of Operation
+
+The process of creating, distributing and loading mission files and subsequent operation of the
+equipment is illustrated in Figure 6-1. Each of the three stages requires a lower level of expertise
+and training.
+
+Figure 6-1: WBS2500 Basic Configuration and Operation Process
+
+6.2.1.
+
+Mission Creation
+
+Mission creation would be performed by a nominated highly-trained individual with EW/ECM experience and access to the latest intelligence material, target information and threat priorities. Based
+on this information, he will use the Mission Editor to select appropriate jamming waveforms and
+frequencies to suit a particular theatre, operational location or group of users. These parameters are
+saved in an encrypted Mission Configuration File that can then be distributed via appropriate
+channels to the users in the field.
+Mission creation is typically carried out away from the front line in a secure environment (given the
+sensitive and classified nature of the intelligence and data used to guide the jamming configuration).
+
+6.2.2.
+
+Mission Programming
+
+Before operation, the WBS2500 unit must be programmed with the appropriate Mission Configuration File. This would typically be performed by a technician with some specialist training, who
+would use the FillGun function of the Mission Editor executing on a laptop PC to load the mission
+file into the unit’s memory via its Comms port and then perform some basic checks to verify that
+the unit is ready for operation.
+CONFIDENTIAL – Subject to change without prior notice!
+
+27
+
+6.2.3.
+
+Operation
+
+Once it has been loaded with a Mission Configuration File, the WBS2500 unit will perform the specified jamming operation whenever it is switched on. Hence the operational user requires only
+some basic training to instruct him how to turn the unit on and off and how to monitor and interpret
+the status and alarm indicators on the equipment.
+
+6.3.
+
+User Software
+
+WBS2500 system is supplied with a user piece of software - the Mission Editor GUI - to support
+the creation and editing of Mission Configuration Files and the loading of these into the fielded
+equipment.
+
+6.3.1.
+
+Mission Editor
+
+The Mission Editor is a standard Windows GUI application that is used to create and edit Mission
+Configuration Files. It allows a user to select the jamming modes, target frequencies, and related
+parameters to be used by the system. This data is then stored in an encrypted Mission Configuration File that can be forwarded to users in the field to load into their systems.
+A library of Mission Configuration Files can be built up and managed via the Mission Editor, allowing
+any number of configurations to be created to cover different scenarios and situations.
+Protected frequencies and bands can be defined, marking areas of the spectrum (such as Blue
+Force communications) that must not be jammed. The editor will then prevent the user employing
+any jamming frequencies that conflict with these regions.
+Due to its nature, the Mission Editor is not recommended to be used by unskilled operators. It
+should be operated by an experienced EW specialist with access to the latest threat intelligence,
+technical details of target devices and signals, and an understanding of the advantages and disadvantages of the different jamming waveforms and techniques in order to create mission files that
+are well optimised for a given situation. Elaman can provide high quality EW training led by personnel with recent service experience in counter RCIED operations and also optimised fills for various
+theatres of operation.
+
+Figure 6-2: Mission Editor GUI
+
+The selected Mission Configuration File is loaded into the WBS2500 using the FillGun feature of the
+Mission Editor. This allows selection of the required file from a file directory and provides feedback
+that the file has been successfully loaded into the unit. Connection from the laptop PC to the unit is
+via a serial (RS232) or USB interface. Loading of the Mission Configuration File is rapid, the operation takes less than 30 seconds. The FillGun function can also be used to load the WBS2500 with
+updated firmware.
+CONFIDENTIAL – Subject to change without prior notice!
+
+28
+
+7.
+
+Training
+
+7.1.
+
+Training Ethos
+
+The aim is consistently to deliver world class training solutions that exactly meet the customer requirement. In addition, our mission is to build a partnership so that customers feel confident in
+Technology’s people, products and practices throughout a long-standing relationship.
+Each of our instructors are field-proven experts in their respective fields, who combine teaching
+with the ability to assist in developing customer doctrine and tactics.
+A flexible training approach means that training can be delivered in the UK, or at customer-specified
+locations throughout the world.
+
+7.2.
+
+The Training Courses
+
+Whether you operate in the civil or security sectors, the specialist’s knowledge and expertise provides flexible high quality training, designed to ensure that personnel have knowledge to excel
+when conducting operations. While our training courses have been carefully designed to meet all
+our customers’ needs, we can also offer specifically tailored courses to meet specific customer
+requirements. Our training programme covers the entire spectrum from Electronic Countermeasures (ECM) training equipment, and Counter Radio Controlled Improvised Explosive Device
+(CRCIED) equipment, to satellite monitoring systems and cryptographic equipment.
+
+7.3.
+
+Product Training
+
+Elaman offers comprehensive product training courses for both Operators and Maintainers. Our
+dedicated training team has an in-depth understanding of the entire product range, which is further
+enhanced by extensive individual experience of operational scenarios.
+The WBS 2500 training can take place in the UK in conjunction with a factory acceptance test (FAT)
+if required.
+
+7.4.
+
+Specialist Training
+
+Elaman can provide personnel with wide-ranging ECM experience and expertise. This includes specific knowledge regarding ECM in relation to Explosive Ordnance Disposal (EOD) operations, VIP
+protection and Force Protection.
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+29
+
+CONFIDENTIAL – Subject to change without prior notice!
+
+30
+
+

@@ -1,0 +1,941 @@
+Utimaco LIMS™
+Lawful Interception of Telecommunication Services
+
+I
+I
+
+1.
+
+I
+
+utimaco®
+a member of the Sophos Group
+
+r'1'-~
+. .. ' . . .~;
+
+LIMS - worldwide
+
+. \!· ,
+
+'
+2
+
+..
+.
+
+,,'
+
+- - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - Utimaco LIMS TM
+
+Lawful Interception
+Lawful Interception (LI) is the legally approved surveillance
+
+The main functions of any LI solution are to access Inter-
+
+of telecommunication services , and has become an im-
+
+ception-Related Information (I RI ) and Content of Commu-
+
+portant tool for law enforcement agencies (LEAs ) around
+
+nication (CC) from the telecommunications network and
+
+the world for investigating and prosecuting criminal activi-
+
+to deliver the information in a standardized format via the
+
+ties and terrorism. Most countries have passed laws that
+
+handover interface to one or more monitoring centers of
+
+require telecommunication service providers to support
+LEAs with duly authorized requests to identify, monitor, and
+
+law enforcement agencies. Of course , before surveillance
+
+deliver all of the electronic communications of specified
+
+and appropriately provisioned to the Interception Access
+Points within the service provider's network, and they must
+
+individuals and groups . While regulations and requirements
+
+can take place interception requests must be approved
+
+vary from country to country, international and US-American
+
+be carefully and accurately terminated after the intercep-
+
+standardization bodies like ETSI or ANSI have developed
+
+tion authorization expires. In addition , high security requi-
+
+technical standards for LI that will facilitate the work of LEAs
+
+rements for LI systems are essential to prevent possible
+
+and help operators and service providers to minimize their
+
+manipulation and misuse.
+
+costs. Although various standards for LI use different terminology, the basic functiona l model shown in figure 1 applies
+to all LI standards and to all network and service types .
+
+General LI Architecture (Functional Model)
+Law Enforcement
+Agency
+Telecommunication
+Network Function
+
+Internal
+Network
+Interface
+
+Lawful Interception
+Function
+
+Administration
+Function
+
+Internal Interception
+Function
+
+Monitoring
+Function
+Law Enforcement
+Administration
+
+Access, Mediation ,
+Delivery Function
+for IRI
+Access , Mediation ,
+Delivery Function
+for CC
+
+IRI: Interception Related Information
+
+LI
+Handover
+Interface
+
+Collection Function
+for IRI and CC
+
+CC : Content of Communication
+
+Figure 1: Functional model for lawful interception
+
+3
+
+Utimaco LIMS ™ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Utimaco LIMS™
+A Carrier-Grade LI Solution for Telecommunication
+Service Providers
+Utimaco has been in the business of lawful interception
+
+The core competency of the Utimaco LI solution is its
+
+since 1994 and has installed LI Management Systems in
+more than seventy countries around the world. As an active
+
+ability to interface with hundreds of different elements in a
+provider's heterogeneous network and to filter and deliver
+
+member of the ETSI LI group, Utimaco has participated in
+
+target-specific data to the LEA in a standardized format.
+
+developing standards and in ETSI Plugtests 1 . The Utimaco
+Lawful Interception Management System (LIMS) is a
+
+The LIMS modular architecture provides a future-proof
+
+comprehensive solution that provides state-of-the-art
+
+path for operators to expand their LI capabilities through-
+
+surveillance capabilities for fixed and mobile communi-
+
+out current and any future networks. The system can be
+
+cation networks and for various communication services ,
+
+configured as an entry-level single-server solution for
+
+including traditional circuit-switched voice , next-generation
+
+thousands of subscribers and is scalable up to a multi-
+
+packet-switched networks, 2G/3G mobile networks, and
+
+server cluster that enables monitoring in networks with millions of subscribers.
+
+Internet-based services like e-mail and VoIP.
+The LIMS solution usually acts as a bridge or mediator
+between the service provider's network and the LEA's
+
+The Utimaco LIMS solution , as illustrated in figure 2, consists of the following components:
+
+monitoring centers.
+
+.
+
+.
+
+.
+
+Law Enforcement
+Agency
+
+-
+
+Fixed Network
+
+LI Handover
+Interface
+
++----+!-- -
+
+Hl1
+
+- - -lit - - - HI.:
+- - -- -- - H1 3
+
+Management Server
+
++-- x1
+
+Mediation Device 1
+
+Database
+
+Mediation Device 2
+
+Decoder SSL
+
+Mediation Device 3
+
+Gateway
+
+1 ··-~ ·
+Monitoring Center
+
+Mobile Network
+
++ - - - X1
+
+ISP (e-mail, VoIP,. .. )
+
+High-Availability Module
+
+Mediation Device n
+
+Internal Network Interface
+Interception Related Information
+CC : Content of Communication
+INI :
+IRI:
+
+Remote Provisioning Unit
+
+x1 , x2 , x3:
+
+Internal Network Interfaces for LI Provisioning, /RI
+and CC exchange
+H 1, H2, H3: Standard handover interface to the Law Enforcement
+Agency for LI Provisioning, /RI and CC exchange
+
+Figure 2: Architecture of the Utimaco LIMS
+
+1
+
+Plugtests are interoperability tests organized by the European Telecommunications
+
+Standards Institute (ETSI ). Plugtest' " is a trademark of ETSI.
+
+4
+
+Utimaco LIMS ™
+
+LIMS Management Server
+The Management Server, the core component of the LIMS
+system, incorporates the administration system for all system
+modules, the user interface, as well as security management
+for the whole system . The server maintains a central database of all intercept targets and authorized LEAs. Once an
+intercept target is entered into the Management Server, it
+is automatically provisioned to the appropriate interception
+access point in the network.
+
+LIMS Mediation Devices
+The LIMS Mediation Devices perform all tasks related to
+the delivery of intercepted communications to the authorized law enforcement agency. Mediation encompasses
+the conversion and mapping of interception data received
+from the internal network to the appropriate formats , protocols and interfaces as required by the LEAs . Also , Inter-
+
+LIMS Decoder
+
+cept Related Information sometimes needs to be stored
+
+The LIMS Decoder module can be used to enable LI in
+
+intermediately in the Mediation Device before it can be
+forwarded to its final recipient.
+
+networks where the communication session is SSL/TLS
+encrypted between the user and the provider's servers.
+
+Utimaco offers the industry's broadest list of mediation
+
+is able to decrypt POP3S, SMTPS or !MAPS sessions
+
+devices supporting a wide range of network technologies ,
+
+before the e-mails can be monitored and filtered by the
+
+services , protocols and standards. There are LIMS Media-
+
+Interception Access Point.
+
+In e-mail environments , for instance, the LIMS Decoder
+
+tion Devices for more than 200 different network elements
+of all major vendors. Delivery of intercepted data is compliant with various national regulations and national and
+
+LIMS Gateway
+
+international standards including CALEA, ATIS , ETSI and
+
+This modular media gateway handles the real-time con-
+
+3GPP standards.
+
+version between packet-switched networks and circuit-
+
+LIMS Access Points
+
+VoIP networks where the handover interface to the LEAs
+requires conversion of RTP media streams into TOM
+
+switched networks. The LIMS Gateway is often needed in
+
+Depending on the network topology and capabilities ,
+Utimaco recommends either active or passive approaches to
+intercepting communication data. In passive mode, network
+probes are integrated into the operator's network to filter, decode and forward intercept data to the LIMS , respectively to
+the appropriate Mediation Device. Utimaco has developed
+specialized network probes for deep-packet inspection of various communication services and application protocols such
+as e-mail , webmail , Internet access , instant messaging, Voiceover-IP and other IP-based services. Active interception , on
+the other hand , refers to the method of managing integrated
+interception capabilities of the available network elements ,
+
+(Time Division Multiplexing) signals . In addition to the
+
+like switches or routers . In many real-world deployments a
+
+media conversion , the LIMS Gateway can also act as a sig-
+
+mixture of active and passive interception techniques pro-
+
+naling gateway between SS? , ISDN and SIP. The product's
+
+vides the best results or is the only available option.
+
+modular hardware concept enables customized solutions
+for small networks, as well as for large networks supporting
+from 60 to 3,360 simultaneous calls .
+
+5
+
+Utimaco LIMS ™ - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --
+
+LIMS Hardware
+
+LIMS Remote Provisioning Unit
+
+Utimaco LIMS runs on industry-standard servers by
+Oracle®with Oracle Solaris®operating system. Customers
+
+All administrative and operational functions of the LIMS
+
+can choose from single-server configurations for small
+
+the same graphical user interface as on the local manage-
+
+networks up to multi-server clusters for large networks with
+millions of subscribers and thousands of intercept targets.
+
+ment console . The LIMS Remote Provisioning Unit (RPU)
+ensures that the same security policies apply to both
+
+The LIMS Gateway is a highly modular blade system with
+
+remote sessions and to local operation .
+
+Management System can be accessed remotely using
+
+eight slots for different CPU , DSP and line card modules.
+
+LIMS Loadbalancing Option
+LIMS High-Availability Option
+
+Utimaco LIMS is well prepared to scale with the ever in-
+
+The high-availability option for LIMS enables operators to
+
+creasing bandwidth requirements in modern telecom net-
+
+build robust LI systems with 99 ,999% availability. The ad-
+
+works. Dynamic loadbalancing algorithms distribute inter-
+
+vanced Utimaco system monitoring software recognizes all
+kind of potential fai lures and bottlenecks and automatically
+
+cepted data evenly among a range of mediation devices.
+
+switches system processes to hot-standby servers when
+necessary.
+
+-
+
+•
+I
+
+I
+
+,•
+,
+
+I
+
+,.
+
+•
+
+•••
+•
+••
+••
+
+LIMS - worldwide
+
+••
+
+6
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Utimaco LI MS ™
+
+Utimaco LIMS ™
+Key Advantages
+State-of-the-Art Interception System
+
+Security and Reliability
+
+After over 16 years of experience and continuous improve-
+
+IT security has been Utimaco's core business since its foun-
+
+ment, the Utimaco LIMS has matured from a surveillance
+
+dation in 1983. As such , Utimaco thoroughly understands the
+
+system for mobile networks to a complete interception
+suite for various kinds of networks and services. Today
+
+security and privacy aspects of lawful interception and has
+implemented end-to-end security mech-anisms throughout
+
+Utimaco offers the industry's most comprehensive list of
+
+the entire LIMS system .
+
+supported vendor network elements and enables lawful
+interception in virtually any wireless and wireline network
+supporting multiple services , including telephony, fax , SMS,
+MMS, Push-to-Talk, Internet access , e-mail , VoIP and other
+
+The data security features of LIMS™ include:
+
+IP-based services. In its entire software and hardware
+architecture the Utimaco solution has been designed as a
+
++
+
+Authentication and authorization by using a
+
+carrier-grade system that meets highest security, reliability
+
+granular rights management system that enables
+
+and performance criteria. The Utimaco LIMS solution is
+
+accurate definition of administrative and opera-
+
+approved by national regulatory bodies and is used by more
+
+tional tasks (role-based access control ).
+
+than 150 operators worldwide .
+
++
+
+Full audit trail with detailed accounting of all user and
+system events to avoid misuse and manipulation .
+
+Standards Compliance
+Utimaco LIMS is designed to comply with national and
+
++
+
+Integrated alarm system to alert for system failures .
+
++
+
+Regular consistency checks to guarantee the data
+
+international lawful interception standards developed by
+ETSI, 3GPP, ATIS and Cablelabs . Utimaco shares its
+experience and expertise in standards with partners and
+
+integrity in the target database and on the intercep-
+
+customers to continuously optimize the solution and to
+
+tion access points in the network.
+
+meet specific requirements according to individual technical and legislative prerequisites.
+
++
++
+
+Encryption of internal and external data traffic.
+Encrypted storage of all sensitive data records ,
+
+Cost-Efficiency
+
+and complete removal of user data after expiration
+
+The Utimaco LIMS is a centralized system that serves all
+
+of the LI request.
+
+LI-related tasks of multiple LEAs on a heterogeneous service network. By using one single point of access , opera-
+
++
+
+tors can reduce their administration costs by simplifying
+
+Transparent separation of different LEAs and LI
+requests , and isolated delivery of interception data
+to multiple LEAs.
+
+the communication with LEAs and by reducing the effort
+for the provisioning of surveillance operations in the network . Operators can initiate , modify or delete any LI request on the entire network in a matter of minutes with the
+
++
+
+No back doors: The Utimaco LIMS never permits
+access to unauthorized users or by means other
+than those described in the documentation .
+
+easy-to-use Utimaco LIMS graphical user interface. Once
+installed in the network, Utimaco LIMS is almost mainte-
+
+The Utimaco LIMS security has been verified by
+
+nance-free . Optional system upgrades , for example , for
+
+official regulatory bodies , and interception results
+
+new services or new network equipment, can be provi-
+
+have been successfully approved by international
+
+ded cost-efficiently by Utimaco as part of a maintenance
+
+courts as admissible evidence.
+
+agreement or on an as-needed basis .
+
+7
+
+Utimaco LIMS ™ - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - -
+
+Modular and Scalable Architecture
+
+Managed LI Services
+
+While the system is designed for large-scale networks with
+
+The LIMS role-based user management, together with its
+
+millions of subscribers , the LIMS suite can easily be ad-
+
+capability to serve multiple different networks and LEAs
+
+apted to provide an economically feasible solution for net-
+
+concurrently, allows various deployment models of the
+
+works with only a few thousand users . In fact, the modular
+
+lawful interception system . Operators can either install and
+
+software architecture enables operators to extend the sys-
+
+operate the LIMS system as part of their own Operations
+
+tem as the demand for lawful interception increases and/
+
+Support System (OSS) , or they may decide to use the
+service of an independent LI service provider. Utimaco
+
+or their sub-scriber base grows. Performance-critical tasks
+and processes can be migrated to dedicated servers to in-
+
+has selected and qualified a number of LI service provi-
+
+crease the overall system capacity and throughput. The
+
+ders who can effectively take over all administrative tasks
+
+underlying hardware platform , based on Oracle® servers,
+
+related to LI and thus relieve the network operator of unpro-
+
+provides the solid basis for a reliable , scalable system with
+
+fitable duties and reduce the costs for maintaining and up-
+
+sufficient performance reserves for all current and future
+
+grading systems.
+
+network sizes.
+The modular concept of LIMS further facilitates the integration
+
+Global Service and Support
+
+of new network interfaces and protocols without requiring the
+reengineering of the complete system. There is virtually no
+
+Utimaco understands that LI management is not simply
+about purchasing hardware and software - it's about im-
+
+limit to the number of active and passive Interception Access
+
+plementing capabilities according to national legal require-
+
+Points that can be connected and operated in parallel.
+
+ments and technical prerequisites. Utimaco provides the
+services , support and resources that help you become
+compliant with these requirements while minimizing the
+costs and effort for installation and operation. With Utimaco's
+help, your staff can accomplish lawful interception while
+also keeping your service network tuned for maximum
+performance and utilization . Utimaco provides worldwide expert consulting services , 24x7 technical assistance ,
+online support , onsite training and installation services.
+
+8
+
+- - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - Utimaco LIMS ™
+
+Five Reasons to Select Utimaco LIMS TM
+Experience
+
+Cost-efficiency
+
+Utimaco develops high security solutions for corporate and
+
+The modular architecture of Utimaco LIMS enables cost-
+
+public applications and was one of the first companies
+
+effective and customized solutions for LI projects of all sizes.
+
+worldwide to deploy lawful interception solutions for mobile
+
+The central administration of intercepts and the high level
+
+networks. In the past sixteen years Utimaco has gained
+
+of automation speeds up the process of managing court
+
+extensive experience in the LI market and has installed LI
+
+orders , simplifies the cooperation with LEAs , thus leading to
+
+systems in more than sixty countries around the world .
+
+countable opex reduction .
+
+Expertise
+
+Reliability
+
+Utimaco is an active member of several national and in-
+
+Utimaco is a recognized playe r and financially stable
+
+ternational standard ization groups and maintains contacts
+with regulatory bodies and LI experts worldwide. In all
+
+public company in the worldwide IT security industry.
+In addition to our technical experience in lawful intercep-
+
+matters relating to lawful interception , Utimaco is the pre-
+
+tion , we pay very close attention to the legal aspects of
+
+ferred partner of many of the leading telecom suppliers and
+
+lawful interception and regard this as an important factor
+
+monitoring center vendors . The LIMS solution continues
+
+in our business . As a result, the Utimaco LIMS system
+
+to be developed and maintained by a team of experienced
+
+strictly conforms to the appropriate laws and regulations.
+
+engineers who have worked in the LI field for many years.
+
+Furthermore , the system includes numerous security
+measures to prevent misuse by unauthorized persons .
+
+Compliance
+The LIMS solutions comply with a large number of international LI standards and requirements. Compatibility with network equipment vendors and monitoring center suppliers is
+an important benefit of the solution , and Utimaco verifies this
+compatibility on an ongoing basis.
+
+9
+
+Utimaco LIMS ™ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Utimaco LIMS™
+Feature Overview
+
+LI Standards
+
+Vendor Interfaces
+
++
+
++
+
+ETSI TS 101 671 (voice) , TS 101 331
+(generic), ES 201 158 (generic) , TS 102 232-1
+to 102 232-6 (IP, E-Mail, VoIP)
+
++
+
+Huawei , lptego , ltaltel , Juniper, Motorola, NokiaSiemens-Networks, Nortel , Oracle-Sun , Redback ,
+
+ANSl /ATIS : J-STD-025-B
+(Voice , CDMA) , T1 .678v2 (VoI P), T1 .IPNA (Inter-
+
+Unisys, Sitronics , Sonus , Starent Networks,
+Thomson-Cirpack , Vocaltec, ZTE and others
+
+net, T1.IAS) , T1 .724 (UMTS) , TIA-1072 (PoC )
+
++
+
+3GPP: TS 33 .106, TS 33.107, TS 33 .108 (UMTS)
+
++
+
+PacketCable v1 .5 (Cable)
+
+Acme Packet, Alcatel-Lucent, Arris , Bridgewater,
+Broadsoft, Casa , Cisco , Comverse, Ericsson,
+
+Network Interfaces
+
++
+
+1Gb - 10Gb Ethernet, X.25 , ISDN , E1 /T1 ,
+SDH/Sonet, ATM , SS? interfaces
+
+Supported Services
+
++
+
+VoIP (S IP, H.323 , SCCP, RTP)
+
+Security
+
++
+
+GSM , GPRS, UMTS , LTE
+
++
+
+CDMA, CDMA2000
+
++
+
+SMS, MMS , Voicemail
+
++
+
+Push-to-Talk over Cellular (PoC)
+
++
+
+PSTN (Fixed Telephony)
+
++
+
+Broadband Access (DSL , Cable , WLAN , WiMAX)
+
++
+
+E-mail (POP3 , SMTP, IMAP, webmail)
+
++
+
+other IP-based services
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+Performance
+
++
+
+Max. number of subscribers:
+
++
+
+IPsec/SSL/TLS encryption
+Encrypted storage , encrypted backup
+System monitoring and alarms
+System redundancy
+Disaster recovery system
+Secure remote access
+
+Other features
+Integrated accounting and billing functions
+
+(virtually unlimited)
+
++
+
+Dynamic load-balancing
+
+Max. number of targets : scalable up to thousands
+
++
+
+Easy-to-use graphical user interface
+
+of concurrent LI requests
+
++
+
+Remote management of other LI systems
+
+Probe Performance: up to 10 Gbps (2 ,000 ,000 pps)
+
++
+
+Multi-tenant support
+
+and 25,000 targets per LIMS Access Point
+
+10
+
+Detailed accounting (fu ll logging)
+
++
+
+scalable from 1,000 up to millions of subscribers
+
++
+
+Role-Based Access Control
+
+I
+I
+
+I
+
+:
+I
+
+.
+
+I
+I
+I
+I
+
+I
+I
+
+---
+
+.....
+
+-----
+
+--
+
+/A'
+//
+
+,,,
+
+//
+
+//
+
+/
+
+/
+/,/
+
+/
+
+"
+
+..
+
+--
+
+11
+
+utimaco®
+a member of the Sophos Group
+
+www.utimaco.com/lims
+Utimaco Safeware AG
+Germanusstra~e
+
+4
+
+52080 Aachen
+Germany
+Phone +49 (0) 241-16 96-0
+li-contact@utimaco.com
+
+Utimaco Safeware Partner:
+
+Copyright Information
+Copyright © 1994-2011 - Utimaco Safeware AG - a member of the Sophos group , February 2011
+Utimaco LIMS ™
+Utimaco LIMS is a tradema rk of Utimaco Safeware AG. All other named trademarks are trademarks of the particular copyright holder.
+Specifications are subject to change without notice.
+
+

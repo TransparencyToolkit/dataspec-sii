@@ -1,0 +1,283 @@
+I
+
+I
+Small cellular base stations for homeland security applications
+
+Small cellular base-stations for
+homeland security applications
+.. .
+L
+
+a
+
+Cambridge
+Consultants
+
+Reference Design
+Cambridge Consultants' SidewinderTMhardware reference
+design provides the platform to develop a "pocket-sized"
+cellular base station
+Flexible radio supports GSM quad-band and 3G band-l
+Picochip PC312 SoC provides powerful DSP processing for
+switching between 2G and 3G PHY operation
+o
+
+3G-WCDMA PHY software reference available
+
+o
+
+2G-GSM PHY software reference available from Cambridge
+Consultants (Centaur)
+
+Embedded Linux environment capable of running protocol
+stack and applications
+
+W"
+F
+
+Licensable reference design for use as the basis of new
+product developments
+Physically small with low power consumption makes it
+suitable for battery-backedapplications
+
+PICOCL ..P'
+
+-
+
+Homeland security wireless
+applications
+The mobile phone has been a great
+tool for bringing all of us closertogether for business and social
+purposes. However, those who
+oppose our way of life also use the
+same mobile technology to stay
+hidden whilst working against our
+society. The challenge in homeland
+security is to find the source of this
+continually evolving threat amongst
+ordinary, innocent civilians.
+Cambridge Consultants has created
+a reference design which enables
+development of "pocket-sized"
+wireless equipment for use by
+government and police. Possible
+uses in homeland security include
+the following applications:
+
+IMSI catcher
+Portable base-station for secure
+user group communications
+Network traffic monitor for legal
+intercept
+
+Introducing Sidewinder
+
+Customisation
+
+Cambridge Consultants' Sidewinder
+hardware reference design provides
+a complete and low-costmanufacturable base-station
+hardware design, suitable for smallcell 2G and 3G operation. Designed
+for use as a small cellular basestation (femtocell), Sidewinder can
+also be adapted to make similar
+products for use in surveillance.
+
+Sidewinder provides base-station
+capability in its standard form.
+
+Radio
+channels
+
+b GSM 850,900,1800,1900
+b 3G band-l (2.1GHz)
+
+Dimensions
+
+92mm X 80mm
+
+Power
+
+6W (maximum)
+
+TX Power
+
++5dBm
+
+RX Sens.
+
+Better -104dBm (for GSM)
+
+Connectors
+
+Ethemet 100BT
+Debug - JTAG, UART
+SMA antenna connector
+
+E-BOM
+
+b Under $200 (estimated)
+
+Alternatively, Cambridge
+Consultants can provide hardware
+design customization services to
+adapt the design for alternative
+specifications, such as 3G network
+monitoring, multi-band support,
+increased transmit power, receiver
+diversity or multiple channel support
+(multi-transceiversupport).
+Licensees of the reference design
+receive all design information, such
+that they can also make their own
+modifications to extend the capability
+of the hardware to meet their
+specific needs.
+
+Powerful DSP
+
+Flexible radio subsystem
+
+Onboard Linux environment
+
+Sidewinder is based upon
+Picochip's PC312 Femtocell
+Baseband SOC.The PicoArray DSP
+processor included in the baseband
+device provides industry leading
+DSP performance at low power
+consumption.
+
+Sidewinder makes use of the classleading Flexible radio device from
+Lime Microsystems. This radio is
+intrinsically highly flexible, and yet
+provides excellent performance. It is
+able to operate at any frequency
+between 375MHz and 4GHz, and
+supports programmable channel
+bandwidths between 200kHz and
+28MHz.
+
+The Picochip PC312 SoC includes a
+sophisticated ARM1 1 applications
+processor sub-system running at
+400MHz. This processor provides a
+Linux environment under which
+higher stack layers and application
+software can run.
+
+-- I
+
+ado-
+
+The PC312 DSP has optimized hard
+functions to support the WCDMA
+PHY and Lower-MAC reference
+software available directly from
+Picochip.
+The PC312 has sufficient soft
+programmable DSP resources to run
+a sophisticated 2.75G PHY.
+Cambridge Consultants' Centaur
+software is the only GSM, GPRS
+and EDGE PHY reference available
+for Picochip hardware.
+
+Sidewinder baseband can be
+adapted to support software-switch
+from 2G-GSM to 3G-WCDMA
+operation.
+
+Duplex filtering, required to prevent
+the transmitter from "deafening" the
+receiver, is included. Sidewinder
+has been designed to support a
+single set of band filters in any one
+build, but the desired band of
+operation can be selected at build
+time through the use of appropriate
+filter components. All necessary
+channel filtering options required to
+meet blocking requirements for both
+GSM and WCDMA operation are
+included within the base design and
+do not need modification when
+selecting band or GSM or WCDMA
+standard.
+
+Onboard frequency reference
+
+Flexible engagement
+
+Sidewinder has an on-board
+frequency reference. This can be
+accurately controlled by one of the
+following techniques:
+
+Cambridge Consultants has a
+proven track record for delivering
+breakthrough products for over 50
+years. Our team of over 300
+engineers and scientists deliver
+innovative solutions across a diverse
+range of industries including
+consumer products, healthcare and
+wireless communication.
+
+a network service, such as
+IEEE1588,
+network listen of neighbour cells
+a GPS PPS signal
+
+If you need any help to create
+innovative products, please contact
+us at the address below.
+
+Monitoring of the background
+network topology is achieved with a
+downlink sniffer function which is a
+standard part of the Centaur PHY
+software, and can be added to a
+custom developed 3G physical layer.
+
+Contact
+Tim Phipps
+Wireless Homeland Security
+Tim.Phi~as
+8CambridaeConsultants.com
+
+3
+
+Cambridge
+Consultants
+
+infoQ Cam bidgeConsultank.com
+ww.CambridgeConsultants.com
+
+Sidewinder enables the use of
+stacks from either the licensee, or
+third parties.
+
+50 YEARS
+
+01 tyovanow
+
+...m--
+
+Cambridge Consultants Ltd
+Science Park
+Milton Road
+Cambriclge
+England CB4 OWV
+
+Cambridge Consultants Inc
+101 Main Street
+Cambridge MA 02142
+USA
+
+Tel: +44 (0) 1223420024
+Fax: +44 (0)1223423373
+
+Tel: +l 617 532 4700
+Fax: +l 617 737 9889
+
+

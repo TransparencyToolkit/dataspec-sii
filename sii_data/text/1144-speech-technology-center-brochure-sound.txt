@@ -1,0 +1,83 @@
+SOUND STRETCHER
+TI eXpressDSP compliant algorithm
+Features
+Sound Stretcher allows playback of speech in
+variable fast or slow modes without distorting the
+voice pitch, so that speech still sounds natural. It is
+an algorithm of real time speech modification :
+u Up to 3 times faster/slower - adjust speech tempo
+according to your needs.
+u Low resource consumption - even resource-limited
+DSP-based devices (mobile equipment, PDAs, etc)
+can be enabled.
+u Language-independence - this algorithm can be
+used for any language, regardless of speaker's
+accent.
+u And the most important feature of Sound Stretcher is
+the simplicity of use for a developer with minimal
+time and money Sound Stretcher may be
+embedded in any application.
+
+TI eXpressDSP (XDAIS) Compliance Benefits
+u
+
+u
+
+u
+u
+u
+u
+u
+
+Sound Stretcher is fully TI eXpressDSP
+compliant algorithm and thus saving time and
+money saving in building in any DSP solution.
+This algorithm follows the run-time conventions
+imposed by TI's implementation of the C prog
+language.
+This algorithm is re-entrant within a preemptive
+environment (including time-sliced preemption).
+All algorithm data references are fully
+relocatable.
+All algorithm code is fully relocatable.
+This algorithm does not directly access any
+peripheral device.
+This algorithm does not include definitions
+specific to a debug variant.
+
+Metrics
+Applications
+Sound Stretcher may be applied for numerous tasks,
+to mention just a few:
+u Language acquisition devices - when slowed down,
+speech is understood better
+u Transcription equipment, the ability to slow down
+speech and still hear coherent sentences makes
+the task quicker and easier.
+u Multimedia equipment, In general, anywhere,
+where time matters, Sound Stretcher may be used
+to adjust speech speed to match the required time
+frame. E.g. Broadcasting advertising
+
+Functional Overview
+u
+u
+
+Sampling rate 8000-44100 Hz
+Platform -TMS320C54xx DSP
+
+u
+u
+
+Memory requirements
+- Code 6 KW
+Processor requirements 2 MIPS
+
+Engineering Services
+By request, the support of the other platforms
+may be developed by experienced and highly
+professional DSP engineers of Speech
+Technology Center. Customization according to
+the customer’s requirements is also possible.
+
+

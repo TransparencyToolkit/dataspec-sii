@@ -1,0 +1,430 @@
+Alcatel-Lucent 1357 ULIS
+Unified Lawful Interception Suite
+
+The Alcatel-Lucent 1357 ULIS adds lawful interception functions
+to Alcatel-Lucent products, adapting their internal interfaces to the
+standard lawful interception interfaces of law enforcement agency
+monitoring facilities.
+
+Address Lawful
+Interception Requirements
+Lawful interception of telecommunications is a capability
+that allows authorized organizations or law enforcement
+agencies (LEAs) to detect and intercept the use of telecommunications facilities by criminal or terrorist organizations.
+All telecommunications operators are obliged to comply
+with government regulations to enable the interception
+of any type of call, and most countries have adopted
+global lawful interception requirements and standards.
+However, with the convergence of voice and data and
+the rapid transformation of operator networks to IP,
+the lawful interception of voice and data communications
+is becoming increasingly challenging for both service
+providers and LEAs.
+EXTRACT OF THE COUNCIL RESOLUTION
+OF JANUARY 17, 1995 ON THE LAWFUL
+INTERCEPTION OF TELECOMMUNICATIONS
+(EUROPEAN UNION)
+
+The Council of The European Union…. Has Adopted
+This Resolution:
+1.The Council notes that the requirements of Member
+States to enable them to conduct the lawful interception
+of telecommunications, annexed to this Resolution
+(“the requirements”), constitute an important summary
+of the needs of the competent authorities for the
+technical implementation of legally authorized
+interception in modern telecommunications systems.
+2.The Council considers that the aforementioned
+Requirements should be taken into account in the definition and implementation of measures which may affect
+the legally authorized interception of telecommunications
+and requests Member States to call upon the Ministers
+responsible for telecommunications to support this view
+and to cooperate with the Ministers responsible for
+Justice and Home Affairs with the aim of implementing
+the Requirements in relation to network operators and
+service providers.
+
+2
+
+Alcatel-Lucent 1357 ULIS
+
+In addition, most solutions available today are fragmented and, therefore, do not provide a complete lawful
+interception capability across all networking domains,
+functions and interfaces.
+Complicating the issue further is the fact that government authorities/LEAs and network operators have
+different objectives, activities, constraints and liabilities
+and require different systems and approaches for lawful
+interception.
+Government authorities/LEAs require turnkey solutions
+that adhere to relevant standards and operating procedures. They are not concerned with the underlying network
+topologies that are in a state of constant evolution.
+For network operators, lawful interception is non-core
+business. Therefore, they require systems that can be
+installed and maintained with minimal cost and with no
+impact to the performance or reliability of their existing
+network and services.
+
+At the same time, lawful interception requires a very
+close cooperation between government authorities/LEAs
+and network operators.
+Alcatel-Lucent addresses the needs of government
+authorities/LEAs and network operators with the
+Alcatel-Lucent 1357 Unified Lawful Interception
+Suite™ (ULIS).
+
+Apply a Comprehensive Solution
+The Alcatel-Lucent 1357 ULIS is a complete communications interception solution. It provides government
+authorities/LEAs and network operators with an integrated
+system for transparently intercepting and extracting real
+time information from vast amounts of voice, data and
+multimedia communications over virtually any type of
+network.
+With the ability to intercept any type of communications
+traffic and monitor selected subscribers in real time, the
+Alcatel-Lucent 1357 ULIS provides LEAs with:
+• Intercept-related information, which is the signaling
+information that provides the source and destination
+of a call, as well as supplementary data, such as date
+and time of events and the interception reference.
+The information can also convey intercepted short
+message service (SMS) and user-to-user service contents.
+• Content of communication, which includes voice,
+fax, data, video or message contents carried on a
+speech channel, or information exchanged on a high
+speed Internet access link.
+The interception system is not detectable by the parties
+involved in an intercepted communication, and it does
+not affect the basic and supplementary services of
+intercepted subscribers.
+
+Alcatel-Lucent 1357 ULIS
+
+3
+
+Choose Standalone or Turnkey
+There are three primary elements required within the
+public network to achieve lawful interception:
+• Internal intercept function, which is located within
+the network nodes. It is responsible for generating
+the intercept-related information and contents of
+communications.
+• Mediation function, which clearly delineates the
+public network from law enforcement monitoring
+facilities (LEMF). It communicates with the internal
+intercept function using internal network interfaces,
+which can be proprietary. It also communicates to one
+or more LEMFs through locally standardized handover
+interfaces (i.e., HI2 and HI3)
+• Administration function, which manages orders for
+interception in the public network. It serves interception orders, delivers the data and content to the LEA,
+and communicates with the internal intercept function
+and mediation function through an internal network
+interface.
+
+These elements must feed into a LEMF, which records
+and processes intercepted calls on the LEA side.
+As a standalone offering, the Alcatel-Lucent 1357 ULIS
+performs the interception mediation function between an
+operator’s network and LEAs. Interception mediation is
+required to translate internal intercept-related information/
+call content to the standard external formats required by
+LEMF. The Alcatel-Lucent 1357 ULIS is compliant with
+lawful interception standards worldwide.
+The Alcatel-Lucent 1357 ULIS can also be part of a
+turnkey lawful interception solution designed to provide
+umbrella management. Umbrella management is used for
+multi-vendor mediation functions and allows a network
+operator or a LEA to centralize lawful interception management. This can be used by a government that requires
+umbrella management of all telecom operators within a
+country, or a large telecom operator who requires centralized management of all infrastructure and equipment,
+as well as third party LEMF and monitoring centers.
+
+The Alcatel-Lucent 1357 ULIS is the lawful interception
+solution for the following Alcatel-Lucent products:
+CLASSIC FIXED AND MOBILE
+
+Alcatel-Lucent 1000 E10
+Alcatel-Lucent 1000 S12
+Alcatel-Lucent 5ESS
+Alcatel-Lucent 1000 MSC-E10
+NGN/IMS FIXED AND MOBILE
+
+Alcatel-Lucent 5020 MGC-12
+Alcatel-Lucent 5060 MGC-10
+Alcatel-Lucent 5060 WCS
+Alcatel-Lucent 5020 CSC
+Alcatel-Lucent 5450 ISC
+IP FIXED AND MOBILE
+
+Alcatel-Lucent 7450, 7750, 7710 Service Routers
+Alcatel-Lucent 5750 SSC
+Alcatel-Lucent 7500 SGSN
+
+4
+
+Alcatel-Lucent 1357 ULIS
+
+Integrate End-to-End
+Components
+The Alcatel-Lucent 1357 ULIS system has two main
+components (Figure 1):
+• A unique interception management center (IMC),
+which handles the lawful interception administration
+function and:
+¬ Centralizes the management of all lawful interception orders, particularly the warrants activation or
+deactivation via internal graphical user interface
+(GUI) or external access on the HI1 interface
+¬ Concentrates all intercept-related information (IRI)
+received from the lawful interception gateways (LIG)
+and transmits it to the LEMF using the HI2 interface
+¬ Provides single management across all network domains
+• The distributed lawful interception gateways (LIGs),
+which:
+¬ Manage IRI and content of communication (CC)
+mediation functions
+¬ Collect and deliver IRI and CC according to the
+network topology of the LEMF or monitoring centers.
+
+Figure 1. The Alcatel-Lucent 1357 ULIS in Fixed and Mobile Networks
+
+Network Operator
+Classic
+Domain
+GSM,
+UMTS CS
+
+LEA Network
+PSTN
+LIG
+
+LIG
+PSTN
+LIG
+NGN
+Domain
+
+LEMF
+HI1
+
+GSM,
+UMTS CS
+
+1357 ULIS Network
+
+LIG
+
+IMC
+
+HI2
+HI3
+
+Warrant Management
+IRI Collection
+CC Collection
+
+LIG
+GPRS,
+UMTS PS
+LIG
+
+LIG
+
+Routers
+
+IMS
+IP
+Domain
+
+Alcatel-Lucent 1357 ULIS
+
+5
+
+The Alcatel-Lucent 1357
+ULIS offers standard handover interfaces (HI1, HI2 and
+HI3) toward the LEA/LEMF,
+according to:
+• 3GPP specifications
+33.106, 33.107 and
+33.108
+• ETSI ES 201.671 Edition 2
+• ETSI TS 102.232-1,
+102.232-3, 102.232-5
+• SORM standard, China
+The Alcatel-Lucent 1357
+ULIS adapts the internal
+interfaces of Alcatel-Lucent
+products to the international
+standards on the LEMF side.
+Other standards an be
+adapted upon request.
+
+The number of LIGs depends on the
+network size and the targeted traffic flows.
+Depending on the CC delivery type
+toward the LEMF or monitoring center,
+the LIG architecture can be circuit
+switched (LIG CS) or IP-based (LIG IP).
+Intercepted communications is recorded
+and processed by the LEMF. If the LEMF
+is not an Alcatel-Lucent product, it can
+be provided by Alcatel-Lucent as part of
+a complete integrated solution.
+Transmission of intercepted call contents
+from the LIG CS to the LEMF is generally done through the telephone network.
+The LIG CS establishes the call over a
+primary rate access (PRA) or an ISUP
+interface, known as the HI3 interface.
+In a packet scenario (GPRS, UMTS PS,
+IP or IMS/TISPAN), the links between
+the LIG IP and the LEMF take place on
+an IP network.
+
+Transmission of IRI from the IMC to the
+LEMF uses either an existing or a dedicated
+data network over an HI2 interface. There
+is also an optional HI1 interface that gives
+external terminals access to the IMC. This
+interface allows LEA operators to activate
+and deactivate interception on a target,
+but not to manage the interception network (i.e., they may not manage LEAs
+or interception areas or create an LEMF).
+This option is useful for avoiding the
+double keying of intercept data by
+operators on the IMC and in the LEMF.
+
+Leverage a
+Field-Proven Solution
+The Alcatel-Lucent 1357 ULIS has been
+deployed in more than 70 countries
+worldwide. It is a field-proven and tested
+system compatible with the products of
+the main LEMF providers.
+
+Figure 2. The Alcatel-Lucent 1357 ULIS in an ETSI/3GPP Network
+
+Network Operator Domain
+
+LEA Domain
+IMC
+LEA
+Administration
+Function
+
+Intercept-Related
+Information (IRI)
+
+Network
+Internal
+Functions
+
+IRI Mediation
+Function
+
+Content of
+Communication (CC)
+IIF
+
+CC Mediation
+Function
+
+LIG-IP, LIG-CS
+Internal
+Interfaces INI
+
+6
+
+Alcatel-Lucent 1357 ULIS
+
+HI1
+
+HI2
+
+HI3
+
+External
+Interfaces HI
+
+LEMF
+
+With this system, service providers
+and government authorities/LEAs
+can create a clear partition between
+the world of telecommunications
+operations and the world of law and
+justice. The Alcatel-Lucent 1357
+ULIS protects the interests of both
+parties. It does not allow telecommunication operators to see the data
+and commands of LEA operators,
+and it does not allow LEA operators
+to interfere in network operations,
+administration and maintenance.
+The Alcatel-Lucent 1357 ULIS is
+a flexible solution to lawful interception that enables mediation of
+
+a variety of evolving interfaces on
+all network elements with standard
+LEA interfaces.
+Similarly, the Alcatel-Lucent 1357
+ULIS minimizes the impact on network elements when there is a
+change in standards.
+The Alcatel-Lucent 1357 ULIS is
+scalable from one LIG to tens of
+LIGs, with one IMC managing several
+different networks when required. It
+permits up to 16 LEAs to share the
+same IMC and to monitor the same
+targets independently.
+
+PARTNER WITH ALCATEL-LUCENT
+With the Alcatel-Lucent 1357 ULIS, service providers and LEAs
+benefit from the experience and expertise Alcatel-Lucent has
+developed in all areas of telecommunications.
+Alcatel-Lucent has set the pace for change in communications
+networking technologies. We continue to innovate by combining
+what is possible in science and technology with what is required
+by the markets.
+With one of the largest global R&D capabilities in the communications industry, as well as our renowned Bell Labs and Research
+& Innovation research communities, we help bring our customers
+to the forefront of technical innovation every day.
+
+No other vendor in the industry can match this depth and record
+of research and innovation.
+Beyond research, Alcatel-Lucent recognizes that it takes the right
+combination of customer services, applications and infrastructure to
+successfully apply technical innovations that enable new business
+models that improve customer relationships, increase employee
+productivity and are more adaptive to changing markets.
+As a proven telecom partner, we bring our extensive experience
+in delivering large, multi-vendor, multi-technology solutions to
+organizations around the globe.
+
+Through our research facilities in 14 different countries we have
+invested more than $3.6 billion in R&D and secured more than
+25,000 patents.
+
+Alcatel-Lucent’s Professional Services team is the most experienced
+and knowledgeable services partner in the industry, supporting
+the top 30 service providers as well as enterprise and government
+customers in over 130 countries.
+
+In addition, Alcatel-Lucent also includes the celebrated Bell Labs,
+whose record for innovation is unmatched and includes development of transformational technologies such as the transistor, the
+laser, the solar cell, HDTV, and remote laptop security solutions
+(even when the laptop is turned off).
+
+Our OSS/BSS integration solution, professional services expertise
+and proven capabilities cover multiple areas, including consulting,
+end-to-end solution design and integration, deployment, migration,
+program management, and operation support services that
+encompass the entire network and service life cycle.
+
+Alcatel-Lucent 1357 ULIS
+
+7
+
+www.alcatel-lucent.com Alcatel, Lucent, Alcatel-Lucent and the Alcatel-Lucent logo
+are trademarks of Alcatel-Lucent. All other trademarks are the property of their respective owners.
+The information presented is subject to change without notice. Alcatel-Lucent assumes no responsibility
+for inaccuracies contained herein. © 2008 Alcatel-Lucent. All rights reserved. CAR2888080201 (04)
+
+

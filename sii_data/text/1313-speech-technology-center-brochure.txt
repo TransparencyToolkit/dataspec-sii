@@ -1,0 +1,173 @@
+(c 4
+
+Speech
+
+E;;:pLOgy
+
+SMART Tracker FRS
+Face recognition solution for real-time biometric search
+and facial D 6 management in law-enforcement and s,ecurity agencies
+V~deosumelllance becomes more and more s~gn~f~cant
+component In complex securlty systems as due to crtmlnal sltuatlon, terrorist threats,
+vulnerabll~tyof strategLc facll~t~es
+d~str~buted
+v~deosurvelllance systems w ~ t hefflc~entv~deoanalyt~cscapabll~t~es
+can be qu~teefflc~entIn
+lnvestigatlve actlvltles.
+By concentrating people at h ~ g hdens~tyIn access~bleplaces, at regular or pred~ctabletimes, mass gathertngs present the opportunity for
+terrorists to lnfl~ctmass casualt~es,cause economlc damage, and lnstlll public fear.
+Next-generat~onIntellectual v~deosurvelllance systems should be deployed m places of mass gathering Such systems may contaln "state-of~dent~f~cation
+of the potent~allydangerous persons Most commonly "h~dden"
+the-art" face recognltlon technolog~esallowlng real-t~meb~ometr~c
+checkpoints can be found In the entry and exit zones of tram stations, stadiums, subways, airports and In any other place, where the speed of a
+stream of people IS llmlted.
+SMART Tracker FRS deployed In a real-t~memode has the following performance parameters: a dangerous person will be detected In 97 cases
+of 100 In 1-3 seconds STC solut~onSMART Tracker FRS can be used as an Ideal tool for creatlon forens~cphoto-arch~vesB~ometric~dent~f~cat~on
+procedure takes only 3 seconds w~thlnthe database contalnrng 1 mlll~oncards. Any source can be used to upload new fac~alpictures lnto
+database.
+
+APPLICATIONS:
+
+ADVANTAGES:
+Real trme face detect~onand tracking In video stream
+Algor~thmsIndependence of aging, beard and hairstyle changes, skln color changes
+Adaptat~onto llghtlng cond~t~ons
+Image v~sual~zat~on
+on the monrtor llve v~deoand ~ d e n t ~ f ~f aecd~ s
+Nav~gat~on
+In v~deoarchlve and database and saving of all the required parameters
+
+Transportat~ontram stat~ons,marine and river
+termlnals; subway, alrports
+Recreat~onalfacll~t~es
+Strateg~cfacll~t~es
+City infrastructure
+
+l
+
+FUNCTIONS:
+Face detect~on~nl~vestream
+B~ometr~c
+search In real tlme and on request
+Notif~cat~ons
+on operators' desktops, by e-mall.
+
+-.SMS
+. , .MMS
+.. .Video streaming archives, linking of
+~dent~f~cat~on
+procedures wlth v~deo-record~ng
+Database (up to several rnlll~onscards)
+contalnlng fac~alplctures w ~ t hmetadata
+Facial Images can be uploaded lnto a database
+from any source. photographs, v~deo-flies,
+photo-cameras, scanners, web-cameras, CCTV
+cameras
+Automat~cquaky assessment of uploaded
+plctures by IS0 19794-5 standard
+Full workflow automation, access r~ghts
+Cmltatlons, user activity aud~t
+
+TASKS:
+
+-
+
+Real-tlm d&pchon oT w m t d persans
+Structured database of facd data and metadata
+Search lri database by photographs and metadata
+
+U
+
+Search operator
+IP camera
+
+L
+
+/-7
+DB operator
+
+lnvestiqative
+Tracking station
+
+Central server and
+computer nodes
+
+CHARACTERISTICS:
+Customer convenience:
+Fully automatic lmage preprocesslng
+User-friendly Interface
+Bullt-ln context help
+Accuracy:
+97% of correct matches in case of 1 % of false acceptance rate
+
+100%correctly matched faclal ssmples In 1 m~lliondatabase In
+case of analysls by the operator 10 best results on the database
+according to IS0 19794-5 s t a ~ d a i d s
+Performance:
+ldentlflcation result in 1-3 seconds
+Blometrlc search In 1 mllllon database In 3 seconds
+Minimal lmage requirements for faclal recognition
+Inter-pup11spaclng larger than 32 pxels
+Pose up to +/-l 5 " devtatlon from frontal lmage
+
+-
+
+Batch input and Integration with the exlstlng databases
+Failure tolerance:
+Fully distributed architecture
+Back-up at all levels and redundancy
+Quick recovery and robustness to hardware rnalfunct~on
+
+REQUIREMENTS
+TO CONTROL POINT
+
+Biometric database management:
+Bullt-ln Image quallty assessment by IS0 19794-5 standard
+Face detect~onin vldeo-recordings and group Images, subsequent
+card creation automatically
+Controlled Input of faclal Images thanks to the integration wlth
+photo-cameras, web-cameras and scanners
+Security
+Group- and role-based access control to system functtonallty
+User actlons logging on central server and user actlvlty audit tools
+L ~ n kbetween system components based on H n P S protocol
+Scalability:
+Up to 12 cameras connected to 1 tracktng station
+Up to 8 tracking stations connected to 1 computing node
+Up to 30 computing node connected to 1 central server
+Up to 500 users for 1 central server
+Easy deployment:
+Web-based interface IS enough for execution most of the activities,
+no need to Install the system on PC
+M~nlmurnrequlrements to network capaclty allow usage of the
+exlstlng IT-tnfrastructure
+
+Distance between camera and control zone is from 1.5 to 30
+meters (depends on Lens used)
+Control zone breadth (picture width): 2 meters
+Max. quantity of faces in video stream: up to 5
+Lightning conditions in control zone: 300-1000 lux
+
+g3)
+
+Speech
+
+0g
+l;y;:
+
+Russia
+
+Germany
+
+4 Krasutskogo street
+St Petersburg. 196084
+Tei +7812 325 8848
+Fax -7 812327 9297
+Email stc spbBspeechpro corn
+
+Saargemunderstr 21 1
+0-661l 9Saarbrucken
+Tei +49(0)681 8590565
+Ernall ~nfo@speech-techde
+
+

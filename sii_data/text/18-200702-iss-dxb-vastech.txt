@@ -1,0 +1,519 @@
+A NEW GENERATION SYSTEM ARCHITECTURE
+FOR INTELLIGENCE SYSTEMS, TAKING ADVANTAGE OF
+MOORE’S LAW
+
+André Scholtz
+
+Content
+• A changing world…
+• Current solutions, measured against
+decision criteria
+• The ideal solution, and the new
+architecture
+• Summary and conclusion
+
+A changing world
+• Terrorism threat:
+– Flexible, transnational network structure
+– Enabled by modern technology
+– Interconnectivity between groups
+
+A changing world …
+• Communication
+– Any place, any time, through various means
+– 70% of communications by 2009 through wireless
+and broadband (Gartner)
+– Dual mode Wifi/mobile phones; dual mode
+satellite/mobile phones
+– Skype, VoIP and encryption
+– Instant messaging
+– UMTS, UMB, OFDM
+
+• Tomorrow shall be different, yet again!
+
+A changing world…
+• Moore!s law – double every 18 – 24 months
+• Storage
+–
+–
+–
+–
+
+1956: 5 MByte disk storage at USD10!000 (IBM)
+Q1 2007: 1 TByte on 5 platter HDD (Hitachi)
+Less than USD1 per GByte
+21 TB (raw) in 4U 19” (soon 31.5 TB) available
+
+• Processing power
+–
+–
+–
+–
+
+1997: 500 nm technology
+2007: 45 nm technology (Intel)
+Nanotechnology 30 nm
+Quad Core 1.8 GHz CPU, 2 x 4 MB cache
+commercially available
+
+Changes around us
+• "Everything that can be invented has been invented."
+"""—"Charles H. Duell, Commissioner, U.S. Office of
+Patents, 1899.
+• "This 'telephone' has too many shortcomings to be
+seriously considered as a means of communication."
+"""—"Western Union internal memo, 1876
+• "I see no progress in this industry. These clocks are
+no faster than the ones they made a hundred years
+ago." """—" Henry Ford, while visiting a museum.
+• "There is no reason anyone would want a computer
+in their home." """—"Ken Olson, president/founder of
+Digital Equipment Corp., 1977
+
+Current solutions
+• Most often dedicated hardware
+–
+–
+–
+–
+
+Recorders and dedicated DSP cards
+Switch matrices
+DCME!s (in case of satellite interception)
+Fax and data demodulation units
+
+• Often stated as latest technology (but only
+latest chips in an old architecture)
+• Result
+– Strongly vendor dependant
+– Difficult/expensive to support
+– Difficult to adapt/expand
+=> Not suitable for tomorrow…
+
+Investment/decision criteria
+• Intelligence
+– Will the system provide us with unique
+intelligence required cost-effectively?
+
+• Investment protection
+– Will our investment be protected in a world
+of changing technological, threat and
+communications environments – can it
+adapt?
+
+• Support
+– Will we be able to support the system in
+the long run cost effectively?
+
+Conclusion
+• Did not know yesterday what we know today
+• In 10 year!s time things will be vastly different
+again
+• Existing solutions are not suitable
+• New architecture must:
+– Address investment criteria
+• Unique intelligence value
+• Adaptable to changing threat and communication
+environments
+• Supportable
+
+– Use benefits of Moore!s law to be relevant for the
+next 10-15 years
+
+The ideal solution
+Changing communications environment
+(Satellite, landline, mobile; circuit and packet switched;
+different protocols)
+
+Suitable active/passive gateways
+(E1/T1, E3/DS3, STM-1/-4, IP)
+
+Off-the-shelf Processing and Storage
+(Networked architecture; distributed implementation;
+content capturing - records and stores everything;
+content enrichment – speech analysis, etc)
+
+Integration API
+Industry leading applications
+(Intelligence mining, extraction)
+
+Zebra Architecture
+128 E1 connections
+
+Administrator
+Zebra Capture Unit
+
+Zebra Data Centre
+
+Fax
+Demod
+Servers
+Modem Demod
+Servers
+Temp File
+Storage
+
+Channel
+Processor
+Server
+NAS Head
+Server
+
+Utility
+Server
+Database
+Server
+
+User
+Workstations
+
+Database
+Storage
+(CDR)
+
+LAN
+
+Compression
+Server
+Application +API
+Server
+
+Firewall
+
+Zebra Architecture
+Zebra Gateway
+
+Remote Capture Unit 1
+
+Switching
+Centres
+
+Master Data Centre
+
+Fax
+Demod
+Server
+Modem Demod
+Server
+Temp File
+Storage
+
+Channel
+Processor
+Server
+
+Utility
+Server
+
+NAS Head
+Server
+
+Utility
+Server
+Database
+Server
+
+Database
+Storage
+(CDR )
+
+File
+Storage
+
+NAS Head
+Servers
+
+Database
+Server
+
+Compression
+Server
+Application +API
+Server
+
+Firewall
+
+Remote Capture Unit 2
+
+Database
+Storage
+(CDR )
+
+Archiving
+Server
+
+Zebra Gateway
+
+Application +API
+Server
+Firewall
+
+Fax
+Demod
+Server
+Modem Demod
+Server
+Temp File
+Storage
+
+Channel
+Processor
+Server
+NAS Head
+Server
+
+Utility
+Server
+Database
+Server
+
+Database
+Storage
+(CDR )
+
+Compression
+Server
+
+Satellite
+Systems
+
+Application +API
+Server
+
+Firewall
+
+Administrator
+
+User Workstations
+
+New Generation
+
+24 U
+12,000 Ch
+
+Key Characteristics
+• Record all and filter – no switch used
+– Store everything, filter for known targets, search the past
+content for new targets
+
+• Equally suited for TDM and IP networks
+• Software-centric with Gateway and COTS hardware
+• Extremely high density and high capacity
+– 512 stereo E1s (1024 E1 inputs) per 42 U 19” rack
+– 300,000 bi-directional channels
+
+• Scalable and distributable
+• 3rd generation architecture with future growth path
+– Flexible to address changing threat and telecommunications
+environments
+
+• Designed for integration with other leaders
+– API and open database
+
+• CIC mapping
+
+Record all and filter
+
+Traffic
+
+Old approach
+
+Switch
+
+Capture
+and store
+No content,
+lost intelligence
+
+CRR
+Analysis
+
+New targets
+
+New approach
+
+Traffic
+
+Capture all
+
+Intermediate
+Storage
+
+CRR
+Analysis
+
+New targets
+
+Filter
+
+Long term
+Storage
+
+A new approach
+D
+I
+G
+I
+T
+A
+1 L
+Modem (8+1)
+
+LD-CELP
+DCME (3+1)
+
+Compressed E1!s
+
+D
+I
+S
+T
+1
+R
+Compressed E1!s
+I
+B
+8
+U
+T
+I
+1 O
+Compressed E1!s N
+8
+
+Modem (8+1)
+
+Modem (8+1)
+
+8
+
+B
+O
+A
+R
+D
+
+E1
+Digital
+Cross
+Connect
+equipment
+
+LD-CELP
+DCME (3+1)
+
+I
+N
+T
+E
+R
+F
+A
+C
+E
+
+E1
+MATRIX
+
+Replace the hardware
+
+E1 (Duplex)
+Interception,
+Storage &
+Analysis
+System
+
+Zebra Architecture
+128 E1 connections
+
+Administrator
+Zebra Capture Unit
+
+Zebra Data Centre
+
+Fax
+Demod
+Servers
+Modem Demod
+Servers
+Temp File
+Storage
+
+Channel
+Processor
+Server
+NAS Head
+Server
+
+Utility
+Server
+Database
+Server
+
+User
+Workstations
+
+Database
+Storage
+(CDR)
+
+LAN
+
+Compression
+Server
+Application +API
+Server
+
+Firewall
+
+Acquisition criteria
+Record ALL
+and filter
+Analysis after
+the fact
+Density
+and scalable
+
+Flexibility
+Intelligence
+value
+
+Protection
+of investment
+
+Proven
+Linux and
+Windows
+
+IP and
+TDM networks
+Open API and
+analytical tools
+Modern thirdgeneration
+architecture
+Software-centric
+
+Supportability
+COTS hardware
+
+What have we shown you today?
+• New technology and architecture that
+should be good for the next 10-15 years
+• Ultra-high capacity capturing and
+storage system
+• Software centric and small footprint
+• Easy integration with post processing
+applications
+
+Questions?
+
+•
+•
+•
+
+http://www.littletechshoppe.com/ns1625/winchest.html
+http://www.research.ibm.com/journal/sj/422/grochowski.html
+until 2002....
+National Strategy for Combating Terrorism
+
+

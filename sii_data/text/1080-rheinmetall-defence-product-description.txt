@@ -1,0 +1,161 @@
+Artemis
+Système d’interception
+de bandes L/L Thuraya
+
+Introduction
+Dans un monde de crises et de conflits internationaux et
+dans le cadre de la lutte contre le crime et le terrorisme, l’interception et l’analyse des télécommunications par satellite
+jouent aujourd’hui un rôle prépondérant. En étudiant les
+contenus des communications et les réseaux de communication et en analysant les interdépendances significatives,
+les forces militaires et les services de renseignements généraux sont désormais capables d’identifier les dangers de
+manière précoce et de mettre en oeuvre des mesures visant
+à repousser ces menaces et à lutter contre le crime.
+
+L’avènement de la télécommunication par satellite, permettant de téléphoner et d’échanger des données à partir de
+n’importe quel point du globe, a engendré une véritable
+révolution mondiale en termes de communication. Les voies
+de communication en résultant sont largement utilisées par
+les personnes et les organisations qui intéressent les services
+de renseignements, les services militaires et de police. Elles
+doivent par conséquent être analysées au moyen de systèmes
+de détection modernes.
+Les multiples possibilités d’exploitation ainsi que l’accroissement sensible du nombre d’utilisateurs du système de
+télécommunication par satellite Thuraya ont nécessité le
+recours à des outils d’interception adaptés. En outre, l’expansion de la zone de couverture, résultant de la mise en
+oeuvre de satellites Thuraya supplémentaires, contribue largement à augmenter ce besoin.
+
+À propos de Rheinmetall Defence
+Rheinmetall Defence est leader au niveau international dans
+le secteur du traitement des données satellite Thuraya et
+Inmarsat et partenaire de longue date des organisations
+militaires et des services de renseignements généraux.
+Depuis le début de l’année 1990, Rheinmetall Defence développe et commercialise des systèmes dédiés à l’analyse des
+connexions de télécommunication par satellite. À l’heure
+actuelle, plus de 40 systèmes tactiques et plus de 10 systèmes
+stratégiques de détection sont utilisés par nos clients dans
+le monde entier.
+Rheinmetall Defence fait partie du groupe Rheinmetall,
+emploie environ 6.800 personnes et dégage un chiffre
+d’affaires de 1,4 milliards d’euros à l’échelle internationale.
+
+2
+
+Architecture du système
+Le système d’interception de bandes L/L Thuraya se compose
+des sous-systèmes suivants:
+Sous-système d’antenne pour l’acquisition et la conversion par abaissement de fréquence (down conversion)
+des signaux RF
+Sous-système de capteurs pour la numérisation des
+signaux, la démodulation des données et le décodage
+Sous-système de post-traitement et de contrôle pour le
+formatage des données
+
+Caractéristiques techniques (configuration de base)
+Sous-système d’antenne
+Antenne de bande L liaison descendante
+Antenne de bande L liaison ascendante
+– Portée d’interception <10 km
+– Gamme dynamique élevée
+Convertisseur-abaisseur de fréquence numérique double
+(bande L)
+– Largeur de bande 34 MHz
+(1.088 canaux de fréquence Thuraya maxi.)
+– Contrôle automatique de niveau
+Référence temporelle
+– Antenne GPS (avec protection contre la foudre)
+– Serveur NTP
+Sous-système de capteurs
+Récepteur programmable multicanaux
+– Numérisation de tous les canaux de fréquence
+de bande L
+Unité de traitement des signaux
+– Démodulation et décodage de 34 canaux de
+fréquence de bande L bidirectionnels
+Sous-système de traitement des données et de stockage
+Serveur pour le traitement des données et le stockage
+intermédiaire
+Interfaces
+Capacité de stockage externe
+LAN/WAN
+Session standard, fréquence intermédiaire
+
+Dimensions
+Support 19“
+Hauteur 0,8 m
+Options
+Modèle trempé
+– Protection contre les chocs et les vibrations
+– Climatisation
+Filtre à plusieurs niveaux pour réduire
+la quantité de données acquises par le système
+– Utilisation des connexions réseau avec largeur de
+bande limitée
+– Réduction du nombre de sessions à analyser
+Extension graduelle des canaux de bande L à hauteur
+de 68 canaux de fréquence par mise à niveau
+– Pour contrôler les canaux de fréquence Thuraya
+supplémentaires
+
+Référence temporelle
+Convertisseur-abaisseur de
+fréquence de bande L/L
+Frontal large bande
+102 canaux de trafic de bande L
+Serveur de données/de stockage
+Système d’alimentation sans
+coupure
+
+Alimentation électrique
+115 – 230 V CA
+50 – 60 Hz
+1,5 kW maxi.
+
+3
+
+ARES – Systèmes stratégiques
+
+ARTEMIS – Système mobile
+
+ARTEMIS – Embarqué
+
+4
+
+Caractéristiques clés
+Rheinmetall Defence a mis au point le système d’interception
+mobile et innovant ARTEMIS de reconnaissance tactique. La
+liaison descendante de bande L et la liaison ascendante de
+bande L peuvent être toutes deux contrôlées. Le déploiement
+du système au sein de la portée d’interception permet même
+de reconstituer entièrement les conversations, les communications par télécopieur et le trafic de données. La portée
+du système est de plusieurs kilomètres en fonction des conditions locales. La configuration de base à elle seule permet
+d’intercepter en parallèle et de décoder 272 conversations
+bidirectionnelles et de reconstituer en ligne jusqu’à 10 conversations en simultané. L’interception a lieu automatiquement
+en fonction des critères de filtre sélectionnables et peut être
+également sauvegardée avec des fonctions d’alarme.
+
+En fonction des exigences propres à chaque cas individuel,
+le logiciel peut être complété par des outils haute performance
+destinés au filtrage et à l’analyse immédiats et efficaces.
+Sur la base de la structure de système modulaire standard
+du système d’interception Thuraya de Rheinmetall Defence
+Electronics, ARTEMIS assure également une liaison avec le
+système de contrôle stratégique de bande C/L ARES et permet
+ainsi également la reconnaissance dans des zones susceptibles d’être invisibles pour le système stratégique. Ceci permet une application flexible, axée sur le site et conforme aux
+exigences, des systèmes d’interception Thuraya utilisés.
+
+L’utilisation des modules de pointe DSP et FPGA permet de
+réaliser un modèle compact, ce qui signifie que le système
+ARTEMIS peut être intégré par exemple également dans des
+véhicules classiques, tels que des véhicules hors route. La
+transmission en ligne directement au quartier général des
+informations interceptées est assurée par l’intermédiaire
+d’une liaison VSAT sécurisée.
+
+5
+
+B016f10.07©Rheinmetall
+
+Rheinmetall Defence Electronics GmbH · Brüggeweg 54 · 28309 Brême · Allemagne
+Tél. +49 421 457-01 · Fax +49 421 457-2900 · www.rheinmetall-defence.com
+
+

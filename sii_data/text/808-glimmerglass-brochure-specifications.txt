@@ -1,0 +1,299 @@
+Glimmergiass% .
+Optical Cyber solutions
+
+INTELLIGENT OPTICAL sYsTEM 5 0 0
+DATASHEET
+
+The GUmmergiass Intelligent
+Optical system 500
+Industry Leading Capabilities
+• industry's most compact (highest port density
+photonic cross-connect
+• Bit rate independent - supports all optical data
+rates including 100 Gb/s
+• Protocol and format independent: compatible with
+5ONET1SDH, Ethernet CJOWDM, Video. EC,
+FICON, E5CON, and all others
+• Matrix size 32х32 to 192x192 fiber ports
+• Asymmetric configurations
+• 20 millisecond switching
+• Ultra-low power consumption. <85 Watts
+• supports dark and very low power connections
+• single mode fiber, widehand (1270 nm - 1630 nm)
+
+Easy to Manage and Use
+• SNМРvЗ
+• Web-based user interface
+• Import and export topologies
+• Command-Line Interface (TL1)
+
+Powerful Carrier-Class Design
+• Delivers 99.999+% availability
+• In-service software upgrades
+
+Outstanding Reliability
+• MTBF 3 0 years
+• Dual -48V DC or redundant, h o t
+- spower
+w a poption
+pabte
+A
+C
+
+Advanced Optical signal Management
+• Optical power monitoring
+• Threshold crossing alerts
+• Protection switching rules
+• Photonic multicasting for connecting point to
+rnullipoinl
+• Dedicated or switched Variable Optical
+Attenuation (VOA) to control output power levels
+• Virtual Pnvate Switch (VPS) allows administrators
+to partition ports for individual user access
+• Bidirectional operation
+
+Intelligent Optical signal Management
+The Glimmergiass Intelligent Optical system 500 revolutionizes optical signal
+management by enabling network operators to rapidly and remotely access, distribute
+and monitor optical signals and create and reconfigure optical paths in real time.
+Advanced management software combined with purely optical, photonic crossconnects provide remote operators with superior visibility and control of optical signals.
+Intelligent Optical systems provide transparent signal access and are key enablers
+of the Ghrnmerglass СуЬеЗwеерT. Their unique capabilities enable the dynamic
+selection and distribution of optical signals for analysis and storage.
+Glimmergiass optical systems enable operators to;
+• Access and monitor optical signals in real time without disrupting traffic
+• Remotely create and reconfigure optical signal paths in milliseconds
+• Handle any data rate, any protocol and any format including DWDM
+• select, duplicate, and distribute optical signals to one or many locations
+• Continuously monitor signals and remotely test and diagnose optical paths
+
+Create
+Glimmerglass systems provide a fully non-blocking, transparent cross-connect, In
+milliseconds an optical path can be created between any fiber input and output. since
+the technology is fully transparent, the newly created optical path will transport any
+signal regardless of data format or speed.
+
+Monitor
+Continuous optical power monitoring combined with transparent switching forms a
+superior solution for remotely monitoring network paths and performing diagnostics.
+toopbackpaths may be created in milliseconds to help isolate a fault to a particular
+piece of equipment.
+
+Reconfigure
+Glimmerglass systems are the ideal solution for remotely adding reconfiguring, and
+disconnecting optical paths on demand and making system level topology changes.
+
+www.glimmerglass.com
+
+INTELLIGENT OPTICAL sYsTEM 5 0 0
+DATASHEET
+Mechanical I Electrical
+Fiber Type
+Individual Fiber Connectors
+
+system soo
+Single Mode Fiber
+I C . FC, s c
+
+High Density. Multi-Fiber Connectors
+
+МТР-8, МТР-1 2
+
+19 Chassis Rack space (Rack Units)
+
+8 Rt.)
+
+Chassis Dimensions:
+Height x'Mdth X Depth
+‚ i у h t lbs I kgs
+Power Options
+
+inch: 14.0 X 17.2 X 16.1
+mm: 356 X 437 X 410
+380117.2
+Dual -48 VDC
+or
+
+100-240 VAC 50160 Hz
+AC High Availability Power Suppies
+Power Consumption (DC)
+
+Certified Compliance
+Control interface
+Craft Interface
+
+Control/Craft Protocol
+Optical
+P0(15 (Fiber Inputs х Fiber Outputs)
+2 МТР-8 Connectors
+МТР-12 Connectors
+I C Connectors
+FC Connectors
+SC Connector
+
+Redundant. Hot Swappable (1R0)
+
+<85W
+UL, CsA, CE, FCC Class A, Rol-IS 516
+RJ45 Ethernet 101100 ВАSЕ-Т
+
+Back
+
+Rs
+RJ45 Ethernet
+101100 ВА$Е-Т
+-2
+3 2 sNмРvЗ, HTML
+iLl,
+(
+0
+Unit
+Mm
+9
+9
+64 (32 х 32)
+)
+72 (36 х 36)
+fibers
+a
+64 (32 х 32)
+n
+64 (32 х 32)
+d
+64 (32 х 32)
+
+Max'
+
+Typical'
+
+384 (192
+354 (192
+384 (192
+144 7 2
+300 (160
+
+х
+x
+x
+x
+x
+
+Insertion toss ( i t o 1 C o n n e
+ct
+ions)
+Insertion Loss (Multicasling, 110 N c o
+nnections)
+
+dFt
+
+Wavelength Range
+
+nrn
+
+Loss Repeatability
+
+da
+
+Spectral Variation (O. C. or L band)
+
+d8
+
+Polarization Dependent Loss
+
+dB
+
+0.05
+
+0.10
+0.010
+
+dO
+
+1.7
+
+3.7 5
+
+1:2 1:4 1:6 1.8
+8 111 11 4 11 5
+
+1:2 1:4 1:6 1:8
+11 114 117 118
+
+.1- 0.05
+
++1-0.10
+
+1270
+
+1630
+
+0.50
+
+pslnm
+
+0.005
+
+Optical Return Loss'
+
+dO
+
+35
+
+Crosstalk
+
+dB
+
+Switching Speed
+
+ms
+
+Polarization Mode Dispersion
+
+Input Optical Power'
+Operating Temperature
+
+-70
+20
+
+dBm
+
+-25
+
++20
+
+'C
+
+-5
+
++50
+
+5%
+
+85%
+
+Operating Humidity (Non-condensing)
+
+192)
+192)
+192)
+72)
+ISO)
+
+Measurements with I C . taken at 1310 nm and 1550 rim at 25 'C. 2 Asymmetric configurations (NxM) are available. M e a s u r e d Input fiber to
+output fiber, dependent upon hardware configuration. s t a n d a r d configuration. Low power option: -35 to+ I 5dВm. ъ >96 х 96 ports
+
+Glimmergiass, Inc.
+26142 Eden Landing Road
+Hayward, CA 94545 USA
+
+Phone: 510_723_1900
+In North America: 8777231900
+Email sales@glimmerglass.com
+
+) 2011 Glimmerglass, Inc. All rights reserved.
+Glimmergiass and Cybersweep are trademarks of Gimmergiass. Inc.
+
+Glimmergiass. .
+Optical СуЬег Solutions
+
+

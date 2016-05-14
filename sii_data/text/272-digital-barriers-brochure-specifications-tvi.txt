@@ -1,0 +1,260 @@
+The TVI 5400 real-time wireless video streaming encoder provides high-quality
+video/audio in a low-power, secure, discreet and easy to deploy unit.
+With an ultra small form factor and two built-in GPR5/3G/H5DPA modules, the
+5400 represents the next generation in tactical video intelligence.
+Not all wireless video solutions are created equal
+
+TVI wireless encoders are a world-class surveillance
+solution for secure remote viewing of video over very low
+bandwidth networks. In comparison to other wireless
+video technologies, such as MPEG compression, TVI
+provides a higher quality, lower latency and more resilient
+approach to real-time video and audio transmission.
+MPEG and H.264 solutions rely on standard compression
+techniques that can result in reduced frame rates, frame
+skipping and difference coding. In contrast, by combining
+a proprietary codec with an adaptive and more efficient
+approach to managing the underlying communications
+channel, TVI is able to maintain a fixed frame rate and
+deliver lower latency video over constrained bandwidths.
+
+Key features
+
+•
+
+• Secure live video and audio (two way) transmission
+over very low bandwidth (supports 9Kbps to lMbps)
+•
+
+TVI ensures a more efficient representation of detail at
+lower bandwidths, particularly where motion levels are
+high, as well as exceptionally low latency in the remote
+control of cameras. Error resilience is also particularly
+high, since the TVI codec is more tolerant of packet loss.
+With secure AES 256 encryption, an ultra compact form
+factor, low power consumption (5.5 watts nominal to 1.5
+watts in standby mode and 0.1 in sleep mode) and the
+flexibility to operate over GPRS, 3G and satellite networks,
+as well as tactical IP radios and the internet, TVI can be
+rapidly deployed into a range of environments and
+situations. The S400 includes two built-in GPRS/3G/HSDPA
+modules for reliable networking and is network agnostic.
+
+Rapidly deployable (in minutes) for operational
+situations where installation time is critical
+
+• Constructed to accommodate the high level of
+vibration associated with vehicle deployment
+• Features two integrated GPRS/3G/HSDPA modules
+(with SIM carriers) for reliable networking
+• Changes to codec settings or software upgrades can
+be delivered remotely over the air
+•
+
+Practical operational benefits
+
+Ultra lightweight, compact enclosure with no moving
+parts for reliable, resilient and silent operation
+
+10/100 RJ45 Ethernet connector for ADSL and
+network lines and satellite connectivity
+
+Operational domains and installed base
+
+TVI codecs are deployed by organisations in the law
+enforcement, military and transportation domains, as well
+as by those responsible for securing public spaces. Its ultra
+compact form factor and simple installation make it ideal
+for a range of static and dynamic operating scenarios:
+• Covert surveillance operations (video and/or audio)
+•
+
+Body-worn surveillance
+
+•
+
+Rapid deployment tactical surveillance
+
+Multiple operators are able to view live streaming video
+and the unit also supports retrieval of high resolution
+images with simultaneous streaming of video, providing
+access to frames of particular interest.
+
+Product codes
+TVl -5400
+
+Ultra small form factor
+wireless video encoder
+
+D1g1tal Barriers Datasheet
+
+I Wireless
+
+Surveillance
+
+I
+
+~1
+
+2012 D1g1ta 1Barriers pie All rights reserved
+
+.
+
+-
+
+Technic al Specifications
+
+v1 2 1-2012
+DS-WS-54
+
+Hardware
+
+Physical Size :
+
+L120mm x W72mm x D33mm (including connectors)
+
+Operating Temperature :
+
+-32° to +60°, non-condensing
+
+Input Voltage :
+
+9V-36V DC
+
+Power Consumption :
+
+7W max (8.5W with 1 x modem fully operational, lOW max with 2 x modems
+fully operational), 6W nominal, <l.5W standby, <0.lW sleep
+
+Audio :
+
+Stereo audio in/stereo audio out
+
+Camera Input:
+
+2 x MMCX composite input
+
+Video Input Format:
+
+PAL/NTSC
+
+Alarm Inputs :
+
+3 x triggers at 5V (24V max)
+
+LEDs :
+
+Status LEDs provide information on start-up and configuration
+
+Software
+
+Viewers Supported :
+
+Software available for Windows PC, Windows Mobile 6, iPhone and Android
+
+Video Frame Sizes Supported :
+
+128 x 96 up to 704 x 576 (4CIF), frame rates up to 25fps (PAL)
+
+High Resolution Image Retrieval :
+
+Enhanced definition (up to 704 x 576) over user-definable areas via high quality JPEG
+
+Connectors
+
+USB :
+
+Configuration of unit is via mini USB (connector also allows connection to serial based devices)
+
+RJ45 :
+
+Ethernet connector for ADSL and network lines
+
+SIM :
+
+2 x SIM carriers (network agnostic)
+
+Power:
+
+Provided to support vehicle or battery operation
+
+Video Input:
+
+2 x MMCX connectors (PAL/NTSC video sources)
+
+Audio/Power:
+
+2 way audio (one way supported with current release software),
+power out provides 2 x independent 12V supplies for external cameras
+
+RF Antennae :
+
+2 x antennae for the internal GPRS/3G/HSDPA modules
+
+Serial Ports/ Alarms :
+
+Provides RS232/RS485/RS422/RS232S serial ports for control of cameras or other devices
+3 x trigger inputs provide wake-up from sleep or alarm reporting
+
+Communications
+
+Internet Connectivity:
+
+10/100 RJ45 Ethernet connector for ADSL and network lines
+
+GPRS/3G/HSDPA Connectivity :
+
+2 x built-in GPRS/3G/HSDPA modules
+
+Satellite Connectivity:
+
+10/100 RJ45 Ethernet for connection to lnmarsat GAN/BGAN Fleet Routers
+
+PTZ Connectivity:
+
+Supports Pelco P&D, Canon VC-C4/5, Sony Visca, etc. (other protocols on request)
+
+Bandwidths Supported :
+
+9Kbps to lMbps
+
+Minimum Server Specification :
+
+2GHz Processor, Windows Server 2003 or Linux preferred, lGb RAM , Oracle Java JRE 1.6.0 or later
+
+Security
+
+Encryption :
+
+Bu ilt-in AES 256 encryption in addition to support for IP Sec VPN connections
+
+Ratings and Regulatory Approvals
+
+EU Low Voltage Directive:
+
+2006/95/EEC for product safety
+
+EMC Conformity:
+
+Directive 89/336/EEC
+
+FCC Compliance :
+
+Class B Digital Device Part 15
+
+E&OE Spcc1flcJtion> sub1ec t
+t o chdnge wi t hou t no ti ce
+
+D1g1tal Barrie r s
+
+I
+
+4 t h Floor 39 St V1ncPn t Place, Gldsgow, U11 t ed Kingdom
+
+t + 1·1 (0) 8 14 556 9500
+
+I
+
+f +4 4 (0) 844 556 8653 I www d1g1 U lbarm'r> com
+
+

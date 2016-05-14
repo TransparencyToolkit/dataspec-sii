@@ -1,0 +1,413 @@
+Utimaco Safeware –
+SMS the forgotten Source of Intelligence
+SMS,
+
+12th October 2011 – ISS World Americas
+Dirk Schrader
+Business Unit LIMS
+
+Confidential Information
+This presentation contains confidential information related to
+Utimaco Safeware AG
+AG, Utimaco products and services
+services. It may not
+be disclosed to others without prior acknowledgement by Utimaco.
+
+SMS, the forgotten Source of Intelligence
+ 3 billion users worldwide are sending 3 SMS per day in average
+
+(3.285.000.000.000 / year).
+ Mass Monitoring and Content Retention of SMS/MMS traffic is
+
+definitely a source of intelligence disregarded by many.
+ This session gives insight in the ways of intelligence gathering in this
+
+massive amount of data.
+Updated figures on Feb 2011, worldwide:
+ SMS: estimated 3,300,000,000,000
+(https://scholar.sun.ac.za/bitstream/handle/10019.1/962/de villiers_case study_2010.pdf)
+
+ Emails: average of 3,250,000 per second, approx. 85% SPAM
+(http://www.worldometers.info and Wikipedia)
+
+ Email accounts: 3,146,000,000
+,
+,
+,
+active accounts
+(Email Statistics Report, 2010, Radicati Group)
+
+© Utimaco Safeware AG
+
+Agenda
+ About Utimaco
+Who we are, what we do
+ Quick Recap
+SMS
+Intelligence
+ Bringing both together
+Technical drivers
+System architecture
+ Generating Intelligence
+The questions
+Ways to get the answers
+ Summary
+
+© Utimaco Safeware AG
+
+Utimaco Safeware AG
+A member of the Sophos Group
+
+Sophos Group
+Utimaco Safeware AG
+ Lawful Interception
+ Data Retention
+
+© Utimaco Safeware AG
+
+ Hardware Security
+
+
+Modules
+Strong
+g Encryption
+yp
+and
+Digital Signatures
+
+Sophos PLC
+ Endpoint Protection
+ Information Security
+ IT Governance and
+Compliance
+
+4
+
+Sophos Group
+Company Facts
+
+Uti
+Utimaco
+Safeware
+S f
+AG
+ Headquarters in Oberursel and Aachen, Germany
+ 163 employees
+ € 37.7 million revenues (fiscal year 10/11)
+
+S h PLC
+Sophos
+ Headquarters in Oxford, UK and
+
+
+
+Burlington, MA, USA
+1,800 employees
+$ 340 million revenues (fiscal year 10/11)
+
+Sophos is a world leader
+in IT security and control
+
+© Utimaco Safeware AG
+
+5
+
+Quick Recap
+SMS
+Messages are sent to the SMSC which provides a "store and forward" mechanism. It
+attempts to send messages to the SMSC's recipients. If a recipient is not reachable, the
+SMSC q
+queues the message
+g for later retry
+y ((a "forward and forget"
+g option
+p
+exists also).
+)
+Short messages can be encoded using a variety of alphabets: the default is GSM 7-bit,
+8-bit encoding, UTF-16 encoding are other options Depending on which alphabet the
+subscriber has configured in the handset
+handset, the maximum short message sizes of 160 7
+7-bit
+bit
+characters, 140 8-bit characters, or 70 16-bit characters (including spaces). Characters
+in languages such as Arabic, Chinese, Korean, Japanese or Cyrillic alphabet languages
+(e.g. Russian, Serbian, Bulgarian, etc.) must be encoded using UTF-16.
+Concatenated SMS can be sent using multiple messages, in which case each message
+will start with a user data header (UDH) containing segmentation information. UDH is
+part of the payload.
+payload The receiving handset is then responsible for reassembling the
+message and presenting it to the user as one long message. Theory permits up to 255
+segments, 6 to 8 segment messages are the practical maximum.
+
+© Utimaco Safeware AG
+
+6
+
+Quick Recap
+Intelligence
+“Intelligence” has been defined in many ways within the LI and Investigations
+arena and sometimes “ Information” is misleadingly understood as
+intelligence.
+g
+For us “Intelligence”
+g
+is the extra that comes with information,,
+something of added value explaining what that information may mean. Or in
+other words the step from knowing only facts to having insight into the context
+existing among them.
+
+© Utimaco Safeware AG
+
+7
+
+Bringing both together
+Technical drivers
+The technical drivers are usually
+
+
+Number of SMSC‘s
+
+
+
+Link type: HSL, 64kbit
+
+
+
+Passive approach
+
+
+
+Cop and for
+Copy
+forward
+ard
+
+
+
+Amount of SMS
+
+
+
+Additional sources like Cell-ID
+
+ ……
+
+© Utimaco Safeware AG
+
+8
+
+Bringing both together
+System architecture
+
+© Utimaco Safeware AG
+
+9
+
+Generating Intelligence: the questions (1/3)
+Search data containing specific values or similar values
+Results:
+
+
+List of records containing the requested values
+
+Postprocessing:
+g
+
+
+Sorting
+
+
+
+Filtering
+
+
+
+Diagrams
+g
+Connections by time
+Weighted links
+Display
+p y in GIS
+
+
+
+Export to file or print
+
+p
+Examples:
+
+
+Find all CDRs with phone no. 007123456
+
+
+
+Find all user-IDs, phone no.s., IMEIs, IMSIs of person xyz
+
+
+
+Find all CDRs with p
+phone no. starting
+g with 00712
+
+
+
+Find all CDRs of originated at location xyz or in a radius of 10km
+
+© Utimaco Safeware AG
+
+10
+
+Generating Intelligence: the questions (2/3)
+Detect data with certain patterns
+Results:
+
+
+List of records containing the defined pattern
+
+Postprocessing:
+
+
+S ti
+Sorting
+
+
+
+Filtering
+
+
+
+Aggregation
+
+
+
+Diagrams:
+Connections by time
+Weighted links
+Display in GIS
+
+
+
+Export to file or print
+
+Examples:
+
+
+g more than x times ((detect frequent
+q
+Find all CDRs where EMEI and IMSI combination have changed
+handset changes)
+
+
+
+Find relationship between phone no. x and phone no. Y
+
+
+
+Find all CDRs which are frequently in location area xyz (e.g. more than 2 days a week or at a certain
+time of the day)
+
+
+
+Find CDRs from subscribers which produce only unsuccessful call attempts but no call setup
+
+© Utimaco Safeware AG
+
+11
+
+Generating Intelligence: the questions (3/3)
+Start with all CDRs and drill down on certain data fields
+Results:
+
+
+List of records
+
+Postprocessing:
+
+
+Sorting
+
+
+
+Filtering
+
+
+
+Aggregation
+
+
+
+Diagrams (for CDRs/IPDRs):
+Connections by time
+Weighted links
+Display in GIS
+
+
+
+Export to file or print
+
+Examples:
+
+
+Find all CDRs in a certain time period to phone no. xyz -> sort/aggregate by number of
+CDRs from the same origin -> find subscriber contact details of selected CDRs
+
+
+
+„Social Network Analysis“: Start with a set of CDRs and identify relationships by graphical
+analysis of connections
+
+© Utimaco Safeware AG
+
+12
+
+Generating Intelligence
+Ways to get the answer
+
+© Utimaco Safeware AG
+
+13
+
+Generating Intelligence
+Ways to get the answer
+
+© Utimaco Safeware AG
+
+14
+
+Summary
+Sun Tzu, “The Art of War”
+ “If you know neither yourself nor the enemy, you are a fool and will
+
+battle ”
+meet defeat in every battle.
+Not knowing anything, is desperate
+ “If you know yourself but not the enemy, for every victory you will
+
+suffer a defeat.”
+Of course you need to know about your capabilities and limits; those of
+tools
+yyour officers and your
+y
+ “If you know the enemy and know yourself, you need not fear the
+
+results of a hundred battles.”
+This is the task in front,
+front know your enemy
+
+© Utimaco Safeware AG
+
+15
+
+please visit us at booth # 102
+Dirk Schrader, Director Sales
+Business Unit LIMS
+Phone: +49 241 1696-226
+Dirk Schrader@aachen utimaco de
+Dirk.Schrader@aachen.utimaco.de
+http://lims.utimaco.com
+© Utimaco Safeware AG
+
+16
+
+

@@ -1,0 +1,433 @@
+m telesoft
+
+\ j TECHNOLOGIES
+
+Packet
+Monitoring
+Solutions
+
+A range of packet monitoring solutions benefiting from hardware
+
+acceleration for commercial and homeland security. To monitor,
+filter, groom and extract data from mixed traffic 10-100G Ethernet
+and SDH/SONET core telecoms networks.
+
+I KEY FEATURES
+acket acceleration hardware
+Pre-filtering engine reduce and load
+balance data flows in DPI processing
+
+Extracting specific data from increasingly complex, multi-traffic converged networks presents
+scaleability, provisioning and performance challenges to intelligence gathering agencies.
+Telesoft Technologies addresses these challenges with a family of 10G to 100G and SDH/SONET
+monitoring, filtering and grooming products that are able to capture specific packet types
+and data streams including T l / E l , Vole cellular data, e-mail and web traffic. Continuous
+auto-discovery simplifies provisioning, whilst hardware acceleration and direct routing
+of extracted traffic over LAN Ethernet reduce probe and application complexity.
+
+Ii
+
+!
+acket Probe
+Complete integrated solution for U
+i
+Cellular data and packet telephony support r
+
+I1
+
+Packet Extractor
+-Access packet data over SDH/SONET or
+Ethernet and pre-filter monitored traffic
+Designed for use with Ethernet and
+SDH/SONET (16, 106, 406 & 1006)
+packet networks
+
+II II
+
+WI
+I
+
+Hardware acceleration by pre-filtering
+allows full rate monitoring of lOOG
+packet networks
+
+The Packet Probe is a complete integrated solution that provides law enforcement and
+intelligence agencies with real-time, classified content from 10 to 100Gb and SDH/SONET core
+networks, delivered over an ETSl handover interface.
+. Integrated complete solution for lawful interception
+Monitors high-capacity Ethernet and SDH/SONET
+Automatic survey and classification
+The Packet Extractor provides system integrators with the means to massively reduce the
+unwanted traffic routed to IP Probes, enabling efficient use of expensive IP Probe assets.
+Highly scaleable through the use of pluggable interface modules
+Extracted, classified content delivered over IP LAN
+Continuous survey, independent of network re-provisioning
+
+-
+
+Independent from network pre-provisioning
+through use of continuous survey
+
+infrastructure for organizations developing deep packet inspection (DPI) solutions.
+Onboard n-tuple filters (IP address, TCe UDP, ...)
+Onboard libpcap BPF filter support
+Onboard hardware based protocol parsing
+
+-
+
+Lawful intercept and data retention
+Network survey and flow analysis
+Traffic management and flow control
+Network QoSassurance
+
+l
+
+II
+
+1
+i t Switched
+
+.
+
+Load distribution between servers
+
+\\
+Fixed/cellular network TDM Interception
+Extraction and grooming of TDM data
+
+Passive Probe
+
+HINTON Packet Probe
+
+Fraud and intrusion detection
+
+Ask about our other monitoring products for:
+
+-
+
+MPAC-IP Monitoring Cards provide a specialist pre-filtering of 10Gb/s and SDH/SONES
+
+Reduce cost, power and footprint of
+monitoring solution
+
+I
+
+'\
+\
+
+LEMF
+
+ml, nu, nu
+
+4
+
+3rd party probe
+
+Packet mactor
+
+packets
+
+MPAC-lP packet
+monitoring cards
+
+Monitoring A b i interfaces for location data
+Third party platform
+
+HINTON Packet Probe
+Complete solution for Law Enforcement
+1 to lOOGb Ethernet SDH/Sonet with
+Auto Discovery
+
+Integrated compt& sdution far
+lawful interception
+
+The Packet Probe is a highly integrated complete solution that provides law enforcement
+and government agencies with classified, real-time content from 1-100 Gigabit Ethernet
+and SDH/SONET core networks. The probe uses auto discovery and deep packet inspection
+to deliver metadata and targeted content to a collection function via a standard ETSl
+handover interface.
+
+Monitors high-capacity Ethernet/
+SDH/SONET core networks
+Dediited hardware accelemtes filtering
+and extraction
+
+Intelligent layer 2-4 pre-filtering is applied to multiple lGbE, lOGbE, ~ O G ~ E1 0* 0~G, b ~ " ~
+and SDH/SONET streams by hardware acceleration technology, extracting specific transport
+and data streams. Advanced deep packet inspection operates on layers 5-7 to identify content
+for selected targets, based on filtering rules including SIP URI, telephone number, MSISDN,
+IMSl and IMEl.
+
+Automated survey and classification
+2U CompactPC1 & Rackmount Server option
+
+Monitors packet based core telecoms
+networks for telephony and cellular data
+lGbE, lOGbE, 406bF2and 100GbF2,
+SDH/SONET
+Powerful DPI processes mnitored traffic
+Monitors and captures telephony and
+cellular data:
+- Votk SIP/RTP
+- GPRS/HSDPA cdlular data (GTP v0
+and vl)
+- HRPD cellular data (GRE)
+Generates mmmuniwtiom d-1
+for data retention and OSS/VAS
+
+Classified &
+
+P Probe
+
+I
+
+manager
+
+I
+
+Classification
+
+SUN^ &
+discovery
+
+records
+
+Support for data Morifrom MPU
+and UTP
+
+Integrationto existing tdlection/mediatior
+systems via standard rnl interfaces:
+- ElS1 TS 102 232
+- ETSI TS 133 108
+- 3GPP TS 33.108
+
+--
+
+Modular construction ensures both scaleability and flexibility, with interface modules
+* ~ 1 X 100Gb**.
+available for 4 X lGb, l X lOGb, 4 X 1 0 ~ b "2~X 4 0 ~ b and
+
+U
+
+VotP
+
+data
+
+i n Rates,
+No Loss
+
+Deep park& inspection
+
+E
+l
+
+*' CompactPCl model shown. Other hardware platforms are supported includ~ngRack Mount Server and BladecenterB.
+*2Some configurations currently under development. Contact sales for availability.
+
+filtered
+
+C3 telesoft
+
+TECHNOLOGIES
+
+Packet Extractor
+Pre-filter unwanted traffic
+Reduce IP Probe complexity
+1 to IOOGbE, SDH/SONET with
+Auto Discovery
+
+-
+
+The Packet Extractor provides system integrators with the means to massively reduce
+the unwanted traffic routed to IP Probes, enabling efficient use of expensive IP Probe
+assets. Embedded filters extract specific streams (such as VC-X, ATM, PoS) and packet
+types (UDP, TCP, Vole SMTP) from high-capacity telecommunications networks.
+
+Highly scaleable through use of pluggable
+interface modules
+Extractsselected traffic streams from
+mixed optical S. IP networks
+Controlled by external DPI engine
+
+Management and configuration are isolated from network re-provisioning by use of continuous
+survey that scans multiple lGbE, lOGbE, 40GbE* and lOOGbE* and SDH/SONET (STM-x/OC-X)
+m ~ x e dtraff~c.lndlv~dualextracted content is sw~tchedin real time to single traff~ctype output
+streams, either on Ethernet LAN or optionally on H13 handover interface. Filtering and extraction
+is controlled by a real time SNMP v3 control API.
+
+Access IP data carried over SDH or SONET
+
+Continuous survey supports any
+container structure, independent
+of network re-provisioning
+
+ll
+
+I
+
+-
+
+I
+
+The Packet Extractor also reduces costs and complexity of lawful interception and SIGIN1
+
+switching based on targetting data. Content is routed directly over an ElSl compliant H13
+interface from the Packet Extractor to the LEMF, bypassing the IP Probe.
+
+extracts specific traffic from
+high-capacity connections lGbE, lOGbE,
+40GbE" and 100GbE" and SDH/SONET
+
+Processing
+nodes
+
+Reduces monitoring system capex
+Continuous survey classifies data type:
+Vole E-mail, IP,MPLS, TDM, PPP,VCAT etc
+
+Switching b
+management
+API
+
+<
+
+Targetted
+content
+Filter
+
+SIP, RTP
+
+IP Probe
+
+i
+l0 to lOOGbE
+
+D
+
+data
+
+MIr
+
+Using the EXTRACTOR to simplify SlGlNT IP Probe
+
+-
+
+irates,
+
+~OSS
+
+Fig 2: Probe reduction to lower capex/opex
+
+L
+
+telesoft
+
+\ j TECHNOLOGIES
+
+Packet Acceleration
+Hardware
+I
+
+KEY FEATURES
+
+P I ACCELERATION
+
+Powerful FPGA-based packet filtering
+
+I
+=
+
+PCle form factor boards for integration
+with standard servers
+Multi-lane PCle host interface
+Full-line rate monitoring, 10-100Gb/s
+Ethernet and SDH/SONET
+Zero loss of data
+
+-
+
+2-3 second data buffer at 100Gb/s
+1st and 2nd stage packet filtering
+
+I
+
+Packet acceleration hardware enables
+software developers to achieve high datarate (>lOGb/s) monitoring by pre-filtering
+~llows
+system integrators and agencies
+to quickly integrate and use packet
+filtering technology
+User-controlledfilters recognize and trigger
+on layer 2-4 protocols (MAC address, lW4,
+lW6, port numbers, MPLS, TCP, UDP)
+2nd stage filter allows interception of
+communication from start of message,
+not just from target match
+PCle form factor fits standard servers
+
+Packet Acceleration Hardware provides system integrators and government agencies
+the specialist pre-filtering hardware they need to support the operation of deep
+* ' SDH/SONET
+packet inspection (DPI) engines on lOGbE, ~ o G ~ E * ' ~, O O G ~ E and
+networks. Pre-filtering hardware reduces the amount of data flowing into the DPI
+engine, reducing the complexity, power and footprint of downstream processing
+and enabling higher network speeds (>lOGb/s) to be monitored.
+
+The PCle form factor board can be deployed in servers or blade centers. Specifically designed
+" ' SDH/SONET inputs. Powerful
+for pre-filtering high-capacity pipes, it accepts 1 0 - 1 0 0 ~ b ~ and
+FPGA-based packet acceleration allows filtering and load balancing based on layer 2-4 protocols
+(data, network and transport layers). Configurable filtering removes large volumes of
+unnecessary traffic (such as IPTV streams), reducing the burden on subsequent processing
+engines carrying out DPI or other monitoring processes.
+A buffer"' keeps 2-3 seconds of data, at 100Gbs aggregate throughput, allowing a two-stage
+filter process. A 2nd stage filter allows interception of communication content from the beginning
+of transfer not just from the point of target match, which may occur later.
+
+1 *' Some configurations currently under development. Contact sales for availability.
+
+Headquarters:
+Telesoft Technologies Ltd
+Observatory House
+Blandford Dorset
+DTll9LQ UK
+
+Americas:
+
+India:
+
+Telesoft Technologies Inc
+Suite 601
+4340 Georgetown Square
+Atlanta GA 30338 USA
+
+Telesoft Technologies Ltd
+(Branch Office) Building FC-24
+Sector 16A Noida 201301
+Uttar Pradesh India
+
+no 454 6001
+F. +I no 452 0130
+
+T. +91 120 466 0300
+
+E. salesusa@telesoft-technologies.com
+
+E. salesindia@telesoft-technologies.com
+
+T. +l
+
+E +91 120 466 0301
+
+Telemfl Technoioqus the Telesaft Techndogtes logo
+
+~ n a n d ~ a r e ~
+tradimark of T h l t Technoiogles Ltd i-its subsidiaries.
+All olhw brand and product names may be trademark
+of their mpeclive companies. Copyright 02011 by
+lelesoft Technologies ~ t d AII
+. rights resecved.
+
+a
+
+

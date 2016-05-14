@@ -1,0 +1,119 @@
+Session Vista
+
+CX- 10 CO
+
+Information Flow
+Packets are classified by the DPI Engine according to protocols present within a flow. The Exporter generates
+IPFlX formatted packets of selected protocol attributes and MCDP formatted packets of selected packet content
+and sends them to the Collector. The Collector formats the attribute information in to data base insert
+statements and stores them in the selected database or log file. The content information such as VOlP call RTP
+data and email attachments are formatted by the Collector for storage in Linux file system.
+
+Lulleccor
+
+"
+
+P
+
+F
+
+,-FMCDP
+
+I
+
+X
+
+Real Time
+IPFlX Log File
+
+(Metadata transport)
+Email Atta
+lents VOlP
+RTP streams
+
+(Content transport)
+
+Data Collection and Storage Features
+IPFlX standards based information
+Storage to database
+k MySQL
+k Teradata
+k Oracle & IBM (future)
+Over 3000 metadata attributes
+Stored data readily available to a broad suite of off
+the shelf or proprietary tools to analyze database
+content
+Multiple simultaneous access supported
+
+Configuration and Operation
+Intuitive GUI interface
+Protocol attributes logically grouped for ease
+of retrieval
+Multiple simultaneous users supported
+Supports sophisticated filtering
+
+Mantaro Product Development Services Inc.
+20410 Century Blvd., Germantown M D 20874
+WWW.MANTARO.COM info@mantaro.com 301 528 2244
+
+Session VistaTM CX- 10 Co
+
+-
+
+or Datasheet
+
+Overview
+
+SessionVistam CX-10 Collector is a software application that formats metadata extracted from a network by a SessionVistam
+Exporter for insertion into a database.
+Metadata information is received in IPFlX based packets from the SessionVistam Exporter through an SCTP, TCP or UDP
+interface. The Collector parses the IPFlX packets, placing the information in a log file for real-time analysis andlor in a database
+if persistent storage is desired or required.
+The SessionVistam CX-10 Collector organizes the protocol attributes in the database such that the information is readily
+retrievable, enabling rapid development of a variety of custom applications based on OTS or proprietary data analysis programs.
+Content data extracted by the Exporter, such as email/lM messages and VOlP calls, is received by the Collector via Mantaro's
+proprietary MCDP protocol running over an SCTP or TCP socket. The received packets are parsed and the content files are
+stored using a standard file system for real-time or offline analysis.
+The SessionVistaWCX-10 Collector is a high performance multi-threaded software applicationthat runs on Linux.
+
+Key Features
+Scalable and robust architecture: The Collector is architected in such a way that its performance scales as the host platform's
+performance scales. Multiple packet queues ensure that data is not lost even at higher speeds.
+Standardized Software solution: The Collector is an application that runs on standard Linux distributions. It will run on any 64bit off the shelf x86 system with sufficient memory and disk space.
+Many Database Options: Support for Teradata and MySQL currently with plans for IBM and Oracle databases on the roadmap.
+Database interface code is tuned to optimize record insertion speed.
+Complete Database Schema: All IPFIX metadata is accessible from the database through a custom database schema with
+support for more than 300 protocols and 3000 metadata attributes. The schema is consistent across all supported databases.
+Log File Output: Support for log file output of IPFIX metadata for quick and easy integration with log management and indexing
+solutions such as SplunkTM.
+Content File Management and Storage: Storage of content information such as email attachments, IM conversations and VOlP
+R I P streams on the file system. The content management function includes content pruning options where old data will be
+removed if needed so that the platform's disk space is well utilized.
+Ease of configuration: The configuration of the SessionVistaTMCollector can easily be changed through a GUI that allows
+selection parameters such as database type and log file enableldisable.
+Multiple connections are supported: The SessionVistaTM
+CX-10 will support connections from multiple SessionVistaTM
+Exporters.
+
+Applications
+The system, platform and components support a wide range of application possibilities including:
+
+Networking
+Network monitoring
+CALEA
+Traffic shaping
+
+Network Security
+Threat detection and resolution
+Pattern matching and historical
+analysis
+
+Data Analytics
+Data mining
+Visualization
+
+Mantaro Product Development Services Inc.
+20410 Century Blvd., Germantown M D 20874
+WWW.MANTARO.COM info@mantaro.com 3 0 1 528 2244
+
+

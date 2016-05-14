@@ -1,0 +1,354 @@
+WIR VERSTEHEN DIE ZEICHEN DER ZElT
+KEEPING PACE WITH THE SIGNAL OF TIME
+
+Intelligence Fusion System
+Acquisition - Processing - Analysis
+
+IFS-8000 is a flexible, scalable and modular IT system to support the
+processes for case-oriented condensation of information to reports.
+Standard products for information processing and workflow design in
+the back office are configured according to the task. Embedding of
+commercial solutions for processing and analysis of contents is o p
+tionally possible and provided. Project oriented processes for business management are part of the solution.
+
+Overview
+,
+~nalyses,situation validation and the exploitation of decision basics usually reqwfre the consolidation of different relevant data, and the condensation to reports. Tasks
+Ilib these occur in most types of institutions and organisations. In the sovereign envient, these requirements are present in security oriented situation and evaluation
+es. In industrial environment, tasks in the range of business intelligence define the
+
+Task
+
+I
+
+F'
+
+number of data sources of different types is continuously increasing. Business speand organisation specific information appear at different times and mostly without
+ntext. All report data are based on raw information that is fed into the processing sysfrom different sources via different interfaces. Unstructured contents and structured
+meta data are differentiated. The latter can be managed by means of data bases.
+
+-
+
+I
+
+'The inspection of the data and information must flexibly follow the demand. Compressed
+nvisualisationsare gained by a relevant data selection by suitable analysis and visualisation tools for the reports.
+IFS4000 provides different tools to support data and information processing and to improve the efficiency and quality of the analysis processes. Generation of meta data from
+unstructured images, texts and audio data is embedded in the workflows. Valuable results are archived for later evaluation.
+IFS-8000 orients itself at the "Intelligence Cyclen describing the
+generally valid steps when evaluating information. This term was
+originally introduced in the military
+and intelligence service reconnaissance environment and is
+today used in matters of business
+intelligence to describe a typical
+and commonly used workflow.
+
+Intelligence
+
+The evaluation cycle starts with the request of the leadership to create a case based or
+request based report.
+
+Request e m
+Leadership
+
+I
+S
+
+F
+
+Several sub-steps result from the request prepared according to the requirements in a
+planning process. Workflows and a mission schedule for the available resources are
+the results.
+Results of the planning process are requirements for the collection of suitable raw in;formation as needed for the generation of reports. Accordingly, the available data
+sources are used or requested to make the data available for further processing.
+
+c011ecttd
+
+I
+
+rrocessih
+
+The raw material is processed. If possible, additional meta data are extracted from the
+contents, or new representations of the contents are elicited. Automatic processing and
+interactive processes are applied. Result of this step is raw data. These raw data are
+analysed and evaluated in the next steps. All these processing steps are mapped to
+workflows and organised by a workflow management system.
+
+Analysis
+
+Analysis is conducted by means of different tools that are applied according to the requirements and support the analysing operator in a suitable manner.
+
+Reporting
+Disseminal
+
+\
+
+The results are issued as repotts and disseminated to the requesting leadership.
+
+130
+
+by MEDAV GmbH 2011
+
+- Spdfication subject to change -
+
+Page 218
+
+IFS-8000 System Architecture
+
+*
+
+The figure gives an overview of the S
+m mponents
+that are useful to understand the d
+ent software
+components and workflows. Information IS fed into the
+system via the gateway. The data storage strares the
+data. A server farm provides the compbting power for
+data processing as needed by the processed defined in
+the SlPAC product. SOMOS provides the web b e d
+user interfaces and the data base for data management. Several roles describe the tasks and the work
+place descriptions for users and evaluatq using the
+system to fulfil their tasks.
+
+Snalysi
+Tools
+Loc-DE
+
+O by MEDAV GmbH 2011
+
+- Specification subj9
+
+.=-
+
+LA lcr.
+
+System Components
+Data and information from different sources are fed into the system via
+a specially suited gateway. Data are stored in a standardised data
+base (UC-DB: Universal Collection Data Base) and are available for
+further processing.
+
+SlPAC
+Signal Intelligence Processing Analysis Component
+SIPAC provides a powerful framework for processing the input data.
+Contents as well as structured meta data are processed and enhanced. Different methods and technologies are used and can be
+implemented in software.
+SlPAC provides configuration and modular adding of functionalities by
+independent software applications, such as OCR methods to convert
+image information to text, text translation, or methods of pattern recognition in audio signals.
+Customisation and test of the processing functions can be achieved by
+training in particular cases. Traceability guarantees a high quality level
+of these processes.
+SlPAC can execute different processing functions. Contents and meta
+data of raw information are processed. Additional meta data are generated, or the contents of the data are displayed in different viewers.
+Processing of unstructured data (image, text, audio) is a significant
+feature of IFS-8000. This is in contrast to other information processing
+systems used for business intelligence.
+
+SOMOS
+Support and Organization Machine for Operators and Specialists
+
+2
+'
+
+SoMoS
+UI-DB
+
+7
+
+L
+
+SOMOS provides the user interface and different basic functions to be
+expected and needed in any back office structure. This includes: organisation of demands, a document archive, support of internal communications, resource management, management of workflows, and
+storage of the different case referred raw data within their relations. A
+Business Process Management System (BPMS) allows for free
+definition and support of workflows.
+
+Analysis Tools
+IFS-8000 allows for embedding different analysis tools to support data
+processing and evaluation at the workplaces of the operators and
+analysts. In addition to the traditional workplace (for example: MS
+Office), IFS-8000 software can also be used for specialised, application referred tools.
+The examples shown provide the possibility of map based viewing of
+evaluation results or for graphical criminalistic analysis. In principle,
+only few restrictions to configure the system exist.
+
+Project Flow
+Installing an IFS43000 system has usually a deep effect on existing structures
+and work flows. Similar to the introduction of ERP systems (Enterprise Resource
+Planning), a solution consists of many different components to be selected and
+configured according to the demands.
+MEDAV provides a variety of standard software modules covering a wide range Softwal
+of functions. Especially the products SOMOS and SlPAC dominate the system
+and define the frame within the different specific elements and modules are embedded. SOMOS and SlPAC provide a wide range of configuration, modularity
+and scalability.
+IFS-8000 is not a static product, it is rather characterised by continuous development. The roadmap of the development is also influenced by requirements
+occurring in a project. The continuous development of available functions expands the functionality of the solution available to the group of all users after
+completion of the development as an element of the further product development in the form of new versions.
+MEDAV usually shares the costs for upgrades of this type. The ownership of the
+upgrades remains, therefore, at MEDAV, but usage is made available to customers by suitable licensing.
+
+S"
+
+Usually, customer specific developments consider a small scale of project spe- Software pecitlc
+cific demands. MEDAV provides this either as service, or the customer provides
+MEDAV,customer
+the adaptations on his own responsibility as a contribution under consideration
+of the interface specifications.
+
+B
+
+The readjustment and reorganisationof the workflows require special considera- Consultin!
+tion of the users of the system. Existing workflows need to be analysed and opMEDAV
+timised, if possible. The best opportunity to do so is switching from old processes to a new IT platform.
+Users expect that their practice and orientations are considered. New processes
+and workflows must be understood and accepted whenever a new solution is
+expected to be successful from the beginning.
+It is important to plan carefully for the introduction of this process, similar to the
+introduction of ERP systems, and to accompany and conduct the process with
+certain, suitable solicitousness and sensitivity.
+An important part is software contributed by specialised 3d party manufacturers. 3'C'Pa
+These components are selected in regards of the special needs and requirements. A wide range of solutions is part of the skills of MEDAV and can be explained to the users directly. Additional software can be integrated for special
+requirements.
+IFS-8000 consists of different hardware components as a platform for different 3rd
+IT components. These are especially: gateway, data storage, SOMOS server,
+Ha
+server f a n and work place computers for the different system users. The components are selected according to the requirements and are contributed by
+proven suppliers of IT components. Service and maintenance are normally
+granted and conducted directly by the manufacturer.
+
+8 by MEDAV GmbH 2011
+p-p
+
+- SpecificationS
+
+Scope of Application
+IFS8000 is a flexible, modular, and scalable platform to support back office
+processes. Special focus is processing of non-numeric information and data. In
+these regards, IFS-8000 is different from any other system for processing
+- sup
+
+ERP (Enterprise Resource Planning) is the business task to make most efficient
+use of the company resources (capital, equipment, personnel) for operational
+processes and thus to optimise the controlling of business processes.
+IFS8000 helps in planning to make best use of the personnel resources of
+evaluation operators and analysts and their cognitive abilities in order to achieve
+and process information. From this, focus and application result of this type of
+supporting systems.
+
+The term forensic summarises the context in which criminal acts are systematically identified or excluded, analysed and reconstructed.
+Processing intelligence information from different sources is a sovereign task
+processed by different organisations within a state. The goal is the determination
+of security relevant information and situation reporting on a regular basis.
+Business Intelligence has been popular since the mid 1990s and means processes for systematic analysis (collection, evaluation and representation) of data
+in electronic form. Goal is to gather knowledge allowing for better operative or
+strategic business decisions to be made. This is done by means of analytical
+concepts and IT systems evaluating data about the own business, the competitors or market trends. With this knowledge, enterprises can optimise their processes and make their customer relationships or deliverer relationships more
+profitable, reduce costs, minimise risks, and add value. The term is commonly
+used in the scope of business informatics.
+News agencies and press agencies deliver news with information on today's
+events, and predefined news for mass media as newspapers or newscasts. Furthermore, PR agencies distribute information and press releases from press
+offices of enterprises and organisations. PR agencies and news agencies play a
+central role in the word wide information flow.
+
+Specification subject to change
+
+-
+
+Page 618
+
+Notes
+IFS-8000 consists of different components defining the complete solution by ~ n t d
+their composition. Interfaces and IT relevant aspects are considered and aligned
+in the projecting phase.
+The performance of the system is determined and defined according to the requirements. According to this, the system components are selected and provided in hardware and software.
+
+P
+
+As a rule, applicable legal foundations in regards of export conditions are followed. Special questions and concerns are to be cleared.
+
+Exp - . -
+
+SoMoS is a solution that was designed and developed for use in the organisa- Export -q
+tion of medium-sized enterprises. The system manages information, internal
+communication, documents and partner address information, and projectreferred organisation of business processes.
+There is no export restriction in regards of an export control list.
+SIPAC is the follow-up of the original Scooty server solution provided by MEDAV Export
+since about 2005. An AZG (Auskunft zur Guterliste) statement exists that confirms that Scooty is neither listed in Appendix I of EG-dual-use-V0 in its currently
+valid issue, nor in part I of the export control list (AL). A referring request is made
+for SIPAC.
+
+- S-C
+
+The regulatory framework in regards of export conditions for 3"' party software Export will be checked.
+Miscellaneoa
+A request for export permit will be made as needed-
+
+@ by MEDAV GmbH 2Dtl
+
+-
+
+Specificationsubject to change
+
+-
+
+Page 718
+
+1
+
+Corporate Policy
+Technology
+
+... in the products, development and in the company management
+is state-of-the-art and represents a top level.
+Quality
+
+... in all divisions of our company is considered as the indispensable
+prerequisite for a risk-free and successful cooperation with our customers
+and business partners.
+Position in the market
+
+... is affected by extensive experience gained from signal and information
+processing. We are prepared best to face competition.
+
+ssificatic
+
+Product and engineering spectrum
+
+.. . are comprehensive, complete and tailored to meet all requirements.
+As a single source supplier of solutions, we offer standard devices,
+systems and services.
+Employees
+
+... form the roots of the company and render the services necessary for
+maintaining and expanding the technical basis and a trustful and fair
+cooperation.
+Growth
+
+... on a stable technical and economical basis at home and abroad is
+our declared long-term goal.
+Trust and fairness
+
+... vis-a-vis our business partners and within the company are the basis
+of our business.
+Compliance
+
+... with excessive sensibility and compliance with German and international export
+regulations we act on a worldwide basis.
+
+mbH * Gefenberger Str. 32-34, P91080 Uttenreuth * Homburger Platz 3, P98693 llmenau
++449131-583-0 'Fax: +49-9131-583-11 E-Mail: info@medav.de * www.medav.de
+(Q by MEDAV GmbH 201l
+
+-
+
+Specification subject to change
+
+-
+
+Page 818
+..
+
+--
+
+

@@ -1,0 +1,112 @@
+MA-445C
+HF/VHF/UHF DF Antenna
+The MA-445C HF/VHF/UHF DF Antenna provides accurate direction finding
+(DF) over the 2 to 2,000-MHz frequency range in a small and lightweight unit.
+The antenna was designed for use on vertically-polarized ground wave
+and sky wave signals. The MA-445C may be ground or tripod mounted,
+and can also be operated from the top of a ground vehicle with a
+metal roof using Linkabit’s optional vehicle mounting strap. In the
+AN/PRD-13(V)1 and AN/PRD-13(V)2 system configurations, a
+common RF/control cable is used to connect the MA-445C to
+Linkabit’s SIGINT receiver/processors (MD-403A and MD-405A).
+The MA-445C is physically divided into two frequency sections:
+2–100 MHz (called the HF portion) and 100–2,000 MHz (called the
+VHF/UHF portion). The unit design incorporates several antenna technologies:
+• Ferrite-loaded crossed loops plus a short active monopole whip
+covering 2–100 MHz
+• An annular slot with eight feed points covering 100–460 MHz
+• A four-element monopole array covering 460–2,000 MHz
+Each antenna section has an independent calibration (frequency versus angle)
+correction table read by the receiver/processor on power-up, as well as an
+independent built-in test (BIT) oscillator to help isolate failures between antenna
+sections. The VHF/UHF section contains a switchable low noise, high
+performance preamplifier. The preamplifier can be enabled to improve antenna
+sensitivity and offset coaxial cable loss.
+
+MA-445C
+HF/VHF/UHF DF
+A NTENNA - E LEMENT
+ATTACHED
+
+MA-445C HF/VHF/UHF DF Antenna
+MA-445C HF/VHF/UHF DF Antenna Features
+Performance Characteristics
+Frequency Coverage
+Azimuth Coverage
+Elevation Coverage, 2–100 MHz
+Elevation Coverage, 100–2000 MHz
+Bearing Accuracy 1
+Bearing Sensitivity 2
+Polarization
+Output Impedance
+Preamplifier (100–2,000 MHz)
+
+2–2,000 Mhz
+360°
+0° to 10°
+0° to 60°
+3° RMS typical
+See chart
+Vertical
+50 Ohms unbalanced
+Selectable (In/Out)
+Gain: 18 dB nominal
+NF: 4.0 dB nominal
+IP 3 : +18 dBm minimum
+RF: Waterproof BNC; Control: Sealed JT quick disconnect
+
+Connector
+
+Physical and Environmental Characteristics
+Size (diameter)
+Height (less whip)
+Weight
+Power
+Temperature
+Humidity
+Altitude
+
+330 mm, 13 in.
+140 mm, 5.5 in.
+4.08 kg (9 lbs.)
+1 Watt maximum at 12 VDC
+Operating: –20° to +50° C; Storage: –40° to +70° C
+0 to 100% Condensing
+4,572 m (15,000 ft)
+
+1 Test range, AM demodulator, un-modulated signal, 1 sec. integration, 20 dB S/N
+2 Test range, AM demodulator, un-modulated signal, 6° RMS degrees jitter, 1 sec. integration. Bearing accuracy and sensitivity in
+operational situations are subject to the effects of installation, proximity of large conductive objects, terrain, and elevation
+
+Note: All specifications subject to change without notice
+
+Part Number
+02-105608-01
+05-103228-01
+05-105872-01
+03-102475-01
+
+Description
+MA-445C Antenna
+Tripod
+RF/Control Cable
+Tie Down Kit
+
+Includes
+Antenna, Manuals
+Antenna Tripod
+Cable
+Antenna Mount Strap
+
+Note: All specifications subject to change without notice
+
+Cleared by DoD/OFOISR for public release under
+OFOISR Case Number 06-S-1601 on June 22, 2006.
+LINKABIT DIVISION
+3 0 3 3 S C I E N C E PA R K R O A D , S A N D I E G O , C A 9 2 1 2 1
+( 8 5 8 ) 5 5 2 - 9 5 5 5 FA X ( 8 5 8 ) 5 5 2 - 9 6 6 8 W W W. L - 3 C O M . C O M
+Product Ser vice Help Desk Number: 1-800-331-9401
+e-mail: LinkabitProducts@L-3com.com
+1078010005
+
+
