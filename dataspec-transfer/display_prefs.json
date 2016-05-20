@@ -1,0 +1,63 @@
+{
+    "Facet": [
+	"company_name",
+	"recipient_country",
+	"goods",
+	"export_data_or_open_source",
+	"transfer_to_enduser_reported_as_complete"
+  ],
+    "Merge Categorical": [
+    ],
+    "Searchable": [
+	"company_name",
+	"supplier_company_hq",
+	"recipient_country",
+	"enduser",
+	"goods",
+	"export_data_or_open_source",
+	"transfer_to_enduser_reported_as_complete",
+	"order_year",
+	"sources",
+	"source_links",
+	"title"
+	],
+    "In Search Results": [
+	"company_name",
+	"supplier_company_hq",
+	"recipient_country",
+	"enduser",
+	"goods",
+	"export_data_or_open_source",
+	"transfer_to_enduser_reported_as_complete",
+	"order_year",
+	"title"
+	],
+    "In Search Results by Default": [
+	"company_name",
+	"supplier_company_hq",
+	"recipient_country",
+	"enduser",
+	"goods",
+	"export_data_or_open_source",
+	"transfer_to_enduser_reported_as_complete",
+	"order_year",
+	"title"
+  ],
+    "On Doc Page": [
+	"company_name",
+	"supplier_company_hq",
+	"recipient_country",
+	"enduser",
+	"goods",
+	"export_data_or_open_source",
+	"transfer_to_enduser_reported_as_complete",
+	"order_year",
+	"sources",
+	"source_links",
+	"title"
+  ],
+  "Item Field": [
+  ],
+  "Truncate Text": [
+  ]
+}

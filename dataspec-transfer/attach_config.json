@@ -1,0 +1,10 @@
+{
+  "Image Path Prefix": "",
+  "Show PDF?": "No",
+  "Local or Remote File": "",
+  "File Path Prefix": "",
+  "File Path Attr": "",
+  "Show Webpage?": "Yes",
+    "Web URL": "source_links",
+    "Tab Order": ["text", "articles"]
+}

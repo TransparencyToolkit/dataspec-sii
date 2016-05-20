@@ -1,0 +1,125 @@
+[
+  {
+    "Field Name": "bibtex_type",
+    "Human Readable Name": "Type",
+    "Type": "String",
+    "Form Params": "bibtex_type",
+    "Location": "0",
+    "Display Type": "Category",
+    "Icon": "analysis"
+  },{
+      "Field Name": "title",
+      "Human Readable Name": "Title",
+      "Type": "String",
+      "Display Type": "Title",
+      "Mapping": "english",
+      "Form Params": "title",
+      "Location": "4",
+      "Icon": "building"
+  },{
+    "Field Name": "company_name",
+    "Human Readable Name": "Company",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "company_name",
+    "Location": "4",
+    "Icon": "building"
+  },
+   {
+	"Field Name": "supplier_company_hq",
+	"Human Readable Name": "supplier_company_hq",
+	"Type": "String",
+	"Display Type": "Short Text",
+	"Mapping": "english",
+	"Form Params": "supplier_company_hq",
+	"Location": "2",
+	"Icon": "geopoint"
+   },
+    {
+	"Field Name": "recipient_country",
+	"Human Readable Name": "Recipient Country",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "english",
+	"Form Params": "recipient_country",
+	"Location": "5",
+	"Icon": "countries"
+    },
+    {
+    "Field Name": "enduser",
+    "Human Readable Name": "End User",
+    "Type": "String",
+    "Display Type": "Short Text",
+    "Mapping": "english",
+    "Form Params": "enduser",
+    "Location": "5",
+    "Icon": "countries"
+  },{
+    "Field Name": "goods",
+    "Human Readable Name": "Goods Sold",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "goods",
+    "Location": "6",
+    "Icon": "geopoint"
+  },{
+    "Field Name": "export_data_or_open_source",
+    "Human Readable Name": "Export or already open?",
+    "Type": "String",
+    "Display Type": "Category",
+    "Mapping": "english",
+    "Form Params": "export_data_or_open_source",
+    "Location": "7",
+    "Icon": "industry"
+  },{
+	"Field Name": "transfer_to_enduser_reported_as_complete",
+	"Human Readable Name": "Sale reported complete?",
+	"Type": "String",
+	"Display Type": "Category",
+	"Mapping": "english",
+	"Form Params": "transfer_to_enduser_reported_as_complete",
+	"Location": "7",
+	"Icon": "industry"
+    },
+    {
+      "Field Name": "order_year",
+      "Human Readable Name": "Order Year",
+      "Type": "String",
+      "Display Type": "Short Text",
+      "Mapping": "english",
+      "Form Params": "order_year",
+      "Location": "20",
+      "Icon": "money"
+  },
+    {
+    "Field Name": "source_links",
+    "Human Readable Name": "Source Links",
+    "Type": "String",
+    "Display Type": "Link",
+    "Mapping": "not-analyzed",
+    "Form Params": "source_links",
+    "Location": "8",
+    "Truncate": "200",
+    "Icon": ""
+    },{
+    "Field Name": "sources",
+    "Human Readable Name": "Sources",
+    "Type": "String",
+    "Display Type": "Long Text",
+    "Mapping": "english",
+    "Form Params": "sources",
+    "Location": "9",
+    "Icon": "work"
+  },{
+    "Field Name": "unique_id",
+    "Human Readable Name": "ID",
+    "Type": "String",
+    "Display Type": "Short Text",
+    "Mapping": "not-analyzed",
+    "Form Params": "unique_id",
+    "Location": "15",
+    "Icon": ""
+  }
+]

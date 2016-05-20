@@ -210,6 +210,7 @@ class ProcessBibtex
     if processed_hash["bibtex_type"].downcase == "company"
       processed_hash = gen_company_description(processed_hash)
       processed_hash = add_list_of_docs_for_company(processed_hash)
+      processed_hash = add_list_of_sales_for_company(processed_hash)
     end
     
     return processed_hash unless dont_return?(processed_hash)
@@ -229,6 +230,22 @@ class ProcessBibtex
     phash["company_documents"] = match_list
     return phash
   end
+
+  # Get a list of sales for
+  def add_list_of_sales_for_company(phash)
+    docs = JSON.parse(File.read("../transfer_data/transfers.json"))
+    matches = docs.select{|i| i["company_name"].to_s.downcase.include?(phash["company_name"].downcase)}
+
+    # Make a list of matches
+    match_list = Array.new
+    matches.each do |m|
+      match_list.push([m["title"], m["unique_id"]+"sii_transfers"])
+    end
+
+    phash["company_sales"] = match_list
+    return phash
+  end
+  
 
   # Remove underscores
   def fix_company_name(processed_hash)

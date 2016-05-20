@@ -38,6 +38,16 @@
 	"Icon": "countries"
     },
     {
+	"Field Name": "company_sales",
+	"Human Readable Name": "Company's Sales",
+	"Type": "String",
+	"Display Type": "Association",
+	"Mapping": "english",
+	"Form Params": "company_sales",
+	"Location": "5",
+	"Icon": "countries"
+    },
+    {
     "Field Name": "email",
     "Human Readable Name": "Contact",
     "Type": "String",

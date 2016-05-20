@@ -12,8 +12,11 @@ class ProcessTransfers
   def process
     @data.each do |item|
       item[:goods] = item[:goods__laser_acoustic_detection_equipment__intrusion_software__network_infrastructure_and_services__off_the_air_interception__monitoring_centres__lawful_interception_mediation__deep_packet_inspection__forensics__biometrics__fibre_taps__probes__location_tracking__internet_filters]
+      item[:goods] = item[:goods].split(", ") if item[:goods]
       item[:source_links] = extract_links(item[:sources])
+      item[:company_name] = item[:supplier_company]
       item[:title] = gen_title(item)
+      item[:bibtex_type] = "Sale"
       item[:unique_id] = gen_id(item)
       @out_data.push(item)
     end
@@ -32,9 +35,9 @@ class ProcessTransfers
     if item[:supplier_company] && item[:recipient_country]
       return item[:supplier_company] + " Sales to " + item[:recipient_country]
     elsif !item[:supplier_company] && item[:recipient_country] && item[:goods]
-      return item[:recipient_country] + " Purchase of " + item[:goods] + " Techology"
+      return item[:recipient_country] + " Purchase of " + item[:goods].join(", ") + " Techology"
     elsif item[:supplier_company] && !item[:recipient_country] && item[:goods]
-      return item[:supplier_company] + " Sales of " + item[:goods] + " Technology"
+      return item[:supplier_company] + " Sales of " + item[:goods].join(", ") + " Technology"
     elsif item[:recipient_country] && item[:order_year]
       return item[:recipient_country] + " Purchase in " + item[:order_year].to_s
     end
