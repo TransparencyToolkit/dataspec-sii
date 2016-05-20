@@ -54,7 +54,7 @@
     "Mapping": "english",
     "Form Params": "enduser",
     "Location": "5",
-    "Icon": "shared_with"
+    "Icon": "shared-with"
   },{
     "Field Name": "goods",
     "Human Readable Name": "Goods Sold",
@@ -63,7 +63,7 @@
     "Mapping": "english",
     "Form Params": "goods",
     "Location": "6",
-    "Icon": "document_topic"
+    "Icon": "document-topic"
   },{
     "Field Name": "export_data_or_open_source",
     "Human Readable Name": "Export or already open?",
@@ -81,7 +81,7 @@
 	"Mapping": "english",
 	"Form Params": "transfer_to_enduser_reported_as_complete",
 	"Location": "7",
-	"Icon": "phone_extension"
+	"Icon": "phone-extension"
     },
     {
       "Field Name": "order_year",
