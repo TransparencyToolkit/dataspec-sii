@@ -7,7 +7,7 @@ class ProcessBibtex
     @file = file
     @string_fields = ["company-name", "email", "website", "ceo", "telephone", "twitter-handle", "founder", "csr", "incorporation-date", "name", "year-collected"]
     @name_remap = {"catergory" => "category", "screenshot_of_product" => "image_of_product", "company" => "company_name", "iss_world" => "trade_show", "trade_show_collected" => "trade_show"}
-    @ignore_fields = ["image_of_product"]
+    @ignore_fields = ["image_of_product", "annote", "year_collected"]
     @merge_fields = [["technology_sold", "technology_sold_web_version"], ["type_of_media", "document_title"]]
     @url_prefix = url_prefix
   end

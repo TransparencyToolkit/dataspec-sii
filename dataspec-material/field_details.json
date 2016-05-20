@@ -83,15 +83,6 @@
     "Location": "15",
     "Icon": "survey"
   },{
-    "Field Name": "year_collected",
-    "Human Readable Name": "Year Collected",
-    "Type": "String",
-    "Display Type": "Short Text",
-    "Mapping": "english",
-    "Form Params": "year_collected",
-    "Location": "16",
-    "Icon": "calendar"
-  },{
     "Field Name": "text",
     "Human Readable Name": "Text",
     "Type": "String",
