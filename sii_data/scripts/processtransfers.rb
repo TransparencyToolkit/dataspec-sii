@@ -14,7 +14,7 @@ class ProcessTransfers
       item[:goods] = item[:goods__laser_acoustic_detection_equipment__intrusion_software__network_infrastructure_and_services__off_the_air_interception__monitoring_centres__lawful_interception_mediation__deep_packet_inspection__forensics__biometrics__fibre_taps__probes__location_tracking__internet_filters]
       item[:goods] = item[:goods].split(", ") if item[:goods]
       item[:source_links] = extract_links(item[:sources])
-      item[:company_name] = item[:supplier_company]
+      item[:company_name] = fix_name(item[:supplier_company])
       item[:title] = gen_title(item)
       item[:bibtex_type] = "Sale"
       item[:unique_id] = gen_id(item)
@@ -22,6 +22,17 @@ class ProcessTransfers
     end
 
     JSON.pretty_generate(@out_data)
+  end
+
+  # Normalize some company names
+  def fix_name(name)
+    if name
+      if name.include?("Gamma")
+        return "Gamma Group"
+      else
+        return name
+      end
+    end
   end
 
   # Generate an item ID
