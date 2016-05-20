@@ -8,7 +8,7 @@ class ProcessBibtex
     @string_fields = ["company-name", "email", "website", "ceo", "telephone", "twitter-handle", "founder", "csr", "incorporation-date", "name", "year-collected"]
     @name_remap = {"catergory" => "category", "screenshot_of_product" => "image_of_product", "company" => "company_name", "iss_world" => "trade_show", "trade_show_collected" => "trade_show"}
     @ignore_fields = ["image_of_product", "annote", "year_collected"]
-    @merge_fields = [["technology_sold", "technology_sold_web_version"], ["type_of_media", "document_title"]]
+    @merge_fields = [["technology_sold", "technology_sold_web_version"]]
     @url_prefix = url_prefix
   end
  
@@ -138,7 +138,10 @@ class ProcessBibtex
         
       # Generate name for company report field
       elsif processed_hash["type_of_media"].include?("Company Report")
-        return gen_company_report_name(processed_hash)
+        return merge_fields(gen_company_report_name(processed_hash))
+      elsif processed_hash["document_title"] && !processed_hash["name"]
+        processed_hash["name"] = processed_hash["document_title"][0]
+        return merge_fields(processed_hash)
       end
     end
     # Otherwise, just merge the fields
