@@ -1,5 +1,6 @@
 {
     "Facet": [
+	"bibtex_type",
 	"company_name",
 	"recipient_country",
 	"goods",
@@ -9,6 +10,7 @@
     "Merge Categorical": [
     ],
     "Searchable": [
+	"bibtex_type",
 	"company_name",
 	"supplier_company_hq",
 	"recipient_country",
@@ -22,6 +24,7 @@
 	"title"
 	],
     "In Search Results": [
+	"bibtex_type",
 	"company_name",
 	"supplier_company_hq",
 	"recipient_country",
@@ -33,6 +36,7 @@
 	"title"
 	],
     "In Search Results by Default": [
+	"bibtex_type",
 	"company_name",
 	"supplier_company_hq",
 	"recipient_country",
@@ -44,6 +48,7 @@
 	"title"
   ],
     "On Doc Page": [
+	"bibtex_type",
 	"company_name",
 	"supplier_company_hq",
 	"recipient_country",
