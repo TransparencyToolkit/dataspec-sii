@@ -2,7 +2,7 @@
   {
     "Field Name": "bibtex_type",
     "Human Readable Name": "Type",
-    "Type": "Category",
+    "Type": "String",
     "Form Params": "bibtex_type",
     "Location": "0",
     "Display Type": "Category",
