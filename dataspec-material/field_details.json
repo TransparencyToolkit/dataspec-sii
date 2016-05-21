@@ -65,15 +65,6 @@
     "Truncate": "200",
     "Icon": "progress"
     },{
-    "Field Name": "network_tactical_analysis",
-    "Human Readable Name": "Product Focus",
-    "Type": "String",
-    "Display Type": "Category",
-    "Mapping": "english",
-    "Form Params": "network_tactical_analysis",
-    "Location": "9",
-    "Icon": "work"
-  },{
     "Field Name": "type_of_media",
     "Human Readable Name": "Type of Document",
     "Type": "String",
