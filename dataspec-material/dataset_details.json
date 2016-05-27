@@ -1,6 +1,6 @@
 {
   "Path Type": "Directory",
-  "Path": "/home/shidash/PI/sii/material_data",
+  "Path": "/home/shidash/PI/dataspec-sii/sii_data/material_data",
   "Index Name": "sii_documents",
   "Dataset Name": "Document",
   "Ignore Dir Import Ext": "_terms.json",

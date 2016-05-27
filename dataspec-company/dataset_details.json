@@ -1,6 +1,6 @@
 {
   "Path Type": "Directory",
-  "Path": "/home/shidash/PI/sii/company_data",
+  "Path": "/home/shidash/PI/dataspec-sii/sii_data/company_data",
   "Index Name": "sii_companies",
   "Dataset Name": "Company",
   "Ignore Dir Import Ext": "_terms.json",

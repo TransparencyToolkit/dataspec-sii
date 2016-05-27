@@ -1,6 +1,6 @@
 {
   "Path Type": "Directory",
-  "Path": "/home/shidash/PI/sii/transfer_data",
+  "Path": "/home/shidash/PI/dataspec-sii/sii_data/transfer_data",
   "Index Name": "sii_transfers",
   "Dataset Name": "Sale",
   "Ignore Dir Import Ext": "_terms.json",
