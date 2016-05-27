@@ -135,8 +135,8 @@
       "Field Name": "news",
       "Human Readable Name": "News",
       "Type": "String",
-      "Display Type": "Description",
-      "Mapping": "english",
+      "Display Type": "Link",
+      "Mapping": "not_analyzed",
       "Form Params": "news",
       "Location": "17",
       "Icon": ""

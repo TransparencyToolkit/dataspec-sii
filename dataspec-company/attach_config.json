@@ -4,7 +4,7 @@
   "Local or Remote File": "",
   "File Path Prefix": "",
   "File Path Attr": "",
-  "Show Webpage?": "No",
-    "Web URL": "website",
-    "Tab Order": ["text"]
+  "Show Webpage?": "Yes",
+    "Web URL": "news",
+    "Tab Order": ["text", "articles"]
 }
