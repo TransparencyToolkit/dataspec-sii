@@ -23,8 +23,24 @@ class ProcessBibtex
 
   # Chagne spy files 1 to 2 and 2 to 3
   def switch_volume_num(val)
-    return "2" if val.to_s == "1"
-    return "3" if val.to_s == "2"
+    return ["2"] if val[0].to_s == "1"
+    return ["3"] if val[0].to_s == "2"
+  end
+
+  # Remove year and location info
+  def clean_show_name(val)
+    valarr = Array.new
+
+    val.each do |v|
+      if v.include?("ISS")
+        valarr.push("ISS World")
+      elsif v.include?("Milipol")
+        valarr.push("Milipol")
+      else valarr.push(v)
+      end
+    end
+
+    return valarr.uniq
   end
 
   # Keep only allowed values
@@ -32,6 +48,8 @@ class ProcessBibtex
     if process_bibtex_key(field) == "spy_files_release_volume"
       clean_val = val.reject{|v| (v != "1" && v != "2" && v != "3")}
       val = switch_volume_num(clean_val)
+    elsif process_bibtex_key(field) == "trade_show"
+      val = clean_show_name(val)
     elsif process_bibtex_key(field) == "bibtex_type"
       if val == "company"
         return "Company"
@@ -211,9 +229,16 @@ class ProcessBibtex
       processed_hash = gen_company_description(processed_hash)
       processed_hash = add_list_of_docs_for_company(processed_hash)
       processed_hash = add_list_of_sales_for_company(processed_hash)
+      processed_hash = extract_links(processed_hash)
     end
-    
+
     return processed_hash unless dont_return?(processed_hash)
+  end
+
+  # Extract links for the company
+  def extract_links(phash)
+    phash["news"] = URI.extract(phash["news"]) if phash["news"]
+    return phash
   end
 
   # Get a list of documents for 
