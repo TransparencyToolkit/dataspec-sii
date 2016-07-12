@@ -66,7 +66,7 @@
     "Icon": "document-topic"
   },{
     "Field Name": "export_data_or_open_source",
-    "Human Readable Name": "Data Source",
+    "Human Readable Name": "Type of Data Source",
     "Type": "String",
     "Display Type": "Category",
     "Mapping": "english",
