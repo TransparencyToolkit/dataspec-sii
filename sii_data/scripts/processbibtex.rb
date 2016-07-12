@@ -239,8 +239,9 @@ class ProcessBibtex
   def extract_links(phash)
     phash["news"] = URI.extract(phash["news"]) if phash["news"]
 
-    # Remove commas trailing at end
+    # Remove commas trailing at end and non-links
     phash["news"] = phash["news"].map{|i| i.gsub(/\,$/, '')} if phash["news"]
+    phash["news"] = phash["news"].delete_if{|i| !i.include?("http") && !i.include?("www")} if phash["news"]
     return phash
   end
 
