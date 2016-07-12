@@ -238,6 +238,9 @@ class ProcessBibtex
   # Extract links for the company
   def extract_links(phash)
     phash["news"] = URI.extract(phash["news"]) if phash["news"]
+
+    # Remove commas trailing at end
+    phash["news"] = phash["news"].map{|i| i.gsub(/\,$/, '')} if phash["news"]
     return phash
   end
 
