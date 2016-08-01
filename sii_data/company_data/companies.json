@@ -10339,15 +10339,15 @@
   {
     "bibtex_key": "GR-Sistemi",
     "bibtex_type": "Company",
-    "address": "61 Via Calamandrei<br />Arcore<br />MB 20862<br />Italy<br />",
+    "address": "Via Carlo Freguglia 1<br />Milano<br />20122<br />Italy",
     "address_line_1": [
-      "61 Via Calamandrei"
+      "61 Via Carlo Freguglia"
     ],
     "address_line_2": [
-      "Arcore"
+      "Milano"
     ],
     "address_line_3": [
-      "MB 20862"
+      "20122"
     ],
     "address_line_4": [
       "Italy"
@@ -10367,7 +10367,7 @@
       "1"
     ],
     "hq_city": [
-      "Arcore"
+      "Milan"
     ],
     "hq_country": [
       "Italy"
@@ -21409,6 +21409,10 @@
       [
         "Area SpA Sales to Syria",
         "Area_SpA_Syria_2009sii_transfers"
+      ],
+      [
+        "Area SpA Sales to Egypt",
+        "Area_SpA_Egypt_2016sii_transfers"
       ]
     ]
   },
@@ -44763,6 +44767,10 @@
       [
         "ZTE Sales to Iran",
         "ZTE_Iran_2010sii_transfers"
+      ],
+      [
+        "ZTE Corporation Sales to Mozambique",
+        "ZTE_Corporation_Mozambique_2012sii_transfers"
       ]
     ]
   }
