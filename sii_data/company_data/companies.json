@@ -10339,15 +10339,15 @@
   {
     "bibtex_key": "GR-Sistemi",
     "bibtex_type": "Company",
-    "address": "Via Carlo Freguglia 1<br />Milano<br />20122<br />Italy",
+    "address": "61 Via Calamandrei<br />Arcore<br />MB 20862<br />Italy<br />",
     "address_line_1": [
-      "61 Via Carlo Freguglia"
+      "61 Via Calamandrei"
     ],
     "address_line_2": [
-      "Milano"
+      "Arcore"
     ],
     "address_line_3": [
-      "20122"
+      "MB 20862"
     ],
     "address_line_4": [
       "Italy"
@@ -10367,7 +10367,7 @@
       "1"
     ],
     "hq_city": [
-      "Milan"
+      "Arcore"
     ],
     "hq_country": [
       "Italy"
@@ -10629,6 +10629,10 @@
       [
         "NSO Group Sales to Mexico",
         "NSO_Group_Mexico_2013sii_transfers"
+      ],
+      [
+        "NSO Group Sales to United Arab Emirates",
+        "NSO_Group_United Arab Emirates_sii_transfers"
       ]
     ]
   },
@@ -21963,7 +21967,22 @@
 
     ],
     "company_sales": [
-
+      [
+        "BAE Systems Sales to United Arab Emirates",
+        "BAE_Systems_United Arab Emirates_sii_transfers"
+      ],
+      [
+        "BAE Systems Sales to United Arab Emirates",
+        "BAE_Systems_United Arab Emirates_sii_transfers"
+      ],
+      [
+        "BAE Systems Sales to United Arab Emirates",
+        "BAE_Systems_United Arab Emirates_sii_transfers"
+      ],
+      [
+        "BAE Systems Sales to United Arab Emirates",
+        "BAE_Systems_United Arab Emirates_sii_transfers"
+      ]
     ]
   },
   {
@@ -22627,8 +22646,8 @@
         "Blue_Coat_Singapore_sii_transfers"
       ],
       [
-        "Blue Coat Sales to Sri lanka",
-        "Blue_Coat_Sri lanka_sii_transfers"
+        "Blue Coat Sales to Sri Lanka",
+        "Blue_Coat_Sri Lanka_sii_transfers"
       ],
       [
         "Blue Coat Sales to Syria",
@@ -22643,8 +22662,8 @@
         "Blue_Coat_Thailand_sii_transfers"
       ],
       [
-        "Blue Coat Sales to United arab emirates",
-        "Blue_Coat_United arab emirates_sii_transfers"
+        "Blue Coat Sales to United Arab Emirates",
+        "Blue_Coat_United Arab Emirates_sii_transfers"
       ],
       [
         "Blue Coat Sales to United States of America",
@@ -27597,7 +27616,50 @@
       ]
     ],
     "company_sales": [
-
+      [
+        "Endace Sales to United kingdom",
+        "Endace_United kingdom_sii_transfers"
+      ],
+      [
+        "Endace Sales to Canada",
+        "Endace_Canada_sii_transfers"
+      ],
+      [
+        "Endace Sales to Australia",
+        "Endace_Australia_sii_transfers"
+      ],
+      [
+        "Endace Sales to United States of America",
+        "Endace_United States of America_sii_transfers"
+      ],
+      [
+        "Endace Sales to Morocco",
+        "Endace_Morocco_sii_transfers"
+      ],
+      [
+        "Endace Sales to United States of America",
+        "Endace_United States of America_sii_transfers"
+      ],
+      [
+        "Endace Sales to United States of America",
+        "Endace_United States of America_sii_transfers"
+      ],
+      [
+        "Endace Sales to Israel",
+        "Endace_Israel_sii_transfers"
+      ],
+      [
+        "Endace Sales to India",
+        "Endace_India_sii_transfers"
+      ],
+      [
+        "Endace Sales to Spain",
+        "Endace_Spain_sii_transfers"
+      ],
+      [
+        "Endace Sales to Denmark",
+        "Endace_Denmark_sii_transfers"
+      ]
     ]
   },
   {
@@ -30548,8 +30610,8 @@
         "Hacking_Team_Turkey_2011sii_transfers"
       ],
       [
-        "Hacking Team Sales to United arab emirates",
-        "Hacking_Team_United arab emirates_2011sii_transfers"
+        "Hacking Team Sales to United Arab Emirates",
+        "Hacking_Team_United Arab Emirates_2011sii_transfers"
       ],
       [
         "Hacking Team Sales to Uzbekistan",
@@ -30608,8 +30670,8 @@
         "Hacking_Team_South Korea_2012sii_transfers"
       ],
       [
-        "Hacking Team Sales to United arab emirates",
-        "Hacking_Team_United arab emirates_2012sii_transfers"
+        "Hacking Team Sales to United Arab Emirates",
+        "Hacking_Team_United Arab Emirates_2012sii_transfers"
       ],
       [
         "Hacking Team Sales to United States of America",
@@ -43958,6 +44020,10 @@
       [
         "Verint Sales to Mexico",
         "Verint_Mexico_sii_transfers"
+      ],
+      [
+        "Verint Sales to South Africa",
+        "Verint_South Africa_2014sii_transfers"
       ]
     ]
   },
@@ -44048,7 +44114,10 @@
 
     ],
     "company_sales": [
-
+      [
+        "Procera Sales to Turkey",
+        "Procera_Turkey_sii_transfers"
+      ]
     ]
   },
   {
