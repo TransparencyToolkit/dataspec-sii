@@ -38,7 +38,14 @@ class ProcessTransfers
   # Generate an item ID
   def gen_id(item)
     id_str = item[:supplier_company].to_s.gsub(" ", "_")+"_"+item[:recipient_country].to_s+"_"+item[:order_year].to_s
-    return id_str.gsub("/", "").gsub("(", "").gsub(")", "").gsub(",", "").gsub(".", "")
+    generated_id = id_str.gsub("/", "").gsub("(", "").gsub(")", "").gsub(",", "").gsub(".", "")
+
+    # Handle duplicate IDs
+    if @out_data.map{|d| d[:unique_id]}.include?(generated_id)
+      num_so_far = @out_data.select{|d| d[:unique_id].include?(generated_id)}.count
+      generated_id += "_"+(num_so_far+1).to_s
+    end
+    return generated_id
   end
 
   # Generate the item title, with different options for different fields present

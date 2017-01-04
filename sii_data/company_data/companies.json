@@ -10623,16 +10623,16 @@
     ],
     "company_sales": [
       [
+        "NSO Group Sales to United Arab Emirates",
+        "NSO_Group_United Arab Emirates_sii_transfers"
+      ],
+      [
         "NSO Group Sales to Panama",
         "NSO_Group_Panama_sii_transfers"
       ],
       [
         "NSO Group Sales to Mexico",
         "NSO_Group_Mexico_2013sii_transfers"
-      ],
-      [
-        "NSO Group Sales to United Arab Emirates",
-        "NSO_Group_United Arab Emirates_sii_transfers"
       ]
     ]
   },
@@ -11796,6 +11796,10 @@
     ],
     "company_sales": [
       [
+        "Nokia Siemens Networks Sales to Ethiopia",
+        "Nokia_Siemens_Networks_Ethiopia_sii_transfers"
+      ],
+      [
         "Nokia Siemens Networks Sales to Bahrain",
         "Nokia_Siemens_Networks_Bahrain_2007sii_transfers"
       ],
@@ -11810,10 +11814,6 @@
       [
         "Nokia Siemens Networks, Trovicor Sales to Pakistan",
         "Nokia_Siemens_Networks_Trovicor_Pakistan_2008sii_transfers"
-      ],
-      [
-        "Nokia Siemens Networks Sales to Ethiopia",
-        "Nokia_Siemens_Networks_Ethiopia_sii_transfers"
       ]
     ]
   },
@@ -14881,32 +14881,32 @@
     ],
     "company_sales": [
       [
+        "EXFO Sales to Morocco",
+        "EXFO_Morocco_2014sii_transfers"
+      ],
+      [
+        "EXFO Sales to Morocco",
+        "EXFO_Morocco_2014_2sii_transfers"
+      ],
+      [
         "EXFO Sales to Tunisia",
         "EXFO_Tunisia_2014sii_transfers"
       ],
       [
         "EXFO Sales to Tunisia",
-        "EXFO_Tunisia_2014sii_transfers"
+        "EXFO_Tunisia_2014_2sii_transfers"
       ],
       [
         "EXFO Sales to Kuwait",
         "EXFO_Kuwait_2014sii_transfers"
       ],
       [
-        "EXFO Sales to Morocco",
-        "EXFO_Morocco_2014sii_transfers"
-      ],
-      [
-        "EXFO Sales to Morocco",
-        "EXFO_Morocco_2014sii_transfers"
-      ],
-      [
         "EXFO Sales to Mexico",
         "EXFO_Mexico_2014sii_transfers"
       ],
       [
         "EXFO Sales to Mexico",
-        "EXFO_Mexico_2014sii_transfers"
+        "EXFO_Mexico_2014_2sii_transfers"
       ],
       [
         "EXFO Sales to Malaysia",
@@ -14918,7 +14918,7 @@
       ],
       [
         "EXFO Sales to Malaysia",
-        "EXFO_Malaysia_2014sii_transfers"
+        "EXFO_Malaysia_2014_2sii_transfers"
       ],
       [
         "EXFO Sales to Colombia",
@@ -14930,19 +14930,19 @@
       ],
       [
         "EXFO Sales to Indonesia",
-        "EXFO_Indonesia_2014sii_transfers"
+        "EXFO_Indonesia_2014_2sii_transfers"
       ],
       [
         "EXFO Sales to Kuwait",
-        "EXFO_Kuwait_2014sii_transfers"
+        "EXFO_Kuwait_2014_2sii_transfers"
       ],
       [
         "EXFO Sales to Indonesia",
-        "EXFO_Indonesia_2014sii_transfers"
+        "EXFO_Indonesia_2014_3sii_transfers"
       ],
       [
         "EXFO Sales to Mexico",
-        "EXFO_Mexico_2014sii_transfers"
+        "EXFO_Mexico_2014_3sii_transfers"
       ],
       [
         "EXFO Sales to Singapore",
@@ -14954,19 +14954,19 @@
       ],
       [
         "EXFO Sales to Mexico",
-        "EXFO_Mexico_2014sii_transfers"
+        "EXFO_Mexico_2014_4sii_transfers"
       ],
       [
         "EXFO Sales to Indonesia",
-        "EXFO_Indonesia_2014sii_transfers"
+        "EXFO_Indonesia_2014_4sii_transfers"
       ],
       [
         "EXFO Sales to Indonesia",
-        "EXFO_Indonesia_2014sii_transfers"
+        "EXFO_Indonesia_2014_5sii_transfers"
       ],
       [
         "EXFO Sales to Indonesia",
-        "EXFO_Indonesia_2014sii_transfers"
+        "EXFO_Indonesia_2014_6sii_transfers"
       ],
       [
         "EXFO Sales to Bosnia and Herzegovina",
@@ -14978,7 +14978,7 @@
       ],
       [
         "EXFO Sales to Mexico",
-        "EXFO_Mexico_2014sii_transfers"
+        "EXFO_Mexico_2014_5sii_transfers"
       ]
     ]
   },
@@ -21411,12 +21411,12 @@
     ],
     "company_sales": [
       [
-        "Area SpA Sales to Syria",
-        "Area_SpA_Syria_2009sii_transfers"
-      ],
-      [
         "Area SpA Sales to Egypt",
         "Area_SpA_Egypt_2016sii_transfers"
+      ],
+      [
+        "Area SpA Sales to Syria",
+        "Area_SpA_Syria_2009sii_transfers"
       ]
     ]
   },
@@ -21972,16 +21972,16 @@
         "BAE_Systems_United Arab Emirates_sii_transfers"
       ],
       [
-        "BAE Systems Sales to United Arab Emirates",
-        "BAE_Systems_United Arab Emirates_sii_transfers"
+        "BAE Systems Sales to China",
+        "BAE_Systems_China_sii_transfers"
       ],
       [
-        "BAE Systems Sales to United Arab Emirates",
-        "BAE_Systems_United Arab Emirates_sii_transfers"
+        "BAE Systems Sales to South Africa",
+        "BAE_Systems_South Africa_sii_transfers"
       ],
       [
-        "BAE Systems Sales to United Arab Emirates",
-        "BAE_Systems_United Arab Emirates_sii_transfers"
+        "BAE Systems Sales to Singapore",
+        "BAE_Systems_Singapore_sii_transfers"
       ]
     ]
   },
@@ -22586,6 +22586,10 @@
     ],
     "company_sales": [
       [
+        "Blue Coat Sales to Syria",
+        "Blue_Coat_Syria_sii_transfers"
+      ],
+      [
         "Blue Coat Sales to Afghanistan",
         "Blue_Coat_Afghanistan_sii_transfers"
       ],
@@ -22648,10 +22652,6 @@
       [
         "Blue Coat Sales to Sri Lanka",
         "Blue_Coat_Sri Lanka_sii_transfers"
-      ],
-      [
-        "Blue Coat Sales to Syria",
-        "Blue_Coat_Syria_sii_transfers"
       ],
       [
         "Blue Coat Sales to Taiwan",
@@ -27617,6 +27617,10 @@
     ],
     "company_sales": [
       [
+        "Endace Sales to Morocco",
+        "Endace_Morocco_sii_transfers"
+      ],
+      [
         "Endace Sales to United kingdom",
         "Endace_United kingdom_sii_transfers"
       ],
@@ -27633,16 +27637,12 @@
         "Endace_United States of America_sii_transfers"
       ],
       [
-        "Endace Sales to Morocco",
-        "Endace_Morocco_sii_transfers"
+        "Endace Sales to United States of America",
+        "Endace_United States of America__2sii_transfers"
       ],
       [
         "Endace Sales to United States of America",
-        "Endace_United States of America_sii_transfers"
-      ],
-      [
-        "Endace Sales to United States of America",
-        "Endace_United States of America_sii_transfers"
+        "Endace_United States of America__3sii_transfers"
       ],
       [
         "Endace Sales to Israel",
@@ -29220,140 +29220,12 @@
     ],
     "company_sales": [
       [
-        "Gamma International, FinFisher Sales to Angola",
-        "Gamma_International_FinFisher_Angola_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Bangladesh",
-        "Gamma_International_FinFisher_Bangladesh_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Belgium",
-        "Gamma_International_FinFisher_Belgium_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Bosnia and Herzegovina",
-        "Gamma_International_FinFisher_Bosnia and Herzegovina_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Czech Republic",
-        "Gamma_International_FinFisher_Czech Republic_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Egypt",
-        "Gamma_International_FinFisher_Egypt_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Ethiopia",
-        "Gamma_International_FinFisher_Ethiopia_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Gabon",
-        "Gamma_International_FinFisher_Gabon_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Indonesia",
-        "Gamma_International_FinFisher_Indonesia_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Italy",
-        "Gamma_International_FinFisher_Italy_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Jordan",
-        "Gamma_International_FinFisher_Jordan_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Kazakhstan",
-        "Gamma_International_FinFisher_Kazakhstan_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Kenya",
-        "Gamma_International_FinFisher_Kenya_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Lebanon",
-        "Gamma_International_FinFisher_Lebanon_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Macedonia",
-        "Gamma_International_FinFisher_Macedonia_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Malaysia",
-        "Gamma_International_FinFisher_Malaysia_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Mexico",
-        "Gamma_International_FinFisher_Mexico_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Mongolia",
-        "Gamma_International_FinFisher_Mongolia_sii_transfers"
+        "Gamma International, FinFisher Sales to Bahrain",
+        "Gamma_International_FinFisher_Bahrain_2010sii_transfers"
       ],
       [
         "Gamma International, FinFisher Sales to Morocco",
         "Gamma_International_FinFisher_Morocco_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Nigeria",
-        "Gamma_International_FinFisher_Nigeria_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Oman",
-        "Gamma_International_FinFisher_Oman_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Paraguay",
-        "Gamma_International_FinFisher_Paraguay_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Romania",
-        "Gamma_International_FinFisher_Romania_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Saudi Arabia",
-        "Gamma_International_FinFisher_Saudi Arabia_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Serbia",
-        "Gamma_International_FinFisher_Serbia_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Slovenia",
-        "Gamma_International_FinFisher_Slovenia_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Spain",
-        "Gamma_International_FinFisher_Spain_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Taiwan",
-        "Gamma_International_FinFisher_Taiwan_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Turkey",
-        "Gamma_International_FinFisher_Turkey_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Turkmenistan",
-        "Gamma_International_FinFisher_Turkmenistan_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Venezuela",
-        "Gamma_International_FinFisher_Venezuela_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to South Africa",
-        "Gamma_International_FinFisher_South Africa_sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Uganda",
-        "Gamma_International_FinFisher_Uganda_2012sii_transfers"
-      ],
-      [
-        "Gamma International, FinFisher Sales to Bahrain",
-        "Gamma_International_FinFisher_Bahrain_2010sii_transfers"
       ],
       [
         "Gamma International Sales to Oman",
@@ -29442,6 +29314,134 @@
       [
         "Gamma International, FinFisher Sales to Vietnam",
         "Gamma_International_FinFisher_Vietnam_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Angola",
+        "Gamma_International_FinFisher_Angola_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Bangladesh",
+        "Gamma_International_FinFisher_Bangladesh_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Belgium",
+        "Gamma_International_FinFisher_Belgium_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Bosnia and Herzegovina",
+        "Gamma_International_FinFisher_Bosnia and Herzegovina_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Czech Republic",
+        "Gamma_International_FinFisher_Czech Republic_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Egypt",
+        "Gamma_International_FinFisher_Egypt_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Ethiopia",
+        "Gamma_International_FinFisher_Ethiopia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Gabon",
+        "Gamma_International_FinFisher_Gabon_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Indonesia",
+        "Gamma_International_FinFisher_Indonesia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Italy",
+        "Gamma_International_FinFisher_Italy_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Jordan",
+        "Gamma_International_FinFisher_Jordan_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Kazakhstan",
+        "Gamma_International_FinFisher_Kazakhstan_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Kenya",
+        "Gamma_International_FinFisher_Kenya_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Lebanon",
+        "Gamma_International_FinFisher_Lebanon_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Macedonia",
+        "Gamma_International_FinFisher_Macedonia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Malaysia",
+        "Gamma_International_FinFisher_Malaysia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Mexico",
+        "Gamma_International_FinFisher_Mexico_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Mongolia",
+        "Gamma_International_FinFisher_Mongolia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Nigeria",
+        "Gamma_International_FinFisher_Nigeria_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Oman",
+        "Gamma_International_FinFisher_Oman_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Paraguay",
+        "Gamma_International_FinFisher_Paraguay_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Romania",
+        "Gamma_International_FinFisher_Romania_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Saudi Arabia",
+        "Gamma_International_FinFisher_Saudi Arabia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Serbia",
+        "Gamma_International_FinFisher_Serbia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Slovenia",
+        "Gamma_International_FinFisher_Slovenia_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Spain",
+        "Gamma_International_FinFisher_Spain_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Taiwan",
+        "Gamma_International_FinFisher_Taiwan_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Turkmenistan",
+        "Gamma_International_FinFisher_Turkmenistan_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Venezuela",
+        "Gamma_International_FinFisher_Venezuela_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to South Africa",
+        "Gamma_International_FinFisher_South Africa_sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Uganda",
+        "Gamma_International_FinFisher_Uganda_2012sii_transfers"
+      ],
+      [
+        "Gamma International, FinFisher Sales to Turkey",
+        "Gamma_International_FinFisher_Turkey_sii_transfers"
       ]
     ]
   },
@@ -30550,10 +30550,6 @@
         "Hacking_Team_Hungary_2008sii_transfers"
       ],
       [
-        "Hacking Team Sales to Morocco",
-        "Hacking_Team_Morocco_2009sii_transfers"
-      ],
-      [
         "Hacking Team Sales to Italy",
         "Hacking_Team_Italy_2009sii_transfers"
       ],
@@ -30563,7 +30559,7 @@
       ],
       [
         "Hacking Team Sales to Italy",
-        "Hacking_Team_Italy_2009sii_transfers"
+        "Hacking_Team_Italy_2009_2sii_transfers"
       ],
       [
         "Hacking Team Sales to Hungary",
@@ -30606,8 +30602,8 @@
         "Hacking_Team_Panama_2011sii_transfers"
       ],
       [
-        "Hacking Team Sales to Turkey",
-        "Hacking_Team_Turkey_2011sii_transfers"
+        "Hacking Team Sales to Morocco",
+        "Hacking_Team_Morocco_2009sii_transfers"
       ],
       [
         "Hacking Team Sales to United Arab Emirates",
@@ -30619,7 +30615,7 @@
       ],
       [
         "Hacking Team Sales to United States of America",
-        "Hacking_Team_United States of America_2011sii_transfers"
+        "Hacking_Team_United States of America_2011_2sii_transfers"
       ],
       [
         "Hacking Team Sales to Nigeria",
@@ -30644,10 +30640,6 @@
       [
         "Hacking Team Sales to Malaysia",
         "Hacking_Team_Malaysia_2012sii_transfers"
-      ],
-      [
-        "Hacking Team Sales to Morocco",
-        "Hacking_Team_Morocco_2012sii_transfers"
       ],
       [
         "Hacking Team Sales to Sudan",
@@ -30699,11 +30691,11 @@
       ],
       [
         "Hacking Team Sales to Mexico",
-        "Hacking_Team_Mexico_2013sii_transfers"
+        "Hacking_Team_Mexico_2013_2sii_transfers"
       ],
       [
         "Hacking Team Sales to Mexico",
-        "Hacking_Team_Mexico_2013sii_transfers"
+        "Hacking_Team_Mexico_2013_3sii_transfers"
       ],
       [
         "Hacking Team Sales to Mongolia",
@@ -30735,11 +30727,11 @@
       ],
       [
         "Hacking Team Sales to Mexico",
-        "Hacking_Team_Mexico_2013sii_transfers"
+        "Hacking_Team_Mexico_2013_4sii_transfers"
       ],
       [
         "Hacking Team Sales to Malaysia",
-        "Hacking_Team_Malaysia_2013sii_transfers"
+        "Hacking_Team_Malaysia_2013_2sii_transfers"
       ],
       [
         "Hacking Team Sales to Honduras",
@@ -30751,7 +30743,7 @@
       ],
       [
         "Hacking Team Sales to Mexico",
-        "Hacking_Team_Mexico_2014sii_transfers"
+        "Hacking_Team_Mexico_2014_2sii_transfers"
       ],
       [
         "Hacking Team Sales to Italia",
@@ -30759,11 +30751,11 @@
       ],
       [
         "Hacking Team Sales to Mexico",
-        "Hacking_Team_Mexico_2014sii_transfers"
+        "Hacking_Team_Mexico_2014_3sii_transfers"
       ],
       [
         "Hacking Team Sales to Mexico",
-        "Hacking_Team_Mexico_2014sii_transfers"
+        "Hacking_Team_Mexico_2014_4sii_transfers"
       ],
       [
         "Hacking Team Sales to Chile",
@@ -30771,7 +30763,7 @@
       ],
       [
         "Hacking Team Sales to Mexico",
-        "Hacking_Team_Mexico_2014sii_transfers"
+        "Hacking_Team_Mexico_2014_5sii_transfers"
       ],
       [
         "Hacking Team Sales to Thailand",
@@ -30804,6 +30796,14 @@
       [
         "Hacking Team, NICE Systems Sales to Nigeria",
         "Hacking_Team_NICE_Systems_Nigeria_2012sii_transfers"
+      ],
+      [
+        "Hacking Team Sales to Morocco",
+        "Hacking_Team_Morocco_2012sii_transfers"
+      ],
+      [
+        "Hacking Team Sales to Turkey",
+        "Hacking_Team_Turkey_2011sii_transfers"
       ]
     ]
   },
@@ -31404,12 +31404,12 @@
     ],
     "company_sales": [
       [
-        "Huawei Sales to Pakistan",
-        "Huawei_Pakistan_2006sii_transfers"
-      ],
-      [
         "Huawei Sales to Iran",
         "Huawei_Iran_2009sii_transfers"
+      ],
+      [
+        "Huawei Sales to Pakistan",
+        "Huawei_Pakistan_2006sii_transfers"
       ]
     ]
   },
@@ -33647,7 +33647,7 @@
       ],
       [
         "Narus Sales to India",
-        "Narus_India_sii_transfers"
+        "Narus_India__2sii_transfers"
       ],
       [
         "Narus Sales to Saudi Arabia",
@@ -35301,10 +35301,6 @@
     ],
     "company_sales": [
       [
-        "NICE Systems Sales to Colombia",
-        "NICE_Systems_Colombia_2013sii_transfers"
-      ],
-      [
         "NICE Systems Sales to Uganda",
         "NICE_Systems_Uganda_2015sii_transfers"
       ],
@@ -35319,6 +35315,10 @@
       [
         "Hacking Team, NICE Systems Sales to Nigeria",
         "Hacking_Team_NICE_Systems_Nigeria_2012sii_transfers"
+      ],
+      [
+        "NICE Systems Sales to Colombia",
+        "NICE_Systems_Colombia_2013sii_transfers"
       ]
     ]
   },
@@ -35523,6 +35523,10 @@
     ],
     "company_sales": [
       [
+        "Nokia Siemens Networks Sales to Ethiopia",
+        "Nokia_Siemens_Networks_Ethiopia_sii_transfers"
+      ],
+      [
         "Nokia Siemens Networks Sales to Bahrain",
         "Nokia_Siemens_Networks_Bahrain_2007sii_transfers"
       ],
@@ -35537,10 +35541,6 @@
       [
         "Nokia Siemens Networks, Trovicor Sales to Pakistan",
         "Nokia_Siemens_Networks_Trovicor_Pakistan_2008sii_transfers"
-      ],
-      [
-        "Nokia Siemens Networks Sales to Ethiopia",
-        "Nokia_Siemens_Networks_Ethiopia_sii_transfers"
       ]
     ]
   },
@@ -36344,7 +36344,7 @@
       ],
       [
         "Packet Forensics Sales to United States of America",
-        "Packet_Forensics_United States of America_2014sii_transfers"
+        "Packet_Forensics_United States of America_2014_2sii_transfers"
       ]
     ]
   },
@@ -39851,12 +39851,28 @@
     ],
     "company_sales": [
       [
+        "Nokia Siemens Networks Sales to Ethiopia",
+        "Nokia_Siemens_Networks_Ethiopia_sii_transfers"
+      ],
+      [
+        "Siemens Sales to Turkmenistan",
+        "Siemens_Turkmenistan_2001sii_transfers"
+      ],
+      [
+        "Siemens Sales to Syria",
+        "Siemens_Syria_2000sii_transfers"
+      ],
+      [
         "Nokia Siemens Networks Sales to Bahrain",
         "Nokia_Siemens_Networks_Bahrain_2007sii_transfers"
       ],
       [
         "Nokia Siemens Networks Sales to Iran",
         "Nokia_Siemens_Networks_Iran_2008sii_transfers"
+      ],
+      [
+        "Nokia Siemens Networks Sales to Syria",
+        "Nokia_Siemens_Networks_Syria_2007sii_transfers"
       ],
       [
         "Siemens Sales to Bahrain",
@@ -39867,24 +39883,8 @@
         "Siemens_Iran_2008sii_transfers"
       ],
       [
-        "Siemens Sales to Syria",
-        "Siemens_Syria_2000sii_transfers"
-      ],
-      [
-        "Nokia Siemens Networks Sales to Syria",
-        "Nokia_Siemens_Networks_Syria_2007sii_transfers"
-      ],
-      [
         "Nokia Siemens Networks, Trovicor Sales to Pakistan",
         "Nokia_Siemens_Networks_Trovicor_Pakistan_2008sii_transfers"
-      ],
-      [
-        "Nokia Siemens Networks Sales to Ethiopia",
-        "Nokia_Siemens_Networks_Ethiopia_sii_transfers"
-      ],
-      [
-        "Siemens Sales to Turkmenistan",
-        "Siemens_Turkmenistan_2001sii_transfers"
       ]
     ]
   },
@@ -42896,12 +42896,28 @@
     ],
     "company_sales": [
       [
-        "Trovicor Sales to Bahrain",
-        "Trovicor_Bahrain_2009sii_transfers"
+        "Trovicor Sales to Ethiopia",
+        "Trovicor_Ethiopia_2010sii_transfers"
+      ],
+      [
+        "Trovicor Sales to Bangladesh",
+        "Trovicor_Bangladesh_sii_transfers"
+      ],
+      [
+        "Trovicor Sales to Tajikistan",
+        "Trovicor_Tajikistan_2009sii_transfers"
+      ],
+      [
+        "Trovicor Sales to Oman",
+        "Trovicor_Oman_sii_transfers"
       ],
       [
         "Trovicor Sales to Syria",
         "Trovicor_Syria_2009sii_transfers"
+      ],
+      [
+        "Trovicor Sales to Bahrain",
+        "Trovicor_Bahrain_2009sii_transfers"
       ],
       [
         "Trovicor Sales to Tajikistan",
@@ -42922,22 +42938,6 @@
       [
         "Nokia Siemens Networks, Trovicor Sales to Pakistan",
         "Nokia_Siemens_Networks_Trovicor_Pakistan_2008sii_transfers"
-      ],
-      [
-        "Trovicor Sales to Ethiopia",
-        "Trovicor_Ethiopia_2010sii_transfers"
-      ],
-      [
-        "Trovicor Sales to Bangladesh",
-        "Trovicor_Bangladesh_sii_transfers"
-      ],
-      [
-        "Trovicor Sales to Tajikistan",
-        "Trovicor_Tajikistan_2009sii_transfers"
-      ],
-      [
-        "Trovicor Sales to Oman",
-        "Trovicor_Oman_sii_transfers"
       ]
     ]
   },
@@ -43589,6 +43589,18 @@
     ],
     "company_sales": [
       [
+        "Utimaco Sales to Iran",
+        "Utimaco_Iran_sii_transfers"
+      ],
+      [
+        "Utimaco Sales to Tajikistan",
+        "Utimaco_Tajikistan_2009sii_transfers"
+      ],
+      [
+        "Utimaco Sales to Syria",
+        "Utimaco_Syria_2009sii_transfers"
+      ],
+      [
         "Utimaco Sales to Tajikistan",
         "Utimaco_Tajikistan_2010sii_transfers"
       ],
@@ -43597,20 +43609,8 @@
         "Utimaco_Tunisia_sii_transfers"
       ],
       [
-        "Utimaco Sales to Syria",
-        "Utimaco_Syria_2009sii_transfers"
-      ],
-      [
         "Utimaco Sales to Pakistan",
         "Utimaco_Pakistan_2007sii_transfers"
-      ],
-      [
-        "Utimaco Sales to Iran",
-        "Utimaco_Iran_sii_transfers"
-      ],
-      [
-        "Utimaco Sales to Tajikistan",
-        "Utimaco_Tajikistan_2009sii_transfers"
       ]
     ]
   },
@@ -43974,26 +43974,6 @@
     ],
     "company_sales": [
       [
-        "Verint Sales to Colombia",
-        "Verint_Colombia_2005sii_transfers"
-      ],
-      [
-        "Verint Sales to Colombia",
-        "Verint_Colombia_2011sii_transfers"
-      ],
-      [
-        "Verint Sales to Colombia",
-        "Verint_Colombia_2014sii_transfers"
-      ],
-      [
-        "Verint Sales to United States of America",
-        "Verint_United States of America_2006sii_transfers"
-      ],
-      [
-        "Verint Sales to United States of America",
-        "Verint_United States of America_2008sii_transfers"
-      ],
-      [
         "Verint Sales to Nigeria",
         "Verint_Nigeria_sii_transfers"
       ],
@@ -44024,6 +44004,26 @@
       [
         "Verint Sales to South Africa",
         "Verint_South Africa_2014sii_transfers"
+      ],
+      [
+        "Verint Sales to Colombia",
+        "Verint_Colombia_2005sii_transfers"
+      ],
+      [
+        "Verint Sales to Colombia",
+        "Verint_Colombia_2011sii_transfers"
+      ],
+      [
+        "Verint Sales to Colombia",
+        "Verint_Colombia_2014sii_transfers"
+      ],
+      [
+        "Verint Sales to United States of America",
+        "Verint_United States of America_2006sii_transfers"
+      ],
+      [
+        "Verint Sales to United States of America",
+        "Verint_United States of America_2008sii_transfers"
       ]
     ]
   },
